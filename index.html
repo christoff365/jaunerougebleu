@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jaune Rouge-Bleu</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'DM Sans',sans-serif;background:#fff;color:#1a1614;min-height:100vh}
+button,input,textarea,select{font-family:'DM Sans',sans-serif;cursor:pointer}
+nav{background:#111;display:flex;align-items:center;justify-content:space-between;padding:0 24px;height:60px;position:sticky;top:0;z-index:100;gap:12px}
+.logo{display:flex;align-items:baseline;gap:2px;flex-shrink:0}
+.logo .j{font-family:'Cormorant Garamond',serif;font-size:1.7rem;font-weight:700;color:#E8C547;font-style:italic}
+.logo .sep{color:#555;font-size:1rem;margin:0 4px}
+.logo .r{font-family:'Cormorant Garamond',serif;font-size:1.7rem;font-weight:700;color:#E03030}
+.logo .b{font-family:'Cormorant Garamond',serif;font-size:1.7rem;font-weight:300;color:#5599EE;font-style:italic}
+.nav-links{display:flex;gap:2px}
+.nav-links button{background:none;border:none;color:#999;font-size:13px;padding:6px 11px;border-radius:4px;transition:.2s;text-transform:uppercase;letter-spacing:.06em}
+.nav-links button:hover{color:#fff}
+.nav-links button.on{color:#E8C547;background:rgba(232,197,71,.1)}
+.langs{display:flex;gap:4px}
+.langs button{background:none;border:1px solid #444;color:#888;font-size:12px;padding:3px 8px;border-radius:3px;transition:.2s}
+.langs button.on,.langs button:hover{border-color:#E8C547;color:#E8C547}
+.pg{display:none}.pg.on{display:block}
+.hero{background:linear-gradient(160deg,#111 0%,#1a1008 100%);color:#fff;padding:60px 24px 50px;text-align:center}
+.hero h1{font-family:'Cormorant Garamond',serif;font-size:46px;font-weight:300;line-height:1.1;margin-bottom:14px}
+.hero h1 em{font-style:italic;color:#C9A84C}
+.hero p{font-size:15px;color:#bbb;max-width:500px;margin:0 auto 28px;line-height:1.8}
+.hero-btns{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.btn-y{background:#C9A84C;color:#111;border:none;padding:11px 26px;font-size:14px;font-weight:500;border-radius:3px;transition:.2s}
+.btn-y:hover{background:#e0c070}
+.btn-w{background:none;color:#ccc;border:1px solid #555;padding:11px 26px;font-size:14px;border-radius:3px;transition:.2s}
+.btn-w:hover{border-color:#C9A84C;color:#C9A84C}
+.stats-row{background:#f5f0e8;display:flex;justify-content:center;flex-wrap:wrap;border-bottom:1px solid #e0d5c0}
+.stat{padding:20px 36px;text-align:center;border-right:1px solid #e0d5c0}
+.stat:last-child{border-right:none}
+.stat-n{font-family:'Cormorant Garamond',serif;font-size:28px;font-weight:600;color:#111}
+.stat-l{font-size:11px;text-transform:uppercase;letter-spacing:.1em;color:#888;margin-top:2px}
+.wrap{max-width:920px;margin:0 auto;padding:40px 24px}
+h2{font-family:'Cormorant Garamond',serif;font-size:30px;font-weight:400;margin-bottom:8px;color:#111}
+.sub{color:#777;font-size:14px;margin-bottom:28px;line-height:1.7}
+.ey{font-size:11px;text-transform:uppercase;letter-spacing:.15em;color:#999;margin-bottom:12px;font-weight:500}
+hr{border:none;border-top:1px solid #e0d5c0;margin:28px 0}
+.badge{display:inline-block;padding:2px 10px;border-radius:3px;font-size:11px;text-transform:uppercase;letter-spacing:.06em;font-weight:500}
+.bg{background:rgba(201,168,76,.15);color:#7a5c0a}
+.bt{background:rgba(29,158,117,.12);color:#0a5c40}
+.bb{background:rgba(60,120,200,.12);color:#1a4a9e}
+
+/* ART CARDS */
+.art-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin-bottom:28px}
+.art-card{border:2px solid #e0d5c0;border-radius:8px;overflow:hidden;cursor:pointer;background:#fff;transition:.25s;box-shadow:0 2px 8px rgba(0,0,0,.06)}
+.art-card:hover{border-color:#C9A84C;transform:translateY(-3px);box-shadow:0 6px 20px rgba(0,0,0,.12)}
+.art-card.on{border-color:#C9A84C;box-shadow:0 0 0 3px rgba(201,168,76,.2)}
+.art-card-img{width:100%;height:160px;display:block;object-fit:cover;background:#f0ead8}
+.art-card-svg{width:100%;height:160px;display:block}
+.art-card-info{padding:10px 12px;border-top:1px solid #f0e8d8}
+.art-card-info b{display:block;font-size:13px;font-weight:600;color:#111;margin-bottom:2px}
+.art-card-info span{font-size:12px;color:#888}
+
+/* BIG ARTWORK DISPLAY */
+.big-art{width:100%;max-height:340px;display:block;margin-bottom:0;background:#f5f0e8;border-radius:8px 8px 0 0}
+.big-art-svg{width:100%;height:320px;display:block;border-radius:8px 8px 0 0}
+.big-art-wrap{border:1px solid #e0d5c0;border-radius:8px;overflow:hidden;margin-bottom:24px}
+.big-art-cap{padding:10px 16px;font-size:13px;color:#777;background:#faf7f2;border-top:1px solid #e0d5c0}
+
+/* FEAT GRID */
+.feat-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px;margin-bottom:36px}
+.feat-card{background:#faf7f2;border:1px solid #e0d5c0;border-radius:6px;padding:20px;cursor:pointer;transition:.22s}
+.feat-card:hover{border-color:#C9A84C;transform:translateY(-2px)}
+.feat-icon{font-size:22px;margin-bottom:8px}
+.feat-t{font-size:14px;font-weight:600;margin-bottom:6px;color:#111}
+.feat-d{font-size:13px;color:#777;line-height:1.6}
+
+/* SPECIAL EXPO CARDS */
+.sp-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
+.sp-card{background:#111;border:1px solid #333;border-radius:6px;padding:22px;cursor:pointer;transition:.22s}
+.sp-card:hover{border-color:#C9A84C;transform:translateY(-2px)}
+.sp-ey{font-size:10px;text-transform:uppercase;letter-spacing:.14em;color:#E8C547;margin-bottom:6px}
+.sp-t{font-family:'Cormorant Garamond',serif;font-size:18px;color:#f0e8e0;margin-bottom:6px;line-height:1.3}
+.sp-s{font-size:12px;color:#888;line-height:1.5}
+
+/* BUILDER */
+.step-row{display:flex;align-items:center;gap:12px;margin-bottom:12px}
+.step-n{width:28px;height:28px;border-radius:50%;background:#C9A84C;color:#111;font-size:12px;font-weight:700;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.step-l{font-size:13px;font-weight:500;text-transform:uppercase;letter-spacing:.07em;color:#888}
+.tags{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:24px}
+.tag{padding:6px 14px;border:1px solid #e0d5c0;border-radius:20px;font-size:13px;background:#fff;color:#555;transition:.18s}
+.tag:hover{border-color:#C9A84C;color:#8B6914}
+.tag.on{background:#C9A84C;border-color:#C9A84C;color:#111;font-weight:500}
+.gen-btn{width:100%;padding:14px;background:#111;color:#C9A84C;border:none;font-size:14px;font-weight:500;border-radius:3px;text-transform:uppercase;letter-spacing:.06em;transition:.2s;margin-top:8px}
+.gen-btn:hover:not(:disabled){background:#2a2a2a}
+.gen-btn:disabled{opacity:.3;cursor:not-allowed}
+
+/* EXPO TIMELINE */
+.expo-top{display:flex;justify-content:space-between;align-items:flex-start;border-bottom:1px solid #e0d5c0;padding-bottom:20px;margin-bottom:28px;gap:12px}
+.back-btn{background:none;border:1px solid #ddd;color:#888;font-size:12px;padding:6px 14px;border-radius:3px;transition:.2s;white-space:nowrap;flex-shrink:0}
+.back-btn:hover{border-color:#C9A84C;color:#8B6914}
+.tl{display:flex;gap:20px;margin-bottom:28px}
+.tl-l{display:flex;flex-direction:column;align-items:center;flex-shrink:0;padding-top:5px}
+.tl-dot{width:10px;height:10px;border-radius:50%;background:#C9A84C}
+.tl-line{width:1px;background:#e0d5c0;flex:1;min-height:60px;margin-top:4px}
+.era{font-size:11px;text-transform:uppercase;letter-spacing:.12em;color:#C9A84C;margin-bottom:4px}
+.tl-title{font-family:'Cormorant Garamond',serif;font-size:20px;margin-bottom:8px;color:#111}
+.tl-text{font-size:13px;color:#555;line-height:1.8}
+.mini-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px;margin-top:14px}
+.mini{border:1px solid #e0d5c0;border-radius:6px;overflow:hidden;cursor:pointer;background:#fff;transition:.2s}
+.mini:hover{border-color:#C9A84C}
+.mini svg,.mini img{width:100%;height:120px;display:block;object-fit:cover}
+.mini-info{padding:8px 10px}
+.mini-info b{display:block;font-size:13px;font-weight:600;color:#111}
+.mini-info span{font-size:11px;color:#888}
+
+/* ACCESSIBILITY */
+.acc-panels{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:32px}
+@media(max-width:640px){.acc-panels{grid-template-columns:1fr}}
+.panel{border-radius:8px;overflow:hidden;border:1px solid #e0d5c0}
+.panel-head{padding:16px 18px;border-bottom:1px solid #e0d5c0}
+.panel-head h3{font-size:15px;font-weight:600;color:#111;margin-bottom:4px}
+.panel-head p{font-size:13px;color:#666;line-height:1.5}
+.blind-head{background:#eef4fc;border-left:4px solid #3080CC}
+.deaf-head{background:#eef8f4;border-left:4px solid #1D9E75}
+.panel-body{padding:16px 18px;background:#fff}
+.info-box{border-radius:6px;padding:14px 16px;margin-bottom:12px}
+.blue-box{background:#f0f6ff;border:1px solid rgba(48,128,204,.2)}
+.green-box{background:#f0faf6;border:1px solid rgba(29,158,117,.2)}
+.box-lbl{font-size:11px;text-transform:uppercase;letter-spacing:.1em;font-weight:600;margin-bottom:8px}
+.blue-lbl{color:#1a5a9e}
+.green-lbl{color:#0a5c40}
+.box-text{font-size:13px;color:#444;line-height:1.8;margin-bottom:14px}
+.mstats{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.ms{background:#f5f0e8;padding:4px 10px;border-radius:3px;font-size:12px;color:#555;border:1px solid #e0d5c0}
+.ms b{color:#7a5c0a}
+.btn-b{background:#3080CC;color:#fff;border:none;padding:10px 22px;font-size:13px;border-radius:3px;transition:.2s}
+.btn-b:hover{background:#1e68b4}
+.btn-g{background:#1D9E75;color:#fff;border:none;padding:10px 22px;font-size:13px;border-radius:3px;transition:.2s}
+.btn-g:hover{background:#158a63}
+
+/* VIBE VISUALIZER */
+.vibe-box{background:#f0faf6;border:1px solid rgba(29,158,117,.2);border-radius:6px;padding:14px;margin-top:12px}
+.vibe-lbl{font-size:11px;text-transform:uppercase;letter-spacing:.1em;color:#0a5c40;font-weight:600;margin-bottom:10px}
+.vibe-bars{display:flex;gap:3px;align-items:flex-end;height:48px;margin-bottom:10px}
+.vibe-bars span{border-radius:2px 2px 0 0;flex:1;transition:height .2s,opacity .2s}
+.vibe-text{font-size:12px;color:#444;line-height:1.7}
+
+/* WELLBEING */
+.wb-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px;margin-bottom:28px}
+.wb-card{background:#fff;border:1px solid #e0d5c0;border-radius:8px;padding:20px;cursor:pointer;transition:.22s;text-align:center}
+.wb-card:hover{border-color:#C9A84C;transform:translateY(-2px);box-shadow:0 4px 16px rgba(0,0,0,.08)}
+.wb-em{font-size:28px;margin-bottom:8px}
+.wb-t{font-size:14px;font-weight:600;color:#111;margin-bottom:4px}
+.wb-d{font-size:12px;color:#C9A84C}
+.sv-wrap{background:#faf7f2;border:1px solid #e0d5c0;border-radius:8px;padding:28px}
+.sv-top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:18px;gap:12px}
+.sv-art{width:100%;height:200px;border-radius:6px;margin-bottom:16px;display:block;object-fit:cover}
+.sv-guide{font-size:14px;color:#555;line-height:1.8;padding:14px 16px;background:#fff;border-radius:6px;border:1px solid #e0d5c0;margin-bottom:18px}
+.mood-row{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}
+.mbd{background:none;border:1px solid #e0d5c0;padding:7px 14px;font-size:20px;border-radius:24px;transition:.2s}
+.mbd.on,.mbd:hover{background:#C9A84C;border-color:#C9A84C}
+.timer-c{text-align:center;margin:16px 0}
+.timer-ring{width:88px;height:88px;border-radius:50%;border:3px solid #C9A84C;display:inline-flex;align-items:center;justify-content:center;font-family:'Cormorant Garamond',serif;font-size:22px;color:#111}
+.timer-st{font-size:12px;color:#888;letter-spacing:.06em;text-transform:uppercase;margin-top:8px}
+.jarea{width:100%;border:1px solid #e0d5c0;border-radius:4px;padding:10px 12px;font-size:13px;color:#111;background:#fff;resize:vertical;min-height:80px;outline:none;line-height:1.6;margin-bottom:16px}
+.jarea:focus{border-color:#C9A84C}
+.cmp-box{background:#fff;border:1px solid #e0d5c0;border-radius:6px;padding:16px;margin-top:16px;text-align:center}
+.cmp-nums{display:flex;justify-content:space-around;align-items:center;margin-top:10px}
+.cmp-v{font-family:'Cormorant Garamond',serif;font-size:28px;font-weight:600;color:#C9A84C}
+
+/* ADMIN */
+.login-box{max-width:340px;margin:48px auto}
+.login-card{background:#fff;border:1px solid #e0d5c0;border-radius:8px;padding:28px}
+.fl{display:block;font-size:11px;font-weight:600;color:#888;margin-bottom:6px;text-transform:uppercase;letter-spacing:.07em}
+.fi{width:100%;border:1px solid #e0d5c0;border-radius:4px;padding:9px 12px;font-size:14px;color:#111;outline:none;transition:.2s;margin-bottom:10px}
+.fi:focus{border-color:#C9A84C}
+.ft{width:100%;border:1px solid #e0d5c0;border-radius:4px;padding:9px 12px;font-size:13px;color:#111;outline:none;resize:vertical;min-height:80px;transition:.2s;line-height:1.6}
+.ft:focus{border-color:#C9A84C}
+.fs{width:100%;border:1px solid #e0d5c0;border-radius:4px;padding:9px 12px;font-size:13px;color:#111;outline:none;background:#fff;margin-bottom:10px}
+.sbmt{width:100%;padding:11px;background:#111;color:#C9A84C;border:none;font-size:14px;font-weight:500;border-radius:3px;letter-spacing:.06em;text-transform:uppercase;transition:.2s}
+.sbmt:hover{background:#333}
+.err{color:#D85A30;font-size:13px;margin-top:8px;text-align:center;display:none}
+.adm-top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:24px;gap:12px;flex-wrap:wrap}
+.new-btn{background:#C9A84C;color:#111;border:none;padding:10px 20px;font-size:13px;font-weight:600;border-radius:3px;transition:.2s}
+.new-btn:hover{background:#e0c070}
+.expo-item{background:#fff;border:1px solid #e0d5c0;border-radius:6px;padding:16px 18px;margin-bottom:10px;display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
+.expo-item h4{font-family:'Cormorant Garamond',serif;font-size:18px;margin-bottom:4px;color:#111}
+.expo-item p{font-size:12px;color:#888}
+.ei-acts{display:flex;gap:6px;flex-shrink:0}
+.ab{background:none;border:1px solid #ddd;color:#888;font-size:12px;padding:5px 12px;border-radius:3px;transition:.2s}
+.ab:hover{border-color:#C9A84C;color:#8B6914}
+.ab.del:hover{border-color:#D85A30;color:#D85A30}
+.form-box{background:#fff;border:1px solid #e0d5c0;border-radius:8px;padding:24px;margin-bottom:24px;display:none}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:12px}
+.row3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;margin-bottom:12px}
+@media(max-width:600px){.row2,.row3{grid-template-columns:1fr}}
+.wblk{background:#faf7f2;border:1px solid #e0d5c0;border-radius:6px;padding:16px;margin-bottom:12px}
+.wbh{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
+.wbn{font-size:12px;font-weight:600;color:#888;text-transform:uppercase;letter-spacing:.08em}
+.rm{background:none;border:none;color:#bbb;font-size:12px;padding:3px 8px;transition:.2s}
+.rm:hover{color:#D85A30}
+.addw{background:none;border:1px dashed #ddd;color:#aaa;width:100%;padding:10px;font-size:13px;border-radius:4px;transition:.2s;margin-bottom:12px}
+.addw:hover{border-color:#C9A84C;color:#8B6914}
+.form-acts{display:flex;gap:8px;flex-wrap:wrap}
+.bsec{background:none;border:1px solid #ddd;color:#666;padding:10px 18px;font-size:13px;border-radius:3px;transition:.2s}
+.bsec:hover{border-color:#888}
+.wk-card{background:#fff;border:1px solid #e0d5c0;border-radius:6px;padding:18px;margin-bottom:12px}
+.wk-top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:10px;gap:12px}
+.wk-top h3{font-family:'Cormorant Garamond',serif;font-size:20px;margin-bottom:4px;color:#111}
+.wk-top p{font-size:12px;color:#888}
+.wk-flag{font-size:24px;flex-shrink:0}
+.wk-ana{font-size:13px;color:#444;line-height:1.8;margin-bottom:10px}
+.cmp-pt{background:rgba(201,168,76,.08);border-left:3px solid #C9A84C;padding:10px 14px;font-size:13px;color:#444;line-height:1.6;border-radius:0 4px 4px 0}
+.cmp-l{font-size:10px;text-transform:uppercase;letter-spacing:.1em;color:#8B6914;margin-bottom:4px;font-weight:600}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="logo">
+    <span class="j">Jaune</span><span class="sep">·</span>
+    <span class="r">Rouge</span><span class="sep">·</span>
+    <span class="b">Bleu</span>
+  </div>
+  <div class="nav-links">
+    <button class="on" onclick="go('home',this)">Accueil</button>
+    <button onclick="go('build',this)">Exposition</button>
+    <button onclick="go('acc',this)">Accessibilité</button>
+    <button onclick="go('wb',this)">Bien-être</button>
+    <button onclick="go('adm',this)">Admin</button>
+  </div>
+  <div class="langs">
+    <button class="on" onclick="setLang('fr',this)">FR</button>
+    <button onclick="setLang('en',this)">EN</button>
+    <button onclick="setLang('es',this)">ES</button>
+    <button onclick="setLang('ar',this)">ع</button>
+  </div>
+</nav>
+
+<!-- SVG ARTWORKS (embedded — always visible) -->
+<svg style="display:none">
+  <defs>
+    <!-- Grande Vague de Hokusai -->
+    <symbol id="art-wave" viewBox="0 0 400 280">
+      <rect width="400" height="280" fill="#1a4a7a"/>
+      <rect y="180" width="400" height="100" fill="#0d2d4a"/>
+      <!-- ciel -->
+      <rect width="400" height="120" fill="#d4c5a0"/>
+      <!-- montagne Fuji -->
+      <polygon points="200,40 240,120 160,120" fill="#e8e0d0" opacity=".7"/>
+      <polygon points="200,40 215,60 185,60" fill="white" opacity=".9"/>
+      <!-- grande vague -->
+      <path d="M0,140 Q50,80 100,130 Q150,80 200,120 Q250,70 300,115 Q350,75 400,110 L400,200 Q350,160 300,180 Q250,150 200,175 Q150,150 100,170 Q50,155 0,165 Z" fill="#2a6aaa"/>
+      <path d="M0,130 Q50,70 100,120 Q150,70 200,110 Q250,60 300,105 Q350,65 400,100" stroke="white" stroke-width="3" fill="none" opacity=".8"/>
+      <!-- écume -->
+      <path d="M0,130 Q20,110 40,125 Q60,108 80,122" stroke="white" stroke-width="8" fill="none" stroke-linecap="round" opacity=".9"/>
+      <path d="M100,120 Q120,100 140,115 Q160,98 180,112" stroke="white" stroke-width="6" fill="none" stroke-linecap="round" opacity=".9"/>
+      <path d="M200,110 Q220,88 240,104 Q260,86 280,100" stroke="white" stroke-width="7" fill="none" stroke-linecap="round" opacity=".9"/>
+      <!-- bateaux -->
+      <path d="M60,175 Q80,170 100,175 Q80,185 60,175" fill="#2a1a08"/>
+      <path d="M200,170 Q220,165 240,170 Q220,180 200,170" fill="#2a1a08"/>
+    </symbol>
+    <!-- Nymphéas de Monet -->
+    <symbol id="art-nympheas" viewBox="0 0 400 280">
+      <rect width="400" height="280" fill="#3a6a5a"/>
+      <rect width="400" height="280" fill="#4a8070" opacity=".5"/>
+      <!-- reflets eau -->
+      <ellipse cx="100" cy="80" rx="80" ry="30" fill="#6aa8b0" opacity=".6"/>
+      <ellipse cx="300" cy="150" rx="90" ry="35" fill="#5a9898" opacity=".5"/>
+      <ellipse cx="200" cy="220" rx="100" ry="28" fill="#4a8888" opacity=".6"/>
+      <!-- nénuphars -->
+      <ellipse cx="80" cy="160" rx="35" ry="18" fill="#4a7a3a"/>
+      <ellipse cx="200" cy="200" rx="40" ry="20" fill="#558840"/>
+      <ellipse cx="320" cy="140" rx="32" ry="16" fill="#4a7a3a"/>
+      <ellipse cx="140" cy="230" rx="28" ry="14" fill="#558840"/>
+      <ellipse cx="270" cy="240" rx="36" ry="17" fill="#4a7a3a"/>
+      <!-- fleurs -->
+      <circle cx="82" cy="155" r="8" fill="#f0c8a0" opacity=".9"/>
+      <circle cx="200" cy="193" r="10" fill="#f8d8b8" opacity=".9"/>
+      <circle cx="318" cy="135" r="7" fill="#e8b890" opacity=".9"/>
+      <circle cx="272" cy="234" r="9" fill="#f0c0a0" opacity=".9"/>
+      <!-- reflets saules -->
+      <path d="M0,0 Q40,60 20,140 Q60,80 80,160" stroke="#3a5a30" stroke-width="2" fill="none" opacity=".4"/>
+      <path d="M380,0 Q360,70 370,150 Q340,90 320,170" stroke="#3a5a30" stroke-width="2" fill="none" opacity=".4"/>
+      <!-- touches impressionnistes -->
+      <rect x="50" y="60" width="6" height="3" fill="#80b8c8" opacity=".7" transform="rotate(-20,53,61)"/>
+      <rect x="150" y="40" width="7" height="3" fill="#90c0d0" opacity=".6" transform="rotate(15,153,41)"/>
+      <rect x="280" y="70" width="6" height="3" fill="#78a8b8" opacity=".7" transform="rotate(-10,283,71)"/>
+    </symbol>
+    <!-- Irises de Van Gogh -->
+    <symbol id="art-irises" viewBox="0 0 400 280">
+      <!-- ciel jaune vif -->
+      <rect width="400" height="140" fill="#e8d840"/>
+      <!-- sol -->
+      <rect y="140" width="400" height="140" fill="#7a9840"/>
+      <!-- coups de pinceau ciel -->
+      <path d="M0,60 Q100,40 200,55 Q300,40 400,55" stroke="#f0e050" stroke-width="12" fill="none" opacity=".5"/>
+      <path d="M0,80 Q80,65 180,75 Q280,62 400,72" stroke="#d4c830" stroke-width="8" fill="none" opacity=".4"/>
+      <!-- iris violets -->
+      <g opacity=".9">
+        <ellipse cx="60" cy="130" rx="12" ry="28" fill="#6644aa" transform="rotate(-10,60,130)"/>
+        <ellipse cx="60" cy="110" rx="8" ry="16" fill="#8866cc" transform="rotate(-10,60,110)"/>
+        <ellipse cx="100" cy="125" rx="13" ry="30" fill="#5533aa" transform="rotate(5,100,125)"/>
+        <ellipse cx="100" cy="103" rx="9" ry="17" fill="#7755bb" transform="rotate(5,100,103)"/>
+        <ellipse cx="140" cy="128" rx="12" ry="27" fill="#6644aa" transform="rotate(-5,140,128)"/>
+        <ellipse cx="180" cy="130" rx="14" ry="29" fill="#5533aa" transform="rotate(8,180,130)"/>
+        <ellipse cx="220" cy="125" rx="12" ry="26" fill="#7755bb" transform="rotate(-12,220,125)"/>
+        <ellipse cx="260" cy="128" rx="13" ry="28" fill="#6644aa" transform="rotate(6,260,128)"/>
+        <ellipse cx="300" cy="122" rx="11" ry="25" fill="#5533aa" transform="rotate(-8,300,122)"/>
+        <ellipse cx="340" cy="127" rx="12" ry="27" fill="#7755bb" transform="rotate(10,340,127)"/>
+        <ellipse cx="380" cy="124" rx="10" ry="24" fill="#6644aa" transform="rotate(-6,380,124)"/>
+      </g>
+      <!-- tiges -->
+      <line x1="60" y1="140" x2="55" y2="200" stroke="#3a7030" stroke-width="3"/>
+      <line x1="100" y1="140" x2="98" y2="205" stroke="#3a7030" stroke-width="3"/>
+      <line x1="140" y1="140" x2="143" y2="198" stroke="#3a7030" stroke-width="3"/>
+      <line x1="180" y1="140" x2="177" y2="202" stroke="#3a7030" stroke-width="3"/>
+      <line x1="220" y1="140" x2="222" y2="200" stroke="#3a7030" stroke-width="3"/>
+      <line x1="260" y1="140" x2="258" y2="204" stroke="#3a7030" stroke-width="3"/>
+      <line x1="300" y1="140" x2="303" y2="198" stroke="#3a7030" stroke-width="3"/>
+      <line x1="340" y1="140" x2="337" y2="202" stroke="#3a7030" stroke-width="3"/>
+      <!-- feuilles -->
+      <ellipse cx="60" cy="175" rx="18" ry="6" fill="#4a8838" transform="rotate(-30,60,175)"/>
+      <ellipse cx="100" cy="180" rx="20" ry="6" fill="#558840" transform="rotate(25,100,180)"/>
+      <ellipse cx="180" cy="177" rx="19" ry="6" fill="#4a8838" transform="rotate(-20,180,177)"/>
+      <ellipse cx="260" cy="179" rx="18" ry="6" fill="#558840" transform="rotate(30,260,179)"/>
+    </symbol>
+    <!-- Femmes de Tahiti de Gauguin -->
+    <symbol id="art-tahiti" viewBox="0 0 400 280">
+      <!-- fond tropical -->
+      <rect width="400" height="280" fill="#d47840"/>
+      <rect width="200" height="280" fill="#c86830" opacity=".4"/>
+      <!-- végétation fond -->
+      <ellipse cx="50" cy="80" rx="60" ry="80" fill="#3a7028" opacity=".7"/>
+      <ellipse cx="350" cy="100" rx="70" ry="90" fill="#2a6020" opacity=".6"/>
+      <ellipse cx="200" cy="40" rx="80" ry="50" fill="#4a8030" opacity=".5"/>
+      <!-- sol -->
+      <rect y="220" width="400" height="60" fill="#c05820" opacity=".6"/>
+      <!-- femme gauche — paréo rose -->
+      <ellipse cx="130" cy="150" rx="45" ry="80" fill="#c06898"/>
+      <ellipse cx="130" cy="80" rx="28" ry="32" fill="#c49070"/>
+      <!-- cheveux -->
+      <ellipse cx="130" cy="60" rx="28" ry="20" fill="#2a1810"/>
+      <!-- visage -->
+      <circle cx="130" cy="78" r="22" fill="#b87858"/>
+      <ellipse cx="122" cy="75" rx="4" ry="5" fill="#3a2010"/>
+      <ellipse cx="138" cy="75" rx="4" ry="5" fill="#3a2010"/>
+      <!-- motifs paréo -->
+      <ellipse cx="115" cy="130" rx="6" ry="8" fill="#d890b8" opacity=".7"/>
+      <ellipse cx="145" cy="145" rx="5" ry="7" fill="#d890b8" opacity=".7"/>
+      <ellipse cx="125" cy="165" rx="6" ry="8" fill="#d890b8" opacity=".7"/>
+      <!-- femme droite — vêtement blanc -->
+      <ellipse cx="270" cy="155" rx="42" ry="75" fill="#e8e0d0"/>
+      <ellipse cx="270" cy="85" rx="26" ry="30" fill="#c49070"/>
+      <!-- cheveux -->
+      <ellipse cx="270" cy="66" rx="26" ry="18" fill="#2a1810"/>
+      <!-- visage -->
+      <circle cx="270" cy="83" r="21" fill="#b87858"/>
+      <ellipse cx="262" cy="80" rx="4" ry="5" fill="#3a2010"/>
+      <ellipse cx="278" cy="80" rx="4" ry="5" fill="#3a2010"/>
+    </symbol>
+  </defs>
+</svg>
+
+<!-- HOME -->
+<div id="pg-home" class="pg on">
+  <div class="hero">
+    <h1>L'art mondial,<br><em>votre regard</em></h1>
+    <p>Expositions personnalisées, accessibles aux aveugles et aux sourds, comparaisons mondiales — une plateforme culturelle unique.</p>
+    <div class="hero-btns">
+      <button class="btn-y" onclick="go('build',document.querySelectorAll('.nav-links button')[1])">Créer mon exposition</button>
+      <button class="btn-w" onclick="go('acc',document.querySelectorAll('.nav-links button')[2])">Accessibilité</button>
+    </div>
+  </div>
+  <div class="stats-row">
+    <div class="stat"><div class="stat-n">1 000+</div><div class="stat-l">Institutions</div></div>
+    <div class="stat"><div class="stat-n">5 000</div><div class="stat-l">Ans d'histoire</div></div>
+    <div class="stat"><div class="stat-n">4</div><div class="stat-l">Langues</div></div>
+    <div class="stat"><div class="stat-n">∞</div><div class="stat-l">Expositions uniques</div></div>
+  </div>
+  <div class="wrap">
+    <h2 style="text-align:center;margin-bottom:24px">Une plateforme unique au monde</h2>
+    <div class="feat-grid">
+      <div class="feat-card" onclick="go('build',document.querySelectorAll('.nav-links button')[1])">
+        <div class="feat-icon">🎨</div><div class="feat-t">Expositions sur mesure</div>
+        <div class="feat-d">Thèmes, époques et régions. Jamais la même exposition.</div>
+      </div>
+      <div class="feat-card" onclick="go('acc',document.querySelectorAll('.nav-links button')[2])">
+        <div class="feat-icon">👁️</div><div class="feat-t">Pour les aveugles</div>
+        <div class="feat-d">Description audio détaillée de chaque œuvre d'art.</div>
+      </div>
+      <div class="feat-card" onclick="go('acc',document.querySelectorAll('.nav-links button')[2])">
+        <div class="feat-icon">📳</div><div class="feat-t">Pour les sourds</div>
+        <div class="feat-d">Partition visuelle animée et vibrations haptiques.</div>
+      </div>
+      <div class="feat-card">
+        <div class="feat-icon">🌍</div><div class="feat-t">Perspective mondiale</div>
+        <div class="feat-d">Comparez artistes de tous pays et toutes époques.</div>
+      </div>
+    </div>
+    <hr>
+    <p class="ey">Expositions spéciales</p>
+    <div class="sp-grid" id="sp-home">
+      <p style="color:#888;font-size:13px">Créez une exposition dans l'espace Admin pour qu'elle apparaisse ici.</p>
+    </div>
+  </div>
+</div>
+
+<!-- BUILDER -->
+<div id="pg-build" class="pg">
+  <div class="wrap">
+    <h2>Construisez votre exposition</h2>
+    <p class="sub">Sélectionnez vos préférences. L'exposition personnalisée se génère instantanément.</p>
+    <div class="step-row"><div class="step-n">1</div><div class="step-l">Thèmes</div></div>
+    <div class="tags">
+      <span class="tag" onclick="tog(this,'th')">Portraits</span><span class="tag" onclick="tog(this,'th')">Paysages</span><span class="tag" onclick="tog(this,'th')">Abstraction</span><span class="tag" onclick="tog(this,'th')">Spiritualité</span><span class="tag" onclick="tog(this,'th')">Vie quotidienne</span><span class="tag" onclick="tog(this,'th')">Mythologie</span><span class="tag" onclick="tog(this,'th')">Nature morte</span><span class="tag" onclick="tog(this,'th')">Lumière & couleur</span>
+    </div>
+    <div class="step-row"><div class="step-n">2</div><div class="step-l">Régions</div></div>
+    <div class="tags">
+      <span class="tag" onclick="tog(this,'rg')">Europe</span><span class="tag" onclick="tog(this,'rg')">Asie de l'Est</span><span class="tag" onclick="tog(this,'rg')">Amériques</span><span class="tag" onclick="tog(this,'rg')">Afrique</span><span class="tag" onclick="tog(this,'rg')">Moyen-Orient</span><span class="tag" onclick="tog(this,'rg')">Océanie</span>
+    </div>
+    <div class="step-row"><div class="step-n">3</div><div class="step-l">Époques</div></div>
+    <div class="tags">
+      <span class="tag" onclick="tog(this,'ep')">Antiquité</span><span class="tag" onclick="tog(this,'ep')">Moyen Âge</span><span class="tag" onclick="tog(this,'ep')">Renaissance</span><span class="tag" onclick="tog(this,'ep')">XVIIe–XVIIIe s.</span><span class="tag" onclick="tog(this,'ep')">XIXe siècle</span><span class="tag" onclick="tog(this,'ep')">Modernisme</span><span class="tag" onclick="tog(this,'ep')">Art contemporain</span>
+    </div>
+    <button class="gen-btn" id="gen-btn" disabled onclick="genExpo()">Générer mon exposition →</button>
+  </div>
+</div>
+
+<!-- EXPO -->
+<div id="pg-expo" class="pg">
+  <div class="wrap">
+    <div class="expo-top">
+      <div><h2 id="expo-h">Exposition</h2><p style="font-size:13px;color:#888;margin-top:4px" id="expo-s"></p></div>
+      <button class="back-btn" onclick="go('build',document.querySelectorAll('.nav-links button')[1])">← Retour</button>
+    </div>
+    <div class="tl">
+      <div class="tl-l"><div class="tl-dot"></div><div class="tl-line"></div></div>
+      <div style="flex:1;padding-bottom:16px">
+        <div class="era">Émergence · 1820–1840</div>
+        <div class="tl-title">Les débuts — regard neuf sur la nature</div>
+        <div class="tl-text">J.M.W. Turner abandonne les conventions académiques et commence à dissoudre les formes dans la lumière. Contemporain de Hokusai au Japon, chacun réinvente le rapport à la nature dans sa propre tradition culturelle.</div>
+        <div class="mini-grid">
+          <div class="mini" onclick="go('acc',document.querySelectorAll('.nav-links button')[2])">
+            <svg viewBox="0 0 400 280"><use href="#art-wave"/></svg>
+            <div class="mini-info"><b>La Grande Vague</b><span>Hokusai · 1831 · Japon</span></div>
+          </div>
+          <div class="mini">
+            <div style="height:120px;background:#d4c090;display:flex;align-items:center;justify-content:center;font-size:40px">🌅</div>
+            <div class="mini-info"><b>Rain, Steam and Speed</b><span>Turner · 1844 · Angleterre</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tl">
+      <div class="tl-l"><div class="tl-dot"></div><div class="tl-line"></div></div>
+      <div style="flex:1;padding-bottom:16px">
+        <div class="era">Évolution · 1860–1890</div>
+        <div class="tl-title">La révolution impressionniste</div>
+        <div class="tl-text">Monet, Renoir, Pissarro bouleversent la peinture académique. Simultanément, les Barbizonistes influencent les peintres américains de Hudson River School — une révolution parallèle mais indépendante.</div>
+        <div class="mini-grid">
+          <div class="mini" onclick="go('acc',document.querySelectorAll('.nav-links button')[2])">
+            <svg viewBox="0 0 400 280"><use href="#art-nympheas"/></svg>
+            <div class="mini-info"><b>Nymphéas</b><span>Monet · 1906 · France</span></div>
+          </div>
+          <div class="mini" onclick="go('acc',document.querySelectorAll('.nav-links button')[2])">
+            <svg viewBox="0 0 400 280"><use href="#art-irises"/></svg>
+            <div class="mini-info"><b>Irises près d'Arles</b><span>Van Gogh · 1888 · Pays-Bas</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tl">
+      <div class="tl-l"><div class="tl-dot"></div></div>
+      <div style="flex:1">
+        <div class="era">Héritage · 1900–aujourd'hui</div>
+        <div class="tl-title">L'influence mondiale</div>
+        <div class="tl-text">L'impressionnisme ouvre la voie à toutes les avant-gardes du XXe siècle. Son héritage se retrouve chez Cézanne, chez les Fauves, et dans l'expressionnisme abstrait américain des années 1950.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ACCESSIBILITY -->
+<div id="pg-acc" class="pg">
+  <div class="wrap">
+    <h2>Accessibilité universelle</h2>
+    <p class="sub"><strong>👁️ Pour les aveugles & malvoyants :</strong> description audio de chaque œuvre.<br><strong>📳 Pour les sourds & malentendants :</strong> partition visuelle animée et vibrations haptiques à ressentir dans le corps.</p>
+    <p class="ey">Sélectionnez une œuvre</p>
+    <div class="art-cards" id="art-cards">
+      <div class="art-card on" onclick="pickArt(0,this)">
+        <svg class="art-card-svg" viewBox="0 0 400 280"><use href="#art-wave"/></svg>
+        <div class="art-card-info"><b>La Grande Vague</b><span>Hokusai · Japon · 1831</span></div>
+      </div>
+      <div class="art-card" onclick="pickArt(1,this)">
+        <svg class="art-card-svg" viewBox="0 0 400 280"><use href="#art-nympheas"/></svg>
+        <div class="art-card-info"><b>Nymphéas</b><span>Monet · France · 1906</span></div>
+      </div>
+      <div class="art-card" onclick="pickArt(2,this)">
+        <svg class="art-card-svg" viewBox="0 0 400 280"><use href="#art-irises"/></svg>
+        <div class="art-card-info"><b>Irises près d'Arles</b><span>Van Gogh · Pays-Bas · 1888</span></div>
+      </div>
+      <div class="art-card" onclick="pickArt(3,this)">
+        <svg class="art-card-svg" viewBox="0 0 400 280"><use href="#art-tahiti"/></svg>
+        <div class="art-card-info"><b>Femmes de Tahiti</b><span>Gauguin · France · 1891</span></div>
+      </div>
+    </div>
+    <div class="big-art-wrap">
+      <svg id="big-svg" style="width:100%;height:320px;display:block" viewBox="0 0 400 280"><use href="#art-wave"/></svg>
+      <div class="big-art-cap" id="big-cap">La Grande Vague de Kanagawa — Katsushika Hokusai · Japon · 1831 · Metropolitan Museum of Art, New York</div>
+    </div>
+    <div class="acc-panels">
+      <div class="panel">
+        <div class="panel-head blind-head">
+          <h3>👁️ Personnes aveugles & malvoyantes</h3>
+          <p>Description audio détaillée : couleurs, formes, composition, contexte.</p>
+        </div>
+        <div class="panel-body">
+          <div class="info-box blue-box">
+            <div class="box-lbl blue-lbl">🔊 Description audio de l'œuvre</div>
+            <div class="box-text" id="blind-txt">Une vague géante en forme de griffe domine la composition. Au creux de son écume blanche et dentelée, le Mont Fuji apparaît en miniature au loin, coiffé de neige. Trois embarcations de pêcheurs luttent contre le déferlement. Les teintes dominantes sont le bleu de Prusse profond, le blanc de l'écume et le beige du ciel hivernal.</div>
+            <button class="btn-b" id="speak-btn" onclick="doSpeak()">▶ Écouter la description</button>
+          </div>
+        </div>
+      </div>
+      <div class="panel">
+        <div class="panel-head deaf-head">
+          <h3>📳 Personnes sourdes & malentendantes</h3>
+          <p>Partition visuelle animée + vibrations haptiques à ressentir dans le corps.</p>
+        </div>
+        <div class="panel-body">
+          <div class="info-box green-box">
+            <div class="box-lbl green-lbl">🎼 Partition visuelle — rythme de l'œuvre</div>
+            <div class="mstats" id="mstats">
+              <div class="ms">Tempo <b>126 BPM</b></div><div class="ms">Tonalité <b>Mi mineur</b></div>
+              <div class="ms">Énergie <b>Forte</b></div><div class="ms">Caractère <b>Percussif</b></div>
+            </div>
+            <div class="box-text" id="deaf-txt">La musique de cette œuvre est percussive et tendue — comme les vagues qui déferlent. Des pulsations fortes et régulières représentent la puissance de l'océan. Une montée progressive vers un climax intense, suivie d'un silence soudain.</div>
+            <button class="btn-g" id="play-btn" onclick="doVibe()">▶ Lancer la partition visuelle</button>
+          </div>
+          <div class="vibe-box">
+            <div class="vibe-lbl">📳 Vibrations haptiques — à ressentir dans le corps</div>
+            <div class="vibe-bars" id="vibe-bars">
+              <span style="height:80%;background:#1D9E75"></span><span style="height:60%;background:#1D9E75"></span><span style="height:90%;background:#1D9E75"></span><span style="height:70%;background:#1D9E75"></span><span style="height:100%;background:#1D9E75"></span><span style="height:50%;background:#1D9E75"></span><span style="height:85%;background:#1D9E75"></span><span style="height:65%;background:#1D9E75"></span><span style="height:75%;background:#1D9E75"></span><span style="height:55%;background:#1D9E75"></span>
+            </div>
+            <div class="vibe-text" id="vibe-txt">Pulsations fortes et régulières à 1 Hz sur les poignets. Vibration montante de gauche à droite simulant le déferlement. Pic d'intensité suivi d'un silence de 2 secondes — le moment suspendu avant l'impact.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- WELLBEING -->
+<div id="pg-wb" class="pg">
+  <div class="wrap">
+    <h2>Bien-être par l'art</h2>
+    <p class="sub">Séances de contemplation guidées pour explorer vos émotions à travers les œuvres du domaine public.</p>
+    <div id="wb-list">
+      <p class="ey">Choisissez une séance</p>
+      <div class="wb-grid">
+        <div class="wb-card" onclick="startWb(0)"><div class="wb-em">🌊</div><div class="wb-t">Apaiser le stress</div><div class="wb-d">10 min · Monet</div></div>
+        <div class="wb-card" onclick="startWb(1)"><div class="wb-em">🕯️</div><div class="wb-t">Traverser la tristesse</div><div class="wb-d">15 min · Van Gogh</div></div>
+        <div class="wb-card" onclick="startWb(2)"><div class="wb-em">🔷</div><div class="wb-t">Améliorer la concentration</div><div class="wb-d">8 min · Gauguin</div></div>
+        <div class="wb-card" onclick="startWb(3)"><div class="wb-em">✨</div><div class="wb-t">Stimuler la créativité</div><div class="wb-d">20 min · Hokusai</div></div>
+      </div>
+    </div>
+    <div id="wb-sess" style="display:none">
+      <div class="sv-wrap">
+        <div class="sv-top">
+          <h2 id="sv-h" style="font-size:26px"></h2>
+          <button class="back-btn" onclick="stopWb()">← Retour</button>
+        </div>
+        <svg id="sv-svg" style="width:100%;height:200px;border-radius:6px;margin-bottom:16px;display:block" viewBox="0 0 400 280"><use href="#art-wave"/></svg>
+        <div class="sv-guide" id="sv-g"></div>
+        <p class="ey" style="margin-bottom:10px">Votre humeur avant la séance</p>
+        <div class="mood-row" id="mb-row">
+          <button class="mbd" onclick="moodFn('b',1,this)">😔</button>
+          <button class="mbd" onclick="moodFn('b',2,this)">😕</button>
+          <button class="mbd" onclick="moodFn('b',3,this)">😐</button>
+          <button class="mbd" onclick="moodFn('b',4,this)">🙂</button>
+          <button class="mbd" onclick="moodFn('b',5,this)">😊</button>
+        </div>
+        <div class="timer-c">
+          <div><div class="timer-ring" id="t-ring">10:00</div></div>
+          <div class="timer-st" id="t-st">Prêt à démarrer</div>
+        </div>
+        <div style="display:flex;justify-content:center;margin-bottom:18px">
+          <button class="btn-g" id="t-btn" onclick="tickTimer()" style="padding:11px 28px;font-size:14px">▶ Démarrer la séance</button>
+        </div>
+        <p class="ey" style="margin-bottom:8px">Journal de séance</p>
+        <textarea class="jarea" id="jrnl" placeholder="Notez ce que vous ressentez, ce que l'œuvre évoque pour vous…" rows="3"></textarea>
+        <div id="after-sec" style="display:none">
+          <hr>
+          <p class="ey" style="margin:16px 0 10px">Votre humeur après la séance</p>
+          <div class="mood-row" id="ma-row">
+            <button class="mbd" onclick="moodFn('a',1,this)">😔</button>
+            <button class="mbd" onclick="moodFn('a',2,this)">😕</button>
+            <button class="mbd" onclick="moodFn('a',3,this)">😐</button>
+            <button class="mbd" onclick="moodFn('a',4,this)">🙂</button>
+            <button class="mbd" onclick="moodFn('a',5,this)">😊</button>
+          </div>
+          <div class="cmp-box" id="cmp-box" style="display:none">
+            <p class="ey" style="text-align:center">Résultat de votre séance</p>
+            <div class="cmp-nums">
+              <div><div style="font-size:12px;color:#888;margin-bottom:4px">Avant</div><div class="cmp-v" id="cv-b">—</div></div>
+              <div style="font-size:20px;color:#1D9E75;font-weight:300">→</div>
+              <div><div style="font-size:12px;color:#888;margin-bottom:4px">Après</div><div class="cmp-v" id="cv-a">—</div></div>
+            </div>
+            <p style="font-size:13px;color:#666;margin-top:10px" id="cmp-msg"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ADMIN -->
+<div id="pg-adm" class="pg">
+  <div id="adm-login" class="login-box">
+    <div class="login-card">
+      <div style="text-align:center;margin-bottom:20px">
+        <div style="display:flex;gap:6px;justify-content:center;margin-bottom:12px">
+          <div style="width:14px;height:14px;border-radius:50%;background:#E8C547"></div>
+          <div style="width:14px;height:14px;border-radius:50%;background:#E03030"></div>
+          <div style="width:14px;height:14px;border-radius:50%;background:#5599EE"></div>
+        </div>
+        <p style="font-size:15px;color:#666;font-family:'Cormorant Garamond',serif">Connexion administrateur</p>
+      </div>
+      <label class="fl">Mot de passe</label>
+      <input class="fi" type="password" id="pw" placeholder="••••••••" onkeydown="if(event.key==='Enter')login()">
+      <p class="err" id="pw-err">Mot de passe incorrect.</p>
+      <button class="sbmt" onclick="login()">Accéder</button>
+      <p style="font-size:12px;color:#bbb;text-align:center;margin-top:12px">Démo : admin123</p>
+    </div>
+  </div>
+  <div id="adm-panel" style="display:none">
+    <div class="wrap">
+      <div class="adm-top">
+        <div>
+          <h2>Espace Administration</h2>
+          <p class="sub" style="margin-bottom:0">Créez des expositions comparatives avec analyse éditoriale des œuvres.</p>
+        </div>
+        <button class="new-btn" onclick="openForm()">+ Nouvelle exposition</button>
+      </div>
+      <div class="form-box" id="adm-form">
+        <h3 style="font-family:'Cormorant Garamond',serif;font-size:22px;margin-bottom:18px" id="form-h">Nouvelle exposition</h3>
+        <div class="row2">
+          <div><label class="fl">Titre de l'exposition</label><input class="fi" id="f-t" placeholder="ex: La lumière comme langage universel"></div>
+          <div><label class="fl">Sous-titre</label><input class="fi" id="f-s" placeholder="ex: Vermeer, Le Caravage, Rembrandt…"></div>
+        </div>
+        <label class="fl">Thème comparatif</label>
+        <select class="fs" id="f-th">
+          <option>Lumière & ombre à travers les cultures</option>
+          <option>Portrait : Orient vs Occident</option>
+          <option>Sacré & profane</option>
+          <option>La nature dans l'art mondial</option>
+          <option>Corps & identité</option>
+          <option>Guerre & paix</option>
+          <option>Abstraction universelle</option>
+          <option>Personnalisé…</option>
+        </select>
+        <label class="fl">Introduction éditoriale</label>
+        <textarea class="ft" id="f-i" rows="3" style="margin-bottom:16px" placeholder="Décrivez la perspective comparative de cette exposition…"></textarea>
+        <hr>
+        <h4 style="font-family:'Cormorant Garamond',serif;font-size:20px;margin:16px 0 12px">Œuvres à comparer</h4>
+        <div id="works-c"></div>
+        <button class="addw" onclick="addWork()">+ Ajouter une œuvre</button>
+        <div class="form-acts">
+          <button class="sbmt" style="flex:1;margin-top:0" onclick="saveEx('published')">Publier l'exposition</button>
+          <button class="bsec" onclick="saveEx('draft')">Enregistrer brouillon</button>
+          <button class="bsec" onclick="closeForm()">Annuler</button>
+        </div>
+      </div>
+      <p class="ey">Expositions créées</p>
+      <div id="ex-list"><p style="color:#aaa;font-size:13px;padding:12px 0">Aucune exposition créée. Commencez ci-dessus.</p></div>
+    </div>
+  </div>
+</div>
+
+<!-- SPECIAL EXPO VIEW -->
+<div id="pg-sp" class="pg">
+  <div class="wrap">
+    <div class="expo-top">
+      <div>
+        <div style="margin-bottom:8px" id="sp-bdg"></div>
+        <h2 id="sp-h"></h2>
+        <p style="font-size:14px;color:#888;margin-top:4px;font-style:italic" id="sp-sub"></p>
+      </div>
+      <button class="back-btn" onclick="go('home',document.querySelectorAll('.nav-links button')[0])">← Retour</button>
+    </div>
+    <p style="font-size:14px;color:#555;line-height:1.8;margin-bottom:24px;border-left:3px solid #C9A84C;padding-left:16px;font-style:italic" id="sp-intro"></p>
+    <p class="ey" id="sp-cnt"></p>
+    <div id="sp-wks"></div>
+  </div>
+</div>
+
+<script>
+const ART = [
+  { sym:"#art-wave", name:"La Grande Vague de Kanagawa", meta:"Katsushika Hokusai · Japon · 1831 · Metropolitan Museum of Art",
+    blind:"Une vague géante en forme de griffe domine la composition. Au creux de son écume blanche et dentelée, le Mont Fuji apparaît en miniature au loin, coiffé de neige. Trois embarcations de pêcheurs luttent contre le déferlement. Les teintes dominantes sont le bleu de Prusse profond, le blanc de l'écume et le beige du ciel hivernal.",
+    deaf:"La musique de cette œuvre est percussive et tendue — comme les vagues qui déferlent. Des pulsations fortes et régulières représentent la puissance de l'océan. Une montée progressive vers un climax intense, suivie d'un silence soudain représentant le moment suspendu avant l'impact.",
+    stats:[["Tempo","126 BPM"],["Tonalité","Mi mineur"],["Énergie","Forte"],["Caractère","Percussif"]],
+    vibe:"Pulsations fortes et régulières à 1 Hz sur les poignets. Vibration montante de gauche à droite simulant le déferlement. Pic d'intensité suivi d'un silence de 2 secondes.",
+    heights:[80,60,90,70,100,50,85,65,75,55], wbSym:"#art-nympheas" },
+  { sym:"#art-nympheas", name:"Nymphéas", meta:"Claude Monet · France · 1906 · Art Institute of Chicago",
+    blind:"La surface de l'eau occupe tout le tableau, sans horizon visible. Des nénuphars ovales aux tons crème, roses et verts flottent en grappes. Le ciel et les saules pleureurs se reflètent en touches bleues et mauves. On est immergé dans l'eau — aucune rive, aucune limite visible.",
+    deaf:"La musique de cette œuvre est lente et enveloppante — comme une brume qui flotte sur l'eau. Des tonalités douces et continues s'enchaînent sans rupture. Un tempo très lent, à peine perceptible, crée une sensation de temps suspendu et d'apaisement profond.",
+    stats:[["Tempo","52 BPM"],["Tonalité","Fa majeur"],["Énergie","Douce"],["Caractère","Méditatif"]],
+    vibe:"Vibrations douces et continues comme une respiration lente. Légère oscillation gauche-droite imitant les ondulations de l'eau. Aucun pic brusque — une texture constante et enveloppante sur toute la surface des mains.",
+    heights:[30,25,35,22,38,28,32,24,33,26], wbSym:"#art-irises" },
+  { sym:"#art-irises", name:"Irises près d'Arles", meta:"Vincent van Gogh · Pays-Bas · 1888 · Getty Museum, Los Angeles",
+    blind:"Un champ d'iris violets et bleus s'étend à perte de vue sous un ciel jaune citron vibrant. Les fleurs sont rendues en touches épaisses et tourbillonnantes qui donnent l'impression que le champ est en mouvement. Le contraste violet-jaune est intense, presque électrique.",
+    deaf:"La musique de cette œuvre est joyeuse et irrégulière — comme les coups de pinceau énergiques de Van Gogh. Un tempo vif avec des accents imprévisibles reflète l'exubérance et la vitalité de la composition. Des explosions de joie sonore succèdent à des moments de calme.",
+    stats:[["Tempo","98 BPM"],["Tonalité","Ré majeur"],["Énergie","Vive"],["Caractère","Exubérant"]],
+    vibe:"Pulsations irrégulières mais chaleureuses à 98 BPM alternant entre les deux mains. Intensité croissante du centre vers la périphérie. Légère accélération progressive imitant l'expansion des fleurs.",
+    heights:[65,80,55,90,70,85,60,75,68,82], wbSym:"#art-tahiti" },
+  { sym:"#art-tahiti", name:"Femmes de Tahiti", meta:"Paul Gauguin · France · 1891 · Musée d'Orsay, Paris",
+    blind:"Deux femmes tahitiennes sont assises au sol, vues de profil et de face. L'une porte un paréo rose à fleurs, l'autre un vêtement blanc. Leurs visages sombres et sereins regardent au loin avec une expression énigmatique. Le fond évoque une végétation tropicale dense en tons orangés et verts.",
+    deaf:"La musique de cette œuvre est méditative et hypnotique — comme un rituel ancestral polynésien. Un tempo modéré avec des répétitions rythmiques régulières crée une transe douce. Des tonalités chaudes et profondes reflètent la chaleur tropicale et la mélancolie de la scène.",
+    stats:[["Tempo","72 BPM"],["Tonalité","Sol pentatonique"],["Énergie","Méditative"],["Caractère","Hypnotique"]],
+    vibe:"Pulsations profondes et régulières à 72 BPM centrées sur le sternum. Légère chaleur diffuse sur les paumes. Séquences de 8 pulsations suivies d'une pause d'une seconde — rythme de respiration profonde.",
+    heights:[50,45,55,48,58,42,52,46,54,44], wbSym:"#art-wave" },
+];
+const WBS=[
+  {t:"Apaiser le stress",si:1,dur:600,g:"Regardez cette œuvre 30 secondes. Laissez votre regard se poser naturellement, sans chercher à analyser. Où se pose-t-il en premier ? Quelle couleur vous attire ?"},
+  {t:"Traverser la tristesse",si:2,dur:900,g:"Cette œuvre parle d'intensité émotionnelle. Respirez lentement. Laissez vos sentiments être là, sans les fuir. L'art peut être un miroir fidèle de nos émotions les plus profondes."},
+  {t:"Améliorer la concentration",si:3,dur:480,g:"Fixez le centre de cette composition. Notez les formes, les tons, l'équilibre. Laissez votre esprit ralentir. Chaque détail est intentionnel — comme vos propres priorités."},
+  {t:"Stimuler la créativité",si:0,dur:1200,g:"Regardez les formes mouvantes, l'énergie de la composition. Qu'est-ce que cela évoque ? Il n'y a pas de bonne réponse. Laissez votre imagination créer librement."},
+];
+const FLAGS={"France":"🇫🇷","Pays-Bas":"🇳🇱","Italie":"🇮🇹","Allemagne":"🇩🇪","Espagne":"🇪🇸","Angleterre":"🇬🇧","Japon":"🇯🇵","Chine":"🇨🇳","Corée":"🇰🇷","États-Unis":"🇺🇸","Mexique":"🇲🇽","Brésil":"🇧🇷","Égypte":"🇪🇬","Inde":"🇮🇳"};
+function gFlag(c){for(const[k,v]of Object.entries(FLAGS))if(c&&c.toLowerCase().includes(k.toLowerCase()))return v;return"🎨";}
+
+let expos=[{id:1,status:"published",title:"La lumière comme langage universel",subtitle:"Vermeer, Le Caravage, Rembrandt et Hokusai — quatre visions de la lumière",intro:"À travers quatre siècles et deux continents, la lumière est le véritable sujet de ces chefs-d'œuvre. Qu'elle soit naturelle ou divine, intime ou dramatique, elle révèle l'essentiel de chaque culture.",theme:"Lumière & ombre à travers les cultures",works:[{title:"La Jeune Fille à la perle",artist:"Johannes Vermeer",country:"Pays-Bas",period:"c. 1665",museum:"Mauritshuis, La Haye",analysis:"La lumière chez Vermeer est douce, diffuse, intimiste. Elle vient d'une fenêtre invisible et enveloppe le sujet sans drama. C'est la lumière du quotidien transfiguré.",compare:"Contraste direct avec le clair-obscur dramatique du Caravage — même époque, philosophie opposée."},{title:"Judith décapitant Holopherne",artist:"Le Caravage",country:"Italie",period:"1598–1599",museum:"Galleria Nazionale, Rome",analysis:"Le ténébrisme du Caravage utilise la lumière comme arme dramatique. Le fond noir absolu amplifie la violence de la scène.",compare:"Face à la sérénité de Vermeer, Le Caravage démontre que la lumière peut aussi être violence et tension."},{title:"La Ronde de nuit",artist:"Rembrandt van Rijn",country:"Pays-Bas",period:"1642",museum:"Rijksmuseum, Amsterdam",analysis:"Rembrandt orchestre la lumière comme un chef d'orchestre — certains personnages émergent, d'autres disparaissent dans l'ombre.",compare:"Là où Vermeer choisit un sujet unique, Rembrandt anime une multitude. La lumière devient architecte social."},{title:"Cent vues du Mont Fuji",artist:"Katsushika Hokusai",country:"Japon",period:"1834–1835",museum:"Domaine public",analysis:"Dans l'estampe japonaise, la lumière est suggérée par l'absence — le blanc du papier devient lumière. Une approche radicalement différente de la tradition occidentale.",compare:"L'absence de clair-obscur révèle que la lumière en art n'est pas universelle : elle est culturelle."}]}];
+let editId=null,wkCnt=0;
+
+function go(id,btn){
+  document.querySelectorAll('.pg').forEach(p=>p.classList.remove('on'));
+  document.getElementById('pg-'+id).classList.add('on');
+  document.querySelectorAll('.nav-links button').forEach(b=>b.classList.remove('on'));
+  if(btn)btn.classList.add('on');
+  if(id==='home')renderHome();
+  window.scrollTo(0,0);
+}
+function setLang(l,btn){
+  document.querySelectorAll('.langs button').forEach(b=>b.classList.remove('on'));
+  btn.classList.add('on');
+  document.body.dir=l==='ar'?'rtl':'ltr';
+}
+
+// BUILDER
+const sel={th:[],rg:[],ep:[]};
+function tog(el,k){
+  el.classList.toggle('on');
+  const v=el.textContent.trim();
+  sel[k]=el.classList.contains('on')?[...sel[k],v]:sel[k].filter(x=>x!==v);
+  document.getElementById('gen-btn').disabled=!Object.values(sel).some(a=>a.length);
+}
+function genExpo(){
+  document.getElementById('expo-h').textContent=(sel.th.length?sel.th.slice(0,2).join(' & '):'Art universel')+' — '+(sel.rg.length?sel.rg.slice(0,2).join(' · '):'Monde');
+  document.getElementById('expo-s').textContent=(sel.ep.length?sel.ep.join(', '):'Toutes époques')+' · ~20 min';
+  go('expo',document.querySelectorAll('.nav-links button')[1]);
+}
+
+// ACCESSIBILITY
+let curA=0,speaking=false,vibeInt=null,vibeOn=false;
+function pickArt(i,el){
+  document.querySelectorAll('.art-card').forEach(c=>c.classList.remove('on'));
+  el.classList.add('on');
+  curA=i;
+  const a=ART[i];
+  document.getElementById('big-svg').querySelector('use').setAttribute('href',a.sym);
+  document.getElementById('big-cap').textContent=a.name+' — '+a.meta;
+  document.getElementById('blind-txt').textContent=a.blind;
+  document.getElementById('deaf-txt').textContent=a.deaf;
+  document.getElementById('mstats').innerHTML=a.stats.map(([l,v])=>`<div class="ms">${l} <b>${v}</b></div>`).join('');
+  document.getElementById('vibe-txt').textContent=a.vibe;
+  const bars=document.getElementById('vibe-bars');
+  bars.innerHTML=a.heights.map(h=>`<span style="height:${h}%;background:#1D9E75"></span>`).join('');
+  stopSpeak();stopVibe();
+}
+function stopSpeak(){if('speechSynthesis'in window)window.speechSynthesis.cancel();speaking=false;const b=document.getElementById('speak-btn');if(b)b.textContent='▶ Écouter la description';}
+function doSpeak(){
+  if(speaking){stopSpeak();return;}
+  if(!('speechSynthesis'in window)){alert('Synthèse vocale non supportée dans ce navigateur.');return;}
+  stopVibe();
+  const u=new SpeechSynthesisUtterance(ART[curA].blind);u.lang='fr-FR';
+  u.onend=()=>{speaking=false;document.getElementById('speak-btn').textContent='▶ Écouter la description';};
+  u.onerror=()=>{speaking=false;};
+  speaking=true;document.getElementById('speak-btn').textContent='⏹ Arrêter la lecture';
+  window.speechSynthesis.speak(u);
+}
+function stopVibe(){if(vibeInt)clearInterval(vibeInt);vibeInt=null;vibeOn=false;const b=document.getElementById('play-btn');if(b)b.textContent='▶ Lancer la partition visuelle';}
+function doVibe(){
+  if(vibeOn){stopVibe();return;}
+  stopSpeak();vibeOn=true;document.getElementById('play-btn').textContent='⏹ Arrêter';
+  const bars=document.getElementById('vibe-bars').children;
+  const base=ART[curA].heights;let frame=0;
+  vibeInt=setInterval(()=>{
+    frame++;
+    for(let i=0;i<bars.length;i++){
+      const j=(Math.random()*24)-12;
+      bars[i].style.height=Math.max(8,Math.min(100,base[i]+j))+'%';
+      bars[i].style.opacity=(0.5+Math.random()*0.5).toString();
+    }
+    if(frame>150)stopVibe();
+  },180);
+}
+
+// WELLBEING
+let tInt=null,tSec=600,tRun=false,tDone=false,mB=0,mA=0;
+function fmtT(s){return Math.floor(s/60)+':'+(s%60<10?'0':'')+s%60;}
+function startWb(i){
+  const s=WBS[i];tSec=s.dur;tRun=false;tDone=false;mB=0;mA=0;
+  document.getElementById('sv-h').textContent=s.t;
+  document.getElementById('sv-g').textContent=s.g;
+  document.getElementById('sv-svg').querySelector('use').setAttribute('href',ART[s.si].sym);
+  document.getElementById('t-ring').textContent=fmtT(tSec);
+  document.getElementById('t-st').textContent='Prêt à démarrer';
+  document.getElementById('t-btn').textContent='▶ Démarrer la séance';
+  document.getElementById('t-btn').style.display='block';
+  document.getElementById('after-sec').style.display='none';
+  document.getElementById('cmp-box').style.display='none';
+  document.getElementById('jrnl').value='';
+  document.querySelectorAll('#mb-row .mbd,#ma-row .mbd').forEach(b=>b.classList.remove('on'));
+  document.getElementById('wb-list').style.display='none';
+  document.getElementById('wb-sess').style.display='block';
+}
+function stopWb(){clearInterval(tInt);tInt=null;tRun=false;document.getElementById('wb-list').style.display='block';document.getElementById('wb-sess').style.display='none';}
+function tickTimer(){
+  if(tDone)return;
+  if(tRun){clearInterval(tInt);tInt=null;tRun=false;document.getElementById('t-btn').textContent='▶ Reprendre';document.getElementById('t-st').textContent='En pause';}
+  else{tRun=true;document.getElementById('t-btn').textContent='⏸ Pause';document.getElementById('t-st').textContent='Séance en cours…';
+    tInt=setInterval(()=>{if(tSec>0){tSec--;document.getElementById('t-ring').textContent=fmtT(tSec);}
+    else{clearInterval(tInt);tInt=null;tRun=false;tDone=true;document.getElementById('t-st').textContent='✓ Séance terminée';document.getElementById('t-btn').style.display='none';document.getElementById('after-sec').style.display='block';}},1000);}
+}
+function moodFn(ph,v,btn){
+  const rid=ph==='b'?'mb-row':'ma-row';
+  document.querySelectorAll('#'+rid+' .mbd').forEach(b=>b.classList.remove('on'));btn.classList.add('on');
+  if(ph==='b'){mB=v;}else{mA=v;document.getElementById('cv-b').textContent=mB||'—';document.getElementById('cv-a').textContent=mA;
+    const d=mA-mB;document.getElementById('cmp-msg').textContent=d>0?'Votre humeur s\'est améliorée après la séance ✓':d<0?'La séance a soulevé des émotions. C\'est tout à fait normal.':'Votre humeur est stable.';
+    document.getElementById('cmp-box').style.display='block';}
+}
+
+// ADMIN
+function login(){if(document.getElementById('pw').value==='admin123'){document.getElementById('adm-login').style.display='none';document.getElementById('adm-panel').style.display='block';renderList();}else{document.getElementById('pw-err').style.display='block';}}
+function openForm(){editId=null;wkCnt=0;document.getElementById('form-h').textContent='Nouvelle exposition';['f-t','f-s','f-i'].forEach(id=>document.getElementById(id).value='');document.getElementById('works-c').innerHTML='';addWork();document.getElementById('adm-form').style.display='block';document.getElementById('adm-form').scrollIntoView({behavior:'smooth'});}
+function closeForm(){document.getElementById('adm-form').style.display='none';}
+function addWork(){wkCnt++;const i=wkCnt;const d=document.createElement('div');d.className='wblk';d.id='wb-'+i;
+  d.innerHTML=`<div class="wbh"><span class="wbn">Œuvre ${i}</span><button class="rm" onclick="document.getElementById('wb-${i}').remove()">✕ Retirer</button></div>
+  <div class="row2"><div><label class="fl">Titre</label><input class="fi" id="w${i}t"></div><div><label class="fl">Artiste</label><input class="fi" id="w${i}a"></div></div>
+  <div class="row3"><div><label class="fl">Pays</label><input class="fi" id="w${i}c" placeholder="ex: France"></div><div><label class="fl">Période</label><input class="fi" id="w${i}p" placeholder="ex: 1888"></div><div><label class="fl">Musée</label><input class="fi" id="w${i}m"></div></div>
+  <div style="margin-bottom:10px"><label class="fl">Analyse éditoriale</label><textarea class="ft" id="w${i}an" rows="3" placeholder="Analyse formelle, contexte culturel, signification…"></textarea></div>
+  <div><label class="fl">Point de comparaison avec les autres œuvres</label><textarea class="ft" id="w${i}cp" rows="2" placeholder="En quoi dialogue-t-elle avec les autres ?"></textarea></div>`;
+  document.getElementById('works-c').appendChild(d);}
+function getWorks(){return[...document.querySelectorAll('.wblk')].map(b=>{const i=b.id.replace('wb-','');return{title:document.getElementById('w'+i+'t')?.value||'',artist:document.getElementById('w'+i+'a')?.value||'',country:document.getElementById('w'+i+'c')?.value||'',period:document.getElementById('w'+i+'p')?.value||'',museum:document.getElementById('w'+i+'m')?.value||'',analysis:document.getElementById('w'+i+'an')?.value||'',compare:document.getElementById('w'+i+'cp')?.value||''};}).filter(w=>w.title.trim());}
+function saveEx(st){const e={id:editId||Date.now(),status:st,title:document.getElementById('f-t').value||'Sans titre',subtitle:document.getElementById('f-s').value,intro:document.getElementById('f-i').value,theme:document.getElementById('f-th').value,works:getWorks()};expos=editId?expos.map(x=>x.id===editId?e:x):[...expos,e];closeForm();renderList();renderHome();}
+function renderList(){const el=document.getElementById('ex-list');if(!expos.length){el.innerHTML='<p style="color:#aaa;font-size:13px;padding:12px 0">Aucune exposition créée.</p>';return;}el.innerHTML=expos.map(e=>`<div class="expo-item"><div style="flex:1"><div style="display:flex;gap:8px;margin-bottom:6px;flex-wrap:wrap"><span class="badge ${e.status==='published'?'bt':'bb'}">${e.status==='published'?'Publiée':'Brouillon'}</span><span class="badge bg">${e.theme}</span></div><h4>${e.title}</h4><p>${e.subtitle||''} · ${e.works.length} œuvre(s)</p></div><div class="ei-acts"><button class="ab" onclick="viewSp(${e.id})">Voir</button><button class="ab" onclick="editEx(${e.id})">Modifier</button><button class="ab del" onclick="expos=expos.filter(x=>x.id!==${e.id});renderList();renderHome()">Supprimer</button></div></div>`).join('');}
+function editEx(id){const e=expos.find(x=>x.id===id);if(!e)return;editId=id;wkCnt=0;document.getElementById('form-h').textContent='Modifier';document.getElementById('f-t').value=e.title;document.getElementById('f-s').value=e.subtitle||'';document.getElementById('f-i').value=e.intro||'';document.getElementById('f-th').value=e.theme;document.getElementById('works-c').innerHTML='';e.works.forEach(w=>{addWork();const i=wkCnt;document.getElementById('w'+i+'t').value=w.title;document.getElementById('w'+i+'a').value=w.artist;document.getElementById('w'+i+'c').value=w.country;document.getElementById('w'+i+'p').value=w.period;document.getElementById('w'+i+'m').value=w.museum;document.getElementById('w'+i+'an').value=w.analysis;document.getElementById('w'+i+'cp').value=w.compare;});document.getElementById('adm-form').style.display='block';document.getElementById('adm-form').scrollIntoView({behavior:'smooth'});}
+function viewSp(id){const e=expos.find(x=>x.id===id);if(!e)return;document.getElementById('sp-bdg').innerHTML=`<span class="badge bg">Exposition spéciale</span> <span class="badge bt">${e.theme}</span>`;document.getElementById('sp-h').textContent=e.title;document.getElementById('sp-sub').textContent=e.subtitle||'';document.getElementById('sp-intro').textContent=e.intro||'';document.getElementById('sp-cnt').textContent='Comparaison mondiale · '+e.works.length+' œuvre(s)';document.getElementById('sp-wks').innerHTML=e.works.map(w=>`<div class="wk-card"><div class="wk-top"><div><h3>${w.title}</h3><p>${w.artist} · ${w.period} · ${w.country}${w.museum?' · '+w.museum:''}</p></div><div class="wk-flag">${gFlag(w.country)}</div></div>${w.analysis?`<p class="wk-ana">${w.analysis}</p>`:''} ${w.compare?`<div class="cmp-pt"><div class="cmp-l">Point de comparaison</div>${w.compare}</div>`:''}</div>`).join('');document.querySelectorAll('.pg').forEach(p=>p.classList.remove('on'));document.getElementById('pg-sp').classList.add('on');document.querySelectorAll('.nav-links button').forEach(b=>b.classList.remove('on'));window.scrollTo(0,0);}
+function renderHome(){const pub=expos.filter(e=>e.status==='published');const el=document.getElementById('sp-home');if(!el)return;if(!pub.length){el.innerHTML='<p style="color:#aaa;font-size:13px">Créez une exposition dans l\'espace Admin pour qu\'elle apparaisse ici.</p>';return;}el.innerHTML=pub.map(e=>`<div class="sp-card" onclick="viewSp(${e.id})"><p class="sp-ey">Comparaison mondiale · ${e.works.length} œuvre(s)</p><h3 class="sp-t">${e.title}</h3><p class="sp-s">${e.subtitle||''}</p><div style="margin-top:10px"><span class="badge bg">${e.theme}</span></div></div>`).join('');}
+renderHome();
+</script>
+</body>
+</html>

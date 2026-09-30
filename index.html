@@ -18,13 +18,19 @@ button:focus-visible,a:focus-visible{outline:3px solid var(--bleu);outline-offse
 
 /* ÉCRAN D'OUVERTURE (logo) */
 html.splash-actif{overflow:hidden}
-.splash{position:fixed;inset:0;z-index:1000;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2rem;padding:24px;background:#fff;transition:opacity .8s ease,visibility .8s ease}
+.splash{position:fixed;inset:0;z-index:1000;overflow:hidden;background:var(--jaune);transition:opacity .8s ease,visibility .8s ease}
+.splash:focus{outline:none}
 .splash.is-hidden{opacity:0;visibility:hidden}
-.splash-logo{width:min(90vw,900px);max-height:62vh;object-fit:contain;display:block;opacity:0;animation:logoEntree 1.2s cubic-bezier(.2,.8,.2,1) .1s forwards}
-.splash-name{font-family:var(--font-bauhaus);font-size:clamp(1.6rem,5vw,3rem);letter-spacing:.02em;margin:0;opacity:0;animation:apparaitre .7s ease 1.3s forwards}
-.splash-skip{position:absolute;right:1.25rem;bottom:calc(1.25rem + env(safe-area-inset-bottom,0px));font-size:.95rem;background:#fff;border:2px solid var(--noir);border-radius:999px;padding:.45rem 1.1rem;color:var(--noir)}
-.splash-skip:hover{background:var(--noir);color:#fff}
-@keyframes logoEntree{from{opacity:0;transform:scale(.85)}to{opacity:1;transform:none}}
+/* Fond, visible seulement quand l'écran est plus étroit que le logo (téléphone en hauteur) :
+   le bord haut du logo est étiré vers le haut, le bord bas vers le bas, puis adouci par un flou */
+.splash::before,.splash::after{content:"";position:absolute;left:-40px;right:-40px;height:calc(50% + 40px);z-index:0;background:url(logo.jpg) no-repeat;background-size:100% 700%;filter:blur(14px) saturate(1.1)}
+.splash::before{top:-40px;background-position:center top}
+.splash::after{bottom:-40px;background-position:center bottom}
+.splash-logo{position:relative;z-index:1;display:block;width:100%;height:100%;object-fit:cover;opacity:0;animation:logoEntree 1.2s cubic-bezier(.2,.8,.2,1) .1s forwards}
+/* Écran en hauteur (téléphone) : on montre le logo entier pour ne pas couper le mot IMAGINE */
+@media(max-aspect-ratio:4/3){.splash-logo{object-fit:contain}}
+.splash-name{position:absolute;z-index:2;left:50%;bottom:calc(28px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);white-space:nowrap;font-family:var(--font-bauhaus);font-size:clamp(1.4rem,4.5vw,2.6rem);letter-spacing:.02em;margin:0;background:#fff;border:3px solid var(--noir);padding:.2em .7em;opacity:0;animation:apparaitre .7s ease 1.3s forwards}
+@keyframes logoEntree{from{opacity:0;transform:scale(1.08)}to{opacity:1;transform:none}}
 @keyframes apparaitre{to{opacity:1}}
 
 /* EN-TÊTE */
@@ -259,10 +265,9 @@ hr{border:none;border-top:1px solid #e0d5c0;margin:28px 0}
 <body>
 
 <!-- ÉCRAN D'OUVERTURE : le logo s'affiche en grand, puis la page d'accueil apparaît -->
-<div class="splash" id="splash" role="dialog" aria-label="Ouverture — logo de l'association Jaune-Rouge-Bleu">
-  <img class="splash-logo" src="logo.png" alt="Logo de l'association Jaune-Rouge-Bleu : le mot IMAGINE sur des éclaboussures de peinture jaune, rouge et bleue">
+<div class="splash" id="splash" role="dialog" aria-label="Ouverture — logo de l'association Jaune-Rouge-Bleu" tabindex="-1">
+  <img class="splash-logo" src="logo.jpg" alt="Logo de l'association Jaune-Rouge-Bleu : le mot IMAGINE sur des éclaboussures de peinture jaune, rouge et bleue">
   <p class="splash-name">Jaune-Rouge-Bleu</p>
-  <button type="button" class="splash-skip" id="splash-skip">Passer l'introduction</button>
 </div>
 
 <nav>
@@ -922,8 +927,7 @@ renderHome();
 // ÉCRAN D'OUVERTURE
 (function () {
   var splash = document.getElementById('splash');
-  var skip = document.getElementById('splash-skip');
-  var DUREE = 45000; // durée d'affichage du logo, en millisecondes (45 secondes)
+  var DUREE = 6000; // durée d'affichage du logo, en millisecondes (6 secondes)
   var minuteur = null;
 
   function masquer() {
@@ -948,9 +952,8 @@ renderHome();
   } else {
     document.documentElement.classList.add('splash-actif');
     minuteur = setTimeout(masquer, reduit ? 1500 : DUREE);
-    skip.addEventListener('click', masquer);
     document.addEventListener('keydown', function (e) { if (e.key === 'Escape') masquer(); });
-    skip.focus({ preventScroll: true });
+    splash.focus({ preventScroll: true });
   }
 })();
 </script>

@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Jaune Rouge-Bleu</title>
+<title>Jaune-Rouge-Bleu</title>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
@@ -371,7 +371,7 @@ hr{border:none;border-top:1px solid #e0d5c0;margin:28px 0}
     </div>
   </div>
   <div class="stats-row">
-    <div class="stat"><div class="stat-n">1 000+</div><div class="stat-l">Institutions</div></div>
+    <div class="stat"><div class="stat-n">2</div><div class="stat-l">Musées sources/div></div>
     <div class="stat"><div class="stat-n">5 000</div><div class="stat-l">Ans d'histoire</div></div>
     <div class="stat"><div class="stat-n">4</div><div class="stat-l">Langues</div></div>
     <div class="stat"><div class="stat-n">∞</div><div class="stat-l">Expositions uniques</div></div>
@@ -435,13 +435,13 @@ hr{border:none;border-top:1px solid #e0d5c0;margin:28px 0}
     <div class="tl">
       <div class="tl-l"><div class="tl-dot"></div><div class="tl-line"></div></div>
       <div style="flex:1;padding-bottom:16px">
-        <div class="era">Émergence · 1820–1840</div>
+        <div class="era">Émergence · 1820–1850</div>
         <div class="tl-title">Les débuts — regard neuf sur la nature</div>
         <div class="tl-text">J.M.W. Turner abandonne les conventions académiques et commence à dissoudre les formes dans la lumière. Contemporain de Hokusai au Japon, chacun réinvente le rapport à la nature dans sa propre tradition culturelle.</div>
         <div class="mini-grid">
           <div class="mini" onclick="go('acc',document.querySelectorAll('.nav-links button')[2])">
             <svg viewBox="0 0 400 280"><use href="#art-wave"/></svg>
-            <div class="mini-info"><b>La Grande Vague</b><span>Hokusai · 1831 · Japon</span></div>
+            <div class="mini-info"><b>La Grande Vague</b><span>Hokusai · vers 1830-1832 · Japon</span></div>
           </div>
           <div class="mini">
             <div style="height:120px;background:#d4c090;display:flex;align-items:center;justify-content:center;font-size:40px">🌅</div>
@@ -453,9 +453,9 @@ hr{border:none;border-top:1px solid #e0d5c0;margin:28px 0}
     <div class="tl">
       <div class="tl-l"><div class="tl-dot"></div><div class="tl-line"></div></div>
       <div style="flex:1;padding-bottom:16px">
-        <div class="era">Évolution · 1860–1890</div>
+        <div class="era">Évolution · 1860–1910</div>
         <div class="tl-title">La révolution impressionniste</div>
-        <div class="tl-text">Monet, Renoir, Pissarro bouleversent la peinture académique. Simultanément, les Barbizonistes influencent les peintres américains de Hudson River School — une révolution parallèle mais indépendante.</div>
+        <div class="tl-text">Monet, Renoir, Pissarro bouleversent la peinture académique. Au mème moment, les peintres de l'école de Barbizon inspirent à leur tour plusiers paysagistes américains.</div>
         <div class="mini-grid">
           <div class="mini" onclick="go('acc',document.querySelectorAll('.nav-links button')[2])">
             <svg viewBox="0 0 400 280"><use href="#art-nympheas"/></svg>
@@ -463,7 +463,7 @@ hr{border:none;border-top:1px solid #e0d5c0;margin:28px 0}
           </div>
           <div class="mini" onclick="go('acc',document.querySelectorAll('.nav-links button')[2])">
             <svg viewBox="0 0 400 280"><use href="#art-irises"/></svg>
-            <div class="mini-info"><b>Irises près d'Arles</b><span>Van Gogh · 1888 · Pays-Bas</span></div>
+            <div class="mini-info"><b>Iris (Van Gogh, 1890, Saint-Remy)/b><span>Van Gogh · 1890 · Pays-Bas</span></div>
           </div>
         </div>
       </div>
@@ -488,7 +488,7 @@ hr{border:none;border-top:1px solid #e0d5c0;margin:28px 0}
     <div class="art-cards" id="art-cards">
       <div class="art-card on" onclick="pickArt(0,this)">
         <svg class="art-card-svg" viewBox="0 0 400 280"><use href="#art-wave"/></svg>
-        <div class="art-card-info"><b>La Grande Vague</b><span>Hokusai · Japon · 1831</span></div>
+        <div class="art-card-info"><b>La Grande Vague</b><span>Hokusai · Japon · vers 1830-1832</span></div>
       </div>
       <div class="art-card" onclick="pickArt(1,this)">
         <svg class="art-card-svg" viewBox="0 0 400 280"><use href="#art-nympheas"/></svg>
@@ -496,7 +496,7 @@ hr{border:none;border-top:1px solid #e0d5c0;margin:28px 0}
       </div>
       <div class="art-card" onclick="pickArt(2,this)">
         <svg class="art-card-svg" viewBox="0 0 400 280"><use href="#art-irises"/></svg>
-        <div class="art-card-info"><b>Irises près d'Arles</b><span>Van Gogh · Pays-Bas · 1888</span></div>
+        <div class="art-card-info"><b>Iris (Van Gogh,1890, Saint-Remy)</b><span>Van Gogh · Pays-Bas · 1890</span></div>
       </div>
       <div class="art-card" onclick="pickArt(3,this)">
         <svg class="art-card-svg" viewBox="0 0 400 280"><use href="#art-tahiti"/></svg>
@@ -505,7 +505,7 @@ hr{border:none;border-top:1px solid #e0d5c0;margin:28px 0}
     </div>
     <div class="big-art-wrap">
       <svg id="big-svg" style="width:100%;height:320px;display:block" viewBox="0 0 400 280"><use href="#art-wave"/></svg>
-      <div class="big-art-cap" id="big-cap">La Grande Vague de Kanagawa — Katsushika Hokusai · Japon · 1831 · Metropolitan Museum of Art, New York</div>
+      <div class="big-art-cap" id="big-cap">La Grande Vague de Kanagawa — Katsushika Hokusai · Japon · vers 1830-1832 · Metropolitan Museum of Art, New York</div>
     </div>
     <div class="acc-panels">
       <div class="panel">
@@ -533,7 +533,7 @@ hr{border:none;border-top:1px solid #e0d5c0;margin:28px 0}
               <div class="ms">Tempo <b>126 BPM</b></div><div class="ms">Tonalité <b>Mi mineur</b></div>
               <div class="ms">Énergie <b>Forte</b></div><div class="ms">Caractère <b>Percussif</b></div>
             </div>
-            <div class="box-text" id="deaf-txt">La musique de cette œuvre est percussive et tendue — comme les vagues qui déferlent. Des pulsations fortes et régulières représentent la puissance de l'océan. Une montée progressive vers un climax intense, suivie d'un silence soudain.</div>
+            <div class="box-text" id="deaf-txt">La musique de cette œuvre est percussive et tendue — comme les vagues qui déferlent. Sur les téléphones Android, chaque oeuvre possede son propre rythme de vibration, à ressentir en tenant le téléphone. Sur tous les appareils, la partition visuelle traduit ce rythme à l'écran.</div>
             <button class="btn-g" id="play-btn" onclick="doVibe()">▶ Lancer la partition visuelle</button>
           </div>
           <div class="vibe-box">
@@ -629,7 +629,6 @@ hr{border:none;border-top:1px solid #e0d5c0;margin:28px 0}
       <input class="fi" type="password" id="pw" placeholder="••••••••" onkeydown="if(event.key==='Enter')login()">
       <p class="err" id="pw-err">Mot de passe incorrect.</p>
       <button class="sbmt" onclick="login()">Accéder</button>
-      <p style="font-size:12px;color:#bbb;text-align:center;margin-top:12px">Démo : admin123</p>
     </div>
   </div>
   <div id="adm-panel" style="display:none">
@@ -695,7 +694,7 @@ hr{border:none;border-top:1px solid #e0d5c0;margin:28px 0}
 
 <script>
 const ART = [
-  { sym:"#art-wave", name:"La Grande Vague de Kanagawa", meta:"Katsushika Hokusai · Japon · 1831 · Metropolitan Museum of Art",
+  { sym:"#art-wave", name:"La Grande Vague de Kanagawa", meta:"Katsushika Hokusai · Japon · vers 1830-1832 · Metropolitan Museum of Art",
     blind:"Une vague géante en forme de griffe domine la composition. Au creux de son écume blanche et dentelée, le Mont Fuji apparaît en miniature au loin, coiffé de neige. Trois embarcations de pêcheurs luttent contre le déferlement. Les teintes dominantes sont le bleu de Prusse profond, le blanc de l'écume et le beige du ciel hivernal.",
     deaf:"La musique de cette œuvre est percussive et tendue — comme les vagues qui déferlent. Des pulsations fortes et régulières représentent la puissance de l'océan. Une montée progressive vers un climax intense, suivie d'un silence soudain représentant le moment suspendu avant l'impact.",
     stats:[["Tempo","126 BPM"],["Tonalité","Mi mineur"],["Énergie","Forte"],["Caractère","Percussif"]],
@@ -707,7 +706,7 @@ const ART = [
     stats:[["Tempo","52 BPM"],["Tonalité","Fa majeur"],["Énergie","Douce"],["Caractère","Méditatif"]],
     vibe:"Vibrations douces et continues comme une respiration lente. Légère oscillation gauche-droite imitant les ondulations de l'eau. Aucun pic brusque — une texture constante et enveloppante sur toute la surface des mains.",
     heights:[30,25,35,22,38,28,32,24,33,26], wbSym:"#art-irises" },
-  { sym:"#art-irises", name:"Irises près d'Arles", meta:"Vincent van Gogh · Pays-Bas · 1888 · Getty Museum, Los Angeles",
+  { sym:"#art-irises", name:"Iris (Van Gogh,1890, Saint-Remy)", meta:"Vincent van Gogh · Pays-Bas · 1890 · Getty Museum, Los Angeles",
     blind:"Un champ d'iris violets et bleus s'étend à perte de vue sous un ciel jaune citron vibrant. Les fleurs sont rendues en touches épaisses et tourbillonnantes qui donnent l'impression que le champ est en mouvement. Le contraste violet-jaune est intense, presque électrique.",
     deaf:"La musique de cette œuvre est joyeuse et irrégulière — comme les coups de pinceau énergiques de Van Gogh. Un tempo vif avec des accents imprévisibles reflète l'exubérance et la vitalité de la composition. Des explosions de joie sonore succèdent à des moments de calme.",
     stats:[["Tempo","98 BPM"],["Tonalité","Ré majeur"],["Énergie","Vive"],["Caractère","Exubérant"]],
@@ -847,7 +846,7 @@ function closeForm(){document.getElementById('adm-form').style.display='none';}
 function addWork(){wkCnt++;const i=wkCnt;const d=document.createElement('div');d.className='wblk';d.id='wb-'+i;
   d.innerHTML=`<div class="wbh"><span class="wbn">Œuvre ${i}</span><button class="rm" onclick="document.getElementById('wb-${i}').remove()">✕ Retirer</button></div>
   <div class="row2"><div><label class="fl">Titre</label><input class="fi" id="w${i}t"></div><div><label class="fl">Artiste</label><input class="fi" id="w${i}a"></div></div>
-  <div class="row3"><div><label class="fl">Pays</label><input class="fi" id="w${i}c" placeholder="ex: France"></div><div><label class="fl">Période</label><input class="fi" id="w${i}p" placeholder="ex: 1888"></div><div><label class="fl">Musée</label><input class="fi" id="w${i}m"></div></div>
+  <div class="row3"><div><label class="fl">Pays</label><input class="fi" id="w${i}c" placeholder="ex: France"></div><div><label class="fl">Période</label><input class="fi" id="w${i}p" placeholder="ex: 1890"></div><div><label class="fl">Musée</label><input class="fi" id="w${i}m"></div></div>
   <div style="margin-bottom:10px"><label class="fl">Analyse éditoriale</label><textarea class="ft" id="w${i}an" rows="3" placeholder="Analyse formelle, contexte culturel, signification…"></textarea></div>
   <div><label class="fl">Point de comparaison avec les autres œuvres</label><textarea class="ft" id="w${i}cp" rows="2" placeholder="En quoi dialogue-t-elle avec les autres ?"></textarea></div>`;
   document.getElementById('works-c').appendChild(d);}

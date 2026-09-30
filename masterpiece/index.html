@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Masterpiece — Jaune-Rouge-Bleu</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Righteous&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --jaune: #F5C400;
+    --rouge: #D8261C;
+    --bleu:  #1C3F9E;
+    --noir:  #000000;
+    --papier:#FFFFFF;
+    --gris:  #5A5A5A;
+    --font-bauhaus: "Bauhaus 93", "Bauhaus", "Righteous", "Jost", sans-serif;
+    --font-texte: "Jost", "Futura", "Century Gothic", "Segoe UI", sans-serif;
+    box-sizing: border-box;
+  }
+  *, *::before, *::after { box-sizing: inherit; }
+  body {
+    margin: 0; min-height: 100vh;
+    background: var(--papier); color: var(--noir);
+    font-family: var(--font-texte); font-size: 1.0625rem; line-height: 1.5;
+  }
+  button { font: inherit; color: inherit; }
+  button:focus-visible, a:focus-visible { outline: 3px solid var(--bleu); outline-offset: 3px; }
+
+  header {
+    display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;
+    gap: .75rem 2rem; padding: 1rem clamp(1rem, 5vw, 3rem);
+    border-bottom: 6px solid var(--noir);
+  }
+  .titre { font-family: var(--font-bauhaus); font-size: clamp(2rem, 7vw, 3.5rem); line-height: 1; margin: 0; font-weight: 400; }
+  .titre .r { color: var(--rouge); } .titre .b { color: var(--bleu); }
+  .titre .j { color: var(--jaune); text-shadow: 1px 0 0 #000, -1px 0 0 #000, 0 1px 0 #000, 0 -1px 0 #000; }
+  .retour { color: var(--noir); font-weight: 500; text-decoration: none; border-bottom: 3px solid var(--rouge); }
+
+  .hud { display: flex; flex-wrap: wrap; gap: 0; border-bottom: 2px solid var(--noir); }
+  .hud div { flex: 1 1 25%; padding: .6rem 1rem; border-right: 2px solid var(--noir); min-width: 7rem; }
+  .hud div:last-child { border-right: none; }
+  .hud small { display: block; color: var(--gris); font-size: .8rem; text-transform: uppercase; letter-spacing: .06em; }
+  .hud strong { font-size: 1.4rem; font-weight: 600; }
+
+  main { max-width: 1000px; margin: 0 auto; padding: 1.5rem 1rem 3rem; }
+  .consigne { text-align: center; font-size: 1.2rem; font-weight: 500; margin: 0 0 1rem; min-height: 1.8em; }
+
+  .plateaux { display: flex; flex-wrap: wrap; justify-content: center; gap: 1.5rem; }
+  .plateau { flex: 0 1 460px; }
+  .plateau h2 { font-size: 1rem; margin: 0 0 .4rem; text-transform: uppercase; letter-spacing: .08em; }
+  .plateau[hidden] { display: none; }
+  svg.grille { width: 100%; height: auto; display: block; border: 4px solid var(--noir); background: var(--papier); touch-action: manipulation; }
+  .case { fill: transparent; stroke: #e4e4e4; stroke-width: 1; }
+  .jouable .case { cursor: pointer; }
+  .jouable .case:hover { fill: #f4f4f4; }
+  .case.focus { stroke: var(--bleu); stroke-width: 4; }
+  .forme { pointer-events: none; }
+  .apparait { animation: pop .25s cubic-bezier(.2,.8,.2,1); transform-box: fill-box; transform-origin: center; }
+  @keyframes pop { from { transform: scale(.3); opacity: 0; } to { transform: none; opacity: 1; } }
+
+  .barre { height: 8px; background: var(--noir); margin-top: .5rem; transform-origin: left; }
+
+  .palette { display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem 2rem; margin: 1.25rem 0; }
+  .palette[hidden] { display: none; }
+  .groupe { display: flex; gap: .5rem; }
+  .outil {
+    width: 56px; height: 56px; padding: 6px; background: var(--papier);
+    border: 3px solid var(--noir); cursor: pointer; display: grid; place-items: center;
+  }
+  .outil svg { width: 100%; height: 100%; }
+  .outil[aria-pressed="true"] { box-shadow: 4px 4px 0 var(--noir); transform: translate(-2px,-2px); background: #f2f2f2; }
+  .outil.gomme { font-size: .75rem; font-weight: 600; }
+
+  .actions { display: flex; flex-wrap: wrap; justify-content: center; gap: .75rem; margin-top: 1rem; }
+  .btn { font-weight: 600; padding: .85rem 1.5rem; border: 3px solid var(--noir); background: var(--papier); cursor: pointer; }
+  .btn-principal { background: var(--bleu); border-color: var(--bleu); color: #fff; }
+  .btn:hover { transform: translate(-2px,-2px); box-shadow: 4px 4px 0 var(--noir); }
+  .btn[hidden] { display: none; }
+
+  .verdict { text-align: center; margin-top: 1rem; }
+  .verdict .note { font-family: var(--font-bauhaus); font-size: clamp(2rem, 8vw, 3.5rem); line-height: 1.1; }
+  .verdict p { margin: .25rem 0; color: var(--gris); }
+
+  .accueil { max-width: 38em; margin: 1rem auto; text-align: center; }
+  .accueil ol { text-align: left; display: inline-block; margin: .5rem 0 1.5rem; }
+  .accueil[hidden] { display: none; }
+
+  .niveaux { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .75rem; margin: 0 0 1.5rem; text-align: left; }
+  .niveau {
+    background: var(--papier); border: 3px solid var(--noir); padding: .9rem 1rem; cursor: pointer;
+    display: flex; flex-direction: column; align-items: flex-start; gap: .35rem; text-align: left;
+  }
+  .niveau svg { width: 28px; height: 28px; }
+  .niveau strong { font-size: 1.15rem; }
+  .niveau span { color: var(--gris); font-size: .9rem; line-height: 1.35; }
+  .niveau em { font-style: normal; font-size: .8rem; font-weight: 600; text-transform: uppercase; letter-spacing: .05em; }
+  .niveau[aria-checked="true"] { box-shadow: 5px 5px 0 var(--noir); transform: translate(-2px,-2px); }
+  .niveau[data-niveau="facile"][aria-checked="true"] { background: #fff8d6; }
+  .niveau[data-niveau="normal"][aria-checked="true"] { background: #fde4e2; }
+  .niveau[data-niveau="expert"][aria-checked="true"] { background: #e2e8f7; }
+  @media (max-width: 560px) { .niveaux { grid-template-columns: 1fr; } }
+
+  @media (prefers-reduced-motion: reduce) {
+    .apparait { animation: none; }
+    .btn:hover, .outil[aria-pressed="true"], .niveau[aria-checked="true"] { transform: none; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1 class="titre"><span class="j">Master</span><span class="r">pie</span><span class="b">ce</span></h1>
+  <a class="retour" href="../index.html">← Jaune-Rouge-Bleu</a>
+</header>
+
+<div class="hud" aria-live="polite">
+  <div><small>Niveau</small><strong id="h-niveau">Normal</strong></div>
+  <div><small>Tableau</small><strong id="h-manche">–</strong></div>
+  <div><small>Score</small><strong id="h-score">0</strong></div>
+  <div><small>Vies</small><strong id="h-vies">●●●</strong></div>
+  <div><small>Record</small><strong id="h-record">0</strong></div>
+</div>
+
+<main>
+  <section class="accueil" id="accueil">
+    <p><strong>Devenez le copiste d'un chef-d'œuvre.</strong> Une composition apparaît quelques secondes : mémorisez-la, puis repeignez-la de mémoire.</p>
+    <ol>
+      <li>Observez les formes et les couleurs.</li>
+      <li>Choisissez une forme et une couleur, puis touchez une case pour peindre.</li>
+      <li>Atteignez le seuil de ressemblance pour passer au tableau suivant.</li>
+    </ol>
+    <div class="niveaux" role="radiogroup" aria-label="Niveau de difficulté" id="niveaux"></div>
+    <button class="btn btn-principal" id="b-jouer">Commencer</button>
+  </section>
+
+  <p class="consigne" id="consigne" aria-live="assertive"></p>
+
+  <div class="plateaux">
+    <div class="plateau" id="p-modele" hidden>
+      <h2 id="t-modele">L'original</h2>
+      <svg class="grille" id="g-modele" role="img" aria-label="Composition originale"></svg>
+      <div class="barre" id="barre"></div>
+    </div>
+    <div class="plateau" id="p-joueur" hidden>
+      <h2>Votre copie</h2>
+      <svg class="grille jouable" id="g-joueur" role="grid" aria-label="Votre toile : flèches pour se déplacer, Entrée pour peindre"></svg>
+    </div>
+  </div>
+
+  <div class="palette" id="palette" hidden>
+    <div class="groupe" role="group" aria-label="Forme" id="formes"></div>
+    <div class="groupe" role="group" aria-label="Couleur" id="couleurs"></div>
+    <div class="groupe"><button class="outil gomme" id="gomme" aria-pressed="false">Gomme</button></div>
+  </div>
+
+  <div class="actions">
+    <button class="btn btn-principal" id="b-valider" hidden>Signer le tableau</button>
+    <button class="btn btn-principal" id="b-suivant" hidden>Tableau suivant</button>
+    <button class="btn btn-principal" id="b-rejouer" hidden>Rejouer</button>
+    <button class="btn" id="b-niveau" hidden>Changer de niveau</button>
+  </div>
+
+  <div class="verdict" id="verdict" aria-live="polite"></div>
+</main>
+
+<script>
+(function () {
+  var TAILLE = 5;           // côté de la grille, fixé par le niveau
+  var CASE = 100;           // unité SVG d'une case
+  var FORMES = ['triangle', 'carre', 'cercle'];
+  var NOMS_FORMES = { triangle: 'triangle', carre: 'carré', cercle: 'cercle' };
+  var COULEURS = { jaune: '#F5C400', rouge: '#D8261C', bleu: '#1C3F9E', noir: '#000000' };
+  var NS = 'http://www.w3.org/2000/svg';
+
+  // Chaque niveau règle la grille, la palette, le temps d'observation, le seuil et les vies
+  var NIVEAUX = {
+    facile: {
+      nom: 'Facile', forme: 'triangle', couleur: 'jaune',
+      texte: 'Grille 4 × 4, trois couleurs primaires, plus de temps pour observer.',
+      taille: 4, couleurs: ['jaune', 'rouge', 'bleu'], depart: 2, temps: 1.5, seuil: 50, vies: 3, bonus: 1
+    },
+    normal: {
+      nom: 'Normal', forme: 'carre', couleur: 'rouge',
+      texte: 'Grille 5 × 5, quatre couleurs, le rythme d\'une visite au musée.',
+      taille: 5, couleurs: ['jaune', 'rouge', 'bleu', 'noir'], depart: 3, temps: 1, seuil: 60, vies: 3, bonus: 2
+    },
+    expert: {
+      nom: 'Expert', forme: 'cercle', couleur: 'bleu',
+      texte: 'Grille 6 × 6, coup d\'œil éclair, seulement deux vies.',
+      taille: 6, couleurs: ['jaune', 'rouge', 'bleu', 'noir'], depart: 4, temps: 0.6, seuil: 75, vies: 2, bonus: 3
+    }
+  };
+
+  var $ = function (id) { return document.getElementById(id); };
+  var gModele = $('g-modele'), gJoueur = $('g-joueur');
+
+  var etat = {
+    niveau: 'normal', manche: 0, score: 0, vies: 3, record: 0,
+    modele: {}, copie: {},
+    forme: 'triangle', couleur: 'jaune', gomme: false,
+    focus: 0, phase: 'accueil', minuteur: null
+  };
+  try { etat.niveau = NIVEAUX[localStorage.getItem('jrb-masterpiece-niveau')] ? localStorage.getItem('jrb-masterpiece-niveau') : 'normal'; } catch (e) {}
+
+  function niv() { return NIVEAUX[etat.niveau]; }
+
+  function lireRecord() {
+    try { return parseInt(localStorage.getItem('jrb-masterpiece-record-' + etat.niveau), 10) || 0; } catch (e) { return 0; }
+  }
+
+  // ---------- Dessin ----------
+  function el(nom, attrs) {
+    var n = document.createElementNS(NS, nom);
+    for (var k in attrs) n.setAttribute(k, attrs[k]);
+    return n;
+  }
+
+  function dessinForme(forme, couleur, x, y, taille) {
+    var t = taille || CASE, m = t * 0.14, c = COULEURS[couleur];
+    var trait = { stroke: '#000', 'stroke-width': t * 0.04, fill: c, 'class': 'forme' };
+    var n;
+    if (forme === 'triangle') {
+      trait.points = [x + t / 2, y + m, x + t - m, y + t - m, x + m, y + t - m].join(' ');
+      n = el('polygon', trait);
+    } else if (forme === 'carre') {
+      trait.x = x + m; trait.y = y + m; trait.width = t - 2 * m; trait.height = t - 2 * m;
+      n = el('rect', trait);
+    } else {
+      trait.cx = x + t / 2; trait.cy = y + t / 2; trait.r = t / 2 - m;
+      n = el('circle', trait);
+    }
+    return n;
+  }
+
+  function preparerGrille(svg) {
+    svg.setAttribute('viewBox', '0 0 ' + TAILLE * CASE + ' ' + TAILLE * CASE);
+    svg.innerHTML = '';
+    for (var i = 0; i < TAILLE * TAILLE; i++) {
+      var r = el('rect', { x: (i % TAILLE) * CASE, y: Math.floor(i / TAILLE) * CASE, width: CASE, height: CASE, 'class': 'case', 'data-i': i });
+      svg.appendChild(r);
+    }
+    svg.appendChild(el('g', { 'class': 'calque' }));
+    svg.appendChild(el('g', { 'class': 'marques' }));
+  }
+
+  function peindre(svg, compo, anime) {
+    var calque = svg.querySelector('.calque');
+    calque.innerHTML = '';
+    Object.keys(compo).forEach(function (i) {
+      var f = compo[i];
+      var n = dessinForme(f.forme, f.couleur, (i % TAILLE) * CASE, Math.floor(i / TAILLE) * CASE);
+      if (anime) n.classList.add('apparait');
+      calque.appendChild(n);
+    });
+  }
+
+  function descriptionCase(i) {
+    var f = etat.copie[i];
+    var pos = 'ligne ' + (Math.floor(i / TAILLE) + 1) + ', colonne ' + (i % TAILLE + 1);
+    return f ? pos + ' : ' + NOMS_FORMES[f.forme] + ' ' + f.couleur : pos + ' : vide';
+  }
+
+  function majFocus() {
+    var cases = gJoueur.querySelectorAll('.case');
+    cases.forEach(function (c) { c.classList.remove('focus'); });
+    if (etat.phase === 'copie' && document.activeElement === gJoueur) cases[etat.focus].classList.add('focus');
+    gJoueur.setAttribute('aria-label', 'Votre toile — ' + descriptionCase(etat.focus));
+  }
+
+  // ---------- Palette ----------
+  function construirePalette() {
+    FORMES.forEach(function (f) {
+      var b = document.createElement('button');
+      b.className = 'outil'; b.dataset.forme = f;
+      b.setAttribute('aria-label', NOMS_FORMES[f]);
+      var s = el('svg', { viewBox: '0 0 100 100' });
+      s.appendChild(dessinForme(f, 'noir', 0, 0));
+      b.appendChild(s);
+      b.addEventListener('click', function () { etat.forme = f; etat.gomme = false; majPalette(); });
+      $('formes').appendChild(b);
+    });
+    $('gomme').addEventListener('click', function () { etat.gomme = !etat.gomme; majPalette(); });
+  }
+
+  // Les couleurs disponibles dépendent du niveau
+  function construireCouleurs() {
+    $('couleurs').innerHTML = '';
+    niv().couleurs.forEach(function (c) {
+      var b = document.createElement('button');
+      b.className = 'outil'; b.dataset.couleur = c;
+      b.setAttribute('aria-label', c);
+      b.innerHTML = '<span style="display:block;width:100%;height:100%;background:' + COULEURS[c] + '"></span>';
+      b.addEventListener('click', function () { etat.couleur = c; etat.gomme = false; majPalette(); });
+      $('couleurs').appendChild(b);
+    });
+    if (niv().couleurs.indexOf(etat.couleur) < 0) etat.couleur = niv().couleurs[0];
+  }
+
+  // ---------- Choix du niveau ----------
+  function construireNiveaux() {
+    Object.keys(NIVEAUX).forEach(function (cle) {
+      var n = NIVEAUX[cle];
+      var b = document.createElement('button');
+      b.type = 'button'; b.className = 'niveau'; b.dataset.niveau = cle;
+      b.setAttribute('role', 'radio');
+      var s = el('svg', { viewBox: '0 0 100 100', 'aria-hidden': 'true' });
+      s.appendChild(dessinForme(n.forme, n.couleur, 0, 0));
+      b.appendChild(s);
+      b.insertAdjacentHTML('beforeend',
+        '<strong>' + n.nom + '</strong><span>' + n.texte + '</span>' +
+        '<em>Seuil ' + n.seuil + ' % · points ×' + n.bonus + '</em>');
+      b.addEventListener('click', function () { choisirNiveau(cle); });
+      $('niveaux').appendChild(b);
+    });
+    // Flèches pour passer d'un niveau à l'autre, comme un groupe de boutons radio
+    $('niveaux').addEventListener('keydown', function (e) {
+      var cles = Object.keys(NIVEAUX), i = cles.indexOf(etat.niveau);
+      if (e.key === 'ArrowRight' || e.key === 'ArrowDown') i = (i + 1) % cles.length;
+      else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') i = (i + cles.length - 1) % cles.length;
+      else return;
+      e.preventDefault();
+      choisirNiveau(cles[i]);
+      $('niveaux').querySelector('[data-niveau="' + cles[i] + '"]').focus();
+    });
+    choisirNiveau(etat.niveau);
+  }
+
+  function choisirNiveau(cle) {
+    etat.niveau = cle;
+    try { localStorage.setItem('jrb-masterpiece-niveau', cle); } catch (e) {}
+    document.querySelectorAll('.niveau').forEach(function (b) {
+      var actif = b.dataset.niveau === cle;
+      b.setAttribute('aria-checked', String(actif));
+      b.tabIndex = actif ? 0 : -1;
+    });
+    etat.vies = niv().vies;
+    etat.record = lireRecord();
+    majHud();
+  }
+
+  function retourAccueil() {
+    clearTimeout(etat.minuteur);
+    etat.phase = 'accueil'; etat.manche = 0; etat.score = 0;
+    afficher(['p-modele', 'p-joueur', 'palette', 'b-valider', 'b-suivant', 'b-rejouer', 'b-niveau'], false);
+    $('verdict').innerHTML = '';
+    $('consigne').textContent = '';
+    afficher(['accueil'], true);
+    choisirNiveau(etat.niveau);
+    $('niveaux').querySelector('[aria-checked="true"]').focus();
+  }
+
+  function majPalette() {
+    document.querySelectorAll('[data-forme]').forEach(function (b) {
+      b.setAttribute('aria-pressed', String(!etat.gomme && b.dataset.forme === etat.forme));
+      var forme = b.querySelector('.forme');
+      forme.setAttribute('fill', COULEURS[etat.couleur]);
+    });
+    document.querySelectorAll('[data-couleur]').forEach(function (b) {
+      b.setAttribute('aria-pressed', String(!etat.gomme && b.dataset.couleur === etat.couleur));
+    });
+    $('gomme').setAttribute('aria-pressed', String(etat.gomme));
+  }
+
+  // ---------- Jeu ----------
+  function nouvelleComposition(n) {
+    var compo = {}, libres = [];
+    for (var i = 0; i < TAILLE * TAILLE; i++) libres.push(i);
+    var couleurs = niv().couleurs;
+    for (var k = 0; k < n; k++) {
+      var idx = libres.splice(Math.floor(Math.random() * libres.length), 1)[0];
+      compo[idx] = {
+        forme: FORMES[Math.floor(Math.random() * FORMES.length)],
+        couleur: couleurs[Math.floor(Math.random() * couleurs.length)]
+      };
+    }
+    return compo;
+  }
+
+  function majHud() {
+    var max = niv().vies, vies = Math.max(0, etat.vies);
+    $('h-niveau').textContent = niv().nom;
+    $('h-manche').textContent = etat.manche || '–';
+    $('h-score').textContent = etat.score;
+    $('h-vies').textContent = '●'.repeat(vies) + '○'.repeat(max - vies);
+    $('h-record').textContent = etat.record;
+  }
+
+  function afficher(ids, visible) {
+    ids.forEach(function (id) { $(id).hidden = !visible; });
+  }
+
+  function lancerPartie() {
+    var n = niv();
+    TAILLE = n.taille;
+    etat.manche = 0; etat.reussis = 0; etat.score = 0; etat.vies = n.vies; etat.focus = 0;
+    etat.record = lireRecord();
+    construireCouleurs();
+    afficher(['accueil', 'b-rejouer', 'b-niveau'], false);
+    mancheSuivante();
+  }
+
+  function mancheSuivante() {
+    etat.manche++;
+    majHud();
+    var n = Math.min(niv().depart - 1 + etat.manche, TAILLE * TAILLE - 2);
+    var duree = Math.round((1500 + n * 700) * niv().temps);
+    etat.modele = nouvelleComposition(n);
+    etat.copie = {};
+    etat.phase = 'memoire';
+
+    preparerGrille(gModele);
+    peindre(gModele, etat.modele, true);
+    $('t-modele').textContent = 'L\'original';
+    afficher(['p-modele'], true);
+    afficher(['p-joueur', 'palette', 'b-valider', 'b-suivant'], false);
+    $('verdict').innerHTML = '';
+    $('consigne').textContent = 'Mémorisez ces ' + n + ' formes…';
+
+    var barre = $('barre');
+    barre.style.display = '';
+    barre.style.transition = 'none';
+    barre.style.transform = 'scaleX(1)';
+    void barre.offsetWidth;
+    barre.style.transition = 'transform ' + duree + 'ms linear';
+    barre.style.transform = 'scaleX(0)';
+
+    clearTimeout(etat.minuteur);
+    etat.minuteur = setTimeout(phaseCopie, duree);
+  }
+
+  function phaseCopie() {
+    etat.phase = 'copie';
+    afficher(['p-modele'], false);
+    preparerGrille(gJoueur);
+    afficher(['p-joueur', 'palette', 'b-valider'], true);
+    $('consigne').textContent = 'À vos pinceaux ! Recomposez le tableau de mémoire.';
+    majPalette();
+    majFocus();
+  }
+
+  function peindreCase(i) {
+    if (etat.phase !== 'copie') return;
+    var actuelle = etat.copie[i];
+    if (etat.gomme) {
+      delete etat.copie[i];
+    } else if (actuelle && actuelle.forme === etat.forme && actuelle.couleur === etat.couleur) {
+      delete etat.copie[i];   // retoucher la même forme l'efface
+    } else {
+      etat.copie[i] = { forme: etat.forme, couleur: etat.couleur };
+    }
+    peindre(gJoueur, etat.copie, false);
+    if (etat.copie[i]) {
+      // n'animer que la forme qui vient d'être posée (peindre() suit l'ordre de Object.keys)
+      var formes = gJoueur.querySelectorAll('.calque .forme');
+      formes[Object.keys(etat.copie).indexOf(String(i))].classList.add('apparait');
+    }
+    majFocus();
+  }
+
+  function marquer(svg, i, symbole, couleur) {
+    var x = (i % TAILLE) * CASE, y = Math.floor(i / TAILLE) * CASE;
+    var g = svg.querySelector('.marques');
+    g.appendChild(el('circle', { cx: x + CASE - 16, cy: y + 16, r: 13, fill: couleur, stroke: '#fff', 'stroke-width': 3 }));
+    var t = el('text', { x: x + CASE - 16, y: y + 22, 'text-anchor': 'middle', 'font-size': 18, 'font-weight': 700, fill: '#fff', 'font-family': 'Jost, sans-serif' });
+    t.textContent = symbole;
+    g.appendChild(t);
+  }
+
+  function signer() {
+    if (etat.phase !== 'copie') return;
+    etat.phase = 'verdict';
+    var cles = Object.keys(etat.modele);
+    var max = cles.length * 3, points = 0, parfaites = 0;
+
+    cles.forEach(function (i) {
+      var m = etat.modele[i], c = etat.copie[i];
+      if (!c) { marquer(gJoueur, i, '?', '#999'); return; }
+      var p = 1 + (c.forme === m.forme ? 1 : 0) + (c.couleur === m.couleur ? 1 : 0);
+      points += p;
+      if (p === 3) { parfaites++; marquer(gJoueur, i, '✓', '#1C3F9E'); }
+      else marquer(gJoueur, i, '~', '#F5C400');
+    });
+    Object.keys(etat.copie).forEach(function (i) {
+      if (!etat.modele[i]) { points -= 1; marquer(gJoueur, i, '×', '#D8261C'); }
+    });
+
+    var pct = Math.max(0, Math.round(points / max * 100));
+    var gain = (Math.max(0, points) * 10 * etat.manche + (parfaites === cles.length ? 50 * etat.manche : 0)) * niv().bonus;
+    etat.score += gain;
+    var reussi = pct >= niv().seuil;
+    if (reussi) etat.reussis++; else etat.vies--;
+    if (etat.score > etat.record) {
+      etat.record = etat.score;
+      try { localStorage.setItem('jrb-masterpiece-record-' + etat.niveau, String(etat.record)); } catch (e) {}
+    }
+    majHud();
+
+    // Afficher l'original à côté de la copie pour comparer
+    $('t-modele').textContent = 'L\'original';
+    $('barre').style.display = 'none';
+    afficher(['p-modele'], true);
+    afficher(['palette', 'b-valider'], false);
+    majFocus();
+
+    var mention = pct === 100 ? 'Chef-d\'œuvre !' : pct >= 85 ? 'Magnifique' : reussi ? 'Belle copie' : pct >= 30 ? 'Esquisse' : 'Brouillon';
+    var fin = etat.vies <= 0;
+    $('consigne').textContent = fin ? 'Le musée ferme ses portes…' : reussi ? 'Le tableau est accroché au musée.' : 'Le conservateur refuse cette copie. Une vie en moins.';
+    $('verdict').innerHTML =
+      '<div class="note">' + mention + ' · ' + pct + ' %</div>' +
+      '<p>+' + gain + ' points' + (parfaites === cles.length ? ' (bonus copie parfaite)' : '') + (reussi ? '' : ' — il fallait ' + niv().seuil + ' %') + '</p>' +
+      (fin ? '<p><strong>Score final : ' + etat.score + '</strong> — ' + etat.reussis + (etat.reussis > 1 ? ' tableaux accrochés' : ' tableau accroché') + ' au musée</p>' : '');
+
+    if (fin) { afficher(['b-rejouer', 'b-niveau'], true); $('b-rejouer').focus(); }
+    else { $('b-suivant').hidden = false; $('b-suivant').focus(); }
+  }
+
+  // ---------- Événements ----------
+  gJoueur.addEventListener('click', function (e) {
+    var i = e.target.getAttribute('data-i');
+    if (i !== null) { etat.focus = +i; peindreCase(+i); }
+  });
+  gJoueur.setAttribute('tabindex', '0');
+  gJoueur.addEventListener('focus', majFocus);
+  gJoueur.addEventListener('blur', majFocus);
+  gJoueur.addEventListener('keydown', function (e) {
+    var f = etat.focus, x = f % TAILLE, y = Math.floor(f / TAILLE);
+    if (e.key === 'ArrowRight') x = Math.min(TAILLE - 1, x + 1);
+    else if (e.key === 'ArrowLeft') x = Math.max(0, x - 1);
+    else if (e.key === 'ArrowDown') y = Math.min(TAILLE - 1, y + 1);
+    else if (e.key === 'ArrowUp') y = Math.max(0, y - 1);
+    else if (e.key === 'Enter' || e.key === ' ') { peindreCase(f); e.preventDefault(); return; }
+    else return;
+    e.preventDefault();
+    etat.focus = y * TAILLE + x;
+    majFocus();
+  });
+
+  // Raccourcis : 1-3 formes, J/R/B/N couleurs, G gomme
+  document.addEventListener('keydown', function (e) {
+    if (etat.phase !== 'copie' || e.ctrlKey || e.metaKey || e.altKey) return;
+    var k = e.key.toLowerCase();
+    if (k >= '1' && k <= '3') { etat.forme = FORMES[+k - 1]; etat.gomme = false; }
+    else if (niv().couleurs.indexOf({ j: 'jaune', r: 'rouge', b: 'bleu', n: 'noir' }[k]) >= 0) { etat.couleur = { j: 'jaune', r: 'rouge', b: 'bleu', n: 'noir' }[k]; etat.gomme = false; }
+    else if (k === 'g') etat.gomme = !etat.gomme;
+    else return;
+    majPalette();
+  });
+
+  $('b-jouer').addEventListener('click', lancerPartie);
+  $('b-rejouer').addEventListener('click', lancerPartie);
+  $('b-suivant').addEventListener('click', mancheSuivante);
+  $('b-valider').addEventListener('click', signer);
+  $('b-niveau').addEventListener('click', retourAccueil);
+
+  construirePalette();
+  construireNiveaux();
+})();
+</script>
+</body>
+</html>

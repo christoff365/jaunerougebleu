@@ -1,47 +1,47 @@
 [
   {
     "title": "La lumière comme langage universel",
-    "subtitle": "Vermeer, Le Caravage, Rembrandt et Hokusai — quatre visions de la lumière",
+    "subtitle": "Vermeer, Le Caravage, Rembrandt et Hokusai = quatre visions de la lumière",
     "status": "published",
     "theme": "Lumière & ombre à travers les cultures",
     "intro": "À travers quatre siècles et deux continents, la lumière est le véritable sujet de ces chefs-d'œuvre. Qu'elle soit naturelle ou divine, intime ou dramatique, elle révèle l'essentiel de chaque culture.",
     "works": [
-            {
-              "title": "La Jeune Fille à la perle",
-              "artist": "Johannes Vermeer",
-              "country": "Pays-Bas",
-              "period": "c. 1665",
-              "museum": "Mauritshuis, La Haye",
-              "analysis": "La lumière chez Vermeer est douce, diffuse, intimiste. Elle vient d'une fenêtre invisible et enveloppe le sujet sans drama. C'est la lumière du quotidien transfiguré.",
-              "compare": "Contraste direct avec le clair-obscur dramatique du Caravage — même époque, philosophie opposée."
-            },
-            {
-              "title": "Judith décapitant Holopherne",
-              "artist": "Le Caravage",
-              "country": "Italie",
-              "period": "1598–1599",
-              "museum": "Galleria Nazionale, Rome",
-              "analysis": "Le ténébrisme du Caravage utilise la lumière comme arme dramatique. Le fond noir absolu amplifie la violence de la scène.",
-              "compare": "Face à la sérénité de Vermeer, Le Caravage démontre que la lumière peut aussi être violence et tension."
-            },
-            {
-              "title": "La Ronde de nuit",
-              "artist": "Rembrandt van Rijn",
-              "country": "Pays-Bas",
-              "period": "1642",
-              "museum": "Rijksmuseum, Amsterdam",
-              "analysis": "Rembrandt orchestre la lumière comme un chef d'orchestre — certains personnages émergent, d'autres disparaissent dans l'ombre.",
-              "compare": "Là où Vermeer choisit un sujet unique, Rembrandt anime une multitude. La lumière devient architecte social."
-            },
-            {
-              "title": "Cent vues du Mont Fuji",
-              "artist": "Katsushika Hokusai",
-              "country": "Japon",
-              "period": "1834–1835",
-              "museum": "Domaine public",
-              "analysis": "Dans l'estampe japonaise, la lumière est suggérée par l'absence — le blanc du papier devient lumière. Une approche radicalement différente de la tradition occidentale.",
-              "compare": "L'absence de clair-obscur révèle que la lumière en art n'est pas universelle : elle est culturelle."
-            }
-          ]
+      {
+        "title": "La Jeune Fille à la perle",
+        "artist": "Johannes Vermeer",
+        "country": "Pays-Bas",
+        "period": "c. 1665",
+        "museum": "Mauritshuis, La Haye",
+        "analysis": "La lumière chez Vermeer est douce, diffuse, intimiste. Elle vient d'une fenêtre invisible et enveloppe le sujet sans drama. C'est la lumière du quotidien transfiguré.",
+        "compare": "Contraste direct avec le clair-obscur dramatique du Caravage — même époque, philosophie opposée."
+      },
+      {
+        "title": "Judith décapitant Holopherne",
+        "artist": "Le Caravage",
+        "country": "Italie",
+        "period": "1598–1599",
+        "museum": "Galleria Nazionale, Rome",
+        "analysis": "Le ténébrisme du Caravage utilise la lumière comme arme dramatique. Le fond noir absolu amplifie la violence de la scène.",
+        "compare": "Face à la sérénité de Vermeer, Le Caravage démontre que la lumière peut aussi être violence et tension."
+      },
+      {
+        "title": "La Ronde de nuit",
+        "artist": "Rembrandt van Rijn",
+        "country": "Pays-Bas",
+        "period": "1642",
+        "museum": "Rijksmuseum, Amsterdam",
+        "analysis": "Rembrandt orchestre la lumière comme un chef d'orchestre — certains personnages émergent, d'autres disparaissent dans l'ombre.",
+        "compare": "Là où Vermeer choisit un sujet unique, Rembrandt anime une multitude. La lumière devient architecte social."
+      },
+      {
+        "title": "Cent vues du Mont Fuji",
+        "artist": "Katsushika Hokusai",
+        "country": "Japon",
+        "period": "1834–1835",
+        "museum": "Domaine public",
+        "analysis": "Dans l'estampe japonaise, la lumière est suggérée par l'absence — le blanc du papier devient lumière. Une approche radicalement différente de la tradition occidentale.",
+        "compare": "L'absence de clair-obscur révèle que la lumière en art n'est pas universelle : elle est culturelle."
+      }
+    ]
   }
 ]

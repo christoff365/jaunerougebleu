@@ -465,7 +465,7 @@ hr{border:none;border-top:1px solid #e0d5c0;margin:28px 0}
     <hr>
     <p class="ey">Expositions spéciales</p>
     <div class="sp-grid" id="sp-home">
-      <p style="color:#888;font-size:13px">Créez une exposition dans l'espace Admin pour qu'elle apparaisse ici.</p>
+      <p style="color:#888;font-size:13px">Chargement des expositions…</p>
     </div>
   </div>
 </div>
@@ -681,7 +681,7 @@ hr{border:none;border-top:1px solid #e0d5c0;margin:28px 0}
 
 <!-- ADMIN -->
 <div id="pg-adm" class="pg">
-  <div id="adm-login" class="login-box">
+  <div class="login-box" style="max-width:520px">
     <div class="login-card">
       <div style="text-align:center;margin-bottom:20px">
         <div style="display:flex;gap:6px;justify-content:center;margin-bottom:12px">
@@ -689,54 +689,16 @@ hr{border:none;border-top:1px solid #e0d5c0;margin:28px 0}
           <div style="width:14px;height:14px;border-radius:50%;background:#E03030"></div>
           <div style="width:14px;height:14px;border-radius:50%;background:#5599EE"></div>
         </div>
-        <p style="font-size:15px;color:#666;font-family:'Cormorant Garamond',serif">Connexion administrateur</p>
+        <h2 style="margin-bottom:6px">Espace Administration</h2>
+        <p class="sub" style="margin-bottom:0">Les expositions se créent et se modifient dans Pages CMS, avec une connexion sécurisée par compte GitHub ou par invitation e-mail.</p>
       </div>
-      <label class="fl">Mot de passe</label>
-      <input class="fi" type="password" id="pw" placeholder="••••••••" onkeydown="if(event.key==='Enter')login()">
-      <p class="err" id="pw-err">Mot de passe incorrect.</p>
-      <button class="sbmt" onclick="login()">Accéder</button>
-    </div>
-  </div>
-  <div id="adm-panel" style="display:none">
-    <div class="wrap">
-      <div class="adm-top">
-        <div>
-          <h2>Espace Administration</h2>
-          <p class="sub" style="margin-bottom:0">Créez des expositions comparatives avec analyse éditoriale des œuvres.</p>
-        </div>
-        <button class="new-btn" onclick="openForm()">+ Nouvelle exposition</button>
-      </div>
-      <div class="form-box" id="adm-form">
-        <h3 style="font-family:'Cormorant Garamond',serif;font-size:22px;margin-bottom:18px" id="form-h">Nouvelle exposition</h3>
-        <div class="row2">
-          <div><label class="fl">Titre de l'exposition</label><input class="fi" id="f-t" placeholder="ex: La lumière comme langage universel"></div>
-          <div><label class="fl">Sous-titre</label><input class="fi" id="f-s" placeholder="ex: Vermeer, Le Caravage, Rembrandt…"></div>
-        </div>
-        <label class="fl">Thème comparatif</label>
-        <select class="fs" id="f-th">
-          <option>Lumière & ombre à travers les cultures</option>
-          <option>Portrait : Orient vs Occident</option>
-          <option>Sacré & profane</option>
-          <option>La nature dans l'art mondial</option>
-          <option>Corps & identité</option>
-          <option>Guerre & paix</option>
-          <option>Abstraction universelle</option>
-          <option>Personnalisé…</option>
-        </select>
-        <label class="fl">Introduction éditoriale</label>
-        <textarea class="ft" id="f-i" rows="3" style="margin-bottom:16px" placeholder="Décrivez la perspective comparative de cette exposition…"></textarea>
-        <hr>
-        <h4 style="font-family:'Cormorant Garamond',serif;font-size:20px;margin:16px 0 12px">Œuvres à comparer</h4>
-        <div id="works-c"></div>
-        <button class="addw" onclick="addWork()">+ Ajouter une œuvre</button>
-        <div class="form-acts">
-          <button class="sbmt" style="flex:1;margin-top:0" onclick="saveEx('published')">Publier l'exposition</button>
-          <button class="bsec" onclick="saveEx('draft')">Enregistrer brouillon</button>
-          <button class="bsec" onclick="closeForm()">Annuler</button>
-        </div>
-      </div>
-      <p class="ey">Expositions créées</p>
-      <div id="ex-list"><p style="color:#aaa;font-size:13px;padding:12px 0">Aucune exposition créée. Commencez ci-dessus.</p></div>
+      <ol style="font-size:14px;color:#444;line-height:1.8;margin:0 0 20px 20px">
+        <li>Connectez-vous à Pages CMS.</li>
+        <li>Ouvrez le site <b>jaunerougebleu</b>, puis <b>Expositions</b>.</li>
+        <li>Ajoutez ou modifiez une exposition, choisissez « Publiée », puis enregistrez.</li>
+        <li>Elle apparaît sur le site au bout de 1 à 2 minutes.</li>
+      </ol>
+      <a class="sbmt" style="display:block;text-align:center;text-decoration:none" href="https://app.pagescms.org/" target="_blank" rel="noopener">Ouvrir Pages CMS ↗</a>
     </div>
   </div>
 </div>
@@ -794,8 +756,8 @@ const WBS=[
 const FLAGS={"France":"🇫🇷","Pays-Bas":"🇳🇱","Italie":"🇮🇹","Allemagne":"🇩🇪","Espagne":"🇪🇸","Angleterre":"🇬🇧","Japon":"🇯🇵","Chine":"🇨🇳","Corée":"🇰🇷","États-Unis":"🇺🇸","Mexique":"🇲🇽","Brésil":"🇧🇷","Égypte":"🇪🇬","Inde":"🇮🇳"};
 function gFlag(c){for(const[k,v]of Object.entries(FLAGS))if(c&&c.toLowerCase().includes(k.toLowerCase()))return v;return"🎨";}
 
-let expos=[{id:1,status:"published",title:"La lumière comme langage universel",subtitle:"Vermeer, Le Caravage, Rembrandt et Hokusai — quatre visions de la lumière",intro:"À travers quatre siècles et deux continents, la lumière est le véritable sujet de ces chefs-d'œuvre. Qu'elle soit naturelle ou divine, intime ou dramatique, elle révèle l'essentiel de chaque culture.",theme:"Lumière & ombre à travers les cultures",works:[{title:"La Jeune Fille à la perle",artist:"Johannes Vermeer",country:"Pays-Bas",period:"c. 1665",museum:"Mauritshuis, La Haye",analysis:"La lumière chez Vermeer est douce, diffuse, intimiste. Elle vient d'une fenêtre invisible et enveloppe le sujet sans drama. C'est la lumière du quotidien transfiguré.",compare:"Contraste direct avec le clair-obscur dramatique du Caravage — même époque, philosophie opposée."},{title:"Judith décapitant Holopherne",artist:"Le Caravage",country:"Italie",period:"1598–1599",museum:"Galleria Nazionale, Rome",analysis:"Le ténébrisme du Caravage utilise la lumière comme arme dramatique. Le fond noir absolu amplifie la violence de la scène.",compare:"Face à la sérénité de Vermeer, Le Caravage démontre que la lumière peut aussi être violence et tension."},{title:"La Ronde de nuit",artist:"Rembrandt van Rijn",country:"Pays-Bas",period:"1642",museum:"Rijksmuseum, Amsterdam",analysis:"Rembrandt orchestre la lumière comme un chef d'orchestre — certains personnages émergent, d'autres disparaissent dans l'ombre.",compare:"Là où Vermeer choisit un sujet unique, Rembrandt anime une multitude. La lumière devient architecte social."},{title:"Cent vues du Mont Fuji",artist:"Katsushika Hokusai",country:"Japon",period:"1834–1835",museum:"Domaine public",analysis:"Dans l'estampe japonaise, la lumière est suggérée par l'absence — le blanc du papier devient lumière. Une approche radicalement différente de la tradition occidentale.",compare:"L'absence de clair-obscur révèle que la lumière en art n'est pas universelle : elle est culturelle."}]}];
-let editId=null,wkCnt=0;
+// Les expositions sont lues depuis expositions.json (modifiable avec Pages CMS : https://app.pagescms.org)
+let expos=[];
 
 function go(id,btn){
   document.querySelectorAll('.pg').forEach(p=>p.classList.remove('on'));
@@ -905,24 +867,19 @@ function moodFn(ph,v,btn){
     document.getElementById('cmp-box').style.display='block';}
 }
 
-// ADMIN
-function login(){if(document.getElementById('pw').value==='admin123'){document.getElementById('adm-login').style.display='none';document.getElementById('adm-panel').style.display='block';renderList();}else{document.getElementById('pw-err').style.display='block';}}
-function openForm(){editId=null;wkCnt=0;document.getElementById('form-h').textContent='Nouvelle exposition';['f-t','f-s','f-i'].forEach(id=>document.getElementById(id).value='');document.getElementById('works-c').innerHTML='';addWork();document.getElementById('adm-form').style.display='block';document.getElementById('adm-form').scrollIntoView({behavior:'smooth'});}
-function closeForm(){document.getElementById('adm-form').style.display='none';}
-function addWork(){wkCnt++;const i=wkCnt;const d=document.createElement('div');d.className='wblk';d.id='wb-'+i;
-  d.innerHTML=`<div class="wbh"><span class="wbn">Œuvre ${i}</span><button class="rm" onclick="document.getElementById('wb-${i}').remove()">✕ Retirer</button></div>
-  <div class="row2"><div><label class="fl">Titre</label><input class="fi" id="w${i}t"></div><div><label class="fl">Artiste</label><input class="fi" id="w${i}a"></div></div>
-  <div class="row3"><div><label class="fl">Pays</label><input class="fi" id="w${i}c" placeholder="ex: France"></div><div><label class="fl">Période</label><input class="fi" id="w${i}p" placeholder="ex: 1890"></div><div><label class="fl">Musée</label><input class="fi" id="w${i}m"></div></div>
-  <div style="margin-bottom:10px"><label class="fl">Analyse éditoriale</label><textarea class="ft" id="w${i}an" rows="3" placeholder="Analyse formelle, contexte culturel, signification…"></textarea></div>
-  <div><label class="fl">Point de comparaison avec les autres œuvres</label><textarea class="ft" id="w${i}cp" rows="2" placeholder="En quoi dialogue-t-elle avec les autres ?"></textarea></div>`;
-  document.getElementById('works-c').appendChild(d);}
-function getWorks(){return[...document.querySelectorAll('.wblk')].map(b=>{const i=b.id.replace('wb-','');return{title:document.getElementById('w'+i+'t')?.value||'',artist:document.getElementById('w'+i+'a')?.value||'',country:document.getElementById('w'+i+'c')?.value||'',period:document.getElementById('w'+i+'p')?.value||'',museum:document.getElementById('w'+i+'m')?.value||'',analysis:document.getElementById('w'+i+'an')?.value||'',compare:document.getElementById('w'+i+'cp')?.value||''};}).filter(w=>w.title.trim());}
-function saveEx(st){const e={id:editId||Date.now(),status:st,title:document.getElementById('f-t').value||'Sans titre',subtitle:document.getElementById('f-s').value,intro:document.getElementById('f-i').value,theme:document.getElementById('f-th').value,works:getWorks()};expos=editId?expos.map(x=>x.id===editId?e:x):[...expos,e];closeForm();renderList();renderHome();}
-function renderList(){const el=document.getElementById('ex-list');if(!expos.length){el.innerHTML='<p style="color:#aaa;font-size:13px;padding:12px 0">Aucune exposition créée.</p>';return;}el.innerHTML=expos.map(e=>`<div class="expo-item"><div style="flex:1"><div style="display:flex;gap:8px;margin-bottom:6px;flex-wrap:wrap"><span class="badge ${e.status==='published'?'bt':'bb'}">${e.status==='published'?'Publiée':'Brouillon'}</span><span class="badge bg">${e.theme}</span></div><h4>${e.title}</h4><p>${e.subtitle||''} · ${e.works.length} œuvre(s)</p></div><div class="ei-acts"><button class="ab" onclick="viewSp(${e.id})">Voir</button><button class="ab" onclick="editEx(${e.id})">Modifier</button><button class="ab del" onclick="expos=expos.filter(x=>x.id!==${e.id});renderList();renderHome()">Supprimer</button></div></div>`).join('');}
-function editEx(id){const e=expos.find(x=>x.id===id);if(!e)return;editId=id;wkCnt=0;document.getElementById('form-h').textContent='Modifier';document.getElementById('f-t').value=e.title;document.getElementById('f-s').value=e.subtitle||'';document.getElementById('f-i').value=e.intro||'';document.getElementById('f-th').value=e.theme;document.getElementById('works-c').innerHTML='';e.works.forEach(w=>{addWork();const i=wkCnt;document.getElementById('w'+i+'t').value=w.title;document.getElementById('w'+i+'a').value=w.artist;document.getElementById('w'+i+'c').value=w.country;document.getElementById('w'+i+'p').value=w.period;document.getElementById('w'+i+'m').value=w.museum;document.getElementById('w'+i+'an').value=w.analysis;document.getElementById('w'+i+'cp').value=w.compare;});document.getElementById('adm-form').style.display='block';document.getElementById('adm-form').scrollIntoView({behavior:'smooth'});}
-function viewSp(id){const e=expos.find(x=>x.id===id);if(!e)return;document.getElementById('sp-bdg').innerHTML=`<span class="badge bg">Exposition spéciale</span> <span class="badge bt">${e.theme}</span>`;document.getElementById('sp-h').textContent=e.title;document.getElementById('sp-sub').textContent=e.subtitle||'';document.getElementById('sp-intro').textContent=e.intro||'';document.getElementById('sp-cnt').textContent='Comparaison mondiale · '+e.works.length+' œuvre(s)';document.getElementById('sp-wks').innerHTML=e.works.map(w=>`<div class="wk-card"><div class="wk-top"><div><h3>${w.title}</h3><p>${w.artist} · ${w.period} · ${w.country}${w.museum?' · '+w.museum:''}</p></div><div class="wk-flag">${gFlag(w.country)}</div></div>${w.analysis?`<p class="wk-ana">${w.analysis}</p>`:''} ${w.compare?`<div class="cmp-pt"><div class="cmp-l">Point de comparaison</div>${w.compare}</div>`:''}</div>`).join('');document.querySelectorAll('.pg').forEach(p=>p.classList.remove('on'));document.getElementById('pg-sp').classList.add('on');document.querySelectorAll('.nav-links button').forEach(b=>b.classList.remove('on'));window.scrollTo(0,0);}
-function renderHome(){const pub=expos.filter(e=>e.status==='published');const el=document.getElementById('sp-home');if(!el)return;if(!pub.length){el.innerHTML='<p style="color:#aaa;font-size:13px">Créez une exposition dans l\'espace Admin pour qu\'elle apparaisse ici.</p>';return;}el.innerHTML=pub.map(e=>`<div class="sp-card" onclick="viewSp(${e.id})"><p class="sp-ey">Comparaison mondiale · ${e.works.length} œuvre(s)</p><h3 class="sp-t">${e.title}</h3><p class="sp-s">${e.subtitle||''}</p><div style="margin-top:10px"><span class="badge bg">${e.theme}</span></div></div>`).join('');}
-renderHome();
+// EXPOSITIONS : lues depuis expositions.json, que les administrateurs modifient avec Pages CMS
+let exposChargees=false;
+function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+function escBr(s){return esc(s).replace(/\n/g,'<br>');}
+function viewSp(id){const e=expos.find(x=>x.id===id);if(!e)return;document.getElementById('sp-bdg').innerHTML=`<span class="badge bg">Exposition spéciale</span>${e.theme?` <span class="badge bt">${esc(e.theme)}</span>`:''}`;document.getElementById('sp-h').textContent=e.title||'';document.getElementById('sp-sub').textContent=e.subtitle||'';document.getElementById('sp-intro').textContent=e.intro||'';document.getElementById('sp-cnt').textContent='Comparaison mondiale · '+e.works.length+' œuvre(s)';document.getElementById('sp-wks').innerHTML=e.works.map(w=>`<div class="wk-card"><div class="wk-top"><div><h3>${esc(w.title)}</h3><p>${[w.artist,w.period,w.country,w.museum].filter(Boolean).map(esc).join(' · ')}</p></div><div class="wk-flag">${gFlag(w.country)}</div></div>${w.analysis?`<p class="wk-ana">${escBr(w.analysis)}</p>`:''} ${w.compare?`<div class="cmp-pt"><div class="cmp-l">Point de comparaison</div>${escBr(w.compare)}</div>`:''}</div>`).join('');document.querySelectorAll('.pg').forEach(p=>p.classList.remove('on'));document.getElementById('pg-sp').classList.add('on');document.querySelectorAll('.nav-links button').forEach(b=>b.classList.remove('on'));window.scrollTo(0,0);}
+function renderHome(){const el=document.getElementById('sp-home');if(!el||!exposChargees)return;const pub=expos.filter(e=>e.status==='published');if(!pub.length){el.innerHTML='<p style="color:#aaa;font-size:13px">Aucune exposition publiée pour le moment.</p>';return;}el.innerHTML=pub.map(e=>`<div class="sp-card" onclick="viewSp(${e.id})"><p class="sp-ey">Comparaison mondiale · ${e.works.length} œuvre(s)</p><h3 class="sp-t">${esc(e.title)}</h3><p class="sp-s">${esc(e.subtitle)}</p>${e.theme?`<div style="margin-top:10px"><span class="badge bg">${esc(e.theme)}</span></div>`:''}</div>`).join('');}
+function chargerExpos(){
+  fetch('expositions.json',{cache:'no-cache'})
+    .then(r=>{if(!r.ok)throw new Error('HTTP '+r.status);return r.json();})
+    .then(d=>{expos=(Array.isArray(d)?d:[]).map((e,i)=>Object.assign({},e,{id:i,works:Array.isArray(e.works)?e.works:[]}));exposChargees=true;renderHome();})
+    .catch(()=>{const el=document.getElementById('sp-home');if(el)el.innerHTML='<p style="color:#aaa;font-size:13px">Les expositions n\'ont pas pu être chargées. Rechargez la page dans un instant.</p>';});
+}
+chargerExpos();
 
 // ÉCRAN D'OUVERTURE
 (function () {

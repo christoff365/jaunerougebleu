@@ -1,0 +1,71 @@
+# Configuration de Pages CMS (https://app.pagescms.org)
+# Décrit le formulaire qui permet de créer et modifier les expositions du site.
+# Les expositions sont enregistrées dans expositions.json, que le site lit à chaque visite.
+
+content:
+  - name: expositions
+    label: Expositions
+    type: file
+    path: expositions.json
+    format: json
+    list: true
+    fields:
+      - name: title
+        label: Titre de l'exposition
+        type: string
+        required: true
+      - name: subtitle
+        label: Sous-titre
+        type: string
+      - name: status
+        label: Statut
+        type: select
+        default: draft
+        options:
+          values:
+            - name: published
+              label: Publiée (visible sur le site)
+            - name: draft
+              label: Brouillon (invisible)
+      - name: theme
+        label: Thème comparatif
+        type: select
+        options:
+          values:
+            - Lumière & ombre à travers les cultures
+            - "Portrait : Orient vs Occident"
+            - Sacré & profane
+            - La nature dans l'art mondial
+            - Corps & identité
+            - Guerre & paix
+            - Abstraction universelle
+      - name: intro
+        label: Introduction éditoriale
+        type: text
+      - name: works
+        label: Œuvres à comparer
+        type: object
+        list: true
+        fields:
+          - name: title
+            label: Titre de l'œuvre
+            type: string
+            required: true
+          - name: artist
+            label: Artiste
+            type: string
+          - name: country
+            label: Pays
+            type: string
+          - name: period
+            label: Période
+            type: string
+          - name: museum
+            label: Musée
+            type: string
+          - name: analysis
+            label: Analyse éditoriale
+            type: text
+          - name: compare
+            label: Point de comparaison avec les autres œuvres
+            type: text

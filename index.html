@@ -124,7 +124,7 @@ hr{border:none;border-top:1px solid #e0d5c0;margin:28px 0}
 
 /* FILIGRANE « Site en construction » (page d'accueil uniquement) */
 .filigrane{position:fixed;inset:0;z-index:50;display:flex;align-items:center;justify-content:center;pointer-events:none;overflow:hidden}
-.filigrane span{transform:rotate(-30deg);white-space:nowrap;font-family:var(--font-bauhaus);font-size:clamp(2.6rem,9vw,7.5rem);letter-spacing:.04em;color:rgba(216,38,28,.16);-webkit-text-stroke:1px rgba(216,38,28,.28);user-select:none}
+.filigrane span{transform:rotate(-30deg);white-space:nowrap;font-family:var(--font-bauhaus);font-size:clamp(2.6rem,9vw,7.5rem);letter-spacing:.04em;color:rgba(216,38,28,.38);-webkit-text-stroke:2px rgba(255,255,255,.55);text-shadow:0 0 18px rgba(255,255,255,.35);user-select:none}
 
 /* FEAT GRID */
 .feat-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px;margin-bottom:36px}
@@ -269,6 +269,11 @@ hr{border:none;border-top:1px solid #e0d5c0;margin:28px 0}
 .wk-top h3{font-family:'Cormorant Garamond',serif;font-size:20px;margin-bottom:4px;color:#111}
 .wk-top p{font-size:12px;color:#888}
 .wk-flag{font-size:24px;flex-shrink:0}
+.wk-img{display:block;width:100%;max-height:420px;object-fit:contain;background:#f5f0e8;border-radius:4px}
+.img-credit{display:block;font-size:11px;line-height:1.5;color:#888;margin:4px 0 12px}
+.img-credit a{color:inherit;text-decoration:underline}
+.mini-info .img-credit,.art-card-info .img-credit{margin:4px 0 0}
+.mini-info .img-credit{font-size:10px}
 .wk-ana{font-size:13px;color:#444;line-height:1.8;margin-bottom:10px}
 .cmp-pt{background:rgba(201,168,76,.08);border-left:3px solid #C9A84C;padding:10px 14px;font-size:13px;color:#444;line-height:1.6;border-radius:0 4px 4px 0}
 .cmp-l{font-size:10px;text-transform:uppercase;letter-spacing:.1em;color:#8B6914;margin-bottom:4px;font-weight:600}
@@ -395,11 +400,11 @@ hr{border:none;border-top:1px solid #e0d5c0;margin:28px 0}
         <div class="mini-grid">
           <div class="mini" onclick="go('acc',document.querySelectorAll('.nav-links button')[2])">
             <img src="images/oeuvres/grande-vague-hokusai.jpg" alt="La Grande Vague de Kanagawa, Hokusai" loading="lazy">
-            <div class="mini-info"><b>La Grande Vague</b><span>Hokusai · vers 1830-1832 · Japon</span></div>
+            <div class="mini-info"><b>La Grande Vague</b><span>Hokusai · vers 1830-1832 · Japon</span><small class="img-credit">Image : <a href="https://www.metmuseum.org/art/collection/search/45434" target="_blank" rel="noopener">The Metropolitan Museum of Art</a>, domaine public</small></div>
           </div>
           <div class="mini">
             <img src="images/oeuvres/pluie-vapeur-vitesse-turner.jpg" alt="Pluie, vapeur et vitesse, J.M.W. Turner" loading="lazy">
-            <div class="mini-info"><b>Rain, Steam and Speed</b><span>Turner · 1844 · Angleterre</span></div>
+            <div class="mini-info"><b>Rain, Steam and Speed</b><span>Turner · 1844 · Angleterre</span><small class="img-credit">Image : National Gallery, Londres, via <a href="https://commons.wikimedia.org/wiki/File:Turner_-_Rain,_Steam_and_Speed_-_National_Gallery_file.jpg" target="_blank" rel="noopener">Wikimedia Commons</a>, domaine public</small></div>
           </div>
         </div>
       </div>
@@ -413,11 +418,11 @@ hr{border:none;border-top:1px solid #e0d5c0;margin:28px 0}
         <div class="mini-grid">
           <div class="mini" onclick="go('acc',document.querySelectorAll('.nav-links button')[2])">
             <img src="images/oeuvres/nympheas-monet.jpg" alt="Nymphéas, Claude Monet" loading="lazy">
-            <div class="mini-info"><b>Nymphéas</b><span>Monet · 1906 · France</span></div>
+            <div class="mini-info"><b>Nymphéas</b><span>Monet · 1906 · France</span><small class="img-credit">Image : <a href="https://www.artic.edu/artworks/16568" target="_blank" rel="noopener">Art Institute of Chicago</a>, via <a href="https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Water_Lilies_-_1933.1157_-_Art_Institute_of_Chicago.jpg" target="_blank" rel="noopener">Wikimedia Commons</a>, domaine public</small></div>
           </div>
           <div class="mini" onclick="go('acc',document.querySelectorAll('.nav-links button')[2])">
             <img src="images/oeuvres/iris-van-gogh.jpg" alt="Iris, Vincent van Gogh" loading="lazy">
-            <div class="mini-info"><b>Iris (Van Gogh, 1890, Saint-Remy)</b><span>Van Gogh · 1890 · Pays-Bas</span></div>
+            <div class="mini-info"><b>Iris (Van Gogh, 1890, Saint-Remy)</b><span>Van Gogh · 1890 · Pays-Bas</span><small class="img-credit">Image : <a href="https://www.metmuseum.org/art/collection/search/436528" target="_blank" rel="noopener">The Metropolitan Museum of Art</a>, domaine public</small></div>
           </div>
         </div>
       </div>
@@ -442,19 +447,19 @@ hr{border:none;border-top:1px solid #e0d5c0;margin:28px 0}
     <div class="art-cards" id="art-cards">
       <div class="art-card on" onclick="pickArt(0,this)">
         <img class="art-card-img" src="images/oeuvres/grande-vague-hokusai.jpg" alt="La Grande Vague de Kanagawa, Hokusai" loading="lazy">
-        <div class="art-card-info"><b>La Grande Vague</b><span>Hokusai · Japon · vers 1830-1832</span></div>
+        <div class="art-card-info"><b>La Grande Vague</b><span>Hokusai · Japon · vers 1830-1832</span><small class="img-credit">Image : <a href="https://www.metmuseum.org/art/collection/search/45434" target="_blank" rel="noopener">The Metropolitan Museum of Art</a>, domaine public</small></div>
       </div>
       <div class="art-card" onclick="pickArt(1,this)">
         <img class="art-card-img" src="images/oeuvres/nympheas-monet.jpg" alt="Nymphéas, Claude Monet" loading="lazy">
-        <div class="art-card-info"><b>Nymphéas</b><span>Monet · France · 1906</span></div>
+        <div class="art-card-info"><b>Nymphéas</b><span>Monet · France · 1906</span><small class="img-credit">Image : <a href="https://www.artic.edu/artworks/16568" target="_blank" rel="noopener">Art Institute of Chicago</a>, via <a href="https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Water_Lilies_-_1933.1157_-_Art_Institute_of_Chicago.jpg" target="_blank" rel="noopener">Wikimedia Commons</a>, domaine public</small></div>
       </div>
       <div class="art-card" onclick="pickArt(2,this)">
         <img class="art-card-img" src="images/oeuvres/iris-van-gogh.jpg" alt="Iris, Vincent van Gogh" loading="lazy">
-        <div class="art-card-info"><b>Iris (Van Gogh,1890, Saint-Remy)</b><span>Van Gogh · Pays-Bas · 1890</span></div>
+        <div class="art-card-info"><b>Iris (Van Gogh,1890, Saint-Remy)</b><span>Van Gogh · Pays-Bas · 1890</span><small class="img-credit">Image : <a href="https://www.metmuseum.org/art/collection/search/436528" target="_blank" rel="noopener">The Metropolitan Museum of Art</a>, domaine public</small></div>
       </div>
       <div class="art-card" onclick="pickArt(3,this)">
         <img class="art-card-img" src="images/oeuvres/femmes-de-tahiti-gauguin.jpg" alt="Femmes de Tahiti, Paul Gauguin" loading="lazy">
-        <div class="art-card-info"><b>Femmes de Tahiti</b><span>Gauguin · France · 1891</span></div>
+        <div class="art-card-info"><b>Femmes de Tahiti</b><span>Gauguin · France · 1891</span><small class="img-credit">Image : musée d&rsquo;Orsay, via <a href="https://commons.wikimedia.org/wiki/File:Paul_Gauguin_056.jpg" target="_blank" rel="noopener">Wikimedia Commons</a>, domaine public</small></div>
       </div>
     </div>
     <div class="big-art-wrap">
@@ -524,7 +529,8 @@ hr{border:none;border-top:1px solid #e0d5c0;margin:28px 0}
           <h2 id="sv-h" style="font-size:26px"></h2>
           <button class="back-btn" onclick="stopWb()">← Retour</button>
         </div>
-        <img id="sv-img" class="sv-art" src="images/oeuvres/grande-vague-hokusai.jpg" alt="">
+        <img id="sv-img" class="sv-art" src="images/oeuvres/grande-vague-hokusai.jpg" alt="" style="margin-bottom:0">
+        <small class="img-credit" id="sv-credit" style="margin-bottom:16px">Image : <a href="https://www.metmuseum.org/art/collection/search/45434" target="_blank" rel="noopener">The Metropolitan Museum of Art</a>, domaine public</small>
         <div class="sv-guide" id="sv-g"></div>
         <p class="ey" style="margin-bottom:10px">Votre humeur avant la séance</p>
         <div class="mood-row" id="mb-row">
@@ -611,16 +617,8 @@ hr{border:none;border-top:1px solid #e0d5c0;margin:28px 0}
 
 <footer class="credits">
   <div class="credits-in">
-    <h2>Crédits</h2>
-    <h3>Images des œuvres</h3>
-    <ul>
-      <li><b>La Grande Vague de Kanagawa</b>, Katsushika Hokusai — <a href="https://www.metmuseum.org/art/collection/search/45434" target="_blank" rel="noopener">The Metropolitan Museum of Art, New York</a>, domaine public (Open Access)</li>
-      <li><b>Nymphéas</b>, Claude Monet — <a href="https://www.artic.edu/artworks/16568" target="_blank" rel="noopener">Art Institute of Chicago</a>, image via <a href="https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Water_Lilies_-_1933.1157_-_Art_Institute_of_Chicago.jpg" target="_blank" rel="noopener">Wikimedia Commons</a>, domaine public</li>
-      <li><b>Iris</b>, Vincent van Gogh — <a href="https://www.metmuseum.org/art/collection/search/436528" target="_blank" rel="noopener">The Metropolitan Museum of Art, New York</a>, domaine public (Open Access)</li>
-      <li><b>Femmes de Tahiti</b>, Paul Gauguin — musée d&rsquo;Orsay, Paris, image via <a href="https://commons.wikimedia.org/wiki/File:Paul_Gauguin_056.jpg" target="_blank" rel="noopener">Wikimedia Commons</a>, domaine public</li>
-      <li><b>Pluie, vapeur et vitesse</b>, J.M.W. Turner — National Gallery, Londres, image via <a href="https://commons.wikimedia.org/wiki/File:Turner_-_Rain,_Steam_and_Speed_-_National_Gallery_file.jpg" target="_blank" rel="noopener">Wikimedia Commons</a>, domaine public</li>
-    </ul>
-    <h3>Textes</h3>
+    <h2>Crédits des textes</h2>
+    <p>Chaque image du site est créditée juste en dessous, avec un lien vers sa source.</p>
     <ul>
       <li>Textes du site (descriptions audio, partitions visuelles, vibrations, séances bien-être, présentation des pages et exposition « La lumière comme langage universel ») — source : Claude AI (Anthropic), textes générés par intelligence artificielle.</li>
       <li>Les tempos, tonalités et rythmes des partitions visuelles sont des interprétations créatives : ils ne décrivent pas une musique réelle liée aux œuvres.</li>
@@ -747,7 +745,7 @@ function startWb(i){
   const s=WBS[i];tSec=s.dur;tRun=false;tDone=false;mB=0;mA=0;
   document.getElementById('sv-h').textContent=s.t;
   document.getElementById('sv-g').textContent=s.g;
-  const sv=document.getElementById('sv-img');sv.src=ART[s.si].img;sv.alt=ART[s.si].name;
+  const sv=document.getElementById('sv-img');sv.src=ART[s.si].img;sv.alt=ART[s.si].name;document.getElementById('sv-credit').innerHTML=ART[s.si].credit;
   document.getElementById('t-ring').textContent=fmtT(tSec);
   document.getElementById('t-st').textContent='Prêt à démarrer';
   document.getElementById('t-btn').textContent='▶ Démarrer la séance';
@@ -779,7 +777,8 @@ function moodFn(ph,v,btn){
 let exposChargees=false;
 function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
 function escBr(s){return esc(s).replace(/\n/g,'<br>');}
-function viewSp(id){const e=expos.find(x=>x.id===id);if(!e)return;document.getElementById('sp-bdg').innerHTML=`<span class="badge bg">Exposition spéciale</span>${e.theme?` <span class="badge bt">${esc(e.theme)}</span>`:''}`;document.getElementById('sp-h').textContent=e.title||'';document.getElementById('sp-sub').textContent=e.subtitle||'';document.getElementById('sp-intro').textContent=e.intro||'';document.getElementById('sp-cnt').textContent='Comparaison mondiale · '+e.works.length+' œuvre(s)';document.getElementById('sp-wks').innerHTML=e.works.map(w=>`<div class="wk-card"><div class="wk-top"><div><h3>${esc(w.title)}</h3><p>${[w.artist,w.period,w.country,w.museum].filter(Boolean).map(esc).join(' · ')}</p></div><div class="wk-flag">${gFlag(w.country)}</div></div>${w.analysis?`<p class="wk-ana">${escBr(w.analysis)}</p>`:''} ${w.compare?`<div class="cmp-pt"><div class="cmp-l">Point de comparaison</div>${escBr(w.compare)}</div>`:''}</div>`).join('');document.querySelectorAll('.pg').forEach(p=>p.classList.remove('on'));document.getElementById('pg-sp').classList.add('on');document.querySelectorAll('.nav-links button').forEach(b=>b.classList.remove('on'));window.scrollTo(0,0);}
+function lienCredit(s){return esc(s).replace(/\((https?:\/\/[^\s)]+)\)/g,'(<a href="$1" target="_blank" rel="noopener">source</a>)');}
+function viewSp(id){const e=expos.find(x=>x.id===id);if(!e)return;document.getElementById('sp-bdg').innerHTML=`<span class="badge bg">Exposition spéciale</span>${e.theme?` <span class="badge bt">${esc(e.theme)}</span>`:''}`;document.getElementById('sp-h').textContent=e.title||'';document.getElementById('sp-sub').textContent=e.subtitle||'';document.getElementById('sp-intro').textContent=e.intro||'';document.getElementById('sp-cnt').textContent='Comparaison mondiale · '+e.works.length+' œuvre(s)';document.getElementById('sp-wks').innerHTML=e.works.map(w=>`<div class="wk-card"><div class="wk-top"><div><h3>${esc(w.title)}</h3><p>${[w.artist,w.period,w.country,w.museum].filter(Boolean).map(esc).join(' · ')}</p></div><div class="wk-flag">${gFlag(w.country)}</div></div>${w.image?`<img class="wk-img" src="${esc(w.image)}" alt="${esc(w.title)}${w.artist?', '+esc(w.artist):''}" loading="lazy"><small class="img-credit">${w.credit?'Image : '+lienCredit(w.credit):''}</small>`:''}${w.analysis?`<p class="wk-ana">${escBr(w.analysis)}</p>`:''} ${w.compare?`<div class="cmp-pt"><div class="cmp-l">Point de comparaison</div>${escBr(w.compare)}</div>`:''}</div>`).join('');document.querySelectorAll('.pg').forEach(p=>p.classList.remove('on'));document.getElementById('pg-sp').classList.add('on');document.querySelectorAll('.nav-links button').forEach(b=>b.classList.remove('on'));window.scrollTo(0,0);}
 function renderHome(){const el=document.getElementById('sp-home');if(!el||!exposChargees)return;const pub=expos.filter(e=>e.status==='published');if(!pub.length){el.innerHTML='<p style="color:#aaa;font-size:13px">Aucune exposition publiée pour le moment.</p>';return;}el.innerHTML=pub.map(e=>`<div class="sp-card" onclick="viewSp(${e.id})"><p class="sp-ey">Comparaison mondiale · ${e.works.length} œuvre(s)</p><h3 class="sp-t">${esc(e.title)}</h3><p class="sp-s">${esc(e.subtitle)}</p>${e.theme?`<div style="margin-top:10px"><span class="badge bg">${esc(e.theme)}</span></div>`:''}</div>`).join('');}
 function chargerExpos(){
   fetch('expositions.json',{cache:'no-cache'})

@@ -12,6 +12,8 @@
         "country": "Pays-Bas",
         "period": "c. 1665",
         "museum": "Mauritshuis, La Haye",
+        "image": "images/expositions/jeune-fille-a-la-perle-vermeer.jpg",
+        "credit": "Mauritshuis, La Haye, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:1665_Girl_with_a_Pearl_Earring.jpg), domaine public",
         "analysis": "La lumière chez Vermeer est douce, diffuse, intimiste. Elle vient d'une fenêtre invisible et enveloppe le sujet sans drama. C'est la lumière du quotidien transfiguré.",
         "compare": "Contraste direct avec le clair-obscur dramatique du Caravage — même époque, philosophie opposée."
       },
@@ -21,6 +23,8 @@
         "country": "Italie",
         "period": "1598–1599",
         "museum": "Galleria Nazionale, Rome",
+        "image": "images/expositions/judith-decapitant-holopherne-caravage.jpg",
+        "credit": "Gallerie Nazionali d'Arte Antica (Palazzo Barberini), Rome, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Judith_Beheading_Holofernes-Caravaggio_%28c.1598-9%29.jpg), domaine public",
         "analysis": "Le ténébrisme du Caravage utilise la lumière comme arme dramatique. Le fond noir absolu amplifie la violence de la scène.",
         "compare": "Face à la sérénité de Vermeer, Le Caravage démontre que la lumière peut aussi être violence et tension."
       },
@@ -30,6 +34,8 @@
         "country": "Pays-Bas",
         "period": "1642",
         "museum": "Rijksmuseum, Amsterdam",
+        "image": "images/expositions/ronde-de-nuit-rembrandt.jpg",
+        "credit": "Rijksmuseum, Amsterdam, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:The_Night_Watch_-_HD.jpg), domaine public",
         "analysis": "Rembrandt orchestre la lumière comme un chef d'orchestre — certains personnages émergent, d'autres disparaissent dans l'ombre.",
         "compare": "Là où Vermeer choisit un sujet unique, Rembrandt anime une multitude. La lumière devient architecte social."
       },
@@ -38,7 +44,9 @@
         "artist": "Katsushika Hokusai",
         "country": "Japon",
         "period": "1834–1835",
-        "museum": "Domaine public",
+        "museum": "Metropolitan Museum of Art, New York",
+        "image": "images/expositions/cent-vues-du-mont-fuji-hokusai.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/57849), domaine public (Open Access)",
         "analysis": "Dans l'estampe japonaise, la lumière est suggérée par l'absence — le blanc du papier devient lumière. Une approche radicalement différente de la tradition occidentale.",
         "compare": "L'absence de clair-obscur révèle que la lumière en art n'est pas universelle : elle est culturelle."
       }

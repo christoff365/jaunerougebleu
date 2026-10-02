@@ -2,6 +2,10 @@
 # Décrit le formulaire qui permet de créer et modifier les expositions du site.
 # Les expositions sont enregistrées dans expositions.json, que le site lit à chaque visite.
 
+media:
+  input: images/expositions
+  output: images/expositions
+
 content:
   - name: expositions
     label: Expositions
@@ -62,6 +66,12 @@ content:
             type: string
           - name: museum
             label: Musée
+            type: string
+          - name: image
+            label: Image de l'œuvre (domaine public uniquement)
+            type: image
+          - name: credit
+            label: "Crédit de l'image (ex. : Musée du Louvre, via Wikimedia Commons (lien), domaine public)"
             type: string
           - name: analysis
             label: Analyse éditoriale

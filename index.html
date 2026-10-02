@@ -39,7 +39,7 @@ nav{background:#fff;border-bottom:6px solid var(--noir);display:flex;flex-wrap:w
 .wordmark .j{color:var(--jaune);text-shadow:1px 0 0 #000,-1px 0 0 #000,0 1px 0 #000,0 -1px 0 #000}
 .wordmark .r{color:var(--rouge)}
 .wordmark .b{color:var(--bleu)}
-.wordmark .t{color:var(--noir)}
+.wordmark .t{color:var(--noir);margin:0 .08em}
 .nav-links{display:flex;flex-wrap:wrap;gap:2px}
 .nav-links button{background:none;border:none;border-bottom:3px solid transparent;color:#333;font-size:13px;font-weight:500;padding:6px 10px;transition:.2s;text-transform:uppercase;letter-spacing:.06em}
 .nav-links button:hover{border-bottom-color:var(--rouge)}
@@ -330,9 +330,9 @@ hr{border:none;border-top:1px solid #e0d5c0;margin:28px 0}
     </div>
   </div>
   <div class="stats-row">
-    <div class="stat"><div class="stat-n">2</div><div class="stat-l">Musées sources</div></div>
-    <div class="stat"><div class="stat-n">5 000</div><div class="stat-l">Ans d'histoire</div></div>
-    <div class="stat"><div class="stat-n">4</div><div class="stat-l">Langues</div></div>
+    <div class="stat"><div class="stat-n">7</div><div class="stat-l">Musées représentés</div></div>
+    <div class="stat"><div class="stat-n">3</div><div class="stat-l">Siècles d'art</div></div>
+    <div class="stat"><div class="stat-n">4</div><div class="stat-l">Langues prévues</div></div>
     <div class="stat"><div class="stat-n">∞</div><div class="stat-l">Expositions uniques</div></div>
   </div>
   <div class="wrap">
@@ -344,11 +344,11 @@ hr{border:none;border-top:1px solid #e0d5c0;margin:28px 0}
       </div>
       <div class="feat-card" onclick="go('acc',document.querySelectorAll('.nav-links button')[2])">
         <div class="feat-icon">👁️</div><div class="feat-t">Pour les aveugles</div>
-        <div class="feat-d">Description audio détaillée de chaque œuvre d'art.</div>
+        <div class="feat-d">Description audio détaillée des œuvres du parcours.</div>
       </div>
       <div class="feat-card" onclick="go('acc',document.querySelectorAll('.nav-links button')[2])">
         <div class="feat-icon">📳</div><div class="feat-t">Pour les sourds</div>
-        <div class="feat-d">Partition visuelle animée et vibrations haptiques.</div>
+        <div class="feat-d">Partition visuelle animée ; vibrations haptiques en préparation.</div>
       </div>
       <div class="feat-card">
         <div class="feat-icon">🌍</div><div class="feat-t">Perspective mondiale</div>
@@ -404,7 +404,7 @@ hr{border:none;border-top:1px solid #e0d5c0;margin:28px 0}
           </div>
           <div class="mini">
             <img src="images/oeuvres/pluie-vapeur-vitesse-turner.jpg" alt="Pluie, vapeur et vitesse, J.M.W. Turner" loading="lazy">
-            <div class="mini-info"><b>Rain, Steam and Speed</b><span>Turner · 1844 · Angleterre</span><small class="img-credit">Image : National Gallery, Londres, via <a href="https://commons.wikimedia.org/wiki/File:Turner_-_Rain,_Steam_and_Speed_-_National_Gallery_file.jpg" target="_blank" rel="noopener">Wikimedia Commons</a>, domaine public</small></div>
+            <div class="mini-info"><b>Pluie, vapeur et vitesse</b><span>Turner · 1844 · Angleterre</span><small class="img-credit">Image : National Gallery, Londres, via <a href="https://commons.wikimedia.org/wiki/File:Turner_-_Rain,_Steam_and_Speed_-_National_Gallery_file.jpg" target="_blank" rel="noopener">Wikimedia Commons</a>, domaine public</small></div>
           </div>
         </div>
       </div>
@@ -414,7 +414,7 @@ hr{border:none;border-top:1px solid #e0d5c0;margin:28px 0}
       <div style="flex:1;padding-bottom:16px">
         <div class="era">Évolution · 1860–1910</div>
         <div class="tl-title">La révolution impressionniste</div>
-        <div class="tl-text">Monet, Renoir, Pissarro bouleversent la peinture académique. Au mème moment, les peintres de l'école de Barbizon inspirent à leur tour plusiers paysagistes américains.</div>
+        <div class="tl-text">Monet, Renoir et Pissarro bouleversent la peinture académique ; après eux, Van Gogh pousse encore plus loin la couleur et la touche. L'école de Barbizon, qui avait préparé l'impressionnisme, inspire aussi des paysagistes américains comme George Inness et William Morris Hunt.</div>
         <div class="mini-grid">
           <div class="mini" onclick="go('acc',document.querySelectorAll('.nav-links button')[2])">
             <img src="images/oeuvres/nympheas-monet.jpg" alt="Nymphéas, Claude Monet" loading="lazy">
@@ -422,7 +422,7 @@ hr{border:none;border-top:1px solid #e0d5c0;margin:28px 0}
           </div>
           <div class="mini" onclick="go('acc',document.querySelectorAll('.nav-links button')[2])">
             <img src="images/oeuvres/iris-van-gogh.jpg" alt="Iris, Vincent van Gogh" loading="lazy">
-            <div class="mini-info"><b>Iris (Van Gogh, 1890, Saint-Remy)</b><span>Van Gogh · 1890 · Pays-Bas</span><small class="img-credit">Image : <a href="https://www.metmuseum.org/art/collection/search/436528" target="_blank" rel="noopener">The Metropolitan Museum of Art</a>, domaine public</small></div>
+            <div class="mini-info"><b>Iris (Van Gogh, 1890, Saint-Rémy)</b><span>Van Gogh · 1890 · Pays-Bas</span><small class="img-credit">Image : <a href="https://www.metmuseum.org/art/collection/search/436528" target="_blank" rel="noopener">The Metropolitan Museum of Art</a>, domaine public</small></div>
           </div>
         </div>
       </div>
@@ -432,7 +432,7 @@ hr{border:none;border-top:1px solid #e0d5c0;margin:28px 0}
       <div style="flex:1">
         <div class="era">Héritage · 1900–aujourd'hui</div>
         <div class="tl-title">L'influence mondiale</div>
-        <div class="tl-text">L'impressionnisme ouvre la voie à toutes les avant-gardes du XXe siècle. Son héritage se retrouve chez Cézanne, chez les Fauves, et dans l'expressionnisme abstrait américain des années 1950.</div>
+        <div class="tl-text">L'impressionnisme ouvre la voie à de nombreuses avant-gardes du XXe siècle. Cézanne, qui exposait avec les impressionnistes dès 1874, en tire une peinture plus construite ; les Fauves libèrent la couleur ; et dans les années 1950, les grands Nymphéas de Monet sont redécouverts à la lumière de l'expressionnisme abstrait américain.</div>
       </div>
     </div>
   </div>
@@ -442,7 +442,7 @@ hr{border:none;border-top:1px solid #e0d5c0;margin:28px 0}
 <div id="pg-acc" class="pg">
   <div class="wrap">
     <h2>Accessibilité universelle</h2>
-    <p class="sub"><strong>👁️ Pour les aveugles & malvoyants :</strong> description audio de chaque œuvre.<br><strong>📳 Pour les sourds & malentendants :</strong> partition visuelle animée et vibrations haptiques à ressentir dans le corps.</p>
+    <p class="sub"><strong>👁️ Pour les aveugles & malvoyants :</strong> description audio de chaque œuvre.<br><strong>📳 Pour les sourds & malentendants :</strong> partition visuelle animée ; les vibrations haptiques sont en préparation.</p>
     <p class="ey">Sélectionnez une œuvre</p>
     <div class="art-cards" id="art-cards">
       <div class="art-card on" onclick="pickArt(0,this)">
@@ -455,7 +455,7 @@ hr{border:none;border-top:1px solid #e0d5c0;margin:28px 0}
       </div>
       <div class="art-card" onclick="pickArt(2,this)">
         <img class="art-card-img" src="images/oeuvres/iris-van-gogh.jpg" alt="Iris, Vincent van Gogh" loading="lazy">
-        <div class="art-card-info"><b>Iris (Van Gogh,1890, Saint-Remy)</b><span>Van Gogh · Pays-Bas · 1890</span><small class="img-credit">Image : <a href="https://www.metmuseum.org/art/collection/search/436528" target="_blank" rel="noopener">The Metropolitan Museum of Art</a>, domaine public</small></div>
+        <div class="art-card-info"><b>Iris (Van Gogh, 1890, Saint-Rémy)</b><span>Van Gogh · Pays-Bas · 1890</span><small class="img-credit">Image : <a href="https://www.metmuseum.org/art/collection/search/436528" target="_blank" rel="noopener">The Metropolitan Museum of Art</a>, domaine public</small></div>
       </div>
       <div class="art-card" onclick="pickArt(3,this)">
         <img class="art-card-img" src="images/oeuvres/femmes-de-tahiti-gauguin.jpg" alt="Femmes de Tahiti, Paul Gauguin" loading="lazy">
@@ -484,7 +484,7 @@ hr{border:none;border-top:1px solid #e0d5c0;margin:28px 0}
       <div class="panel">
         <div class="panel-head deaf-head">
           <h3>📳 Personnes sourdes & malentendantes</h3>
-          <p>Partition visuelle animée + vibrations haptiques à ressentir dans le corps.</p>
+          <p>Partition visuelle animée + rythme proposé pour les vibrations (en préparation).</p>
         </div>
         <div class="panel-body">
           <div class="info-box green-box">
@@ -493,15 +493,15 @@ hr{border:none;border-top:1px solid #e0d5c0;margin:28px 0}
               <div class="ms">Tempo <b>126 BPM</b></div><div class="ms">Tonalité <b>Mi mineur</b></div>
               <div class="ms">Énergie <b>Forte</b></div><div class="ms">Caractère <b>Percussif</b></div>
             </div>
-            <div class="box-text" id="deaf-txt">La musique de cette œuvre est percussive et tendue — comme les vagues qui déferlent. Sur les téléphones Android, chaque oeuvre possede son propre rythme de vibration, à ressentir en tenant le téléphone. Sur tous les appareils, la partition visuelle traduit ce rythme à l'écran.</div>
+            <div class="box-text" id="deaf-txt">Si cette œuvre était une musique, elle serait percussive et tendue — comme les vagues qui déferlent. Des pulsations fortes et régulières évoqueraient la puissance de l'océan, puis une montée vers un sommet intense, suivie d'un silence soudain : le moment suspendu avant l'impact.</div>
             <button class="btn-g" id="play-btn" onclick="doVibe()">▶ Lancer la partition visuelle</button>
           </div>
           <div class="vibe-box">
-            <div class="vibe-lbl">📳 Vibrations haptiques — à ressentir dans le corps</div>
+            <div class="vibe-lbl">📳 Vibrations haptiques — rythme proposé (fonction en préparation)</div>
             <div class="vibe-bars" id="vibe-bars">
               <span style="height:80%;background:#1D9E75"></span><span style="height:60%;background:#1D9E75"></span><span style="height:90%;background:#1D9E75"></span><span style="height:70%;background:#1D9E75"></span><span style="height:100%;background:#1D9E75"></span><span style="height:50%;background:#1D9E75"></span><span style="height:85%;background:#1D9E75"></span><span style="height:65%;background:#1D9E75"></span><span style="height:75%;background:#1D9E75"></span><span style="height:55%;background:#1D9E75"></span>
             </div>
-            <div class="vibe-text" id="vibe-txt">Pulsations fortes et régulières à 1 Hz sur les poignets. Vibration montante de gauche à droite simulant le déferlement. Pic d'intensité suivi d'un silence de 2 secondes — le moment suspendu avant l'impact.</div>
+            <div class="vibe-text" id="vibe-txt">Pulsations fortes et régulières, environ une par seconde, qui montent en intensité comme le déferlement, puis s'arrêtent net pendant 2 secondes — le moment suspendu avant l'impact.</div>
           </div>
         </div>
       </div>
@@ -629,28 +629,28 @@ hr{border:none;border-top:1px solid #e0d5c0;margin:28px 0}
 <script>
 const ART = [
   { img:"images/oeuvres/grande-vague-hokusai.jpg", credit:'Image : <a href="https://www.metmuseum.org/art/collection/search/45434" target="_blank" rel="noopener">The Metropolitan Museum of Art</a>, domaine public (Open Access)', name:"La Grande Vague de Kanagawa", meta:"Katsushika Hokusai · Japon · vers 1830-1832 · Metropolitan Museum of Art",
-    blind:"Une vague géante en forme de griffe domine la composition. Au creux de son écume blanche et dentelée, le Mont Fuji apparaît en miniature au loin, coiffé de neige. Trois embarcations de pêcheurs luttent contre le déferlement. Les teintes dominantes sont le bleu de Prusse profond, le blanc de l'écume et le beige du ciel hivernal.",
-    deaf:"La musique de cette œuvre est percussive et tendue — comme les vagues qui déferlent. Des pulsations fortes et régulières représentent la puissance de l'océan. Une montée progressive vers un climax intense, suivie d'un silence soudain représentant le moment suspendu avant l'impact.",
+    blind:"Une vague géante en forme de griffe domine la composition. Au creux de son écume blanche et dentelée, le Mont Fuji apparaît en miniature au loin, coiffé de neige. Trois embarcations de pêcheurs luttent contre le déferlement. Les teintes dominantes sont le bleu de Prusse profond, le blanc de l'écume et le beige du ciel.",
+    deaf:"Si cette œuvre était une musique, elle serait percussive et tendue — comme les vagues qui déferlent. Des pulsations fortes et régulières évoqueraient la puissance de l'océan, puis une montée vers un sommet intense, suivie d'un silence soudain : le moment suspendu avant l'impact.",
     stats:[["Tempo","126 BPM"],["Tonalité","Mi mineur"],["Énergie","Forte"],["Caractère","Percussif"]],
-    vibe:"Pulsations fortes et régulières à 1 Hz sur les poignets. Vibration montante de gauche à droite simulant le déferlement. Pic d'intensité suivi d'un silence de 2 secondes.",
+    vibe:"Pulsations fortes et régulières, environ une par seconde, qui montent en intensité comme le déferlement, puis s'arrêtent net pendant 2 secondes — le moment suspendu avant l'impact.",
     heights:[80,60,90,70,100,50,85,65,75,55] },
   { img:"images/oeuvres/nympheas-monet.jpg", credit:'Image : <a href="https://www.artic.edu/artworks/16568" target="_blank" rel="noopener">Art Institute of Chicago</a> (1933.1157), via <a href="https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Water_Lilies_-_1933.1157_-_Art_Institute_of_Chicago.jpg" target="_blank" rel="noopener">Wikimedia Commons</a>, domaine public', name:"Nymphéas", meta:"Claude Monet · France · 1906 · Art Institute of Chicago",
-    blind:"La surface de l'eau occupe tout le tableau, sans horizon visible. Des nénuphars ovales aux tons crème, roses et verts flottent en grappes. Le ciel et les saules pleureurs se reflètent en touches bleues et mauves. On est immergé dans l'eau — aucune rive, aucune limite visible.",
-    deaf:"La musique de cette œuvre est lente et enveloppante — comme une brume qui flotte sur l'eau. Des tonalités douces et continues s'enchaînent sans rupture. Un tempo très lent, à peine perceptible, crée une sensation de temps suspendu et d'apaisement profond.",
+    blind:"La surface de l'eau occupe tout le tableau, sans horizon visible. Des grappes de feuilles de nénuphars, rondes et vertes, flottent à la surface, ponctuées de fleurs roses, blanches et jaunes. Le ciel et les arbres de la rive se reflètent dans l'eau en touches bleues, vertes et mauves. On est immergé dans l'étang — aucune rive, aucune limite visible.",
+    deaf:"Si cette œuvre était une musique, elle serait lente et enveloppante — comme une brume qui flotte sur l'eau. Des tonalités douces et continues s'enchaînent sans rupture. Un tempo très lent, à peine perceptible, crée une sensation de temps suspendu et d'apaisement profond.",
     stats:[["Tempo","52 BPM"],["Tonalité","Fa majeur"],["Énergie","Douce"],["Caractère","Méditatif"]],
-    vibe:"Vibrations douces et continues comme une respiration lente. Légère oscillation gauche-droite imitant les ondulations de l'eau. Aucun pic brusque — une texture constante et enveloppante sur toute la surface des mains.",
+    vibe:"Vibrations douces et continues, comme une respiration lente, avec de légères ondulations imitant celles de l'eau. Aucun pic brusque : une texture constante et enveloppante.",
     heights:[30,25,35,22,38,28,32,24,33,26] },
-  { img:"images/oeuvres/iris-van-gogh.jpg", credit:'Image : <a href="https://www.metmuseum.org/art/collection/search/436528" target="_blank" rel="noopener">The Metropolitan Museum of Art</a>, domaine public (Open Access)', name:"Iris (Van Gogh,1890, Saint-Remy)", meta:"Vincent van Gogh · Pays-Bas · 1890 · Metropolitan Museum of Art, New York",
+  { img:"images/oeuvres/iris-van-gogh.jpg", credit:'Image : <a href="https://www.metmuseum.org/art/collection/search/436528" target="_blank" rel="noopener">The Metropolitan Museum of Art</a>, domaine public (Open Access)', name:"Iris (Van Gogh, 1890, Saint-Rémy)", meta:"Vincent van Gogh · Pays-Bas · 1890 · Metropolitan Museum of Art, New York",
     blind:"Un grand bouquet d'iris bleu-violet jaillit d'un vase blanc posé sur une table vert vif. Les fleurs et leurs longues feuilles pointues partent dans tous les sens, comme si le bouquet débordait du tableau. Le fond est d'un blanc cassé : il était rose à l'origine, mais la couleur a pâli avec le temps. La peinture est posée en touches épaisses, presque en relief.",
-    deaf:"La musique de cette œuvre est joyeuse et irrégulière — comme les coups de pinceau énergiques de Van Gogh. Un tempo vif avec des accents imprévisibles reflète l'exubérance et la vitalité de la composition. Des explosions de joie sonore succèdent à des moments de calme.",
+    deaf:"Si cette œuvre était une musique, elle serait joyeuse et irrégulière — comme les coups de pinceau énergiques de Van Gogh. Un tempo vif avec des accents imprévisibles reflète l'exubérance et la vitalité de la composition. Des explosions de joie sonore succèdent à des moments de calme.",
     stats:[["Tempo","98 BPM"],["Tonalité","Ré majeur"],["Énergie","Vive"],["Caractère","Exubérant"]],
-    vibe:"Pulsations irrégulières mais chaleureuses à 98 BPM alternant entre les deux mains. Intensité croissante du centre vers la périphérie. Légère accélération progressive imitant l'expansion des fleurs.",
+    vibe:"Pulsations vives et irrégulières, environ 98 par minute, qui s'intensifient et accélèrent légèrement, comme un bouquet qui s'épanouit.",
     heights:[65,80,55,90,70,85,60,75,68,82] },
   { img:"images/oeuvres/femmes-de-tahiti-gauguin.jpg", credit:'Image : musée d&rsquo;Orsay, via <a href="https://commons.wikimedia.org/wiki/File:Paul_Gauguin_056.jpg" target="_blank" rel="noopener">Wikimedia Commons</a>, domaine public', name:"Femmes de Tahiti", meta:"Paul Gauguin · France · 1891 · Musée d'Orsay, Paris (reproduction : Wikimedia Commons)",
     blind:"Deux femmes tahitiennes sont assises sur le sable d'une plage. À gauche, l'une est vue de profil, la tête baissée, une fleur blanche dans ses longs cheveux noirs ; elle porte un haut blanc et un paréo rouge à grandes fleurs blanches. À droite, l'autre est de face, en longue robe rose, et tresse des fibres entre ses mains ; elle regarde de côté, l'air grave. Derrière elles, des bandes de mer sombre et de vert ferment l'horizon.",
-    deaf:"La musique de cette œuvre est méditative et hypnotique — comme un rituel ancestral polynésien. Un tempo modéré avec des répétitions rythmiques régulières crée une transe douce. Des tonalités chaudes et profondes reflètent la chaleur tropicale et la mélancolie de la scène.",
+    deaf:"Si cette œuvre était une musique, elle serait méditative et hypnotique — comme un chant lent et répété. Un tempo modéré avec des répétitions rythmiques régulières crée une transe douce. Des tonalités chaudes et profondes reflètent la chaleur tropicale et la mélancolie de la scène.",
     stats:[["Tempo","72 BPM"],["Tonalité","Sol pentatonique"],["Énergie","Méditative"],["Caractère","Hypnotique"]],
-    vibe:"Pulsations profondes et régulières à 72 BPM centrées sur le sternum. Légère chaleur diffuse sur les paumes. Séquences de 8 pulsations suivies d'une pause d'une seconde — rythme de respiration profonde.",
+    vibe:"Pulsations profondes et régulières, environ 72 par minute, par séries de 8 suivies d'une pause d'une seconde — le rythme d'une respiration profonde.",
     heights:[50,45,55,48,58,42,52,46,54,44] },
 ];
 const WBS=[

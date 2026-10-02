@@ -1,10 +1,10 @@
 [
   {
     "title": "La lumière comme langage universel",
-    "subtitle": "Vermeer, Le Caravage, Rembrandt et Hokusai = quatre visions de la lumière",
+    "subtitle": "Vermeer, Le Caravage, Rembrandt et Hokusai — quatre visions de la lumière",
     "status": "published",
     "theme": "Lumière & ombre à travers les cultures",
-    "intro": "À travers quatre siècles et deux continents, la lumière est le véritable sujet de ces chefs-d'œuvre. Qu'elle soit naturelle ou divine, intime ou dramatique, elle révèle l'essentiel de chaque culture.",
+    "intro": "En un peu plus de deux siècles (vers 1600 – 1835) et sur deux continents, la lumière est le véritable sujet de ces chefs-d'œuvre. Qu'elle soit naturelle ou divine, intime ou dramatique, elle révèle l'essentiel de chaque culture.",
     "works": [
       {
         "title": "La Jeune Fille à la perle",
@@ -14,18 +14,18 @@
         "museum": "Mauritshuis, La Haye",
         "image": "images/expositions/jeune-fille-a-la-perle-vermeer.jpg",
         "credit": "Mauritshuis, La Haye, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:1665_Girl_with_a_Pearl_Earring.jpg), domaine public",
-        "analysis": "La lumière chez Vermeer est douce, diffuse, intimiste. Elle vient d'une fenêtre invisible et enveloppe le sujet sans drama. C'est la lumière du quotidien transfiguré.",
-        "compare": "Contraste direct avec le clair-obscur dramatique du Caravage — même époque, philosophie opposée."
+        "analysis": "La lumière chez Vermeer est douce, diffuse, intimiste. Venue de la gauche, comme d'une fenêtre hors du tableau, elle modèle le visage sans effet dramatique et fait briller la perle. C'est la lumière du quotidien transfiguré.",
+        "compare": "Contraste direct avec le clair-obscur dramatique du Caravage : plus de soixante ans séparent les deux tableaux, et leurs conceptions de la lumière s'opposent."
       },
       {
         "title": "Judith décapitant Holopherne",
         "artist": "Le Caravage",
         "country": "Italie",
-        "period": "1598–1599",
-        "museum": "Galleria Nazionale, Rome",
+        "period": "vers 1599–1602 (datation discutée)",
+        "museum": "Galleria Nazionale d'Arte Antica, palais Barberini, Rome",
         "image": "images/expositions/judith-decapitant-holopherne-caravage.jpg",
         "credit": "Gallerie Nazionali d'Arte Antica (Palazzo Barberini), Rome, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Judith_Beheading_Holofernes-Caravaggio_%28c.1598-9%29.jpg), domaine public",
-        "analysis": "Le ténébrisme du Caravage utilise la lumière comme arme dramatique. Le fond noir absolu amplifie la violence de la scène.",
+        "analysis": "Le ténébrisme du Caravage utilise la lumière comme arme dramatique. Le fond très sombre, seulement animé d'un rideau rouge, isole les figures et amplifie la violence de la scène.",
         "compare": "Face à la sérénité de Vermeer, Le Caravage démontre que la lumière peut aussi être violence et tension."
       },
       {

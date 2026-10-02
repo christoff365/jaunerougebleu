@@ -113,6 +113,14 @@ hr{border:none;border-top:1px solid #e0d5c0;margin:28px 0}
 .big-art-svg{width:100%;height:320px;display:block;border-radius:8px 8px 0 0}
 .big-art-wrap{border:1px solid #e0d5c0;border-radius:8px;overflow:hidden;margin-bottom:24px}
 .big-art-cap{padding:10px 16px;font-size:13px;color:#777;background:#faf7f2;border-top:1px solid #e0d5c0}
+.big-art-credit{padding:0 16px 10px;font-size:12px;color:#888;background:#faf7f2}
+.big-art-credit a,.credits a{color:inherit;text-decoration:underline}
+.credits{border-top:6px solid #000;background:#faf7f2;color:#555;font-size:13px;line-height:1.7;padding:28px 24px 36px}
+.credits-in{max-width:920px;margin:0 auto}
+.credits h2{font-family:'Cormorant Garamond',serif;font-size:22px;margin-bottom:10px;color:#111}
+.credits h3{font-size:12px;text-transform:uppercase;letter-spacing:.1em;color:#888;margin:14px 0 6px;font-weight:600}
+.credits ul{list-style:none;padding:0;margin:0}
+.credits li{margin-bottom:4px}
 
 /* FEAT GRID */
 .feat-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px;margin-bottom:36px}
@@ -385,7 +393,7 @@ hr{border:none;border-top:1px solid #e0d5c0;margin:28px 0}
             <div class="mini-info"><b>La Grande Vague</b><span>Hokusai · vers 1830-1832 · Japon</span></div>
           </div>
           <div class="mini">
-            <div style="height:120px;background:#d4c090;display:flex;align-items:center;justify-content:center;font-size:40px">🌅</div>
+            <img src="images/oeuvres/pluie-vapeur-vitesse-turner.jpg" alt="Pluie, vapeur et vitesse, J.M.W. Turner" loading="lazy">
             <div class="mini-info"><b>Rain, Steam and Speed</b><span>Turner · 1844 · Angleterre</span></div>
           </div>
         </div>
@@ -447,6 +455,7 @@ hr{border:none;border-top:1px solid #e0d5c0;margin:28px 0}
     <div class="big-art-wrap">
       <img id="big-img" src="images/oeuvres/grande-vague-hokusai.jpg" alt="La Grande Vague de Kanagawa, Hokusai" style="width:100%;height:340px;display:block;object-fit:contain;background:#f5f0e8">
       <div class="big-art-cap" id="big-cap">La Grande Vague de Kanagawa — Katsushika Hokusai · Japon · vers 1830-1832 · Metropolitan Museum of Art, New York</div>
+      <div class="big-art-credit" id="big-credit">Image : <a href="https://www.metmuseum.org/art/collection/search/45434" target="_blank" rel="noopener">The Metropolitan Museum of Art</a>, domaine public (Open Access)</div>
     </div>
     <div class="acc-panels">
       <div class="panel">
@@ -595,27 +604,42 @@ hr{border:none;border-top:1px solid #e0d5c0;margin:28px 0}
   </div>
 </div>
 
+<footer class="credits">
+  <div class="credits-in">
+    <h2>Crédits</h2>
+    <h3>Images des œuvres</h3>
+    <ul>
+      <li><b>La Grande Vague de Kanagawa</b>, Katsushika Hokusai — <a href="https://www.metmuseum.org/art/collection/search/45434" target="_blank" rel="noopener">The Metropolitan Museum of Art, New York</a>, domaine public (Open Access)</li>
+      <li><b>Nymphéas</b>, Claude Monet — <a href="https://www.artic.edu/artworks/16568" target="_blank" rel="noopener">Art Institute of Chicago</a>, image via <a href="https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Water_Lilies_-_1933.1157_-_Art_Institute_of_Chicago.jpg" target="_blank" rel="noopener">Wikimedia Commons</a>, domaine public</li>
+      <li><b>Iris</b>, Vincent van Gogh — <a href="https://www.metmuseum.org/art/collection/search/436528" target="_blank" rel="noopener">The Metropolitan Museum of Art, New York</a>, domaine public (Open Access)</li>
+      <li><b>Femmes de Tahiti</b>, Paul Gauguin — musée d&rsquo;Orsay, Paris, image via <a href="https://commons.wikimedia.org/wiki/File:Paul_Gauguin_056.jpg" target="_blank" rel="noopener">Wikimedia Commons</a>, domaine public</li>
+      <li><b>Pluie, vapeur et vitesse</b>, J.M.W. Turner — National Gallery, Londres, image via <a href="https://commons.wikimedia.org/wiki/File:Turner_-_Rain,_Steam_and_Speed_-_National_Gallery_file.jpg" target="_blank" rel="noopener">Wikimedia Commons</a>, domaine public</li>
+    </ul>
+    <h3>Textes</h3>
+    <p>Descriptions audio, partitions visuelles, analyses et parcours : association Jaune-Rouge-Bleu. Les informations sur les œuvres (titres, dates, lieux de conservation) proviennent des musées cités ci-dessus.</p>
+  </div>
+</footer>
 <script>
 const ART = [
-  { img:"images/oeuvres/grande-vague-hokusai.jpg", name:"La Grande Vague de Kanagawa", meta:"Katsushika Hokusai · Japon · vers 1830-1832 · Metropolitan Museum of Art",
+  { img:"images/oeuvres/grande-vague-hokusai.jpg", credit:'Image : <a href="https://www.metmuseum.org/art/collection/search/45434" target="_blank" rel="noopener">The Metropolitan Museum of Art</a>, domaine public (Open Access)', name:"La Grande Vague de Kanagawa", meta:"Katsushika Hokusai · Japon · vers 1830-1832 · Metropolitan Museum of Art",
     blind:"Une vague géante en forme de griffe domine la composition. Au creux de son écume blanche et dentelée, le Mont Fuji apparaît en miniature au loin, coiffé de neige. Trois embarcations de pêcheurs luttent contre le déferlement. Les teintes dominantes sont le bleu de Prusse profond, le blanc de l'écume et le beige du ciel hivernal.",
     deaf:"La musique de cette œuvre est percussive et tendue — comme les vagues qui déferlent. Des pulsations fortes et régulières représentent la puissance de l'océan. Une montée progressive vers un climax intense, suivie d'un silence soudain représentant le moment suspendu avant l'impact.",
     stats:[["Tempo","126 BPM"],["Tonalité","Mi mineur"],["Énergie","Forte"],["Caractère","Percussif"]],
     vibe:"Pulsations fortes et régulières à 1 Hz sur les poignets. Vibration montante de gauche à droite simulant le déferlement. Pic d'intensité suivi d'un silence de 2 secondes.",
     heights:[80,60,90,70,100,50,85,65,75,55] },
-  { img:"images/oeuvres/nympheas-monet.jpg", name:"Nymphéas", meta:"Claude Monet · France · 1906 · Art Institute of Chicago",
+  { img:"images/oeuvres/nympheas-monet.jpg", credit:'Image : <a href="https://www.artic.edu/artworks/16568" target="_blank" rel="noopener">Art Institute of Chicago</a> (1933.1157), via <a href="https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Water_Lilies_-_1933.1157_-_Art_Institute_of_Chicago.jpg" target="_blank" rel="noopener">Wikimedia Commons</a>, domaine public', name:"Nymphéas", meta:"Claude Monet · France · 1906 · Art Institute of Chicago",
     blind:"La surface de l'eau occupe tout le tableau, sans horizon visible. Des nénuphars ovales aux tons crème, roses et verts flottent en grappes. Le ciel et les saules pleureurs se reflètent en touches bleues et mauves. On est immergé dans l'eau — aucune rive, aucune limite visible.",
     deaf:"La musique de cette œuvre est lente et enveloppante — comme une brume qui flotte sur l'eau. Des tonalités douces et continues s'enchaînent sans rupture. Un tempo très lent, à peine perceptible, crée une sensation de temps suspendu et d'apaisement profond.",
     stats:[["Tempo","52 BPM"],["Tonalité","Fa majeur"],["Énergie","Douce"],["Caractère","Méditatif"]],
     vibe:"Vibrations douces et continues comme une respiration lente. Légère oscillation gauche-droite imitant les ondulations de l'eau. Aucun pic brusque — une texture constante et enveloppante sur toute la surface des mains.",
     heights:[30,25,35,22,38,28,32,24,33,26] },
-  { img:"images/oeuvres/iris-van-gogh.jpg", name:"Iris (Van Gogh,1890, Saint-Remy)", meta:"Vincent van Gogh · Pays-Bas · 1890 · Metropolitan Museum of Art, New York",
+  { img:"images/oeuvres/iris-van-gogh.jpg", credit:'Image : <a href="https://www.metmuseum.org/art/collection/search/436528" target="_blank" rel="noopener">The Metropolitan Museum of Art</a>, domaine public (Open Access)', name:"Iris (Van Gogh,1890, Saint-Remy)", meta:"Vincent van Gogh · Pays-Bas · 1890 · Metropolitan Museum of Art, New York",
     blind:"Un grand bouquet d'iris bleu-violet jaillit d'un vase blanc posé sur une table vert vif. Les fleurs et leurs longues feuilles pointues partent dans tous les sens, comme si le bouquet débordait du tableau. Le fond est d'un blanc cassé : il était rose à l'origine, mais la couleur a pâli avec le temps. La peinture est posée en touches épaisses, presque en relief.",
     deaf:"La musique de cette œuvre est joyeuse et irrégulière — comme les coups de pinceau énergiques de Van Gogh. Un tempo vif avec des accents imprévisibles reflète l'exubérance et la vitalité de la composition. Des explosions de joie sonore succèdent à des moments de calme.",
     stats:[["Tempo","98 BPM"],["Tonalité","Ré majeur"],["Énergie","Vive"],["Caractère","Exubérant"]],
     vibe:"Pulsations irrégulières mais chaleureuses à 98 BPM alternant entre les deux mains. Intensité croissante du centre vers la périphérie. Légère accélération progressive imitant l'expansion des fleurs.",
     heights:[65,80,55,90,70,85,60,75,68,82] },
-  { img:"images/oeuvres/femmes-de-tahiti-gauguin.jpg", name:"Femmes de Tahiti", meta:"Paul Gauguin · France · 1891 · Musée d'Orsay, Paris (reproduction : Wikimedia Commons)",
+  { img:"images/oeuvres/femmes-de-tahiti-gauguin.jpg", credit:'Image : musée d&rsquo;Orsay, via <a href="https://commons.wikimedia.org/wiki/File:Paul_Gauguin_056.jpg" target="_blank" rel="noopener">Wikimedia Commons</a>, domaine public', name:"Femmes de Tahiti", meta:"Paul Gauguin · France · 1891 · Musée d'Orsay, Paris (reproduction : Wikimedia Commons)",
     blind:"Deux femmes tahitiennes sont assises sur le sable d'une plage. À gauche, l'une est vue de profil, la tête baissée, une fleur blanche dans ses longs cheveux noirs ; elle porte un haut blanc et un paréo rouge à grandes fleurs blanches. À droite, l'autre est de face, en longue robe rose, et tresse des fibres entre ses mains ; elle regarde de côté, l'air grave. Derrière elles, des bandes de mer sombre et de vert ferment l'horizon.",
     deaf:"La musique de cette œuvre est méditative et hypnotique — comme un rituel ancestral polynésien. Un tempo modéré avec des répétitions rythmiques régulières crée une transe douce. Des tonalités chaudes et profondes reflètent la chaleur tropicale et la mélancolie de la scène.",
     stats:[["Tempo","72 BPM"],["Tonalité","Sol pentatonique"],["Énergie","Méditative"],["Caractère","Hypnotique"]],
@@ -669,7 +693,7 @@ function pickArt(i,el){
   el.classList.add('on');
   curA=i;
   const a=ART[i];
-  const big=document.getElementById('big-img');big.src=a.img;big.alt=a.name;
+  const big=document.getElementById('big-img');big.src=a.img;big.alt=a.name;document.getElementById('big-credit').innerHTML=a.credit;
   document.getElementById('big-cap').textContent=a.name+' — '+a.meta;
   document.getElementById('blind-txt').textContent=a.blind;
   document.getElementById('deaf-txt').textContent=a.deaf;

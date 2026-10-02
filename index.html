@@ -122,6 +122,10 @@ hr{border:none;border-top:1px solid #e0d5c0;margin:28px 0}
 .credits ul{list-style:none;padding:0;margin:0}
 .credits li{margin-bottom:4px}
 
+/* FILIGRANE « Site en construction » (page d'accueil uniquement) */
+.filigrane{position:fixed;inset:0;z-index:50;display:flex;align-items:center;justify-content:center;pointer-events:none;overflow:hidden}
+.filigrane span{transform:rotate(-30deg);white-space:nowrap;font-family:var(--font-bauhaus);font-size:clamp(2.6rem,9vw,7.5rem);letter-spacing:.04em;color:rgba(216,38,28,.16);-webkit-text-stroke:1px rgba(216,38,28,.28);user-select:none}
+
 /* FEAT GRID */
 .feat-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px;margin-bottom:36px}
 .feat-card{background:#faf7f2;border:1px solid #e0d5c0;border-radius:6px;padding:20px;cursor:pointer;transition:.22s}
@@ -298,6 +302,7 @@ hr{border:none;border-top:1px solid #e0d5c0;margin:28px 0}
 
 <!-- HOME -->
 <div id="pg-home" class="pg on" tabindex="-1">
+  <div class="filigrane" role="note" aria-label="Site en construction"><span aria-hidden="true">Site en construction</span></div>
   <div class="hero">
     <div class="hero-in">
       <div class="hero-txt">
@@ -616,7 +621,11 @@ hr{border:none;border-top:1px solid #e0d5c0;margin:28px 0}
       <li><b>Pluie, vapeur et vitesse</b>, J.M.W. Turner — National Gallery, Londres, image via <a href="https://commons.wikimedia.org/wiki/File:Turner_-_Rain,_Steam_and_Speed_-_National_Gallery_file.jpg" target="_blank" rel="noopener">Wikimedia Commons</a>, domaine public</li>
     </ul>
     <h3>Textes</h3>
-    <p>Descriptions audio, partitions visuelles, analyses et parcours : association Jaune-Rouge-Bleu. Les informations sur les œuvres (titres, dates, lieux de conservation) proviennent des musées cités ci-dessus.</p>
+    <ul>
+      <li>Textes du site (descriptions audio, partitions visuelles, vibrations, séances bien-être, présentation des pages et exposition « La lumière comme langage universel ») — source : Claude AI (Anthropic), textes générés par intelligence artificielle.</li>
+      <li>Les tempos, tonalités et rythmes des partitions visuelles sont des interprétations créatives : ils ne décrivent pas une musique réelle liée aux œuvres.</li>
+      <li>Informations sur les œuvres (titres, artistes, dates, lieux de conservation) — source : les musées et la base Wikimedia Commons cités ci-dessus.</li>
+    </ul>
   </div>
 </footer>
 <script>

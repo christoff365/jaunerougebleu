@@ -189,6 +189,12 @@ hr{border:none;border-top:1px solid #e0d5c0;margin:28px 0}
 .fr-seul{font-size:12px;color:#7a5c0a;background:#fff8e1;border-radius:4px;padding:6px 10px;margin:0 0 14px;display:inline-block}
 html[lang="fr"] .fr-seul{display:none}
 .pastille-direct{display:inline-block!important;margin-top:4px;font-size:10px!important;font-weight:600;color:#0a5c40!important;background:#e3f4ec;border-radius:3px;padding:1px 6px}
+.mus-tous,.mus-region{border-top:4px solid #000;padding:18px 0 8px;margin-top:22px}
+.mus-region:nth-child(3n+1){border-color:#E8C547}.mus-region:nth-child(3n+2){border-color:#E03030}.mus-region:nth-child(3n){border-color:#5599EE}
+.mus-tous h3,.mus-region h3{font-family:'Cormorant Garamond',serif;font-size:24px;margin-bottom:8px}
+.mus-tous ul,.mus-region ul{columns:2 260px;column-gap:28px;padding-left:18px;font-size:14px;line-height:1.7;color:#333}
+.mus-tous p,.mus-region p{font-size:13px;color:#5c5c5c;line-height:1.6;margin:8px 0}
+.mus-region a{color:inherit}
 .expo-sources{font-size:12px;color:#5c5c5c;line-height:1.6;margin-top:10px;padding-top:12px;border-top:1px solid #e0d5c0}
 .expo-note{background:#fff8e1;border-left:3px solid var(--jaune);padding:10px 14px;font-size:13px;color:#555;margin-bottom:18px;line-height:1.6}
 /* Images sensibles : floutées jusqu'au clic */
@@ -344,7 +350,7 @@ main:focus,.panel:focus,h2:focus{outline:none}
     <button onclick="go('acc',this)">Accessibilité</button>
     <button onclick="go('wb',this)">Bien-être</button>
     <a href="masterpiece/index.html">Jeux</a>
-    <button onclick="go('adm',this)">Admin</button>
+    <button onclick="go('mus',this)">Musées</button>
   </div>
   <div class="langs" role="group" aria-label="Langue">
     <button class="on" data-lang="fr" lang="fr" aria-label="Français" onclick="setLang('fr',this)">FR</button>
@@ -595,27 +601,25 @@ main:focus,.panel:focus,h2:focus{outline:none}
   </div>
 </div>
 
-<!-- ADMIN -->
-<div id="pg-adm" class="pg">
-  <div class="login-box" style="max-width:520px">
-    <div class="login-card">
-      <div style="text-align:center;margin-bottom:20px">
-        <div style="display:flex;gap:6px;justify-content:center;margin-bottom:12px">
-          <div style="width:14px;height:14px;border-radius:50%;background:#E8C547"></div>
-          <div style="width:14px;height:14px;border-radius:50%;background:#E03030"></div>
-          <div style="width:14px;height:14px;border-radius:50%;background:#5599EE"></div>
-        </div>
-        <h2 style="margin-bottom:6px">Espace Administration</h2>
-        <p class="sub" style="margin-bottom:0">Les expositions se créent et se modifient dans Pages CMS, avec une connexion sécurisée par compte GitHub ou par invitation e-mail.</p>
-      </div>
-      <ol style="font-size:14px;color:#444;line-height:1.8;margin:0 0 20px 20px">
-        <li>Connectez-vous à Pages CMS.</li>
-        <li>Ouvrez le site <b>jaunerougebleu</b>, puis <b>Expositions</b>.</li>
-        <li>Ajoutez ou modifiez une exposition, choisissez « Publiée », puis enregistrez.</li>
-        <li>Elle apparaît sur le site au bout de 1 à 2 minutes.</li>
-      </ol>
-      <a class="sbmt" style="display:block;text-align:center;text-decoration:none" href="https://app.pagescms.org/" target="_blank" rel="noopener">Ouvrir Pages CMS <span aria-hidden="true">↗</span><span class="sr-only"> (s'ouvre dans un nouvel onglet)</span></a>
+<!-- MUSÉES : régions du monde, institutions et sources des œuvres (liste tirée de musees.js) -->
+<div id="pg-mus" class="pg">
+  <div class="wrap">
+    <p class="ey">Sources des œuvres</p>
+    <h2>Musées et institutions du monde</h2>
+    <p class="sub">Le générateur d'exposition puise ses œuvres, en direct, dans les collections de ces institutions. Elles sont présentées par région, selon le lieu où elles se trouvent ; certaines conservent des œuvres venues d'autres régions.</p>
+    <div class="mus-tous">
+      <h3>Dans toutes les régions</h3>
+      <ul>
+        <li>The Metropolitan Museum of Art, New York</li>
+        <li>Art Institute of Chicago</li>
+        <li>Cleveland Museum of Art</li>
+        <li>Minneapolis Institute of Art</li>
+        <li>Patrimoine mondial de l'UNESCO (monuments)</li>
+      </ul>
+      <p>Ces grands musées conservent des œuvres de toutes les régions du monde, interrogées directement dans leurs catalogues ouverts. Les monuments du patrimoine mondial de l'UNESCO, ainsi que les œuvres des institutions ci-dessous, sont décrits dans Wikidata, avec des photos de Wikimedia Commons.</p>
     </div>
+    <div id="mus-regions"></div>
+    <p class="expo-sources">Liste mise à jour automatiquement à partir de la liste utilisée par le générateur.</p>
   </div>
 </div>
 
@@ -701,10 +705,24 @@ function go(id,btn){
   document.querySelectorAll('.nav-links button').forEach(b=>b.classList.remove('on'));
   if(btn)btn.classList.add('on');
   if(id==='home')renderHome();
+  if(id==='mus')afficherMusees();
   window.scrollTo(0,0);
   // Lecteurs d'écran et clavier : on place le focus sur le titre de la page affichée
   const titre=document.querySelector('#pg-'+id+' h2');
   if(titre&&id!=='home'){titre.tabIndex=-1;titre.focus({preventScroll:true});}
+}
+// Page « Musées » : construite à partir de la liste MUSEES_MONDE de musees.js, pour rester à jour automatiquement
+function afficherMusees(){
+  const zone=document.getElementById('mus-regions');
+  if(zone.children.length||typeof MUSEES_MONDE==='undefined')return;
+  const ordre=["Asie de l'Est",'Asie du Sud et du Sud-Est','Moyen-Orient','Afrique','Amériques','Océanie','Europe'];
+  zone.innerHTML=ordre.filter(r=>MUSEES_MONDE[r]).map(r=>{
+    const liste=MUSEES_MONDE[r];
+    return `<section class="mus-region"><h3>${esc(r)}</h3><p>${liste.length} <span>institutions</span></p>
+      ${r==='Europe'?'<p>Avec quatre musées américains dont les collections sont surtout européennes : Getty, Yale (deux musées) et Walters.</p>':''}
+      <ul lang="fr">${liste.map(m=>`<li><a href="https://www.wikidata.org/wiki/${esc(m[0])}" target="_blank" rel="noopener">${esc(m[3]||m[0])}</a></li>`).join('')}</ul>
+      ${r==='Europe'?'<p>En Europe, le générateur interroge aussi directement le catalogue du SMK – Statens Museum for Kunst (Copenhague).</p>':''}</section>`;
+  }).join('');
 }
 function setLang(l,btn){
   stopSpeak();

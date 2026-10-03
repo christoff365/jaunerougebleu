@@ -23,7 +23,7 @@ Pages CMS enregistre directement sur GitHub : avant de modifier le site sur un o
 
 | Fichier ou dossier | Rôle |
 | --- | --- |
-| `index.html` | Tout le site : pages Accueil, Exposition, Accessibilité, Bien-être, Admin, et leur code |
+| `index.html` | Tout le site : pages Accueil, Exposition, Accessibilité, Bien-être, Musées (liste des institutions par région, construite à partir de `musees.js`), et leur code. Il n'y a pas d'onglet d'administration sur le site : l'administration se fait uniquement dans Pages CMS |
 | `musees.js` | Recherche en direct dans les catalogues ouverts des musées pour le générateur d'exposition |
 | `i18n.js` | Traductions anglaise, espagnole et arabe, et moteur de traduction (clé = texte français exact) |
 | `expositions.json` | Expositions spéciales (modifiées via Pages CMS) |

@@ -123,113 +123,114 @@ const PAYS_REGIONS = {
 };
 const REGION_DU_PAYS = {};
 Object.keys(PAYS_REGIONS).forEach(r => PAYS_REGIONS[r].split(' ').forEach(q => { REGION_DU_PAYS[q] = r; }));
-// Musées, par région : [identifiant Wikidata, nombre approximatif d'œuvres illustrées, collection locale ?]
+// Musées, par région : [identifiant Wikidata, nombre approximatif d'œuvres illustrées, collection locale ?, nom affiché]
+// (cette liste alimente aussi la page « Musées » du site)
 // (collection locale = 0 : collection venue du monde entier, la région de l'œuvre n'est alors déduite que de son origine)
 const MUSEES_MONDE = {
   "Asie de l'Est": [
-    ['Q653433', 305, 1],   // Musée national de Tokyo
-    ['Q147286', 51, 1],    // Musée national de Kyoto
-    ['Q147312', 20, 1],    // Musée national de Nara
-    ['Q540668', 1337, 1],  // Musée national du Palais, Taipei
-    ['Q2047427', 11016, 1],// Musée du Palais (Cité interdite), Pékin
-    ['Q1074318', 252, 1],  // Musée national de Chine, Pékin
-    ['Q1051293', 697, 1],  // Musée de Shanghai
-    ['Q494407', 40, 1],    // Musée national de Corée, Séoul
-    ['Q390124', 10, 1],    // Musée national de Gyeongju
-    ['Q487498', 14, 1],    // Leeum, Séoul
-    ['Q1359908', 41, 1],   // Musée national d'art moderne de Tokyo
-    ['Q1233913', 62, 0],   // Musée Fuji de Tokyo
-    ['Q843638', 11, 1],    // Musée MOA, Atami
-    ['Q1075126', 267, 1],  // Freer Gallery of Art, Washington (arts d'Asie)
-    ['Q860994', 369, 1]    // Musée Guimet, Paris (arts d'Asie)
+    ['Q653433', 305, 1, 'Musée national de Tokyo'],
+    ['Q147286', 51, 1, 'Musée national de Kyoto'],
+    ['Q147312', 20, 1, 'Musée national de Nara'],
+    ['Q540668', 1337, 1, 'Musée national du Palais, Taipei'],
+    ['Q2047427', 11016, 1, 'Musée du Palais (Cité interdite), Pékin'],
+    ['Q1074318', 252, 1, 'Musée national de Chine, Pékin'],
+    ['Q1051293', 697, 1, 'Musée de Shanghai'],
+    ['Q494407', 40, 1, 'Musée national de Corée, Séoul'],
+    ['Q390124', 10, 1, 'Musée national de Gyeongju'],
+    ['Q487498', 14, 1, 'Leeum, Séoul'],
+    ['Q1359908', 41, 1, 'Musée national d\'art moderne de Tokyo'],
+    ['Q1233913', 62, 0, 'Musée Fuji de Tokyo'],
+    ['Q843638', 11, 1, 'Musée MOA, Atami'],
+    ['Q1075126', 267, 1, 'Freer Gallery of Art, Washington (arts d\'Asie)'],
+    ['Q860994', 369, 1, 'Musée Guimet, Paris (arts d\'Asie)']
   ],
   'Asie du Sud et du Sud-Est': [
-    ['Q1356138', 202, 1],  // Musée national, New Delhi
-    ['Q1071500', 16, 1],   // Chhatrapati Shivaji Maharaj Vastu Sangrahalaya, Mumbai
-    ['Q1364900', 150, 1],  // Indian Museum, Calcutta
-    ['Q1864572', 99, 0],   // Musée Salar Jung, Hyderabad
-    ['Q1356352', 40, 0],   // Victoria Memorial, Calcutta
-    ['Q1467125', 195, 1],  // Musée national d'Indonésie, Jakarta
-    ['Q1255815', 12, 1],   // Musée national de Bangkok
-    ['Q3654706', 11, 1],   // Musée national des beaux-arts du Vietnam, Hanoï
-    ['Q860994', 369, 0]    // Musée Guimet, Paris
+    ['Q1356138', 202, 1, 'Musée national, New Delhi'],
+    ['Q1071500', 16, 1, 'Chhatrapati Shivaji Maharaj Vastu Sangrahalaya, Mumbai'],
+    ['Q1364900', 150, 1, 'Indian Museum, Calcutta'],
+    ['Q1864572', 99, 0, 'Musée Salar Jung, Hyderabad'],
+    ['Q1356352', 40, 0, 'Victoria Memorial, Calcutta'],
+    ['Q1467125', 195, 1, 'Musée national d\'Indonésie, Jakarta'],
+    ['Q1255815', 12, 1, 'Musée national de Bangkok'],
+    ['Q3654706', 11, 1, 'Musée national des beaux-arts du Vietnam, Hanoï'],
+    ['Q860994', 369, 0, 'Musée Guimet, Paris']
   ],
   'Moyen-Orient': [
-    ['Q46815', 233, 0],    // Musée d'Israël, Jérusalem
-    ['Q1267958', 83, 0],   // Musée d'art de Tel Aviv
-    ['Q3395851', 45, 1],   // Musée Sakıp Sabancı, Istanbul
-    ['Q1662392', 66, 0],   // Musée Pera, Istanbul
-    ['Q636978', 16, 1],    // Musées archéologiques d'Istanbul
-    ['Q170495', 9, 1],     // Palais de Topkapı, Istanbul
-    ['Q287360', 124, 1],   // Musée Sursock, Beyrouth
-    ['Q617254', 106, 1],   // Musée national de Damas
-    ['Q521251', 10, 1],    // Musée national d'Irak, Bagdad
-    ['Q210610', 85, 1],    // Palais du Golestan, Téhéran
-    ['Q1148353', 20, 1],   // Musée d'art islamique, Doha
-    ['Q3176133', 21, 0],   // Louvre Abou Dabi
-    ['Q391976', 257, 0],   // Chester Beatty, Dublin (arts de l'Islam et d'Asie)
-    ['Q4690937', 27, 1]    // Musée Aga Khan, Toronto (arts de l'Islam)
+    ['Q46815', 233, 0, 'Musée d\'Israël, Jérusalem'],
+    ['Q1267958', 83, 0, 'Musée d\'art de Tel Aviv'],
+    ['Q3395851', 45, 1, 'Musée Sakıp Sabancı, Istanbul'],
+    ['Q1662392', 66, 0, 'Musée Pera, Istanbul'],
+    ['Q636978', 16, 1, 'Musées archéologiques d\'Istanbul'],
+    ['Q170495', 9, 1, 'Palais de Topkapı, Istanbul'],
+    ['Q287360', 124, 1, 'Musée Sursock, Beyrouth'],
+    ['Q617254', 106, 1, 'Musée national de Damas'],
+    ['Q521251', 10, 1, 'Musée national d\'Irak, Bagdad'],
+    ['Q210610', 85, 1, 'Palais du Golestan, Téhéran'],
+    ['Q1148353', 20, 1, 'Musée d\'art islamique, Doha'],
+    ['Q3176133', 21, 0, 'Louvre Abou Dabi'],
+    ['Q391976', 257, 0, 'Chester Beatty, Dublin (arts de l\'Islam et d\'Asie)'],
+    ['Q4690937', 27, 1, 'Musée Aga Khan, Toronto (arts de l\'Islam)']
   ],
   'Afrique': [
-    ['Q201219', 86, 1],    // Musée égyptien du Caire
-    ['Q2583681', 8, 1],    // Grand Musée égyptien, Gizeh
-    ['Q1878362', 36, 1],   // Musée de Louxor
-    ['Q2354677', 36, 1],   // Musée de Nubie, Assouan
-    ['Q2912600', 31, 0],   // Musée national des beaux-arts d'Alger
-    ['Q4115728', 17, 0],   // Musée Mahmoud Khalil, Le Caire
-    ['Q1419469', 18, 1],   // Galerie nationale d'Afrique du Sud, Le Cap
-    ['Q6217142', 11, 1],   // Galerie d'art de Johannesburg
-    ['Q167863', 167, 0]    // Musée du quai Branly, Paris
+    ['Q201219', 86, 1, 'Musée égyptien du Caire'],
+    ['Q2583681', 8, 1, 'Grand Musée égyptien, Gizeh'],
+    ['Q1878362', 36, 1, 'Musée de Louxor'],
+    ['Q2354677', 36, 1, 'Musée de Nubie, Assouan'],
+    ['Q2912600', 31, 0, 'Musée national des beaux-arts d\'Alger'],
+    ['Q4115728', 17, 0, 'Musée Mahmoud Khalil, Le Caire'],
+    ['Q1419469', 18, 1, 'Galerie nationale d\'Afrique du Sud, Le Cap'],
+    ['Q6217142', 11, 1, 'Galerie d\'art de Johannesburg'],
+    ['Q167863', 167, 0, 'Musée du quai Branly, Paris']
   ],
   'Amériques': [
-    ['Q1138147', 171, 1],  // Museo Nacional de Arte, Mexico
-    ['Q524249', 16, 1],    // Musée national d'anthropologie, Mexico
-    ['Q2097646', 198, 0],  // Museo Soumaya, Mexico
-    ['Q1779837', 211, 1],  // Musée national des beaux-arts, La Havane
-    ['Q3137182', 132, 0],  // Museo de Arte de Ponce, Porto Rico
-    ['Q82941', 284, 0],    // Musée d'art de São Paulo
-    ['Q2095209', 643, 1],  // Pinacothèque de São Paulo
-    ['Q1954370', 305, 1],  // Musée national des beaux-arts, Rio de Janeiro
-    ['Q371803', 26, 1],    // Musée Paulista, São Paulo
-    ['Q6033913', 51, 1],   // Musée d'art de Lima
-    ['Q1568821', 20, 1],   // Musée national d'archéologie, d'anthropologie et d'histoire du Pérou, Lima
-    ['Q775376', 38, 1],    // Musée national des beaux-arts, Santiago du Chili
-    ['Q1068063', 434, 0],  // Musée des beaux-arts du Canada, Ottawa
-    ['Q860812', 191, 0],   // Musée des beaux-arts de Montréal
-    ['Q649250', 37, 0],    // Musée royal de l'Ontario, Toronto
-    ['Q2568412', 22, 1]    // Museo de América, Madrid
+    ['Q1138147', 171, 1, 'Museo Nacional de Arte, Mexico'],
+    ['Q524249', 16, 1, 'Musée national d\'anthropologie, Mexico'],
+    ['Q2097646', 198, 0, 'Museo Soumaya, Mexico'],
+    ['Q1779837', 211, 1, 'Musée national des beaux-arts, La Havane'],
+    ['Q3137182', 132, 0, 'Museo de Arte de Ponce, Porto Rico'],
+    ['Q82941', 284, 0, 'Musée d\'art de São Paulo'],
+    ['Q2095209', 643, 1, 'Pinacothèque de São Paulo'],
+    ['Q1954370', 305, 1, 'Musée national des beaux-arts, Rio de Janeiro'],
+    ['Q371803', 26, 1, 'Musée Paulista, São Paulo'],
+    ['Q6033913', 51, 1, 'Musée d\'art de Lima'],
+    ['Q1568821', 20, 1, 'Musée national d\'archéologie, d\'anthropologie et d\'histoire du Pérou, Lima'],
+    ['Q775376', 38, 1, 'Musée national des beaux-arts, Santiago du Chili'],
+    ['Q1068063', 434, 0, 'Musée des beaux-arts du Canada, Ottawa'],
+    ['Q860812', 191, 0, 'Musée des beaux-arts de Montréal'],
+    ['Q649250', 37, 0, 'Musée royal de l\'Ontario, Toronto'],
+    ['Q2568412', 22, 1, 'Museo de América, Madrid']
   ],
   'Océanie': [
-    ['Q1464509', 333, 0],  // National Gallery of Victoria, Melbourne
-    ['Q705551', 285, 0],   // Art Gallery of New South Wales, Sydney
-    ['Q795228', 104, 0],   // Galerie nationale d'Australie, Canberra
-    ['Q705557', 224, 0],   // Art Gallery of South Australia, Adélaïde
-    ['Q7270900', 16, 0],   // Queensland Art Gallery, Brisbane
-    ['Q915603', 162, 1],   // Te Papa Tongarewa, Wellington
-    ['Q4819492', 489, 0],  // Auckland Art Gallery
-    ['Q758657', 117, 1],   // Musée du mémorial de guerre d'Auckland
-    ['Q7424149', 347, 0],  // Sarjeant Gallery, Whanganui
-    ['Q61797555', 143, 0], // The Suter, Nelson
-    ['Q5109058', 11, 0]    // Christchurch Art Gallery
+    ['Q1464509', 333, 0, 'National Gallery of Victoria, Melbourne'],
+    ['Q705551', 285, 0, 'Art Gallery of New South Wales, Sydney'],
+    ['Q795228', 104, 0, 'Galerie nationale d\'Australie, Canberra'],
+    ['Q705557', 224, 0, 'Art Gallery of South Australia, Adélaïde'],
+    ['Q7270900', 16, 0, 'Queensland Art Gallery, Brisbane'],
+    ['Q915603', 162, 1, 'Te Papa Tongarewa, Wellington'],
+    ['Q4819492', 489, 0, 'Auckland Art Gallery'],
+    ['Q758657', 117, 1, 'Musée du mémorial de guerre d\'Auckland'],
+    ['Q7424149', 347, 0, 'Sarjeant Gallery, Whanganui'],
+    ['Q61797555', 143, 0, 'The Suter, Nelson'],
+    ['Q5109058', 11, 0, 'Christchurch Art Gallery']
   ],
   'Europe': [
-    ['Q190804', 6286, 1],  // Rijksmuseum, Amsterdam
-    ['Q180788', 4090, 1],  // National Gallery, Londres
-    ['Q6373', 885, 0],     // British Museum, Londres
-    ['Q640447', 2014, 1],  // Musée Carnavalet, Paris (Paris Musées)
-    ['Q820892', 8, 1],     // Petit Palais, Paris (Paris Musées)
-    ['Q23402', 2194, 1],   // Musée d'Orsay, Paris
-    ['Q160112', 4066, 1],  // Musée du Prado, Madrid
-    ['Q51252', 836, 1],    // Galerie des Offices, Florence
-    ['Q95569', 3592, 1],   // Kunsthistorisches Museum, Vienne
-    ['Q842858', 14008, 1], // Nationalmuseum, Stockholm
-    ['Q132783', 3797, 0],  // Musée de l'Ermitage, Saint-Pétersbourg
-    ['Q816669', 73, 1],    // Musée Benaki, Athènes
-    ['Q668300', 1081, 0],  // Musée Rietberg, Zurich (arts du monde)
-    ['Q731126', 810, 0],   // J. Paul Getty Museum, Los Angeles
-    ['Q6352575', 32668, 1],// Yale Center for British Art, New Haven
-    ['Q1568434', 29011, 0],// Yale University Art Gallery, New Haven
-    ['Q210081', 661, 0]    // Walters Art Museum, Baltimore
+    ['Q190804', 6286, 1, 'Rijksmuseum, Amsterdam'],
+    ['Q180788', 4090, 1, 'National Gallery, Londres'],
+    ['Q6373', 885, 0, 'British Museum, Londres'],
+    ['Q640447', 2014, 1, 'Musée Carnavalet, Paris (Paris Musées)'],
+    ['Q820892', 8, 1, 'Petit Palais, Paris (Paris Musées)'],
+    ['Q23402', 2194, 1, 'Musée d\'Orsay, Paris'],
+    ['Q160112', 4066, 1, 'Musée du Prado, Madrid'],
+    ['Q51252', 836, 1, 'Galerie des Offices, Florence'],
+    ['Q95569', 3592, 1, 'Kunsthistorisches Museum, Vienne'],
+    ['Q842858', 14008, 1, 'Nationalmuseum, Stockholm'],
+    ['Q132783', 3797, 0, 'Musée de l\'Ermitage, Saint-Pétersbourg'],
+    ['Q816669', 73, 1, 'Musée Benaki, Athènes'],
+    ['Q668300', 1081, 0, 'Musée Rietberg, Zurich (arts du monde)'],
+    ['Q731126', 810, 0, 'J. Paul Getty Museum, Los Angeles'],
+    ['Q6352575', 32668, 1, 'Yale Center for British Art, New Haven'],
+    ['Q1568434', 29011, 0, 'Yale University Art Gallery, New Haven'],
+    ['Q210081', 661, 0, 'Walters Art Museum, Baltimore']
   ]
 };
 // Classes Wikidata correspondant aux types d'œuvres du générateur

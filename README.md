@@ -24,6 +24,7 @@ Pages CMS enregistre directement sur GitHub : avant de modifier le site sur un o
 | Fichier ou dossier | Rôle |
 | --- | --- |
 | `index.html` | Tout le site : pages Accueil, Exposition, Accessibilité, Bien-être, Admin, et leur code |
+| `musees.js` | Recherche en direct dans les catalogues ouverts des musées pour le générateur d'exposition |
 | `i18n.js` | Traductions anglaise, espagnole et arabe, et moteur de traduction (clé = texte français exact) |
 | `expositions.json` | Expositions spéciales (modifiées via Pages CMS) |
 | `collection.json` | Œuvres du générateur d'exposition (modifiées via Pages CMS) |
@@ -32,6 +33,26 @@ Pages CMS enregistre directement sur GitHub : avant de modifier le site sur un o
 | `logo.jpg`, `favicon.svg` | Logo de l'écran d'ouverture et icône d'onglet |
 | `masterpiece/` | Le jeu Masterpiece (en français uniquement) |
 | `CNAME` | Nom de domaine jaunerougebleu.org pour GitHub Pages |
+
+## Générateur d'exposition : recherche automatique dans les musées
+
+Le générateur compose chaque exposition sans intervention humaine : il réunit les œuvres de `collection.json` et des œuvres trouvées **en direct** dans les catalogues ouverts des musées (fichier `musees.js`), filtrées par thème, région, époque et type (peinture, sculpture, architecture, dessins et estampes, arts décoratifs, photographie). Seules les œuvres du domaine public avec image sont retenues ; chaque image est créditée avec un lien vers sa fiche au musée.
+
+| Institution | État |
+| --- | --- |
+| The Metropolitan Museum of Art (New York) | actif, sans clé |
+| Art Institute of Chicago | actif, sans clé |
+| Cleveland Museum of Art | actif, sans clé |
+| SMK – Statens Museum for Kunst (Copenhague) | actif, sans clé |
+| Minneapolis Institute of Art | actif, sans clé |
+| Europeana (milliers d'institutions européennes) | prêt, à activer avec une clé gratuite |
+| Smithsonian Institution (Washington) | prêt, à activer avec une clé gratuite |
+| Rijksmuseum, Yale, Getty, Paris Musées | possibles plus tard (données plus complexes ou compte requis) |
+| British Museum, National Gallery (Londres), Musée national du Palais (Taipei), Walters | impossibles en direct : pas d'interface publique de ce type |
+
+**Activer Europeana et le Smithsonian (gratuit, sans facturation)** : demander une clé sur https://pro.europeana.eu/pages/get-api (Europeana) et sur https://api.data.gov/signup/ (Smithsonian), puis la recopier entre les guillemets au début de `musees.js` : `const CLES_API = { europeana: 'votre-clé', smithsonian: 'votre-clé' };`.
+
+Limites : les fiches venues des catalogues restent dans la langue du musée (souvent l'anglais) ; le floutage des scènes violentes ou de nudité repose sur le titre et n'est pas infaillible ; si un catalogue ne répond pas, les autres continuent ; une œuvre dont l'image ne se charge pas est retirée automatiquement.
 
 ## Fonctionnement à connaître
 

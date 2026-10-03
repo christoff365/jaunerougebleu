@@ -188,6 +188,8 @@ hr{border:none;border-top:1px solid #e0d5c0;margin:28px 0}
 #expo-tl .mini{cursor:default}
 .fr-seul{font-size:12px;color:#7a5c0a;background:#fff8e1;border-radius:4px;padding:6px 10px;margin:0 0 14px;display:inline-block}
 html[lang="fr"] .fr-seul{display:none}
+.pastille-direct{display:inline-block!important;margin-top:4px;font-size:10px!important;font-weight:600;color:#0a5c40!important;background:#e3f4ec;border-radius:3px;padding:1px 6px}
+.expo-sources{font-size:12px;color:#5c5c5c;line-height:1.6;margin-top:10px;padding-top:12px;border-top:1px solid #e0d5c0}
 .expo-note{background:#fff8e1;border-left:3px solid var(--jaune);padding:10px 14px;font-size:13px;color:#555;margin-bottom:18px;line-height:1.6}
 /* Images sensibles : floutées jusqu'au clic */
 .sensible{position:relative;overflow:hidden}
@@ -378,7 +380,7 @@ main:focus,.panel:focus,h2:focus{outline:none}
     </div>
   </div>
   <div class="stats-row">
-    <div class="stat"><div class="stat-n">7</div><div class="stat-l">Musées représentés</div></div>
+    <div class="stat"><div class="stat-n">11</div><div class="stat-l">Musées et institutions</div></div>
     <div class="stat"><div class="stat-n">3</div><div class="stat-l">Siècles d'art</div></div>
     <div class="stat"><div class="stat-n">4</div><div class="stat-l">Langues</div></div>
     <div class="stat"><div class="stat-n">∞</div><div class="stat-l">Expositions uniques</div></div>
@@ -416,18 +418,22 @@ main:focus,.panel:focus,h2:focus{outline:none}
 <div id="pg-build" class="pg">
   <div class="wrap">
     <h2>Construisez votre exposition</h2>
-    <p class="sub">Sélectionnez vos préférences : l'exposition se compose instantanément à partir de notre collection d'œuvres du domaine public, de l'Antiquité au début du XXe siècle.</p>
+    <p class="sub">Sélectionnez vos préférences : l'exposition se compose automatiquement à partir de notre collection et des catalogues de musées du monde entier, interrogés en direct. Seules des œuvres du domaine public sont montrées : peintures, sculptures, architecture, dessins, arts décoratifs et photographies.</p>
     <div class="step-row"><div class="step-n">1</div><div class="step-l">Thèmes</div></div>
     <div class="tags">
       <span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Portraits" onclick="tog(this,'th')">Portraits</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Paysages" onclick="tog(this,'th')">Paysages</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Abstraction" onclick="tog(this,'th')">Abstraction</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Spiritualité" onclick="tog(this,'th')">Spiritualité</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Vie quotidienne" onclick="tog(this,'th')">Vie quotidienne</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Mythologie" onclick="tog(this,'th')">Mythologie</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Nature morte" onclick="tog(this,'th')">Nature morte</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Lumière & couleur" onclick="tog(this,'th')">Lumière & couleur</span>
     </div>
     <div class="step-row"><div class="step-n">2</div><div class="step-l">Régions</div></div>
     <div class="tags">
-      <span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Europe" onclick="tog(this,'rg')">Europe</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Asie de l'Est" onclick="tog(this,'rg')">Asie de l'Est</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Amériques" onclick="tog(this,'rg')">Amériques</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Afrique" onclick="tog(this,'rg')">Afrique</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Moyen-Orient" onclick="tog(this,'rg')">Moyen-Orient</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Océanie" onclick="tog(this,'rg')">Océanie</span>
+      <span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Europe" onclick="tog(this,'rg')">Europe</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Asie de l'Est" onclick="tog(this,'rg')">Asie de l'Est</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Asie du Sud et du Sud-Est" onclick="tog(this,'rg')">Asie du Sud et du Sud-Est</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Amériques" onclick="tog(this,'rg')">Amériques</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Afrique" onclick="tog(this,'rg')">Afrique</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Moyen-Orient" onclick="tog(this,'rg')">Moyen-Orient</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Océanie" onclick="tog(this,'rg')">Océanie</span>
     </div>
     <div class="step-row"><div class="step-n">3</div><div class="step-l">Époques</div></div>
     <div class="tags">
       <span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Antiquité" onclick="tog(this,'ep')">Antiquité</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Moyen Âge" onclick="tog(this,'ep')">Moyen Âge</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Renaissance" onclick="tog(this,'ep')">Renaissance</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="XVIIe–XVIIIe s." onclick="tog(this,'ep')">XVIIe–XVIIIe s.</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="XIXe siècle" onclick="tog(this,'ep')">XIXe siècle</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Modernisme" onclick="tog(this,'ep')">Modernisme</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Art contemporain" onclick="tog(this,'ep')">Art contemporain</span>
+    </div>
+    <div class="step-row"><div class="step-n">4</div><div class="step-l">Types d'œuvres</div></div>
+    <div class="tags">
+      <span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Peinture" onclick="tog(this,'ty')">Peinture</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Sculpture" onclick="tog(this,'ty')">Sculpture</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Architecture" onclick="tog(this,'ty')">Architecture</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Dessins et estampes" onclick="tog(this,'ty')">Dessins et estampes</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Arts décoratifs" onclick="tog(this,'ty')">Arts décoratifs</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Photographie" onclick="tog(this,'ty')">Photographie</span>
     </div>
     <button class="gen-btn" id="gen-btn" disabled onclick="genExpo()">Générer mon exposition <span aria-hidden="true">→</span></button>
   </div>
@@ -641,11 +647,14 @@ main:focus,.panel:focus,h2:focus{outline:none}
       <li>Les tempos, tonalités et la musique des couleurs sont calculés à partir des couleurs réelles des images, selon une règle de correspondance inventée pour ce site ; les rythmes de vibration et les textes « Si cette œuvre était une musique » sont des interprétations créatives. Aucun ne décrit une musique réelle liée aux œuvres.</li>
       <li>Informations sur les œuvres (titres, artistes, dates, lieux de conservation) — source : les musées et la base Wikimedia Commons cités ci-dessus.</li>
       <li>Traductions anglaise, espagnole et arabe : Claude AI (Anthropic), non relues par des traducteurs.</li>
+      <li>Œuvres du générateur trouvées en direct : fiches et images issues des catalogues ouverts des musées (Met, Art Institute of Chicago, Cleveland Museum of Art, SMK, Minneapolis Institute of Art), dans leur langue d'origine ; chaque image est créditée avec un lien vers sa fiche.</li>
     </ul>
   </div>
 </footer>
 <!-- Traductions (anglais, espagnol, arabe) et moteur de traduction -->
 <script src="i18n.js"></script>
+<!-- Recherche en direct dans les catalogues ouverts des musées (domaine public) -->
+<script src="musees.js"></script>
 <script>
 const ART = [
   { img:"images/oeuvres/grande-vague-hokusai.jpg", credit:'Image : <a href="https://www.metmuseum.org/art/collection/search/45434" target="_blank" rel="noopener">The Metropolitan Museum of Art</a>, domaine public (Open Access)', name:"La Grande Vague de Kanagawa", meta:"Katsushika Hokusai · Japon · vers 1830-1832 · Metropolitan Museum of Art",
@@ -702,7 +711,7 @@ function setLang(l,btn){
 }
 
 // BUILDER
-const sel={th:[],rg:[],ep:[]};
+const sel={th:[],rg:[],ep:[],ty:[]};
 function tog(el,k){
   el.classList.toggle('on');el.setAttribute('aria-pressed',el.classList.contains('on'));
   const v=el.dataset.v||el.textContent.trim(); // valeur française, quelle que soit la langue affichée
@@ -717,38 +726,73 @@ function chargerCollection(){
   // Les œuvres ajoutées dans Pages CMS peuvent avoir des champs vides : on les complète pour éviter toute erreur
   return fetch('collection.json',{cache:'no-cache'}).then(r=>{if(!r.ok)throw new Error('HTTP '+r.status);return r.json();})
     .then(d=>collection=(Array.isArray(d)?d:[]).filter(w=>w&&w.title).map(w=>Object.assign({artist:'',date:'',place:'',museum:'',credit:''},w,{
-      regions:[].concat(w.regions||[]),themes:[].concat(w.themes||[]),year:Number(w.year)||0})));
+      regions:[].concat(w.regions||[]),themes:[].concat(w.themes||[]),types:[].concat(w.types||[]),year:Number(w.year)||0})));
 }
 function annee(y){return y<0?(-y)+' av. J.-C.':String(y);}
 // Image floutée tant que le visiteur n'a pas choisi de la voir (œuvres marquées « sensible »)
 function imageOeuvre(src,alt,classe,sensible){
-  const img=`<img${classe?` class="${classe}"`:''} src="${esc(src)}" alt="${esc(alt)}" loading="lazy">`;
+  const img=`<img${classe?` class="${classe}"`:''} src="${esc(src)}" alt="${esc(alt)}" loading="lazy" onerror="retirerOeuvre(this)">`;
   return sensible?`<div class="sensible">${img}<button type="button" onclick="this.parentElement.classList.add('vu');this.remove()">Scène violente — afficher l'image</button></div>`:img;
 }
+// L'exposition réunit la collection choisie (collection.json) et des œuvres trouvées en direct dans les catalogues
+// des musées (musees.js), sans intervention humaine.
 function genExpo(){
-  document.getElementById('expo-h').textContent=(sel.th.length?sel.th.slice(0,2).join(' & '):'Art universel')+' — '+(sel.rg.length?sel.rg.slice(0,2).join(' · '):'Monde');
+  const intitules=sel.th.concat(sel.ty);
+  document.getElementById('expo-h').textContent=(intitules.length?intitules.slice(0,2).join(' & '):'Art universel')+' — '+(sel.rg.length?sel.rg.slice(0,2).join(' · '):'Monde');
   const tl=document.getElementById('expo-tl'),sous=document.getElementById('expo-s');
   sous.textContent=(sel.ep.length?sel.ep.join(', '):'Toutes époques');
-  tl.innerHTML='<p class="sub">Composition de votre exposition…</p>';
+  tl.innerHTML='<p class="sub">Recherche en direct dans les catalogues des musées…</p>';
   go('expo',document.querySelectorAll('.nav-links button')[1]);
-  chargerCollection().then(()=>{
-    const okTh=w=>w.themes.some(x=>sel.th.includes(x)),okRg=w=>w.regions.some(x=>sel.rg.includes(x)),okEp=w=>sel.ep.includes(w.epoch);
-    let oeuvres=collection.filter(w=>(!sel.th.length||okTh(w))&&(!sel.rg.length||okRg(w))&&(!sel.ep.length||okEp(w)));
+  const crit={th:sel.th.slice(),rg:sel.rg.slice(),ep:sel.ep.slice(),ty:sel.ty.slice()};
+  const vide={oeuvres:[],sources:[]};
+  const numero=genExpo.compteur=(genExpo.compteur||0)+1; // si le visiteur relance une recherche, l'ancienne est ignorée
+  // Recherche en direct ; si elle trouve trop peu d'œuvres, on l'élargit en ignorant les thèmes
+  const enDirect=typeof chercherDansLesMusees!=='function'?Promise.resolve(vide):chercherDansLesMusees(crit,8).then(r=>{
+    if(r.oeuvres.length>=6||!crit.th.length)return r;
+    return chercherDansLesMusees(Object.assign({},crit,{th:[]}),8).then(r2=>({oeuvres:r.oeuvres.concat(r2.oeuvres),
+      sources:r2.sources.map((s,i)=>({nom:s.nom,ok:s.ok||!!(r.sources[i]&&r.sources[i].ok),nombre:s.nombre+(r.sources[i]?r.sources[i].nombre:0)})),elargi:true}));
+  }).catch(()=>vide);
+  Promise.all([chargerCollection().catch(()=>{collection=collection||[];}),enDirect]).then(([,direct])=>{
+    if(numero!==genExpo.compteur)return;
+    const okTh=w=>w.themes.some(x=>crit.th.includes(x)),okRg=w=>w.regions.some(x=>crit.rg.includes(x)),okEp=w=>crit.ep.includes(w.epoch),okTy=w=>(w.types||[]).some(x=>crit.ty.includes(x));
+    let choisies=(collection||[]).filter(w=>(!crit.th.length||okTh(w))&&(!crit.rg.length||okRg(w))&&(!crit.ep.length||okEp(w))&&(!crit.ty.length||okTy(w)));
     const notes=[];
-    if(!oeuvres.length){
-      oeuvres=collection.filter(w=>(sel.th.length&&okTh(w))||(sel.rg.length&&okRg(w))||(sel.ep.length&&okEp(w)));
-      if(oeuvres.length)notes.push('Aucune œuvre de la collection ne réunit tous vos critères : voici celles qui en partagent au moins un.');
+    if(!choisies.length&&!direct.oeuvres.length){
+      choisies=(collection||[]).filter(w=>(crit.th.length&&okTh(w))||(crit.rg.length&&okRg(w))||(crit.ep.length&&okEp(w))||(crit.ty.length&&okTy(w)));
+      if(choisies.length)notes.push('Aucune œuvre ne réunit tous vos critères : voici celles qui en partagent au moins un.');
     }
-    if(sel.ep.includes('Art contemporain'))notes.push('L\'art contemporain n\'est pas encore représenté : les œuvres récentes sont protégées par le droit d\'auteur, et cette collection ne contient que des œuvres du domaine public.');
-    sous.textContent=oeuvres.length+' œuvre'+(oeuvres.length>1?'s':'')+' · '+(sel.ep.length?sel.ep.join(', '):'Toutes époques');
-    const groupes=ORDRE_EPOQUES.map(ep=>({ep,liste:oeuvres.filter(w=>w.epoch===ep).sort((a,b)=>a.year-b.year)})).filter(g=>g.liste.length);
+    const vues=new Set(choisies.map(w=>(w.title+'|'+w.artist).toLowerCase()));
+    const trouvees=direct.oeuvres.filter(w=>!vues.has((w.title+'|'+w.artist).toLowerCase())).slice(0,32);
+    if(direct.elargi)notes.push('Peu d\'œuvres des catalogues réunissaient tous vos critères : la recherche en direct a été élargie en ignorant les thèmes.');
+    if(crit.ep.includes('Art contemporain'))notes.push('L\'art contemporain est peu représenté : les œuvres récentes sont protégées par le droit d\'auteur, et ce site ne montre que des œuvres du domaine public.');
+    const oeuvres=choisies.concat(trouvees);
+    const repondu=direct.sources.filter(s=>s.ok).map(s=>s.nom),muets=direct.sources.filter(s=>!s.ok).map(s=>s.nom);
+    const groupes=ORDRE_EPOQUES.map(ep=>({ep,liste:oeuvres.filter(w=>w.epoch===ep).sort((a,b)=>(a.year||0)-(b.year||0))})).filter(g=>g.liste.length);
     tl.innerHTML=notes.map(n=>`<p class="expo-note">${esc(n)}</p>`).join('')+(groupes.length?groupes.map((g,i)=>{
       const debut=g.liste[0].year,fin=g.liste[g.liste.length-1].year;
       return `<div class="tl"><div class="tl-l"><div class="tl-dot"></div>${i<groupes.length-1?'<div class="tl-line"></div>':''}</div><div style="flex:1;padding-bottom:16px">
         <div class="era">${esc(g.ep)} · ${debut===fin?annee(debut):annee(debut)+' – '+annee(fin)+(debut<0&&fin>0?' apr. J.-C.':'')}</div>
-        <div class="mini-grid">${g.liste.map(w=>`<div class="mini">${imageOeuvre(w.image,w.title+', '+w.artist,'',w.sensible)}<div class="mini-info"><b>${esc(w.title)}</b><span>${[w.artist,w.date,w.place].filter(Boolean).map(esc).join(' · ')}</span>${w.museum?`<span>${esc(w.museum)}</span>`:''}${w.credit?`<small class="img-credit">Image : ${lienCredit(w.credit)}</small>`:''}</div></div>`).join('')}</div>
-      </div></div>`;}).join(''):'<p class="sub">Aucune œuvre ne correspond pour le moment. Essayez d\'autres choix.</p>');
-  }).catch(()=>{tl.innerHTML='<p class="sub">La collection n\'a pas pu être chargée. Rechargez la page dans un instant.</p>';});
+        <div class="mini-grid">${g.liste.map(carteOeuvre).join('')}</div>
+      </div></div>`;}).join(''):'<p class="sub">Aucune œuvre ne correspond pour le moment. Essayez d\'autres choix.</p>')+
+      (repondu.length?`<p class="expo-sources"><span>Œuvres trouvées en direct dans les catalogues de :</span> ${repondu.map(esc).join(' · ')}${muets.length?`<br><span>Catalogues indisponibles pour le moment :</span> ${muets.map(esc).join(' · ')}`:''}</p>`:'');
+    majCompte();
+  });
+}
+// Carte d'une œuvre ; les fiches venues des catalogues gardent la langue du musée (souvent l'anglais)
+function carteOeuvre(w){
+  const titre=w.direct&&w.langue!=='fr'?`<b lang="${esc(w.langue)}">${esc(w.title)}</b>`:`<b>${esc(w.title)}</b>`;
+  return `<div class="mini${w.direct?' direct':''}">${imageOeuvre(w.image,w.title+(w.artist?', '+w.artist:''),'',w.sensible)}<div class="mini-info">${titre}<span>${[w.artist,w.date,w.place].filter(Boolean).map(esc).join(' · ')}</span>${w.museum?`<span>${esc(w.museum)}</span>`:''}${w.direct?'<span class="pastille-direct">Catalogue du musée, en direct</span>':''}${w.credit?`<small class="img-credit">Image : ${lienCredit(w.credit)}</small>`:''}</div></div>`;
+}
+// Une œuvre dont l'image ne se charge pas est retirée de l'exposition, et l'époque aussi si elle se vide
+function retirerOeuvre(img){
+  const carte=img.closest('.mini');if(!carte)return;
+  const grille=carte.parentElement;carte.remove();
+  if(grille&&!grille.children.length){const bloc=grille.closest('.tl');if(bloc)bloc.remove();}
+  majCompte();
+}
+function majCompte(){
+  const n=document.querySelectorAll('#expo-tl .mini').length;
+  document.getElementById('expo-s').textContent=n+' œuvre'+(n>1?'s':'')+' · '+(sel.ep.length?sel.ep.join(', '):'Toutes époques');
 }
 
 // ACCESSIBILITY

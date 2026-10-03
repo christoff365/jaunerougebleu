@@ -121,7 +121,14 @@ content:
         required: true
         options:
           multiple: true
-          values: ["Europe", "Asie de l'Est", "Amériques", "Afrique", "Moyen-Orient", "Océanie"]
+          values: ["Europe", "Asie de l'Est", "Asie du Sud et du Sud-Est", "Amériques", "Afrique", "Moyen-Orient", "Océanie"]
+      - name: types
+        label: Types d'œuvre (un ou plusieurs)
+        type: select
+        required: true
+        options:
+          multiple: true
+          values: ["Peinture", "Sculpture", "Architecture", "Dessins et estampes", "Arts décoratifs", "Photographie"]
       - name: epoch
         label: Époque
         type: select

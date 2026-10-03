@@ -9,6 +9,7 @@
     "regions": ["Afrique"],
     "epoch": "Antiquité",
     "themes": ["Spiritualité"],
+    "types": ["Sculpture"],
     "image": "images/collection/hippopotame-egypte.jpg",
     "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/544227), domaine public (Open Access)"
   },
@@ -22,6 +23,7 @@
     "regions": ["Amériques"],
     "epoch": "Antiquité",
     "themes": ["Portraits"],
+    "types": ["Sculpture"],
     "image": "images/collection/figure-olmeque.jpg",
     "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/313138), domaine public (Open Access)"
   },
@@ -35,6 +37,7 @@
     "regions": ["Europe"],
     "epoch": "Antiquité",
     "themes": ["Vie quotidienne", "Paysages"],
+    "types": ["Architecture", "Peinture"],
     "image": "images/collection/fresque-boscoreale.jpg",
     "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/247017), domaine public (Open Access)"
   },
@@ -48,6 +51,7 @@
     "regions": ["Afrique"],
     "epoch": "Antiquité",
     "themes": ["Portraits"],
+    "types": ["Peinture"],
     "image": "images/collection/portrait-fayoum.jpg",
     "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/547768), domaine public (Open Access)"
   },
@@ -61,6 +65,7 @@
     "regions": ["Asie de l'Est"],
     "epoch": "Moyen Âge",
     "themes": ["Paysages"],
+    "types": ["Peinture"],
     "image": "images/collection/vieux-arbres-guo-xi.jpg",
     "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/39668), domaine public (Open Access)"
   },
@@ -74,6 +79,7 @@
     "regions": ["Moyen-Orient"],
     "epoch": "Moyen Âge",
     "themes": ["Spiritualité", "Abstraction"],
+    "types": ["Architecture", "Arts décoratifs"],
     "image": "images/collection/mihrab-ispahan.jpg",
     "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/449537), domaine public (Open Access)"
   },
@@ -87,6 +93,7 @@
     "regions": ["Europe"],
     "epoch": "Moyen Âge",
     "themes": ["Mythologie", "Spiritualité"],
+    "types": ["Arts décoratifs"],
     "image": "images/collection/licorne-tapisserie.jpg",
     "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/467642), domaine public (Open Access)"
   },
@@ -100,6 +107,7 @@
     "regions": ["Moyen-Orient"],
     "epoch": "Renaissance",
     "themes": ["Mythologie"],
+    "types": ["Dessins et estampes"],
     "image": "images/collection/fete-de-sada-shahnameh.jpg",
     "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/452111), domaine public (Open Access)"
   },
@@ -113,6 +121,7 @@
     "regions": ["Europe"],
     "epoch": "Renaissance",
     "themes": ["Paysages", "Vie quotidienne"],
+    "types": ["Peinture"],
     "image": "images/collection/moissonneurs-bruegel.jpg",
     "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/435809), domaine public (Open Access)"
   },
@@ -126,6 +135,7 @@
     "regions": ["Europe"],
     "epoch": "XVIIe–XVIIIe s.",
     "themes": ["Spiritualité", "Lumière & couleur"],
+    "types": ["Peinture"],
     "image": "images/expositions/judith-decapitant-holopherne-caravage.jpg",
     "credit": "Gallerie Nazionali d'Arte Antica (palais Barberini), Rome, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Judith_Beheading_Holofernes-Caravaggio_%28c.1598-9%29.jpg), domaine public",
     "sensible": true
@@ -140,6 +150,7 @@
     "regions": ["Europe"],
     "epoch": "XVIIe–XVIIIe s.",
     "themes": ["Portraits", "Vie quotidienne", "Lumière & couleur"],
+    "types": ["Peinture"],
     "image": "images/expositions/ronde-de-nuit-rembrandt.jpg",
     "credit": "Rijksmuseum, Amsterdam, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:The_Night_Watch_-_HD.jpg), domaine public"
   },
@@ -153,6 +164,7 @@
     "regions": ["Europe"],
     "epoch": "XVIIe–XVIIIe s.",
     "themes": ["Portraits", "Lumière & couleur"],
+    "types": ["Peinture"],
     "image": "images/expositions/jeune-fille-a-la-perle-vermeer.jpg",
     "credit": "Mauritshuis, La Haye, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:1665_Girl_with_a_Pearl_Earring.jpg), domaine public"
   },
@@ -166,6 +178,7 @@
     "regions": ["Afrique"],
     "epoch": "XVIIe–XVIIIe s.",
     "themes": ["Spiritualité", "Portraits"],
+    "types": ["Peinture"],
     "image": "images/collection/icone-ethiopienne.jpg",
     "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/319625), domaine public (Open Access)"
   },
@@ -179,6 +192,7 @@
     "regions": ["Asie de l'Est"],
     "epoch": "XVIIe–XVIIIe s.",
     "themes": ["Paysages", "Lumière & couleur"],
+    "types": ["Peinture"],
     "image": "images/collection/iris-yatsuhashi-korin.jpg",
     "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/39664), domaine public (Open Access)"
   },
@@ -192,6 +206,7 @@
     "regions": ["Asie de l'Est"],
     "epoch": "XIXe siècle",
     "themes": ["Paysages"],
+    "types": ["Dessins et estampes"],
     "image": "images/oeuvres/grande-vague-hokusai.jpg",
     "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/45434), domaine public (Open Access)"
   },
@@ -205,6 +220,7 @@
     "regions": ["Asie de l'Est"],
     "epoch": "XIXe siècle",
     "themes": ["Paysages"],
+    "types": ["Dessins et estampes"],
     "image": "images/expositions/cent-vues-du-mont-fuji-hokusai.jpg",
     "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/57849), domaine public (Open Access)"
   },
@@ -218,6 +234,7 @@
     "regions": ["Europe"],
     "epoch": "XIXe siècle",
     "themes": ["Paysages", "Lumière & couleur"],
+    "types": ["Peinture"],
     "image": "images/oeuvres/pluie-vapeur-vitesse-turner.jpg",
     "credit": "National Gallery, Londres, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Turner_-_Rain,_Steam_and_Speed_-_National_Gallery_file.jpg), domaine public"
   },
@@ -231,6 +248,7 @@
     "regions": ["Amériques", "Europe"],
     "epoch": "XIXe siècle",
     "themes": ["Portraits"],
+    "types": ["Peinture"],
     "image": "images/collection/madame-x-sargent.jpg",
     "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/12127), domaine public (Open Access)"
   },
@@ -244,6 +262,7 @@
     "regions": ["Europe"],
     "epoch": "XIXe siècle",
     "themes": ["Nature morte", "Lumière & couleur"],
+    "types": ["Peinture"],
     "image": "images/oeuvres/iris-van-gogh.jpg",
     "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/436528), domaine public (Open Access)"
   },
@@ -257,6 +276,7 @@
     "regions": ["Océanie", "Europe"],
     "epoch": "XIXe siècle",
     "themes": ["Portraits", "Vie quotidienne"],
+    "types": ["Peinture"],
     "image": "images/oeuvres/femmes-de-tahiti-gauguin.jpg",
     "credit": "Musée d'Orsay, Paris, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Paul_Gauguin_056.jpg), domaine public"
   },
@@ -270,6 +290,7 @@
     "regions": ["Amériques"],
     "epoch": "XIXe siècle",
     "themes": ["Paysages"],
+    "types": ["Peinture"],
     "image": "images/collection/gulf-stream-homer.jpg",
     "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/11122), domaine public (Open Access)"
   },
@@ -283,6 +304,7 @@
     "regions": ["Europe"],
     "epoch": "Modernisme",
     "themes": ["Paysages", "Lumière & couleur"],
+    "types": ["Peinture"],
     "image": "images/oeuvres/nympheas-monet.jpg",
     "credit": "Art Institute of Chicago (https://www.artic.edu/artworks/16568), via Wikimedia Commons, domaine public"
   },
@@ -296,6 +318,7 @@
     "regions": ["Europe"],
     "epoch": "Modernisme",
     "themes": ["Abstraction", "Spiritualité"],
+    "types": ["Peinture"],
     "image": "images/collection/cygne-hilma-af-klint.jpg",
     "credit": "Fondation Hilma af Klint, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Hilma_af_Klint,_1915,_Svanen,_No._17.jpg), domaine public"
   }

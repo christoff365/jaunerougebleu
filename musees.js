@@ -2,7 +2,7 @@
 // Le générateur d'exposition interroge ici, sans intervention humaine, les catalogues ouverts de musées du monde entier.
 // Seules les œuvres du domaine public avec image sont retenues. Chaque œuvre est créditée avec un lien vers sa fiche au musée.
 //
-// Sources actives sans clé : 90 institutions du monde entier et le patrimoine mondial de l'UNESCO (via Wikidata et
+// Sources actives sans clé : 114 institutions du monde entier et le patrimoine mondial de l'UNESCO (via Wikidata et
 // Wikimedia Commons, liste MUSEES_MONDE ci-dessous), Met (New York), Art Institute of Chicago, Cleveland Museum of Art,
 // SMK (Copenhague), Minneapolis Institute of Art. Sources activables avec une clé gratuite (à demander par l'association,
 // voir README) : Europeana (milliers d'institutions européennes) et Smithsonian (Washington).
@@ -167,6 +167,8 @@ const MUSEES_MONDE = {
     ['Q521251', 10, 1, 'Musée national d\'Irak, Bagdad'],
     ['Q210610', 85, 1, 'Palais du Golestan, Téhéran'],
     ['Q1148353', 20, 1, 'Musée d\'art islamique, Doha'],
+    ['Q3044751', 1327, 1, 'Musée du Louvre, Paris (antiquités orientales)'],
+    ['Q3044748', 534, 1, 'Musée du Louvre, Paris (arts de l\'Islam)'],
     ['Q3176133', 21, 0, 'Louvre Abou Dabi'],
     ['Q391976', 257, 0, 'Chester Beatty, Dublin (arts de l\'Islam et d\'Asie)'],
     ['Q4690937', 27, 1, 'Musée Aga Khan, Toronto (arts de l\'Islam)']
@@ -176,6 +178,7 @@ const MUSEES_MONDE = {
     ['Q2583681', 8, 1, 'Grand Musée égyptien, Gizeh'],
     ['Q1878362', 36, 1, 'Musée de Louxor'],
     ['Q2354677', 36, 1, 'Musée de Nubie, Assouan'],
+    ['Q3044749', 1183, 1, 'Musée du Louvre, Paris (antiquités égyptiennes)'],
     ['Q2912600', 31, 0, 'Musée national des beaux-arts d\'Alger'],
     ['Q4115728', 17, 0, 'Musée Mahmoud Khalil, Le Caire'],
     ['Q1419469', 18, 1, 'Galerie nationale d\'Afrique du Sud, Le Cap'],
@@ -230,7 +233,29 @@ const MUSEES_MONDE = {
     ['Q731126', 810, 0, 'J. Paul Getty Museum, Los Angeles'],
     ['Q6352575', 32668, 1, 'Yale Center for British Art, New Haven'],
     ['Q1568434', 29011, 0, 'Yale University Art Gallery, New Haven'],
-    ['Q210081', 661, 0, 'Walters Art Museum, Baltimore']
+    ['Q210081', 661, 0, 'Walters Art Museum, Baltimore'],
+    // France : départements du Louvre (Wikidata range les œuvres du Louvre par département) et musées de région
+    ['Q3044768', 4802, 1, 'Musée du Louvre, Paris (peintures)'],
+    ['Q3044772', 826, 1, 'Musée du Louvre, Paris (sculptures)'],
+    ['Q3044747', 1264, 1, 'Musée du Louvre, Paris (antiquités grecques, étrusques et romaines)'],
+    ['Q3044767', 722, 1, 'Musée du Louvre, Paris (objets d\'art)'],
+    ['Q3044753', 286, 1, 'Musée du Louvre, Paris (arts graphiques)'],
+    ['Q2946', 719, 1, 'Château de Versailles'],
+    ['Q3329787', 932, 1, 'Musée de l\'Histoire de France, Versailles'],
+    ['Q1236032', 718, 1, 'Musée Condé, Chantilly'],
+    ['Q1376', 1291, 1, 'Musée Saint-Raymond, Toulouse (archéologie)'],
+    ['Q2711480', 868, 1, 'Musée des Augustins, Toulouse'],
+    ['Q2628596', 567, 1, 'Palais des Beaux-Arts de Lille'],
+    ['Q3330225', 420, 1, 'Musée des Beaux-Arts de Reims'],
+    ['Q3329260', 275, 1, 'Musée Magnin, Dijon'],
+    ['Q1955739', 235, 1, 'Musée des Beaux-Arts de Dijon'],
+    ['Q954222', 269, 1, 'Musée des Beaux-Arts de Bordeaux'],
+    ['Q1535963', 264, 1, 'Musée des Beaux-Arts de Strasbourg'],
+    ['Q845468', 195, 1, 'Musée d\'Art moderne et contemporain de Strasbourg'],
+    ['Q1324926', 261, 1, 'Musée des Beaux-Arts et d\'Archéologie de Besançon'],
+    ['Q1952944', 213, 1, 'Musée de Grenoble'],
+    ['Q3086934', 190, 1, 'Musée des Beaux-Arts de Rouen'],
+    ['Q3329624', 163, 1, 'Musée d\'Art et d\'Histoire de Saint-Brieuc']
   ]
 };
 // Classes Wikidata correspondant aux types d'œuvres du générateur

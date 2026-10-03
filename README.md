@@ -40,7 +40,7 @@ Le générateur compose chaque exposition sans intervention humaine : il réunit
 
 | Institution | État |
 | --- | --- |
-| 90 institutions du monde entier, via Wikidata et Wikimedia Commons (liste `MUSEES_MONDE` dans `musees.js`) | actif, sans clé |
+| 114 institutions du monde entier, via Wikidata et Wikimedia Commons (liste `MUSEES_MONDE` dans `musees.js`) | actif, sans clé |
 | Patrimoine mondial de l'UNESCO (monuments : temples, mosquées, palais, sites archéologiques…), via Wikidata et Wikimedia Commons | actif, sans clé |
 | The Metropolitan Museum of Art (New York) | actif, sans clé |
 | Art Institute of Chicago | actif, sans clé |
@@ -50,7 +50,7 @@ Le générateur compose chaque exposition sans intervention humaine : il réunit
 | Europeana (milliers d'institutions européennes) | prêt, à activer avec une clé gratuite |
 | Smithsonian Institution (Washington) | prêt, à activer avec une clé gratuite |
 
-Les 90 institutions de Wikidata, par région :
+Les 114 institutions de Wikidata, par région :
 
 - **Asie de l'Est** : musées nationaux de Tokyo, Kyoto, Nara, Corée (Séoul) et Gyeongju, Musée national du Palais (Taipei), Musée du Palais (Cité interdite, Pékin), Musée national de Chine, Musée de Shanghai, Leeum (Séoul), Musée national d'art moderne de Tokyo, Musée Fuji de Tokyo, Musée MOA, Freer Gallery (Washington), Musée Guimet (Paris) ;
 - **Asie du Sud et du Sud-Est** : Musée national (New Delhi), CSMVS (Mumbai), Indian Museum et Victoria Memorial (Calcutta), Musée Salar Jung (Hyderabad), musées nationaux d'Indonésie (Jakarta) et de Bangkok, Musée national des beaux-arts du Vietnam (Hanoï) ;
@@ -58,7 +58,10 @@ Les 90 institutions de Wikidata, par région :
 - **Afrique** : Musée égyptien du Caire, Grand Musée égyptien, musées de Louxor et de Nubie (Assouan), Musée Mahmoud Khalil (Le Caire), Musée national des beaux-arts d'Alger, Galerie nationale d'Afrique du Sud (Le Cap), Galerie d'art de Johannesburg, Musée du quai Branly (Paris) ;
 - **Amériques** : Museo Nacional de Arte, Musée national d'anthropologie et Museo Soumaya (Mexico), Musée national des beaux-arts (La Havane), Museo de Arte de Ponce, MASP, Pinacothèque et Musée Paulista (São Paulo), Musée national des beaux-arts (Rio de Janeiro), Musée d'art de Lima, Musée national d'archéologie du Pérou, Musée national des beaux-arts (Santiago), musées des beaux-arts du Canada (Ottawa) et de Montréal, Musée royal de l'Ontario, Museo de América (Madrid) ;
 - **Océanie** : National Gallery of Victoria, galeries d'art de Nouvelle-Galles du Sud, d'Australie-Méridionale et du Queensland, Galerie nationale d'Australie, Te Papa (Wellington), Auckland Art Gallery, Musée d'Auckland, Sarjeant Gallery, The Suter, Christchurch Art Gallery ;
+- **France** : musée du Louvre (8 départements : peintures, sculptures, antiquités grecques, étrusques et romaines, objets d'art, arts graphiques, et, rangés dans leurs régions, antiquités égyptiennes, antiquités orientales et arts de l'Islam), château de Versailles et musée de l'Histoire de France, musée Condé (Chantilly), musées des Augustins et Saint-Raymond (Toulouse), palais des Beaux-Arts de Lille, musées des Beaux-Arts de Reims, Dijon, Bordeaux, Strasbourg, Besançon, Rouen, musée Magnin (Dijon), musée de Grenoble, musée d'Art moderne et contemporain de Strasbourg, musée d'Art et d'Histoire de Saint-Brieuc ;
 - **Europe et États-Unis** : Rijksmuseum, National Gallery et British Museum (Londres), Carnavalet et Petit Palais (Paris Musées), Orsay, Prado, Offices, Kunsthistorisches Museum, Nationalmuseum (Stockholm), Ermitage, Benaki, Rietberg, Getty, Yale (deux musées), Walters.
+
+**Bases françaises** : Joconde et POP (ministère de la Culture), Gallica (BnF), le site des collections du Louvre et Paris Musées ne peuvent pas être interrogés directement par le site, car ils n'autorisent pas les demandes venant d'un navigateur (il faudrait un serveur, ou une clé pour Paris Musées). Leurs œuvres arrivent par Wikidata (beaucoup y sont reprises avec leur numéro Joconde) et, si la clé est activée, par Europeana, qui réunit aussi les collections françaises.
 
 **Ajouter une institution** : trouver son identifiant sur https://www.wikidata.org (de la forme Q12345), puis l'ajouter dans `MUSEES_MONDE` (région, identifiant, nombre approximatif d'œuvres illustrées, 1 si la collection est surtout locale). Seules les institutions dont les œuvres sont décrites dans Wikidata avec une image apparaissent ; certaines grandes institutions (Musée national du Cambodge, Musée national du Nigeria à Lagos, Musée national des beaux-arts de Buenos Aires…) n'y ont pas encore d'œuvres illustrées.
 

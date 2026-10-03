@@ -4,6 +4,62 @@
 // puis on met à jour sa ligne ici (la clé doit être recopiée exactement).
 // Traductions générées par Claude AI (Anthropic), à faire relire par des locuteurs natifs.
 const TRAD = {
+  // ---- Accessibilité : libellés sans emoji ni symbole (les symboles sont masqués aux lecteurs d'écran)
+  "Aller au contenu": ["Skip to content", "Ir al contenido", "انتقل إلى المحتوى"],
+  "Navigation principale": ["Main navigation", "Navegación principal", "التنقل الرئيسي"],
+  "Langue": ["Language", "Idioma", "اللغة"],
+  "Écouter la description": ["Listen to the description", "Escuchar la descripción", "استمع إلى الوصف"],
+  "Arrêter la lecture": ["Stop reading", "Detener la lectura", "أوقف القراءة"],
+  "Lancer la partition et les vibrations": ["Start the score and vibrations", "Iniciar la partitura y las vibraciones", "شغّل النوتة والاهتزازات"],
+  "Lancer la partition visuelle": ["Start the visual score", "Iniciar la partitura visual", "شغّل النوتة البصرية"],
+  "Arrêter": ["Stop", "Detener", "إيقاف"],
+  "Démarrer la séance": ["Start the session", "Empezar la sesión", "ابدأ الجلسة"],
+  "Reprendre": ["Resume", "Reanudar", "استئناف"],
+  "Pause": ["Pause", "Pausa", "إيقاف مؤقت"],
+  "Séance terminée": ["Session complete", "Sesión terminada", "انتهت الجلسة"],
+  "Votre humeur s'est améliorée après la séance": ["Your mood improved after the session", "Tu estado de ánimo mejoró después de la sesión", "تحسّن مزاجك بعد الجلسة"],
+  "Générer mon exposition": ["Generate my exhibition", "Generar mi exposición", "أنشئ معرضي"],
+  "Retour": ["Back", "Volver", "رجوع"],
+  "Ouvrir Pages CMS": ["Open Pages CMS", "Abrir Pages CMS", "افتح Pages CMS"],
+  "(s'ouvre dans un nouvel onglet)": ["(opens in a new tab)", "(se abre en una pestaña nueva)", "(يُفتح في علامة تبويب جديدة)"],
+  "Pour les aveugles & malvoyants :": ["For blind and visually impaired visitors:", "Para personas ciegas y con baja visión:", "للمكفوفين وضعاف البصر:"],
+  "Pour les sourds & malentendants :": ["For deaf and hard-of-hearing visitors:", "Para personas sordas y con pérdida auditiva:", "للصمّ وضعاف السمع:"],
+  "Personnes aveugles & malvoyantes": ["Blind and visually impaired people", "Personas ciegas y con baja visión", "المكفوفون وضعاف البصر"],
+  "Personnes sourdes & malentendantes": ["Deaf and hard-of-hearing people", "Personas sordas y con pérdida auditiva", "الصمّ وضعاف السمع"],
+  "Description audio de l'œuvre": ["Audio description of the work", "Audiodescripción de la obra", "الوصف الصوتي للعمل"],
+  "Partition visuelle — rythme de l'œuvre": ["Visual score — rhythm of the work", "Partitura visual: ritmo de la obra", "النوتة البصرية — إيقاع العمل"],
+  "Vibrations — rythme de l'œuvre": ["Vibrations — rhythm of the work", "Vibraciones: ritmo de la obra", "الاهتزازات — إيقاع العمل"],
+  "Rythme de l'œuvre": ["Rhythm of the work", "Ritmo de la obra", "إيقاع العمل"],
+  "Parcours aveugles et malvoyants": ["Tour for blind and visually impaired visitors", "Recorrido para personas ciegas y con baja visión", "مسار المكفوفين وضعاف البصر"],
+  "Parcours sourds et malentendants": ["Tour for deaf and hard-of-hearing visitors", "Recorrido para personas sordas y con pérdida auditiva", "مسار الصمّ وضعاف السمع"],
+  "Très mal": ["Very bad", "Muy mal", "سيئ جدًا"],
+  "Plutôt mal": ["Rather bad", "Bastante mal", "سيئ نوعًا ما"],
+  "Neutre": ["Neutral", "Neutral", "محايد"],
+  "Plutôt bien": ["Rather good", "Bastante bien", "جيد نوعًا ما"],
+  "Très bien": ["Very good", "Muy bien", "جيد جدًا"],
+
+  // ---- Synesthésie (musique des couleurs)
+  "Musique des couleurs (synesthésie)": ["Music of colours (synaesthesia)", "Música de los colores (sinestesia)", "موسيقى الألوان (الحسّ المتزامن)"],
+  "Une courte musique est composée en direct à partir des couleurs réelles de l'image : la couleur dominante choisit la note de départ, la luminosité le mode (majeur ou mineur), la saturation l'énergie et le contraste le tempo. Cette correspondance est une règle inventée pour ce site : ce n'est pas une musique liée à l'œuvre.": ["A short piece of music is composed live from the real colours of the image: the dominant colour chooses the starting note, brightness the mode (major or minor), saturation the energy and contrast the tempo. This correspondence is a rule invented for this site: it is not music linked to the work.", "Una breve pieza musical se compone en directo a partir de los colores reales de la imagen: el color dominante elige la nota de partida, la luminosidad el modo (mayor o menor), la saturación la energía y el contraste el tempo. Esta correspondencia es una regla inventada para este sitio: no es una música vinculada a la obra.", "تُؤلَّف مقطوعة قصيرة مباشرةً انطلاقًا من الألوان الحقيقية للصورة: اللون الغالب يحدّد النغمة الأولى، والسطوع يحدّد المقام (كبير أو صغير)، والتشبّع يحدّد الطاقة، والتباين يحدّد الإيقاع. هذا التوافق قاعدة ابتُكرت لهذا الموقع: ليست موسيقى مرتبطة بالعمل."],
+  "Écouter la musique des couleurs": ["Listen to the music of colours", "Escuchar la música de los colores", "استمع إلى موسيقى الألوان"],
+  "Arrêter la musique": ["Stop the music", "Detener la música", "أوقف الموسيقى"],
+  "Lecture en cours": ["Now playing", "Reproduciendo", "قيد التشغيل"],
+  "Musique terminée.": ["Music finished.", "Música terminada.", "انتهت الموسيقى."],
+  "L'analyse des couleurs n'a pas pu être faite sur cet appareil.": ["The colour analysis could not be done on this device.", "No se pudo analizar los colores en este dispositivo.", "تعذّر تحليل الألوان على هذا الجهاز."],
+  "Valeurs calculées à partir des couleurs réelles de l'image (règle de correspondance inventée pour ce site).": ["Values calculated from the real colours of the image (a correspondence rule invented for this site).", "Valores calculados a partir de los colores reales de la imagen (regla de correspondencia inventada para este sitio).", "قيم محسوبة انطلاقًا من الألوان الحقيقية للصورة (قاعدة توافق ابتُكرت لهذا الموقع)."],
+  "Valeurs précalculées : l'analyse des couleurs n'a pas pu être faite sur cet appareil.": ["Pre-calculated values: the colour analysis could not be done on this device.", "Valores precalculados: no se pudo analizar los colores en este dispositivo.", "قيم محسوبة مسبقًا: تعذّر تحليل الألوان على هذا الجهاز."],
+  "Luminosité": ["Brightness", "Luminosidad", "السطوع"],
+  "Sombre": ["Dark", "Oscura", "داكنة"],
+  "Nuancée": ["Nuanced", "Matizada", "متدرّجة"],
+  "Lumineuse": ["Bright", "Luminosa", "مضيئة"],
+  "Modérée": ["Moderate", "Moderada", "معتدلة"],
+  "majeur": ["major", "mayor", "الكبير"],
+  "mineur": ["minor", "menor", "الصغير"],
+  "Do": ["C", "Do", "دو"], "Sol": ["G", "Sol", "صول"], "Ré": ["D", "Re", "ري"], "La": ["A", "La", "لا"],
+  "Mi": ["E", "Mi", "مي"], "Si": ["B", "Si", "سي"], "Fa♯": ["F♯", "Fa♯", "فا♯"], "Ré♭": ["D♭", "Re♭", "ري♭"],
+  "La♭": ["A♭", "La♭", "لا♭"], "Mi♭": ["E♭", "Mi♭", "مي♭"], "Si♭": ["B♭", "Si♭", "سي♭"], "Fa": ["F", "Fa", "فا"],
+  "Les tempos, tonalités et la musique des couleurs sont calculés à partir des couleurs réelles des images, selon une règle de correspondance inventée pour ce site ; les rythmes de vibration et les textes « Si cette œuvre était une musique » sont des interprétations créatives. Aucun ne décrit une musique réelle liée aux œuvres.": ["Tempos, keys and the music of colours are calculated from the real colours of the images, using a correspondence rule invented for this site; the vibration rhythms and the “If this work were music” texts are creative interpretations. None of them describes any real music linked to the works.", "Los tempos, las tonalidades y la música de los colores se calculan a partir de los colores reales de las imágenes, según una regla de correspondencia inventada para este sitio; los ritmos de vibración y los textos «Si esta obra fuera música» son interpretaciones creativas. Ninguno describe una música real vinculada a las obras.", "تُحسب الإيقاعات والمقامات وموسيقى الألوان انطلاقًا من الألوان الحقيقية للصور، وفق قاعدة توافق ابتُكرت لهذا الموقع؛ أما إيقاعات الاهتزاز ونصوص «لو كان هذا العمل موسيقى» فهي تفسيرات إبداعية. ولا يصف أيّ منها موسيقى حقيقية مرتبطة بالأعمال."],
+
   // ---- Navigation, en-tête, accueil
   "Accueil": ["Home", "Inicio", "الرئيسية"],
   "Exposition": ["Exhibition", "Exposición", "المعرض"],
@@ -104,6 +160,9 @@ const TRAD = {
   "🎼 Partition visuelle — rythme de l'œuvre": ["🎼 Visual score — rhythm of the work", "🎼 Partitura visual: ritmo de la obra", "🎼 النوتة البصرية — إيقاع العمل"],
   "▶ Lancer la partition et les vibrations": ["▶ Start the score and vibrations", "▶ Iniciar la partitura y las vibraciones", "▶ شغّل النوتة والاهتزازات"],
   "⏹ Arrêter": ["⏹ Stop", "⏹ Detener", "⏹ إيقاف"],
+  "▶ Lancer la partition visuelle": ["▶ Start the visual score", "▶ Iniciar la partitura visual", "▶ شغّل النوتة البصرية"],
+  "〰️ Rythme de l'œuvre": ["〰️ Rhythm of the work", "〰️ Ritmo de la obra", "〰️ إيقاع العمل"],
+  "Les vibrations ne fonctionnent que sur les téléphones Android. Sur cet appareil, la partition visuelle traduit le même rythme à l'écran.": ["Vibrations only work on Android phones. On this device, the visual score shows the same rhythm on screen.", "Las vibraciones solo funcionan en teléfonos Android. En este dispositivo, la partitura visual muestra el mismo ritmo en pantalla.", "لا تعمل الاهتزازات إلا على هواتف أندرويد. على هذا الجهاز، تعرض النوتة البصرية الإيقاع نفسه على الشاشة."],
   "📳 Vibrations — rythme de l'œuvre": ["📳 Vibrations — rhythm of the work", "📳 Vibraciones: ritmo de la obra", "📳 الاهتزازات — إيقاع العمل"],
   "Votre appareil peut vibrer : tenez-le en main et lancez la partition pour ressentir le rythme de l'œuvre.": ["Your device can vibrate: hold it in your hand and start the score to feel the rhythm of the work.", "Tu dispositivo puede vibrar: sostenlo en la mano e inicia la partitura para sentir el ritmo de la obra.", "يمكن لجهازك أن يهتز: أمسكه بيدك وشغّل النوتة لتشعر بإيقاع العمل."],
   "Votre appareil ne permet pas les vibrations depuis un site web (c'est le cas des iPhone et des ordinateurs) : suivez le rythme avec la partition visuelle.": ["Your device does not allow vibrations from a website (this is the case for iPhones and computers): follow the rhythm with the visual score.", "Tu dispositivo no permite vibraciones desde un sitio web (es el caso de los iPhone y los ordenadores): sigue el ritmo con la partitura visual.", "لا يسمح جهازك بالاهتزاز من موقع ويب (كما في أجهزة آيفون والحواسيب): تابع الإيقاع عبر النوتة البصرية."],
@@ -368,7 +427,7 @@ function traduirePage() {
   document.querySelectorAll('[alt],[aria-label],[placeholder]').forEach(traduireAttributs);
   document.documentElement.lang = langue;
   document.body.dir = langue === 'ar' ? 'rtl' : 'ltr';
-  document.querySelectorAll('.langs button').forEach(b => b.classList.toggle('on', b.dataset.lang === langue));
+  document.querySelectorAll('.langs button').forEach(b => { b.classList.toggle('on', b.dataset.lang === langue); b.setAttribute('aria-pressed', b.dataset.lang === langue); });
   enCours = false;
 }
 function changerLangue(l) {

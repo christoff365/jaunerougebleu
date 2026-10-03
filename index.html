@@ -380,7 +380,7 @@ main:focus,.panel:focus,h2:focus{outline:none}
     </div>
   </div>
   <div class="stats-row">
-    <div class="stat"><div class="stat-n">11</div><div class="stat-l">Musées et institutions</div></div>
+    <div class="stat"><div class="stat-n">96</div><div class="stat-l">Musées et institutions</div></div>
     <div class="stat"><div class="stat-n">3</div><div class="stat-l">Siècles d'art</div></div>
     <div class="stat"><div class="stat-n">4</div><div class="stat-l">Langues</div></div>
     <div class="stat"><div class="stat-n">∞</div><div class="stat-l">Expositions uniques</div></div>
@@ -648,6 +648,7 @@ main:focus,.panel:focus,h2:focus{outline:none}
       <li>Informations sur les œuvres (titres, artistes, dates, lieux de conservation) — source : les musées et la base Wikimedia Commons cités ci-dessus.</li>
       <li>Traductions anglaise, espagnole et arabe : Claude AI (Anthropic), non relues par des traducteurs.</li>
       <li>Œuvres du générateur trouvées en direct : fiches et images issues des catalogues ouverts des musées (Met, Art Institute of Chicago, Cleveland Museum of Art, SMK, Minneapolis Institute of Art), dans leur langue d'origine ; chaque image est créditée avec un lien vers sa fiche.</li>
+      <li>Œuvres et monuments de 90 institutions du monde entier et du patrimoine mondial de l'UNESCO : fiches de Wikidata et images de Wikimedia Commons, sous licence libre ; chaque image est créditée (auteur, licence et lien vers le fichier).</li>
     </ul>
   </div>
 </footer>
@@ -766,7 +767,7 @@ function genExpo(){
     if(direct.elargi)notes.push('Peu d\'œuvres des catalogues réunissaient tous vos critères : la recherche en direct a été élargie en ignorant les thèmes.');
     if(crit.ep.includes('Art contemporain'))notes.push('L\'art contemporain est peu représenté : les œuvres récentes sont protégées par le droit d\'auteur, et ce site ne montre que des œuvres du domaine public.');
     const oeuvres=choisies.concat(trouvees);
-    const repondu=direct.sources.filter(s=>s.ok).map(s=>s.nom),muets=direct.sources.filter(s=>!s.ok).map(s=>s.nom);
+    const repondu=direct.sources.filter(s=>s.ok&&s.nombre).map(s=>s.nom),muets=direct.sources.filter(s=>!s.ok).map(s=>s.nom);
     const groupes=ORDRE_EPOQUES.map(ep=>({ep,liste:oeuvres.filter(w=>w.epoch===ep).sort((a,b)=>(a.year||0)-(b.year||0))})).filter(g=>g.liste.length);
     tl.innerHTML=notes.map(n=>`<p class="expo-note">${esc(n)}</p>`).join('')+(groupes.length?groupes.map((g,i)=>{
       const debut=g.liste[0].year,fin=g.liste[g.liste.length-1].year;
@@ -774,14 +775,14 @@ function genExpo(){
         <div class="era">${esc(g.ep)} · ${debut===fin?annee(debut):annee(debut)+' – '+annee(fin)+(debut<0&&fin>0?' apr. J.-C.':'')}</div>
         <div class="mini-grid">${g.liste.map(carteOeuvre).join('')}</div>
       </div></div>`;}).join(''):'<p class="sub">Aucune œuvre ne correspond pour le moment. Essayez d\'autres choix.</p>')+
-      (repondu.length?`<p class="expo-sources"><span>Œuvres trouvées en direct dans les catalogues de :</span> ${repondu.map(esc).join(' · ')}${muets.length?`<br><span>Catalogues indisponibles pour le moment :</span> ${muets.map(esc).join(' · ')}`:''}</p>`:'');
+      (repondu.length?`<p class="expo-sources"><span>Œuvres trouvées en direct dans les catalogues de :</span> ${repondu.map(n=>`<span>${esc(n)}</span>`).join(' · ')}${muets.length?`<br><span>Catalogues indisponibles pour le moment :</span> ${muets.map(n=>`<span>${esc(n)}</span>`).join(' · ')}`:''}</p>`:'');
     majCompte();
   });
 }
 // Carte d'une œuvre ; les fiches venues des catalogues gardent la langue du musée (souvent l'anglais)
 function carteOeuvre(w){
   const titre=w.direct&&w.langue!=='fr'?`<b lang="${esc(w.langue)}">${esc(w.title)}</b>`:`<b>${esc(w.title)}</b>`;
-  return `<div class="mini${w.direct?' direct':''}">${imageOeuvre(w.image,w.title+(w.artist?', '+w.artist:''),'',w.sensible)}<div class="mini-info">${titre}<span>${[w.artist,w.date,w.place].filter(Boolean).map(esc).join(' · ')}</span>${w.museum?`<span>${esc(w.museum)}</span>`:''}${w.direct?'<span class="pastille-direct">Catalogue du musée, en direct</span>':''}${w.credit?`<small class="img-credit">Image : ${lienCredit(w.credit)}</small>`:''}</div></div>`;
+  return `<div class="mini${w.direct?' direct':''}">${imageOeuvre(w.image,w.title+(w.artist?', '+w.artist:''),'',w.sensible)}<div class="mini-info">${titre}<span>${[w.artist,w.date,w.place].filter(Boolean).map(esc).join(' · ')}</span>${w.museum?`<span>${esc(w.museum)}</span>`:''}${w.direct?`<span class="pastille-direct">${esc(w.pastille||'Catalogue du musée, en direct')}</span>`:''}${w.credit?`<small class="img-credit">Image : ${lienCredit(w.credit)}</small>`:''}</div></div>`;
 }
 // Une œuvre dont l'image ne se charge pas est retirée de l'exposition, et l'époque aussi si elle se vide
 function retirerOeuvre(img){

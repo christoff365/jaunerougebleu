@@ -31,7 +31,9 @@ Pages CMS enregistre directement sur GitHub : avant de modifier le site sur un o
 | `.pages.yml` | Formulaires de Pages CMS |
 | `images/oeuvres/`, `images/expositions/`, `images/collection/` | Images des œuvres, toutes du domaine public, créditées sous chaque image |
 | `logo.jpg`, `favicon.svg` | Logo de l'écran d'ouverture et icône d'onglet |
-| `masterpiece/` | Le jeu Masterpiece (en français uniquement) |
+| `jeux/` | Page « Jeux » qui présente les deux jeux (lien « Jeux » du menu) |
+| `masterpiece/` | Le jeu Masterpiece (en français uniquement) : `index.html` (le jeu) et `oeuvres.json` (sa collection de 517 œuvres) |
+| `copiste/` | Le jeu Copiste, repeindre une composition de mémoire (en français uniquement ; il s'appelait auparavant Masterpiece) |
 | `CNAME` | Nom de domaine jaunerougebleu.org pour GitHub Pages |
 
 ## Générateur d'exposition : recherche automatique dans les musées
@@ -70,6 +72,12 @@ Les 114 institutions de Wikidata, par région :
 **Activer Europeana et le Smithsonian (gratuit, sans facturation)** : demander une clé sur https://pro.europeana.eu/pages/get-api (Europeana) et sur https://api.data.gov/signup/ (Smithsonian), puis la recopier entre les guillemets au début de `musees.js` : `const CLES_API = { europeana: 'votre-clé', smithsonian: 'votre-clé' };`.
 
 Limites : les fiches venues des catalogues restent dans la langue du musée (souvent l'anglais ; Wikidata donne souvent le titre en français) ; Wikidata limite le nombre de recherches par visiteur et par minute (largement suffisant pour un usage normal) ; le floutage des scènes violentes ou de nudité repose sur le titre et n'est pas infaillible ; si un catalogue ne répond pas, les autres continuent ; une œuvre dont l'image ne se charge pas est retirée automatiquement.
+
+## Le jeu Masterpiece
+
+Une œuvre arrive au musée sans son cartel (son étiquette) : le joueur la reconstitue en choisissant, à chaque question, parmi trois propositions (artiste, époque, pays, mouvement, genre, type, musée). L'œuvre apparaît sous un voile qui se lève à chaque réponse ; répondre sous le voile rapporte davantage. Huit salles par visite, quatre parcours (tour du monde, au-delà de l'Europe, chefs-d'œuvre, sculptures et objets), trois niveaux (Amateur, Connaisseur, Expert avec chronomètre, désactivable), un joker « Demander au guide » et un « Soulever le voile ». À la fin, les œuvres de la visite sont accrochées au mur avec leur score.
+
+La collection (`masterpiece/oeuvres.json`) a été préparée par Claude à partir de Wikidata et de Wikimedia Commons : œuvres célèbres et œuvres des musées du monde entier, domaine public selon la règle française, chaque image créditée (auteur, licence, lien). Pour éviter les questions ambiguës, les États historiques sont ramenés au pays actuel (« République florentine » devient « Italie »), seuls les genres et types reconnus sont gardés, et deux propositions ne peuvent jamais appartenir à la même famille de mouvements (par exemple deux mouvements de la Renaissance). Les nus et les scènes violentes ont été écartés. Le fichier est fixe : pour le renouveler, il faut le régénérer (à demander à Claude).
 
 ## Fonctionnement à connaître
 

@@ -255,9 +255,9 @@ function bornesEpoques(ep) {
   const d = ep.map(e => DATES_EPOQUES[e]);
   return [Math.min(...d.map(x => x[0])), Math.max(...d.map(x => x[1]))];
 }
-function sparql(requete) {
+function sparql(requete, delai) {
   // Envoi en POST : les requêtes longues dépasseraient la taille maximale d'une adresse
-  return lireJSON('https://query.wikidata.org/sparql?format=json', 15000, {
+  return lireJSON('https://query.wikidata.org/sparql?format=json', delai || 15000, {
     method: 'POST', body: new URLSearchParams({ query: requete })
   }).then(r => (r.results && r.results.bindings) || []);
 }
@@ -374,26 +374,32 @@ const ADAPTATEURS = {
       // Une sous-recherche par musée (dix au plus, tirés au hasard), chacune commençant à un endroit tiré au hasard du catalogue
       // Les très grands catalogues (surtout des peintures, dessins et estampes) sont trop lents à parcourir pour un autre type
       // ou un thème précis : on ne les interroge alors que pour la peinture et les dessins
-      const grandOk = m => m[1] <= 3000 || (!genres.length && (!types.length || c.ty.some(t => t === 'Peinture' || t === 'Dessins et estampes')));
+      // (le Musée national de Chine décrit des milliers d'objets sans image : aussi lent qu'un très grand catalogue)
+      const grandOk = m => (m[1] <= 3000 && m[0] !== 'Q1074318') || (!genres.length && (!types.length || c.ty.some(t => t === 'Peinture' || t === 'Dessins et estampes')));
       const musees = [...new Map(museesPour(c.region).map(m => [m[0], m])).values()].filter(grandOk).sort(() => Math.random() - 0.5).slice(0, 10);
       if (!musees.length) return Promise.resolve([]);
       const k = Math.max(4, Math.ceil(n * 3 / musees.length));
-      const sous = musees.map(m => `{ SELECT ?i ?m ?img ?date WHERE {
+      const sousRecherche = m => `{ SELECT ?i ?m ?img ?date WHERE {
           VALUES ?m { wd:${m[0]} } ?i wdt:P195 ?m ; wdt:P18 ?img ; wdt:P571 ?date .
           ${d ? `FILTER(YEAR(?date) >= ${d[0]} && YEAR(?date) <= ${d[1]})` : ''}
           ${types.length ? `?i wdt:P31 ?t . FILTER(?t IN (${types.map(q => 'wd:' + q).join(', ')}))` : ''}
           ${genres.length ? `?i wdt:P136 ?g . FILTER(?g IN (${genres.map(q => 'wd:' + q).join(', ')}))` : ''}
-        } LIMIT ${k} OFFSET ${hasard(Math.max(1, (filtre ? Math.min(Math.floor(m[1] / 8), 60) : m[1]) - k))} }`).join(' UNION ');
+        } LIMIT ${k} OFFSET ${types.length || genres.length ? 0 : hasard(Math.max(1, (filtre ? Math.min(Math.floor(m[1] / 8), 60) : m[1]) - k))} }`;
       // Ordre imposé : d'abord les œuvres de chaque musée, puis les filtres (sinon la recherche peut être très lente)
-      const requete = `SELECT ?i ?iLabel ?m ?mLabel ?date ?img ?typeEn ?createur ?createurLabel ?deces ?origine ?origineLabel ?nat WHERE {
+      const requete = groupe => `SELECT ?i ?iLabel ?m ?mLabel ?date ?img ?typeEn ?createur ?createurLabel ?deces ?origine ?origineLabel ?nat WHERE {
         hint:Query hint:optimizer "None" .
-        ${sous}
+        ${groupe.map(sousRecherche).join(' UNION ')}
         OPTIONAL { ?i wdt:P31 ?type . ?type rdfs:label ?typeEn FILTER(LANG(?typeEn) = "en") }
         OPTIONAL { ?i wdt:P495 ?origine }
         OPTIONAL { ?i wdt:P170 ?createur . OPTIONAL { ?createur wdt:P27 ?nat } OPTIONAL { ?createur wdt:P570 ?deces } }
         SERVICE wikibase:label { bd:serviceParam wikibase:language "fr,en,mul". }
       }`;
-      return sparql(requete).then(lignes => oeuvresWikidata(lignes, n, {
+      // Trois recherches en parallèle : un musée lent ne fait perdre que son propre groupe, pas toute la recherche
+      const groupes = [0, 1, 2].map(g => musees.filter((m, i) => i % 3 === g)).filter(l => l.length);
+      return Promise.all(groupes.map(g => sparql(requete(g), 8000).catch(() => null))).then(listes => {
+        if (listes.every(l => l === null)) throw new Error('Wikidata indisponible');
+        return [].concat(...listes.filter(Boolean));
+      }).then(lignes => oeuvresWikidata(lignes, n, {
         lieu: 'mLabel', musee: nom => nom, region: b => regionMusee[qid(b, 'm')]
       }));
     }

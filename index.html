@@ -665,7 +665,10 @@ const ORDRE_EPOQUES=['Antiquité','Moyen Âge','Renaissance','XVIIe–XVIIIe s.'
 let collection=null;
 function chargerCollection(){
   if(collection)return Promise.resolve(collection);
-  return fetch('collection.json',{cache:'no-cache'}).then(r=>{if(!r.ok)throw new Error('HTTP '+r.status);return r.json();}).then(d=>collection=d);
+  // Les œuvres ajoutées dans Pages CMS peuvent avoir des champs vides : on les complète pour éviter toute erreur
+  return fetch('collection.json',{cache:'no-cache'}).then(r=>{if(!r.ok)throw new Error('HTTP '+r.status);return r.json();})
+    .then(d=>collection=(Array.isArray(d)?d:[]).filter(w=>w&&w.title).map(w=>Object.assign({artist:'',date:'',place:'',museum:'',credit:''},w,{
+      regions:[].concat(w.regions||[]),themes:[].concat(w.themes||[]),year:Number(w.year)||0})));
 }
 function annee(y){return y<0?(-y)+' av. J.-C.':String(y);}
 // Image floutée tant que le visiteur n'a pas choisi de la voir (œuvres marquées « sensible »)
@@ -694,7 +697,7 @@ function genExpo(){
       const debut=g.liste[0].year,fin=g.liste[g.liste.length-1].year;
       return `<div class="tl"><div class="tl-l"><div class="tl-dot"></div>${i<groupes.length-1?'<div class="tl-line"></div>':''}</div><div style="flex:1;padding-bottom:16px">
         <div class="era">${esc(g.ep)} · ${debut===fin?annee(debut):annee(debut)+' – '+annee(fin)+(debut<0&&fin>0?' apr. J.-C.':'')}</div>
-        <div class="mini-grid">${g.liste.map(w=>`<div class="mini">${imageOeuvre(w.image,w.title+', '+w.artist,'',w.sensible)}<div class="mini-info"><b>${esc(w.title)}</b><span>${esc(w.artist)} · ${esc(w.date)} · ${esc(w.place)}</span><span>${esc(w.museum)}</span><small class="img-credit">Image : ${lienCredit(w.credit)}</small></div></div>`).join('')}</div>
+        <div class="mini-grid">${g.liste.map(w=>`<div class="mini">${imageOeuvre(w.image,w.title+', '+w.artist,'',w.sensible)}<div class="mini-info"><b>${esc(w.title)}</b><span>${[w.artist,w.date,w.place].filter(Boolean).map(esc).join(' · ')}</span>${w.museum?`<span>${esc(w.museum)}</span>`:''}${w.credit?`<small class="img-credit">Image : ${lienCredit(w.credit)}</small>`:''}</div></div>`).join('')}</div>
       </div></div>`;}).join(''):'<p class="sub">Aucune œuvre ne correspond pour le moment. Essayez d\'autres choix.</p>');
   }).catch(()=>{tl.innerHTML='<p class="sub">La collection n\'a pas pu être chargée. Rechargez la page dans un instant.</p>';});
 }

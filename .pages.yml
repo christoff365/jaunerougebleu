@@ -1,10 +1,13 @@
 # Configuration de Pages CMS (https://app.pagescms.org)
-# Décrit le formulaire qui permet de créer et modifier les expositions du site.
-# Les expositions sont enregistrées dans expositions.json, que le site lit à chaque visite.
+# Décrit les formulaires qui permettent de modifier le site :
+# - « Expositions » : les expositions spéciales, enregistrées dans expositions.json ;
+# - « Collection du générateur » : les œuvres du générateur d'exposition, enregistrées dans collection.json.
+# Le site lit ces deux fichiers à chaque visite.
 
+# Médiathèque : tout le dossier images/ (sous-dossiers collection, expositions, oeuvres)
 media:
-  input: images/expositions
-  output: images/expositions
+  input: images
+  output: images
 
 content:
   - name: expositions
@@ -82,3 +85,64 @@ content:
           - name: compare
             label: Point de comparaison avec les autres œuvres
             type: text
+
+  - name: collection
+    label: Collection du générateur
+    type: file
+    path: collection.json
+    format: json
+    list: true
+    fields:
+      - name: title
+        label: Titre de l'œuvre
+        type: string
+        required: true
+      - name: artist
+        label: "Artiste (ou atelier, ex. : Artiste olmèque)"
+        type: string
+        required: true
+      - name: date
+        label: "Date affichée (ex. : vers 1665, 1000–400 av. J.-C.)"
+        type: string
+        required: true
+      - name: year
+        label: "Année pour le classement chronologique (nombre ; négatif avant J.-C., ex. : -700)"
+        type: number
+        required: true
+      - name: place
+        label: "Lieu de création (ex. : Pays-Bas, Ispahan, Iran)"
+        type: string
+      - name: museum
+        label: "Musée où l'œuvre est conservée (ex. : Rijksmuseum, Amsterdam)"
+        type: string
+      - name: regions
+        label: Régions (une ou plusieurs)
+        type: select
+        required: true
+        options:
+          multiple: true
+          values: ["Europe", "Asie de l'Est", "Amériques", "Afrique", "Moyen-Orient", "Océanie"]
+      - name: epoch
+        label: Époque
+        type: select
+        required: true
+        options:
+          values: ["Antiquité", "Moyen Âge", "Renaissance", "XVIIe–XVIIIe s.", "XIXe siècle", "Modernisme", "Art contemporain"]
+      - name: themes
+        label: Thèmes (un ou plusieurs)
+        type: select
+        required: true
+        options:
+          multiple: true
+          values: ["Portraits", "Paysages", "Abstraction", "Spiritualité", "Vie quotidienne", "Mythologie", "Nature morte", "Lumière & couleur"]
+      - name: image
+        label: "Image de l'œuvre (domaine public uniquement ; à ranger dans le dossier collection)"
+        type: image
+        required: true
+      - name: credit
+        label: "Crédit de l'image (ex. : The Metropolitan Museum of Art (lien vers la fiche), domaine public)"
+        type: string
+        required: true
+      - name: sensible
+        label: "Image sensible (violence, nudité…) : floutée jusqu'à ce que le visiteur choisisse de la voir"
+        type: boolean

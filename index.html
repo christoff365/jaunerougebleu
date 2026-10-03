@@ -171,7 +171,17 @@ hr{border:none;border-top:1px solid #e0d5c0;margin:28px 0}
 .mini svg,.mini img{width:100%;height:120px;display:block;object-fit:cover}
 .mini-info{padding:8px 10px}
 .mini-info b{display:block;font-size:13px;font-weight:600;color:#111}
-.mini-info span{font-size:11px;color:#888}
+.mini-info span{font-size:11px;color:#888;display:block}
+#expo-tl .mini img{object-fit:contain;background:#f5f0e8;height:160px}
+#expo-tl .mini{cursor:default}
+.fr-seul{font-size:12px;color:#7a5c0a;background:#fff8e1;border-radius:4px;padding:6px 10px;margin:0 0 14px;display:inline-block}
+html[lang="fr"] .fr-seul{display:none}
+.expo-note{background:#fff8e1;border-left:3px solid var(--jaune);padding:10px 14px;font-size:13px;color:#555;margin-bottom:18px;line-height:1.6}
+/* Images sensibles : floutées jusqu'au clic */
+.sensible{position:relative;overflow:hidden}
+.sensible img{filter:blur(22px);transform:scale(1.08)}
+.sensible.vu img{filter:none;transform:none}
+.sensible button{position:absolute;inset:0;margin:auto;height:max-content;width:max-content;max-width:90%;background:rgba(0,0,0,.78);color:#fff;border:2px solid #fff;border-radius:4px;padding:8px 12px;font-size:12px;font-weight:600;cursor:pointer}
 
 /* ACCESSIBILITY */
 .acc-panels{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:32px}
@@ -202,7 +212,9 @@ hr{border:none;border-top:1px solid #e0d5c0;margin:28px 0}
 .vibe-box{background:#f0faf6;border:1px solid rgba(29,158,117,.2);border-radius:6px;padding:14px;margin-top:12px}
 .vibe-lbl{font-size:11px;text-transform:uppercase;letter-spacing:.1em;color:#0a5c40;font-weight:600;margin-bottom:10px}
 .vibe-bars{display:flex;gap:3px;align-items:flex-end;height:48px;margin-bottom:10px}
-.vibe-bars span{border-radius:2px 2px 0 0;flex:1;transition:height .2s,opacity .2s}
+.vibe-bars span{border-radius:2px 2px 0 0;flex:1;transition:height .08s linear,opacity .08s linear}
+.vibe-note{font-size:12px;color:#0a5c40;background:#e3f4ec;border-radius:4px;padding:8px 10px;margin-top:10px;line-height:1.5}
+@media(prefers-reduced-motion:reduce){.vibe-bars span{transition:none}}
 .vibe-text{font-size:12px;color:#444;line-height:1.7}
 
 /* WELLBEING */
@@ -298,10 +310,10 @@ hr{border:none;border-top:1px solid #e0d5c0;margin:28px 0}
     <button onclick="go('adm',this)">Admin</button>
   </div>
   <div class="langs">
-    <button class="on" onclick="setLang('fr',this)">FR</button>
-    <button onclick="setLang('en',this)">EN</button>
-    <button onclick="setLang('es',this)">ES</button>
-    <button onclick="setLang('ar',this)">ع</button>
+    <button class="on" data-lang="fr" onclick="setLang('fr',this)">FR</button>
+    <button data-lang="en" onclick="setLang('en',this)">EN</button>
+    <button data-lang="es" onclick="setLang('es',this)">ES</button>
+    <button data-lang="ar" onclick="setLang('ar',this)">ع</button>
   </div>
 </nav>
 
@@ -332,7 +344,7 @@ hr{border:none;border-top:1px solid #e0d5c0;margin:28px 0}
   <div class="stats-row">
     <div class="stat"><div class="stat-n">7</div><div class="stat-l">Musées représentés</div></div>
     <div class="stat"><div class="stat-n">3</div><div class="stat-l">Siècles d'art</div></div>
-    <div class="stat"><div class="stat-n">4</div><div class="stat-l">Langues prévues</div></div>
+    <div class="stat"><div class="stat-n">4</div><div class="stat-l">Langues</div></div>
     <div class="stat"><div class="stat-n">∞</div><div class="stat-l">Expositions uniques</div></div>
   </div>
   <div class="wrap">
@@ -348,7 +360,7 @@ hr{border:none;border-top:1px solid #e0d5c0;margin:28px 0}
       </div>
       <div class="feat-card" onclick="go('acc',document.querySelectorAll('.nav-links button')[2])">
         <div class="feat-icon">📳</div><div class="feat-t">Pour les sourds</div>
-        <div class="feat-d">Partition visuelle animée ; vibrations haptiques en préparation.</div>
+        <div class="feat-d">Partition visuelle animée et vibrations au rythme de l'œuvre (téléphones Android).</div>
       </div>
       <div class="feat-card">
         <div class="feat-icon">🌍</div><div class="feat-t">Perspective mondiale</div>
@@ -357,6 +369,7 @@ hr{border:none;border-top:1px solid #e0d5c0;margin:28px 0}
     </div>
     <hr>
     <p class="ey">Expositions spéciales</p>
+    <p class="fr-seul">Ce contenu n'est disponible qu'en français.</p>
     <div class="sp-grid" id="sp-home">
       <p style="color:#888;font-size:13px">Chargement des expositions…</p>
     </div>
@@ -367,82 +380,38 @@ hr{border:none;border-top:1px solid #e0d5c0;margin:28px 0}
 <div id="pg-build" class="pg">
   <div class="wrap">
     <h2>Construisez votre exposition</h2>
-    <p class="sub">Sélectionnez vos préférences. L'exposition personnalisée se génère instantanément.</p>
+    <p class="sub">Sélectionnez vos préférences : l'exposition se compose instantanément à partir de notre collection d'œuvres du domaine public, de l'Antiquité au début du XXe siècle.</p>
     <div class="step-row"><div class="step-n">1</div><div class="step-l">Thèmes</div></div>
     <div class="tags">
-      <span class="tag" onclick="tog(this,'th')">Portraits</span><span class="tag" onclick="tog(this,'th')">Paysages</span><span class="tag" onclick="tog(this,'th')">Abstraction</span><span class="tag" onclick="tog(this,'th')">Spiritualité</span><span class="tag" onclick="tog(this,'th')">Vie quotidienne</span><span class="tag" onclick="tog(this,'th')">Mythologie</span><span class="tag" onclick="tog(this,'th')">Nature morte</span><span class="tag" onclick="tog(this,'th')">Lumière & couleur</span>
+      <span class="tag" data-v="Portraits" onclick="tog(this,'th')">Portraits</span><span class="tag" data-v="Paysages" onclick="tog(this,'th')">Paysages</span><span class="tag" data-v="Abstraction" onclick="tog(this,'th')">Abstraction</span><span class="tag" data-v="Spiritualité" onclick="tog(this,'th')">Spiritualité</span><span class="tag" data-v="Vie quotidienne" onclick="tog(this,'th')">Vie quotidienne</span><span class="tag" data-v="Mythologie" onclick="tog(this,'th')">Mythologie</span><span class="tag" data-v="Nature morte" onclick="tog(this,'th')">Nature morte</span><span class="tag" data-v="Lumière & couleur" onclick="tog(this,'th')">Lumière & couleur</span>
     </div>
     <div class="step-row"><div class="step-n">2</div><div class="step-l">Régions</div></div>
     <div class="tags">
-      <span class="tag" onclick="tog(this,'rg')">Europe</span><span class="tag" onclick="tog(this,'rg')">Asie de l'Est</span><span class="tag" onclick="tog(this,'rg')">Amériques</span><span class="tag" onclick="tog(this,'rg')">Afrique</span><span class="tag" onclick="tog(this,'rg')">Moyen-Orient</span><span class="tag" onclick="tog(this,'rg')">Océanie</span>
+      <span class="tag" data-v="Europe" onclick="tog(this,'rg')">Europe</span><span class="tag" data-v="Asie de l'Est" onclick="tog(this,'rg')">Asie de l'Est</span><span class="tag" data-v="Amériques" onclick="tog(this,'rg')">Amériques</span><span class="tag" data-v="Afrique" onclick="tog(this,'rg')">Afrique</span><span class="tag" data-v="Moyen-Orient" onclick="tog(this,'rg')">Moyen-Orient</span><span class="tag" data-v="Océanie" onclick="tog(this,'rg')">Océanie</span>
     </div>
     <div class="step-row"><div class="step-n">3</div><div class="step-l">Époques</div></div>
     <div class="tags">
-      <span class="tag" onclick="tog(this,'ep')">Antiquité</span><span class="tag" onclick="tog(this,'ep')">Moyen Âge</span><span class="tag" onclick="tog(this,'ep')">Renaissance</span><span class="tag" onclick="tog(this,'ep')">XVIIe–XVIIIe s.</span><span class="tag" onclick="tog(this,'ep')">XIXe siècle</span><span class="tag" onclick="tog(this,'ep')">Modernisme</span><span class="tag" onclick="tog(this,'ep')">Art contemporain</span>
+      <span class="tag" data-v="Antiquité" onclick="tog(this,'ep')">Antiquité</span><span class="tag" data-v="Moyen Âge" onclick="tog(this,'ep')">Moyen Âge</span><span class="tag" data-v="Renaissance" onclick="tog(this,'ep')">Renaissance</span><span class="tag" data-v="XVIIe–XVIIIe s." onclick="tog(this,'ep')">XVIIe–XVIIIe s.</span><span class="tag" data-v="XIXe siècle" onclick="tog(this,'ep')">XIXe siècle</span><span class="tag" data-v="Modernisme" onclick="tog(this,'ep')">Modernisme</span><span class="tag" data-v="Art contemporain" onclick="tog(this,'ep')">Art contemporain</span>
     </div>
     <button class="gen-btn" id="gen-btn" disabled onclick="genExpo()">Générer mon exposition →</button>
   </div>
 </div>
 
-<!-- EXPO -->
+<!-- EXPO : construite à partir des choix du visiteur et de collection.json -->
 <div id="pg-expo" class="pg">
   <div class="wrap">
     <div class="expo-top">
       <div><h2 id="expo-h">Exposition</h2><p style="font-size:13px;color:#888;margin-top:4px" id="expo-s"></p></div>
       <button class="back-btn" onclick="go('build',document.querySelectorAll('.nav-links button')[1])">← Retour</button>
     </div>
-    <div class="tl">
-      <div class="tl-l"><div class="tl-dot"></div><div class="tl-line"></div></div>
-      <div style="flex:1;padding-bottom:16px">
-        <div class="era">Émergence · 1820–1850</div>
-        <div class="tl-title">Les débuts — regard neuf sur la nature</div>
-        <div class="tl-text">J.M.W. Turner abandonne les conventions académiques et commence à dissoudre les formes dans la lumière. Contemporain de Hokusai au Japon, chacun réinvente le rapport à la nature dans sa propre tradition culturelle.</div>
-        <div class="mini-grid">
-          <div class="mini" onclick="go('acc',document.querySelectorAll('.nav-links button')[2])">
-            <img src="images/oeuvres/grande-vague-hokusai.jpg" alt="La Grande Vague de Kanagawa, Hokusai" loading="lazy">
-            <div class="mini-info"><b>La Grande Vague</b><span>Hokusai · vers 1830-1832 · Japon</span><small class="img-credit">Image : <a href="https://www.metmuseum.org/art/collection/search/45434" target="_blank" rel="noopener">The Metropolitan Museum of Art</a>, domaine public</small></div>
-          </div>
-          <div class="mini">
-            <img src="images/oeuvres/pluie-vapeur-vitesse-turner.jpg" alt="Pluie, vapeur et vitesse, J.M.W. Turner" loading="lazy">
-            <div class="mini-info"><b>Pluie, vapeur et vitesse</b><span>Turner · 1844 · Angleterre</span><small class="img-credit">Image : National Gallery, Londres, via <a href="https://commons.wikimedia.org/wiki/File:Turner_-_Rain,_Steam_and_Speed_-_National_Gallery_file.jpg" target="_blank" rel="noopener">Wikimedia Commons</a>, domaine public</small></div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="tl">
-      <div class="tl-l"><div class="tl-dot"></div><div class="tl-line"></div></div>
-      <div style="flex:1;padding-bottom:16px">
-        <div class="era">Évolution · 1860–1910</div>
-        <div class="tl-title">La révolution impressionniste</div>
-        <div class="tl-text">Monet, Renoir et Pissarro bouleversent la peinture académique ; après eux, Van Gogh pousse encore plus loin la couleur et la touche. L'école de Barbizon, qui avait préparé l'impressionnisme, inspire aussi des paysagistes américains comme George Inness et William Morris Hunt.</div>
-        <div class="mini-grid">
-          <div class="mini" onclick="go('acc',document.querySelectorAll('.nav-links button')[2])">
-            <img src="images/oeuvres/nympheas-monet.jpg" alt="Nymphéas, Claude Monet" loading="lazy">
-            <div class="mini-info"><b>Nymphéas</b><span>Monet · 1906 · France</span><small class="img-credit">Image : <a href="https://www.artic.edu/artworks/16568" target="_blank" rel="noopener">Art Institute of Chicago</a>, via <a href="https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Water_Lilies_-_1933.1157_-_Art_Institute_of_Chicago.jpg" target="_blank" rel="noopener">Wikimedia Commons</a>, domaine public</small></div>
-          </div>
-          <div class="mini" onclick="go('acc',document.querySelectorAll('.nav-links button')[2])">
-            <img src="images/oeuvres/iris-van-gogh.jpg" alt="Iris, Vincent van Gogh" loading="lazy">
-            <div class="mini-info"><b>Iris (Van Gogh, 1890, Saint-Rémy)</b><span>Van Gogh · 1890 · Pays-Bas</span><small class="img-credit">Image : <a href="https://www.metmuseum.org/art/collection/search/436528" target="_blank" rel="noopener">The Metropolitan Museum of Art</a>, domaine public</small></div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="tl">
-      <div class="tl-l"><div class="tl-dot"></div></div>
-      <div style="flex:1">
-        <div class="era">Héritage · 1900–aujourd'hui</div>
-        <div class="tl-title">L'influence mondiale</div>
-        <div class="tl-text">L'impressionnisme ouvre la voie à de nombreuses avant-gardes du XXe siècle. Cézanne, qui exposait avec les impressionnistes dès 1874, en tire une peinture plus construite ; les Fauves libèrent la couleur ; et dans les années 1950, les grands Nymphéas de Monet sont redécouverts à la lumière de l'expressionnisme abstrait américain.</div>
-      </div>
-    </div>
+    <div id="expo-tl" aria-live="polite"></div>
   </div>
 </div>
-
 <!-- ACCESSIBILITY -->
 <div id="pg-acc" class="pg">
   <div class="wrap">
     <h2>Accessibilité universelle</h2>
-    <p class="sub"><strong>👁️ Pour les aveugles & malvoyants :</strong> description audio de chaque œuvre.<br><strong>📳 Pour les sourds & malentendants :</strong> partition visuelle animée ; les vibrations haptiques sont en préparation.</p>
+    <p class="sub"><strong>👁️ Pour les aveugles & malvoyants :</strong> description audio de chaque œuvre.<br><strong>📳 Pour les sourds & malentendants :</strong> partition visuelle animée et vibrations au rythme de l'œuvre, à ressentir en tenant son téléphone (Android).</p>
     <p class="ey">Sélectionnez une œuvre</p>
     <div class="art-cards" id="art-cards">
       <div class="art-card on" onclick="pickArt(0,this)">
@@ -476,7 +445,7 @@ hr{border:none;border-top:1px solid #e0d5c0;margin:28px 0}
         <div class="panel-body">
           <div class="info-box blue-box">
             <div class="box-lbl blue-lbl">🔊 Description audio de l'œuvre</div>
-            <div class="box-text" id="blind-txt">Une vague géante en forme de griffe domine la composition. Au creux de son écume blanche et dentelée, le Mont Fuji apparaît en miniature au loin, coiffé de neige. Trois embarcations de pêcheurs luttent contre le déferlement. Les teintes dominantes sont le bleu de Prusse profond, le blanc de l'écume et le beige du ciel hivernal.</div>
+            <div class="box-text" id="blind-txt">Une vague géante en forme de griffe domine la composition. Au creux de son écume blanche et dentelée, le Mont Fuji apparaît en miniature au loin, coiffé de neige. Trois embarcations de pêcheurs luttent contre le déferlement. Les teintes dominantes sont le bleu de Prusse profond, le blanc de l'écume et le beige du ciel.</div>
             <button class="btn-b" id="speak-btn" onclick="doSpeak()">▶ Écouter la description</button>
           </div>
         </div>
@@ -484,7 +453,7 @@ hr{border:none;border-top:1px solid #e0d5c0;margin:28px 0}
       <div class="panel">
         <div class="panel-head deaf-head">
           <h3>📳 Personnes sourdes & malentendantes</h3>
-          <p>Partition visuelle animée + rythme proposé pour les vibrations (en préparation).</p>
+          <p>Partition visuelle animée + vibrations du téléphone au même rythme (Android).</p>
         </div>
         <div class="panel-body">
           <div class="info-box green-box">
@@ -494,14 +463,15 @@ hr{border:none;border-top:1px solid #e0d5c0;margin:28px 0}
               <div class="ms">Énergie <b>Forte</b></div><div class="ms">Caractère <b>Percussif</b></div>
             </div>
             <div class="box-text" id="deaf-txt">Si cette œuvre était une musique, elle serait percussive et tendue — comme les vagues qui déferlent. Des pulsations fortes et régulières évoqueraient la puissance de l'océan, puis une montée vers un sommet intense, suivie d'un silence soudain : le moment suspendu avant l'impact.</div>
-            <button class="btn-g" id="play-btn" onclick="doVibe()">▶ Lancer la partition visuelle</button>
+            <button class="btn-g" id="play-btn" onclick="doVibe()">▶ Lancer la partition et les vibrations</button>
           </div>
           <div class="vibe-box">
-            <div class="vibe-lbl">📳 Vibrations haptiques — rythme proposé (fonction en préparation)</div>
+            <div class="vibe-lbl">📳 Vibrations — rythme de l'œuvre</div>
             <div class="vibe-bars" id="vibe-bars">
               <span style="height:80%;background:#1D9E75"></span><span style="height:60%;background:#1D9E75"></span><span style="height:90%;background:#1D9E75"></span><span style="height:70%;background:#1D9E75"></span><span style="height:100%;background:#1D9E75"></span><span style="height:50%;background:#1D9E75"></span><span style="height:85%;background:#1D9E75"></span><span style="height:65%;background:#1D9E75"></span><span style="height:75%;background:#1D9E75"></span><span style="height:55%;background:#1D9E75"></span>
             </div>
             <div class="vibe-text" id="vibe-txt">Pulsations fortes et régulières, environ une par seconde, qui montent en intensité comme le déferlement, puis s'arrêtent net pendant 2 secondes — le moment suspendu avant l'impact.</div>
+            <p class="vibe-note" id="vibe-note" aria-live="polite"></p>
           </div>
         </div>
       </div>
@@ -609,6 +579,7 @@ hr{border:none;border-top:1px solid #e0d5c0;margin:28px 0}
       </div>
       <button class="back-btn" onclick="go('home',document.querySelectorAll('.nav-links button')[0])">← Retour</button>
     </div>
+    <p class="fr-seul">Ce contenu n'est disponible qu'en français.</p>
     <p style="font-size:14px;color:#555;line-height:1.8;margin-bottom:24px;border-left:3px solid #C9A84C;padding-left:16px;font-style:italic" id="sp-intro"></p>
     <p class="ey" id="sp-cnt"></p>
     <div id="sp-wks"></div>
@@ -623,9 +594,12 @@ hr{border:none;border-top:1px solid #e0d5c0;margin:28px 0}
       <li>Textes du site (descriptions audio, partitions visuelles, vibrations, séances bien-être, présentation des pages et exposition « La lumière comme langage universel ») — source : Claude AI (Anthropic), textes générés par intelligence artificielle.</li>
       <li>Les tempos, tonalités et rythmes des partitions visuelles sont des interprétations créatives : ils ne décrivent pas une musique réelle liée aux œuvres.</li>
       <li>Informations sur les œuvres (titres, artistes, dates, lieux de conservation) — source : les musées et la base Wikimedia Commons cités ci-dessus.</li>
+      <li>Traductions anglaise, espagnole et arabe : Claude AI (Anthropic), non relues par des traducteurs.</li>
     </ul>
   </div>
 </footer>
+<!-- Traductions (anglais, espagnol, arabe) et moteur de traduction -->
+<script src="i18n.js"></script>
 <script>
 const ART = [
   { img:"images/oeuvres/grande-vague-hokusai.jpg", credit:'Image : <a href="https://www.metmuseum.org/art/collection/search/45434" target="_blank" rel="noopener">The Metropolitan Museum of Art</a>, domaine public (Open Access)', name:"La Grande Vague de Kanagawa", meta:"Katsushika Hokusai · Japon · vers 1830-1832 · Metropolitan Museum of Art",
@@ -674,23 +648,55 @@ function go(id,btn){
   window.scrollTo(0,0);
 }
 function setLang(l,btn){
-  document.querySelectorAll('.langs button').forEach(b=>b.classList.remove('on'));
-  btn.classList.add('on');
-  document.body.dir=l==='ar'?'rtl':'ltr';
+  stopSpeak();
+  changerLangue(l); // voir i18n.js : traduit la page, met l'arabe de droite à gauche, mémorise le choix
 }
 
 // BUILDER
 const sel={th:[],rg:[],ep:[]};
 function tog(el,k){
   el.classList.toggle('on');
-  const v=el.textContent.trim();
+  const v=el.dataset.v||el.textContent.trim(); // valeur française, quelle que soit la langue affichée
   sel[k]=el.classList.contains('on')?[...sel[k],v]:sel[k].filter(x=>x!==v);
   document.getElementById('gen-btn').disabled=!Object.values(sel).some(a=>a.length);
 }
+// GÉNÉRATEUR : choisit dans collection.json les œuvres qui correspondent aux thèmes, régions et époques cochés
+const ORDRE_EPOQUES=['Antiquité','Moyen Âge','Renaissance','XVIIe–XVIIIe s.','XIXe siècle','Modernisme','Art contemporain'];
+let collection=null;
+function chargerCollection(){
+  if(collection)return Promise.resolve(collection);
+  return fetch('collection.json',{cache:'no-cache'}).then(r=>{if(!r.ok)throw new Error('HTTP '+r.status);return r.json();}).then(d=>collection=d);
+}
+function annee(y){return y<0?(-y)+' av. J.-C.':String(y);}
+// Image floutée tant que le visiteur n'a pas choisi de la voir (œuvres marquées « sensible »)
+function imageOeuvre(src,alt,classe,sensible){
+  const img=`<img${classe?` class="${classe}"`:''} src="${esc(src)}" alt="${esc(alt)}" loading="lazy">`;
+  return sensible?`<div class="sensible">${img}<button type="button" onclick="this.parentElement.classList.add('vu');this.remove()">Scène violente — afficher l'image</button></div>`:img;
+}
 function genExpo(){
   document.getElementById('expo-h').textContent=(sel.th.length?sel.th.slice(0,2).join(' & '):'Art universel')+' — '+(sel.rg.length?sel.rg.slice(0,2).join(' · '):'Monde');
-  document.getElementById('expo-s').textContent=(sel.ep.length?sel.ep.join(', '):'Toutes époques')+' · ~20 min';
+  const tl=document.getElementById('expo-tl'),sous=document.getElementById('expo-s');
+  sous.textContent=(sel.ep.length?sel.ep.join(', '):'Toutes époques');
+  tl.innerHTML='<p class="sub">Composition de votre exposition…</p>';
   go('expo',document.querySelectorAll('.nav-links button')[1]);
+  chargerCollection().then(()=>{
+    const okTh=w=>w.themes.some(x=>sel.th.includes(x)),okRg=w=>w.regions.some(x=>sel.rg.includes(x)),okEp=w=>sel.ep.includes(w.epoch);
+    let oeuvres=collection.filter(w=>(!sel.th.length||okTh(w))&&(!sel.rg.length||okRg(w))&&(!sel.ep.length||okEp(w)));
+    const notes=[];
+    if(!oeuvres.length){
+      oeuvres=collection.filter(w=>(sel.th.length&&okTh(w))||(sel.rg.length&&okRg(w))||(sel.ep.length&&okEp(w)));
+      if(oeuvres.length)notes.push('Aucune œuvre de la collection ne réunit tous vos critères : voici celles qui en partagent au moins un.');
+    }
+    if(sel.ep.includes('Art contemporain'))notes.push('L\'art contemporain n\'est pas encore représenté : les œuvres récentes sont protégées par le droit d\'auteur, et cette collection ne contient que des œuvres du domaine public.');
+    sous.textContent=oeuvres.length+' œuvre'+(oeuvres.length>1?'s':'')+' · '+(sel.ep.length?sel.ep.join(', '):'Toutes époques');
+    const groupes=ORDRE_EPOQUES.map(ep=>({ep,liste:oeuvres.filter(w=>w.epoch===ep).sort((a,b)=>a.year-b.year)})).filter(g=>g.liste.length);
+    tl.innerHTML=notes.map(n=>`<p class="expo-note">${esc(n)}</p>`).join('')+(groupes.length?groupes.map((g,i)=>{
+      const debut=g.liste[0].year,fin=g.liste[g.liste.length-1].year;
+      return `<div class="tl"><div class="tl-l"><div class="tl-dot"></div>${i<groupes.length-1?'<div class="tl-line"></div>':''}</div><div style="flex:1;padding-bottom:16px">
+        <div class="era">${esc(g.ep)} · ${debut===fin?annee(debut):annee(debut)+' – '+annee(fin)+(debut<0&&fin>0?' apr. J.-C.':'')}</div>
+        <div class="mini-grid">${g.liste.map(w=>`<div class="mini">${imageOeuvre(w.image,w.title+', '+w.artist,'',w.sensible)}<div class="mini-info"><b>${esc(w.title)}</b><span>${esc(w.artist)} · ${esc(w.date)} · ${esc(w.place)}</span><span>${esc(w.museum)}</span><small class="img-credit">Image : ${lienCredit(w.credit)}</small></div></div>`).join('')}</div>
+      </div></div>`;}).join(''):'<p class="sub">Aucune œuvre ne correspond pour le moment. Essayez d\'autres choix.</p>');
+  }).catch(()=>{tl.innerHTML='<p class="sub">La collection n\'a pas pu être chargée. Rechargez la page dans un instant.</p>';});
 }
 
 // ACCESSIBILITY
@@ -713,30 +719,67 @@ function pickArt(i,el){
 function stopSpeak(){if('speechSynthesis'in window)window.speechSynthesis.cancel();speaking=false;const b=document.getElementById('speak-btn');if(b)b.textContent='▶ Écouter la description';}
 function doSpeak(){
   if(speaking){stopSpeak();return;}
-  if(!('speechSynthesis'in window)){alert('Synthèse vocale non supportée dans ce navigateur.');return;}
+  if(!('speechSynthesis'in window)){alert(t('Synthèse vocale non supportée dans ce navigateur.'));return;}
   stopVibe();
-  const u=new SpeechSynthesisUtterance(ART[curA].blind);u.lang='fr-FR';
+  const u=new SpeechSynthesisUtterance(t(ART[curA].blind));u.lang=LANGUES[langue]; // lecture dans la langue choisie
   u.onend=()=>{speaking=false;document.getElementById('speak-btn').textContent='▶ Écouter la description';};
   u.onerror=()=>{speaking=false;};
   speaking=true;document.getElementById('speak-btn').textContent='⏹ Arrêter la lecture';
   window.speechSynthesis.speak(u);
 }
-function stopVibe(){if(vibeInt)clearInterval(vibeInt);vibeInt=null;vibeOn=false;const b=document.getElementById('play-btn');if(b)b.textContent='▶ Lancer la partition visuelle';}
+// RYTHMES : pour chaque œuvre, une boucle [vibration, pause, vibration, pause…] en millisecondes.
+// Le même motif fait vibrer le téléphone (Android) et pulser les barres de la partition visuelle.
+function serie(n,on,off){const r=[];for(let i=0;i<n;i++)r.push(on,off);return r;}
+const RYTHMES=[
+  // Grande Vague : une pulsation par seconde, de plus en plus forte (plus longue), puis 2 s de silence
+  [150,850,200,800,260,740,330,670,420,580,520,2000],
+  // Nymphéas : vibrations douces et continues, comme une respiration lente (inspiration, puis repos)
+  [...serie(12,45,105),1600],
+  // Iris : environ 98 pulsations par minute, irrégulières, qui accélèrent légèrement
+  [110,530,70,590,150,490,90,550,130,470,80,500,160,430,100,450],
+  // Femmes de Tahiti : 72 par minute, par séries de 8, puis une pause d'une seconde
+  [...serie(7,140,693),140,1693]
+];
+const DUREE_PARTITION=30000; // la partition s'arrête seule au bout de 30 secondes
+const peutVibrer='vibrate' in navigator;
+function stopVibe(){
+  if(vibeInt)cancelAnimationFrame(vibeInt);vibeInt=null;vibeOn=false;
+  if(peutVibrer)navigator.vibrate(0);
+  const b=document.getElementById('play-btn');if(b)b.textContent='▶ Lancer la partition et les vibrations';
+  const bars=document.getElementById('vibe-bars').children,base=ART[curA].heights;
+  for(let i=0;i<bars.length;i++){bars[i].style.height=base[i]+'%';bars[i].style.opacity='1';}
+}
 function doVibe(){
   if(vibeOn){stopVibe();return;}
   stopSpeak();vibeOn=true;document.getElementById('play-btn').textContent='⏹ Arrêter';
-  const bars=document.getElementById('vibe-bars').children;
-  const base=ART[curA].heights;let frame=0;
-  vibeInt=setInterval(()=>{
-    frame++;
-    for(let i=0;i<bars.length;i++){
-      const j=(Math.random()*24)-12;
-      bars[i].style.height=Math.max(8,Math.min(100,base[i]+j))+'%';
-      bars[i].style.opacity=(0.5+Math.random()*0.5).toString();
+  const motif=RYTHMES[curA],boucle=motif.reduce((a,b)=>a+b,0);
+  // Le téléphone reçoit le motif répété sur toute la durée (Android ; iPhone et ordinateurs l'ignorent)
+  if(peutVibrer){const p=[];for(let t=0;t<DUREE_PARTITION;t+=boucle)p.push(...motif);navigator.vibrate(p);}
+  const bars=document.getElementById('vibe-bars').children,base=ART[curA].heights,debut=performance.now();
+  const anim=maintenant=>{
+    const ecoule=maintenant-debut;
+    if(ecoule>DUREE_PARTITION){stopVibe();return;}
+    // Où en est-on dans la boucle ? Pendant une vibration, les barres montent ; pendant la pause, elles retombent.
+    let t=ecoule%boucle,force=0;
+    for(let k=0;k<motif.length;k++){
+      if(t<motif[k]){force=k%2===0?1:Math.max(0,1-t/350);break;}
+      t-=motif[k];
     }
-    if(frame>150)stopVibe();
-  },180);
+    for(let i=0;i<bars.length;i++){
+      bars[i].style.height=Math.max(8,base[i]*(0.35+0.65*force))+'%';
+      bars[i].style.opacity=(0.45+0.55*force).toFixed(2);
+    }
+    vibeInt=requestAnimationFrame(anim);
+  };
+  vibeInt=requestAnimationFrame(anim);
 }
+// Indique au visiteur si son appareil peut vibrer
+document.addEventListener('DOMContentLoaded',()=>{
+  const n=document.getElementById('vibe-note');
+  if(n)n.textContent=peutVibrer
+    ?'Votre appareil peut vibrer : tenez-le en main et lancez la partition pour ressentir le rythme de l\'œuvre.'
+    :'Votre appareil ne permet pas les vibrations depuis un site web (c\'est le cas des iPhone et des ordinateurs) : suivez le rythme avec la partition visuelle.';
+});
 
 // WELLBEING
 let tInt=null,tSec=600,tRun=false,tDone=false,mB=0,mA=0;
@@ -778,7 +821,7 @@ let exposChargees=false;
 function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
 function escBr(s){return esc(s).replace(/\n/g,'<br>');}
 function lienCredit(s){return esc(s).replace(/\((https?:\/\/[^\s)]+)\)/g,'(<a href="$1" target="_blank" rel="noopener">source</a>)');}
-function viewSp(id){const e=expos.find(x=>x.id===id);if(!e)return;document.getElementById('sp-bdg').innerHTML=`<span class="badge bg">Exposition spéciale</span>${e.theme?` <span class="badge bt">${esc(e.theme)}</span>`:''}`;document.getElementById('sp-h').textContent=e.title||'';document.getElementById('sp-sub').textContent=e.subtitle||'';document.getElementById('sp-intro').textContent=e.intro||'';document.getElementById('sp-cnt').textContent='Comparaison mondiale · '+e.works.length+' œuvre(s)';document.getElementById('sp-wks').innerHTML=e.works.map(w=>`<div class="wk-card"><div class="wk-top"><div><h3>${esc(w.title)}</h3><p>${[w.artist,w.period,w.country,w.museum].filter(Boolean).map(esc).join(' · ')}</p></div><div class="wk-flag">${gFlag(w.country)}</div></div>${w.image?`<img class="wk-img" src="${esc(w.image)}" alt="${esc(w.title)}${w.artist?', '+esc(w.artist):''}" loading="lazy"><small class="img-credit">${w.credit?'Image : '+lienCredit(w.credit):''}</small>`:''}${w.analysis?`<p class="wk-ana">${escBr(w.analysis)}</p>`:''} ${w.compare?`<div class="cmp-pt"><div class="cmp-l">Point de comparaison</div>${escBr(w.compare)}</div>`:''}</div>`).join('');document.querySelectorAll('.pg').forEach(p=>p.classList.remove('on'));document.getElementById('pg-sp').classList.add('on');document.querySelectorAll('.nav-links button').forEach(b=>b.classList.remove('on'));window.scrollTo(0,0);}
+function viewSp(id){const e=expos.find(x=>x.id===id);if(!e)return;document.getElementById('sp-bdg').innerHTML=`<span class="badge bg">Exposition spéciale</span>${e.theme?` <span class="badge bt">${esc(e.theme)}</span>`:''}`;document.getElementById('sp-h').textContent=e.title||'';document.getElementById('sp-sub').textContent=e.subtitle||'';document.getElementById('sp-intro').textContent=e.intro||'';document.getElementById('sp-cnt').textContent='Comparaison mondiale · '+e.works.length+' œuvre(s)';document.getElementById('sp-wks').innerHTML=e.works.map(w=>`<div class="wk-card"><div class="wk-top"><div><h3>${esc(w.title)}</h3><p>${[w.artist,w.period,w.country,w.museum].filter(Boolean).map(esc).join(' · ')}</p></div><div class="wk-flag">${gFlag(w.country)}</div></div>${w.image?`${imageOeuvre(w.image,(w.title||'')+(w.artist?', '+w.artist:''),'wk-img',w.sensible)}<small class="img-credit">${w.credit?'Image : '+lienCredit(w.credit):''}</small>`:''}${w.analysis?`<p class="wk-ana">${escBr(w.analysis)}</p>`:''} ${w.compare?`<div class="cmp-pt"><div class="cmp-l">Point de comparaison</div>${escBr(w.compare)}</div>`:''}</div>`).join('');document.querySelectorAll('.pg').forEach(p=>p.classList.remove('on'));document.getElementById('pg-sp').classList.add('on');document.querySelectorAll('.nav-links button').forEach(b=>b.classList.remove('on'));window.scrollTo(0,0);}
 function renderHome(){const el=document.getElementById('sp-home');if(!el||!exposChargees)return;const pub=expos.filter(e=>e.status==='published');if(!pub.length){el.innerHTML='<p style="color:#aaa;font-size:13px">Aucune exposition publiée pour le moment.</p>';return;}el.innerHTML=pub.map(e=>`<div class="sp-card" onclick="viewSp(${e.id})"><p class="sp-ey">Comparaison mondiale · ${e.works.length} œuvre(s)</p><h3 class="sp-t">${esc(e.title)}</h3><p class="sp-s">${esc(e.subtitle)}</p>${e.theme?`<div style="margin-top:10px"><span class="badge bg">${esc(e.theme)}</span></div>`:''}</div>`).join('');}
 function chargerExpos(){
   fetch('expositions.json',{cache:'no-cache'})
@@ -820,6 +863,9 @@ chargerExpos();
     splash.focus({ preventScroll: true });
   }
 })();
+
+// Applique la langue mémorisée (si le visiteur avait choisi EN, ES ou ع lors d'une visite précédente)
+traduirePage();
 </script>
 </body>
 </html>

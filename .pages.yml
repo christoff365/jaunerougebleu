@@ -70,6 +70,9 @@ content:
           - name: image
             label: Image de l'œuvre (domaine public uniquement)
             type: image
+          - name: sensible
+            label: "Image sensible (violence, nudité…) : floutée jusqu'à ce que le visiteur choisisse de la voir"
+            type: boolean
           - name: credit
             label: "Crédit de l'image (ex. : Musée du Louvre, via Wikimedia Commons (lien), domaine public)"
             type: string

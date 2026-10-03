@@ -61,6 +61,15 @@ const TRAD = {
   "Musées du monde entier (Wikidata et Wikimedia Commons)": ["Museums around the world (Wikidata and Wikimedia Commons)", "Museos de todo el mundo (Wikidata y Wikimedia Commons)", "متاحف من حول العالم (ويكي بيانات وويكيميديا كومنز)"],
   "Patrimoine mondial de l'UNESCO (Wikidata et Wikimedia Commons)": ["UNESCO World Heritage (Wikidata and Wikimedia Commons)", "Patrimonio Mundial de la UNESCO (Wikidata y Wikimedia Commons)", "التراث العالمي لليونسكو (ويكي بيانات وويكيميديا كومنز)"],
   "Art Institute of Chicago": ["Art Institute of Chicago", "Instituto de Arte de Chicago", "معهد شيكاغو للفنون"],
+  // ---- Mentions légales (les passages à compléter seront traduits quand le contenu sera fourni)
+  "Mentions légales": ["Legal notice", "Aviso legal", "إشعار قانوني"],
+  "Éditeur :": ["Publisher:", "Editor:", "الناشر:"],
+  "Hébergement :": ["Hosting:", "Alojamiento:", "الاستضافة:"],
+  "Directeur de la publication :": ["Publication director:", "Director de la publicación:", "مدير النشر:"],
+  "Adresse et coordonnées :": ["Address and contact details:", "Dirección y datos de contacto:", "العنوان ومعلومات الاتصال:"],
+  "Équipe du site :": ["Website team:", "Equipo del sitio:", "فريق الموقع:"],
+  "Équipe rédactionnelle/contributeurs :": ["Editorial team/contributors:", "Equipo editorial/colaboradores:", "فريق التحرير/المساهمون:"],
+  "Textes, traductions et programmation réalisés avec Claude AI (Anthropic), voir les crédits en bas de page.": ["Texts, translations and programming produced with Claude AI (Anthropic); see the credits at the bottom of the page.", "Textos, traducciones y programación realizados con Claude AI (Anthropic); véanse los créditos al pie de la página.", "النصوص والترجمات والبرمجة أُنجزت بواسطة Claude AI (Anthropic)، انظر الإشارات في أسفل الصفحة."],
   // ---- Page « Musées »
   "Musées": ["Museums", "Museos", "المتاحف"],
   "Sources des œuvres": ["Sources of the works", "Fuentes de las obras", "مصادر الأعمال"],

@@ -1,10 +1,10 @@
 [
   {
     "title": "La lumière comme langage universel",
-    "subtitle": "Vermeer, Le Caravage, Rembrandt et Hokusai — quatre visions de la lumière",
+    "subtitle": "Vermeer, Le Caravage, Rembrandt, Hokusai et Turner — cinq visions de la lumière",
     "status": "published",
     "theme": "Lumière & ombre à travers les cultures",
-    "intro": "En un peu plus de deux siècles (vers 1600 – 1835) et sur deux continents, la lumière est le véritable sujet de ces chefs-d'œuvre. Qu'elle soit naturelle ou divine, intime ou dramatique, elle révèle l'essentiel de chaque culture.",
+    "intro": "En un peu plus de deux siècles (vers 1600 – 1839) et sur deux continents, la lumière est le véritable sujet de ces chefs-d'œuvre. Qu'elle soit naturelle ou divine, intime ou dramatique, elle révèle l'essentiel de chaque culture.",
     "works": [
       {
         "title": "La Jeune Fille à la perle",
@@ -50,6 +50,17 @@
         "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/57849), domaine public (Open Access)",
         "analysis": "Dans l'estampe japonaise, la lumière est suggérée par l'absence — le blanc du papier devient lumière. Une approche radicalement différente de la tradition occidentale.",
         "compare": "L'absence de clair-obscur révèle que la lumière en art n'est pas universelle : elle est culturelle."
+      },
+      {
+        "title": "Le Dernier Voyage du Téméraire",
+        "artist": "Joseph Mallord William Turner",
+        "country": "Angleterre",
+        "period": "1839",
+        "museum": "National Gallery, Londres",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/The_Fighting_Temeraire%2C_JMW_Turner%2C_National_Gallery.jpg/960px-The_Fighting_Temeraire%2C_JMW_Turner%2C_National_Gallery.jpg",
+        "credit": "National Gallery, Londres, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:The_Fighting_Temeraire,_JMW_Turner,_National_Gallery.jpg), domaine public",
+        "analysis": "Un vieux navire de guerre, qui avait combattu à Trafalgar, est remorqué par un petit vapeur vers le chantier où il sera démoli. Turner fait du coucher de soleil le vrai sujet : le ciel embrasé occupe la moitié de la toile, la lumière dissout les contours et se reflète dans l'eau. Le navire, pâle et presque fantomatique, s'efface pendant que le jour s'éteint.",
+        "compare": "Chez Vermeer, Le Caravage et Rembrandt, la lumière éclaire des figures ; chez Turner, elle devient elle-même le sujet, en couleur pure. Peint quelques années seulement après les Cent vues du Mont Fuji, le tableau répond à Hokusai : l'un suggère la lumière par le vide du papier, l'autre l'inonde de matière et de couleur."
       }
     ]
   }

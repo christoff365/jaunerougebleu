@@ -189,6 +189,11 @@ hr{border:none;border-top:1px solid #e0d5c0;margin:28px 0}
 .fr-seul{font-size:12px;color:#7a5c0a;background:#fff8e1;border-radius:4px;padding:6px 10px;margin:0 0 14px;display:inline-block}
 html[lang="fr"] .fr-seul{display:none}
 .pastille-direct{display:inline-block!important;margin-top:4px;font-size:10px!important;font-weight:600;color:#0a5c40!important;background:#e3f4ec;border-radius:3px;padding:1px 6px}
+.legal h2{margin-bottom:28px}
+.legal h3{font-size:16px;font-weight:700;margin:26px 0 6px;color:#111}
+.legal p{font-size:15px;line-height:1.7;color:#333;margin:0 0 8px}
+.a-completer{background:#fff3b0;color:#5a4a00;padding:1px 6px;border:1px dashed #c9a400;font-style:italic}
+.lien-legal{margin-top:16px;font-weight:600}
 .mus-tous,.mus-region{border-top:4px solid #000;padding:18px 0 8px;margin-top:22px}
 .mus-region:nth-child(3n+1){border-color:#E8C547}.mus-region:nth-child(3n+2){border-color:#E03030}.mus-region:nth-child(3n){border-color:#5599EE}
 .mus-tous h3,.mus-region h3{font-family:'Cormorant Garamond',serif;font-size:24px;margin-bottom:8px}
@@ -641,6 +646,35 @@ main:focus,.panel:focus,h2:focus{outline:none}
   </div>
 </div>
 
+<!-- MENTIONS LÉGALES : même structure que celles du Centre Pompidou ; les passages surlignés sont à compléter par l'association -->
+<div id="pg-legal" class="pg">
+  <div class="wrap legal">
+    <h2>Mentions légales</h2>
+
+    <h3>Éditeur :</h3>
+    <p>Le site « jaunerougebleu.org » est édité par l'association Jaune-Rouge-Bleu (projet Artmonde), <span class="a-completer">forme juridique et numéro d'enregistrement à compléter</span>.</p>
+
+    <h3>Hébergement :</h3>
+    <p>Le site « jaunerougebleu.org » est hébergé par GitHub Pages, un service de la société GitHub, Inc.<br>
+    88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis</p>
+
+    <h3>Directeur de la publication :</h3>
+    <p><span class="a-completer">Nom et fonction à compléter</span></p>
+
+    <h3>Adresse et coordonnées :</h3>
+    <p>Association Jaune-Rouge-Bleu<br>
+    <span class="a-completer">Adresse à compléter</span><br>
+    <span class="a-completer">Moyen de contact à compléter</span></p>
+
+    <h3>Équipe du site :</h3>
+    <p><span class="a-completer">Noms et rôles à compléter</span></p>
+
+    <h3>Équipe rédactionnelle/contributeurs :</h3>
+    <p><span class="a-completer">Noms et rôles à compléter</span></p>
+    <p>Textes, traductions et programmation réalisés avec Claude AI (Anthropic), voir les crédits en bas de page.</p>
+  </div>
+</div>
+
 </main>
 <footer class="credits">
   <div class="credits-in">
@@ -654,6 +688,7 @@ main:focus,.panel:focus,h2:focus{outline:none}
       <li>Œuvres du générateur trouvées en direct : fiches et images issues des catalogues ouverts des musées (Met, Art Institute of Chicago, Cleveland Museum of Art, SMK, Minneapolis Institute of Art), dans leur langue d'origine ; chaque image est créditée avec un lien vers sa fiche.</li>
       <li>Œuvres et monuments de 114 institutions du monde entier et du patrimoine mondial de l'UNESCO : fiches de Wikidata et images de Wikimedia Commons, sous licence libre ; chaque image est créditée (auteur, licence et lien vers le fichier).</li>
     </ul>
+    <p class="lien-legal"><a href="#mentions-legales" onclick="go('legal');return false;">Mentions légales</a></p>
   </div>
 </footer>
 <!-- Traductions (anglais, espagnol, arabe) et moteur de traduction -->
@@ -1045,6 +1080,8 @@ function chargerExpos(){
     .catch(()=>{const el=document.getElementById('sp-home');if(el)el.innerHTML='<p style="color:#666;font-size:13px">Les expositions n\'ont pas pu être chargées. Rechargez la page dans un instant.</p>';});
 }
 chargerExpos();
+// Lien direct vers les mentions légales : jaunerougebleu.org/#mentions-legales
+if(location.hash==='#mentions-legales')go('legal');
 
 
 // ACCESSIBILITÉ : les cartes et filtres (role="button") s'activent au clavier avec Entrée ou Espace

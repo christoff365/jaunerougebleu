@@ -79,6 +79,10 @@ Une œuvre arrive au musée sans son cartel (son étiquette) : le joueur la reco
 
 La collection (`masterpiece/oeuvres.json`) a été préparée par Claude à partir de Wikidata et de Wikimedia Commons : œuvres célèbres et œuvres des musées du monde entier, domaine public selon la règle française, chaque image créditée (auteur, licence, lien). Pour éviter les questions ambiguës, les États historiques sont ramenés au pays actuel (« République florentine » devient « Italie »), seuls les genres et types reconnus sont gardés, et deux propositions ne peuvent jamais appartenir à la même famille de mouvements (par exemple deux mouvements de la Renaissance). Les nus et les scènes violentes ont été écartés. Le fichier est fixe : pour le renouveler, il faut le régénérer (à demander à Claude).
 
+## Mentions légales
+
+Page « Mentions légales » dans `index.html` (lien en bas de chaque page, accès direct : jaunerougebleu.org/#mentions-legales), sur le modèle des rubriques des mentions légales du Centre Pompidou : éditeur, hébergement, directeur de la publication, adresse et coordonnées, équipe du site, équipe rédactionnelle et contributeurs. Les passages surlignés en jaune sont à compléter par l'association.
+
 ## Fonctionnement à connaître
 
 - **Traductions** : toute nouvelle phrase française affichée doit être ajoutée dans `i18n.js`, sinon elle reste en français dans les autres langues. Les traductions ont été générées par IA et doivent être relues par des locuteurs natifs.

@@ -124,6 +124,7 @@ const TRAD = {
   "Créer mon exposition": ["Create my exhibition", "Crear mi exposición", "أنشئ معرضي"],
   "Musées représentés": ["Museums represented", "Museos representados", "متاحف ممثَّلة"],
   "Siècles d'art": ["Centuries of art", "Siglos de arte", "قرون من الفن"],
+  "Ans d'art à travers le monde": ["Years of art from around the world", "Años de arte de todo el mundo", "عام من الفن عبر العالم"],
   "Langues": ["Languages", "Idiomas", "لغات"],
   "Expositions uniques": ["Unique exhibitions", "Exposiciones únicas", "معارض فريدة"],
   "Une plateforme unique au monde": ["A platform like no other", "Una plataforma única en el mundo", "منصّة فريدة في العالم"],

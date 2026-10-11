@@ -27,6 +27,7 @@ Pages CMS enregistre directement sur GitHub : avant de modifier le site sur un o
 | `accessibilite.js` | Bouton « Accessibilité » de chaque œuvre du site (description audio, musique des couleurs, partition visuelle, vibrations) et menu « Aa » Affichage et lecture (texte plus grand, contraste élevé, animations réduites, lecture de la page à voix haute) |
 | `bienetre.js` | Séances de bien-être composées à la demande : intention, durée (2, 3 ou 5 min), œuvres proposées d'après leurs couleurs |
 | `musees.js` | Recherche en direct dans les catalogues ouverts des musées pour le générateur d'exposition |
+| `relais/` | Relais (Cloudflare Worker) qui garde les clés Europeana et Smithsonian hors du site et fait les recherches à sa place |
 | `i18n.js` | Traductions anglaise, espagnole et arabe, et moteur de traduction (clé = texte français exact) |
 | `expositions.json` | Expositions spéciales (modifiées via Pages CMS) |
 | `collection.json` | Œuvres du générateur d'exposition (modifiées via Pages CMS) |
@@ -51,8 +52,8 @@ Le générateur compose chaque exposition sans intervention humaine : il réunit
 | Cleveland Museum of Art | actif, sans clé |
 | SMK – Statens Museum for Kunst (Copenhague) | actif, sans clé |
 | Minneapolis Institute of Art | actif, sans clé |
-| Europeana (milliers d'institutions européennes) | prêt, désactivé (clé à garder hors du site) |
-| Smithsonian Institution (Washington) | prêt, désactivé (clé à garder hors du site) |
+| Europeana (milliers d'institutions européennes) | actif dès que le relais est publié (clé gardée par le relais) |
+| Smithsonian Institution (Washington) | actif dès que le relais est publié (clé gardée par le relais) |
 
 Les 114 institutions de Wikidata, par région :
 
@@ -71,7 +72,15 @@ Les 114 institutions de Wikidata, par région :
 
 **Droits** : une œuvre venue de Wikidata n'est montrée que si son auteur est mort depuis plus de 70 ans (règle française), ou, si l'auteur est inconnu, si elle date d'avant 1900 ; même règle pour les monuments. Les photos de Wikimedia Commons sont sous licence libre (domaine public, CC0, CC BY, CC BY-SA…) : l'auteur et la licence de chaque photo sont indiqués avec un lien vers le fichier, comme ces licences l'exigent.
 
-**Clés Europeana et Smithsonian** : elles ne doivent jamais être écrites dans le code du site (`musees.js` ou ailleurs), car tout ce qui est publié sur le site est lisible par n'importe quel visiteur. `const CLES_API` reste donc vide et ces deux sources sont désactivées. Pour les activer sans montrer les clés, il faut un petit serveur intermédiaire (par exemple un Cloudflare Worker gratuit) qui garde les clés et fait les demandes à la place du site.
+**Clés Europeana et Smithsonian** : elles ne doivent jamais être écrites dans le code du site, car tout ce qui y est publié est lisible par n'importe quel visiteur. Le site passe donc par un relais (dossier `relais/`, un Cloudflare Worker gratuit) : le site lui envoie la recherche, le relais y ajoute la clé et renvoie les œuvres, avec leur crédit et le lien vers leur fiche. Les clés restent dans les secrets du relais, jamais dans le dépôt.
+
+Publier le relais (une seule fois) :
+1. Créer un compte gratuit sur https://dash.cloudflare.com/ et installer l'outil : `npm install -g wrangler`, puis `wrangler login`.
+2. Dans le dossier `relais/`, enregistrer les clés : `wrangler secret put EUROPEANA_KEY` puis `wrangler secret put SMITHSONIAN_KEY` (l'outil demande la clé, qui n'est pas affichée).
+3. Publier : `wrangler deploy`. L'outil affiche l'adresse du relais (`https://jaunerougebleu-relais.<compte>.workers.dev`).
+4. Recopier cette adresse entre les guillemets de `const RELAIS = '';` au début de `musees.js`. L'adresse n'est pas secrète.
+
+Le relais n'accepte que les demandes venant de jaunerougebleu.org (liste `ORIGINES` dans `relais/worker.js`). Si un quota est dépassé, la source concernée est simplement ignorée. Pour changer de clé : https://pro.europeana.eu/pages/get-api et https://api.data.gov/signup/, puis refaire l'étape 2.
 
 Limites : les fiches venues des catalogues restent dans la langue du musée (souvent l'anglais ; Wikidata donne souvent le titre en français) ; Wikidata limite le nombre de recherches par visiteur et par minute (largement suffisant pour un usage normal) ; le floutage des scènes violentes ou de nudité repose sur le titre et n'est pas infaillible ; si un catalogue ne répond pas, les autres continuent ; une œuvre dont l'image ne se charge pas est retirée automatiquement.
 

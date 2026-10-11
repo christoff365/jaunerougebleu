@@ -4,10 +4,10 @@
 //
 // Sources actives sans clé : 114 institutions du monde entier et le patrimoine mondial de l'UNESCO (via Wikidata et
 // Wikimedia Commons, liste MUSEES_MONDE ci-dessous), Met (New York), Art Institute of Chicago, Cleveland Museum of Art,
-// SMK (Copenhague), Minneapolis Institute of Art. Sources prêtes mais désactivées : Europeana (milliers d'institutions
-// européennes) et Smithsonian (Washington). Leurs clés ne doivent pas être écrites ici : tout ce qui est dans ce fichier
-// est visible par tous les visiteurs du site. Elles restent vides tant qu'un serveur intermédiaire ne les garde pas.
-const CLES_API = { europeana: '', smithsonian: '' };
+// SMK (Copenhague), Minneapolis Institute of Art. Sources interrogées par le relais de l'association (dossier relais/),
+// qui garde les clés hors du site : Europeana (milliers d'institutions européennes) et Smithsonian (Washington).
+// Adresse du relais une fois publié (ex. 'https://jaunerougebleu-relais.<compte>.workers.dev') ; vide = ces deux sources sont ignorées.
+const RELAIS = '';
 
 const DATES_EPOQUES = {
   'Antiquité': [-3500, 499], 'Moyen Âge': [500, 1399], 'Renaissance': [1400, 1599],
@@ -536,10 +536,10 @@ const ADAPTATEURS = {
   },
   europeana: {
     nom: 'Europeana',
-    actif: () => !!CLES_API.europeana,
+    actif: () => !!RELAIS,
     chercher(c, n) {
       const q = motsCles(c).join(' ') || 'art';
-      const url = 'https://api.europeana.eu/record/v2/search.json?wskey=' + CLES_API.europeana + '&query=' + encodeURIComponent(q) +
+      const url = RELAIS + '/europeana?query=' + encodeURIComponent(q) +
         '&reusability=open&qf=TYPE:IMAGE&qf=RIGHTS:*publicdomain*&media=true&thumbnail=true&rows=' + n + '&start=' + (1 + hasard(50)) + '&profile=rich';
       return lireJSON(url).then(r => (r.items || []).filter(o => o.edmIsShownBy || o.edmPreview).map(o => oeuvre({
         titre: (o.title || ['Sans titre'])[0], langue: o.language && o.language[0] ? o.language[0] : 'en',
@@ -551,10 +551,10 @@ const ADAPTATEURS = {
   },
   smithsonian: {
     nom: 'Smithsonian Institution, Washington',
-    actif: () => !!CLES_API.smithsonian,
+    actif: () => !!RELAIS,
     chercher(c, n) {
       const q = (motsCles(c).join(' ') || 'art') + ' AND online_media_type:"Images"';
-      const url = 'https://api.si.edu/openaccess/api/v1.0/search?api_key=' + CLES_API.smithsonian + '&q=' + encodeURIComponent(q) + '&rows=' + (n * 2) + '&start=' + hasard(40);
+      const url = RELAIS + '/smithsonian?q=' + encodeURIComponent(q) + '&rows=' + (n * 2) + '&start=' + hasard(40);
       return lireJSON(url).then(r => ((r.response && r.response.rows) || []).map(o => {
         const c2 = o.content || {}, media = c2.descriptiveNonRepeating && c2.descriptiveNonRepeating.online_media && c2.descriptiveNonRepeating.online_media.media && c2.descriptiveNonRepeating.online_media.media[0];
         if (!media || !media.usage || media.usage.access !== 'CC0') return null;

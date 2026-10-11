@@ -52,8 +52,8 @@ Le générateur compose chaque exposition sans intervention humaine : il réunit
 | Cleveland Museum of Art | actif, sans clé |
 | SMK – Statens Museum for Kunst (Copenhague) | actif, sans clé |
 | Minneapolis Institute of Art | actif, sans clé |
-| Europeana (milliers d'institutions européennes) | actif dès que le relais est publié (clé gardée par le relais) |
-| Smithsonian Institution (Washington) | actif dès que le relais est publié (clé gardée par le relais) |
+| Europeana (milliers d'institutions européennes) | actif, via le relais de l'association (clé gardée hors du site) |
+| Smithsonian Institution (Washington) | actif, via le relais de l'association (clé gardée hors du site) |
 
 Les 114 institutions de Wikidata, par région :
 
@@ -74,13 +74,11 @@ Les 114 institutions de Wikidata, par région :
 
 **Clés Europeana et Smithsonian** : elles ne doivent jamais être écrites dans le code du site, car tout ce qui y est publié est lisible par n'importe quel visiteur. Le site passe donc par un relais (dossier `relais/`, un Cloudflare Worker gratuit) : le site lui envoie la recherche, le relais y ajoute la clé et renvoie les œuvres, avec leur crédit et le lien vers leur fiche. Les clés restent dans les secrets du relais, jamais dans le dépôt.
 
-Publier le relais (une seule fois) :
-1. Créer un compte gratuit sur https://dash.cloudflare.com/ et installer l'outil : `npm install -g wrangler`, puis `wrangler login`.
-2. Dans le dossier `relais/`, enregistrer les clés : `wrangler secret put EUROPEANA_KEY` puis `wrangler secret put SMITHSONIAN_KEY` (l'outil demande la clé, qui n'est pas affichée).
-3. Publier : `wrangler deploy`. L'outil affiche l'adresse du relais (`https://jaunerougebleu.<compte>.workers.dev`).
-4. Recopier cette adresse entre les guillemets de `const RELAIS = '';` au début de `musees.js`. L'adresse n'est pas secrète.
+Le relais est publié à l'adresse https://jaunerougebleu.loic-a-messian.workers.dev (Worker `jaunerougebleu`, créé directement dans le tableau de bord Cloudflare, sans liaison avec GitHub). Cette adresse est inscrite dans `const RELAIS` au début de `musees.js` ; elle n'est pas secrète. `relais/worker.js` est la copie de référence de son code.
 
-Le relais n'accepte que les demandes venant de jaunerougebleu.org (liste `ORIGINES` dans `relais/worker.js`). Si un quota est dépassé, la source concernée est simplement ignorée. Pour changer de clé : https://pro.europeana.eu/pages/get-api et https://api.data.gov/signup/, puis refaire l'étape 2.
+Modifier le relais : dans https://dash.cloudflare.com/, ouvrir le Worker `jaunerougebleu`, cliquer sur **Edit code**, coller le nouveau contenu de `relais/worker.js`, puis **Deploy**. Changer une clé : **Settings**, puis **Variables and Secrets**, et modifier `EUROPEANA_KEY` ou `SMITHSONIAN_KEY` (type **Secret**).
+
+Le relais n'accepte que les demandes venant de jaunerougebleu.org (liste `ORIGINES` dans `relais/worker.js`). Si un quota est dépassé, la source concernée est simplement ignorée. Pour changer de clé : https://pro.europeana.eu/pages/get-api et https://api.data.gov/signup/, puis la remplacer dans **Variables and Secrets**.
 
 Limites : les fiches venues des catalogues restent dans la langue du musée (souvent l'anglais ; Wikidata donne souvent le titre en français) ; Wikidata limite le nombre de recherches par visiteur et par minute (largement suffisant pour un usage normal) ; le floutage des scènes violentes ou de nudité repose sur le titre et n'est pas infaillible ; si un catalogue ne répond pas, les autres continuent ; une œuvre dont l'image ne se charge pas est retirée automatiquement.
 

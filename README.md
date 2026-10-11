@@ -23,8 +23,11 @@ Pages CMS enregistre directement sur GitHub : avant de modifier le site sur un o
 
 | Fichier ou dossier | Rôle |
 | --- | --- |
-| `index.html` | Tout le site : pages Accueil, Exposition, Accessibilité, Bien-être, Musées (liste des institutions par région, construite à partir de `musees.js`), et leur code. Il n'y a pas d'onglet d'administration sur le site : l'administration se fait uniquement dans Pages CMS |
+| `index.html` | Tout le site : pages Accueil, Exposition, Accessibilité, Bien-être, Musées (liste des institutions par région, construite à partir de `musees.js`, avec liens vers leurs sites et vers Wikidata), et leur code principal. Il n'y a pas d'onglet d'administration sur le site : l'administration se fait uniquement dans Pages CMS |
+| `accessibilite.js` | Bouton « Accessibilité » de chaque œuvre du site (description audio, musique des couleurs, partition visuelle, vibrations) et menu « Aa » Affichage et lecture (texte plus grand, contraste élevé, animations réduites, lecture de la page à voix haute) |
+| `bienetre.js` | Séances de bien-être composées à la demande : intention, durée (2, 3 ou 5 min), œuvres proposées d'après leurs couleurs |
 | `musees.js` | Recherche en direct dans les catalogues ouverts des musées pour le générateur d'exposition |
+| `relais/` | Relais (Cloudflare Worker) qui garde les clés Europeana et Smithsonian hors du site et fait les recherches à sa place |
 | `i18n.js` | Traductions anglaise, espagnole et arabe, et moteur de traduction (clé = texte français exact) |
 | `expositions.json` | Expositions spéciales (modifiées via Pages CMS) |
 | `collection.json` | Œuvres du générateur d'exposition (modifiées via Pages CMS) |
@@ -49,8 +52,8 @@ Le générateur compose chaque exposition sans intervention humaine : il réunit
 | Cleveland Museum of Art | actif, sans clé |
 | SMK – Statens Museum for Kunst (Copenhague) | actif, sans clé |
 | Minneapolis Institute of Art | actif, sans clé |
-| Europeana (milliers d'institutions européennes) | prêt, à activer avec une clé gratuite |
-| Smithsonian Institution (Washington) | prêt, à activer avec une clé gratuite |
+| Europeana (milliers d'institutions européennes) | actif dès que le relais est publié (clé gardée par le relais) |
+| Smithsonian Institution (Washington) | actif dès que le relais est publié (clé gardée par le relais) |
 
 Les 114 institutions de Wikidata, par région :
 
@@ -69,7 +72,15 @@ Les 114 institutions de Wikidata, par région :
 
 **Droits** : une œuvre venue de Wikidata n'est montrée que si son auteur est mort depuis plus de 70 ans (règle française), ou, si l'auteur est inconnu, si elle date d'avant 1900 ; même règle pour les monuments. Les photos de Wikimedia Commons sont sous licence libre (domaine public, CC0, CC BY, CC BY-SA…) : l'auteur et la licence de chaque photo sont indiqués avec un lien vers le fichier, comme ces licences l'exigent.
 
-**Activer Europeana et le Smithsonian (gratuit, sans facturation)** : demander une clé sur https://pro.europeana.eu/pages/get-api (Europeana) et sur https://api.data.gov/signup/ (Smithsonian), puis la recopier entre les guillemets au début de `musees.js` : `const CLES_API = { europeana: 'votre-clé', smithsonian: 'votre-clé' };`.
+**Clés Europeana et Smithsonian** : elles ne doivent jamais être écrites dans le code du site, car tout ce qui y est publié est lisible par n'importe quel visiteur. Le site passe donc par un relais (dossier `relais/`, un Cloudflare Worker gratuit) : le site lui envoie la recherche, le relais y ajoute la clé et renvoie les œuvres, avec leur crédit et le lien vers leur fiche. Les clés restent dans les secrets du relais, jamais dans le dépôt.
+
+Publier le relais (une seule fois) :
+1. Créer un compte gratuit sur https://dash.cloudflare.com/ et installer l'outil : `npm install -g wrangler`, puis `wrangler login`.
+2. Dans le dossier `relais/`, enregistrer les clés : `wrangler secret put EUROPEANA_KEY` puis `wrangler secret put SMITHSONIAN_KEY` (l'outil demande la clé, qui n'est pas affichée).
+3. Publier : `wrangler deploy`. L'outil affiche l'adresse du relais (`https://jaunerougebleu-relais.<compte>.workers.dev`).
+4. Recopier cette adresse entre les guillemets de `const RELAIS = '';` au début de `musees.js`. L'adresse n'est pas secrète.
+
+Le relais n'accepte que les demandes venant de jaunerougebleu.org (liste `ORIGINES` dans `relais/worker.js`). Si un quota est dépassé, la source concernée est simplement ignorée. Pour changer de clé : https://pro.europeana.eu/pages/get-api et https://api.data.gov/signup/, puis refaire l'étape 2.
 
 Limites : les fiches venues des catalogues restent dans la langue du musée (souvent l'anglais ; Wikidata donne souvent le titre en français) ; Wikidata limite le nombre de recherches par visiteur et par minute (largement suffisant pour un usage normal) ; le floutage des scènes violentes ou de nudité repose sur le titre et n'est pas infaillible ; si un catalogue ne répond pas, les autres continuent ; une œuvre dont l'image ne se charge pas est retirée automatiquement.
 
@@ -86,7 +97,9 @@ Page « Mentions légales » dans `index.html` (lien en bas de chaque page, acc�
 ## Fonctionnement à connaître
 
 - **Traductions** : toute nouvelle phrase française affichée doit être ajoutée dans `i18n.js`, sinon elle reste en français dans les autres langues. Les traductions ont été générées par IA et doivent être relues par des locuteurs natifs.
-- **Accessibilité** : deux parcours distincts sur la page Accessibilité (aveugles et malvoyants / sourds et malentendants) ; les emojis décoratifs sont masqués aux lecteurs d'écran ; tout est utilisable au clavier.
+- **Accessibilité** : deux parcours distincts sur la page Accessibilité (aveugles et malvoyants / sourds et malentendants). Chaque œuvre du site (expositions spéciales, générateur, bien-être, page Accessibilité) a un bouton « Accessibilité » qui ouvre une fenêtre avec description audio, musique des couleurs, partition visuelle et vibrations. Les œuvres sans description écrite reçoivent une description composée automatiquement (titre, artiste, date, musée, couleurs dominantes, luminosité, contrastes), signalée comme telle. Pour les images de musées qui n'autorisent pas l'analyse des couleurs, la musique n'est pas proposée et la partition suit un rythme par défaut. Le menu « Aa » (en haut de chaque page) agrandit le texte, renforce le contraste, réduit les animations et lit la page à voix haute. Les emojis décoratifs sont masqués aux lecteurs d'écran ; tout est utilisable au clavier.
+- **Bien-être** : le visiteur choisit une intention (six au choix) et une durée de 2, 3 ou 5 minutes ; le site lui propose six œuvres choisies d'après leurs couleurs parmi toutes celles du site et des œuvres trouvées en direct dans les musées (bouton « Autres propositions », et « Changer d'œuvre » pendant la séance). Le guide change cinq fois au cours de la séance, peut être lu à voix haute (« Guidage vocal ») et, pour les intentions d'apaisement, une respiration guidée (4 s / 6 s) s'affiche. Les guides sont des propositions générées par Claude AI, sans valeur thérapeutique.
+- **Page Musées** : le nom de chaque institution ouvre son site officiel (lu en direct dans Wikidata, propriété P856, et gardé 7 jours dans le navigateur) ; l'icône code-barres ouvre sa fiche Wikidata.
 - **Vibrations** : uniquement sur les téléphones Android (les iPhone et les ordinateurs ne le permettent pas depuis un site) ; ailleurs, seule la partition visuelle est proposée.
 - **Musique des couleurs** : tempo, tonalité, énergie et luminosité sont calculés à partir des couleurs réelles de l'image, selon une règle inventée pour le site, puis une courte musique est jouée dans le navigateur.
 - **Textes** : générés par Claude AI (Anthropic) ; à faire relire, en particulier les descriptions audio destinées aux visiteurs aveugles.

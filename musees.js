@@ -6,8 +6,8 @@
 // Wikimedia Commons, liste MUSEES_MONDE ci-dessous), Met (New York), Art Institute of Chicago, Cleveland Museum of Art,
 // SMK (Copenhague), Minneapolis Institute of Art. Sources interrogées par le relais de l'association (dossier relais/),
 // qui garde les clés hors du site : Europeana (milliers d'institutions européennes) et Smithsonian (Washington).
-// Adresse du relais une fois publié (ex. 'https://jaunerougebleu.<compte>.workers.dev') ; vide = ces deux sources sont ignorées.
-const RELAIS = '';
+// Adresse du relais (sans « / » final) ; vide = ces deux sources sont ignorées.
+const RELAIS = 'https://jaunerougebleu.loic-a-messian.workers.dev';
 
 const DATES_EPOQUES = {
   'Antiquité': [-3500, 499], 'Moyen Âge': [500, 1399], 'Renaissance': [1400, 1599],

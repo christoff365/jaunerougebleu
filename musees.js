@@ -6,7 +6,7 @@
 // Wikimedia Commons, liste MUSEES_MONDE ci-dessous), Met (New York), Art Institute of Chicago, Cleveland Museum of Art,
 // SMK (Copenhague), Minneapolis Institute of Art. Sources interrogées par le relais de l'association (dossier relais/),
 // qui garde les clés hors du site : Europeana (milliers d'institutions européennes) et Smithsonian (Washington).
-// Adresse du relais une fois publié (ex. 'https://jaunerougebleu-relais.<compte>.workers.dev') ; vide = ces deux sources sont ignorées.
+// Adresse du relais une fois publié (ex. 'https://jaunerougebleu.<compte>.workers.dev') ; vide = ces deux sources sont ignorées.
 const RELAIS = '';
 
 const DATES_EPOQUES = {

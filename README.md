@@ -77,7 +77,7 @@ Les 114 institutions de Wikidata, par région :
 Publier le relais (une seule fois) :
 1. Créer un compte gratuit sur https://dash.cloudflare.com/ et installer l'outil : `npm install -g wrangler`, puis `wrangler login`.
 2. Dans le dossier `relais/`, enregistrer les clés : `wrangler secret put EUROPEANA_KEY` puis `wrangler secret put SMITHSONIAN_KEY` (l'outil demande la clé, qui n'est pas affichée).
-3. Publier : `wrangler deploy`. L'outil affiche l'adresse du relais (`https://jaunerougebleu-relais.<compte>.workers.dev`).
+3. Publier : `wrangler deploy`. L'outil affiche l'adresse du relais (`https://jaunerougebleu.<compte>.workers.dev`).
 4. Recopier cette adresse entre les guillemets de `const RELAIS = '';` au début de `musees.js`. L'adresse n'est pas secrète.
 
 Le relais n'accepte que les demandes venant de jaunerougebleu.org (liste `ORIGINES` dans `relais/worker.js`). Si un quota est dépassé, la source concernée est simplement ignorée. Pour changer de clé : https://pro.europeana.eu/pages/get-api et https://api.data.gov/signup/, puis refaire l'étape 2.

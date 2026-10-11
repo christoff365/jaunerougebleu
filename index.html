@@ -199,7 +199,16 @@ html[lang="fr"] .fr-seul{display:none}
 .mus-tous h3,.mus-region h3{font-family:'Cormorant Garamond',serif;font-size:24px;margin-bottom:8px}
 .mus-tous ul,.mus-region ul{columns:2 260px;column-gap:28px;padding-left:18px;font-size:14px;line-height:1.7;color:#333}
 .mus-tous p,.mus-region p{font-size:13px;color:#5c5c5c;line-height:1.6;margin:8px 0}
-.mus-region a{color:inherit}
+.mus-region a,.mus-tous a{color:inherit}
+.mus-tous ul li,.mus-region ul li{break-inside:avoid}
+a.mus-site{text-decoration:underline;text-decoration-color:#C9A84C;text-underline-offset:3px}
+a.mus-site:hover{color:var(--bleu)}
+.wd-lien{display:inline-flex;align-items:center;vertical-align:middle;padding:2px 3px;margin-left:2px;border-radius:3px;text-decoration:none}
+.wd-lien:hover{background:#f2ece0}
+/* Icône Wikidata : petit code-barres rouge, vert et bleu */
+.wd-ico{display:inline-block;width:16px;height:11px;background:linear-gradient(90deg,#990000 0 2px,transparent 2px 3px,#990000 3px 6px,transparent 6px 7px,#339966 7px 10px,transparent 10px 11px,#006699 11px 12px,transparent 12px 13px,#006699 13px 16px)}
+.wd-ico-texte{vertical-align:-1px}
+.mus-aide{font-size:13px;color:#5c5c5c;margin-top:-6px}
 .expo-sources{font-size:12px;color:#5c5c5c;line-height:1.6;margin-top:10px;padding-top:12px;border-top:1px solid #e0d5c0}
 .expo-note{background:#fff8e1;border-left:3px solid var(--jaune);padding:10px 14px;font-size:13px;color:#555;margin-bottom:18px;line-height:1.6}
 /* Images sensibles : floutées jusqu'au clic */
@@ -336,7 +345,66 @@ main:focus,.panel:focus,h2:focus{outline:none}
 .lien-evitement:focus{top:8px}
 .parcours-liens{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 22px}
 .parcours-liens a{display:inline-block;padding:10px 16px;border:2px solid var(--noir);border-radius:4px;color:var(--noir);font-weight:600;text-decoration:none;font-size:14px}
-.parcours-liens a:hover{background:var(--jaune)}</style>
+.parcours-liens a:hover{background:var(--jaune)}
+/* ---- Bouton « Accessibilité » de chaque œuvre et fenêtre associée (accessibilite.js) */
+.acc-btn{display:inline-flex;align-items:center;gap:6px;margin-top:8px;background:#fff;border:1.5px solid var(--bleu);color:var(--bleu);font-size:12px;font-weight:500;padding:5px 10px;border-radius:3px;transition:.2s}
+.acc-btn:hover{background:var(--bleu);color:#fff}
+.mini-info .acc-btn span,.acc-btn span{display:inline;font-size:inherit;color:inherit}
+.wk-card .acc-btn{margin:10px 0 4px}
+.acc-modal{position:fixed;inset:0;z-index:1000;display:flex;align-items:center;justify-content:center;padding:16px}
+.acc-modal[hidden]{display:none}
+.acc-fond{position:absolute;inset:0;background:rgba(0,0,0,.55)}
+.acc-boite{position:relative;background:#fff;border-top:6px solid var(--jaune);border-radius:6px;max-width:980px;width:100%;max-height:calc(100vh - 32px);overflow:auto;padding:20px 22px;box-shadow:0 12px 40px rgba(0,0,0,.3)}
+.acc-entete{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;margin-bottom:14px}
+.acc-entete h2{font-size:26px;margin:2px 0}
+.am-meta{font-size:13px;color:#555}
+.acc-corps{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:18px}
+.acc-image img{width:100%;max-height:420px;object-fit:contain;background:#f5f0e8;display:block;border-radius:4px}
+.acc-outils .info-box{margin-bottom:12px}
+.acc-outils .vibe-bars{height:60px;margin:10px 0}
+body.acc-ouverte{overflow:hidden}
+@media(max-width:760px){.acc-corps{grid-template-columns:1fr}.acc-boite{padding:16px}}
+/* ---- Menu « Affichage et lecture » */
+.affichage{position:relative}
+.btn-affichage{background:#fff;border:2px solid #000;font-weight:700;font-size:13px;padding:3px 8px;border-radius:3px;line-height:1.2}
+.btn-affichage[aria-expanded="true"]{background:var(--jaune)}
+.menu-affichage{position:absolute;right:0;top:calc(100% + 6px);z-index:900;background:#fff;border:2px solid #000;border-radius:4px;padding:10px;min-width:230px;box-shadow:0 8px 24px rgba(0,0,0,.15)}
+[dir="rtl"] .menu-affichage{right:auto;left:0}
+.menu-affichage .ey{margin-bottom:6px}
+.menu-affichage button{display:block;width:100%;text-align:start;background:none;border:1px solid transparent;border-radius:3px;padding:7px 8px;font-size:13px;color:#111}
+.menu-affichage button:hover{background:#f5f0e8}
+.menu-affichage button[aria-pressed="true"]{background:#fff6cc;border-color:#C9A84C;font-weight:600}
+.menu-affichage button[aria-pressed="true"]::after{content:" ✓"}
+html.grand-texte main,html.grand-texte footer,html.grand-texte .acc-boite{zoom:1.2}
+html.contraste{filter:contrast(1.35)}
+html.contraste .sub,html.contraste .img-credit,html.contraste .mini-info span,html.contraste .wb-aide,html.contraste .am-meta,html.contraste p{color:#000}
+html.sans-animation *,html.sans-animation *::before,html.sans-animation *::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+/* ---- Page Musées */
+/* ---- Bien-être */
+.wb-card[aria-pressed="true"]{border-color:var(--bleu);box-shadow:0 0 0 2px var(--bleu)}
+.wb-aide{font-size:13px;color:#555;margin:-4px 0 12px}
+.wb-choix{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:12px;margin-bottom:16px}
+.wb-oeuvre{border:1px solid #e0d5c0;border-radius:6px;overflow:hidden;cursor:pointer;background:#fff;transition:.2s}
+.wb-oeuvre img{width:100%;height:110px;object-fit:cover;display:block;background:#f5f0e8}
+.wb-oeuvre span{display:block;font-size:12px;font-weight:600;padding:6px 8px 0;color:#111}
+.wb-oeuvre small{display:block;font-size:11px;color:#666;padding:0 8px 8px}
+.wb-oeuvre:hover{border-color:#C9A84C}
+.wb-oeuvre[aria-pressed="true"]{border-color:var(--bleu);box-shadow:0 0 0 3px var(--bleu)}
+.wb-actions{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-bottom:28px}
+.wb-actions .gen-btn{margin-top:0}
+#wb-durees{margin-bottom:22px}
+#wb-intentions{grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+#sv-img{height:min(420px,60vh);object-fit:contain;background:#f5f0e8}
+.sv-cap{font-size:13px;color:#333;margin-top:8px}
+.sv-outils{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:8px 0 16px}
+.sv-outils .acc-btn{margin-top:0}
+.sv-voix{font-size:13px;color:#333;display:inline-flex;gap:6px;align-items:center}
+.sv-etape{font-size:11px;color:#7a5c0a;font-weight:600;letter-spacing:.06em;margin-inline-end:6px}
+.sv-souffle{display:flex;align-items:center;justify-content:center;gap:14px;margin:0 0 16px;font-size:15px;color:#137a5a;font-weight:500}
+.sv-souffle[hidden]{display:none}
+.sv-rond{width:46px;height:46px;border-radius:50%;background:#cdeee2;border:2px solid #137a5a;transform:scale(1.25);transition:transform 4s ease-in-out}
+.sv-souffle.expire .sv-rond{transform:scale(.7);transition-duration:6s}
+</style>
 </head>
 <body>
 <a class="lien-evitement" href="#contenu">Aller au contenu</a>
@@ -538,6 +606,10 @@ main:focus,.panel:focus,h2:focus{outline:none}
         </div>
       </div>
     </div>
+    <hr>
+    <p class="ey">Toutes les œuvres du site</p>
+    <p class="sub">Chaque œuvre du site, dans les expositions comme dans le générateur et les séances de bien-être, a son bouton « Accessibilité » : description audio, musique des couleurs, partition visuelle et vibrations. En voici quelques-unes.</p>
+    <div class="mini-grid" id="acc-autres"></div>
   </div>
 </div>
 
@@ -547,12 +619,18 @@ main:focus,.panel:focus,h2:focus{outline:none}
     <h2>Bien-être par l'art</h2>
     <p class="sub">Séances de contemplation guidées pour explorer vos émotions à travers les œuvres du domaine public.</p>
     <div id="wb-list">
-      <p class="ey">Choisissez une séance</p>
-      <div class="wb-grid">
-        <div class="wb-card" role="button" tabindex="0" onclick="startWb(0)"><div class="wb-em" aria-hidden="true">🌊</div><div class="wb-t">Apaiser le stress</div><div class="wb-d">10 min · Monet</div></div>
-        <div class="wb-card" role="button" tabindex="0" onclick="startWb(1)"><div class="wb-em" aria-hidden="true">🕯️</div><div class="wb-t">Traverser la tristesse</div><div class="wb-d">15 min · Van Gogh</div></div>
-        <div class="wb-card" role="button" tabindex="0" onclick="startWb(2)"><div class="wb-em" aria-hidden="true">🔷</div><div class="wb-t">Améliorer la concentration</div><div class="wb-d">8 min · Gauguin</div></div>
-        <div class="wb-card" role="button" tabindex="0" onclick="startWb(3)"><div class="wb-em" aria-hidden="true">✨</div><div class="wb-t">Stimuler la créativité</div><div class="wb-d">20 min · Hokusai</div></div>
+      <p class="ey">1. Votre intention</p>
+      <div class="wb-grid" id="wb-intentions"></div>
+      <p class="ey">2. Durée de la séance</p>
+      <div class="tags" id="wb-durees" role="group" aria-label="Durée de la séance">
+        <span class="tag" role="button" tabindex="0" aria-pressed="false" data-d="120" onclick="choisirDuree(this)">2 min</span><span class="tag on" role="button" tabindex="0" aria-pressed="true" data-d="180" onclick="choisirDuree(this)">3 min</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-d="300" onclick="choisirDuree(this)">5 min</span>
+      </div>
+      <p class="ey">3. Choisissez une œuvre</p>
+      <p class="wb-aide" id="wb-aide">Choisissez d'abord une intention : des œuvres vous seront proposées d'après leurs couleurs.</p>
+      <div class="wb-choix" id="wb-choix" aria-live="polite"></div>
+      <div class="wb-actions">
+        <button type="button" class="back-btn" id="wb-autres" onclick="proposerOeuvres()" hidden><span aria-hidden="true">↻</span> Autres propositions</button>
+        <button type="button" class="gen-btn" id="wb-go" onclick="startWb()" disabled>Commencer la séance <span aria-hidden="true">→</span></button>
       </div>
     </div>
     <div id="wb-sess" style="display:none">
@@ -562,8 +640,13 @@ main:focus,.panel:focus,h2:focus{outline:none}
           <button class="back-btn" onclick="stopWb()"><span aria-hidden="true">←</span> Retour</button>
         </div>
         <img id="sv-img" class="sv-art" src="images/oeuvres/grande-vague-hokusai.jpg" alt="" style="margin-bottom:0">
-        <small class="img-credit" id="sv-credit" style="margin-bottom:16px">Image : <a href="https://www.metmuseum.org/art/collection/search/45434" target="_blank" rel="noopener">The Metropolitan Museum of Art</a>, domaine public</small>
-        <div class="sv-guide" id="sv-g"></div>
+        <p class="sv-cap" id="sv-cap"></p>
+        <small class="img-credit" id="sv-credit"></small>
+        <div class="sv-outils"><span id="sv-acc"></span>
+          <button type="button" class="back-btn" onclick="changerOeuvreWb()"><span aria-hidden="true">↻</span> Changer d'œuvre</button>
+          <label class="sv-voix"><input type="checkbox" id="sv-voix" onchange="voixWb(this.checked)"> Guidage vocal</label></div>
+        <div class="sv-guide" id="sv-g" aria-live="polite"></div>
+        <div class="sv-souffle" id="sv-souffle" hidden aria-hidden="true"><span class="sv-rond"></span><span id="sv-souffle-txt">Inspirez</span></div>
         <p class="ey" style="margin-bottom:10px">Votre humeur avant la séance</p>
         <div class="mood-row" id="mb-row">
           <button class="mbd" aria-pressed="false" aria-label="Très mal" onclick="moodFn('b',1,this)"><span aria-hidden="true">😔</span></button>
@@ -573,7 +656,7 @@ main:focus,.panel:focus,h2:focus{outline:none}
           <button class="mbd" aria-pressed="false" aria-label="Très bien" onclick="moodFn('b',5,this)"><span aria-hidden="true">😊</span></button>
         </div>
         <div class="timer-c">
-          <div><div class="timer-ring" id="t-ring">10:00</div></div>
+          <div><div class="timer-ring" id="t-ring">3:00</div></div>
           <div class="timer-st" id="t-st">Prêt à démarrer</div>
         </div>
         <div style="display:flex;justify-content:center;margin-bottom:18px">
@@ -612,16 +695,11 @@ main:focus,.panel:focus,h2:focus{outline:none}
     <p class="ey">Sources des œuvres</p>
     <h2>Musées et institutions du monde</h2>
     <p class="sub">Le générateur d'exposition puise ses œuvres, en direct, dans les collections de ces institutions. Elles sont présentées par région, selon le lieu où elles se trouvent ; certaines conservent des œuvres venues d'autres régions.</p>
+    <p class="mus-aide">Cliquez sur le nom d'une institution pour ouvrir son site officiel ; l'icône <span class="wd-ico wd-ico-texte" aria-hidden="true"></span> ouvre sa fiche dans Wikidata.</p>
     <div class="mus-tous">
       <h3>Dans toutes les régions</h3>
-      <ul>
-        <li>The Metropolitan Museum of Art, New York</li>
-        <li>Art Institute of Chicago</li>
-        <li>Cleveland Museum of Art</li>
-        <li>Minneapolis Institute of Art</li>
-        <li>Patrimoine mondial de l'UNESCO (monuments)</li>
-      </ul>
-      <p>Ces grands musées conservent des œuvres de toutes les régions du monde, interrogées directement dans leurs catalogues ouverts. Les monuments du patrimoine mondial de l'UNESCO, ainsi que les œuvres des institutions ci-dessous, sont décrits dans Wikidata, avec des photos de Wikimedia Commons.</p>
+      <ul id="mus-tous-liste"></ul>
+      <p>Ces grands musées et ces bases conservent des œuvres de toutes les régions du monde, interrogées directement dans leurs catalogues ouverts. Les monuments du patrimoine mondial de l'UNESCO, ainsi que les œuvres des institutions ci-dessous, sont décrits dans Wikidata, avec des photos de Wikimedia Commons.</p>
     </div>
     <div id="mus-regions"></div>
     <p class="expo-sources">Liste mise à jour automatiquement à partir de la liste utilisée par le générateur.</p>
@@ -685,7 +763,8 @@ main:focus,.panel:focus,h2:focus{outline:none}
       <li>Les tempos, tonalités et la musique des couleurs sont calculés à partir des couleurs réelles des images, selon une règle de correspondance inventée pour ce site ; les rythmes de vibration et les textes « Si cette œuvre était une musique » sont des interprétations créatives. Aucun ne décrit une musique réelle liée aux œuvres.</li>
       <li>Informations sur les œuvres (titres, artistes, dates, lieux de conservation) — source : les musées et la base Wikimedia Commons cités ci-dessus.</li>
       <li>Traductions anglaise, espagnole et arabe : Claude AI (Anthropic), non relues par des traducteurs.</li>
-      <li>Œuvres du générateur trouvées en direct : fiches et images issues des catalogues ouverts des musées (Met, Art Institute of Chicago, Cleveland Museum of Art, SMK, Minneapolis Institute of Art), dans leur langue d'origine ; chaque image est créditée avec un lien vers sa fiche.</li>
+      <li>Œuvres du générateur et des séances de bien-être trouvées en direct : fiches et images issues des catalogues ouverts des musées (Met, Art Institute of Chicago, Cleveland Museum of Art, SMK, Minneapolis Institute of Art, Smithsonian Institution) et d'Europeana, dans leur langue d'origine ; chaque image est créditée avec un lien vers sa fiche.</li>
+      <li>Descriptions audio composées automatiquement (œuvres sans description écrite) : assemblées par le site à partir des informations du musée et des couleurs de l'image ; elles restent sommaires et doivent être complétées par des descriptions écrites.</li>
       <li>Œuvres et monuments de 114 institutions du monde entier et du patrimoine mondial de l'UNESCO : fiches de Wikidata et images de Wikimedia Commons, sous licence libre ; chaque image est créditée (auteur, licence et lien vers le fichier).</li>
     </ul>
     <p class="lien-legal"><a href="#mentions-legales" onclick="go('legal');return false;">Mentions légales</a></p>
@@ -722,12 +801,6 @@ const ART = [
     vibe:"Pulsations profondes et régulières, environ 72 par minute, par séries de 8 suivies d'une pause d'une seconde — le rythme d'une respiration profonde.",
     heights:[50,45,55,48,58,42,52,46,54,44] },
 ];
-const WBS=[
-  {t:"Apaiser le stress",si:1,dur:600,g:"Regardez cette œuvre 30 secondes. Laissez votre regard se poser naturellement, sans chercher à analyser. Où se pose-t-il en premier ? Quelle couleur vous attire ?"},
-  {t:"Traverser la tristesse",si:2,dur:900,g:"Cette œuvre parle d'intensité émotionnelle. Respirez lentement. Laissez vos sentiments être là, sans les fuir. L'art peut être un miroir fidèle de nos émotions les plus profondes."},
-  {t:"Améliorer la concentration",si:3,dur:480,g:"Fixez le centre de cette composition. Notez les formes, les tons, l'équilibre. Laissez votre esprit ralentir. Chaque détail est intentionnel — comme vos propres priorités."},
-  {t:"Stimuler la créativité",si:0,dur:1200,g:"Regardez les formes mouvantes, l'énergie de la composition. Qu'est-ce que cela évoque ? Il n'y a pas de bonne réponse. Laissez votre imagination créer librement."},
-];
 const FLAGS={"France":"🇫🇷","Pays-Bas":"🇳🇱","Italie":"🇮🇹","Allemagne":"🇩🇪","Espagne":"🇪🇸","Angleterre":"🇬🇧","Japon":"🇯🇵","Chine":"🇨🇳","Corée":"🇰🇷","États-Unis":"🇺🇸","Mexique":"🇲🇽","Brésil":"🇧🇷","Égypte":"🇪🇬","Inde":"🇮🇳"};
 function gFlag(c){for(const[k,v]of Object.entries(FLAGS))if(c&&c.toLowerCase().includes(k.toLowerCase()))return v;return"🎨";}
 
@@ -741,23 +814,63 @@ function go(id,btn){
   if(btn)btn.classList.add('on');
   if(id==='home')renderHome();
   if(id==='mus')afficherMusees();
+  if(id==='acc'&&typeof afficherAutresOeuvresAcces==='function')afficherAutresOeuvresAcces();
+  if(id==='wb'&&typeof initBienEtre==='function')initBienEtre();
+  if(id!=='wb'&&typeof stopWb==='function'&&document.getElementById('wb-sess').style.display==='block')stopWb();
   window.scrollTo(0,0);
   // Lecteurs d'écran et clavier : on place le focus sur le titre de la page affichée
   const titre=document.querySelector('#pg-'+id+' h2');
   if(titre&&id!=='home'){titre.tabIndex=-1;titre.focus({preventScroll:true});}
 }
-// Page « Musées » : construite à partir de la liste MUSEES_MONDE de musees.js, pour rester à jour automatiquement
+// Page « Musées » : construite à partir de la liste MUSEES_MONDE de musees.js, pour rester à jour automatiquement.
+// Le nom ouvre le site officiel de l'institution (propriété P856 de Wikidata, lue en direct) ; l'icône ouvre sa fiche Wikidata.
+const MUSEES_TOUS=[ // institutions interrogées dans toutes les régions : [identifiant Wikidata, site officiel, nom]
+  ['Q160236','https://www.metmuseum.org/','The Metropolitan Museum of Art, New York'],
+  ['Q239303','https://www.artic.edu/','Art Institute of Chicago'],
+  ['Q657415','https://www.clevelandart.org/','Cleveland Museum of Art'],
+  ['Q1700481','https://new.artsmia.org/','Minneapolis Institute of Art'],
+  ['Q131626','https://www.si.edu/','Smithsonian Institution, Washington'],
+  ['','https://www.europeana.eu/','Europeana (milliers d\'institutions européennes)'],
+  ['Q9259','https://whc.unesco.org/fr/list/','Patrimoine mondial de l\'UNESCO (monuments)']
+];
+const SITES_MUSEES={}; // identifiant Wikidata → site officiel
+function lienMusee(q,nom,site){
+  const url=site||SITES_MUSEES[q];
+  const nomHtml=url?`<a class="mus-site" href="${esc(url)}" target="_blank" rel="noopener" data-q="${esc(q)}">${esc(nom)}</a>`:`<span class="mus-site" data-q="${esc(q)}">${esc(nom)}</span>`;
+  const wd=q?` <a class="wd-lien" href="https://www.wikidata.org/wiki/${esc(q)}" target="_blank" rel="noopener" title="Fiche Wikidata" aria-label="Fiche Wikidata"><span class="wd-ico" aria-hidden="true"></span></a>`
+    :` <a class="wd-lien" href="https://www.wikidata.org/w/index.php?search=${encodeURIComponent(nom.split(' (')[0])}" target="_blank" rel="noopener" title="Fiche Wikidata" aria-label="Fiche Wikidata"><span class="wd-ico" aria-hidden="true"></span></a>`;
+  return `<li>${nomHtml}${wd}</li>`;
+}
+// Sites officiels : une seule requête à Wikidata pour toutes les institutions, gardée 7 jours dans le navigateur
+function chargerSitesMusees(){
+  const qids=[].concat(...Object.values(MUSEES_MONDE).map(l=>l.map(m=>m[0]))).filter(q=>/^Q\d+$/.test(q));
+  try{const c=JSON.parse(localStorage.getItem('jrb-sites-musees')||'null');if(c&&Date.now()-c.date<7*864e5){Object.assign(SITES_MUSEES,c.sites);return Promise.resolve();}}catch(e){}
+  const req='SELECT ?m (SAMPLE(?s) AS ?site) WHERE { VALUES ?m { '+qids.map(q=>'wd:'+q).join(' ')+' } ?m wdt:P856 ?s . } GROUP BY ?m';
+  return fetch('https://query.wikidata.org/sparql?format=json&query='+encodeURIComponent(req),{headers:{Accept:'application/sparql-results+json'}})
+    .then(r=>{if(!r.ok)throw new Error('HTTP '+r.status);return r.json();})
+    .then(d=>{d.results.bindings.forEach(b=>{SITES_MUSEES[b.m.value.split('/').pop()]=b.site.value;});
+      try{localStorage.setItem('jrb-sites-musees',JSON.stringify({date:Date.now(),sites:SITES_MUSEES}));}catch(e){}});
+}
+// Remplace les noms encore sans lien par un lien vers le site officiel, une fois les sites connus
+function lierSitesMusees(){
+  document.querySelectorAll('#mus-regions span.mus-site').forEach(el=>{
+    const url=SITES_MUSEES[el.dataset.q];if(!url)return;
+    const a=document.createElement('a');a.className='mus-site';a.href=url;a.target='_blank';a.rel='noopener';a.dataset.q=el.dataset.q;a.textContent=el.textContent;el.replaceWith(a);
+  });
+}
 function afficherMusees(){
   const zone=document.getElementById('mus-regions');
   if(zone.children.length||typeof MUSEES_MONDE==='undefined')return;
+  document.getElementById('mus-tous-liste').innerHTML=MUSEES_TOUS.map(m=>lienMusee(m[0],m[2],m[1])).join('');
   const ordre=["Asie de l'Est",'Asie du Sud et du Sud-Est','Moyen-Orient','Afrique','Amériques','Océanie','Europe'];
   zone.innerHTML=ordre.filter(r=>MUSEES_MONDE[r]).map(r=>{
     const liste=MUSEES_MONDE[r];
     return `<section class="mus-region"><h3>${esc(r)}</h3><p>${liste.length} <span>institutions</span></p>
       ${r==='Europe'?'<p>Avec quatre musées américains dont les collections sont surtout européennes : Getty, Yale (deux musées) et Walters.</p>':''}
-      <ul lang="fr">${liste.map(m=>`<li><a href="https://www.wikidata.org/wiki/${esc(m[0])}" target="_blank" rel="noopener">${esc(m[3]||m[0])}</a></li>`).join('')}</ul>
-      ${r==='Europe'?'<p>En Europe, le générateur interroge aussi directement le catalogue du SMK – Statens Museum for Kunst (Copenhague).</p>':''}</section>`;
+      <ul lang="fr">${liste.map(m=>lienMusee(m[0],m[3]||m[0])).join('')}</ul>
+      ${r==='Europe'?`<p>En Europe, le générateur interroge aussi directement le catalogue du <a class="mus-site" href="https://www.smk.dk/" target="_blank" rel="noopener">SMK – Statens Museum for Kunst (Copenhague)</a> <a class="wd-lien" href="https://www.wikidata.org/wiki/Q671384" target="_blank" rel="noopener" title="Fiche Wikidata" aria-label="Fiche Wikidata"><span class="wd-ico" aria-hidden="true"></span></a>.</p>`:''}</section>`;
   }).join('');
+  chargerSitesMusees().then(lierSitesMusees).catch(()=>{});
 }
 function setLang(l,btn){
   stopSpeak();
@@ -835,7 +948,7 @@ function genExpo(){
 // Carte d'une œuvre ; les fiches venues des catalogues gardent la langue du musée (souvent l'anglais)
 function carteOeuvre(w){
   const titre=w.direct&&w.langue!=='fr'?`<b lang="${esc(w.langue)}">${esc(w.title)}</b>`:`<b>${esc(w.title)}</b>`;
-  return `<div class="mini${w.direct?' direct':''}">${imageOeuvre(w.image,w.title+(w.artist?', '+w.artist:''),'',w.sensible)}<div class="mini-info">${titre}<span>${[w.artist,w.date,w.place].filter(Boolean).map(esc).join(' · ')}</span>${w.museum?`<span>${esc(w.museum)}</span>`:''}${w.direct?`<span class="pastille-direct">${esc(w.pastille||'Catalogue du musée, en direct')}</span>`:''}${w.credit?`<small class="img-credit">Image : ${lienCredit(w.credit)}</small>`:''}</div></div>`;
+  return `<div class="mini${w.direct?' direct':''}">${imageOeuvre(w.image,w.title+(w.artist?', '+w.artist:''),'',w.sensible)}<div class="mini-info">${titre}<span>${[w.artist,w.date,w.place].filter(Boolean).map(esc).join(' · ')}</span>${w.museum?`<span>${esc(w.museum)}</span>`:''}${w.direct?`<span class="pastille-direct">${esc(w.pastille||'Catalogue du musée, en direct')}</span>`:''}${w.credit?`<small class="img-credit">Image : ${lienCredit(w.credit)}</small>`:''}${typeof boutonAcces==='function'?boutonAcces({titre:w.title,artiste:w.artist,date:w.date,lieu:w.place,musee:w.museum,image:w.image,credit:w.credit?lienCredit(w.credit):''}):''}</div></div>`;
 }
 // Une œuvre dont l'image ne se charge pas est retirée de l'exposition, et l'époque aussi si elle se vide
 function retirerOeuvre(img){
@@ -995,14 +1108,12 @@ function afficherValeurs(i){
 // Musique : progression d'accords dans la tonalité calculée, arpèges au tempo calculé, timbre selon l'énergie
 let audio=null,musique=null;
 function stopMusique(){
-  if(musique){clearTimeout(musique.fin);musique.sortie.gain.cancelScheduledValues(audio.currentTime);musique.sortie.gain.setTargetAtTime(0,audio.currentTime,0.05);musique=null;}
+  if(musique){clearTimeout(musique.fin);couperMusique(musique);musique=null;}
   const b=document.getElementById('music-btn');if(b)b.innerHTML='<span aria-hidden="true">▶</span> Écouter la musique des couleurs';
 }
-function doMusique(){
-  if(musique){stopMusique();document.getElementById('music-etat').textContent='';return;}
-  stopSpeak();
-  const img=document.getElementById('big-img');let v=null;try{v=analyserCouleurs(img);}catch(e){}
-  if(!v){document.getElementById('music-etat').textContent='L\'analyse des couleurs n\'a pas pu être faite sur cet appareil.';return;}
+// Programme la musique des couleurs (valeurs v calculées par analyserCouleurs) ; renvoie de quoi l'arrêter.
+// Utilisée par la page Accessibilité et par la fenêtre « Accessibilité » ouverte depuis n'importe quelle œuvre du site.
+function programmerMusique(v){
   if(!audio){audio=new (window.AudioContext||window.webkitAudioContext)();audio.analyseur=audio.createAnalyser();audio.analyseur.connect(audio.destination);}
   audio.resume();
   const sortie=audio.createGain();sortie.gain.value=0.22;
@@ -1012,7 +1123,7 @@ function doMusique(){
   const gamme=v.mode==='majeur'?[0,2,4,5,7,9,11]:[0,2,3,5,7,8,10];
   const base=48+DEMITONS[v.note]; // note de départ autour du do grave
   const freq=m=>440*Math.pow(2,(m-69)/12);
-  const degres=v.mode==='majeur'?[0,5,3,4]:[0,5,3,4]; // I–vi–IV–V (ou i–VI–iv–v)
+  const degres=[0,5,3,4]; // I–vi–IV–V (ou i–VI–iv–v)
   const croche=60/v.tempo/2,debut=audio.currentTime+0.1,duree=20;
   const jouer=(m,t,d,vol,type)=>{const o=audio.createOscillator(),g=audio.createGain();o.type=type;o.frequency.value=freq(m);
     g.gain.setValueAtTime(0,t);g.gain.linearRampToValueAtTime(vol,t+0.02);g.gain.exponentialRampToValueAtTime(0.001,t+d);o.connect(g);g.connect(sortie);o.start(t);o.stop(t+d+0.05);};
@@ -1026,38 +1137,21 @@ function doMusique(){
     }
     t+=croche*8;mesure++;
   }
-  musique={sortie,fin:setTimeout(()=>{stopMusique();document.getElementById('music-etat').textContent='Musique terminée.';},(t-audio.currentTime)*1000+300)};
+  return {sortie,duree:(t-audio.currentTime)*1000+300};
+}
+function couperMusique(m){if(m&&audio){m.sortie.gain.cancelScheduledValues(audio.currentTime);m.sortie.gain.setTargetAtTime(0,audio.currentTime,0.05);}}
+function doMusique(){
+  if(musique){stopMusique();document.getElementById('music-etat').textContent='';return;}
+  stopSpeak();
+  const img=document.getElementById('big-img');let v=null;try{v=analyserCouleurs(img);}catch(e){}
+  if(!v){document.getElementById('music-etat').textContent='L\'analyse des couleurs n\'a pas pu être faite sur cet appareil.';return;}
+  const m=programmerMusique(v);
+  musique={sortie:m.sortie,fin:setTimeout(()=>{stopMusique();document.getElementById('music-etat').textContent='Musique terminée.';},m.duree)};
   document.getElementById('music-btn').innerHTML='<span aria-hidden="true">⏹</span> Arrêter la musique';
   document.getElementById('music-etat').innerHTML=`<span>Lecture en cours</span> · ${v.tempo} BPM · <span>${NOTES[v.note]}</span> <span>${v.mode}</span>`;
 }
 
-// WELLBEING
-let tInt=null,tSec=600,tRun=false,tDone=false,mB=0,mA=0;
-function fmtT(s){return Math.floor(s/60)+':'+(s%60<10?'0':'')+s%60;}
-function startWb(i){
-  const s=WBS[i];tSec=s.dur;tRun=false;tDone=false;mB=0;mA=0;
-  document.getElementById('sv-h').textContent=s.t;
-  document.getElementById('sv-g').textContent=s.g;
-  const sv=document.getElementById('sv-img');sv.src=ART[s.si].img;sv.alt=ART[s.si].name;document.getElementById('sv-credit').innerHTML=ART[s.si].credit;
-  document.getElementById('t-ring').textContent=fmtT(tSec);
-  document.getElementById('t-st').textContent='Prêt à démarrer';
-  document.getElementById('t-btn').innerHTML='<span aria-hidden="true">▶</span> Démarrer la séance';
-  document.getElementById('t-btn').style.display='block';
-  document.getElementById('after-sec').style.display='none';
-  document.getElementById('cmp-box').style.display='none';
-  document.getElementById('jrnl').value='';
-  document.querySelectorAll('#mb-row .mbd,#ma-row .mbd').forEach(b=>b.classList.remove('on'));
-  document.getElementById('wb-list').style.display='none';
-  document.getElementById('wb-sess').style.display='block';
-}
-function stopWb(){clearInterval(tInt);tInt=null;tRun=false;document.getElementById('wb-list').style.display='block';document.getElementById('wb-sess').style.display='none';}
-function tickTimer(){
-  if(tDone)return;
-  if(tRun){clearInterval(tInt);tInt=null;tRun=false;document.getElementById('t-btn').innerHTML='<span aria-hidden="true">▶</span> Reprendre';document.getElementById('t-st').textContent='En pause';}
-  else{tRun=true;document.getElementById('t-btn').innerHTML='<span aria-hidden="true">⏸</span> Pause';document.getElementById('t-st').textContent='Séance en cours…';
-    tInt=setInterval(()=>{if(tSec>0){tSec--;document.getElementById('t-ring').textContent=fmtT(tSec);}
-    else{clearInterval(tInt);tInt=null;tRun=false;tDone=true;document.getElementById('t-st').innerHTML='<span aria-hidden="true">✓</span> Séance terminée';document.getElementById('t-btn').style.display='none';document.getElementById('after-sec').style.display='block';}},1000);}
-}
+// BIEN-ÊTRE : voir bienetre.js
 function moodFn(ph,v,btn){
   const rid=ph==='b'?'mb-row':'ma-row';
   document.querySelectorAll('#'+rid+' .mbd').forEach(b=>{b.classList.remove('on');b.setAttribute('aria-pressed','false');});btn.classList.add('on');btn.setAttribute('aria-pressed','true');
@@ -1071,7 +1165,7 @@ let exposChargees=false;
 function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
 function escBr(s){return esc(s).replace(/\n/g,'<br>');}
 function lienCredit(s){return esc(s).replace(/\((https?:\/\/[^\s)]+)\)/g,'(<a href="$1" target="_blank" rel="noopener">source</a>)');}
-function viewSp(id){const e=expos.find(x=>x.id===id);if(!e)return;document.getElementById('sp-bdg').innerHTML=`<span class="badge bg">Exposition spéciale</span>${e.theme?` <span class="badge bt">${esc(e.theme)}</span>`:''}`;document.getElementById('sp-h').textContent=e.title||'';document.getElementById('sp-sub').textContent=e.subtitle||'';document.getElementById('sp-intro').textContent=e.intro||'';document.getElementById('sp-cnt').textContent='Comparaison mondiale · '+e.works.length+' œuvre(s)';document.getElementById('sp-wks').innerHTML=e.works.map(w=>`<div class="wk-card"><div class="wk-top"><div><h3>${esc(w.title)}</h3><p>${[w.artist,w.period,w.country,w.museum].filter(Boolean).map(esc).join(' · ')}</p></div><div class="wk-flag" aria-hidden="true">${gFlag(w.country)}</div></div>${w.image?`${imageOeuvre(w.image,(w.title||'')+(w.artist?', '+w.artist:''),'wk-img',w.sensible)}<small class="img-credit">${w.credit?'Image : '+lienCredit(w.credit):''}</small>`:''}${w.analysis?`<p class="wk-ana">${escBr(w.analysis)}</p>`:''} ${w.compare?`<div class="cmp-pt"><div class="cmp-l">Point de comparaison</div>${escBr(w.compare)}</div>`:''}</div>`).join('');document.querySelectorAll('.pg').forEach(p=>p.classList.remove('on'));document.getElementById('pg-sp').classList.add('on');document.querySelectorAll('.nav-links button').forEach(b=>b.classList.remove('on'));window.scrollTo(0,0);}
+function viewSp(id){const e=expos.find(x=>x.id===id);if(!e)return;document.getElementById('sp-bdg').innerHTML=`<span class="badge bg">Exposition spéciale</span>${e.theme?` <span class="badge bt">${esc(e.theme)}</span>`:''}`;document.getElementById('sp-h').textContent=e.title||'';document.getElementById('sp-sub').textContent=e.subtitle||'';document.getElementById('sp-intro').textContent=e.intro||'';document.getElementById('sp-cnt').textContent='Comparaison mondiale · '+e.works.length+' œuvre(s)';document.getElementById('sp-wks').innerHTML=e.works.map(w=>`<div class="wk-card"><div class="wk-top"><div><h3>${esc(w.title)}</h3><p>${[w.artist,w.period,w.country,w.museum].filter(Boolean).map(esc).join(' · ')}</p></div><div class="wk-flag" aria-hidden="true">${gFlag(w.country)}</div></div>${w.image?`${imageOeuvre(w.image,(w.title||'')+(w.artist?', '+w.artist:''),'wk-img',w.sensible)}<small class="img-credit">${w.credit?'Image : '+lienCredit(w.credit):''}</small>`:''}${w.image&&typeof boutonAcces==='function'?boutonAcces({titre:w.title,artiste:w.artist,date:w.period,lieu:w.country,musee:w.museum,image:w.image,credit:w.credit?lienCredit(w.credit):'',analyse:w.analysis}):''}${w.analysis?`<p class="wk-ana">${escBr(w.analysis)}</p>`:''} ${w.compare?`<div class="cmp-pt"><div class="cmp-l">Point de comparaison</div>${escBr(w.compare)}</div>`:''}</div>`).join('');document.querySelectorAll('.pg').forEach(p=>p.classList.remove('on'));document.getElementById('pg-sp').classList.add('on');document.querySelectorAll('.nav-links button').forEach(b=>b.classList.remove('on'));window.scrollTo(0,0);}
 function renderHome(){const el=document.getElementById('sp-home');if(!el||!exposChargees)return;const pub=expos.filter(e=>e.status==='published');if(!pub.length){el.innerHTML='<p style="color:#666;font-size:13px">Aucune exposition publiée pour le moment.</p>';return;}el.innerHTML=pub.map(e=>`<div class="sp-card" role="button" tabindex="0" onclick="viewSp(${e.id})"><p class="sp-ey">Comparaison mondiale · ${e.works.length} œuvre(s)</p><h3 class="sp-t">${esc(e.title)}</h3><p class="sp-s">${esc(e.subtitle)}</p>${e.theme?`<div style="margin-top:10px"><span class="badge bg">${esc(e.theme)}</span></div>`:''}</div>`).join('');}
 function chargerExpos(){
   fetch('expositions.json',{cache:'no-cache'})
@@ -1133,5 +1227,9 @@ afficherValeurs(0);
 // Applique la langue mémorisée (si le visiteur avait choisi EN, ES ou ع lors d'une visite précédente)
 traduirePage();
 </script>
+<!-- Fenêtre Accessibilité de chaque œuvre et menu Affichage et lecture -->
+<script src="accessibilite.js"></script>
+<!-- Séances de bien-être composées à la demande -->
+<script src="bienetre.js"></script>
 </body>
 </html>

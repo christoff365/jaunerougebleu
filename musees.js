@@ -4,8 +4,9 @@
 //
 // Sources actives sans clé : 114 institutions du monde entier et le patrimoine mondial de l'UNESCO (via Wikidata et
 // Wikimedia Commons, liste MUSEES_MONDE ci-dessous), Met (New York), Art Institute of Chicago, Cleveland Museum of Art,
-// SMK (Copenhague), Minneapolis Institute of Art. Sources activables avec une clé gratuite (à demander par l'association,
-// voir README) : Europeana (milliers d'institutions européennes) et Smithsonian (Washington).
+// SMK (Copenhague), Minneapolis Institute of Art. Sources prêtes mais désactivées : Europeana (milliers d'institutions
+// européennes) et Smithsonian (Washington). Leurs clés ne doivent pas être écrites ici : tout ce qui est dans ce fichier
+// est visible par tous les visiteurs du site. Elles restent vides tant qu'un serveur intermédiaire ne les garde pas.
 const CLES_API = { europeana: '', smithsonian: '' };
 
 const DATES_EPOQUES = {

@@ -97,7 +97,7 @@ function creerFenetreAcces() {
     <div class="acc-entete"><div><p class="ey">Accessibilité</p><h2 id="am-titre" tabindex="-1"></h2><p class="am-meta" id="am-meta"></p></div>
       <button type="button" class="back-btn" onclick="fermerAcces()"><span aria-hidden="true">✕</span> Fermer</button></div>
     <div class="acc-corps">
-      <div class="acc-image"><img id="am-img" alt=""><small class="img-credit" id="am-credit"></small></div>
+      <div class="acc-image"><img id="am-img" class="zoom" tabindex="0" role="button" aria-haspopup="dialog" alt=""><small class="img-credit" id="am-credit"></small></div>
       <div class="acc-outils">
         <div class="info-box blue-box"><div class="box-lbl blue-lbl"><span aria-hidden="true">🔊</span> Description audio de l'œuvre</div>
           <p class="calc-note" id="am-desc-note"></p>

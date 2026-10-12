@@ -211,6 +211,14 @@ a.mus-site:hover{color:var(--bleu)}
 .mus-aide{font-size:13px;color:#5c5c5c;margin-top:-6px}
 .expo-sources{font-size:12px;color:#5c5c5c;line-height:1.6;margin-top:10px;padding-top:12px;border-top:1px solid #e0d5c0}
 .expo-note{background:#fff8e1;border-left:3px solid var(--jaune);padding:10px 14px;font-size:13px;color:#555;margin-bottom:18px;line-height:1.6}
+/* Visionneuse : image d'une œuvre en grand */
+img.zoom{cursor:zoom-in}
+img.zoom:focus-visible{outline:3px solid #1a3a8a;outline-offset:-3px}
+.visionneuse{border:0;padding:12px;max-width:96vw;max-height:96vh;background:#111;color:#fff;border-radius:8px;text-align:center}
+.visionneuse::backdrop{background:rgba(0,0,0,.8)}
+.visionneuse img{display:block;max-width:calc(96vw - 24px);max-height:calc(96vh - 110px);margin:8px auto;object-fit:contain}
+.visionneuse p{margin:4px 0 0;font-size:14px}
+.vis-fermer{float:right;color:#fff;border-color:#888}
 /* Images sensibles : floutées jusqu'au clic */
 .sensible{position:relative;overflow:hidden}
 .sensible img{filter:blur(22px);transform:scale(1.08)}
@@ -553,7 +561,7 @@ html.sans-animation *,html.sans-animation *::before,html.sans-animation *::after
       </div>
     </div>
     <div class="big-art-wrap">
-      <img id="big-img" src="images/oeuvres/grande-vague-hokusai.jpg" alt="La Grande Vague de Kanagawa, Hokusai" style="width:100%;height:340px;display:block;object-fit:contain;background:#f5f0e8">
+      <img id="big-img" class="zoom" tabindex="0" role="button" aria-haspopup="dialog" src="images/oeuvres/grande-vague-hokusai.jpg" alt="La Grande Vague de Kanagawa, Hokusai" style="width:100%;height:340px;display:block;object-fit:contain;background:#f5f0e8">
       <div class="big-art-cap" id="big-cap">La Grande Vague de Kanagawa — Katsushika Hokusai · Japon · vers 1830-1832 · Metropolitan Museum of Art, New York</div>
       <div class="big-art-credit" id="big-credit">Image : <a href="https://www.metmuseum.org/art/collection/search/45434" target="_blank" rel="noopener">The Metropolitan Museum of Art</a>, domaine public (Open Access)</div>
     </div>
@@ -639,7 +647,7 @@ html.sans-animation *,html.sans-animation *::before,html.sans-animation *::after
           <h2 id="sv-h" style="font-size:26px"></h2>
           <button class="back-btn" onclick="stopWb()"><span aria-hidden="true">←</span> Retour</button>
         </div>
-        <img id="sv-img" class="sv-art" src="images/oeuvres/grande-vague-hokusai.jpg" alt="" style="margin-bottom:0">
+        <img id="sv-img" class="sv-art zoom" tabindex="0" role="button" aria-haspopup="dialog" src="images/oeuvres/grande-vague-hokusai.jpg" alt="" style="margin-bottom:0">
         <p class="sv-cap" id="sv-cap"></p>
         <small class="img-credit" id="sv-credit"></small>
         <div class="sv-outils"><span id="sv-acc"></span>
@@ -899,9 +907,29 @@ function chargerCollection(){
 function annee(y){return y<0?(-y)+' av. J.-C.':String(y);}
 // Image floutée tant que le visiteur n'a pas choisi de la voir (œuvres marquées « sensible »)
 function imageOeuvre(src,alt,classe,sensible){
-  const img=`<img${classe?` class="${classe}"`:''} src="${esc(src)}" alt="${esc(alt)}" loading="lazy" onerror="retirerOeuvre(this)">`;
+  const img=`<img class="zoom${classe?' '+classe:''}" tabindex="0" role="button" aria-haspopup="dialog" src="${esc(src)}" alt="${esc(alt)}" loading="lazy" onerror="retirerOeuvre(this)">`;
   return sensible?`<div class="sensible">${img}<button type="button" onclick="this.parentElement.classList.add('vu');this.remove()">Scène violente — afficher l'image</button></div>`:img;
 }
+// Visionneuse : un clic (ou Entrée) sur l'image d'une œuvre l'ouvre en grand, pour tous les visiteurs
+// Vignettes de Wikimedia Commons : on demande une version plus grande (si elle n'existe pas, on garde la vignette)
+function grandeImage(src){return String(src).replace(/(\/thumb\/.+\/)\d+px-([^/]+)$/,'$11600px-$2').replace(/([?&]width=)\d+/,'$11600');}
+function ouvrirVisionneuse(img){
+  if(img.closest('.sensible:not(.vu)'))return; // image floutée : il faut d'abord choisir de l'afficher
+  let d=document.getElementById('visionneuse');
+  if(!d){
+    d=document.createElement('dialog');d.id='visionneuse';d.className='visionneuse';d.setAttribute('aria-labelledby','vis-leg');
+    d.innerHTML='<button type="button" class="back-btn vis-fermer" onclick="this.closest(\'dialog\').close()"><span aria-hidden="true">✕</span> Fermer</button><img id="vis-img" alt=""><p id="vis-leg"></p>';
+    d.addEventListener('click',e=>{if(e.target===d)d.close();}); // clic à côté de l'image : on ferme
+    document.body.appendChild(d);
+  }
+  const g=document.getElementById('vis-img'),petite=img.currentSrc||img.src;
+  g.onerror=()=>{g.onerror=null;g.src=petite;};
+  g.src=grandeImage(petite);g.alt=img.alt;
+  document.getElementById('vis-leg').textContent=img.alt;
+  d.showModal();
+}
+document.addEventListener('click',e=>{const img=e.target.closest&&e.target.closest('img.zoom');if(img)ouvrirVisionneuse(img);});
+document.addEventListener('keydown',e=>{if((e.key==='Enter'||e.key===' ')&&e.target.matches&&e.target.matches('img.zoom')){e.preventDefault();ouvrirVisionneuse(e.target);}});
 // L'exposition réunit la collection choisie (collection.json) et des œuvres trouvées en direct dans les catalogues
 // des musées (musees.js), sans intervention humaine.
 function genExpo(){

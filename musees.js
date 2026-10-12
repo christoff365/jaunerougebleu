@@ -93,6 +93,26 @@ function motsCles(criteres) {
   return mots.filter(Boolean);
 }
 
+// Musées d'art du Smithsonian : code, nom affiché dans le crédit, région supposée quand la fiche n'indique aucun lieu
+const MUSEES_SMITHSONIAN = {
+  HMSG: ['Hirshhorn Museum and Sculpture Garden', 'American'],
+  SAAM: ['Smithsonian American Art Museum', 'American'],
+  NPG: ['National Portrait Gallery', 'American'],
+  FSG: ["National Museum of Asian Art", ''],
+  CHNDM: ['Cooper Hewitt, Smithsonian Design Museum', ''],
+  NMAfA: ['National Museum of African Art', 'Africa'],
+  NMAI: ['National Museum of the American Indian', 'Native American']
+};
+
+// Demande une page de résultats à une position tirée au hasard (pour varier les œuvres) ; si la recherche a moins de
+// résultats que cette position, on redemande à une position qui existe, au lieu de revenir les mains vides
+function pageAuHasard(url, max, liste, total) {
+  return lireJSON(url(hasard(max))).then(r => {
+    const l = liste(r) || [], t = total(r) || 0;
+    return l.length || !t ? l : lireJSON(url(hasard(Math.min(t, max)))).then(r2 => liste(r2) || []);
+  });
+}
+
 // ---------- Adaptateurs : chaque musée renvoie des œuvres au même format ----------
 function oeuvre(o) {
   const annee = o.annee;
@@ -539,9 +559,9 @@ const ADAPTATEURS = {
     actif: () => !!RELAIS,
     chercher(c, n) {
       const q = motsCles(c).join(' ') || 'art';
-      const url = RELAIS + '/europeana?query=' + encodeURIComponent(q) +
-        '&reusability=open&qf=TYPE:IMAGE&qf=RIGHTS:*publicdomain*&media=true&thumbnail=true&rows=' + n + '&start=' + (1 + hasard(50)) + '&profile=rich';
-      return lireJSON(url).then(r => (r.items || []).filter(o => o.edmIsShownBy || o.edmPreview).map(o => oeuvre({
+      const url = debut => RELAIS + '/europeana?query=' + encodeURIComponent(q) +
+        '&reusability=open&qf=TYPE:IMAGE&qf=RIGHTS:*publicdomain*&media=true&thumbnail=true&rows=' + n + '&start=' + (1 + debut) + '&profile=rich';
+      return pageAuHasard(url, 50, r => r.items, r => r.totalResults).then(items => items.filter(o => o.edmIsShownBy || o.edmPreview).map(o => oeuvre({
         titre: (o.title || ['Sans titre'])[0], langue: o.language && o.language[0] ? o.language[0] : 'en',
         artiste: (o.dcCreator || [''])[0], date: (o.year || [''])[0], annee: anneeDe((o.year || [''])[0]),
         lieu: (o.country || [''])[0], musee: ((o.dataProvider || ['Europeana'])[0]) + ' (via Europeana)',
@@ -553,17 +573,20 @@ const ADAPTATEURS = {
     nom: 'Smithsonian Institution, Washington',
     actif: () => !!RELAIS,
     chercher(c, n) {
-      const q = (motsCles(c).join(' ') || 'art') + ' AND online_media_type:"Images"';
-      const url = RELAIS + '/smithsonian?q=' + encodeURIComponent(q) + '&rows=' + (n * 2) + '&start=' + hasard(40);
-      return lireJSON(url).then(r => ((r.response && r.response.rows) || []).map(o => {
+      // Seulement les musées d'art du Smithsonian (sinon la recherche ramène surtout des objets d'histoire naturelle)
+      const musees = '(' + Object.keys(MUSEES_SMITHSONIAN).map(u => 'unit_code:' + u).join(' OR ') + ')';
+      const q = (motsCles(c).join(' ') || 'art') + ' AND ' + musees + ' AND online_media_type:"Images"';
+      const url = debut => RELAIS + '/smithsonian?q=' + encodeURIComponent(q) + '&rows=' + (n * 2) + '&start=' + debut;
+      return pageAuHasard(url, 40, r => r.response && r.response.rows, r => r.response && r.response.rowCount).then(rows => rows.map(o => {
         const c2 = o.content || {}, media = c2.descriptiveNonRepeating && c2.descriptiveNonRepeating.online_media && c2.descriptiveNonRepeating.online_media.media && c2.descriptiveNonRepeating.online_media.media[0];
         if (!media || !media.usage || media.usage.access !== 'CC0') return null;
-        const ind = c2.indexedStructured || {};
+        const ind = c2.indexedStructured || {}, unite = MUSEES_SMITHSONIAN[o.unitCode];
         return oeuvre({
           titre: o.title, artiste: ind.name ? ind.name[0] : '', date: ind.date ? ind.date[0] : '', annee: anneeDe(ind.date ? ind.date[0] : ''),
           lieu: ind.geoLocation && ind.geoLocation[0] && ind.geoLocation[0].L2 ? ind.geoLocation[0].L2.content : '',
-          musee: this.nom, image: media.thumbnail || media.content, fiche: (c2.descriptiveNonRepeating.record_link || 'https://www.si.edu/'),
-          classification: (ind.object_type || []).join(' ')
+          culture: (ind.culture || []).join(', '), indiceRegion: unite ? unite[1] : '',
+          musee: unite ? unite[0] + ' (Smithsonian)' : this.nom, image: media.thumbnail || media.content,
+          fiche: (c2.descriptiveNonRepeating.record_link || 'https://www.si.edu/'), classification: (ind.object_type || []).join(' ')
         });
       }).filter(Boolean).slice(0, n));
     }

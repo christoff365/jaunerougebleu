@@ -53,7 +53,7 @@ Le générateur compose chaque exposition sans intervention humaine : il réunit
 | SMK – Statens Museum for Kunst (Copenhague) | actif, sans clé |
 | Minneapolis Institute of Art | actif, sans clé |
 | Europeana (milliers d'institutions européennes) | actif, via le relais de l'association (clé gardée hors du site) |
-| Smithsonian Institution (Washington) | actif, via le relais de l'association (clé gardée hors du site) |
+| Smithsonian Institution (Washington) : ses musées d'art (Hirshhorn, American Art Museum, National Portrait Gallery, art asiatique, Cooper Hewitt, art africain, musée des Amérindiens) | actif, via le relais de l'association (clé gardée hors du site) |
 
 Les 114 institutions de Wikidata, par région :
 

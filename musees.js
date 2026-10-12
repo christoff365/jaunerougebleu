@@ -392,7 +392,7 @@ function oeuvresWikidata(lignes, n, options) {
       date: (a => a === null ? '' : a < 0 ? (-a) + ' av. J.-C.' : String(a))(anneeWikidata(val(b, 'date'))),
       lieu: majuscule(val(b, 'origineLabel').replace(/^Q\d+$/, '')), musee: options.musee(lieu),
       image: info ? info.image : 'https://commons.wikimedia.org/wiki/Special:FilePath/' + encodeURIComponent(fichiers[k]) + '?width=400',
-      credit: creditCommons(options.musee(lieu), fichiers[k], info),
+      credit: creditCommons(options.musee(lieu), fichiers[k], info) + (options.notice ? ' ; ' + options.notice(b) : ''),
       regions: region ? [region] : [],
       type: options.type || (classes[qid(b, 'i')] || []).map(typeDe).find(t => t !== 'Autre') || 'Autre',
       pastille: 'Wikidata et Wikimedia Commons, en direct'
@@ -448,6 +448,43 @@ const ADAPTATEURS = {
         return [].concat(...listes.filter(Boolean));
       }).then(lignes => oeuvresWikidata(lignes, n, {
         lieu: 'mLabel', musee: nom => nom, region: b => regionMusee[qid(b, 'm')]
+      }));
+    }
+  },
+  joconde: {
+    nom: 'Musées de France (notices Joconde, via Wikidata et Wikimedia Commons)',
+    chercher(c, n) {
+      // Œuvres des musées de France reliées dans Wikidata à leur notice Joconde (P347) et illustrées sur Wikimedia Commons.
+      // Joconde ne publie pas d'images réutilisables en données ouvertes : l'image vient de Commons, la notice de POP.
+      const types = [].concat(...c.ty.map(t => (CLASSES_TYPES[t] || '').split(' ').filter(Boolean)));
+      const genres = [].concat(...c.th.map(t => (GENRES_THEMES[t] || '').split(' ').filter(Boolean)));
+      if ((c.ty.length && !types.length) || (c.th.length && !genres.length)) return Promise.resolve([]);
+      const d = bornesEpoques(c.ep);
+      // Hors d'Europe : seulement les œuvres dont le pays d'origine est dans la région demandée
+      const pays = c.region && c.region !== 'Europe' ? PAYS_REGIONS[c.region].split(' ') : [];
+      const filtre = d || types.length || genres.length || pays.length, k = n * 3;
+      const requete = decalage => `SELECT ?i ?iLabel ?m ?mLabel ?date ?img ?jc ?typeEn ?createur ?createurLabel ?deces ?origine ?origineLabel ?nat WHERE {
+        hint:Query hint:optimizer "None" .
+        { SELECT ?i ?img ?date ?jc WHERE {
+            ?i wdt:P347 ?jc ; wdt:P18 ?img ; wdt:P571 ?date .
+            ${d ? `FILTER(YEAR(?date) >= ${d[0]} && YEAR(?date) <= ${d[1]})` : ''}
+            ${types.length ? `?i wdt:P31 ?t . FILTER(?t IN (${types.map(q => 'wd:' + q).join(', ')}))` : ''}
+            ${genres.length ? `?i wdt:P136 ?g . FILTER(?g IN (${genres.map(q => 'wd:' + q).join(', ')}))` : ''}
+            ${pays.length ? `?i wdt:P495 ?o . FILTER(?o IN (${pays.map(q => 'wd:' + q).join(', ')}))` : ''}
+          } LIMIT ${k} OFFSET ${decalage} }
+        OPTIONAL { ?i wdt:P195 ?m }
+        OPTIONAL { ?i wdt:P31 ?type . ?type rdfs:label ?typeEn FILTER(LANG(?typeEn) = "en") }
+        OPTIONAL { ?i wdt:P495 ?origine }
+        OPTIONAL { ?i wdt:P170 ?createur . OPTIONAL { ?createur wdt:P27 ?nat } OPTIONAL { ?createur wdt:P570 ?deces } }
+        SERVICE wikibase:label { bd:serviceParam wikibase:language "fr,en,mul". }
+      }`;
+      // Départ tiré au hasard pour varier les œuvres ; si la recherche filtrée a moins de résultats, on reprend au début
+      const decalage = hasard(filtre ? 200 : 20000);
+      return sparql(requete(decalage), 12000).then(l => l.length || !decalage ? l : sparql(requete(0), 12000)).then(lignes => oeuvresWikidata(lignes, n, {
+        lieu: 'mLabel', musee: nom => (nom && !/^Q\d+$/.test(nom) ? nom : 'Musée de France'),
+        // Sans pays d'origine connu : œuvre supposée européenne (l'essentiel des collections des musées de France)
+        region: () => (pays.length ? c.region : 'Europe'),
+        notice: b => 'notice Joconde (https://pop.culture.gouv.fr/notice/joconde/' + encodeURIComponent(val(b, 'jc')) + ')'
       }));
     }
   },

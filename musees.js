@@ -382,7 +382,7 @@ function oeuvresWikidata(lignes, n, options) {
   return infosCommons(fichiers).then(infos => choisies.map((b, k) => {
     const info = infos[fichiers[k]];
     const regionOrigine = REGION_DU_PAYS[qid(b, 'origine')] || REGION_DU_PAYS[qid(b, 'nat')];
-    const region = regionOrigine || options.region(b);
+    const region = options.regionImposee || regionOrigine || options.region(b);
     const createur = val(b, 'createurLabel');
     const lieu = majuscule(val(b, options.lieu));
     return oeuvre({
@@ -395,7 +395,7 @@ function oeuvresWikidata(lignes, n, options) {
       credit: creditCommons(options.musee(lieu), fichiers[k], info) + (options.notice ? ' ; ' + options.notice(b) : ''),
       regions: region ? [region] : [],
       type: options.type || (classes[qid(b, 'i')] || []).map(typeDe).find(t => t !== 'Autre') || 'Autre',
-      pastille: 'Wikidata et Wikimedia Commons, en direct'
+      pastille: options.pastille || 'Wikidata et Wikimedia Commons, en direct'
     });
   }));
 }
@@ -452,7 +452,7 @@ const ADAPTATEURS = {
     }
   },
   joconde: {
-    nom: 'Musées de France (notices Joconde, via Wikidata et Wikimedia Commons)',
+    nom: 'Musées de France (base Joconde)',
     chercher(c, n) {
       // Œuvres des musées de France reliées dans Wikidata à leur notice Joconde (P347) et illustrées sur Wikimedia Commons.
       // Joconde ne publie pas d'images réutilisables en données ouvertes : l'image vient de Commons, la notice de POP.
@@ -460,7 +460,7 @@ const ADAPTATEURS = {
       const genres = [].concat(...c.th.map(t => (GENRES_THEMES[t] || '').split(' ').filter(Boolean)));
       if ((c.ty.length && !types.length) || (c.th.length && !genres.length)) return Promise.resolve([]);
       const d = bornesEpoques(c.ep);
-      // Hors d'Europe : seulement les œuvres dont le pays d'origine est dans la région demandée
+      // Hors d'Europe : seulement les œuvres dont le pays d'origine, ou à défaut la nationalité de l'artiste, est dans la région
       const pays = c.region && c.region !== 'Europe' ? PAYS_REGIONS[c.region].split(' ') : [];
       const filtre = d || types.length || genres.length || pays.length, k = n * 3;
       const requete = decalage => `SELECT ?i ?iLabel ?m ?mLabel ?date ?img ?jc ?typeEn ?createur ?createurLabel ?deces ?origine ?origineLabel ?nat WHERE {
@@ -470,7 +470,7 @@ const ADAPTATEURS = {
             ${d ? `FILTER(YEAR(?date) >= ${d[0]} && YEAR(?date) <= ${d[1]})` : ''}
             ${types.length ? `?i wdt:P31 ?t . FILTER(?t IN (${types.map(q => 'wd:' + q).join(', ')}))` : ''}
             ${genres.length ? `?i wdt:P136 ?g . FILTER(?g IN (${genres.map(q => 'wd:' + q).join(', ')}))` : ''}
-            ${pays.length ? `?i wdt:P495 ?o . FILTER(?o IN (${pays.map(q => 'wd:' + q).join(', ')}))` : ''}
+            ${pays.length ? `{ ?i wdt:P495 ?o } UNION { ?i wdt:P170 ?a . ?a wdt:P27 ?o } FILTER(?o IN (${pays.map(q => 'wd:' + q).join(', ')}))` : ''}
           } LIMIT ${k} OFFSET ${decalage} }
         OPTIONAL { ?i wdt:P195 ?m }
         OPTIONAL { ?i wdt:P31 ?type . ?type rdfs:label ?typeEn FILTER(LANG(?typeEn) = "en") }
@@ -483,7 +483,8 @@ const ADAPTATEURS = {
       return sparql(requete(decalage), 12000).then(l => l.length || !decalage ? l : sparql(requete(0), 12000)).then(lignes => oeuvresWikidata(lignes, n, {
         lieu: 'mLabel', musee: nom => (nom && !/^Q\d+$/.test(nom) ? nom : 'Musée de France'),
         // Sans pays d'origine connu : œuvre supposée européenne (l'essentiel des collections des musées de France)
-        region: () => (pays.length ? c.region : 'Europe'),
+        // Hors d'Europe, la recherche a déjà vérifié la région (pays d'origine ou nationalité de l'artiste)
+        regionImposee: pays.length ? c.region : null, region: () => 'Europe', pastille: 'Notice Joconde des musées de France, en direct',
         notice: b => 'notice Joconde (https://pop.culture.gouv.fr/notice/joconde/' + encodeURIComponent(val(b, 'jc')) + ')'
       }));
     }

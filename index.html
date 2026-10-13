@@ -1220,6 +1220,14 @@ chargerExpos();
 // (prise sur une autre page, souvent plus longue), sinon l'accueil s'ouvre tout en bas
 if('scrollRestoration' in history)history.scrollRestoration='manual';
 window.scrollTo(0,0);
+// Certains navigateurs remettent quand même l'ancienne position à la fin du chargement, ou au retour sur l'onglet :
+// on revient en haut à ces moments-là aussi, sauf si le visiteur a déjà fait défiler la page lui-même
+(()=>{let bouge=false;const marquer=()=>{bouge=true;};
+  ['wheel','touchmove','keydown'].forEach(t=>addEventListener(t,marquer,{once:true,passive:true}));
+  const enHaut=()=>{if(!bouge)window.scrollTo(0,0);};
+  addEventListener('load',()=>{enHaut();setTimeout(enHaut,0);requestAnimationFrame(enHaut);});
+  addEventListener('pageshow',e=>{if(e.persisted)window.scrollTo(0,0);});
+})();
 if(location.hash==='#mentions-legales')go('legal');
 
 

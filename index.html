@@ -847,7 +847,7 @@ const MUSEES_TOUS=[ // institutions interrogées dans toutes les régions : [ide
   ['','https://africa.si.edu/','National Museum of African Art (Smithsonian)'],
   ['','https://americanindian.si.edu/','National Museum of the American Indian (Smithsonian)'],
   ['','https://www.europeana.eu/','Europeana (milliers d\'institutions européennes)'],
-  ['','https://pop.culture.gouv.fr/','Musées de France (notices Joconde, via Wikidata)'],
+  ['','https://pop.culture.gouv.fr/','Musées de France (base Joconde)'],
   ['Q9259','https://whc.unesco.org/fr/list/','Patrimoine mondial de l\'UNESCO (monuments)']
 ];
 // Chiffre de l'accueil : institutions de la page « Musées » (MUSEES_MONDE de musees.js, sans doublon, et MUSEES_TOUS)
@@ -972,7 +972,7 @@ function genExpo(){
     if(direct.elargi)notes.push('Peu d\'œuvres des catalogues réunissaient tous vos critères : la recherche en direct a été élargie en ignorant les thèmes.');
     if(crit.ep.includes('Art contemporain'))notes.push('L\'art contemporain est peu représenté : les œuvres récentes sont protégées par le droit d\'auteur, et ce site ne montre que des œuvres du domaine public.');
     const oeuvres=choisies.concat(trouvees);
-    const repondu=direct.sources.filter(s=>s.ok&&s.nombre).map(s=>s.nom),muets=direct.sources.filter(s=>!s.ok).map(s=>s.nom);
+    const repondu=direct.sources.filter(s=>s.ok&&s.nombre).map(s=>s.nom),rien=direct.sources.filter(s=>s.ok&&!s.nombre).map(s=>s.nom),muets=direct.sources.filter(s=>!s.ok).map(s=>s.nom);
     const groupes=ORDRE_EPOQUES.map(ep=>({ep,liste:oeuvres.filter(w=>w.epoch===ep).sort((a,b)=>(a.year||0)-(b.year||0))})).filter(g=>g.liste.length);
     tl.innerHTML=notes.map(n=>`<p class="expo-note">${esc(n)}</p>`).join('')+(groupes.length?groupes.map((g,i)=>{
       const debut=g.liste[0].year,fin=g.liste[g.liste.length-1].year;
@@ -980,7 +980,9 @@ function genExpo(){
         <div class="era">${esc(g.ep)} · ${debut===fin?annee(debut):annee(debut)+' – '+annee(fin)+(debut<0&&fin>0?' apr. J.-C.':'')}</div>
         <div class="mini-grid">${g.liste.map(carteOeuvre).join('')}</div>
       </div></div>`;}).join(''):'<p class="sub">Aucune œuvre ne correspond pour le moment. Essayez d\'autres choix.</p>')+
-      (repondu.length?`<p class="expo-sources"><span>Œuvres trouvées en direct dans les catalogues de :</span> ${repondu.map(n=>`<span>${esc(n)}</span>`).join(' · ')}${muets.length?`<br><span>Catalogues indisponibles pour le moment :</span> ${muets.map(n=>`<span>${esc(n)}</span>`).join(' · ')}`:''}</p>`:'');
+      // Toutes les sources interrogées sont nommées : celles qui ont trouvé des œuvres, celles qui n'en ont aucune pour ces choix, celles en panne
+      (direct.sources.length?`<p class="expo-sources">${[['Œuvres trouvées en direct dans les catalogues de :',repondu],['Aucune œuvre correspondant à vos choix dans :',rien],['Catalogues indisponibles pour le moment :',muets]]
+        .filter(l=>l[1].length).map(l=>`<span>${l[0]}</span> ${l[1].map(n=>`<span>${esc(n)}</span>`).join(' · ')}`).join('<br>')}</p>`:'');
     majCompte();
   });
 }

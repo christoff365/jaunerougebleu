@@ -1216,6 +1216,10 @@ function chargerExpos(){
 }
 chargerExpos();
 // Lien direct vers les mentions légales : jaunerougebleu.org/#mentions-legales
+// Au rechargement, le site revient sur l'accueil : le navigateur ne doit pas remettre l'ancienne position de défilement
+// (prise sur une autre page, souvent plus longue), sinon l'accueil s'ouvre tout en bas
+if('scrollRestoration' in history)history.scrollRestoration='manual';
+window.scrollTo(0,0);
 if(location.hash==='#mentions-legales')go('legal');
 
 

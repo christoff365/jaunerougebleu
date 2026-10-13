@@ -214,11 +214,11 @@ a.mus-site:hover{color:var(--bleu)}
 /* Visionneuse : image d'une œuvre en grand */
 img.zoom{cursor:zoom-in}
 img.zoom:focus-visible{outline:3px solid #1a3a8a;outline-offset:-3px}
-.visionneuse{border:0;padding:12px;max-width:96vw;max-height:96vh;background:#111;color:#fff;border-radius:8px;text-align:center}
+.visionneuse{margin:auto;border:0;padding:12px;max-width:96vw;max-height:96vh;background:#111;color:#fff;border-radius:8px;text-align:center}
 .visionneuse::backdrop{background:rgba(0,0,0,.8)}
-.visionneuse img{display:block;max-width:calc(96vw - 24px);max-height:calc(96vh - 110px);margin:8px auto;object-fit:contain}
+.visionneuse img{display:block;max-width:calc(96vw - 24px);max-height:calc(96vh - 120px);margin:8px auto;object-fit:contain}
 .visionneuse p{margin:4px 0 0;font-size:14px}
-.vis-fermer{float:right;color:#fff;border-color:#888}
+.vis-fermer{display:block;margin-left:auto;color:#fff;border-color:#888}
 /* Images sensibles : floutées jusqu'au clic */
 .sensible{position:relative;overflow:hidden}
 .sensible img{filter:blur(22px);transform:scale(1.08)}

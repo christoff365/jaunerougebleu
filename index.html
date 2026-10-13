@@ -467,7 +467,7 @@ html.sans-animation *,html.sans-animation *::before,html.sans-animation *::after
     </div>
   </div>
   <div class="stats-row">
-    <div class="stat"><div class="stat-n">120</div><div class="stat-l">Musées et institutions</div></div>
+    <div class="stat"><div class="stat-n" id="stat-musees">128</div><div class="stat-l">Musées et institutions</div></div>
     <div class="stat"><div class="stat-n">5&nbsp;000</div><div class="stat-l">Ans d'art à travers le monde</div></div>
     <div class="stat"><div class="stat-n">4</div><div class="stat-l">Langues</div></div>
     <div class="stat"><div class="stat-n">∞</div><div class="stat-l">Expositions uniques</div></div>
@@ -838,10 +838,20 @@ const MUSEES_TOUS=[ // institutions interrogées dans toutes les régions : [ide
   ['Q239303','https://www.artic.edu/','Art Institute of Chicago'],
   ['Q657415','https://www.clevelandart.org/','Cleveland Museum of Art'],
   ['Q1700481','https://new.artsmia.org/','Minneapolis Institute of Art'],
-  ['Q131626','https://www.si.edu/','Smithsonian Institution, Washington'],
+  // Musées d'art du Smithsonian interrogés (liste MUSEES_SMITHSONIAN de musees.js)
+  ['','https://hirshhorn.si.edu/','Hirshhorn Museum and Sculpture Garden (Smithsonian)'],
+  ['','https://americanart.si.edu/','Smithsonian American Art Museum (Smithsonian)'],
+  ['','https://npg.si.edu/','National Portrait Gallery (Smithsonian)'],
+  ['','https://asia.si.edu/','National Museum of Asian Art (Smithsonian)'],
+  ['','https://www.cooperhewitt.org/','Cooper Hewitt, Smithsonian Design Museum (Smithsonian)'],
+  ['','https://africa.si.edu/','National Museum of African Art (Smithsonian)'],
+  ['','https://americanindian.si.edu/','National Museum of the American Indian (Smithsonian)'],
   ['','https://www.europeana.eu/','Europeana (milliers d\'institutions européennes)'],
+  ['','https://pop.culture.gouv.fr/','Musées de France (notices Joconde, via Wikidata)'],
   ['Q9259','https://whc.unesco.org/fr/list/','Patrimoine mondial de l\'UNESCO (monuments)']
 ];
+// Chiffre de l'accueil : institutions de la page « Musées » (MUSEES_MONDE de musees.js, sans doublon, et MUSEES_TOUS)
+(()=>{const e=document.getElementById('stat-musees');if(e&&typeof MUSEES_MONDE!=='undefined')e.textContent=new Set([].concat(...Object.values(MUSEES_MONDE).map(l=>l.map(m=>m[0])))).size+MUSEES_TOUS.length;})();
 const SITES_MUSEES={}; // identifiant Wikidata → site officiel
 function lienMusee(q,nom,site){
   const url=site||SITES_MUSEES[q];

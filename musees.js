@@ -596,7 +596,10 @@ const ADAPTATEURS = {
     nom: 'Europeana',
     actif: () => !!RELAIS,
     chercher(c, n) {
-      const q = motsCles(c).join(' ') || 'art';
+      // Toutes les institutions d'Europeana sont européennes : pour l'Europe, pas de mot de région (« French », « Dutch »…),
+      // que les fiches, rédigées dans la langue de chaque musée, contiennent rarement. Hors d'Europe, le mot reste
+      // (« Japanese »…) et l'œuvre est rangée dans la région demandée, car le pays indiqué est celui du musée.
+      const q = motsCles(Object.assign({}, c, { region: c.region === 'Europe' ? null : c.region })).join(' ') || 'art';
       // Collection thématique « Art » d'Europeana (sinon on reçoit surtout des objets d'ethnographie ou d'archives),
       // œuvres datées seulement, dans les bornes des époques choisies
       const d = bornesEpoques(c.ep);
@@ -611,7 +614,7 @@ const ADAPTATEURS = {
           titre: (o.title || ['Sans titre'])[0], langue: o.language && o.language[0] ? o.language[0] : 'en',
           // dcCreator mêle souvent noms et adresses de notices d'autorité (viaf.org…) : on garde le premier nom
           artiste: [].concat(o.dcCreator || []).find(x => !/^https?:/.test(x)) || '', date: (o.year || [''])[0], annee: anneeDe((o.year || [''])[0]),
-          lieu: (o.country || [''])[0], musee: ((o.dataProvider || ['Europeana'])[0]) + ' (via Europeana)',
+          lieu: (o.country || [''])[0], regions: c.region ? [c.region] : undefined, musee: ((o.dataProvider || ['Europeana'])[0]) + ' (via Europeana)',
           image: (o.edmPreview || o.edmIsShownBy)[0], fiche: o.guid, classification: (o.dcType || []).join(' ') + ' ' + q
         })));
     }

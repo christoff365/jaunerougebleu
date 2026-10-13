@@ -9,6 +9,7 @@ const TRAD = {
   "ouvre sa fiche dans Wikidata.": ["opens its Wikidata record.", "abre su ficha en Wikidata.", "تفتح بطاقتها في ويكي بيانات."],
   "Fiche Wikidata": ["Wikidata record", "Ficha de Wikidata", "بطاقة ويكي بيانات"],
   "Europeana (milliers d'institutions européennes)": ["Europeana (thousands of European institutions)", "Europeana (miles de instituciones europeas)", "يوروبيانا (آلاف المؤسسات الأوروبية)"],
+  "Musées de France (notices Joconde, via Wikidata)": ["Museums of France (Joconde records, via Wikidata)", "Museos de Francia (fichas Joconde, vía Wikidata)", "متاحف فرنسا (بطاقات Joconde، عبر ويكي بيانات)"],
   "En Europe, le générateur interroge aussi directement le catalogue du": ["In Europe, the generator also directly searches the catalogue of", "En Europa, el generador también consulta directamente el catálogo del", "في أوروبا، يبحث المولِّد أيضًا مباشرةً في فهرس"],
   "SMK – Statens Museum for Kunst (Copenhague)": ["SMK – National Gallery of Denmark (Copenhagen)", "SMK – Galería Nacional de Dinamarca (Copenhague)", "SMK – المتحف الوطني للفنون (كوبنهاغن)"],
   "Fermer": ["Close", "Cerrar", "إغلاق"],

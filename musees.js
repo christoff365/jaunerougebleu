@@ -597,16 +597,26 @@ const ADAPTATEURS = {
     actif: () => !!RELAIS,
     chercher(c, n) {
       const q = motsCles(c).join(' ') || 'art';
-      const url = debut => RELAIS + '/europeana?query=' + encodeURIComponent(q) +
-        '&reusability=open&qf=TYPE:IMAGE&qf=RIGHTS:*publicdomain*&media=true&thumbnail=true&rows=' + n + '&start=' + (1 + debut) + '&profile=rich';
-      return pageAuHasard(url, 50, r => r.items, r => r.totalResults).then(items => items.filter(o => o.edmIsShownBy || o.edmPreview).map(o => oeuvre({
-        titre: (o.title || ['Sans titre'])[0], langue: o.language && o.language[0] ? o.language[0] : 'en',
-        artiste: (o.dcCreator || [''])[0], date: (o.year || [''])[0], annee: anneeDe((o.year || [''])[0]),
-        lieu: (o.country || [''])[0], musee: ((o.dataProvider || ['Europeana'])[0]) + ' (via Europeana)',
-        image: (o.edmPreview || o.edmIsShownBy)[0], fiche: o.guid, classification: (o.dcType || []).join(' ') + ' ' + q
-      })));
+      // Collection thématique « Art » d'Europeana (sinon on reçoit surtout des objets d'ethnographie ou d'archives),
+      // œuvres datées seulement, dans les bornes des époques choisies
+      const d = bornesEpoques(c.ep);
+      const annees = encodeURIComponent('YEAR:[' + (d ? Math.max(d[0], 1) : 1) + ' TO ' + (d ? d[1] : 2100) + ']');
+      const url = debut => RELAIS + '/europeana?query=' + encodeURIComponent(q) + '&theme=art&qf=' + annees +
+        '&reusability=open&qf=TYPE:IMAGE&qf=RIGHTS:*publicdomain*&media=true&thumbnail=true&rows=' + (n * 3) + '&start=' + (1 + debut) + '&profile=rich';
+      // Trois fois plus de fiches que nécessaire, pour en garder au plus un tiers par institution
+      const parMusee = {}, plafond = Math.max(2, Math.ceil(n / 3));
+      return pageAuHasard(url, 50, r => r.items, r => r.totalResults).then(items => items.filter(o => (o.edmIsShownBy || o.edmPreview) && anneeDe((o.year || [''])[0]) !== null)
+        .sort(() => Math.random() - 0.5).filter(o => { const m = (o.dataProvider || [''])[0]; parMusee[m] = (parMusee[m] || 0) + 1; return parMusee[m] <= plafond; })
+        .slice(0, n).map(o => oeuvre({
+          titre: (o.title || ['Sans titre'])[0], langue: o.language && o.language[0] ? o.language[0] : 'en',
+          // dcCreator mêle souvent noms et adresses de notices d'autorité (viaf.org…) : on garde le premier nom
+          artiste: [].concat(o.dcCreator || []).find(x => !/^https?:/.test(x)) || '', date: (o.year || [''])[0], annee: anneeDe((o.year || [''])[0]),
+          lieu: (o.country || [''])[0], musee: ((o.dataProvider || ['Europeana'])[0]) + ' (via Europeana)',
+          image: (o.edmPreview || o.edmIsShownBy)[0], fiche: o.guid, classification: (o.dcType || []).join(' ') + ' ' + q
+        })));
     }
   },
+
   smithsonian: {
     nom: 'Smithsonian Institution, Washington',
     actif: () => !!RELAIS,

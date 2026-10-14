@@ -1,10 +1,10 @@
 [
   {
     "title": "La lumière comme langage universel",
-    "subtitle": "De l'Égypte romaine à l'impressionnisme : onze visions de la lumière, d'Afrique, d'Asie et d'Europe",
+    "subtitle": "De l'Égypte romaine aux Caraïbes : douze visions de la lumière, d'Afrique, d'Asie, d'Europe et des Amériques",
     "status": "published",
     "theme": "Lumière & ombre à travers les cultures",
-    "intro": "Sur près de dix-sept siècles (vers 200 – 1872) et trois continents, de l'Égypte à la Chine, de l'Iran à l'Éthiopie, du Japon à l'Europe, la lumière est le véritable sujet de ces œuvres. Modelé d'un visage, brume qui efface les montagnes, éclat des céramiques d'une mosquée, feu d'une fête persane, auréoles des saints ou soleil sur l'eau : naturelle ou divine, intime ou dramatique, peinte ou suggérée par le vide, elle prend dans chaque culture un sens différent.",
+    "intro": "Sur dix-sept siècles (vers 200 – 1899) et quatre continents, de l'Égypte à la Chine, de l'Iran à l'Éthiopie, du Japon à l'Europe et jusqu'aux Caraïbes, la lumière est le véritable sujet de ces œuvres. Modelé d'un visage, brume qui efface les montagnes, éclat des céramiques d'une mosquée, feu d'une fête persane, auréoles des saints, soleil sur l'eau ou ciel d'orage tropical : naturelle ou divine, intime ou dramatique, peinte ou suggérée par le vide, elle prend dans chaque culture un sens différent.",
     "works": [
       {
         "title": "Portrait d'un jeune homme (portrait du Fayoum)",
@@ -127,15 +127,26 @@
         "credit": "Musée Marmottan Monet, Paris, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Monet_-_Impression,_Sunrise.jpg), domaine public",
         "analysis": "Le port du Havre au petit matin, dans la brume. Quelques touches rapides suffisent : les bateaux et les grues ne sont que des silhouettes, et le soleil, petit disque orange, trace sur l'eau un reflet fait de quelques coups de pinceau. Monet ne peint pas le port, mais l'impression d'un instant de lumière. Le titre du tableau a donné son nom au mouvement impressionniste.",
         "compare": "Monet prolonge Turner, dont il avait découvert les tableaux à Londres : chez l'un comme chez l'autre, un soleil sur l'eau et des formes qui se dissolvent dans l'atmosphère. Mais là où Turner est dramatique et chargé de sens, avec un navire qui part pour sa démolition, Monet saisit un moment ordinaire, sans histoire, rien que la lumière. Comme chez Hokusai, l'essentiel est suggéré plutôt que décrit."
+      },
+      {
+        "title": "Le Gulf Stream",
+        "artist": "Winslow Homer",
+        "country": "États-Unis",
+        "period": "1899, repris jusqu'en 1906",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/collection/gulf-stream-homer.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/11122), domaine public (Open Access)",
+        "analysis": "Un marin noir, seul sur un bateau sans mât, dérive au large des Bahamas, cerné par des requins, pendant qu'une trombe d'eau se forme à l'horizon et qu'un trois-mâts passe au loin sans le voir. La lumière est celle d'un orage tropical : un ciel blanchâtre et voilé, d'où ne tombe aucun rayon, et une mer turquoise et vert sombre dont l'écume accroche la lumière. Le corps du marin, éclairé de côté, est le point le plus net du tableau. Homer, qui avait séjourné plusieurs fois aux Bahamas, peint la lumière crue des Caraïbes.",
+        "compare": "Comme chez Turner, un navire, le ciel et la mer ; mais là où le Téméraire s'éteint dans une lumière dorée, le marin de Homer affronte une lumière froide et sans pitié. Et comme dans La Ronde de nuit, la lumière désigne son héros : ici, un homme noir, rarement placé au centre d'un grand tableau à cette époque."
       }
     ]
   },
   {
     "title": "La couleur est relative",
-    "subtitle": "D'après L'Interaction des couleurs de Josef Albers : huit leçons du regard, de l'Égypte ancienne à l'abstraction",
+    "subtitle": "D'après L'Interaction des couleurs de Josef Albers : dix leçons du regard, de l'Égypte ancienne à l'abstraction",
     "status": "published",
     "theme": "Couleur & perception",
-    "intro": "« Dans la perception visuelle, une couleur n'est presque jamais vue telle qu'elle est réellement, physiquement. » C'est ainsi que Josef Albers (1888–1976), peintre et professeur au Bauhaus puis aux États-Unis, ouvre son livre L'Interaction des couleurs (1963). Pour lui, une couleur change selon ses voisines, selon sa quantité, selon la lumière : c'est le moyen le plus relatif de l'art. Il l'enseignait non par la théorie mais par l'expérience, avec des papiers colorés. Ses tableaux n'étant pas encore dans le domaine public, cette exposition met ses leçons à l'épreuve d'œuvres de quatre continents : Égypte ancienne, Chine, Iran, Éthiopie, Japon, Tahiti et Suède. Pour chaque œuvre, un exercice du regard vous est proposé.",
+    "intro": "« Dans la perception visuelle, une couleur n'est presque jamais vue telle qu'elle est réellement, physiquement. » C'est ainsi que Josef Albers (1888–1976), peintre et professeur au Bauhaus puis aux États-Unis, ouvre son livre L'Interaction des couleurs (1963). Pour lui, une couleur change selon ses voisines, selon sa quantité, selon la lumière : c'est le moyen le plus relatif de l'art. Il l'enseignait non par la théorie mais par l'expérience, avec des papiers colorés. Ses tableaux n'étant pas encore dans le domaine public, cette exposition met ses leçons à l'épreuve d'œuvres des cinq continents : Égypte ancienne, Mexique ancien, Chine, Iran, Éthiopie, Japon, Tahiti, États-Unis et Suède. Pour chaque œuvre, un exercice du regard vous est proposé.",
     "works": [
       {
         "title": "Hippopotame dit « William »",
@@ -149,6 +160,17 @@
         "compare": "Le même turquoise revient plus de trois mille ans plus tard dans le mihrab d'Ispahan. Entouré de bleu foncé et de blanc, il n'y paraît plus tout à fait le même."
       },
       {
+        "title": "Figure assise sur un banc",
+        "artist": "Artiste olmèque",
+        "country": "Mexique",
+        "period": "1000–400 av. J.-C.",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/collection/figure-olmeque.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/313138), domaine public (Open Access)",
+        "analysis": "Leçon 2 — Les nuances d'une seule couleur. Cette petite figure olmèque est taillée dans une pierre verte, matière précieuse pour les peuples de l'ancien Mexique. Une seule couleur, et pourtant des dizaines de nuances : vert-gris sur les parties polies, plus jaune ou plus bleuté selon la lumière, roussâtre dans les incisions des doigts, des orteils et de la coiffe. Albers faisait travailler ses élèves sur des couleurs presque identiques, pour leur apprendre à voir de très petites différences. Exercice : comparez le vert des genoux, où la lumière accroche la pierre polie, et celui du ventre, dans l'ombre des bras. Est-ce encore le même vert ?",
+        "compare": "Josef et Anni Albers ont fait de nombreux voyages au Mexique et y ont collectionné l'art précolombien, dont les couleurs de pierre et de terre ont nourri leur œuvre. Face au turquoise éclatant de l'hippopotame égyptien, cette pierre montre l'autre visage de la couleur : discrète, changeante, liée à la matière."
+      },
+      {
         "title": "Vieux arbres, lointain plat",
         "artist": "Guo Xi",
         "country": "Chine",
@@ -156,7 +178,7 @@
         "museum": "The Metropolitan Museum of Art, New York",
         "image": "images/collection/vieux-arbres-guo-xi.jpg",
         "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/39668), domaine public (Open Access)",
-        "analysis": "Leçon 2 — Clair ou foncé ? Albers commence son enseignement par une question simple : de deux couleurs, laquelle est la plus claire ? C'est souvent plus difficile qu'il n'y paraît, car la couleur trompe l'œil. Guo Xi se passe presque de couleur : avec une seule encre, plus ou moins diluée sur la soie, il obtient toute une gamme de gris, du noir des branches au voile de la brume. Exercice : plissez les yeux devant n'importe quelle œuvre de cette exposition. Les couleurs s'atténuent et il ne reste que le clair et le foncé, ce qu'Albers appelle la clarté d'une couleur.",
+        "analysis": "Leçon 3 — Clair ou foncé ? Albers commence son enseignement par une question simple : de deux couleurs, laquelle est la plus claire ? C'est souvent plus difficile qu'il n'y paraît, car la couleur trompe l'œil. Guo Xi se passe presque de couleur : avec une seule encre, plus ou moins diluée sur la soie, il obtient toute une gamme de gris, du noir des branches au voile de la brume. Exercice : plissez les yeux devant n'importe quelle œuvre de cette exposition. Les couleurs s'atténuent et il ne reste que le clair et le foncé, ce qu'Albers appelle la clarté d'une couleur.",
         "compare": "Chez Guo Xi, une même encre produit des clartés différentes. Dans Femmes de Tahiti, au contraire, des couleurs très différentes, le rose et le jaune, ont presque la même clarté."
       },
       {
@@ -167,7 +189,7 @@
         "museum": "The Metropolitan Museum of Art, New York",
         "image": "images/collection/mihrab-ispahan.jpg",
         "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/449537), domaine public (Open Access)",
-        "analysis": "Leçon 3 — Les couleurs se mélangent dans l'œil. Le mihrab est une mosaïque de milliers de petits morceaux de céramique en quelques couleurs seulement : bleu foncé, turquoise, blanc, un peu d'ocre et de vert. Vus de loin, ces fragments se mêlent dans l'œil et forment des bleus intermédiaires qui n'existent sur aucun morceau. Albers étudie ce mélange optique, et l'« effet Bezold » : changer une seule couleur dans un motif suffit à transformer tout l'ensemble. Exercice : comparez le bleu foncé du large cadre, où le blanc ne dessine que l'écriture, et celui du panneau au-dessus de la niche, parcouru d'entrelacs blancs : là, le même bleu paraît plus clair.",
+        "analysis": "Leçon 4 — Les couleurs se mélangent dans l'œil. Le mihrab est une mosaïque de milliers de petits morceaux de céramique en quelques couleurs seulement : bleu foncé, turquoise, blanc, un peu d'ocre et de vert. Vus de loin, ces fragments se mêlent dans l'œil et forment des bleus intermédiaires qui n'existent sur aucun morceau. Albers étudie ce mélange optique, et l'« effet Bezold » : changer une seule couleur dans un motif suffit à transformer tout l'ensemble. Exercice : comparez le bleu foncé du large cadre, où le blanc ne dessine que l'écriture, et celui du panneau au-dessus de la niche, parcouru d'entrelacs blancs : là, le même bleu paraît plus clair.",
         "compare": "Plus de cinq siècles avant les petits points de couleur des peintres néo-impressionnistes, les céramistes d'Ispahan jouaient déjà avec le mélange des couleurs dans l'œil du spectateur."
       },
       {
@@ -178,7 +200,7 @@
         "museum": "The Metropolitan Museum of Art, New York",
         "image": "images/collection/fete-de-sada-shahnameh.jpg",
         "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/452111), domaine public (Open Access)",
-        "analysis": "Leçon 4 — La quantité compte. Pour Albers, une couleur n'agit pas seulement par sa teinte, mais aussi par sa surface : une petite tache intense peut tenir tête à un grand champ. Sur cette page, un pré vert pâle occupe tout le centre. Au milieu, le petit brasier orange de la fête de Sada, à peine plus grand qu'un personnage, attire pourtant aussitôt le regard. Autour, les rochers roses et violets, les bleus des vêtements et l'or des marges s'équilibrent par petites touches. Exercice : cachez le feu avec le doigt ; la page entière perd son centre.",
+        "analysis": "Leçon 5 — La quantité compte. Pour Albers, une couleur n'agit pas seulement par sa teinte, mais aussi par sa surface : une petite tache intense peut tenir tête à un grand champ. Sur cette page, un pré vert pâle occupe tout le centre. Au milieu, le petit brasier orange de la fête de Sada, à peine plus grand qu'un personnage, attire pourtant aussitôt le regard. Autour, les rochers roses et violets, les bleus des vêtements et l'or des marges s'équilibrent par petites touches. Exercice : cachez le feu avec le doigt ; la page entière perd son centre.",
         "compare": "Albers conseillait de faire varier la proportion des couleurs plutôt que leur nombre. Le peintre persan, avec des dizaines de couleurs, et Ogata Kōrin, avec à peine trois, appliquent la même leçon : c'est la quantité qui règle l'équilibre."
       },
       {
@@ -189,7 +211,7 @@
         "museum": "The Metropolitan Museum of Art, New York",
         "image": "images/collection/icone-ethiopienne.jpg",
         "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/319625), domaine public (Open Access)",
-        "analysis": "Leçon 5 — Chaud et froid. Les visages clairs et les vêtements rouges et jaunes, couleurs chaudes, se détachent sur des fonds vert sombre, couleur froide. Les couleurs chaudes semblent avancer vers nous, les froides reculer : le peintre éthiopien crée ainsi du relief sans ombre ni perspective. Albers montre que le chaud et le froid sont eux-mêmes relatifs : un même rouge paraît plus chaud à côté d'un vert qu'à côté d'un orange. Exercice : en bas du panneau central, deux disciples se tiennent côte à côte, l'un vêtu de bleu pâle, l'autre de jaune. Lequel semble le plus proche de vous ?",
+        "analysis": "Leçon 6 — Chaud et froid. Les visages clairs et les vêtements rouges et jaunes, couleurs chaudes, se détachent sur des fonds vert sombre, couleur froide. Les couleurs chaudes semblent avancer vers nous, les froides reculer : le peintre éthiopien crée ainsi du relief sans ombre ni perspective. Albers montre que le chaud et le froid sont eux-mêmes relatifs : un même rouge paraît plus chaud à côté d'un vert qu'à côté d'un orange. Exercice : en bas du panneau central, deux disciples se tiennent côte à côte, l'un vêtu de bleu pâle, l'autre de jaune. Lequel semble le plus proche de vous ?",
         "compare": "Deux siècles plus tard, Gauguin pose lui aussi des aplats de couleurs chaudes, le jaune du sable et le rouge du paréo, devant le bleu et le vert froids de la mer."
       },
       {
@@ -200,7 +222,7 @@
         "museum": "The Metropolitan Museum of Art, New York",
         "image": "images/collection/iris-yatsuhashi-korin.jpg",
         "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/39664), domaine public (Open Access)",
-        "analysis": "Leçon 6 — Peu de couleurs, beaucoup d'effets. Sur ce paravent à six panneaux, Ogata Kōrin n'emploie presque que trois couleurs : le bleu-violet des iris, le vert des feuilles et l'or du fond, avec le gris du pont en zigzag. Les fleurs sont peintes en deux bleus, l'un sombre, l'autre plus clair : un intervalle de couleur, qu'Albers apprenait à reconnaître et à transposer comme un intervalle en musique. Le fond d'or, lui, change avec la lumière de la pièce et la place du spectateur. Exercice : regardez les iris placés devant le pont gris, puis ceux qui se détachent sur l'or. Leur bleu vous semble-t-il le même ?",
+        "analysis": "Leçon 7 — Peu de couleurs, beaucoup d'effets. Sur ce paravent à six panneaux, Ogata Kōrin n'emploie presque que trois couleurs : le bleu-violet des iris, le vert des feuilles et l'or du fond, avec le gris du pont en zigzag. Les fleurs sont peintes en deux bleus, l'un sombre, l'autre plus clair : un intervalle de couleur, qu'Albers apprenait à reconnaître et à transposer comme un intervalle en musique. Le fond d'or, lui, change avec la lumière de la pièce et la place du spectateur. Exercice : regardez les iris placés devant le pont gris, puis ceux qui se détachent sur l'or. Leur bleu vous semble-t-il le même ?",
         "compare": "Comme Hilma af Klint deux siècles plus tard, Kōrin pose la couleur en aplats, sans ombre ni modelé, pour qu'elle agisse par elle-même. L'Europe découvrira cette leçon japonaise à la fin du XIXe siècle."
       },
       {
@@ -211,8 +233,19 @@
         "museum": "Musée d'Orsay, Paris",
         "image": "images/oeuvres/femmes-de-tahiti-gauguin.jpg",
         "credit": "Musée d'Orsay, Paris, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Paul_Gauguin_056.jpg), domaine public",
-        "analysis": "Leçon 7 — Des frontières qui s'effacent ou qui vibrent. Albers observe que deux couleurs de même clarté se fondent l'une dans l'autre : leur frontière s'efface, même si leurs teintes sont très différentes. Au contraire, deux couleurs vives et opposées font vibrer leur bord. Gauguin joue des deux : la robe rose de la femme de droite et le sable jaune ont une clarté proche et se touchent sans heurt, tandis que le paréo rouge à motifs blancs éclate sur le sable. Exercice : plissez les yeux devant la robe rose. Où s'arrête-t-elle ?",
+        "analysis": "Leçon 8 — Des frontières qui s'effacent ou qui vibrent. Albers observe que deux couleurs de même clarté se fondent l'une dans l'autre : leur frontière s'efface, même si leurs teintes sont très différentes. Au contraire, deux couleurs vives et opposées font vibrer leur bord. Gauguin joue des deux : la robe rose de la femme de droite et le sable jaune ont une clarté proche et se touchent sans heurt, tandis que le paréo rouge à motifs blancs éclate sur le sable. Exercice : plissez les yeux devant la robe rose. Où s'arrête-t-elle ?",
         "compare": "Chez Guo Xi, tout est affaire de clarté, presque sans couleur ; chez Gauguin, la couleur est si forte qu'on en oublie la clarté. Albers apprenait à ses élèves à voir les deux à la fois."
+      },
+      {
+        "title": "Le Gulf Stream",
+        "artist": "Winslow Homer",
+        "country": "États-Unis",
+        "period": "1899, repris jusqu'en 1906",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/collection/gulf-stream-homer.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/11122), domaine public (Open Access)",
+        "analysis": "Leçon 9 — Les complémentaires s'exaltent. Deux couleurs opposées sur le cercle des couleurs, comme le rouge orangé et le bleu-vert, se renforcent l'une l'autre quand elles se côtoient. Homer peint une mer bleu-vert, profonde et froide, et y sème de petites touches rouge orangé : dans l'eau, sur la coque, sur le pont. En faible quantité, ce rouge fait paraître la mer plus verte encore, et la mer le rend plus vif. Exercice : cherchez toutes les petites taches rouges du tableau, puis regardez de nouveau la mer. Sa couleur vous semble-t-elle plus intense ?",
+        "compare": "Comme le feu de la fête de Sada, quelques touches de couleur chaude suffisent à animer un grand champ froid : la leçon de la quantité, appliquée aux couleurs complémentaires."
       },
       {
         "title": "Le Cygne, n° 17 (série SUW, groupe IX)",
@@ -222,7 +255,7 @@
         "museum": "Fondation Hilma af Klint, Stockholm",
         "image": "images/collection/cygne-hilma-af-klint.jpg",
         "credit": "Fondation Hilma af Klint, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Hilma_af_Klint,_1915,_Svanen,_No._17.jpg), domaine public",
-        "analysis": "Leçon 8 — Une couleur peut en paraître deux. C'est l'expérience la plus célèbre d'Albers : une même couleur, posée sur deux fonds différents, semble devenir deux couleurs. Ici, un seul rouge couvre tout le fond de la toile. Regardez-le près de l'anneau blanc, à gauche, puis près de l'anneau bleu, à droite : à côté du blanc, il paraît plus sombre et plus profond ; à côté du bleu, plus chaud, presque orangé. Exercice : fixez la petite flèche au centre pendant une trentaine de secondes, puis regardez un mur blanc. Une image apparaît, aux couleurs inversées : c'est l'image rémanente, autre phénomène étudié par Albers.",
+        "analysis": "Leçon 10 — Une couleur peut en paraître deux. C'est l'expérience la plus célèbre d'Albers : une même couleur, posée sur deux fonds différents, semble devenir deux couleurs. Ici, un seul rouge couvre tout le fond de la toile. Regardez-le près de l'anneau blanc, à gauche, puis près de l'anneau bleu, à droite : à côté du blanc, il paraît plus sombre et plus profond ; à côté du bleu, plus chaud, presque orangé. Exercice : fixez la petite flèche au centre pendant une trentaine de secondes, puis regardez un mur blanc. Une image apparaît, aux couleurs inversées : c'est l'image rémanente, autre phénomène étudié par Albers.",
         "compare": "Peint trente-cinq ans avant les premiers Hommages au carré d'Albers (1950), ce tableau pose déjà les mêmes questions avec des formes simples : un cercle au lieu d'un carré, et la couleur pour seul sujet. Longtemps restée inconnue, Hilma af Klint compte aujourd'hui parmi les pionnières de l'abstraction."
       }
     ]

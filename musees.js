@@ -87,7 +87,9 @@ function auHasard(liste) { return liste[hasard(liste.length)]; }
 // Mots-clés de recherche à partir des choix du visiteur (criteres.region : la région traitée par cette recherche)
 function motsCles(criteres) {
   const mots = [];
-  if (criteres.region) mots.push(auHasard(MOTS_RECHERCHE_REGIONS[criteres.region]));
+  if (criteres.mots) mots.push(criteres.mots); // mots-clés libres (recherche automatique des expositions spéciales)
+  // Mot de la région : imposé (motRegion) ou tiré au hasard
+  if (criteres.region) mots.push(criteres.motRegion || auHasard(MOTS_RECHERCHE_REGIONS[criteres.region]));
   criteres.th.forEach(t => mots.push(MOTS_THEMES[t]));
   criteres.ty.forEach(t => mots.push(MOTS_TYPES[t]));
   return mots.filter(Boolean);
@@ -124,7 +126,10 @@ function oeuvre(o) {
     // Région : d'abord le lieu et la culture ; le département du musée seulement en dernier recours
     regions: o.regions || (regionsDe(texteLieu).length ? regionsDe(texteLieu) : regionsDe(o.indiceRegion || '')), epoch: epoqueDe(annee), themes: [],
     types: [o.type || typeDe(o.classification)], langue: o.langue || 'en', direct: true, pastille: o.pastille,
-    sensible: MOTS_SENSIBLES.test(o.titre || '')
+    sensible: MOTS_SENSIBLES.test(o.titre || ''),
+    // Indices du pays d'origine (lieu, culture, nationalité de l'artiste), pour la règle des pays des expositions spéciales
+    // (séparés par « | » : le lieu est examiné en premier, puis la culture, puis la nationalité)
+    origine: [o.lieu, o.culture, o.nationalite].filter(Boolean).join(' | ')
   };
 }
 
@@ -525,7 +530,7 @@ const ADAPTATEURS = {
         return Promise.all(ids.map(id => lireJSON('https://collectionapi.metmuseum.org/public/collection/v1/objects/' + id, 8000).catch(() => null)));
       }).then(liste => liste.filter(o => o && o.isPublicDomain && o.primaryImageSmall).slice(0, n).map(o => oeuvre({
         titre: o.title, artiste: o.artistDisplayName, date: o.objectDate, annee: o.objectBeginDate,
-        lieu: [o.city, o.country].filter(Boolean).join(', '), culture: o.culture, indiceRegion: o.department,
+        lieu: [o.city, o.country].filter(Boolean).join(', '), culture: o.culture, nationalite: o.artistNationality, indiceRegion: o.department,
         musee: this.nom, image: o.primaryImageSmall, fiche: o.objectURL,
         classification: [o.classification, o.objectName, o.department].join(' ')
       })));
@@ -542,7 +547,7 @@ const ADAPTATEURS = {
       return lireJSON('https://api.artic.edu/api/v1/artworks/search?params=' + encodeURIComponent(JSON.stringify(requete)))
         .then(r => (r.data || []).filter(o => o.image_id).map(o => oeuvre({
           titre: o.title, artiste: (o.artist_display || '').split('\n')[0], date: o.date_display, annee: o.date_start,
-          lieu: o.place_of_origin, musee: this.nom, image: 'https://www.artic.edu/iiif/2/' + o.image_id + '/full/400,/0/default.jpg',
+          lieu: o.place_of_origin, nationalite: o.artist_display, musee: this.nom, image: 'https://www.artic.edu/iiif/2/' + o.image_id + '/full/400,/0/default.jpg',
           fiche: 'https://www.artic.edu/artworks/' + o.id, classification: [o.artwork_type_title, o.classification_title].join(' ')
         })));
     }
@@ -557,6 +562,7 @@ const ADAPTATEURS = {
       return lireJSON(url).then(r => (r.data || []).filter(o => o.images && o.images.web).map(o => oeuvre({
         titre: o.title, artiste: o.creators && o.creators[0] ? o.creators[0].description.split('(')[0].trim() : '', date: o.creation_date,
         annee: o.creation_date_earliest, culture: (o.culture || []).join(', '), indiceRegion: o.department,
+        nationalite: o.creators && o.creators[0] ? o.creators[0].description : '',
         musee: this.nom, image: o.images.web.url, fiche: o.url, classification: [o.type, o.department].join(' ')
       })));
     }
@@ -645,8 +651,9 @@ const ADAPTATEURS = {
 };
 
 // Recherche dans tous les catalogues en même temps ; un catalogue en panne n'empêche pas les autres de répondre
-function chercherDansLesMusees(criteres, parSource) {
-  const sources = Object.keys(ADAPTATEURS).filter(k => !ADAPTATEURS[k].actif || ADAPTATEURS[k].actif());
+// (seulement : liste facultative des catalogues à interroger, par exemple ceux qui savent chercher par mots-clés)
+function chercherDansLesMusees(criteres, parSource, seulement) {
+  const sources = Object.keys(ADAPTATEURS).filter(k => (!seulement || seulement.includes(k)) && (!ADAPTATEURS[k].actif || ADAPTATEURS[k].actif()));
   // Une recherche par région choisie (trois au plus), sinon une seule recherche sans région
   const regions = criteres.rg.length ? criteres.rg.slice(0, 3) : [null];
   const n = Math.max(4, Math.round((parSource || 8) / regions.length));
@@ -668,4 +675,225 @@ function chercherDansLesMusees(criteres, parSource) {
       });
       return { oeuvres, sources: resultats.map(r => ({ nom: r.source, ok: r.ok, nombre: r.liste.length })) };
     });
+}
+
+// ---------- Expositions spéciales : œuvres par lien et règle des pays ----------
+// Pays (ou territoire) d'une œuvre, reconnu dans son lieu, sa culture ou la nationalité de l'artiste, en français ou en anglais.
+// Le texte est comparé sans accents et en minuscules. L'ordre compte : les noms les plus précis d'abord
+// (« Polynésie » avant « français », « Papouasie-Nouvelle-Guinée » avant « Guinée », « Amérindien » avant « Inde »).
+// [nom affiché, continent, expression reconnue]
+const PAYS_OEUVRES = [
+  ['Polynésie française', 'Océanie', /\b(polynesie francaise|french polynesia|tahiti|marquesas|marquises)/],
+  ['Nouvelle-Calédonie', 'Océanie', /\b(nouvelle-caledonie|new caledonia|kanak)/],
+  ['Papouasie-Nouvelle-Guinée', 'Océanie', /\b(papouasie|papua|new guinea|nouvelle-guinee|sepik|asmat|massim)/],
+  ['Nouvelle-Zélande', 'Océanie', /\b(nouvelle-zelande|new zealand|maori|aotearoa)/],
+  ['Australie', 'Océanie', /\b(australi|aborigin|new south wales)/],
+  ['Hawaï', 'Océanie', /\b(hawai)/],
+  ['Fidji', 'Océanie', /\b(fidji|fiji)/],
+  ['Samoa', 'Océanie', /\bsamoa/],
+  ['Tonga', 'Océanie', /\btonga/],
+  ['Vanuatu', 'Océanie', /\b(vanuatu|new hebrides|nouvelles-hebrides)/],
+  ['Îles Salomon', 'Océanie', /\b(iles salomon|solomon islands)/],
+  ['Canada', 'Amériques', /\b(canad|quebec|inuit|haida|kwakwaka|kwakiutl)/],
+  ['États-Unis', 'Amériques', /\b(native american|american indian|amerindien|navajo|dine\b|hopi|lakota|sioux|cheyenne|apache|pueblo|zuni|tlingit|cherokee|iroquois|ojibwe|new mexico|nouveau-mexique|arizona|alaska)/],
+  ['Mexique', 'Amériques', /\b(mexi|azte|olmec|olmeque|maya|mixtec|mixteque|zapotec|zapoteque|teotihuacan|toltec|huastec|veracruz|oaxaca|colima|jalisco|nayarit)/],
+  ['Guatemala', 'Amériques', /\bguatemal/],
+  ['Honduras', 'Amériques', /\bhonduras/],
+  ['Nicaragua', 'Amériques', /\bnicaragua/],
+  ['Costa Rica', 'Amériques', /\bcosta rica/],
+  ['Panama', 'Amériques', /\bpanama/],
+  ['Cuba', 'Amériques', /\bcuba/],
+  ['Haïti', 'Amériques', /\bhaiti/],
+  ['Jamaïque', 'Amériques', /\b(jamaica|jamaique)/],
+  ['Porto Rico', 'Amériques', /\b(puerto rico|porto rico)/],
+  ['Colombie', 'Amériques', /\b(colombi|muisca|quimbaya|tairona)/],
+  ['Venezuela', 'Amériques', /\bvenezuel/],
+  ['Équateur', 'Amériques', /\b(equateur|ecuador)/],
+  ['Pérou', 'Amériques', /\b(perou|peru\b|peruvian|inca\b|incan|moche\b|nazca|nasca|wari\b|huari|chimu\b|paracas|chavin|chancay|lambayeque|recuay)/],
+  ['Bolivie', 'Amériques', /\b(bolivi|tiwanaku)/],
+  ['Chili', 'Amériques', /\b(chili\b|chile|mapuche)/],
+  ['Argentine', 'Amériques', /\bargentin/],
+  ['Brésil', 'Amériques', /\b(bresil|brazil)/],
+  ['États-Unis', 'Amériques', /\b(etats-unis|united states|american|americain|new york|boston|philadelphi|pennsylvani|massachusetts|chicago|new jersey|new england|connecticut|virginia|maryland|ohio|louisiana|texas|california)/],
+  ['Afrique du Sud', 'Afrique', /\b(afrique du sud|south africa|zulu|xhosa)/],
+  ['Égypte', 'Afrique', /\b(egypt|egypte|copt|pharaon|thebes|amarna|faiyum|fayoum|alexandri|mamluk|mamelouk|fatimid)/],
+  ['Éthiopie', 'Afrique', /\b(ethiopi|amhara|tigray|abyssin)/],
+  ['Érythrée', 'Afrique', /\b(erythre|eritre)/],
+  ['Soudan', 'Afrique', /\b(soudan|sudan|nubia|nubie|kerma|meroe)/],
+  ['Nigeria', 'Afrique', /\b(nigeri|yoruba|igbo|benin city|kingdom of benin|royaume du benin|ife\b|nok\b|hausa|urhobo|ijo\b)/],
+  ['Bénin', 'Afrique', /\b(benin|dahomey|fon\b)/],
+  ['Ghana', 'Afrique', /\b(ghana|asante|ashanti|akan\b)/],
+  ["Côte d'Ivoire", 'Afrique', /\b(cote d.ivoire|ivory coast|baule|baoule|senufo|senoufo|guro\b|gouro)/],
+  ['Mali', 'Afrique', /\b(mali\b|dogon|bamana|bambara|djenne|jenne)/],
+  ['Burkina Faso', 'Afrique', /\b(burkina|mossi|lobi\b)/],
+  ['Guinée', 'Afrique', /\b(guinee|guinea|baga\b)/],
+  ['Sierra Leone', 'Afrique', /\b(sierra leone|mende\b|sherbro)/],
+  ['Liberia', 'Afrique', /\bliberi/],
+  ['Sénégal', 'Afrique', /\b(senegal|wolof)/],
+  ['Cameroun', 'Afrique', /\b(cameroun|cameroon|bamileke|bamum|grassfields)/],
+  ['Gabon', 'Afrique', /\b(gabon|punu\b|kota\b)/],
+  ['République démocratique du Congo', 'Afrique', /\b(congo|kongo|kuba\b|luba\b|songye|pende\b|yaka\b|lega\b|mangbetu|zaire)/],
+  ['Angola', 'Afrique', /\b(angola|chokwe)/],
+  ['Zimbabwe', 'Afrique', /\b(zimbabwe|shona)/],
+  ['Mozambique', 'Afrique', /\bmozambi/],
+  ['Tanzanie', 'Afrique', /\b(tanzani|zanzibar|makonde)/],
+  ['Kenya', 'Afrique', /\b(kenya|swahili|maasai|masai)/],
+  ['Madagascar', 'Afrique', /\b(madagascar|malagasy|malgache)/],
+  ['Maroc', 'Afrique', /\b(maroc|morocc)/],
+  ['Algérie', 'Afrique', /\b(algeri|alger\b)/],
+  ['Tunisie', 'Afrique', /\b(tunisi|carthag|kairouan)/],
+  ['Libye', 'Afrique', /\b(libye|libya)/],
+  ['Afghanistan', 'Asie', /\b(afghan|herat|gandhara|bactria)/],
+  ['Iran', 'Asie', /\b(iran|persia|persan|perse\b|isfahan|ispahan|tabriz|shiraz|safavid|qajar|sasanian|sassanide|achaemenid|achemenide|timurid|timouride)/],
+  ['Irak', 'Asie', /\b(irak|iraq|mesopotami|assyri|babylon|sumer|baghdad|bagdad|mosul|nimrud)/],
+  ['Syrie', 'Asie', /\b(syri|damas|palmyr|aleppo|alep\b|raqqa)/],
+  ['Liban', 'Asie', /\b(liban|lebanon|phenici|beyrouth|beirut)/],
+  ['Israël', 'Asie', /\b(israel|jerusalem|palestin|judea|judee)/],
+  ['Jordanie', 'Asie', /\b(jordani|jordan\b|petra)/],
+  ['Turquie', 'Asie', /\b(turquie|turkey|turkish|turc\b|turque|ottoman|anatoli|istanbul|constantinople|iznik|bursa)/],
+  ['Arabie saoudite', 'Asie', /\b(arabie|arabia|saudi|mecca|la mecque)/],
+  ['Yémen', 'Asie', /\byemen/],
+  ['Pakistan', 'Asie', /\b(pakistan|lahore|mohenjo|indus\b)/],
+  ['Népal', 'Asie', /\b(nepal|kathmandu|newar\b)/],
+  ['Sri Lanka', 'Asie', /\b(sri lanka|ceylan|ceylon)/],
+  ['Bangladesh', 'Asie', /\bbangladesh/],
+  ['Inde', 'Asie', /\b(inde\b|india\b|indian|indien|mughal|moghol|rajput|rajasthan|deccan|tamil|chola|kerala|bengal|delhi|agra\b|kangra|pahari|basohli|mewar|mysore|gujarat|orissa|odisha)/],
+  ['Cambodge', 'Asie', /\b(cambodg|cambodia|khmer|angkor)/],
+  ['Thaïlande', 'Asie', /\b(thailand|thai\b|siam|ayutthaya|sukhothai)/],
+  ['Viêt Nam', 'Asie', /\b(vietnam|viet nam|dong son|champa)/],
+  ['Indonésie', 'Asie', /\b(indonesi|java\b|javanese|javanais|bali\b|balinese|sumatra)/],
+  ['Birmanie', 'Asie', /\b(birmanie|myanmar|burm|bagan)/],
+  ['Laos', 'Asie', /\blaos/],
+  ['Philippines', 'Asie', /\b(philippin|luzon)/],
+  ['Malaisie', 'Asie', /\b(malaisie|malaysia)/],
+  ['Japon', 'Asie', /\b(japon|japan|edo period|meiji|kyoto|tokyo|ukiyo|heian|kamakura|muromachi|momoyama)/],
+  ['Corée', 'Asie', /\b(coree|korea|joseon|goryeo|silla)/],
+  ['Tibet', 'Asie', /\b(tibet|lhasa)/],
+  ['Mongolie', 'Asie', /\bmongol/],
+  ['Taïwan', 'Asie', /\b(taiwan|formose)/],
+  ['Chine', 'Asie', /\b(chine|china|chinese|chinois|ming\b|qing\b|tang dynasty|song dynasty|han dynasty|yuan dynasty|beijing|pekin|jingdezhen)/],
+  ['Chypre', 'Europe', /\b(chypre|cyprus|cypriot)/],
+  ['Royaume-Uni', 'Europe', /\b(angleterre|england|english|anglais|britain|british|britannique|royaume-uni|united kingdom|london|londres|ecosse|scotland|scottish|wales|gallois)/],
+  ['Irlande', 'Europe', /\b(irlande|ireland|irish)/],
+  ['Belgique', 'Europe', /\b(belgi|flemish|flamand|flandre|flanders|brussels|bruxelles|antwerp|anvers|bruges|pays-bas du sud|southern netherlands)/],
+  ['Pays-Bas', 'Europe', /\b(pays-bas|netherland|dutch|neerlandais|hollan|amsterdam|delft|haarlem|utrecht|leiden)/],
+  ['France', 'Europe', /\b(france|french|francais|paris|lyon|giverny|provence|normand|limoges|bretagne|brittany|le havre)/],
+  ['Allemagne', 'Europe', /\b(allemagne|germany|german|allemand|prussia|bavaria|berlin|munich|nuremberg|dresden|saxony)/],
+  ['Autriche', 'Europe', /\b(autriche|austria|vienna)/],
+  ['Suisse', 'Europe', /\b(suisse|switzerland|swiss|geneve|geneva|zurich|basel)/],
+  ['Roumanie', 'Europe', /\b(roumani|romania)/],
+  ['Italie', 'Europe', /\b(itali|italy|rome\b|roman\b|romain|venise|venice|venetian|florence|florentin|milan|naples|siena|sienne|etrus|pompei|boscoreale|tuscan|toscan|lombard|bologna|genoa)/],
+  ['Espagne', 'Europe', /\b(espagne|spain|spanish|espagnol|madrid|seville|toledo|andalus|catalan)/],
+  ['Portugal', 'Europe', /\b(portugal|portugu|lisbon|lisbonne)/],
+  ['Grèce', 'Europe', /\b(grece|greece|greek|grec\b|grecque|athen|attic\b|corinth|cycladic|cycladique|minoan|minoen|mycen|crete|hellenisti)/],
+  ['Danemark', 'Europe', /\b(danemark|denmark|danish|danois|copenhag)/],
+  ['Suède', 'Europe', /\b(suede|sweden|swedish|suedois|stockholm)/],
+  ['Norvège', 'Europe', /\b(norvege|norway|norwegian)/],
+  ['Finlande', 'Europe', /\b(finland|finnish)/],
+  ['Islande', 'Europe', /\b(islande|iceland)/],
+  ['Pologne', 'Europe', /\b(pologne|poland|polish\b|polonais|krakow|cracovie)/],
+  ['Russie', 'Europe', /\b(russi|moscow|moscou|novgorod|petersburg)/],
+  ['Ukraine', 'Europe', /\b(ukrain|kyiv|kiev)/],
+  ['Tchéquie', 'Europe', /\b(tchequ|czech|bohemi|prague)/],
+  ['Hongrie', 'Europe', /\b(hongri|hungar|budapest)/],
+  ['Croatie', 'Europe', /\bcroati/],
+  ['Serbie', 'Europe', /\bserbi/],
+  ['Bulgarie', 'Europe', /\bbulgari/]
+];
+function sansAccents(s) { return String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase(); }
+// Renvoie { nom, continent } ou null si aucun pays n'est reconnu.
+// Un texte « lieu | culture | nationalité » est examiné morceau par morceau : le lieu indiqué l'emporte sur la culture.
+function paysDe(texte) {
+  for (const morceau of String(texte || '').split(' | ')) {
+    const s = sansAccents(morceau);
+    const p = s && PAYS_OEUVRES.find(x => x[2].test(s));
+    if (p) return { nom: p[0], continent: p[1] };
+  }
+  return null;
+}
+
+// Œuvre lue à partir du lien de sa fiche au musée (Met, Art Institute of Chicago, Cleveland, Wikidata).
+// Renvoie null si le lien n'est pas reconnu, si l'œuvre n'est pas dans le domaine public ou n'a pas d'image.
+function oeuvreParLien(lien) {
+  const u = String(lien || '').trim();
+  let m;
+  if ((m = u.match(/metmuseum\.org\/art\/collection\/search\/(\d+)/))) {
+    return lireJSON('https://collectionapi.metmuseum.org/public/collection/v1/objects/' + m[1]).then(o => o && o.isPublicDomain && (o.primaryImageSmall || o.primaryImage) ? oeuvre({
+      titre: o.title, artiste: o.artistDisplayName, date: o.objectDate, annee: o.objectBeginDate,
+      lieu: [o.city, o.country].filter(Boolean).join(', '), culture: o.culture, nationalite: o.artistNationality, indiceRegion: o.department,
+      musee: ADAPTATEURS.met.nom, image: o.primaryImageSmall || o.primaryImage, fiche: o.objectURL || u,
+      classification: [o.classification, o.objectName, o.department].join(' ')
+    }) : null);
+  }
+  if ((m = u.match(/artic\.edu\/artworks\/(\d+)/))) {
+    return lireJSON('https://api.artic.edu/api/v1/artworks/' + m[1] + '?fields=id,title,artist_display,date_display,date_start,place_of_origin,artwork_type_title,classification_title,image_id,is_public_domain')
+      .then(r => { const o = r && r.data; return o && o.is_public_domain && o.image_id ? oeuvre({
+        titre: o.title, artiste: (o.artist_display || '').split('\n')[0], date: o.date_display, annee: o.date_start,
+        lieu: o.place_of_origin, nationalite: o.artist_display, musee: ADAPTATEURS.aic.nom,
+        image: 'https://www.artic.edu/iiif/2/' + o.image_id + '/full/843,/0/default.jpg', fiche: 'https://www.artic.edu/artworks/' + o.id,
+        classification: [o.artwork_type_title, o.classification_title].join(' ')
+      }) : null; });
+  }
+  if ((m = u.match(/clevelandart\.org\/art\/([^/?#]+)/))) {
+    return lireJSON('https://openaccess-api.clevelandart.org/api/artworks/' + encodeURIComponent(m[1])).then(r => {
+      const o = r && r.data;
+      return o && o.share_license_status === 'CC0' && o.images && o.images.web ? oeuvre({
+        titre: o.title, artiste: o.creators && o.creators[0] ? o.creators[0].description.split('(')[0].trim() : '', date: o.creation_date,
+        annee: o.creation_date_earliest, culture: (o.culture || []).join(', '), indiceRegion: o.department,
+        nationalite: o.creators && o.creators[0] ? o.creators[0].description : '',
+        musee: ADAPTATEURS.cleveland.nom, image: o.images.web.url, fiche: o.url || u, classification: [o.type, o.department].join(' ')
+      }) : null;
+    });
+  }
+  if ((m = u.match(/wikidata\.org\/(?:wiki|entity)\/(Q\d+)/))) {
+    const requete = `SELECT ?i ?iLabel ?m ?mLabel ?date ?img ?typeEn ?createur ?createurLabel ?deces ?origine ?origineLabel ?nat WHERE {
+      VALUES ?i { wd:${m[1]} } ?i wdt:P18 ?img .
+      OPTIONAL { ?i wdt:P571 ?date } OPTIONAL { ?i wdt:P195 ?m }
+      OPTIONAL { ?i wdt:P31 ?type . ?type rdfs:label ?typeEn FILTER(LANG(?typeEn) = "en") }
+      OPTIONAL { ?i wdt:P495 ?origine }
+      OPTIONAL { ?i wdt:P170 ?createur . OPTIONAL { ?createur wdt:P27 ?nat } OPTIONAL { ?createur wdt:P570 ?deces } }
+      SERVICE wikibase:label { bd:serviceParam wikibase:language "fr,en,mul". }
+    } LIMIT 20`;
+    return sparql(requete, 12000).then(lignes => oeuvresWikidata(lignes, 1, {
+      lieu: 'mLabel', musee: nom => (nom && !/^Q\d+$/.test(nom) ? nom : 'Wikidata'), region: () => null
+    })).then(l => l[0] || null);
+  }
+  return Promise.resolve(null);
+}
+
+// Complète une exposition spéciale avec des œuvres de pays qui n'y sont pas encore représentés.
+// options : mots (mots-clés), regions et epoques (facultatifs), dejaPays (noms de pays déjà présents), manque (nombre de pays à ajouter).
+// Une œuvre par pays nouveau, en prenant les régions à tour de rôle pour équilibrer les continents.
+// D'abord les catalogues qui savent chercher par mots-clés, en trois vagues au plus (à chaque vague, un autre mot de culture
+// par région : « Chinese », puis « Japanese »…), arrêtées dès que le compte est atteint ; s'il manque encore des pays,
+// les musées du monde entier (Wikidata), sans mot-clé.
+// Renvoie { choisies, reserve } : la réserve sert à remplacer une œuvre dont l'image ne se charge pas.
+const CATALOGUES_MOTS_CLES = ['met', 'aic', 'cleveland', 'smk', 'mia', 'smithsonian'];
+function completerExposition(options) {
+  const regions = options.regions && options.regions.length ? options.regions : Object.keys(MOTS_RECHERCHE_REGIONS);
+  const epoques = options.epoques || [];
+  const pris = new Set(options.dejaPays || []), vus = new Set(), choisies = [], reserve = [];
+  const avecPays = w => { const p = paysDe(w.origine || w.place); return p ? Object.assign(w, { pays: p.nom, continent: p.continent }) : null; };
+  // Répartit les œuvres trouvées : une par pays absent, région après région
+  function repartir(listes) {
+    const files = listes.map(l => l.map(avecPays).filter(w => w && w.image && !vus.has((w.title + '|' + w.artist).toLowerCase())));
+    for (let k = 0; files.some(f => k < f.length); k++) files.forEach(f => {
+      const w = f[k]; if (!w) return;
+      vus.add((w.title + '|' + w.artist).toLowerCase());
+      if (!pris.has(w.pays) && choisies.length < options.manque) { pris.add(w.pays); choisies.push(w); } else reserve.push(w);
+    });
+  }
+  const parRegion = (chercher) => Promise.all(regions.map(r => chercher(r).catch(() => [])));
+  const motsRegions = {};
+  regions.forEach(r => { motsRegions[r] = (MOTS_RECHERCHE_REGIONS[r] || []).slice().sort(() => Math.random() - 0.5); });
+  const vague = k => {
+    if (k >= 3 || choisies.length >= options.manque) return Promise.resolve();
+    const aChercher = regions.filter(r => motsRegions[r][k]);
+    if (!aChercher.length) return Promise.resolve();
+    return Promise.all(aChercher.map(r => chercherDansLesMusees({ th: [], ty: [], ep: epoques, rg: [r], motRegion: motsRegions[r][k], mots: options.mots || '' }, 5, CATALOGUES_MOTS_CLES)
+      .then(x => x.oeuvres).catch(() => []))).then(repartir).then(() => vague(k + 1));
+  };
+  return vague(0)
+    .then(() => choisies.length >= options.manque ? null : parRegion(r => ADAPTATEURS.wikidata.chercher({ th: [], ty: [], ep: epoques, region: r }, 8)).then(repartir))
+    .then(() => ({ choisies, reserve: reserve.filter(w => !choisies.includes(w)) }));
 }

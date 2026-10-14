@@ -339,6 +339,8 @@ img.zoom:focus-visible{outline:3px solid #1a3a8a;outline-offset:-3px}
 .mini-info .img-credit,.art-card-info .img-credit{margin:4px 0 0}
 .mini-info .img-credit{font-size:10px}
 .wk-ana{font-size:13px;color:#444;line-height:1.8;margin-bottom:10px}
+.sp-auto{margin-top:28px;padding-top:18px;border-top:1px solid #e0d5c0}
+.sp-auto-t{font-family:'Cormorant Garamond',serif;font-size:22px;color:#111;margin-bottom:10px}
 .cmp-pt{background:rgba(201,168,76,.08);border-left:3px solid #C9A84C;padding:10px 14px;font-size:13px;color:#444;line-height:1.6;border-radius:0 4px 4px 0}
 .cmp-l{font-size:10px;text-transform:uppercase;letter-spacing:.1em;color:#8B6914;margin-bottom:4px;font-weight:600}
 /* ACCESSIBILITÉ : contrastes renforcés (WCAG AA, au moins 4,5:1 sur fond clair) */
@@ -500,8 +502,7 @@ html.sans-animation *,html.sans-animation *::before,html.sans-animation *::after
     </div>
     <hr>
     <p class="ey">Expositions spéciales</p>
-    <p class="fr-seul">Ce contenu n'est disponible qu'en français.</p>
-    <div class="sp-grid" id="sp-home" lang="fr">
+    <div class="sp-grid" id="sp-home">
       <p style="color:#666;font-size:13px">Chargement des expositions…</p>
     </div>
   </div>
@@ -726,15 +727,14 @@ html.sans-animation *,html.sans-animation *::before,html.sans-animation *::after
     <div class="expo-top">
       <div>
         <div style="margin-bottom:8px" id="sp-bdg"></div>
-        <h2 id="sp-h" lang="fr"></h2>
+        <h2 id="sp-h"></h2>
         <p style="font-size:14px;color:#666;margin-top:4px;font-style:italic" id="sp-sub"></p>
       </div>
       <button class="back-btn" onclick="go('home',document.querySelectorAll('.nav-links button')[0])"><span aria-hidden="true">←</span> Retour</button>
     </div>
-    <p class="fr-seul">Ce contenu n'est disponible qu'en français.</p>
     <p style="font-size:14px;color:#555;line-height:1.8;margin-bottom:24px;border-left:3px solid #C9A84C;padding-left:16px;font-style:italic" id="sp-intro"></p>
     <p class="ey" id="sp-cnt"></p>
-    <div id="sp-wks" lang="fr"></div>
+    <div id="sp-wks"></div>
   </div>
 </div>
 
@@ -816,7 +816,7 @@ const ART = [
     vibe:"Pulsations profondes et régulières, environ 72 par minute, par séries de 8 suivies d'une pause d'une seconde — le rythme d'une respiration profonde.",
     heights:[50,45,55,48,58,42,52,46,54,44] },
 ];
-const FLAGS={"France":"🇫🇷","Pays-Bas":"🇳🇱","Italie":"🇮🇹","Allemagne":"🇩🇪","Espagne":"🇪🇸","Angleterre":"🇬🇧","Japon":"🇯🇵","Chine":"🇨🇳","Corée":"🇰🇷","États-Unis":"🇺🇸","Mexique":"🇲🇽","Brésil":"🇧🇷","Égypte":"🇪🇬","Inde":"🇮🇳","Iran":"🇮🇷","Éthiopie":"🇪🇹","Suède":"🇸🇪","Tahiti":"🇵🇫"};
+const FLAGS={"France":"🇫🇷","Pays-Bas":"🇳🇱","Italie":"🇮🇹","Allemagne":"🇩🇪","Espagne":"🇪🇸","Angleterre":"🇬🇧","Japon":"🇯🇵","Chine":"🇨🇳","Corée":"🇰🇷","États-Unis":"🇺🇸","Mexique":"🇲🇽","Brésil":"🇧🇷","Égypte":"🇪🇬","Inde":"🇮🇳","Iran":"🇮🇷","Éthiopie":"🇪🇹","Suède":"🇸🇪","Tahiti":"🇵🇫","Polynésie":"🇵🇫","Papouasie":"🇵🇬","Nouvelle-Zélande":"🇳🇿","Australie":"🇦🇺","Canada":"🇨🇦","Guatemala":"🇬🇹","Pérou":"🇵🇪","Colombie":"🇨🇴","Bolivie":"🇧🇴","Chili":"🇨🇱","Argentine":"🇦🇷","Équateur":"🇪🇨","Costa Rica":"🇨🇷","Panama":"🇵🇦","Cuba":"🇨🇺","Nigeria":"🇳🇬","Bénin":"🇧🇯","Ghana":"🇬🇭","Côte d'Ivoire":"🇨🇮","Mali":"🇲🇱","Burkina":"🇧🇫","Cameroun":"🇨🇲","Gabon":"🇬🇦","Congo":"🇨🇩","Angola":"🇦🇴","Kenya":"🇰🇪","Tanzanie":"🇹🇿","Madagascar":"🇲🇬","Soudan":"🇸🇩","Maroc":"🇲🇦","Tunisie":"🇹🇳","Algérie":"🇩🇿","Afrique du Sud":"🇿🇦","Turquie":"🇹🇷","Irak":"🇮🇶","Syrie":"🇸🇾","Liban":"🇱🇧","Israël":"🇮🇱","Afghanistan":"🇦🇫","Pakistan":"🇵🇰","Népal":"🇳🇵","Sri Lanka":"🇱🇰","Cambodge":"🇰🇭","Thaïlande":"🇹🇭","Viêt Nam":"🇻🇳","Indonésie":"🇮🇩","Birmanie":"🇲🇲","Philippines":"🇵🇭","Royaume-Uni":"🇬🇧","Belgique":"🇧🇪","Grèce":"🇬🇷","Portugal":"🇵🇹","Autriche":"🇦🇹","Suisse":"🇨🇭","Danemark":"🇩🇰","Norvège":"🇳🇴","Pologne":"🇵🇱","Russie":"🇷🇺","Tchéquie":"🇨🇿","Hongrie":"🇭🇺","Irlande":"🇮🇪"};
 function gFlag(c){for(const[k,v]of Object.entries(FLAGS))if(c&&c.toLowerCase().includes(k.toLowerCase()))return v;return"🎨";}
 
 // Les expositions sont lues depuis expositions.json (modifiable avec Pages CMS : https://app.pagescms.org)
@@ -999,6 +999,9 @@ function carteOeuvre(w){
 }
 // Une œuvre dont l'image ne se charge pas est retirée de l'exposition, et l'époque aussi si elle se vide
 function retirerOeuvre(img){
+  // Expositions spéciales : œuvre ajoutée automatiquement → remplacée ; œuvre lue chez le musée → retirée
+  const sp=img.closest('.wk-card');
+  if(sp){if(sp.dataset.auto)remplacerOeuvreSp(sp);else if(sp.dataset.direct){sp.remove();majCompteSp();}return;}
   const carte=img.closest('.mini');if(!carte)return;
   const grille=carte.parentElement;carte.remove();
   if(grille&&!grille.children.length){const bloc=grille.closest('.tl');if(bloc)bloc.remove();}
@@ -1212,8 +1215,89 @@ let exposChargees=false;
 function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
 function escBr(s){return esc(s).replace(/\n/g,'<br>');}
 function lienCredit(s){return esc(s).replace(/\((https?:\/\/[^\s)]+)\)/g,'(<a href="$1" target="_blank" rel="noopener">source</a>)');}
-function viewSp(id){const e=expos.find(x=>x.id===id);if(!e)return;document.getElementById('sp-bdg').innerHTML=`<span class="badge bg">Exposition spéciale</span>${e.theme?` <span class="badge bt">${esc(e.theme)}</span>`:''}`;document.getElementById('sp-h').textContent=e.title||'';document.getElementById('sp-sub').textContent=e.subtitle||'';document.getElementById('sp-intro').textContent=e.intro||'';document.getElementById('sp-cnt').textContent='Comparaison mondiale · '+e.works.length+' œuvre(s)';document.getElementById('sp-wks').innerHTML=e.works.map(w=>`<div class="wk-card"><div class="wk-top"><div><h3>${esc(w.title)}</h3><p>${[w.artist,w.period,w.country,w.museum].filter(Boolean).map(esc).join(' · ')}</p></div><div class="wk-flag" aria-hidden="true">${gFlag(w.country)}</div></div>${w.image?`${imageOeuvre(w.image,(w.title||'')+(w.artist?', '+w.artist:''),'wk-img',w.sensible)}<small class="img-credit">${w.credit?'Image : '+lienCredit(w.credit):''}</small>`:''}${w.image&&typeof boutonAcces==='function'?boutonAcces({titre:w.title,artiste:w.artist,date:w.period,lieu:w.country,musee:w.museum,image:w.image,credit:w.credit?lienCredit(w.credit):'',analyse:w.analysis}):''}${w.analysis?`<p class="wk-ana">${escBr(w.analysis)}</p>`:''} ${w.compare?`<div class="cmp-pt"><div class="cmp-l">Point de comparaison</div>${escBr(w.compare)}</div>`:''}</div>`).join('');document.querySelectorAll('.pg').forEach(p=>p.classList.remove('on'));document.getElementById('pg-sp').classList.add('on');document.querySelectorAll('.nav-links button').forEach(b=>b.classList.remove('on'));window.scrollTo(0,0);}
-function renderHome(){const el=document.getElementById('sp-home');if(!el||!exposChargees)return;const pub=expos.filter(e=>e.status==='published');if(!pub.length){el.innerHTML='<p style="color:#666;font-size:13px">Aucune exposition publiée pour le moment.</p>';return;}el.innerHTML=pub.map(e=>`<div class="sp-card" role="button" tabindex="0" onclick="viewSp(${e.id})"><p class="sp-ey">Comparaison mondiale · ${e.works.length} œuvre(s)</p><h3 class="sp-t">${esc(e.title)}</h3><p class="sp-s">${esc(e.subtitle)}</p>${e.theme?`<div style="margin-top:10px"><span class="badge bg">${esc(e.theme)}</span></div>`:''}</div>`).join('');}
+// Règle des expositions spéciales : au moins 20 œuvres de pays différents (champ « minimum » dans Pages CMS).
+// Les œuvres peuvent venir d'un lien vers leur fiche au musée (champ « link ») : image et informations sont alors lues en direct.
+// S'il manque des pays, l'exposition est complétée en direct avec des œuvres trouvées dans les musées (musees.js).
+const MINIMUM_PAYS=20;
+// Mots-clés de recherche (en anglais, langue des catalogues) quand l'exposition n'en donne pas
+const MOTS_THEMES_EXPO={'Lumière & ombre à travers les cultures':'light','Portrait : Orient vs Occident':'portrait','Sacré & profane':'religious',"La nature dans l'art mondial":'landscape','Corps & identité':'figure','Guerre & paix':'war','Abstraction universelle':'abstract','Couleur & perception':'color'};
+function objectifPays(e){const n=parseInt(e.minimum,10);return n>0?n:MINIMUM_PAYS;}
+function paysOeuvre(w){return typeof paysDe==='function'?paysDe([w.country,w.origine].filter(Boolean).join(' | ')):null;}
+// Fiche de Pages CMS complétée par celle du musée : ce qui est rempli dans Pages CMS reste prioritaire
+function fusionnerOeuvre(w,m){
+  if(!m)return w.image?w:null; // musée injoignable ou œuvre refusée : image locale si elle existe, sinon l'œuvre est masquée
+  return Object.assign({},w,{title:w.title||m.title,artist:w.artist||m.artist,period:w.period||m.date,country:w.country||m.place,
+    museum:w.museum||m.museum,image:w.image||m.image,credit:w.credit||m.credit,sensible:w.sensible||m.sensible,
+    langue:w.title?'fr':m.langue,direct:!w.image,origine:m.origine});
+}
+function carteSp(w,auto){
+  const titre=w.langue&&w.langue!=='fr'?`<h3 lang="${esc(w.langue)}">${esc(w.title)}</h3>`:`<h3>${esc(w.title)}</h3>`;
+  return `<div class="wk-card"${auto?' data-auto="1"':''}${w.direct?' data-direct="1"':''}><div class="wk-top"><div>${titre}<p>${[w.artist,w.period,w.country,w.museum].filter(Boolean).map(esc).join(' · ')}</p>${auto?'<p><span class="pastille-direct">Ajoutée automatiquement · catalogue du musée, en direct</span></p>':w.direct?'<p><span class="pastille-direct">Catalogue du musée, en direct</span></p>':''}</div><div class="wk-flag" aria-hidden="true">${gFlag(w.country)}</div></div>`+
+    `${w.image?`${imageOeuvre(w.image,(w.title||'')+(w.artist?', '+w.artist:''),'wk-img',w.sensible)}<small class="img-credit">${w.credit?'Image : '+lienCredit(w.credit):''}</small>`:''}`+
+    `${w.image&&typeof boutonAcces==='function'?boutonAcces({titre:w.title,artiste:w.artist,date:w.period,lieu:w.country,musee:w.museum,image:w.image,credit:w.credit?lienCredit(w.credit):'',analyse:w.analysis}):''}`+
+    `${w.analysis?`<p class="wk-ana">${escBr(w.analysis)}</p>`:''} ${w.compare?`<div class="cmp-pt"><div class="cmp-l">Point de comparaison</div>${escBr(w.compare)}</div>`:''}</div>`;
+}
+let spEnCours={numero:0,reserve:[],pays:new Set()};
+// Compteur de l'exposition affichée : œuvres, pays et continents
+function majCompteSp(){
+  const cartes=[...document.querySelectorAll('#sp-wks .wk-card:not(.wk-attente)')];
+  const pays=new Set(),continents=new Set();
+  cartes.forEach(c=>{if(c.dataset.pays){pays.add(c.dataset.pays);continents.add(c.dataset.continent);}});
+  document.getElementById('sp-cnt').textContent='Comparaison mondiale · '+cartes.length+' œuvre'+(cartes.length>1?'s':'')+' · '+pays.size+' pays · '+continents.size+' continent'+(continents.size>1?'s':'');
+  return pays;
+}
+function marquerPays(el,w){const p=w.pays?{nom:w.pays,continent:w.continent}:paysOeuvre(w);if(p){el.dataset.pays=p.nom;el.dataset.continent=p.continent;}}
+function ajouterCarteSp(zone,w,auto){
+  const tmp=document.createElement('div');tmp.innerHTML=carteSp(w,auto);const el=tmp.firstElementChild;
+  marquerPays(el,w);zone.appendChild(el);return el;
+}
+function viewSp(id){const e=expos.find(x=>x.id===id);if(!e)return;
+  const numero=spEnCours.numero=spEnCours.numero+1; // si le visiteur ouvre une autre exposition, la recherche en cours est ignorée
+  document.getElementById('sp-bdg').innerHTML=`<span class="badge bg">Exposition spéciale</span>${e.theme?` <span class="badge bt">${esc(e.theme)}</span>`:''}`;
+  document.getElementById('sp-h').textContent=e.title||'';document.getElementById('sp-sub').textContent=e.subtitle||'';document.getElementById('sp-intro').textContent=e.intro||'';
+  const zone=document.getElementById('sp-wks');zone.innerHTML='';
+  // Œuvres choisies dans Pages CMS : celles qui ont un lien attendent la réponse du musée (une à une, dans l'ordre choisi)
+  const places=e.works.map(w=>{
+    if(!w.link){if(!w.title)return null;const el=ajouterCarteSp(zone,w,false);return Promise.resolve(el);}
+    const attente=document.createElement('div');attente.className='wk-card wk-attente';attente.innerHTML='<p class="sub">Chargement de l\'œuvre depuis le musée…</p>';zone.appendChild(attente);
+    const lire=typeof oeuvreParLien==='function'?oeuvreParLien(w.link).catch(()=>null):Promise.resolve(null);
+    return lire.then(m=>{const f=fusionnerOeuvre(w,m);
+      if(numero!==spEnCours.numero)return null;
+      if(!f||!f.title){attente.remove();return null;}
+      const tmp=document.createElement('div');tmp.innerHTML=carteSp(f,false);const el=tmp.firstElementChild;marquerPays(el,f);attente.replaceWith(el);return el;});
+  });
+  majCompteSp();
+  document.querySelectorAll('.pg').forEach(p=>p.classList.remove('on'));document.getElementById('pg-sp').classList.add('on');document.querySelectorAll('.nav-links button').forEach(b=>b.classList.remove('on'));window.scrollTo(0,0);
+  Promise.all(places).then(()=>{
+    if(numero!==spEnCours.numero)return;
+    const pays=majCompteSp(),objectif=objectifPays(e),manque=objectif-pays.size;
+    if(manque<=0||typeof completerExposition!=='function')return;
+    // Complément automatique : œuvres de pays absents, trouvées en direct dans les musées
+    const bloc=document.createElement('div');bloc.className='sp-auto';
+    bloc.innerHTML=`<h3 class="sp-auto-t">Œuvres d'autres pays, trouvées en direct dans les musées</h3><p class="expo-note">Pour présenter des œuvres d'autant de pays que prévu, l'exposition est complétée automatiquement avec des œuvres du domaine public trouvées dans les catalogues des musées. Elles changent d'une visite à l'autre.</p><p class="sub sp-auto-att">Recherche en direct d'œuvres d'autres pays…</p><div class="sp-auto-l"></div>`;
+    zone.appendChild(bloc);
+    const r=e.search||{};
+    completerExposition({mots:(r.keywords||MOTS_THEMES_EXPO[e.theme]||'').trim(),regions:[].concat(r.regions||[]),epoques:[].concat(r.epochs||[]),dejaPays:[...pays],manque})
+      .catch(()=>({choisies:[],reserve:[]})).then(res=>{
+        if(numero!==spEnCours.numero)return;
+        spEnCours.reserve=res.reserve;
+        const att=bloc.querySelector('.sp-auto-att');if(att)att.remove();
+        const liste=bloc.querySelector('.sp-auto-l');
+        res.choisies.forEach(w=>ajouterCarteSp(liste,{title:w.title,artist:w.artist,period:w.date,country:w.pays,museum:w.museum,image:w.image,credit:w.credit,sensible:w.sensible,langue:w.langue,pays:w.pays,continent:w.continent},true));
+        if(majCompteSp().size<objectif)bloc.insertAdjacentHTML('beforeend','<p class="expo-note">Les catalogues des musées n\'ont pas permis d\'atteindre le nombre de pays voulu pour le moment : rechargez la page pour relancer la recherche.</p>');
+      });
+  });
+}
+// Une œuvre ajoutée automatiquement dont l'image ne se charge pas est remplacée par une autre d'un pays absent
+function remplacerOeuvreSp(carte){
+  const liste=carte.parentElement;carte.remove();
+  const presents=new Set([...document.querySelectorAll('#sp-wks .wk-card:not(.wk-attente)')].map(c=>c.dataset.pays).filter(Boolean));
+  const k=spEnCours.reserve.findIndex(w=>!presents.has(w.pays));
+  if(k>=0&&liste){const w=spEnCours.reserve.splice(k,1)[0];
+    ajouterCarteSp(liste,{title:w.title,artist:w.artist,period:w.date,country:w.pays,museum:w.museum,image:w.image,credit:w.credit,sensible:w.sensible,langue:w.langue,pays:w.pays,continent:w.continent},true);}
+  majCompteSp();
+}
+function renderHome(){const el=document.getElementById('sp-home');if(!el||!exposChargees)return;const pub=expos.filter(e=>e.status==='published');if(!pub.length){el.innerHTML='<p style="color:#666;font-size:13px">Aucune exposition publiée pour le moment.</p>';return;}el.innerHTML=pub.map(e=>`<div class="sp-card" role="button" tabindex="0" onclick="viewSp(${e.id})"><p class="sp-ey">Comparaison mondiale · ${e.works.length} œuvre(s)${e.works.length<objectifPays(e)?' · complétée en direct':''}</p><h3 class="sp-t">${esc(e.title)}</h3><p class="sp-s">${esc(e.subtitle)}</p>${e.theme?`<div style="margin-top:10px"><span class="badge bg">${esc(e.theme)}</span></div>`:''}</div>`).join('');}
 function chargerExpos(){
   fetch('expositions.json',{cache:'no-cache'})
     .then(r=>{if(!r.ok)throw new Error('HTTP '+r.status);return r.json();})

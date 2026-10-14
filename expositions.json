@@ -5,6 +5,10 @@
     "status": "published",
     "theme": "Lumière & ombre à travers les cultures",
     "intro": "Sur dix-sept siècles (vers 200 – 1899) et quatre continents, de l'Égypte à la Chine, de l'Iran à l'Éthiopie, du Japon à l'Europe et jusqu'aux Caraïbes, la lumière est le véritable sujet de ces œuvres. Modelé d'un visage, brume qui efface les montagnes, éclat des céramiques d'une mosquée, feu d'une fête persane, auréoles des saints, soleil sur l'eau ou ciel d'orage tropical : naturelle ou divine, intime ou dramatique, peinte ou suggérée par le vide, elle prend dans chaque culture un sens différent.",
+    "minimum": 20,
+    "search": {
+      "keywords": "light"
+    },
     "works": [
       {
         "title": "Portrait d'un jeune homme (portrait du Fayoum)",
@@ -147,6 +151,10 @@
     "status": "published",
     "theme": "Couleur & perception",
     "intro": "« Dans la perception visuelle, une couleur n'est presque jamais vue telle qu'elle est réellement, physiquement. » C'est ainsi que Josef Albers (1888–1976), peintre et professeur au Bauhaus puis aux États-Unis, ouvre son livre L'Interaction des couleurs (1963). Pour lui, une couleur change selon ses voisines, selon sa quantité, selon la lumière : c'est le moyen le plus relatif de l'art. Il l'enseignait non par la théorie mais par l'expérience, avec des papiers colorés. Ses tableaux n'étant pas encore dans le domaine public, cette exposition met ses leçons à l'épreuve d'œuvres des cinq continents : Égypte ancienne, Mexique ancien, Chine, Iran, Éthiopie, Japon, Tahiti, États-Unis et Suède. Pour chaque œuvre, un exercice du regard vous est proposé.",
+    "minimum": 20,
+    "search": {
+      "keywords": "color"
+    },
     "works": [
       {
         "title": "Hippopotame dit « William »",

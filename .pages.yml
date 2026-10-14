@@ -50,15 +50,40 @@ content:
       - name: intro
         label: Introduction éditoriale
         type: text
+      - name: minimum
+        label: "Nombre minimum de pays différents (20 par défaut) : s'il en manque, le site complète l'exposition avec des œuvres trouvées en direct dans les musées"
+        type: number
+        default: 20
+      - name: search
+        label: "Recherche automatique (facultatif) : pour compléter l'exposition jusqu'au nombre de pays voulu"
+        type: object
+        fields:
+          - name: keywords
+            label: "Mots-clés en anglais, langue des catalogues (ex. : Navajo blanket, textile, light). Sans mot-clé, le thème de l'exposition est utilisé"
+            type: string
+          - name: regions
+            label: Régions où chercher (toutes si rien n'est coché)
+            type: select
+            options:
+              multiple: true
+              values: ["Europe", "Asie de l'Est", "Asie du Sud et du Sud-Est", "Amériques", "Afrique", "Moyen-Orient", "Océanie"]
+          - name: epochs
+            label: Époques (toutes si rien n'est coché)
+            type: select
+            options:
+              multiple: true
+              values: ["Antiquité", "Moyen Âge", "Renaissance", "XVIIe–XVIIIe s.", "XIXe siècle", "Modernisme", "Art contemporain"]
       - name: works
         label: Œuvres à comparer
         type: object
         list: true
         fields:
-          - name: title
-            label: Titre de l'œuvre
+          - name: link
+            label: "Lien de l'œuvre au musée (Met, Art Institute of Chicago, Cleveland ou Wikidata) : l'image, le titre, l'artiste, la date, le musée et le crédit sont alors lus automatiquement ; les champs remplis ci-dessous restent prioritaires"
             type: string
-            required: true
+          - name: title
+            label: "Titre de l'œuvre (facultatif si un lien est donné)"
+            type: string
           - name: artist
             label: Artiste
             type: string
@@ -72,7 +97,7 @@ content:
             label: Musée
             type: string
           - name: image
-            label: Image de l'œuvre (domaine public uniquement)
+            label: "Image de l'œuvre (domaine public uniquement ; facultative si un lien est donné, mais utile si le musée ne répond pas)"
             type: image
           - name: sensible
             label: "Image sensible (violence, nudité…) : floutée jusqu'à ce que le visiteur choisisse de la voir"

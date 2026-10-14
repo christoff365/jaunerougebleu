@@ -15,6 +15,7 @@ Règles à respecter :
 
 - n'utiliser que des images **du domaine public** (Met « Open Access », Wikimedia Commons avec la licence « Public domain » ; éviter « CC BY-SA ») ;
 - mettre le lien de la source entre parenthèses dans le crédit : il devient cliquable ;
+- pour une œuvre d'exposition spéciale, on peut simplement coller le **lien de sa fiche au musée** (Met, Art Institute of Chicago, Cleveland ou Wikidata) : voir plus bas « Expositions spéciales : œuvres des musées en direct » ;
 - cocher « Image sensible » pour les scènes violentes ou de nudité (l'image est floutée jusqu'au clic).
 
 Pages CMS enregistre directement sur GitHub : avant de modifier le site sur un ordinateur, faire **Fetch origin** puis **Pull origin** dans GitHub Desktop.
@@ -29,7 +30,7 @@ Pages CMS enregistre directement sur GitHub : avant de modifier le site sur un o
 | `musees.js` | Recherche en direct dans les catalogues ouverts des musées pour le générateur d'exposition |
 | `relais/` | Relais (Cloudflare Worker) qui garde les clés Europeana et Smithsonian hors du site et fait les recherches à sa place |
 | `i18n.js` | Traductions anglaise, espagnole et arabe, et moteur de traduction (clé = texte français exact) |
-| `expositions.json` | Expositions spéciales (modifiées via Pages CMS) |
+| `expositions.json` | Expositions spéciales (modifiées via Pages CMS) ; une œuvre peut n'y être qu'un lien vers sa fiche au musée |
 | `collection.json` | Œuvres du générateur d'exposition (modifiées via Pages CMS) |
 | `.pages.yml` | Formulaires de Pages CMS |
 | `images/oeuvres/`, `images/expositions/`, `images/collection/` | Images des œuvres, toutes du domaine public, créditées sous chaque image |
@@ -38,6 +39,21 @@ Pages CMS enregistre directement sur GitHub : avant de modifier le site sur un o
 | `masterpiece/` | Le jeu Masterpiece (en français uniquement) : `index.html` (le jeu) et `oeuvres.json` (sa collection de 517 œuvres) |
 | `copiste/` | Le jeu Copiste, repeindre une composition de mémoire (en français uniquement ; il s'appelait auparavant Masterpiece) |
 | `CNAME` | Nom de domaine jaunerougebleu.org pour GitHub Pages |
+
+## Expositions spéciales : œuvres des musées en direct et règle des 20 pays
+
+**Œuvre par lien.** Dans Pages CMS (Expositions → Œuvres à comparer), le champ « Lien de l'œuvre au musée » accepte l'adresse de la fiche d'une œuvre :
+
+| Musée | Forme du lien |
+| --- | --- |
+| The Metropolitan Museum of Art | `https://www.metmuseum.org/art/collection/search/12345` |
+| Art Institute of Chicago | `https://www.artic.edu/artworks/12345` |
+| Cleveland Museum of Art | `https://www.clevelandart.org/art/1915.534` |
+| Wikidata (toutes les institutions qui y décrivent leurs œuvres) | `https://www.wikidata.org/wiki/Q12345` |
+
+À chaque visite, le navigateur du visiteur demande au musée l'image, le titre, l'artiste, la date, le lieu et le crédit (fonction `oeuvreParLien` de `musees.js`). Les champs remplis dans Pages CMS restent prioritaires (par exemple un titre en français). L'œuvre n'est affichée que si le musée la déclare dans le domaine public (Met : Open Access ; Chicago : domaine public ; Cleveland : CC0 ; Wikidata : même règle que le générateur). Si le musée ne répond pas, l'image locale est utilisée si elle existe, sinon l'œuvre est masquée sans bloquer le reste.
+
+**Règle des 20 pays.** Chaque exposition spéciale présente des œuvres d'au moins 20 pays différents (champ « Nombre minimum de pays », 20 par défaut). Le pays de chaque œuvre est lu dans le champ « Pays », ou dans la fiche du musée (lieu, puis culture, puis nationalité de l'artiste), et reconnu grâce à la liste `PAYS_OEUVRES` de `musees.js` (noms français et anglais, cultures et villes : « Yoruba » → Nigeria, « Wari » → Pérou…). S'il manque des pays, le site complète l'exposition (fonction `completerExposition`) avec des œuvres du domaine public trouvées en direct, une par pays absent, en alternant les régions du monde : d'abord dans les catalogues qui savent chercher par mots-clés (Met, Chicago, Cleveland, SMK, Minneapolis, Smithsonian), en trois vagues au plus, puis, en dernier recours, dans les musées du monde entier via Wikidata. Les mots-clés viennent du champ « Recherche automatique » de l'exposition (en anglais, langue des catalogues), sinon du thème. Ces œuvres sont présentées à part (« Œuvres d'autres pays, trouvées en direct dans les musées »), sans analyse écrite, et changent d'une visite à l'autre ; une œuvre dont l'image ne se charge pas est remplacée par une autre d'un pays absent. Un compteur indique le nombre d'œuvres, de pays et de continents. Pour une exposition fixe et entièrement commentée, il suffit d'ajouter soi-même des œuvres (par lien) jusqu'à 20 pays : le complément automatique ne sert alors plus.
 
 ## Générateur d'exposition : recherche automatique dans les musées
 

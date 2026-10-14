@@ -46,6 +46,7 @@ content:
             - Corps & identité
             - Guerre & paix
             - Abstraction universelle
+            - Couleur & perception
       - name: intro
         label: Introduction éditoriale
         type: text

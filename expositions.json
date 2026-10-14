@@ -1,21 +1,54 @@
 [
   {
     "title": "La lumière comme langage universel",
-    "subtitle": "Vermeer, Le Caravage, Rembrandt, Hokusai, Turner et Monet — six visions de la lumière",
+    "subtitle": "De l'Égypte romaine à l'impressionnisme : onze visions de la lumière, d'Afrique, d'Asie et d'Europe",
     "status": "published",
     "theme": "Lumière & ombre à travers les cultures",
-    "intro": "En un peu plus de deux siècles et demi (vers 1600 – 1872) et sur deux continents, la lumière est le véritable sujet de ces chefs-d'œuvre. Qu'elle soit naturelle ou divine, intime ou dramatique, elle révèle l'essentiel de chaque culture.",
+    "intro": "Sur près de dix-sept siècles (vers 200 – 1872) et trois continents, de l'Égypte à la Chine, de l'Iran à l'Éthiopie, du Japon à l'Europe, la lumière est le véritable sujet de ces œuvres. Modelé d'un visage, brume qui efface les montagnes, éclat des céramiques d'une mosquée, feu d'une fête persane, auréoles des saints ou soleil sur l'eau : naturelle ou divine, intime ou dramatique, peinte ou suggérée par le vide, elle prend dans chaque culture un sens différent.",
     "works": [
       {
-        "title": "La Jeune Fille à la perle",
-        "artist": "Johannes Vermeer",
-        "country": "Pays-Bas",
-        "period": "c. 1665",
-        "museum": "Mauritshuis, La Haye",
-        "image": "images/expositions/jeune-fille-a-la-perle-vermeer.jpg",
-        "credit": "Mauritshuis, La Haye, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:1665_Girl_with_a_Pearl_Earring.jpg), domaine public",
-        "analysis": "La lumière chez Vermeer est douce, diffuse, intimiste. Venue de la gauche, comme d'une fenêtre hors du tableau, elle modèle le visage sans effet dramatique et fait briller la perle. C'est la lumière du quotidien transfiguré.",
-        "compare": "Contraste direct avec le clair-obscur dramatique du Caravage : plus de soixante ans séparent les deux tableaux, et leurs conceptions de la lumière s'opposent."
+        "title": "Portrait d'un jeune homme (portrait du Fayoum)",
+        "artist": "Peintre de l'Égypte romaine",
+        "country": "Égypte",
+        "period": "190–210 apr. J.-C.",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/collection/portrait-fayoum.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/547768), domaine public (Open Access)",
+        "analysis": "Ce portrait peint sur bois était placé sur la momie du défunt, à la place du visage. Le peintre modèle le visage par la lumière : quelques touches claires sur l'arête du nez, le front et la lèvre inférieure, des ombres douces sous le menton et autour des yeux. Le regard, très ouvert, accroche le spectateur. Quatorze siècles avant Vermeer, l'Égypte romaine sait déjà faire naître un visage de la lumière.",
+        "compare": "Comme chez Vermeer, une lumière douce et un regard tourné vers nous. Mais ici, la lumière ne saisit pas un instant : elle doit garder vivant, pour l'éternité, le visage d'un défunt."
+      },
+      {
+        "title": "Vieux arbres, lointain plat",
+        "artist": "Guo Xi",
+        "country": "Chine",
+        "period": "vers 1080",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/collection/vieux-arbres-guo-xi.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/39668), domaine public (Open Access)",
+        "analysis": "Un rouleau horizontal peint à l'encre sur soie. Pas de soleil, pas d'ombres portées : la lumière est celle d'un air humide, d'une brume qui monte de l'eau et efface les lointains. Les vieux arbres noueux du premier plan sont peints à l'encre dense ; plus loin, l'encre se dilue jusqu'à se fondre dans la soie. La lumière naît de cette gradation, du sombre au clair, du proche au lointain.",
+        "compare": "Sept siècles et demi avant Hokusai, le peintre chinois suggère déjà la lumière par le vide. Comme Turner, il dissout les formes dans l'atmosphère, mais avec la retenue d'une seule encre, là où Turner déverse la couleur."
+      },
+      {
+        "title": "Mihrab (niche de prière)",
+        "artist": "Atelier d'Ispahan",
+        "country": "Ispahan, Iran",
+        "period": "1354–1355",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/collection/mihrab-ispahan.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/449537), domaine public (Open Access)",
+        "analysis": "Dans une mosquée ou une école coranique, le mihrab indique la direction de La Mecque, vers laquelle on prie. Celui-ci est fait de milliers de petits morceaux de céramique émaillée assemblés en mosaïque : bleu profond, turquoise, blanc. L'émail brille et renvoie la lumière de la salle ; la niche, plus sombre, semble s'ouvrir vers un ailleurs. Le Coran compare la lumière divine à une lampe posée dans une niche (sourate de la Lumière, 24, 35), et la forme du mihrab a souvent été rapprochée de cette image.",
+        "compare": "Ici, aucune scène et aucune source de lumière peinte : c'est l'œuvre elle-même qui reflète la lumière réelle. À la même époque, l'Europe gothique cherche la lumière divine dans le vitrail ; l'art islamique la cherche dans l'éclat de la céramique et la géométrie, sans image."
+      },
+      {
+        "title": "La Fête de Sada, page du Shahnameh (Livre des rois) de Shah Tahmasp",
+        "artist": "Texte d'Abu'l Qasim Firdausi",
+        "country": "Tabriz, Iran",
+        "period": "vers 1525",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/collection/fete-de-sada-shahnameh.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/452111), domaine public (Open Access)",
+        "analysis": "Le Livre des rois raconte comment le roi Hushang découvrit le feu : il lança une pierre sur un serpent, la manqua, et la pierre, en frappant un rocher, fit jaillir une étincelle. Pour remercier Dieu, il fit allumer un grand feu et fonda la fête de Sada. Au centre de la page, le brasier orange réunit le roi, sa cour et même les animaux. Pourtant, ce feu ne projette aucune ombre : dans la peinture persane, chaque couleur rayonne de sa propre lumière, pure et égale, et l'or semé dans les marges scintille réellement quand la page bouge.",
+        "compare": "Chez Le Caravage ou Rembrandt, la lumière vient d'une source et creuse des ombres. Ici, la source de lumière est au cœur du récit, mais elle n'éclaire rien : toute la page est lumineuse. Moins d'un siècle sépare ces deux idées opposées de la lumière."
       },
       {
         "title": "Judith décapitant Holopherne",
@@ -39,6 +72,28 @@
         "credit": "Rijksmuseum, Amsterdam, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:The_Night_Watch_-_HD.jpg), domaine public",
         "analysis": "Rembrandt orchestre la lumière comme un chef d'orchestre — certains personnages émergent, d'autres disparaissent dans l'ombre.",
         "compare": "Là où Vermeer choisit un sujet unique, Rembrandt anime une multitude. La lumière devient architecte social."
+      },
+      {
+        "title": "La Jeune Fille à la perle",
+        "artist": "Johannes Vermeer",
+        "country": "Pays-Bas",
+        "period": "c. 1665",
+        "museum": "Mauritshuis, La Haye",
+        "image": "images/expositions/jeune-fille-a-la-perle-vermeer.jpg",
+        "credit": "Mauritshuis, La Haye, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:1665_Girl_with_a_Pearl_Earring.jpg), domaine public",
+        "analysis": "La lumière chez Vermeer est douce, diffuse, intimiste. Venue de la gauche, comme d'une fenêtre hors du tableau, elle modèle le visage sans effet dramatique et fait briller la perle. C'est la lumière du quotidien transfiguré.",
+        "compare": "Contraste direct avec le clair-obscur dramatique du Caravage : plus de soixante ans séparent les deux tableaux, et leurs conceptions de la lumière s'opposent."
+      },
+      {
+        "title": "Triptyque : Ewostatewos et huit de ses disciples",
+        "artist": "Artiste des hauts plateaux du nord",
+        "country": "Éthiopie (Amhara)",
+        "period": "fin du XVIIe siècle",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/collection/icone-ethiopienne.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/319625), domaine public (Open Access)",
+        "analysis": "Ewostatewos, moine éthiopien du XIVe siècle, est entouré de huit de ses disciples. Pas d'ombres, pas de source de lumière : les visages et les vêtements rouges et jaunes se détachent sur des fonds vert sombre. La lumière est donnée par les auréoles, faites de fins rayons rouges sur fond jaune, qui entourent chaque tête comme un soleil. C'est une lumière de sainteté : elle ne vient pas du monde, elle émane des personnages.",
+        "compare": "Peint à peu près à la même époque que La Jeune Fille à la perle, ce triptyque montre l'autre voie de la lumière : non pas celle qui tombe d'une fenêtre, mais celle qui rayonne de l'intérieur, comme dans les icônes de l'Orient chrétien dont la peinture éthiopienne est parente."
       },
       {
         "title": "Cent vues du Mont Fuji",
@@ -72,6 +127,103 @@
         "credit": "Musée Marmottan Monet, Paris, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Monet_-_Impression,_Sunrise.jpg), domaine public",
         "analysis": "Le port du Havre au petit matin, dans la brume. Quelques touches rapides suffisent : les bateaux et les grues ne sont que des silhouettes, et le soleil, petit disque orange, trace sur l'eau un reflet fait de quelques coups de pinceau. Monet ne peint pas le port, mais l'impression d'un instant de lumière. Le titre du tableau a donné son nom au mouvement impressionniste.",
         "compare": "Monet prolonge Turner, dont il avait découvert les tableaux à Londres : chez l'un comme chez l'autre, un soleil sur l'eau et des formes qui se dissolvent dans l'atmosphère. Mais là où Turner est dramatique et chargé de sens, avec un navire qui part pour sa démolition, Monet saisit un moment ordinaire, sans histoire, rien que la lumière. Comme chez Hokusai, l'essentiel est suggéré plutôt que décrit."
+      }
+    ]
+  },
+  {
+    "title": "La couleur est relative",
+    "subtitle": "D'après L'Interaction des couleurs de Josef Albers : huit leçons du regard, de l'Égypte ancienne à l'abstraction",
+    "status": "published",
+    "theme": "Couleur & perception",
+    "intro": "« Dans la perception visuelle, une couleur n'est presque jamais vue telle qu'elle est réellement, physiquement. » C'est ainsi que Josef Albers (1888–1976), peintre et professeur au Bauhaus puis aux États-Unis, ouvre son livre L'Interaction des couleurs (1963). Pour lui, une couleur change selon ses voisines, selon sa quantité, selon la lumière : c'est le moyen le plus relatif de l'art. Il l'enseignait non par la théorie mais par l'expérience, avec des papiers colorés. Ses tableaux n'étant pas encore dans le domaine public, cette exposition met ses leçons à l'épreuve d'œuvres de quatre continents : Égypte ancienne, Chine, Iran, Éthiopie, Japon, Tahiti et Suède. Pour chaque œuvre, un exercice du regard vous est proposé.",
+    "works": [
+      {
+        "title": "Hippopotame dit « William »",
+        "artist": "Atelier égyptien, Moyen Empire",
+        "country": "Égypte",
+        "period": "vers 1961–1878 av. J.-C.",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/collection/hippopotame-egypte.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/544227), domaine public (Open Access)",
+        "analysis": "Leçon 1 — Une couleur n'est jamais seule. Ce petit hippopotame en faïence égyptienne est d'un bleu turquoise intense, couvert de plantes des marais dessinées en noir. Pour Albers, aucune couleur ne se voit isolément : elle change selon ce qui l'entoure. Les fins traits noirs rendent le turquoise plus lumineux. Exercice : regardez le fond gris de la photographie. À côté de ce turquoise, il paraît légèrement chaud, presque rosé : notre œil ajoute au gris la couleur opposée (complémentaire) du turquoise. C'est le contraste simultané, le phénomène qui est au cœur du livre d'Albers.",
+        "compare": "Le même turquoise revient plus de trois mille ans plus tard dans le mihrab d'Ispahan. Entouré de bleu foncé et de blanc, il n'y paraît plus tout à fait le même."
+      },
+      {
+        "title": "Vieux arbres, lointain plat",
+        "artist": "Guo Xi",
+        "country": "Chine",
+        "period": "vers 1080",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/collection/vieux-arbres-guo-xi.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/39668), domaine public (Open Access)",
+        "analysis": "Leçon 2 — Clair ou foncé ? Albers commence son enseignement par une question simple : de deux couleurs, laquelle est la plus claire ? C'est souvent plus difficile qu'il n'y paraît, car la couleur trompe l'œil. Guo Xi se passe presque de couleur : avec une seule encre, plus ou moins diluée sur la soie, il obtient toute une gamme de gris, du noir des branches au voile de la brume. Exercice : plissez les yeux devant n'importe quelle œuvre de cette exposition. Les couleurs s'atténuent et il ne reste que le clair et le foncé, ce qu'Albers appelle la clarté d'une couleur.",
+        "compare": "Chez Guo Xi, une même encre produit des clartés différentes. Dans Femmes de Tahiti, au contraire, des couleurs très différentes, le rose et le jaune, ont presque la même clarté."
+      },
+      {
+        "title": "Mihrab (niche de prière)",
+        "artist": "Atelier d'Ispahan",
+        "country": "Ispahan, Iran",
+        "period": "1354–1355",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/collection/mihrab-ispahan.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/449537), domaine public (Open Access)",
+        "analysis": "Leçon 3 — Les couleurs se mélangent dans l'œil. Le mihrab est une mosaïque de milliers de petits morceaux de céramique en quelques couleurs seulement : bleu foncé, turquoise, blanc, un peu d'ocre et de vert. Vus de loin, ces fragments se mêlent dans l'œil et forment des bleus intermédiaires qui n'existent sur aucun morceau. Albers étudie ce mélange optique, et l'« effet Bezold » : changer une seule couleur dans un motif suffit à transformer tout l'ensemble. Exercice : comparez le bleu foncé du large cadre, où le blanc ne dessine que l'écriture, et celui du panneau au-dessus de la niche, parcouru d'entrelacs blancs : là, le même bleu paraît plus clair.",
+        "compare": "Plus de cinq siècles avant les petits points de couleur des peintres néo-impressionnistes, les céramistes d'Ispahan jouaient déjà avec le mélange des couleurs dans l'œil du spectateur."
+      },
+      {
+        "title": "La Fête de Sada, page du Shahnameh (Livre des rois) de Shah Tahmasp",
+        "artist": "Texte d'Abu'l Qasim Firdausi",
+        "country": "Tabriz, Iran",
+        "period": "vers 1525",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/collection/fete-de-sada-shahnameh.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/452111), domaine public (Open Access)",
+        "analysis": "Leçon 4 — La quantité compte. Pour Albers, une couleur n'agit pas seulement par sa teinte, mais aussi par sa surface : une petite tache intense peut tenir tête à un grand champ. Sur cette page, un pré vert pâle occupe tout le centre. Au milieu, le petit brasier orange de la fête de Sada, à peine plus grand qu'un personnage, attire pourtant aussitôt le regard. Autour, les rochers roses et violets, les bleus des vêtements et l'or des marges s'équilibrent par petites touches. Exercice : cachez le feu avec le doigt ; la page entière perd son centre.",
+        "compare": "Albers conseillait de faire varier la proportion des couleurs plutôt que leur nombre. Le peintre persan, avec des dizaines de couleurs, et Ogata Kōrin, avec à peine trois, appliquent la même leçon : c'est la quantité qui règle l'équilibre."
+      },
+      {
+        "title": "Triptyque : Ewostatewos et huit de ses disciples",
+        "artist": "Artiste des hauts plateaux du nord",
+        "country": "Éthiopie (Amhara)",
+        "period": "fin du XVIIe siècle",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/collection/icone-ethiopienne.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/319625), domaine public (Open Access)",
+        "analysis": "Leçon 5 — Chaud et froid. Les visages clairs et les vêtements rouges et jaunes, couleurs chaudes, se détachent sur des fonds vert sombre, couleur froide. Les couleurs chaudes semblent avancer vers nous, les froides reculer : le peintre éthiopien crée ainsi du relief sans ombre ni perspective. Albers montre que le chaud et le froid sont eux-mêmes relatifs : un même rouge paraît plus chaud à côté d'un vert qu'à côté d'un orange. Exercice : en bas du panneau central, deux disciples se tiennent côte à côte, l'un vêtu de bleu pâle, l'autre de jaune. Lequel semble le plus proche de vous ?",
+        "compare": "Deux siècles plus tard, Gauguin pose lui aussi des aplats de couleurs chaudes, le jaune du sable et le rouge du paréo, devant le bleu et le vert froids de la mer."
+      },
+      {
+        "title": "Iris à Yatsuhashi (les Huit Ponts)",
+        "artist": "Ogata Kōrin",
+        "country": "Japon",
+        "period": "après 1709",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/collection/iris-yatsuhashi-korin.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/39664), domaine public (Open Access)",
+        "analysis": "Leçon 6 — Peu de couleurs, beaucoup d'effets. Sur ce paravent à six panneaux, Ogata Kōrin n'emploie presque que trois couleurs : le bleu-violet des iris, le vert des feuilles et l'or du fond, avec le gris du pont en zigzag. Les fleurs sont peintes en deux bleus, l'un sombre, l'autre plus clair : un intervalle de couleur, qu'Albers apprenait à reconnaître et à transposer comme un intervalle en musique. Le fond d'or, lui, change avec la lumière de la pièce et la place du spectateur. Exercice : regardez les iris placés devant le pont gris, puis ceux qui se détachent sur l'or. Leur bleu vous semble-t-il le même ?",
+        "compare": "Comme Hilma af Klint deux siècles plus tard, Kōrin pose la couleur en aplats, sans ombre ni modelé, pour qu'elle agisse par elle-même. L'Europe découvrira cette leçon japonaise à la fin du XIXe siècle."
+      },
+      {
+        "title": "Femmes de Tahiti",
+        "artist": "Paul Gauguin",
+        "country": "Tahiti, par un peintre français",
+        "period": "1891",
+        "museum": "Musée d'Orsay, Paris",
+        "image": "images/oeuvres/femmes-de-tahiti-gauguin.jpg",
+        "credit": "Musée d'Orsay, Paris, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Paul_Gauguin_056.jpg), domaine public",
+        "analysis": "Leçon 7 — Des frontières qui s'effacent ou qui vibrent. Albers observe que deux couleurs de même clarté se fondent l'une dans l'autre : leur frontière s'efface, même si leurs teintes sont très différentes. Au contraire, deux couleurs vives et opposées font vibrer leur bord. Gauguin joue des deux : la robe rose de la femme de droite et le sable jaune ont une clarté proche et se touchent sans heurt, tandis que le paréo rouge à motifs blancs éclate sur le sable. Exercice : plissez les yeux devant la robe rose. Où s'arrête-t-elle ?",
+        "compare": "Chez Guo Xi, tout est affaire de clarté, presque sans couleur ; chez Gauguin, la couleur est si forte qu'on en oublie la clarté. Albers apprenait à ses élèves à voir les deux à la fois."
+      },
+      {
+        "title": "Le Cygne, n° 17 (série SUW, groupe IX)",
+        "artist": "Hilma af Klint",
+        "country": "Suède",
+        "period": "1915",
+        "museum": "Fondation Hilma af Klint, Stockholm",
+        "image": "images/collection/cygne-hilma-af-klint.jpg",
+        "credit": "Fondation Hilma af Klint, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Hilma_af_Klint,_1915,_Svanen,_No._17.jpg), domaine public",
+        "analysis": "Leçon 8 — Une couleur peut en paraître deux. C'est l'expérience la plus célèbre d'Albers : une même couleur, posée sur deux fonds différents, semble devenir deux couleurs. Ici, un seul rouge couvre tout le fond de la toile. Regardez-le près de l'anneau blanc, à gauche, puis près de l'anneau bleu, à droite : à côté du blanc, il paraît plus sombre et plus profond ; à côté du bleu, plus chaud, presque orangé. Exercice : fixez la petite flèche au centre pendant une trentaine de secondes, puis regardez un mur blanc. Une image apparaît, aux couleurs inversées : c'est l'image rémanente, autre phénomène étudié par Albers.",
+        "compare": "Peint trente-cinq ans avant les premiers Hommages au carré d'Albers (1950), ce tableau pose déjà les mêmes questions avec des formes simples : un cercle au lieu d'un carré, et la couleur pour seul sujet. Longtemps restée inconnue, Hilma af Klint compte aujourd'hui parmi les pionnières de l'abstraction."
       }
     ]
   }

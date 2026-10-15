@@ -214,6 +214,19 @@ a.mus-site:hover{color:var(--bleu)}
 /* Icône Wikidata : petit code-barres rouge, vert et bleu */
 .wd-ico{display:inline-block;width:16px;height:11px;background:linear-gradient(90deg,#990000 0 2px,transparent 2px 3px,#990000 3px 6px,transparent 6px 7px,#339966 7px 10px,transparent 10px 11px,#006699 11px 12px,transparent 12px 13px,#006699 13px 16px)}
 .wd-ico-texte{vertical-align:-1px}
+.mv-aide{font-size:13px;color:#5c5c5c;margin:-4px 0 12px;line-height:1.6}
+.lien-btn{background:none;border:none;padding:0;color:var(--bleu);text-decoration:underline;font:inherit;cursor:pointer}
+#mv-tags .mv-groupe{margin-bottom:10px}
+#mv-tags .mv-groupe-t{font-size:12px;color:#666;margin-bottom:6px}
+#mv-tags .tags{margin-bottom:8px}
+.artiste-ligne{margin-bottom:24px}
+.artiste-ligne input{width:100%;max-width:520px;padding:10px 12px;border:1px solid #e0d5c0;border-radius:4px;font:inherit;font-size:14px;background:#fff;color:#111}
+.mv-carte{break-inside:avoid;margin:0 0 14px}
+.mv-carte h4{font-family:'Cormorant Garamond',serif;font-size:19px;margin:0 0 2px;color:#111}
+.mv-carte .mv-lieu{font-size:12px;color:#666;margin:0 0 4px}
+.mv-carte .mv-art{font-size:12px;color:#555;font-style:italic}
+.mv-liste{columns:2 300px;column-gap:28px}
+.mv-absences b{color:#222}
 .mus-aide{font-size:13px;color:#5c5c5c;margin-top:-6px}
 .expo-sources{font-size:12px;color:#5c5c5c;line-height:1.6;margin-top:10px;padding-top:12px;border-top:1px solid #e0d5c0}
 .expo-note{background:#fff8e1;border-left:3px solid var(--jaune);padding:10px 14px;font-size:13px;color:#555;margin-bottom:18px;line-height:1.6}
@@ -442,6 +455,7 @@ html.sans-animation *,html.sans-animation *::before,html.sans-animation *::after
     <button onclick="go('wb',this)">Bien-être</button>
     <a href="jeux/index.html">Jeux</a>
     <button onclick="go('mus',this)">Musées</button>
+    <button onclick="go('mv',this)">Mouvements</button>
   </div>
   <div class="langs" role="group" aria-label="Langue">
     <button class="on" data-lang="fr" lang="fr" aria-label="Français" onclick="setLang('fr',this)">FR</button>
@@ -514,7 +528,7 @@ html.sans-animation *,html.sans-animation *::before,html.sans-animation *::after
 <div id="pg-build" class="pg">
   <div class="wrap">
     <h2>Construisez votre exposition</h2>
-    <p class="sub">Sélectionnez vos préférences : l'exposition se compose automatiquement à partir de notre collection et des catalogues de musées du monde entier, interrogés en direct. Seules des œuvres du domaine public sont montrées : peintures, sculptures, architecture, dessins, arts décoratifs et photographies.</p>
+    <p class="sub">Sélectionnez vos préférences : l'exposition se compose automatiquement à partir de notre collection et des catalogues de musées du monde entier, interrogés en direct. Seules des œuvres du domaine public sont montrées : peintures, sculptures, architecture, dessins, manuscrits, icônes, arts décoratifs et photographies.</p>
     <div class="step-row"><div class="step-n">1</div><div class="step-l">Thèmes</div></div>
     <div class="tags">
       <span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Portraits" onclick="tog(this,'th')">Portraits</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Paysages" onclick="tog(this,'th')">Paysages</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Abstraction" onclick="tog(this,'th')">Abstraction</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Spiritualité" onclick="tog(this,'th')">Spiritualité</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Vie quotidienne" onclick="tog(this,'th')">Vie quotidienne</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Mythologie" onclick="tog(this,'th')">Mythologie</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Nature morte" onclick="tog(this,'th')">Nature morte</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Lumière & couleur" onclick="tog(this,'th')">Lumière & couleur</span>
@@ -529,7 +543,16 @@ html.sans-animation *,html.sans-animation *::before,html.sans-animation *::after
     </div>
     <div class="step-row"><div class="step-n">4</div><div class="step-l">Types d'œuvres</div></div>
     <div class="tags">
-      <span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Peinture" onclick="tog(this,'ty')">Peinture</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Sculpture" onclick="tog(this,'ty')">Sculpture</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Architecture" onclick="tog(this,'ty')">Architecture</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Dessins et estampes" onclick="tog(this,'ty')">Dessins et estampes</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Arts décoratifs" onclick="tog(this,'ty')">Arts décoratifs</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Photographie" onclick="tog(this,'ty')">Photographie</span>
+      <span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Peinture" onclick="tog(this,'ty')">Peinture</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Sculpture" onclick="tog(this,'ty')">Sculpture</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Architecture" onclick="tog(this,'ty')">Architecture</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Dessins et estampes" onclick="tog(this,'ty')">Dessins et estampes</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Arts décoratifs" onclick="tog(this,'ty')">Arts décoratifs</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Photographie" onclick="tog(this,'ty')">Photographie</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Manuscrits et livres enluminés" onclick="tog(this,'ty')">Manuscrits et livres enluminés</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Icônes" onclick="tog(this,'ty')">Icônes</span>
+    </div>
+    <div class="step-row"><div class="step-n">5</div><div class="step-l">Mouvements, écoles et styles</div></div>
+    <p class="mv-aide">Facultatif. Les musées décrivent rarement le mouvement d'une œuvre : la recherche est approximative. <button type="button" class="lien-btn" onclick="go('mv',document.querySelectorAll('.nav-links button')[5])">Voir les mouvements et ce qui manque</button></p>
+    <div id="mv-tags"></div>
+    <div class="step-row"><div class="step-n">6</div><div class="step-l"><label for="gen-artiste">Artiste</label></div></div>
+    <div class="artiste-ligne">
+      <input type="text" id="gen-artiste" list="gen-artistes" autocomplete="off" placeholder="Par exemple : Hokusai, Rembrandt, Ogata Kōrin…" oninput="majBoutonGen()">
+      <datalist id="gen-artistes"></datalist>
+      <p class="mv-aide">Facultatif. Seuls les artistes morts depuis plus de 70 ans ont des œuvres dans le domaine public ; beaucoup d'œuvres anciennes ou non européennes sont anonymes.</p>
     </div>
     <button class="gen-btn" id="gen-btn" disabled onclick="genExpo()">Générer mon exposition <span aria-hidden="true">→</span></button>
   </div>
@@ -723,6 +746,29 @@ html.sans-animation *,html.sans-animation *::before,html.sans-animation *::after
   </div>
 </div>
 
+<!-- MOUVEMENTS : écoles et styles du monde, recherche et absences (liste MOUVEMENTS de musees.js) -->
+<div id="pg-mv" class="pg">
+  <div class="wrap">
+    <p class="ey">Histoire de l'art mondiale</p>
+    <h2>Mouvements, écoles et styles du monde</h2>
+    <p class="sub">Le générateur peut composer une exposition autour d'un mouvement, d'une école ou d'un style. Voici ceux qu'il propose, région par région, avec quelques artistes et ce qui les caractérise. Cliquez sur « Créer une exposition » pour lancer la recherche.</p>
+    <div class="mus-tous">
+      <h3>Comment la recherche fonctionne</h3>
+      <p>Les musées décrivent rarement le mouvement d'une œuvre dans leurs catalogues. Le site cherche donc avec des mots-clés en anglais, la langue des catalogues (par exemple « ukiyo-e » ou « Mughal »), et dans Wikidata, qui relie certaines œuvres à leur mouvement. Les résultats sont approximatifs : une œuvre peut apparaître sous un mouvement voisin, et un mouvement peu décrit peut donner peu d'œuvres.</p>
+    </div>
+    <div id="mv-regions"></div>
+    <div class="mus-tous mv-absences">
+      <h3>Pourquoi certains mouvements manquent</h3>
+      <p><b>Le droit d'auteur.</b> Le site ne montre que des œuvres du domaine public : en France, une œuvre y entre 70 ans après la mort de son auteur. La plupart des mouvements du XXe siècle sont donc absents ou incomplets : cubisme (Picasso est mort en 1973), surréalisme, muralisme mexicain (Diego Rivera, mort en 1957, entrera dans le domaine public en 2028), école de Dakar, art aborigène contemporain, art moderne d'Afrique, d'Asie et d'Amérique latine.</p>
+      <p><b>Des règles différentes selon les pays.</b> Les grands catalogues interrogés (Met, Chicago, Cleveland) appliquent le droit des États-Unis : une œuvre libre en France peut y être indiquée comme protégée, et elle n'apparaît alors pas.</p>
+      <p><b>Des traditions qui ne sont pas des « mouvements ».</b> La notion de mouvement vient de l'histoire de l'art européenne. Ailleurs, l'art se décrit plutôt par peuple, atelier, dynastie ou usage rituel : un masque dogon ou une figure de reliquaire fang ne se rattachent pas à un mouvement. Pour ces œuvres, utilisez les choix Régions, Époques et Types du générateur.</p>
+      <p><b>Des œuvres souvent anonymes.</b> Beaucoup d'œuvres d'Afrique, d'Océanie, des Amériques anciennes et du Moyen Âge n'ont pas d'auteur connu : la recherche par artiste ne les trouve pas.</p>
+      <p><b>Des savoirs à respecter.</b> Certaines œuvres sacrées ne sont pas destinées à être montrées, comme les peintures de sable navajo ou certains objets rituels aborigènes : les musées en publient peu d'images, souvent à la demande des communautés concernées.</p>
+    </div>
+    <p class="expo-sources">Liste mise à jour automatiquement à partir de la liste utilisée par le générateur.</p>
+  </div>
+</div>
+
 <!-- SPECIAL EXPO VIEW -->
 <div id="pg-sp" class="pg">
   <div class="wrap">
@@ -789,9 +835,9 @@ html.sans-animation *,html.sans-animation *::before,html.sans-animation *::after
   </div>
 </footer>
 <!-- Traductions (anglais, espagnol, arabe) et moteur de traduction -->
-<script src="i18n.js?v=20261015b"></script>
+<script src="i18n.js?v=20261016"></script>
 <!-- Recherche en direct dans les catalogues ouverts des musées (domaine public) -->
-<script src="musees.js?v=20261015b"></script>
+<script src="musees.js?v=20261016"></script>
 <script>
 const ART = [
   { img:"images/oeuvres/grande-vague-hokusai.jpg", credit:'Image : <a href="https://www.metmuseum.org/art/collection/search/45434" target="_blank" rel="noopener">The Metropolitan Museum of Art</a>, domaine public (Open Access)', name:"La Grande Vague de Kanagawa", meta:"Katsushika Hokusai · Japon · vers 1830-1832 · Metropolitan Museum of Art",
@@ -832,6 +878,7 @@ function go(id,btn){
   if(btn)btn.classList.add('on');
   if(id==='home')renderHome();
   if(id==='mus')afficherMusees();
+  if(id==='mv')afficherMouvements();
   if(id==='acc'&&typeof afficherAutresOeuvresAcces==='function')afficherAutresOeuvresAcces();
   if(id==='wb'&&typeof initBienEtre==='function')initBienEtre();
   if(id!=='wb'&&typeof stopWb==='function'&&document.getElementById('wb-sess').style.display==='block')stopWb();
@@ -906,12 +953,34 @@ function setLang(l,btn){
 }
 
 // BUILDER
-const sel={th:[],rg:[],ep:[],ty:[]};
+const sel={th:[],rg:[],ep:[],ty:[],mv:[]};
 function tog(el,k){
   el.classList.toggle('on');el.setAttribute('aria-pressed',el.classList.contains('on'));
   const v=el.dataset.v||el.textContent.trim(); // valeur française, quelle que soit la langue affichée
   sel[k]=el.classList.contains('on')?[...sel[k],v]:sel[k].filter(x=>x!==v);
-  document.getElementById('gen-btn').disabled=!Object.values(sel).some(a=>a.length);
+  majBoutonGen();
+}
+function artisteChoisi(){const e=document.getElementById('gen-artiste');return e?e.value.trim():'';}
+function majBoutonGen(){document.getElementById('gen-btn').disabled=!Object.values(sel).some(a=>a.length)&&!artisteChoisi();}
+// Choix des mouvements (étape 5) et suggestions d'artistes (étape 6), construits à partir de la liste MOUVEMENTS de musees.js
+const ORDRE_REGIONS_MV=["Asie de l'Est",'Asie du Sud et du Sud-Est','Moyen-Orient','Afrique','Amériques','Océanie','Europe'];
+(()=>{if(typeof MOUVEMENTS==='undefined')return;
+  const z=document.getElementById('mv-tags');
+  if(z)z.innerHTML=ORDRE_REGIONS_MV.map(r=>{const l=MOUVEMENTS.filter(m=>m.region===r);return l.length?`<div class="mv-groupe"><p class="mv-groupe-t">${esc(r)}</p><div class="tags">${l.map(m=>`<span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="${esc(m.nom)}" onclick="tog(this,'mv')">${esc(m.nom)}</span>`).join('')}</div></div>`:'';}).join('');
+  const d=document.getElementById('gen-artistes');
+  if(d)d.innerHTML=[...new Set([].concat(...MOUVEMENTS.map(m=>m.artistes)))].sort((a,b)=>a.localeCompare(b,'fr')).map(a=>`<option value="${esc(a)}">`).join('');
+})();
+// Onglet « Mouvements » : cartes par région, chacune avec un bouton qui prépare l'exposition dans le générateur
+function afficherMouvements(){
+  const z=document.getElementById('mv-regions');
+  if(!z||z.children.length||typeof MOUVEMENTS==='undefined')return;
+  z.innerHTML=ORDRE_REGIONS_MV.map(r=>{const l=MOUVEMENTS.filter(m=>m.region===r);if(!l.length)return'';
+    return `<section class="mus-region"><h3>${esc(r)}</h3><div class="mv-liste">${l.map(m=>`<div class="mv-carte"><h4>${esc(m.nom)}</h4><p class="mv-lieu">${esc(m.lieu)} · ${esc(m.epoque)}</p><p>${esc(m.texte)}</p>${m.artistes.length?`<p class="mv-art">${m.artistes.map(esc).join(', ')}</p>`:'<p class="mv-art">Œuvres le plus souvent anonymes</p>'}<button type="button" class="lien-btn" data-mv="${esc(m.nom)}" onclick="exposerMouvement(this.dataset.mv)">Créer une exposition</button></div>`).join('')}</div></section>`;}).join('');
+}
+function exposerMouvement(nom){
+  go('build',document.querySelectorAll('.nav-links button')[1]);
+  document.querySelectorAll('#mv-tags .tag').forEach(t=>{const oui=t.dataset.v===nom;if(t.classList.contains('on')!==oui)tog(t,'mv');});
+  const t=document.querySelector('#mv-tags .tag.on');if(t)t.scrollIntoView({block:'center'});
 }
 // GÉNÉRATEUR : choisit dans collection.json les œuvres qui correspondent aux thèmes, régions et époques cochés
 const ORDRE_EPOQUES=['Antiquité','Moyen Âge','Renaissance','XVIIe–XVIIIe s.','XIXe siècle','Modernisme','Art contemporain'];
@@ -952,13 +1021,14 @@ document.addEventListener('keydown',e=>{if((e.key==='Enter'||e.key===' ')&&e.tar
 // L'exposition réunit la collection choisie (collection.json) et des œuvres trouvées en direct dans les catalogues
 // des musées (musees.js), sans intervention humaine.
 function genExpo(){
-  const intitules=sel.th.concat(sel.ty);
+  const artiste=artisteChoisi();
+  const intitules=(artiste?[artiste.replace(/(^|[\s-])(\p{L})/gu,(x,a,c)=>a+c.toUpperCase())]:[]).concat(sel.mv,sel.th,sel.ty);
   document.getElementById('expo-h').textContent=(intitules.length?intitules.slice(0,2).join(' & '):'Art universel')+' — '+(sel.rg.length?sel.rg.slice(0,2).join(' · '):'Monde');
   const tl=document.getElementById('expo-tl'),sous=document.getElementById('expo-s');
   sous.textContent=(sel.ep.length?sel.ep.join(', '):'Toutes époques');
   tl.innerHTML='<p class="sub">Recherche en direct dans les catalogues des musées…</p>';
   go('expo',document.querySelectorAll('.nav-links button')[1]);
-  const crit={th:sel.th.slice(),rg:sel.rg.slice(),ep:sel.ep.slice(),ty:sel.ty.slice()};
+  const crit={th:sel.th.slice(),rg:sel.rg.slice(),ep:sel.ep.slice(),ty:sel.ty.slice(),mv:sel.mv.slice(),artiste};
   const vide={oeuvres:[],sources:[]};
   const numero=genExpo.compteur=(genExpo.compteur||0)+1; // si le visiteur relance une recherche, l'ancienne est ignorée
   // Recherche en direct ; si elle trouve trop peu d'œuvres, on l'élargit en ignorant les thèmes
@@ -970,7 +1040,8 @@ function genExpo(){
   Promise.all([chargerCollection().catch(()=>{collection=collection||[];}),enDirect]).then(([,direct])=>{
     if(numero!==genExpo.compteur)return;
     const okTh=w=>w.themes.some(x=>crit.th.includes(x)),okRg=w=>w.regions.some(x=>crit.rg.includes(x)),okEp=w=>crit.ep.includes(w.epoch),okTy=w=>(w.types||[]).some(x=>crit.ty.includes(x));
-    let choisies=(collection||[]).filter(w=>(!crit.th.length||okTh(w))&&(!crit.rg.length||okRg(w))&&(!crit.ep.length||okEp(w))&&(!crit.ty.length||okTy(w)));
+    const okMv=w=>typeof oeuvreDuMouvement==='function'&&crit.mv.some(m=>oeuvreDuMouvement(w,m)),okAr=w=>typeof deLArtiste==='function'&&deLArtiste(w,crit.artiste);
+    let choisies=(collection||[]).filter(w=>(!crit.th.length||okTh(w))&&(!crit.rg.length||okRg(w))&&(!crit.ep.length||okEp(w))&&(!crit.ty.length||okTy(w))&&(!crit.mv.length||okMv(w))&&(!crit.artiste||okAr(w)));
     const notes=[];
     if(!choisies.length&&!direct.oeuvres.length){
       choisies=(collection||[]).filter(w=>(crit.th.length&&okTh(w))||(crit.rg.length&&okRg(w))||(crit.ep.length&&okEp(w))||(crit.ty.length&&okTy(w)));
@@ -979,6 +1050,8 @@ function genExpo(){
     const vues=new Set(choisies.map(w=>(w.title+'|'+w.artist).toLowerCase()));
     const trouvees=direct.oeuvres.filter(w=>!vues.has((w.title+'|'+w.artist).toLowerCase())).slice(0,32);
     if(direct.elargi)notes.push('Peu d\'œuvres des catalogues réunissaient tous vos critères : la recherche en direct a été élargie en ignorant les thèmes.');
+    if(crit.mv.length)notes.push('Les musées décrivent rarement le mouvement d\'une œuvre : les œuvres ont été trouvées par mots-clés et dans Wikidata, et la sélection est approximative. L\'onglet « Mouvements » explique la méthode et ce qui manque.');
+    if(crit.artiste)notes.push('Recherche par artiste : seuls les artistes morts depuis plus de 70 ans ont des œuvres dans le domaine public, et le nom doit être écrit comme dans les catalogues (par exemple « Hokusai » ou « Rembrandt »).');
     if(crit.ep.includes('Art contemporain'))notes.push('L\'art contemporain est peu représenté : les œuvres récentes sont protégées par le droit d\'auteur, et ce site ne montre que des œuvres du domaine public.');
     const oeuvres=choisies.concat(trouvees);
     const repondu=direct.sources.filter(s=>s.ok&&s.nombre).map(s=>s.nom),rien=direct.sources.filter(s=>s.ok&&!s.nombre).map(s=>s.nom),muets=direct.sources.filter(s=>!s.ok).map(s=>s.nom);
@@ -1382,8 +1455,8 @@ afficherValeurs(0);
 traduirePage();
 </script>
 <!-- Fenêtre Accessibilité de chaque œuvre et menu Affichage et lecture -->
-<script src="accessibilite.js?v=20261015b"></script>
+<script src="accessibilite.js?v=20261016"></script>
 <!-- Séances de bien-être composées à la demande -->
-<script src="bienetre.js?v=20261015b"></script>
+<script src="bienetre.js?v=20261016"></script>
 </body>
 </html>

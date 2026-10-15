@@ -154,7 +154,7 @@ content:
         required: true
         options:
           multiple: true
-          values: ["Peinture", "Sculpture", "Architecture", "Dessins et estampes", "Arts décoratifs", "Photographie"]
+          values: ["Peinture", "Sculpture", "Architecture", "Dessins et estampes", "Manuscrits et livres enluminés", "Icônes", "Arts décoratifs", "Photographie"]
       - name: epoch
         label: Époque
         type: select

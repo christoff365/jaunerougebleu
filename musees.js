@@ -19,7 +19,8 @@ const MOTS_THEMES = {
 };
 const MOTS_TYPES = {
   'Peinture': 'painting', 'Sculpture': 'sculpture', 'Architecture': 'architecture',
-  'Dessins et estampes': 'print', 'Arts décoratifs': 'ceramic', 'Photographie': 'photograph'
+  'Dessins et estampes': 'print', 'Arts décoratifs': 'ceramic', 'Photographie': 'photograph',
+  'Manuscrits et livres enluminés': 'manuscript', 'Icônes': 'icon'
 };
 // Reconnaissance de la région à partir du lieu ou de la culture indiqués par le musée
 const MOTS_REGIONS = {
@@ -33,6 +34,9 @@ const MOTS_REGIONS = {
 };
 // Reconnaissance du type d'œuvre à partir de la classification du musée
 const MOTS_TYPES_RECONNUS = [
+  // Manuscrits et icônes d'abord : sinon ils seraient rangés dans « Dessins et estampes » ou « Peinture »
+  ['Manuscrits et livres enluminés', /manuscri|illuminat|codex|book of hours|livre d.heures|psalter|gospel|qur.?an|koran|album leaf|folio|leaf from|page from|shahnam|enlumin/i],
+  ['Icônes', /\bicons?\b|icône|iconostas|ikon/i],
   ['Architecture', /architect|building|column|capital|portal|doorway|facade|façade|period room|room from|ceiling|mihrab|temple|relief from|fragment of a (wall|building)/i],
   ['Sculpture', /sculpt|statue|statuette|figure|figurine|bust|relief|carving|head of|torso|bronze|mask|stele/i],
   ['Photographie', /photograph|daguerreotype|albumen|gelatin silver/i],
@@ -88,8 +92,12 @@ function auHasard(liste) { return liste[hasard(liste.length)]; }
 function motsCles(criteres) {
   const mots = [];
   if (criteres.mots) mots.push(criteres.mots); // mots-clés libres (recherche automatique des expositions spéciales)
+  // Artiste et mouvement (générateur) : leur nom suffit, sans mot de région qui restreindrait trop la recherche
+  if (criteres.artiste) mots.push(criteres.artiste);
+  const mv = criteres.mouvement && mouvement(criteres.mouvement);
+  if (mv) mots.push(criteres.motMouvement || mv.mots[0]);
   // Mot de la région : imposé (motRegion) ou tiré au hasard
-  if (criteres.region) mots.push(criteres.motRegion || auHasard(MOTS_RECHERCHE_REGIONS[criteres.region]));
+  if (criteres.region && !criteres.artiste && !mv) mots.push(criteres.motRegion || auHasard(MOTS_RECHERCHE_REGIONS[criteres.region]));
   criteres.th.forEach(t => mots.push(MOTS_THEMES[t]));
   criteres.ty.forEach(t => mots.push(MOTS_TYPES[t]));
   return mots.filter(Boolean);
@@ -290,7 +298,9 @@ const CLASSES_TYPES = {
   'Sculpture': 'Q860861 Q179700 Q29527347 Q1066288 Q928357 Q245117 Q14562306 Q178743 Q161524 Q241045',
   'Dessins et estampes': 'Q11060274 Q75837457 Q18219090 Q93184 Q18887969 Q11835431 Q15123870 Q18218093 Q28913685 Q18761202 Q48498 Q8362',
   'Arts décoratifs': 'Q161439 Q28823 Q96952903 Q98276829 Q191851 Q60733799 Q17379525 Q153988 Q28966302 Q45621 Q1207302 Q1758043 Q57216 Q35197 Q368972 Q4390114 Q11631761',
-  'Photographie': 'Q125191'
+  'Photographie': 'Q125191',
+  'Manuscrits et livres enluminés': 'Q87167 Q48498',
+  'Icônes': 'Q132137'
 };
 // Monuments (et non sites naturels) : temples, mosquées, églises, palais, forts, tombeaux, sites archéologiques, centres historiques…
 const CLASSES_ARCHITECTURE = 'Q44539 Q842402 Q5393308 Q199451 Q180987 Q12516 Q381885 Q162875 Q32815 Q16970 Q2977 Q56242215 Q120560 Q2031836 Q108325 Q44613 Q160742 ' +
@@ -300,6 +310,91 @@ const GENRES_THEMES = {
   'Portraits': 'Q134307', 'Paysages': 'Q191163', 'Nature morte': 'Q170571', 'Spiritualité': 'Q2864737',
   'Vie quotidienne': 'Q1047337', 'Mythologie': 'Q3374376', 'Abstraction': 'Q128115'
 };
+// ---------- Mouvements, écoles et styles du monde (générateur et onglet « Mouvements ») ----------
+// Les catalogues des musées décrivent rarement le mouvement d'une œuvre : la recherche se fait par mots-clés (en anglais,
+// langue des catalogues : « mots ») et, dans Wikidata, par les mouvements (P135) et genres (P136) dont le libellé anglais est
+// dans « wd ». « local » reconnaît les œuvres de collection.json (artiste ou titre). Artistes : exemples, morts depuis plus de 70 ans.
+// [nom, région, lieu, époque, mots, wd, local, artistes, description]
+const MOUVEMENTS = [
+  ['Ukiyo-e', "Asie de l'Est", 'Japon', 'XVIIe–XIXe siècle', ['ukiyo-e'], ['ukiyo-e'], 'hokusai|hiroshige|utamaro', ['Katsushika Hokusai', 'Utagawa Hiroshige', 'Kitagawa Utamaro'],
+    "« Images du monde flottant » : estampes gravées sur bois montrant acteurs, beautés, paysages et scènes de la vie d'Edo."],
+  ['École Rinpa', "Asie de l'Est", 'Japon', 'XVIIe–XIXe siècle', ['Rinpa'], ['Rinpa school', 'Rinpa'], 'k[oō]rin|s[oō]tatsu|h[oō]itsu', ['Tawaraya Sōtatsu', 'Ogata Kōrin', 'Sakai Hōitsu'],
+    "Paravents et peintures aux fonds d'or, aux fleurs et aux vagues simplifiées, aux couleurs franches."],
+  ['École Kanō', "Asie de l'Est", 'Japon', 'XVe–XIXe siècle', ['Kano school'], ['Kanō school', 'Kano school'], '', ['Kanō Eitoku', "Kanō Tan'yū"],
+    "Peintres officiels des shoguns pendant quatre siècles : grands paravents, tigres, dragons, pins et paysages à l'encre."],
+  ['Paysage monumental des Song', "Asie de l'Est", 'Chine', 'Xe–XIIIe siècle', ['Song dynasty landscape'], [], 'guo xi', ['Fan Kuan', 'Guo Xi', 'Ma Yuan'],
+    "Grands paysages de montagne à l'encre, où le regard voyage du premier plan jusqu'aux sommets dans la brume."],
+  ['Peinture lettrée', "Asie de l'Est", 'Chine', 'XIe–XIXe siècle', ['literati'], ['literati painting'], '', ['Shen Zhou', 'Wen Zhengming', 'Dong Qichang'],
+    "Peinture de lettrés, poètes et calligraphes, qui cherchent l'expression personnelle : paysages à l'encre, bambous, rochers."],
+  ['École de Shanghai', "Asie de l'Est", 'Chine', 'XIXe–début du XXe siècle', ['Shanghai School'], ['Shanghai School'], '', ['Ren Bonian', 'Wu Changshuo'],
+    "Peintres de la grande ville marchande, qui renouvellent fleurs, oiseaux et portraits par des couleurs vives et un trait libre."],
+  ['Peinture de la dynastie Joseon', "Asie de l'Est", 'Corée', 'XIVe–XIXe siècle', ['Joseon'], [], '', ['Jeong Seon', 'Kim Hong-do', 'Sin Yun-bok'],
+    "Paysages « vrais » de Corée, scènes de la vie quotidienne et peintures de lettrés de la dernière dynastie coréenne."],
+  ['Peinture moghole', 'Asie du Sud et du Sud-Est', 'Inde', 'XVIe–XIXe siècle', ['Mughal'], ['Mughal painting'], '', ['Basawan', "Abu'l Hasan", 'Ustad Mansur'],
+    "Miniatures de la cour des empereurs moghols, entre traditions persane et indienne : portraits, chroniques, animaux et plantes."],
+  ['Peinture rajpoute et pahari', 'Asie du Sud et du Sud-Est', 'Inde', 'XVIIe–XIXe siècle', ['Rajput', 'Pahari'], ['Rajput painting', 'Pahari painting'], '', ['Nainsukh', 'Manaku'],
+    "Miniatures des royaumes rajputs et des contreforts de l'Himalaya : amours de Krishna et Radha, modes musicaux, couleurs intenses."],
+  ['École du Bengale', 'Asie du Sud et du Sud-Est', 'Inde', 'début du XXe siècle', ['Bengal School'], ['Bengal School of Art'], '', ['Abanindranath Tagore'],
+    "Mouvement moderne qui renoue avec les traditions de l'Inde et de l'Asie face à l'enseignement académique britannique."],
+  ["Art khmer d'Angkor", 'Asie du Sud et du Sud-Est', 'Cambodge', 'IXe–XIIIe siècle', ['Khmer'], [], '', [],
+    "Sculptures de grès et de bronze des temples d'Angkor : divinités hindoues et bouddhiques au sourire paisible."],
+  ['Miniature persane', 'Moyen-Orient', 'Iran', 'XIIIe–XVIIe siècle', ['Persian painting', 'Shahnama'], ['Persian miniature'], 'shahnam|tabriz', ['Kamal ud-Din Behzad', 'Sultan Muhammad', 'Reza Abbasi'],
+    "Peintures de manuscrits aux couleurs précieuses et sans ombres : épopées du Livre des rois, poésie, scènes de cour."],
+  ['Peinture ottomane', 'Moyen-Orient', 'Turquie', 'XVIe–XVIIIe siècle', ['Ottoman'], ['Ottoman miniature'], '', ['Nakkaş Osman', 'Levni'],
+    "Chroniques illustrées des sultans, fêtes, cortèges et portraits, dans un style narratif précis."],
+  ['Art mamelouk', 'Moyen-Orient', 'Égypte et Syrie', 'XIIIe–XVIe siècle', ['Mamluk'], [], '', [],
+    "Lampes de mosquée en verre émaillé, métal incrusté d'argent et Corans enluminés du sultanat du Caire et de Damas."],
+  ['Art amarnien', 'Afrique', 'Égypte', 'XIVe siècle av. J.-C.', ['Amarna'], ['Amarna art'], '', [],
+    "Sous Akhenaton, l'art égyptien devient plus souple et plus intime : corps allongés, scènes de famille, rayons du soleil Aton."],
+  ["Art d'Ifé", 'Afrique', 'Nigeria', 'XIIe–XVe siècle', ['Ife'], [], '', [],
+    "Têtes en laiton et en terre cuite d'un naturalisme saisissant, réalisées dans la ville sacrée des Yoruba."],
+  ['Art de cour du royaume du Bénin', 'Afrique', 'Nigeria', 'XVe–XIXe siècle', ['Benin Kingdom'], [], '', [],
+    "Plaques et têtes en laiton du palais royal d'Edo, qui célèbrent les rois (oba) ; beaucoup ont été pillées en 1897."],
+  ['Peinture chrétienne éthiopienne', 'Afrique', 'Éthiopie', 'XVe–XIXe siècle', ['Ethiopian'], [], 'ewostatewos', [],
+    "Icônes, manuscrits et peintures murales aux grands yeux et aux couleurs vives, parents de l'art copte et byzantin."],
+  ['Art maya classique', 'Amériques', 'Mexique et Guatemala', 'IIIe–IXe siècle', ['Maya'], [], '', [],
+    "Stèles, vases peints et figurines qui racontent les rois, les dieux et le jeu de balle."],
+  ['École de Cuzco', 'Amériques', 'Pérou', 'XVIe–XVIIIe siècle', ['Cuzco'], ['Cusco School'], '', ['Diego Quispe Tito', 'Marcos Zapata'],
+    "Peintres andins qui transforment les modèles religieux européens : Vierges en robe triangulaire, brocarts d'or, flore locale."],
+  ['Peinture de castas', 'Amériques', 'Mexique', 'XVIIIe siècle', ['casta painting'], ['casta painting'], '', ['Miguel Cabrera', 'José de Páez'],
+    "Séries montrant les familles de la Nouvelle-Espagne classées selon leurs origines : un témoignage sur la hiérarchie coloniale."],
+  ['Hudson River School', 'Amériques', 'États-Unis', 'XIXe siècle', ['Hudson River School'], ['Hudson River School'], '', ['Thomas Cole', 'Frederic Edwin Church', 'Albert Bierstadt'],
+    "Grands paysages américains, lumineux et grandioses, qui célèbrent une nature sauvage."],
+  ['Sculpture maorie', 'Océanie', 'Nouvelle-Zélande', 'XVIIIe–XIXe siècle', ['Maori'], [], '', [],
+    "Bois sculpté, jade et figures d'ancêtres, couverts de spirales et incrustés de nacre."],
+  ['Art du Sepik', 'Océanie', 'Papouasie-Nouvelle-Guinée', 'XIXe–XXe siècle', ['Sepik'], [], '', [],
+    "Masques, crochets et figures d'ancêtres peints, liés aux maisons cérémonielles et aux rites."],
+  ['Art gothique', 'Europe', 'Europe', 'XIIe–XVe siècle', ['Gothic'], ['Gothic art'], 'licorne', ['Duccio', 'Simone Martini'],
+    "Vitraux, sculptures, tapisseries et retables aux fonds d'or, aux silhouettes élancées et aux couleurs précieuses."],
+  ['Renaissance', 'Europe', 'Italie et Europe', 'XVe–XVIe siècle', ['Renaissance'], ['Renaissance', 'Italian Renaissance', 'Northern Renaissance'], 'bruegel', ['Léonard de Vinci', 'Raphaël', 'Albrecht Dürer'],
+    "Retour à l'Antiquité, invention de la perspective, étude du corps et de la nature."],
+  ['Baroque', 'Europe', 'Europe et Amériques', 'XVIIe siècle', ['Baroque'], ['Baroque', 'Baroque painting'], 'caravage|rembrandt', ['Le Caravage', 'Pierre Paul Rubens', 'Rembrandt'],
+    "Mouvement, contrastes de lumière et émotion, des églises de Rome aux missions des Amériques."],
+  ['Romantisme', 'Europe', 'Europe', 'fin du XVIIIe–XIXe siècle', ['Romanticism'], ['Romanticism'], 'turner', ['J.M.W. Turner', 'Eugène Delacroix', 'Caspar David Friedrich'],
+    "Nature sublime, passions, histoire et rêve."],
+  ['Impressionnisme', 'Europe', 'France', '1860–1890', ['Impressionism'], ['Impressionism'], 'monet|renoir|degas|pissarro|sisley|morisot', ['Claude Monet', 'Berthe Morisot', 'Camille Pissarro'],
+    "Peindre en plein air la lumière changeante, par touches rapides."],
+  ['Postimpressionnisme', 'Europe', 'Europe', '1885–1910', ['Post-Impressionism'], ['Post-Impressionism'], 'van gogh|gauguin|c[eé]zanne|seurat', ['Vincent van Gogh', 'Paul Gauguin', 'Paul Cézanne'],
+    "Après l'impressionnisme, chacun cherche sa voie : couleur expressive, formes construites, points de couleur."],
+  ['Art nouveau', 'Europe', 'Europe', '1890–1910', ['Art Nouveau'], ['Art Nouveau'], '', ['Alfons Mucha', 'Gustav Klimt', 'Hector Guimard'],
+    "Lignes courbes inspirées des plantes, dans les affiches, les objets et l'architecture."],
+  ['Expressionnisme', 'Europe', 'Europe du Nord', '1905–1930', ['Expressionism'], ['Expressionism'], '', ['Edvard Munch', 'Ernst Ludwig Kirchner', 'Egon Schiele'],
+    "Couleurs violentes et formes déformées pour exprimer l'angoisse et l'émotion."],
+  ["Pionniers de l'abstraction", 'Europe', 'Europe', '1910–1940', ['abstract'], ['abstract art'], 'hilma af klint', ['Hilma af Klint', 'Vassily Kandinsky', 'Piet Mondrian'],
+    "Premières peintures sans sujet reconnaissable : la couleur et la forme pour elles-mêmes."]
+].map(([nom, region, lieu, epoque, mots, wd, local, artistes, texte]) => ({ nom, region, lieu, epoque, mots, wd, local, artistes, texte }));
+function mouvement(nom) { return MOUVEMENTS.find(m => m.nom === nom) || null; }
+// Une œuvre de collection.json appartient-elle à ce mouvement ? (d'après son artiste ou son titre)
+function oeuvreDuMouvement(w, nom) {
+  const m = mouvement(nom);
+  return !!(m && m.local && new RegExp(m.local, 'i').test((w.artist || '') + ' ' + (w.title || '')));
+}
+// Recherche par artiste : l'œuvre est-elle de cet artiste ? (au moins un mot du nom, sans accents, dans le nom de l'artiste)
+function deLArtiste(w, nom) {
+  const a = sansAccents(w.artist), mots = sansAccents(nom).split(/[\s,.'’-]+/).filter(x => x.length >= 3);
+  return !!a && mots.some(x => a.includes(x));
+}
+
 const REGIONS_HORS_EUROPE = ["Asie de l'Est", 'Asie du Sud et du Sud-Est', 'Moyen-Orient', 'Afrique', 'Amériques', 'Océanie'];
 const wd = liste => liste.map(q => 'wd:' + q).join(' ');
 function bornesEpoques(ep) {
@@ -411,11 +506,46 @@ function museesPour(region) {
   return [].concat(...REGIONS_HORS_EUROPE.map(r => melange(MUSEES_MONDE[r]).slice(0, 3)), melange(MUSEES_MONDE.Europe).slice(0, 2));
 }
 
+// Wikidata : œuvres d'un artiste (nom ou nom alternatif, en français, anglais ou multilingue) ou d'un mouvement
+// (mouvement P135 ou genre P136 dont le libellé anglais est dans la liste « wd » du mouvement)
+function chercherWikidataArtisteMouvement(c, n) {
+  const mv = c.mouvement && mouvement(c.mouvement);
+  if (!c.artiste && !(mv && mv.wd.length)) return Promise.resolve([]);
+  const lit = (s, l) => JSON.stringify(s) + '@' + l;
+  let filtre;
+  if (c.artiste) {
+    // Le nom tapé, et la même chose avec des majuscules aux initiales (« hokusai » → « Hokusai »)
+    const noms = [...new Set([c.artiste.trim(), c.artiste.trim().replace(/(^|[\s-])(\p{L})/gu, (x, a, b) => a + b.toUpperCase())])];
+    filtre = `VALUES ?nom { ${[].concat(...noms.map(x => ['fr', 'en', 'mul'].map(l => lit(x, l)))).join(' ')} }
+      ?createur rdfs:label|skos:altLabel ?nom . ?i wdt:P170 ?createur .`;
+  } else {
+    filtre = `VALUES ?nomMv { ${mv.wd.map(x => lit(x, 'en')).join(' ')} } ?mv rdfs:label ?nomMv . ?i wdt:P135|wdt:P136 ?mv .`;
+  }
+  const d = bornesEpoques(c.ep || []), graine = Math.random().toString(36).slice(2, 8);
+  const requete = `SELECT ?i ?iLabel ?m ?mLabel ?date ?img ?typeEn ?createur ?createurLabel ?deces ?origine ?origineLabel ?nat WHERE {
+    { SELECT DISTINCT ?i ?createur ?img ?date WHERE {
+        ${filtre}
+        ?i wdt:P18 ?img . OPTIONAL { ?i wdt:P571 ?date }
+        ${d ? `FILTER(!BOUND(?date) || (YEAR(?date) >= ${d[0]} && YEAR(?date) <= ${d[1]}))` : ''}
+        BIND(MD5(CONCAT(STR(?i), "${graine}")) AS ?h)
+      } ORDER BY ?h LIMIT ${n * 4} }
+    OPTIONAL { ?i wdt:P195 ?m }
+    OPTIONAL { ?i wdt:P31 ?type . ?type rdfs:label ?typeEn FILTER(LANG(?typeEn) = "en") }
+    OPTIONAL { ?i wdt:P495 ?origine }
+    OPTIONAL { ?i wdt:P170 ?createur . OPTIONAL { ?createur wdt:P27 ?nat } OPTIONAL { ?createur wdt:P570 ?deces } }
+    SERVICE wikibase:label { bd:serviceParam wikibase:language "fr,en,mul". }
+  }`;
+  return sparql(requete, 12000).then(lignes => oeuvresWikidata(lignes, n, {
+    lieu: 'mLabel', musee: nom => (nom && !/^Q\d+$/.test(nom) ? nom : 'Wikidata'), region: () => (mv ? mv.region : null)
+  }));
+}
+
 const ADAPTATEURS = {
   wikidata: {
     nom: 'Musées du monde entier (Wikidata et Wikimedia Commons)',
     poids: 2,
     chercher(c, n) {
+      if (c.artiste || c.mouvement) return chercherWikidataArtisteMouvement(c, n);
       const regionMusee = {};
       Object.keys(MUSEES_MONDE).forEach(r => MUSEES_MONDE[r].forEach(m => { if (m[2] && !regionMusee[m[0]]) regionMusee[m[0]] = r; }));
       const types = [].concat(...c.ty.map(t => (CLASSES_TYPES[t] || '').split(' ').filter(Boolean)));
@@ -459,6 +589,7 @@ const ADAPTATEURS = {
   joconde: {
     nom: 'Musées de France (base Joconde)',
     chercher(c, n) {
+      if (c.artiste || c.mouvement) return Promise.resolve([]); // couvert par la source Wikidata
       // Œuvres des musées de France reliées dans Wikidata à leur notice Joconde (P347) et illustrées sur Wikimedia Commons.
       // Joconde ne publie pas d'images réutilisables en données ouvertes : l'image vient de Commons, la notice de POP.
       const types = [].concat(...c.ty.map(t => (CLASSES_TYPES[t] || '').split(' ').filter(Boolean)));
@@ -498,6 +629,7 @@ const ADAPTATEURS = {
     nom: 'Patrimoine mondial de l\'UNESCO (Wikidata et Wikimedia Commons)',
     poids: 2,
     chercher(c, n) {
+      if (c.artiste || c.mouvement) return Promise.resolve([]);
       // Architecture : monuments inscrits au patrimoine mondial, photographiés sur place
       if ((c.ty.length && !c.ty.includes('Architecture')) || (!c.ty.length && c.th.length)) return Promise.resolve([]);
       const regions = c.region ? [c.region] : REGIONS_HORS_EUROPE.concat('Europe');
@@ -656,8 +788,11 @@ function chercherDansLesMusees(criteres, parSource, seulement) {
   const sources = Object.keys(ADAPTATEURS).filter(k => (!seulement || seulement.includes(k)) && (!ADAPTATEURS[k].actif || ADAPTATEURS[k].actif()));
   // Une recherche par région choisie (trois au plus), sinon une seule recherche sans région
   const regions = criteres.rg.length ? criteres.rg.slice(0, 3) : [null];
-  const n = Math.max(4, Math.round((parSource || 8) / regions.length));
-  return Promise.all(sources.map(k => Promise.all(regions.map(region => ADAPTATEURS[k].chercher(Object.assign({}, criteres, { region }), n * (ADAPTATEURS[k].poids || 1)).catch(() => null)))
+  // Mouvements choisis : une recherche par mouvement (trois au plus), combinée aux régions (quatre recherches au plus en tout)
+  const mvts = criteres.mv && criteres.mv.length ? criteres.mv.slice(0, 3) : [null];
+  const combinaisons = [].concat(...mvts.map(mouvement => regions.map(region => ({ region, mouvement })))).slice(0, 4);
+  const n = Math.max(4, Math.round((parSource || 8) / combinaisons.length));
+  return Promise.all(sources.map(k => Promise.all(combinaisons.map(co => ADAPTATEURS[k].chercher(Object.assign({}, criteres, co), n * (ADAPTATEURS[k].poids || 1)).catch(() => null)))
     .then(listes => ({ source: ADAPTATEURS[k].nom, liste: [].concat(...listes.filter(Boolean)), ok: listes.some(Boolean) }))))
     .then(resultats => {
       const vus = new Set(), oeuvres = [];
@@ -671,6 +806,7 @@ function chercherDansLesMusees(criteres, parSource, seulement) {
         if (criteres.ep.length && !criteres.ep.includes(w.epoch)) return;
         if (criteres.rg.length && !w.regions.some(x => criteres.rg.includes(x))) return;
         if (criteres.ty.length && !w.types.some(x => criteres.ty.includes(x))) return;
+        if (criteres.artiste && !deLArtiste(w, criteres.artiste)) return;
         vus.add(cle); oeuvres.push(w);
       });
       return { oeuvres, sources: resultats.map(r => ({ nom: r.source, ok: r.ok, nombre: r.liste.length })) };

@@ -623,7 +623,8 @@
 
   // Visionneuse : un clic (ou Entrée) sur une image l'ouvre en grand. Pendant la partie, l'œuvre garde son voile
   // (le même flou, à l'échelle de l'image agrandie) et sa légende ne dit pas son titre : agrandir ne donne pas la réponse.
-  function grandeImage(src) { return String(src).replace(/(\/thumb\/.+\/)\d+px-([^/]+)$/, '$11600px-$2').replace(/([?&]width=)\d+/, '$11600'); }
+  // (1280 px : l'une des tailles standard de Wikimedia Commons, qui refuse les autres)
+  function grandeImage(src) { return String(src).replace(/(\/thumb\/.+\/)\d+px-([^/]+)$/, '$11280px-$2').replace(/([?&]width=)\d+/, '$11280'); }
   function ouvrirVisionneuse(img) {
     var d = $('visionneuse');
     if (!d) {

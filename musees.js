@@ -446,9 +446,12 @@ function texteBrut(html) {
 // Nom du fichier Commons à partir de l'adresse donnée par Wikidata
 function fichierCommons(url) { return decodeURIComponent(String(url).split('Special:FilePath/')[1] || ''); }
 // Vignette, auteur et licence de chaque image, en une seule demande à Wikimedia Commons
+// Wikimedia Commons ne sert plus, en lien direct, que des vignettes de tailles standard
+// (20, 40, 60, 120, 250, 330, 500, 960, 1280, 1920, 3840 px de large) : toute autre taille est refusée
+// (voir https://www.mediawiki.org/wiki/Common_thumbnail_sizes). Le site demande 500 px, et 1280 px pour la visionneuse.
 function infosCommons(fichiers) {
   if (!fichiers.length) return Promise.resolve({});
-  const url = 'https://commons.wikimedia.org/w/api.php?action=query&format=json&origin=*&prop=imageinfo&iiprop=extmetadata|url&iiurlwidth=400' +
+  const url = 'https://commons.wikimedia.org/w/api.php?action=query&format=json&origin=*&prop=imageinfo&iiprop=extmetadata|url&iiurlwidth=500' +
     '&iiextmetadatafilter=LicenseShortName|Artist&titles=' + encodeURIComponent(fichiers.slice(0, 50).map(f => 'File:' + f).join('|'));
   return lireJSON(url).then(r => {
     const q = r.query || {}, origine = {};
@@ -518,7 +521,7 @@ function oeuvresWikidata(lignes, n, options) {
       artiste: /^(Q\d+|https?:)/.test(createur) ? '' : createur, annee: anneeWikidata(val(b, 'date')),
       date: (a => a === null ? '' : a < 0 ? (-a) + ' av. J.-C.' : String(a))(anneeWikidata(val(b, 'date'))),
       lieu: majuscule(val(b, 'origineLabel').replace(/^Q\d+$/, '')), musee: options.musee(lieu),
-      image: info ? info.image : 'https://commons.wikimedia.org/wiki/Special:FilePath/' + encodeURIComponent(fichiers[k]) + '?width=400',
+      image: info ? info.image : 'https://commons.wikimedia.org/wiki/Special:FilePath/' + encodeURIComponent(fichiers[k]) + '?width=500',
       credit: creditCommons(options.musee(lieu), fichiers[k], info) + (options.notice ? ' ; ' + options.notice(b) : ''),
       regions: region ? [region] : [],
       type: options.type || (classes[qid(b, 'i')] || []).map(typeDe).find(t => t !== 'Autre') || 'Autre',

@@ -37,7 +37,7 @@ const MOTS_TYPES_RECONNUS = [
   // Manuscrits et icônes d'abord : sinon ils seraient rangés dans « Dessins et estampes » ou « Peinture ».
   // Manuscrits : seulement les livres copiés et enluminés à la main (évangiles, psautiers, livres d'heures, Corans…),
   // pas les lettres ni les documents écrits à la main (voir PAS_UN_MANUSCRIT)
-  ['Manuscrits et livres enluminés', /illuminat|enlumin|book of hours|livre d.heures|psalter|psautier|gospel|[ée]vang[ée]l|bible|antiphon|gradual|graduel|missal|missel|breviar|bréviaire|lectionar|qur.?an|koran|coran|shahnam|codex|(leaf|folio|page) from (a|an|the)\b|manuscript (leaf|page|cutting|illumination)|miniature from/i],
+  ['Manuscrits et livres enluminés', /illuminat|enlumin|book of hours|livre d.heures|psalter|psautier|gospel|[ée]vang[ée]li(?!st)|bible|antiphon|gradual|graduel|missal|missel|breviar|bréviaire|lectionar|qur.?an|koran|coran|shahnam|codex|(leaf|folio|page) from (a|an|the)\b|manuscript (leaf|page|cutting|illumination)|miniature from/i],
   ['Icônes', /\bicons?\b|icône|iconostas|ikon/i],
   ['Architecture', /architect|building|column|capital|portal|doorway|facade|façade|period room|room from|ceiling|mihrab|temple|relief from|fragment of a (wall|building)/i],
   ['Sculpture', /sculpt|statue|statuette|figure|figurine|bust|relief|carving|head of|torso|bronze|mask|stele/i],
@@ -395,10 +395,31 @@ function oeuvreDuMouvement(w, nom) {
   const m = mouvement(nom);
   return !!(m && m.local && new RegExp(m.local, 'i').test((w.artist || '') + ' ' + (w.title || '')));
 }
-// Recherche par artiste : l'œuvre est-elle de cet artiste ? (au moins un mot du nom, sans accents, dans le nom de l'artiste)
+// Clé qui repère une même œuvre venue de deux sources : titre et dernier mot du nom de l'artiste, sans accents
+// (« La Grande Vague de Kanagawa » de « Hokusai » et de « Katsushika Hokusai »)
+function cleOeuvre(w) {
+  const mots = sansAccents(w.artist).split(/[^\p{L}]+/u).filter(Boolean);
+  return sansAccents(w.title).replace(/[^\p{L}\d]+/gu, ' ').trim() + '|' + (mots[mots.length - 1] || '');
+}
+// Recherche par artiste : l'œuvre est-elle de cet artiste ? Tous les mots du nom tapé (sans accents) doivent être des mots
+// du nom de l'artiste. Renvoie 0 (non), 2 (oui) ou 1 (peut-être) : 1 quand un nom d'un seul mot n'est que le prénom d'un
+// autre artiste (« Rembrandt » dans « Rembrandt Peale » ou « Rembrandt Bugatti », mais pas dans « Rembrandt van Rijn ») ;
+// ces œuvres ne sont gardées que si aucune œuvre de la recherche ne correspond mieux (voir chercherDansLesMusees).
+// Les œuvres d'école, d'atelier, de suiveurs ou « d'après » l'artiste sont écartées (« Workshop of Rembrandt »), mais pas
+// celles d'un graveur d'après un autre artiste quand c'est le graveur qui est cherché (« Jan Sadeler I; after Maerten de Vos »).
+const PARTICULES_NOMS = /^(van|von|de|di|da|del|della|du|der|den|des|le|la|ter|ten|y|e)$/;
+const PAS_DE_SA_MAIN = /^(school|workshop|studio|circle|follower|followers|manner|imitator|copy|after|skole|efter|kreds|vaerksted|ecole|atelier|entourage|suiveur|apres)$/;
 function deLArtiste(w, nom) {
-  const a = sansAccents(w.artist), mots = sansAccents(nom).split(/[\s,.'’-]+/).filter(x => x.length >= 3);
-  return !!a && mots.some(x => a.includes(x));
+  const cherches = sansAccents(nom).split(/[^\p{L}]+/u).filter(x => x.length >= 3 && !PARTICULES_NOMS.test(x));
+  if (!cherches.length) return 0;
+  // Le nom de l'artiste peut réunir plusieurs personnes séparées par « ; » (graveur, éditeur…) : on garde celle qui correspond
+  const partie = sansAccents(w.artist).split(';').map(p => p.split(/[^\p{L}]+/u).filter(Boolean)).find(m => cherches.every(x => m.includes(x)));
+  if (!partie || partie.some(x => PAS_DE_SA_MAIN.test(x))) return 0;
+  if (cherches.length > 1) return 2;
+  // Nom d'un seul mot : dernier mot (sans « I », « II », « the Elder »…), ou suivi plus loin d'une particule
+  // (« Rembrandt Harmensz. van Rijn », « Leonardo da Vinci »)
+  const nom2 = partie.filter(x => !/^(i|ii|iii|iv|the|elder|younger|jr|sr|vieux|jeune)$/.test(x));
+  return nom2.some((x, i) => x === cherches[0] && (i === nom2.length - 1 || nom2.slice(i + 1).some(y => PARTICULES_NOMS.test(y)))) ? 2 : 1;
 }
 
 const REGIONS_HORS_EUROPE = ["Asie de l'Est", 'Asie du Sud et du Sud-Est', 'Moyen-Orient', 'Afrique', 'Amériques', 'Océanie'];
@@ -532,6 +553,7 @@ function chercherWikidataArtisteMouvement(c, n) {
   const d = bornesEpoques(c.ep || []);
   const requete = `SELECT ?i ?iLabel ?m ?mLabel ?date ?img ?typeEn ?createur ?createurLabel ?deces ?origine ?origineLabel ?nat WHERE {
     { SELECT DISTINCT ?i ?createur ?img ?date WHERE {
+        hint:Query hint:optimizer "None" .
         ${filtre}
         ?i wdt:P18 ?img . OPTIONAL { ?i wdt:P571 ?date }
         ${d ? `FILTER(!BOUND(?date) || (YEAR(?date) >= ${d[0]} && YEAR(?date) <= ${d[1]}))` : ''}
@@ -807,14 +829,19 @@ function chercherDansLesMusees(criteres, parSource, seulement) {
       // Les catalogues sont pris à tour de rôle, pour que chaque institution soit représentée
       const alternees = [];
       for (let k = 0; resultats.some(r => k < r.liste.length); k++) resultats.forEach(r => { if (k < r.liste.length) alternees.push(r.liste[k]); });
+      // Recherche par artiste : si des œuvres correspondent sûrement au nom tapé, celles d'homonymes probables sont écartées
+      const sur = criteres.artiste && alternees.some(w => deLArtiste(w, criteres.artiste) === 2);
+      // Mouvements choisis : une œuvre d'une autre région n'en fait pas partie (une affiche française citant l'ukiyo-e…)
+      const regionsMv = (criteres.mv || []).map(m => (mouvement(m) || {}).region).filter(Boolean);
       alternees.forEach(w => {
-        const cle = (w.title + '|' + w.artist).toLowerCase();
+        const cle = cleOeuvre(w);
         if (!w.title || vus.has(cle) || !w.epoch) return;
         // On applique les choix du visiteur aux fiches reçues (les catalogues ne savent pas tous filtrer)
         if (criteres.ep.length && !criteres.ep.includes(w.epoch)) return;
         if (criteres.rg.length && !w.regions.some(x => criteres.rg.includes(x))) return;
         if (criteres.ty.length && !w.types.some(x => criteres.ty.includes(x))) return;
-        if (criteres.artiste && !deLArtiste(w, criteres.artiste)) return;
+        if (criteres.artiste && deLArtiste(w, criteres.artiste) < (sur ? 2 : 1)) return;
+        if (regionsMv.length && w.regions.length && !w.regions.some(x => regionsMv.includes(x))) return;
         // Recherche par artiste : les catalogues renvoient surtout des gravures (Rembrandt, Dürer…) ; trois au plus,
         // pour laisser la place aux peintures, sauf si le visiteur a choisi « Dessins et estampes »
         if (criteres.artiste && !criteres.ty.length && w.types.includes('Dessins et estampes') && oeuvres.filter(x => x.types.includes('Dessins et estampes')).length >= 3) return;
@@ -1009,7 +1036,8 @@ function oeuvreParLien(lien) {
 }
 
 // Complète une exposition spéciale avec des œuvres de pays qui n'y sont pas encore représentés.
-// options : mots (mots-clés), regions et epoques (facultatifs), dejaPays (noms de pays déjà présents), manque (nombre de pays à ajouter).
+// options : mots (mots-clés), regions et epoques (facultatifs), dejaPays (noms de pays déjà présents), manque (nombre de pays à ajouter),
+// exclure (facultatif : sites d'images qui ne se chargent pas chez le visiteur, dont les œuvres sont écartées).
 // surAjout(oeuvre) est appelé dès qu'une œuvre d'un pays nouveau est trouvée : l'exposition se remplit au fur et à mesure.
 // Chaque catalogue est interrogé séparément, région par région, et ses réponses sont prises dès qu'elles arrivent.
 // Les demandes partent par petits groupes (quatre recherches à la fois, une seule pour Wikidata, qui envoie trois requêtes par recherche et refuse plus de cinq requêtes
@@ -1037,12 +1065,14 @@ function completerExposition(options, surAjout) {
   const regions = options.regions && options.regions.length ? options.regions : Object.keys(MOTS_RECHERCHE_REGIONS);
   const epoques = options.epoques || [];
   const pris = new Set(options.dejaPays || []), vus = new Set(), choisies = [], reserve = [];
+  const exclure = options.exclure || [];
   const sources = {}; // nom du catalogue → { ok, nombre }
   const fini = () => choisies.length >= options.manque;
   function prendre(liste) {
     (liste || []).forEach(w => {
       if (!w || !w.image || !w.title) return;
-      const cle = (w.title + '|' + w.artist).toLowerCase();
+      if (exclure.some(h => w.image.includes('//' + h + '/'))) return; // site d'images en panne chez ce visiteur
+      const cle = cleOeuvre(w);
       if (vus.has(cle)) return;
       vus.add(cle);
       if (epoques.length && !epoques.includes(w.epoch)) return;

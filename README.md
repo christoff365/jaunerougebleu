@@ -1,6 +1,6 @@
 # Jaune-Rouge-Bleu — jaunerougebleu.org
 
-Site de l'association Jaune-Rouge-Bleu (projet Artmonde) : des expositions d'œuvres du domaine public à composer soi-même, accessibles aux personnes aveugles et malvoyantes comme aux personnes sourdes et malentendantes, en français, anglais, espagnol et arabe.
+Site de l'association Jaune-Rouge-Bleu : des expositions d'œuvres du domaine public à composer soi-même, accessibles aux personnes aveugles et malvoyantes comme aux personnes sourdes et malentendantes, en français, anglais, espagnol et arabe.
 
 Le site est un site statique : pas de serveur, pas de base de données. Il est hébergé gratuitement par **GitHub Pages** ; chaque envoi sur la branche `main` le met en ligne en une à deux minutes (le cache peut garder l'ancienne version jusqu'à 10 minutes : recharger avec Ctrl + F5).
 
@@ -125,7 +125,7 @@ La collection (`masterpiece/oeuvres.json`) a été préparée par Claude à part
 
 ## Mentions légales
 
-Page « Mentions légales » dans `index.html` (lien en bas de chaque page, accès direct : jaunerougebleu.org/#mentions-legales), sur le modèle des rubriques des mentions légales du Centre Pompidou : éditeur, hébergement, directeur de la publication, adresse et coordonnées, équipe du site, équipe rédactionnelle et contributeurs. Les passages surlignés en jaune sont à compléter par l'association.
+Page « Mentions légales » dans `index.html` (lien en bas de chaque page, accès direct : jaunerougebleu.org/#mentions-legales), sur le modèle des rubriques des mentions légales du Centre Pompidou : éditeur (association loi 1901, numéro RNA W662014754), hébergement, directeur de la publication, adresse et coordonnées, équipe rédactionnelle et contributeurs.
 
 ## Fonctionnement à connaître
 
@@ -136,7 +136,7 @@ Page « Mentions légales » dans `index.html` (lien en bas de chaque page, acc�
 - **Page Musées** : le nom de chaque institution ouvre son site officiel (lu en direct dans Wikidata, propriété P856, et gardé 7 jours dans le navigateur) ; l'icône code-barres ouvre sa fiche Wikidata.
 - **Vibrations** : uniquement sur les téléphones Android (les iPhone et les ordinateurs ne le permettent pas depuis un site) ; ailleurs, seule la partition visuelle est proposée.
 - **Musique des couleurs** : tempo, tonalité, énergie et luminosité sont calculés à partir des couleurs réelles de l'image, selon une règle inventée pour le site, puis une courte musique est jouée dans le navigateur.
-- **Version des scripts** : dans `index.html`, les scripts sont appelés avec un numéro de version (`musees.js?v=20261016f`). Après une modification d'un fichier `.js`, changer ce numéro (la date du jour), sinon certains navigateurs gardent l'ancienne version en cache jusqu'à 10 minutes, alors que la page, elle, est nouvelle.
+- **Version des scripts** : dans `index.html`, les scripts sont appelés avec un numéro de version (`musees.js?v=20261016g`). Après une modification d'un fichier `.js`, changer ce numéro (la date du jour), sinon certains navigateurs gardent l'ancienne version en cache jusqu'à 10 minutes, alors que la page, elle, est nouvelle.
 - **Textes** : générés par Claude AI (Anthropic) ; à faire relire, en particulier les descriptions audio destinées aux visiteurs aveugles.
 
 ## Tester en local

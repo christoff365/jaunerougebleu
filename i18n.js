@@ -170,7 +170,14 @@ const TRAD = {
   "Musées du monde entier (Wikidata et Wikimedia Commons)": ["Museums around the world (Wikidata and Wikimedia Commons)", "Museos de todo el mundo (Wikidata y Wikimedia Commons)", "متاحف من حول العالم (ويكي بيانات وويكيميديا كومنز)"],
   "Patrimoine mondial de l'UNESCO (Wikidata et Wikimedia Commons)": ["UNESCO World Heritage (Wikidata and Wikimedia Commons)", "Patrimonio Mundial de la UNESCO (Wikidata y Wikimedia Commons)", "التراث العالمي لليونسكو (ويكي بيانات وويكيميديا كومنز)"],
   "Art Institute of Chicago": ["Art Institute of Chicago", "Instituto de Arte de Chicago", "معهد شيكاغو للفنون"],
-  // ---- Mentions légales (les passages à compléter seront traduits quand le contenu sera fourni)
+  // ---- Mentions légales
+  "Le site « jaunerougebleu.org » est édité par l'association Jaune-Rouge-Bleu, association loi 1901, numéro RNA W662014754.": ["The website “jaunerougebleu.org” is published by the association Jaune-Rouge-Bleu, a non-profit association under the French law of 1901, RNA number W662014754.", "El sitio «jaunerougebleu.org» lo edita la asociación Jaune-Rouge-Bleu, asociación sin ánimo de lucro regida por la ley francesa de 1901, número RNA W662014754.", "يصدر موقع «jaunerougebleu.org» عن جمعية Jaune-Rouge-Bleu، وهي جمعية غير ربحية خاضعة للقانون الفرنسي لعام 1901، رقم التسجيل RNA: W662014754."],
+  "Le site « jaunerougebleu.org » est hébergé par GitHub Pages, un service de la société GitHub, Inc.": ["The website “jaunerougebleu.org” is hosted by GitHub Pages, a service of GitHub, Inc.", "El sitio «jaunerougebleu.org» está alojado en GitHub Pages, un servicio de la empresa GitHub, Inc.", "يستضيف موقعَ «jaunerougebleu.org» خدمةُ GitHub Pages التابعة لشركة GitHub, Inc."],
+  "88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis": ["88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, United States", "88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, Estados Unidos", "88 Colin P. Kelly Jr. Street، سان فرانسيسكو، CA 94107، الولايات المتحدة"],
+  "Christopher Pearce, secrétaire de l'association": ["Christopher Pearce, secretary of the association", "Christopher Pearce, secretario de la asociación", "كريستوفر بيرس، أمين سر الجمعية"],
+  "Association Jaune-Rouge-Bleu": ["Jaune-Rouge-Bleu association", "Asociación Jaune-Rouge-Bleu", "جمعية Jaune-Rouge-Bleu"],
+  "66000 Perpignan, France": ["66000 Perpignan, France", "66000 Perpiñán, Francia", "66000 بربينيان، فرنسا"],
+  "Téléphone :": ["Telephone:", "Teléfono:", "الهاتف:"],
   "Mentions légales": ["Legal notice", "Aviso legal", "إشعار قانوني"],
   "Éditeur :": ["Publisher:", "Editor:", "الناشر:"],
   "Hébergement :": ["Hosting:", "Alojamiento:", "الاستضافة:"],

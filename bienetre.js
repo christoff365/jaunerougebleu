@@ -134,7 +134,7 @@ function proposerOeuvres() {
   tete.forEach(f => wb.montrees.add(f.image));
   document.getElementById('wb-aide').textContent = 'Œuvres proposées d\'après leurs couleurs. Cliquez sur celle qui vous attire.';
   document.getElementById('wb-choix').innerHTML = tete.map(f => { const n = wb.pool.indexOf(f);
-    return `<div class="wb-oeuvre" role="button" tabindex="0" aria-pressed="false" data-n="${n}" onclick="choisirOeuvreWb(${n},this)"><img src="${esc(f.image)}" alt="${esc(f.titre + (f.artiste ? ', ' + f.artiste : ''))}" loading="lazy" onerror="this.parentElement.remove()"><span>${esc(f.titre)}</span><small>${esc(f.artiste || '')}</small></div>`; }).join('');
+    return `<div class="wb-oeuvre" role="button" tabindex="0" aria-pressed="false" data-n="${n}" onclick="choisirOeuvreWb(${n},this)"><img src="${esc(f.image)}" alt="${esc(f.titre + (f.artiste ? ', ' + f.artiste : ''))}" loading="lazy" onerror="this.parentElement.remove()">${typeof boutonLoupe === 'function' ? boutonLoupe() : ''}<span>${esc(f.titre)}</span><small>${esc(f.artiste || '')}</small></div>`; }).join('');
   document.getElementById('wb-autres').hidden = false;
   wb.choix = null; document.getElementById('wb-go').disabled = true;
 }

@@ -76,6 +76,13 @@
   .drap.leve { transform: scaleY(0); }
   .voile { position: absolute; left: .75rem; bottom: .6rem; font-size: .8rem; color: #444; background: rgba(255,255,255,.75); padding: .1rem .5rem; }
   .chargement { color: var(--gris); }
+  img.zoom { cursor: zoom-in; }
+  img.zoom:focus-visible { outline: 3px solid var(--bleu); outline-offset: -3px; }
+  .visionneuse { margin: auto; border: 0; padding: 12px; max-width: 96vw; max-height: 96vh; background: #111; color: #fff; text-align: center; overflow: hidden; }
+  .visionneuse::backdrop { background: rgba(0,0,0,.8); }
+  .visionneuse img { display: block; max-width: calc(96vw - 24px); max-height: calc(96vh - 110px); margin: 8px auto; object-fit: contain; }
+  .visionneuse p { margin: 4px 0 0; font-size: .9rem; }
+  .vis-fermer { font: inherit; font-weight: 600; padding: .4rem .9rem; border: 2px solid #fff; background: #111; color: #fff; cursor: pointer; }
 
   .cote { display: flex; flex-direction: column; gap: 1rem; }
   .carton { background: #fffdf8; border: 1px solid #d9cfbd; box-shadow: 3px 3px 0 #d9cfbd; padding: 1rem 1.2rem; font-family: var(--font-cartel); font-size: 1.15rem; }
@@ -189,7 +196,7 @@
   <section class="salle" id="salle" hidden>
     <div class="mur">
       <div class="cadre"><div class="passe">
-        <img id="oeuvre" alt="Œuvre à identifier">
+        <img id="oeuvre" class="zoom" tabindex="0" role="button" aria-haspopup="dialog" alt="Œuvre à identifier">
         <div class="drap" id="drap" aria-hidden="true"></div>
       </div></div>
       <span class="voile" id="voile" aria-hidden="true"></span>
@@ -551,7 +558,7 @@
     $('fin-detail').textContent = partie.justes + ' bonnes réponses sur ' + partie.total + ' (' + pct + ' %)' + (nouveau ? ' — nouveau record !' : '');
     $('accrochage').innerHTML = partie.bilan.map(function (b) {
       var parfait = b.justes === b.total;
-      return '<figure class="tableau" style="margin:0"><div class="cadre"><div class="passe"><img src="' + esc(b.o.image) + '" alt="' + esc(b.o.titre) + '" loading="lazy"></div></div>' +
+      return '<figure class="tableau" style="margin:0"><div class="cadre"><div class="passe"><img class="zoom" tabindex="0" role="button" aria-haspopup="dialog" src="' + esc(b.o.image) + '" alt="' + esc(b.o.titre + (b.o.artiste ? ', ' + b.o.artiste : '')) + '" loading="lazy"></div></div>' +
         '<p><i>' + esc(b.o.titre) + '</i>' + (b.o.artiste ? '<br>' + esc(b.o.artiste) : '') + '</p>' +
         '<span class="etoiles" aria-label="' + b.justes + ' bonnes réponses sur ' + b.total + '">' + '★'.repeat(b.justes) + '☆'.repeat(b.total - b.justes) + '</span>' +
         (parfait ? '<span class="parfait">Cartel parfait</span>' : '') + '</figure>';
@@ -613,6 +620,32 @@
   $('b-jouer').addEventListener('click', lancer);
   $('b-rejouer').addEventListener('click', lancer);
   $('b-accueil').addEventListener('click', function () { partie = null; $('fin').hidden = true; $('accueil').hidden = false; majHud(); });
+
+  // Visionneuse : un clic (ou Entrée) sur une image l'ouvre en grand. Pendant la partie, l'œuvre garde son voile
+  // (le même flou, à l'échelle de l'image agrandie) et sa légende ne dit pas son titre : agrandir ne donne pas la réponse.
+  function grandeImage(src) { return String(src).replace(/(\/thumb\/.+\/)\d+px-([^/]+)$/, '$11600px-$2').replace(/([?&]width=)\d+/, '$11600'); }
+  function ouvrirVisionneuse(img) {
+    var d = $('visionneuse');
+    if (!d) {
+      d = document.createElement('dialog'); d.id = 'visionneuse'; d.className = 'visionneuse'; d.setAttribute('aria-labelledby', 'vis-leg');
+      d.innerHTML = '<button type="button" class="vis-fermer"><span aria-hidden="true">✕</span> Fermer</button><img id="vis-img" alt=""><p id="vis-leg"></p>';
+      d.querySelector('.vis-fermer').addEventListener('click', function () { d.close(); });
+      d.addEventListener('click', function (e) { if (e.target === d) d.close(); });
+      document.body.appendChild(d);
+    }
+    var g = $('vis-img'), petite = img.currentSrc || img.src, enJeu = img.id === 'oeuvre';
+    var flou = function () {
+      var f = enJeu && partie ? partie.flou : 0, r = img.clientWidth ? g.clientWidth / img.clientWidth : 1;
+      g.style.filter = f > 0 ? 'blur(' + Math.round(f * Math.max(1, r)) + 'px)' : 'none';
+    };
+    g.onerror = function () { g.onerror = null; g.src = petite; };
+    g.onload = flou;
+    g.src = enJeu ? petite : grandeImage(petite); g.alt = img.alt;
+    $('vis-leg').textContent = img.alt;
+    d.showModal(); flou();
+  }
+  document.addEventListener('click', function (e) { var img = e.target.closest && e.target.closest('img.zoom'); if (img) ouvrirVisionneuse(img); });
+  document.addEventListener('keydown', function (e) { if ((e.key === 'Enter' || e.key === ' ') && e.target.matches && e.target.matches('img.zoom')) { e.preventDefault(); ouvrirVisionneuse(e.target); } });
 
   majHud();
   fetch('oeuvres.json').then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }).then(function (d) {

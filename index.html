@@ -117,6 +117,9 @@ hr{border:none;border-top:1px solid #e0d5c0;margin:28px 0}
 
 /* ART CARDS */
 .art-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin-bottom:28px}
+.loupe{position:absolute;top:6px;right:6px;width:34px;height:34px;border-radius:50%;border:0;background:rgba(255,255,255,.92);box-shadow:0 1px 4px rgba(0,0,0,.3);cursor:zoom-in;font-size:16px;line-height:34px;padding:0}
+.loupe:focus-visible{outline:3px solid #1a3a8a}
+.art-card,.wb-oeuvre{position:relative}
 .art-card{border:2px solid #e0d5c0;border-radius:8px;overflow:hidden;cursor:pointer;background:#fff;transition:.25s;box-shadow:0 2px 8px rgba(0,0,0,.06)}
 .art-card:hover{border-color:#C9A84C;transform:translateY(-3px);box-shadow:0 6px 20px rgba(0,0,0,.12)}
 .art-card.on{border-color:#C9A84C;box-shadow:0 0 0 3px rgba(201,168,76,.2)}
@@ -576,19 +579,19 @@ html.sans-animation *,html.sans-animation *::before,html.sans-animation *::after
     <p class="ey">Sélectionnez une œuvre</p>
     <div class="art-cards" id="art-cards">
       <div class="art-card on" role="button" tabindex="0" aria-pressed="true" onclick="pickArt(0,this)">
-        <img class="art-card-img" src="images/oeuvres/grande-vague-hokusai.jpg" alt="La Grande Vague de Kanagawa, Hokusai" loading="lazy">
+        <img class="art-card-img" src="images/oeuvres/grande-vague-hokusai.jpg" alt="La Grande Vague de Kanagawa, Hokusai" loading="lazy"><button type="button" class="loupe" aria-label="Agrandir l'image" onclick="event.stopPropagation();ouvrirVisionneuse(this.parentElement.querySelector('img'))" onkeydown="event.stopPropagation()"><span aria-hidden="true">🔍</span></button>
         <div class="art-card-info"><b>La Grande Vague</b><span>Hokusai · Japon · vers 1830-1832</span><small class="img-credit">Image : <a href="https://www.metmuseum.org/art/collection/search/45434" target="_blank" rel="noopener">The Metropolitan Museum of Art</a>, domaine public</small></div>
       </div>
       <div class="art-card" role="button" tabindex="0" aria-pressed="false" onclick="pickArt(1,this)">
-        <img class="art-card-img" src="images/oeuvres/nympheas-monet.jpg" alt="Nymphéas, Claude Monet" loading="lazy">
+        <img class="art-card-img" src="images/oeuvres/nympheas-monet.jpg" alt="Nymphéas, Claude Monet" loading="lazy"><button type="button" class="loupe" aria-label="Agrandir l'image" onclick="event.stopPropagation();ouvrirVisionneuse(this.parentElement.querySelector('img'))" onkeydown="event.stopPropagation()"><span aria-hidden="true">🔍</span></button>
         <div class="art-card-info"><b>Nymphéas</b><span>Monet · France · 1906</span><small class="img-credit">Image : <a href="https://www.artic.edu/artworks/16568" target="_blank" rel="noopener">Art Institute of Chicago</a>, via <a href="https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Water_Lilies_-_1933.1157_-_Art_Institute_of_Chicago.jpg" target="_blank" rel="noopener">Wikimedia Commons</a>, domaine public</small></div>
       </div>
       <div class="art-card" role="button" tabindex="0" aria-pressed="false" onclick="pickArt(2,this)">
-        <img class="art-card-img" src="images/oeuvres/iris-van-gogh.jpg" alt="Iris, Vincent van Gogh" loading="lazy">
+        <img class="art-card-img" src="images/oeuvres/iris-van-gogh.jpg" alt="Iris, Vincent van Gogh" loading="lazy"><button type="button" class="loupe" aria-label="Agrandir l'image" onclick="event.stopPropagation();ouvrirVisionneuse(this.parentElement.querySelector('img'))" onkeydown="event.stopPropagation()"><span aria-hidden="true">🔍</span></button>
         <div class="art-card-info"><b>Iris (Van Gogh, 1890, Saint-Rémy)</b><span>Van Gogh · Pays-Bas · 1890</span><small class="img-credit">Image : <a href="https://www.metmuseum.org/art/collection/search/436528" target="_blank" rel="noopener">The Metropolitan Museum of Art</a>, domaine public</small></div>
       </div>
       <div class="art-card" role="button" tabindex="0" aria-pressed="false" onclick="pickArt(3,this)">
-        <img class="art-card-img" src="images/oeuvres/femmes-de-tahiti-gauguin.jpg" alt="Femmes de Tahiti, Paul Gauguin" loading="lazy">
+        <img class="art-card-img" src="images/oeuvres/femmes-de-tahiti-gauguin.jpg" alt="Femmes de Tahiti, Paul Gauguin" loading="lazy"><button type="button" class="loupe" aria-label="Agrandir l'image" onclick="event.stopPropagation();ouvrirVisionneuse(this.parentElement.querySelector('img'))" onkeydown="event.stopPropagation()"><span aria-hidden="true">🔍</span></button>
         <div class="art-card-info"><b>Femmes de Tahiti</b><span>Gauguin · France · 1891</span><small class="img-credit">Image : musée d&rsquo;Orsay, via <a href="https://commons.wikimedia.org/wiki/File:Paul_Gauguin_056.jpg" target="_blank" rel="noopener">Wikimedia Commons</a>, domaine public</small></div>
       </div>
     </div>
@@ -835,9 +838,9 @@ html.sans-animation *,html.sans-animation *::before,html.sans-animation *::after
   </div>
 </footer>
 <!-- Traductions (anglais, espagnol, arabe) et moteur de traduction -->
-<script src="i18n.js?v=20261016c"></script>
+<script src="i18n.js?v=20261016d"></script>
 <!-- Recherche en direct dans les catalogues ouverts des musées (domaine public) -->
-<script src="musees.js?v=20261016c"></script>
+<script src="musees.js?v=20261016d"></script>
 <script>
 const ART = [
   { img:"images/oeuvres/grande-vague-hokusai.jpg", credit:'Image : <a href="https://www.metmuseum.org/art/collection/search/45434" target="_blank" rel="noopener">The Metropolitan Museum of Art</a>, domaine public (Open Access)', name:"La Grande Vague de Kanagawa", meta:"Katsushika Hokusai · Japon · vers 1830-1832 · Metropolitan Museum of Art",
@@ -1009,6 +1012,8 @@ function imageOeuvre(src,alt,classe,sensible){
 // Visionneuse : un clic (ou Entrée) sur l'image d'une œuvre l'ouvre en grand, pour tous les visiteurs
 // Vignettes de Wikimedia Commons : on demande une version plus grande (si elle n'existe pas, on garde la vignette)
 function grandeImage(src){return String(src).replace(/(\/thumb\/.+\/)\d+px-([^/]+)$/,'$11600px-$2').replace(/([?&]width=)\d+/,'$11600');}
+// Bouton loupe des vignettes qui servent à choisir une œuvre (le clic sur la vignette la choisit, la loupe l'agrandit)
+function boutonLoupe(){return '<button type="button" class="loupe" aria-label="Agrandir l\'image" onclick="event.stopPropagation();ouvrirVisionneuse(this.parentElement.querySelector(\'img\'))" onkeydown="event.stopPropagation()"><span aria-hidden="true">🔍</span></button>';}
 function ouvrirVisionneuse(img){
   if(img.closest('.sensible:not(.vu)'))return; // image floutée : il faut d'abord choisir de l'afficher
   let d=document.getElementById('visionneuse');
@@ -1359,7 +1364,9 @@ function viewSp(id){const e=expos.find(x=>x.id===id);if(!e)return;
   Promise.all(places).then(()=>{
     if(numero!==spEnCours.numero)return;
     const pays=majCompteSp(),objectif=objectifPays(e),manque=objectif-pays.size;
-    if(manque<=0||typeof completerExposition!=='function')return;
+    // Chaque œuvre d'une exposition spéciale doit être commentée : le complément automatique (œuvres sans commentaire)
+    // ne se fait que si l'exposition le demande (case « Compléter automatiquement » de Pages CMS)
+    if(manque<=0||!(e.search&&e.search.auto)||typeof completerExposition!=='function')return;
     // Complément automatique : œuvres de pays absents, trouvées en direct dans les musées
     const bloc=document.createElement('div');bloc.className='sp-auto';
     bloc.innerHTML=`<h3 class="sp-auto-t">Œuvres d'autres pays, trouvées en direct dans les musées</h3><p class="expo-note">Pour présenter des œuvres d'autant de pays que prévu, l'exposition est complétée automatiquement avec des œuvres du domaine public trouvées dans les catalogues des musées. Elles changent d'une visite à l'autre.</p><p class="sub sp-auto-att">Recherche en direct d'œuvres d'autres pays…</p><div class="sp-auto-l"></div>`;
@@ -1426,7 +1433,7 @@ function relancerSp(){
       else if(!s.enCours&&bloc&&!bloc.querySelector('.sp-manque'))bloc.insertAdjacentHTML('beforeend','<p class="expo-note sp-manque">Les catalogues des musées n\'ont pas permis d\'atteindre le nombre de pays voulu pour le moment : rechargez la page pour relancer la recherche.</p>');
     });
 }
-function renderHome(){const el=document.getElementById('sp-home');if(!el||!exposChargees)return;const pub=expos.filter(e=>e.status==='published');if(!pub.length){el.innerHTML='<p style="color:#666;font-size:13px">Aucune exposition publiée pour le moment.</p>';return;}el.innerHTML=pub.map(e=>`<div class="sp-card" role="button" tabindex="0" onclick="viewSp(${e.id})"><p class="sp-ey">Comparaison mondiale · ${e.works.length} œuvre(s)${e.works.length<objectifPays(e)?' · complétée en direct jusqu\'à '+objectifPays(e)+' pays':''}</p><h3 class="sp-t">${esc(e.title)}</h3><p class="sp-s">${esc(e.subtitle)}</p>${e.theme?`<div style="margin-top:10px"><span class="badge bg">${esc(e.theme)}</span></div>`:''}</div>`).join('');}
+function renderHome(){const el=document.getElementById('sp-home');if(!el||!exposChargees)return;const pub=expos.filter(e=>e.status==='published');if(!pub.length){el.innerHTML='<p style="color:#666;font-size:13px">Aucune exposition publiée pour le moment.</p>';return;}el.innerHTML=pub.map(e=>`<div class="sp-card" role="button" tabindex="0" onclick="viewSp(${e.id})"><p class="sp-ey">Comparaison mondiale · ${e.works.length} œuvre(s)${e.search&&e.search.auto&&e.works.length<objectifPays(e)?' · complétée en direct jusqu\'à '+objectifPays(e)+' pays':''}</p><h3 class="sp-t">${esc(e.title)}</h3><p class="sp-s">${esc(e.subtitle)}</p>${e.theme?`<div style="margin-top:10px"><span class="badge bg">${esc(e.theme)}</span></div>`:''}</div>`).join('');}
 function chargerExpos(){
   fetch('expositions.json',{cache:'no-cache'})
     .then(r=>{if(!r.ok)throw new Error('HTTP '+r.status);return r.json();})
@@ -1500,8 +1507,8 @@ afficherValeurs(0);
 traduirePage();
 </script>
 <!-- Fenêtre Accessibilité de chaque œuvre et menu Affichage et lecture -->
-<script src="accessibilite.js?v=20261016c"></script>
+<script src="accessibilite.js?v=20261016d"></script>
 <!-- Séances de bien-être composées à la demande -->
-<script src="bienetre.js?v=20261016c"></script>
+<script src="bienetre.js?v=20261016d"></script>
 </body>
 </html>

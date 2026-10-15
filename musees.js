@@ -918,6 +918,7 @@ const PAYS_OEUVRES = [
   ['Tunisie', 'Afrique', /\b(tunisi|carthag|kairouan)/],
   ['Libye', 'Afrique', /\b(libye|libya)/],
   ['Afghanistan', 'Asie', /\b(afghan|herat|gandhara|bactria)/],
+  ['Ouzbékistan', 'Asie', /\b(ouzbek|uzbek|boukhara|bukhara|samarcande|samarkand|khiva)/],
   ['Iran', 'Asie', /\b(iran|persia|persan|perse\b|isfahan|ispahan|tabriz|shiraz|safavid|qajar|sasanian|sassanide|achaemenid|achemenide|timurid|timouride)/],
   ['Irak', 'Asie', /\b(irak|iraq|mesopotami|assyri|babylon|sumer|baghdad|bagdad|mosul|nimrud)/],
   ['Syrie', 'Asie', /\b(syri|damas|palmyr|aleppo|alep\b|raqqa)/],

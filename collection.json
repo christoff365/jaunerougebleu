@@ -107,7 +107,7 @@
     "regions": ["Moyen-Orient"],
     "epoch": "Renaissance",
     "themes": ["Mythologie"],
-    "types": ["Dessins et estampes"],
+    "types": ["Dessins et estampes", "Manuscrits et livres enluminés"],
     "image": "images/collection/fete-de-sada-shahnameh.jpg",
     "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/452111), domaine public (Open Access)"
   },
@@ -178,7 +178,7 @@
     "regions": ["Afrique"],
     "epoch": "XVIIe–XVIIIe s.",
     "themes": ["Spiritualité", "Portraits"],
-    "types": ["Peinture"],
+    "types": ["Peinture", "Icônes"],
     "image": "images/collection/icone-ethiopienne.jpg",
     "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/319625), domaine public (Open Access)"
   },

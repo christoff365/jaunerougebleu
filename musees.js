@@ -429,9 +429,43 @@ function bornesEpoques(ep) {
   const d = ep.map(e => DATES_EPOQUES[e]);
   return [Math.min(...d.map(x => x[0])), Math.max(...d.map(x => x[1]))];
 }
+// Règles de Wikimedia pour les programmes qui interrogent ses services (https://wikitech.wikimedia.org/wiki/Robot_policy) :
+// - se présenter : le navigateur ne peut pas changer son User-Agent, le site envoie donc l'en-tête Api-User-Agent ;
+// - Wikidata (recherches SPARQL) : 5 recherches simultanées au plus par visiteur ; le site en envoie 3 au plus ;
+// - Commons (API) : une demande à la fois ;
+// - après un refus « 429 Trop de demandes », attendre avant de redemander : pendant la pause (une minute, ou la durée
+//   indiquée par Wikimedia), les recherches concernées échouent aussitôt, et les autres catalogues continuent.
+const API_USER_AGENT = 'jaunerougebleu.org (generateur d expositions ; https://jaunerougebleu.org)';
+// File d'attente qui garde le résultat (ou l'erreur) de chaque tâche : au plus « max » tâches en même temps
+function limiteur(max) {
+  let actives = 0;
+  const attente = [];
+  const suivante = () => {
+    if (actives >= max || !attente.length) return;
+    actives++;
+    const [tache, ok, ko] = attente.shift();
+    Promise.resolve().then(tache).then(r => { actives--; ok(r); suivante(); }, e => { actives--; ko(e); suivante(); });
+  };
+  return tache => new Promise((ok, ko) => { attente.push([tache, ok, ko]); suivante(); });
+}
+const fileWikidata = limiteur(3), fileCommons = limiteur(1), pauseWikimedia = { wikidata: 0, commons: 0 };
+function demandeWikimedia(service, file, url, delai, options) {
+  return file(() => {
+    if (Date.now() < pauseWikimedia[service]) throw new Error(service + ' en pause après un refus 429');
+    const o = Object.assign({}, options);
+    o.headers = Object.assign({ 'Api-User-Agent': API_USER_AGENT }, o.headers);
+    const ctrl = new AbortController(), minuteur = setTimeout(() => ctrl.abort(), delai || 9000);
+    return fetch(url, Object.assign(o, { signal: ctrl.signal })).then(r => {
+      clearTimeout(minuteur);
+      if (r.status === 429) pauseWikimedia[service] = Date.now() + 1000 * Math.min(600, parseInt(r.headers.get('Retry-After'), 10) || 60);
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      return r.json();
+    });
+  });
+}
 function sparql(requete, delai) {
   // Envoi en POST : les requêtes longues dépasseraient la taille maximale d'une adresse
-  return lireJSON('https://query.wikidata.org/sparql?format=json', delai || 15000, {
+  return demandeWikimedia('wikidata', fileWikidata, 'https://query.wikidata.org/sparql?format=json', delai || 15000, {
     method: 'POST', body: new URLSearchParams({ query: requete })
   }).then(r => (r.results && r.results.bindings) || []);
 }
@@ -445,7 +479,7 @@ function texteBrut(html) {
 }
 // Nom du fichier Commons à partir de l'adresse donnée par Wikidata
 function fichierCommons(url) { return decodeURIComponent(String(url).split('Special:FilePath/')[1] || ''); }
-// Vignette, auteur et licence de chaque image, en une seule demande à Wikimedia Commons
+// Vignette, auteur et licence de chaque image, en une seule demande à Wikimedia Commons.
 // Wikimedia Commons ne sert plus, en lien direct, que des vignettes de tailles standard
 // (20, 40, 60, 120, 250, 330, 500, 960, 1280, 1920, 3840 px de large) : toute autre taille est refusée
 // (voir https://www.mediawiki.org/wiki/Common_thumbnail_sizes). Le site demande 500 px, et 1280 px pour la visionneuse.
@@ -453,7 +487,7 @@ function infosCommons(fichiers) {
   if (!fichiers.length) return Promise.resolve({});
   const url = 'https://commons.wikimedia.org/w/api.php?action=query&format=json&origin=*&prop=imageinfo&iiprop=extmetadata|url&iiurlwidth=500' +
     '&iiextmetadatafilter=LicenseShortName|Artist&titles=' + encodeURIComponent(fichiers.slice(0, 50).map(f => 'File:' + f).join('|'));
-  return lireJSON(url).then(r => {
+  return demandeWikimedia('commons', fileCommons, url).then(r => {
     const q = r.query || {}, origine = {};
     (q.normalized || []).forEach(n => { origine[n.to] = n.from; });
     const infos = {};

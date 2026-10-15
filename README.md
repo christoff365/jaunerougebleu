@@ -106,6 +106,15 @@ Le relais n'accepte que les demandes venant de jaunerougebleu.org (liste `ORIGIN
 
 Limites : les fiches venues des catalogues restent dans la langue du musée (souvent l'anglais ; Wikidata donne souvent le titre en français) ; Wikidata limite le nombre de recherches par visiteur et par minute (largement suffisant pour un usage normal) ; le floutage des scènes violentes ou de nudité repose sur le titre et n'est pas infaillible ; si un catalogue ne répond pas, les autres continuent ; une œuvre dont l'image ne se charge pas est retirée automatiquement.
 
+## Quand une source ne répond plus : diagnostic
+
+La ligne « Catalogues indisponibles pour le moment » en bas d'une exposition générée nomme les sources en panne. Causes connues (vérifiées en octobre 2026) :
+
+- **The Met** : l'ancienne adresse de recherche `/public/collection/v1/search` a été retirée le 1er octobre 2026 (réponse 410) ; le site utilise `/v1.1/search`. Si le Met change encore d'adresse, sa réponse d'erreur indique la nouvelle (voir https://metmuseum.github.io/).
+- **Art Institute of Chicago** : le catalogue (`api.artic.edu`) répond, mais les images (`www.artic.edu/iiif`) sont protégées par Cloudflare, qui peut les refuser à certains réseaux (hébergeurs, VPN, réseaux d'entreprise) par une vérification anti-robots (réponse 403). Le site essaie une image au début de chaque visite (fonction `imagesAIC` de `musees.js`) : si elle ne se charge pas, Chicago est simplement déclaré indisponible pour ce visiteur. Si cela arrive à tous les visiteurs, écrire à engineering@artic.edu.
+- **Wikidata et Wikimedia Commons** : chaque adresse IP a un quota (temps de calcul des recherches Wikidata, nombre de demandes à Commons) ; au-delà, la réponse est 429 (« trop de demandes ») pendant une dizaine de minutes. Un visiteur normal ne l'atteint pas ; des tests répétés depuis une même machine, si. Une recherche Wikidata trop lente consomme vite ce quota : en cas de lenteur, vérifier qu'elle commence par `hint:Query hint:optimizer "None"`.
+- **Europeana et Smithsonian** : ils passent par le relais, qui n'accepte que les demandes venant de jaunerougebleu.org ; ils apparaissent donc toujours indisponibles quand le site est testé ailleurs (en local, par exemple). Vérifier aussi que les clés n'ont pas expiré (voir plus haut).
+
 ## Le jeu Masterpiece
 
 Une œuvre arrive au musée sans son cartel (son étiquette) : le joueur la reconstitue en choisissant, à chaque question, parmi trois propositions (artiste, époque, pays, mouvement, genre, type, musée). L'œuvre apparaît sous un voile qui se lève à chaque réponse ; répondre sous le voile rapporte davantage. Huit salles par visite, quatre parcours (tour du monde, au-delà de l'Europe, chefs-d'œuvre, sculptures et objets), trois niveaux (Amateur, Connaisseur, Expert avec chronomètre, désactivable), un joker « Demander au guide » et un « Soulever le voile ». À la fin, les œuvres de la visite sont accrochées au mur avec leur score.

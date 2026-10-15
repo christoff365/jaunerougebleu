@@ -570,6 +570,20 @@ function chercherWikidataArtisteMouvement(c, n) {
   }));
 }
 
+// Images de l'Art Institute of Chicago : leur serveur (www.artic.edu, protégé par Cloudflare) peut les refuser à certains
+// visiteurs (vérification anti-robots, réseaux d'entreprise ou d'hébergeurs) alors que son catalogue répond. On essaie une
+// seule image (La Grande Jatte de Seurat) une fois par visite ; si elle ne se charge pas, Chicago est déclaré indisponible
+// au lieu de proposer des œuvres dont aucune image ne s'afficherait.
+let imagesAicOk = null;
+function imagesAIC() {
+  if (!imagesAicOk) imagesAicOk = new Promise(ok => {
+    const img = new Image(), fin = r => { clearTimeout(t); ok(r); }, t = setTimeout(() => fin(false), 8000);
+    img.onload = () => fin(img.naturalWidth > 0); img.onerror = () => fin(false);
+    img.src = 'https://www.artic.edu/iiif/2/2d484387-2509-5e8e-2c43-22f9981972eb/full/200,/0/default.jpg';
+  });
+  return imagesAicOk;
+}
+
 const ADAPTATEURS = {
   wikidata: {
     nom: 'Musées du monde entier (Wikidata et Wikimedia Commons)',
@@ -706,7 +720,8 @@ const ADAPTATEURS = {
       const requete = { query: { bool: { must: filtres } }, fields: 'id,title,artist_display,date_display,date_start,place_of_origin,artwork_type_title,classification_title,image_id', limit: n, page: c.premiere ? 1 : 1 + hasard(5) };
       const q = motsCles(c).join(' ');
       if (q) requete.q = q;
-      return lireJSON('https://api.artic.edu/api/v1/artworks/search?params=' + encodeURIComponent(JSON.stringify(requete)))
+      return imagesAIC().then(ok => { if (!ok) throw new Error('Images de Chicago inaccessibles'); })
+        .then(() => lireJSON('https://api.artic.edu/api/v1/artworks/search?params=' + encodeURIComponent(JSON.stringify(requete))))
         .then(r => (r.data || []).filter(o => o.image_id).map(o => oeuvre({
           titre: o.title, artiste: (o.artist_display || '').split('\n')[0], date: o.date_display, annee: o.date_start,
           lieu: o.place_of_origin, nationalite: o.artist_display, musee: this.nom, image: 'https://www.artic.edu/iiif/2/' + o.image_id + '/full/400,/0/default.jpg',
@@ -1001,13 +1016,13 @@ function oeuvreParLien(lien) {
     }) : null);
   }
   if ((m = u.match(/artic\.edu\/artworks\/(\d+)/))) {
-    return lireJSON('https://api.artic.edu/api/v1/artworks/' + m[1] + '?fields=id,title,artist_display,date_display,date_start,place_of_origin,artwork_type_title,classification_title,image_id,is_public_domain')
+    return imagesAIC().then(ok => ok ? lireJSON('https://api.artic.edu/api/v1/artworks/' + m[1] + '?fields=id,title,artist_display,date_display,date_start,place_of_origin,artwork_type_title,classification_title,image_id,is_public_domain')
       .then(r => { const o = r && r.data; return o && o.is_public_domain && o.image_id ? oeuvre({
         titre: o.title, artiste: (o.artist_display || '').split('\n')[0], date: o.date_display, annee: o.date_start,
         lieu: o.place_of_origin, nationalite: o.artist_display, musee: ADAPTATEURS.aic.nom,
         image: 'https://www.artic.edu/iiif/2/' + o.image_id + '/full/843,/0/default.jpg', fiche: 'https://www.artic.edu/artworks/' + o.id,
         classification: [o.artwork_type_title, o.classification_title].join(' ')
-      }) : null; });
+      }) : null; }) : null);
   }
   if ((m = u.match(/clevelandart\.org\/art\/([^/?#]+)/))) {
     return lireJSON('https://openaccess-api.clevelandart.org/api/artworks/' + encodeURIComponent(m[1])).then(r => {

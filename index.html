@@ -786,9 +786,9 @@ html.sans-animation *,html.sans-animation *::before,html.sans-animation *::after
   </div>
 </footer>
 <!-- Traductions (anglais, espagnol, arabe) et moteur de traduction -->
-<script src="i18n.js"></script>
+<script src="i18n.js?v=20261015"></script>
 <!-- Recherche en direct dans les catalogues ouverts des musées (domaine public) -->
-<script src="musees.js"></script>
+<script src="musees.js?v=20261015"></script>
 <script>
 const ART = [
   { img:"images/oeuvres/grande-vague-hokusai.jpg", credit:'Image : <a href="https://www.metmuseum.org/art/collection/search/45434" target="_blank" rel="noopener">The Metropolitan Museum of Art</a>, domaine public (Open Access)', name:"La Grande Vague de Kanagawa", meta:"Katsushika Hokusai · Japon · vers 1830-1832 · Metropolitan Museum of Art",
@@ -1277,13 +1277,14 @@ function viewSp(id){const e=expos.find(x=>x.id===id);if(!e)return;
     bloc.innerHTML=`<h3 class="sp-auto-t">Œuvres d'autres pays, trouvées en direct dans les musées</h3><p class="expo-note">Pour présenter des œuvres d'autant de pays que prévu, l'exposition est complétée automatiquement avec des œuvres du domaine public trouvées dans les catalogues des musées. Elles changent d'une visite à l'autre.</p><p class="sub sp-auto-att">Recherche en direct d'œuvres d'autres pays…</p><div class="sp-auto-l"></div>`;
     zone.appendChild(bloc);
     const r=e.search||{};
-    completerExposition({mots:(r.keywords||MOTS_THEMES_EXPO[e.theme]||'').trim(),regions:[].concat(r.regions||[]),epoques:[].concat(r.epochs||[]),dejaPays:[...pays],manque})
+    const liste=bloc.querySelector('.sp-auto-l');
+    // Chaque œuvre trouvée s'affiche aussitôt (sans attendre la fin de toutes les recherches)
+    const surAjout=w=>{if(numero!==spEnCours.numero)return;ajouterCarteSp(liste,{title:w.title,artist:w.artist,period:w.date,country:w.pays,museum:w.museum,image:w.image,credit:w.credit,sensible:w.sensible,langue:w.langue,pays:w.pays,continent:w.continent},true);majCompteSp();};
+    completerExposition({mots:(r.keywords||MOTS_THEMES_EXPO[e.theme]||'').trim(),regions:[].concat(r.regions||[]),epoques:[].concat(r.epochs||[]),dejaPays:[...pays],manque},surAjout)
       .catch(()=>({choisies:[],reserve:[]})).then(res=>{
         if(numero!==spEnCours.numero)return;
         spEnCours.reserve=res.reserve;
         const att=bloc.querySelector('.sp-auto-att');if(att)att.remove();
-        const liste=bloc.querySelector('.sp-auto-l');
-        res.choisies.forEach(w=>ajouterCarteSp(liste,{title:w.title,artist:w.artist,period:w.date,country:w.pays,museum:w.museum,image:w.image,credit:w.credit,sensible:w.sensible,langue:w.langue,pays:w.pays,continent:w.continent},true));
         if(majCompteSp().size<objectif)bloc.insertAdjacentHTML('beforeend','<p class="expo-note">Les catalogues des musées n\'ont pas permis d\'atteindre le nombre de pays voulu pour le moment : rechargez la page pour relancer la recherche.</p>');
       });
   });
@@ -1371,8 +1372,8 @@ afficherValeurs(0);
 traduirePage();
 </script>
 <!-- Fenêtre Accessibilité de chaque œuvre et menu Affichage et lecture -->
-<script src="accessibilite.js"></script>
+<script src="accessibilite.js?v=20261015"></script>
 <!-- Séances de bien-être composées à la demande -->
-<script src="bienetre.js"></script>
+<script src="bienetre.js?v=20261015"></script>
 </body>
 </html>

@@ -863,37 +863,51 @@ function oeuvreParLien(lien) {
 
 // Complète une exposition spéciale avec des œuvres de pays qui n'y sont pas encore représentés.
 // options : mots (mots-clés), regions et epoques (facultatifs), dejaPays (noms de pays déjà présents), manque (nombre de pays à ajouter).
-// Une œuvre par pays nouveau, en prenant les régions à tour de rôle pour équilibrer les continents.
-// D'abord les catalogues qui savent chercher par mots-clés, en trois vagues au plus (à chaque vague, un autre mot de culture
-// par région : « Chinese », puis « Japanese »…), arrêtées dès que le compte est atteint ; s'il manque encore des pays,
-// les musées du monde entier (Wikidata), sans mot-clé.
-// Renvoie { choisies, reserve } : la réserve sert à remplacer une œuvre dont l'image ne se charge pas.
+// surAjout(oeuvre) est appelé dès qu'une œuvre d'un pays nouveau est trouvée : l'exposition se remplit au fur et à mesure.
+// Chaque catalogue est interrogé séparément, région par région, et ses réponses sont prises dès qu'elles arrivent
+// (un catalogue lent ne retarde pas les autres) :
+// - catalogues qui savent chercher par mots-clés (Met, Chicago, Cleveland, SMK, Minneapolis, Smithsonian), en trois vagues
+//   au plus, avec à chaque vague un autre mot de culture par région (« Chinese », puis « Japanese »…) ;
+// - musées du monde entier via Wikidata (sans mot-clé), lancés après quelques secondes s'il manque encore des pays.
+// Une œuvre par pays nouveau. Renvoie (au plus tard après 45 secondes) { choisies, reserve } :
+// la réserve sert à remplacer une œuvre dont l'image ne se charge pas.
 const CATALOGUES_MOTS_CLES = ['met', 'aic', 'cleveland', 'smk', 'mia', 'smithsonian'];
-function completerExposition(options) {
+function completerExposition(options, surAjout) {
   const regions = options.regions && options.regions.length ? options.regions : Object.keys(MOTS_RECHERCHE_REGIONS);
   const epoques = options.epoques || [];
   const pris = new Set(options.dejaPays || []), vus = new Set(), choisies = [], reserve = [];
-  const avecPays = w => { const p = paysDe(w.origine || w.place); return p ? Object.assign(w, { pays: p.nom, continent: p.continent }) : null; };
-  // Répartit les œuvres trouvées : une par pays absent, région après région
-  function repartir(listes) {
-    const files = listes.map(l => l.map(avecPays).filter(w => w && w.image && !vus.has((w.title + '|' + w.artist).toLowerCase())));
-    for (let k = 0; files.some(f => k < f.length); k++) files.forEach(f => {
-      const w = f[k]; if (!w) return;
-      vus.add((w.title + '|' + w.artist).toLowerCase());
-      if (!pris.has(w.pays) && choisies.length < options.manque) { pris.add(w.pays); choisies.push(w); } else reserve.push(w);
+  const fini = () => choisies.length >= options.manque;
+  function prendre(liste) {
+    (liste || []).forEach(w => {
+      if (!w || !w.image || !w.title) return;
+      const cle = (w.title + '|' + w.artist).toLowerCase();
+      if (vus.has(cle)) return;
+      vus.add(cle);
+      if (epoques.length && !epoques.includes(w.epoch)) return;
+      const p = paysDe(w.origine || w.place);
+      if (!p) return;
+      Object.assign(w, { pays: p.nom, continent: p.continent });
+      if (!pris.has(p.nom) && !fini()) { pris.add(p.nom); choisies.push(w); if (surAjout) { try { surAjout(w); } catch (e) {} } }
+      else reserve.push(w);
     });
   }
-  const parRegion = (chercher) => Promise.all(regions.map(r => chercher(r).catch(() => [])));
+  const sources = CATALOGUES_MOTS_CLES.filter(k => ADAPTATEURS[k] && (!ADAPTATEURS[k].actif || ADAPTATEURS[k].actif()));
   const motsRegions = {};
   regions.forEach(r => { motsRegions[r] = (MOTS_RECHERCHE_REGIONS[r] || []).slice().sort(() => Math.random() - 0.5); });
+  const chercher = (k, c, n) => Promise.resolve().then(() => ADAPTATEURS[k].chercher(c, n)).then(prendre, () => {});
   const vague = k => {
-    if (k >= 3 || choisies.length >= options.manque) return Promise.resolve();
-    const aChercher = regions.filter(r => motsRegions[r][k]);
-    if (!aChercher.length) return Promise.resolve();
-    return Promise.all(aChercher.map(r => chercherDansLesMusees({ th: [], ty: [], ep: epoques, rg: [r], motRegion: motsRegions[r][k], mots: options.mots || '' }, 5, CATALOGUES_MOTS_CLES)
-      .then(x => x.oeuvres).catch(() => []))).then(repartir).then(() => vague(k + 1));
+    if (k >= 3 || fini()) return Promise.resolve();
+    const taches = [];
+    regions.forEach(r => { const mot = motsRegions[r][k]; if (mot) sources.forEach(src => taches.push(chercher(src, { th: [], ty: [], ep: epoques, region: r, motRegion: mot, mots: options.mots || '' }, 4))); });
+    return taches.length ? Promise.all(taches).then(() => vague(k + 1)) : Promise.resolve();
   };
-  return vague(0)
-    .then(() => choisies.length >= options.manque ? null : parRegion(r => ADAPTATEURS.wikidata.chercher({ th: [], ty: [], ep: epoques, region: r }, 8)).then(repartir))
-    .then(() => ({ choisies, reserve: reserve.filter(w => !choisies.includes(w)) }));
+  let wikidata = null;
+  const lancerWikidata = () => {
+    if (!wikidata) wikidata = fini() ? Promise.resolve() : Promise.all(regions.map(r => chercher('wikidata', { th: [], ty: [], ep: epoques, region: r }, 8)));
+    return wikidata;
+  };
+  const delai = setTimeout(lancerWikidata, 6000);
+  const tout = Promise.all([vague(0).then(lancerWikidata), new Promise(ok => setTimeout(ok, 6100)).then(lancerWikidata)]);
+  const limite = new Promise(ok => setTimeout(ok, 45000));
+  return Promise.race([tout, limite]).then(() => { clearTimeout(delai); return { choisies, reserve }; });
 }

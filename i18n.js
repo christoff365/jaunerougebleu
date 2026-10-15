@@ -704,6 +704,7 @@ function traduireMorceau(m) {
   let r;
   if ((r = m.match(/^(\d+) œuvres?$/))) return r[1] + ' ' + t(+r[1] > 1 ? 'œuvres' : 'œuvre');
   if ((r = m.match(/^(\d+) œuvre\(s\)$/))) return r[1] + ' ' + t(+r[1] > 1 ? 'œuvres' : 'œuvre');
+  if ((r = m.match(/^complétée en direct jusqu'à (\d+) pays$/))) return [['completed live up to ' + r[1] + ' countries'], ['completada en directo hasta ' + r[1] + ' países'], ['مُستكملة مباشرةً حتى ' + r[1] + ' بلدًا']][RANG[langue]][0];
   if ((r = m.match(/^(\d+) pays$/))) return r[1] + ' ' + [['country', 'countries'], ['país', 'países'], ['بلد', 'بلدان']][RANG[langue]][+r[1] > 1 ? 1 : 0];
   if ((r = m.match(/^(\d+) continents?$/))) return r[1] + ' ' + [['continent', 'continents'], ['continente', 'continentes'], ['قارة', 'قارات']][RANG[langue]][+r[1] > 1 ? 1 : 0];
   if ((r = m.match(/^(\d+) min$/))) return langue === 'ar' ? r[1] + ' دقيقة' : r[1] + ' min';

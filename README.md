@@ -38,6 +38,7 @@ Pages CMS enregistre directement sur GitHub : avant de modifier le site sur un o
 | `jeux/` | Page « Jeux » qui présente les deux jeux (lien « Jeux » du menu) |
 | `masterpiece/` | Le jeu Masterpiece (en français uniquement) : `index.html` (le jeu) et `oeuvres.json` (sa collection de 517 œuvres) |
 | `copiste/` | Le jeu Copiste, repeindre une composition de mémoire (en français uniquement ; il s'appelait auparavant Masterpiece) |
+| `mentions-legales/` | Page des mentions légales, exclue des moteurs de recherche (`noindex`) |
 | `CNAME` | Nom de domaine jaunerougebleu.org pour GitHub Pages |
 
 ## Expositions spéciales : œuvres des musées en direct et règle des 20 pays
@@ -125,7 +126,7 @@ La collection (`masterpiece/oeuvres.json`) a été préparée par Claude à part
 
 ## Mentions légales
 
-Page « Mentions légales » dans `index.html` (lien en bas de chaque page, accès direct : jaunerougebleu.org/#mentions-legales), sur le modèle des rubriques des mentions légales du Centre Pompidou : éditeur (association loi 1901, numéro RNA W662014754), hébergement, directeur de la publication, adresse et coordonnées, équipe rédactionnelle et contributeurs.
+Page « Mentions légales » à part, `mentions-legales/index.html` (lien en bas de la page d'accueil, accès direct : jaunerougebleu.org/mentions-legales/ ; l'ancien lien jaunerougebleu.org/#mentions-legales y mène). Elle est exclue des moteurs de recherche par la balise `<meta name="robots" content="noindex, nofollow, noarchive">` : Google, Bing et les autres moteurs ne l'affichent pas dans leurs résultats. Il ne faut pas l'interdire aussi dans un fichier robots.txt, sinon les moteurs ne liraient plus cette balise. Elle suit le modèle des rubriques des mentions légales du Centre Pompidou, sur le modèle des rubriques des mentions légales du Centre Pompidou : éditeur (association loi 1901, numéro RNA W662014754), hébergement, directeur de la publication, adresse et coordonnées, équipe rédactionnelle et contributeurs.
 
 ## Fonctionnement à connaître
 
@@ -136,7 +137,7 @@ Page « Mentions légales » dans `index.html` (lien en bas de chaque page, acc�
 - **Page Musées** : le nom de chaque institution ouvre son site officiel (lu en direct dans Wikidata, propriété P856, et gardé 7 jours dans le navigateur) ; l'icône code-barres ouvre sa fiche Wikidata.
 - **Vibrations** : uniquement sur les téléphones Android (les iPhone et les ordinateurs ne le permettent pas depuis un site) ; ailleurs, seule la partition visuelle est proposée.
 - **Musique des couleurs** : tempo, tonalité, énergie et luminosité sont calculés à partir des couleurs réelles de l'image, selon une règle inventée pour le site, puis une courte musique est jouée dans le navigateur.
-- **Version des scripts** : dans `index.html`, les scripts sont appelés avec un numéro de version (`musees.js?v=20261016g`). Après une modification d'un fichier `.js`, changer ce numéro (la date du jour), sinon certains navigateurs gardent l'ancienne version en cache jusqu'à 10 minutes, alors que la page, elle, est nouvelle.
+- **Version des scripts** : dans `index.html`, les scripts sont appelés avec un numéro de version (`musees.js?v=20261016h`). Après une modification d'un fichier `.js`, changer ce numéro (la date du jour), sinon certains navigateurs gardent l'ancienne version en cache jusqu'à 10 minutes, alors que la page, elle, est nouvelle.
 - **Textes** : générés par Claude AI (Anthropic) ; à faire relire, en particulier les descriptions audio destinées aux visiteurs aveugles.
 
 ## Tester en local

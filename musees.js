@@ -541,7 +541,7 @@ const ADAPTATEURS = {
     chercher(c, n) {
       const filtres = [{ term: { is_public_domain: true } }, { exists: { field: 'image_id' } }];
       if (c.ep.length) { const d = c.ep.map(e => DATES_EPOQUES[e]); filtres.push({ range: { date_start: { gte: Math.min(...d.map(x => x[0])), lte: Math.max(...d.map(x => x[1])) } } }); }
-      const requete = { query: { bool: { must: filtres } }, fields: 'id,title,artist_display,date_display,date_start,place_of_origin,artwork_type_title,classification_title,image_id', limit: n, page: 1 + hasard(5) };
+      const requete = { query: { bool: { must: filtres } }, fields: 'id,title,artist_display,date_display,date_start,place_of_origin,artwork_type_title,classification_title,image_id', limit: n, page: c.premiere ? 1 : 1 + hasard(5) };
       const q = motsCles(c).join(' ');
       if (q) requete.q = q;
       return lireJSON('https://api.artic.edu/api/v1/artworks/search?params=' + encodeURIComponent(JSON.stringify(requete)))
@@ -555,7 +555,7 @@ const ADAPTATEURS = {
   cleveland: {
     nom: 'Cleveland Museum of Art',
     chercher(c, n) {
-      let url = 'https://openaccess-api.clevelandart.org/api/artworks/?cc0=1&has_image=1&limit=' + n + '&skip=' + hasard(40);
+      let url = 'https://openaccess-api.clevelandart.org/api/artworks/?cc0=1&has_image=1&limit=' + n + '&skip=' + (c.premiere ? 0 : hasard(40));
       const q = motsCles(c).join(' ');
       if (q) url += '&q=' + encodeURIComponent(q);
       if (c.ep.length) { const d = c.ep.map(e => DATES_EPOQUES[e]); url += '&created_after=' + Math.min(...d.map(x => x[0])) + '&created_before=' + Math.max(...d.map(x => x[1])); }
@@ -571,7 +571,7 @@ const ADAPTATEURS = {
     nom: 'SMK – Statens Museum for Kunst, Copenhague',
     chercher(c, n) {
       const q = motsCles(c).join(' ') || '*';
-      const url = 'https://api.smk.dk/api/v1/art/search/?keys=' + encodeURIComponent(q) + '&offset=' + hasard(30) + '&rows=' + (n * 2) + '&filters=%5Bpublic_domain:true%5D,%5Bhas_image:true%5D&lang=en';
+      const url = 'https://api.smk.dk/api/v1/art/search/?keys=' + encodeURIComponent(q) + '&offset=' + (c.premiere ? 0 : hasard(30)) + '&rows=' + (n * 2) + '&filters=%5Bpublic_domain:true%5D,%5Bhas_image:true%5D&lang=en';
       return lireJSON(url).then(r => (r.items || []).filter(o => o.image_thumbnail).slice(0, n).map(o => {
         const titres = o.titles || [], en = titres.find(t => /engelsk|english/i.test(t.language || ''));
         const pd = (o.production_date && o.production_date[0]) || {};
@@ -864,18 +864,33 @@ function oeuvreParLien(lien) {
 // Complète une exposition spéciale avec des œuvres de pays qui n'y sont pas encore représentés.
 // options : mots (mots-clés), regions et epoques (facultatifs), dejaPays (noms de pays déjà présents), manque (nombre de pays à ajouter).
 // surAjout(oeuvre) est appelé dès qu'une œuvre d'un pays nouveau est trouvée : l'exposition se remplit au fur et à mesure.
-// Chaque catalogue est interrogé séparément, région par région, et ses réponses sont prises dès qu'elles arrivent
-// (un catalogue lent ne retarde pas les autres) :
-// - catalogues qui savent chercher par mots-clés (Met, Chicago, Cleveland, SMK, Minneapolis, Smithsonian), en trois vagues
-//   au plus, avec à chaque vague un autre mot de culture par région (« Chinese », puis « Japanese »…) ;
+// Chaque catalogue est interrogé séparément, région par région, et ses réponses sont prises dès qu'elles arrivent.
+// Les demandes partent par petits groupes (quatre recherches à la fois, une seule pour Wikidata, qui envoie trois requêtes par recherche et refuse plus de cinq requêtes
+// simultanées par visiteur) : envoyées toutes ensemble, elles échouaient en grande partie (délais dépassés, refus).
+// - catalogues qui savent chercher par mots-clés (Met, Chicago, Cleveland, SMK, Minneapolis, Smithsonian), première page
+//   de résultats, en trois vagues au plus : deux vagues avec les mots-clés de l'exposition (un mot de culture différent
+//   par région à chaque vague : « Chinese », puis « Japanese »…), puis une vague sans mot-clé (seulement la culture) ;
 // - musées du monde entier via Wikidata (sans mot-clé), lancés après quelques secondes s'il manque encore des pays.
-// Une œuvre par pays nouveau. Renvoie (au plus tard après 45 secondes) { choisies, reserve } :
-// la réserve sert à remplacer une œuvre dont l'image ne se charge pas.
+// Une œuvre par pays nouveau. Renvoie (au plus tard après 60 secondes) { choisies, reserve, sources } :
+// la réserve sert à remplacer une œuvre dont l'image ne se charge pas ; sources indique les catalogues qui ont répondu.
 const CATALOGUES_MOTS_CLES = ['met', 'aic', 'cleveland', 'smk', 'mia', 'smithsonian'];
+// File d'attente : au plus « max » tâches en même temps
+function fileDAttente(max) {
+  let actives = 0;
+  const attente = [];
+  const suivante = () => {
+    if (actives >= max || !attente.length) return;
+    actives++;
+    const [tache, ok] = attente.shift();
+    Promise.resolve().then(tache).catch(() => {}).then(r => { actives--; ok(r); suivante(); });
+  };
+  return tache => new Promise(ok => { attente.push([tache, ok]); suivante(); });
+}
 function completerExposition(options, surAjout) {
   const regions = options.regions && options.regions.length ? options.regions : Object.keys(MOTS_RECHERCHE_REGIONS);
   const epoques = options.epoques || [];
   const pris = new Set(options.dejaPays || []), vus = new Set(), choisies = [], reserve = [];
+  const sources = {}; // nom du catalogue → { ok, nombre }
   const fini = () => choisies.length >= options.manque;
   function prendre(liste) {
     (liste || []).forEach(w => {
@@ -891,23 +906,38 @@ function completerExposition(options, surAjout) {
       else reserve.push(w);
     });
   }
-  const sources = CATALOGUES_MOTS_CLES.filter(k => ADAPTATEURS[k] && (!ADAPTATEURS[k].actif || ADAPTATEURS[k].actif()));
+  const actifs = CATALOGUES_MOTS_CLES.filter(k => ADAPTATEURS[k] && (!ADAPTATEURS[k].actif || ADAPTATEURS[k].actif()));
+  const file = fileDAttente(4), fileWikidata = fileDAttente(1); // une recherche Wikidata envoie déjà trois requêtes
+  const noter = (k, l) => {
+    const st = sources[ADAPTATEURS[k].nom] = sources[ADAPTATEURS[k].nom] || { ok: false, nombre: 0 };
+    if (l) { st.ok = true; st.nombre += l.length; }
+  };
+  const chercher = (k, c, n, f) => (f || file)(() => fini() ? null : Promise.resolve().then(() => ADAPTATEURS[k].chercher(c, n))
+    .then(l => { noter(k, l || []); prendre(l); }, () => noter(k, null)));
   const motsRegions = {};
   regions.forEach(r => { motsRegions[r] = (MOTS_RECHERCHE_REGIONS[r] || []).slice().sort(() => Math.random() - 0.5); });
-  const chercher = (k, c, n) => Promise.resolve().then(() => ADAPTATEURS[k].chercher(c, n)).then(prendre, () => {});
   const vague = k => {
     if (k >= 3 || fini()) return Promise.resolve();
+    const avecMots = k < 2 && !!options.mots;
     const taches = [];
-    regions.forEach(r => { const mot = motsRegions[r][k]; if (mot) sources.forEach(src => taches.push(chercher(src, { th: [], ty: [], ep: epoques, region: r, motRegion: mot, mots: options.mots || '' }, 4))); });
-    return taches.length ? Promise.all(taches).then(() => vague(k + 1)) : Promise.resolve();
+    regions.forEach(r => {
+      const l = motsRegions[r];
+      if (!l.length || (k === 1 && l.length < 2)) return;
+      const mot = l[k % l.length];
+      actifs.forEach(src => taches.push(chercher(src, { th: [], ty: [], ep: epoques, region: r, motRegion: mot, mots: avecMots ? options.mots : '', premiere: true }, src === 'met' ? 3 : 4)));
+    });
+    return Promise.all(taches).then(() => vague(k + 1));
   };
   let wikidata = null;
   const lancerWikidata = () => {
-    if (!wikidata) wikidata = fini() ? Promise.resolve() : Promise.all(regions.map(r => chercher('wikidata', { th: [], ty: [], ep: epoques, region: r }, 8)));
+    if (!wikidata) wikidata = fini() ? Promise.resolve() : Promise.all(regions.map(r => chercher('wikidata', { th: [], ty: [], ep: epoques, region: r }, 8, fileWikidata)));
     return wikidata;
   };
   const delai = setTimeout(lancerWikidata, 6000);
-  const tout = Promise.all([vague(0).then(lancerWikidata), new Promise(ok => setTimeout(ok, 6100)).then(lancerWikidata)]);
-  const limite = new Promise(ok => setTimeout(ok, 45000));
-  return Promise.race([tout, limite]).then(() => { clearTimeout(delai); return { choisies, reserve }; });
+  const tout = vague(0).then(lancerWikidata);
+  const limite = new Promise(ok => setTimeout(ok, 60000));
+  return Promise.race([tout, limite]).then(() => {
+    clearTimeout(delai);
+    return { choisies, reserve, sources: Object.keys(sources).map(nom => ({ nom, ok: sources[nom].ok, nombre: sources[nom].nombre })) };
+  });
 }

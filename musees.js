@@ -20,7 +20,7 @@ const MOTS_THEMES = {
 const MOTS_TYPES = {
   'Peinture': 'painting', 'Sculpture': 'sculpture', 'Architecture': 'architecture',
   'Dessins et estampes': 'print', 'Arts décoratifs': 'ceramic', 'Photographie': 'photograph',
-  'Manuscrits et livres enluminés': 'manuscript', 'Icônes': 'icon'
+  'Manuscrits et livres enluminés': 'illuminated manuscript', 'Icônes': 'icon'
 };
 // Reconnaissance de la région à partir du lieu ou de la culture indiqués par le musée
 const MOTS_REGIONS = {
@@ -34,8 +34,10 @@ const MOTS_REGIONS = {
 };
 // Reconnaissance du type d'œuvre à partir de la classification du musée
 const MOTS_TYPES_RECONNUS = [
-  // Manuscrits et icônes d'abord : sinon ils seraient rangés dans « Dessins et estampes » ou « Peinture »
-  ['Manuscrits et livres enluminés', /manuscri|illuminat|codex|book of hours|livre d.heures|psalter|gospel|qur.?an|koran|album leaf|folio|leaf from|page from|shahnam|enlumin/i],
+  // Manuscrits et icônes d'abord : sinon ils seraient rangés dans « Dessins et estampes » ou « Peinture ».
+  // Manuscrits : seulement les livres copiés et enluminés à la main (évangiles, psautiers, livres d'heures, Corans…),
+  // pas les lettres ni les documents écrits à la main (voir PAS_UN_MANUSCRIT)
+  ['Manuscrits et livres enluminés', /illuminat|enlumin|book of hours|livre d.heures|psalter|psautier|gospel|[ée]vang[ée]l|bible|antiphon|gradual|graduel|missal|missel|breviar|bréviaire|lectionar|qur.?an|koran|coran|shahnam|codex|(leaf|folio|page) from (a|an|the)\b|manuscript (leaf|page|cutting|illumination)|miniature from/i],
   ['Icônes', /\bicons?\b|icône|iconostas|ikon/i],
   ['Architecture', /architect|building|column|capital|portal|doorway|facade|façade|period room|room from|ceiling|mihrab|temple|relief from|fragment of a (wall|building)/i],
   ['Sculpture', /sculpt|statue|statuette|figure|figurine|bust|relief|carving|head of|torso|bronze|mask|stele/i],
@@ -61,8 +63,12 @@ function anneeDe(texte) {
 function regionsDe(texte) {
   return Object.keys(MOTS_REGIONS).filter(r => MOTS_REGIONS[r].test(texte || ''));
 }
-function typeDe(texte) {
-  const t = MOTS_TYPES_RECONNUS.find(([, re]) => re.test(texte || ''));
+// Lettres, correspondance, actes, reçus… : écrits à la main, mais pas des livres enluminés
+const PAS_UN_MANUSCRIT = /\bletters?\b|lettre|correspondence|correspondance|autograph|deed|charter|receipt|reçu|certificate|diploma|document|petition|journal|diary|ledger|account book|notebook|manuscript (letter|note)/i;
+// Type d'une œuvre d'après la classification du musée (et son titre, pour écarter les lettres des manuscrits)
+function typeDe(texte, titre) {
+  const tout = (texte || '') + ' ' + (titre || '');
+  const t = MOTS_TYPES_RECONNUS.find(([type, re]) => type === 'Manuscrits et livres enluminés' ? re.test(tout) && !PAS_UN_MANUSCRIT.test(tout) : re.test(texte || ''));
   return t ? t[0] : 'Autre';
 }
 function epoqueDe(annee) {
@@ -133,7 +139,7 @@ function oeuvre(o) {
     credit: o.credit || o.musee + ' (' + o.fiche + '), domaine public',
     // Région : d'abord le lieu et la culture ; le département du musée seulement en dernier recours
     regions: o.regions || (regionsDe(texteLieu).length ? regionsDe(texteLieu) : regionsDe(o.indiceRegion || '')), epoch: epoqueDe(annee), themes: [],
-    types: [o.type || typeDe(o.classification)], langue: o.langue || 'en', direct: true, pastille: o.pastille,
+    types: [o.type || typeDe(o.classification, o.titre)], langue: o.langue || 'en', direct: true, pastille: o.pastille,
     sensible: MOTS_SENSIBLES.test(o.titre || ''),
     // Indices du pays d'origine (lieu, culture, nationalité de l'artiste), pour la règle des pays des expositions spéciales
     // (séparés par « | » : le lieu est examiné en premier, puis la culture, puis la nationalité)
@@ -299,7 +305,7 @@ const CLASSES_TYPES = {
   'Dessins et estampes': 'Q11060274 Q75837457 Q18219090 Q93184 Q18887969 Q11835431 Q15123870 Q18218093 Q28913685 Q18761202 Q48498 Q8362',
   'Arts décoratifs': 'Q161439 Q28823 Q96952903 Q98276829 Q191851 Q60733799 Q17379525 Q153988 Q28966302 Q45621 Q1207302 Q1758043 Q57216 Q35197 Q368972 Q4390114 Q11631761',
   'Photographie': 'Q125191',
-  'Manuscrits et livres enluminés': 'Q87167 Q48498',
+  'Manuscrits et livres enluminés': 'Q48498', // manuscrit enluminé (la classe « manuscrit » comprend aussi les lettres)
   'Icônes': 'Q132137'
 };
 // Monuments (et non sites naturels) : temples, mosquées, églises, palais, forts, tombeaux, sites archéologiques, centres historiques…
@@ -507,7 +513,9 @@ function museesPour(region) {
 }
 
 // Wikidata : œuvres d'un artiste (nom ou nom alternatif, en français, anglais ou multilingue) ou d'un mouvement
-// (mouvement P135 ou genre P136 dont le libellé anglais est dans la liste « wd » du mouvement)
+// (mouvement P135 ou genre P136 dont le libellé anglais est dans la liste « wd » du mouvement).
+// Les œuvres les plus connues d'abord : celles qui ont le plus d'articles dans les Wikipédia du monde (« sitelinks »),
+// pour que La Ronde de nuit passe avant les centaines de gravures de Rembrandt ; un peu de hasard parmi elles.
 function chercherWikidataArtisteMouvement(c, n) {
   const mv = c.mouvement && mouvement(c.mouvement);
   if (!c.artiste && !(mv && mv.wd.length)) return Promise.resolve([]);
@@ -521,14 +529,14 @@ function chercherWikidataArtisteMouvement(c, n) {
   } else {
     filtre = `VALUES ?nomMv { ${mv.wd.map(x => lit(x, 'en')).join(' ')} } ?mv rdfs:label ?nomMv . ?i wdt:P135|wdt:P136 ?mv .`;
   }
-  const d = bornesEpoques(c.ep || []), graine = Math.random().toString(36).slice(2, 8);
+  const d = bornesEpoques(c.ep || []);
   const requete = `SELECT ?i ?iLabel ?m ?mLabel ?date ?img ?typeEn ?createur ?createurLabel ?deces ?origine ?origineLabel ?nat WHERE {
     { SELECT DISTINCT ?i ?createur ?img ?date WHERE {
         ${filtre}
         ?i wdt:P18 ?img . OPTIONAL { ?i wdt:P571 ?date }
         ${d ? `FILTER(!BOUND(?date) || (YEAR(?date) >= ${d[0]} && YEAR(?date) <= ${d[1]}))` : ''}
-        BIND(MD5(CONCAT(STR(?i), "${graine}")) AS ?h)
-      } ORDER BY ?h LIMIT ${n * 4} }
+        ?i wikibase:sitelinks ?liens .
+      } ORDER BY DESC(?liens) LIMIT ${n * 3} }
     OPTIONAL { ?i wdt:P195 ?m }
     OPTIONAL { ?i wdt:P31 ?type . ?type rdfs:label ?typeEn FILTER(LANG(?typeEn) = "en") }
     OPTIONAL { ?i wdt:P495 ?origine }
@@ -655,7 +663,7 @@ const ADAPTATEURS = {
     nom: 'The Metropolitan Museum of Art, New York',
     chercher(c, n) {
       const q = motsCles(c).join(' ') || 'art';
-      let url = 'https://collectionapi.metmuseum.org/public/collection/v1.1/search?hasImages=true&limit=60&offset=0&q=' + encodeURIComponent(q);
+      let url = 'https://collectionapi.metmuseum.org/public/collection/v1.1/search?hasImages=true' + (c.artiste ? '&artistOrCulture=true' : '') + '&limit=60&offset=0&q=' + encodeURIComponent(q);
       if (c.ep.length) { const d = c.ep.map(e => DATES_EPOQUES[e]); url += '&dateBegin=' + Math.min(...d.map(x => x[0])) + '&dateEnd=' + Math.max(...d.map(x => x[1])); }
       return lireJSON(url).then(r => {
         const ids = (r.objectIDs || []).sort(() => Math.random() - 0.5).slice(0, n * 2);
@@ -807,6 +815,9 @@ function chercherDansLesMusees(criteres, parSource, seulement) {
         if (criteres.rg.length && !w.regions.some(x => criteres.rg.includes(x))) return;
         if (criteres.ty.length && !w.types.some(x => criteres.ty.includes(x))) return;
         if (criteres.artiste && !deLArtiste(w, criteres.artiste)) return;
+        // Recherche par artiste : les catalogues renvoient surtout des gravures (Rembrandt, Dürer…) ; trois au plus,
+        // pour laisser la place aux peintures, sauf si le visiteur a choisi « Dessins et estampes »
+        if (criteres.artiste && !criteres.ty.length && w.types.includes('Dessins et estampes') && oeuvres.filter(x => x.types.includes('Dessins et estampes')).length >= 3) return;
         vus.add(cle); oeuvres.push(w);
       });
       return { oeuvres, sources: resultats.map(r => ({ nom: r.source, ok: r.ok, nombre: r.liste.length })) };

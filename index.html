@@ -877,6 +877,7 @@ function go(id,btn){
   document.querySelectorAll('.nav-links button').forEach(b=>b.classList.remove('on'));
   if(btn)btn.classList.add('on');
   if(id==='home')renderHome();
+  if(id==='build')viderGenerateur();
   if(id==='mus')afficherMusees();
   if(id==='mv')afficherMouvements();
   if(id==='acc'&&typeof afficherAutresOeuvresAcces==='function')afficherAutresOeuvresAcces();
@@ -958,6 +959,13 @@ function tog(el,k){
   el.classList.toggle('on');el.setAttribute('aria-pressed',el.classList.contains('on'));
   const v=el.dataset.v||el.textContent.trim(); // valeur française, quelle que soit la langue affichée
   sel[k]=el.classList.contains('on')?[...sel[k],v]:sel[k].filter(x=>x!==v);
+  majBoutonGen();
+}
+// Chaque visite de la page « Exposition » repart d'un formulaire vide (les choix de l'exposition précédente ne sont pas gardés)
+function viderGenerateur(){
+  Object.keys(sel).forEach(k=>{sel[k]=[];});
+  document.querySelectorAll('#pg-build .tag.on').forEach(t=>{t.classList.remove('on');t.setAttribute('aria-pressed','false');});
+  const a=document.getElementById('gen-artiste');if(a)a.value='';
   majBoutonGen();
 }
 function artisteChoisi(){const e=document.getElementById('gen-artiste');return e?e.value.trim():'';}

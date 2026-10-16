@@ -908,9 +908,17 @@ function chercherDansLesMusees(criteres, parSource, seulement) {
   const regions = criteres.rg.length ? criteres.rg.slice(0, 3) : [null];
   // Mouvements choisis : une recherche par mouvement (trois au plus), combinée aux régions (quatre recherches au plus en tout)
   const mvts = criteres.mv && criteres.mv.length ? criteres.mv.slice(0, 3) : [null];
-  const combinaisons = [].concat(...mvts.map(mouvement => regions.map(region => ({ region, mouvement })))).slice(0, 4);
-  const n = Math.max(4, Math.round((parSource || 8) / combinaisons.length));
-  return Promise.all(sources.map(k => Promise.all(combinaisons.map(co => ADAPTATEURS[k].chercher(Object.assign({}, criteres, co), n * (ADAPTATEURS[k].poids || 1)).catch(e => ({ panne: e }))))
+  let combinaisons = [].concat(...mvts.map(mouvement => regions.map(region => ({ region, mouvement })))).slice(0, 4);
+  // Une seule région, sans mouvement ni artiste : les catalogues qui cherchent par mots-clés sont interrogés avec trois mots
+  // de culture différents (« Mexican », « Peruvian », « Native American »…), sinon toute l'exposition venait d'une seule culture.
+  // Les autres sources (Wikidata…) cherchent déjà dans toute la région : une seule recherche pour elles.
+  const varier = regions.length === 1 && regions[0] && !mvts[0] && !criteres.artiste;
+  if (varier) combinaisons = (MOTS_RECHERCHE_REGIONS[regions[0]] || []).slice().sort(() => Math.random() - 0.5).slice(0, 3)
+    .map(motRegion => ({ region: regions[0], mouvement: null, motRegion }));
+  const parMotsCles = k => CATALOGUES_MOTS_CLES.includes(k) || k === 'europeana';
+  const combinaisonsDe = k => varier && !parMotsCles(k) ? combinaisons.slice(0, 1).map(co => ({ region: co.region, mouvement: null })) : combinaisons;
+  const nDe = k => Math.max(4, Math.round((parSource || 8) / combinaisonsDe(k).length));
+  return Promise.all(sources.map(k => Promise.all(combinaisonsDe(k).map(co => ADAPTATEURS[k].chercher(Object.assign({}, criteres, co), nDe(k) * (ADAPTATEURS[k].poids || 1)).catch(e => ({ panne: e }))))
     .then(listes => ({ source: ADAPTATEURS[k].nom, liste: [].concat(...listes.filter(Array.isArray)), ok: listes.some(Array.isArray),
       raison: listes.some(Array.isArray) ? '' : raisonPanne((listes.find(l => l && l.panne) || {}).panne) }))))
     .then(resultats => {
@@ -1170,12 +1178,12 @@ function completerExposition(options, surAjout) {
   }
   const actifs = CATALOGUES_MOTS_CLES.filter(k => ADAPTATEURS[k] && (!ADAPTATEURS[k].actif || ADAPTATEURS[k].actif()));
   const file = fileDAttente(4), fileWikidata = fileDAttente(1); // une recherche Wikidata envoie déjà trois requêtes
-  const noter = (k, l) => {
-    const st = sources[ADAPTATEURS[k].nom] = sources[ADAPTATEURS[k].nom] || { ok: false, nombre: 0 };
-    if (l) { st.ok = true; st.nombre += l.length; }
+  const noter = (k, l, e) => {
+    const st = sources[ADAPTATEURS[k].nom] = sources[ADAPTATEURS[k].nom] || { ok: false, nombre: 0, raison: '' };
+    if (l) { st.ok = true; st.nombre += l.length; } else if (e) st.raison = raisonPanne(e);
   };
   const chercher = (k, c, n, f) => (f || file)(() => fini() ? null : Promise.resolve().then(() => ADAPTATEURS[k].chercher(c, n))
-    .then(l => { noter(k, l || []); prendre(l); }, () => noter(k, null)));
+    .then(l => { noter(k, l || []); prendre(l); }, e => noter(k, null, e)));
   const motsRegions = {};
   regions.forEach(r => { motsRegions[r] = (MOTS_RECHERCHE_REGIONS[r] || []).slice().sort(() => Math.random() - 0.5); });
   const vague = k => {
@@ -1200,6 +1208,6 @@ function completerExposition(options, surAjout) {
   const limite = new Promise(ok => setTimeout(ok, 60000));
   return Promise.race([tout, limite]).then(() => {
     clearTimeout(delai);
-    return { choisies, reserve, sources: Object.keys(sources).map(nom => ({ nom, ok: sources[nom].ok, nombre: sources[nom].nombre })) };
+    return { choisies, reserve, sources: Object.keys(sources).map(nom => ({ nom, ok: sources[nom].ok, nombre: sources[nom].nombre, raison: sources[nom].ok ? '' : sources[nom].raison })) };
   });
 }

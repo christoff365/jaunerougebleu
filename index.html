@@ -805,9 +805,9 @@ html.sans-animation *,html.sans-animation *::before,html.sans-animation *::after
   </div>
 </footer>
 <!-- Traductions (anglais, espagnol, arabe) et moteur de traduction -->
-<script src="i18n.js?v=20261016j"></script>
+<script src="i18n.js?v=20261016k"></script>
 <!-- Recherche en direct dans les catalogues ouverts des musées (domaine public) -->
-<script src="musees.js?v=20261016j"></script>
+<script src="musees.js?v=20261016k"></script>
 <script>
 const ART = [
   { img:"images/oeuvres/grande-vague-hokusai.jpg", credit:'Image : <a href="https://www.metmuseum.org/art/collection/search/45434" target="_blank" rel="noopener">The Metropolitan Museum of Art</a>, domaine public (Open Access)', name:"La Grande Vague de Kanagawa", meta:"Katsushika Hokusai · Japon · vers 1830-1832 · Metropolitan Museum of Art",
@@ -1009,7 +1009,7 @@ function genExpo(){
   sous.textContent=(sel.ep.length?sel.ep.join(', '):'Toutes époques');
   tl.innerHTML='<p class="sub">Recherche en direct dans les catalogues des musées…</p>';
   go('expo',document.querySelectorAll('.nav-links button')[1]);
-  const crit={th:sel.th.slice(),rg:sel.rg.slice(),ep:sel.ep.slice(),ty:sel.ty.slice(),mv:sel.mv.slice(),artiste};
+  const crit=genExpo.criteres={th:sel.th.slice(),rg:sel.rg.slice(),ep:sel.ep.slice(),ty:sel.ty.slice(),mv:sel.mv.slice(),artiste};
   const vide={oeuvres:[],sources:[]};
   const numero=genExpo.compteur=(genExpo.compteur||0)+1; // si le visiteur relance une recherche, l'ancienne est ignorée
   // Recherche en direct ; si elle trouve trop peu d'œuvres, on l'élargit en ignorant les thèmes
@@ -1030,25 +1030,45 @@ function genExpo(){
     }
     const cle=w=>typeof cleOeuvre==='function'?cleOeuvre(w):(w.title+'|'+w.artist).toLowerCase();
     const vues=new Set(choisies.map(cle));
-    const trouvees=direct.oeuvres.filter(w=>!vues.has(cle(w))).slice(0,32);
+    const trouvees=direct.oeuvres.filter(w=>!vues.has(cle(w))).slice(0,48);
     if(direct.elargi)notes.push('Peu d\'œuvres des catalogues réunissaient tous vos critères : la recherche en direct a été élargie en ignorant les thèmes.');
     if(crit.mv.length)notes.push('Les musées décrivent rarement le mouvement d\'une œuvre : les œuvres ont été trouvées par mots-clés et dans Wikidata, et la sélection est approximative. L\'onglet « Mouvements » explique la méthode et ce qui manque.');
     if(crit.artiste)notes.push('Recherche par artiste : seuls les artistes morts depuis plus de 70 ans ont des œuvres dans le domaine public, et le nom doit être écrit comme dans les catalogues (par exemple « Hokusai » ou « Rembrandt »).');
     if(crit.ep.includes('Art contemporain'))notes.push('L\'art contemporain est peu représenté : les œuvres récentes sont protégées par le droit d\'auteur, et ce site ne montre que des œuvres du domaine public.');
     const oeuvres=choisies.concat(trouvees);
-    const repondu=direct.sources.filter(s=>s.ok&&s.nombre).map(s=>s.nom),rien=direct.sources.filter(s=>s.ok&&!s.nombre).map(s=>s.nom),muets=direct.sources.filter(s=>!s.ok).map(s=>[s.nom,s.raison]);
     const groupes=ORDRE_EPOQUES.map(ep=>({ep,liste:oeuvres.filter(w=>w.epoch===ep).sort((a,b)=>(a.year||0)-(b.year||0))})).filter(g=>g.liste.length);
-    tl.innerHTML=notes.map(n=>`<p class="expo-note">${esc(n)}</p>`).join('')+(groupes.length?groupes.map((g,i)=>{
+    // Choix très large (une seule catégorie, sans artiste ni mouvement) : des milliers d'œuvres correspondent, l'exposition
+    // n'en montre qu'une sélection ; on invite le visiteur à préciser ses choix
+    const large=!crit.artiste&&!crit.mv.length&&crit.rg.length+crit.th.length+crit.ep.length+crit.ty.length<=1;
+    tl.innerHTML=(large?'<p class="expo-note"><span>Votre choix est très large : les musées interrogés conservent des milliers d\'œuvres qui y correspondent, et l\'exposition n\'en montre qu\'une sélection, tirée au hasard et différente à chaque fois. Pour une exposition plus riche et plus précise, ajoutez une époque, un type d\'œuvre, un thème ou un mouvement.</span> <button type="button" class="lien-btn" onclick="affinerExposition()">Ajouter des catégories</button></p>':'')+notes.map(n=>`<p class="expo-note">${esc(n)}</p>`).join('')+(groupes.length?groupes.map((g,i)=>{
       const debut=g.liste[0].year,fin=g.liste[g.liste.length-1].year;
       return `<div class="tl"><div class="tl-l"><div class="tl-dot"></div>${i<groupes.length-1?'<div class="tl-line"></div>':''}</div><div style="flex:1;padding-bottom:16px">
         <div class="era">${esc(g.ep)} · ${debut===fin?annee(debut):annee(debut)+' – '+annee(fin)+(debut<0&&fin>0?' apr. J.-C.':'')}</div>
         <div class="mini-grid">${g.liste.map(carteOeuvre).join('')}</div>
       </div></div>`;}).join(''):'<p class="sub">Aucune œuvre ne correspond pour le moment. Essayez d\'autres choix.</p>')+
-      // Toutes les sources interrogées sont nommées : celles qui ont trouvé des œuvres, celles qui n'en ont aucune pour ces choix, celles en panne
-      (direct.sources.length?`<p class="expo-sources">${[['Œuvres trouvées en direct dans les catalogues de :',repondu],['Aucune œuvre correspondant à vos choix dans :',rien],['Catalogues indisponibles pour le moment :',muets]]
-        .filter(l=>l[1].length).map(l=>`<span>${l[0]}</span> ${l[1].map(n=>Array.isArray(n)?`<span>${esc(n[0])}</span>${n[1]?` (<span>${esc(n[1])}</span>)`:''}`:`<span>${esc(n)}</span>`).join(' · ')}`).join('<br>')}</p>`:'');
+      listeSources(direct.sources);
     majCompte();
   });
+}
+// Toutes les sources interrogées sont nommées : celles qui ont trouvé des œuvres, celles qui n'en ont aucune pour ces choix,
+// et celles en panne, avec la raison de la panne (délai dépassé, trop de demandes…)
+function listeSources(src){
+  if(!src.length)return '';
+  const avec=src.filter(s=>s.ok&&s.nombre),sans=src.filter(s=>s.ok&&!s.nombre),muets=src.filter(s=>!s.ok);
+  const nom=s=>`<span>${esc(s.nom)}</span>`+(!s.ok?` (<span>${esc(s.raison||'raison inconnue')}</span>)`:'');
+  return `<p class="expo-sources">${[['Œuvres trouvées en direct dans les catalogues de :',avec],['Aucune œuvre correspondant à vos choix dans :',sans],['Catalogues indisponibles pour le moment :',muets]]
+    .filter(l=>l[1].length).map(l=>`<span>${l[0]}</span> ${l[1].map(nom).join(' · ')}`).join('<br>')}</p>`;
+}
+// « Ajouter des catégories » : retour au formulaire avec les choix de l'exposition affichée, pour les compléter
+function affinerExposition(){
+  const c=genExpo.criteres;if(!c)return;
+  go('build',document.querySelectorAll('.nav-links button')[1]);
+  Object.keys(sel).forEach(k=>(c[k]||[]).forEach(v=>{
+    const t=[...document.querySelectorAll('#pg-build .tag')].find(x=>x.dataset.v===v&&(x.getAttribute('onclick')||'').includes("'"+k+"'"));
+    if(t&&!t.classList.contains('on'))tog(t,k);
+  }));
+  const a=document.getElementById('gen-artiste');if(a&&c.artiste)a.value=c.artiste;
+  majBoutonGen();
 }
 // Carte d'une œuvre ; les fiches venues des catalogues gardent la langue du musée (souvent l'anglais)
 function carteOeuvre(w){
@@ -1357,9 +1377,7 @@ function viewSp(id){const e=expos.find(x=>x.id===id);if(!e)return;
         comblerSp();
         if(majCompteSp().size<objectif&&!spEnCours.enCours)bloc.insertAdjacentHTML('beforeend','<p class="expo-note sp-manque">Les catalogues des musées n\'ont pas permis d\'atteindre le nombre de pays voulu pour le moment : rechargez la page pour relancer la recherche.</p>');
         // Catalogues interrogés : ceux qui ont répondu, ceux qui n'avaient rien, ceux qui n'ont pas répondu (aide au diagnostic)
-        const src=res.sources||[],avec=src.filter(x=>x.ok&&x.nombre).map(x=>x.nom),sans=src.filter(x=>x.ok&&!x.nombre).map(x=>x.nom),muets=src.filter(x=>!x.ok).map(x=>x.nom);
-        if(src.length)bloc.insertAdjacentHTML('beforeend',`<p class="expo-sources">${[['Œuvres trouvées en direct dans les catalogues de :',avec],['Aucune œuvre correspondant à vos choix dans :',sans],['Catalogues indisponibles pour le moment :',muets]]
-          .filter(l=>l[1].length).map(l=>`<span>${l[0]}</span> ${l[1].map(n=>`<span>${esc(n)}</span>`).join(' · ')}`).join('<br>')}</p>`);
+        bloc.insertAdjacentHTML('beforeend',listeSources(res.sources||[]));
       });
   });
 }
@@ -1475,8 +1493,8 @@ afficherValeurs(0);
 traduirePage();
 </script>
 <!-- Fenêtre Accessibilité de chaque œuvre et menu Affichage et lecture -->
-<script src="accessibilite.js?v=20261016j"></script>
+<script src="accessibilite.js?v=20261016k"></script>
 <!-- Séances de bien-être composées à la demande -->
-<script src="bienetre.js?v=20261016j"></script>
+<script src="bienetre.js?v=20261016k"></script>
 </body>
 </html>

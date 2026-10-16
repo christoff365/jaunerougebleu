@@ -580,21 +580,65 @@ function museesPour(region) {
 // (mouvement P135 ou genre P136 dont le libellé anglais est dans la liste « wd » du mouvement).
 // Les œuvres les plus connues d'abord : celles qui ont le plus d'articles dans les Wikipédia du monde (« sitelinks »),
 // pour que La Ronde de nuit passe avant les centaines de gravures de Rembrandt ; un peu de hasard parmi elles.
+// Période d'un mouvement, d'après son époque dans MOUVEMENTS (« 1860–1890 », « XIXe siècle », « XVIe–XIXe siècle »,
+// « début du XXe siècle », « fin du XVIIIe–XIXe siècle », « XIVe siècle av. J.-C. »), élargie de 15 ans de chaque côté ;
+// null si l'époque ne se lit pas
+function periodeMouvement(mv) {
+  const e = String(mv.epoque || ''), marge = 15;
+  const annees = (e.match(/\d{4}/g) || []).map(Number);
+  if (annees.length >= 2) return [annees[0] - marge, annees[annees.length - 1] + marge];
+  const romain = r => { const v = { I: 1, V: 5, X: 10, L: 50, C: 100 }; let t = 0; for (let k = 0; k < r.length; k++) { const a = v[r[k]], b = v[r[k + 1]] || 0; t += a < b ? -a : a; } return t; };
+  const siecles = [...e.matchAll(/\b([IVXLC]+)e\b/g)].map(m => romain(m[1]));
+  if (!siecles.length) return null;
+  const av = /av\. J\.-C\./.test(e);
+  let debut = (siecles[0] - 1) * 100 + 1, fin = siecles[siecles.length - 1] * 100;
+  // « début du » ou « fin du » devant un siècle : seulement le premier ou le dernier tiers de ce siècle
+  const debutDu = e.match(/début du ([IVXLC]+)e/), finDu = e.match(/fin du ([IVXLC]+)e/);
+  if (debutDu && romain(debutDu[1]) === siecles[siecles.length - 1]) fin = (siecles[siecles.length - 1] - 1) * 100 + 35;
+  if (finDu && romain(finDu[1]) === siecles[0]) debut = (siecles[0] - 1) * 100 + 66;
+  if (av) [debut, fin] = [-fin, -debut];
+  return [debut - marge, fin + marge];
+}
+// Artistes d'un mouvement, d'après Wikidata (propriété « mouvement », P135), les plus connus d'abord : ceux du mouvement
+// qui porte le libellé anglais de la liste MOUVEMENTS, ou de celui que partagent tous ses artistes de référence
+// (plus sûr : un libellé peut différer, « Hudson River School » / « Hudson River school »). Gardés en mémoire pendant la visite.
+const ARTISTES_MOUVEMENTS = {};
+function artistesDuMouvement(mv) {
+  if (ARTISTES_MOUVEMENTS[mv.nom]) return ARTISTES_MOUVEMENTS[mv.nom];
+  const lit = (s, l) => JSON.stringify(s) + '@' + l;
+  const refs = mv.artistes.slice(0, 3);
+  const parLibelle = mv.wd.length ? `{ VALUES ?nomMv { ${mv.wd.map(x => lit(x, 'en')).join(' ')} } ?mv rdfs:label ?nomMv . }` : '';
+  const parArtistes = refs.length >= 2 ? `{ SELECT ?mv WHERE { VALUES ?nom { ${[].concat(...refs.map(x => [lit(x, 'en'), lit(x, 'fr'), lit(x, 'mul')])).join(' ')} }
+      ?ref rdfs:label ?nom ; wdt:P135 ?mv . } GROUP BY ?mv HAVING(COUNT(DISTINCT ?ref) >= ${refs.length}) }` : '';
+  if (!parLibelle && !parArtistes) return Promise.resolve([]);
+  const requete = `SELECT ?a ?aLabel (MAX(?l) AS ?liens) WHERE {
+    ${[parLibelle, parArtistes].filter(Boolean).join(' UNION ')}
+    ?a wdt:P135 ?mv ; wdt:P31 wd:Q5 ; wikibase:sitelinks ?l .
+    SERVICE wikibase:label { bd:serviceParam wikibase:language "en,fr,mul". }
+  } GROUP BY ?a ?aLabel ORDER BY DESC(?liens) LIMIT 40`;
+  const p = ARTISTES_MOUVEMENTS[mv.nom] = sparql(requete, 10000)
+    .then(l => l.map(b => ({ q: qid(b, 'a'), nom: val(b, 'aLabel') })).filter(x => x.nom && !/^Q\d+$/.test(x.nom)));
+  p.catch(() => { delete ARTISTES_MOUVEMENTS[mv.nom]; }); // en cas d'échec, on réessaiera à la prochaine exposition
+  return p;
+}
+// Noms d'artistes à chercher dans les catalogues pour un mouvement : ceux de la liste MOUVEMENTS, puis les plus connus de
+// Wikidata, quatre au plus ; liste vide pour les mouvements sans artistes connus (œuvres anonymes)
+// (on n'attend Wikidata que 4 secondes : au-delà, les catalogues partent avec les artistes de la liste MOUVEMENTS)
+function nomsArtistesMouvement(mv) {
+  const attente = new Promise(ok => setTimeout(() => ok([]), 4000));
+  return Promise.race([artistesDuMouvement(mv).catch(() => []), attente]).then(l => {
+    const noms = [], vus = new Set();
+    mv.artistes.concat(l.map(a => a.nom)).forEach(x => { const k = sansAccents(x); if (!vus.has(k)) { vus.add(k); noms.push(x); } });
+    return noms.slice(0, 4);
+  });
+}
 function chercherWikidataArtisteMouvement(c, n) {
   const mv = c.mouvement && mouvement(c.mouvement);
-  if (!c.artiste && !(mv && mv.wd.length)) return Promise.resolve([]);
+  if (!c.artiste && !(mv && (mv.wd.length || mv.artistes.length >= 2))) return Promise.resolve([]);
   const lit = (s, l) => JSON.stringify(s) + '@' + l;
-  let filtre;
-  if (c.artiste) {
-    // Le nom tapé, et la même chose avec des majuscules aux initiales (« hokusai » → « Hokusai »)
-    const noms = [...new Set([c.artiste.trim(), c.artiste.trim().replace(/(^|[\s-])(\p{L})/gu, (x, a, b) => a + b.toUpperCase())])];
-    filtre = `VALUES ?nom { ${[].concat(...noms.map(x => ['fr', 'en', 'mul'].map(l => lit(x, l)))).join(' ')} }
-      ?createur rdfs:label|skos:altLabel ?nom . ?i wdt:P170 ?createur .`;
-  } else {
-    filtre = `VALUES ?nomMv { ${mv.wd.map(x => lit(x, 'en')).join(' ')} } ?mv rdfs:label ?nomMv . ?i wdt:P135|wdt:P136 ?mv .`;
-  }
   const d = bornesEpoques(c.ep || []);
-  const requete = `SELECT ?i ?iLabel ?m ?mLabel ?date ?img ?typeEn ?createur ?createurLabel ?deces ?origine ?origineLabel ?nat WHERE {
+  // Œuvres qui répondent au filtre, illustrées, les plus connues d'abord (ou au hasard pour les découvertes)
+  const oeuvresDe = filtre => sparql(`SELECT ?i ?iLabel ?m ?mLabel ?date ?img ?typeEn ?createur ?createurLabel ?deces ?origine ?origineLabel ?nat WHERE {
     { SELECT DISTINCT ?i ?createur ?img ?date WHERE {
         hint:Query hint:optimizer "None" .
         ${filtre}
@@ -607,10 +651,25 @@ function chercherWikidataArtisteMouvement(c, n) {
     OPTIONAL { ?i wdt:P495 ?origine }
     OPTIONAL { ?i wdt:P170 ?createur . OPTIONAL { ?createur wdt:P27 ?nat } OPTIONAL { ?createur wdt:P570 ?deces } }
     SERVICE wikibase:label { bd:serviceParam wikibase:language "fr,en,mul". }
-  }`;
-  return sparql(requete, 12000).then(lignes => oeuvresWikidata(lignes, n, {
+  }`, 12000).then(lignes => oeuvresWikidata(lignes, n, {
     lieu: 'mLabel', musee: nom => (nom && !/^Q\d+$/.test(nom) ? nom : 'Wikidata'), region: () => (mv ? mv.region : null)
   }));
+  if (c.artiste) {
+    // Le nom tapé, et la même chose avec des majuscules aux initiales (« hokusai » → « Hokusai »)
+    const noms = [...new Set([c.artiste.trim(), c.artiste.trim().replace(/(^|[\s-])(\p{L})/gu, (x, a, b) => a + b.toUpperCase())])];
+    return oeuvresDe(`VALUES ?nom { ${[].concat(...noms.map(x => ['fr', 'en', 'mul'].map(l => lit(x, l)))).join(' ')} }
+      ?createur rdfs:label|skos:altLabel ?nom . ?i wdt:P170 ?createur .`);
+  }
+  // Mouvement : les œuvres rattachées au mouvement, et surtout les œuvres de ses artistes datées de sa période
+  // (un artiste n'appartient pas à un mouvement toute sa vie)
+  const periode = periodeMouvement(mv);
+  return artistesDuMouvement(mv).catch(() => []).then(artistes => {
+    const branches = [];
+    if (mv.wd.length) branches.push(`{ VALUES ?nomMv { ${mv.wd.map(x => lit(x, 'en')).join(' ')} } ?mv rdfs:label ?nomMv . ?i wdt:P135|wdt:P136 ?mv . }`);
+    if (artistes.length) branches.push(`{ VALUES ?createur { ${artistes.map(a => 'wd:' + a.q).join(' ')} } ?i wdt:P170 ?createur ; wdt:P571 ?dateA .
+        ${periode ? `FILTER(YEAR(?dateA) >= ${periode[0]} && YEAR(?dateA) <= ${periode[1]})` : ''} }`);
+    return branches.length ? oeuvresDe(branches.join(' UNION ')) : [];
+  });
 }
 
 // Images de l'Art Institute of Chicago : depuis 2026, leur serveur (www.artic.edu, protégé par Cloudflare) les refuse
@@ -986,37 +1045,53 @@ function chercherDansLesMusees(criteres, parSource, seulement) {
   if (varier) combinaisons = (MOTS_RECHERCHE_REGIONS[regions[0]] || []).slice().sort(() => Math.random() - 0.5).slice(0, 3)
     .map(motRegion => ({ region: regions[0], mouvement: null, motRegion }));
   const parMotsCles = k => CATALOGUES_MOTS_CLES.includes(k) || k === 'europeana';
-  const combinaisonsDe = k => varier && !parMotsCles(k) ? combinaisons.slice(0, 1).map(co => ({ region: co.region, mouvement: null })) : combinaisons;
-  // (avec trois mots, un peu plus d'œuvres par recherche : celles qui ne correspondent pas aux choix sont écartées ensuite)
-  const nDe = k => Math.max(4, Math.round((parSource || 8) * (varier && parMotsCles(k) ? 1.5 : 1) / combinaisonsDe(k).length));
-  return Promise.all(sources.map(k => Promise.all(combinaisonsDe(k).map(co => ADAPTATEURS[k].chercher(Object.assign({}, criteres, co), nDe(k) * (ADAPTATEURS[k].poids || 1)).catch(e => ({ panne: e }))))
-    .then(listes => ({ source: ADAPTATEURS[k].nom, liste: [].concat(...listes.filter(Array.isArray)), ok: listes.some(Array.isArray),
-      raison: listes.some(Array.isArray) ? '' : raisonPanne((listes.find(l => l && l.panne) || {}).panne) }))))
-    .then(resultats => {
-      const vus = new Set(), oeuvres = [];
-      // Les catalogues sont pris à tour de rôle, pour que chaque institution soit représentée
-      const alternees = [];
-      for (let k = 0; resultats.some(r => k < r.liste.length); k++) resultats.forEach(r => { if (k < r.liste.length) alternees.push(r.liste[k]); });
-      // Recherche par artiste : si des œuvres correspondent sûrement au nom tapé, celles d'homonymes probables sont écartées
-      const sur = criteres.artiste && alternees.some(w => deLArtiste(w, criteres.artiste) === 2);
-      // Mouvements choisis : une œuvre d'une autre région n'en fait pas partie (une affiche française citant l'ukiyo-e…)
-      const regionsMv = (criteres.mv || []).map(m => (mouvement(m) || {}).region).filter(Boolean);
-      alternees.forEach(w => {
-        const cle = cleOeuvre(w);
-        if (!w.title || vus.has(cle) || !w.epoch) return;
-        // On applique les choix du visiteur aux fiches reçues (les catalogues ne savent pas tous filtrer)
-        if (criteres.ep.length && !criteres.ep.includes(w.epoch)) return;
-        if (criteres.rg.length && !w.regions.some(x => criteres.rg.includes(x))) return;
-        if (criteres.ty.length && !w.types.some(x => criteres.ty.includes(x))) return;
-        if (criteres.artiste && deLArtiste(w, criteres.artiste) < (sur ? 2 : 1)) return;
-        if (regionsMv.length && w.regions.length && !w.regions.some(x => regionsMv.includes(x))) return;
-        // Recherche par artiste : les catalogues renvoient surtout des gravures (Rembrandt, Dürer…) ; trois au plus,
-        // pour laisser la place aux peintures, sauf si le visiteur a choisi « Dessins et estampes »
-        if (criteres.artiste && !criteres.ty.length && w.types.includes('Dessins et estampes') && oeuvres.filter(x => x.types.includes('Dessins et estampes')).length >= 3) return;
-        vus.add(cle); oeuvres.push(w);
-      });
-      return { oeuvres, sources: resultats.map(r => ({ nom: r.source, ok: r.ok, nombre: r.liste.length, raison: r.raison })) };
+  // Mouvements : les catalogues qui cherchent par mots-clés sont interrogés par nom d'artiste (ceux du mouvement, d'après la
+  // liste MOUVEMENTS et Wikidata), plutôt qu'avec le nom du mouvement, que leurs fiches donnent rarement (« Impressionism »
+  // trouvait aussi des « impressions » de pièces de monnaie). Chaque œuvre gardée doit être de cet artiste et dater de la
+  // période du mouvement. Les mouvements sans artistes connus (œuvres anonymes) gardent la recherche par mots-clés.
+  const parArtistes = mvts[0] ? Promise.all(mvts.map(m => nomsArtistesMouvement(mouvement(m)))) : Promise.resolve([]);
+  return parArtistes.then(nomsParMv => {
+    const combinaisonsArtistes = [].concat(...mvts.map((m, i) => (nomsParMv[i] || []).slice(0, Math.max(1, Math.floor(4 / mvts.length)))
+      .map(nom => ({ region: regions[0], mouvement: null, artiste: nom, mvArtiste: m }))));
+    const combinaisonsDe = k => varier && !parMotsCles(k) ? combinaisons.slice(0, 1).map(co => ({ region: co.region, mouvement: null }))
+      : parMotsCles(k) && combinaisonsArtistes.length ? combinaisonsArtistes.concat(combinaisons.filter(co => !(nomsParMv[mvts.indexOf(co.mouvement)] || []).length))
+      : combinaisons;
+    // (avec trois mots, un peu plus d'œuvres par recherche : celles qui ne correspondent pas aux choix sont écartées ensuite)
+    const nDe = k => Math.max(4, Math.round((parSource || 8) * (varier && parMotsCles(k) ? 1.5 : 1) / combinaisonsDe(k).length));
+    const chercherCombinaison = (k, co) => ADAPTATEURS[k].chercher(Object.assign({}, criteres, co), nDe(k) * (ADAPTATEURS[k].poids || 1)).then(l => {
+      if (!co.mvArtiste) return l;
+      const periode = periodeMouvement(mouvement(co.mvArtiste));
+      return l.filter(w => deLArtiste(w, co.artiste) === 2 && (!periode || w.year === null || w.year === undefined || (w.year >= periode[0] && w.year <= periode[1])));
     });
+    return Promise.all(sources.map(k => Promise.all(combinaisonsDe(k).map(co => chercherCombinaison(k, co).catch(e => ({ panne: e }))))
+      .then(listes => ({ source: ADAPTATEURS[k].nom, liste: [].concat(...listes.filter(Array.isArray)), ok: listes.some(Array.isArray),
+        raison: listes.some(Array.isArray) ? '' : raisonPanne((listes.find(l => l && l.panne) || {}).panne) }))))
+      .then(resultats => {
+        const vus = new Set(), oeuvres = [];
+        // Les catalogues sont pris à tour de rôle, pour que chaque institution soit représentée
+        const alternees = [];
+        for (let k = 0; resultats.some(r => k < r.liste.length); k++) resultats.forEach(r => { if (k < r.liste.length) alternees.push(r.liste[k]); });
+        // Recherche par artiste : si des œuvres correspondent sûrement au nom tapé, celles d'homonymes probables sont écartées
+        const sur = criteres.artiste && alternees.some(w => deLArtiste(w, criteres.artiste) === 2);
+        // Mouvements choisis : une œuvre d'une autre région n'en fait pas partie (une affiche française citant l'ukiyo-e…)
+        const regionsMv = (criteres.mv || []).map(m => (mouvement(m) || {}).region).filter(Boolean);
+        alternees.forEach(w => {
+          const cle = cleOeuvre(w);
+          if (!w.title || vus.has(cle) || !w.epoch) return;
+          // On applique les choix du visiteur aux fiches reçues (les catalogues ne savent pas tous filtrer)
+          if (criteres.ep.length && !criteres.ep.includes(w.epoch)) return;
+          if (criteres.rg.length && !w.regions.some(x => criteres.rg.includes(x))) return;
+          if (criteres.ty.length && !w.types.some(x => criteres.ty.includes(x))) return;
+          if (criteres.artiste && deLArtiste(w, criteres.artiste) < (sur ? 2 : 1)) return;
+          if (regionsMv.length && w.regions.length && !w.regions.some(x => regionsMv.includes(x))) return;
+          // Recherche par artiste : les catalogues renvoient surtout des gravures (Rembrandt, Dürer…) ; trois au plus,
+          // pour laisser la place aux peintures, sauf si le visiteur a choisi « Dessins et estampes »
+          if (criteres.artiste && !criteres.ty.length && w.types.includes('Dessins et estampes') && oeuvres.filter(x => x.types.includes('Dessins et estampes')).length >= 3) return;
+          vus.add(cle); oeuvres.push(w);
+        });
+        return { oeuvres, sources: resultats.map(r => ({ nom: r.source, ok: r.ok, nombre: r.liste.length, raison: r.raison })) };
+      });
+  });
 }
 
 // ---------- Expositions spéciales : œuvres par lien et règle des pays ----------

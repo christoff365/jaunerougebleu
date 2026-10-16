@@ -611,25 +611,32 @@ function artistesDuMouvement(mv) {
   const parArtistes = refs.length >= 2 ? `{ SELECT ?mv WHERE { VALUES ?nom { ${[].concat(...refs.map(x => [lit(x, 'en'), lit(x, 'fr'), lit(x, 'mul')])).join(' ')} }
       ?ref rdfs:label ?nom ; wdt:P135 ?mv . } GROUP BY ?mv HAVING(COUNT(DISTINCT ?ref) >= ${refs.length}) }` : '';
   if (!parLibelle && !parArtistes) return Promise.resolve([]);
-  const requete = `SELECT ?a ?aLabel (MAX(?l) AS ?liens) WHERE {
-    ${[parLibelle, parArtistes].filter(Boolean).join(' UNION ')}
-    ?a wdt:P135 ?mv ; wdt:P31 wd:Q5 ; wikibase:sitelinks ?l .
+  // Ordre imposé : d'abord le mouvement, puis ses artistes, puis leur notoriété (sinon Wikidata peut commencer par
+  // parcourir toutes les personnes et dépasser le délai : la liste revenait vide)
+  const requete = `SELECT ?a ?aLabel ?liens WHERE {
+    hint:Query hint:optimizer "None" .
+    { SELECT DISTINCT ?mv WHERE { ${[parLibelle, parArtistes].filter(Boolean).join(' UNION ')} } }
+    ?a wdt:P135 ?mv .
+    ?a wikibase:sitelinks ?liens .
     SERVICE wikibase:label { bd:serviceParam wikibase:language "en,fr,mul". }
-  } GROUP BY ?a ?aLabel ORDER BY DESC(?liens) LIMIT 40`;
-  const p = ARTISTES_MOUVEMENTS[mv.nom] = sparql(requete, 10000)
-    .then(l => l.map(b => ({ q: qid(b, 'a'), nom: val(b, 'aLabel') })).filter(x => x.nom && !/^Q\d+$/.test(x.nom)));
+  } ORDER BY DESC(?liens) LIMIT 60`;
+  const p = ARTISTES_MOUVEMENTS[mv.nom] = sparql(requete, 10000).then(l => {
+    const vus = new Set(), artistes = [];
+    l.forEach(b => { const a = { q: qid(b, 'a'), nom: val(b, 'aLabel') }; if (a.nom && !/^Q\d+$/.test(a.nom) && !vus.has(a.q)) { vus.add(a.q); artistes.push(a); } });
+    return artistes.slice(0, 40);
+  });
   p.catch(() => { delete ARTISTES_MOUVEMENTS[mv.nom]; }); // en cas d'échec, on réessaiera à la prochaine exposition
   return p;
 }
 // Noms d'artistes à chercher dans les catalogues pour un mouvement : ceux de la liste MOUVEMENTS, puis les plus connus de
-// Wikidata, quatre au plus ; liste vide pour les mouvements sans artistes connus (œuvres anonymes)
+// Wikidata, six au plus ; liste vide pour les mouvements sans artistes connus (œuvres anonymes)
 // (on n'attend Wikidata que 4 secondes : au-delà, les catalogues partent avec les artistes de la liste MOUVEMENTS)
 function nomsArtistesMouvement(mv) {
   const attente = new Promise(ok => setTimeout(() => ok([]), 4000));
   return Promise.race([artistesDuMouvement(mv).catch(() => []), attente]).then(l => {
     const noms = [], vus = new Set();
     mv.artistes.concat(l.map(a => a.nom)).forEach(x => { const k = sansAccents(x); if (!vus.has(k)) { vus.add(k); noms.push(x); } });
-    return noms.slice(0, 4);
+    return noms.slice(0, 6);
   });
 }
 function chercherWikidataArtisteMouvement(c, n) {
@@ -1051,7 +1058,7 @@ function chercherDansLesMusees(criteres, parSource, seulement) {
   // période du mouvement. Les mouvements sans artistes connus (œuvres anonymes) gardent la recherche par mots-clés.
   const parArtistes = mvts[0] ? Promise.all(mvts.map(m => nomsArtistesMouvement(mouvement(m)))) : Promise.resolve([]);
   return parArtistes.then(nomsParMv => {
-    const combinaisonsArtistes = [].concat(...mvts.map((m, i) => (nomsParMv[i] || []).slice(0, Math.max(1, Math.floor(4 / mvts.length)))
+    const combinaisonsArtistes = [].concat(...mvts.map((m, i) => (nomsParMv[i] || []).slice(0, Math.max(2, Math.floor(6 / mvts.length)))
       .map(nom => ({ region: regions[0], mouvement: null, artiste: nom, mvArtiste: m }))));
     const combinaisonsDe = k => varier && !parMotsCles(k) ? combinaisons.slice(0, 1).map(co => ({ region: co.region, mouvement: null }))
       : parMotsCles(k) && combinaisonsArtistes.length ? combinaisonsArtistes.concat(combinaisons.filter(co => !(nomsParMv[mvts.indexOf(co.mouvement)] || []).length))

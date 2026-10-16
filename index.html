@@ -208,6 +208,8 @@ html[lang="fr"] .fr-seul{display:none}
 .mus-tous ul li,.mus-region ul li{break-inside:avoid}
 a.mus-site{text-decoration:underline;text-decoration-color:#C9A84C;text-underline-offset:3px}
 a.mus-site:hover{color:var(--bleu)}
+.expo-musee{margin-left:6px;font:inherit;font-size:11px;font-weight:600;padding:1px 8px;border:1px solid #1a3a8a;border-radius:10px;background:#fff;color:#1a3a8a;cursor:pointer;vertical-align:middle}
+.expo-musee:hover,.expo-musee:focus-visible{background:#1a3a8a;color:#fff}
 .wd-lien{display:inline-flex;align-items:center;vertical-align:middle;padding:2px 3px;margin-left:2px;border-radius:3px;text-decoration:none}
 .wd-lien:hover{background:#f2ece0}
 /* Icône Wikidata : petit code-barres rouge, vert et bleu */
@@ -553,6 +555,11 @@ html.sans-animation *,html.sans-animation *::before,html.sans-animation *::after
       <datalist id="gen-artistes"></datalist>
       <p class="mv-aide">Facultatif. Seuls les artistes morts depuis plus de 70 ans ont des œuvres dans le domaine public ; beaucoup d'œuvres anciennes ou non européennes sont anonymes.</p>
     </div>
+    <div class="step-row"><div class="step-n">7</div><div class="step-l">Œuvres</div></div>
+    <div class="tags" role="group" aria-label="Œuvres" id="notoriete">
+      <span class="tag on" role="button" tabindex="0" aria-pressed="true" data-notoriete="celebres" onclick="choisirNotoriete(this)">Les plus célèbres</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-notoriete="decouvertes" onclick="choisirNotoriete(this)">Découvertes (moins connues)</span>
+    </div>
+    <p class="mv-aide">Les œuvres célèbres sont celles que les musées signalent comme leurs chefs-d'œuvre (Met, Art Institute of Chicago, Cleveland) ou qui ont le plus d'articles dans les Wikipédia du monde ; les découvertes sont tirées au hasard dans les collections.</p>
     <button class="gen-btn" id="gen-btn" disabled onclick="genExpo()">Générer mon exposition <span aria-hidden="true">→</span></button>
   </div>
 </div>
@@ -805,9 +812,9 @@ html.sans-animation *,html.sans-animation *::before,html.sans-animation *::after
   </div>
 </footer>
 <!-- Traductions (anglais, espagnol, arabe) et moteur de traduction -->
-<script src="i18n.js?v=20261016k"></script>
+<script src="i18n.js?v=20261016l"></script>
 <!-- Recherche en direct dans les catalogues ouverts des musées (domaine public) -->
-<script src="musees.js?v=20261016k"></script>
+<script src="musees.js?v=20261016l"></script>
 <script>
 const ART = [
   { img:"images/oeuvres/grande-vague-hokusai.jpg", credit:'Image : <a href="https://www.metmuseum.org/art/collection/search/45434" target="_blank" rel="noopener">The Metropolitan Museum of Art</a>, domaine public (Open Access)', name:"La Grande Vague de Kanagawa", meta:"Katsushika Hokusai · Japon · vers 1830-1832 · Metropolitan Museum of Art",
@@ -885,7 +892,7 @@ function lienMusee(q,nom,site){
   const nomHtml=url?`<a class="mus-site" href="${esc(url)}" target="_blank" rel="noopener" data-q="${esc(q)}">${esc(nom)}</a>`:`<span class="mus-site" data-q="${esc(q)}">${esc(nom)}</span>`;
   const wd=q?` <a class="wd-lien" href="https://www.wikidata.org/wiki/${esc(q)}" target="_blank" rel="noopener" title="Fiche Wikidata" aria-label="Fiche Wikidata"><span class="wd-ico" aria-hidden="true"></span></a>`
     :` <a class="wd-lien" href="https://www.wikidata.org/w/index.php?search=${encodeURIComponent(nom.split(' (')[0])}" target="_blank" rel="noopener" title="Fiche Wikidata" aria-label="Fiche Wikidata"><span class="wd-ico" aria-hidden="true"></span></a>`;
-  return `<li>${nomHtml}${wd}</li>`;
+  return `<li>${nomHtml}${wd}${boutonExpoMusee(q,nom)}</li>`;
 }
 // Sites officiels : une seule requête à Wikidata pour toutes les institutions, gardée 7 jours dans le navigateur
 function chargerSitesMusees(){
@@ -914,7 +921,7 @@ function afficherMusees(){
     return `<section class="mus-region"><h3>${esc(r)}</h3><p>${liste.length} <span>institutions</span></p>
       ${r==='Europe'?'<p>Avec quatre musées américains dont les collections sont surtout européennes : Getty, Yale (deux musées) et Walters.</p>':''}
       <ul lang="fr">${liste.map(m=>lienMusee(m[0],m[3]||m[0])).join('')}</ul>
-      ${r==='Europe'?`<p>En Europe, le générateur interroge aussi directement le catalogue du <a class="mus-site" href="https://www.smk.dk/" target="_blank" rel="noopener">SMK – Statens Museum for Kunst (Copenhague)</a> <a class="wd-lien" href="https://www.wikidata.org/wiki/Q671384" target="_blank" rel="noopener" title="Fiche Wikidata" aria-label="Fiche Wikidata"><span class="wd-ico" aria-hidden="true"></span></a>.</p>`:''}</section>`;
+      ${r==='Europe'?`<p>En Europe, le générateur interroge aussi directement le catalogue du <a class="mus-site" href="https://www.smk.dk/" target="_blank" rel="noopener">SMK – Statens Museum for Kunst (Copenhague)</a> <a class="wd-lien" href="https://www.wikidata.org/wiki/Q671384" target="_blank" rel="noopener" title="Fiche Wikidata" aria-label="Fiche Wikidata"><span class="wd-ico" aria-hidden="true"></span></a>.${boutonExpoMusee('Q671384','SMK – Statens Museum for Kunst (Copenhague)')}</p>`:''}</section>`;
   }).join('');
   chargerSitesMusees().then(lierSitesMusees).catch(()=>{});
 }
@@ -931,11 +938,18 @@ function tog(el,k){
   sel[k]=el.classList.contains('on')?[...sel[k],v]:sel[k].filter(x=>x!==v);
   majBoutonGen();
 }
+// Étape 7 : œuvres les plus célèbres (par défaut) ou découvertes (moins connues), l'une ou l'autre
+let notoriete='celebres';
+function choisirNotoriete(el){
+  notoriete=el.dataset.notoriete;
+  document.querySelectorAll('#notoriete .tag').forEach(t=>{const oui=t===el;t.classList.toggle('on',oui);t.setAttribute('aria-pressed',oui);});
+}
 // Chaque visite de la page « Exposition » repart d'un formulaire vide (les choix de l'exposition précédente ne sont pas gardés)
 function viderGenerateur(){
   Object.keys(sel).forEach(k=>{sel[k]=[];});
   document.querySelectorAll('#pg-build .tag.on').forEach(t=>{t.classList.remove('on');t.setAttribute('aria-pressed','false');});
   const a=document.getElementById('gen-artiste');if(a)a.value='';
+  choisirNotoriete(document.querySelector('#notoriete .tag[data-notoriete="celebres"]'));
   majBoutonGen();
 }
 function artisteChoisi(){const e=document.getElementById('gen-artiste');return e?e.value.trim():'';}
@@ -958,7 +972,18 @@ function afficherMouvements(){
 function exposerMouvement(nom){
   go('build',document.querySelectorAll('.nav-links button')[1]);
   document.querySelectorAll('#mv-tags .tag').forEach(t=>{const oui=t.dataset.v===nom;if(t.classList.contains('on')!==oui)tog(t,'mv');});
-  const t=document.querySelector('#mv-tags .tag.on');if(t)t.scrollIntoView({block:'center'});
+  genExpo(); // l'exposition se lance tout de suite ; « Ajouter des catégories » permet ensuite de la préciser
+}
+// Page « Musées » : exposition des œuvres d'un seul musée. Catalogues interrogés directement pour le Met, Chicago,
+// Cleveland, Minneapolis, le SMK et le patrimoine mondial ; Wikidata pour les autres institutions
+const SOURCE_DIRECTE={Q160236:'met',Q239303:'aic',Q657415:'cleveland',Q1700481:'mia',Q671384:'smk',Q9259:'patrimoine'};
+function exposerMusee(el){
+  const q=el.dataset.q,nom=el.dataset.nom;
+  viderGenerateur();
+  genExpo({source:SOURCE_DIRECTE[q]||'wikidata',qid:q,nom});
+}
+function boutonExpoMusee(q,nom){
+  return q?` <button type="button" class="expo-musee" data-q="${esc(q)}" data-nom="${esc(nom)}" onclick="exposerMusee(this)" aria-label="Voir une exposition des œuvres de ce musée">Exposition</button>`:'';
 }
 // GÉNÉRATEUR : choisit dans collection.json les œuvres qui correspondent aux thèmes, régions et époques cochés
 const ORDRE_EPOQUES=['Antiquité','Moyen Âge','Renaissance','XVIIe–XVIIIe s.','XIXe siècle','Modernisme','Art contemporain'];
@@ -1001,30 +1026,33 @@ document.addEventListener('click',e=>{const img=e.target.closest&&e.target.close
 document.addEventListener('keydown',e=>{if((e.key==='Enter'||e.key===' ')&&e.target.matches&&e.target.matches('img.zoom')){e.preventDefault();ouvrirVisionneuse(e.target);}});
 // L'exposition réunit la collection choisie (collection.json) et des œuvres trouvées en direct dans les catalogues
 // des musées (musees.js), sans intervention humaine.
-function genExpo(){
-  const artiste=artisteChoisi();
+// musee (facultatif) : exposition d'un seul musée, lancée depuis la page « Musées » ({source, qid, nom}, voir exposerMusee)
+function genExpo(musee){
+  musee=musee&&musee.source?musee:null;
+  const artiste=musee?'':artisteChoisi();
   const intitules=(artiste?[artiste.replace(/(^|[\s-])(\p{L})/gu,(x,a,c)=>a+c.toUpperCase())]:[]).concat(sel.mv,sel.th,sel.ty);
-  document.getElementById('expo-h').textContent=(intitules.length?intitules.slice(0,2).join(' & '):'Art universel')+' — '+(sel.rg.length?sel.rg.slice(0,2).join(' · '):'Monde');
+  document.getElementById('expo-h').textContent=musee?musee.nom:(intitules.length?intitules.slice(0,2).join(' & '):'Art universel')+' — '+(sel.rg.length?sel.rg.slice(0,2).join(' · '):'Monde');
   const tl=document.getElementById('expo-tl'),sous=document.getElementById('expo-s');
   sous.textContent=(sel.ep.length?sel.ep.join(', '):'Toutes époques');
   tl.innerHTML='<p class="sub">Recherche en direct dans les catalogues des musées…</p>';
   go('expo',document.querySelectorAll('.nav-links button')[1]);
-  const crit=genExpo.criteres={th:sel.th.slice(),rg:sel.rg.slice(),ep:sel.ep.slice(),ty:sel.ty.slice(),mv:sel.mv.slice(),artiste};
+  const crit=genExpo.criteres=musee?{th:[],rg:[],ep:[],ty:[],mv:[],artiste:'',notoriete:'celebres',musee:musee.source==='wikidata'?musee.qid:null}
+    :{th:sel.th.slice(),rg:sel.rg.slice(),ep:sel.ep.slice(),ty:sel.ty.slice(),mv:sel.mv.slice(),artiste,notoriete};
   const vide={oeuvres:[],sources:[]};
   const numero=genExpo.compteur=(genExpo.compteur||0)+1; // si le visiteur relance une recherche, l'ancienne est ignorée
   // Recherche en direct ; si elle trouve trop peu d'œuvres, on l'élargit en ignorant les thèmes
-  const enDirect=typeof chercherDansLesMusees!=='function'?Promise.resolve(vide):chercherDansLesMusees(crit,8).then(r=>{
+  const enDirect=typeof chercherDansLesMusees!=='function'?Promise.resolve(vide):musee?chercherDansLesMusees(crit,24,[musee.source]).catch(()=>vide):chercherDansLesMusees(crit,12).then(r=>{
     if(r.oeuvres.length>=6||!crit.th.length)return r;
-    return chercherDansLesMusees(Object.assign({},crit,{th:[]}),8).then(r2=>({oeuvres:r.oeuvres.concat(r2.oeuvres),
+    return chercherDansLesMusees(Object.assign({},crit,{th:[]}),12).then(r2=>({oeuvres:r.oeuvres.concat(r2.oeuvres),
       sources:r2.sources.map((s,i)=>({nom:s.nom,ok:s.ok||!!(r.sources[i]&&r.sources[i].ok),nombre:s.nombre+(r.sources[i]?r.sources[i].nombre:0),raison:s.raison})),elargi:true}));
   }).catch(()=>vide);
   Promise.all([chargerCollection().catch(()=>{collection=collection||[];}),enDirect]).then(([,direct])=>{
     if(numero!==genExpo.compteur)return;
     const okTh=w=>w.themes.some(x=>crit.th.includes(x)),okRg=w=>w.regions.some(x=>crit.rg.includes(x)),okEp=w=>crit.ep.includes(w.epoch),okTy=w=>(w.types||[]).some(x=>crit.ty.includes(x));
     const okMv=w=>typeof oeuvreDuMouvement==='function'&&crit.mv.some(m=>oeuvreDuMouvement(w,m)),okAr=w=>typeof deLArtiste==='function'&&deLArtiste(w,crit.artiste);
-    let choisies=(collection||[]).filter(w=>(!crit.th.length||okTh(w))&&(!crit.rg.length||okRg(w))&&(!crit.ep.length||okEp(w))&&(!crit.ty.length||okTy(w))&&(!crit.mv.length||okMv(w))&&(!crit.artiste||okAr(w)));
+    let choisies=musee?[]:(collection||[]).filter(w=>(!crit.th.length||okTh(w))&&(!crit.rg.length||okRg(w))&&(!crit.ep.length||okEp(w))&&(!crit.ty.length||okTy(w))&&(!crit.mv.length||okMv(w))&&(!crit.artiste||okAr(w)));
     const notes=[];
-    if(!choisies.length&&!direct.oeuvres.length){
+    if(!musee&&!choisies.length&&!direct.oeuvres.length){
       choisies=(collection||[]).filter(w=>(crit.th.length&&okTh(w))||(crit.rg.length&&okRg(w))||(crit.ep.length&&okEp(w))||(crit.ty.length&&okTy(w)));
       if(choisies.length)notes.push('Aucune œuvre ne réunit tous vos critères : voici celles qui en partagent au moins un.');
     }
@@ -1039,7 +1067,9 @@ function genExpo(){
     const groupes=ORDRE_EPOQUES.map(ep=>({ep,liste:oeuvres.filter(w=>w.epoch===ep).sort((a,b)=>(a.year||0)-(b.year||0))})).filter(g=>g.liste.length);
     // Choix très large (une seule catégorie, sans artiste ni mouvement) : des milliers d'œuvres correspondent, l'exposition
     // n'en montre qu'une sélection ; on invite le visiteur à préciser ses choix
-    const large=!crit.artiste&&!crit.mv.length&&crit.rg.length+crit.th.length+crit.ep.length+crit.ty.length<=1;
+    const large=!musee&&!crit.artiste&&!crit.mv.length&&crit.rg.length+crit.th.length+crit.ep.length+crit.ty.length<=1;
+    if(musee)notes.push(direct.oeuvres.length>=8?'Œuvres du domaine public de ce musée, les plus connues d\'abord, trouvées en direct dans son catalogue ou dans Wikidata.'
+      :'Ce musée n\'a encore que peu d\'œuvres du domaine public décrites avec une image et une date dans les catalogues ouverts : l\'exposition est donc petite.');
     tl.innerHTML=(large?'<p class="expo-note"><span>Votre choix est très large : les musées interrogés conservent des milliers d\'œuvres qui y correspondent, et l\'exposition n\'en montre qu\'une sélection, tirée au hasard et différente à chaque fois. Pour une exposition plus riche et plus précise, ajoutez une époque, un type d\'œuvre, un thème ou un mouvement.</span> <button type="button" class="lien-btn" onclick="affinerExposition()">Ajouter des catégories</button></p>':'')+notes.map(n=>`<p class="expo-note">${esc(n)}</p>`).join('')+(groupes.length?groupes.map((g,i)=>{
       const debut=g.liste[0].year,fin=g.liste[g.liste.length-1].year;
       return `<div class="tl"><div class="tl-l"><div class="tl-dot"></div>${i<groupes.length-1?'<div class="tl-line"></div>':''}</div><div style="flex:1;padding-bottom:16px">
@@ -1068,6 +1098,7 @@ function affinerExposition(){
     if(t&&!t.classList.contains('on'))tog(t,k);
   }));
   const a=document.getElementById('gen-artiste');if(a&&c.artiste)a.value=c.artiste;
+  const n=document.querySelector('#notoriete .tag[data-notoriete="'+(c.notoriete||'celebres')+'"]');if(n)choisirNotoriete(n);
   majBoutonGen();
 }
 // Carte d'une œuvre ; les fiches venues des catalogues gardent la langue du musée (souvent l'anglais)
@@ -1493,8 +1524,8 @@ afficherValeurs(0);
 traduirePage();
 </script>
 <!-- Fenêtre Accessibilité de chaque œuvre et menu Affichage et lecture -->
-<script src="accessibilite.js?v=20261016k"></script>
+<script src="accessibilite.js?v=20261016l"></script>
 <!-- Séances de bien-être composées à la demande -->
-<script src="bienetre.js?v=20261016k"></script>
+<script src="bienetre.js?v=20261016l"></script>
 </body>
 </html>

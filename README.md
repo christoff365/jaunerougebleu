@@ -65,6 +65,8 @@ Pages CMS enregistre directement sur GitHub : avant de modifier le site sur un o
 
 Pour ajouter un mouvement : une ligne dans `MOUVEMENTS` (nom, région, lieu, époque, mots-clés anglais, libellés Wikidata anglais, motif reconnaissant les œuvres de la collection, artistes, description), puis ses traductions dans `i18n.js` (nom, lieu, époque, description).
 
+**Choix large.** Quand le visiteur ne choisit qu'une seule catégorie (par exemple seulement « Amériques »), des milliers d'œuvres correspondent : l'exposition en montre une sélection (48 œuvres des catalogues au plus, plus celles de la collection), tirée au hasard, et un message invite à ajouter une époque, un type, un thème ou un mouvement, avec un bouton « Ajouter des catégories » qui ramène au formulaire en gardant les choix. Pour une seule région, les catalogues qui cherchent par mots-clés sont interrogés avec trois mots de culture différents (« Mexican », « Peruvian », « Native American »…), pour varier les pays représentés.
+
 Le générateur compose chaque exposition sans intervention humaine : il réunit les œuvres de `collection.json` et des œuvres trouvées **en direct** dans les catalogues ouverts des musées (fichier `musees.js`), filtrées par thème, région, époque et type (peinture, sculpture, architecture, dessins et estampes, arts décoratifs, photographie). Seules les œuvres du domaine public avec image sont retenues ; chaque image est créditée avec un lien vers sa fiche au musée.
 
 | Institution | État |
@@ -138,7 +140,7 @@ Page « Mentions légales » à part, `mentions-legales/index.html` (lien en bas
 - **Page Musées** : le nom de chaque institution ouvre son site officiel (lu en direct dans Wikidata, propriété P856, et gardé 7 jours dans le navigateur) ; l'icône code-barres ouvre sa fiche Wikidata.
 - **Vibrations** : uniquement sur les téléphones Android (les iPhone et les ordinateurs ne le permettent pas depuis un site) ; ailleurs, seule la partition visuelle est proposée.
 - **Musique des couleurs** : tempo, tonalité, énergie et luminosité sont calculés à partir des couleurs réelles de l'image, selon une règle inventée pour le site, puis une courte musique est jouée dans le navigateur.
-- **Version des scripts** : dans `index.html`, les scripts sont appelés avec un numéro de version (`musees.js?v=20261016j`). Après une modification d'un fichier `.js`, changer ce numéro (la date du jour), sinon certains navigateurs gardent l'ancienne version en cache jusqu'à 10 minutes, alors que la page, elle, est nouvelle.
+- **Version des scripts** : dans `index.html`, les scripts sont appelés avec un numéro de version (`musees.js?v=20261016k`). Après une modification d'un fichier `.js`, changer ce numéro (la date du jour), sinon certains navigateurs gardent l'ancienne version en cache jusqu'à 10 minutes, alors que la page, elle, est nouvelle.
 - **Textes** : générés par Claude AI (Anthropic) ; à faire relire, en particulier les descriptions audio destinées aux visiteurs aveugles.
 
 ## Tester en local

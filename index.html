@@ -208,6 +208,14 @@ html[lang="fr"] .fr-seul{display:none}
 .mus-tous ul li,.mus-region ul li{break-inside:avoid}
 a.mus-site{text-decoration:underline;text-decoration-color:#C9A84C;text-underline-offset:3px}
 a.mus-site:hover{color:var(--bleu)}
+.choix-collection{margin:auto;border:0;padding:18px;max-width:min(640px,94vw);border-radius:8px;background:#fff;color:#111}
+.choix-collection::backdrop{background:rgba(0,0,0,.6)}
+.choix-collection h3{font-family:'Cormorant Garamond',serif;font-size:24px;margin:8px 0 4px}
+.choix-collection p{font-size:14px;color:#444;margin:0 0 12px}
+.cc-liste{display:flex;flex-wrap:wrap;gap:8px}
+.cc-liste button{font:inherit;font-size:13px;padding:6px 12px;border:1px solid #bbb;border-radius:16px;background:#fff;cursor:pointer}
+.cc-liste button:hover,.cc-liste button:focus-visible{border-color:#000;background:var(--jaune)}
+.cc-liste .cc-tout{font-weight:600;border-color:#000}
 .expo-musee{margin-left:6px;font:inherit;font-size:11px;font-weight:600;padding:1px 8px;border:1px solid #1a3a8a;border-radius:10px;background:#fff;color:#1a3a8a;cursor:pointer;vertical-align:middle}
 .expo-musee:hover,.expo-musee:focus-visible{background:#1a3a8a;color:#fff}
 .wd-lien{display:inline-flex;align-items:center;vertical-align:middle;padding:2px 3px;margin-left:2px;border-radius:3px;text-decoration:none}
@@ -812,9 +820,9 @@ html.sans-animation *,html.sans-animation *::before,html.sans-animation *::after
   </div>
 </footer>
 <!-- Traductions (anglais, espagnol, arabe) et moteur de traduction -->
-<script src="i18n.js?v=20261016l"></script>
+<script src="i18n.js?v=20261016m"></script>
 <!-- Recherche en direct dans les catalogues ouverts des musées (domaine public) -->
-<script src="musees.js?v=20261016l"></script>
+<script src="musees.js?v=20261016m"></script>
 <script>
 const ART = [
   { img:"images/oeuvres/grande-vague-hokusai.jpg", credit:'Image : <a href="https://www.metmuseum.org/art/collection/search/45434" target="_blank" rel="noopener">The Metropolitan Museum of Art</a>, domaine public (Open Access)', name:"La Grande Vague de Kanagawa", meta:"Katsushika Hokusai · Japon · vers 1830-1832 · Metropolitan Museum of Art",
@@ -977,10 +985,28 @@ function exposerMouvement(nom){
 // Page « Musées » : exposition des œuvres d'un seul musée. Catalogues interrogés directement pour le Met, Chicago,
 // Cleveland, Minneapolis, le SMK et le patrimoine mondial ; Wikidata pour les autres institutions
 const SOURCE_DIRECTE={Q160236:'met',Q239303:'aic',Q657415:'cleveland',Q1700481:'mia',Q671384:'smk',Q9259:'patrimoine'};
+// Grands musées : on propose d'abord de choisir une collection. Départements du musée pour le Met, Chicago et Cleveland
+// (liste DEPARTEMENTS de musees.js) ; types d'œuvres pour le SMK, Minneapolis et les institutions de Wikidata qui ont plus
+// de 1 000 œuvres illustrées. Le Louvre est déjà présenté département par département.
+const TYPES_COLLECTION=['Peinture','Sculpture','Dessins et estampes','Arts décoratifs','Photographie','Manuscrits et livres enluminés'];
 function exposerMusee(el){
-  const q=el.dataset.q,nom=el.dataset.nom;
-  viderGenerateur();
-  genExpo({source:SOURCE_DIRECTE[q]||'wikidata',qid:q,nom});
+  const q=el.dataset.q,nom=el.dataset.nom,source=SOURCE_DIRECTE[q]||'wikidata';
+  const taille=source==='wikidata'?Math.max(0,...[].concat(...Object.values(MUSEES_MONDE)).filter(m=>m[0]===q).map(m=>m[1])):0;
+  const choix=typeof DEPARTEMENTS!=='undefined'&&DEPARTEMENTS[source]?DEPARTEMENTS[source].map(([id,libelle])=>({departement:id,libelle}))
+    :(source==='smk'||source==='mia'||taille>=1000)?TYPES_COLLECTION.map(t=>({ty:t,libelle:t})):null;
+  const lancer=o=>{viderGenerateur();genExpo(Object.assign({source,qid:q,nom:o&&o.libelle?nom+' — '+o.libelle:nom},o||{}));};
+  if(!choix){lancer();return;}
+  let d=document.getElementById('choix-collection');
+  if(!d){
+    d=document.createElement('dialog');d.id='choix-collection';d.className='choix-collection';d.setAttribute('aria-labelledby','cc-titre');
+    d.addEventListener('click',e=>{if(e.target===d)d.close();});
+    document.body.appendChild(d);
+  }
+  d.innerHTML=`<button type="button" class="back-btn vis-fermer" onclick="this.closest('dialog').close()"><span aria-hidden="true">✕</span> Fermer</button>
+    <h3 id="cc-titre">${esc(nom)}</h3><p>Ce musée conserve des milliers d'œuvres : choisissez une collection, ou toute la collection.</p>
+    <div class="cc-liste"><button type="button" class="cc-tout" data-i="-1">Toute la collection</button>${choix.map((o,i)=>`<button type="button" data-i="${i}">${esc(o.libelle)}</button>`).join('')}</div>`;
+  d.querySelectorAll('.cc-liste button').forEach(b=>b.addEventListener('click',()=>{d.close();const i=+b.dataset.i;lancer(i<0?null:choix[i]);}));
+  d.showModal();
 }
 function boutonExpoMusee(q,nom){
   return q?` <button type="button" class="expo-musee" data-q="${esc(q)}" data-nom="${esc(nom)}" onclick="exposerMusee(this)" aria-label="Voir une exposition des œuvres de ce musée">Exposition</button>`:'';
@@ -1036,7 +1062,7 @@ function genExpo(musee){
   sous.textContent=(sel.ep.length?sel.ep.join(', '):'Toutes époques');
   tl.innerHTML='<p class="sub">Recherche en direct dans les catalogues des musées…</p>';
   go('expo',document.querySelectorAll('.nav-links button')[1]);
-  const crit=genExpo.criteres=musee?{th:[],rg:[],ep:[],ty:[],mv:[],artiste:'',notoriete:'celebres',musee:musee.source==='wikidata'?musee.qid:null}
+  const crit=genExpo.criteres=musee?{th:[],rg:[],ep:[],ty:musee.ty?[musee.ty]:[],mv:[],artiste:'',notoriete:'celebres',musee:musee.source==='wikidata'?musee.qid:null,departement:musee.departement||null}
     :{th:sel.th.slice(),rg:sel.rg.slice(),ep:sel.ep.slice(),ty:sel.ty.slice(),mv:sel.mv.slice(),artiste,notoriete};
   const vide={oeuvres:[],sources:[]};
   const numero=genExpo.compteur=(genExpo.compteur||0)+1; // si le visiteur relance une recherche, l'ancienne est ignorée
@@ -1524,8 +1550,8 @@ afficherValeurs(0);
 traduirePage();
 </script>
 <!-- Fenêtre Accessibilité de chaque œuvre et menu Affichage et lecture -->
-<script src="accessibilite.js?v=20261016l"></script>
+<script src="accessibilite.js?v=20261016m"></script>
 <!-- Séances de bien-être composées à la demande -->
-<script src="bienetre.js?v=20261016l"></script>
+<script src="bienetre.js?v=20261016m"></script>
 </body>
 </html>

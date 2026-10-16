@@ -654,15 +654,36 @@ function oeuvresAIC(liste, n, largeur) {
   });
 }
 
+// Départements des grands musées interrogés directement, proposés avant l'exposition d'un seul musée (page « Musées ») :
+// [identifiant ou nom du département dans le catalogue du musée, libellé]. Archives, bibliothèques et art contemporain
+// (protégé par le droit d'auteur) sont laissés de côté.
+const DEPARTEMENTS = {
+  met: [[11, 'Peintures européennes'], [12, 'Sculpture et arts décoratifs européens'], [9, 'Dessins et estampes'], [19, 'Photographies'],
+    [10, 'Art égyptien'], [13, 'Art grec et romain'], [3, 'Art du Proche-Orient ancien'], [14, 'Arts de l\'Islam'], [6, 'Arts d\'Asie'],
+    [5, 'Arts d\'Afrique, d\'Océanie et des Amériques'], [17, 'Art médiéval'], [7, 'The Cloisters (art médiéval)'], [1, 'Arts décoratifs américains'],
+    [4, 'Armes et armures'], [18, 'Instruments de musique'], [8, 'Mode et costume'], [15, 'Collection Robert Lehman'], [21, 'Art moderne']],
+  aic: [['PC-10', 'Peinture et sculpture d\'Europe'], ['PC-9', 'Arts décoratifs d\'Europe'], ['PC-13', 'Estampes et dessins'], ['PC-12', 'Photographie'],
+    ['PC-4', 'Arts de la Grèce, de Rome et de Byzance'], ['PC-7', 'Arts d\'Asie'], ['PC-1', 'Arts d\'Afrique'], ['PC-3', 'Arts des Amériques'],
+    ['PC-14', 'Textiles'], ['PC-5', 'Architecture et design'], ['PC-11', 'Art moderne']],
+  cleveland: [['European Painting and Sculpture', 'Peinture et sculpture européennes'], ['Modern European Painting and Sculpture', 'Peinture et sculpture européennes modernes'],
+    ['American Painting and Sculpture', 'Peinture et sculpture américaines'], ['Medieval Art', 'Art médiéval'], ['Greek and Roman Art', 'Art grec et romain'],
+    ['Egyptian and Ancient Near Eastern Art', 'Art égyptien et du Proche-Orient ancien'], ['Islamic Art', 'Arts de l\'Islam'], ['Chinese Art', 'Art chinois'],
+    ['Japanese Art', 'Art japonais'], ['Korean Art', 'Art coréen'], ['Indian and Southeast Asian Art', 'Art de l\'Inde et de l\'Asie du Sud-Est'],
+    ['African Art', 'Art africain'], ['Art of the Americas', 'Art des Amériques'], ['Decorative Art and Design', 'Arts décoratifs et design'],
+    ['Textiles', 'Textiles'], ['Drawings', 'Dessins'], ['Prints', 'Estampes']]
+};
+
 // Exposition d'un seul musée (page « Musées ») : ses œuvres illustrées et datées, les plus connues d'abord
 // (celles qui ont le plus d'articles dans les Wikipédia du monde), sans plafond par lieu puisqu'elles viennent toutes du même musée
 function chercherWikidataMusee(c, n) {
+  const types = [].concat(...c.ty.map(t => (CLASSES_TYPES[t] || '').split(' ').filter(Boolean)));
   const regionMusee = {};
   Object.keys(MUSEES_MONDE).forEach(r => MUSEES_MONDE[r].forEach(m => { if (!regionMusee[m[0]]) regionMusee[m[0]] = r; }));
   const requete = `SELECT ?i ?iLabel ?m ?mLabel ?date ?img ?typeEn ?createur ?createurLabel ?deces ?origine ?origineLabel ?nat WHERE {
     { SELECT ?i ?img ?date WHERE {
         hint:Query hint:optimizer "None" .
         ?i wdt:P195 wd:${c.musee} ; wdt:P18 ?img ; wdt:P571 ?date ; wikibase:sitelinks ?liens .
+        ${types.length ? `?i wdt:P31 ?t . FILTER(?t IN (${types.map(q => 'wd:' + q).join(', ')}))` : ''}
       } ORDER BY ${celebres(c) ? 'DESC(?liens)' : `MD5(CONCAT(STR(?i), "${Math.random().toString(36).slice(2, 8)}"))`} LIMIT ${n * 2} }
     BIND(wd:${c.musee} AS ?m)
     OPTIONAL { ?i wdt:P31 ?type . ?type rdfs:label ?typeEn FILTER(LANG(?typeEn) = "en") }
@@ -670,7 +691,7 @@ function chercherWikidataMusee(c, n) {
     OPTIONAL { ?i wdt:P170 ?createur . OPTIONAL { ?createur wdt:P27 ?nat } OPTIONAL { ?createur wdt:P570 ?deces } }
     SERVICE wikibase:label { bd:serviceParam wikibase:language "fr,en,mul". }
   }`;
-  return sparql(requete, 20000).then(lignes => oeuvresWikidata(lignes, n, {
+  return (c.ty.length && !types.length ? Promise.resolve([]) : sparql(requete, 20000)).then(lignes => oeuvresWikidata(lignes, n, {
     lieu: 'mLabel', musee: nom => nom, region: () => regionMusee[c.musee] || null, plafond: n
   }));
 }
@@ -796,7 +817,8 @@ const ADAPTATEURS = {
     nom: 'The Metropolitan Museum of Art, New York',
     chercher(c, n) {
       const q = motsCles(c).join(' ') || 'art';
-      let url = 'https://collectionapi.metmuseum.org/public/collection/v1.1/search?hasImages=true' + (c.artiste ? '&artistOrCulture=true' : '') + '&limit=60&offset=0&q=' + encodeURIComponent(q);
+      let url = 'https://collectionapi.metmuseum.org/public/collection/v1.1/search?hasImages=true' + (c.artiste ? '&artistOrCulture=true' : '') + '&limit=60&offset=0&q=' + encodeURIComponent(q) +
+        (c.departement ? '&departmentId=' + c.departement : '');
       if (c.ep.length) { const d = c.ep.map(e => DATES_EPOQUES[e]); url += '&dateBegin=' + Math.min(...d.map(x => x[0])) + '&dateEnd=' + Math.max(...d.map(x => x[1])); }
       // Œuvres célèbres : d'abord les « œuvres phares » (highlights) du Met, puis les autres si elles ne suffisent pas
       // (pas pour un artiste ou un mouvement : la recherche par mots-clés est déjà ciblée, et les œuvres phares qui
@@ -818,7 +840,7 @@ const ADAPTATEURS = {
   aic: {
     nom: 'Art Institute of Chicago',
     chercher(c, n) {
-      const filtres = [{ term: { is_public_domain: true } }, { exists: { field: 'image_id' } }];
+      const filtres = [{ term: { is_public_domain: true } }, { exists: { field: 'image_id' } }].concat(c.departement ? [{ term: { department_id: c.departement } }] : []);
       if (c.ep.length) { const d = c.ep.map(e => DATES_EPOQUES[e]); filtres.push({ range: { date_start: { gte: Math.min(...d.map(x => x[0])), lte: Math.max(...d.map(x => x[1])) } } }); }
       // Trois fois plus de fiches que nécessaire si les images de Chicago sont bloquées : seules celles copiées sur Commons servent
       // Œuvres célèbres : celles que Chicago met en avant (is_boosted) ; s'il y en a trop peu, la recherche est refaite sans ce filtre
@@ -837,7 +859,8 @@ const ADAPTATEURS = {
     nom: 'Cleveland Museum of Art',
     chercher(c, n) {
       const adresse = phares => {
-        let url = 'https://openaccess-api.clevelandart.org/api/artworks/?cc0=1&has_image=1&limit=' + n + '&skip=' + (c.premiere || phares ? 0 : hasard(40)) + (phares ? '&highlight=1' : '');
+        let url = 'https://openaccess-api.clevelandart.org/api/artworks/?cc0=1&has_image=1&limit=' + n + '&skip=' + (c.premiere || phares ? 0 : hasard(40)) + (phares ? '&highlight=1' : '') +
+          (c.departement ? '&department=' + encodeURIComponent(c.departement) : '');
         const q = motsCles(c).join(' ');
         if (q) url += '&q=' + encodeURIComponent(q);
         if (c.ep.length) { const d = c.ep.map(e => DATES_EPOQUES[e]); url += '&created_after=' + Math.min(...d.map(x => x[0])) + '&created_before=' + Math.max(...d.map(x => x[1])); }

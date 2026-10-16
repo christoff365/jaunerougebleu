@@ -686,8 +686,9 @@ const ADAPTATEURS = {
       }`;
       // Trois recherches en parallèle : un musée lent ne fait perdre que son propre groupe, pas toute la recherche
       const groupes = [0, 1, 2].map(g => musees.filter((m, i) => i % 3 === g)).filter(l => l.length);
-      return Promise.all(groupes.map(g => sparql(requete(g), 8000).catch(() => null))).then(listes => {
-        if (listes.every(l => l === null)) throw new Error('Wikidata indisponible');
+      let panne = null;
+      return Promise.all(groupes.map(g => sparql(requete(g), 12000).catch(e => { panne = e; return null; }))).then(listes => {
+        if (listes.every(l => l === null)) throw panne || new Error('Wikidata indisponible');
         return [].concat(...listes.filter(Boolean));
       }).then(lignes => oeuvresWikidata(lignes, n, {
         lieu: 'mLabel', musee: nom => nom, region: b => regionMusee[qid(b, 'm')]
@@ -891,6 +892,16 @@ const ADAPTATEURS = {
 
 // Recherche dans tous les catalogues en même temps ; un catalogue en panne n'empêche pas les autres de répondre
 // (seulement : liste facultative des catalogues à interroger, par exemple ceux qui savent chercher par mots-clés)
+// Raison d'une panne, affichée au visiteur à côté du catalogue indisponible (aide au diagnostic)
+function raisonPanne(e) {
+  const m = String((e && e.message) || '');
+  if (e && e.name === 'AbortError') return 'délai de réponse dépassé';
+  if (/429|en pause/.test(m)) return 'trop de demandes, réessayez dans quelques minutes';
+  if (/HTTP 5\d\d/.test(m)) return 'service en panne';
+  if (/HTTP 4\d\d/.test(m)) return 'demande refusée';
+  if (/inaccessibles|Failed to fetch|NetworkError|Load failed/i.test(m) || (e && e.name === 'TypeError')) return 'connexion impossible ou refusée';
+  return '';
+}
 function chercherDansLesMusees(criteres, parSource, seulement) {
   const sources = Object.keys(ADAPTATEURS).filter(k => (!seulement || seulement.includes(k)) && (!ADAPTATEURS[k].actif || ADAPTATEURS[k].actif()));
   // Une recherche par région choisie (trois au plus), sinon une seule recherche sans région
@@ -899,8 +910,9 @@ function chercherDansLesMusees(criteres, parSource, seulement) {
   const mvts = criteres.mv && criteres.mv.length ? criteres.mv.slice(0, 3) : [null];
   const combinaisons = [].concat(...mvts.map(mouvement => regions.map(region => ({ region, mouvement })))).slice(0, 4);
   const n = Math.max(4, Math.round((parSource || 8) / combinaisons.length));
-  return Promise.all(sources.map(k => Promise.all(combinaisons.map(co => ADAPTATEURS[k].chercher(Object.assign({}, criteres, co), n * (ADAPTATEURS[k].poids || 1)).catch(() => null)))
-    .then(listes => ({ source: ADAPTATEURS[k].nom, liste: [].concat(...listes.filter(Boolean)), ok: listes.some(Boolean) }))))
+  return Promise.all(sources.map(k => Promise.all(combinaisons.map(co => ADAPTATEURS[k].chercher(Object.assign({}, criteres, co), n * (ADAPTATEURS[k].poids || 1)).catch(e => ({ panne: e }))))
+    .then(listes => ({ source: ADAPTATEURS[k].nom, liste: [].concat(...listes.filter(Array.isArray)), ok: listes.some(Array.isArray),
+      raison: listes.some(Array.isArray) ? '' : raisonPanne((listes.find(l => l && l.panne) || {}).panne) }))))
     .then(resultats => {
       const vus = new Set(), oeuvres = [];
       // Les catalogues sont pris à tour de rôle, pour que chaque institution soit représentée
@@ -924,7 +936,7 @@ function chercherDansLesMusees(criteres, parSource, seulement) {
         if (criteres.artiste && !criteres.ty.length && w.types.includes('Dessins et estampes') && oeuvres.filter(x => x.types.includes('Dessins et estampes')).length >= 3) return;
         vus.add(cle); oeuvres.push(w);
       });
-      return { oeuvres, sources: resultats.map(r => ({ nom: r.source, ok: r.ok, nombre: r.liste.length })) };
+      return { oeuvres, sources: resultats.map(r => ({ nom: r.source, ok: r.ok, nombre: r.liste.length, raison: r.raison })) };
     });
 }
 

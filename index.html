@@ -805,9 +805,9 @@ html.sans-animation *,html.sans-animation *::before,html.sans-animation *::after
   </div>
 </footer>
 <!-- Traductions (anglais, espagnol, arabe) et moteur de traduction -->
-<script src="i18n.js?v=20261016i"></script>
+<script src="i18n.js?v=20261016j"></script>
 <!-- Recherche en direct dans les catalogues ouverts des musées (domaine public) -->
-<script src="musees.js?v=20261016i"></script>
+<script src="musees.js?v=20261016j"></script>
 <script>
 const ART = [
   { img:"images/oeuvres/grande-vague-hokusai.jpg", credit:'Image : <a href="https://www.metmuseum.org/art/collection/search/45434" target="_blank" rel="noopener">The Metropolitan Museum of Art</a>, domaine public (Open Access)', name:"La Grande Vague de Kanagawa", meta:"Katsushika Hokusai · Japon · vers 1830-1832 · Metropolitan Museum of Art",
@@ -1016,7 +1016,7 @@ function genExpo(){
   const enDirect=typeof chercherDansLesMusees!=='function'?Promise.resolve(vide):chercherDansLesMusees(crit,8).then(r=>{
     if(r.oeuvres.length>=6||!crit.th.length)return r;
     return chercherDansLesMusees(Object.assign({},crit,{th:[]}),8).then(r2=>({oeuvres:r.oeuvres.concat(r2.oeuvres),
-      sources:r2.sources.map((s,i)=>({nom:s.nom,ok:s.ok||!!(r.sources[i]&&r.sources[i].ok),nombre:s.nombre+(r.sources[i]?r.sources[i].nombre:0)})),elargi:true}));
+      sources:r2.sources.map((s,i)=>({nom:s.nom,ok:s.ok||!!(r.sources[i]&&r.sources[i].ok),nombre:s.nombre+(r.sources[i]?r.sources[i].nombre:0),raison:s.raison})),elargi:true}));
   }).catch(()=>vide);
   Promise.all([chargerCollection().catch(()=>{collection=collection||[];}),enDirect]).then(([,direct])=>{
     if(numero!==genExpo.compteur)return;
@@ -1036,7 +1036,7 @@ function genExpo(){
     if(crit.artiste)notes.push('Recherche par artiste : seuls les artistes morts depuis plus de 70 ans ont des œuvres dans le domaine public, et le nom doit être écrit comme dans les catalogues (par exemple « Hokusai » ou « Rembrandt »).');
     if(crit.ep.includes('Art contemporain'))notes.push('L\'art contemporain est peu représenté : les œuvres récentes sont protégées par le droit d\'auteur, et ce site ne montre que des œuvres du domaine public.');
     const oeuvres=choisies.concat(trouvees);
-    const repondu=direct.sources.filter(s=>s.ok&&s.nombre).map(s=>s.nom),rien=direct.sources.filter(s=>s.ok&&!s.nombre).map(s=>s.nom),muets=direct.sources.filter(s=>!s.ok).map(s=>s.nom);
+    const repondu=direct.sources.filter(s=>s.ok&&s.nombre).map(s=>s.nom),rien=direct.sources.filter(s=>s.ok&&!s.nombre).map(s=>s.nom),muets=direct.sources.filter(s=>!s.ok).map(s=>[s.nom,s.raison]);
     const groupes=ORDRE_EPOQUES.map(ep=>({ep,liste:oeuvres.filter(w=>w.epoch===ep).sort((a,b)=>(a.year||0)-(b.year||0))})).filter(g=>g.liste.length);
     tl.innerHTML=notes.map(n=>`<p class="expo-note">${esc(n)}</p>`).join('')+(groupes.length?groupes.map((g,i)=>{
       const debut=g.liste[0].year,fin=g.liste[g.liste.length-1].year;
@@ -1046,7 +1046,7 @@ function genExpo(){
       </div></div>`;}).join(''):'<p class="sub">Aucune œuvre ne correspond pour le moment. Essayez d\'autres choix.</p>')+
       // Toutes les sources interrogées sont nommées : celles qui ont trouvé des œuvres, celles qui n'en ont aucune pour ces choix, celles en panne
       (direct.sources.length?`<p class="expo-sources">${[['Œuvres trouvées en direct dans les catalogues de :',repondu],['Aucune œuvre correspondant à vos choix dans :',rien],['Catalogues indisponibles pour le moment :',muets]]
-        .filter(l=>l[1].length).map(l=>`<span>${l[0]}</span> ${l[1].map(n=>`<span>${esc(n)}</span>`).join(' · ')}`).join('<br>')}</p>`:'');
+        .filter(l=>l[1].length).map(l=>`<span>${l[0]}</span> ${l[1].map(n=>Array.isArray(n)?`<span>${esc(n[0])}</span>${n[1]?` (<span>${esc(n[1])}</span>)`:''}`:`<span>${esc(n)}</span>`).join(' · ')}`).join('<br>')}</p>`:'');
     majCompte();
   });
 }
@@ -1475,8 +1475,8 @@ afficherValeurs(0);
 traduirePage();
 </script>
 <!-- Fenêtre Accessibilité de chaque œuvre et menu Affichage et lecture -->
-<script src="accessibilite.js?v=20261016i"></script>
+<script src="accessibilite.js?v=20261016j"></script>
 <!-- Séances de bien-être composées à la demande -->
-<script src="bienetre.js?v=20261016i"></script>
+<script src="bienetre.js?v=20261016j"></script>
 </body>
 </html>

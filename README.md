@@ -109,7 +109,7 @@ Limites : les fiches venues des catalogues restent dans la langue du musée (sou
 
 ## Quand une source ne répond plus : diagnostic
 
-La ligne « Catalogues indisponibles pour le moment » en bas d'une exposition générée nomme les sources en panne. Causes connues (vérifiées en octobre 2026) :
+La ligne « Catalogues indisponibles pour le moment » en bas d'une exposition générée nomme les sources en panne, avec la raison entre parenthèses : « délai de réponse dépassé » (le service a mis trop de temps à répondre, fréquent avec Wikidata quand il est surchargé : réessayer plus tard), « trop de demandes, réessayez dans quelques minutes » (quota de la connexion du visiteur dépassé), « service en panne », « demande refusée » ou « connexion impossible ou refusée ». Causes connues (vérifiées en octobre 2026) :
 
 - **The Met** : l'ancienne adresse de recherche `/public/collection/v1/search` a été retirée le 1er octobre 2026 (réponse 410) ; le site utilise `/v1.1/search`. Si le Met change encore d'adresse, sa réponse d'erreur indique la nouvelle (voir https://metmuseum.github.io/).
 - **Art Institute of Chicago** : le catalogue (`api.artic.edu`) répond, mais depuis 2026 le serveur d'images (`www.artic.edu/iiif`, protégé par Cloudflare) refuse les images aux autres sites (vérification anti-robots, réponse 403 ; problème signalé au musée, sans réponse pour l'instant : https://github.com/art-institute-of-chicago/api-data/issues/9). Le site essaie une image au début de chaque visite (fonction `imagesAIC` de `musees.js`) ; si elle ne se charge pas, il prend l'image de chaque œuvre de Chicago sur Wikimedia Commons, où beaucoup d'œuvres du domaine public du musée sont copiées (reliées dans Wikidata par leur numéro Chicago, propriété P4610), et écarte les autres. Si Chicago répond de nouveau normalement, ses propres images reviennent d'elles-mêmes.
@@ -138,7 +138,7 @@ Page « Mentions légales » à part, `mentions-legales/index.html` (lien en bas
 - **Page Musées** : le nom de chaque institution ouvre son site officiel (lu en direct dans Wikidata, propriété P856, et gardé 7 jours dans le navigateur) ; l'icône code-barres ouvre sa fiche Wikidata.
 - **Vibrations** : uniquement sur les téléphones Android (les iPhone et les ordinateurs ne le permettent pas depuis un site) ; ailleurs, seule la partition visuelle est proposée.
 - **Musique des couleurs** : tempo, tonalité, énergie et luminosité sont calculés à partir des couleurs réelles de l'image, selon une règle inventée pour le site, puis une courte musique est jouée dans le navigateur.
-- **Version des scripts** : dans `index.html`, les scripts sont appelés avec un numéro de version (`musees.js?v=20261016i`). Après une modification d'un fichier `.js`, changer ce numéro (la date du jour), sinon certains navigateurs gardent l'ancienne version en cache jusqu'à 10 minutes, alors que la page, elle, est nouvelle.
+- **Version des scripts** : dans `index.html`, les scripts sont appelés avec un numéro de version (`musees.js?v=20261016j`). Après une modification d'un fichier `.js`, changer ce numéro (la date du jour), sinon certains navigateurs gardent l'ancienne version en cache jusqu'à 10 minutes, alors que la page, elle, est nouvelle.
 - **Textes** : générés par Claude AI (Anthropic) ; à faire relire, en particulier les descriptions audio destinées aux visiteurs aveugles.
 
 ## Tester en local

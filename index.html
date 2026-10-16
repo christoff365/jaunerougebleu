@@ -555,7 +555,7 @@ html.sans-animation *,html.sans-animation *::before,html.sans-animation *::after
       <span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Peinture" onclick="tog(this,'ty')">Peinture</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Sculpture" onclick="tog(this,'ty')">Sculpture</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Architecture" onclick="tog(this,'ty')">Architecture</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Dessins et estampes" onclick="tog(this,'ty')">Dessins et estampes</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Arts décoratifs" onclick="tog(this,'ty')">Arts décoratifs</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Photographie" onclick="tog(this,'ty')">Photographie</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Manuscrits et livres enluminés" onclick="tog(this,'ty')">Manuscrits et livres enluminés</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Icônes" onclick="tog(this,'ty')">Icônes</span>
     </div>
     <div class="step-row"><div class="step-n">5</div><div class="step-l">Mouvements, écoles et styles</div></div>
-    <p class="mv-aide">Facultatif. Les musées décrivent rarement le mouvement d'une œuvre : la recherche est approximative. <button type="button" class="lien-btn" onclick="go('mv',document.querySelectorAll('.nav-links button')[5])">Voir les mouvements et ce qui manque</button></p>
+    <p class="mv-aide">Facultatif. Les œuvres sont choisies parmi celles des artistes du mouvement, datées de sa période. <button type="button" class="lien-btn" onclick="go('mv',document.querySelectorAll('.nav-links button')[5])">Voir les mouvements et ce qui manque</button></p>
     <div id="mv-tags"></div>
     <div class="step-row"><div class="step-n">6</div><div class="step-l"><label for="gen-artiste">Artiste</label></div></div>
     <div class="artiste-ligne">
@@ -768,7 +768,7 @@ html.sans-animation *,html.sans-animation *::before,html.sans-animation *::after
     <p class="sub">Le générateur peut composer une exposition autour d'un mouvement, d'une école ou d'un style. Voici ceux qu'il propose, région par région, avec quelques artistes et ce qui les caractérise. Cliquez sur « Créer une exposition » pour lancer la recherche.</p>
     <div class="mus-tous">
       <h3>Comment la recherche fonctionne</h3>
-      <p>Les musées décrivent rarement le mouvement d'une œuvre dans leurs catalogues. Le site cherche donc avec des mots-clés en anglais, la langue des catalogues (par exemple « ukiyo-e » ou « Mughal »), et dans Wikidata, qui relie certaines œuvres à leur mouvement. Les résultats sont approximatifs : une œuvre peut apparaître sous un mouvement voisin, et un mouvement peu décrit peut donner peu d'œuvres.</p>
+      <p>Les musées décrivent rarement le mouvement d'une œuvre dans leurs catalogues, mais Wikidata, la base de connaissances liée à Wikipédia, connaît bien les artistes de chaque mouvement. Le site part donc des artistes : il réunit ceux du mouvement (les plus connus d'abord), puis cherche leurs œuvres datées de la période du mouvement, dans Wikidata et, par nom d'artiste, dans les catalogues des musées (un artiste n'appartient pas à un mouvement toute sa vie). Pour les mouvements dont les œuvres sont surtout anonymes (art d'Ifé, art maya, icônes…), le site cherche avec des mots-clés en anglais, la langue des catalogues (par exemple « Ife » ou « Maya »), et les résultats sont plus approximatifs.</p>
     </div>
     <div id="mv-regions"></div>
     <div class="mus-tous mv-absences">
@@ -820,9 +820,9 @@ html.sans-animation *,html.sans-animation *::before,html.sans-animation *::after
   </div>
 </footer>
 <!-- Traductions (anglais, espagnol, arabe) et moteur de traduction -->
-<script src="i18n.js?v=20261016m"></script>
+<script src="i18n.js?v=20261016n"></script>
 <!-- Recherche en direct dans les catalogues ouverts des musées (domaine public) -->
-<script src="musees.js?v=20261016m"></script>
+<script src="musees.js?v=20261016n"></script>
 <script>
 const ART = [
   { img:"images/oeuvres/grande-vague-hokusai.jpg", credit:'Image : <a href="https://www.metmuseum.org/art/collection/search/45434" target="_blank" rel="noopener">The Metropolitan Museum of Art</a>, domaine public (Open Access)', name:"La Grande Vague de Kanagawa", meta:"Katsushika Hokusai · Japon · vers 1830-1832 · Metropolitan Museum of Art",
@@ -1086,7 +1086,7 @@ function genExpo(musee){
     const vues=new Set(choisies.map(cle));
     const trouvees=direct.oeuvres.filter(w=>!vues.has(cle(w))).slice(0,48);
     if(direct.elargi)notes.push('Peu d\'œuvres des catalogues réunissaient tous vos critères : la recherche en direct a été élargie en ignorant les thèmes.');
-    if(crit.mv.length)notes.push('Les musées décrivent rarement le mouvement d\'une œuvre : les œuvres ont été trouvées par mots-clés et dans Wikidata, et la sélection est approximative. L\'onglet « Mouvements » explique la méthode et ce qui manque.');
+    if(crit.mv.length)notes.push('Les œuvres ont été choisies parmi celles des artistes du mouvement (d\'après Wikidata et la liste du site), datées de sa période. Pour les mouvements aux œuvres surtout anonymes, elles ont été trouvées par mots-clés, et la sélection est plus approximative. L\'onglet « Mouvements » explique la méthode et ce qui manque.');
     if(crit.artiste)notes.push('Recherche par artiste : seuls les artistes morts depuis plus de 70 ans ont des œuvres dans le domaine public, et le nom doit être écrit comme dans les catalogues (par exemple « Hokusai » ou « Rembrandt »).');
     if(crit.ep.includes('Art contemporain'))notes.push('L\'art contemporain est peu représenté : les œuvres récentes sont protégées par le droit d\'auteur, et ce site ne montre que des œuvres du domaine public.');
     const oeuvres=choisies.concat(trouvees);
@@ -1550,8 +1550,8 @@ afficherValeurs(0);
 traduirePage();
 </script>
 <!-- Fenêtre Accessibilité de chaque œuvre et menu Affichage et lecture -->
-<script src="accessibilite.js?v=20261016m"></script>
+<script src="accessibilite.js?v=20261016n"></script>
 <!-- Séances de bien-être composées à la demande -->
-<script src="bienetre.js?v=20261016m"></script>
+<script src="bienetre.js?v=20261016n"></script>
 </body>
 </html>

@@ -546,7 +546,7 @@ function oeuvresWikidata(lignes, n, options) {
   return infosCommons(fichiers).then(infos => choisies.map((b, k) => {
     const info = infos[fichiers[k]];
     const regionOrigine = REGION_DU_PAYS[qid(b, 'origine')] || REGION_DU_PAYS[qid(b, 'nat')];
-    const region = options.regionImposee || regionOrigine || options.region(b);
+    const region = regionOrigine || options.region(b);
     const createur = val(b, 'createurLabel');
     const lieu = majuscule(val(b, options.lieu));
     return oeuvre({
@@ -607,10 +607,11 @@ function chercherWikidataArtisteMouvement(c, n) {
   }));
 }
 
-// Images de l'Art Institute of Chicago : leur serveur (www.artic.edu, protégé par Cloudflare) peut les refuser à certains
-// visiteurs (vérification anti-robots, réseaux d'entreprise ou d'hébergeurs) alors que son catalogue répond. On essaie une
-// seule image (La Grande Jatte de Seurat) une fois par visite ; si elle ne se charge pas, Chicago est déclaré indisponible
-// au lieu de proposer des œuvres dont aucune image ne s'afficherait.
+// Images de l'Art Institute of Chicago : depuis 2026, leur serveur (www.artic.edu, protégé par Cloudflare) les refuse
+// aux autres sites (vérification anti-robots, voir https://github.com/art-institute-of-chicago/api-data/issues/9), alors
+// que son catalogue (api.artic.edu) répond. On essaie une seule image (La Grande Jatte de Seurat) une fois par visite ;
+// si elle ne se charge pas, l'image de chaque œuvre est prise sur Wikimedia Commons, où beaucoup d'œuvres de Chicago du
+// domaine public sont copiées (reliées dans Wikidata par leur numéro Chicago, propriété P4610) ; les autres sont écartées.
 let imagesAicOk = null;
 function imagesAIC() {
   if (!imagesAicOk) imagesAicOk = new Promise(ok => {
@@ -619,6 +620,32 @@ function imagesAIC() {
     img.src = 'https://www.artic.edu/iiif/2/2d484387-2509-5e8e-2c43-22f9981972eb/full/200,/0/default.jpg';
   });
   return imagesAicOk;
+}
+// Œuvres de Chicago (objets de l'API) → œuvres du site, avec l'image de Chicago ou, si elle est bloquée, celle de Commons
+function oeuvresAIC(liste, n, largeur) {
+  liste = liste.filter(o => o && o.image_id);
+  const fiche = o => 'https://www.artic.edu/artworks/' + o.id;
+  const fabriquer = (o, image, credit) => oeuvre({
+    titre: o.title, artiste: (o.artist_display || '').split('\n')[0], date: o.date_display, annee: o.date_start,
+    lieu: o.place_of_origin, nationalite: o.artist_display, musee: ADAPTATEURS.aic.nom, image, credit,
+    fiche: fiche(o), classification: [o.artwork_type_title, o.classification_title].join(' ')
+  });
+  return imagesAIC().then(ok => {
+    if (ok) return liste.slice(0, n).map(o => fabriquer(o, 'https://www.artic.edu/iiif/2/' + o.image_id + '/full/' + largeur + ',/0/default.jpg'));
+    if (!liste.length) return [];
+    return sparql(`SELECT ?id ?img WHERE { VALUES ?id { ${liste.map(o => JSON.stringify(String(o.id))).join(' ')} } ?i wdt:P4610 ?id ; wdt:P18 ?img . }`, 10000)
+      .then(lignes => {
+        const fichiers = {};
+        lignes.forEach(b => { if (!fichiers[val(b, 'id')]) fichiers[val(b, 'id')] = fichierCommons(val(b, 'img')); });
+        const gardees = liste.filter(o => fichiers[o.id]).slice(0, n);
+        return infosCommons(gardees.map(o => fichiers[o.id])).then(infos => gardees.map(o => {
+          const f = fichiers[o.id], info = infos[f] || {};
+          const page = info.page || 'https://commons.wikimedia.org/wiki/File:' + encodeURIComponent(f.replace(/ /g, '_'));
+          return fabriquer(o, info.image || 'https://commons.wikimedia.org/wiki/Special:FilePath/' + encodeURIComponent(f) + '?width=500',
+            ADAPTATEURS.aic.nom + ' (' + fiche(o) + '), domaine public ; image via Wikimedia Commons (' + page + ')' + (info.licence ? ', ' + info.licence : ''));
+        }));
+      });
+  });
 }
 
 const ADAPTATEURS = {
@@ -671,15 +698,17 @@ const ADAPTATEURS = {
     nom: 'Musées de France (base Joconde)',
     chercher(c, n) {
       if (c.artiste || c.mouvement) return Promise.resolve([]); // couvert par la source Wikidata
+      // Hors d'Europe, la recherche (œuvres des musées de France venues d'Amérique, d'Asie…) prend 30 à 70 secondes à Wikidata
+      // pour presque rien trouver, et épuise le quota de calcul du visiteur (les autres recherches Wikidata échouaient ensuite) :
+      // ces œuvres viennent des autres sources (Wikidata, musées du monde entier)
+      if (c.region && c.region !== 'Europe') return Promise.resolve([]);
       // Œuvres des musées de France reliées dans Wikidata à leur notice Joconde (P347) et illustrées sur Wikimedia Commons.
       // Joconde ne publie pas d'images réutilisables en données ouvertes : l'image vient de Commons, la notice de POP.
       const types = [].concat(...c.ty.map(t => (CLASSES_TYPES[t] || '').split(' ').filter(Boolean)));
       const genres = [].concat(...c.th.map(t => (GENRES_THEMES[t] || '').split(' ').filter(Boolean)));
       if ((c.ty.length && !types.length) || (c.th.length && !genres.length)) return Promise.resolve([]);
       const d = bornesEpoques(c.ep);
-      // Hors d'Europe : seulement les œuvres dont le pays d'origine, ou à défaut la nationalité de l'artiste, est dans la région
-      const pays = c.region && c.region !== 'Europe' ? PAYS_REGIONS[c.region].split(' ') : [];
-      const filtre = d || types.length || genres.length || pays.length, k = n * 3;
+      const filtre = d || types.length || genres.length, k = n * 3;
       const requete = decalage => `SELECT ?i ?iLabel ?m ?mLabel ?date ?img ?jc ?typeEn ?createur ?createurLabel ?deces ?origine ?origineLabel ?nat WHERE {
         hint:Query hint:optimizer "None" .
         { SELECT ?i ?img ?date ?jc WHERE {
@@ -687,7 +716,6 @@ const ADAPTATEURS = {
             ${d ? `FILTER(YEAR(?date) >= ${d[0]} && YEAR(?date) <= ${d[1]})` : ''}
             ${types.length ? `?i wdt:P31 ?t . FILTER(?t IN (${types.map(q => 'wd:' + q).join(', ')}))` : ''}
             ${genres.length ? `?i wdt:P136 ?g . FILTER(?g IN (${genres.map(q => 'wd:' + q).join(', ')}))` : ''}
-            ${pays.length ? `{ ?i wdt:P495 ?o } UNION { ?i wdt:P170 ?a . ?a wdt:P27 ?o } FILTER(?o IN (${pays.map(q => 'wd:' + q).join(', ')}))` : ''}
           } LIMIT ${k} OFFSET ${decalage} }
         OPTIONAL { ?i wdt:P195 ?m }
         OPTIONAL { ?i wdt:P31 ?type . ?type rdfs:label ?typeEn FILTER(LANG(?typeEn) = "en") }
@@ -695,13 +723,13 @@ const ADAPTATEURS = {
         OPTIONAL { ?i wdt:P170 ?createur . OPTIONAL { ?createur wdt:P27 ?nat } OPTIONAL { ?createur wdt:P570 ?deces } }
         SERVICE wikibase:label { bd:serviceParam wikibase:language "fr,en,mul". }
       }`;
-      // Départ tiré au hasard pour varier les œuvres ; si la recherche filtrée a moins de résultats, on reprend au début
-      const decalage = hasard(filtre ? 200 : 20000);
+      // Départ tiré au hasard pour varier les œuvres ; si la recherche filtrée a moins de résultats, on reprend au début.
+      // Au-delà de quelques milliers, Wikidata doit parcourir toutes les notices avant de répondre (24 s pour rien à 20 000)
+      const decalage = hasard(filtre ? 200 : 2000);
       return sparql(requete(decalage), 12000).then(l => l.length || !decalage ? l : sparql(requete(0), 12000)).then(lignes => oeuvresWikidata(lignes, n, {
         lieu: 'mLabel', musee: nom => (nom && !/^Q\d+$/.test(nom) ? nom : 'Musée de France'),
         // Sans pays d'origine connu : œuvre supposée européenne (l'essentiel des collections des musées de France)
-        // Hors d'Europe, la recherche a déjà vérifié la région (pays d'origine ou nationalité de l'artiste)
-        regionImposee: pays.length ? c.region : null, region: () => 'Europe', pastille: 'Notice Joconde des musées de France, en direct',
+        region: () => 'Europe', pastille: 'Notice Joconde des musées de France, en direct',
         notice: b => 'notice Joconde (https://pop.culture.gouv.fr/notice/joconde/' + encodeURIComponent(val(b, 'jc')) + ')'
       }));
     }
@@ -754,16 +782,13 @@ const ADAPTATEURS = {
     chercher(c, n) {
       const filtres = [{ term: { is_public_domain: true } }, { exists: { field: 'image_id' } }];
       if (c.ep.length) { const d = c.ep.map(e => DATES_EPOQUES[e]); filtres.push({ range: { date_start: { gte: Math.min(...d.map(x => x[0])), lte: Math.max(...d.map(x => x[1])) } } }); }
-      const requete = { query: { bool: { must: filtres } }, fields: 'id,title,artist_display,date_display,date_start,place_of_origin,artwork_type_title,classification_title,image_id', limit: n, page: c.premiere ? 1 : 1 + hasard(5) };
-      const q = motsCles(c).join(' ');
-      if (q) requete.q = q;
-      return imagesAIC().then(ok => { if (!ok) throw new Error('Images de Chicago inaccessibles'); })
-        .then(() => lireJSON('https://api.artic.edu/api/v1/artworks/search?params=' + encodeURIComponent(JSON.stringify(requete))))
-        .then(r => (r.data || []).filter(o => o.image_id).map(o => oeuvre({
-          titre: o.title, artiste: (o.artist_display || '').split('\n')[0], date: o.date_display, annee: o.date_start,
-          lieu: o.place_of_origin, nationalite: o.artist_display, musee: this.nom, image: 'https://www.artic.edu/iiif/2/' + o.image_id + '/full/400,/0/default.jpg',
-          fiche: 'https://www.artic.edu/artworks/' + o.id, classification: [o.artwork_type_title, o.classification_title].join(' ')
-        })));
+      // Trois fois plus de fiches que nécessaire si les images de Chicago sont bloquées : seules celles copiées sur Commons servent
+      return imagesAIC().then(ok => {
+        const requete = { query: { bool: { must: filtres } }, fields: 'id,title,artist_display,date_display,date_start,place_of_origin,artwork_type_title,classification_title,image_id', limit: ok ? n : n * 3, page: c.premiere ? 1 : 1 + hasard(5) };
+        const q = motsCles(c).join(' ');
+        if (q) requete.q = q;
+        return lireJSON('https://api.artic.edu/api/v1/artworks/search?params=' + encodeURIComponent(JSON.stringify(requete)));
+      }).then(r => oeuvresAIC(r.data || [], n, 400));
     }
   },
   cleveland: {
@@ -1053,13 +1078,8 @@ function oeuvreParLien(lien) {
     }) : null);
   }
   if ((m = u.match(/artic\.edu\/artworks\/(\d+)/))) {
-    return imagesAIC().then(ok => ok ? lireJSON('https://api.artic.edu/api/v1/artworks/' + m[1] + '?fields=id,title,artist_display,date_display,date_start,place_of_origin,artwork_type_title,classification_title,image_id,is_public_domain')
-      .then(r => { const o = r && r.data; return o && o.is_public_domain && o.image_id ? oeuvre({
-        titre: o.title, artiste: (o.artist_display || '').split('\n')[0], date: o.date_display, annee: o.date_start,
-        lieu: o.place_of_origin, nationalite: o.artist_display, musee: ADAPTATEURS.aic.nom,
-        image: 'https://www.artic.edu/iiif/2/' + o.image_id + '/full/843,/0/default.jpg', fiche: 'https://www.artic.edu/artworks/' + o.id,
-        classification: [o.artwork_type_title, o.classification_title].join(' ')
-      }) : null; }) : null);
+    return lireJSON('https://api.artic.edu/api/v1/artworks/' + m[1] + '?fields=id,title,artist_display,date_display,date_start,place_of_origin,artwork_type_title,classification_title,image_id,is_public_domain')
+      .then(r => { const o = r && r.data; return o && o.is_public_domain ? oeuvresAIC([o], 1, 843) : []; }).then(l => l[0] || null);
   }
   if ((m = u.match(/clevelandart\.org\/art\/([^/?#]+)/))) {
     return lireJSON('https://openaccess-api.clevelandart.org/api/artworks/' + encodeURIComponent(m[1])).then(r => {

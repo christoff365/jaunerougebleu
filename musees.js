@@ -37,7 +37,7 @@ const MOTS_TYPES_RECONNUS = [
   // Manuscrits et icônes d'abord : sinon ils seraient rangés dans « Dessins et estampes » ou « Peinture ».
   // Manuscrits : seulement les livres copiés et enluminés à la main (évangiles, psautiers, livres d'heures, Corans…),
   // pas les lettres ni les documents écrits à la main (voir PAS_UN_MANUSCRIT)
-  ['Manuscrits et livres enluminés', /illuminat|enlumin|book of hours|livre d.heures|psalter|psautier|gospel|[ée]vang[ée]l|bible|antiphon|gradual|graduel|missal|missel|breviar|bréviaire|lectionar|qur.?an|koran|coran|shahnam|codex|(leaf|folio|page) from (a|an|the)\b|manuscript (leaf|page|cutting|illumination)|miniature from/i],
+  ['Manuscrits et livres enluminés', /illuminat|enlumin|book of hours|livre d.heures|psalter|psautier|gospel|[ée]vang[ée]li(?!st)|bible|antiphon|gradual|graduel|missal|missel|breviar|bréviaire|lectionar|qur.?an|koran|coran|shahnam|codex|(leaf|folio|page) from (a|an|the)\b|manuscript (leaf|page|cutting|illumination)|miniature from/i],
   ['Icônes', /\bicons?\b|icône|iconostas|ikon/i],
   ['Architecture', /architect|building|column|capital|portal|doorway|facade|façade|period room|room from|ceiling|mihrab|temple|relief from|fragment of a (wall|building)/i],
   ['Sculpture', /sculpt|statue|statuette|figure|figurine|bust|relief|carving|head of|torso|bronze|mask|stele/i],
@@ -395,10 +395,31 @@ function oeuvreDuMouvement(w, nom) {
   const m = mouvement(nom);
   return !!(m && m.local && new RegExp(m.local, 'i').test((w.artist || '') + ' ' + (w.title || '')));
 }
-// Recherche par artiste : l'œuvre est-elle de cet artiste ? (au moins un mot du nom, sans accents, dans le nom de l'artiste)
+// Clé qui repère une même œuvre venue de deux sources : titre et dernier mot du nom de l'artiste, sans accents
+// (« La Grande Vague de Kanagawa » de « Hokusai » et de « Katsushika Hokusai »)
+function cleOeuvre(w) {
+  const mots = sansAccents(w.artist).split(/[^\p{L}]+/u).filter(Boolean);
+  return sansAccents(w.title).replace(/[^\p{L}\d]+/gu, ' ').trim() + '|' + (mots[mots.length - 1] || '');
+}
+// Recherche par artiste : l'œuvre est-elle de cet artiste ? Tous les mots du nom tapé (sans accents) doivent être des mots
+// du nom de l'artiste. Renvoie 0 (non), 2 (oui) ou 1 (peut-être) : 1 quand un nom d'un seul mot n'est que le prénom d'un
+// autre artiste (« Rembrandt » dans « Rembrandt Peale » ou « Rembrandt Bugatti », mais pas dans « Rembrandt van Rijn ») ;
+// ces œuvres ne sont gardées que si aucune œuvre de la recherche ne correspond mieux (voir chercherDansLesMusees).
+// Les œuvres d'école, d'atelier, de suiveurs ou « d'après » l'artiste sont écartées (« Workshop of Rembrandt »), mais pas
+// celles d'un graveur d'après un autre artiste quand c'est le graveur qui est cherché (« Jan Sadeler I; after Maerten de Vos »).
+const PARTICULES_NOMS = /^(van|von|de|di|da|del|della|du|der|den|des|le|la|ter|ten|y|e)$/;
+const PAS_DE_SA_MAIN = /^(school|workshop|studio|circle|follower|followers|manner|imitator|copy|after|skole|efter|kreds|vaerksted|ecole|atelier|entourage|suiveur|apres)$/;
 function deLArtiste(w, nom) {
-  const a = sansAccents(w.artist), mots = sansAccents(nom).split(/[\s,.'’-]+/).filter(x => x.length >= 3);
-  return !!a && mots.some(x => a.includes(x));
+  const cherches = sansAccents(nom).split(/[^\p{L}]+/u).filter(x => x.length >= 3 && !PARTICULES_NOMS.test(x));
+  if (!cherches.length) return 0;
+  // Le nom de l'artiste peut réunir plusieurs personnes séparées par « ; » (graveur, éditeur…) : on garde celle qui correspond
+  const partie = sansAccents(w.artist).split(';').map(p => p.split(/[^\p{L}]+/u).filter(Boolean)).find(m => cherches.every(x => m.includes(x)));
+  if (!partie || partie.some(x => PAS_DE_SA_MAIN.test(x))) return 0;
+  if (cherches.length > 1) return 2;
+  // Nom d'un seul mot : dernier mot (sans « I », « II », « the Elder »…), ou suivi plus loin d'une particule
+  // (« Rembrandt Harmensz. van Rijn », « Leonardo da Vinci »)
+  const nom2 = partie.filter(x => !/^(i|ii|iii|iv|the|elder|younger|jr|sr|vieux|jeune)$/.test(x));
+  return nom2.some((x, i) => x === cherches[0] && (i === nom2.length - 1 || nom2.slice(i + 1).some(y => PARTICULES_NOMS.test(y)))) ? 2 : 1;
 }
 
 const REGIONS_HORS_EUROPE = ["Asie de l'Est", 'Asie du Sud et du Sud-Est', 'Moyen-Orient', 'Afrique', 'Amériques', 'Océanie'];
@@ -408,9 +429,43 @@ function bornesEpoques(ep) {
   const d = ep.map(e => DATES_EPOQUES[e]);
   return [Math.min(...d.map(x => x[0])), Math.max(...d.map(x => x[1]))];
 }
+// Règles de Wikimedia pour les programmes qui interrogent ses services (https://wikitech.wikimedia.org/wiki/Robot_policy) :
+// - se présenter : le navigateur ne peut pas changer son User-Agent, le site envoie donc l'en-tête Api-User-Agent ;
+// - Wikidata (recherches SPARQL) : 5 recherches simultanées au plus par visiteur ; le site en envoie 3 au plus ;
+// - Commons (API) : une demande à la fois ;
+// - après un refus « 429 Trop de demandes », attendre avant de redemander : pendant la pause (une minute, ou la durée
+//   indiquée par Wikimedia), les recherches concernées échouent aussitôt, et les autres catalogues continuent.
+const API_USER_AGENT = 'jaunerougebleu.org (generateur d expositions ; https://jaunerougebleu.org)';
+// File d'attente qui garde le résultat (ou l'erreur) de chaque tâche : au plus « max » tâches en même temps
+function limiteur(max) {
+  let actives = 0;
+  const attente = [];
+  const suivante = () => {
+    if (actives >= max || !attente.length) return;
+    actives++;
+    const [tache, ok, ko] = attente.shift();
+    Promise.resolve().then(tache).then(r => { actives--; ok(r); suivante(); }, e => { actives--; ko(e); suivante(); });
+  };
+  return tache => new Promise((ok, ko) => { attente.push([tache, ok, ko]); suivante(); });
+}
+const fileWikidata = limiteur(3), fileCommons = limiteur(1), pauseWikimedia = { wikidata: 0, commons: 0 };
+function demandeWikimedia(service, file, url, delai, options) {
+  return file(() => {
+    if (Date.now() < pauseWikimedia[service]) throw new Error(service + ' en pause après un refus 429');
+    const o = Object.assign({}, options);
+    o.headers = Object.assign({ 'Api-User-Agent': API_USER_AGENT }, o.headers);
+    const ctrl = new AbortController(), minuteur = setTimeout(() => ctrl.abort(), delai || 9000);
+    return fetch(url, Object.assign(o, { signal: ctrl.signal })).then(r => {
+      clearTimeout(minuteur);
+      if (r.status === 429) pauseWikimedia[service] = Date.now() + 1000 * Math.min(600, parseInt(r.headers.get('Retry-After'), 10) || 60);
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      return r.json();
+    });
+  });
+}
 function sparql(requete, delai) {
   // Envoi en POST : les requêtes longues dépasseraient la taille maximale d'une adresse
-  return lireJSON('https://query.wikidata.org/sparql?format=json', delai || 15000, {
+  return demandeWikimedia('wikidata', fileWikidata, 'https://query.wikidata.org/sparql?format=json', delai || 15000, {
     method: 'POST', body: new URLSearchParams({ query: requete })
   }).then(r => (r.results && r.results.bindings) || []);
 }
@@ -424,12 +479,15 @@ function texteBrut(html) {
 }
 // Nom du fichier Commons à partir de l'adresse donnée par Wikidata
 function fichierCommons(url) { return decodeURIComponent(String(url).split('Special:FilePath/')[1] || ''); }
-// Vignette, auteur et licence de chaque image, en une seule demande à Wikimedia Commons
+// Vignette, auteur et licence de chaque image, en une seule demande à Wikimedia Commons.
+// Wikimedia Commons ne sert plus, en lien direct, que des vignettes de tailles standard
+// (20, 40, 60, 120, 250, 330, 500, 960, 1280, 1920, 3840 px de large) : toute autre taille est refusée
+// (voir https://www.mediawiki.org/wiki/Common_thumbnail_sizes). Le site demande 500 px, et 1280 px pour la visionneuse.
 function infosCommons(fichiers) {
   if (!fichiers.length) return Promise.resolve({});
-  const url = 'https://commons.wikimedia.org/w/api.php?action=query&format=json&origin=*&prop=imageinfo&iiprop=extmetadata|url&iiurlwidth=400' +
+  const url = 'https://commons.wikimedia.org/w/api.php?action=query&format=json&origin=*&prop=imageinfo&iiprop=extmetadata|url&iiurlwidth=500' +
     '&iiextmetadatafilter=LicenseShortName|Artist&titles=' + encodeURIComponent(fichiers.slice(0, 50).map(f => 'File:' + f).join('|'));
-  return lireJSON(url).then(r => {
+  return demandeWikimedia('commons', fileCommons, url).then(r => {
     const q = r.query || {}, origine = {};
     (q.normalized || []).forEach(n => { origine[n.to] = n.from; });
     const infos = {};
@@ -497,7 +555,7 @@ function oeuvresWikidata(lignes, n, options) {
       artiste: /^(Q\d+|https?:)/.test(createur) ? '' : createur, annee: anneeWikidata(val(b, 'date')),
       date: (a => a === null ? '' : a < 0 ? (-a) + ' av. J.-C.' : String(a))(anneeWikidata(val(b, 'date'))),
       lieu: majuscule(val(b, 'origineLabel').replace(/^Q\d+$/, '')), musee: options.musee(lieu),
-      image: info ? info.image : 'https://commons.wikimedia.org/wiki/Special:FilePath/' + encodeURIComponent(fichiers[k]) + '?width=400',
+      image: info ? info.image : 'https://commons.wikimedia.org/wiki/Special:FilePath/' + encodeURIComponent(fichiers[k]) + '?width=500',
       credit: creditCommons(options.musee(lieu), fichiers[k], info) + (options.notice ? ' ; ' + options.notice(b) : ''),
       regions: region ? [region] : [],
       type: options.type || (classes[qid(b, 'i')] || []).map(typeDe).find(t => t !== 'Autre') || 'Autre',
@@ -532,6 +590,7 @@ function chercherWikidataArtisteMouvement(c, n) {
   const d = bornesEpoques(c.ep || []);
   const requete = `SELECT ?i ?iLabel ?m ?mLabel ?date ?img ?typeEn ?createur ?createurLabel ?deces ?origine ?origineLabel ?nat WHERE {
     { SELECT DISTINCT ?i ?createur ?img ?date WHERE {
+        hint:Query hint:optimizer "None" .
         ${filtre}
         ?i wdt:P18 ?img . OPTIONAL { ?i wdt:P571 ?date }
         ${d ? `FILTER(!BOUND(?date) || (YEAR(?date) >= ${d[0]} && YEAR(?date) <= ${d[1]}))` : ''}
@@ -546,6 +605,20 @@ function chercherWikidataArtisteMouvement(c, n) {
   return sparql(requete, 12000).then(lignes => oeuvresWikidata(lignes, n, {
     lieu: 'mLabel', musee: nom => (nom && !/^Q\d+$/.test(nom) ? nom : 'Wikidata'), region: () => (mv ? mv.region : null)
   }));
+}
+
+// Images de l'Art Institute of Chicago : leur serveur (www.artic.edu, protégé par Cloudflare) peut les refuser à certains
+// visiteurs (vérification anti-robots, réseaux d'entreprise ou d'hébergeurs) alors que son catalogue répond. On essaie une
+// seule image (La Grande Jatte de Seurat) une fois par visite ; si elle ne se charge pas, Chicago est déclaré indisponible
+// au lieu de proposer des œuvres dont aucune image ne s'afficherait.
+let imagesAicOk = null;
+function imagesAIC() {
+  if (!imagesAicOk) imagesAicOk = new Promise(ok => {
+    const img = new Image(), fin = r => { clearTimeout(t); ok(r); }, t = setTimeout(() => fin(false), 8000);
+    img.onload = () => fin(img.naturalWidth > 0); img.onerror = () => fin(false);
+    img.src = 'https://www.artic.edu/iiif/2/2d484387-2509-5e8e-2c43-22f9981972eb/full/200,/0/default.jpg';
+  });
+  return imagesAicOk;
 }
 
 const ADAPTATEURS = {
@@ -684,7 +757,8 @@ const ADAPTATEURS = {
       const requete = { query: { bool: { must: filtres } }, fields: 'id,title,artist_display,date_display,date_start,place_of_origin,artwork_type_title,classification_title,image_id', limit: n, page: c.premiere ? 1 : 1 + hasard(5) };
       const q = motsCles(c).join(' ');
       if (q) requete.q = q;
-      return lireJSON('https://api.artic.edu/api/v1/artworks/search?params=' + encodeURIComponent(JSON.stringify(requete)))
+      return imagesAIC().then(ok => { if (!ok) throw new Error('Images de Chicago inaccessibles'); })
+        .then(() => lireJSON('https://api.artic.edu/api/v1/artworks/search?params=' + encodeURIComponent(JSON.stringify(requete))))
         .then(r => (r.data || []).filter(o => o.image_id).map(o => oeuvre({
           titre: o.title, artiste: (o.artist_display || '').split('\n')[0], date: o.date_display, annee: o.date_start,
           lieu: o.place_of_origin, nationalite: o.artist_display, musee: this.nom, image: 'https://www.artic.edu/iiif/2/' + o.image_id + '/full/400,/0/default.jpg',
@@ -807,14 +881,19 @@ function chercherDansLesMusees(criteres, parSource, seulement) {
       // Les catalogues sont pris à tour de rôle, pour que chaque institution soit représentée
       const alternees = [];
       for (let k = 0; resultats.some(r => k < r.liste.length); k++) resultats.forEach(r => { if (k < r.liste.length) alternees.push(r.liste[k]); });
+      // Recherche par artiste : si des œuvres correspondent sûrement au nom tapé, celles d'homonymes probables sont écartées
+      const sur = criteres.artiste && alternees.some(w => deLArtiste(w, criteres.artiste) === 2);
+      // Mouvements choisis : une œuvre d'une autre région n'en fait pas partie (une affiche française citant l'ukiyo-e…)
+      const regionsMv = (criteres.mv || []).map(m => (mouvement(m) || {}).region).filter(Boolean);
       alternees.forEach(w => {
-        const cle = (w.title + '|' + w.artist).toLowerCase();
+        const cle = cleOeuvre(w);
         if (!w.title || vus.has(cle) || !w.epoch) return;
         // On applique les choix du visiteur aux fiches reçues (les catalogues ne savent pas tous filtrer)
         if (criteres.ep.length && !criteres.ep.includes(w.epoch)) return;
         if (criteres.rg.length && !w.regions.some(x => criteres.rg.includes(x))) return;
         if (criteres.ty.length && !w.types.some(x => criteres.ty.includes(x))) return;
-        if (criteres.artiste && !deLArtiste(w, criteres.artiste)) return;
+        if (criteres.artiste && deLArtiste(w, criteres.artiste) < (sur ? 2 : 1)) return;
+        if (regionsMv.length && w.regions.length && !w.regions.some(x => regionsMv.includes(x))) return;
         // Recherche par artiste : les catalogues renvoient surtout des gravures (Rembrandt, Dürer…) ; trois au plus,
         // pour laisser la place aux peintures, sauf si le visiteur a choisi « Dessins et estampes »
         if (criteres.artiste && !criteres.ty.length && w.types.includes('Dessins et estampes') && oeuvres.filter(x => x.types.includes('Dessins et estampes')).length >= 3) return;
@@ -891,6 +970,7 @@ const PAYS_OEUVRES = [
   ['Tunisie', 'Afrique', /\b(tunisi|carthag|kairouan)/],
   ['Libye', 'Afrique', /\b(libye|libya)/],
   ['Afghanistan', 'Asie', /\b(afghan|herat|gandhara|bactria)/],
+  ['Ouzbékistan', 'Asie', /\b(ouzbek|uzbek|boukhara|bukhara|samarcande|samarkand|khiva)/],
   ['Iran', 'Asie', /\b(iran|persia|persan|perse\b|isfahan|ispahan|tabriz|shiraz|safavid|qajar|sasanian|sassanide|achaemenid|achemenide|timurid|timouride)/],
   ['Irak', 'Asie', /\b(irak|iraq|mesopotami|assyri|babylon|sumer|baghdad|bagdad|mosul|nimrud)/],
   ['Syrie', 'Asie', /\b(syri|damas|palmyr|aleppo|alep\b|raqqa)/],
@@ -973,13 +1053,13 @@ function oeuvreParLien(lien) {
     }) : null);
   }
   if ((m = u.match(/artic\.edu\/artworks\/(\d+)/))) {
-    return lireJSON('https://api.artic.edu/api/v1/artworks/' + m[1] + '?fields=id,title,artist_display,date_display,date_start,place_of_origin,artwork_type_title,classification_title,image_id,is_public_domain')
+    return imagesAIC().then(ok => ok ? lireJSON('https://api.artic.edu/api/v1/artworks/' + m[1] + '?fields=id,title,artist_display,date_display,date_start,place_of_origin,artwork_type_title,classification_title,image_id,is_public_domain')
       .then(r => { const o = r && r.data; return o && o.is_public_domain && o.image_id ? oeuvre({
         titre: o.title, artiste: (o.artist_display || '').split('\n')[0], date: o.date_display, annee: o.date_start,
         lieu: o.place_of_origin, nationalite: o.artist_display, musee: ADAPTATEURS.aic.nom,
         image: 'https://www.artic.edu/iiif/2/' + o.image_id + '/full/843,/0/default.jpg', fiche: 'https://www.artic.edu/artworks/' + o.id,
         classification: [o.artwork_type_title, o.classification_title].join(' ')
-      }) : null; });
+      }) : null; }) : null);
   }
   if ((m = u.match(/clevelandart\.org\/art\/([^/?#]+)/))) {
     return lireJSON('https://openaccess-api.clevelandart.org/api/artworks/' + encodeURIComponent(m[1])).then(r => {
@@ -1009,7 +1089,8 @@ function oeuvreParLien(lien) {
 }
 
 // Complète une exposition spéciale avec des œuvres de pays qui n'y sont pas encore représentés.
-// options : mots (mots-clés), regions et epoques (facultatifs), dejaPays (noms de pays déjà présents), manque (nombre de pays à ajouter).
+// options : mots (mots-clés), regions et epoques (facultatifs), dejaPays (noms de pays déjà présents), manque (nombre de pays à ajouter),
+// exclure (facultatif : sites d'images qui ne se chargent pas chez le visiteur, dont les œuvres sont écartées).
 // surAjout(oeuvre) est appelé dès qu'une œuvre d'un pays nouveau est trouvée : l'exposition se remplit au fur et à mesure.
 // Chaque catalogue est interrogé séparément, région par région, et ses réponses sont prises dès qu'elles arrivent.
 // Les demandes partent par petits groupes (quatre recherches à la fois, une seule pour Wikidata, qui envoie trois requêtes par recherche et refuse plus de cinq requêtes
@@ -1037,12 +1118,14 @@ function completerExposition(options, surAjout) {
   const regions = options.regions && options.regions.length ? options.regions : Object.keys(MOTS_RECHERCHE_REGIONS);
   const epoques = options.epoques || [];
   const pris = new Set(options.dejaPays || []), vus = new Set(), choisies = [], reserve = [];
+  const exclure = options.exclure || [];
   const sources = {}; // nom du catalogue → { ok, nombre }
   const fini = () => choisies.length >= options.manque;
   function prendre(liste) {
     (liste || []).forEach(w => {
       if (!w || !w.image || !w.title) return;
-      const cle = (w.title + '|' + w.artist).toLowerCase();
+      if (exclure.some(h => w.image.includes('//' + h + '/'))) return; // site d'images en panne chez ce visiteur
+      const cle = cleOeuvre(w);
       if (vus.has(cle)) return;
       vus.add(cle);
       if (epoques.length && !epoques.includes(w.epoch)) return;

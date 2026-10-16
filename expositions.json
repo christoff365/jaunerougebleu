@@ -1,13 +1,14 @@
 [
   {
     "title": "La lumière comme langage universel",
-    "subtitle": "De l'Égypte romaine aux Caraïbes : douze visions de la lumière, d'Afrique, d'Asie, d'Europe et des Amériques",
+    "subtitle": "De l'Égypte romaine à l'Australie : vingt-deux visions de la lumière, de vingt pays et des cinq continents",
     "status": "published",
     "theme": "Lumière & ombre à travers les cultures",
-    "intro": "Sur dix-sept siècles (vers 200 – 1899) et quatre continents, de l'Égypte à la Chine, de l'Iran à l'Éthiopie, du Japon à l'Europe et jusqu'aux Caraïbes, la lumière est le véritable sujet de ces œuvres. Modelé d'un visage, brume qui efface les montagnes, éclat des céramiques d'une mosquée, feu d'une fête persane, auréoles des saints, soleil sur l'eau ou ciel d'orage tropical : naturelle ou divine, intime ou dramatique, peinte ou suggérée par le vide, elle prend dans chaque culture un sens différent.",
+    "intro": "Sur dix-sept siècles (vers 200 – 1900) et cinq continents, de l'Égypte à la Chine, de l'Iran à l'Inde, du Japon à Java, de l'Europe au Mexique, aux Caraïbes et à l'Australie, la lumière est le véritable sujet de ces œuvres. Modelé d'un visage, brume qui efface les montagnes, éclat des céramiques d'une mosquée, lampe de verre, feu d'une fête persane ou indienne, auréoles des saints, clair de lune sur la mer, lave d'un volcan, soleil sur l'eau ou dans une pièce vide : naturelle ou divine, intime ou dramatique, peinte ou suggérée par le vide, elle prend dans chaque culture un sens différent.",
     "minimum": 20,
     "search": {
-      "keywords": "light"
+      "keywords": "light",
+      "auto": false
     },
     "works": [
       {
@@ -33,6 +34,17 @@
         "compare": "Sept siècles et demi avant Hokusai, le peintre chinois suggère déjà la lumière par le vide. Comme Turner, il dissout les formes dans l'atmosphère, mais avec la retenue d'une seule encre, là où Turner déverse la couleur."
       },
       {
+        "title": "Lampe de mosquée",
+        "artist": "Verrier syrien, époque mamelouke",
+        "country": "Syrie",
+        "period": "première moitié du XIVe siècle",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/expositions/lampe-de-mosquee-syrie.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/444709), domaine public (Open Access)",
+        "analysis": "Cette lampe en verre soufflé, décorée d'émaux rouges, bleus et blancs, était suspendue par des chaînes accrochées aux six petites anses de son ventre. À l'intérieur, un petit godet de verre contenait l'huile et la mèche. Allumée, la lampe devenait elle-même lumineuse : la flamme traversait le verre, et les fleurs émaillées, les médaillons bleus et l'emblème en forme de coupe (sans doute celui d'un échanson du sultan, qui l'avait offerte) brillaient comme un vitrail. Des centaines de lampes de ce type éclairaient les mosquées du Caire et de Damas. Beaucoup portent le verset de la Lumière du Coran (sourate 24, verset 35), qui compare la lumière de Dieu à « une lampe dans un verre, et le verre est comme un astre brillant ».",
+        "compare": "Le mihrab d'Ispahan, présenté plus haut, renvoie la lumière par l'éclat de ses céramiques ; la lampe, elle, la laisse passer à travers le verre. Deux manières, dans le monde islamique, de faire de la lumière le signe du divin, comme les auréoles d'or du triptyque éthiopien."
+      },
+      {
         "title": "Mihrab (niche de prière)",
         "artist": "Atelier d'Ispahan",
         "country": "Ispahan, Iran",
@@ -55,14 +67,25 @@
         "compare": "Chez Le Caravage ou Rembrandt, la lumière vient d'une source et creuse des ombres. Ici, la source de lumière est au cœur du récit, mais elle n'éclaire rien : toute la page est lumineuse. Moins d'un siècle sépare ces deux idées opposées de la lumière."
       },
       {
+        "title": "Vue de Tolède",
+        "artist": "Le Greco (Domínikos Theotokópoulos)",
+        "country": "Espagne",
+        "period": "vers 1599–1600",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/expositions/vue-de-tolede-greco.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/436575), domaine public (Open Access)",
+        "analysis": "Tolède, la ville où vivait le Greco, sous un ciel d'orage. Aucun soleil n'est visible : la lumière tombe par les déchirures des nuages noirs et bleu d'acier, et éclaire par plaques les collines d'un vert presque irréel, la cathédrale et l'Alcázar, d'un blanc spectral. Ce n'est pas une vue exacte : le peintre a déplacé la cathédrale pour la placer à côté de l'Alcázar. C'est l'un des premiers paysages autonomes de la peinture espagnole, et la lumière y crée moins un lieu qu'une émotion : l'inquiétude, l'attente de l'orage.",
+        "compare": "Comme la brume de Guo Xi, la lumière ne sert pas ici à décrire mais à créer une atmosphère. Deux siècles et demi plus tard, Turner fera lui aussi du ciel tourmenté le vrai sujet du tableau."
+      },
+      {
         "title": "Judith décapitant Holopherne",
         "artist": "Le Caravage",
         "country": "Italie",
         "period": "vers 1599–1602 (datation discutée)",
         "museum": "Galleria Nazionale d'Arte Antica, palais Barberini, Rome",
         "image": "images/expositions/judith-decapitant-holopherne-caravage.jpg",
-        "sensible": true,
         "credit": "Gallerie Nazionali d'Arte Antica (Palazzo Barberini), Rome, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Judith_Beheading_Holofernes-Caravaggio_%28c.1598-9%29.jpg), domaine public",
+        "sensible": true,
         "analysis": "Le ténébrisme du Caravage utilise la lumière comme arme dramatique. Le fond très sombre, seulement animé d'un rideau rouge, isole les figures et amplifie la violence de la scène.",
         "compare": "Face à la sérénité de Vermeer, Le Caravage démontre que la lumière peut aussi être violence et tension."
       },
@@ -100,6 +123,28 @@
         "compare": "Peint à peu près à la même époque que La Jeune Fille à la perle, ce triptyque montre l'autre voie de la lumière : non pas celle qui tombe d'une fenêtre, mais celle qui rayonne de l'intérieur, comme dans les icônes de l'Orient chrétien dont la peinture éthiopienne est parente."
       },
       {
+        "title": "Feux d'artifice la nuit de Shab-i Barat (page de l'album Davis)",
+        "artist": "Peintre de l'Inde moghole",
+        "country": "Inde",
+        "period": "milieu du XVIIIe siècle",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/expositions/feux-d-artifice-shab-i-barat.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/448479), domaine public (Open Access)",
+        "analysis": "La nuit de Shab-i Barat, nuit du pardon au milieu du mois de chaabane, on illuminait en Inde les maisons et l'on tirait des feux d'artifice. Sur une terrasse, des femmes se passent des cierges magiques dont les étincelles, posées en minuscules touches d'or, sont les points les plus brillants de la page. Derrière elles, au-delà d'un fleuve, le ciel de nuit, bleu-gris, est envahi de fumées qu'éclairent les fusées et les feux de la ville. La lumière n'y vient pas du ciel, mais des hommes : c'est une fête de la lumière artificielle, peinte à la gouache et à l'or sur une page de petit format.",
+        "compare": "Deux siècles plus tôt, la page du Shahnameh présentée plus haut célébrait elle aussi une fête du feu, la fête persane de Sada : la peinture indienne de cour est l'héritière de la peinture persane. Ici, ce sont des femmes qui tiennent la lumière."
+      },
+      {
+        "title": "Deux hommes contemplant la lune",
+        "artist": "Caspar David Friedrich",
+        "country": "Allemagne",
+        "period": "vers 1825–1830",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/expositions/deux-hommes-contemplant-la-lune-friedrich.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/438417), domaine public (Open Access)",
+        "analysis": "Deux hommes, vus de dos, se sont arrêtés sur un sentier de montagne à la tombée de la nuit. Ils regardent un fin croissant de lune, près duquel brille une étoile, dans un ciel qui passe de l'orangé à l'horizon au violet puis au gris. Les silhouettes, le chêne déraciné et les rochers sont déjà dans l'ombre, presque sans détails : toute la lumière est au loin, là où regardent les personnages. Friedrich, grand peintre romantique de Dresde, nous place derrière eux : nous regardons la même lune qu'eux, en silence. La lumière devient une invitation à la contemplation.",
+        "compare": "Hokusai et Friedrich sont contemporains : dans Cent vues du mont Fuji, la lumière est suggérée par le papier laissé blanc ; ici, par un dégradé de couleurs du ciel. Le Norvégien Peder Balke, présenté plus loin, a étudié à Dresde dans l'entourage de Friedrich."
+      },
+      {
         "title": "Cent vues du Mont Fuji",
         "artist": "Katsushika Hokusai",
         "country": "Japon",
@@ -122,6 +167,27 @@
         "compare": "Chez Vermeer, Le Caravage et Rembrandt, la lumière éclaire des figures ; chez Turner, elle devient elle-même le sujet, en couleur pure. Peint quelques années seulement après les Cent vues du Mont Fuji, le tableau répond à Hokusai : l'un suggère la lumière par le vide du papier, l'autre l'inonde de matière et de couleur."
       },
       {
+        "title": "Le Cap Nord au clair de lune",
+        "artist": "Peder Balke",
+        "country": "Norvège",
+        "period": "1848",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/expositions/cap-nord-clair-de-lune-balke.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/441379), domaine public (Open Access)",
+        "analysis": "Le Cap Nord, à l'extrême nord de la Norvège, que Balke avait vu lors d'un voyage en 1832. La lune perce une ouverture dans les nuages et trace sur la mer sombre un chemin de lumière, sur lequel se découpe une barque à rames. Les falaises, au loin, sont à peine éclairées. Balke peint presque sans couleurs, en gris, en noirs et en blancs, avec une peinture fine et rapide : c'est le contraste entre l'obscurité et cette lumière froide qui fait toute la force du paysage, comme dans un souvenir.",
+        "compare": "Même sujet que Kuindzhi, présenté plus loin : la lune sur l'eau la nuit. Balke en fait un drame de nuages et de contrastes ; Kuindzhi, trente ans plus tard, le réduira à une seule lueur dans le noir."
+      },
+      {
+        "title": "Éruption du Merapi, la nuit",
+        "artist": "Raden Saleh",
+        "country": "Indonésie",
+        "period": "1865",
+        "image": "images/expositions/eruption-du-merapi-raden-saleh.jpg",
+        "credit": "Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Raden_Saleh_-_Merapi,_Eruption_by_Night_(1865).jpg), domaine public",
+        "analysis": "Le Merapi, l'un des volcans les plus actifs de Java, en éruption la nuit. Deux lumières s'opposent : à gauche, la pleine lune, petite, blanche et froide ; au centre, la lave rouge et orange qui dévale les pentes en filets, et les projections incandescentes qui éclairent par-dessous la colonne de fumée noire. Le paysage, au premier plan, est presque invisible. Raden Saleh, premier peintre javanais formé en Europe (il vécut vingt ans aux Pays-Bas et en Allemagne, à Dresde), réunit ici le sujet de son île et le goût romantique pour les forces de la nature.",
+        "compare": "Comme chez Friedrich, qu'il a pu connaître à Dresde, la lune est présente ; mais ici, la vraie lumière vient de la terre, et elle est violente. Comparez avec la fête de Shab-i Barat : du feu dans la nuit, mais maîtrisé par les hommes."
+      },
+      {
         "title": "Impression, soleil levant",
         "artist": "Claude Monet",
         "country": "France",
@@ -133,6 +199,39 @@
         "compare": "Monet prolonge Turner, dont il avait découvert les tableaux à Londres : chez l'un comme chez l'autre, un soleil sur l'eau et des formes qui se dissolvent dans l'atmosphère. Mais là où Turner est dramatique et chargé de sens, avec un navire qui part pour sa démolition, Monet saisit un moment ordinaire, sans histoire, rien que la lumière. Comme chez Hokusai, l'essentiel est suggéré plutôt que décrit."
       },
       {
+        "title": "La vallée de Mexico vue depuis la colline de Santa Isabel",
+        "artist": "José María Velasco",
+        "country": "Mexique",
+        "period": "1875",
+        "museum": "Museo Nacional de Arte, Mexico",
+        "image": "images/expositions/vallee-de-mexico-velasco.jpg",
+        "credit": "Museo Nacional de Arte, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Jos%C3%A9_Mar%C3%ADa_Velasco_-_The_Valley_of_Mexico_from_the_Santa_Isabel_Mountain_Range_-_Google_Art_Project.jpg), domaine public",
+        "analysis": "La vallée de Mexico, à plus de 2 000 mètres d'altitude, vue depuis une colline au nord. L'air y est si limpide que le regard porte à des dizaines de kilomètres : on distingue au fond les sommets enneigés des volcans Popocatépetl et Iztaccíhuatl, et le lac de Texcoco, qui brille comme un miroir. La lumière est claire et égale ; les nuages projettent leurs ombres sur la plaine, et une averse tombe au loin. Velasco, qui étudiait aussi la géologie et la botanique, peint chaque rocher et chaque plante du premier plan avec précision : la lumière sert ici à voir et à connaître.",
+        "compare": "Chez Guo Xi, la distance se lit dans la brume qui efface les montagnes ; chez Velasco, au contraire, l'air pur des hauts plateaux rend tout visible jusqu'à l'horizon. Deux façons opposées de peindre l'espace par la lumière."
+      },
+      {
+        "title": "Nuit de lune sur le Dniepr",
+        "artist": "Arkhip Kuindzhi",
+        "country": "Ukraine (alors dans l'Empire russe)",
+        "period": "1880",
+        "museum": "Musée russe, Saint-Pétersbourg",
+        "image": "images/expositions/nuit-de-lune-sur-le-dniepr-kuindzhi.jpg",
+        "credit": "Musée russe, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Kuindzhi_Moonlit_night_on_the_Dnieper_1880_grm_x2.jpg), domaine public",
+        "analysis": "Le Dniepr, le grand fleuve d'Ukraine, la nuit. Presque tout le tableau est noir ; seule la lune, à travers les nuages, et son reflet sur le fleuve, d'un vert froid et lumineux, se détachent. En 1880, à Saint-Pétersbourg, Kuindzhi exposa cette seule toile dans une salle obscure, éclairée par une lampe dirigée sur elle : la lumière du tableau semblait si réelle que des visiteurs regardèrent derrière la toile pour y chercher une lampe cachée. Kuindzhi, né à Marioupol, en Ukraine, obtenait cet effet par des contrastes très forts et des couleurs qu'il expérimentait lui-même.",
+        "compare": "La Ronde de nuit de Rembrandt, malgré son nom, est une scène de jour assombrie ; ici, c'est une vraie nuit, où la lumière n'éclaire presque rien mais devient elle-même le sujet. Comparez avec la lune de Balke, plus haut."
+      },
+      {
+        "title": "Fire's on (« Allumé ! »)",
+        "artist": "Arthur Streeton",
+        "country": "Australie",
+        "period": "1891",
+        "museum": "Art Gallery of New South Wales, Sydney",
+        "image": "images/expositions/fires-on-streeton.jpg",
+        "credit": "Art Gallery of New South Wales, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Arthur_Streeton_-_Fire%27s_on_-_Google_Art_Project.jpg), domaine public",
+        "analysis": "Dans les Montagnes Bleues, près de Sydney, des ouvriers creusent un tunnel pour le chemin de fer. « Fire's on ! » est le cri qui annonce une explosion. Mais le vrai sujet est la lumière de midi : un soleil si fort que les rochers éclatés deviennent presque blancs, que les ombres sont courtes et bleutées, et que le ciel est d'un bleu intense. Le format très vertical accentue la pente et l'éblouissement. Streeton, peintre de l'école de Heidelberg, cherchait à rendre la lumière crue et chaude de l'Australie, très différente de celle de l'Europe ; pendant qu'il peignait, un ouvrier fut tué par une explosion, et l'on voit, à la sortie du tunnel, deux hommes porter un corps sur un brancard.",
+        "compare": "Monet, avec Impression, soleil levant, peignait la lumière douce et brumeuse d'un matin au Havre ; vingt ans plus tard, Streeton applique la même peinture en plein air à une lumière australienne aveuglante."
+      },
+      {
         "title": "Le Gulf Stream",
         "artist": "Winslow Homer",
         "country": "États-Unis",
@@ -142,18 +241,30 @@
         "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/11122), domaine public (Open Access)",
         "analysis": "Un marin noir, seul sur un bateau sans mât, dérive au large des Bahamas, cerné par des requins, pendant qu'une trombe d'eau se forme à l'horizon et qu'un trois-mâts passe au loin sans le voir. La lumière est celle d'un orage tropical : un ciel blanchâtre et voilé, d'où ne tombe aucun rayon, et une mer turquoise et vert sombre dont l'écume accroche la lumière. Le corps du marin, éclairé de côté, est le point le plus net du tableau. Homer, qui avait séjourné plusieurs fois aux Bahamas, peint la lumière crue des Caraïbes.",
         "compare": "Comme chez Turner, un navire, le ciel et la mer ; mais là où le Téméraire s'éteint dans une lumière dorée, le marin de Homer affronte une lumière froide et sans pitié. Et comme dans La Ronde de nuit, la lumière désigne son héros : ici, un homme noir, rarement placé au centre d'un grand tableau à cette époque."
+      },
+      {
+        "title": "Danse de poussière dans les rayons du soleil",
+        "artist": "Vilhelm Hammershøi",
+        "country": "Danemark",
+        "period": "1900",
+        "museum": "Ordrupgaard, Charlottenlund (Copenhague)",
+        "image": "images/expositions/danse-de-poussiere-hammershoi.jpg",
+        "credit": "Ordrupgaard, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Hammersh%C3%B8i_Dust_motes_dancing.jpg), domaine public",
+        "analysis": "Une pièce vide de l'appartement du peintre, à Copenhague : une fenêtre, une porte fermée, des murs et un plancher gris. Rien d'autre que la lumière. Les rayons du soleil entrent en diagonale, rendus visibles par la poussière qui flotte dans l'air, et se posent en taches claires sur le plancher. Hammershøi peint avec une palette réduite à des gris, des blancs et des bruns très doux ; l'absence de meubles et de personnages oblige le regard à suivre le seul mouvement du tableau : celui de la lumière.",
+        "compare": "On a surnommé Hammershøi le « Vermeer danois » : comme dans La Jeune Fille à la perle, la lumière vient d'une fenêtre et révèle le calme d'un intérieur. Mais chez Hammershøi, il n'y a plus personne à éclairer : la lumière est devenue le seul personnage."
       }
     ]
   },
   {
     "title": "La couleur est relative",
-    "subtitle": "D'après L'Interaction des couleurs de Josef Albers : dix leçons du regard, de l'Égypte ancienne à l'abstraction",
+    "subtitle": "D'après L'Interaction des couleurs de Josef Albers : vingt et une leçons du regard, de l'Égypte ancienne au Bauhaus",
     "status": "published",
     "theme": "Couleur & perception",
-    "intro": "« Dans la perception visuelle, une couleur n'est presque jamais vue telle qu'elle est réellement, physiquement. » C'est ainsi que Josef Albers (1888–1976), peintre et professeur au Bauhaus puis aux États-Unis, ouvre son livre L'Interaction des couleurs (1963). Pour lui, une couleur change selon ses voisines, selon sa quantité, selon la lumière : c'est le moyen le plus relatif de l'art. Il l'enseignait non par la théorie mais par l'expérience, avec des papiers colorés. Ses tableaux n'étant pas encore dans le domaine public, cette exposition met ses leçons à l'épreuve d'œuvres des cinq continents : Égypte ancienne, Mexique ancien, Chine, Iran, Éthiopie, Japon, Tahiti, États-Unis et Suède. Pour chaque œuvre, un exercice du regard vous est proposé.",
+    "intro": "« Dans la perception visuelle, une couleur n'est presque jamais vue telle qu'elle est réellement, physiquement. » C'est ainsi que Josef Albers (1888–1976), peintre et professeur au Bauhaus puis aux États-Unis, ouvre son livre L'Interaction des couleurs (1963). Pour lui, une couleur change selon ses voisines, selon sa quantité, selon la lumière : c'est le moyen le plus relatif de l'art. Il l'enseignait non par la théorie mais par l'expérience, avec des papiers colorés. Ses tableaux n'étant pas encore dans le domaine public, cette exposition met ses leçons à l'épreuve d'œuvres de vingt pays et des cinq continents, de l'Égypte ancienne et du Pérou des Wari jusqu'au Bauhaus, où Albers fut étudiant puis professeur. Pour chaque œuvre, un exercice du regard vous est proposé.",
     "minimum": 20,
     "search": {
-      "keywords": "color"
+      "keywords": "color",
+      "auto": false
     },
     "works": [
       {
@@ -179,6 +290,17 @@
         "compare": "Josef et Anni Albers ont fait de nombreux voyages au Mexique et y ont collectionné l'art précolombien, dont les couleurs de pierre et de terre ont nourri leur œuvre. Face au turquoise éclatant de l'hippopotame égyptien, cette pierre montre l'autre visage de la couleur : discrète, changeante, liée à la matière."
       },
       {
+        "title": "Tunique",
+        "artist": "Tisserand wari",
+        "country": "Pérou",
+        "period": "650–1000",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/expositions/tunique-wari.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/675980), domaine public (Open Access)",
+        "analysis": "Leçon 3 — Une même forme, plusieurs couleurs. Cette tunique en coton et en laine de camélidé (alpaga ou lama) a été tissée dans les Andes par un artiste de l'empire Wari, plus de cinq siècles avant les Incas. Sur deux larges bandes, les mêmes motifs se répètent : marches, yeux, crochets, losanges. Mais d'une case à l'autre, leurs couleurs changent (rouge, rose, crème, brun, noir), et les motifs sont parfois étirés ou comprimés. Exercice : choisissez un motif, par exemple un œil, et cherchez-le ailleurs dans la tunique avec d'autres couleurs. Paraît-il plus grand, plus proche, plus lumineux ? Albers faisait faire le même exercice à ses élèves : une forme identique, répétée avec des couleurs différentes, ne semble jamais tout à fait la même.",
+        "compare": "Comme les petits morceaux de céramique du mihrab, les motifs de la tunique forment de loin un ensemble, presque une vibration. Mille ans avant les Hommages au carré d'Albers, un tisserand andin jouait déjà avec une seule forme et des couleurs qui changent."
+      },
+      {
         "title": "Vieux arbres, lointain plat",
         "artist": "Guo Xi",
         "country": "Chine",
@@ -186,7 +308,7 @@
         "museum": "The Metropolitan Museum of Art, New York",
         "image": "images/collection/vieux-arbres-guo-xi.jpg",
         "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/39668), domaine public (Open Access)",
-        "analysis": "Leçon 3 — Clair ou foncé ? Albers commence son enseignement par une question simple : de deux couleurs, laquelle est la plus claire ? C'est souvent plus difficile qu'il n'y paraît, car la couleur trompe l'œil. Guo Xi se passe presque de couleur : avec une seule encre, plus ou moins diluée sur la soie, il obtient toute une gamme de gris, du noir des branches au voile de la brume. Exercice : plissez les yeux devant n'importe quelle œuvre de cette exposition. Les couleurs s'atténuent et il ne reste que le clair et le foncé, ce qu'Albers appelle la clarté d'une couleur.",
+        "analysis": "Leçon 4 — Clair ou foncé ? Albers commence son enseignement par une question simple : de deux couleurs, laquelle est la plus claire ? C'est souvent plus difficile qu'il n'y paraît, car la couleur trompe l'œil. Guo Xi se passe presque de couleur : avec une seule encre, plus ou moins diluée sur la soie, il obtient toute une gamme de gris, du noir des branches au voile de la brume. Exercice : plissez les yeux devant n'importe quelle œuvre de cette exposition. Les couleurs s'atténuent et il ne reste que le clair et le foncé, ce qu'Albers appelle la clarté d'une couleur.",
         "compare": "Chez Guo Xi, une même encre produit des clartés différentes. Dans Femmes de Tahiti, au contraire, des couleurs très différentes, le rose et le jaune, ont presque la même clarté."
       },
       {
@@ -197,8 +319,30 @@
         "museum": "The Metropolitan Museum of Art, New York",
         "image": "images/collection/mihrab-ispahan.jpg",
         "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/449537), domaine public (Open Access)",
-        "analysis": "Leçon 4 — Les couleurs se mélangent dans l'œil. Le mihrab est une mosaïque de milliers de petits morceaux de céramique en quelques couleurs seulement : bleu foncé, turquoise, blanc, un peu d'ocre et de vert. Vus de loin, ces fragments se mêlent dans l'œil et forment des bleus intermédiaires qui n'existent sur aucun morceau. Albers étudie ce mélange optique, et l'« effet Bezold » : changer une seule couleur dans un motif suffit à transformer tout l'ensemble. Exercice : comparez le bleu foncé du large cadre, où le blanc ne dessine que l'écriture, et celui du panneau au-dessus de la niche, parcouru d'entrelacs blancs : là, le même bleu paraît plus clair.",
+        "analysis": "Leçon 5 — Les couleurs se mélangent dans l'œil. Le mihrab est une mosaïque de milliers de petits morceaux de céramique en quelques couleurs seulement : bleu foncé, turquoise, blanc, un peu d'ocre et de vert. Vus de loin, ces fragments se mêlent dans l'œil et forment des bleus intermédiaires qui n'existent sur aucun morceau. Albers étudie ce mélange optique, et l'« effet Bezold » : changer une seule couleur dans un motif suffit à transformer tout l'ensemble. Exercice : comparez le bleu foncé du large cadre, où le blanc ne dessine que l'écriture, et celui du panneau au-dessus de la niche, parcouru d'entrelacs blancs : là, le même bleu paraît plus clair.",
         "compare": "Plus de cinq siècles avant les petits points de couleur des peintres néo-impressionnistes, les céramistes d'Ispahan jouaient déjà avec le mélange des couleurs dans l'œil du spectateur."
+      },
+      {
+        "title": "La Crucifixion",
+        "artist": "Fra Angelico (Guido di Pietro)",
+        "country": "Italie",
+        "period": "vers 1420–1423",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/expositions/crucifixion-fra-angelico.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/437007), domaine public (Open Access)",
+        "analysis": "Leçon 6 — La couleur la plus pure est dans l'ombre. Regardez le manteau rose de saint Jean, debout à droite de la croix : dans les plis éclairés, le rose devient presque blanc ; dans les creux, il est d'un rouge profond. Fra Angelico suit la méthode des peintres florentins de son temps : on part de la couleur pure pour les ombres, et l'on y ajoute de plus en plus de blanc pour les lumières. L'ombre n'est donc pas plus noire, mais plus colorée. Exercice : comparez ce rose éclairci au bleu du manteau de la Vierge, évanouie au premier plan. Le blanc ajouté rend le rouge plus froid, presque mauve : Albers montrait qu'en éclaircissant une couleur, on change aussi sa teinte.",
+        "compare": "Sur ce fond d'or, aucune ombre portée : comme dans le triptyque éthiopien, la lumière est divine, et la couleur sert à distinguer les personnages plutôt qu'à imiter l'éclairage. Les impressionnistes, au XIXe siècle, feront l'inverse : des ombres bleues ou violettes, qui prennent la couleur du ciel plutôt que celle de l'objet."
+      },
+      {
+        "title": "Plat à décor lustré",
+        "artist": "Potiers de la région de Valence",
+        "country": "Espagne",
+        "period": "1425–1450",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/expositions/plat-lustre-valence.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/471771), domaine public (Open Access)",
+        "analysis": "Leçon 7 — Une couleur qui change avec la lumière. Sur ce grand plat en faïence, probablement fabriqué à Manises, près de Valence, un animal fantastique et des lettres gothiques sont peints en bleu de cobalt sur un fond crème, couvert de petits motifs bruns et dorés. Ces motifs sont en lustre : une fine couche de cuivre et d'argent, fixée par une seconde cuisson, qui reflète la lumière comme un métal. Selon l'angle du regard et l'éclairage, le lustre paraît brun, doré, cuivré ou presque rose : sa couleur n'existe pas sans la lumière qui s'y reflète. Les potiers musulmans d'al-Andalus avaient apporté ce secret en Espagne. Exercice : sur la photographie, le lustre paraît brun ; imaginez le plat posé sur une table près d'une bougie, et sa surface qui s'allume d'or quand on le tourne.",
+        "compare": "Le mihrab d'Ispahan et les carreaux d'Iznik ont des couleurs stables, dans l'émail ; le lustre, lui, est une couleur instable, qui dépend de la lumière. Albers rappelait qu'une même couleur change selon l'éclairage : ici, ce changement est voulu par l'artiste."
       },
       {
         "title": "La Fête de Sada, page du Shahnameh (Livre des rois) de Shah Tahmasp",
@@ -208,8 +352,30 @@
         "museum": "The Metropolitan Museum of Art, New York",
         "image": "images/collection/fete-de-sada-shahnameh.jpg",
         "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/452111), domaine public (Open Access)",
-        "analysis": "Leçon 5 — La quantité compte. Pour Albers, une couleur n'agit pas seulement par sa teinte, mais aussi par sa surface : une petite tache intense peut tenir tête à un grand champ. Sur cette page, un pré vert pâle occupe tout le centre. Au milieu, le petit brasier orange de la fête de Sada, à peine plus grand qu'un personnage, attire pourtant aussitôt le regard. Autour, les rochers roses et violets, les bleus des vêtements et l'or des marges s'équilibrent par petites touches. Exercice : cachez le feu avec le doigt ; la page entière perd son centre.",
+        "analysis": "Leçon 8 — La quantité compte. Pour Albers, une couleur n'agit pas seulement par sa teinte, mais aussi par sa surface : une petite tache intense peut tenir tête à un grand champ. Sur cette page, un pré vert pâle occupe tout le centre. Au milieu, le petit brasier orange de la fête de Sada, à peine plus grand qu'un personnage, attire pourtant aussitôt le regard. Autour, les rochers roses et violets, les bleus des vêtements et l'or des marges s'équilibrent par petites touches. Exercice : cachez le feu avec le doigt ; la page entière perd son centre.",
         "compare": "Albers conseillait de faire varier la proportion des couleurs plutôt que leur nombre. Le peintre persan, avec des dizaines de couleurs, et Ogata Kōrin, avec à peine trois, appliquent la même leçon : c'est la quantité qui règle l'équilibre."
+      },
+      {
+        "title": "Panneau de carreaux",
+        "artist": "Céramistes d'Iznik",
+        "country": "Turquie",
+        "period": "seconde moitié du XVIe siècle",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/expositions/panneau-de-carreaux-iznik.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/447013), domaine public (Open Access)",
+        "analysis": "Leçon 9 — Une couleur qui avance. Ces carreaux de céramique ont été peints à Iznik, en Turquie, pour décorer les mosquées et les palais ottomans. Le fond est couvert de fleurs et de feuilles bleu foncé et turquoise sur blanc ; la bordure, découpée en festons, est rouge. Ce rouge, que les potiers d'Iznik obtenaient avec une argile ferrugineuse posée en léger relief, semble flotter au-dessus du reste. Exercice : regardez le panneau de loin. La bordure rouge paraît plus proche de vous que le centre bleu, alors que tout est sur la même surface plate. Albers l'expliquait : les couleurs chaudes semblent avancer, les couleurs froides reculer.",
+        "compare": "Dans le mihrab d'Ispahan, deux siècles plus tôt, le bleu domine aussi ; à Iznik, quelques touches de rouge suffisent à animer tout le panneau. Comparez avec la leçon de la quantité : un peu de rouge pèse autant que beaucoup de bleu."
+      },
+      {
+        "title": "Bhairavi Ragini, page d'une série de Ragamala (« Guirlande de modes musicaux »)",
+        "artist": "Peintre de Mandi",
+        "country": "Inde",
+        "period": "vers 1640–1650",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/expositions/bhairavi-ragini-mandi.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/37857), domaine public (Open Access)",
+        "analysis": "Leçon 10 — Une couleur pour une émotion. Les Ragamala sont des séries de peintures indiennes qui illustrent chacune un mode de la musique classique (un raga), avec son heure et son sentiment. Bhairavi, raga de l'aube et de la dévotion, est représentée par une femme qui fait une offrande devant un petit temple dédié à Shiva, au bord d'un bassin de lotus. Le peintre de Mandi, dans l'Himalaya, n'emploie que de grands aplats : un fond vert, un ciel bleu pâle, un temple blanc, une large bordure rouge. Exercice : cachez la bordure rouge avec vos mains. Le vert paraît-il plus terne ? Le rouge qui l'entoure, sa couleur complémentaire, le rend plus intense, et le blanc du temple semble avancer et briller comme à la lumière du matin.",
+        "compare": "Comme Kōrin, le peintre de Mandi obtient beaucoup d'effet avec très peu de couleurs posées en aplats. Albers comparait souvent la couleur à la musique : ici, chaque page associe vraiment une couleur dominante à un mode musical."
       },
       {
         "title": "Triptyque : Ewostatewos et huit de ses disciples",
@@ -219,7 +385,7 @@
         "museum": "The Metropolitan Museum of Art, New York",
         "image": "images/collection/icone-ethiopienne.jpg",
         "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/319625), domaine public (Open Access)",
-        "analysis": "Leçon 6 — Chaud et froid. Les visages clairs et les vêtements rouges et jaunes, couleurs chaudes, se détachent sur des fonds vert sombre, couleur froide. Les couleurs chaudes semblent avancer vers nous, les froides reculer : le peintre éthiopien crée ainsi du relief sans ombre ni perspective. Albers montre que le chaud et le froid sont eux-mêmes relatifs : un même rouge paraît plus chaud à côté d'un vert qu'à côté d'un orange. Exercice : en bas du panneau central, deux disciples se tiennent côte à côte, l'un vêtu de bleu pâle, l'autre de jaune. Lequel semble le plus proche de vous ?",
+        "analysis": "Leçon 11 — Chaud et froid. Les visages clairs et les vêtements rouges et jaunes, couleurs chaudes, se détachent sur des fonds vert sombre, couleur froide. Les couleurs chaudes semblent avancer vers nous, les froides reculer : le peintre éthiopien crée ainsi du relief sans ombre ni perspective. Albers montre que le chaud et le froid sont eux-mêmes relatifs : un même rouge paraît plus chaud à côté d'un vert qu'à côté d'un orange. Exercice : en bas du panneau central, deux disciples se tiennent côte à côte, l'un vêtu de bleu pâle, l'autre de jaune. Lequel semble le plus proche de vous ?",
         "compare": "Deux siècles plus tard, Gauguin pose lui aussi des aplats de couleurs chaudes, le jaune du sable et le rouge du paréo, devant le bleu et le vert froids de la mer."
       },
       {
@@ -230,8 +396,52 @@
         "museum": "The Metropolitan Museum of Art, New York",
         "image": "images/collection/iris-yatsuhashi-korin.jpg",
         "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/39664), domaine public (Open Access)",
-        "analysis": "Leçon 7 — Peu de couleurs, beaucoup d'effets. Sur ce paravent à six panneaux, Ogata Kōrin n'emploie presque que trois couleurs : le bleu-violet des iris, le vert des feuilles et l'or du fond, avec le gris du pont en zigzag. Les fleurs sont peintes en deux bleus, l'un sombre, l'autre plus clair : un intervalle de couleur, qu'Albers apprenait à reconnaître et à transposer comme un intervalle en musique. Le fond d'or, lui, change avec la lumière de la pièce et la place du spectateur. Exercice : regardez les iris placés devant le pont gris, puis ceux qui se détachent sur l'or. Leur bleu vous semble-t-il le même ?",
+        "analysis": "Leçon 12 — Peu de couleurs, beaucoup d'effets. Sur ce paravent à six panneaux, Ogata Kōrin n'emploie presque que trois couleurs : le bleu-violet des iris, le vert des feuilles et l'or du fond, avec le gris du pont en zigzag. Les fleurs sont peintes en deux bleus, l'un sombre, l'autre plus clair : un intervalle de couleur, qu'Albers apprenait à reconnaître et à transposer comme un intervalle en musique. Le fond d'or, lui, change avec la lumière de la pièce et la place du spectateur. Exercice : regardez les iris placés devant le pont gris, puis ceux qui se détachent sur l'or. Leur bleu vous semble-t-il le même ?",
         "compare": "Comme Hilma af Klint deux siècles plus tard, Kōrin pose la couleur en aplats, sans ombre ni modelé, pour qu'elle agisse par elle-même. L'Europe découvrira cette leçon japonaise à la fin du XIXe siècle."
+      },
+      {
+        "title": "Lumière et couleur (la théorie de Goethe) – Le matin après le Déluge – Moïse écrivant le livre de la Genèse",
+        "artist": "Joseph Mallord William Turner",
+        "country": "Royaume-Uni",
+        "period": "exposé en 1843",
+        "museum": "Tate Britain, Londres",
+        "image": "images/expositions/lumiere-et-couleur-turner.jpg",
+        "credit": "Tate, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Joseph_Mallord_William_Turner_-_The_Morning_after_the_Deluge_-_WGA23180.jpg), domaine public",
+        "analysis": "Leçon 13 — Des couleurs « positives ». Dans son Traité des couleurs (1810), le poète allemand Goethe distinguait les couleurs du côté « plus » (jaune, orangé, rouge), chaudes, lumineuses et joyeuses, et celles du côté « moins » (bleu, violet), froides et inquiètes. Turner, qui avait lu la traduction anglaise, peint ici le matin qui suit le Déluge, surtout avec des jaunes, des orangés et des rouges, disposés en tourbillon autour d'un centre éclatant, et quelques bruns sombres vers les bords. Au centre se dresse le serpent d'airain de Moïse ; à droite, des bulles où apparaissent des visages. Au sommet, Moïse écrit le récit de la Création. Exercice : cherchez le peu de bleu du tableau, sur les bords. Comme il paraît froid et lointain à côté du jaune ! Turner avait peint en pendant une Ombre et ténèbres, le soir du Déluge, dominée par les bleus et les noirs.",
+        "compare": "Goethe, puis le chimiste Chevreul en France, puis Albers au XXe siècle : trois étapes d'une même idée, la couleur est une affaire de perception autant que de physique. Comparez avec l'Hippopotame égyptien, où le bleu turquoise était au contraire la couleur de la vie."
+      },
+      {
+        "title": "Robe (chapan) en ikat",
+        "artist": "Teinturiers et tisserands d'Asie centrale",
+        "country": "Ouzbékistan",
+        "period": "XIXe siècle",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/expositions/robe-ikat-ouzbekistan.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/85503), domaine public (Open Access)",
+        "analysis": "Leçon 14 — Des couleurs aux bords flous. Dans l'ikat, technique de Boukhara et de Samarcande, on teint les fils avant de les tisser : on les attache par endroits pour qu'ils ne prennent pas la teinture, puis on recommence pour chaque couleur. Au tissage, les fils se décalent légèrement, et les limites entre les couleurs deviennent floues, comme des flammes. Sur cette robe, de grandes bandes en zigzag, magenta, jaune, vert, violet et blanc, se suivent. Exercice : regardez une frontière entre le jaune et le magenta. Dans la zone floue, voyez-vous une couleur intermédiaire, orangée, qui n'a pourtant été teinte nulle part ? Albers appelait ce phénomène le mélange intermédiaire : l'œil invente une couleur entre deux autres.",
+        "compare": "Chez Gauguin, les frontières entre les couleurs vibrent parce qu'elles sont nettes et de même clarté ; dans l'ikat, elles vibrent parce qu'elles sont floues. Les couturiers européens se sont passionnés pour ces étoffes au XIXe siècle."
+      },
+      {
+        "title": "Parade de cirque",
+        "artist": "Georges Seurat",
+        "country": "France",
+        "period": "1887–1888",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/expositions/parade-de-cirque-seurat.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/437654), domaine public (Open Access)",
+        "analysis": "Leçon 15 — Des points qui se mêlent dans l'œil. Le soir, devant un cirque de Paris, un tromboniste et des musiciens jouent pour attirer le public, éclairés par une rangée de becs de gaz. Seurat ne mélange presque pas ses couleurs sur la palette : il les pose côte à côte, en petits points d'orangé, de bleu, de violet et de vert. De près, chaque point est distinct ; de loin, ils se fondent en une couleur nouvelle, un gris violacé de nuit. Seurat s'appuyait sur les lois du chimiste Michel-Eugène Chevreul (1839) : deux couleurs voisines s'influencent mutuellement. Exercice : approchez-vous de l'écran jusqu'à voir les points, puis reculez lentement. À quel moment les couleurs se mélangent-elles ?",
+        "compare": "Le mihrab d'Ispahan mélangeait déjà les couleurs dans l'œil, avec des morceaux de céramique au lieu de points de peinture. Seurat en fait une méthode scientifique, qu'Albers reprendra dans ses exercices sur le mélange optique."
+      },
+      {
+        "title": "Champ de blé avec cyprès",
+        "artist": "Vincent van Gogh",
+        "country": "Pays-Bas",
+        "period": "1889",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/expositions/champ-de-ble-avec-cypres-van-gogh.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/436535), domaine public (Open Access)",
+        "analysis": "Leçon 16 — Le jaune et le bleu se renforcent. Van Gogh, peintre néerlandais, peint ce champ de blé près de Saint-Rémy-de-Provence, où il était soigné en 1889. Le blé jaune doré occupe le bas ; le ciel, bleu pâle et turquoise, est rempli de nuages blancs en volutes ; entre les deux, les cyprès vert sombre montent comme des flammes. Le jaune et le bleu sont presque opposés sur le cercle des couleurs : côte à côte, chacun rend l'autre plus intense. La peinture, posée en épaisseur, accroche aussi la lumière réelle : un même blanc paraît plus ou moins brillant selon le relief de la touche. Exercice : cachez le ciel avec une main. Le blé paraît-il moins jaune ?",
+        "compare": "Van Gogh admirait les estampes japonaises comme celles de Hokusai et les couleurs de Delacroix ; il connaissait aussi, comme Seurat, les idées de Chevreul sur les couleurs complémentaires, à travers les livres de Charles Blanc. Comparez avec Le Gulf Stream de Homer, où les complémentaires sont le rouge et le vert."
       },
       {
         "title": "Femmes de Tahiti",
@@ -241,7 +451,7 @@
         "museum": "Musée d'Orsay, Paris",
         "image": "images/oeuvres/femmes-de-tahiti-gauguin.jpg",
         "credit": "Musée d'Orsay, Paris, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Paul_Gauguin_056.jpg), domaine public",
-        "analysis": "Leçon 8 — Des frontières qui s'effacent ou qui vibrent. Albers observe que deux couleurs de même clarté se fondent l'une dans l'autre : leur frontière s'efface, même si leurs teintes sont très différentes. Au contraire, deux couleurs vives et opposées font vibrer leur bord. Gauguin joue des deux : la robe rose de la femme de droite et le sable jaune ont une clarté proche et se touchent sans heurt, tandis que le paréo rouge à motifs blancs éclate sur le sable. Exercice : plissez les yeux devant la robe rose. Où s'arrête-t-elle ?",
+        "analysis": "Leçon 17 — Des frontières qui s'effacent ou qui vibrent. Albers observe que deux couleurs de même clarté se fondent l'une dans l'autre : leur frontière s'efface, même si leurs teintes sont très différentes. Au contraire, deux couleurs vives et opposées font vibrer leur bord. Gauguin joue des deux : la robe rose de la femme de droite et le sable jaune ont une clarté proche et se touchent sans heurt, tandis que le paréo rouge à motifs blancs éclate sur le sable. Exercice : plissez les yeux devant la robe rose. Où s'arrête-t-elle ?",
         "compare": "Chez Guo Xi, tout est affaire de clarté, presque sans couleur ; chez Gauguin, la couleur est si forte qu'on en oublie la clarté. Albers apprenait à ses élèves à voir les deux à la fois."
       },
       {
@@ -252,8 +462,19 @@
         "museum": "The Metropolitan Museum of Art, New York",
         "image": "images/collection/gulf-stream-homer.jpg",
         "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/11122), domaine public (Open Access)",
-        "analysis": "Leçon 9 — Les complémentaires s'exaltent. Deux couleurs opposées sur le cercle des couleurs, comme le rouge orangé et le bleu-vert, se renforcent l'une l'autre quand elles se côtoient. Homer peint une mer bleu-vert, profonde et froide, et y sème de petites touches rouge orangé : dans l'eau, sur la coque, sur le pont. En faible quantité, ce rouge fait paraître la mer plus verte encore, et la mer le rend plus vif. Exercice : cherchez toutes les petites taches rouges du tableau, puis regardez de nouveau la mer. Sa couleur vous semble-t-elle plus intense ?",
+        "analysis": "Leçon 18 — Les complémentaires s'exaltent. Deux couleurs opposées sur le cercle des couleurs, comme le rouge orangé et le bleu-vert, se renforcent l'une l'autre quand elles se côtoient. Homer peint une mer bleu-vert, profonde et froide, et y sème de petites touches rouge orangé : dans l'eau, sur la coque, sur le pont. En faible quantité, ce rouge fait paraître la mer plus verte encore, et la mer le rend plus vif. Exercice : cherchez toutes les petites taches rouges du tableau, puis regardez de nouveau la mer. Sa couleur vous semble-t-elle plus intense ?",
         "compare": "Comme le feu de la fête de Sada, quelques touches de couleur chaude suffisent à animer un grand champ froid : la leçon de la quantité, appliquée aux couleurs complémentaires."
+      },
+      {
+        "title": "Étude de couleurs. Carrés avec cercles concentriques",
+        "artist": "Vassily Kandinsky",
+        "country": "Russie",
+        "period": "1913",
+        "museum": "Städtische Galerie im Lenbachhaus, Munich",
+        "image": "images/expositions/etude-de-couleurs-kandinsky.jpg",
+        "credit": "Städtische Galerie im Lenbachhaus, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Wassily_Kandinsky_Color_Study._Squares_with_Concentric_Circles.jpg), domaine public",
+        "analysis": "Leçon 19 — Une même forme, douze accords. Kandinsky, peintre russe installé à Munich, a peint à l'aquarelle douze carrés, disposés sur trois rangs et chacun rempli de cercles concentriques de couleurs différentes. C'est une étude, presque une expérience de laboratoire : la forme ne change pas, seules les couleurs et leur ordre changent. Exercice : cherchez le jaune dans plusieurs carrés. À côté du violet ou du bleu, il semble rayonner et avancer ; à côté de l'orangé ou du rouge, il paraît plus terne et se fond avec eux. Kandinsky pensait que chaque couleur a un son, comme un instrument : le jaune une trompette, le bleu profond un orgue.",
+        "compare": "Trente-sept ans avant les Hommages au carré d'Albers, ce sont déjà des formes simples emboîtées, qui servent seulement à faire jouer les couleurs. Kandinsky enseigna ensuite au Bauhaus, comme Paul Klee, à l'époque où Josef Albers y était étudiant, puis professeur à leurs côtés."
       },
       {
         "title": "Le Cygne, n° 17 (série SUW, groupe IX)",
@@ -263,8 +484,19 @@
         "museum": "Fondation Hilma af Klint, Stockholm",
         "image": "images/collection/cygne-hilma-af-klint.jpg",
         "credit": "Fondation Hilma af Klint, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Hilma_af_Klint,_1915,_Svanen,_No._17.jpg), domaine public",
-        "analysis": "Leçon 10 — Une couleur peut en paraître deux. C'est l'expérience la plus célèbre d'Albers : une même couleur, posée sur deux fonds différents, semble devenir deux couleurs. Ici, un seul rouge couvre tout le fond de la toile. Regardez-le près de l'anneau blanc, à gauche, puis près de l'anneau bleu, à droite : à côté du blanc, il paraît plus sombre et plus profond ; à côté du bleu, plus chaud, presque orangé. Exercice : fixez la petite flèche au centre pendant une trentaine de secondes, puis regardez un mur blanc. Une image apparaît, aux couleurs inversées : c'est l'image rémanente, autre phénomène étudié par Albers.",
+        "analysis": "Leçon 20 — Une couleur peut en paraître deux. C'est l'expérience la plus célèbre d'Albers : une même couleur, posée sur deux fonds différents, semble devenir deux couleurs. Ici, un seul rouge couvre tout le fond de la toile. Regardez-le près de l'anneau blanc, à gauche, puis près de l'anneau bleu, à droite : à côté du blanc, il paraît plus sombre et plus profond ; à côté du bleu, plus chaud, presque orangé. Exercice : fixez la petite flèche au centre pendant une trentaine de secondes, puis regardez un mur blanc. Une image apparaît, aux couleurs inversées : c'est l'image rémanente, autre phénomène étudié par Albers.",
         "compare": "Peint trente-cinq ans avant les premiers Hommages au carré d'Albers (1950), ce tableau pose déjà les mêmes questions avec des formes simples : un cercle au lieu d'un carré, et la couleur pour seul sujet. Longtemps restée inconnue, Hilma af Klint compte aujourd'hui parmi les pionnières de l'abstraction."
+      },
+      {
+        "title": "Carnaval dans la neige",
+        "artist": "Paul Klee",
+        "country": "Allemagne",
+        "period": "1923",
+        "museum": "Cleveland Museum of Art",
+        "image": "images/expositions/carnaval-dans-la-neige-klee.jpg",
+        "credit": "Cleveland Museum of Art (https://www.clevelandart.org/art/1969.46), domaine public (CC0)",
+        "analysis": "Leçon 21 — De petites couleurs vives sur un fond doux. Paul Klee peint cette aquarelle à Weimar, où il enseigne au Bauhaus. Le fond est fait de lavis légers et transparents, violets, roses, gris-bleu et verts, qui se fondent les uns dans les autres comme de la neige au crépuscule. Par-dessus, Klee pose quelques petites formes de couleurs pures et franches : une croix bleue, des flèches et des points rouges, des gouttes noires, et deux grandes figures de carnaval presque blanches. Exercice : regardez la croix bleue en haut. Sur ce fond pâle et doux, ce petit bleu saturé paraît plus intense que s'il était entouré d'autres couleurs vives. Et le blanc des figures : paraît-il froid comme la neige, ou chaud, presque crème, à côté du violet ?",
+        "compare": "Albers était étudiant au Bauhaus à Weimar quand Klee y peignait cette aquarelle ; ils y devinrent ensuite collègues. Comparez avec la Bhairavi Ragini : là aussi, un fond uni fait chanter quelques couleurs pures."
       }
     ]
   }

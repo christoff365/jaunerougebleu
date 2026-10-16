@@ -51,13 +51,17 @@ content:
         label: Introduction éditoriale
         type: text
       - name: minimum
-        label: "Nombre minimum de pays différents (20 par défaut) : s'il en manque, le site complète l'exposition avec des œuvres trouvées en direct dans les musées"
+        label: "Nombre minimum de pays différents (20 par défaut) : chaque œuvre doit avoir son commentaire ; ajoutez des œuvres commentées jusqu'à ce nombre"
         type: number
         default: 20
       - name: search
-        label: "Recherche automatique (facultatif) : pour compléter l'exposition jusqu'au nombre de pays voulu"
+        label: "Recherche automatique (déconseillé) : complète l'exposition jusqu'au nombre de pays voulu avec des œuvres trouvées en direct, sans commentaire"
         type: object
         fields:
+          - name: auto
+            label: "Compléter automatiquement avec des œuvres sans commentaire (à ne cocher que si l'exposition manque de pays)"
+            type: boolean
+            default: false
           - name: keywords
             label: "Mots-clés en anglais, langue des catalogues (ex. : Navajo blanket, textile, light). Sans mot-clé, le thème de l'exposition est utilisé"
             type: string

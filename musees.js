@@ -381,7 +381,7 @@ const MOUVEMENTS = [
     "Mouvement, contrastes de lumière et émotion, des églises de Rome aux missions des Amériques."],
   ['Romantisme', 'Europe', 'Europe', 'fin du XVIIIe–XIXe siècle', ['Romanticism'], ['Romanticism'], 'turner', ['J.M.W. Turner', 'Eugène Delacroix', 'Caspar David Friedrich'],
     "Nature sublime, passions, histoire et rêve."],
-  ['Impressionnisme', 'Europe', 'France', '1860–1890', ['Impressionism'], ['Impressionism'], 'monet|renoir|degas|pissarro|sisley|morisot', ['Claude Monet', 'Berthe Morisot', 'Camille Pissarro'],
+  ['Impressionnisme', 'Europe', 'France', '1860–1890', ['Impressionism'], ['Impressionism'], 'monet|renoir|degas|pissarro|sisley|morisot', ['Claude Monet', 'Berthe Morisot', 'Camille Pissarro', 'Pierre-Auguste Renoir', 'Edgar Degas', 'Alfred Sisley', 'Gustave Caillebotte', 'Mary Cassatt'],
     "Peindre en plein air la lumière changeante, par touches rapides."],
   ['Postimpressionnisme', 'Europe', 'Europe', '1885–1910', ['Post-Impressionism'], ['Post-Impressionism'], 'van gogh|gauguin|c[eé]zanne|seurat', ['Vincent van Gogh', 'Paul Gauguin', 'Paul Cézanne'],
     "Après l'impressionnisme, chacun cherche sa voie : couleur expressive, formes construites, points de couleur."],
@@ -393,6 +393,9 @@ const MOUVEMENTS = [
     "Premières peintures sans sujet reconnaissable : la couleur et la forme pour elles-mêmes."]
 ].map(([nom, region, lieu, epoque, mots, wd, local, artistes, texte]) => ({ nom, region, lieu, epoque, mots, wd, local, artistes, texte }));
 function mouvement(nom) { return MOUVEMENTS.find(m => m.nom === nom) || null; }
+// Mouvements de peintres : si le visiteur n'a pas choisi de type, l'exposition ne montre que des peintures
+// (pas les dessins, études, estampes ou éventails que les catalogues renvoient aussi pour ces artistes)
+const MOUVEMENTS_DE_PEINTURE = new Set(['Impressionnisme', 'Postimpressionnisme', 'Romantisme', 'Hudson River School', 'École de Cuzco', 'Peinture de castas']);
 // Une œuvre de collection.json appartient-elle à ce mouvement ? (d'après son artiste ou son titre)
 function oeuvreDuMouvement(w, nom) {
   const m = mouvement(nom);
@@ -669,14 +672,20 @@ function chercherWikidataArtisteMouvement(c, n) {
     return oeuvresDe(`VALUES ?nom { ${[].concat(...noms.map(x => ['fr', 'en', 'mul'].map(l => lit(x, l)))).join(' ')} }
       ?createur rdfs:label|skos:altLabel ?nom . ?i wdt:P170 ?createur .`);
   }
-  // Mouvement : les œuvres rattachées au mouvement, et surtout les œuvres de ses artistes datées de sa période
+  // Mouvement : les œuvres rattachées au mouvement (qui ont un artiste : pas un musée ou un bâtiment ; datées de sa période :
+  // pas « Pluie, Vapeur et Vitesse » de Turner, 1844, présenté comme précurseur de l'impressionnisme), et surtout les œuvres de ses artistes datées de sa période
   // (un artiste n'appartient pas à un mouvement toute sa vie)
   const periode = periodeMouvement(mv);
   return artistesDuMouvement(mv).catch(() => []).then(artistes => {
     const branches = [];
-    if (mv.wd.length) branches.push(`{ VALUES ?nomMv { ${mv.wd.map(x => lit(x, 'en')).join(' ')} } ?mv rdfs:label ?nomMv . ?i wdt:P135|wdt:P136 ?mv . }`);
+    if (mv.wd.length) branches.push(`{ VALUES ?nomMv { ${mv.wd.map(x => lit(x, 'en')).join(' ')} } ?mv rdfs:label ?nomMv . ?i wdt:P135|wdt:P136 ?mv ; wdt:P170 ?createur .
+        ${periode ? `OPTIONAL { ?i wdt:P571 ?dateM } FILTER(!BOUND(?dateM) || (YEAR(?dateM) >= ${periode[0]} && YEAR(?dateM) <= ${periode[1]}))` : ''} }`);
+    // Une œuvre de ces artistes rattachée à un autre mouvement est écartée (« Le Christ jaune » de Gauguin, synthétisme ;
+    // « La Femme au chapeau » de Matisse, fauvisme)
+    const autreMouvement = mv.wd.length ? `OPTIONAL { ?i wdt:P135 ?mvOeuvre }
+        FILTER(!BOUND(?mvOeuvre) || EXISTS { VALUES ?nomMvO { ${mv.wd.map(x => lit(x, 'en')).join(' ')} } ?mvOeuvre rdfs:label ?nomMvO })` : '';
     if (artistes.length) branches.push(`{ VALUES ?createur { ${artistes.map(a => 'wd:' + a.q).join(' ')} } ?i wdt:P170 ?createur ; wdt:P571 ?dateA .
-        ${periode ? `FILTER(YEAR(?dateA) >= ${periode[0]} && YEAR(?dateA) <= ${periode[1]})` : ''} }`);
+        ${periode ? `FILTER(YEAR(?dateA) >= ${periode[0]} && YEAR(?dateA) <= ${periode[1]})` : ''} ${autreMouvement} }`);
     return branches.length ? oeuvresDe(branches.join(' UNION ')) : [];
   });
 }
@@ -889,9 +898,10 @@ const ADAPTATEURS = {
         (c.departement ? '&departmentId=' + c.departement : '');
       if (c.ep.length) { const d = c.ep.map(e => DATES_EPOQUES[e]); url += '&dateBegin=' + Math.min(...d.map(x => x[0])) + '&dateEnd=' + Math.max(...d.map(x => x[1])); }
       // Œuvres célèbres : d'abord les « œuvres phares » (highlights) du Met, puis les autres si elles ne suffisent pas
-      // (pas pour un artiste ou un mouvement : la recherche par mots-clés est déjà ciblée, et les œuvres phares qui
-      // contiennent le mot quelque part dans leur fiche sont souvent hors sujet)
-      const phares = celebres(c) && !c.artiste && !c.mouvement ? lireJSON(url.replace('&limit=60', '&limit=100') + '&isHighlight=true').then(r => r.objectIDs || []).catch(() => []) : Promise.resolve([]);
+      // (pas pour un artiste tapé ou un mouvement : la recherche par mots-clés est déjà ciblée, et les œuvres phares qui
+      // contiennent le mot quelque part dans leur fiche sont souvent hors sujet ; mais oui pour chaque artiste d'un mouvement,
+      // pour montrer ses chefs-d'œuvre plutôt que ses études et ses éventails)
+      const phares = celebres(c) && (!c.artiste || c.mvArtiste) && !c.mouvement ? lireJSON(url.replace('&limit=60', '&limit=100') + '&isHighlight=true').then(r => r.objectIDs || []).catch(() => []) : Promise.resolve([]);
       return phares.then(p => p.length >= n * 2 ? melange(p) : lireJSON(url).then(
         r => melange(p).concat(melange((r.objectIDs || []).filter(i => !p.includes(i)))),
         e => { if (p.length) return melange(p); throw e; })).then(liste => {
@@ -926,8 +936,10 @@ const ADAPTATEURS = {
   cleveland: {
     nom: 'Cleveland Museum of Art',
     chercher(c, n) {
+      // Sans mot-clé (exposition du musée), le tirage se fait dans tout le catalogue : ses premières fiches sont ses chefs-d'œuvre
+      const sansMot = !motsCles(c).length;
       const adresse = phares => {
-        let url = 'https://openaccess-api.clevelandart.org/api/artworks/?cc0=1&has_image=1&limit=' + n + '&skip=' + (c.premiere || phares ? 0 : hasard(40)) + (phares ? '&highlight=1' : '') +
+        let url = 'https://openaccess-api.clevelandart.org/api/artworks/?cc0=1&has_image=1&limit=' + n + '&skip=' + (c.premiere || phares ? 0 : hasard(sansMot && !celebres(c) ? 3000 : 40)) + (phares ? '&highlight=1' : '') +
           (c.departement ? '&department=' + encodeURIComponent(c.departement) : '');
         const q = motsCles(c).join(' ');
         if (q) url += '&q=' + encodeURIComponent(q);
@@ -1084,6 +1096,7 @@ function chercherDansLesMusees(criteres, parSource, seulement) {
         const sur = criteres.artiste && alternees.some(w => deLArtiste(w, criteres.artiste) === 2);
         // Mouvements choisis : une œuvre d'une autre région n'en fait pas partie (une affiche française citant l'ukiyo-e…)
         const regionsMv = (criteres.mv || []).map(m => (mouvement(m) || {}).region).filter(Boolean);
+        const peinturesSeulement = !criteres.ty.length && (criteres.mv || []).length && criteres.mv.every(m => MOUVEMENTS_DE_PEINTURE.has(m));
         alternees.forEach(w => {
           const cle = cleOeuvre(w);
           if (!w.title || vus.has(cle) || !w.epoch) return;
@@ -1091,6 +1104,7 @@ function chercherDansLesMusees(criteres, parSource, seulement) {
           if (criteres.ep.length && !criteres.ep.includes(w.epoch)) return;
           if (criteres.rg.length && !w.regions.some(x => criteres.rg.includes(x))) return;
           if (criteres.ty.length && !w.types.some(x => criteres.ty.includes(x))) return;
+          if (peinturesSeulement && !w.types.includes('Peinture')) return;
           if (criteres.artiste && deLArtiste(w, criteres.artiste) < (sur ? 2 : 1)) return;
           if (regionsMv.length && w.regions.length && !w.regions.some(x => regionsMv.includes(x))) return;
           // Recherche par artiste : les catalogues renvoient surtout des gravures (Rembrandt, Dürer…) ; trois au plus,

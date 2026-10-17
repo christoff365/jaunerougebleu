@@ -1042,18 +1042,32 @@ const ADAPTATEURS = {
       // œuvres datées seulement, dans les bornes des époques choisies
       const d = bornesEpoques(c.ep);
       const annees = encodeURIComponent('YEAR:[' + (d ? Math.max(d[0], 1) : 1) + ' TO ' + (d ? d[1] : 2100) + ']');
-      const url = debut => RELAIS + '/europeana?query=' + encodeURIComponent(q) + '&theme=art&qf=' + annees +
+      // Artiste d'un mouvement de peintres : ses seules peintures (« what » : type de l'objet, dans les langues des musées),
+      // sinon Europeana renvoie surtout ses gravures et ses dessins
+      const peintures = c.mvArtiste && MOUVEMENTS_DE_PEINTURE.has(c.mvArtiste);
+      const quoi = peintures ? '&qf=' + encodeURIComponent('what:(painting OR paintings OR peinture OR Gemälde OR schilderij OR maalaus OR målning OR maleri OR pintura OR dipinto)') : '';
+      const url = debut => RELAIS + '/europeana?query=' + encodeURIComponent(q) + '&theme=art&qf=' + annees + quoi +
         '&reusability=open&qf=TYPE:IMAGE&qf=RIGHTS:*publicdomain*&media=true&thumbnail=true&rows=' + (n * 3) + '&start=' + (1 + debut) + '&profile=rich';
+      // Champs en anglais d'Europeana (type, concepts, description : « painting », « oil on canvas », « drawing »…)
+      const enAnglais = o => [o.dcTypeLangAware, o.edmConceptPrefLabelLangAware, o.dcDescriptionLangAware].map(x => (x && x.en) || []).flat().join(' ');
+      // Année : champ « year », sinon la période indiquée (« 1840/1850 »)
+      const anneeEu = o => anneeDe((o.year || [''])[0]) ?? anneeDe(((o.edmTimespanLabel || [])[0] || {}).def || '');
       // Trois fois plus de fiches que nécessaire, pour en garder au plus un tiers par institution
       const parMusee = {}, plafond = Math.max(2, Math.ceil(n / 3));
-      return pageAuHasard(url, 50, r => r.items, r => r.totalResults).then(items => items.filter(o => (o.edmIsShownBy || o.edmPreview) && anneeDe((o.year || [''])[0]) !== null)
+      // Recherche d'un artiste : depuis le début (il a souvent peu de fiches, un départ au hasard les manquerait)
+      return pageAuHasard(url, c.artiste ? 1 : 50, r => r.items, r => r.totalResults).then(items => items.filter(o => (o.edmIsShownBy || o.edmPreview) && anneeEu(o) !== null)
         .sort(() => Math.random() - 0.5).filter(o => { const m = (o.dataProvider || [''])[0]; parMusee[m] = (parMusee[m] || 0) + 1; return parMusee[m] <= plafond; })
         .slice(0, n).map(o => oeuvre({
           titre: (o.title || ['Sans titre'])[0], langue: o.language && o.language[0] ? o.language[0] : 'en',
           // dcCreator mêle souvent noms et adresses de notices d'autorité (viaf.org…) : on garde le premier nom
-          artiste: [].concat(o.dcCreator || []).find(x => !/^https?:/.test(x)) || '', date: (o.year || [''])[0], annee: anneeDe((o.year || [''])[0]),
+          // (sinon le nom de l'« agent » lié à la fiche : « Delacroix, Eugène » au Rijksmuseum)
+          artiste: [].concat(o.dcCreator || []).find(x => !/^https?:/.test(x) && !/_person$/.test(x)) || ((o.edmAgentLabel || [])[0] || {}).def || '',
+          date: (o.year || [''])[0] || ((o.edmTimespanLabel || [])[0] || {}).def || '', annee: anneeEu(o),
           lieu: (o.country || [''])[0], regions: c.region ? [c.region] : undefined, musee: ((o.dataProvider || ['Europeana'])[0]) + ' (via Europeana)',
-          image: (o.edmPreview || o.edmIsShownBy)[0], fiche: o.guid, classification: (o.dcType || []).join(' ') + ' ' + q
+          image: (o.edmPreview || o.edmIsShownBy)[0], fiche: o.guid,
+          // Type d'œuvre d'après la fiche ; sans indication, une œuvre trouvée par la recherche de peintures en est une
+          classification: [].concat(o.dcType || []).join(' ') + ' ' + enAnglais(o) + ' ' + q,
+          type: peintures && typeDe([].concat(o.dcType || []).join(' ') + ' ' + enAnglais(o)) === 'Autre' ? 'Peinture' : undefined
         })));
     }
   },

@@ -373,7 +373,7 @@ const MOUVEMENTS = [
     "Peintres andins qui transforment les modèles religieux européens : Vierges en robe triangulaire, brocarts d'or, flore locale."],
   ['Peinture de castas', 'Amériques', 'Mexique', 'XVIIIe siècle', ['casta painting'], ['casta painting'], '', ['Miguel Cabrera', 'José de Páez'],
     "Séries montrant les familles de la Nouvelle-Espagne classées selon leurs origines : un témoignage sur la hiérarchie coloniale."],
-  ['Hudson River School', 'Amériques', 'États-Unis', '1825–1880', ['Hudson River School'], ['Hudson River School'], '', ['Thomas Cole', 'Frederic Edwin Church', 'Albert Bierstadt', 'Asher Brown Durand', 'John Frederick Kensett', 'Sanford Robinson Gifford', 'George Inness', 'Martin Johnson Heade'],
+  ['Hudson River School', 'Amériques', 'États-Unis', '1825–1880', ['Hudson River School'], ['Hudson River School', 'Hudson River school'], '', ['Thomas Cole', 'Frederic Edwin Church', 'Albert Bierstadt', 'Asher Brown Durand', 'John Frederick Kensett', 'Sanford Robinson Gifford', 'George Inness', 'Martin Johnson Heade'],
     "Grands paysages américains, lumineux et grandioses, qui célèbrent une nature sauvage."],
   ['Sculpture maorie', 'Océanie', 'Nouvelle-Zélande', 'XVIIIe–XIXe siècle', ['Maori'], [], '', [],
     "Bois sculpté, jade et figures d'ancêtres, couverts de spirales et incrustés de nacre."],
@@ -389,7 +389,7 @@ const MOUVEMENTS = [
     "Nature sublime, passions, histoire et rêve."],
   ['Impressionnisme', 'Europe', 'France', '1860–1890', ['Impressionism'], ['Impressionism'], 'monet|renoir|degas|pissarro|sisley|morisot', ['Claude Monet', 'Berthe Morisot', 'Camille Pissarro', 'Pierre-Auguste Renoir', 'Edgar Degas', 'Édouard Manet', 'Alfred Sisley', 'Gustave Caillebotte', 'Mary Cassatt'],
     "Peindre en plein air la lumière changeante, par touches rapides."],
-  ['Postimpressionnisme', 'Europe', 'Europe', '1885–1910', ['Post-Impressionism'], ['Post-Impressionism'], 'van gogh|gauguin|c[eé]zanne|seurat', ['Vincent van Gogh', 'Paul Gauguin', 'Paul Cézanne'],
+  ['Postimpressionnisme', 'Europe', 'Europe', '1885–1910', ['Post-Impressionism'], ['Post-Impressionism', 'Post-impressionism'], 'van gogh|gauguin|c[eé]zanne|seurat', ['Vincent van Gogh', 'Paul Gauguin', 'Paul Cézanne', 'Georges Seurat', 'Henri de Toulouse-Lautrec', 'Paul Signac'],
     "Après l'impressionnisme, chacun cherche sa voie : couleur expressive, formes construites, points de couleur."],
   ['Art nouveau', 'Europe', 'Europe', '1890–1910', ['Art Nouveau'], ['Art Nouveau'], '', ['Alfons Mucha', 'Gustav Klimt', 'Hector Guimard'],
     "Lignes courbes inspirées des plantes, dans les affiches, les objets et l'architecture."],
@@ -626,7 +626,7 @@ function artistesDuMouvement(mv) {
   // Ordre imposé : d'abord le mouvement, puis ses artistes, puis leur notoriété (sinon Wikidata peut commencer par
   // parcourir toutes les personnes et dépasser le délai : la liste revenait vide). Le filtre « personne » vient après le
   // mouvement : il écarte les œuvres rattachées au mouvement (« The Course of Empire »)
-  const requete = `SELECT ?a ?aLabel ?liens WHERE {
+  const requete = `SELECT ?a ?aLabel ?liens ?mv WHERE {
     hint:Query hint:optimizer "None" .
     { SELECT DISTINCT ?mv WHERE { ${[parLibelle, parArtistes].filter(Boolean).join(' UNION ')} } }
     ?a wdt:P135 ?mv .
@@ -637,7 +637,11 @@ function artistesDuMouvement(mv) {
   const p = ARTISTES_MOUVEMENTS[mv.nom] = sparql(requete, 10000).then(l => {
     const vus = new Set(), artistes = [];
     l.forEach(b => { const a = { q: qid(b, 'a'), nom: val(b, 'aLabel') }; if (a.nom && !/^Q\d+$/.test(a.nom) && !vus.has(a.q)) { vus.add(a.q); artistes.push(a); } });
-    return artistes.slice(0, 40);
+    // Identifiants Wikidata du mouvement (Q166713…), pour chercher ses œuvres sans dépendre de l'écriture de son nom
+    // (« Post-impressionism » dans Wikidata, « Post-Impressionism » dans la liste MOUVEMENTS)
+    const liste = artistes.slice(0, 40);
+    liste.mvs = [...new Set(l.map(b => qid(b, 'mv')).filter(Boolean))];
+    return liste;
   });
   p.catch(() => { delete ARTISTES_MOUVEMENTS[mv.nom]; }); // en cas d'échec, on réessaiera à la prochaine exposition
   return p;
@@ -663,7 +667,7 @@ function chercherWikidataArtisteMouvement(c, n) {
   if (!c.artiste) n *= 2;
   // Œuvres qui répondent au filtre, illustrées, les plus connues d'abord (ou au hasard pour les découvertes)
   // c.joconde : seulement les œuvres des musées de France qui ont une notice Joconde (P347), pour la source Joconde
-  const oeuvresDe = filtre => sparql(`SELECT ?i ?iLabel ?m ?mLabel ?date ?img ?jc ?liens ?typeEn ?createur ?createurLabel ?deces ?origine ?origineLabel ?nat WHERE {
+  const requeteDe = filtre => `SELECT ?i ?iLabel ?m ?mLabel ?date ?img ?jc ?liens ?typeEn ?createur ?createurLabel ?deces ?origine ?origineLabel ?nat WHERE {
     { SELECT DISTINCT ?i ?createur ?img ?date ?jc ?liens WHERE {
         hint:Query hint:optimizer "None" .
         ${filtre}
@@ -677,12 +681,19 @@ function chercherWikidataArtisteMouvement(c, n) {
     OPTIONAL { ?i wdt:P495 ?origine }
     OPTIONAL { ?i wdt:P170 ?createur . OPTIONAL { ?createur wdt:P27 ?nat } OPTIONAL { ?createur wdt:P570 ?deces } }
     SERVICE wikibase:label { bd:serviceParam wikibase:language "fr,en,mul". }
-  }`, 12000).then(lignes => oeuvresWikidata(lignes, n, Object.assign({
+  }`;
+  // Plusieurs filtres : une requête chacun, en parallèle (plus légères qu'une seule requête qui les réunit, qui dépassait
+  // souvent le délai quand Wikidata est chargé) ; les réponses reçues sont réunies, la source n'est en panne que si toutes échouent
+  // Un filtre peut avoir une version de secours, plus légère, essayée si la première ne répond pas ([filtre, secours])
+  const essai = f => Array.isArray(f) ? sparql(requeteDe(f[0]), 15000).catch(() => sparql(requeteDe(f[1]), 12000)) : sparql(requeteDe(f), 20000);
+  const oeuvresDe = (...filtres) => Promise.all(filtres.map(f => essai(f).then(l => ({ l }), e => ({ e }))))
+    .then(rs => { if (rs.every(r => r.e)) throw rs[0].e; return [].concat(...rs.filter(r => r.l).map(r => r.l)); })
+    .then(lignes => oeuvresWikidata(lignes, n, Object.assign({
     // Œuvres célèbres : les plus connues gardent leur rang, et un même musée (Orsay…) peut en fournir la moitié
-    lieu: 'mLabel', musee: nom => (nom && !/^Q\d+$/.test(nom) ? nom : 'Wikidata'), region: () => (mv ? mv.region : null),
+    lieu: 'mLabel', musee: nom => (nom && !/^(Q\d+|https?:)/i.test(nom) ? nom : 'Wikidata'), region: () => (mv ? mv.region : null),
     garderOrdre: celebres(c), plafond: celebres(c) ? Math.ceil(n / 2) : 0
   }, c.joconde ? {
-    musee: nom => (nom && !/^Q\d+$/.test(nom) ? nom : 'Musée de France'), pastille: 'Notice Joconde des musées de France, en direct',
+    musee: nom => (nom && !/^(Q\d+|https?:)/i.test(nom) ? nom : 'Musée de France'), pastille: 'Notice Joconde des musées de France, en direct',
     notice: b => 'notice Joconde (https://pop.culture.gouv.fr/notice/joconde/' + encodeURIComponent(val(b, 'jc')) + ')'
   } : {})));
   if (c.artiste) {
@@ -696,16 +707,26 @@ function chercherWikidataArtisteMouvement(c, n) {
   // (un artiste n'appartient pas à un mouvement toute sa vie)
   const periode = periodeMouvement(mv);
   return artistesDuMouvement(mv).catch(() => []).then(artistes => {
-    const branches = [];
-    if (mv.wd.length) branches.push(`{ VALUES ?nomMv { ${mv.wd.map(x => lit(x, 'en')).join(' ')} } ?mv rdfs:label ?nomMv . ?i wdt:P135|wdt:P136 ?mv ; wdt:P170 ?createur .
+    const branches = [], mvs = (artistes.mvs || []).map(q => 'wd:' + q);
+    // Le mouvement : par son identifiant s'il est connu, sinon par son libellé anglais
+    const leMouvement = mvs.length ? `VALUES ?mv { ${mvs.join(' ')} }` : `VALUES ?nomMv { ${mv.wd.map(x => lit(x, 'en')).join(' ')} } ?mv rdfs:label ?nomMv .`;
+    if (mv.wd.length || mvs.length) branches.push(`{ ${leMouvement} ?i wdt:P135|wdt:P136 ?mv ; wdt:P170 ?createur .
         ${periode ? `OPTIONAL { ?i wdt:P571 ?dateM } FILTER(!BOUND(?dateM) || (YEAR(?dateM) >= ${periode[0]} && YEAR(?dateM) <= ${periode[1]}))` : ''} }`);
     // Une œuvre de ces artistes rattachée à un autre mouvement est écartée (« Le Christ jaune » de Gauguin, synthétisme ;
     // « La Femme au chapeau » de Matisse, fauvisme)
-    const autreMouvement = mv.wd.length ? `OPTIONAL { ?i wdt:P135 ?mvOeuvre }
+    const autreMouvement = mvs.length ? `OPTIONAL { ?i wdt:P135 ?mvOeuvre } FILTER(!BOUND(?mvOeuvre) || ?mvOeuvre IN (${mvs.join(', ')}))`
+      : mv.wd.length ? `OPTIONAL { ?i wdt:P135 ?mvOeuvre }
         FILTER(!BOUND(?mvOeuvre) || EXISTS { VALUES ?nomMvO { ${mv.wd.map(x => lit(x, 'en')).join(' ')} } ?mvOeuvre rdfs:label ?nomMvO })` : '';
-    if (artistes.length) branches.push(`{ VALUES ?createur { ${artistes.map(a => 'wd:' + a.q).join(' ')} } ?i wdt:P170 ?createur ; wdt:P571 ?dateA .
-        ${periode ? `FILTER(YEAR(?dateA) >= ${periode[0]} && YEAR(?dateA) <= ${periode[1]})` : ''} ${autreMouvement} }`);
-    return branches.length ? oeuvresDe(branches.join(' UNION ')) : [];
+    // Deux requêtes : les artistes de la liste MOUVEMENTS (les grands maîtres, dont viennent les chefs-d'œuvre), puis douze
+    // autres parmi les plus connus. Si Wikidata est trop chargé pour répondre à la première, elle est refaite sans le filtre
+    // « autre mouvement » et avec les seules œuvres présentes dans au moins cinq Wikipédia (les plus célèbres)
+    const deReference = a => mv.artistes.some(x => sansAccents(x).split(/\s+/).pop() === sansAccents(a.nom).split(/\s+/).pop());
+    const parArtistes = (liste, filtre, extra) => `{ VALUES ?createur { ${liste.map(a => 'wd:' + a.q).join(' ')} } ?i wdt:P170 ?createur ; wdt:P571 ?dateA .
+        ${periode ? `FILTER(YEAR(?dateA) >= ${periode[0]} && YEAR(?dateA) <= ${periode[1]})` : ''} ${filtre} ${extra || ''} }`;
+    const maitres = artistes.filter(deReference), autres = artistes.filter(a => !deReference(a)).slice(0, 12);
+    if (maitres.length) branches.push([parArtistes(maitres, autreMouvement), parArtistes(maitres, '', '?i wikibase:sitelinks ?l5 . FILTER(?l5 >= 5)')]);
+    if (autres.length) branches.push(parArtistes(autres, autreMouvement));
+    return branches.length ? oeuvresDe(...branches) : [];
   });
 }
 
@@ -1074,7 +1095,9 @@ function raisonPanne(e) {
   return '';
 }
 function chercherDansLesMusees(criteres, parSource, seulement) {
-  const sources = Object.keys(ADAPTATEURS).filter(k => (!seulement || seulement.includes(k)) && (!ADAPTATEURS[k].actif || ADAPTATEURS[k].actif()));
+  // Le patrimoine mondial (monuments) n'a pas d'artistes ni de mouvements : il n'est pas interrogé (ni cité « sans œuvre »)
+  const horsSujet = k => k === 'patrimoine' && ((criteres.mv || []).length || criteres.artiste);
+  const sources = Object.keys(ADAPTATEURS).filter(k => (!seulement || seulement.includes(k)) && (!ADAPTATEURS[k].actif || ADAPTATEURS[k].actif()) && !horsSujet(k));
   // Une recherche par région choisie (trois au plus), sinon une seule recherche sans région
   const regions = criteres.rg.length ? criteres.rg.slice(0, 3) : [null];
   // Mouvements choisis : une recherche par mouvement (trois au plus), combinée aux régions (quatre recherches au plus en tout)
@@ -1171,7 +1194,10 @@ function chercherDansLesMusees(criteres, parSource, seulement) {
           const plafond = i => groupes.length < 4 ? Infinity : !celebre ? 5 : !maitres.size ? (i < 4 ? 7 : 3) : !rangs[i] ? 2 : i < 4 ? 7 : 4;
           const equilibrees = [];
           for (let k = 0; groupes.some((g, i) => k < Math.min(g.length, plafond(i))); k++) groupes.forEach((g, i) => { if (k < Math.min(g.length, plafond(i))) equilibrees.push(g[k]); });
-          oeuvres.splice(0, oeuvres.length, ...equilibrees);
+          // et trois œuvres au plus, en tout, de ces autres artistes (Mondrian, Matisse… pour le postimpressionnisme)
+          const autres = new Set(celebre && maitres.size ? [].concat(...groupes.filter((g, i) => !rangs[i])) : []);
+          let nAutres = 0;
+          oeuvres.splice(0, oeuvres.length, ...equilibrees.filter(w => !autres.has(w) || ++nAutres <= 3));
         }
         return { oeuvres, sources: resultats.map(r => ({ nom: r.source, ok: r.ok, nombre: r.liste.length, raison: r.raison })) };
       });

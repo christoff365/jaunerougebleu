@@ -383,7 +383,7 @@ const MOUVEMENTS = [
     "Vitraux, sculptures, tapisseries et retables aux fonds d'or, aux silhouettes élancées et aux couleurs précieuses."],
   ['Renaissance', 'Europe', 'Italie et Europe', 'XVe–XVIe siècle', ['Renaissance'], ['Renaissance', 'Italian Renaissance', 'Northern Renaissance', 'High Renaissance', 'Early Renaissance'], 'bruegel', ['Léonard de Vinci|Leonardo da Vinci', 'Raphaël|Raphael', 'Albrecht Dürer', 'Michel-Ange|Michel-Ange Buronarroti|Michelangelo', 'Sandro Botticelli', 'Titien|Titian', 'Jan van Eyck', 'Donatello', "Pieter Brueghel l'Ancien|Pieter Bruegel the Elder", 'Jérôme Bosch|Hieronymus Bosch', 'Hans Holbein le Jeune|Hans Holbein the Younger', 'Andrea Mantegna'],
     "Retour à l'Antiquité, invention de la perspective, étude du corps et de la nature."],
-  ['Baroque', 'Europe', 'Europe et Amériques', 'XVIIe siècle', ['Baroque'], ['Baroque', 'Baroque painting'], 'caravage|rembrandt', ['Le Caravage', 'Pierre Paul Rubens', 'Rembrandt'],
+  ['Baroque', 'Europe', 'Europe et Amériques', 'XVIIe siècle', ['Baroque'], ['Baroque', 'Baroque painting'], 'caravage|rembrandt', ['Le Caravage|Caravaggio', 'Pierre Paul Rubens|Peter Paul Rubens', 'Rembrandt|Rembrandt van Rijn', 'Diego Vélasquez|Diego Velázquez', 'Johannes Vermeer', 'Le Bernin|Gian Lorenzo Bernini', 'Artemisia Gentileschi', 'Antoine van Dyck|Anthony van Dyck', 'Frans Hals'],
     "Mouvement, contrastes de lumière et émotion, des églises de Rome aux missions des Amériques."],
   ['Romantisme', 'Europe', 'Europe', 'fin du XVIIIe–XIXe siècle', ['Romanticism'], ['Romanticism'], 'turner', ['J.M.W. Turner', 'Eugène Delacroix', 'Caspar David Friedrich'],
     "Nature sublime, passions, histoire et rêve."],
@@ -430,6 +430,17 @@ function oeuvreDuMouvement(w, nom) {
 function cleOeuvre(w) {
   const mots = sansAccents(w.artist).split(/[^\p{L}]+/u).filter(Boolean);
   return sansAccents(w.title).replace(/[^\p{L}\d]+/gu, ' ').trim() + '|' + (mots[mots.length - 1] || '');
+}
+// Œuvres déjà retenues, pour écarter les doublons : même titre, et des noms d'artiste qui ont un mot en commun
+// (« La Ronde de nuit » de « Rembrandt van Rijn » dans la collection du site et de « Rembrandt » dans Wikidata)
+function registreOeuvres() {
+  const parTitre = new Map();
+  const titre = w => sansAccents(w.title).replace(/[^\p{L}\d]+/gu, ' ').trim();
+  const mots = w => sansAccents(w.artist).split(/[^\p{L}]+/u).filter(m => m.length >= 4 && !PARTICULES_NOMS.test(m) && !PAS_DE_SA_MAIN.test(m));
+  return {
+    vue: w => (parTitre.get(titre(w)) || []).some(l => !l.length || !mots(w).length || mots(w).some(m => l.includes(m))),
+    ajouter: w => { const t = titre(w); if (!parTitre.has(t)) parTitre.set(t, []); parTitre.get(t).push(mots(w)); }
+  };
 }
 // Recherche par artiste : l'œuvre est-elle de cet artiste ? Tous les mots du nom tapé (sans accents) doivent être des mots
 // du nom de l'artiste. Renvoie 0 (non), 2 (oui) ou 1 (peut-être) : 1 quand un nom d'un seul mot n'est que le prénom d'un
@@ -1185,7 +1196,7 @@ function chercherDansLesMusees(criteres, parSource, seulement) {
       .then(listes => ({ source: ADAPTATEURS[k].nom, liste: [].concat(...listes.filter(Array.isArray)), ok: listes.some(Array.isArray),
         raison: listes.some(Array.isArray) ? '' : raisonPanne((listes.find(l => l && l.panne) || {}).panne) }))))
       .then(resultats => {
-        const vus = new Set(), oeuvres = [];
+        const vus = registreOeuvres(), oeuvres = [];
         // Les catalogues sont pris à tour de rôle, pour que chaque institution soit représentée
         const alternees = [];
         for (let k = 0; resultats.some(r => k < r.liste.length); k++) resultats.forEach(r => { if (k < r.liste.length) alternees.push([r.liste[k], r.source]); });
@@ -1204,8 +1215,8 @@ function chercherDansLesMusees(criteres, parSource, seulement) {
         const regionsMv = (criteres.mv || []).map(m => (mouvement(m) || {}).region).filter(Boolean);
         const peinturesSeulement = !criteres.ty.length && (criteres.mv || []).length && criteres.mv.every(m => MOUVEMENTS_DE_PEINTURE.has(m));
         alternees.forEach(([w, source]) => {
-          const cle = cleOeuvre(w), cm = w.artist && w.year ? cleMusee(w) : '';
-          if (!w.title || vus.has(cle) || !w.epoch) return;
+          const cm = w.artist && w.year ? cleMusee(w) : '';
+          if (!w.title || vus.vue(w) || !w.epoch) return;
           if (w.qid && qids.has(w.qid)) return;
           if (cm && parSourceVue.has(cm) && parSourceVue.get(cm) !== source) { const x = oeuvreDeCle.get(cm); x.renom = Math.max(x.renom, w.renom); return; }
           if (periodesMv.length && typeof w.year === 'number' && !periodesMv.some(pe => w.year >= pe[0] && w.year <= pe[1])) return;
@@ -1225,7 +1236,7 @@ function chercherDansLesMusees(criteres, parSource, seulement) {
           // ne doit pas se résumer aux gravures de Dürer
           const estampesLimitees = criteres.artiste || ((criteres.mv || []).length && !criteres.mv.some(m => MOUVEMENTS_D_ESTAMPES.has(m)));
           if (estampesLimitees && !criteres.ty.length && w.types.includes('Dessins et estampes') && oeuvres.filter(x => x.types.includes('Dessins et estampes')).length >= 3) return;
-          vus.add(cle); oeuvres.push(w);
+          vus.ajouter(w); oeuvres.push(w);
           if (w.qid) qids.add(w.qid);
           if (cm && !parSourceVue.has(cm)) { parSourceVue.set(cm, source); oeuvreDeCle.set(cm, w); }
         });

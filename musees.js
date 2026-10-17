@@ -42,6 +42,8 @@ const MOTS_TYPES_RECONNUS = [
   ['Architecture', /architect|building|column|capital|portal|doorway|facade|façade|period room|room from|ceiling|mihrab|temple|relief from|fragment of a (wall|building)/i],
   ['Sculpture', /sculpt|statue|statuette|figure|figurine|bust|relief|carving|head of|torso|bronze|mask|stele/i],
   ['Photographie', /photograph|daguerreotype|albumen|gelatin silver/i],
+  // Pastel : une peinture (les pastels de Degas sont parmi ses chefs-d'œuvre), même si les musées les rangent avec les dessins
+  ['Peinture', /\bpastels?\b/i],
   ['Dessins et estampes', /print|drawing|watercolor|etching|engraving|woodcut|lithograph|kobberstik|tegning|grafik|book|manuscript|album leaf|folio/i],
   ['Arts décoratifs', /ceramic|porcelain|pottery|vessel|vase|bowl|jar|plate|cup|mirror|jade|textile|embroidery|tapestry|furniture|fitting|glass|metalwork|silver|jewel|costume|armor|arms|tsuba|coin|medal|lacquer|enamel/i],
   ['Peinture', /paint|canvas|oil|tempera|fresco|maleri|icon|panel|scroll|calligraph|emakimono|triptych/i]
@@ -84,6 +86,8 @@ function hasard(n) { return Math.floor(Math.random() * n); }
 function melange(l) { return l.slice().sort(() => Math.random() - 0.5); }
 // Choix « Les plus célèbres » (par défaut) ou « Découvertes (moins connues) » du générateur
 const celebres = c => c.notoriete !== 'decouvertes';
+// Titres d'esquisses et d'études (anglais, français, danois, néerlandais, allemand ; comparés sans accents)
+const ESQUISSE = /\b(study|studies|sketch|sketches|esquisse|esquisses|etude|etudes|croquis|skitse|studie|schets|skizze)\b/;
 
 // Mot ajouté à la recherche pour chaque région (les catalogues cherchent aussi dans la culture et le lieu d'origine)
 // (un mot tiré au hasard à chaque recherche, pour varier les cultures représentées)
@@ -383,7 +387,7 @@ const MOUVEMENTS = [
     "Mouvement, contrastes de lumière et émotion, des églises de Rome aux missions des Amériques."],
   ['Romantisme', 'Europe', 'Europe', 'fin du XVIIIe–XIXe siècle', ['Romanticism'], ['Romanticism'], 'turner', ['J.M.W. Turner', 'Eugène Delacroix', 'Caspar David Friedrich'],
     "Nature sublime, passions, histoire et rêve."],
-  ['Impressionnisme', 'Europe', 'France', '1860–1890', ['Impressionism'], ['Impressionism'], 'monet|renoir|degas|pissarro|sisley|morisot', ['Claude Monet', 'Berthe Morisot', 'Camille Pissarro', 'Pierre-Auguste Renoir', 'Edgar Degas', 'Alfred Sisley', 'Gustave Caillebotte', 'Mary Cassatt'],
+  ['Impressionnisme', 'Europe', 'France', '1860–1890', ['Impressionism'], ['Impressionism'], 'monet|renoir|degas|pissarro|sisley|morisot', ['Claude Monet', 'Berthe Morisot', 'Camille Pissarro', 'Pierre-Auguste Renoir', 'Edgar Degas', 'Édouard Manet', 'Alfred Sisley', 'Gustave Caillebotte', 'Mary Cassatt'],
     "Peindre en plein air la lumière changeante, par touches rapides."],
   ['Postimpressionnisme', 'Europe', 'Europe', '1885–1910', ['Post-Impressionism'], ['Post-Impressionism'], 'van gogh|gauguin|c[eé]zanne|seurat', ['Vincent van Gogh', 'Paul Gauguin', 'Paul Cézanne'],
     "Après l'impressionnisme, chacun cherche sa voie : couleur expressive, formes construites, points de couleur."],
@@ -654,6 +658,9 @@ function chercherWikidataArtisteMouvement(c, n) {
   if (!c.artiste && !(mv && (mv.wd.length || mv.artistes.length >= 2))) return Promise.resolve([]);
   const lit = (s, l) => JSON.stringify(s) + '@' + l;
   const d = bornesEpoques(c.ep || []);
+  // Mouvement : deux fois plus d'œuvres, pour que chacun de ses grands maîtres ait ses chefs-d'œuvre
+  // (les œuvres en trop sont écartées ensuite par la répartition entre artistes, voir chercherDansLesMusees)
+  if (!c.artiste) n *= 2;
   // Œuvres qui répondent au filtre, illustrées, les plus connues d'abord (ou au hasard pour les découvertes)
   // c.joconde : seulement les œuvres des musées de France qui ont une notice Joconde (P347), pour la source Joconde
   const oeuvresDe = filtre => sparql(`SELECT ?i ?iLabel ?m ?mLabel ?date ?img ?jc ?liens ?typeEn ?createur ?createurLabel ?deces ?origine ?origineLabel ?nat WHERE {
@@ -1131,6 +1138,9 @@ function chercherDansLesMusees(criteres, parSource, seulement) {
           if (criteres.rg.length && !w.regions.some(x => criteres.rg.includes(x))) return;
           if (criteres.ty.length && !w.types.some(x => criteres.ty.includes(x))) return;
           if (peinturesSeulement && !w.types.includes('Peinture')) return;
+          // « Les plus célèbres » : pas d'esquisses ni d'études préparatoires, qui ne sont pas les chefs-d'œuvre d'un artiste
+          // (sauf celles de Léonard de Vinci, célèbres en elles-mêmes, et si le visiteur a choisi « Dessins et estampes »)
+          if (celebres(criteres) && !criteres.ty.includes('Dessins et estampes') && ESQUISSE.test(sansAccents(w.title)) && !/leonard/.test(sansAccents(w.artist))) return;
           if (criteres.artiste && deLArtiste(w, criteres.artiste) < (sur ? 2 : 1)) return;
           if (regionsMv.length && w.regions.length && !w.regions.some(x => regionsMv.includes(x))) return;
           // Recherche par artiste : les catalogues renvoient surtout des gravures (Rembrandt, Dürer…) ; trois au plus,
@@ -1141,20 +1151,24 @@ function chercherDansLesMusees(criteres, parSource, seulement) {
           if (cm && !parSourceVue.has(cm)) { parSourceVue.set(cm, source); oeuvreDeCle.set(cm, w); }
         });
         // Mouvement choisi : les artistes sont pris à tour de rôle, pour que l'exposition montre tout le mouvement.
-        // « Les plus célèbres » : les grands maîtres d'abord (artistes dont les œuvres sont les plus connues), sept œuvres
-        // chacun pour les quatre premiers, trois pour les autres, leurs chefs-d'œuvre en tête ; « Découvertes » : cinq chacun
+        // « Les plus célèbres » : les grands maîtres d'abord (artistes de référence du mouvement, liste MOUVEMENTS, classés
+        // par la notoriété de leurs œuvres), sept œuvres chacun pour les quatre premiers, quatre pour les autres, leurs
+        // chefs-d'œuvre en tête ; deux pour les artistes que Wikidata rattache aussi au mouvement (Gauguin, Waterhouse…).
+        // « Découvertes » : cinq chacun
         if ((criteres.mv || []).length && !criteres.artiste) {
           const parArtiste = new Map();
           // (par nom de famille : « Auguste Renoir » dans Wikidata, « Pierre-Auguste Renoir » à Chicago)
           oeuvres.forEach(w => { const a = nomDeFamille(w) || cleOeuvre(w); if (!parArtiste.has(a)) parArtiste.set(a, []); parArtiste.get(a).push(w); });
-          let groupes = [...parArtiste.values()];
+          let groupes = [...parArtiste.values()], rangs = [];
           const celebre = celebres(criteres);
+          const maitres = new Set([].concat(...criteres.mv.map(m => (mouvement(m) || { artistes: [] }).artistes)).map(a => nomDeFamille({ artist: a })));
           if (celebre) {
             groupes.forEach(g => g.sort((a, b) => b.renom - a.renom));
             const score = g => g.slice(0, 3).reduce((t, w) => t + w.renom, 0); // ses trois œuvres les plus connues
-            groupes = groupes.map((g, i) => ({ g, i })).sort((a, b) => (score(b.g) - score(a.g)) || (a.i - b.i)).map(x => x.g);
+            groupes = groupes.map((g, i) => ({ g, i, ref: maitres.has(nomDeFamille(g[0])) })).sort((a, b) => (b.ref - a.ref) || (score(b.g) - score(a.g)) || (a.i - b.i));
+            rangs = groupes.map(x => x.ref); groupes = groupes.map(x => x.g);
           }
-          const plafond = i => groupes.length < 4 ? Infinity : celebre ? (i < 4 ? 7 : 3) : 5;
+          const plafond = i => groupes.length < 4 ? Infinity : !celebre ? 5 : !maitres.size ? (i < 4 ? 7 : 3) : !rangs[i] ? 2 : i < 4 ? 7 : 4;
           const equilibrees = [];
           for (let k = 0; groupes.some((g, i) => k < Math.min(g.length, plafond(i))); k++) groupes.forEach((g, i) => { if (k < Math.min(g.length, plafond(i))) equilibrees.push(g[k]); });
           oeuvres.splice(0, oeuvres.length, ...equilibrees);

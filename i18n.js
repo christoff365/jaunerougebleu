@@ -178,6 +178,7 @@ const TRAD = {
   "Association Jaune-Rouge-Bleu": ["Jaune-Rouge-Bleu association", "Asociación Jaune-Rouge-Bleu", "جمعية Jaune-Rouge-Bleu"],
   "66000 Perpignan, France": ["66000 Perpignan, France", "66000 Perpiñán, Francia", "66000 بربينيان، فرنسا"],
   "Téléphone :": ["Telephone:", "Teléfono:", "الهاتف:"],
+  "Œuvres du domaine public de ce musée, moins connues et tirées au hasard, trouvées en direct dans son catalogue ou dans Wikidata.": ["Public-domain works from this museum, less well known and picked at random, found live in its catalogue or in Wikidata.", "Obras de dominio público de este museo, menos conocidas y elegidas al azar, encontradas en directo en su catálogo o en Wikidata.", "أعمال من الملك العام في هذا المتحف، أقل شهرة ومختارة عشوائيًا، وُجدت مباشرة في فهرسه أو في ويكي بيانات."],
   "Ce musée conserve des milliers d'œuvres : choisissez une collection, ou toute la collection.": ["This museum holds thousands of works: choose a collection, or the whole collection.", "Este museo conserva miles de obras: elija una colección, o toda la colección.", "يحتفظ هذا المتحف بآلاف الأعمال: اختر مجموعة، أو المجموعة كاملة."],
   "Toute la collection": ["The whole collection", "Toda la colección", "المجموعة كاملة"],
   "Peintures européennes": ["European Paintings", "Pinturas europeas", "اللوحات الأوروبية"],

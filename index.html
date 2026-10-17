@@ -238,6 +238,7 @@ a.mus-site:hover{color:var(--bleu)}
 .mv-absences b{color:#222}
 .mus-aide{font-size:13px;color:#5c5c5c;margin-top:-6px}
 .expo-sources{font-size:12px;color:#5c5c5c;line-height:1.6;margin-top:10px;padding-top:12px;border-top:1px solid #e0d5c0}
+.expo-noto{margin-top:10px}
 .expo-note{background:#fff8e1;border-left:3px solid var(--jaune);padding:10px 14px;font-size:13px;color:#555;margin-bottom:18px;line-height:1.6}
 /* Visionneuse : image d'une œuvre en grand */
 img.zoom{cursor:zoom-in}
@@ -576,7 +577,8 @@ html.sans-animation *,html.sans-animation *::before,html.sans-animation *::after
 <div id="pg-expo" class="pg">
   <div class="wrap">
     <div class="expo-top">
-      <div><h2 id="expo-h">Exposition</h2><p style="font-size:13px;color:#666;margin-top:4px" id="expo-s"></p></div>
+      <div><h2 id="expo-h">Exposition</h2><p style="font-size:13px;color:#666;margin-top:4px" id="expo-s"></p>
+        <div class="tags expo-noto" role="group" aria-label="Œuvres" id="expo-noto"><span class="tag on" role="button" tabindex="0" aria-pressed="true" data-notoriete="celebres" onclick="relancerExpo(this.dataset.notoriete)">Les plus célèbres</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-notoriete="decouvertes" onclick="relancerExpo(this.dataset.notoriete)">Découvertes (moins connues)</span></div></div>
       <button class="back-btn" onclick="go('build',document.querySelectorAll('.nav-links button')[1])"><span aria-hidden="true">←</span> Retour</button>
     </div>
     <div id="expo-tl" aria-live="polite"></div>
@@ -820,9 +822,9 @@ html.sans-animation *,html.sans-animation *::before,html.sans-animation *::after
   </div>
 </footer>
 <!-- Traductions (anglais, espagnol, arabe) et moteur de traduction -->
-<script src="i18n.js?v=20261016p"></script>
+<script src="i18n.js?v=20261017c"></script>
 <!-- Recherche en direct dans les catalogues ouverts des musées (domaine public) -->
-<script src="musees.js?v=20261016p"></script>
+<script src="musees.js?v=20261017c"></script>
 <script>
 const ART = [
   { img:"images/oeuvres/grande-vague-hokusai.jpg", credit:'Image : <a href="https://www.metmuseum.org/art/collection/search/45434" target="_blank" rel="noopener">The Metropolitan Museum of Art</a>, domaine public (Open Access)', name:"La Grande Vague de Kanagawa", meta:"Katsushika Hokusai · Japon · vers 1830-1832 · Metropolitan Museum of Art",
@@ -1054,15 +1056,17 @@ document.addEventListener('keydown',e=>{if((e.key==='Enter'||e.key===' ')&&e.tar
 // des musées (musees.js), sans intervention humaine.
 // musee (facultatif) : exposition d'un seul musée, lancée depuis la page « Musées » ({source, qid, nom}, voir exposerMusee)
 function genExpo(musee){
-  musee=musee&&musee.source?musee:null;
+  musee=genExpo.musee=musee&&musee.source?musee:null;
   const artiste=musee?'':artisteChoisi();
+  const noto=musee?musee.notoriete||'celebres':notoriete;
+  document.querySelectorAll('#expo-noto .tag').forEach(t=>{const oui=t.dataset.notoriete===noto;t.classList.toggle('on',oui);t.setAttribute('aria-pressed',oui);});
   const intitules=(artiste?[artiste.replace(/(^|[\s-])(\p{L})/gu,(x,a,c)=>a+c.toUpperCase())]:[]).concat(sel.mv,sel.th,sel.ty);
   document.getElementById('expo-h').textContent=musee?musee.nom:(intitules.length?intitules.slice(0,2).join(' & '):'Art universel')+' — '+(sel.rg.length?sel.rg.slice(0,2).join(' · '):'Monde');
   const tl=document.getElementById('expo-tl'),sous=document.getElementById('expo-s');
   sous.textContent=(sel.ep.length?sel.ep.join(', '):'Toutes époques');
   tl.innerHTML='<p class="sub">Recherche en direct dans les catalogues des musées…</p>';
   go('expo',document.querySelectorAll('.nav-links button')[1]);
-  const crit=genExpo.criteres=musee?{th:[],rg:[],ep:[],ty:musee.ty?[musee.ty]:[],mv:[],artiste:'',notoriete:'celebres',musee:musee.source==='wikidata'?musee.qid:null,departement:musee.departement||null}
+  const crit=genExpo.criteres=musee?{th:[],rg:[],ep:[],ty:musee.ty?[musee.ty]:[],mv:[],artiste:'',notoriete:noto,musee:musee.source==='wikidata'?musee.qid:null,departement:musee.departement||null}
     :{th:sel.th.slice(),rg:sel.rg.slice(),ep:sel.ep.slice(),ty:sel.ty.slice(),mv:sel.mv.slice(),artiste,notoriete};
   const vide={oeuvres:[],sources:[]};
   const numero=genExpo.compteur=(genExpo.compteur||0)+1; // si le visiteur relance une recherche, l'ancienne est ignorée
@@ -1094,7 +1098,7 @@ function genExpo(musee){
     // Choix très large (une seule catégorie, sans artiste ni mouvement) : des milliers d'œuvres correspondent, l'exposition
     // n'en montre qu'une sélection ; on invite le visiteur à préciser ses choix
     const large=!musee&&!crit.artiste&&!crit.mv.length&&crit.rg.length+crit.th.length+crit.ep.length+crit.ty.length<=1;
-    if(musee)notes.push(direct.oeuvres.length>=8?'Œuvres du domaine public de ce musée, les plus connues d\'abord, trouvées en direct dans son catalogue ou dans Wikidata.'
+    if(musee)notes.push(direct.oeuvres.length>=8?(noto==='celebres'?'Œuvres du domaine public de ce musée, les plus connues d\'abord, trouvées en direct dans son catalogue ou dans Wikidata.':'Œuvres du domaine public de ce musée, moins connues et tirées au hasard, trouvées en direct dans son catalogue ou dans Wikidata.')
       :'Ce musée n\'a encore que peu d\'œuvres du domaine public décrites avec une image et une date dans les catalogues ouverts : l\'exposition est donc petite.');
     tl.innerHTML=(large?'<p class="expo-note"><span>Votre choix est très large : les musées interrogés conservent des milliers d\'œuvres qui y correspondent, et l\'exposition n\'en montre qu\'une sélection, tirée au hasard et différente à chaque fois. Pour une exposition plus riche et plus précise, ajoutez une époque, un type d\'œuvre, un thème ou un mouvement.</span> <button type="button" class="lien-btn" onclick="affinerExposition()">Ajouter des catégories</button></p>':'')+notes.map(n=>`<p class="expo-note">${esc(n)}</p>`).join('')+(groupes.length?groupes.map((g,i)=>{
       const debut=g.liste[0].year,fin=g.liste[g.liste.length-1].year;
@@ -1114,6 +1118,17 @@ function listeSources(src){
   const nom=s=>`<span>${esc(s.nom)}</span>`+(!s.ok?` (<span>${esc(s.raison||'raison inconnue')}</span>)`:'');
   return `<p class="expo-sources">${[['Œuvres trouvées en direct dans les catalogues de :',avec],['Aucune œuvre correspondant à vos choix dans :',sans],['Catalogues indisponibles pour le moment :',muets]]
     .filter(l=>l[1].length).map(l=>`<span>${l[0]}</span> ${l[1].map(nom).join(' · ')}`).join('<br>')}</p>`;
+}
+// Page de l'exposition : « Les plus célèbres » ou « Découvertes (moins connues) » relance la même exposition
+// (même musée, ou mêmes choix du générateur) avec l'autre choix
+function relancerExpo(v){
+  const c=genExpo.criteres;if(!c||c.notoriete===v)return;
+  if(genExpo.musee){genExpo(Object.assign({},genExpo.musee,{notoriete:v}));return;}
+  Object.keys(sel).forEach(k=>{sel[k]=(c[k]||[]).slice();});
+  document.querySelectorAll('#pg-build .tag').forEach(t=>{const k=((t.getAttribute('onclick')||'').match(/^tog\(this,'(\w+)'\)/)||[])[1];if(!k)return;const oui=(c[k]||[]).includes(t.dataset.v||t.textContent.trim());t.classList.toggle('on',oui);t.setAttribute('aria-pressed',oui);});
+  const a=document.getElementById('gen-artiste');if(a)a.value=c.artiste||'';
+  choisirNotoriete(document.querySelector('#notoriete .tag[data-notoriete="'+v+'"]'));
+  genExpo();
 }
 // « Ajouter des catégories » : retour au formulaire avec les choix de l'exposition affichée, pour les compléter
 function affinerExposition(){
@@ -1550,8 +1565,8 @@ afficherValeurs(0);
 traduirePage();
 </script>
 <!-- Fenêtre Accessibilité de chaque œuvre et menu Affichage et lecture -->
-<script src="accessibilite.js?v=20261016p"></script>
+<script src="accessibilite.js?v=20261017c"></script>
 <!-- Séances de bien-être composées à la demande -->
-<script src="bienetre.js?v=20261016p"></script>
+<script src="bienetre.js?v=20261017c"></script>
 </body>
 </html>

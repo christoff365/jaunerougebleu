@@ -48,8 +48,9 @@ const MOTS_TYPES_RECONNUS = [
   ['Arts décoratifs', /ceramic|porcelain|pottery|vessel|vase|bowl|jar|plate|cup|mirror|jade|textile|embroidery|tapestry|furniture|fitting|glass|metalwork|silver|jewel|costume|armor|arms|tsuba|coin|medal|lacquer|enamel/i],
   ['Peinture', /paint|canvas|oil|tempera|fresco|maleri|icon|panel|scroll|calligraph|emakimono|triptych/i]
 ];
-// Titres évoquant une scène violente ou de nudité : image floutée jusqu'au clic (filtre imparfait, fondé sur le titre)
-const MOTS_SENSIBLES = /\b(nude|naked|nu|nue|nus|nøgen|beheading|decapitat|execution|massacre|crucifixion|martyrdom|torture|corpse|cadavre|slaughter|murder|rape|suicide|severed)/i;
+// Titres évoquant une scène violente : image floutée jusqu'au clic (filtre imparfait, fondé sur le titre)
+// (pas les nus : les musées les montrent sans précaution ; mots entiers seulement, « nu » floutait aussi « La Nuit étoilée »)
+const MOTS_SENSIBLES = /\b(beheading|decapitat\w*|décapit\w*|executions?|massacres?|crucifixion|martyrdom|martyre|torture|corpses?|cadavres?|slaughter|murders?|meurtre|rape|suicide|severed)\b/i;
 
 function anneeDe(texte) {
   if (typeof texte === 'number') return texte;
@@ -87,7 +88,8 @@ function melange(l) { return l.slice().sort(() => Math.random() - 0.5); }
 // Choix « Les plus célèbres » (par défaut) ou « Découvertes (moins connues) » du générateur
 const celebres = c => c.notoriete !== 'decouvertes';
 // Titres d'esquisses et d'études (anglais, français, danois, néerlandais, allemand ; comparés sans accents)
-const ESQUISSE = /\b(study|studies|sketch|sketches|esquisse|esquisses|etude|etudes|croquis|skitse|studie|schets|skizze)\b/;
+// et de dessins préparatoires (« Design for a Poster », « Projet pour un vase », « Entwurf »)
+const ESQUISSE = /\b(study|studies|sketch|sketches|esquisse|esquisses|etude|etudes|croquis|skitse|studie|schets|skizze|entwurf|ontwerp|design for|designs for|projet pour|projet de)\b/;
 
 // Mot ajouté à la recherche pour chaque région (les catalogues cherchent aussi dans la culture et le lieu d'origine)
 // (un mot tiré au hasard à chaque recherche, pour varier les cultures représentées)
@@ -391,7 +393,7 @@ const MOUVEMENTS = [
     "Peindre en plein air la lumière changeante, par touches rapides."],
   ['Postimpressionnisme', 'Europe', 'Europe', '1885–1910', ['Post-Impressionism'], ['Post-Impressionism', 'Post-impressionism'], 'van gogh|gauguin|c[eé]zanne|seurat', ['Vincent van Gogh', 'Paul Gauguin', 'Paul Cézanne', 'Georges Seurat', 'Henri de Toulouse-Lautrec', 'Paul Signac'],
     "Après l'impressionnisme, chacun cherche sa voie : couleur expressive, formes construites, points de couleur."],
-  ['Art nouveau', 'Europe', 'Europe', '1890–1910', ['Art Nouveau'], ['Art Nouveau'], '', ['Alfons Mucha', 'Gustav Klimt', 'Hector Guimard'],
+  ['Art nouveau', 'Europe', 'Europe', '1890–1910', ['Art Nouveau'], ['Art Nouveau'], '', ['Alfons Mucha|Alphonse Mucha', 'Gustav Klimt', 'Hector Guimard', 'Antoni Gaudí', 'Victor Horta', 'Émile Gallé', 'René Lalique', 'Louis Comfort Tiffany', 'Aubrey Beardsley', 'Otto Wagner'],
     "Lignes courbes inspirées des plantes, dans les affiches, les objets et l'architecture."],
   ['Expressionnisme', 'Europe', 'Europe du Nord', '1905–1930', ['Expressionism'], ['Expressionism'], '', ['Edvard Munch', 'Ernst Ludwig Kirchner', 'Egon Schiele', 'Franz Marc', 'August Macke', 'Paula Modersohn-Becker', 'Alexej von Jawlensky', 'James Ensor', 'Max Beckmann'],
     "Couleurs violentes et formes déformées pour exprimer l'angoisse et l'émotion."],
@@ -734,7 +736,7 @@ function chercherWikidataArtisteMouvement(c, n) {
     OPTIONAL { ?i wdt:P195 ?m }
     OPTIONAL { ?i wdt:P31 ?type . ?type rdfs:label ?typeEn FILTER(LANG(?typeEn) = "en") }
     OPTIONAL { ?i wdt:P495 ?origine }
-    OPTIONAL { ?i wdt:P170 ?createur . OPTIONAL { ?createur wdt:P27 ?nat } OPTIONAL { ?createur wdt:P570 ?deces } }
+    OPTIONAL { ?createur wdt:P27 ?nat } OPTIONAL { ?createur wdt:P570 ?deces }
     SERVICE wikibase:label { bd:serviceParam wikibase:language "fr,en,mul". }
   }`;
   // Plusieurs filtres : une requête chacun, en parallèle (plus légères qu'une seule requête qui les réunit, qui dépassait
@@ -765,18 +767,20 @@ function chercherWikidataArtisteMouvement(c, n) {
     const branches = [], mvs = (artistes.mvs || []).map(q => 'wd:' + q);
     // Le mouvement : par son identifiant s'il est connu, sinon par son libellé anglais
     const leMouvement = mvs.length ? `VALUES ?mv { ${mvs.join(' ')} }` : `VALUES ?nomMv { ${mv.wd.map(x => lit(x, 'en')).join(' ')} } ?mv rdfs:label ?nomMv .`;
-    if (mv.wd.length || mvs.length) branches.push(`{ ${leMouvement} ?i wdt:P135|wdt:P136 ?mv ; wdt:P170 ?createur .
+    if (mv.wd.length || mvs.length) branches.push(`{ ${leMouvement} ?i wdt:P135|wdt:P136 ?mv ; wdt:P170|wdt:P84 ?createur .
         ${periode ? `OPTIONAL { ?i wdt:P571 ?dateM } FILTER(!BOUND(?dateM) || (YEAR(?dateM) >= ${periode[0]} && YEAR(?dateM) <= ${periode[1]}))` : ''} }`);
     // Une œuvre de ces artistes rattachée à un autre mouvement est écartée (« Le Christ jaune » de Gauguin, synthétisme ;
     // « La Femme au chapeau » de Matisse, fauvisme)
     const autreMouvement = mvs.length ? `OPTIONAL { ?i wdt:P135 ?mvOeuvre } FILTER(!BOUND(?mvOeuvre) || ?mvOeuvre IN (${mvs.join(', ')}))`
       : mv.wd.length ? `OPTIONAL { ?i wdt:P135 ?mvOeuvre }
         FILTER(!BOUND(?mvOeuvre) || EXISTS { VALUES ?nomMvO { ${mv.wd.map(x => lit(x, 'en')).join(' ')} } ?mvOeuvre rdfs:label ?nomMvO })` : '';
+    // (créateur, ou architecte pour un bâtiment : la Sagrada Família de Gaudí, l'hôtel Tassel de Horta ; la date de mort de
+    // l'un ou de l'autre, qui dit si l'œuvre est du domaine public, est lue pour le ?createur trouvé, voir requeteDe)
     // Deux requêtes : les artistes de la liste MOUVEMENTS (les grands maîtres, dont viennent les chefs-d'œuvre), puis douze
     // autres parmi les plus connus. Si Wikidata est trop chargé pour répondre à la première, elle est refaite avec les seules
     // œuvres présentes dans au moins cinq Wikipédia (les plus célèbres)
     const alias = clesMaitres(mv), deReference = a => alias.has(cleNom(a.nom));
-    const parArtistes = (liste, filtre, extra) => `{ VALUES ?createur { ${liste.map(a => 'wd:' + a.q).join(' ')} } ?i wdt:P170 ?createur ; wdt:P571 ?dateA .
+    const parArtistes = (liste, filtre, extra) => `{ VALUES ?createur { ${liste.map(a => 'wd:' + a.q).join(' ')} } ?i wdt:P170|wdt:P84 ?createur ; wdt:P571 ?dateA .
         ${periode ? `FILTER(YEAR(?dateA) >= ${periode[0]} && YEAR(?dateA) <= ${periode[1]})` : ''} ${filtre} ${extra || ''} }`;
     const ailleurs = maitresDAilleurs([mv.nom]);
     const maitres = artistes.filter(deReference), autres = artistes.filter(a => !deReference(a) && !ailleurs.has(cleNom(a.nom))).slice(0, maitresConnus(mv) ? 8 : 12);

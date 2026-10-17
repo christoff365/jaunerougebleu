@@ -822,9 +822,9 @@ html.sans-animation *,html.sans-animation *::before,html.sans-animation *::after
   </div>
 </footer>
 <!-- Traductions (anglais, espagnol, arabe) et moteur de traduction -->
-<script src="i18n.js?v=20261017k"></script>
+<script src="i18n.js?v=20261017l"></script>
 <!-- Recherche en direct dans les catalogues ouverts des musées (domaine public) -->
-<script src="musees.js?v=20261017k"></script>
+<script src="musees.js?v=20261017l"></script>
 <script>
 const ART = [
   { img:"images/oeuvres/grande-vague-hokusai.jpg", credit:'Image : <a href="https://www.metmuseum.org/art/collection/search/45434" target="_blank" rel="noopener">The Metropolitan Museum of Art</a>, domaine public (Open Access)', name:"La Grande Vague de Kanagawa", meta:"Katsushika Hokusai · Japon · vers 1830-1832 · Metropolitan Museum of Art",
@@ -1086,9 +1086,10 @@ function genExpo(musee){
       choisies=(collection||[]).filter(w=>(crit.th.length&&okTh(w))||(crit.rg.length&&okRg(w))||(crit.ep.length&&okEp(w))||(crit.ty.length&&okTy(w)));
       if(choisies.length)notes.push('Aucune œuvre ne réunit tous vos critères : voici celles qui en partagent au moins un.');
     }
-    const cle=w=>typeof cleOeuvre==='function'?cleOeuvre(w):(w.title+'|'+w.artist).toLowerCase();
-    const vues=new Set(choisies.map(cle));
-    const trouvees=direct.oeuvres.filter(w=>!vues.has(cle(w))).slice(0,48);
+    // Une œuvre trouvée en direct qui est déjà dans la collection du site n'est pas montrée deux fois (voir registreOeuvres)
+    const vues=typeof registreOeuvres==='function'?registreOeuvres():null;
+    if(vues)choisies.forEach(vues.ajouter);
+    const trouvees=direct.oeuvres.filter(w=>!vues||!vues.vue(w)).slice(0,48);
     if(direct.elargi)notes.push('Peu d\'œuvres des catalogues réunissaient tous vos critères : la recherche en direct a été élargie en ignorant les thèmes.');
     if(crit.mv.length)notes.push('Les œuvres ont été choisies parmi celles des artistes du mouvement (d\'après Wikidata et la liste du site), datées de sa période. Pour les mouvements aux œuvres surtout anonymes, elles ont été trouvées par mots-clés, et la sélection est plus approximative. L\'onglet « Mouvements » explique la méthode et ce qui manque.');
     if(crit.artiste)notes.push('Recherche par artiste : seuls les artistes morts depuis plus de 70 ans ont des œuvres dans le domaine public, et le nom doit être écrit comme dans les catalogues (par exemple « Hokusai » ou « Rembrandt »).');
@@ -1565,8 +1566,8 @@ afficherValeurs(0);
 traduirePage();
 </script>
 <!-- Fenêtre Accessibilité de chaque œuvre et menu Affichage et lecture -->
-<script src="accessibilite.js?v=20261017k"></script>
+<script src="accessibilite.js?v=20261017l"></script>
 <!-- Séances de bien-être composées à la demande -->
-<script src="bienetre.js?v=20261017k"></script>
+<script src="bienetre.js?v=20261017l"></script>
 </body>
 </html>

@@ -393,7 +393,7 @@ const MOUVEMENTS = [
     "Après l'impressionnisme, chacun cherche sa voie : couleur expressive, formes construites, points de couleur."],
   ['Art nouveau', 'Europe', 'Europe', '1890–1910', ['Art Nouveau'], ['Art Nouveau'], '', ['Alfons Mucha', 'Gustav Klimt', 'Hector Guimard'],
     "Lignes courbes inspirées des plantes, dans les affiches, les objets et l'architecture."],
-  ['Expressionnisme', 'Europe', 'Europe du Nord', '1905–1930', ['Expressionism'], ['Expressionism'], '', ['Edvard Munch', 'Ernst Ludwig Kirchner', 'Egon Schiele'],
+  ['Expressionnisme', 'Europe', 'Europe du Nord', '1905–1930', ['Expressionism'], ['Expressionism'], '', ['Edvard Munch', 'Ernst Ludwig Kirchner', 'Egon Schiele', 'Franz Marc', 'August Macke', 'Paula Modersohn-Becker', 'Alexej von Jawlensky', 'James Ensor', 'Max Beckmann'],
     "Couleurs violentes et formes déformées pour exprimer l'angoisse et l'émotion."],
   ["Pionniers de l'abstraction", 'Europe', 'Europe', '1910–1940', ['abstract'], ['abstract art'], 'hilma af klint', ['Hilma af Klint', 'Vassily Kandinsky', 'Piet Mondrian'],
     "Premières peintures sans sujet reconnaissable : la couleur et la forme pour elles-mêmes."]
@@ -406,6 +406,13 @@ const MOUVEMENTS = [
 function cleNom(nom) {
   const mots = sansAccents(String(nom || '').split(/[(,;]/)[0]).split(/[\s'’]+/).filter(m => m && !/^(the|elder|younger|le|la|l|jeune|ancien|il|vecchio|giovane)$/.test(m));
   return mots.pop() || '';
+}
+// Artistes de référence d'autres mouvements que ceux choisis (et qui ne sont pas aussi de référence pour eux) : leurs œuvres
+// n'entrent pas dans l'exposition, même si Wikidata les rattache aussi au mouvement (Kandinsky, pionnier de l'abstraction,
+// pour l'expressionnisme ; Gauguin, postimpressionniste, pour l'impressionnisme)
+function maitresDAilleurs(noms) {
+  const ici = new Set([].concat(...noms.map(n => [...clesMaitres(mouvement(n)).keys()])));
+  return new Set([].concat(...MOUVEMENTS.filter(m => !noms.includes(m.nom)).map(m => [...clesMaitres(m).keys()])).filter(k => !ici.has(k)));
 }
 // Le mouvement a-t-il une liste d'artistes de référence assez longue pour que les autres n'aient qu'une petite place ?
 function maitresConnus(mv) { return !!mv && mv.variantes.length >= 6; }
@@ -700,7 +707,8 @@ function nomsArtistesMouvement(mv) {
     const noms = [], vus = new Set();
     // (artistes de référence sous leur écriture anglaise, celle des catalogues ; un artiste n'est cherché qu'une fois)
     const alias = clesMaitres(mv);
-    mv.variantes.map(v => v[v.length - 1]).concat(l.map(a => a.nom)).forEach(x => { const k = alias.get(cleNom(x)) || cleNom(x) || sansAccents(x); if (!vus.has(k)) { vus.add(k); noms.push(x); } });
+    const ailleurs = maitresDAilleurs([mv.nom]);
+    mv.variantes.map(v => v[v.length - 1]).concat(l.map(a => a.nom)).forEach(x => { const k = alias.get(cleNom(x)) || cleNom(x) || sansAccents(x); if (!vus.has(k) && !ailleurs.has(k)) { vus.add(k); noms.push(x); } });
     return noms.slice(0, 8);
   });
 }
@@ -770,7 +778,8 @@ function chercherWikidataArtisteMouvement(c, n) {
     const alias = clesMaitres(mv), deReference = a => alias.has(cleNom(a.nom));
     const parArtistes = (liste, filtre, extra) => `{ VALUES ?createur { ${liste.map(a => 'wd:' + a.q).join(' ')} } ?i wdt:P170 ?createur ; wdt:P571 ?dateA .
         ${periode ? `FILTER(YEAR(?dateA) >= ${periode[0]} && YEAR(?dateA) <= ${periode[1]})` : ''} ${filtre} ${extra || ''} }`;
-    const maitres = artistes.filter(deReference), autres = artistes.filter(a => !deReference(a)).slice(0, maitresConnus(mv) ? 8 : 12);
+    const ailleurs = maitresDAilleurs([mv.nom]);
+    const maitres = artistes.filter(deReference), autres = artistes.filter(a => !deReference(a) && !ailleurs.has(cleNom(a.nom))).slice(0, maitresConnus(mv) ? 8 : 12);
     // (pour les grands maîtres, pas de filtre « autre mouvement » : Wikidata range souvent leurs chefs-d'œuvre dans un
     // sous-mouvement, « haute Renaissance » pour L'École d'Athènes, « première Renaissance » pour La Naissance de Vénus)
     if (maitres.length) branches.push([parArtistes(maitres, ''), parArtistes(maitres, '', '?i wikibase:sitelinks ?l5 . FILTER(?l5 >= 5)')]);
@@ -1207,6 +1216,7 @@ function chercherDansLesMusees(criteres, parSource, seulement) {
         const nomDeFamille = w => cleNom(w.artist);
         // Mouvements choisis : l'œuvre doit dater de leur période (une fiche Wikidata peut porter deux dates, dont une fausse)
         const periodesMv = (criteres.mv || []).map(m => periodeMouvement(mouvement(m))).filter(Boolean);
+        const ailleurs = (criteres.mv || []).length && !criteres.artiste ? maitresDAilleurs(criteres.mv) : new Set();
         const cleMusee = w => [nomDeFamille(w), w.year,
           sansAccents(w.museum).replace(/^the\s+/, '').split(',')[0].trim()].join('|');
         // Recherche par artiste : si des œuvres correspondent sûrement au nom tapé, celles d'homonymes probables sont écartées
@@ -1220,6 +1230,7 @@ function chercherDansLesMusees(criteres, parSource, seulement) {
           if (w.qid && qids.has(w.qid)) return;
           if (cm && parSourceVue.has(cm) && parSourceVue.get(cm) !== source) { const x = oeuvreDeCle.get(cm); x.renom = Math.max(x.renom, w.renom); return; }
           if (periodesMv.length && typeof w.year === 'number' && !periodesMv.some(pe => w.year >= pe[0] && w.year <= pe[1])) return;
+          if (ailleurs.has(nomDeFamille(w))) return;
           // On applique les choix du visiteur aux fiches reçues (les catalogues ne savent pas tous filtrer)
           if (criteres.ep.length && !criteres.ep.includes(w.epoch)) return;
           if (criteres.rg.length && !w.regions.some(x => criteres.rg.includes(x))) return;

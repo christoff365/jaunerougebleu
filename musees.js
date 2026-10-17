@@ -381,7 +381,7 @@ const MOUVEMENTS = [
     "Masques, crochets et figures d'ancêtres peints, liés aux maisons cérémonielles et aux rites."],
   ['Art gothique', 'Europe', 'Europe', 'XIIe–XVe siècle', ['Gothic'], ['Gothic art'], 'licorne', ['Duccio', 'Simone Martini'],
     "Vitraux, sculptures, tapisseries et retables aux fonds d'or, aux silhouettes élancées et aux couleurs précieuses."],
-  ['Renaissance', 'Europe', 'Italie et Europe', 'XVe–XVIe siècle', ['Renaissance'], ['Renaissance', 'Italian Renaissance', 'Northern Renaissance'], 'bruegel', ['Léonard de Vinci', 'Raphaël', 'Albrecht Dürer'],
+  ['Renaissance', 'Europe', 'Italie et Europe', 'XVe–XVIe siècle', ['Renaissance'], ['Renaissance', 'Italian Renaissance', 'Northern Renaissance', 'High Renaissance', 'Early Renaissance'], 'bruegel', ['Léonard de Vinci|Leonardo da Vinci', 'Raphaël|Raphael', 'Albrecht Dürer', 'Michel-Ange|Michel-Ange Buronarroti|Michelangelo', 'Sandro Botticelli', 'Titien|Titian', 'Jan van Eyck', 'Donatello', "Pieter Brueghel l'Ancien|Pieter Bruegel the Elder", 'Jérôme Bosch|Hieronymus Bosch', 'Hans Holbein le Jeune|Hans Holbein the Younger', 'Andrea Mantegna'],
     "Retour à l'Antiquité, invention de la perspective, étude du corps et de la nature."],
   ['Baroque', 'Europe', 'Europe et Amériques', 'XVIIe siècle', ['Baroque'], ['Baroque', 'Baroque painting'], 'caravage|rembrandt', ['Le Caravage', 'Pierre Paul Rubens', 'Rembrandt'],
     "Mouvement, contrastes de lumière et émotion, des églises de Rome aux missions des Amériques."],
@@ -397,10 +397,28 @@ const MOUVEMENTS = [
     "Couleurs violentes et formes déformées pour exprimer l'angoisse et l'émotion."],
   ["Pionniers de l'abstraction", 'Europe', 'Europe', '1910–1940', ['abstract'], ['abstract art'], 'hilma af klint', ['Hilma af Klint', 'Vassily Kandinsky', 'Piet Mondrian'],
     "Premières peintures sans sujet reconnaissable : la couleur et la forme pour elles-mêmes."]
-].map(([nom, region, lieu, epoque, mots, wd, local, artistes, texte]) => ({ nom, region, lieu, epoque, mots, wd, local, artistes, texte }));
+].map(([nom, region, lieu, epoque, mots, wd, local, artistes, texte]) => ({ nom, region, lieu, epoque, mots, wd, local, texte,
+  // Un artiste peut avoir plusieurs écritures (« Michel-Ange|Michelangelo ») : la première est affichée, la dernière
+  // (anglaise) sert aux recherches dans les catalogues, toutes servent à le reconnaître
+  artistes: artistes.map(a => a.split('|')[0]), variantes: artistes.map(a => a.split('|')) }));
+// Clé d'un nom d'artiste : son nom de famille, sans accents ni « l'Ancien », « the Younger »… (« Pieter Bruegel the Elder »,
+// « Pieter Brueghel l'Ancien » → bruegel, brueghel ; « Dürer, Albrecht » → durer)
+function cleNom(nom) {
+  const mots = sansAccents(String(nom || '').split(/[(,;]/)[0]).split(/[\s'’]+/).filter(m => m && !/^(the|elder|younger|le|la|l|jeune|ancien|il|vecchio|giovane)$/.test(m));
+  return mots.pop() || '';
+}
+// Le mouvement a-t-il une liste d'artistes de référence assez longue pour que les autres n'aient qu'une petite place ?
+function maitresConnus(mv) { return !!mv && mv.variantes.length >= 6; }
+// Clés des artistes de référence d'un mouvement, chaque écriture renvoyant à la clé de la première
+function clesMaitres(mv) {
+  const alias = new Map();
+  (mv ? mv.variantes : []).forEach(v => v.forEach(x => alias.set(cleNom(x), cleNom(v[0]))));
+  return alias;
+}
 function mouvement(nom) { return MOUVEMENTS.find(m => m.nom === nom) || null; }
 // Mouvements de peintres : si le visiteur n'a pas choisi de type, l'exposition ne montre que des peintures
 // (pas les dessins, études, estampes ou éventails que les catalogues renvoient aussi pour ces artistes)
+const MOUVEMENTS_D_ESTAMPES = new Set(['Ukiyo-e', 'Expressionnisme']);
 const MOUVEMENTS_DE_PEINTURE = new Set(['Impressionnisme', 'Postimpressionnisme', 'Romantisme', 'Hudson River School', 'École de Cuzco', 'Peinture de castas']);
 // Une œuvre de collection.json appartient-elle à ce mouvement ? (d'après son artiste ou son titre)
 function oeuvreDuMouvement(w, nom) {
@@ -618,9 +636,9 @@ const ARTISTES_MOUVEMENTS = {};
 function artistesDuMouvement(mv) {
   if (ARTISTES_MOUVEMENTS[mv.nom]) return ARTISTES_MOUVEMENTS[mv.nom];
   const lit = (s, l) => JSON.stringify(s) + '@' + l;
-  const refs = mv.artistes.slice(0, 3);
+  const refs = mv.variantes.slice(0, 3);
   const parLibelle = mv.wd.length ? `{ VALUES ?nomMv { ${mv.wd.map(x => lit(x, 'en')).join(' ')} } ?mv rdfs:label ?nomMv . }` : '';
-  const parArtistes = refs.length >= 2 ? `{ SELECT ?mv WHERE { VALUES ?nom { ${[].concat(...refs.map(x => [lit(x, 'en'), lit(x, 'fr'), lit(x, 'mul')])).join(' ')} }
+  const parArtistes = refs.length >= 2 ? `{ SELECT ?mv WHERE { VALUES ?nom { ${[].concat(...[].concat(...refs).map(x => [lit(x, 'en'), lit(x, 'fr'), lit(x, 'mul')])).join(' ')} }
       ?ref rdfs:label ?nom ; wdt:P135 ?mv . } GROUP BY ?mv HAVING(COUNT(DISTINCT ?ref) >= ${refs.length}) }` : '';
   if (!parLibelle && !parArtistes) return Promise.resolve([]);
   // Ordre imposé : d'abord le mouvement, puis ses artistes, puis leur notoriété (sinon Wikidata peut commencer par
@@ -633,13 +651,29 @@ function artistesDuMouvement(mv) {
     ?a wdt:P31 wd:Q5 .
     ?a wikibase:sitelinks ?liens .
     SERVICE wikibase:label { bd:serviceParam wikibase:language "en,fr,mul". }
-  } ORDER BY DESC(?liens) LIMIT 60`;
-  const p = ARTISTES_MOUVEMENTS[mv.nom] = sparql(requete, 10000).then(l => {
+  } ORDER BY DESC(?liens) LIMIT 150`;
+  // Les artistes de référence sont aussi retrouvés par leur nom, quel que soit le mouvement que Wikidata leur donne
+  // (Michel-Ange, Botticelli, Titien sont rangés dans la « haute » ou la « première Renaissance », pas dans « Renaissance ») ;
+  // pour chaque artiste, la personne de ce nom la plus présente dans les Wikipédia (pas un homonyme)
+  const requeteRefs = `SELECT ?nom ?a ?aLabel ?liens WHERE {
+    hint:Query hint:optimizer "None" .
+    VALUES ?nom { ${[].concat(...[].concat(...mv.variantes).map(x => [lit(x, 'en'), lit(x, 'fr'), lit(x, 'mul')])).join(' ')} }
+    ?a rdfs:label ?nom . ?a wdt:P31 wd:Q5 . ?a wikibase:sitelinks ?liens .
+    SERVICE wikibase:label { bd:serviceParam wikibase:language "en,fr,mul". }
+  }`;
+  const deRef = mv.variantes.length ? sparql(requeteRefs, 10000).catch(() => []) : Promise.resolve([]);
+  const p = ARTISTES_MOUVEMENTS[mv.nom] = Promise.all([sparql(requete, 10000), deRef]).then(([l, lr]) => {
     const vus = new Set(), artistes = [];
-    l.forEach(b => { const a = { q: qid(b, 'a'), nom: val(b, 'aLabel') }; if (a.nom && !/^Q\d+$/.test(a.nom) && !vus.has(a.q)) { vus.add(a.q); artistes.push(a); } });
+    const ajouter = a => { if (a.nom && !/^Q\d+$/.test(a.nom) && !vus.has(a.q)) { vus.add(a.q); artistes.push(a); } };
+    mv.variantes.forEach(v => {
+      const cles = new Set(v.map(x => sansAccents(x)));
+      const choix = lr.filter(b => cles.has(sansAccents(val(b, 'nom')))).sort((x, y) => (Number(val(y, 'liens')) || 0) - (Number(val(x, 'liens')) || 0))[0];
+      if (choix) ajouter({ q: qid(choix, 'a'), nom: val(choix, 'aLabel') });
+    });
+    l.forEach(b => ajouter({ q: qid(b, 'a'), nom: val(b, 'aLabel') }));
     // Identifiants Wikidata du mouvement (Q166713…), pour chercher ses œuvres sans dépendre de l'écriture de son nom
     // (« Post-impressionism » dans Wikidata, « Post-Impressionism » dans la liste MOUVEMENTS)
-    const liste = artistes.slice(0, 40);
+    const liste = artistes.slice(0, 40 + mv.variantes.length);
     liste.mvs = [...new Set(l.map(b => qid(b, 'mv')).filter(Boolean))];
     return liste;
   });
@@ -653,7 +687,9 @@ function nomsArtistesMouvement(mv) {
   const attente = new Promise(ok => setTimeout(() => ok([]), 4000));
   return Promise.race([artistesDuMouvement(mv).catch(() => []), attente]).then(l => {
     const noms = [], vus = new Set();
-    mv.artistes.concat(l.map(a => a.nom)).forEach(x => { const k = sansAccents(x); if (!vus.has(k)) { vus.add(k); noms.push(x); } });
+    // (artistes de référence sous leur écriture anglaise, celle des catalogues ; un artiste n'est cherché qu'une fois)
+    const alias = clesMaitres(mv);
+    mv.variantes.map(v => v[v.length - 1]).concat(l.map(a => a.nom)).forEach(x => { const k = alias.get(cleNom(x)) || cleNom(x) || sansAccents(x); if (!vus.has(k)) { vus.add(k); noms.push(x); } });
     return noms.slice(0, 8);
   });
 }
@@ -718,14 +754,17 @@ function chercherWikidataArtisteMouvement(c, n) {
       : mv.wd.length ? `OPTIONAL { ?i wdt:P135 ?mvOeuvre }
         FILTER(!BOUND(?mvOeuvre) || EXISTS { VALUES ?nomMvO { ${mv.wd.map(x => lit(x, 'en')).join(' ')} } ?mvOeuvre rdfs:label ?nomMvO })` : '';
     // Deux requêtes : les artistes de la liste MOUVEMENTS (les grands maîtres, dont viennent les chefs-d'œuvre), puis douze
-    // autres parmi les plus connus. Si Wikidata est trop chargé pour répondre à la première, elle est refaite sans le filtre
-    // « autre mouvement » et avec les seules œuvres présentes dans au moins cinq Wikipédia (les plus célèbres)
-    const deReference = a => mv.artistes.some(x => sansAccents(x).split(/\s+/).pop() === sansAccents(a.nom).split(/\s+/).pop());
+    // autres parmi les plus connus. Si Wikidata est trop chargé pour répondre à la première, elle est refaite avec les seules
+    // œuvres présentes dans au moins cinq Wikipédia (les plus célèbres)
+    const alias = clesMaitres(mv), deReference = a => alias.has(cleNom(a.nom));
     const parArtistes = (liste, filtre, extra) => `{ VALUES ?createur { ${liste.map(a => 'wd:' + a.q).join(' ')} } ?i wdt:P170 ?createur ; wdt:P571 ?dateA .
         ${periode ? `FILTER(YEAR(?dateA) >= ${periode[0]} && YEAR(?dateA) <= ${periode[1]})` : ''} ${filtre} ${extra || ''} }`;
-    const maitres = artistes.filter(deReference), autres = artistes.filter(a => !deReference(a)).slice(0, 12);
-    if (maitres.length) branches.push([parArtistes(maitres, autreMouvement), parArtistes(maitres, '', '?i wikibase:sitelinks ?l5 . FILTER(?l5 >= 5)')]);
-    if (autres.length) branches.push(parArtistes(autres, autreMouvement));
+    const maitres = artistes.filter(deReference), autres = artistes.filter(a => !deReference(a)).slice(0, maitresConnus(mv) ? 8 : 12);
+    // (pour les grands maîtres, pas de filtre « autre mouvement » : Wikidata range souvent leurs chefs-d'œuvre dans un
+    // sous-mouvement, « haute Renaissance » pour L'École d'Athènes, « première Renaissance » pour La Naissance de Vénus)
+    if (maitres.length) branches.push([parArtistes(maitres, ''), parArtistes(maitres, '', '?i wikibase:sitelinks ?l5 . FILTER(?l5 >= 5)')]);
+    // (œuvres des autres artistes : leur place est limitée ensuite, seules les plus connues sont demandées)
+    if (autres.length) branches.push(parArtistes(autres, autreMouvement, celebres(c) ? '?i wikibase:sitelinks ?l3 . FILTER(?l3 >= 3)' : ''));
     return branches.length ? oeuvresDe(...branches) : [];
   });
 }
@@ -1154,7 +1193,7 @@ function chercherDansLesMusees(criteres, parSource, seulement) {
         // « Paris Street; Rainy Day » à Chicago) : même fiche Wikidata, ou même artiste, même année et même musée dans deux
         // sources différentes (dans une même source, ce sont souvent des œuvres différentes : une série d'estampes de la même année)
         const qids = new Set(), parSourceVue = new Map(), oeuvreDeCle = new Map();
-        const nomDeFamille = w => sansAccents(String(w.artist || '').split(/[(,;]/)[0]).trim().split(/\s+/).pop();
+        const nomDeFamille = w => cleNom(w.artist);
         // Mouvements choisis : l'œuvre doit dater de leur période (une fiche Wikidata peut porter deux dates, dont une fausse)
         const periodesMv = (criteres.mv || []).map(m => periodeMouvement(mouvement(m))).filter(Boolean);
         const cleMusee = w => [nomDeFamille(w), w.year,
@@ -1182,7 +1221,10 @@ function chercherDansLesMusees(criteres, parSource, seulement) {
           if (regionsMv.length && w.regions.length && !w.regions.some(x => regionsMv.includes(x))) return;
           // Recherche par artiste : les catalogues renvoient surtout des gravures (Rembrandt, Dürer…) ; trois au plus,
           // pour laisser la place aux peintures, sauf si le visiteur a choisi « Dessins et estampes »
-          if (criteres.artiste && !criteres.ty.length && w.types.includes('Dessins et estampes') && oeuvres.filter(x => x.types.includes('Dessins et estampes')).length >= 3) return;
+          // De même pour un mouvement qui n'est pas d'abord un art de l'estampe (pas l'ukiyo-e ni l'expressionnisme) : la Renaissance
+          // ne doit pas se résumer aux gravures de Dürer
+          const estampesLimitees = criteres.artiste || ((criteres.mv || []).length && !criteres.mv.some(m => MOUVEMENTS_D_ESTAMPES.has(m)));
+          if (estampesLimitees && !criteres.ty.length && w.types.includes('Dessins et estampes') && oeuvres.filter(x => x.types.includes('Dessins et estampes')).length >= 3) return;
           vus.add(cle); oeuvres.push(w);
           if (w.qid) qids.add(w.qid);
           if (cm && !parSourceVue.has(cm)) { parSourceVue.set(cm, source); oeuvreDeCle.set(cm, w); }
@@ -1193,23 +1235,27 @@ function chercherDansLesMusees(criteres, parSource, seulement) {
         // chefs-d'œuvre en tête ; deux pour les artistes que Wikidata rattache aussi au mouvement (Gauguin, Waterhouse…).
         // « Découvertes » : cinq chacun
         if ((criteres.mv || []).length && !criteres.artiste) {
+          // Artistes reconnus par leur nom de famille (« Auguste Renoir » dans Wikidata, « Pierre-Auguste Renoir » à Chicago),
+          // les écritures d'un même maître étant réunies (« Michel-Ange » dans Wikidata, « Michelangelo » au Met)
+          const alias = new Map([].concat(...criteres.mv.map(m => [...clesMaitres(mouvement(m))])));
+          const maitres = new Set(alias.values()), cleArtiste = w => alias.get(nomDeFamille(w)) || nomDeFamille(w);
           const parArtiste = new Map();
-          // (par nom de famille : « Auguste Renoir » dans Wikidata, « Pierre-Auguste Renoir » à Chicago)
-          oeuvres.forEach(w => { const a = nomDeFamille(w) || cleOeuvre(w); if (!parArtiste.has(a)) parArtiste.set(a, []); parArtiste.get(a).push(w); });
+          oeuvres.forEach(w => { const a = cleArtiste(w) || cleOeuvre(w); if (!parArtiste.has(a)) parArtiste.set(a, []); parArtiste.get(a).push(w); });
           let groupes = [...parArtiste.values()], rangs = [];
           const celebre = celebres(criteres);
-          const maitres = new Set([].concat(...criteres.mv.map(m => (mouvement(m) || { artistes: [] }).artistes)).map(a => nomDeFamille({ artist: a })));
           if (celebre) {
             groupes.forEach(g => g.sort((a, b) => b.renom - a.renom));
             const score = g => g.slice(0, 3).reduce((t, w) => t + w.renom, 0); // ses trois œuvres les plus connues
-            groupes = groupes.map((g, i) => ({ g, i, ref: maitres.has(nomDeFamille(g[0])) })).sort((a, b) => (b.ref - a.ref) || (score(b.g) - score(a.g)) || (a.i - b.i));
+            groupes = groupes.map((g, i) => ({ g, i, ref: maitres.has(cleArtiste(g[0])) })).sort((a, b) => (b.ref - a.ref) || (score(b.g) - score(a.g)) || (a.i - b.i));
             rangs = groupes.map(x => x.ref); groupes = groupes.map(x => x.g);
           }
-          const plafond = i => groupes.length < 4 ? Infinity : !celebre ? 5 : !maitres.size ? (i < 4 ? 7 : 3) : !rangs[i] ? 2 : i < 4 ? 7 : 4;
+          // (liste de référence courte, moins de six maîtres : ukiyo-e… : les autres artistes du mouvement gardent toute leur place)
+          const listeComplete = maitres.size >= 6;
+          const plafond = i => groupes.length < 4 ? Infinity : !celebre ? 5 : !listeComplete ? (i < 4 ? 7 : 3) : !rangs[i] ? 2 : i < 4 ? 7 : 4;
           const equilibrees = [];
           for (let k = 0; groupes.some((g, i) => k < Math.min(g.length, plafond(i))); k++) groupes.forEach((g, i) => { if (k < Math.min(g.length, plafond(i))) equilibrees.push(g[k]); });
           // et trois œuvres au plus, en tout, de ces autres artistes (Mondrian, Matisse… pour le postimpressionnisme)
-          const autres = new Set(celebre && maitres.size ? [].concat(...groupes.filter((g, i) => !rangs[i])) : []);
+          const autres = new Set(celebre && listeComplete ? [].concat(...groupes.filter((g, i) => !rangs[i])) : []);
           let nAutres = 0;
           oeuvres.splice(0, oeuvres.length, ...equilibrees.filter(w => !autres.has(w) || ++nAutres <= 3));
         }

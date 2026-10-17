@@ -144,6 +144,8 @@ function oeuvre(o) {
     regions: o.regions || (regionsDe(texteLieu).length ? regionsDe(texteLieu) : regionsDe(o.indiceRegion || '')), epoch: epoqueDe(annee), themes: [],
     types: [o.type || typeDe(o.classification, o.titre)], langue: o.langue || 'en', direct: true, pastille: o.pastille,
     sensible: MOTS_SENSIBLES.test(o.titre || ''),
+    // Notoriété (nombre de Wikipédia qui ont un article sur l'œuvre, fiches Wikidata seulement) et identifiant Wikidata
+    renom: o.renom || 0, qid: o.qid || null,
     // Indices du pays d'origine (lieu, culture, nationalité de l'artiste), pour la règle des pays des expositions spéciales
     // (séparés par « | » : le lieu est examiné en premier, puis la culture, puis la nationalité)
     origine: [o.lieu, o.culture, o.nationalite].filter(Boolean).join(' | ')
@@ -544,7 +546,9 @@ function oeuvresWikidata(lignes, n, options) {
   });
   const parLieu = {}, choisies = [];
   const plafond = options.plafond || Math.max(2, Math.ceil(n / 3));
-  for (const b of [...vus.values()].sort(() => Math.random() - 0.5)) {
+  // Les plus connues d'abord si demandé (options.garderOrdre), sinon au hasard
+  const ordre = options.garderOrdre ? [...vus.values()].sort((a, b) => (Number(val(b, 'liens')) || 0) - (Number(val(a, 'liens')) || 0)) : [...vus.values()].sort(() => Math.random() - 0.5);
+  for (const b of ordre) {
     const lieu = val(b, options.lieu);
     parLieu[lieu] = (parLieu[lieu] || 0) + 1;
     if (parLieu[lieu] > plafond) continue;
@@ -568,7 +572,8 @@ function oeuvresWikidata(lignes, n, options) {
       credit: creditCommons(options.musee(lieu), fichiers[k], info) + (options.notice ? ' ; ' + options.notice(b) : ''),
       regions: region ? [region] : [],
       type: options.type || (classes[qid(b, 'i')] || []).map(typeDe).find(t => t !== 'Autre') || 'Autre',
-      pastille: options.pastille || 'Wikidata et Wikimedia Commons, en direct'
+      pastille: options.pastille || 'Wikidata et Wikimedia Commons, en direct',
+      renom: Number(val(b, 'liens')) || 0, qid: qid(b, 'i')
     });
   }));
 }
@@ -650,10 +655,12 @@ function chercherWikidataArtisteMouvement(c, n) {
   const lit = (s, l) => JSON.stringify(s) + '@' + l;
   const d = bornesEpoques(c.ep || []);
   // Œuvres qui répondent au filtre, illustrées, les plus connues d'abord (ou au hasard pour les découvertes)
-  const oeuvresDe = filtre => sparql(`SELECT ?i ?iLabel ?m ?mLabel ?date ?img ?typeEn ?createur ?createurLabel ?deces ?origine ?origineLabel ?nat WHERE {
-    { SELECT DISTINCT ?i ?createur ?img ?date WHERE {
+  // c.joconde : seulement les œuvres des musées de France qui ont une notice Joconde (P347), pour la source Joconde
+  const oeuvresDe = filtre => sparql(`SELECT ?i ?iLabel ?m ?mLabel ?date ?img ?jc ?liens ?typeEn ?createur ?createurLabel ?deces ?origine ?origineLabel ?nat WHERE {
+    { SELECT DISTINCT ?i ?createur ?img ?date ?jc ?liens WHERE {
         hint:Query hint:optimizer "None" .
         ${filtre}
+        ${c.joconde ? '?i wdt:P347 ?jc .' : ''}
         ?i wdt:P18 ?img . OPTIONAL { ?i wdt:P571 ?date }
         ${d ? `FILTER(!BOUND(?date) || (YEAR(?date) >= ${d[0]} && YEAR(?date) <= ${d[1]}))` : ''}
         ?i wikibase:sitelinks ?liens .
@@ -663,9 +670,14 @@ function chercherWikidataArtisteMouvement(c, n) {
     OPTIONAL { ?i wdt:P495 ?origine }
     OPTIONAL { ?i wdt:P170 ?createur . OPTIONAL { ?createur wdt:P27 ?nat } OPTIONAL { ?createur wdt:P570 ?deces } }
     SERVICE wikibase:label { bd:serviceParam wikibase:language "fr,en,mul". }
-  }`, 12000).then(lignes => oeuvresWikidata(lignes, n, {
-    lieu: 'mLabel', musee: nom => (nom && !/^Q\d+$/.test(nom) ? nom : 'Wikidata'), region: () => (mv ? mv.region : null)
-  }));
+  }`, 12000).then(lignes => oeuvresWikidata(lignes, n, Object.assign({
+    // Œuvres célèbres : les plus connues gardent leur rang, et un même musée (Orsay…) peut en fournir la moitié
+    lieu: 'mLabel', musee: nom => (nom && !/^Q\d+$/.test(nom) ? nom : 'Wikidata'), region: () => (mv ? mv.region : null),
+    garderOrdre: celebres(c), plafond: celebres(c) ? Math.ceil(n / 2) : 0
+  }, c.joconde ? {
+    musee: nom => (nom && !/^Q\d+$/.test(nom) ? nom : 'Musée de France'), pastille: 'Notice Joconde des musées de France, en direct',
+    notice: b => 'notice Joconde (https://pop.culture.gouv.fr/notice/joconde/' + encodeURIComponent(val(b, 'jc')) + ')'
+  } : {})));
   if (c.artiste) {
     // Le nom tapé, et la même chose avec des majuscules aux initiales (« hokusai » → « Hokusai »)
     const noms = [...new Set([c.artiste.trim(), c.artiste.trim().replace(/(^|[\s-])(\p{L})/gu, (x, a, b) => a + b.toUpperCase())])];
@@ -826,7 +838,9 @@ const ADAPTATEURS = {
   joconde: {
     nom: 'Musées de France (base Joconde)',
     chercher(c, n) {
-      if (c.artiste || c.mouvement) return Promise.resolve([]); // couvert par la source Wikidata
+      if (c.artiste) return Promise.resolve([]); // couvert par la source Wikidata
+      // Mouvement : œuvres de ses artistes conservées dans les musées de France (Orsay, Marmottan, musées de région…)
+      if (c.mouvement) return (mouvement(c.mouvement) || {}).region === 'Europe' ? chercherWikidataArtisteMouvement(Object.assign({}, c, { joconde: true }), n) : Promise.resolve([]);
       // Hors d'Europe, la recherche (œuvres des musées de France venues d'Amérique, d'Asie…) prend 30 à 70 secondes à Wikidata
       // pour presque rien trouver, et épuise le quota de calcul du visiteur (les autres recherches Wikidata échouaient ensuite) :
       // ces œuvres viennent des autres sources (Wikidata, musées du monde entier)
@@ -1091,15 +1105,27 @@ function chercherDansLesMusees(criteres, parSource, seulement) {
         const vus = new Set(), oeuvres = [];
         // Les catalogues sont pris à tour de rôle, pour que chaque institution soit représentée
         const alternees = [];
-        for (let k = 0; resultats.some(r => k < r.liste.length); k++) resultats.forEach(r => { if (k < r.liste.length) alternees.push(r.liste[k]); });
+        for (let k = 0; resultats.some(r => k < r.liste.length); k++) resultats.forEach(r => { if (k < r.liste.length) alternees.push([r.liste[k], r.source]); });
+        // Une même œuvre peut venir de deux sources sous deux titres (« Rue de Paris, temps de pluie » dans Wikidata,
+        // « Paris Street; Rainy Day » à Chicago) : même fiche Wikidata, ou même artiste, même année et même musée dans deux
+        // sources différentes (dans une même source, ce sont souvent des œuvres différentes : une série d'estampes de la même année)
+        const qids = new Set(), parSourceVue = new Map(), oeuvreDeCle = new Map();
+        const nomDeFamille = w => sansAccents(String(w.artist || '').split(/[(,;]/)[0]).trim().split(/\s+/).pop();
+        // Mouvements choisis : l'œuvre doit dater de leur période (une fiche Wikidata peut porter deux dates, dont une fausse)
+        const periodesMv = (criteres.mv || []).map(m => periodeMouvement(mouvement(m))).filter(Boolean);
+        const cleMusee = w => [nomDeFamille(w), w.year,
+          sansAccents(w.museum).replace(/^the\s+/, '').split(',')[0].trim()].join('|');
         // Recherche par artiste : si des œuvres correspondent sûrement au nom tapé, celles d'homonymes probables sont écartées
         const sur = criteres.artiste && alternees.some(w => deLArtiste(w, criteres.artiste) === 2);
         // Mouvements choisis : une œuvre d'une autre région n'en fait pas partie (une affiche française citant l'ukiyo-e…)
         const regionsMv = (criteres.mv || []).map(m => (mouvement(m) || {}).region).filter(Boolean);
         const peinturesSeulement = !criteres.ty.length && (criteres.mv || []).length && criteres.mv.every(m => MOUVEMENTS_DE_PEINTURE.has(m));
-        alternees.forEach(w => {
-          const cle = cleOeuvre(w);
+        alternees.forEach(([w, source]) => {
+          const cle = cleOeuvre(w), cm = w.artist && w.year ? cleMusee(w) : '';
           if (!w.title || vus.has(cle) || !w.epoch) return;
+          if (w.qid && qids.has(w.qid)) return;
+          if (cm && parSourceVue.has(cm) && parSourceVue.get(cm) !== source) { const x = oeuvreDeCle.get(cm); x.renom = Math.max(x.renom, w.renom); return; }
+          if (periodesMv.length && typeof w.year === 'number' && !periodesMv.some(pe => w.year >= pe[0] && w.year <= pe[1])) return;
           // On applique les choix du visiteur aux fiches reçues (les catalogues ne savent pas tous filtrer)
           if (criteres.ep.length && !criteres.ep.includes(w.epoch)) return;
           if (criteres.rg.length && !w.regions.some(x => criteres.rg.includes(x))) return;
@@ -1111,15 +1137,26 @@ function chercherDansLesMusees(criteres, parSource, seulement) {
           // pour laisser la place aux peintures, sauf si le visiteur a choisi « Dessins et estampes »
           if (criteres.artiste && !criteres.ty.length && w.types.includes('Dessins et estampes') && oeuvres.filter(x => x.types.includes('Dessins et estampes')).length >= 3) return;
           vus.add(cle); oeuvres.push(w);
+          if (w.qid) qids.add(w.qid);
+          if (cm && !parSourceVue.has(cm)) { parSourceVue.set(cm, source); oeuvreDeCle.set(cm, w); }
         });
-        // Mouvement choisi : les artistes sont pris à tour de rôle, cinq œuvres chacun au plus,
-        // pour que l'exposition montre tout le mouvement et pas seulement ses deux ou trois plus grands noms
+        // Mouvement choisi : les artistes sont pris à tour de rôle, pour que l'exposition montre tout le mouvement.
+        // « Les plus célèbres » : les grands maîtres d'abord (artistes dont les œuvres sont les plus connues), sept œuvres
+        // chacun pour les quatre premiers, trois pour les autres, leurs chefs-d'œuvre en tête ; « Découvertes » : cinq chacun
         if ((criteres.mv || []).length && !criteres.artiste) {
           const parArtiste = new Map();
-          oeuvres.forEach(w => { const a = sansAccents(String(w.artist || '').split(/[(,;]/)[0]).trim() || cleOeuvre(w); if (!parArtiste.has(a)) parArtiste.set(a, []); parArtiste.get(a).push(w); });
-          const groupes = [...parArtiste.values()], equilibrees = [];
-          const plafond = groupes.length >= 4 ? 5 : Infinity;
-          for (let k = 0; k < plafond && groupes.some(g => k < g.length); k++) groupes.forEach(g => { if (k < g.length) equilibrees.push(g[k]); });
+          // (par nom de famille : « Auguste Renoir » dans Wikidata, « Pierre-Auguste Renoir » à Chicago)
+          oeuvres.forEach(w => { const a = nomDeFamille(w) || cleOeuvre(w); if (!parArtiste.has(a)) parArtiste.set(a, []); parArtiste.get(a).push(w); });
+          let groupes = [...parArtiste.values()];
+          const celebre = celebres(criteres);
+          if (celebre) {
+            groupes.forEach(g => g.sort((a, b) => b.renom - a.renom));
+            const score = g => g.slice(0, 3).reduce((t, w) => t + w.renom, 0); // ses trois œuvres les plus connues
+            groupes = groupes.map((g, i) => ({ g, i })).sort((a, b) => (score(b.g) - score(a.g)) || (a.i - b.i)).map(x => x.g);
+          }
+          const plafond = i => groupes.length < 4 ? Infinity : celebre ? (i < 4 ? 7 : 3) : 5;
+          const equilibrees = [];
+          for (let k = 0; groupes.some((g, i) => k < Math.min(g.length, plafond(i))); k++) groupes.forEach((g, i) => { if (k < Math.min(g.length, plafond(i))) equilibrees.push(g[k]); });
           oeuvres.splice(0, oeuvres.length, ...equilibrees);
         }
         return { oeuvres, sources: resultats.map(r => ({ nom: r.source, ok: r.ok, nombre: r.liste.length, raison: r.raison })) };

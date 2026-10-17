@@ -1,0 +1,8 @@
+SELECT ?a ?aLabel ?liens WHERE {
+    hint:Query hint:optimizer "None" .
+    { SELECT DISTINCT ?mv WHERE { { VALUES ?nomMv { "Hudson River School"@en } ?mv rdfs:label ?nomMv . } UNION { SELECT ?mv WHERE { VALUES ?nom { "Thomas Cole"@en "Thomas Cole"@fr "Thomas Cole"@mul "Frederic Edwin Church"@en "Frederic Edwin Church"@fr "Frederic Edwin Church"@mul "Albert Bierstadt"@en "Albert Bierstadt"@fr "Albert Bierstadt"@mul }
+      ?ref rdfs:label ?nom ; wdt:P135 ?mv . } GROUP BY ?mv HAVING(COUNT(DISTINCT ?ref) >= 3) } } }
+    ?a wdt:P135 ?mv .
+    ?a wikibase:sitelinks ?liens .
+    SERVICE wikibase:label { bd:serviceParam wikibase:language "en,fr,mul". }
+  } ORDER BY DESC(?liens) LIMIT 60

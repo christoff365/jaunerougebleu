@@ -39,7 +39,7 @@ const MOTS_TYPES_RECONNUS = [
   // pas les lettres ni les documents écrits à la main (voir PAS_UN_MANUSCRIT)
   ['Manuscrits et livres enluminés', /illuminat|enlumin|book of hours|livre d.heures|psalter|psautier|gospel|[ée]vang[ée]li(?!st)|bible|antiphon|gradual|graduel|missal|missel|breviar|bréviaire|lectionar|qur.?an|koran|coran|shahnam|codex|(leaf|folio|page) from (a|an|the)\b|manuscript (leaf|page|cutting|illumination)|miniature from/i],
   ['Icônes', /\bicons?\b|icône|iconostas|ikon/i],
-  ['Architecture', /architect|building|column|capital|portal|doorway|facade|façade|period room|room from|ceiling|mihrab|temple|relief from|fragment of a (wall|building)/i],
+  ['Architecture', /architect|building|column|capital|portal|doorway|facade|façade|period room|room from|ceiling|mihrab|temple|cathedral|church|chapel|basilica|abbey|monastery|cloister|castle|palace|relief from|fragment of a (wall|building)/i],
   ['Sculpture', /sculpt|statue|statuette|figure|figurine|bust|relief|carving|head of|torso|bronze|mask|stele/i],
   ['Photographie', /photograph|daguerreotype|albumen|gelatin silver/i],
   // Pastel : une peinture (les pastels de Degas sont parmi ses chefs-d'œuvre), même si les musées les rangent avec les dessins
@@ -381,7 +381,7 @@ const MOUVEMENTS = [
     "Bois sculpté, jade et figures d'ancêtres, couverts de spirales et incrustés de nacre."],
   ['Art du Sepik', 'Océanie', 'Papouasie-Nouvelle-Guinée', 'XIXe–XXe siècle', ['Sepik'], [], '', [],
     "Masques, crochets et figures d'ancêtres peints, liés aux maisons cérémonielles et aux rites."],
-  ['Art gothique', 'Europe', 'Europe', 'XIIe–XVe siècle', ['Gothic'], ['Gothic art'], 'licorne', ['Duccio', 'Simone Martini'],
+  ['Art gothique', 'Europe', 'Europe', 'XIIe–XVe siècle', ['Gothic'], ['Gothic art', 'International Gothic'], 'licorne', ['Duccio|Duccio di Buoninsegna', 'Simone Martini', 'Giotto|Giotto di Bondone', 'Frères de Limbourg|Limbourg brothers', 'Claus Sluter', 'Ambrogio Lorenzetti', 'Pietro Lorenzetti', 'Cimabue', 'Gentile da Fabriano', 'Stefan Lochner'],
     "Vitraux, sculptures, tapisseries et retables aux fonds d'or, aux silhouettes élancées et aux couleurs précieuses."],
   ['Renaissance', 'Europe', 'Italie et Europe', 'XVe–XVIe siècle', ['Renaissance'], ['Renaissance', 'Italian Renaissance', 'Northern Renaissance', 'High Renaissance', 'Early Renaissance'], 'bruegel', ['Léonard de Vinci|Leonardo da Vinci', 'Raphaël|Raphael', 'Albrecht Dürer', 'Michel-Ange|Michel-Ange Buronarroti|Michelangelo', 'Sandro Botticelli', 'Titien|Titian', 'Jan van Eyck', 'Donatello', "Pieter Brueghel l'Ancien|Pieter Bruegel the Elder", 'Jérôme Bosch|Hieronymus Bosch', 'Hans Holbein le Jeune|Hans Holbein the Younger', 'Andrea Mantegna'],
     "Retour à l'Antiquité, invention de la perspective, étude du corps et de la nature."],
@@ -406,7 +406,7 @@ const MOUVEMENTS = [
 // Clé d'un nom d'artiste : son nom de famille, sans accents ni « l'Ancien », « the Younger »… (« Pieter Bruegel the Elder »,
 // « Pieter Brueghel l'Ancien » → bruegel, brueghel ; « Dürer, Albrecht » → durer)
 function cleNom(nom) {
-  const mots = sansAccents(String(nom || '').split(/[(,;]/)[0]).split(/[\s'’]+/).filter(m => m && !/^(the|elder|younger|le|la|l|jeune|ancien|il|vecchio|giovane)$/.test(m));
+  const mots = sansAccents(String(nom || '').split(/[(,;]/)[0]).split(/[\s'’]+/).filter(m => m && !/^(the|elder|younger|le|la|l|jeune|ancien|il|vecchio|giovane|brothers|freres|bruder)$/.test(m));
   return mots.pop() || '';
 }
 // Artistes de référence d'autres mouvements que ceux choisis (et qui ne sont pas aussi de référence pour eux) : leurs œuvres
@@ -425,9 +425,13 @@ function clesMaitres(mv) {
   return alias;
 }
 function mouvement(nom) { return MOUVEMENTS.find(m => m.nom === nom) || null; }
+// Style architectural de Wikidata (P149) dont les monuments font partie du mouvement (avec tous ses sous-styles)
+const STYLES_ARCHITECTURE = { 'Art gothique': 'Q176483' };
+const ANONYME = 'Q4233718'; // « anonyme » dans Wikidata
+// Mouvements d'abord de l'estampe : leurs estampes ne sont pas limitées à trois
+const MOUVEMENTS_D_ESTAMPES = new Set(['Ukiyo-e', 'Expressionnisme']);
 // Mouvements de peintres : si le visiteur n'a pas choisi de type, l'exposition ne montre que des peintures
 // (pas les dessins, études, estampes ou éventails que les catalogues renvoient aussi pour ces artistes)
-const MOUVEMENTS_D_ESTAMPES = new Set(['Ukiyo-e', 'Expressionnisme']);
 const MOUVEMENTS_DE_PEINTURE = new Set(['Impressionnisme', 'Postimpressionnisme', 'Romantisme', 'Hudson River School', 'École de Cuzco', 'Peinture de castas']);
 // Une œuvre de collection.json appartient-elle à ce mouvement ? (d'après son artiste ou son titre)
 function oeuvreDuMouvement(w, nom) {
@@ -607,7 +611,7 @@ function oeuvresWikidata(lignes, n, options) {
     return oeuvre({
       titre: majuscule(val(b, 'iLabel')), langue: (b.iLabel && b.iLabel['xml:lang']) || 'fr',
       // Créateur anonyme ou sans nom dans Wikidata : on n'affiche rien
-      artiste: /^(Q\d+|https?:)/.test(createur) ? '' : createur, annee: anneeWikidata(val(b, 'date')),
+      artiste: /^(Q\d+|https?:)/.test(createur) || qid(b, 'createur') === ANONYME ? '' : createur, annee: anneeWikidata(val(b, 'date')),
       date: (a => a === null ? '' : a < 0 ? (-a) + ' av. J.-C.' : String(a))(anneeWikidata(val(b, 'date'))),
       lieu: majuscule(val(b, 'origineLabel').replace(/^Q\d+$/, '')), musee: options.musee(lieu),
       image: info ? info.image : 'https://commons.wikimedia.org/wiki/Special:FilePath/' + encodeURIComponent(fichiers[k]) + '?width=500',
@@ -674,11 +678,11 @@ function artistesDuMouvement(mv) {
   } ORDER BY DESC(?liens) LIMIT 150`;
   // Les artistes de référence sont aussi retrouvés par leur nom, quel que soit le mouvement que Wikidata leur donne
   // (Michel-Ange, Botticelli, Titien sont rangés dans la « haute » ou la « première Renaissance », pas dans « Renaissance ») ;
-  // pour chaque artiste, la personne de ce nom la plus présente dans les Wikipédia (pas un homonyme)
+  // pour chaque artiste, la personne de ce nom (ou la fratrie : les frères de Limbourg) la plus présente dans les Wikipédia (pas un homonyme)
   const requeteRefs = `SELECT ?nom ?a ?aLabel ?liens WHERE {
     hint:Query hint:optimizer "None" .
     VALUES ?nom { ${[].concat(...[].concat(...mv.variantes).map(x => [lit(x, 'en'), lit(x, 'fr'), lit(x, 'mul')])).join(' ')} }
-    ?a rdfs:label ?nom . ?a wdt:P31 wd:Q5 . ?a wikibase:sitelinks ?liens .
+    ?a rdfs:label ?nom . ?a wdt:P31 ?genre . FILTER(?genre IN (wd:Q5, wd:Q16979650)) ?a wikibase:sitelinks ?liens .
     SERVICE wikibase:label { bd:serviceParam wikibase:language "en,fr,mul". }
   }`;
   const deRef = mv.variantes.length ? sparql(requeteRefs, 10000).catch(() => []) : Promise.resolve([]);
@@ -775,7 +779,8 @@ function chercherWikidataArtisteMouvement(c, n) {
       : mv.wd.length ? `OPTIONAL { ?i wdt:P135 ?mvOeuvre }
         FILTER(!BOUND(?mvOeuvre) || EXISTS { VALUES ?nomMvO { ${mv.wd.map(x => lit(x, 'en')).join(' ')} } ?mvOeuvre rdfs:label ?nomMvO })` : '';
     // (créateur, ou architecte pour un bâtiment : la Sagrada Família de Gaudí, l'hôtel Tassel de Horta ; la date de mort de
-    // l'un ou de l'autre, qui dit si l'œuvre est du domaine public, est lue pour le ?createur trouvé, voir requeteDe)
+    // l'un ou de l'autre, qui dit si l'œuvre est du domaine public, est lue dans requeteDe pour le ?createur trouvé : chaque
+    // filtre doit donc lier ?createur, sinon Wikidata parcourt les dates de mort de toutes les personnes)
     // Deux requêtes : les artistes de la liste MOUVEMENTS (les grands maîtres, dont viennent les chefs-d'œuvre), puis douze
     // autres parmi les plus connus. Si Wikidata est trop chargé pour répondre à la première, elle est refaite avec les seules
     // œuvres présentes dans au moins cinq Wikipédia (les plus célèbres)
@@ -789,6 +794,14 @@ function chercherWikidataArtisteMouvement(c, n) {
     if (maitres.length) branches.push([parArtistes(maitres, ''), parArtistes(maitres, '', '?i wikibase:sitelinks ?l5 . FILTER(?l5 >= 5)')]);
     // (œuvres des autres artistes : leur place est limitée ensuite, seules les plus connues sont demandées)
     if (autres.length) branches.push(parArtistes(autres, autreMouvement, celebres(c) ? '?i wikibase:sitelinks ?l3 . FILTER(?l3 >= 3)' : ''));
+    // Style architectural (P149 : « gothique classique » pour Chartres, « gothique rayonnant » pour la Sainte-Chapelle, tous
+    // sous-styles de l'architecture gothique) : les monuments du mouvement, souvent sans architecte connu, datés de sa
+    // période (pas le néo-gothique du XIXe siècle) et présents dans au moins quinze Wikipédia
+    const style = STYLES_ARCHITECTURE[mv.nom];
+    // (sans architecte connu, le monument est attribué à « anonyme », Q4233718, pour que ?createur soit toujours lié)
+    if (style && periode) branches.push(`{ { SELECT DISTINCT ?st WHERE { ?st wdt:P279* wd:${style} } } ?i wdt:P149 ?st ; wdt:P571 ?dateS .
+        FILTER(YEAR(?dateS) >= ${periode[0]} && YEAR(?dateS) <= ${periode[1]}) ?i wikibase:sitelinks ?ls . FILTER(?ls >= 15)
+        OPTIONAL { ?i wdt:P84 ?architecte } BIND(COALESCE(?architecte, wd:${ANONYME}) AS ?createur) }`);
     return branches.length ? oeuvresDe(...branches) : [];
   });
 }
@@ -1266,18 +1279,23 @@ function chercherDansLesMusees(criteres, parSource, seulement) {
           const alias = new Map([].concat(...criteres.mv.map(m => [...clesMaitres(mouvement(m))])));
           const maitres = new Set(alias.values()), cleArtiste = w => alias.get(nomDeFamille(w)) || nomDeFamille(w);
           const parArtiste = new Map();
-          oeuvres.forEach(w => { const a = cleArtiste(w) || cleOeuvre(w); if (!parArtiste.has(a)) parArtiste.set(a, []); parArtiste.get(a).push(w); });
+          // Les œuvres anonymes (tapisseries, sculptures du Moyen Âge…) et les monuments qui ne sont pas d'un maître de la liste
+          // (Notre-Dame de Paris, Chartres : leurs architectes ne sont pas des « artistes » du mouvement) forment un groupe à
+          // part, avec dix places
+          const groupeDe = w => { const a = cleArtiste(w); return a && (maitres.has(a) || !w.types.includes('Architecture')) ? a : ' anonyme'; };
+          oeuvres.forEach(w => { const a = groupeDe(w); if (!parArtiste.has(a)) parArtiste.set(a, []); parArtiste.get(a).push(w); });
           let groupes = [...parArtiste.values()], rangs = [];
           const celebre = celebres(criteres);
           if (celebre) {
             groupes.forEach(g => g.sort((a, b) => b.renom - a.renom));
             const score = g => g.slice(0, 3).reduce((t, w) => t + w.renom, 0); // ses trois œuvres les plus connues
-            groupes = groupes.map((g, i) => ({ g, i, ref: maitres.has(cleArtiste(g[0])) })).sort((a, b) => (b.ref - a.ref) || (score(b.g) - score(a.g)) || (a.i - b.i));
+            groupes = groupes.map((g, i) => ({ g, i, ref: groupeDe(g[0]) === ' anonyme' || maitres.has(cleArtiste(g[0])) })).sort((a, b) => (b.ref - a.ref) || (score(b.g) - score(a.g)) || (a.i - b.i));
             rangs = groupes.map(x => x.ref); groupes = groupes.map(x => x.g);
           }
           // (liste de référence courte, moins de six maîtres : ukiyo-e… : les autres artistes du mouvement gardent toute leur place)
           const listeComplete = maitres.size >= 6;
-          const plafond = i => groupes.length < 4 ? Infinity : !celebre ? 5 : !listeComplete ? (i < 4 ? 7 : 3) : !rangs[i] ? 2 : i < 4 ? 7 : 4;
+          const anonymes = groupes.map(g => groupeDe(g[0]) === ' anonyme');
+          const plafond = i => groupes.length < 4 ? Infinity : anonymes[i] ? (celebre ? 10 : 5) : !celebre ? 5 : !listeComplete ? (i < 4 ? 7 : 3) : !rangs[i] ? 2 : i < 4 ? 7 : 4;
           const equilibrees = [];
           for (let k = 0; groupes.some((g, i) => k < Math.min(g.length, plafond(i))); k++) groupes.forEach((g, i) => { if (k < Math.min(g.length, plafond(i))) equilibrees.push(g[k]); });
           // et trois œuvres au plus, en tout, de ces autres artistes (Mondrian, Matisse… pour le postimpressionnisme)

@@ -387,7 +387,7 @@ const MOUVEMENTS = [
     "Retour à l'Antiquité, invention de la perspective, étude du corps et de la nature."],
   ['Baroque', 'Europe', 'Europe et Amériques', 'XVIIe siècle', ['Baroque'], ['Baroque', 'Baroque painting'], 'caravage|rembrandt', ['Le Caravage|Caravaggio', 'Pierre Paul Rubens|Peter Paul Rubens', 'Rembrandt|Rembrandt van Rijn', 'Diego Vélasquez|Diego Velázquez', 'Johannes Vermeer', 'Le Bernin|Gian Lorenzo Bernini', 'Artemisia Gentileschi', 'Antoine van Dyck|Anthony van Dyck', 'Frans Hals'],
     "Mouvement, contrastes de lumière et émotion, des églises de Rome aux missions des Amériques."],
-  ['Romantisme', 'Europe', 'Europe', 'fin du XVIIIe–XIXe siècle', ['Romanticism'], ['Romanticism'], 'turner', ['J.M.W. Turner', 'Eugène Delacroix', 'Caspar David Friedrich'],
+  ['Romantisme', 'Europe', 'Europe', 'fin du XVIIIe–XIXe siècle', ['Romanticism'], ['Romanticism'], 'turner', ['J.M.W. Turner|William Turner|J. M. W. Turner', 'Eugène Delacroix', 'Caspar David Friedrich', 'Théodore Géricault', 'Francisco de Goya', 'John Constable', 'Anne-Louis Girodet|Anne-Louis Girodet de Roucy-Trioson', 'Antoine-Jean Gros', 'Philipp Otto Runge', 'William Blake'],
     "Nature sublime, passions, histoire et rêve."],
   ['Impressionnisme', 'Europe', 'France', '1860–1890', ['Impressionism'], ['Impressionism'], 'monet|renoir|degas|pissarro|sisley|morisot', ['Claude Monet', 'Berthe Morisot', 'Camille Pissarro', 'Pierre-Auguste Renoir', 'Edgar Degas', 'Édouard Manet', 'Alfred Sisley', 'Gustave Caillebotte', 'Mary Cassatt'],
     "Peindre en plein air la lumière changeante, par touches rapides."],

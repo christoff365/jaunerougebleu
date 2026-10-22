@@ -30,6 +30,9 @@ try{if(sessionStorage.getItem('jrb-splash-vu')==='1')document.documentElement.cl
 }
 *{box-sizing:border-box;margin:0;padding:0}
 body{font-family:'DM Sans',sans-serif;background:#fff;color:#1a1614;min-height:100vh}
+/* Téléphone : la page ne doit jamais glisser de côté (rien ne dépasse la largeur de l'écran). « clip » garde le menu collé en haut ; « hidden » sert de secours aux vieux navigateurs. */
+html,body{overflow-x:hidden;max-width:100%}
+@supports(overflow:clip){html,body{overflow-x:clip}}
 button,input,textarea,select{font-family:'DM Sans',sans-serif;cursor:pointer}
 button:focus-visible,a:focus-visible{outline:3px solid var(--bleu);outline-offset:3px}
 
@@ -181,6 +184,11 @@ hr{border:none;border-top:1px solid #e0d5c0;margin:28px 0}
 .back-btn:hover{border-color:#C9A84C;color:#8B6914}
 .tl{display:flex;gap:20px;margin-bottom:28px}
 .tl-l{display:flex;flex-direction:column;align-items:center;flex-shrink:0;padding-top:5px}
+/* Téléphones (Safari notamment) : une image très large ne doit pas élargir sa colonne ni sa case de grille,
+   sinon la partie droite de l'exposition déborde de l'écran et paraît coupée */
+.tl>div,.mini-grid>*,.mini,.wk-card{min-width:0;max-width:100%}
+.mini img,.wk-card img{max-width:100%}
+.mini-info{overflow-wrap:anywhere}
 .tl-dot{width:10px;height:10px;border-radius:50%;background:#C9A84C}
 .tl-line{width:1px;background:#e0d5c0;flex:1;min-height:60px;margin-top:4px}
 .era{font-size:11px;text-transform:uppercase;letter-spacing:.12em;color:#C9A84C;margin-bottom:4px}
@@ -831,9 +839,9 @@ html.sans-animation *,html.sans-animation *::before,html.sans-animation *::after
   </div>
 </footer>
 <!-- Traductions (anglais, espagnol, arabe) et moteur de traduction -->
-<script src="i18n.js?v=20261022a"></script>
+<script src="i18n.js?v=20261022c"></script>
 <!-- Recherche en direct dans les catalogues ouverts des musées (domaine public) -->
-<script src="musees.js?v=20261022a"></script>
+<script src="musees.js?v=20261022c"></script>
 <script>
 const ART = [
   { img:"images/oeuvres/grande-vague-hokusai.jpg", credit:'Image : <a href="https://www.metmuseum.org/art/collection/search/45434" target="_blank" rel="noopener">The Metropolitan Museum of Art</a>, domaine public (Open Access)', name:"La Grande Vague de Kanagawa", meta:"Katsushika Hokusai · Japon · vers 1830-1832 · Metropolitan Museum of Art",
@@ -1583,8 +1591,8 @@ afficherValeurs(0);
 traduirePage();
 </script>
 <!-- Fenêtre Accessibilité de chaque œuvre et menu Affichage et lecture -->
-<script src="accessibilite.js?v=20261022a"></script>
+<script src="accessibilite.js?v=20261022c"></script>
 <!-- Séances de bien-être composées à la demande -->
-<script src="bienetre.js?v=20261022a"></script>
+<script src="bienetre.js?v=20261022c"></script>
 </body>
 </html>

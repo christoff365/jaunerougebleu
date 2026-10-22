@@ -146,7 +146,7 @@ Page « Mentions légales » à part, `mentions-legales/index.html` (lien en bas
 - **Page Musées** : le nom de chaque institution ouvre son site officiel (lu en direct dans Wikidata, propriété P856, et gardé 7 jours dans le navigateur) ; l'icône code-barres ouvre sa fiche Wikidata.
 - **Vibrations** : uniquement sur les téléphones Android (les iPhone et les ordinateurs ne le permettent pas depuis un site) ; ailleurs, seule la partition visuelle est proposée.
 - **Musique des couleurs** : tempo, tonalité, énergie et luminosité sont calculés à partir des couleurs réelles de l'image, selon une règle inventée pour le site, puis une courte musique est jouée dans le navigateur.
-- **Version des scripts** : dans `index.html`, les scripts sont appelés avec un numéro de version (`musees.js?v=20261022a`). Après une modification d'un fichier `.js`, changer ce numéro (la date du jour), sinon certains navigateurs gardent l'ancienne version en cache jusqu'à 10 minutes, alors que la page, elle, est nouvelle.
+- **Version des scripts** : dans `index.html`, les scripts sont appelés avec un numéro de version (`musees.js?v=20261022b`). Après une modification d'un fichier `.js`, changer ce numéro (la date du jour), sinon certains navigateurs gardent l'ancienne version en cache jusqu'à 10 minutes, alors que la page, elle, est nouvelle.
 - **Textes** : générés par Claude AI (Anthropic) ; à faire relire, en particulier les descriptions audio destinées aux visiteurs aveugles.
 
 ## Tester en local

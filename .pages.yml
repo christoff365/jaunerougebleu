@@ -115,6 +115,28 @@ content:
           - name: compare
             label: Point de comparaison avec les autres œuvres
             type: text
+      - name: research
+        label: "Ce que dit la recherche (facultatif) : paragraphes affichés après les œuvres, avec leurs références entre parenthèses"
+        type: object
+        list: true
+        fields:
+          - name: title
+            label: Titre du paragraphe
+            type: string
+          - name: text
+            label: Texte
+            type: text
+      - name: bibliography
+        label: "Bibliographie (facultative) : une référence par ligne, affichée en fin d'exposition"
+        type: object
+        list: true
+        fields:
+          - name: reference
+            label: "Référence complète (auteurs, année, titre, revue, volume, pages)"
+            type: text
+          - name: url
+            label: "Lien (DOI ou page de la publication)"
+            type: string
 
   - name: collection
     label: Collection du générateur

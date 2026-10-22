@@ -499,5 +499,636 @@
         "compare": "Albers était étudiant au Bauhaus à Weimar quand Klee y peignait cette aquarelle ; ils y devinrent ensuite collègues. Comparez avec la Bhairavi Ragini : là aussi, un fond uni fait chanter quelques couleurs pures."
       }
     ]
+  },
+  {
+    "title": "Nature, art et bien-être",
+    "subtitle": "Du jardin d'un Égyptien d'il y a 4 000 ans aux lacs du Canada : vingt et une visions de la nature qui font du bien, de vingt et un pays et des cinq continents, et ce qu'en dit la science",
+    "status": "published",
+    "theme": "La nature dans l'art mondial",
+    "intro": "Bien avant les laboratoires, les humains ont su que la nature leur faisait du bien : les Égyptiens emportaient leur jardin dans la tombe, les Persans en tissaient sur leurs tapis, les lettrés chinois se promenaient dans des rouleaux de montagnes sans quitter leur bureau. Depuis quarante ans, la recherche confirme et précise cette intuition : regarder un paysage, marcher dans un parc, visiter un musée ou dessiner apaisent le stress, améliorent l'humeur et sont associés à une meilleure santé et à une vie plus longue. Cette exposition réunit vingt et une œuvres de vingt et un pays, des jardins, des fleurs, des rivières, des forêts, des volcans et des clairs de lune, et présente, après les œuvres, ce que disent les études, avec leurs références. Prenez votre temps : regarder lentement fait partie de l'expérience.",
+    "minimum": 20,
+    "search": {
+      "keywords": "landscape garden",
+      "auto": false
+    },
+    "works": [
+      {
+        "title": "Modèle d'un porche et d'un jardin, tombe de Meketrê",
+        "artist": "Atelier thébain",
+        "country": "Égypte",
+        "period": "vers 1981–1975 av. J.-C.",
+        "image": "images/expositions/jardin-meketre.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/544256), domaine public (Open Access)",
+        "analysis": "Il y a quatre mille ans, le chancelier Meketrê fit placer dans sa tombe, près de Thèbes, ce modèle de sa maison : un porche à colonnes ouvert sur un jardin, avec un bassin doublé de cuivre entouré de sycomores. Pour l'éternité, il voulait l'ombre, l'eau et la verdure. C'est l'une des plus anciennes images de jardin conservées : bien avant la science, les humains savaient qu'un coin de nature les apaisait.",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "compare": "Comme le tapis de jardin persan, un jardin qu'on peut emporter avec soi : ici dans l'au-delà, là-bas sur le sol d'une maison."
+      },
+      {
+        "title": "Tapis de jardin",
+        "artist": "Tisserands iraniens",
+        "country": "Iran",
+        "period": "seconde moitié du XVIIIe siècle",
+        "image": "images/expositions/tapis-jardin-iran.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/447583), domaine public (Open Access)",
+        "analysis": "Le jardin persan, le chahar bagh, est divisé en quatre par des canaux d'eau qui se croisent au centre. Ce tapis en reproduit le plan, vu d'en haut : canaux, parterres, arbres et fleurs. Le mot « paradis » vient du vieux perse pairidaēza, « enclos » : pour les Persans, le paradis était d'abord un jardin. Étendu sur le sol, ce tapis permettait de s'asseoir dans un jardin en fleurs, même au cœur de l'hiver.",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "compare": "Comme le panneau d'Iznik, un jardin éternel, qui ne fane jamais."
+      },
+      {
+        "title": "Prince et dames dans un jardin",
+        "artist": "Nidha Mal",
+        "country": "Inde",
+        "period": "milieu du XVIIIe siècle",
+        "image": "images/expositions/prince-jardin-nidha-mal.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/454049), domaine public (Open Access)",
+        "analysis": "Dans l'Inde moghole, le jardin est le lieu du repos, de la musique et de la conversation. Les empereurs en firent planter partout, du Cachemire au Taj Mahal. Ici, à la tombée du jour, un prince et des dames se retrouvent parmi les fleurs, devant un pavillon blanc. Nidha Mal, peintre des cours de Delhi et d'Awadh, fait de ce moment une image de bien-être : l'air frais du soir, les parfums, la compagnie.",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "compare": "Comme Les Moissonneurs de Bruegel, un temps de repos au milieu de la nature ; ici celui des princes, là-bas celui des paysans."
+      },
+      {
+        "title": "Oies sauvages se posant sur un banc de sable",
+        "artist": "Peintre coréen anonyme",
+        "country": "Corée",
+        "period": "fin du XVe – début du XVIe siècle (dynastie Joseon)",
+        "image": "images/expositions/oies-sauvages-coree.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/39888), domaine public (Open Access)",
+        "analysis": "Ce rouleau appartient au thème des « Huit Vues des rivières Xiao et Xiang », venu de Chine et repris par les peintres coréens et japonais. Les montagnes se perdent dans la brume, les oies descendent vers le sable ; rien ne presse. Les psychologues Rachel et Stephen Kaplan parlent de « fascination douce » : une nature qui retient doucement l'attention, sans l'épuiser, permet à l'esprit fatigué de se reposer (Kaplan et Kaplan, 1989).",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "compare": "Comme les Vieux arbres de Guo Xi, un paysage où le regard se promène à son rythme."
+      },
+      {
+        "title": "Vieux arbres, lointain plat",
+        "artist": "Guo Xi",
+        "country": "Chine",
+        "period": "vers 1080",
+        "image": "images/collection/vieux-arbres-guo-xi.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/39668), domaine public (Open Access)",
+        "analysis": "Guo Xi, le plus grand paysagiste de la cour des Song, a écrit un traité sur la peinture de paysage. Il y explique pourquoi les fonctionnaires, retenus en ville par leurs devoirs, aiment tant les rouleaux de montagnes et de rivières : grâce à eux, ils peuvent se promener parmi les sources et les rochers sans quitter leur pièce. Neuf siècles plus tard, des études montrent que regarder des images de nature aide à récupérer après un stress (Brown et al., 2013).",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "compare": "Comme le rouleau coréen des oies sauvages, une promenade immobile dans un paysage."
+      },
+      {
+        "title": "Iris à Yatsuhashi (les Huit Ponts)",
+        "artist": "Ogata Kōrin",
+        "country": "Japon",
+        "period": "après 1709",
+        "image": "images/collection/iris-yatsuhashi-korin.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/39664), domaine public (Open Access)",
+        "analysis": "Sur ces paravents dorés, Kōrin peint les iris d'un épisode des Contes d'Ise, où un poète en voyage s'arrête à Yatsuhashi, devant un marais fleuri, et pense à ceux qu'il aime. Le pont de planches zigzague parmi les fleurs ; on a envie de le suivre. Au Japon, la contemplation des saisons, fleurs de cerisier au printemps, iris en été, érables à l'automne, est un art de vivre.",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "compare": "Comme les Nymphéas de Monet, des fleurs d'eau qui envahissent tout le champ de l'image."
+      },
+      {
+        "title": "Panneau de carreaux",
+        "artist": "Céramistes d'Iznik",
+        "country": "Turquie",
+        "period": "seconde moitié du XVIe siècle",
+        "image": "images/expositions/panneau-de-carreaux-iznik.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/447013), domaine public (Open Access)",
+        "analysis": "Les céramistes d'Iznik ont couvert les mosquées et les palais d'Istanbul de jardins en céramique : tulipes, œillets, jacinthes et longues feuilles dentelées. Ces fleurs ne fanent jamais ; elles apportent à l'intérieur la fraîcheur d'un jardin et rappellent le paradis promis. Les Ottomans aimaient tant la tulipe qu'elle donna son nom à une époque, l'« ère des tulipes », au début du XVIIIe siècle.",
+        "museum": "The Metropolitan Museum of Art, New York"
+      },
+      {
+        "title": "Éruption du Merapi, la nuit",
+        "artist": "Raden Saleh",
+        "country": "Indonésie",
+        "period": "1865",
+        "image": "images/expositions/eruption-du-merapi-raden-saleh.jpg",
+        "credit": "Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Raden_Saleh_-_Merapi,_Eruption_by_Night_(1865).jpg), domaine public",
+        "analysis": "La nature n'est pas toujours douce : elle peut aussi émerveiller et faire peur. Raden Saleh, premier grand peintre moderne de Java, montre le volcan Merapi crachant sa lave dans la nuit. Les chercheurs appellent « émerveillement » (awe) ce sentiment devant ce qui nous dépasse. Il est associé à moins d'inflammation dans le corps (Stellar et al., 2015) et rend plus généreux, en faisant paraître ses propres soucis plus petits (Piff et al., 2015).",
+        "compare": "Comme Le Cap Nord de Balke, une nature immense, qui remet l'humain à sa place."
+      },
+      {
+        "title": "Nuit de lune sur le Dniepr",
+        "artist": "Arkhip Kuindzhi",
+        "country": "Ukraine (alors dans l'Empire russe)",
+        "period": "1880",
+        "image": "images/expositions/nuit-de-lune-sur-le-dniepr-kuindzhi.jpg",
+        "credit": "Musée russe, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Kuindzhi_Moonlit_night_on_the_Dnieper_1880_grm_x2.jpg), domaine public",
+        "analysis": "En 1880, Kuindzhi exposa ce seul tableau dans une salle plongée dans le noir, éclairée par un faisceau de lumière. Les visiteurs firent la queue pendant des heures ; certains, raconte-t-on, regardaient derrière la toile pour y chercher une lampe tant le reflet de la lune semblait réel. Le fleuve immobile, la nuit silencieuse : un tableau qui invite à ralentir.",
+        "museum": "Musée russe, Saint-Pétersbourg",
+        "compare": "Comme Deux hommes contemplant la lune de Friedrich, la lune comme lumière de recueillement."
+      },
+      {
+        "title": "Le Cap Nord au clair de lune",
+        "artist": "Peder Balke",
+        "country": "Norvège",
+        "period": "1848",
+        "image": "images/expositions/cap-nord-clair-de-lune-balke.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/441379), domaine public (Open Access)",
+        "analysis": "Balke a voyagé jusqu'au cap Nord, à l'extrême nord de l'Europe, et en a gardé toute sa vie des souvenirs de mer, de falaises et de ciel. Avec quelques tons de gris, de blanc et de bleu, il fait ressentir l'immensité et le silence. Ces paysages du Grand Nord, que bien peu de ses contemporains verraient un jour, offraient un voyage en esprit vers une nature intacte.",
+        "museum": "The Metropolitan Museum of Art, New York"
+      },
+      {
+        "title": "Deux hommes contemplant la lune",
+        "artist": "Caspar David Friedrich",
+        "country": "Allemagne",
+        "period": "vers 1825–1830",
+        "image": "images/expositions/deux-hommes-contemplant-la-lune-friedrich.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/438417), domaine public (Open Access)",
+        "analysis": "Deux amis, de dos, regardent la lune se lever derrière les arbres. Friedrich ne peint pas ce qu'ils voient : il nous invite à regarder avec eux, à partager leur silence. Ce simple moment de contemplation à deux réunit deux sources de bien-être que la recherche connaît bien, la nature et le lien avec les autres.",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "compare": "Comme les promeneurs de Købke au bord du lac, la nature partagée à deux, tout près de chez soi."
+      },
+      {
+        "title": "Vue du lac Sortedam depuis le Dosseringen",
+        "artist": "Christen Købke",
+        "country": "Danemark",
+        "period": "1838",
+        "image": "images/expositions/lac-sortedam-kobke.jpg",
+        "credit": "SMK – Statens Museum for Kunst (https://open.smk.dk/artwork/image/KMS359), domaine public",
+        "analysis": "Au « siècle d'or » danois, Christen Købke peint la nature la plus ordinaire : une promenade au bord d'un lac, aux portes de Copenhague. Pas de montagne ni de tempête, mais la lumière douce d'un jour d'été et l'eau calme. C'est la nature de proximité, celle que l'on peut voir chaque jour, qui compte le plus pour la santé : à Tokyo, les personnes âgées vivant près de rues arborées et de parcs où se promener ont vécu plus longtemps (Takano et al., 2002).",
+        "museum": "SMK – Statens Museum for Kunst, Copenhague",
+        "compare": "Comme le jardin de Meketrê, la nature à deux pas de la maison."
+      },
+      {
+        "title": "Les Moissonneurs",
+        "artist": "Pieter Bruegel l'Ancien",
+        "country": "Belgique (Pays-Bas du Sud)",
+        "period": "1565",
+        "image": "images/collection/moissonneurs-bruegel.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/435809), domaine public (Open Access)",
+        "analysis": "En plein mois d'août, des paysans font la pause de midi à l'ombre d'un poirier : on mange, on boit, l'un d'eux dort, les jambes écartées. Autour, le blé doré, les champs, un étang, un village. Bruegel peint la nature comme le cadre même de la vie, du travail et du repos. Ce tableau appartient à une série de six panneaux consacrés aux moments de l'année.",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "compare": "Comme les Iris de Van Gogh, la lumière de l'été et les jaunes éclatants."
+      },
+      {
+        "title": "Iris",
+        "artist": "Vincent van Gogh",
+        "country": "Pays-Bas (peint en France)",
+        "period": "1890",
+        "image": "images/oeuvres/iris-van-gogh.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/436528), domaine public (Open Access)",
+        "analysis": "Van Gogh peint ce bouquet en mai 1890, à la fin de son année à l'asile de Saint-Rémy-de-Provence, où il était soigné. Pendant ce séjour, il peint sans relâche le jardin, les oliviers, les champs et les fleurs : la nature et la peinture sont pour lui un appui dans la maladie. La recherche confirme aujourd'hui que peindre ou dessiner fait baisser l'hormone du stress, quel que soit le talent (Kaimal et al., 2016).",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "compare": "Comme les Iris de Kōrin, la même fleur, peinte à deux siècles d'écart, au Japon et en France."
+      },
+      {
+        "title": "Nymphéas",
+        "artist": "Claude Monet",
+        "country": "France",
+        "period": "1906",
+        "image": "images/oeuvres/nympheas-monet.jpg",
+        "credit": "Art Institute of Chicago (https://www.artic.edu/artworks/16568), via Wikimedia Commons, domaine public",
+        "analysis": "Monet créa lui-même son jardin d'eau à Giverny, en détournant un ruisseau, puis le peignit pendant près de trente ans. Il rêvait d'une salle entourée de nymphéas : selon les mots que rapporte le critique Roger Marx en 1909, « les nerfs surmenés par le travail se seraient détendus là, selon l'exemple reposant de ces eaux stagnantes ». Au lendemain de l'armistice de 1918, il offrit à la France ses grands Nymphéas, aujourd'hui au musée de l'Orangerie.",
+        "museum": "Art Institute of Chicago",
+        "compare": "Comme le rouleau coréen, l'eau et le reflet pour apaiser le regard."
+      },
+      {
+        "title": "La cathédrale de Salisbury vue des jardins de l'évêque",
+        "artist": "John Constable",
+        "country": "Royaume-Uni",
+        "period": "vers 1825",
+        "image": "images/expositions/salisbury-constable.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/435922), domaine public (Open Access)",
+        "analysis": "Constable passa des étés entiers à peindre les nuages, notant au dos de ses études l'heure et la direction du vent. « La peinture, écrivait-il, n'est pour moi qu'un autre mot pour le sentiment. » Ici, la cathédrale apparaît dans une voûte de grands arbres, sous un ciel lumineux : l'architecture humaine trouve sa place dans la nature.",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "compare": "Comme la vallée de Mexico de Velasco, le ciel occupe une grande part du tableau et donne sa respiration au paysage."
+      },
+      {
+        "title": "Vue du mont Holyoke après un orage (L'Oxbow)",
+        "artist": "Thomas Cole",
+        "country": "États-Unis",
+        "period": "1836",
+        "image": "images/expositions/oxbow-cole.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/10497), domaine public (Open Access)",
+        "analysis": "À gauche, la forêt sauvage et l'orage qui s'éloigne ; à droite, la vallée du Connecticut, ses champs et sa rivière en boucle, sous le soleil revenu. La même année, Cole publie un Essai sur le paysage américain où il voit dans la contemplation de la nature une source de paix et de renouveau moral. Le peintre s'est représenté lui-même, minuscule, à son chevalet.",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "compare": "Comme Le Pin gris de Thomson, un paysage d'Amérique du Nord devenu un symbole national."
+      },
+      {
+        "title": "Le Pin gris",
+        "artist": "Tom Thomson",
+        "country": "Canada (Ontario)",
+        "period": "1916–1917",
+        "image": "images/expositions/pin-gris-thomson.jpg",
+        "credit": "Musée des beaux-arts du Canada, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:The_Jack_Pine,_by_Tom_Thomson.jpg), domaine public",
+        "analysis": "Tom Thomson passait ses printemps et ses étés dans le parc Algonquin, en Ontario, comme guide et pêcheur, peignant de petites esquisses en canot. De retour en ville, il en tirait de grands tableaux comme ce pin solitaire, découpé sur un lac et des collines lilas. Il se noya mystérieusement dans le lac Canoe en 1917, et ce tableau devint l'une des images les plus aimées du Canada.",
+        "museum": "Musée des beaux-arts du Canada, Ottawa",
+        "compare": "Comme Deux hommes contemplant la lune de Friedrich, un arbre seul devant un vaste paysage."
+      },
+      {
+        "title": "La vallée de Mexico vue depuis la colline de Santa Isabel",
+        "artist": "José María Velasco",
+        "country": "Mexique",
+        "period": "1875",
+        "image": "images/expositions/vallee-de-mexico-velasco.jpg",
+        "credit": "Museo Nacional de Arte, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Jos%C3%A9_Mar%C3%ADa_Velasco_-_The_Valley_of_Mexico_from_the_Santa_Isabel_Mountain_Range_-_Google_Art_Project.jpg), domaine public",
+        "analysis": "Velasco, peintre et botaniste, connaissait chaque plante et chaque roche de la vallée de Mexico. Du haut de la colline, le regard embrasse la plaine, les lacs et les volcans au loin. La nature y est observée avec la précision d'un savant et l'émotion d'un poète.",
+        "museum": "Museo Nacional de Arte, Mexico"
+      },
+      {
+        "title": "Paysage brésilien",
+        "artist": "Frans Post",
+        "country": "Brésil",
+        "period": "1650",
+        "image": "images/expositions/paysage-bresil-post.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/437323), domaine public (Open Access)",
+        "analysis": "Frans Post accompagna de 1637 à 1644 le gouverneur Jean-Maurice de Nassau au Brésil néerlandais : il fut l'un des premiers Européens à peindre les paysages du Nouveau Monde. De retour à Haarlem, il peignit de mémoire, pendant des années, ces collines vertes, ces arbres tropicaux et ce ciel immense. Les petits personnages de ses tableaux sont souvent des Africains réduits en esclavage, qui travaillaient dans les plantations de canne à sucre : la beauté du paysage ne doit pas faire oublier l'histoire coloniale qu'il cache.",
+        "museum": "The Metropolitan Museum of Art, New York"
+      },
+      {
+        "title": "La force transparente du midi pourpre",
+        "artist": "Arthur Streeton",
+        "country": "Australie",
+        "period": "1896",
+        "image": "images/expositions/midi-pourpre-streeton.jpg",
+        "credit": "National Gallery of Victoria, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Arthur_Streeton_-_%E2%80%98The_purple_noon%27s_transparent_might%E2%80%99_-_Google_Art_Project.jpg), domaine public",
+        "analysis": "Streeton peignit dans la chaleur de l'été la rivière Hawkesbury qui serpente entre des collines bleues. Le titre vient d'un poème de Shelley écrit dans un moment d'abattement près de Naples : devant la lumière de midi sur la mer, le poète trouve un apaisement. Ce paysage lumineux compte parmi les tableaux les plus célèbres d'Australie.",
+        "museum": "National Gallery of Victoria, Melbourne",
+        "compare": "Comme L'Oxbow de Cole, une rivière en méandres vue d'en haut, sous un grand ciel."
+      }
+    ],
+    "research": [
+      {
+        "title": "Regarder la nature apaise",
+        "text": "En 1984, l'architecte et chercheur Roger Ulrich compare deux groupes de 23 patients opérés dans le même hôpital : ceux dont la fenêtre donnait sur des arbres sont sortis plus vite (7,96 jours contre 8,70) et ont demandé moins d'antidouleurs puissants que ceux qui voyaient un mur de briques (Ulrich, 1984). Depuis, des expériences ont montré que même des images de nature, regardées sur un écran, aident le cœur à récupérer après un stress (Brown et al., 2013). Selon la théorie de la « restauration de l'attention », une nature qui retient doucement le regard permet à l'esprit fatigué de se reposer (Kaplan et Kaplan, 1989 ; Ulrich et al., 1991)."
+      },
+      {
+        "title": "Deux heures par semaine",
+        "text": "Une enquête sur près de 20 000 Anglais montre que les personnes passant au moins 120 minutes par semaine dans la nature se disent plus souvent en bonne santé et en meilleur bien-être, que ce temps soit pris en une fois ou en plusieurs (White et al., 2019). À Stanford, une promenade de 90 minutes dans la nature, et non en ville, diminue les ruminations et l'activité d'une zone du cerveau liée à la dépression (Bratman et al., 2015). Grâce à une application qui interrogeait les participants à des moments tirés au hasard, plus d'un million de réponses montrent que l'on est plus heureux dehors, dans un cadre naturel, qu'en ville (MacKerron et Mourato, 2013). Au Japon, les « bains de forêt » (shinrin-yoku) font l'objet de recherches sur l'immunité (Li, 2010)."
+      },
+      {
+        "title": "Vivre plus longtemps près des arbres",
+        "text": "Aux États-Unis, sur 108 630 femmes suivies pendant huit ans, celles qui vivaient dans les quartiers les plus verts avaient un taux de mortalité 12 % plus faible que celles des quartiers les moins verts (James et al., 2016). À Tokyo, les personnes âgées vivant près de parcs et de rues arborées où se promener ont davantage survécu sur cinq ans (Takano et al., 2002). Une synthèse de 143 études, portant au total sur plus de 290 millions de personnes, associe les espaces verts à moins de stress, de diabète, de maladies du cœur et de décès prématurés (Twohig-Bennett et Jones, 2018)."
+      },
+      {
+        "title": "L'art fait du bien, lui aussi",
+        "text": "En 2019, l'Organisation mondiale de la santé a publié une synthèse de plus de 3 000 études : les arts jouent un rôle réel dans la prévention, la promotion de la santé et l'accompagnement des maladies (Fancourt et Finn, 2019). La même année, une étude suivant 6 710 Anglais de plus de 50 ans pendant quatorze ans a montré que ceux qui allaient au musée, au théâtre ou au concert tous les deux ou trois mois avaient un risque de décès 31 % plus faible (14 % pour une ou deux sorties par an), même en tenant compte de leurs revenus et de leur santé (Fancourt et Steptoe, 2019). Chez de jeunes participantes, la visite d'un musée d'art figuratif a fait baisser la tension artérielle (Mastandrea et al., 2019), et 45 minutes de dessin ou de modelage font baisser le cortisol, l'hormone du stress, chez la plupart des participants, quel que soit leur talent (Kaimal et al., 2016). Une revue des études sur la simple contemplation d'œuvres d'art conclut à des résultats prometteurs (Law et al., 2021). Depuis 2018, des médecins du Québec peuvent même prescrire des visites au Musée des beaux-arts de Montréal."
+      },
+      {
+        "title": "L'émerveillement",
+        "text": "Devant un volcan, un ciel étoilé ou un chef-d'œuvre, on ressent parfois un émerveillement mêlé de respect, ce que les chercheurs appellent awe. Parmi les émotions positives étudiées chez des étudiants, c'est elle qui est le plus liée à un faible niveau d'interleukine-6, une molécule de l'inflammation (Stellar et al., 2015). L'émerveillement donne aussi le sentiment d'un « moi plus petit », et rend plus généreux et plus attentif aux autres (Piff et al., 2015)."
+      },
+      {
+        "title": "Ce que la recherche ne dit pas encore",
+        "text": "La plupart de ces études montrent des liens, pas des causes : les personnes en bonne santé sortent peut-être plus souvent, et non l'inverse. Les chercheurs en tiennent compte autant qu'ils le peuvent, mais beaucoup d'expériences portent sur de petits groupes, souvent des étudiants. L'art et la nature ne remplacent pas un traitement : ils l'accompagnent. Si vous traversez une période difficile, parlez-en à un médecin."
+      },
+      {
+        "title": "Pour en profiter",
+        "text": "Regardez lentement : choisissez une œuvre de cette exposition et restez une ou deux minutes devant, sans lire le commentaire, en laissant votre regard se promener. Puis sortez : un parc, un jardin, une rue arborée suffisent, l'idéal étant d'atteindre deux heures par semaine. Emportez un carnet et dessinez une feuille ou un nuage, même maladroitement. Et pour une séance guidée, essayez la page Bien-être du site."
+      }
+    ],
+    "bibliography": [
+      {
+        "reference": "Bratman, G. N., Hamilton, J. P., Hahn, K. S., Daily, G. C. et Gross, J. J. (2015). Nature experience reduces rumination and subgenual prefrontal cortex activation. Proceedings of the National Academy of Sciences, 112(28), 8567–8572.",
+        "url": "https://doi.org/10.1073/pnas.1510459112"
+      },
+      {
+        "reference": "Brown, D. K., Barton, J. L. et Gladwell, V. F. (2013). Viewing nature scenes positively affects recovery of autonomic function following acute-mental stress. Environmental Science & Technology, 47(11), 5562–5569.",
+        "url": "https://doi.org/10.1021/es305019p"
+      },
+      {
+        "reference": "Fancourt, D. et Finn, S. (2019). What is the evidence on the role of the arts in improving health and well-being? A scoping review. Copenhague : Bureau régional de l'OMS pour l'Europe (Health Evidence Network synthesis report 67).",
+        "url": "https://iris.who.int/handle/10665/329834"
+      },
+      {
+        "reference": "Fancourt, D. et Steptoe, A. (2019). The art of life and death: 14 year follow-up analyses of associations between arts engagement and mortality in the English Longitudinal Study of Ageing. BMJ, 367, l6377.",
+        "url": "https://doi.org/10.1136/bmj.l6377"
+      },
+      {
+        "reference": "James, P., Hart, J. E., Banay, R. F. et Laden, F. (2016). Exposure to greenness and mortality in a nationwide prospective cohort study of women. Environmental Health Perspectives, 124(9), 1344–1352.",
+        "url": "https://doi.org/10.1289/ehp.1510363"
+      },
+      {
+        "reference": "Kaimal, G., Ray, K. et Muniz, J. (2016). Reduction of cortisol levels and participants' responses following art making. Art Therapy, 33(2), 74–80.",
+        "url": "https://doi.org/10.1080/07421656.2016.1166832"
+      },
+      {
+        "reference": "Kaplan, R. et Kaplan, S. (1989). The Experience of Nature: A Psychological Perspective. Cambridge : Cambridge University Press.",
+        "url": ""
+      },
+      {
+        "reference": "Law, M., Karulkar, N. et Broadbent, E. (2021). Evidence for the effects of viewing visual artworks on stress outcomes: a scoping review. BMJ Open, 11(6), e043549.",
+        "url": "https://doi.org/10.1136/bmjopen-2020-043549"
+      },
+      {
+        "reference": "Li, Q. (2010). Effect of forest bathing trips on human immune function. Environmental Health and Preventive Medicine, 15(1), 9–17.",
+        "url": "https://doi.org/10.1007/s12199-008-0068-3"
+      },
+      {
+        "reference": "MacKerron, G. et Mourato, S. (2013). Happiness is greater in natural environments. Global Environmental Change, 23(5), 992–1000.",
+        "url": "https://doi.org/10.1016/j.gloenvcha.2013.03.010"
+      },
+      {
+        "reference": "Mastandrea, S., Maricchiolo, F., Carrus, G., Giovannelli, I., Giuliani, V. et Berardi, D. (2019). Visits to figurative art museums may lower blood pressure and stress. Arts & Health, 11(2), 123–132.",
+        "url": "https://doi.org/10.1080/17533015.2018.1443953"
+      },
+      {
+        "reference": "Musée des beaux-arts de Montréal (2018). Prescriptions muséales MBAM–Médecins francophones du Canada.",
+        "url": "https://mbam.qc.ca/en/news/museum-prescriptions"
+      },
+      {
+        "reference": "Piff, P. K., Dietze, P., Feinberg, M., Stancato, D. M. et Keltner, D. (2015). Awe, the small self, and prosocial behavior. Journal of Personality and Social Psychology, 108(6), 883–899.",
+        "url": "https://doi.org/10.1037/pspi0000018"
+      },
+      {
+        "reference": "Stellar, J. E., John-Henderson, N., Anderson, C. L., Gordon, A. M., McNeil, G. D. et Keltner, D. (2015). Positive affect and markers of inflammation: Discrete positive emotions predict lower levels of inflammatory cytokines. Emotion, 15(2), 129–133.",
+        "url": "https://doi.org/10.1037/emo0000033"
+      },
+      {
+        "reference": "Takano, T., Nakamura, K. et Watanabe, M. (2002). Urban residential environments and senior citizens' longevity in megacity areas: the importance of walkable green spaces. Journal of Epidemiology and Community Health, 56(12), 913–918.",
+        "url": "https://doi.org/10.1136/jech.56.12.913"
+      },
+      {
+        "reference": "Twohig-Bennett, C. et Jones, A. (2018). The health benefits of the great outdoors: A systematic review and meta-analysis of greenspace exposure and health outcomes. Environmental Research, 166, 628–637.",
+        "url": "https://doi.org/10.1016/j.envres.2018.06.030"
+      },
+      {
+        "reference": "Ulrich, R. S. (1984). View through a window may influence recovery from surgery. Science, 224(4647), 420–421.",
+        "url": "https://doi.org/10.1126/science.6143402"
+      },
+      {
+        "reference": "Ulrich, R. S., Simons, R. F., Losito, B. D., Fiorito, E., Miles, M. A. et Zelson, M. (1991). Stress recovery during exposure to natural and urban environments. Journal of Environmental Psychology, 11(3), 201–230.",
+        "url": "https://doi.org/10.1016/S0272-4944(05)80184-7"
+      },
+      {
+        "reference": "White, M. P., Alcock, I., Grellier, J., Wheeler, B. W., Hartig, T., Warber, S. L., Bone, A., Depledge, M. H. et Fleming, L. E. (2019). Spending at least 120 minutes a week in nature is associated with good health and wellbeing. Scientific Reports, 9, 7730.",
+        "url": "https://doi.org/10.1038/s41598-019-44097-3"
+      }
+    ]
+  },
+  {
+    "title": "Masques du monde",
+    "subtitle": "Du Pérou au Japon, de l'Alaska au Gabon : vingt-cinq masques de vingt-cinq pays et des cinq continents",
+    "status": "published",
+    "theme": "Corps & identité",
+    "intro": "Un masque cache un visage pour en faire apparaître un autre : celui d'un ancêtre, d'un esprit, d'un dieu, d'un défunt, d'un animal ou d'un personnage de théâtre. De l'Égypte des pharaons au théâtre nô, des Andes aux îles du détroit de Torres, ces vingt-cinq masques montrent comment chaque culture a donné un visage à l'invisible. Beaucoup n'étaient pas faits pour être regardés immobiles dans une vitrine, mais portés, dansés et chantés, avec un costume, de la musique et des gestes : imaginez-les en mouvement, à la lumière du feu. Certains masques sacrés, que leurs communautés demandent de ne pas montrer, comme les visages de guérison haudenosaunee ou certains masques hopis et zuñis, ne figurent volontairement pas ici. Plusieurs de ces objets ont quitté leur pays dans des conditions violentes ou contestées : leur histoire est rappelée quand elle est connue.",
+    "minimum": 20,
+    "search": {
+      "keywords": "mask",
+      "auto": false
+    },
+    "works": [
+      {
+        "title": "Masque de momie de Khonsou",
+        "artist": "Atelier de Deir el-Médineh",
+        "country": "Égypte",
+        "period": "vers 1290–1224 av. J.-C.",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/expositions/masque-egypte.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/544709), domaine public (Open Access)",
+        "analysis": "Ce masque de bois peint et de cartonnage couvrait la tête et les épaules de la momie de Khonsou, fils de l'artisan Sennedjem, enterré à Deir el-Médineh, le village des bâtisseurs des tombes royales. Il ne cherche pas la ressemblance : il donne au défunt un visage idéal et éternellement jeune, encadré d'une perruque rayée et d'un large collier de fleurs et de perles. Pour les Égyptiens, ce visage parfait aidait l'âme à reconnaître son corps et à renaître dans l'au-delà.",
+        "compare": "Comme le masque d'or de Sicán (Pérou), un visage pour l'éternité. Mais Khonsou garde l'apparence d'un homme, alors que le seigneur de Sicán devient un être surnaturel."
+      },
+      {
+        "title": "Masque comique",
+        "artist": "Coroplathe grec (peut-être attique)",
+        "country": "Grèce",
+        "period": "fin du IVe–IIIe siècle av. J.-C.",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/expositions/masque-grece.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/241075), domaine public (Open Access)",
+        "analysis": "Les vrais masques du théâtre grec, en lin stuqué ou en bois, ont tous disparu ; ces copies en terre cuite, offertes dans les sanctuaires ou gardées dans les maisons, nous montrent à quoi ils ressemblaient. Dans la comédie de l'époque de Ménandre, chaque masque désignait un type que le public reconnaissait au premier coup d'œil : jeune homme, vieillard, esclave, courtisane. Cheveux bouclés, bouche grande ouverte pour porter la voix jusqu'aux derniers gradins : c'est l'ancêtre de nos personnages de théâtre.",
+        "compare": "Comme le masque nô japonais, un masque de théâtre. Le grec exagère les traits pour être vu de loin, en plein air ; le nô affine l'expression pour quelques mètres de distance, dans la pénombre."
+      },
+      {
+        "title": "Masque anthropomorphe",
+        "artist": "Artisan chypriote",
+        "country": "Chypre",
+        "period": "vers 600–480 av. J.-C.",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/expositions/masque-chypre.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/241254), domaine public (Open Access)",
+        "analysis": "À l'époque archaïque, les sanctuaires de Chypre recevaient des masques de terre cuite à la taille d'un visage humain. Les archéologues pensent qu'ils servaient à des rites ou qu'ils étaient offerts aux dieux, sans savoir exactement comment, ni s'ils ont été portés. Le modelé reste simple, un nez fort, une bouche fermée, de grandes oreilles, comme si ce visage n'appartenait encore à personne.",
+        "compare": "Comme le masque de pierre de Teotihuacan, un visage sans individualité, à mi-chemin entre une personne et l'idée de personne."
+      },
+      {
+        "title": "Masque",
+        "artist": "Sculpteur de Teotihuacan",
+        "country": "Mexique",
+        "period": "300–600 apr. J.-C.",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/expositions/masque-mexique.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/310647), domaine public (Open Access)",
+        "analysis": "Teotihuacan, au nord de l'actuelle Mexico, fut l'une des plus grandes villes du monde vers l'an 500, avec peut-être 100 000 habitants. Ses sculpteurs ont taillé dans la pierre de nombreux masques au visage calme, très semblables : front droit, yeux en amande, bouche entrouverte. Trop lourds pour être portés, ils étaient sans doute fixés sur des statues ou des paquets funéraires, et leurs yeux étaient souvent incrustés de coquillage ou de pierre. Leur sérénité anonyme semble représenter moins une personne que l'idéal de toute une cité.",
+        "compare": "Comme le masque de momie égyptien, un visage idéal plutôt qu'un portrait."
+      },
+      {
+        "title": "Masque funéraire",
+        "artist": "Orfèvre de la culture Sicán (Lambayeque)",
+        "country": "Pérou",
+        "period": "900–1100 apr. J.-C.",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/expositions/masque-perou.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/309959), domaine public (Open Access)",
+        "analysis": "Les seigneurs de la culture Sicán, sur la côte nord du Pérou, étaient enterrés couverts d'or. Ce masque de feuille d'or martelée, peint en rouge vif au cinabre, était posé sur le visage du défunt. Ses yeux en forme d'ailes et les pendeloques qui tremblaient au moindre mouvement transformaient le mort en être surnaturel, peut-être le dieu de Sicán lui-même. Plus tard, les Incas appelleront l'or « la sueur du soleil ».",
+        "compare": "Comme le masque d'or de Java, un visage de métal précieux pour un défunt de haut rang ; mais Java choisit la douceur, Sicán la puissance."
+      },
+      {
+        "title": "Masque",
+        "artist": "Orfèvre de la culture Calima (période Ilama)",
+        "country": "Colombie",
+        "period": "1000–100 av. J.-C.",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/expositions/masque-colombie.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/316699), domaine public (Open Access)",
+        "analysis": "Dans la vallée de la Calima, au cœur des Andes colombiennes, les orfèvres martelaient l'or en fines feuilles. Ce masque aux yeux et à la bouche ouverts, flanqué de deux grands disques comme des ornements d'oreilles, accompagnait sans doute un défunt dans sa tombe. L'or, qui ne ternit pas, garde au visage un éclat permanent : pour de nombreux peuples des Andes, il était lié au soleil et à une vie qui ne finit pas."
+      },
+      {
+        "title": "Masque",
+        "artist": "Sculpteur de la culture Condorhuasi-Alamito",
+        "country": "Argentine",
+        "period": "400 av. J.-C. – 500 apr. J.-C.",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/expositions/masque-argentine.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/708744), domaine public (Open Access)",
+        "analysis": "Dans les vallées arides du nord-ouest de l'Argentine, autour de Catamarca, les peuples de la culture Condorhuasi-Alamito ont taillé ce masque dans une pierre sombre. Le visage se réduit à l'essentiel : deux yeux, une bouche et de petits trous sur le pourtour, pour l'attacher ou le suspendre. Cette économie de moyens, vingt siècles avant l'art moderne, frappe par sa force.",
+        "compare": "Comme le masque fang du Gabon, une géométrie très simple ; mais ici la pierre rend le visage immobile pour toujours."
+      },
+      {
+        "title": "Masque",
+        "artist": "Sculpteur yup'ik",
+        "country": "États-Unis (Alaska)",
+        "period": "vers 1900",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/expositions/masque-yupik.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/751539), domaine public (Open Access)",
+        "analysis": "Chez les Yup'ik de l'ouest de l'Alaska, les masques étaient taillés pour les fêtes d'hiver, souvent selon la vision d'un chamane, et dansés une seule fois avant d'être abandonnés. Autour du visage central rayonnent des appendices, des plumes et des figures animales : le monde des humains et celui des animaux s'y rencontrent, car le gibier devait être honoré pour revenir. Au XXe siècle, les surréalistes, André Breton en tête, collectionnèrent ces masques avec passion.",
+        "compare": "Comme le masque de transformation kwakwaka'wakw, un masque qui montre plusieurs mondes à la fois."
+      },
+      {
+        "title": "Masque de transformation de la baleine",
+        "artist": "Sculpteur kwakwaka'wakw",
+        "country": "Canada (Colombie-Britannique)",
+        "period": "XIXe siècle",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/expositions/masque-kwakwakawakw.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/312626), domaine public (Open Access)",
+        "analysis": "Fermé, ce masque des Kwakwaka'wakw de la côte nord-ouest du Pacifique montre une baleine. Tiré par des cordelettes pendant la danse, il s'ouvre et révèle un autre visage : la transformation se fait sous les yeux des invités, à la lueur du feu. Ces masques étaient dansés lors des potlatchs, grandes cérémonies de dons. Le Canada a interdit le potlatch de 1885 à 1951 ; en 1921, des objets cérémoniels furent saisis, et une partie est revenue depuis aux communautés, au centre culturel U'mista d'Alert Bay.",
+        "compare": "Comme le masque nô, un visage qui change devant le public : ici par un mécanisme, là-bas par l'inclinaison de la tête."
+      },
+      {
+        "title": "Masque-pendentif de la reine mère Idia",
+        "artist": "Artiste de la cour du royaume du Bénin (Edo)",
+        "country": "Nigeria",
+        "period": "XVIe siècle",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/expositions/masque-idia.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/318622), domaine public (Open Access)",
+        "analysis": "Ce petit masque d'ivoire était porté à la ceinture par l'oba, le roi du Bénin, lors de cérémonies. Il représente sans doute Idia, mère de l'oba Esigie, qui l'aida à gagner la guerre au début du XVIe siècle et devint la première reine mère du royaume. Les deux marques verticales du front sont incrustées de fer ; la coiffe est faite de petites têtes de Portugais barbus, marchands venus par la mer, que les Edo associaient à Olokun, dieu de la mer et de la richesse. Pris en 1897 lors de l'expédition punitive britannique contre Benin City, avec des milliers d'objets du palais, il est au cœur des débats sur la restitution des œuvres africaines ; son jumeau du British Museum devint en 1977 l'emblème du festival FESTAC de Lagos.",
+        "compare": "Comme le masque de momie de Khonsou, un visage qui garde la mémoire d'une personne réelle ; mais Idia est honorée comme une ancêtre puissante et protectrice."
+      },
+      {
+        "title": "Masque lunaire d'une danse mblo",
+        "artist": "Sculpteur baoulé",
+        "country": "Côte d'Ivoire",
+        "period": "milieu du XIXe – début du XXe siècle",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/expositions/masque-baule.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/643506), domaine public (Open Access)",
+        "analysis": "Chez les Baoulé, les danses mblo étaient des spectacles de divertissement où défilaient des masques de plus en plus importants. Certains rendaient hommage à une personne admirée du village pour sa beauté ou son talent ; celui-ci représente la lune. Le visage aux yeux mi-clos, au front haut et à la petite bouche incarne l'idéal baoulé de calme et de maîtrise de soi.",
+        "compare": "Comme le masque nô de jeune femme, un idéal de beauté calme, où l'émotion se lit à peine."
+      },
+      {
+        "title": "Masque-heaume ngontang (« jeune fille blanche »)",
+        "artist": "Sculpteur fang",
+        "country": "Gabon",
+        "period": "seconde moitié du XIXe siècle",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/expositions/masque-fang.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/312196), domaine public (Open Access)",
+        "analysis": "Le ngontang apparaît chez les Fang du Gabon à la fin du XIXe siècle, au moment où les Européens s'installent dans la région. Son nom signifie « jeune fille blanche » : les visages blanchis au kaolin, couleur liée aux esprits des défunts, évoquent à la fois les ancêtres et ces étrangers à la peau pâle. Ce casque à plusieurs visages, porté sur la tête, dansait lors de fêtes et de cérémonies. Les masques fang ont fasciné Vlaminck, Derain et Picasso au début du XXe siècle.",
+        "compare": "Comme le masque de Condorhuasi-Alamito, des traits réduits à quelques lignes, mais ici rehaussés par le blanc du kaolin."
+      },
+      {
+        "title": "Grand masque (Imina Na)",
+        "artist": "Sculpteur dogon",
+        "country": "Mali",
+        "period": "XVIIIe–XIXe siècle",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/expositions/masque-dogon.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/310343), domaine public (Open Access)",
+        "analysis": "Haut de plusieurs mètres, le « grand masque » des Dogon ne se porte pas comme les autres : on le dresse lors des grandes cérémonies. Il est taillé pour le Sigi, fête qui a lieu tous les soixante ans environ et célèbre le premier ancêtre et l'arrivée de la mort chez les humains ; le dernier Sigi s'est déroulé de 1967 à 1973, le prochain est attendu à partir de 2027. Sa forme étirée, une longue planche au-dessus d'un petit visage, relie le monde des vivants à celui des ancêtres."
+      },
+      {
+        "title": "Masque-heaume",
+        "artist": "Sculpteur kuba (groupe ngeende)",
+        "country": "République démocratique du Congo",
+        "period": "début ou milieu du XVIIIe siècle",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/expositions/masque-kuba.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/812107), domaine public (Open Access)",
+        "analysis": "Les masques du royaume kuba, au centre de l'actuelle République démocratique du Congo, appartiennent à de grandes mascarades liées à la royauté et à l'initiation des jeunes hommes. En Afrique centrale, l'humidité et les insectes détruisent d'ordinaire un masque de bois en quelques décennies : daté du XVIIIe siècle, celui-ci est d'une ancienneté exceptionnelle. Front bombé, joues larges, bouche ouverte sur les dents : le visage est taillé dans un style puissant, sans les perles et les coquillages qui couvriront les masques kuba plus récents."
+      },
+      {
+        "title": "Masque de buffle",
+        "artist": "Sculpteur bwa",
+        "country": "Burkina Faso",
+        "period": "début ou milieu du XXe siècle",
+        "museum": "Cleveland Museum of Art",
+        "image": "images/expositions/masque-bwa.jpg",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1969.2), domaine public (CC0)",
+        "analysis": "Chez les Bwa, les masques aux traits humains, animaux ou fantastiques représentent des esprits protecteurs de la brousse ; les cornes et le museau de celui-ci désignent un buffle. Le danseur, caché sous un costume de fibres végétales, apparaît pendant la saison sèche, lors des initiations, des funérailles des anciens, des jours de marché et des fêtes de la récolte. Chez les Bwa, les motifs géométriques peints sur les masques forment un langage que les initiés apprennent à lire.",
+        "compare": "Comme le masque-heaume des Noni du Cameroun, un animal puissant devient le protecteur de la communauté."
+      },
+      {
+        "title": "Masque",
+        "artist": "Sculpteur dan",
+        "country": "Liberia",
+        "period": "XXe siècle (vers 1900 ?)",
+        "museum": "Cleveland Museum of Art",
+        "image": "images/expositions/masque-dan.jpg",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1953.456), domaine public (CC0)",
+        "analysis": "Chez les Dan du Liberia et de Côte d'Ivoire, un masque n'est pas une simple image : il est la demeure d'un esprit de la forêt, qui choisit de se montrer aux humains par l'intermédiaire d'un danseur. Ce visage ovale et lisse, aux yeux étroits et aux lèvres pleines, appartient au type le plus paisible ; les masques aux grands yeux ronds, eux, servent à des courses rapides. Longtemps manipulé et enduit, il a pris une patine sombre et brillante.",
+        "compare": "Comme le masque baoulé, un visage apaisé ; mais celui-ci n'est pas un portrait : c'est un esprit qui prend forme humaine."
+      },
+      {
+        "title": "Masque-heaume",
+        "artist": "Sculpteur noni",
+        "country": "Cameroun",
+        "period": "vers 1900",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/expositions/masque-noni.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/309789), domaine public (Open Access)",
+        "analysis": "Dans les royaumes des Grassfields, les hautes terres de l'ouest du Cameroun, les masques appartiennent aux sociétés qui entourent le roi (fon) et font respecter ses décisions. Ce masque des Noni associe un large museau et des cornes enroulées : dans les Grassfields, les grands animaux sont des emblèmes de la puissance royale. Blanchi au kaolin, il se portait sur la tête, au-dessus d'un costume qui cachait le danseur."
+      },
+      {
+        "title": "Masque de nô : Waka-onna (jeune femme)",
+        "artist": "Sculpteur japonais",
+        "country": "Japon",
+        "period": "XVe siècle (époque de Muromachi)",
+        "museum": "Cleveland Museum of Art",
+        "image": "images/expositions/masque-noh.jpg",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1972.69), domaine public (CC0)",
+        "analysis": "Le nô, théâtre né au XIVe siècle, fait jouer tous les rôles par des hommes masqués. Ce masque de jeune femme semble neutre ; c'est l'acteur qui l'anime. Légèrement relevé vers la lumière (teru), il paraît sourire ; abaissé (kumoru), l'ombre envahit les yeux et il semble pleurer. Taillé dans le cyprès hinoki et couvert de fines couches de blanc de coquillage, il date du siècle où Zeami fixa les règles du nô.",
+        "compare": "Comme le masque de transformation kwakwaka'wakw, un visage qui change d'expression devant le public, mais par un geste presque imperceptible."
+      },
+      {
+        "title": "Masque de vieillard",
+        "artist": "Sculpteur coréen",
+        "country": "Corée",
+        "period": "XIXe siècle (dynastie Joseon)",
+        "museum": "Cleveland Museum of Art",
+        "image": "images/expositions/masque-coree.jpg",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1989.103), domaine public (CC0)",
+        "analysis": "Le talchum, théâtre dansé masqué de Corée, mêle chants, danses et dialogues. Né dans la province de Hwanghae, il devient très populaire dans les villages sous la dynastie Joseon. Les spectateurs y riaient des aristocrates prétentieux, des moines hypocrites et des querelles de vieux couples : derrière le masque, on pouvait dire ce qui était interdit à visage découvert. Ce vieillard à la barbe de crin de cheval est l'un de ces personnages familiers.",
+        "compare": "Comme le masque comique grec, un type de personnage que tout le public reconnaît, et qui permet de rire des puissants."
+      },
+      {
+        "title": "Masque de procession d'une divinité hindoue",
+        "artist": "Orfèvre newar",
+        "country": "Népal",
+        "period": "probablement XIVe–XVIe siècle",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/expositions/masque-nepal.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/39366), domaine public (Open Access)",
+        "analysis": "Les orfèvres newar de la vallée de Katmandou sont réputés depuis des siècles pour leur travail du cuivre au repoussé : la feuille de métal est martelée par l'arrière jusqu'à faire naître le relief. Ce visage de divinité, couronné et paré de grands pendants d'oreilles, couvrait une statue ou une image portée en procession lors des fêtes, quand les dieux sortent des temples pour parcourir la ville. Son calme contraste avec les visages terribles des masques de danse tibétains voisins.",
+        "compare": "Comme le masque de Teotihuacan, un visage destiné à une statue plutôt qu'à un danseur."
+      },
+      {
+        "title": "Masque de danse cham",
+        "artist": "Artisan tibétain",
+        "country": "Tibet",
+        "period": "fin du XIXe siècle",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/expositions/masque-tibet.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/37645), domaine public (Open Access)",
+        "analysis": "Dans les monastères tibétains, des moines masqués dansent le cham, longue danse rituelle accompagnée de trompes et de tambours, qui chasse les forces du mal et enseigne la doctrine bouddhique. Les masques, faits de couches de papier et de tissu peintes et vernies, devaient rester légers pour être portés des heures. Ce visage rieur au crâne chauve appartient peut-être à un personnage comique qui détend l'assistance entre deux apparitions de divinités terribles.",
+        "compare": "Comme le masque de vieillard coréen, le rire a sa place au milieu de la cérémonie."
+      },
+      {
+        "title": "Masque",
+        "artist": "Orfèvre de Java central",
+        "country": "Indonésie",
+        "period": "VIIIe – début du IXe siècle",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/expositions/masque-java.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/50421), domaine public (Open Access)",
+        "analysis": "À l'époque où l'on bâtissait le temple de Borobudur, les orfèvres de Java central travaillaient l'or avec une grande finesse. Ce petit masque au visage apaisé, aux yeux mi-clos, était peut-être posé sur le visage d'un défunt de haut rang ou fixé sur une statue. À Java, le masque deviendra aussi un art vivant : le topeng, théâtre dansé où un seul danseur change de masque pour incarner rois, serviteurs et démons."
+      },
+      {
+        "title": "Masque",
+        "artist": "Sculpteur tolai",
+        "country": "Papouasie-Nouvelle-Guinée",
+        "period": "milieu ou fin du XIXe siècle",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/expositions/masque-tolai.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/311960), domaine public (Open Access)",
+        "analysis": "Les Tolai de la péninsule de la Gazelle, en Nouvelle-Bretagne, taillaient de longs masques au visage blanc, aux yeux cernés et au nez fin, portés lors de cérémonies et de rites funéraires. Les traits peints, presque géométriques, se lisent de loin, à la lumière des feux. Comme beaucoup de masques d'Océanie, il était porté avec un costume de feuilles ou de fibres qui cachait entièrement le danseur : seul restait visible le visage de l'esprit."
+      },
+      {
+        "title": "Krar (masque en écaille de tortue)",
+        "artist": "Artiste des îles du détroit de Torres",
+        "country": "Australie (détroit de Torres)",
+        "period": "milieu ou fin du XIXe siècle",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/expositions/masque-torres.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/311950), domaine public (Open Access)",
+        "analysis": "Les habitants des îles du détroit de Torres, entre l'Australie et la Nouvelle-Guinée, sont les seuls à avoir fait des masques en écaille de tortue : les plaques, chauffées pour être assouplies, étaient cousues ensemble puis ornées de plumes de casoar, de coquillages et de fibres. Ces masques, à la fois visage humain et animal, étaient portés lors de cérémonies funéraires, d'initiation ou de rites pour l'abondance des récoltes et de la pêche. La culture des insulaires du détroit de Torres est distincte de celles des Aborigènes d'Australie.",
+        "compare": "Comme le masque yup'ik d'Alaska, un masque où l'humain et l'animal ne font qu'un."
+      },
+      {
+        "title": "Masque d'animal",
+        "artist": "Atelier chinois (dynastie des Zhou de l'Ouest)",
+        "country": "Chine",
+        "period": "fin du Xe – début du VIIIe siècle av. J.-C.",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/expositions/masque-chine.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/61350), domaine public (Open Access)",
+        "analysis": "Ce masque n'a jamais été porté : c'est un ornement d'argent doré, sans doute fixé sur un char, un harnais ou un cercueil. Dès l'âge du bronze, les artistes chinois couvrent les objets rituels de visages d'animaux fantastiques, comme le taotie des bronzes Shang et Zhou : deux yeux saillants, des cornes en spirale, une gueule réduite à un motif. Le masque devient un signe protecteur plutôt qu'un visage.",
+        "compare": "Comme le masque de buffle bwa, un animal protecteur ; mais ici il ne danse pas, il veille."
+      }
+    ]
   }
 ]

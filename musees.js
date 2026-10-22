@@ -389,6 +389,8 @@ const MOUVEMENTS = [
     "Mouvement, contrastes de lumière et émotion, des églises de Rome aux missions des Amériques."],
   ['Romantisme', 'Europe', 'Europe', 'fin du XVIIIe–XIXe siècle', ['Romanticism'], ['Romanticism'], 'turner', ['J.M.W. Turner|William Turner|J. M. W. Turner', 'Eugène Delacroix', 'Caspar David Friedrich', 'Théodore Géricault', 'Francisco de Goya', 'John Constable', 'Anne-Louis Girodet|Anne-Louis Girodet de Roucy-Trioson', 'Antoine-Jean Gros', 'Philipp Otto Runge', 'William Blake'],
     "Nature sublime, passions, histoire et rêve."],
+  ['École de Barbizon', 'Europe', 'France', '1830–1875', ['Barbizon'], ['Barbizon school', 'Barbizon School'], 'corot|millet|daubigny|rousseau', ['Camille Corot|Jean-Baptiste-Camille Corot', 'Jean-François Millet', 'Théodore Rousseau', 'Charles-François Daubigny', 'Narcisse Díaz de la Peña|Narcisse Virgilio Díaz de la Peña', 'Constant Troyon', 'Jules Dupré', 'Charles Jacque'],
+    "Dans la forêt de Fontainebleau, des peintres quittent l'atelier pour peindre sur le motif les arbres, le ciel et le travail des paysans."],
   ['Impressionnisme', 'Europe', 'France', '1860–1890', ['Impressionism'], ['Impressionism'], 'monet|renoir|degas|pissarro|sisley|morisot', ['Claude Monet', 'Berthe Morisot', 'Camille Pissarro', 'Pierre-Auguste Renoir', 'Edgar Degas', 'Édouard Manet', 'Alfred Sisley', 'Gustave Caillebotte', 'Mary Cassatt'],
     "Peindre en plein air la lumière changeante, par touches rapides."],
   ['Postimpressionnisme', 'Europe', 'Europe', '1885–1910', ['Post-Impressionism'], ['Post-Impressionism', 'Post-impressionism'], 'van gogh|gauguin|c[eé]zanne|seurat', ['Vincent van Gogh', 'Paul Gauguin', 'Paul Cézanne', 'Georges Seurat', 'Henri de Toulouse-Lautrec', 'Paul Signac'],
@@ -432,7 +434,7 @@ const ANONYME = 'Q4233718'; // « anonyme » dans Wikidata
 const MOUVEMENTS_D_ESTAMPES = new Set(['Ukiyo-e', 'Expressionnisme']);
 // Mouvements de peintres : si le visiteur n'a pas choisi de type, l'exposition ne montre que des peintures
 // (pas les dessins, études, estampes ou éventails que les catalogues renvoient aussi pour ces artistes)
-const MOUVEMENTS_DE_PEINTURE = new Set(['Impressionnisme', 'Postimpressionnisme', 'Romantisme', 'Hudson River School', 'École de Cuzco', 'Peinture de castas']);
+const MOUVEMENTS_DE_PEINTURE = new Set(['Impressionnisme', 'Postimpressionnisme', 'Romantisme', 'École de Barbizon', 'Hudson River School', 'École de Cuzco', 'Peinture de castas']);
 // Une œuvre de collection.json appartient-elle à ce mouvement ? (d'après son artiste ou son titre)
 function oeuvreDuMouvement(w, nom) {
   const m = mouvement(nom);

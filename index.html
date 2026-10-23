@@ -847,9 +847,9 @@ html.sans-animation *,html.sans-animation *::before,html.sans-animation *::after
   </div>
 </footer>
 <!-- Traductions (anglais, espagnol, arabe) et moteur de traduction -->
-<script src="i18n.js?v=20261022d"></script>
+<script src="i18n.js?v=20261023a"></script>
 <!-- Recherche en direct dans les catalogues ouverts des musées (domaine public) -->
-<script src="musees.js?v=20261022d"></script>
+<script src="musees.js?v=20261023a"></script>
 <script>
 const ART = [
   { img:"images/oeuvres/grande-vague-hokusai.jpg", credit:'Image : <a href="https://www.metmuseum.org/art/collection/search/45434" target="_blank" rel="noopener">The Metropolitan Museum of Art</a>, domaine public (Open Access)', name:"La Grande Vague de Kanagawa", meta:"Katsushika Hokusai · Japon · vers 1830-1832 · Metropolitan Museum of Art",
@@ -1300,8 +1300,14 @@ function doVibe(){
 
 // SYNESTHÉSIE : valeurs musicales calculées à partir des couleurs réelles de l'image, puis musique jouée dans le navigateur.
 // Règle de correspondance (inventée pour ce site, inspirée du clavier à lumières de Scriabine) :
-// teinte dominante → note (cercle des quintes) ; luminosité → mode ; saturation → énergie ; contraste → tempo.
-const NOTES=['Do','Sol','Ré','La','Mi','Si','Fa♯','Ré♭','La♭','Mi♭','Si♭','Fa'];   // une note tous les 30° de teinte
+// teinte moyenne → note (cercle des quintes) ; luminosité et chaleur → mode (lydien à phrygien) ; saturation → énergie et timbre ; contraste → tempo et basse ;
+// texture (touches fines ou aplats) → rythme de la mélodie ; nombre de couleurs → richesse des accords ; colonnes et lignes de l'image → mélodie.
+const NOTES=['Do','Sol','Ré','La','Mi','Si','Fa♯','Ré♭','La♭','Mi♭','Si♭','Fa'];   // les notes dans l'ordre du cercle des quintes, du rouge au violet
+// Teinte moyenne de l'œuvre → note. Les tons chauds (bruns, ocres, dorés, vernis jaunis) sont ceux de la plupart des peintures et des objets anciens :
+// une roue découpée en parts égales leur donnait presque toujours la même note (Sol). Elle est donc découpée plus finement dans les tons chauds
+// (rouges, puis bruns rouges à dorés, bornes choisies pour répartir les œuvres du site entre les notes), plus largement dans les verts, bleus et violets.
+// Bornes en degrés de teinte décalée de 15° (0 = rouge-violet, 15 = rouge pur, 75 = jaune) : 11 bornes pour 12 notes.
+const BORNES_TEINTES=[23,35,40,44,48,52,56,61,75,165,285];
 const DEMITONS=[0,7,2,9,4,11,6,1,8,3,10,5];                                        // écart de chaque note avec Do
 const analyses={};
 function analyserCouleurs(img){
@@ -1309,27 +1315,44 @@ function analyserCouleurs(img){
   const c=document.createElement('canvas'),T=80;c.width=T;c.height=T;
   const ctx=c.getContext('2d',{willReadFrequently:true});ctx.drawImage(img,0,0,T,T);
   const px=ctx.getImageData(0,0,T,T).data; // impossible si l'image vient d'un autre site sans autorisation : on renvoie alors null
-  const teintes=new Array(12).fill(0),barres=new Array(10).fill(0),boites={};
-  let sS=0,sL=0,sL2=0,n=0;
+  const teintes=new Array(12).fill(0),barres=new Array(10).fill(0),boites={},lums=new Float32Array(T*T);
+  // L'image est aussi lue par bandes : 16 colonnes (de gauche à droite) et 8 lignes (de haut en bas), chacune avec sa luminosité et sa saturation
+  const bande=n=>Array.from({length:n},()=>({l:0,s:0,n:0}));
+  const cols=bande(16),rangs=bande(8);
+  let sS=0,sL=0,sL2=0,n=0,chaud=0,froid=0,graine=2166136261,hx=0,hy=0;
   for(let i=0;i<px.length;i+=4){
     const r=px[i]/255,g=px[i+1]/255,b=px[i+2]/255,mx=Math.max(r,g,b),mn=Math.min(r,g,b),l=(mx+mn)/2,d=mx-mn;
     const s=d===0?0:d/(1-Math.abs(2*l-1));
     let h=0;if(d){h=mx===r?((g-b)/d)%6:mx===g?(b-r)/d+2:(r-g)/d+4;h=(h*60+360)%360;}
     sS+=s;sL+=l;sL2+=l*l;n++;
     teintes[Math.floor(((h+15)%360)/30)]+=d*d; // pondéré par l'intensité de la couleur : un beige pâle compte peu, un bleu profond beaucoup
+    hx+=d*d*Math.cos(h*Math.PI/180);hy+=d*d*Math.sin(h*Math.PI/180); // teinte moyenne (moyenne sur le cercle des couleurs)
+    if(h<70||h>=330)chaud+=d;else if(h>=150&&h<290)froid+=d;
     barres[Math.floor(h/36)%10]+=0.2+s;
     const k=[px[i]>>5,px[i+1]>>5,px[i+2]>>5].join(',');boites[k]=(boites[k]||0)+1;
+    const p=i/4,x=p%T,y=Math.floor(p/T);lums[p]=l;
+    for(const [z,q] of [[cols,Math.floor(x*16/T)],[rangs,Math.floor(y*8/T)]]){z[q].l+=l;z[q].s+=s;z[q].n++;}
+    graine=Math.imul(graine^(px[i]+px[i+1]*3+px[i+2]*7),16777619); // empreinte de l'image : chaque œuvre a ses propres variations
   }
+  let tex=0;for(let y=0;y<T;y++)for(let x=1;x<T;x++)tex+=Math.abs(lums[y*T+x]-lums[y*T+x-1]);tex/=T*(T-1); // texture : touches fines ou aplats
   const S=sS/n,L=sL/n,C=Math.sqrt(Math.max(0,sL2/n-L*L)); // saturation, luminosité et contraste moyens (0 à 1)
-  const k=teintes.indexOf(Math.max(...teintes));
+  const hMoy=(Math.atan2(hy,hx)*180/Math.PI+375)%360; // décalée de 15° : les rouges proches de 360° rejoignent ceux proches de 0°
+  const k=hx||hy?BORNES_TEINTES.filter(b=>hMoy>=b).length:0,k1=teintes.indexOf(Math.max(...teintes)),totalT=teintes.reduce((a,b)=>a+b,0)||1;
+  const k2=teintes.map((v,j)=>j===k1?-1:v).reduce((m,v,j,a)=>v>a[m]?j:m,0);
+  const couleurs=teintes.filter(v=>v/totalT>0.08).length; // nombre de couleurs vraiment présentes : richesse des accords
   const maxB=Math.max(...barres);
   const palette=Object.entries(boites).sort((a,b)=>b[1]-a[1]).slice(0,5).map(([key])=>'rgb('+key.split(',').map(v=>v*32+16).join(',')+')');
+  const moy=z=>z.map(b=>({l:b.n?b.l/b.n:L,s:b.n?b.s/b.n:S}));
+  const tiede=chaud>=froid;
+  // Mode selon la luminosité (et la chaleur des couleurs) : du plus clair (lydien) au plus sombre (phrygien)
+  const modeNom=L>=0.62?'lydien':L>=0.5?'ionien':L>=0.44?(tiede?'mixolydien':'dorien'):L>=0.36?(tiede?'dorien':'éolien'):L>=0.28?'éolien':'phrygien';
   const res={
     tempo:Math.round(Math.min(160,Math.max(50,55+S*90+C*160))),
-    note:k,mode:L>=0.5?'majeur':'mineur',
+    note:k,note2:k2,mode:['lydien','ionien','mixolydien'].includes(modeNom)?'majeur':'mineur',modeNom,
     energie:S<0.25?'Douce':S<0.45?'Modérée':'Forte',
     lumiere:L<0.35?'Sombre':L<0.6?'Nuancée':'Lumineuse',
-    palette,barres:barres.map(v=>Math.round(25+75*v/maxB)),S,L,C
+    palette,barres:barres.map(v=>Math.round(25+75*v/maxB)),S,L,C,
+    colonnes:moy(cols),lignes:moy(rangs),texture:tex,couleurs,chaud:tiede,graine:graine>>>0
   };
   analyses[img.src]=res;return res;
 }
@@ -1346,45 +1369,113 @@ function afficherValeurs(i){
     }
     note.textContent='Valeurs calculées à partir des couleurs réelles de l\'image (règle de correspondance inventée pour ce site).';
     pal.innerHTML=v.palette.map(c=>`<span style="background:${c}"></span>`).join('');
-    ms.innerHTML=`<div class="ms">Tempo <b>${v.tempo} BPM</b></div><div class="ms">Tonalité <b><span>${NOTES[v.note]}</span> <span>${v.mode}</span></b></div><div class="ms">Énergie <b>${v.energie}</b></div><div class="ms">Luminosité <b>${v.lumiere}</b></div>`;
+    ms.innerHTML=`<div class="ms">Tempo <b>${v.tempo} BPM</b></div><div class="ms">Tonalité <b><span>${NOTES[v.note]}</span> <span>${v.modeNom||v.mode}</span></b></div><div class="ms">Énergie <b>${v.energie}</b></div><div class="ms">Luminosité <b>${v.lumiere}</b></div>`;
     ART[i].heights=v.barres; // la partition visuelle prend la forme des couleurs de l'œuvre
     if(!vibeOn){const bars=document.getElementById('vibe-bars').children;for(let j=0;j<bars.length;j++)bars[j].style.height=v.barres[j]+'%';}
   };
   if(img.complete&&img.naturalWidth)appliquer();else img.addEventListener('load',appliquer,{once:true});
 }
-// Musique : progression d'accords dans la tonalité calculée, arpèges au tempo calculé, timbre selon l'énergie
+// Musique : composée à partir de l'image, à plusieurs voix (nappe, basse, arpège, mélodie, percussions légères), en trois parties :
+// A, la mélodie suit les colonnes de l'œuvre de gauche à droite (hauteur = luminosité, force = saturation, place gauche/droite dans le casque = place dans l'image) ;
+// B, elle suit les lignes de haut en bas, plus grave et plus lente, dans une autre suite d'accords (celle de la deuxième couleur) ;
+// A', retour de la première partie, ornée, et cadence finale.
 let audio=null,musique=null;
 function stopMusique(){
   if(musique){clearTimeout(musique.fin);couperMusique(musique);musique=null;}
   const b=document.getElementById('music-btn');if(b)b.innerHTML='<span aria-hidden="true">▶</span> Écouter la musique des couleurs';
 }
+const MODES={lydien:[0,2,4,6,7,9,11],ionien:[0,2,4,5,7,9,11],mixolydien:[0,2,4,5,7,9,10],dorien:[0,2,3,5,7,9,10],'éolien':[0,2,3,5,7,8,10],phrygien:[0,1,3,5,7,8,10]};
+const PROGRESSIONS=[[0,5,3,4],[0,3,4,0],[0,4,5,3],[0,2,3,4],[0,5,1,4],[0,3,0,4],[5,3,0,4],[0,6,3,4],[0,1,4,0],[3,4,2,5]]; // degrés de la gamme, un accord par mesure
+const ARPEGES=[[0,1,2,1,0,1,2,1],[0,2,1,2,0,2,1,2],[0,1,2,3,2,1,0,1],[0,2,3,2,1,2,3,2],[0,-1,1,-1,2,-1,1,-1],[0,1,0,2,0,3,0,2],[2,1,0,1,3,2,1,2]]; // -1 : silence
 // Programme la musique des couleurs (valeurs v calculées par analyserCouleurs) ; renvoie de quoi l'arrêter.
 // Utilisée par la page Accessibilité et par la fenêtre « Accessibilité » ouverte depuis n'importe quelle œuvre du site.
 function programmerMusique(v){
   if(!audio){audio=new (window.AudioContext||window.webkitAudioContext)();audio.analyseur=audio.createAnalyser();audio.analyseur.connect(audio.destination);}
   audio.resume();
-  const sortie=audio.createGain();sortie.gain.value=0.22;
-  const filtre=audio.createBiquadFilter();filtre.type='lowpass';filtre.frequency.value=v.energie==='Forte'?2600:1600;
+  // Hasard reproductible : la même œuvre donne toujours la même musique, deux œuvres différentes des variations différentes
+  let g0=(v.graine||(v.note*7919+Math.round(v.L*1e4)))>>>0;
+  const hasard=()=>{g0=(g0+0x6D2B79F5)>>>0;let t=g0;t=Math.imul(t^t>>>15,t|1);t^=t+Math.imul(t^t>>>7,t|61);return((t^t>>>14)>>>0)/4294967296;};
+  const choix=l=>l[Math.floor(hasard()*l.length)];
+  const cols=v.colonnes||Array.from({length:16},(_,i)=>({l:v.L+0.15*Math.sin(i),s:v.S}));
+  const rangs=v.lignes||Array.from({length:8},(_,i)=>({l:v.L+0.1*Math.cos(i),s:v.S}));
+  const tex=v.texture==null?0.06:v.texture,richesse=v.couleurs||2;
+  // Chaîne du son : voix → bus (sec + réverbération, plus grande dans les œuvres sombres) → sortie → filtre → analyseur
+  const sortie=audio.createGain();sortie.gain.value=0.3;
+  const filtre=audio.createBiquadFilter();filtre.type='lowpass';filtre.frequency.value=v.energie==='Forte'?3200:v.energie==='Modérée'?2400:1700;
   sortie.connect(filtre);filtre.connect(audio.analyseur);
-  const onde=v.energie==='Douce'?'sine':v.energie==='Modérée'?'triangle':'sawtooth';
-  const gamme=v.mode==='majeur'?[0,2,4,5,7,9,11]:[0,2,3,5,7,8,10];
-  const base=48+DEMITONS[v.note]; // note de départ autour du do grave
+  const bus=audio.createGain();bus.connect(sortie);
+  const rev=audio.createConvolver();
+  {const len=Math.floor(audio.sampleRate*2.6),ir=audio.createBuffer(2,len,audio.sampleRate);
+    for(let ch=0;ch<2;ch++){const d=ir.getChannelData(ch);for(let i=0;i<len;i++)d[i]=(hasard()*2-1)*Math.pow(1-i/len,3);}rev.buffer=ir;}
+  const mouille=audio.createGain();mouille.gain.value=0.18+0.35*(1-v.L);bus.connect(rev);rev.connect(mouille);mouille.connect(sortie);
+  const panneau=x=>{if(!audio.createStereoPanner)return bus;const p=audio.createStereoPanner();p.pan.value=Math.max(-0.8,Math.min(0.8,x));p.connect(bus);return p;};
+  const centre=bus;
+  const gamme=MODES[v.modeNom]||(v.mode==='majeur'?MODES.ionien:MODES['éolien']);
+  let base=48+DEMITONS[v.note];if(base>54)base-=12; // tonique autour du do grave
+  const midi=d=>base+gamme[((d%7)+7)%7]+12*Math.floor(d/7);
   const freq=m=>440*Math.pow(2,(m-69)/12);
-  const degres=[0,5,3,4]; // I–vi–IV–V (ou i–VI–iv–v)
-  const croche=60/v.tempo/2,debut=audio.currentTime+0.1,duree=20;
-  const jouer=(m,t,d,vol,type)=>{const o=audio.createOscillator(),g=audio.createGain();o.type=type;o.frequency.value=freq(m);
-    g.gain.setValueAtTime(0,t);g.gain.linearRampToValueAtTime(vol,t+0.02);g.gain.exponentialRampToValueAtTime(0.001,t+d);o.connect(g);g.connect(sortie);o.start(t);o.stop(t+d+0.05);};
-  let t=debut,mesure=0;
-  while(t<debut+duree){
-    const deg=degres[mesure%4],accord=[0,2,4].map(x=>{const idx=deg+x;return base+gamme[idx%7]+12*Math.floor(idx/7);});
-    jouer(accord[0]-12,t,croche*8,0.5,'sine');                 // basse sur toute la mesure
-    for(let c=0;c<8;c++){                                      // arpège en croches
-      const m=accord[[0,1,2,1,0,1,2,1][c]]+12*(c>=4&&v.L>=0.5?1:0);
-      jouer(m,t+c*croche,croche*1.8,c%4===0?0.35:0.22,onde);
-    }
-    t+=croche*8;mesure++;
-  }
-  return {sortie,duree:(t-audio.currentTime)*1000+300};
+  const jouer=(m,t,d,vol,type,dest,opt={})=>{
+    const o=audio.createOscillator(),g=audio.createGain();o.type=type;o.frequency.value=freq(m);if(opt.desaccord)o.detune.value=opt.desaccord;
+    const att=opt.attaque||0.015;
+    g.gain.setValueAtTime(0,t);g.gain.linearRampToValueAtTime(vol,t+att);
+    if(opt.tenue){g.gain.setValueAtTime(vol,t+Math.max(att,d-0.3));g.gain.linearRampToValueAtTime(0,t+d);}else g.gain.exponentialRampToValueAtTime(0.001,t+d);
+    if(opt.vibrato){const l=audio.createOscillator(),lg=audio.createGain();l.frequency.value=5.2;lg.gain.value=opt.vibrato;l.connect(lg);lg.connect(o.detune);l.start(t+0.25);l.stop(t+d+0.05);}
+    o.connect(g);g.connect(dest||centre);o.start(t);o.stop(t+d+0.05);
+  };
+  let bruit=null;
+  const tic=(t,vol)=>{if(!bruit){bruit=audio.createBuffer(1,audio.sampleRate*0.08,audio.sampleRate);const d=bruit.getChannelData(0);for(let i=0;i<d.length;i++)d[i]=(hasard()*2-1)*(1-i/d.length);}
+    const s=audio.createBufferSource(),f=audio.createBiquadFilter(),g=audio.createGain();s.buffer=bruit;f.type='highpass';f.frequency.value=6000;g.gain.value=vol;s.connect(f);f.connect(g);g.connect(centre);s.start(t);};
+  const coup=(t,vol)=>{const o=audio.createOscillator(),g=audio.createGain();o.frequency.setValueAtTime(110,t);o.frequency.exponentialRampToValueAtTime(42,t+0.18);g.gain.setValueAtTime(vol,t);g.gain.exponentialRampToValueAtTime(0.001,t+0.25);o.connect(g);g.connect(centre);o.start(t);o.stop(t+0.3);};
+  const ondeArp=v.energie==='Douce'?'sine':v.energie==='Modérée'?'triangle':'sawtooth';
+  const ondeMel=v.energie==='Forte'?'square':v.energie==='Modérée'?'triangle':'sine';
+  const noire=60/v.tempo,croche=noire/2,mesure=noire*4,debut=audio.currentTime+0.12;
+  const progA=PROGRESSIONS[(v.note+Math.floor(hasard()*3))%PROGRESSIONS.length];
+  const progB=PROGRESSIONS[((v.note2==null?v.note+5:v.note2)+3)%PROGRESSIONS.length];
+  const arpA=choix(ARPEGES),arpB=choix(ARPEGES.filter(a=>a!==arpA));
+  const tons=deg=>{const n=richesse>=5?5:richesse>=3?4:3;return [0,2,4,6,8].slice(0,n).map(x=>deg+x);}; // triade, septième, neuvième selon le nombre de couleurs
+  const procheAccord=(d,deg)=>{let best=d,ecart=99;for(let o=-14;o<=21;o+=7)for(const x of [0,2,4]){const c=deg+x+o;if(Math.abs(c-d)<ecart){ecart=Math.abs(c-d);best=c;}}return best;};
+  const percus=v.energie==='Forte'||tex>0.09;
+  // Une mesure : accord du degré deg, mélodie de 4 valeurs (luminosité et saturation de 4 bandes de l'image)
+  const jouerMesure=(t,deg,bandes,section,pos,dernier)=>{
+    const tc=tons(deg);
+    // Nappe : l'accord tenu, deux voix légèrement désaccordées
+    for(const d of tc.slice(0,4))for(const dc of [-6,6])jouer(midi(d)+12,t,mesure+0.15,0.035,v.energie==='Douce'?'sine':'triangle',centre,{attaque:0.35,tenue:true,desaccord:dc});
+    // Basse : rythme selon le contraste
+    const rac=midi(deg)-12;
+    if(dernier||v.C<0.16)jouer(rac,t,mesure,0.42,'sine');
+    else if(v.C<0.26){jouer(rac,t,noire*2,0.4,'sine');jouer(rac+7,t+noire*2,noire*2,0.32,'sine');}
+    else for(let q=0;q<4;q++)jouer(rac+(q%2?12:0),t+q*noire,noire*0.9,q%2?0.26:0.38,'sine');
+    // Arpège
+    if(!dernier){const pat=section==='B'?arpB:arpA;
+      for(let c=0;c<8;c++){const ix=pat[c];if(ix<0)continue;const d=tc[Math.min(ix,tc.length-1)]+(section==='B'?0:7);
+        jouer(midi(d),t+c*croche,croche*1.7,(c%4===0?0.13:0.08)*(section==='B'?0.8:1),ondeArp,panneau(c%2?0.35:-0.35));}}
+    // Percussions légères
+    if(percus&&!dernier)for(let q=0;q<8;q++){if(q%2===0||tex>0.12)tic(t+q*croche,q%4===0?0.05:0.025);if(v.energie==='Forte'&&q===0)coup(t,0.3);}
+    // Mélodie
+    const hautBas=section==='B'?[3,10]:[7,17];
+    let prec=null;
+    bandes.forEach((b,q)=>{
+      let d=hautBas[0]+Math.round(Math.max(0,Math.min(1,(b.l-0.1)/0.8))*(hautBas[1]-hautBas[0]));
+      if(q===0||q===2||dernier)d=procheAccord(d,deg); // temps forts sur une note de l'accord
+      const pan=-0.7+1.4*(pos+q)/(section==='B'?8:16),dest=panneau(section==='B'?0:pan);
+      const vol=0.12+0.14*Math.min(1,b.s/0.6);
+      const dur=section==='B'?noire*2:noire;
+      const tq=t+q*dur;if(tq>=t+mesure-0.001)return;
+      if(dernier){jouer(midi(procheAccord(hautBas[0]+7,deg)),t,mesure*1.5,0.16,ondeMel,centre,{vibrato:12});return;}
+      if(prec!=null&&d===prec&&tex<0.05){prec=d;return;} // aplats : notes tenues plutôt que répétées
+      const orne=section==='A2'||tex>=0.09;
+      if(orne&&prec!=null&&Math.abs(d-prec)>=2&&section!=='B'){ // touches fines : note de passage en croche
+        jouer(midi(d),tq,croche*1.1,vol*0.9,ondeMel,dest);jouer(midi(d+(d>prec?1:-1)),tq+croche,croche*1.1,vol*0.7,ondeMel,dest);
+      }else jouer(midi(d),tq,dur*(tex<0.05?1.9:1.05),vol,ondeMel,dest,{vibrato:v.energie==='Douce'?10:6});
+      prec=d;
+    });
+  };
+  let t=debut;
+  for(let m=0;m<4;m++){jouerMesure(t,progA[m],cols.slice(m*4,m*4+4),'A',m*4,false);t+=mesure;}
+  for(let m=0;m<4;m++){jouerMesure(t,progB[m],rangs.slice(m*2,m*2+2),'B',m*2,false);t+=mesure;}
+  for(let m=0;m<3;m++){jouerMesure(t,m<2?progA[m]:4,cols.slice(m*4,m*4+4),'A2',m*4,false);t+=mesure;} // dernier accord sur la dominante
+  jouerMesure(t,0,[cols[15]],'A2',15,true);t+=mesure*1.6; // conclusion sur la tonique
+  return {sortie,duree:(t-audio.currentTime)*1000+1200};
 }
 function couperMusique(m){if(m&&audio){m.sortie.gain.cancelScheduledValues(audio.currentTime);m.sortie.gain.setTargetAtTime(0,audio.currentTime,0.05);}}
 function doMusique(){
@@ -1395,7 +1486,7 @@ function doMusique(){
   const m=programmerMusique(v);
   musique={sortie:m.sortie,fin:setTimeout(()=>{stopMusique();document.getElementById('music-etat').textContent='Musique terminée.';},m.duree)};
   document.getElementById('music-btn').innerHTML='<span aria-hidden="true">⏹</span> Arrêter la musique';
-  document.getElementById('music-etat').innerHTML=`<span>Lecture en cours</span> · ${v.tempo} BPM · <span>${NOTES[v.note]}</span> <span>${v.mode}</span>`;
+  document.getElementById('music-etat').innerHTML=`<span>Lecture en cours</span> · ${v.tempo} BPM · <span>${NOTES[v.note]}</span> <span>${v.modeNom||v.mode}</span>`;
 }
 
 // BIEN-ÊTRE : voir bienetre.js
@@ -1620,8 +1711,8 @@ afficherValeurs(0);
 traduirePage();
 </script>
 <!-- Fenêtre Accessibilité de chaque œuvre et menu Affichage et lecture -->
-<script src="accessibilite.js?v=20261022d"></script>
+<script src="accessibilite.js?v=20261023a"></script>
 <!-- Séances de bien-être composées à la demande -->
-<script src="bienetre.js?v=20261022d"></script>
+<script src="bienetre.js?v=20261023a"></script>
 </body>
 </html>

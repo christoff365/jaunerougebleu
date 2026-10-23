@@ -263,6 +263,10 @@ img.zoom:focus-visible{outline:3px solid #1a3a8a;outline-offset:-3px}
 .visionneuse::backdrop{background:rgba(0,0,0,.8)}
 .visionneuse img{display:block;max-width:calc(96vw - 24px);max-height:calc(96vh - 120px);margin:8px auto;object-fit:contain}
 .visionneuse p{margin:4px 0 0;font-size:14px}
+.visionneuse.avec-musique img{max-height:calc(96vh - 250px)}
+.vis-musique{max-width:640px;margin:10px auto 0;font-size:13px;color:#ddd}
+.vis-musique p{margin:0 0 8px;line-height:1.5}
+.vis-arreter{font:inherit;font-size:14px;padding:8px 16px;border-radius:4px;border:1px solid #888;background:#fff;color:#111;cursor:pointer}
 .vis-fermer{display:block;margin-left:auto;color:#fff;border-color:#888}
 /* Images sensibles : floutées jusqu'au clic */
 .sensible{position:relative;overflow:hidden}
@@ -850,9 +854,9 @@ html.sans-animation *,html.sans-animation *::before,html.sans-animation *::after
   </div>
 </footer>
 <!-- Traductions (anglais, espagnol, arabe) et moteur de traduction -->
-<script src="i18n.js?v=20261023b"></script>
+<script src="i18n.js?v=20261023c"></script>
 <!-- Recherche en direct dans les catalogues ouverts des musées (domaine public) -->
-<script src="musees.js?v=20261023b"></script>
+<script src="musees.js?v=20261023c"></script>
 <script>
 const ART = [
   { img:"images/oeuvres/grande-vague-hokusai.jpg", credit:'Image : <a href="https://www.metmuseum.org/art/collection/search/45434" target="_blank" rel="noopener">The Metropolitan Museum of Art</a>, domaine public (Open Access)', name:"La Grande Vague de Kanagawa", meta:"Katsushika Hokusai · Japon · vers 1830-1832 · Metropolitan Museum of Art",
@@ -1084,20 +1088,32 @@ function imageOeuvre(src,alt,classe,sensible){
 function grandeImage(src){return String(src).replace(/(\/thumb\/.+\/)\d+px-([^/]+)$/,'$11280px-$2').replace(/([?&]width=)\d+/,'$11280');}
 // Bouton loupe des vignettes qui servent à choisir une œuvre (le clic sur la vignette la choisit, la loupe l'agrandit)
 function boutonLoupe(){return '<button type="button" class="loupe" aria-label="Agrandir l\'image" onclick="event.stopPropagation();ouvrirVisionneuse(this.parentElement.querySelector(\'img\'))" onkeydown="event.stopPropagation()"><span aria-hidden="true">🔍</span></button>';}
-function ouvrirVisionneuse(img){
+// Avec « musique » ({etat, arreter}) : la visionneuse s'ouvre quand on lance la musique des couleurs, pour regarder l'œuvre en grand
+// pendant l'écoute ; elle reprend l'état de la lecture (partie en cours, instruments) et a son propre bouton pour arrêter la musique.
+// Fermer la visionneuse ne coupe pas la musique.
+function ouvrirVisionneuse(img,musique){
   if(img.closest('.sensible:not(.vu)'))return; // image floutée : il faut d'abord choisir de l'afficher
   let d=document.getElementById('visionneuse');
   if(!d){
     d=document.createElement('dialog');d.id='visionneuse';d.className='visionneuse';d.setAttribute('aria-labelledby','vis-leg');
-    d.innerHTML='<button type="button" class="back-btn vis-fermer" onclick="this.closest(\'dialog\').close()"><span aria-hidden="true">✕</span> Fermer</button><img id="vis-img" alt=""><p id="vis-leg"></p>';
+    d.innerHTML='<button type="button" class="back-btn vis-fermer" onclick="this.closest(\'dialog\').close()"><span aria-hidden="true">✕</span> Fermer</button><img id="vis-img" alt=""><p id="vis-leg"></p><div class="vis-musique" id="vis-musique" hidden><p id="vis-musique-etat" aria-live="polite"></p><button type="button" class="vis-arreter" id="vis-arreter"><span aria-hidden="true">⏹</span> Arrêter la musique</button></div>';
     d.addEventListener('click',e=>{if(e.target===d)d.close();}); // clic à côté de l'image : on ferme
+    d.addEventListener('close',()=>{if(d.suivi){d.suivi.disconnect();d.suivi=null;}});
     document.body.appendChild(d);
   }
   const g=document.getElementById('vis-img'),petite=img.currentSrc||img.src;
   g.onerror=()=>{g.onerror=null;g.src=petite;};
   g.src=grandeImage(petite);g.alt=img.alt;
   document.getElementById('vis-leg').textContent=img.alt;
-  d.showModal();
+  const zone=document.getElementById('vis-musique'),texte=document.getElementById('vis-musique-etat');
+  if(d.suivi){d.suivi.disconnect();d.suivi=null;}
+  zone.hidden=!musique;d.classList.toggle('avec-musique',!!musique);
+  if(musique){
+    const copier=()=>{texte.innerHTML=musique.etat.innerHTML;const fini=!musique.enCours();document.getElementById('vis-arreter').hidden=fini;};
+    copier();d.suivi=new MutationObserver(copier);d.suivi.observe(musique.etat,{childList:true,subtree:true,characterData:true});
+    document.getElementById('vis-arreter').onclick=()=>{if(musique.enCours())musique.arreter();copier();};
+  }
+  if(!d.open)d.showModal();
 }
 document.addEventListener('click',e=>{const img=e.target.closest&&e.target.closest('img.zoom');if(img)ouvrirVisionneuse(img);});
 document.addEventListener('keydown',e=>{if((e.key==='Enter'||e.key===' ')&&e.target.matches&&e.target.matches('img.zoom')){e.preventDefault();ouvrirVisionneuse(e.target);}});
@@ -1492,6 +1508,7 @@ async function doMusique(){
   const img=document.getElementById('big-img');let v=null;try{v=analyserCouleurs(img);}catch(e){}
   if(!v){etat.textContent='L\'analyse des couleurs n\'a pas pu être faite sur cet appareil.';return;}
   doMusique.charge=true;btn.innerHTML='<span aria-hidden="true">⏹</span> Arrêter la musique';
+  ouvrirVisionneuse(img,{etat,enCours:()=>!!(musique||doMusique.charge),arreter:doMusique});
   if(typeof styleMusique!=='undefined'&&styleMusique!=='simple')etat.innerHTML='<span>Chargement de l\'orchestre…</span>';
   const m=typeof lancerMusique==='function'?await lancerMusique(v):programmerMusique(v);
   if(!doMusique.charge||!m)return; // arrêtée pendant le chargement
@@ -1723,9 +1740,9 @@ afficherValeurs(0);
 traduirePage();
 </script>
 <!-- Fenêtre Accessibilité de chaque œuvre et menu Affichage et lecture -->
-<script src="orchestre.js?v=20261023b"></script>
-<script src="accessibilite.js?v=20261023b"></script>
+<script src="orchestre.js?v=20261023c"></script>
+<script src="accessibilite.js?v=20261023c"></script>
 <!-- Séances de bien-être composées à la demande -->
-<script src="bienetre.js?v=20261023b"></script>
+<script src="bienetre.js?v=20261023c"></script>
 </body>
 </html>

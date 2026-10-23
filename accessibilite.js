@@ -208,6 +208,8 @@ async function accMusique() {
   if (!v) { etat.textContent = 'L\'analyse des couleurs n\'a pas pu être faite sur cet appareil.'; return; }
   accStopTout();
   accEtat.charge = true; document.getElementById('am-musique').innerHTML = '<span aria-hidden="true">⏹</span> Arrêter la musique';
+  const img = document.getElementById('am-img');
+  if (img && typeof ouvrirVisionneuse === 'function') ouvrirVisionneuse(img, { etat, enCours: () => !!(accEtat.musique || accEtat.charge), arreter: accMusique }); // l'œuvre en grand pendant l'écoute
   if (typeof styleMusique !== 'undefined' && styleMusique !== 'simple') etat.innerHTML = '<span>Chargement de l\'orchestre…</span>';
   const m = typeof lancerMusique === 'function' ? await lancerMusique(v) : programmerMusique(v);
   if (!accEtat.charge || !m || accEtat.v !== v) return; // arrêtée ou fenêtre changée pendant le chargement

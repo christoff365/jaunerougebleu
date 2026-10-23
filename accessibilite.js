@@ -163,7 +163,7 @@ function accAnalyser(img, o) {
   if (!o.description) { $('am-desc').textContent = descriptionAuto(o, v); $('am-desc-note').textContent = 'Description composée automatiquement à partir des informations du musée et des couleurs de l\'image : à compléter par une description écrite.'; }
   if (v) {
     $('am-palette').innerHTML = v.palette.map(c => `<span style="background:${c}"></span>`).join('');
-    $('am-stats').innerHTML = `<div class="ms">Tempo <b>${v.tempo} BPM</b></div><div class="ms">Tonalité <b><span>${NOTES[v.note]}</span> <span>${v.mode}</span></b></div><div class="ms">Énergie <b>${v.energie}</b></div><div class="ms">Luminosité <b>${v.lumiere}</b></div>`;
+    $('am-stats').innerHTML = `<div class="ms">Tempo <b>${v.tempo} BPM</b></div><div class="ms">Tonalité <b><span>${NOTES[v.note]}</span> <span>${v.modeNom||v.mode}</span></b></div><div class="ms">Énergie <b>${v.energie}</b></div><div class="ms">Luminosité <b>${v.lumiere}</b></div>`;
     [...$('am-barres').children].forEach((b, i) => { b.style.height = v.barres[i] + '%'; });
     if (!(o.art && o.art.deaf)) $('am-musique-texte').textContent = musiqueAuto(v);
     if (!(o.art && o.art.vibe)) $('am-vibe-texte').textContent = texteVibrationsAuto(v);
@@ -207,7 +207,7 @@ function accMusique() {
   const m = programmerMusique(v);
   accEtat.musique = { sortie: m.sortie, fin: setTimeout(() => { accStopTout(); document.getElementById('am-musique-etat').textContent = 'Musique terminée.'; }, m.duree) };
   document.getElementById('am-musique').innerHTML = '<span aria-hidden="true">⏹</span> Arrêter la musique';
-  document.getElementById('am-musique-etat').innerHTML = `<span>Lecture en cours</span> · ${v.tempo} BPM · <span>${NOTES[v.note]}</span> <span>${v.mode}</span>`;
+  document.getElementById('am-musique-etat').innerHTML = `<span>Lecture en cours</span> · ${v.tempo} BPM · <span>${NOTES[v.note]}</span> <span>${v.modeNom||v.mode}</span>`;
 }
 function accPartition() {
   if (accEtat.anim) { accStopTout(); return; }

@@ -104,6 +104,7 @@ function creerFenetreAcces() {
           <div class="box-text" id="am-desc"></div>
           <button type="button" class="btn-b" id="am-parler" onclick="accParler()"><span aria-hidden="true">▶</span> Écouter la description</button></div>
         <div class="info-box blue-box"><div class="box-lbl blue-lbl"><span aria-hidden="true">🎵</span> Musique des couleurs (synesthésie)</div>
+          ${typeof boutonsStyleMusique === 'function' ? boutonsStyleMusique() : ''}
           <button type="button" class="btn-b" id="am-musique" onclick="accMusique()"><span aria-hidden="true">▶</span> Écouter la musique des couleurs</button>
           <p class="music-etat" id="am-musique-etat" aria-live="polite"></p></div>
         <div class="info-box green-box"><div class="box-lbl green-lbl"><span aria-hidden="true">🎼</span> Partition visuelle — rythme de l'œuvre</div>
@@ -174,7 +175,8 @@ function accAnalyser(img, o) {
 }
 function accStopTout() {
   if (accEtat.parle && 'speechSynthesis' in window) window.speechSynthesis.cancel(); accEtat.parle = false;
-  if (accEtat.musique) { clearTimeout(accEtat.musique.fin); couperMusique(accEtat.musique); accEtat.musique = null; }
+  if (typeof annulerChargementMusique === 'function') annulerChargementMusique(); accEtat.charge = false;
+  if (accEtat.musique) { clearTimeout(accEtat.musique.fin); clearInterval(accEtat.musique.suivi); couperMusique(accEtat.musique); accEtat.musique = null; }
   if (accEtat.anim) { cancelAnimationFrame(accEtat.anim); accEtat.anim = null; if (peutVibrer) navigator.vibrate(0); }
   const b1 = document.getElementById('am-parler'), b2 = document.getElementById('am-musique'), b3 = document.getElementById('am-partition');
   if (b1) b1.innerHTML = '<span aria-hidden="true">▶</span> Écouter la description';
@@ -199,15 +201,19 @@ function accParler() {
   accEtat.parle = true; document.getElementById('am-parler').innerHTML = '<span aria-hidden="true">⏹</span> Arrêter la lecture';
   window.speechSynthesis.speak(u);
 }
-function accMusique() {
-  if (accEtat.musique) { accStopTout(); document.getElementById('am-musique-etat').textContent = ''; return; }
+async function accMusique() {
+  const etat = document.getElementById('am-musique-etat');
+  if (accEtat.musique || accEtat.charge) { accStopTout(); etat.textContent = ''; return; }
   const v = accEtat.v;
-  if (!v) { document.getElementById('am-musique-etat').textContent = 'L\'analyse des couleurs n\'a pas pu être faite sur cet appareil.'; return; }
+  if (!v) { etat.textContent = 'L\'analyse des couleurs n\'a pas pu être faite sur cet appareil.'; return; }
   accStopTout();
-  const m = programmerMusique(v);
-  accEtat.musique = { sortie: m.sortie, fin: setTimeout(() => { accStopTout(); document.getElementById('am-musique-etat').textContent = 'Musique terminée.'; }, m.duree) };
-  document.getElementById('am-musique').innerHTML = '<span aria-hidden="true">⏹</span> Arrêter la musique';
-  document.getElementById('am-musique-etat').innerHTML = `<span>Lecture en cours</span> · ${v.tempo} BPM · <span>${NOTES[v.note]}</span> <span>${v.modeNom||v.mode}</span>`;
+  accEtat.charge = true; document.getElementById('am-musique').innerHTML = '<span aria-hidden="true">⏹</span> Arrêter la musique';
+  if (typeof styleMusique !== 'undefined' && styleMusique !== 'simple') etat.innerHTML = '<span>Chargement de l\'orchestre…</span>';
+  const m = typeof lancerMusique === 'function' ? await lancerMusique(v) : programmerMusique(v);
+  if (!accEtat.charge || !m || accEtat.v !== v) return; // arrêtée ou fenêtre changée pendant le chargement
+  accEtat.charge = false;
+  accEtat.musique = { sortie: m.sortie, fin: setTimeout(() => { accStopTout(); etat.textContent = 'Musique terminée.'; }, m.duree) };
+  accEtat.musique.suivi = typeof suivreMusique === 'function' ? suivreMusique(m, v, etat) : null;
 }
 function accPartition() {
   if (accEtat.anim) { accStopTout(); return; }

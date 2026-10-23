@@ -237,6 +237,14 @@ a.mus-site:hover{color:var(--bleu)}
 #mv-tags .mv-groupe-t{font-size:12px;color:#666;margin-bottom:6px}
 #mv-tags .tags{margin-bottom:8px}
 .artiste-ligne{margin-bottom:24px}
+.art-choix{margin-top:10px;max-width:760px}
+.art-choix>p{font-size:12px;color:#666;margin:0 0 6px}
+.art-choix details{border-top:1px solid #f0e8d8;padding:6px 0}
+.art-choix summary{cursor:pointer;font-size:13px;color:#333;padding:4px 0}
+.art-choix summary span{color:#888;font-size:12px}
+.art-choix .tags{margin:6px 0 4px}
+.art-choix .art-tag{font:inherit;font-size:13px;cursor:pointer}
+.art-choix .art-tag.on{background:#1a1614;color:#fff;border-color:#1a1614}
 .artiste-ligne input{width:100%;max-width:520px;padding:10px 12px;border:1px solid #e0d5c0;border-radius:4px;font:inherit;font-size:14px;background:#fff;color:#111}
 .mv-carte{break-inside:avoid;margin:0 0 14px}
 .mv-carte h4{font-family:'Cormorant Garamond',serif;font-size:19px;margin:0 0 2px;color:#111}
@@ -575,8 +583,8 @@ html.sans-animation *,html.sans-animation *::before,html.sans-animation *::after
     <div id="mv-tags"></div>
     <div class="step-row"><div class="step-n">6</div><div class="step-l"><label for="gen-artiste">Artiste</label></div></div>
     <div class="artiste-ligne">
-      <input type="text" id="gen-artiste" list="gen-artistes" autocomplete="off" placeholder="Par exemple : Hokusai, Rembrandt, Ogata Kōrin…" oninput="majBoutonGen()">
-      <datalist id="gen-artistes"></datalist>
+      <input type="text" id="gen-artiste" autocomplete="off" placeholder="Tapez un nom, ou choisissez ci-dessous" oninput="majBoutonGen()">
+      <div id="art-choix" class="art-choix" aria-live="polite"></div>
       <p class="mv-aide">Facultatif. Seuls les artistes morts depuis plus de 70 ans ont des œuvres dans le domaine public ; beaucoup d'œuvres anciennes ou non européennes sont anonymes.</p>
     </div>
     <div class="step-row"><div class="step-n">7</div><div class="step-l">Œuvres</div></div>
@@ -839,9 +847,9 @@ html.sans-animation *,html.sans-animation *::before,html.sans-animation *::after
   </div>
 </footer>
 <!-- Traductions (anglais, espagnol, arabe) et moteur de traduction -->
-<script src="i18n.js?v=20261022c"></script>
+<script src="i18n.js?v=20261022d"></script>
 <!-- Recherche en direct dans les catalogues ouverts des musées (domaine public) -->
-<script src="musees.js?v=20261022c"></script>
+<script src="musees.js?v=20261022d"></script>
 <script>
 const ART = [
   { img:"images/oeuvres/grande-vague-hokusai.jpg", credit:'Image : <a href="https://www.metmuseum.org/art/collection/search/45434" target="_blank" rel="noopener">The Metropolitan Museum of Art</a>, domaine public (Open Access)', name:"La Grande Vague de Kanagawa", meta:"Katsushika Hokusai · Japon · vers 1830-1832 · Metropolitan Museum of Art",
@@ -980,14 +988,35 @@ function viderGenerateur(){
   majBoutonGen();
 }
 function artisteChoisi(){const e=document.getElementById('gen-artiste');return e?e.value.trim():'';}
-function majBoutonGen(){document.getElementById('gen-btn').disabled=!Object.values(sel).some(a=>a.length)&&!artisteChoisi();}
+function majBoutonGen(){document.getElementById('gen-btn').disabled=!Object.values(sel).some(a=>a.length)&&!artisteChoisi();majArtistes();}
+// Étape 6 : plutôt que de devoir connaître et taper un nom, le visiteur choisit parmi les artistes des mouvements,
+// regroupés par mouvement. La liste suit les choix des étapes 2 (régions) et 5 (mouvements) et se filtre pendant la frappe.
+function majArtistes(){
+  const z=document.getElementById('art-choix');if(!z||typeof MOUVEMENTS==='undefined')return;
+  const saisi=artisteChoisi(),q=sansAccents(saisi);
+  let mvs=MOUVEMENTS.filter(m=>m.artistes.length);
+  const filtre=sel.mv.length||sel.rg.length;
+  if(sel.mv.length)mvs=mvs.filter(m=>sel.mv.includes(m.nom));
+  else if(sel.rg.length)mvs=mvs.filter(m=>sel.rg.includes(m.region));
+  const choisi=a=>sansAccents(a)===q;
+  const groupes=mvs.map(m=>({m,l:q&&!m.artistes.some(choisi)?m.artistes.filter(a=>sansAccents(a).includes(q)):m.artistes})).filter(g=>g.l.length);
+  if(!groupes.length){z.innerHTML=q?'<p>Aucun artiste de nos mouvements ne correspond : l\'exposition cherchera ce nom dans les catalogues des musées.</p>':'';return;}
+  const ouvert=filtre||q||groupes.length<=2;
+  z.innerHTML=`<p>${filtre?'Artistes des mouvements et régions choisis :':'Ou choisissez un artiste, classé par mouvement :'}</p>`+groupes.map(g=>
+    `<details${ouvert||g.l.some(choisi)?' open':''}><summary>${esc(g.m.nom)} <span>· ${esc(g.m.epoque)} · ${g.l.length}</span></summary><div class="tags">${g.l.map(a=>{const on=choisi(a);return `<button type="button" class="tag art-tag${on?' on':''}" aria-pressed="${on}" data-a="${esc(a)}" onclick="choisirArtiste(this.dataset.a)">${esc(a)}</button>`;}).join('')}</div></details>`).join('');
+}
+function choisirArtiste(a){
+  const e=document.getElementById('gen-artiste');if(!e)return;
+  e.value=sansAccents(e.value.trim())===sansAccents(a)?'':a; // un second clic retire l'artiste
+  majBoutonGen();
+  const b=[...document.querySelectorAll('#art-choix .art-tag')].find(x=>x.dataset.a===a);if(b)b.focus(); // la liste est reconstruite : le clavier reste sur le même artiste
+}
 // Choix des mouvements (étape 5) et suggestions d'artistes (étape 6), construits à partir de la liste MOUVEMENTS de musees.js
 const ORDRE_REGIONS_MV=["Asie de l'Est",'Asie du Sud et du Sud-Est','Moyen-Orient','Afrique','Amériques','Océanie','Europe'];
 (()=>{if(typeof MOUVEMENTS==='undefined')return;
   const z=document.getElementById('mv-tags');
   if(z)z.innerHTML=ORDRE_REGIONS_MV.map(r=>{const l=MOUVEMENTS.filter(m=>m.region===r);return l.length?`<div class="mv-groupe"><p class="mv-groupe-t">${esc(r)}</p><div class="tags">${l.map(m=>`<span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="${esc(m.nom)}" onclick="tog(this,'mv')">${esc(m.nom)}</span>`).join('')}</div></div>`:'';}).join('');
-  const d=document.getElementById('gen-artistes');
-  if(d)d.innerHTML=[...new Set([].concat(...MOUVEMENTS.map(m=>m.artistes)))].sort((a,b)=>a.localeCompare(b,'fr')).map(a=>`<option value="${esc(a)}">`).join('');
+  majArtistes();
 })();
 // Onglet « Mouvements » : cartes par région, chacune avec un bouton qui prépare l'exposition dans le générateur
 function afficherMouvements(){
@@ -1591,8 +1620,8 @@ afficherValeurs(0);
 traduirePage();
 </script>
 <!-- Fenêtre Accessibilité de chaque œuvre et menu Affichage et lecture -->
-<script src="accessibilite.js?v=20261022c"></script>
+<script src="accessibilite.js?v=20261022d"></script>
 <!-- Séances de bien-être composées à la demande -->
-<script src="bienetre.js?v=20261022c"></script>
+<script src="bienetre.js?v=20261022d"></script>
 </body>
 </html>

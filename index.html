@@ -332,6 +332,25 @@ img.zoom:focus-visible{outline:3px solid #1a3a8a;outline-offset:-3px}
 .timer-st{font-size:12px;color:#666;letter-spacing:.06em;text-transform:uppercase;margin-top:8px}
 .jarea{width:100%;border:1px solid #e0d5c0;border-radius:4px;padding:10px 12px;font-size:13px;color:#111;background:#fff;resize:vertical;min-height:80px;outline:none;line-height:1.6;margin-bottom:16px}
 .jarea:focus{border-color:#C9A84C}
+#t-suivant[hidden],.sv-voix[hidden],.sv-pourquoi[hidden],.wb-soutien[hidden]{display:none}
+.wb-avert{margin:0 0 22px;padding:12px 16px;background:#fff8e6;border-left:3px solid #C9A84C;font-size:13px;line-height:1.6;color:#333}
+.wb-avert p{margin:0}
+.wb-sos{margin-top:8px}
+.wb-sos summary{cursor:pointer;font-weight:600;color:#a3201b}
+.wb-sos ul{margin:8px 0;padding-left:18px}
+.wb-sos li{margin-bottom:4px}
+.wb-sos p{margin:8px 0 0}
+.wb-journal{margin:22px 0 6px;border-top:1px solid #e0d5c0;padding-top:12px}
+.wb-journal summary{cursor:pointer;font-size:14px;font-weight:600}
+.wb-journal ul{list-style:none;padding:0;margin:10px 0;font-size:13px;line-height:1.6}
+.wb-journal li{padding:8px 0;border-bottom:1px solid #eee5d3}
+.wb-j-note{color:#555;font-style:italic}
+.sv-pourquoi{font-size:12px;color:#555;margin:6px 0 0}
+.mood-leg{font-size:12px;color:#666;margin:-8px 0 12px}
+.wb-soutien{background:#fff;border:1px solid #e9c46a;border-left:4px solid #e9c46a;border-radius:6px;padding:12px 14px;margin:0 0 16px;font-size:13px;line-height:1.6}
+.wb-soutien p{margin:0 0 6px}
+.wb-q{display:block;font-size:13px;color:#333;margin-bottom:6px}
+.wb-suite{font-size:13px;color:#137a5a;margin:0 0 14px;line-height:1.6}
 .cmp-box{background:#fff;border:1px solid #e0d5c0;border-radius:6px;padding:16px;margin-top:16px;text-align:center}
 .cmp-nums{display:flex;justify-content:space-around;align-items:center;margin-top:10px}
 .cmp-v{font-family:'Cormorant Garamond',serif;font-size:28px;font-weight:600;color:#C9A84C}
@@ -704,12 +723,26 @@ html.sans-animation *,html.sans-animation *::before,html.sans-animation *::after
     <h2>Bien-être par l'art</h2>
     <p class="sub">Séances de contemplation guidées pour explorer vos émotions à travers les œuvres du domaine public.</p>
     <p class="wb-expo">Pourquoi l'art et la nature font-ils du bien ? Découvrez l'exposition <button type="button" class="lien-btn" onclick="ouvrirExpo('Nature, art et bien-être')">Nature, art et bien-être</button> : vingt et une œuvres de vingt et un pays, et ce que disent les études scientifiques sur la santé, le bonheur et la longévité.</p>
+    <div class="wb-avert"><p>Ces séances sont des moments de détente par l'art. Elles ne remplacent pas un accompagnement médical ou psychologique. Vous pouvez les arrêter à tout moment.</p>
+      <details class="wb-sos" id="wb-sos"><summary>Besoin d'aide maintenant ?</summary>
+        <p>Si vous traversez un moment très difficile, ou si vous pensez à vous faire du mal, parlez-en dès maintenant à quelqu'un. Ces lignes d'écoute sont gratuites et confidentielles :</p>
+        <ul>
+          <li><b>France</b> : <a href="tel:3114">3114</a>, numéro national de prévention du suicide, 24 h/24 et 7 j/7</li>
+          <li><b>Belgique</b> : <a href="tel:080032123">0800 32 123</a>, Centre de prévention du suicide, 24 h/24</li>
+          <li><b>Suisse</b> : <a href="tel:143">143</a>, La Main Tendue, 24 h/24</li>
+          <li><b>Canada</b> : <a href="tel:988">988</a>, ligne d'aide en cas de crise de suicide, 24 h/24</li>
+          <li><b>Ailleurs dans le monde</b> : <a href="https://findahelpline.com/" target="_blank" rel="noopener">findahelpline.com</a>, qui recense les lignes d'écoute gratuites de chaque pays</li>
+          <li><b>En cas de danger immédiat</b> : <a href="tel:112">112</a> (Europe), <a href="tel:15">15</a> (SAMU, France), <a href="tel:911">911</a> (Amérique du Nord)</li>
+        </ul>
+        <p>Vous pouvez aussi en parler à votre médecin, à un ou une professionnelle de santé, ou à une personne de confiance.</p>
+      </details>
+    </div>
     <div id="wb-list">
       <p class="ey">1. Votre intention</p>
       <div class="wb-grid" id="wb-intentions"></div>
       <p class="ey">2. Durée de la séance</p>
       <div class="tags" id="wb-durees" role="group" aria-label="Durée de la séance">
-        <span class="tag" role="button" tabindex="0" aria-pressed="false" data-d="120" onclick="choisirDuree(this)">2 min</span><span class="tag on" role="button" tabindex="0" aria-pressed="true" data-d="180" onclick="choisirDuree(this)">3 min</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-d="300" onclick="choisirDuree(this)">5 min</span>
+        <span class="tag" role="button" tabindex="0" aria-pressed="false" data-d="120" onclick="choisirDuree(this)">2 min</span><span class="tag on" role="button" tabindex="0" aria-pressed="true" data-d="180" onclick="choisirDuree(this)">3 min</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-d="300" onclick="choisirDuree(this)">5 min</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-d="600" onclick="choisirDuree(this)">10 min</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-d="0" onclick="choisirDuree(this)">À mon rythme</span>
       </div>
       <p class="ey">3. Choisissez une œuvre</p>
       <p class="wb-aide" id="wb-aide">Choisissez d'abord une intention : des œuvres vous seront proposées d'après leurs couleurs.</p>
@@ -718,6 +751,11 @@ html.sans-animation *,html.sans-animation *::before,html.sans-animation *::after
         <button type="button" class="back-btn" id="wb-autres" onclick="proposerOeuvres()" hidden><span aria-hidden="true">↻</span> Autres propositions</button>
         <button type="button" class="gen-btn" id="wb-go" onclick="startWb()" disabled>Commencer la séance <span aria-hidden="true">→</span></button>
       </div>
+      <details class="wb-journal"><summary>Mon journal de séances (<span id="wb-journal-n">0</span>)</summary>
+        <p class="wb-aide">Votre journal reste uniquement dans ce navigateur : rien n'est envoyé sur Internet. Sur un appareil partagé, pensez à l'effacer.</p>
+        <ul id="wb-journal-liste"></ul>
+        <div class="wb-actions"><button type="button" class="back-btn" onclick="telechargerJournal()"><span aria-hidden="true">⬇</span> Télécharger mon journal</button><button type="button" class="back-btn" onclick="effacerJournal()"><span aria-hidden="true">✕</span> Tout effacer</button></div>
+      </details>
     </div>
     <div id="wb-sess" style="display:none">
       <div class="sv-wrap">
@@ -728,9 +766,12 @@ html.sans-animation *,html.sans-animation *::before,html.sans-animation *::after
         <img id="sv-img" class="sv-art zoom" tabindex="0" role="button" aria-haspopup="dialog" src="images/oeuvres/grande-vague-hokusai.jpg" alt="" style="margin-bottom:0">
         <p class="sv-cap" id="sv-cap"></p>
         <small class="img-credit" id="sv-credit"></small>
+        <p class="sv-pourquoi" id="sv-pourquoi" hidden></p>
         <div class="sv-outils"><span id="sv-acc"></span>
           <button type="button" class="back-btn" onclick="changerOeuvreWb()"><span aria-hidden="true">↻</span> Changer d'œuvre</button>
-          <label class="sv-voix"><input type="checkbox" id="sv-voix" onchange="voixWb(this.checked)"> Guidage vocal</label></div>
+          <label class="sv-voix"><input type="checkbox" id="sv-voix" onchange="voixWb(this.checked)"> Guidage vocal</label>
+          <label class="sv-voix" id="sv-souffle-l"><input type="checkbox" id="sv-souffle-c" onchange="souffleChoisiWb(this.checked)"> Respiration guidée (facultative)</label>
+          <label class="sv-voix" id="sv-musique-l"><input type="checkbox" id="sv-musique-c" onchange="musiqueChoisieWb(this.checked)"> Musique douce</label></div>
         <div class="sv-guide" id="sv-g" aria-live="polite"></div>
         <div class="sv-souffle" id="sv-souffle" hidden aria-hidden="true"><span class="sv-rond"></span><span id="sv-souffle-txt">Inspirez</span></div>
         <p class="ey" style="margin-bottom:10px">Votre humeur avant la séance</p>
@@ -741,12 +782,15 @@ html.sans-animation *,html.sans-animation *::before,html.sans-animation *::after
           <button class="mbd" aria-pressed="false" aria-label="Plutôt bien" onclick="moodFn('b',4,this)"><span aria-hidden="true">🙂</span></button>
           <button class="mbd" aria-pressed="false" aria-label="Très bien" onclick="moodFn('b',5,this)"><span aria-hidden="true">😊</span></button>
         </div>
+        <p class="mood-leg"><span aria-hidden="true">😔</span> <span>très mal</span> · <span aria-hidden="true">😊</span> <span>très bien</span></p>
+        <div class="wb-soutien" id="wb-soutien-b" hidden aria-live="polite"></div>
         <div class="timer-c">
           <div><div class="timer-ring" id="t-ring">3:00</div></div>
           <div class="timer-st" id="t-st">Prêt à démarrer</div>
         </div>
         <div style="display:flex;justify-content:center;margin-bottom:18px">
           <button class="btn-g" id="t-btn" onclick="tickTimer()" style="padding:11px 28px;font-size:14px"><span aria-hidden="true">▶</span> Démarrer la séance</button>
+          <button class="btn-g" id="t-suivant" onclick="consigneSuivanteWb()" style="padding:11px 28px;font-size:14px" hidden>Consigne suivante <span aria-hidden="true">→</span></button>
         </div>
         <p class="ey" style="margin-bottom:8px">Journal de séance</p>
         <textarea class="jarea" id="jrnl" placeholder="Notez ce que vous ressentez, ce que l'œuvre évoque pour vous…" rows="3"></textarea>
@@ -769,6 +813,14 @@ html.sans-animation *,html.sans-animation *::before,html.sans-animation *::after
             </div>
             <p style="font-size:13px;color:#666;margin-top:10px" id="cmp-msg"></p>
           </div>
+          <div class="wb-soutien" id="wb-soutien-a" hidden aria-live="polite"></div>
+          <p class="ey" style="margin:20px 0 8px">Pour terminer</p>
+          <label for="wb-emporte" class="wb-q">Qu'emportez-vous de cette séance ? Un mot, une couleur, une image…</label>
+          <textarea class="jarea" id="wb-emporte" rows="2"></textarea>
+          <p class="wb-suite"><span aria-hidden="true">→</span> <span id="wb-suite"></span></p>
+          <div class="wb-actions"><button type="button" class="back-btn" onclick="enregistrerSeanceWb()"><span aria-hidden="true">✎</span> Enregistrer dans mon journal (sur cet appareil)</button>
+            <button type="button" class="lien-btn" onclick="afficherAideWb()">Besoin d'aide maintenant ?</button></div>
+          <p class="wb-aide" id="wb-enreg-msg" aria-live="polite"></p>
         </div>
       </div>
     </div>
@@ -855,9 +907,9 @@ html.sans-animation *,html.sans-animation *::before,html.sans-animation *::after
   </div>
 </footer>
 <!-- Traductions (anglais, espagnol, arabe) et moteur de traduction -->
-<script src="i18n.js?v=20261024c"></script>
+<script src="i18n.js?v=20261024d"></script>
 <!-- Recherche en direct dans les catalogues ouverts des musées (domaine public) -->
-<script src="musees.js?v=20261024c"></script>
+<script src="musees.js?v=20261024d"></script>
 <script>
 const ART = [
   { img:"images/oeuvres/grande-vague-hokusai.jpg", credit:'Image : <a href="https://www.metmuseum.org/art/collection/search/45434" target="_blank" rel="noopener">The Metropolitan Museum of Art</a>, domaine public (Open Access)', name:"La Grande Vague de Kanagawa", meta:"Katsushika Hokusai · Japon · vers 1830-1832 · Metropolitan Museum of Art",
@@ -1520,13 +1572,6 @@ async function doMusique(){
 }
 
 // BIEN-ÊTRE : voir bienetre.js
-function moodFn(ph,v,btn){
-  const rid=ph==='b'?'mb-row':'ma-row';
-  document.querySelectorAll('#'+rid+' .mbd').forEach(b=>{b.classList.remove('on');b.setAttribute('aria-pressed','false');});btn.classList.add('on');btn.setAttribute('aria-pressed','true');
-  if(ph==='b'){mB=v;}else{mA=v;document.getElementById('cv-b').textContent=mB||'—';document.getElementById('cv-a').textContent=mA;
-    const d=mA-mB;document.getElementById('cmp-msg').textContent=d>0?'Votre humeur s\'est améliorée après la séance':d<0?'La séance a soulevé des émotions. C\'est tout à fait normal.':'Votre humeur est stable.';
-    document.getElementById('cmp-box').style.display='block';}
-}
 
 // EXPOSITIONS : lues depuis expositions.json, que les administrateurs modifient avec Pages CMS
 let exposChargees=false;
@@ -1741,9 +1786,9 @@ afficherValeurs(0);
 traduirePage();
 </script>
 <!-- Fenêtre Accessibilité de chaque œuvre et menu Affichage et lecture -->
-<script src="orchestre.js?v=20261024c"></script>
-<script src="accessibilite.js?v=20261024c"></script>
+<script src="orchestre.js?v=20261024d"></script>
+<script src="accessibilite.js?v=20261024d"></script>
 <!-- Séances de bien-être composées à la demande -->
-<script src="bienetre.js?v=20261024c"></script>
+<script src="bienetre.js?v=20261024d"></script>
 </body>
 </html>

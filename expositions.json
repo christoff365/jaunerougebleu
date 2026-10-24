@@ -850,10 +850,10 @@
   },
   {
     "title": "Masques du monde",
-    "subtitle": "Du Pérou au Japon, de l'Alaska au Gabon : vingt-cinq masques de vingt-cinq pays et des cinq continents",
+    "subtitle": "Du Pérou au Japon, de l'Alaska au Gabon : vingt-huit masques de vingt-six pays et des cinq continents",
     "status": "published",
     "theme": "Corps & identité",
-    "intro": "Un masque cache un visage pour en faire apparaître un autre : celui d'un ancêtre, d'un esprit, d'un dieu, d'un défunt, d'un animal ou d'un personnage de théâtre. De l'Égypte des pharaons au théâtre nô, des Andes aux îles du détroit de Torres, ces vingt-cinq masques montrent comment chaque culture a donné un visage à l'invisible. Beaucoup n'étaient pas faits pour être regardés immobiles dans une vitrine, mais portés, dansés et chantés, avec un costume, de la musique et des gestes : imaginez-les en mouvement, à la lumière du feu. Certains masques sacrés, que leurs communautés demandent de ne pas montrer, comme les visages de guérison haudenosaunee ou certains masques hopis et zuñis, ne figurent volontairement pas ici. Plusieurs de ces objets ont quitté leur pays dans des conditions violentes ou contestées : leur histoire est rappelée quand elle est connue.",
+    "intro": "Un masque cache un visage pour en faire apparaître un autre : celui d'un ancêtre, d'un esprit, d'un dieu, d'un défunt, d'un animal ou d'un personnage de théâtre. De l'Égypte des pharaons au théâtre nô, des Andes aux îles du détroit de Torres, ces vingt-huit masques montrent comment chaque culture a donné un visage à l'invisible. Beaucoup n'étaient pas faits pour être regardés immobiles dans une vitrine, mais portés, dansés et chantés, avec un costume, de la musique et des gestes : imaginez-les en mouvement, à la lumière du feu. Certains masques sacrés, que leurs communautés demandent de ne pas montrer, comme les visages de guérison haudenosaunee ou certains masques hopis et zuñis, ne figurent volontairement pas ici. Plusieurs de ces objets ont quitté leur pays dans des conditions violentes ou contestées : leur histoire est rappelée quand elle est connue.",
     "minimum": 20,
     "search": {
       "keywords": "mask",
@@ -892,6 +892,17 @@
         "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/241254), domaine public (Open Access)",
         "analysis": "À l'époque archaïque, les sanctuaires de Chypre recevaient des masques de terre cuite à la taille d'un visage humain. Les archéologues pensent qu'ils servaient à des rites ou qu'ils étaient offerts aux dieux, sans savoir exactement comment, ni s'ils ont été portés. Le modelé reste simple, un nez fort, une bouche fermée, de grandes oreilles, comme si ce visage n'appartenait encore à personne.",
         "compare": "Comme le masque de pierre de Teotihuacan, un visage sans individualité, à mi-chemin entre une personne et l'idée de personne."
+      },
+      {
+        "title": "La Rencontre",
+        "artist": "Pietro Longhi",
+        "country": "Italie",
+        "period": "1746",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/expositions/masque-venise-longhi.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/436905), domaine public (Open Access)",
+        "analysis": "Dans la Venise du XVIIIe siècle, le masque ne se portait pas seulement au carnaval : on le mettait une bonne partie de l'année pour aller au théâtre, au Ridotto (la maison de jeu) ou à un rendez-vous discret. Pietro Longhi, peintre de la vie vénitienne, en montre ici les deux formes les plus courantes. À droite, un homme porte la bauta, masque blanc au menton saillant qui laissait boire et parler en changeant la voix, avec le tricorne et la cape noire ; la femme en rose porte la moretta, petit ovale de velours noir tenu par un bouton serré entre les dents : celle qui la portait restait muette. À gauche, une jeune femme tient son masque à la main.",
+        "compare": "Comme le masque coréen de vieillard, le masque permet d'échapper aux règles de la société : sous la bauta, on ne savait plus qui était noble et qui ne l'était pas. C'est le seul tableau de l'exposition : il montre les masques portés, dans la vie de tous les jours."
       },
       {
         "title": "Masque",
@@ -1053,6 +1064,28 @@
         "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1972.69), domaine public (CC0)",
         "analysis": "Le nô, théâtre né au XIVe siècle, fait jouer tous les rôles par des hommes masqués. Ce masque de jeune femme semble neutre ; c'est l'acteur qui l'anime. Légèrement relevé vers la lumière (teru), il paraît sourire ; abaissé (kumoru), l'ombre envahit les yeux et il semble pleurer. Taillé dans le cyprès hinoki et couvert de fines couches de blanc de coquillage, il date du siècle où Zeami fixa les règles du nô.",
         "compare": "Comme le masque de transformation kwakwaka'wakw, un visage qui change d'expression devant le public, mais par un geste presque imperceptible."
+      },
+      {
+        "title": "Masque de gigaku : jeune garçon perse (Taikōji)",
+        "artist": "Sculpteur japonais",
+        "country": "Japon",
+        "period": "VIIIe siècle (époque de Nara)",
+        "museum": "Cleveland Museum of Art",
+        "image": "images/expositions/masque-gigaku.jpg",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1949.158), domaine public (CC0)",
+        "analysis": "Le gigaku est le plus ancien théâtre masqué du Japon. Selon les chroniques japonaises, il fut enseigné en 612 par Mimashi, un musicien venu du royaume coréen de Baekje, qui l'avait appris en Chine du Sud ; on le jouait dans les grands temples bouddhiques, comme en 752 pour l'inauguration du Grand Bouddha du Tōdai-ji, à Nara. Ses personnages venaient des routes de la soie : ce masque est celui du fils d'un vieux Perse, qui mime avec son père des prières au Bouddha. Taillé dans le bois de paulownia, laqué et peint, il couvrait toute la tête de l'acteur. Le gigaku a disparu au Moyen Âge ; seuls ses masques nous sont parvenus.",
+        "compare": "Comme les masques du théâtre grec, il enveloppait toute la tête et faisait reconnaître un personnage de loin. Et il rappelle que le théâtre japonais est né d'échanges avec la Corée, la Chine et, plus loin, la Perse."
+      },
+      {
+        "title": "Masque de kyōgen : le Siffleur (Usobuki)",
+        "artist": "Sculpteur japonais",
+        "country": "Japon",
+        "period": "XVIIe siècle (époque d'Edo)",
+        "museum": "Cleveland Museum of Art",
+        "image": "images/expositions/masque-kyogen.jpg",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1975.100), domaine public (CC0)",
+        "analysis": "Le kyōgen est le théâtre comique du Japon : de courtes farces jouées entre deux pièces de nô, sur la même scène. La plupart de ses rôles se jouent à visage découvert ; le masque est réservé à quelques personnages, souvent des esprits d'animaux, d'insectes ou de plantes. Celui-ci, aux joues gonflées, aux yeux ronds et aux lèvres pincées comme pour siffler, est l'Usobuki, le « Siffleur ». Sa drôlerie vient de cette grimace figée, à l'opposé de l'expression mouvante des masques de nô.",
+        "compare": "Face au masque de nô Waka-onna, impassible et mystérieux, le kyōgen grimace : le même jour, sur la même scène, le public passait des larmes au rire. Le masque de vieillard coréen joue lui aussi de la farce."
       },
       {
         "title": "Masque de vieillard",

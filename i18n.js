@@ -438,6 +438,7 @@ const TRAD = {
   "Portrait : Orient vs Occident": ["Portraiture: East vs West", "Retrato: Oriente frente a Occidente", "البورتريه: الشرق والغرب"],
   "Sacré & profane": ["Sacred & profane", "Sagrado y profano", "المقدّس والدنيوي"],
   "La nature dans l'art mondial": ["Nature in world art", "La naturaleza en el arte mundial", "الطبيعة في الفن العالمي"],
+  "Paysage à travers les cultures": ["Landscape across cultures", "El paisaje a través de las culturas", "المنظر الطبيعي عبر الثقافات"],
   "Corps & identité": ["Body & identity", "Cuerpo e identidad", "الجسد والهوية"],
   "Guerre & paix": ["War & peace", "Guerra y paz", "الحرب والسلام"],
   "Abstraction universelle": ["Universal abstraction", "Abstracción universal", "التجريد العالمي"],

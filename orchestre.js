@@ -7,7 +7,7 @@
 // réduits à quelques notes par instrument (dossier sons/orchestre/) : chaque note jouée est la plus proche, accordée à la bonne hauteur.
 // Ce fichier utilise des fonctions et valeurs de index.html : audio, programmerMusique, MODES, DEMITONS, NOTES.
 
-const ORCH_BASE = ((document.currentScript && document.currentScript.src) || location.href).replace(/[?#].*$/, '').replace(/[^/]*$/, '') + 'sons/orchestre/';
+const SONS_BASE = ((document.currentScript && document.currentScript.src) || location.href).replace(/[?#].*$/, '').replace(/[^/]*$/, '') + 'sons/';
 // Notes enregistrées de chaque instrument (numéros MIDI : 60 = do du milieu du piano) ; pour les timbales, hauteur mesurée de chaque fût
 const ECHANTILLONS = {
   violons: [55, 59, 62, 66, 69, 72, 76, 79, 83, 86], altos: [48, 52, 55, 59, 62, 65, 69, 72, 76, 79, 83, 86],
@@ -18,10 +18,24 @@ const ECHANTILLONS = {
   trompette: [53, 57, 60, 63, 67, 70, 74, 77, 81, 84], trombone: [34, 37, 41, 46, 50, 53, 60, 63],
   tuba: [29, 34, 39, 46, 50, 53, 58, 62], glockenspiel: [79, 84, 91, 96, 103, 108],
   marimba: [41, 48, 55, 59, 65, 72, 79, 83, 89, 96], piano: [33, 41, 49, 57, 65, 73, 81, 89],
-  timbales: { 1: 41.4, 2: 46.8, 3: 49.5, 4: 52.4, 5: 54.5 }, gong: [0, 1], cymbale: [0, 1], cloches: [1, 2, 3, 4]
+  timbales: { 1: 41.4, 2: 46.8, 3: 49.5, 4: 52.4, 5: 54.5 }, gong: [0, 1], cymbale: [0, 1], cloches: [1, 2, 3, 4],
+  // Instruments du monde (dossier sons/monde/), tirés de la Versilian Community Sample Library (domaine public, CC0) :
+  // hauteur mesurée de chaque note (les accords traditionnels ne tombent pas toujours juste sur nos notes), ou numéro de la frappe
+  balafon: { 1: 61.07, 2: 65.18, 3: 71.97, 4: 77.01, 5: 83.97, 6: 88.86 },
+  mbira: { 1: 50.8, 2: 54.12, 3: 57.28, 4: 60.93, 5: 64.11, 6: 68.14, 7: 71.21, 8: 75.08, 9: 78.05, 10: 81.48, 11: 85.54 },
+  kalimba: { 1: 58.92, 2: 63.05, 3: 66.13, 4: 71.17, 5: 75.27, 6: 78.36 },
+  dan_tranh: { 1: 53.96, 2: 58.97, 3: 63.05, 4: 65.9, 5: 71.01, 6: 75.05, 7: 78.04, 8: 82.97 },
+  ocarina: { 1: 68.99, 2: 72.97, 3: 75.99, 4: 80.02, 5: 83.97 }, verres: { 1: 75.32, 2: 77.87, 3: 82.55, 4: 86.06 },
+  carillons: { 1: 60.13, 2: 64.06, 3: 68.03, 4: 72.01, 5: 76.02, 6: 80.02, 7: 84.01, 8: 88.04, 9: 92.04, 10: 95.98 },
+  agogo: { 1: 1, 2: 2 }, conga: { 1: 1, 2: 2, 3: 3 }, darbuka: { 1: 1, 2: 2, 3: 3, 4: 4, 5: 5 }, tambour_cadre: { 1: 1, 2: 2, 3: 3 },
+  crotales: { 1: 1 }, tambour_fente: { 1: 1, 2: 2 }, cajon: { 1: 1, 2: 2, 3: 3 }, claves: { 1: 1 }, guiro: { 1: 1, 2: 2 },
+  hochet: { 1: 1, 2: 2 }, tambour_ocean: { 1: 1 }, bongos: { 1: 1, 2: 2 }
 };
+const DU_MONDE = new Set(['balafon', 'mbira', 'kalimba', 'dan_tranh', 'ocarina', 'verres', 'carillons', 'agogo', 'conga', 'darbuka', 'tambour_cadre', 'crotales', 'tambour_fente', 'cajon', 'claves', 'guiro', 'hochet', 'tambour_ocean', 'bongos']);
+// Sons sans hauteur précise (le numéro choisit la frappe : grave, aiguë, claquée…) : jamais transposés d'octave
+const SANS_HAUTEUR = new Set(['timbales', 'gong', 'cymbale', 'cloches', 'agogo', 'conga', 'darbuka', 'tambour_cadre', 'crotales', 'tambour_fente', 'cajon', 'claves', 'guiro', 'hochet', 'tambour_ocean', 'bongos']);
 const PART_HABITUELLE = { rouge: 0.08, brun: 0.5, or: 0.13, vert: 0.08, bleu: 0.14, violet: 0.04 };
-const PERCUSSIFS = new Set(['pizzicati', 'glockenspiel', 'marimba', 'piano', 'timbales', 'gong', 'cymbale', 'cloches']);
+const PERCUSSIFS = new Set(['pizzicati', 'glockenspiel', 'marimba', 'piano', 'timbales', 'gong', 'cymbale', 'cloches', 'balafon', 'mbira', 'kalimba', 'dan_tranh', 'carillons', 'agogo', 'conga', 'darbuka', 'tambour_cadre', 'crotales', 'tambour_fente', 'cajon', 'claves', 'guiro', 'hochet', 'tambour_ocean', 'bongos']);
 // Tessiture confortable de chaque instrument quand il joue une mélodie
 const TESSITURES = { violons: [67, 88], flute: [72, 93], hautbois: [62, 84], clarinette: [55, 81], trompette: [60, 79], cor: [50, 72], violoncelles: [48, 69], altos: [57, 76], basson: [45, 64] };
 // Couleur → soliste : bleu → violons, rouge → trompette, brun → cor, or → flûte, vert → clarinette, violet → hautbois
@@ -30,7 +44,7 @@ const SOLISTES = { bleu: ['violons', 'flute'], rouge: ['trompette', 'cor'], brun
 const tampons = {};
 function chargerSon(inst, n) {
   const k = inst + '/' + n;
-  if (!tampons[k]) tampons[k] = fetch(ORCH_BASE + k + '.mp3').then(r => { if (!r.ok) throw new Error(k); return r.arrayBuffer(); })
+  if (!tampons[k]) tampons[k] = fetch(SONS_BASE + (DU_MONDE.has(inst) ? 'monde/' : 'orchestre/') + k + '.mp3').then(r => { if (!r.ok) throw new Error(k); return r.arrayBuffer(); })
     .then(b => new Promise((ok, ko) => audio.decodeAudioData(b, ok, ko)))
     .catch(e => { delete tampons[k]; throw e; });
   return tampons[k];
@@ -65,7 +79,7 @@ function hasardDe(v) {
 function noteOrch(o, inst, m, t, dur, vol, pan, opt = {}) {
   const l = o.sons[inst]; if (!l || !l.length || !(vol > 0)) return;
   const perc = PERCUSSIFS.has(inst);
-  if (inst !== 'timbales' && inst !== 'gong' && inst !== 'cymbale' && inst !== 'cloches') {
+  if (!SANS_HAUTEUR.has(inst)) {
     while (m < l[0].n - 4) m += 12; while (m > l[l.length - 1].n + 5) m -= 12;
   }
   let e = l[0]; for (const x of l) if (Math.abs(x.n - m) < Math.abs(e.n - m)) e = x;
@@ -295,23 +309,75 @@ async function composerSymphonie(v, o) {
 }
 
 // ---------- Expérimentale
-async function composerExperimentale(v, o) {
+// Voix de synthèse : comme les premières voix chantées par ordinateur (Bell Labs, 1961), une onde riche filtrée par trois formants,
+// les résonances de la bouche qui font entendre une voyelle ; chaque voix a un léger vibrato et trois sources un peu désaccordées (effet de chœur)
+const VOYELLES = { a: [800, 1150, 2900], e: [400, 1700, 2600], i: [300, 2200, 3000], o: [450, 800, 2830], ou: [325, 700, 2530] };
+function voixSynthese(o, notes, voyelles, t, fin, vol, pan) {
+  const f = m => 440 * Math.pow(2, (m - 69) / 12);
+  const env = audio.createGain(); env.gain.setValueAtTime(0, t); env.gain.linearRampToValueAtTime(vol, t + 1.5);
+  env.gain.setValueAtTime(vol, fin - 2); env.gain.linearRampToValueAtTime(0, fin);
+  let dest = o.bus; if (audio.createStereoPanner) { const p = audio.createStereoPanner(); p.pan.value = pan; p.connect(o.bus); dest = p; }
+  env.connect(dest);
+  const vib = audio.createOscillator(), vg = audio.createGain(); vib.frequency.value = 5 + o.hasard(); vg.gain.value = 14; vib.connect(vg); vib.start(t); vib.stop(fin + 0.1);
+  const source = audio.createGain(); source.gain.value = 0.33;
+  [-8, 0, 7].forEach(d => {
+    const s = audio.createOscillator(); s.type = 'sawtooth'; s.detune.value = d + (o.hasard() - 0.5) * 6; vg.connect(s.detune);
+    s.frequency.setValueAtTime(f(notes[0][1]), t); notes.slice(1).forEach(([tt, m]) => s.frequency.setTargetAtTime(f(m), tt, 0.18)); // glissé d'une note à l'autre
+    s.connect(source); s.start(t); s.stop(fin + 0.1);
+  });
+  [[0, 1, 9], [1, 0.55, 12], [2, 0.3, 14]].forEach(([k, g, q]) => {
+    const bp = audio.createBiquadFilter(), gg = audio.createGain(); bp.type = 'bandpass'; bp.Q.value = q; gg.gain.value = g * 5;
+    bp.frequency.setValueAtTime(VOYELLES[voyelles[0][1]][k], t);
+    voyelles.slice(1).forEach(([tt, vv]) => bp.frequency.setTargetAtTime(VOYELLES[vv][k], tt, 0.35)); // passage lent d'une voyelle à l'autre
+    source.connect(bp); bp.connect(gg); gg.connect(env);
+  });
+}
+// Paysages sonores : instruments et rythmes traditionnels de la région d'où vient l'œuvre (si on la connaît).
+// Chaque rythme est un cycle de « pas » (frappes : instrument, numéro de frappe, positions dans le cycle, volume)
+const PAYSAGES = {
+  afrique: { nom: 'Afrique', rythme: 'cloche à 12 temps (Afrique de l\'Ouest)', pas: 12, division: 3, motif: ['balafon', 'mbira'], nuage: ['kalimba', 'mbira'], gamme: [0, 2, 4, 7, 9],
+    frappes: [['agogo', 1, [0, 2, 4, 5, 7, 9, 11], 0.28], ['agogo', 2, [0, 6], 0.25], ['conga', 1, [2, 3, 8, 9], 0.32], ['conga', 3, [6], 0.3], ['tambour_cadre', 2, [0, 6], 0.42]] },
+  orient: { nom: 'Moyen-Orient et Afrique du Nord', rythme: 'maqsoum (darbouka)', pas: 16, division: 4, motif: ['pizzicati', 'dan_tranh'], nuage: ['pizzicati'], gamme: [0, 1, 4, 5, 7, 8, 10],
+    frappes: [['darbuka', 1, [0, 8], 0.5], ['darbuka', 4, [2, 6, 12], 0.32], ['darbuka', 5, [3, 10, 14, 15], 0.16], ['crotales', 1, [4, 12], 0.12], ['tambour_cadre', 2, [0], 0.3]] },
+  asie: { nom: 'Asie', rythme: 'cycle lent de cloches et de tambours de bois', pas: 16, division: 2, motif: ['dan_tranh', 'carillons'], nuage: ['dan_tranh'], gamme: [0, 2, 4, 7, 9],
+    frappes: [['cloches', 2, [0], 0.3], ['tambour_fente', 1, [0, 8], 0.35], ['tambour_fente', 2, [4, 10, 11], 0.25], ['gong', 0, [0], 0.12]] },
+  ameriques: { nom: 'Amériques', rythme: 'clave 3-2 (Caraïbes)', pas: 16, division: 4, motif: ['marimba', 'ocarina'], nuage: ['marimba'], gamme: null,
+    frappes: [['claves', 1, [0, 3, 6, 10, 12], 0.3], ['cajon', 3, [0, 8], 0.4], ['cajon', 1, [4, 12], 0.28], ['guiro', 1, [0, 8], 0.16], ['hochet', 1, [2, 6, 10, 14], 0.14], ['conga', 1, [7, 15], 0.25], ['conga', 2, [14], 0.25]] },
+  oceanie: { nom: 'Océanie', rythme: 'tambours à fente entrecroisés', pas: 16, division: 4, motif: ['verres'], nuage: ['marimba'], gamme: [0, 2, 4, 7, 9],
+    frappes: [['tambour_fente', 1, [0, 3, 6, 8, 11, 14], 0.4], ['tambour_fente', 2, [2, 5, 10, 13], 0.3], ['hochet', 2, [1, 3, 5, 7, 9, 11, 13, 15], 0.12], ['tambour_ocean', 1, [0], 0.25]] },
+  europe: { nom: 'Europe', rythme: 'carillon en « rondes » (sonnerie de cloches anglaise)', pas: 12, division: 2, motif: ['verres', 'carillons'], nuage: ['pizzicati', 'marimba'], gamme: null,
+    frappes: [['tambour_cadre', 1, [0], 0.3], ['crotales', 1, [6], 0.08]], rondes: true }
+};
+const ORIENT = new Set(['Iran', 'Irak', 'Syrie', 'Liban', 'Israël', 'Jordanie', 'Turquie', 'Arabie saoudite', 'Yémen', 'Égypte', 'Maroc', 'Algérie', 'Tunisie', 'Libye', 'Afghanistan', 'Ouzbékistan']);
+function paysageDe(info) {
+  const p = info && typeof paysDe === 'function' ? paysDe([info.lieu, info.culture, info.artiste].filter(Boolean).join(' | ')) : null;
+  if (!p) return null;
+  if (ORIENT.has(p.nom)) return 'orient';
+  return { Afrique: 'afrique', Asie: 'asie', 'Asie du Sud et du Sud-Est': 'asie', 'Moyen-Orient': 'orient', Amériques: 'ameriques', Océanie: 'oceanie', Europe: 'europe' }[p.continent] || null;
+}
+async function composerExperimentale(v, o, info) {
   const hasard = o.hasard;
   const g = v.grille || [], C = 32, R = 16, D = 48; // 48 secondes de lecture de l'image
   const lum = g.map(c => c.l), moy = lum.reduce((a, b) => a + b, 0) / (lum.length || 1);
   const ec = Math.sqrt(lum.reduce((a, b) => a + (b - moy) * (b - moy), 0) / (lum.length || 1)) || 0.1;
   const tex = v.texture == null ? 0.05 : v.texture, sombre = v.L < 0.42;
+  // Paysage sonore : celui de la région de l'œuvre ; si elle est inconnue, il est tiré de l'empreinte de l'image (toujours le même pour une œuvre)
+  let cle = paysageDe(info), connu = !!cle;
+  if (!cle) { const k = Object.keys(PAYSAGES); cle = k[Math.floor(hasard() * k.length)]; }
+  const P = PAYSAGES[cle];
   const ton = tonalite(48 + DEMITONS[v.note] - (DEMITONS[v.note] > 6 ? 12 : 0), v.modeNom || 'éolien');
-  // Gamme de la lecture : pentatonique pour les images à peu de couleurs, mode complet sinon, ou chromatique (sons plus étranges) pour les œuvres très contrastées
-  const gamme = v.C > 0.27 ? [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11] : (v.couleurs || 2) <= 2 ? [0, 2, 4, 7, 9] : ton.gamme;
-  const hauteurLigne = r => { const k = R - 1 - r; return ton.base + 12 + gamme[k % gamme.length] + 12 * Math.floor(k / gamme.length); };
-  const inst = ['pizzicati', 'marimba', 'gong', 'cymbale', 'cloches', 'contrebasse', 'violoncelles', 'timbales', 'glockenspiel'];
-  o.sons = await chargerInstruments(inst);
+  // Gamme : celle du paysage (pentatonique, hijaz…), sinon pentatonique pour les images à peu de couleurs, chromatique pour les œuvres très contrastées, ou le mode de l'œuvre
+  const gamme = P.gamme || (v.C > 0.27 ? [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11] : (v.couleurs || 2) <= 2 ? [0, 2, 4, 7, 9] : ton.gamme);
+  const deg = d => ton.base + gamme[((d % gamme.length) + gamme.length) % gamme.length] + 12 * Math.floor(d / gamme.length);
+  const hauteurLigne = r => deg(R - 1 - r) + 12;
+  const inst = ['gong', 'cloches', 'contrebasse', 'timbales', ...P.motif, ...P.nuage, ...new Set(P.frappes.map(f => f[0]))];
+  if (P.rondes) inst.push('carillons');
+  o.sons = await chargerInstruments([...new Set(inst)]);
   if (o.annule()) return null;
   const t0 = audio.currentTime + 0.15;
   // 1. L'image lue de gauche à droite : chaque ligne est un son pur, d'autant plus fort que la zone est claire (synthétiseur ANS)
-  const nappe = audio.createGain(); nappe.gain.setValueAtTime(0, t0); nappe.gain.linearRampToValueAtTime(1, t0 + 4);
-  nappe.gain.setValueAtTime(1, t0 + D - 5); nappe.gain.linearRampToValueAtTime(0, t0 + D + 1.5);
+  const nappe = audio.createGain(); nappe.gain.setValueAtTime(0, t0); nappe.gain.linearRampToValueAtTime(0.8, t0 + 4);
+  nappe.gain.setValueAtTime(0.8, t0 + D - 5); nappe.gain.linearRampToValueAtTime(0, t0 + D + 1.5);
   const filtre = audio.createBiquadFilter(); filtre.type = 'lowpass'; filtre.frequency.value = 2600; nappe.connect(filtre); filtre.connect(o.bus);
   for (let r = 0; r < R; r++) {
     const osc = audio.createOscillator(), gg = audio.createGain();
@@ -327,41 +393,63 @@ async function composerExperimentale(v, o) {
     let dest = nappe; if (audio.createStereoPanner) { const p = audio.createStereoPanner(); p.pan.value = (r % 2 ? 1 : -1) * (0.2 + 0.5 * hasard()); p.connect(nappe); dest = p; }
     osc.connect(gg); gg.connect(dest); osc.start(t0); osc.stop(t0 + D + 2);
   }
-  // 2. Bourdons : gong et cymbale frottée, ralentis (plus graves et plus longs), sur une contrebasse tenue
-  noteOrch(o, 'gong', 0, t0, 14, sombre ? 0.55 : 0.35, -0.3, { vitesse: 0.5 });
-  noteOrch(o, 'contrebasse', ton.base - 12, t0 + 2, D - 8, sombre ? 0.4 : 0.25, -0.2, { attaque: 2 });
-  noteOrch(o, 'violoncelles', ton.base + 7, t0 + 10, D - 18, 0.2, 0.2, { attaque: 3 });
-  noteOrch(o, 'cymbale', 1, t0 + 18, 14, 0.4, 0.4, { vitesse: 0.75 });
-  // 3. Nuage de notes : des pizzicati et des lames de marimba tombent là où l'image est vive ; plus la touche est fine, plus le nuage est dense
-  const densite = 0.6 + Math.min(2.4, tex * 22);
+  // 2. Bourdons : gong ralenti (plus grave et plus long) et contrebasse tenue
+  noteOrch(o, 'gong', 0, t0, 14, sombre ? 0.5 : 0.3, -0.3, { vitesse: 0.5 });
+  noteOrch(o, 'contrebasse', ton.base - 12, t0 + 2, D - 8, sombre ? 0.35 : 0.22, -0.2, { attaque: 2 });
+  // 3. Chœur de voix de synthèse : quatre voix sur une suite d'accords ; la voyelle suit la clarté de l'image (sombre « ou », « o », « a », « é », clair « i »)
+  const voyelleA = x => { const c = Math.min(C - 1, Math.floor(x / D * C)); let l = 0; for (let r = 0; r < R; r++) l += lum[r * C + c] || moy; l /= R; return l > 0.62 ? 'i' : l > 0.5 ? 'e' : l > 0.38 ? 'a' : l > 0.26 ? 'o' : 'ou'; };
+  const accords = [[0, 0], [12, 5], [22, 3], [32, 4], [40, 0]]; // [temps, degré]
+  const tierce = gamme.length === 5 ? 2 : 2, quinte = gamme.length === 5 ? 3 : 4;
+  [0, tierce, quinte, gamme.length].forEach((x, k) => {
+    const notes = accords.map(([tt, d]) => [t0 + 6 + tt * 0.9, deg(d + x) + (k === 3 ? 0 : 12)]);
+    const voy = []; for (let tt = 6; tt < D - 2; tt += 5) voy.push([t0 + tt + k * 0.7, voyelleA(tt)]);
+    voixSynthese(o, notes, voy, t0 + 6 + k * 1.2, t0 + D - 1, connu && cle === 'oceanie' ? 0.15 : 0.1, [-0.6, -0.2, 0.2, 0.6][k]);
+  });
+  // 4. Nuage de notes : les instruments du paysage tombent là où l'image est vive ; plus la touche est fine, plus le nuage est dense
+  const densite = 0.5 + Math.min(2, tex * 20);
   for (let c = 0; c < C; c++) {
     let poids = 0, lignes = [];
     for (let r = 0; r < R; r++) { const cel = g[r * C + c] || { l: moy, s: 0 }, w = Math.max(0, cel.s - 0.1) * (0.3 + cel.l); poids += w; lignes.push(w); }
-    const n = Math.min(9, Math.round(poids / R * 14 * densite));
+    const n = Math.min(7, Math.round(poids / R * 12 * densite));
     for (let k = 0; k < n; k++) {
       let x = hasard() * poids, r = 0; while (r < R - 1 && x > lignes[r]) { x -= lignes[r]; r++; }
-      const tt = t0 + (c + hasard()) * D / C, m = hauteurLigne(r) + (r > 10 ? 12 : 0);
-      noteOrch(o, (g[r * C + c] || {}).l > 0.6 ? 'marimba' : 'pizzicati', m, tt, 1.2, 0.18 + 0.25 * hasard(), hasard() * 1.6 - 0.8);
+      const tt = t0 + (c + hasard()) * D / C;
+      noteOrch(o, P.nuage[k % P.nuage.length], hauteurLigne(r), tt, 1.2, 0.16 + 0.22 * hasard(), hasard() * 1.6 - 0.8);
     }
   }
-  // 4. Motif répété qui se décale : la palette de l'œuvre devient un motif de 6 notes, joué par deux instruments à des vitesses légèrement différentes
+  // 5. Motif répété qui se décale : la palette de l'œuvre devient un motif de 6 notes, joué par deux instruments à des vitesses légèrement différentes (Steve Reich)
   const pal = (v.palette || []).map(c => { const [r, gg, b] = c.match(/\d+/g).map(Number); return (Math.max(r, gg, b) + Math.min(r, gg, b)) / 510; });
   while (pal.length < 6) pal.push(((pal[pal.length - 1] || 0.5) * 0.7 + 0.25) % 1);
-  const motif = pal.slice(0, 6).map(l => { const d = Math.round(l * 9); return ton.base + 24 + ton.gamme[d % 7] + 12 * Math.floor(d / 7) - 12; });
-  const pas = Math.max(0.13, Math.min(0.24, 30 / Math.max(60, v.tempo))), debutM = t0 + 12, finM = t0 + 40;
-  [[1, -0.6, 'marimba'], [1.025, 0.6, v.L > 0.55 ? 'glockenspiel' : 'marimba']].forEach(([vit, pan, ins], j) => {
-    for (let i = 0, tt = debutM; tt < finM; i++, tt += pas / vit) {
+  const motif = pal.slice(0, 6).map(l => deg(Math.round(l * (gamme.length + 2))) + 12);
+  const pas = Math.max(0.15, Math.min(0.26, 30 / Math.max(60, v.tempo))), debutM = t0 + 12, finM = t0 + 40;
+  P.motif.slice(0, 2).forEach((ins, j) => {
+    const tenu = ins === 'verres' || ins === 'ocarina', vit = j ? 1.025 : 1, pasI = tenu ? pas * 2 : pas;
+    for (let i = 0, tt = debutM; tt < finM; i++, tt += pasI / vit) {
       const env = Math.min(1, (tt - debutM) / 6, (finM - tt) / 5);
-      noteOrch(o, ins, motif[i % motif.length] + (ins === 'glockenspiel' ? 12 : 0), tt, 0.5, (ins === 'glockenspiel' ? 0.14 : 0.3) * env * (0.5 + v.S), pan);
+      noteOrch(o, ins, motif[i % motif.length], tt, tenu ? pasI * 1.1 : 0.6, (tenu ? 0.16 : 0.28) * env * (0.5 + v.S), j ? 0.6 : -0.6, tenu ? { attaque: 0.08 } : {});
     }
   });
-  // 5. Sons transformés : cloches jouées à l'envers qui montent vers le sommet, timbales aux endroits les plus sombres, gong final
+  // 6. Rythme traditionnel du paysage, de la 14e à la 42e seconde ; il se renforce là où l'image est la plus vive
+  const pulsation = 60 / Math.max(80, Math.min(126, v.tempo)) / P.division, debutR = t0 + 14, finR = t0 + 42;
+  const vivacite = x => { const c = Math.min(C - 1, Math.floor((x - t0) / D * C)); let s2 = 0; for (let r = 0; r < R; r++) s2 += (g[r * C + c] || { s: v.S }).s; return Math.min(1, 0.45 + s2 / R * 1.4); };
+  for (let n = 0, tt = debutR; tt < finR; n++, tt += pulsation) {
+    const env = Math.min(1, (tt - debutR) / 4, (finR - tt) / 4) * vivacite(tt), pos = n % P.pas;
+    P.frappes.forEach(([ins, num, positions, vol]) => { if (positions.includes(pos)) noteOrch(o, ins, num, tt, 1.5, vol * env * (0.85 + 0.3 * hasard()), (hasard() - 0.5) * 0.8, ins === 'gong' ? { vitesse: 0.7 } : {}); });
+    // Carillon en « rondes » : les cloches sonnent l'une après l'autre, de la plus aiguë à la plus grave, comme dans les clochers anglais
+    if (P.rondes && n % 2 === 0) noteOrch(o, 'carillons', deg(gamme.length * 2 - (n / 2) % 6) + 12, tt, 2.5, 0.22 * env, ((n / 2) % 6 - 2.5) * 0.25);
+  }
+  // 7. Sons transformés : cloches jouées à l'envers qui montent vers le sommet, timbales aux endroits les plus sombres, gong final
   const sommet = t0 + 34;
-  [1, 2, 3].forEach(i => noteOrch(o, 'cloches', i, sommet - 3 + i * 0.4, 3, 0.35, (i - 2) * 0.6, { envers: true, vitesse: 0.8 + 0.1 * i }));
+  [1, 2, 3].forEach(i => noteOrch(o, 'cloches', i, sommet - 3 + i * 0.4, 3, 0.3, (i - 2) * 0.6, { envers: true, vitesse: 0.8 + 0.1 * i }));
   const sombres = Array.from({ length: C }, (_, c) => [c, Array.from({ length: R }, (_, r) => lum[r * C + c] || moy).reduce((a, b) => a + b, 0)]).sort((a, b) => a[1] - b[1]).slice(0, 3);
-  sombres.forEach(([c]) => noteOrch(o, 'timbales', noteTimbale(ton.base), t0 + c * D / C, 2, 0.6, -0.1));
-  noteOrch(o, 'gong', 0, t0 + D - 5, 7, 0.6, 0, { vitesse: 0.85 });
-  return { fin: t0 + D + 5, sections: [['Lecture de l\'image', 0], ['Nuage de notes', 4], ['Motif qui se décale', 12], ['Sommet', 30], ['Résonance', D - 5]], orchestre: inst };
+  sombres.forEach(([c]) => noteOrch(o, 'timbales', noteTimbale(ton.base), t0 + c * D / C, 2, 0.5, -0.1));
+  noteOrch(o, 'gong', 0, t0 + D - 5, 7, 0.55, 0, { vitesse: 0.85 });
+  const liste = [...new Set([...P.motif, ...P.nuage, ...P.frappes.map(f => f[0]), ...(P.rondes ? ['carillons'] : []), 'voix', 'gong', 'contrebasse'])];
+  return {
+    fin: t0 + D + 5, orchestre: liste,
+    paysage: [P.nom, P.rythme].concat(connu ? [] : ['origine de l\'œuvre inconnue : paysage tiré de l\'image']),
+    sections: [['Lecture de l\'image', 0], ['Chœur', 6], ['Motif qui se décale', 12], ['Rythme', 14], ['Sommet', 30], ['Résonance', D - 5]]
+  };
 }
 
 // ---------- Lancement : « simple » (synthétiseur, immédiat), « symphonie » ou « experimentale » (vrais instruments, chargés à la demande)
@@ -376,12 +464,15 @@ function boutonsStyleMusique() {
   return `<div class="tags style-musique" role="group" aria-label="Style de musique">${STYLES_MUSIQUE.map(([k, l]) => `<button type="button" class="tag${k === styleMusique ? ' on' : ''}" aria-pressed="${k === styleMusique}" data-style="${k}" onclick="choisirStyleMusique(this.dataset.style)">${l}</button>`).join('')}</div>`;
 }
 document.addEventListener('DOMContentLoaded', () => document.querySelectorAll('.style-musique-ici').forEach(z => { z.innerHTML = boutonsStyleMusique(); }));
-const NOMS_INSTRUMENTS = { violons: 'violons', altos: 'altos', violoncelles: 'violoncelles', contrebasse: 'contrebasse', pizzicati: 'pizzicati', flute: 'flûte', hautbois: 'hautbois', clarinette: 'clarinette', basson: 'basson', cor: 'cor', trompette: 'trompette', trombone: 'trombone', tuba: 'tuba', glockenspiel: 'glockenspiel', marimba: 'marimba', piano: 'piano', timbales: 'timbales', gong: 'gong', cymbale: 'cymbale', cloches: 'cloches népalaises' };
+const NOMS_INSTRUMENTS = { violons: 'violons', altos: 'altos', violoncelles: 'violoncelles', contrebasse: 'contrebasse', pizzicati: 'pizzicati', flute: 'flûte', hautbois: 'hautbois', clarinette: 'clarinette', basson: 'basson', cor: 'cor', trompette: 'trompette', trombone: 'trombone', tuba: 'tuba', glockenspiel: 'glockenspiel', marimba: 'marimba', piano: 'piano', timbales: 'timbales', gong: 'gong', cymbale: 'cymbale', cloches: 'cloches népalaises',
+  balafon: 'balafon (Afrique de l\'Ouest)', mbira: 'mbira (Zimbabwe)', kalimba: 'kalimba (Kenya)', dan_tranh: 'đàn tranh (Viêt Nam)', ocarina: 'ocarina', verres: 'verres chantants',
+  carillons: 'carillons à main', agogo: 'agogo (cloche double)', conga: 'congas', darbuka: 'darbouka', tambour_cadre: 'tambour sur cadre', crotales: 'crotales',
+  tambour_fente: 'tambours à fente', cajon: 'cajón (Pérou)', claves: 'claves (Cuba)', guiro: 'güiro (Caraïbes)', hochet: 'hochet', tambour_ocean: 'tambour océan', bongos: 'bongos (Cuba)', voix: 'voix de synthèse' };
 // Texte affiché pendant la lecture : style, tonalité, partie en cours (mise à jour toutes les demi-secondes) et instruments ; renvoie l'identifiant du suivi
 function suivreMusique(m, v, el) {
   if (!el) return null;
   const debut = Date.now(), nom = { symphonie: 'Symphonie', experimentale: 'Expérimentale', simple: 'Simple' }[m.style];
-  const orch = m.orchestre ? `<br><span>Orchestre :</span> ${m.orchestre.map(i => `<span>${NOMS_INSTRUMENTS[i] || i}</span>`).join(', ')}` : '';
+  const orch = (m.paysage ? `<br><span>Paysage sonore :</span> ${m.paysage.map(x => `<span>${x}</span>`).join(' · ')}` : '') + (m.orchestre ? `<br><span>${m.paysage ? 'Instruments :' : 'Orchestre :'}</span> ${m.orchestre.map(i => `<span>${NOMS_INSTRUMENTS[i] || i}</span>`).join(', ')}` : '');
   const maj = () => {
     const x = (Date.now() - debut) / 1000; let partie = '';
     if (m.sections) m.sections.forEach(([n, a]) => { if (x >= a) partie = n; });
@@ -391,7 +482,8 @@ function suivreMusique(m, v, el) {
 }
 let numeroMusique = 0;
 // Renvoie une promesse : { sortie, duree (ms), style, sections } ; null si une autre lecture a été demandée entre-temps
-async function lancerMusique(v, style) {
+// info (facultatif) : fiche de l'œuvre (lieu, culture, artiste), pour choisir le paysage sonore du style expérimental
+async function lancerMusique(v, style, info) {
   style = style || styleMusique;
   if (style === 'simple') return Object.assign(programmerMusique(v), { style });
   if (!audio) { audio = new (window.AudioContext || window.webkitAudioContext)(); audio.analyseur = audio.createAnalyser(); audio.analyseur.connect(audio.destination); }
@@ -400,9 +492,9 @@ async function lancerMusique(v, style) {
   const { sortie, bus } = preparerSortie(hasard, style === 'symphonie' ? 2.4 : 3.6, style === 'symphonie' ? 0.32 : 0.45);
   const o = { bus, hasard, annule: () => numero !== numeroMusique };
   try {
-    const r = await (style === 'symphonie' ? composerSymphonie(v, o) : composerExperimentale(v, o));
+    const r = await (style === 'symphonie' ? composerSymphonie(v, o) : composerExperimentale(v, o, info));
     if (!r) { sortie.disconnect(); return null; }
-    return { sortie, duree: (r.fin - audio.currentTime) * 1000, style, sections: r.sections, orchestre: r.orchestre };
+    return { sortie, duree: (r.fin - audio.currentTime) * 1000, style, sections: r.sections, orchestre: r.orchestre, paysage: r.paysage };
   } catch (e) {
     // Sons introuvables (hors ligne…) : la version simple est jouée à la place
     sortie.disconnect(); if (numero !== numeroMusique) return null;

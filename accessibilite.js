@@ -211,7 +211,7 @@ async function accMusique() {
   const img = document.getElementById('am-img');
   if (img && typeof ouvrirVisionneuse === 'function') ouvrirVisionneuse(img, { etat, enCours: () => !!(accEtat.musique || accEtat.charge), arreter: accMusique }); // l'œuvre en grand pendant l'écoute
   if (typeof styleMusique !== 'undefined' && styleMusique !== 'simple') etat.innerHTML = '<span>Chargement de l\'orchestre…</span>';
-  const m = typeof lancerMusique === 'function' ? await lancerMusique(v) : programmerMusique(v);
+  const m = typeof lancerMusique === 'function' ? await lancerMusique(v, undefined, accEtat.o) : programmerMusique(v);
   if (!accEtat.charge || !m || accEtat.v !== v) return; // arrêtée ou fenêtre changée pendant le chargement
   accEtat.charge = false;
   accEtat.musique = { sortie: m.sortie, fin: setTimeout(() => { accStopTout(); etat.textContent = 'Musique terminée.'; }, m.duree) };

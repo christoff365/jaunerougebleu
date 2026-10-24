@@ -1384,6 +1384,7 @@ const PAYS_OEUVRES = [
   ['Liban', 'Asie', /\b(liban|lebanon|phenici|beyrouth|beirut)/],
   ['Israël', 'Asie', /\b(israel|jerusalem|palestin|judea|judee)/],
   ['Jordanie', 'Asie', /\b(jordani|jordan\b|petra)/],
+  ['Arménie', 'Asie', /\b(armeni|armenian|erevan|yerevan|cilicie arm|cilician arm)/],
   ['Turquie', 'Asie', /\b(turquie|turkey|turkish|turc\b|turque|ottoman|anatoli|istanbul|constantinople|iznik|bursa)/],
   ['Arabie saoudite', 'Asie', /\b(arabie|arabia|saudi|mecca|la mecque)/],
   ['Yémen', 'Asie', /\byemen/],

@@ -1163,5 +1163,239 @@
         "compare": "Comme le masque de buffle bwa, un animal protecteur ; mais ici il ne danse pas, il veille."
       }
     ]
+  },
+  {
+    "title": "Le paysage à travers le temps et les cultures",
+    "subtitle": "De l'Égypte d'Akhenaton à l'Australie : vingt paysages de vingt pays et des cinq continents",
+    "status": "published",
+    "theme": "La nature dans l'art mondial",
+    "intro": "Le paysage n'a pas toujours existé comme genre. En Chine, la peinture « de montagnes et d'eaux » devient l'art le plus noble dès le Xe siècle ; en Europe, le mot « paysage » n'apparaît en français qu'au XVIe siècle, et longtemps le paysage n'est que le fond d'une histoire sacrée ou mythologique. Chaque culture regarde la nature à sa façon : jardin du paradis en Perse, montagne où l'on se promène en esprit en Chine, campagne idéale baignée de lumière en Italie, terre familière aux Pays-Bas, nature sublime et effrayante pour les romantiques, pays réel enfin peint pour lui-même en Corée, lumière fugitive au Japon et chez Turner. Ces vingt œuvres, de 1350 avant notre ère au XXe siècle, se répondent deux à deux : regardez d'où le peintre nous fait voir le monde (d'en haut, de l'intérieur, par une fenêtre), ce qu'il met au premier plan, et ce qu'il laisse dans l'ombre. Un paysage n'est jamais seulement la nature : c'est une manière de l'habiter, de la rêver, et parfois de la perdre.",
+    "minimum": 20,
+    "search": {
+      "keywords": "landscape",
+      "auto": false
+    },
+    "works": [
+      {
+        "title": "Le fourré de papyrus de la « Chambre verte » (fac-similé)",
+        "artist": "Peintre égyptien ; copie de Nina de Garis Davies (1926)",
+        "country": "Égypte",
+        "period": "vers 1347–1330 av. J.-C. (copie de 1926)",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/expositions/paysage-amarna.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/548565), domaine public (Open Access)",
+        "analysis": "Dans le palais nord d'Amarna, la capitale fondée par le pharaon Akhenaton, une pièce entière était peinte d'un fourré de papyrus où volent et nichent des oiseaux. Aucun dieu, aucun roi, aucun être humain : c'est l'un des plus anciens paysages « purs » connus, un marais du Nil qui entourait celui qui entrait dans la pièce. Sous Akhenaton, qui vénérait le disque solaire Aton, l'art regarde la nature vivante avec une liberté nouvelle. L'original étant très abîmé, nous montrons la copie à l'échelle réelle que Nina de Garis Davies en a peinte en 1926.",
+        "compare": "Trente-trois siècles avant la cascade de Dahl, un paysage sans personnages. Mais ici, on ne regarde pas le paysage par une fenêtre : on est dedans, comme dans les jardins persans."
+      },
+      {
+        "title": "Polyphème et Galatée dans un paysage",
+        "artist": "Peintre romain",
+        "country": "Italie",
+        "period": "dernière décennie du Ier siècle av. J.-C.",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/expositions/paysage-boscotrecase.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/250946), domaine public (Open Access)",
+        "analysis": "Cette fresque ornait une villa impériale à Boscotrecase, près de Pompéi, ensevelie par le Vésuve en 79. Sur un fond vert sombre flotte un paysage de rochers, d'arbres, d'eau et de chèvres, comme une vision : c'est le style des paysages « sacro-idylliques » romains, où sanctuaires, bergers et mythes se mêlent à la nature. Le cyclope Polyphème, berger amoureux de la nymphe marine Galatée, y apparaît parmi ses bêtes, minuscule dans un décor qui le dépasse. Pour les Romains, ces vues peintes ouvraient les murs des chambres sur une campagne rêvée.",
+        "compare": "Comme le paysage-monde de Patinir, une nature immense où les personnages de l'histoire sont tout petits ; mais le peintre romain la fait flotter dans le vide, comme un souvenir ou un rêve."
+      },
+      {
+        "title": "Ruisseaux et montagnes sans fin (détail)",
+        "artist": "Peintre chinois anonyme",
+        "country": "Chine",
+        "period": "vers 1100–1150 (fin des Song du Nord – Jin)",
+        "museum": "Cleveland Museum of Art",
+        "image": "images/expositions/paysage-ruisseaux-montagnes-chine.jpg",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1953.126), domaine public (CC0)",
+        "analysis": "En Chine, la peinture de paysage s'appelle shanshui, « montagnes et eaux » ; dès le Xe siècle, elle devient le genre le plus noble, bien avant l'Europe. Ce rouleau horizontal de plus de deux mètres ne se regarde pas d'un seul coup : on le déroule, une longueur de bras après l'autre, de droite à gauche, et l'on voyage le long des rivières, des villages, des ponts et des temples. Il n'y a pas de point de vue unique : le regard se déplace avec le promeneur. Le peintre Guo Xi écrivait que les meilleurs paysages sont ceux où l'on peut se promener et habiter. Les cachets rouges sont ceux des collectionneurs qui l'ont admiré au fil des siècles.",
+        "compare": "À l'opposé du tableau européen, vu d'un seul point comme par une fenêtre (Claude Lorrain, Ruisdael), le rouleau chinois se parcourt dans le temps, comme une marche."
+      },
+      {
+        "title": "Réception royale dans un paysage, frontispice d'un Shâhnâmeh",
+        "artist": "Peintre persan",
+        "country": "Iran",
+        "period": "1444 (époque timouride, Chiraz)",
+        "museum": "Cleveland Museum of Art",
+        "image": "images/expositions/paysage-shiraz.jpg",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1956.10), domaine public (CC0)",
+        "analysis": "Cette page ouvrait un Livre des rois (Shâhnâmeh) copié à Chiraz : elle montre sans doute la cour pour qui le manuscrit fut fait, réunie en plein air. Le sol est une prairie semée de fleurs, le ciel est d'or, un arbre fleuri se dresse au centre : pas d'ombres, un horizon placé tout en haut, chaque élément vu sous son meilleur jour. Le paysage persan est d'abord un jardin. Le mot « paradis » vient d'ailleurs du vieux perse pairi-daeza, l'enclos, le jardin clos.",
+        "compare": "Comme dans la Chambre verte d'Amarna, la nature est un décor qui enveloppe ; et comme le jardin espagnol de Rico, elle est un jardin, mais un jardin rêvé, éternellement en fleurs."
+      },
+      {
+        "title": "Le Paysage avec la pénitence de saint Jérôme",
+        "artist": "Joachim Patinir",
+        "country": "Belgique",
+        "period": "vers 1515",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/expositions/paysage-patinir.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/437261), domaine public (Open Access)",
+        "analysis": "Né près de Dinant et actif à Anvers, Patinir est l'un des premiers peintres européens pour qui le paysage compte plus que l'histoire. Les saints (le baptême du Christ à gauche, saint Jérôme au centre, saint Antoine à droite) sont petits ; le monde qui les entoure est immense, vu de très haut : rochers, rivières, villes, mer. Les historiens parlent de « paysage-monde ». Patinir étage trois couleurs pour créer la profondeur : brun au premier plan, vert au milieu, bleu au loin. Albrecht Dürer, qui le rencontra en 1521, le qualifia de « bon peintre de paysages » : c'est l'une des premières fois que l'expression apparaît.",
+        "compare": "Comme le rouleau chinois, une vue d'en haut qui embrasse tout un monde ; mais Patinir le fait tenir dans un seul panneau, avec la perspective aérienne (le bleu du lointain)."
+      },
+      {
+        "title": "Rostam capturant son cheval Rakhsh au lasso, dans un paysage",
+        "artist": "Peintre de Hérat",
+        "country": "Afghanistan",
+        "period": "fin du XVIe siècle",
+        "museum": "Cleveland Museum of Art",
+        "image": "images/expositions/paysage-rustam-herat.jpg",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1971.305), domaine public (CC0)",
+        "analysis": "Hérat, aujourd'hui en Afghanistan, fut l'un des grands foyers de la peinture persane. Le héros Rostam lance son lasso sur le poulain que personne n'avait pu attraper ; le gardien du troupeau lui dit que ce cheval coûte « la terre d'Iran ». Le paysage n'imite pas la nature : rochers aux formes d'éponges et de coraux, couleurs pastel, nuages en rubans hérités de la peinture chinoise, arbre noueux qui jaillit des pierres. Tout est animé, comme si les rochers eux-mêmes vivaient.",
+        "compare": "Ces rochers vivants rappellent ceux du rouleau chinois, dont la peinture persane a adopté les nuages ; à l'opposé, Ruisdael peint sa plaine avec l'exactitude d'un observateur."
+      },
+      {
+        "title": "Paysage pastoral : la campagne romaine",
+        "artist": "Claude Lorrain",
+        "country": "France",
+        "period": "vers 1639",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/expositions/paysage-claude-lorrain.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/435906), domaine public (Open Access)",
+        "analysis": "Né en Lorraine, Claude Gellée passa presque toute sa vie à Rome, où il dessinait en plein air la campagne et sa lumière. Mais ses tableaux ne copient pas un lieu : ils composent un paysage idéal, encadré de grands arbres comme un décor de théâtre, baigné d'une lumière dorée, avec des bergers et des ruines antiques. Ce rêve d'une campagne paisible eut une influence immense : au XVIIIe siècle, les Anglais dessinèrent de vrais parcs à son image, et les voyageurs regardaient la nature dans un petit miroir teinté, le « verre de Claude », pour la voir comme dans ses tableaux.",
+        "compare": "Comme le jardin persan, un paysage idéal plutôt que réel ; mais ici l'idéal passe par la lumière du soir et la nostalgie de l'Antiquité, non par la fleur éternelle."
+      },
+      {
+        "title": "Champs de blé",
+        "artist": "Jacob van Ruisdael",
+        "country": "Pays-Bas",
+        "period": "vers 1670",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/expositions/paysage-ruisdael.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/437549), domaine public (Open Access)",
+        "analysis": "Aux Pays-Bas du XVIIe siècle, une terre plate en partie gagnée sur la mer, les bourgeois achètent des tableaux de leur propre pays : dunes, canaux, champs. Ruisdael place l'horizon très bas et donne les deux tiers de la toile au ciel, où passent d'immenses nuages ; un chemin mène l'œil vers le lointain, la lumière tombe par taches sur les blés. Rien d'héroïque, rien de sacré : un coin de campagne ordinaire, qui devient pourtant grandiose.",
+        "compare": "Face à la campagne idéale de Claude Lorrain, un paysage réel et familier ; deux siècles plus tard, Kuindzhi donnera lui aussi presque tout son tableau au ciel."
+      },
+      {
+        "title": "Le mont Inwang (Inwangsan)",
+        "artist": "Jeong Seon",
+        "country": "Corée",
+        "period": "XVIIIe siècle",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/expositions/paysage-inwangsan-jeong-seon.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/929078), domaine public (Open Access)",
+        "analysis": "Pendant des siècles, les peintres coréens ont surtout peint des montagnes chinoises imaginaires, d'après les modèles chinois. Jeong Seon (1676–1759) change tout : il peint les vrais paysages de Corée, les monts Kumgang (les « montagnes de Diamant ») et les collines de Séoul. On appelle ce style jingyeong sansu, le « paysage vrai ». Le mont Inwang, qui domine la capitale, apparaît avec ses grandes masses de granit nu, rendues à larges coups de pinceau sombres, ses pins et ses brumes : on reconnaît la montagne, et en même temps on sent la force du pinceau.",
+        "compare": "Comme Ruisdael aux Pays-Bas, Jeong Seon affirme la beauté de son propre pays plutôt que celle d'un modèle lointain ; mais il garde l'encre et la liberté du pinceau de la tradition chinoise."
+      },
+      {
+        "title": "L'Héroïne qui attend son amant (Utka Nayika)",
+        "artist": "Peintre des royaumes pahari",
+        "country": "Inde",
+        "period": "vers 1760–1765",
+        "museum": "Cleveland Museum of Art",
+        "image": "images/expositions/paysage-utka-nayika.jpg",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/2018.114), domaine public (CC0)",
+        "analysis": "Dans les petits royaumes des contreforts de l'Himalaya, les peintres pahari illustrent les types de l'amoureuse décrits par la poésie indienne. Celle-ci attend, seule, sur un lit de feuilles, son amant qui ne vient pas. Autour d'elle, le paysage parle à sa place : oiseaux et animaux vont par deux, même certains arbres ont leur double. La nature devient le miroir des sentiments. Pour les fidèles, l'attente de l'amante est aussi celle de l'âme qui attend Dieu, souvent sous les traits de Krishna.",
+        "compare": "Comme chez Friedrich et les romantiques allemands, le paysage exprime un état d'âme ; mais ici par un jeu de symboles (les couples), là-bas par l'immensité et le silence."
+      },
+      {
+        "title": "Une galerie de mine envahie par la végétation",
+        "artist": "Carl Gustav Carus",
+        "country": "Allemagne",
+        "period": "vers 1824",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/expositions/paysage-carus-mine.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/438947), domaine public (Open Access)",
+        "analysis": "Médecin, naturaliste et peintre, ami de Caspar David Friedrich à Dresde, Carus voulait que la peinture de paysage montre « la vie de la Terre » : il en fit la théorie dans ses Lettres sur la peinture de paysage. Ici, l'entrée d'une vieille mine disparaît sous les plantes : la nature reprend ce que l'homme lui avait pris. Le savant regarde les roches et la végétation avec précision ; le romantique y voit le temps qui passe et l'homme qui s'efface.",
+        "compare": "Comme la vallée de Burragorang, gravée par David Little, un paysage où l'histoire humaine est en train de disparaître ; ici la nature recouvre la mine, là-bas l'eau d'un barrage recouvrira la vallée."
+      },
+      {
+        "title": "Deux hommes devant une cascade au coucher du soleil",
+        "artist": "Johan Christian Dahl",
+        "country": "Norvège",
+        "period": "1823",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/expositions/paysage-dahl-cascade.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/439344), domaine public (Open Access)",
+        "analysis": "Né à Bergen, installé à Dresde où il partagea la maison de Caspar David Friedrich, Dahl est considéré comme le père de la peinture de paysage norvégienne. Il peint la nature du Nord avec ses sapins, ses cascades et ses lumières rasantes. Les deux hommes, minuscules, contemplent la chute d'eau et le ciel qui s'embrase : c'est le « sublime » romantique, ce mélange d'admiration et de vertige devant une nature plus grande que nous.",
+        "compare": "Comme dans le paysage-monde de Patinir, les personnages sont petits ; mais chez Dahl ils ne sont plus des saints en prière : ils sont là pour contempler, comme nous."
+      },
+      {
+        "title": "Vallée de montagne",
+        "artist": "Thomas Ender",
+        "country": "Autriche",
+        "period": "première moitié du XIXe siècle",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/expositions/paysage-ender.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/372683), domaine public (Open Access)",
+        "analysis": "Thomas Ender, peintre viennois, a passé sa vie à dessiner et peindre des paysages réels : il accompagna l'expédition autrichienne au Brésil en 1817, puis parcourut les Alpes pour l'archiduc Jean, qui voulait faire connaître les régions de l'empire. Cette aquarelle montre un torrent qui dévale entre les sapins, au pied des glaciers. Le paysage est ici un document : on pourrait presque s'y orienter. C'est aussi l'époque où l'on commence à aimer la montagne, qui faisait peur depuis toujours.",
+        "compare": "La même montagne que celle de Calame, mais vue en géographe, avec clarté ; Calame, lui, y cherche le drame de la tempête."
+      },
+      {
+        "title": "Arbre brisé dans un paysage de montagne",
+        "artist": "Alexandre Calame",
+        "country": "Suisse",
+        "period": "première moitié du XIXe siècle",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/expositions/paysage-calame.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/381813), domaine public (Open Access)",
+        "analysis": "Né à Vevey, Calame devint le grand peintre des Alpes suisses : ses tableaux de torrents, de sommets et d'orages furent achetés dans toute l'Europe et donnèrent leur image aux montagnes de la Suisse. Dans ce dessin, un vieil arbre tordu et en partie brisé tient encore sur son rocher, au-dessus du vide. L'arbre qui résiste à la tempête est un thème cher aux romantiques : la montagne devient le lieu des forces de la nature et du courage.",
+        "compare": "Comme les rochers vivants de la peinture persane de Hérat, la nature semble ici animée d'une volonté ; mais Calame la dessine avec une précision presque scientifique."
+      },
+      {
+        "title": "Le lac de Zoug",
+        "artist": "Joseph Mallord William Turner",
+        "country": "Royaume-Uni",
+        "period": "1843",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/expositions/paysage-turner-zoug.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/337499), domaine public (Open Access)",
+        "analysis": "Âgé de plus de soixante ans, Turner retourna plusieurs fois en Suisse et peignit, à partir de ses études faites sur place, une série d'aquarelles pour quelques amateurs. Au lac de Zoug, au petit matin, les montagnes se dissolvent dans la brume bleue et dorée ; seule la lumière semble réelle. Turner peint moins un lieu qu'une heure, une atmosphère. Ses contemporains furent souvent déroutés ; les impressionnistes, plus tard, verront en lui un précurseur.",
+        "compare": "Les mêmes Alpes que chez Ender et Calame, mais presque effacées par la lumière ; comme le rouleau chinois, Turner laisse la brume suggérer ce que l'œil ne voit pas."
+      },
+      {
+        "title": "Averse soudaine sur le pont Shin-Ōhashi et Atake",
+        "artist": "Utagawa Hiroshige",
+        "country": "Japon",
+        "period": "1857",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/expositions/paysage-averse-hiroshige.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/55433), domaine public (Open Access)",
+        "analysis": "Dans sa série des Cent vues célèbres d'Edo (l'actuelle Tokyo), Hiroshige montre la ville et ses environs au fil des saisons. Ici, une averse d'été surprend des passants sur un pont : la pluie tombe en fines lignes obliques gravées dans le bois, le pont coupe l'image en diagonale, la rive opposée s'efface dans le gris. L'estampe, tirée à des milliers d'exemplaires, faisait du paysage un plaisir populaire. Vincent van Gogh l'a copiée à la peinture en 1887.",
+        "compare": "Comme Turner, Hiroshige peint un moment fugitif, la météo plutôt que le lieu ; mais avec des lignes nettes et des aplats de couleur, là où Turner dissout tout dans la lumière."
+      },
+      {
+        "title": "Vue du lac Pepin, Minnesota",
+        "artist": "Robert S. Duncanson",
+        "country": "États-Unis",
+        "period": "1862",
+        "museum": "Cleveland Museum of Art",
+        "image": "images/expositions/paysage-duncanson-pepin.jpg",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1947.198), domaine public (CC0)",
+        "analysis": "Robert S. Duncanson fut le premier peintre afro-américain reconnu aux États-Unis et en Europe. Il peignit ce panorama paisible lors d'un voyage sur le Mississippi vers le Canada, entrepris sans doute pour fuir la guerre de Sécession. Le lac Pepin, un élargissement du fleuve, s'étend sous une lumière douce, sans une trace de conflit. Pourtant, cette même année 1862, la guerre entre les États-Unis et les Dakotas éclatait dans le Minnesota, sur des terres prises aux peuples autochtones : un paysage paisible peut aussi taire une histoire.",
+        "compare": "Comme la campagne idéale de Claude Lorrain, un monde calme et lumineux ; mais peint par un homme à qui son propre pays refusait l'égalité, ce calme prend un autre sens."
+      },
+      {
+        "title": "Un jardin espagnol",
+        "artist": "Martín Rico y Ortega",
+        "country": "Espagne",
+        "period": "1871",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/expositions/paysage-rico-jardin.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/437462), domaine public (Open Access)",
+        "analysis": "Martín Rico, né à Madrid, vécut entre Paris, l'Espagne et Venise. Il peignait volontiers en plein air, avec une touche vive et une lumière éclatante. Ce jardin, avec son cyprès, sa fontaine et ses maisons blanches aux balcons, rappelle les jardins andalous, héritiers des jardins de l'islam : l'eau, l'ombre et les fleurs. Le paysage n'est plus une vaste étendue : c'est un coin de nature dans la ville, à l'échelle humaine.",
+        "compare": "Le jardin persan de Chiraz était un paradis rêvé ; celui de Rico est un jardin réel, observé à une heure précise, avec ses ombres et son soleil."
+      },
+      {
+        "title": "Coucher de soleil rouge",
+        "artist": "Arkhip Kuindzhi",
+        "country": "Ukraine",
+        "period": "1905–1908",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/expositions/paysage-kuindji.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/436833), domaine public (Open Access)",
+        "analysis": "Né à Marioupol, dans l'actuelle Ukraine, alors dans l'Empire russe, Arkhip Kuindzhi fit sensation à Saint-Pétersbourg en 1880 en exposant un seul tableau, un clair de lune sur le Dniepr, dans une salle obscure où seule la toile était éclairée. Il cessa ensuite d'exposer pendant des années et continua de chercher la lumière. Ici, un immense nuage sombre couvre le soleil couchant, qui embrase le ciel et se reflète dans l'eau : le paysage se réduit presque à une couleur et une émotion.",
+        "compare": "Comme Ruisdael, Kuindzhi donne presque tout le tableau au ciel ; mais il ne décrit plus la campagne : il peint une sensation de lumière, comme Turner, en couleurs franches."
+      },
+      {
+        "title": "Labour à Burragorang, Nouvelle-Galles du Sud",
+        "artist": "David Little",
+        "country": "Australie",
+        "period": "première moitié du XXe siècle",
+        "museum": "Cleveland Museum of Art",
+        "image": "images/expositions/paysage-little-burragorang.jpg",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1948.238), domaine public (CC0)",
+        "analysis": "Le graveur australien David Little montre un paysan et son attelage qui labourent dans la vallée de Burragorang, au pied des collines, à l'ombre des eucalyptus. Cette vallée était le pays des Gundungurra bien avant l'arrivée des colons. Elle a depuis disparu : dans les années 1950, la construction du barrage de Warragamba l'a noyée sous un lac qui alimente Sydney en eau. Cette gravure paisible est devenue le témoignage d'un paysage perdu.",
+        "compare": "Comme la mine de Carus envahie par les plantes, un paysage marqué par le temps ; mais ici c'est l'homme qui a effacé la vallée. Les paysages aussi ont une histoire, et parfois une fin."
+      }
+    ]
   }
 ]

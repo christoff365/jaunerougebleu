@@ -1441,5 +1441,305 @@
         "compare": "Comme l'arbre brisé de Calame, un arbre seul qui tient tête aux éléments ; mais Thomson le peint avec des couleurs franches et une touche épaisse qui annoncent la peinture moderne."
       }
     ]
+  },
+  {
+    "title": "Croyances et spiritualités du monde",
+    "subtitle": "Du Livre des morts égyptien aux îles Fidji : vingt-six œuvres de vingt et un pays, vingt traditions et des cinq continents",
+    "status": "published",
+    "theme": "Croyances & spiritualités du monde",
+    "intro": "Partout et à toutes les époques, les êtres humains ont cherché à donner un sens à la vie, à la mort et au monde qui les dépasse. Cette exposition réunit des œuvres nées de traditions très différentes : la religion de l'Égypte ancienne, l'hindouisme, le jaïnisme, le bouddhisme sous ses différentes formes, le shintô, le taoïsme, le judaïsme, le christianisme d'Orient et d'Occident, d'Éthiopie et d'Arménie, l'islam (dont l'art religieux, sans figures, s'exprime par l'écriture et la géométrie de l'architecture) et sa voie mystique, le soufisme, le sikhisme, les religions du Mexique ancien, la divination yoruba et les rites des îles Fidji. Beaucoup sont des enluminures, ces livres sacrés écrits et peints à la main, où l'or et la couleur honorent la parole. Aucune tradition n'est placée au-dessus d'une autre ; les œuvres se répondent deux à deux, et montrent souvent des religions qui se rencontrent et cohabitent. Par respect, l'exposition ne montre pas d'objets que leurs communautés demandent de ne pas exposer, ni de représentation du Prophète de l'islam ; et certaines traditions, notamment autochtones d'Amérique du Nord et d'Australie, ne sont présentes que par cette mention, car leurs objets les plus sacrés n'ont pas leur place dans un musée.",
+    "minimum": 20,
+    "search": {
+      "keywords": "religious",
+      "auto": false
+    },
+    "works": [
+      {
+        "title": "La pesée du cœur, Livre des morts de Hounefer",
+        "artist": "Scribe et peintre égyptiens",
+        "country": "Égypte",
+        "period": "vers 1275 av. J.-C. (XIXe dynastie)",
+        "museum": "British Museum, Londres",
+        "image": "images/expositions/spirit-hunefer.jpg",
+        "credit": "British Museum, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:BD_Hunefer.jpg), domaine public",
+        "analysis": "Pour les anciens Égyptiens, le mort devait passer un jugement avant de rejoindre l'au-delà. Sur ce papyrus placé dans la tombe du scribe Hounefer, le dieu à tête de chacal Anubis le conduit vers la balance : son cœur y est pesé contre la plume de Maât, la vérité et la justice. Le dieu Thot, à tête d'ibis, note le résultat ; un monstre, Ammit, attend de dévorer les cœurs trop lourds. Horus présente enfin le défunt à Osiris, roi des morts, assis sur son trône. Le Livre des morts est un recueil de formules pour réussir ce passage.",
+        "compare": "Comme le plateau de divination yoruba, un objet qui aide à traverser une épreuve en suivant des règles sacrées ; ici, une seule question compte : la vie a-t-elle été juste ?"
+      },
+      {
+        "title": "Shiva, seigneur de la danse (Nataraja)",
+        "artist": "Fondeur tamoul",
+        "country": "Inde",
+        "period": "fin du XIe siècle (époque chola)",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/expositions/spirit-nataraja.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/39328), domaine public (Open Access)",
+        "analysis": "Dans l'hindouisme, Shiva détruit et recrée sans cesse l'univers. Les fondeurs du royaume chola, au sud de l'Inde, l'ont représenté dansant dans un cercle de flammes : d'une main il tient le tambour qui rythme la création, d'une autre le feu qui détruit ; son pied écrase le nain de l'ignorance, l'autre se lève, promesse de libération. Cette statue de bronze n'était pas faite pour un musée : on l'habillait, on la parait de fleurs et on la portait en procession lors des fêtes du temple.",
+        "compare": "Comme le Laozi de bronze doré, une image sacrée qui se regarde, se vénère et se transporte ; mais Shiva danse, quand le sage chinois se tient immobile, en paix."
+      },
+      {
+        "title": "Les rêves annonçant la naissance de Mahavira, page d'un Kalpasutra",
+        "artist": "Maître du Kalpasutra de Jaunpur",
+        "country": "Inde",
+        "period": "vers 1465",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/expositions/spirit-kalpasutra.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/37788), domaine public (Open Access)",
+        "analysis": "Le jaïnisme, religion de l'Inde, enseigne la non-violence envers tous les êtres vivants. Le Kalpasutra raconte la vie de Mahavira, le dernier des grands maîtres jaïns. Avant sa naissance, sa mère vit en rêve quatorze présages : un éléphant, un taureau, un lion, la déesse Shri, la lune, le soleil, un vase, un lac de lotus, un palais céleste… On les voit ici alignés au-dessus de la dormeuse. Fond rouge, or, grands yeux qui dépassent du visage : c'est le style des manuscrits jaïns du Gujarat, que les fidèles offraient aux bibliothèques des temples.",
+        "compare": "Comme la Haggadah de Sarajevo, un livre qui se transmet et se lit en communauté ; et, comme dans l'enluminure irlandaise, l'or et la couleur disent la valeur sacrée du texte."
+      },
+      {
+        "title": "Le Bouddha entouré de ses disciples et des dieux",
+        "artist": "Peintre cinghalais",
+        "country": "Sri Lanka",
+        "period": "vers 1825–1850",
+        "museum": "Cleveland Museum of Art",
+        "image": "images/expositions/spirit-sri-lanka.jpg",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1949.152), domaine public (CC0)",
+        "analysis": "Au Sri Lanka, île bouddhiste depuis plus de deux mille ans, cette peinture montre le Bouddha rayonnant de lumière, entouré de ses quatre principaux disciples et de rangées de moines. Plus bas apparaissent la déesse de la Terre et des dieux protecteurs de l'île, dont plusieurs viennent de l'hindouisme : Skanda aux six têtes, Brahma aux quatre visages, Shiva. Pour les fidèles, ces dieux ne s'opposent pas au Bouddha : ils le servent et protègent son enseignement. Les religions, ici, cohabitent dans une même image.",
+        "compare": "Comme le mandala des cerfs de Kasuga, au Japon, une image où deux traditions religieuses se rencontrent et se répondent, au lieu de s'exclure."
+      },
+      {
+        "title": "Page enluminée d'un Kammavacha, texte d'ordination des moines",
+        "artist": "Artisans birmans",
+        "country": "Birmanie (Myanmar)",
+        "period": "XIXe siècle",
+        "museum": "Cleveland Museum of Art",
+        "image": "images/expositions/spirit-kammavacha.jpg",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1945.172.1.b), domaine public (CC0)",
+        "analysis": "En Birmanie, devenir moine bouddhiste est un moment important de la vie d'un homme. Les familles offraient alors aux monastères des manuscrits somptueux contenant les textes de l'ordination, lus à voix haute pendant la cérémonie. Les lettres, en langue pali, sont tracées en laque noire épaisse sur des feuilles laquées et dorées ; aux extrémités, des panneaux ornés d'êtres célestes. Offrir un tel livre était une manière de gagner des mérites.",
+        "compare": "Comme le Coran bleu, un texte sacré dont l'écriture elle-même devient décor : or et laque ici, or sur parchemin indigo là-bas."
+      },
+      {
+        "title": "Tara verte",
+        "artist": "Attribué à Aniko, peintre népalais actif au Tibet",
+        "country": "Tibet",
+        "period": "vers 1260",
+        "museum": "Cleveland Museum of Art",
+        "image": "images/expositions/spirit-tara-verte.jpg",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1970.156), domaine public (CC0)",
+        "analysis": "Pour les Tibétains, Tara verte est l'une des figures les plus aimées du bouddhisme : une sauveuse rayonnante, forme féminine de l'esprit éveillé, qui dissipe la peur et protège de huit grands dangers. Assise, un pied posé en avant comme si elle se levait pour venir en aide, elle tient des lotus bleus. Cette peinture sur toile, ou thangka, se déroulait dans les temples et les maisons pour la méditation et la prière. Elle est attribuée à Aniko, un jeune artiste népalais venu travailler au Tibet, qui devint ensuite un artiste célèbre à la cour de Chine.",
+        "compare": "Comme le bodhisattva coréen de la compassion, une figure qui vient au secours des êtres ; ici la compassion prend un visage féminin."
+      },
+      {
+        "title": "Le Sutra du Diamant, frontispice",
+        "artist": "Imprimé pour Wang Jie",
+        "country": "Chine",
+        "period": "868",
+        "museum": "British Library, Londres",
+        "image": "images/expositions/spirit-sutra-diamant.jpg",
+        "credit": "British Library, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Jingangjing.jpg), domaine public",
+        "analysis": "C'est le plus ancien livre imprimé daté qui nous soit parvenu : un rouleau de plus de cinq mètres, imprimé avec des planches de bois gravées, en 868. Il contient un texte bouddhique célèbre, où le Bouddha enseigne à son disciple que toutes choses sont impermanentes. Le frontispice le montre en train de prêcher, entouré de moines, de rois et d'êtres célestes. Une note à la fin dit qu'un certain Wang Jie le fit faire « pour sa distribution gratuite à tous », en l'honneur de ses parents. Il fut retrouvé en 1900 dans une grotte murée près de Dunhuang, sur la route de la soie.",
+        "compare": "Sept siècles avant Gutenberg, l'imprimerie sert ici à répandre une parole sacrée ; les moines d'Irlande, eux, copiaient encore les Évangiles à la main."
+      },
+      {
+        "title": "Avalokiteshvara de la lune sur l'eau",
+        "artist": "Peintre de l'époque Goryeo",
+        "country": "Corée",
+        "period": "première moitié du XIVe siècle",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/expositions/spirit-avalokiteshvara.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/36029), domaine public (Open Access)",
+        "analysis": "Avalokiteshvara, le bodhisattva de la compassion, est assis sur un rocher au bord de l'eau, dans un voile transparent semé d'or. Selon un texte bouddhique, le jeune pèlerin Sudhana vint le trouver dans sa demeure au bord de la mer pour recevoir son enseignement. Sous la dynastie Goryeo, la Corée était profondément bouddhiste, et ses peintres réalisaient des images d'une finesse extraordinaire, dont il ne reste aujourd'hui que peu d'exemples.",
+        "compare": "Comme la Tara verte du Tibet, une figure de la compassion ; mais là où Tara se penche vers nous, prête à agir, Avalokiteshvara contemple, dans le calme de la lune reflétée sur l'eau."
+      },
+      {
+        "title": "Mandala des cerfs de Kasuga",
+        "artist": "Peintre japonais",
+        "country": "Japon",
+        "period": "fin du XIVe siècle",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/expositions/spirit-kasuga.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/53187), domaine public (Open Access)",
+        "analysis": "Au sanctuaire shintô de Kasuga, à Nara, la légende raconte qu'une divinité arriva en chevauchant un cerf blanc ; les cerfs y sont encore aujourd'hui des messagers sacrés. Sur ce rouleau, un cerf porte sur sa selle un arbre sacré, le sakaki, d'où s'élève un disque doré où apparaissent des bouddhas. Au Japon, on considérait que les divinités shintô (kami) étaient aussi des manifestations des bouddhas : shintô et bouddhisme se mêlent dans une même image.",
+        "compare": "Comme la peinture du Sri Lanka, deux traditions qui cohabitent : ici les kami du Japon et les bouddhas venus de l'Inde par la Chine et la Corée."
+      },
+      {
+        "title": "Laozi, le sage du taoïsme",
+        "artist": "Chen Yanqing",
+        "country": "Chine",
+        "period": "1438",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/expositions/spirit-laozi.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/39488), domaine public (Open Access)",
+        "analysis": "Selon la tradition chinoise, Laozi est le sage qui écrivit le Daodejing, le « livre de la Voie et de sa vertu » : il enseigne à vivre en harmonie avec la Voie (le Dao), avec simplicité, sans forcer le cours des choses. Avec le temps, il devint une divinité du taoïsme. Cette statuette de bronze doré, signée et datée, le montre assis, longue barbe et visage serein. Elle était destinée à un autel, où l'on brûlait de l'encens.",
+        "compare": "Comme le Shiva dansant, une statue de culte en métal ; mais le taoïsme célèbre le non-agir et la tranquillité, quand Shiva incarne le mouvement perpétuel du monde."
+      },
+      {
+        "title": "Une page de la Haggadah de Sarajevo",
+        "artist": "Enlumineurs juifs de Catalogne",
+        "country": "Espagne (Catalogne)",
+        "period": "vers 1350",
+        "museum": "Musée national de Bosnie-Herzégovine, Sarajevo",
+        "image": "images/expositions/spirit-haggada-sarajevo.jpg",
+        "credit": "Musée national de Bosnie-Herzégovine, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Sarajevska_hagada.jpg), domaine public",
+        "analysis": "La Haggadah est le livre que les familles juives lisent ensemble lors du repas de la Pâque (Pessah), qui rappelle la sortie d'Égypte. Celle-ci fut enluminée en Catalogne vers 1350, puis suivit sans doute les Juifs chassés d'Espagne en 1492. Son histoire est celle d'un livre sauvé par des hommes de toutes croyances : en 1942, le bibliothécaire musulman Derviš Korkut la cacha aux nazis ; pendant le siège de Sarajevo, dans les années 1990, elle fut protégée dans le coffre d'une banque. Elle est conservée aujourd'hui au Musée national de Sarajevo.",
+        "compare": "Comme les manuscrits jaïns, un livre que l'on lit en famille et en communauté ; et, comme les icônes cachées du Sinaï, une œuvre qui a traversé les persécutions grâce à ceux qui l'ont protégée."
+      },
+      {
+        "title": "Le Christ Pantocrator",
+        "artist": "Peintre byzantin",
+        "country": "Égypte (Sinaï)",
+        "period": "VIe siècle",
+        "museum": "Monastère Sainte-Catherine du Sinaï",
+        "image": "images/expositions/spirit-pantocrator-sinai.jpg",
+        "credit": "Monastère Sainte-Catherine du Sinaï, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Christ_Icon_Sinai_6th_century.jpg), domaine public",
+        "analysis": "C'est l'une des plus anciennes icônes chrétiennes connues. Elle est peinte à la cire chaude, une technique héritée de l'Antiquité, et conservée depuis quinze siècles au monastère Sainte-Catherine, au pied du mont Sinaï. Au VIIIe siècle, l'Empire byzantin détruisit beaucoup d'images saintes ; ce monastère isolé du désert a sauvé les siennes. Le Christ tient l'Évangile et bénit. Regardez son visage : les deux moitiés ne sont pas identiques, comme si l'une jugeait et l'autre pardonnait.",
+        "compare": "Comme la Trinité de Roublev, une icône : pour les chrétiens orthodoxes, ce n'est pas un simple portrait, mais une fenêtre ouverte vers le sacré, devant laquelle on prie."
+      },
+      {
+        "title": "La page du Chi-Rho, Livre de Kells",
+        "artist": "Moines irlandais",
+        "country": "Irlande",
+        "period": "vers 800",
+        "museum": "Bibliothèque du Trinity College, Dublin",
+        "image": "images/expositions/spirit-kells.jpg",
+        "credit": "Bibliothèque du Trinity College, Dublin, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:KellsFol034rChiRhoMonogram.jpg), domaine public",
+        "analysis": "Copié et enluminé par des moines irlandais vers 800, le Livre de Kells contient les quatre Évangiles. Cette page célèbre est presque entièrement occupée par deux lettres grecques, X et P (chi et rho), initiales du nom du Christ, couvertes de spirales, d'entrelacs et de motifs hérités de l'art celte. En les regardant de près, on découvre des anges, une loutre tenant un poisson, des chats et des souris. Écrire et orner le texte sacré était, pour ces moines, une forme de prière.",
+        "compare": "Comme le Coran bleu, les lettres sacrées deviennent une œuvre d'art ; mais là où la calligraphie arabe reste sobre, l'enlumineur irlandais fait proliférer les ornements jusqu'au vertige."
+      },
+      {
+        "title": "Page de titre de l'Évangile de Jean",
+        "artist": "Sargis",
+        "country": "Arménie",
+        "period": "vers 1300–1310",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/expositions/spirit-evangile-armenien.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/449536), domaine public (Open Access)",
+        "analysis": "L'Arménie fut, au début du IVe siècle, le premier royaume à faire du christianisme sa religion officielle ; elle a sa propre écriture, inventée vers 405 par le moine Mesrop Machtots pour traduire la Bible, son Église et une grande tradition de l'enluminure. Sur cette page qui ouvre l'Évangile de Jean, le peintre Sargis place le Christ au sommet d'un portique doré orné d'oiseaux ; en dessous, les premières lettres sont formées d'animaux, comme l'aigle, symbole de saint Jean. Les lettres arméniennes deviennent elles-mêmes des créatures vivantes.",
+        "compare": "Comme l'Évangile éthiopien, le livre d'une Église chrétienne très ancienne, née en dehors de Rome et de Byzance, avec sa propre langue et son propre style ; et, comme à Kells, les lettres s'animent."
+      },
+      {
+        "title": "Un livre des Évangiles",
+        "artist": "Artiste des hauts plateaux éthiopiens",
+        "country": "Éthiopie",
+        "period": "fin du XIVe – début du XVe siècle",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/expositions/spirit-evangiles-ethiopie.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/317618), domaine public (Open Access)",
+        "analysis": "Le christianisme est en Éthiopie depuis le IVe siècle, quand le roi Ezana d'Aksoum l'adopta. L'Église éthiopienne a gardé sa langue liturgique, le guèze, et une manière de peindre bien à elle : grands yeux, couleurs franches, figures disposées en rangées. Dans ce manuscrit sur parchemin, encore relié entre ses planches de bois, une peinture montre le Christ dans un cercle au-dessus des apôtres, sans doute l'Ascension. On lisait ces livres pendant la liturgie, et on les gardait précieusement dans les églises.",
+        "compare": "Comme l'Évangile arménien de Sargis, le témoignage d'un christianisme africain ou oriental très ancien, qui n'a pas attendu l'Europe."
+      },
+      {
+        "title": "La Trinité",
+        "artist": "Andreï Roublev",
+        "country": "Russie",
+        "period": "début du XVe siècle",
+        "museum": "Galerie Tretiakov, Moscou",
+        "image": "images/expositions/spirit-trinite-roublev.jpg",
+        "credit": "Galerie Tretiakov, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Angelsatmamre-trinity-rublev-1410.jpg), domaine public",
+        "analysis": "La Bible raconte que trois visiteurs mystérieux apparurent à Abraham, qui les accueillit à sa table. Le moine Andreï Roublev en a tiré l'icône la plus célèbre de Russie : trois anges assis autour d'une table où se trouve une coupe, inscrits dans un cercle invisible. Les chrétiens y voient l'image de la Trinité, un seul Dieu en trois personnes. Tout est douceur : les têtes inclinées, les couleurs claires, le bleu lumineux. L'hospitalité devient une image de l'amour divin.",
+        "compare": "Comme le Christ du Sinaï, une icône à prier ; mais huit siècles plus tard, la sévérité byzantine a laissé place à une tendresse toute russe."
+      },
+      {
+        "title": "Page du Codex Borgia",
+        "artist": "Peintres mixtèques ou nahuas",
+        "country": "Mexique",
+        "period": "avant 1500",
+        "museum": "Bibliothèque apostolique vaticane",
+        "image": "images/expositions/spirit-codex-borgia.jpg",
+        "credit": "Bibliothèque apostolique vaticane, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Codex_Borgia_page_25.jpg), domaine public",
+        "analysis": "Ce livre en peau de cerf, plié en accordéon, est l'un des rares manuscrits religieux du Mexique ancien qui aient échappé aux destructions de la conquête espagnole. Il servait aux prêtres à lire le calendrier sacré de 260 jours (le tonalpohualli) : chaque jour avait son signe, ses dieux et son destin, pour choisir le bon moment d'une naissance, d'un voyage ou d'un rituel. Sur cette page, des divinités aux coiffes somptueuses entourent des cases où figurent les signes des jours. Les couleurs vives sont tirées de plantes, de minéraux et d'insectes.",
+        "compare": "Comme le plateau d'Ifá des Yoruba, un outil pour connaître le destin et choisir la bonne conduite ; deux sagesses divinatoires, de part et d'autre de l'Atlantique."
+      },
+      {
+        "title": "Notre-Dame de Cocharcas",
+        "artist": "Peintre de Cuzco",
+        "country": "Pérou",
+        "period": "1759",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/expositions/spirit-cocharcas.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/764094), domaine public (Open Access)",
+        "analysis": "Dans les Andes, le sanctuaire de Cocharcas abritait une statue de la Vierge vers laquelle convergeaient de longs pèlerinages. Ce tableau la montre parée comme une reine, sous un dais, au-dessus du village, des processions et des pèlerins venus de loin. Les peintres de Cuzco, souvent d'origine autochtone ou métisse, ont créé un style à part, rehaussé de motifs d'or. La foi catholique venue d'Espagne s'y mêle à un attachement andin très ancien pour les lieux sacrés, les montagnes et les pèlerinages.",
+        "compare": "Comme le temple d'Or d'Amritsar, un lieu de pèlerinage où se pressent les fidèles ; ici la peinture elle-même servait de souvenir et d'objet de dévotion."
+      },
+      {
+        "title": "Feuillet du Coran bleu",
+        "artist": "Calligraphe d'Afrique du Nord",
+        "country": "Tunisie",
+        "period": "fin du IXe – milieu du Xe siècle",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/expositions/spirit-coran-bleu.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/454662), domaine public (Open Access)",
+        "analysis": "Dans l'islam, la parole divine révélée au Prophète est au cœur de tout ; l'art sacré a souvent choisi de ne pas représenter de figures et de magnifier l'écriture. Ce feuillet appartient à l'un des Corans les plus célèbres, sans doute copié à Kairouan, en Tunisie : des lettres coufiques en or sur un parchemin teint en bleu indigo, une rareté. Les petites rosettes d'argent, aujourd'hui noircies, marquaient la fin des versets. La plupart des feuillets conservés sont en Tunisie.",
+        "compare": "Comme la page du Chi-Rho de Kells, l'écriture sacrée devient lumière ; ici, sans aucune image, la beauté naît du seul rythme des lettres d'or."
+      },
+      {
+        "title": "Paire de portes d'un minbar",
+        "artist": "Menuisiers et marqueteurs du Caire",
+        "country": "Égypte",
+        "period": "vers 1325–1330",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/expositions/spirit-portes-minbar.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/444812), domaine public (Open Access)",
+        "analysis": "Dans l'art religieux de l'islam, les mosquées ne montrent ni êtres humains ni animaux : le sacré s'exprime par l'écriture et par la géométrie. Ces portes fermaient l'escalier d'un minbar, la chaire d'où l'imam prononce le sermon du vendredi, dans une mosquée du Caire à l'époque des sultans mamelouks. Un réseau d'étoiles à douze branches s'y déploie, fait de centaines de petites pièces de bois précieux et d'ivoire sculptés, assemblées sans fin. Pour beaucoup, ces motifs qui se répètent à l'infini évoquent l'unité et l'infini de Dieu, que l'on ne peut représenter.",
+        "compare": "Comme le Coran bleu, un art sans figures ; là-bas la beauté naît des lettres, ici des nombres et des formes géométriques qui se répondent."
+      },
+      {
+        "title": "Panneau de céramique à inscription",
+        "artist": "Céramistes de Syrie",
+        "country": "Syrie",
+        "period": "1591–1592 (1000 de l'Hégire)",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/expositions/spirit-carreaux-syrie.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/451474), domaine public (Open Access)",
+        "analysis": "Dans les mosquées et les tombeaux du monde arabe, les murs eux-mêmes portent l'écriture. Ce long panneau de carreaux de céramique, fait en Syrie, probablement à Damas, en l'an 1000 du calendrier musulman, déroule une inscription arabe en grandes lettres blanches sur un fond bleu profond, parmi des tiges et des fleurs. Placée en hauteur, une telle frise courait le long des salles : on lit le bâtiment autant qu'on le regarde. Calligraphie et architecture ne font qu'un.",
+        "compare": "Comme le Hizb ottoman et le Coran bleu, l'écriture arabe est l'ornement principal ; mais ici elle passe du livre au mur, à l'échelle d'un bâtiment."
+      },
+      {
+        "title": "Derviches dansant, page d'un Divan de Hafez",
+        "artist": "Peintre de Hérat",
+        "country": "Afghanistan",
+        "period": "vers 1480",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/expositions/spirit-derviches.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/446892), domaine public (Open Access)",
+        "analysis": "Le soufisme est la voie mystique de l'islam : il cherche l'union avec Dieu par l'amour, la poésie, la musique et parfois la danse. Les mosquées et les Corans ne montrent jamais de figures ; mais les livres de poésie, faits pour les princes et les lettrés du monde persan, étaient souvent illustrés. Cette page accompagne les poèmes de Hafez, grand poète persan. Dans un jardin, des derviches tournent et lèvent les bras, emportés par l'extase, tandis que des musiciens jouent et que d'autres, épuisés ou bouleversés, sont tombés à terre. La peinture a été faite à Hérat, aujourd'hui en Afghanistan, l'un des grands centres de l'art persan.",
+        "compare": "Comme le Shiva qui danse, une spiritualité où le corps en mouvement mène au sacré ; mais ici ce sont les fidèles eux-mêmes qui dansent."
+      },
+      {
+        "title": "Le Hizb (litanie) d'an-Nawawi",
+        "artist": "Calligraphe et enlumineur ottomans",
+        "country": "Turquie",
+        "period": "1739",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/expositions/spirit-hizb.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/452743), domaine public (Open Access)",
+        "analysis": "Ce petit livre ottoman contient une litanie, une prière à réciter, composée au XIIIe siècle par le savant syrien an-Nawawi. Copié à Istanbul ou dans l'empire en 1739, il est orné de dorures, de fleurs et de cadres délicats autour d'une écriture élégante. Ce genre de livre, de petit format, accompagnait la prière personnelle : on le gardait près de soi.",
+        "compare": "Comme le Coran bleu, un livre où l'écriture est l'ornement principal ; huit siècles plus tard, l'art du livre ottoman y ajoute la douceur des fleurs."
+      },
+      {
+        "title": "Le bassin sacré et le temple d'Or d'Amritsar",
+        "artist": "Photographe anonyme",
+        "country": "Inde (Pendjab)",
+        "period": "1858–1861",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/expositions/spirit-temple-or.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/287671), domaine public (Open Access)",
+        "analysis": "Le sikhisme, fondé au Pendjab par Guru Nanak (1469–1539), enseigne qu'il n'y a qu'un seul Dieu, l'égalité de tous les êtres humains et le service des autres. Son lieu le plus saint, le Harmandir Sahib ou temple d'Or, se dresse au milieu d'un bassin sacré à Amritsar ; il est ouvert de tous côtés en signe d'accueil, et sa cuisine, le langar, nourrit chaque jour gratuitement des milliers de personnes, quelles que soient leur religion ou leur origine. Cette photographie ancienne montre la ville autour du bassin.",
+        "compare": "Comme le sanctuaire andin de Cocharcas, un lieu de pèlerinage ; mais le sikhisme insiste sur l'égalité : chacun s'y assoit par terre pour partager le même repas."
+      },
+      {
+        "title": "Plateau de divination (ọpọ́n Ifá)",
+        "artist": "Sculpteur yoruba",
+        "country": "Nigeria",
+        "period": "XXe siècle",
+        "museum": "Cleveland Museum of Art",
+        "image": "images/expositions/spirit-plateau-ifa.jpg",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1993.235), domaine public (CC0)",
+        "analysis": "Chez les Yoruba du Nigeria, Ifá est un système de divination et de sagesse, inscrit par l'UNESCO au patrimoine de l'humanité. Le devin, ou babalawo, répand une fine poudre sur ce plateau, jette des noix de palme sacrées et trace des signes dans la poudre ; chaque signe renvoie à des centaines de vers appris par cœur, qui disent quoi faire. Sur le bord, les visages d'Eshu, le messager qui porte les offrandes aux divinités (orisha) et veille sur la divination, regardent dans toutes les directions.",
+        "compare": "Comme le Codex Borgia, un outil pour lire le destin ; et, comme le Livre des morts égyptien, un savoir sacré qui guide les choix de la vie."
+      },
+      {
+        "title": "Plat rituel en forme humaine (daveniyaqona)",
+        "artist": "Sculpteur fidjien",
+        "country": "Fidji",
+        "period": "début du XIXe siècle",
+        "museum": "The Metropolitan Museum of Art, New York",
+        "image": "images/expositions/spirit-fidji-daveniyaqona.jpg",
+        "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/769257), domaine public (Open Access)",
+        "analysis": "Aux Fidji, le yaqona (la boisson tirée de la racine de kava) se partage lors de cérémonies qui scellent les liens entre les personnes, les chefs et les ancêtres. Ce plat sculpté en forme de personnage, dans un bois dur et lustré, était réservé aux prêtres : dans les temples, ils y buvaient le yaqona en communiquant avec les divinités. La forme humaine fait du plat lui-même une présence. Les Fidjiens sont aujourd'hui en grande majorité chrétiens, mais la cérémonie du yaqona reste au cœur de la vie sociale.",
+        "compare": "Comme le Shiva de bronze, un objet de culte qui servait dans les rituels plutôt qu'à être contemplé ; ici, on y buvait pour entrer en relation avec les dieux."
+      }
+    ]
   }
 ]

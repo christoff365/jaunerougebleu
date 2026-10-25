@@ -22,6 +22,21 @@ const MOTS_TYPES = {
   'Dessins et estampes': 'print', 'Arts décoratifs': 'ceramic', 'Photographie': 'photograph',
   'Manuscrits et livres enluminés': 'illuminated manuscript', 'Icônes': 'icon'
 };
+// Icônes et manuscrits : les musées et bibliothèques d'Europeana les décrivent dans leur langue (« icoană », « εικόνα »,
+// « getijdenboek »…), le seul mot anglais en trouvait très peu. Les photographies (d'églises, de cartes postales) sont écartées.
+const RECHERCHE_TYPES_EUROPEANA = {
+  'Icônes': '(icon OR icône OR Ikone OR ikoon OR ikoni OR ikona OR ikon OR icoană OR icoana OR εικόνα OR икона OR icona)',
+  'Manuscrits et livres enluminés': '("illuminated manuscript" OR "manuscrit enluminé" OR enluminure OR Buchmalerei OR "book of hours" OR getijdenboek OR Stundenbuch OR "livre d\'heures" OR psalter OR psautier OR antiphonary OR antiphonaire OR graduale OR missale OR évangéliaire OR evangeliarium OR breviarium OR "Qur\'an" OR Koran OR Coran)'
+};
+const SANS_PHOTOS_EUROPEANA = ' AND NOT (photograph OR fotografie OR fotografia OR foto OR postcard OR "carte postale")';
+// Licence d'une fiche Europeana, pour le crédit (domaine public, CC0, CC BY, CC BY-SA)
+function licenceEuropeana(url) {
+  const u = String(url || '');
+  if (/publicdomain\/mark/.test(u)) return 'domaine public';
+  if (/publicdomain\/zero/.test(u)) return 'domaine public (CC0)';
+  const m = u.match(/licenses\/(by(?:-sa)?)\/([\d.]+)/);
+  return m ? 'licence CC ' + m[1].toUpperCase() + ' ' + m[2] : 'domaine public';
+}
 // Reconnaissance de la région à partir du lieu ou de la culture indiqués par le musée
 const MOTS_REGIONS = {
   'Europe': /\b(europe|european|france|french|italy|italian|ital|rome|roman|greece|greek|germany|german|netherland|dutch|flanders|flemish|belgi|england|english|britain|british|scotland|ireland|spain|spanish|portugal|austria|switzerland|denmark|danish|sweden|norway|finland|poland|russia|bohemia|hungary|byzantin|venice|paris|london|etruscan|celtic|europ)/i,
@@ -37,8 +52,8 @@ const MOTS_TYPES_RECONNUS = [
   // Manuscrits et icônes d'abord : sinon ils seraient rangés dans « Dessins et estampes » ou « Peinture ».
   // Manuscrits : seulement les livres copiés et enluminés à la main (évangiles, psautiers, livres d'heures, Corans…),
   // pas les lettres ni les documents écrits à la main (voir PAS_UN_MANUSCRIT)
-  ['Manuscrits et livres enluminés', /illuminat|enlumin|book of hours|livre d.heures|psalter|psautier|gospel|[ée]vang[ée]li(?!st)|bible|antiphon|gradual|graduel|missal|missel|breviar|bréviaire|lectionar|qur.?an|koran|coran|shahnam|codex|(leaf|folio|page) from (a|an|the)\b|manuscript (leaf|page|cutting|illumination)|miniature from/i],
-  ['Icônes', /\bicons?\b|icône|iconostas|ikon/i],
+  ['Manuscrits et livres enluminés', /illuminat|enlumin|book of hours|livre d.heures|getijdenboek|stundenbuch|buchmalerei|psalter|psautier|gospel|[ée]vang[ée]li(?!st)|bible|antiphon|gradual|graduel|missal|missel|breviar|bréviaire|lectionar|qur.?an|koran|coran|shahnam|codex|(leaf|folio|page) from (a|an|the)\b|manuscript (leaf|page|cutting|illumination)|miniature from/i],
+  ['Icônes', /\bicons?\b|icône|iconostas|ikon|ikoon|icoan|icoane|εικόν|икон|ícone|\bicona\b/i],
   ['Architecture', /architect|building|column|capital|portal|doorway|facade|façade|period room|room from|ceiling|mihrab|temple|cathedral|church|chapel|basilica|abbey|monastery|cloister|castle|palace|relief from|fragment of a (wall|building)/i],
   ['Sculpture', /sculpt|statue|statuette|figure|figurine|bust|relief|carving|head of|torso|bronze|mask|stele/i],
   ['Photographie', /photograph|daguerreotype|albumen|gelatin silver/i],
@@ -1115,7 +1130,13 @@ const ADAPTATEURS = {
       // Toutes les institutions d'Europeana sont européennes : pour l'Europe, pas de mot de région (« French », « Dutch »…),
       // que les fiches, rédigées dans la langue de chaque musée, contiennent rarement. Hors d'Europe, le mot reste
       // (« Japanese »…) et l'œuvre est rangée dans la région demandée, car le pays indiqué est celui du musée.
-      const q = motsCles(Object.assign({}, c, { region: c.region === 'Europe' ? null : c.region })).join(' ') || 'art';
+      // Icônes et manuscrits : recherche dans les langues des musées et des bibliothèques, hors de la collection « Art »
+      // (les bibliothèques n'y sont pas), et licences libres acceptées (CC BY, CC BY-SA : beaucoup de musées roumains, grecs…
+      // publient ainsi leurs icônes), la licence étant citée dans le crédit
+      const speciaux = c.ty.filter(t => RECHERCHE_TYPES_EUROPEANA[t]);
+      const autres = Object.assign({}, c, { region: c.region === 'Europe' ? null : c.region, ty: c.ty.filter(t => !RECHERCHE_TYPES_EUROPEANA[t]) });
+      const q = speciaux.length ? [].concat(motsCles(autres), ['(' + speciaux.map(t => RECHERCHE_TYPES_EUROPEANA[t]).join(' OR ') + ')' + SANS_PHOTOS_EUROPEANA]).join(' ')
+        : motsCles(autres).join(' ') || 'art';
       // Collection thématique « Art » d'Europeana (sinon on reçoit surtout des objets d'ethnographie ou d'archives),
       // œuvres datées seulement, dans les bornes des époques choisies
       const d = bornesEpoques(c.ep);
@@ -1124,8 +1145,8 @@ const ADAPTATEURS = {
       // sinon Europeana renvoie surtout ses gravures et ses dessins
       const peintures = c.mvArtiste && MOUVEMENTS_DE_PEINTURE.has(c.mvArtiste);
       const quoi = peintures ? '&qf=' + encodeURIComponent('what:(painting OR paintings OR peinture OR Gemälde OR schilderij OR maalaus OR målning OR maleri OR pintura OR dipinto)') : '';
-      const url = debut => RELAIS + '/europeana?query=' + encodeURIComponent(q) + '&theme=art&qf=' + annees + quoi +
-        '&reusability=open&qf=TYPE:IMAGE&qf=RIGHTS:*publicdomain*&media=true&thumbnail=true&rows=' + (n * 3) + '&start=' + (1 + debut) + '&profile=rich';
+      const url = debut => RELAIS + '/europeana?query=' + encodeURIComponent(q) + (speciaux.length ? '' : '&theme=art') + '&qf=' + annees + quoi +
+        '&reusability=open&qf=TYPE:IMAGE' + (speciaux.length ? '' : '&qf=RIGHTS:*publicdomain*') + '&media=true&thumbnail=true&rows=' + (n * 3) + '&start=' + (1 + debut) + '&profile=rich';
       // Champs en anglais d'Europeana (type, concepts, description : « painting », « oil on canvas », « drawing »…)
       const enAnglais = o => [o.dcTypeLangAware, o.edmConceptPrefLabelLangAware, o.dcDescriptionLangAware].map(x => (x && x.en) || []).flat().join(' ');
       // Année : champ « year », sinon la période indiquée (« 1840/1850 »)
@@ -1143,10 +1164,42 @@ const ADAPTATEURS = {
           date: (o.year || [''])[0] || ((o.edmTimespanLabel || [])[0] || {}).def || '', annee: anneeEu(o),
           lieu: (o.country || [''])[0], regions: c.region ? [c.region] : undefined, musee: ((o.dataProvider || ['Europeana'])[0]) + ' (via Europeana)',
           image: (o.edmPreview || o.edmIsShownBy)[0], fiche: o.guid,
+          credit: ((o.dataProvider || ['Europeana'])[0]) + ' (' + o.guid + '), ' + licenceEuropeana((o.rights || [''])[0]) + ', via Europeana',
           // Type d'œuvre d'après la fiche ; sans indication, une œuvre trouvée par la recherche de peintures en est une
-          classification: [].concat(o.dcType || []).join(' ') + ' ' + enAnglais(o) + ' ' + q,
-          type: peintures && typeDe([].concat(o.dcType || []).join(' ') + ' ' + enAnglais(o)) === 'Autre' ? 'Peinture' : undefined
+          classification: [].concat(o.dcType || []).join(' ') + ' ' + enAnglais(o) + ' ' + (speciaux.length ? '' : q),
+          // Recherche d'icônes ou de manuscrits : type reconnu d'après la fiche et le titre, sinon le type demandé
+          type: speciaux.length ? (speciaux.find(t => typeDe([].concat(o.dcType || []).join(' ') + ' ' + enAnglais(o), (o.title || [''])[0]) === t) || speciaux[0])
+            : peintures && typeDe([].concat(o.dcType || []).join(' ') + ' ' + enAnglais(o)) === 'Autre' ? 'Peinture' : undefined
         })));
+    }
+  },
+
+  // Manuscrits enluminés de la World Digital Library (Library of Congress) : livres d'heures, psautiers, évangiles arméniens,
+  // manuscrits persans, ottomans… La Library of Congress n'y connaît aucune restriction de droits : libres de réutilisation.
+  loc: {
+    nom: 'Library of Congress, Washington (World Digital Library)',
+    // Seulement si le visiteur demande des manuscrits (la collection contient aussi des cartes, des livres imprimés, des photos)
+    actif: () => true,
+    chercher(c, n) {
+      if (!c.ty.includes('Manuscrits et livres enluminés') || c.artiste || c.mouvement) return Promise.resolve([]);
+      const mots = ['illuminated manuscripts'].concat(c.region ? [c.motRegion || auHasard(MOTS_RECHERCHE_REGIONS[c.region] || [''])] : []);
+      const url = page => 'https://www.loc.gov/collections/world-digital-library/?fo=json&at=results,pagination&c=' + (n * 3) +
+        '&q=' + encodeURIComponent(mots.filter(Boolean).join(' ')) + '&sp=' + page;
+      // Page tirée au hasard parmi celles qui existent, pour varier les manuscrits
+      return lireJSON(url(1), 12000).then(r => {
+        const pages = (r.pagination && r.pagination.total) || 1;
+        return pages > 1 ? lireJSON(url(1 + hasard(pages)), 12000) : r;
+      }).then(r => melange((r.results || []).filter(x => (x.image_url || []).length && !/\bmap\b|photo/i.test((x.original_format || []).join(' '))))
+        .slice(0, n).map(x => {
+          const img = (x.image_url || []).find(u => /pct:25/.test(u)) || x.image_url[x.image_url.length - 1];
+          return oeuvre({
+            titre: String(x.title || '').replace(/[.\s]+$/, ''), artiste: [].concat(x.contributor || [])[0] || '',
+            date: String(x.date || '').slice(0, 4).replace(/\?/g, '…'), annee: anneeDe(String(x.date || '').slice(0, 4).replace(/\?/g, '0')),
+            lieu: [].concat(x.location || []).filter(Boolean).map(majuscule).join(', '), musee: this.nom, image: img.split('#')[0], fiche: x.url,
+            credit: 'Library of Congress, World Digital Library (' + x.url + '), libre de droits connus',
+            type: 'Manuscrits et livres enluminés', langue: 'en'
+          });
+        }));
     }
   },
 

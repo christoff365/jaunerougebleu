@@ -872,10 +872,10 @@
   },
   {
     "title": "Masques du monde",
-    "subtitle": "Du Pérou au Japon, de l'Alaska au Gabon : vingt-huit masques de vingt-six pays et des cinq continents",
+    "subtitle": "Du Pérou au Japon, de l'Alaska au Gabon : trente-quatre masques de vingt-neuf pays et des cinq continents",
     "status": "published",
     "theme": "Corps & identité",
-    "intro": "Un masque cache un visage pour en faire apparaître un autre : celui d'un ancêtre, d'un esprit, d'un dieu, d'un défunt, d'un animal ou d'un personnage de théâtre. De l'Égypte des pharaons au théâtre nô, des Andes aux îles du détroit de Torres, ces vingt-huit masques montrent comment chaque culture a donné un visage à l'invisible. Beaucoup n'étaient pas faits pour être regardés immobiles dans une vitrine, mais portés, dansés et chantés, avec un costume, de la musique et des gestes : imaginez-les en mouvement, à la lumière du feu. Certains masques sacrés, que leurs communautés demandent de ne pas montrer, comme les visages de guérison haudenosaunee ou certains masques hopis et zuñis, ne figurent volontairement pas ici. Plusieurs de ces objets ont quitté leur pays dans des conditions violentes ou contestées : leur histoire est rappelée quand elle est connue.",
+    "intro": "Un masque cache un visage pour en faire apparaître un autre : celui d'un ancêtre, d'un esprit, d'un dieu, d'un défunt, d'un animal ou d'un personnage de théâtre. De l'Égypte des pharaons au théâtre nô, des Andes aux îles du détroit de Torres, ces trente-quatre masques montrent comment chaque culture a donné un visage à l'invisible. Beaucoup n'étaient pas faits pour être regardés immobiles dans une vitrine, mais portés, dansés et chantés, avec un costume, de la musique et des gestes : imaginez-les en mouvement, à la lumière du feu. Certains masques sacrés, que leurs communautés demandent de ne pas montrer, comme les visages de guérison haudenosaunee ou certains masques hopis et zuñis, ne figurent volontairement pas ici. Plusieurs de ces objets ont quitté leur pays dans des conditions violentes ou contestées : leur histoire est rappelée quand elle est connue.",
     "minimum": 20,
     "search": {
       "keywords": "mask",
@@ -927,6 +927,17 @@
         "compare": "Comme le masque coréen de vieillard, le masque permet d'échapper aux règles de la société : sous la bauta, on ne savait plus qui était noble et qui ne l'était pas. C'est le seul tableau de l'exposition : il montre les masques portés, dans la vie de tous les jours."
       },
       {
+        "title": "Masque olmèque en pierre verte",
+        "artist": "Artiste olmèque",
+        "country": "Mexique",
+        "period": "préclassique récent",
+        "museum": "Museo Nacional de Antropología, Mexico",
+        "image": "images/expositions/masque-mexique-olmeque.jpg",
+        "credit": "Museo Nacional de Antropología, Mexico ; photo : Gary Todd, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Olmec_Green_Stone_Mask_with_Traces_of_Cinnabar.jpg), domaine public (CC0)",
+        "analysis": "Ce petit masque de pierre verte, haut d'une dizaine de centimètres seulement, vient de l'État de Guerrero ; il est exposé dans la salle olmèque du musée national d'anthropologie de Mexico. Le visage, de style olmèque, a des yeux en fente sous des paupières lourdes, un nez large et une bouche entrouverte aux coins tombants, la lèvre supérieure en avant. Dans les creux des yeux et de la bouche subsistent des traces rouges de cinabre. La pierre, polie avec soin, est mouchetée de vert clair et sombre.",
+        "compare": "Comparez avec les deux autres masques du Mexique : celui de Teotihuacan est calme et régulier, celui de Malinaltepec couvert de couleurs ; ici, plusieurs siècles plus tôt, c'est l'expression de la bouche qui donne toute sa force au visage."
+      },
+      {
         "title": "Masque",
         "artist": "Sculpteur de Teotihuacan",
         "country": "Mexique",
@@ -936,6 +947,39 @@
         "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/310647), domaine public (Open Access)",
         "analysis": "Teotihuacan, au nord de l'actuelle Mexico, fut l'une des plus grandes villes du monde vers l'an 500, avec peut-être 100 000 habitants. Ses sculpteurs ont taillé dans la pierre de nombreux masques au visage calme, très semblables : front droit, yeux en amande, bouche entrouverte. Trop lourds pour être portés, ils étaient sans doute fixés sur des statues ou des paquets funéraires, et leurs yeux étaient souvent incrustés de coquillage ou de pierre. Leur sérénité anonyme semble représenter moins une personne que l'idéal de toute une cité.",
         "compare": "Comme le masque de momie égyptien, un visage idéal plutôt qu'un portrait."
+      },
+      {
+        "title": "Masque de Malinaltepec",
+        "artist": "Artiste de Teotihuacan ou de l'ouest du Mexique",
+        "country": "Mexique",
+        "period": "300–550 apr. J.-C.",
+        "museum": "Museo Nacional de Antropología, Mexico",
+        "image": "images/expositions/masque-mexique-malinaltepec.jpg",
+        "credit": "Museo Nacional de Antropología, Mexico ; photo : Juan Carlos Fonseca Mata, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:M%C3%A1scara_de_Malinaltepec_-_MNA.jpg), licence CC BY-SA 4.0",
+        "analysis": "Ce masque a été découvert en 1921 par l'archéologue Porfirio Aguirre à Malinaltepec, dans l'État de Guerrero, loin de Teotihuacan, dont il reprend pourtant le style. Sur un visage de pierre, des centaines de petites tesselles de turquoise et d'amazonite, d'un bleu-vert lumineux, forment une peau de mosaïque. Des bandes de coquillage orange dessinent les sourcils et, sur les joues, des motifs en escalier. Les yeux sont incrustés de coquillage blanc et d'obsidienne noire, et un collier de 55 perles rouges, terminé par un pendentif, pend sous le menton. Il est conservé au musée national d'anthropologie de Mexico.",
+        "compare": "Comparez avec le masque de Teotihuacan du Met : la même forme de visage, front droit, yeux en amande, bouche entrouverte ; mais ici la pierre nue disparaît sous la couleur."
+      },
+      {
+        "title": "Masque en mosaïque de pierre verte",
+        "artist": "Artiste maya",
+        "country": "Guatemala",
+        "period": "époque préhispanique",
+        "museum": "Museo Nacional de Arqueología y Etnología, Guatemala",
+        "image": "images/expositions/masque-guatemala-maya.jpg",
+        "credit": "Museo Nacional de Arqueología y Etnología, Guatemala ; photo : Willyman, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Nationalmuseum_f%C3%BCr_Arch%C3%A4ologie_und_Ethnologie,_Guatemala-24.jpg), licence CC BY-SA 4.0",
+        "analysis": "Ce visage maya est fait de dizaines de petites plaques de pierre verte, ajustées les unes aux autres comme un puzzle. Les yeux sont incrustés de blanc et de noir, les lèvres et le haut des joues rehaussés de rouge, et de grands disques ornent les oreilles. Au-dessus du front, une petite figure et une plaque gravée forment une coiffe. Ce masque est conservé à Guatemala Ciudad, au musée national d'archéologie et d'ethnologie.",
+        "compare": "Le masque de Malinaltepec, au Mexique, est aussi une mosaïque, mais posée sur un visage de pierre ; ici, la mosaïque est le visage lui-même."
+      },
+      {
+        "title": "Masque en or",
+        "artist": "Orfèvre de la région du Diquís",
+        "country": "Costa Rica",
+        "period": "époque préhispanique",
+        "museum": "Museo del Oro Precolombino, San José (Costa Rica)",
+        "image": "images/expositions/masque-costa-rica-diquis.jpg",
+        "credit": "Museo del Oro Precolombino, San José ; photo : Rodtico21, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:M%C3%A1scara_precolombina_de_oro._Costa_Rica.JPG), licence CC BY-SA 3.0",
+        "analysis": "Dans la région du Diquís, au sud du Costa Rica, des orfèvres travaillaient l'or avant l'arrivée des Européens. Ce masque est une simple feuille d'or martelée, où se dessinent les sourcils, les yeux mi-clos, le nez et la bouche entrouverte. De petits trous sur les bords permettaient de le coudre ou de le fixer. Il est conservé dans son pays, au musée de l'or précolombien de San José.",
+        "compare": "Comparez avec les masques d'or de Colombie (Calima) et du Pérou (Sicán) : même technique de la feuille martelée ; mais ce visage aux yeux presque fermés semble plutôt endormi ou recueilli."
       },
       {
         "title": "Masque funéraire",
@@ -957,6 +1001,17 @@
         "image": "images/expositions/masque-colombie.jpg",
         "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/316699), domaine public (Open Access)",
         "analysis": "Dans la vallée de la Calima, au cœur des Andes colombiennes, les orfèvres martelaient l'or en fines feuilles. Ce masque aux yeux et à la bouche ouverts, flanqué de deux grands disques comme des ornements d'oreilles, accompagnait sans doute un défunt dans sa tombe. L'or, qui ne ternit pas, garde au visage un éclat permanent : pour de nombreux peuples des Andes, il était lié au soleil et à une vie qui ne finit pas."
+      },
+      {
+        "title": "Masque en platine et or",
+        "artist": "Orfèvre de la culture La Tolita",
+        "country": "Équateur",
+        "period": "200 av. J.-C. – 800 apr. J.-C.",
+        "museum": "Musée ethnologique de Berlin",
+        "image": "images/expositions/masque-equateur-la-tolita.jpg",
+        "credit": "Musée ethnologique de Berlin (https://smb.museum-digital.de/object/33997) ; photo : FA2010, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Ecuador_Maske_aus_Platin_EthnM.jpg), domaine public",
+        "analysis": "Ce masque minuscule, 7 centimètres de haut, vient de la région du Río Esmeraldas, dans le nord de l'Équateur. Ses orfèvres, ceux de la culture La Tolita, l'ont fait en platine et en or : on voit encore des traces dorées sur le visage argenté. Les yeux ronds en relief, le nez et la bouche ouverte, encadrée comme par des crochets, lui donnent un air saisissant. Il a été collecté par l'ethnologue allemand Adolf Bastian (1826-1905) et se trouve aujourd'hui au musée ethnologique de Berlin.",
+        "compare": "Un visage de métal précieux comme ceux de Colombie, du Costa Rica ou du Pérou, mais d'une couleur argentée, celle du platine, à côté de l'or."
       },
       {
         "title": "Masque",
@@ -1183,6 +1238,17 @@
         "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/61350), domaine public (Open Access)",
         "analysis": "Ce masque n'a jamais été porté : c'est un ornement d'argent doré, sans doute fixé sur un char, un harnais ou un cercueil. Dès l'âge du bronze, les artistes chinois couvrent les objets rituels de visages d'animaux fantastiques, comme le taotie des bronzes Shang et Zhou : deux yeux saillants, des cornes en spirale, une gueule réduite à un motif. Le masque devient un signe protecteur plutôt qu'un visage.",
         "compare": "Comme le masque de buffle bwa, un animal protecteur ; mais ici il ne danse pas, il veille."
+      },
+      {
+        "title": "Masque d'or de Jinsha",
+        "artist": "Orfèvre de Jinsha",
+        "country": "Chine",
+        "period": "époque des Shang et des Zhou (âge du bronze)",
+        "museum": "Musée du site de Jinsha, Chengdu (Chine)",
+        "image": "images/expositions/masque-chine-jinsha.jpg",
+        "credit": "Musée du site de Jinsha, Chengdu ; photo : Gary Todd, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:2014_Jinsha_Gold_Mask_a.jpg), domaine public (CC0)",
+        "analysis": "Ce masque a été trouvé sur le site de Jinsha, à Chengdu, dans le Sichuan, et il y est toujours exposé, dans le musée du site. C'est une fine feuille d'or martelée. Le visage est large et anguleux : de grands yeux en amande évidés, un nez droit en relief, une bouche réduite à une fente et de grandes oreilles percées. Sans aucune couleur ni décor ajouté, l'or seul et ses reflets suffisent à faire de ce visage une apparition.",
+        "compare": "À la même époque, dans le nord de la Chine, les artistes Zhou ornaient leurs objets de masques d'animaux, comme celui du Met : deux styles très différents dans la Chine de l'âge du bronze. Comparez aussi avec les masques d'or des Amériques, faits de la même façon, en feuille martelée."
       }
     ]
   },

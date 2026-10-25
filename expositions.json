@@ -257,7 +257,7 @@
   },
   {
     "title": "La couleur est relative",
-    "subtitle": "D'après L'Interaction des couleurs de Josef Albers : vingt et une leçons du regard, de l'Égypte ancienne au Bauhaus",
+    "subtitle": "D'après L'Interaction des couleurs de Josef Albers : vingt-trois leçons du regard, de l'Égypte ancienne au Bauhaus",
     "status": "published",
     "theme": "Couleur & perception",
     "intro": "« Dans la perception visuelle, une couleur n'est presque jamais vue telle qu'elle est réellement, physiquement. » C'est ainsi que Josef Albers (1888–1976), peintre et professeur au Bauhaus puis aux États-Unis, ouvre son livre L'Interaction des couleurs (1963). Pour lui, une couleur change selon ses voisines, selon sa quantité, selon la lumière : c'est le moyen le plus relatif de l'art. Il l'enseignait non par la théorie mais par l'expérience, avec des papiers colorés. Ses tableaux n'étant pas encore dans le domaine public, cette exposition met ses leçons à l'épreuve d'œuvres de vingt pays et des cinq continents, de l'Égypte ancienne et du Pérou des Wari jusqu'au Bauhaus, où Albers fut étudiant puis professeur. Pour chaque œuvre, un exercice du regard vous est proposé.",
@@ -466,6 +466,17 @@
         "compare": "Comme le feu de la fête de Sada, quelques touches de couleur chaude suffisent à animer un grand champ froid : la leçon de la quantité, appliquée aux couleurs complémentaires."
       },
       {
+        "title": "Promenade au bord de la mer",
+        "artist": "Joaquín Sorolla",
+        "country": "Espagne",
+        "period": "1909",
+        "museum": "Museo Sorolla, Madrid",
+        "image": "images/expositions/promenade-au-bord-de-la-mer-sorolla.jpg",
+        "credit": "Museo Sorolla, Madrid, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Joaqu%C3%ADn_Sorolla_y_Bastida_-_Strolling_along_the_Seashore_-_Google_Art_Project.jpg), domaine public",
+        "analysis": "Leçon 19 — Le blanc n'est jamais blanc. Sorolla peint sa femme, Clotilde, et leur fille aînée, María, qui se promènent sur la plage de Valence, dans le vent. Les deux robes sont blanches, et pourtant presque aucune touche n'y est vraiment blanche : du côté de l'ombre, le blanc devient gris-bleu, mauve, presque violet ; du côté du soleil, il devient crème, rosé, doré. Le voile et l'ombrelle, transparents, prennent la couleur de ce qui est derrière eux, la mer bleue ou le sable ocre. Exercice : regardez l'ombrelle, en bas à gauche. Combien de couleurs différentes y voyez-vous, dans un objet que l'on dirait simplement blanc ?",
+        "compare": "Goethe avait déjà décrit ces « ombres colorées » dans son Traité des couleurs, qui a inspiré la leçon de Turner. Comparez avec le Gulf Stream de Homer : la même mer bleue, mais ici elle sert de fond froid qui fait paraître plus chauds le sable et la lumière sur les robes."
+      },
+      {
         "title": "Étude de couleurs. Carrés avec cercles concentriques",
         "artist": "Vassily Kandinsky",
         "country": "Russie",
@@ -473,7 +484,7 @@
         "museum": "Städtische Galerie im Lenbachhaus, Munich",
         "image": "images/expositions/etude-de-couleurs-kandinsky.jpg",
         "credit": "Städtische Galerie im Lenbachhaus, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Wassily_Kandinsky_Color_Study._Squares_with_Concentric_Circles.jpg), domaine public",
-        "analysis": "Leçon 19 — Une même forme, douze accords. Kandinsky, peintre russe installé à Munich, a peint à l'aquarelle douze carrés, disposés sur trois rangs et chacun rempli de cercles concentriques de couleurs différentes. C'est une étude, presque une expérience de laboratoire : la forme ne change pas, seules les couleurs et leur ordre changent. Exercice : cherchez le jaune dans plusieurs carrés. À côté du violet ou du bleu, il semble rayonner et avancer ; à côté de l'orangé ou du rouge, il paraît plus terne et se fond avec eux. Kandinsky pensait que chaque couleur a un son, comme un instrument : le jaune une trompette, le bleu profond un orgue.",
+        "analysis": "Leçon 20 — Une même forme, douze accords. Kandinsky, peintre russe installé à Munich, a peint à l'aquarelle douze carrés, disposés sur trois rangs et chacun rempli de cercles concentriques de couleurs différentes. C'est une étude, presque une expérience de laboratoire : la forme ne change pas, seules les couleurs et leur ordre changent. Exercice : cherchez le jaune dans plusieurs carrés. À côté du violet ou du bleu, il semble rayonner et avancer ; à côté de l'orangé ou du rouge, il paraît plus terne et se fond avec eux. Kandinsky pensait que chaque couleur a un son, comme un instrument : le jaune une trompette, le bleu profond un orgue.",
         "compare": "Trente-sept ans avant les Hommages au carré d'Albers, ce sont déjà des formes simples emboîtées, qui servent seulement à faire jouer les couleurs. Kandinsky enseigna ensuite au Bauhaus, comme Paul Klee, à l'époque où Josef Albers y était étudiant, puis professeur à leurs côtés."
       },
       {
@@ -484,7 +495,7 @@
         "museum": "Fondation Hilma af Klint, Stockholm",
         "image": "images/collection/cygne-hilma-af-klint.jpg",
         "credit": "Fondation Hilma af Klint, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Hilma_af_Klint,_1915,_Svanen,_No._17.jpg), domaine public",
-        "analysis": "Leçon 20 — Une couleur peut en paraître deux. C'est l'expérience la plus célèbre d'Albers : une même couleur, posée sur deux fonds différents, semble devenir deux couleurs. Ici, un seul rouge couvre tout le fond de la toile. Regardez-le près de l'anneau blanc, à gauche, puis près de l'anneau bleu, à droite : à côté du blanc, il paraît plus sombre et plus profond ; à côté du bleu, plus chaud, presque orangé. Exercice : fixez la petite flèche au centre pendant une trentaine de secondes, puis regardez un mur blanc. Une image apparaît, aux couleurs inversées : c'est l'image rémanente, autre phénomène étudié par Albers.",
+        "analysis": "Leçon 21 — Une couleur peut en paraître deux. C'est l'expérience la plus célèbre d'Albers : une même couleur, posée sur deux fonds différents, semble devenir deux couleurs. Ici, un seul rouge couvre tout le fond de la toile. Regardez-le près de l'anneau blanc, à gauche, puis près de l'anneau bleu, à droite : à côté du blanc, il paraît plus sombre et plus profond ; à côté du bleu, plus chaud, presque orangé. Exercice : fixez la petite flèche au centre pendant une trentaine de secondes, puis regardez un mur blanc. Une image apparaît, aux couleurs inversées : c'est l'image rémanente, autre phénomène étudié par Albers.",
         "compare": "Peint trente-cinq ans avant les premiers Hommages au carré d'Albers (1950), ce tableau pose déjà les mêmes questions avec des formes simples : un cercle au lieu d'un carré, et la couleur pour seul sujet. Longtemps restée inconnue, Hilma af Klint compte aujourd'hui parmi les pionnières de l'abstraction."
       },
       {
@@ -495,8 +506,19 @@
         "museum": "Cleveland Museum of Art",
         "image": "images/expositions/carnaval-dans-la-neige-klee.jpg",
         "credit": "Cleveland Museum of Art (https://www.clevelandart.org/art/1969.46), domaine public (CC0)",
-        "analysis": "Leçon 21 — De petites couleurs vives sur un fond doux. Paul Klee peint cette aquarelle à Weimar, où il enseigne au Bauhaus. Le fond est fait de lavis légers et transparents, violets, roses, gris-bleu et verts, qui se fondent les uns dans les autres comme de la neige au crépuscule. Par-dessus, Klee pose quelques petites formes de couleurs pures et franches : une croix bleue, des flèches et des points rouges, des gouttes noires, et deux grandes figures de carnaval presque blanches. Exercice : regardez la croix bleue en haut. Sur ce fond pâle et doux, ce petit bleu saturé paraît plus intense que s'il était entouré d'autres couleurs vives. Et le blanc des figures : paraît-il froid comme la neige, ou chaud, presque crème, à côté du violet ?",
+        "analysis": "Leçon 22 — De petites couleurs vives sur un fond doux. Paul Klee peint cette aquarelle à Weimar, où il enseigne au Bauhaus. Le fond est fait de lavis légers et transparents, violets, roses, gris-bleu et verts, qui se fondent les uns dans les autres comme de la neige au crépuscule. Par-dessus, Klee pose quelques petites formes de couleurs pures et franches : une croix bleue, des flèches et des points rouges, des gouttes noires, et deux grandes figures de carnaval presque blanches. Exercice : regardez la croix bleue en haut. Sur ce fond pâle et doux, ce petit bleu saturé paraît plus intense que s'il était entouré d'autres couleurs vives. Et le blanc des figures : paraît-il froid comme la neige, ou chaud, presque crème, à côté du violet ?",
         "compare": "Albers était étudiant au Bauhaus à Weimar quand Klee y peignait cette aquarelle ; ils y devinrent ensuite collègues. Comparez avec la Bhairavi Ragini : là aussi, un fond uni fait chanter quelques couleurs pures."
+      },
+      {
+        "title": "Alter Klang (« Son ancien »)",
+        "artist": "Paul Klee",
+        "country": "Suisse",
+        "period": "1925",
+        "museum": "Kunstmuseum Basel",
+        "image": "images/expositions/alter-klang-klee.jpg",
+        "credit": "Kunstmuseum Basel, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Alter_Klang,_1925_-_Paul_Klee.jpg), domaine public",
+        "analysis": "Leçon 23 — Une couleur s'allume dans le noir. Paul Klee, né près de Berne en Suisse et professeur au Bauhaus, peint ce petit tableau à l'huile sur carton en 1925. Il est fait de carrés irréguliers, posés comme un damier un peu de travers. Au centre, les carrés sont clairs et chauds : jaune, saumon, vert tendre. Vers les bords, ils s'assombrissent peu à peu, bruns, violets, gris-bleu, jusqu'à se perdre dans un fond presque noir. Exercice : fixez le petit carré jaune, un peu à gauche du centre. Entouré de couleurs sombres, il semble briller comme une lumière. Imaginez-le sur un fond blanc : il paraîtrait bien plus terne. Klee, qui était aussi violoniste, a donné à ce tableau un titre musical : les couleurs y montent et descendent comme des notes.",
+        "compare": "La même année, Albers devient lui-même professeur au Bauhaus. Comparez avec Carnaval dans la neige (leçon 22) : deux ans plus tôt, Klee posait des couleurs vives sur un fond pâle ; ici, il fait l'inverse, et c'est le fond sombre qui allume les couleurs. Comme les carrés de Kandinsky (leçon 20), une forme simple répétée laisse toute la place à la couleur."
       }
     ]
   },
@@ -1444,7 +1466,7 @@
   },
   {
     "title": "Croyances et spiritualités du monde",
-    "subtitle": "Du Livre des morts égyptien aux îles Fidji : vingt-six œuvres de vingt et un pays, vingt traditions et des cinq continents",
+    "subtitle": "Du Livre des morts égyptien aux îles Fidji : vingt-sept œuvres de vingt et un pays, vingt traditions et des cinq continents",
     "status": "published",
     "theme": "Croyances & spiritualités du monde",
     "intro": "Partout et à toutes les époques, les êtres humains ont cherché à donner un sens à la vie, à la mort et au monde qui les dépasse. Cette exposition réunit des œuvres nées de traditions très différentes : la religion de l'Égypte ancienne, l'hindouisme, le jaïnisme, le bouddhisme sous ses différentes formes, le shintô, le taoïsme, le judaïsme, le christianisme d'Orient et d'Occident, d'Éthiopie et d'Arménie, l'islam (dont l'art religieux, sans figures, s'exprime par l'écriture et la géométrie de l'architecture) et sa voie mystique, le soufisme, le sikhisme, les religions du Mexique ancien, la divination yoruba et les rites des îles Fidji. Beaucoup sont des enluminures, ces livres sacrés écrits et peints à la main, où l'or et la couleur honorent la parole. Aucune tradition n'est placée au-dessus d'une autre ; les œuvres se répondent deux à deux, et montrent souvent des religions qui se rencontrent et cohabitent. Par respect, l'exposition ne montre pas d'objets que leurs communautés demandent de ne pas exposer, ni de représentation du Prophète de l'islam ; et certaines traditions, notamment autochtones d'Amérique du Nord et d'Australie, ne sont présentes que par cette mention, car leurs objets les plus sacrés n'ont pas leur place dans un musée.",
@@ -1607,6 +1629,17 @@
         "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/449536), domaine public (Open Access)",
         "analysis": "L'Arménie fut, au début du IVe siècle, le premier royaume à faire du christianisme sa religion officielle ; elle a sa propre écriture, inventée vers 405 par le moine Mesrop Machtots pour traduire la Bible, son Église et une grande tradition de l'enluminure. Sur cette page qui ouvre l'Évangile de Jean, le peintre Sargis place le Christ au sommet d'un portique doré orné d'oiseaux ; en dessous, les premières lettres sont formées d'animaux, comme l'aigle, symbole de saint Jean. Les lettres arméniennes deviennent elles-mêmes des créatures vivantes.",
         "compare": "Comme l'Évangile éthiopien, le livre d'une Église chrétienne très ancienne, née en dehors de Rome et de Byzance, avec sa propre langue et son propre style ; et, comme à Kells, les lettres s'animent."
+      },
+      {
+        "title": "Le prince Levon et la princesse Keran bénis par le Christ, Évangiles de 1262",
+        "artist": "Toros Roslin",
+        "country": "Arménie (royaume de Cilicie)",
+        "period": "1262",
+        "museum": "Patriarcat arménien de Jérusalem (manuscrit 2660)",
+        "image": "images/expositions/spirit-armenie-levon-keran.jpg",
+        "credit": "Patriarcat arménien de Jérusalem, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:LevonKeran.jpg), domaine public",
+        "analysis": "Toros Roslin est le plus célèbre enlumineur arménien du Moyen Âge. Il travaillait en Cilicie, un royaume arménien au bord de la Méditerranée, dans le sud de l'actuelle Turquie. Sur cette page d'un livre des Évangiles, le futur roi Levon et son épouse Keran se tiennent debout, couronnés, dans des vêtements brodés d'or et de bleu, sous une arche portée par deux colonnes. Au-dessus d'eux, le Christ apparaît à mi-corps et étend les deux mains pour les bénir, entouré de deux anges. Le fond d'or fait de la scène un espace sacré, hors du temps. Le manuscrit a vieilli : le visage du prince s'est assombri et une bande plus pâle traverse le bas de la page. Il est toujours conservé par la communauté arménienne de Jérusalem.",
+        "compare": "Comparez avec la page de titre de Sargis, un autre enlumineur arménien : là aussi, le Christ apparaît au sommet d'une architecture dorée, comme s'il veillait sur ce qui se trouve en dessous. Comme l'icône du Christ Pantocrator du Sinaï, le Christ y est représenté de face, bénissant, mais ici il bénit des personnes bien réelles, les commanditaires du livre."
       },
       {
         "title": "Un livre des Évangiles",

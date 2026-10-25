@@ -1331,6 +1331,7 @@ const PAYS_OEUVRES = [
   ['États-Unis', 'Amériques', /\b(native american|american indian|amerindien|navajo|dine\b|hopi|lakota|sioux|cheyenne|apache|pueblo|zuni|tlingit|cherokee|iroquois|ojibwe|new mexico|nouveau-mexique|arizona|alaska)/],
   ['Mexique', 'Amériques', /\b(mexi|azte|olmec|olmeque|maya|mixtec|mixteque|zapotec|zapoteque|teotihuacan|toltec|huastec|veracruz|oaxaca|colima|jalisco|nayarit)/],
   ['Guatemala', 'Amériques', /\bguatemal/],
+  ['El Salvador', 'Amériques', /\b(el salvador|salvadori)/],
   ['Honduras', 'Amériques', /\bhonduras/],
   ['Nicaragua', 'Amériques', /\bnicaragua/],
   ['Costa Rica', 'Amériques', /\bcosta rica/],
@@ -1431,6 +1432,7 @@ const PAYS_OEUVRES = [
   ['Ukraine', 'Europe', /\b(ukrain|kyiv|kiev)/],
   ['Tchéquie', 'Europe', /\b(tchequ|czech|bohemi|prague)/],
   ['Hongrie', 'Europe', /\b(hongri|hungar|budapest)/],
+  ['Slovaquie', 'Europe', /\b(slovaqu|slovak|bratislava)/],
   ['Croatie', 'Europe', /\bcroati/],
   ['Serbie', 'Europe', /\bserbi/],
   ['Bulgarie', 'Europe', /\bbulgari/]

@@ -1,7 +1,7 @@
 [
   {
     "title": "La lumière comme langage universel",
-    "subtitle": "De l'Égypte romaine à l'Australie : vingt-deux visions de la lumière, de vingt pays et des cinq continents",
+    "subtitle": "De l'Égypte romaine à l'Australie : vingt-six visions de la lumière, de vingt-trois pays et des cinq continents",
     "status": "published",
     "theme": "Lumière & ombre à travers les cultures",
     "intro": "Sur dix-sept siècles (vers 200 – 1900) et cinq continents, de l'Égypte à la Chine, de l'Iran à l'Inde, du Japon à Java, de l'Europe au Mexique, aux Caraïbes et à l'Australie, la lumière est le véritable sujet de ces œuvres. Modelé d'un visage, brume qui efface les montagnes, éclat des céramiques d'une mosquée, lampe de verre, feu d'une fête persane ou indienne, auréoles des saints, clair de lune sur la mer, lave d'un volcan, soleil sur l'eau ou dans une pièce vide : naturelle ou divine, intime ou dramatique, peinte ou suggérée par le vide, elle prend dans chaque culture un sens différent.",
@@ -145,6 +145,17 @@
         "compare": "Hokusai et Friedrich sont contemporains : dans Cent vues du mont Fuji, la lumière est suggérée par le papier laissé blanc ; ici, par un dégradé de couleurs du ciel. Le Norvégien Peder Balke, présenté plus loin, a étudié à Dresde dans l'entourage de Friedrich."
       },
       {
+        "title": "Chaudronniers au repos. Silence",
+        "artist": "Dominik Skutecký",
+        "country": "Slovaquie",
+        "period": "1903–1913",
+        "museum": "Galerie nationale slovaque (Slovenská národná galéria)",
+        "credit": "Galerie nationale slovaque (https://www.webumenia.sk/dielo/SVK:SNG.O_1139), domaine public",
+        "analysis": "Dans un atelier sombre, deux chaudronniers se reposent. La seule lumière vient de la forge, à gauche : elle embrase le mur de briques d'un rouge orangé, frappe la chemise blanche d'un des hommes, et allume des reflets sur les chaudrons de cuivre posés au sol. Tout le reste se perd dans l'ombre. Le tableau provient de la succession du peintre ; selon l'historien Tilkovský, il a été exposé à Munich en 1913.",
+        "compare": "Comme chez Rembrandt dans La Ronde de nuit, une lumière unique, chaude, sort quelques figures de l'obscurité ; mais ici, ce sont des artisans au travail, ou plutôt au repos.",
+        "image": "images/expositions/lumiere-skutecky-chaudronniers.jpg"
+      },
+      {
         "title": "Cent vues du Mont Fuji",
         "artist": "Katsushika Hokusai",
         "country": "Japon",
@@ -176,6 +187,28 @@
         "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/441379), domaine public (Open Access)",
         "analysis": "Le Cap Nord, à l'extrême nord de la Norvège, que Balke avait vu lors d'un voyage en 1832. La lune perce une ouverture dans les nuages et trace sur la mer sombre un chemin de lumière, sur lequel se découpe une barque à rames. Les falaises, au loin, sont à peine éclairées. Balke peint presque sans couleurs, en gris, en noirs et en blancs, avec une peinture fine et rapide : c'est le contraste entre l'obscurité et cette lumière froide qui fait toute la force du paysage, comme dans un souvenir.",
         "compare": "Même sujet que Kuindzhi, présenté plus loin : la lune sur l'eau la nuit. Balke en fait un drame de nuages et de contrastes ; Kuindzhi, trente ans plus tard, le réduira à une seule lueur dans le noir."
+      },
+      {
+        "title": "Keitele",
+        "artist": "Akseli Gallen-Kallela",
+        "country": "Finlande",
+        "period": "1905",
+        "museum": "Musées de Lahti (Finlande)",
+        "credit": "Musées de Lahti (Lahden museot), via Finna (https://www.finna.fi/Record/lahdenmuseo.lkm-355815), licence CC BY 4.0",
+        "analysis": "Le lac Keitele, au centre de la Finlande, est ici presque tout le tableau. Sur l'eau calme, les reflets des nuages blancs descendent en longues traînées verticales de lumière, coupées par des bandes horizontales grises, là où une légère brise ride la surface. Au loin, une île sombre et une lisière de forêt bleue. En 1939, au seuil de la Seconde Guerre mondiale, le tableau a été évacué du musée d'art de Viipuri (Vyborg) ; la ville étant perdue pour la Finlande après la guerre, il fait partie des 70 œuvres que la ville de Lahti a recueillies.",
+        "compare": "Comme dans Impression, soleil levant de Monet, la lumière se lit surtout dans son reflet sur l'eau.",
+        "image": "images/expositions/lumiere-gallen-kallela-keitele.jpg"
+      },
+      {
+        "title": "Hornsgatan la nuit",
+        "artist": "Eugène Jansson",
+        "country": "Suède",
+        "period": "1902",
+        "museum": "Nationalmuseum, Stockholm",
+        "credit": "Nationalmuseum, Stockholm (http://collection.nationalmuseum.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=18873&viewType=detailView), domaine public",
+        "analysis": "Eugène Jansson est surtout connu pour ses vues nocturnes de Stockholm en bleus profonds, où la lumière des réverbères se fond avec la ville au point de rendre étrangers des lieux familiers, explique le musée. Dans cette rue vide, l'éclairage au gaz dessine des tourbillons et des vagues de lumière qui se répètent jusqu'au bout de la rue, comme des étoiles tombées sur terre.",
+        "compare": "Comparez avec la Nuit de lune sur le Dniepr de Kuindzhi : là, une seule lumière, celle de la lune ; ici, des dizaines de lampes de la ville.",
+        "image": "images/expositions/lumiere-jansson-hornsgatan.jpg"
       },
       {
         "title": "Éruption du Merapi, la nuit",
@@ -252,15 +285,26 @@
         "credit": "Ordrupgaard, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Hammersh%C3%B8i_Dust_motes_dancing.jpg), domaine public",
         "analysis": "Une pièce vide de l'appartement du peintre, à Copenhague : une fenêtre, une porte fermée, des murs et un plancher gris. Rien d'autre que la lumière. Les rayons du soleil entrent en diagonale, rendus visibles par la poussière qui flotte dans l'air, et se posent en taches claires sur le plancher. Hammershøi peint avec une palette réduite à des gris, des blancs et des bruns très doux ; l'absence de meubles et de personnages oblige le regard à suivre le seul mouvement du tableau : celui de la lumière.",
         "compare": "On a surnommé Hammershøi le « Vermeer danois » : comme dans La Jeune Fille à la perle, la lumière vient d'une fenêtre et révèle le calme d'un intérieur. Mais chez Hammershøi, il n'y a plus personne à éclairer : la lumière est devenue le seul personnage."
+      },
+      {
+        "title": "La plage de Skagen au clair de lune",
+        "artist": "P. S. Krøyer",
+        "country": "Danemark",
+        "period": "1899",
+        "museum": "SMK – Statens Museum for Kunst, Copenhague",
+        "credit": "SMK – Statens Museum for Kunst, Copenhague (https://open.smk.dk/artwork/image/KMS8273), domaine public",
+        "analysis": "Sur ce petit panneau de bois, Krøyer peint la plage de Skagen, à la pointe nord du Danemark, par une nuit de lune. La lune, haut dans le ciel, éclaire les nuages par en dessous ; la mer et le sable baignent dans une même lumière bleu-violet, à peine plus claire au bord des vagues, où brillent quelques reflets. Un voilier immobile se découpe à l'horizon.",
+        "compare": "Comme Le Cap Nord au clair de lune de Balke, le clair de lune unifie tout le paysage dans une seule couleur.",
+        "image": "images/expositions/lumiere-kroyer-skagen-lune.jpg"
       }
     ]
   },
   {
     "title": "La couleur est relative",
-    "subtitle": "D'après L'Interaction des couleurs de Josef Albers : vingt-trois leçons du regard, de l'Égypte ancienne au Bauhaus",
+    "subtitle": "D'après L'Interaction des couleurs de Josef Albers : trente-trois leçons du regard, de l'Égypte ancienne au Bauhaus",
     "status": "published",
     "theme": "Couleur & perception",
-    "intro": "« Dans la perception visuelle, une couleur n'est presque jamais vue telle qu'elle est réellement, physiquement. » C'est ainsi que Josef Albers (1888–1976), peintre et professeur au Bauhaus puis aux États-Unis, ouvre son livre L'Interaction des couleurs (1963). Pour lui, une couleur change selon ses voisines, selon sa quantité, selon la lumière : c'est le moyen le plus relatif de l'art. Il l'enseignait non par la théorie mais par l'expérience, avec des papiers colorés. Ses tableaux n'étant pas encore dans le domaine public, cette exposition met ses leçons à l'épreuve d'œuvres de vingt pays et des cinq continents, de l'Égypte ancienne et du Pérou des Wari jusqu'au Bauhaus, où Albers fut étudiant puis professeur. Pour chaque œuvre, un exercice du regard vous est proposé.",
+    "intro": "« Dans la perception visuelle, une couleur n'est presque jamais vue telle qu'elle est réellement, physiquement. » C'est ainsi que Josef Albers (1888–1976), peintre et professeur au Bauhaus puis aux États-Unis, ouvre son livre L'Interaction des couleurs (1963). Pour lui, une couleur change selon ses voisines, selon sa quantité, selon la lumière : c'est le moyen le plus relatif de l'art. Il l'enseignait non par la théorie mais par l'expérience, avec des papiers colorés. Ses tableaux n'étant pas encore dans le domaine public, cette exposition met ses leçons à l'épreuve d'œuvres de vingt-cinq pays et des cinq continents, de l'Égypte ancienne et du Pérou des Wari jusqu'au Bauhaus, où Albers fut étudiant puis professeur. Pour chaque œuvre, un exercice du regard vous est proposé.",
     "minimum": 20,
     "search": {
       "keywords": "color",
@@ -378,6 +422,28 @@
         "compare": "Comme Kōrin, le peintre de Mandi obtient beaucoup d'effet avec très peu de couleurs posées en aplats. Albers comparait souvent la couleur à la musique : ici, chaque page associe vraiment une couleur dominante à un mode musical."
       },
       {
+        "title": "La Laitière",
+        "artist": "Johannes Vermeer",
+        "country": "Pays-Bas",
+        "period": "vers 1660",
+        "museum": "Rijksmuseum, Amsterdam",
+        "credit": "Rijksmuseum, Amsterdam (https://www.rijksmuseum.nl/en/collection/SK-A-2344), domaine public",
+        "analysis": "Leçon 11 — Des couleurs pures au milieu des gris. Une servante verse du lait d'une cruche dans un pot de terre ; sur la table, une corbeille de pain et une cruche de grès, près de la fenêtre un panier d'osier et un pot de cuivre, au pied du mur une rangée de carreaux et une chaufferette. Presque tout est en couleurs douces et grisées, sauf le corsage jaune, le tablier bleu et la jupe rouge, qui éclatent. Exercice : regardez le mur blanc. Près de la fenêtre, il est chaud et clair ; vers la droite, il devient gris, presque froid. Puis comptez les bleus du tableau : le tablier, la nappe, les manches, la cruche, les carreaux.",
+        "compare": "Deux siècles plus tard, un autre Néerlandais, Van Gogh, mise lui aussi sur l'accord du jaune et du bleu (leçon du Champ de blé avec cyprès).",
+        "image": "images/expositions/couleur-vermeer-laitiere.jpg"
+      },
+      {
+        "title": "Hindola raga, page d'une série de Ragamala",
+        "artist": "Peintre de l'Inde centrale",
+        "country": "Inde",
+        "period": "1650–1670",
+        "museum": "Rijksmuseum, Amsterdam",
+        "credit": "Rijksmuseum, Amsterdam (https://www.rijksmuseum.nl/en/collection/RP-T-1993-427), domaine public",
+        "analysis": "Leçon 12 — Un fond qui donne le ton. En plein air, un prince et une princesse sont assis sur une balançoire que poussent des servantes ; le prince tient un instrument de musique que la princesse effleure tendrement. Tout se détache sur un fond rouge sombre : sur lui, les visages et les vêtements clairs ressortent, le jaune du coussin s'allume, et la bande bleue de l'eau, en bas, paraît fraîche. Exercice : imaginez la même scène sur un fond blanc. Les couleurs des personnages paraîtraient plus faibles, et la scène perdrait son atmosphère chaude.",
+        "compare": "Comme la Bhairavi Ragini, une page de Ragamala, où chaque mode musical a sa scène ; ici, c'est le fond tout entier qui donne la couleur de l'émotion.",
+        "image": "images/expositions/couleur-hindola-raga.jpg"
+      },
+      {
         "title": "Triptyque : Ewostatewos et huit de ses disciples",
         "artist": "Artiste des hauts plateaux du nord",
         "country": "Éthiopie (Amhara)",
@@ -385,7 +451,7 @@
         "museum": "The Metropolitan Museum of Art, New York",
         "image": "images/collection/icone-ethiopienne.jpg",
         "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/319625), domaine public (Open Access)",
-        "analysis": "Leçon 11 — Chaud et froid. Les visages clairs et les vêtements rouges et jaunes, couleurs chaudes, se détachent sur des fonds vert sombre, couleur froide. Les couleurs chaudes semblent avancer vers nous, les froides reculer : le peintre éthiopien crée ainsi du relief sans ombre ni perspective. Albers montre que le chaud et le froid sont eux-mêmes relatifs : un même rouge paraît plus chaud à côté d'un vert qu'à côté d'un orange. Exercice : en bas du panneau central, deux disciples se tiennent côte à côte, l'un vêtu de bleu pâle, l'autre de jaune. Lequel semble le plus proche de vous ?",
+        "analysis": "Leçon 13 — Chaud et froid. Les visages clairs et les vêtements rouges et jaunes, couleurs chaudes, se détachent sur des fonds vert sombre, couleur froide. Les couleurs chaudes semblent avancer vers nous, les froides reculer : le peintre éthiopien crée ainsi du relief sans ombre ni perspective. Albers montre que le chaud et le froid sont eux-mêmes relatifs : un même rouge paraît plus chaud à côté d'un vert qu'à côté d'un orange. Exercice : en bas du panneau central, deux disciples se tiennent côte à côte, l'un vêtu de bleu pâle, l'autre de jaune. Lequel semble le plus proche de vous ?",
         "compare": "Deux siècles plus tard, Gauguin pose lui aussi des aplats de couleurs chaudes, le jaune du sable et le rouge du paréo, devant le bleu et le vert froids de la mer."
       },
       {
@@ -396,7 +462,7 @@
         "museum": "The Metropolitan Museum of Art, New York",
         "image": "images/collection/iris-yatsuhashi-korin.jpg",
         "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/39664), domaine public (Open Access)",
-        "analysis": "Leçon 12 — Peu de couleurs, beaucoup d'effets. Sur ce paravent à six panneaux, Ogata Kōrin n'emploie presque que trois couleurs : le bleu-violet des iris, le vert des feuilles et l'or du fond, avec le gris du pont en zigzag. Les fleurs sont peintes en deux bleus, l'un sombre, l'autre plus clair : un intervalle de couleur, qu'Albers apprenait à reconnaître et à transposer comme un intervalle en musique. Le fond d'or, lui, change avec la lumière de la pièce et la place du spectateur. Exercice : regardez les iris placés devant le pont gris, puis ceux qui se détachent sur l'or. Leur bleu vous semble-t-il le même ?",
+        "analysis": "Leçon 14 — Peu de couleurs, beaucoup d'effets. Sur ce paravent à six panneaux, Ogata Kōrin n'emploie presque que trois couleurs : le bleu-violet des iris, le vert des feuilles et l'or du fond, avec le gris du pont en zigzag. Les fleurs sont peintes en deux bleus, l'un sombre, l'autre plus clair : un intervalle de couleur, qu'Albers apprenait à reconnaître et à transposer comme un intervalle en musique. Le fond d'or, lui, change avec la lumière de la pièce et la place du spectateur. Exercice : regardez les iris placés devant le pont gris, puis ceux qui se détachent sur l'or. Leur bleu vous semble-t-il le même ?",
         "compare": "Comme Hilma af Klint deux siècles plus tard, Kōrin pose la couleur en aplats, sans ombre ni modelé, pour qu'elle agisse par elle-même. L'Europe découvrira cette leçon japonaise à la fin du XIXe siècle."
       },
       {
@@ -407,7 +473,7 @@
         "museum": "Tate Britain, Londres",
         "image": "images/expositions/lumiere-et-couleur-turner.jpg",
         "credit": "Tate, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Joseph_Mallord_William_Turner_-_The_Morning_after_the_Deluge_-_WGA23180.jpg), domaine public",
-        "analysis": "Leçon 13 — Des couleurs « positives ». Dans son Traité des couleurs (1810), le poète allemand Goethe distinguait les couleurs du côté « plus » (jaune, orangé, rouge), chaudes, lumineuses et joyeuses, et celles du côté « moins » (bleu, violet), froides et inquiètes. Turner, qui avait lu la traduction anglaise, peint ici le matin qui suit le Déluge, surtout avec des jaunes, des orangés et des rouges, disposés en tourbillon autour d'un centre éclatant, et quelques bruns sombres vers les bords. Au centre se dresse le serpent d'airain de Moïse ; à droite, des bulles où apparaissent des visages. Au sommet, Moïse écrit le récit de la Création. Exercice : cherchez le peu de bleu du tableau, sur les bords. Comme il paraît froid et lointain à côté du jaune ! Turner avait peint en pendant une Ombre et ténèbres, le soir du Déluge, dominée par les bleus et les noirs.",
+        "analysis": "Leçon 15 — Des couleurs « positives ». Dans son Traité des couleurs (1810), le poète allemand Goethe distinguait les couleurs du côté « plus » (jaune, orangé, rouge), chaudes, lumineuses et joyeuses, et celles du côté « moins » (bleu, violet), froides et inquiètes. Turner, qui avait lu la traduction anglaise, peint ici le matin qui suit le Déluge, surtout avec des jaunes, des orangés et des rouges, disposés en tourbillon autour d'un centre éclatant, et quelques bruns sombres vers les bords. Au centre se dresse le serpent d'airain de Moïse ; à droite, des bulles où apparaissent des visages. Au sommet, Moïse écrit le récit de la Création. Exercice : cherchez le peu de bleu du tableau, sur les bords. Comme il paraît froid et lointain à côté du jaune ! Turner avait peint en pendant une Ombre et ténèbres, le soir du Déluge, dominée par les bleus et les noirs.",
         "compare": "Goethe, puis le chimiste Chevreul en France, puis Albers au XXe siècle : trois étapes d'une même idée, la couleur est une affaire de perception autant que de physique. Comparez avec l'Hippopotame égyptien, où le bleu turquoise était au contraire la couleur de la vie."
       },
       {
@@ -418,8 +484,19 @@
         "museum": "The Metropolitan Museum of Art, New York",
         "image": "images/expositions/robe-ikat-ouzbekistan.jpg",
         "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/85503), domaine public (Open Access)",
-        "analysis": "Leçon 14 — Des couleurs aux bords flous. Dans l'ikat, technique de Boukhara et de Samarcande, on teint les fils avant de les tisser : on les attache par endroits pour qu'ils ne prennent pas la teinture, puis on recommence pour chaque couleur. Au tissage, les fils se décalent légèrement, et les limites entre les couleurs deviennent floues, comme des flammes. Sur cette robe, de grandes bandes en zigzag, magenta, jaune, vert, violet et blanc, se suivent. Exercice : regardez une frontière entre le jaune et le magenta. Dans la zone floue, voyez-vous une couleur intermédiaire, orangée, qui n'a pourtant été teinte nulle part ? Albers appelait ce phénomène le mélange intermédiaire : l'œil invente une couleur entre deux autres.",
+        "analysis": "Leçon 16 — Des couleurs aux bords flous. Dans l'ikat, technique de Boukhara et de Samarcande, on teint les fils avant de les tisser : on les attache par endroits pour qu'ils ne prennent pas la teinture, puis on recommence pour chaque couleur. Au tissage, les fils se décalent légèrement, et les limites entre les couleurs deviennent floues, comme des flammes. Sur cette robe, de grandes bandes en zigzag, magenta, jaune, vert, violet et blanc, se suivent. Exercice : regardez une frontière entre le jaune et le magenta. Dans la zone floue, voyez-vous une couleur intermédiaire, orangée, qui n'a pourtant été teinte nulle part ? Albers appelait ce phénomène le mélange intermédiaire : l'œil invente une couleur entre deux autres.",
         "compare": "Chez Gauguin, les frontières entre les couleurs vibrent parce qu'elles sont nettes et de même clarté ; dans l'ikat, elles vibrent parce qu'elles sont floues. Les couturiers européens se sont passionnés pour ces étoffes au XIXe siècle."
+      },
+      {
+        "title": "Averse soudaine sur le pont Ōhashi à Atake",
+        "artist": "Utagawa Hiroshige",
+        "country": "Japon",
+        "period": "1857",
+        "museum": "Rijksmuseum, Amsterdam",
+        "credit": "Rijksmuseum, Amsterdam (https://www.rijksmuseum.nl/en/collection/RP-P-1956-752), domaine public",
+        "analysis": "Leçon 17 — Une couleur en dégradé. Sur un pont de bois, des passants surpris par une averse se protègent sous des parapluies, un grand chapeau ou une natte de jonc ; sur le fleuve, un homme pousse un radeau de troncs. Dans cette estampe en couleurs, le ciel passe du noir au gris, et le fleuve du bleu pâle au bleu profond en bas de l'image : ces dégradés ont été imprimés directement depuis les planches de bois. Exercice : suivez le fleuve de haut en bas. À quel moment le bleu clair devient-il bleu foncé ? Il est presque impossible de dire où.",
+        "compare": "Van Gogh admirait tant cette estampe qu'il en a peint une copie en 1887 (voir la leçon du Champ de blé avec cyprès).",
+        "image": "images/expositions/couleur-hiroshige-averse.jpg"
       },
       {
         "title": "Parade de cirque",
@@ -429,7 +506,7 @@
         "museum": "The Metropolitan Museum of Art, New York",
         "image": "images/expositions/parade-de-cirque-seurat.jpg",
         "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/437654), domaine public (Open Access)",
-        "analysis": "Leçon 15 — Des points qui se mêlent dans l'œil. Le soir, devant un cirque de Paris, un tromboniste et des musiciens jouent pour attirer le public, éclairés par une rangée de becs de gaz. Seurat ne mélange presque pas ses couleurs sur la palette : il les pose côte à côte, en petits points d'orangé, de bleu, de violet et de vert. De près, chaque point est distinct ; de loin, ils se fondent en une couleur nouvelle, un gris violacé de nuit. Seurat s'appuyait sur les lois du chimiste Michel-Eugène Chevreul (1839) : deux couleurs voisines s'influencent mutuellement. Exercice : approchez-vous de l'écran jusqu'à voir les points, puis reculez lentement. À quel moment les couleurs se mélangent-elles ?",
+        "analysis": "Leçon 18 — Des points qui se mêlent dans l'œil. Le soir, devant un cirque de Paris, un tromboniste et des musiciens jouent pour attirer le public, éclairés par une rangée de becs de gaz. Seurat ne mélange presque pas ses couleurs sur la palette : il les pose côte à côte, en petits points d'orangé, de bleu, de violet et de vert. De près, chaque point est distinct ; de loin, ils se fondent en une couleur nouvelle, un gris violacé de nuit. Seurat s'appuyait sur les lois du chimiste Michel-Eugène Chevreul (1839) : deux couleurs voisines s'influencent mutuellement. Exercice : approchez-vous de l'écran jusqu'à voir les points, puis reculez lentement. À quel moment les couleurs se mélangent-elles ?",
         "compare": "Le mihrab d'Ispahan mélangeait déjà les couleurs dans l'œil, avec des morceaux de céramique au lieu de points de peinture. Seurat en fait une méthode scientifique, qu'Albers reprendra dans ses exercices sur le mélange optique."
       },
       {
@@ -440,7 +517,7 @@
         "museum": "The Metropolitan Museum of Art, New York",
         "image": "images/expositions/champ-de-ble-avec-cypres-van-gogh.jpg",
         "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/436535), domaine public (Open Access)",
-        "analysis": "Leçon 16 — Le jaune et le bleu se renforcent. Van Gogh, peintre néerlandais, peint ce champ de blé près de Saint-Rémy-de-Provence, où il était soigné en 1889. Le blé jaune doré occupe le bas ; le ciel, bleu pâle et turquoise, est rempli de nuages blancs en volutes ; entre les deux, les cyprès vert sombre montent comme des flammes. Le jaune et le bleu sont presque opposés sur le cercle des couleurs : côte à côte, chacun rend l'autre plus intense. La peinture, posée en épaisseur, accroche aussi la lumière réelle : un même blanc paraît plus ou moins brillant selon le relief de la touche. Exercice : cachez le ciel avec une main. Le blé paraît-il moins jaune ?",
+        "analysis": "Leçon 19 — Le jaune et le bleu se renforcent. Van Gogh, peintre néerlandais, peint ce champ de blé près de Saint-Rémy-de-Provence, où il était soigné en 1889. Le blé jaune doré occupe le bas ; le ciel, bleu pâle et turquoise, est rempli de nuages blancs en volutes ; entre les deux, les cyprès vert sombre montent comme des flammes. Le jaune et le bleu sont presque opposés sur le cercle des couleurs : côte à côte, chacun rend l'autre plus intense. La peinture, posée en épaisseur, accroche aussi la lumière réelle : un même blanc paraît plus ou moins brillant selon le relief de la touche. Exercice : cachez le ciel avec une main. Le blé paraît-il moins jaune ?",
         "compare": "Van Gogh admirait les estampes japonaises comme celles de Hokusai et les couleurs de Delacroix ; il connaissait aussi, comme Seurat, les idées de Chevreul sur les couleurs complémentaires, à travers les livres de Charles Blanc. Comparez avec Le Gulf Stream de Homer, où les complémentaires sont le rouge et le vert."
       },
       {
@@ -451,8 +528,30 @@
         "museum": "Musée d'Orsay, Paris",
         "image": "images/oeuvres/femmes-de-tahiti-gauguin.jpg",
         "credit": "Musée d'Orsay, Paris, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Paul_Gauguin_056.jpg), domaine public",
-        "analysis": "Leçon 17 — Des frontières qui s'effacent ou qui vibrent. Albers observe que deux couleurs de même clarté se fondent l'une dans l'autre : leur frontière s'efface, même si leurs teintes sont très différentes. Au contraire, deux couleurs vives et opposées font vibrer leur bord. Gauguin joue des deux : la robe rose de la femme de droite et le sable jaune ont une clarté proche et se touchent sans heurt, tandis que le paréo rouge à motifs blancs éclate sur le sable. Exercice : plissez les yeux devant la robe rose. Où s'arrête-t-elle ?",
+        "analysis": "Leçon 20 — Des frontières qui s'effacent ou qui vibrent. Albers observe que deux couleurs de même clarté se fondent l'une dans l'autre : leur frontière s'efface, même si leurs teintes sont très différentes. Au contraire, deux couleurs vives et opposées font vibrer leur bord. Gauguin joue des deux : la robe rose de la femme de droite et le sable jaune ont une clarté proche et se touchent sans heurt, tandis que le paréo rouge à motifs blancs éclate sur le sable. Exercice : plissez les yeux devant la robe rose. Où s'arrête-t-elle ?",
         "compare": "Chez Guo Xi, tout est affaire de clarté, presque sans couleur ; chez Gauguin, la couleur est si forte qu'on en oublie la clarté. Albers apprenait à ses élèves à voir les deux à la fois."
+      },
+      {
+        "title": "Riddarfjärden, Stockholm",
+        "artist": "Eugène Jansson",
+        "country": "Suède",
+        "period": "1898",
+        "museum": "Nationalmuseum, Stockholm",
+        "credit": "Nationalmuseum, Stockholm (http://collection.nationalmuseum.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=18703&viewType=detailView), domaine public",
+        "analysis": "Leçon 21 — Un bleu peut-il être chaud ? Eugène Jansson peint de nuit la grande étendue d'eau du centre de Stockholm, avec les bleus et les violets typiques de ses tableaux de ces années-là ; on l'a même surnommé « le peintre bleu ». Ses amis peintres l'appelaient aussi « Jansson-pétrole », rapporte le musée, parce que ses tableaux bleus leur faisaient penser à la lumière chaude des lampes à pétrole. Les lumières de la ville se reflètent en longues lignes verticales dans l'eau sombre, et tourbillonnent près de la rive. Exercice : ce bleu vous paraît-il froid, comme on le dit souvent du bleu, ou chaud et enveloppant ?",
+        "compare": "Comparez avec le bleu de la mer du Gulf Stream de Homer, peint à la même époque : la même couleur, mais froide et dangereuse chez Homer, presque douce chez Jansson.",
+        "image": "images/expositions/couleur-jansson-riddarfjarden.jpg"
+      },
+      {
+        "title": "Huipil (blouse de femme)",
+        "artist": "Brodeuse de Mixco (région pokomam)",
+        "country": "Guatemala",
+        "period": "avant 1899",
+        "museum": "Etnografiska museet, Stockholm",
+        "credit": "Etnografiska museet, Stockholm (https://collections.smvk.se/carlotta-em/web/object/1019297), domaine public (CC0), via Europeana",
+        "analysis": "Leçon 22 — Quatre couleurs, mille combinaisons. Ce huipil, la blouse traditionnelle des femmes, vient de Mixco, une localité de la région pokomam au Guatemala ; le chercheur suédois Carl Vilhelm Hartman l'a acheté lors de ses voyages en Amérique centrale (1896-1899). Sur le coton blanc, la brodeuse n'a utilisé que quatre couleurs, rouge, jaune, bleu et vert, et un ruban de soie à l'encolure. En les alternant en zigzags, en bandes et en petits motifs, elle obtient une variété étonnante. Exercice : cherchez un même rouge à côté du jaune, puis à côté du vert. À côté du vert, il paraît plus intense.",
+        "compare": "Comme le kente du Ghana ou l'ikat d'Asie centrale, un textile où quelques couleurs suffisent, parce que leur voisinage change sans cesse.",
+        "image": "images/expositions/couleur-huipil-mixco.jpg"
       },
       {
         "title": "Le Gulf Stream",
@@ -462,7 +561,7 @@
         "museum": "The Metropolitan Museum of Art, New York",
         "image": "images/collection/gulf-stream-homer.jpg",
         "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/11122), domaine public (Open Access)",
-        "analysis": "Leçon 18 — Les complémentaires s'exaltent. Deux couleurs opposées sur le cercle des couleurs, comme le rouge orangé et le bleu-vert, se renforcent l'une l'autre quand elles se côtoient. Homer peint une mer bleu-vert, profonde et froide, et y sème de petites touches rouge orangé : dans l'eau, sur la coque, sur le pont. En faible quantité, ce rouge fait paraître la mer plus verte encore, et la mer le rend plus vif. Exercice : cherchez toutes les petites taches rouges du tableau, puis regardez de nouveau la mer. Sa couleur vous semble-t-elle plus intense ?",
+        "analysis": "Leçon 23 — Les complémentaires s'exaltent. Deux couleurs opposées sur le cercle des couleurs, comme le rouge orangé et le bleu-vert, se renforcent l'une l'autre quand elles se côtoient. Homer peint une mer bleu-vert, profonde et froide, et y sème de petites touches rouge orangé : dans l'eau, sur la coque, sur le pont. En faible quantité, ce rouge fait paraître la mer plus verte encore, et la mer le rend plus vif. Exercice : cherchez toutes les petites taches rouges du tableau, puis regardez de nouveau la mer. Sa couleur vous semble-t-elle plus intense ?",
         "compare": "Comme le feu de la fête de Sada, quelques touches de couleur chaude suffisent à animer un grand champ froid : la leçon de la quantité, appliquée aux couleurs complémentaires."
       },
       {
@@ -473,8 +572,30 @@
         "museum": "Museo Sorolla, Madrid",
         "image": "images/expositions/promenade-au-bord-de-la-mer-sorolla.jpg",
         "credit": "Museo Sorolla, Madrid, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Joaqu%C3%ADn_Sorolla_y_Bastida_-_Strolling_along_the_Seashore_-_Google_Art_Project.jpg), domaine public",
-        "analysis": "Leçon 19 — Le blanc n'est jamais blanc. Sorolla peint sa femme, Clotilde, et leur fille aînée, María, qui se promènent sur la plage de Valence, dans le vent. Les deux robes sont blanches, et pourtant presque aucune touche n'y est vraiment blanche : du côté de l'ombre, le blanc devient gris-bleu, mauve, presque violet ; du côté du soleil, il devient crème, rosé, doré. Le voile et l'ombrelle, transparents, prennent la couleur de ce qui est derrière eux, la mer bleue ou le sable ocre. Exercice : regardez l'ombrelle, en bas à gauche. Combien de couleurs différentes y voyez-vous, dans un objet que l'on dirait simplement blanc ?",
+        "analysis": "Leçon 24 — Le blanc n'est jamais blanc. Sorolla peint sa femme, Clotilde, et leur fille aînée, María, qui se promènent sur la plage de Valence, dans le vent. Les deux robes sont blanches, et pourtant presque aucune touche n'y est vraiment blanche : du côté de l'ombre, le blanc devient gris-bleu, mauve, presque violet ; du côté du soleil, il devient crème, rosé, doré. Le voile et l'ombrelle, transparents, prennent la couleur de ce qui est derrière eux, la mer bleue ou le sable ocre. Exercice : regardez l'ombrelle, en bas à gauche. Combien de couleurs différentes y voyez-vous, dans un objet que l'on dirait simplement blanc ?",
         "compare": "Goethe avait déjà décrit ces « ombres colorées » dans son Traité des couleurs, qui a inspiré la leçon de Turner. Comparez avec le Gulf Stream de Homer : la même mer bleue, mais ici elle sert de fond froid qui fait paraître plus chauds le sable et la lumière sur les robes."
+      },
+      {
+        "title": "Paysage décoratif",
+        "artist": "Ellen Thesleff",
+        "country": "Finlande",
+        "period": "1910",
+        "museum": "Ateneum, Galerie nationale de Finlande, Helsinki",
+        "credit": "Galerie nationale de Finlande, musée Ateneum (https://www.kansallisgalleria.fi/en/object/398658), domaine public (CC0)",
+        "analysis": "Leçon 25 — Deux verts. Ellen Thesleff peint un grand arbre contre un ciel bleu, à larges touches visibles. Le feuillage est fait de deux verts : un vert tirant sur le jaune, chaud, et un vert tirant sur le bleu, froid. Placés côte à côte, ils font vibrer l'arbre comme s'il bougeait dans le vent ; les troncs, eux, sont bleus. Exercice : séparez du regard les deux verts. Lequel semble avancer vers vous, lequel semble reculer ?",
+        "compare": "Comme dans le Champ de blé avec cyprès de Van Gogh, les touches de couleur restent visibles et donnent au paysage son mouvement.",
+        "image": "images/expositions/couleur-thesleff-paysage.jpg"
+      },
+      {
+        "title": "Intérieur avec le chevalet de l'artiste",
+        "artist": "Vilhelm Hammershøi",
+        "country": "Danemark",
+        "period": "1910",
+        "museum": "SMK – Statens Museum for Kunst, Copenhague",
+        "credit": "SMK – Statens Museum for Kunst, Copenhague (https://open.smk.dk/artwork/image/KMS7444), domaine public",
+        "analysis": "Leçon 26 — Des gris qui ne sont pas gris. Hammershøi s'est levé de sa chaise devant le chevalet et a changé de place pour le peindre de dos, explique le musée. On voit son appartement-atelier, sa chaise, une porte ouverte sur un bol de faïence posé sur un meuble ancien, et au mur une estampe dans un cadre doré. Presque tout est gris, et pourtant aucun gris n'est le même : le mur éclairé tire vers le jaune, la pièce voisine vers le bleu, la porte vers le blanc bleuté. Exercice : comparez le gris du mur, au centre, avec celui de la pièce du fond. Puis regardez le cadre doré : au milieu de ces gris, ce petit or paraît très vif.",
+        "compare": "Comme Guo Xi avec l'encre, Hammershøi travaille presque sans couleur ; mais ses gris sont colorés, chauds ou froids.",
+        "image": "images/expositions/couleur-hammershoi-chevalet.jpg"
       },
       {
         "title": "Étude de couleurs. Carrés avec cercles concentriques",
@@ -484,8 +605,19 @@
         "museum": "Städtische Galerie im Lenbachhaus, Munich",
         "image": "images/expositions/etude-de-couleurs-kandinsky.jpg",
         "credit": "Städtische Galerie im Lenbachhaus, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Wassily_Kandinsky_Color_Study._Squares_with_Concentric_Circles.jpg), domaine public",
-        "analysis": "Leçon 20 — Une même forme, douze accords. Kandinsky, peintre russe installé à Munich, a peint à l'aquarelle douze carrés, disposés sur trois rangs et chacun rempli de cercles concentriques de couleurs différentes. C'est une étude, presque une expérience de laboratoire : la forme ne change pas, seules les couleurs et leur ordre changent. Exercice : cherchez le jaune dans plusieurs carrés. À côté du violet ou du bleu, il semble rayonner et avancer ; à côté de l'orangé ou du rouge, il paraît plus terne et se fond avec eux. Kandinsky pensait que chaque couleur a un son, comme un instrument : le jaune une trompette, le bleu profond un orgue.",
+        "analysis": "Leçon 27 — Une même forme, douze accords. Kandinsky, peintre russe installé à Munich, a peint à l'aquarelle douze carrés, disposés sur trois rangs et chacun rempli de cercles concentriques de couleurs différentes. C'est une étude, presque une expérience de laboratoire : la forme ne change pas, seules les couleurs et leur ordre changent. Exercice : cherchez le jaune dans plusieurs carrés. À côté du violet ou du bleu, il semble rayonner et avancer ; à côté de l'orangé ou du rouge, il paraît plus terne et se fond avec eux. Kandinsky pensait que chaque couleur a un son, comme un instrument : le jaune une trompette, le bleu profond un orgue.",
         "compare": "Trente-sept ans avant les Hommages au carré d'Albers, ce sont déjà des formes simples emboîtées, qui servent seulement à faire jouer les couleurs. Kandinsky enseigna ensuite au Bauhaus, comme Paul Klee, à l'époque où Josef Albers y était étudiant, puis professeur à leurs côtés."
+      },
+      {
+        "title": "Autoportrait sur fond noir",
+        "artist": "Helene Schjerfbeck",
+        "country": "Finlande",
+        "period": "1915",
+        "museum": "Ateneum, Galerie nationale de Finlande, Helsinki",
+        "credit": "Galerie nationale de Finlande, musée Ateneum (https://www.kansallisgalleria.fi/en/object/399658), domaine public (CC0)",
+        "analysis": "Leçon 28 — Un visage fait de toutes les couleurs. Helene Schjerfbeck se peint devant un fond noir, son nom inscrit en haut du tableau. Son visage n'est pas peint en « couleur chair » : le blanc crème y côtoie le rose des joues, le violet et le gris-bleu des ombres autour des yeux et du nez. À gauche, un pot rouge-orangé rempli de pinceaux rappelle son métier. Exercice : cherchez dans le visage du violet, du bleu, du vert. Sur le fond noir, ces couleurs pâles paraissent lumineuses.",
+        "compare": "Comparez avec Alter Klang de Klee : un fond sombre qui allume les couleurs ; ici, c'est un visage qui s'éclaire.",
+        "image": "images/expositions/couleur-schjerfbeck-autoportrait.jpg"
       },
       {
         "title": "Le Cygne, n° 17 (série SUW, groupe IX)",
@@ -495,8 +627,19 @@
         "museum": "Fondation Hilma af Klint, Stockholm",
         "image": "images/collection/cygne-hilma-af-klint.jpg",
         "credit": "Fondation Hilma af Klint, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Hilma_af_Klint,_1915,_Svanen,_No._17.jpg), domaine public",
-        "analysis": "Leçon 21 — Une couleur peut en paraître deux. C'est l'expérience la plus célèbre d'Albers : une même couleur, posée sur deux fonds différents, semble devenir deux couleurs. Ici, un seul rouge couvre tout le fond de la toile. Regardez-le près de l'anneau blanc, à gauche, puis près de l'anneau bleu, à droite : à côté du blanc, il paraît plus sombre et plus profond ; à côté du bleu, plus chaud, presque orangé. Exercice : fixez la petite flèche au centre pendant une trentaine de secondes, puis regardez un mur blanc. Une image apparaît, aux couleurs inversées : c'est l'image rémanente, autre phénomène étudié par Albers.",
+        "analysis": "Leçon 29 — Une couleur peut en paraître deux. C'est l'expérience la plus célèbre d'Albers : une même couleur, posée sur deux fonds différents, semble devenir deux couleurs. Ici, un seul rouge couvre tout le fond de la toile. Regardez-le près de l'anneau blanc, à gauche, puis près de l'anneau bleu, à droite : à côté du blanc, il paraît plus sombre et plus profond ; à côté du bleu, plus chaud, presque orangé. Exercice : fixez la petite flèche au centre pendant une trentaine de secondes, puis regardez un mur blanc. Une image apparaît, aux couleurs inversées : c'est l'image rémanente, autre phénomène étudié par Albers.",
         "compare": "Peint trente-cinq ans avant les premiers Hommages au carré d'Albers (1950), ce tableau pose déjà les mêmes questions avec des formes simples : un cercle au lieu d'un carré, et la couleur pour seul sujet. Longtemps restée inconnue, Hilma af Klint compte aujourd'hui parmi les pionnières de l'abstraction."
+      },
+      {
+        "title": "Pagne kente (adanuvor)",
+        "artist": "Tisserands d'Agotime-Afegame",
+        "country": "Ghana",
+        "period": "début du XXe siècle",
+        "museum": "Wereldmuseum, Pays-Bas",
+        "credit": "Wereldmuseum, Pays-Bas (https://hdl.handle.net/20.500.11840/842862), domaine public (CC0), via Europeana",
+        "analysis": "Leçon 30 — Un fond qui relie les couleurs. Ce pagne d'homme en soie et coton a été tissé à Agotime-Afegame, l'un des trois villages agotime où l'on parle encore le dangme ; le texte tissé dans l'étoffe, en dangme, évoque un lieu où les Agotime ont séjourné avant de migrer vers leur région actuelle. Sur un fond vert, des centaines de petits carrés rayés de rouge, d'orange, de jaune, de rose et de bleu alternent avec des motifs d'animaux, de mains, de personnages et des lettres. Exercice : regardez un carré orange posé sur le vert, puis un carré orange entouré de rouge. Le même orange ne paraît pas le même.",
+        "compare": "Comme le huipil du Guatemala, un textile où le voisinage des couleurs crée la variété ; ici, le vert du fond relie tout.",
+        "image": "images/expositions/couleur-kente-agotime.jpg"
       },
       {
         "title": "Carnaval dans la neige",
@@ -506,7 +649,7 @@
         "museum": "Cleveland Museum of Art",
         "image": "images/expositions/carnaval-dans-la-neige-klee.jpg",
         "credit": "Cleveland Museum of Art (https://www.clevelandart.org/art/1969.46), domaine public (CC0)",
-        "analysis": "Leçon 22 — De petites couleurs vives sur un fond doux. Paul Klee peint cette aquarelle à Weimar, où il enseigne au Bauhaus. Le fond est fait de lavis légers et transparents, violets, roses, gris-bleu et verts, qui se fondent les uns dans les autres comme de la neige au crépuscule. Par-dessus, Klee pose quelques petites formes de couleurs pures et franches : une croix bleue, des flèches et des points rouges, des gouttes noires, et deux grandes figures de carnaval presque blanches. Exercice : regardez la croix bleue en haut. Sur ce fond pâle et doux, ce petit bleu saturé paraît plus intense que s'il était entouré d'autres couleurs vives. Et le blanc des figures : paraît-il froid comme la neige, ou chaud, presque crème, à côté du violet ?",
+        "analysis": "Leçon 31 — De petites couleurs vives sur un fond doux. Paul Klee peint cette aquarelle à Weimar, où il enseigne au Bauhaus. Le fond est fait de lavis légers et transparents, violets, roses, gris-bleu et verts, qui se fondent les uns dans les autres comme de la neige au crépuscule. Par-dessus, Klee pose quelques petites formes de couleurs pures et franches : une croix bleue, des flèches et des points rouges, des gouttes noires, et deux grandes figures de carnaval presque blanches. Exercice : regardez la croix bleue en haut. Sur ce fond pâle et doux, ce petit bleu saturé paraît plus intense que s'il était entouré d'autres couleurs vives. Et le blanc des figures : paraît-il froid comme la neige, ou chaud, presque crème, à côté du violet ?",
         "compare": "Albers était étudiant au Bauhaus à Weimar quand Klee y peignait cette aquarelle ; ils y devinrent ensuite collègues. Comparez avec la Bhairavi Ragini : là aussi, un fond uni fait chanter quelques couleurs pures."
       },
       {
@@ -517,17 +660,28 @@
         "museum": "Kunstmuseum Basel",
         "image": "images/expositions/alter-klang-klee.jpg",
         "credit": "Kunstmuseum Basel, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Alter_Klang,_1925_-_Paul_Klee.jpg), domaine public",
-        "analysis": "Leçon 23 — Une couleur s'allume dans le noir. Paul Klee, né près de Berne en Suisse et professeur au Bauhaus, peint ce petit tableau à l'huile sur carton en 1925. Il est fait de carrés irréguliers, posés comme un damier un peu de travers. Au centre, les carrés sont clairs et chauds : jaune, saumon, vert tendre. Vers les bords, ils s'assombrissent peu à peu, bruns, violets, gris-bleu, jusqu'à se perdre dans un fond presque noir. Exercice : fixez le petit carré jaune, un peu à gauche du centre. Entouré de couleurs sombres, il semble briller comme une lumière. Imaginez-le sur un fond blanc : il paraîtrait bien plus terne. Klee, qui était aussi violoniste, a donné à ce tableau un titre musical : les couleurs y montent et descendent comme des notes.",
-        "compare": "La même année, Albers devient lui-même professeur au Bauhaus. Comparez avec Carnaval dans la neige (leçon 22) : deux ans plus tôt, Klee posait des couleurs vives sur un fond pâle ; ici, il fait l'inverse, et c'est le fond sombre qui allume les couleurs. Comme les carrés de Kandinsky (leçon 20), une forme simple répétée laisse toute la place à la couleur."
+        "analysis": "Leçon 32 — Une couleur s'allume dans le noir. Paul Klee, né près de Berne en Suisse et professeur au Bauhaus, peint ce petit tableau à l'huile sur carton en 1925. Il est fait de carrés irréguliers, posés comme un damier un peu de travers. Au centre, les carrés sont clairs et chauds : jaune, saumon, vert tendre. Vers les bords, ils s'assombrissent peu à peu, bruns, violets, gris-bleu, jusqu'à se perdre dans un fond presque noir. Exercice : fixez le petit carré jaune, un peu à gauche du centre. Entouré de couleurs sombres, il semble briller comme une lumière. Imaginez-le sur un fond blanc : il paraîtrait bien plus terne. Klee, qui était aussi violoniste, a donné à ce tableau un titre musical : les couleurs y montent et descendent comme des notes.",
+        "compare": "La même année, Albers devient lui-même professeur au Bauhaus. Comparez avec Carnaval dans la neige (leçon 31) : deux ans plus tôt, Klee posait des couleurs vives sur un fond pâle ; ici, il fait l'inverse, et c'est le fond sombre qui allume les couleurs. Comme les carrés de Kandinsky (leçon 27), une forme simple répétée laisse toute la place à la couleur."
+      },
+      {
+        "title": "Trois jeunes filles",
+        "artist": "Amrita Sher-Gil",
+        "country": "Inde",
+        "period": "1935",
+        "museum": "National Gallery of Modern Art, New Delhi",
+        "credit": "National Gallery of Modern Art, New Delhi, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Group_of_Three_Girls_1935.jpg), domaine public",
+        "analysis": "Leçon 33 — Deux rouges côte à côte. Amrita Sher-Gil, peintre indienne et hongroise, peint ces trois jeunes filles en 1935, peu après son retour d'Europe en Inde ; le tableau reçoit deux ans plus tard la médaille d'or de la Bombay Art Society. Au centre, un voile rouge-orangé ; à droite, un vêtement d'un rouge plus profond, presque carmin ; à gauche, un châle d'un vert très pâle. Exercice : comparez les deux rouges. Puis regardez-les à côté du châle vert pâle : près de lui, ils paraissent plus ardents encore.",
+        "compare": "Sher-Gil admirait Gauguin : comme dans Femmes de Tahiti, de grands aplats de couleur chaude se répondent, et les visages sont graves.",
+        "image": "images/expositions/couleur-sher-gil-trois-filles.jpg"
       }
     ]
   },
   {
     "title": "Nature, art et bien-être",
-    "subtitle": "Du jardin d'un Égyptien d'il y a 4 000 ans aux lacs du Canada : vingt et une visions de la nature qui font du bien, de vingt et un pays et des cinq continents, et ce qu'en dit la science",
+    "subtitle": "Du jardin d'un Égyptien d'il y a 4 000 ans aux lacs du Canada : vingt-neuf visions de la nature qui font du bien, de vingt-cinq pays et des cinq continents, et ce qu'en dit la science",
     "status": "published",
     "theme": "La nature dans l'art mondial",
-    "intro": "Bien avant les laboratoires, les humains ont su que la nature leur faisait du bien : les Égyptiens emportaient leur jardin dans la tombe, les Persans en tissaient sur leurs tapis, les lettrés chinois se promenaient dans des rouleaux de montagnes sans quitter leur bureau. Depuis quarante ans, la recherche confirme et précise cette intuition : regarder un paysage, marcher dans un parc, visiter un musée ou dessiner apaisent le stress, améliorent l'humeur et sont associés à une meilleure santé et à une vie plus longue. Cette exposition réunit vingt et une œuvres de vingt et un pays, des jardins, des fleurs, des rivières, des forêts, des volcans et des clairs de lune, et présente, après les œuvres, ce que disent les études, avec leurs références. Prenez votre temps : regarder lentement fait partie de l'expérience.",
+    "intro": "Bien avant les laboratoires, les humains ont su que la nature leur faisait du bien : les Égyptiens emportaient leur jardin dans la tombe, les Persans en tissaient sur leurs tapis, les lettrés chinois se promenaient dans des rouleaux de montagnes sans quitter leur bureau. Depuis quarante ans, la recherche confirme et précise cette intuition : regarder un paysage, marcher dans un parc, visiter un musée ou dessiner apaisent le stress, améliorent l'humeur et sont associés à une meilleure santé et à une vie plus longue. Cette exposition réunit vingt-neuf œuvres de vingt-cinq pays, des jardins, des fleurs, des rivières, des forêts, des volcans et des clairs de lune, et présente, après les œuvres, ce que disent les études, avec leurs références. Prenez votre temps : regarder lentement fait partie de l'expérience.",
     "minimum": 20,
     "search": {
       "keywords": "landscape garden",
@@ -579,6 +733,17 @@
         "compare": "Comme les Vieux arbres de Guo Xi, un paysage où le regard se promène à son rythme."
       },
       {
+        "title": "Vue générale des monts Geumgang",
+        "artist": "Jeong Seon",
+        "country": "Corée",
+        "period": "1734",
+        "museum": "Ho-Am Art Museum (Leeum), Yongin, Corée du Sud",
+        "credit": "Ho-Am Art Museum, Yongin, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Jeong_Seon-Geumgangjeondo.jpg), domaine public",
+        "analysis": "Jeong Seon a peint ces « monts de Diamant », les Geumgang, à l'encre et aux couleurs légères sur papier, en 1734. Il ne copie pas un seul point de vue : il rassemble toute la chaîne en une seule image ronde, comme vue d'en haut. Des centaines de pics pointus et clairs se serrent les uns contre les autres, tandis que des collines plus sombres et boisées les entourent à gauche. Le regard peut s'y promener longtemps, d'un sommet à l'autre, comme lors d'une marche en montagne.",
+        "compare": "Comme Guo Xi en Chine, un paysage où l'on se promène du regard ; mais Jeong Seon peint des montagnes réelles de son pays.",
+        "image": "images/expositions/nature-jeong-seon-geumgang.jpg"
+      },
+      {
         "title": "Vieux arbres, lointain plat",
         "artist": "Guo Xi",
         "country": "Chine",
@@ -599,6 +764,17 @@
         "analysis": "Sur ces paravents dorés, Kōrin peint les iris d'un épisode des Contes d'Ise, où un poète en voyage s'arrête à Yatsuhashi, devant un marais fleuri, et pense à ceux qu'il aime. Le pont de planches zigzague parmi les fleurs ; on a envie de le suivre. Au Japon, la contemplation des saisons, fleurs de cerisier au printemps, iris en été, érables à l'automne, est un art de vivre.",
         "museum": "The Metropolitan Museum of Art, New York",
         "compare": "Comme les Nymphéas de Monet, des fleurs d'eau qui envahissent tout le champ de l'image."
+      },
+      {
+        "title": "Le Jardin des pruniers à Kameido",
+        "artist": "Utagawa Hiroshige",
+        "country": "Japon",
+        "period": "1857",
+        "museum": "Rijksmuseum, Amsterdam",
+        "credit": "Rijksmuseum, Amsterdam (https://www.rijksmuseum.nl/en/collection/RP-P-1956-743), domaine public",
+        "analysis": "Hiroshige nous place tout près d'un vieux prunier en fleurs : ses branches sombres traversent l'image au premier plan, et c'est entre elles que l'on découvre le verger blanc de fleurs, avec, au loin, des promeneurs venus pique-niquer. À gauche, on aperçoit une partie de la porte d'entrée. Le ciel rouge vif fait ressortir les fleurs blanches.",
+        "compare": "Van Gogh, qui a peint les Iris de cette exposition, a copié cette estampe en 1887 : la nature japonaise a nourri son regard.",
+        "image": "images/expositions/nature-hiroshige-kameido.jpg"
       },
       {
         "title": "Panneau de carreaux",
@@ -642,6 +818,39 @@
         "museum": "The Metropolitan Museum of Art, New York"
       },
       {
+        "title": "Paysage d'automne au lac Pielisjärvi",
+        "artist": "Eero Järnefelt",
+        "country": "Finlande",
+        "period": "1899",
+        "museum": "Ateneum, Galerie nationale de Finlande, Helsinki",
+        "credit": "Galerie nationale de Finlande, musée Ateneum (https://www.kansallisgalleria.fi/en/object/617656), domaine public (CC0)",
+        "analysis": "Ce très long tableau, presque deux mètres de large, offre une vue panoramique sur le lac Pielisjärvi, dans l'est de la Finlande. Au premier plan, des collines rocheuses se couvrent de bouleaux jaunes et orangés ; plus loin, l'eau grise et calme s'étend jusqu'à des îles et des collines où s'accrochent des nuages. Le regard glisse lentement de gauche à droite, des couleurs chaudes de l'automne au calme gris du lac.",
+        "compare": "Comme Le Pin gris de Tom Thomson au Canada, un paysage de lacs et de forêts du Nord, aux couleurs de l'automne.",
+        "image": "images/expositions/nature-jarnefelt-pielisjarvi.jpg"
+      },
+      {
+        "title": "Oies sauvages se posant",
+        "artist": "Bruno Liljefors",
+        "country": "Suède",
+        "period": "1907",
+        "museum": "Nationalmuseum, Stockholm",
+        "credit": "Nationalmuseum, Stockholm (http://collection.nationalmuseum.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=18653&viewType=detailView), domaine public",
+        "analysis": "Bruno Liljefors peint une bande d'oies sauvages qui se pose sur un marais, dans un tableau immense de plus de trois mètres et demi de large. Les ailes encore ouvertes, les pattes tendues, les oies descendent vers des flaques qui reflètent le ciel pâle. Tout est gris, beige et brun : seules les pattes orange des oiseaux réchauffent la scène. On a l'impression d'entendre le bruit des ailes dans le silence du marais.",
+        "compare": "Comparez avec les Oies sauvages se posant sur un banc de sable du peintre coréen : le même instant, saisi à des milliers de kilomètres et à des siècles de distance.",
+        "image": "images/expositions/nature-liljefors-oies.jpg"
+      },
+      {
+        "title": "Sur la rive. Jour de printemps",
+        "artist": "Bruno Liljefors",
+        "country": "Suède",
+        "period": "années 1880",
+        "museum": "Nationalmuseum, Stockholm",
+        "credit": "Nationalmuseum, Stockholm (http://collection.nationalmuseum.se/eMuseumPlus?service=ExternalInterface&module=collection&objectId=22579&viewType=detailView), domaine public",
+        "analysis": "Liljefors a séjourné en 1883, 1884 et 1887 dans la colonie de peintres de Grez-sur-Loing, en France. Il y peint cette vue sur le Loing au cadrage inattendu : la proue rouge d'une barque apparaît à peine au bord gauche. Dans une lettre du printemps 1884, il décrit le village : « Une rivière traverse le village, des prairies tout autour avec des saules au bord de l'eau ; les roseaux secs de l'an passé y restent et sont d'une couleur si joliment divine contre l'herbe nouvelle d'un vert clair. »",
+        "compare": "Comme les promeneurs de Købke au bord du lac Sortedam, une nature toute simple, au bord de l'eau, à deux pas d'un village.",
+        "image": "images/expositions/nature-liljefors-printemps.jpg"
+      },
+      {
         "title": "Deux hommes contemplant la lune",
         "artist": "Caspar David Friedrich",
         "country": "Allemagne",
@@ -651,6 +860,17 @@
         "analysis": "Deux amis, de dos, regardent la lune se lever derrière les arbres. Friedrich ne peint pas ce qu'ils voient : il nous invite à regarder avec eux, à partager leur silence. Ce simple moment de contemplation à deux réunit deux sources de bien-être que la recherche connaît bien, la nature et le lien avec les autres.",
         "museum": "The Metropolitan Museum of Art, New York",
         "compare": "Comme les promeneurs de Købke au bord du lac, la nature partagée à deux, tout près de chez soi."
+      },
+      {
+        "title": "Paysage des Tatras",
+        "artist": "Ladislav Mednyánszky",
+        "country": "Slovaquie",
+        "period": "1890–1895",
+        "museum": "Galerie nationale slovaque (Slovenská národná galéria)",
+        "credit": "Galerie nationale slovaque (https://www.webumenia.sk/dielo/SVK:SNG.O_2449), domaine public",
+        "analysis": "Les Tatras sont les plus hautes montagnes de Slovaquie. Ici, les sommets enneigés se perdent dans les nuages ; leurs ombres sont bleues et violettes. Devant eux, un lac calme et une bande d'herbe jaune-vert. La peinture est posée à touches rapides et légères. Le tableau est présenté dans l'exposition permanente consacrée au peintre au château de Strážky, en Slovaquie.",
+        "compare": "Comme Le Cap Nord au clair de lune de Balke, une nature immense et silencieuse, peinte avec quelques tons seulement.",
+        "image": "images/expositions/nature-mednyanszky-tatras.jpg"
       },
       {
         "title": "Vue du lac Sortedam depuis le Dosseringen",
@@ -748,6 +968,28 @@
         "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/437323), domaine public (Open Access)",
         "analysis": "Frans Post accompagna de 1637 à 1644 le gouverneur Jean-Maurice de Nassau au Brésil néerlandais : il fut l'un des premiers Européens à peindre les paysages du Nouveau Monde. De retour à Haarlem, il peignit de mémoire, pendant des années, ces collines vertes, ces arbres tropicaux et ce ciel immense. Les petits personnages de ses tableaux sont souvent des Africains réduits en esclavage, qui travaillaient dans les plantations de canne à sucre : la beauté du paysage ne doit pas faire oublier l'histoire coloniale qu'il cache.",
         "museum": "The Metropolitan Museum of Art, New York"
+      },
+      {
+        "title": "Eau dormante",
+        "artist": "Antônio Parreiras",
+        "country": "Brésil",
+        "period": "1894",
+        "museum": "Pinacoteca do Estado de São Paulo",
+        "credit": "Pinacoteca do Estado de São Paulo, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Antonio_Parreiras_-_Still_Water_-_Google_Art_Project.jpg), domaine public",
+        "analysis": "Le peintre brésilien Antônio Parreiras peint sur bois un coin de nature sans rien de spectaculaire : une mare immobile au bord d'une prairie, quelques arbres aux troncs clairs, un ciel bleu. L'eau sombre reflète l'herbe et le ciel. Rien ne bouge ; tout invite à s'arrêter et à respirer.",
+        "compare": "Comparez avec le Paysage brésilien de Frans Post : deux siècles plus tôt, un peintre hollandais découvrait le Brésil ; ici, c'est un Brésilien qui peint la nature de son pays.",
+        "image": "images/expositions/nature-parreiras-eau-dormante.jpg"
+      },
+      {
+        "title": "En pleine nature",
+        "artist": "Martín Malharro",
+        "country": "Argentine",
+        "period": "1901",
+        "museum": "Museo Nacional de Bellas Artes, Buenos Aires",
+        "credit": "Museo Nacional de Bellas Artes, Buenos Aires, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:En_plena_naturaleza.jpg), domaine public",
+        "analysis": "Martín Malharro, peintre argentin, peint en 1901 ce petit tableau au titre parlant, « En pleine nature ». Un chemin clair, un champ jaune, des bosquets d'un vert profond, et au loin une plaine bleutée sous un grand ciel de nuages. La peinture est posée en touches épaisses et vives, et l'on sent le vent dans les herbes à droite. C'est la nature ouverte, à perte de vue.",
+        "compare": "Comme la Vallée de Mexico de Velasco, un grand paysage d'Amérique latine vu de haut, où le regard peut aller très loin.",
+        "image": "images/expositions/nature-malharro-plena-naturaleza.jpg"
       },
       {
         "title": "La force transparente du midi pourpre",
@@ -872,10 +1114,10 @@
   },
   {
     "title": "Masques du monde",
-    "subtitle": "Du Pérou au Japon, de l'Alaska au Gabon : trente-quatre masques de vingt-neuf pays et des cinq continents",
+    "subtitle": "Du Pérou au Japon, de l'Alaska au Gabon : quarante-cinq masques de trente-deux pays et des cinq continents",
     "status": "published",
     "theme": "Corps & identité",
-    "intro": "Un masque cache un visage pour en faire apparaître un autre : celui d'un ancêtre, d'un esprit, d'un dieu, d'un défunt, d'un animal ou d'un personnage de théâtre. De l'Égypte des pharaons au théâtre nô, des Andes aux îles du détroit de Torres, ces trente-quatre masques montrent comment chaque culture a donné un visage à l'invisible. Beaucoup n'étaient pas faits pour être regardés immobiles dans une vitrine, mais portés, dansés et chantés, avec un costume, de la musique et des gestes : imaginez-les en mouvement, à la lumière du feu. Certains masques sacrés, que leurs communautés demandent de ne pas montrer, comme les visages de guérison haudenosaunee ou certains masques hopis et zuñis, ne figurent volontairement pas ici. Plusieurs de ces objets ont quitté leur pays dans des conditions violentes ou contestées : leur histoire est rappelée quand elle est connue.",
+    "intro": "Un masque cache un visage pour en faire apparaître un autre : celui d'un ancêtre, d'un esprit, d'un dieu, d'un défunt, d'un animal ou d'un personnage de théâtre. De l'Égypte des pharaons au théâtre nô, des Andes aux îles du détroit de Torres, ces quarante-cinq masques montrent comment chaque culture a donné un visage à l'invisible. Beaucoup n'étaient pas faits pour être regardés immobiles dans une vitrine, mais portés, dansés et chantés, avec un costume, de la musique et des gestes : imaginez-les en mouvement, à la lumière du feu. Certains masques sacrés, que leurs communautés demandent de ne pas montrer, comme les visages de guérison haudenosaunee ou certains masques hopis et zuñis, ne figurent volontairement pas ici. Plusieurs de ces objets ont quitté leur pays dans des conditions violentes ou contestées : leur histoire est rappelée quand elle est connue.",
     "minimum": 20,
     "search": {
       "keywords": "mask",
@@ -960,6 +1202,17 @@
         "compare": "Comparez avec le masque de Teotihuacan du Met : la même forme de visage, front droit, yeux en amande, bouche entrouverte ; mais ici la pierre nue disparaît sous la couleur."
       },
       {
+        "title": "Grand masque d'encensoir de Teotihuacan",
+        "artist": "Artiste de Teotihuacan",
+        "country": "Mexique",
+        "period": "époque de Teotihuacan",
+        "museum": "Etnografiska museet, Stockholm",
+        "credit": "Etnografiska museet, Stockholm (https://collections.smvk.se/carlotta-em/web/object/1288164), domaine public (CC0), via Europeana",
+        "analysis": "Ce grand visage de terre cuite, sans doute fait dans un moule, ornait un encensoir (incensario) de Teotihuacan. Il a été rapporté par la deuxième expédition suédoise au Mexique, en 1934-1935. Richement peint, surtout en vert, il a des yeux découpés aux formes élégantes et porte sous le nez un ornement décoré de trois crânes. Le masque est abîmé et l'une des pupilles manque.",
+        "compare": "Comparez avec le masque de pierre de Teotihuacan du Met : le même visage calme et régulier, mais celui-ci était peint de couleurs vives et monté sur un encensoir, au milieu de la fumée.",
+        "image": "images/expositions/masque-mexique-incensario.jpg"
+      },
+      {
         "title": "Masque en mosaïque de pierre verte",
         "artist": "Artiste maya",
         "country": "Guatemala",
@@ -969,6 +1222,17 @@
         "credit": "Museo Nacional de Arqueología y Etnología, Guatemala ; photo : Willyman, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Nationalmuseum_f%C3%BCr_Arch%C3%A4ologie_und_Ethnologie,_Guatemala-24.jpg), licence CC BY-SA 4.0",
         "analysis": "Ce visage maya est fait de dizaines de petites plaques de pierre verte, ajustées les unes aux autres comme un puzzle. Les yeux sont incrustés de blanc et de noir, les lèvres et le haut des joues rehaussés de rouge, et de grands disques ornent les oreilles. Au-dessus du front, une petite figure et une plaque gravée forment une coiffe. Ce masque est conservé à Guatemala Ciudad, au musée national d'archéologie et d'ethnologie.",
         "compare": "Le masque de Malinaltepec, au Mexique, est aussi une mosaïque, mais posée sur un visage de pierre ; ici, la mosaïque est le visage lui-même."
+      },
+      {
+        "title": "Masque de danse du singe (« el mico »)",
+        "artist": "Sculpteur de Masagua",
+        "country": "El Salvador",
+        "period": "avant 1899",
+        "museum": "Etnografiska museet, Stockholm",
+        "credit": "Etnografiska museet, Stockholm (https://collections.smvk.se/carlotta-em/web/object/1019235), domaine public (CC0), via Europeana",
+        "analysis": "Ce masque de danse en bois représente un singe, « el mico ». Il vient de Masagua, au Salvador, et est entré au musée à la suite des voyages de recherche du Suédois Carl Vilhelm Hartman en Amérique centrale (1896-1899). Le visage peint en noir avance en un museau carré ; des boutons de métal font les yeux, et une touffe de laine noire nouée d'un ruban rouge forme la chevelure. Avec très peu de moyens, le sculpteur fait surgir un animal malicieux.",
+        "compare": "Comparez avec le masque de kyōgen japonais du Siffleur : deux masques comiques, faits pour faire rire plutôt que pour impressionner.",
+        "image": "images/expositions/masque-el-salvador-mico.jpg"
       },
       {
         "title": "Masque en or",
@@ -1001,6 +1265,17 @@
         "image": "images/expositions/masque-colombie.jpg",
         "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/316699), domaine public (Open Access)",
         "analysis": "Dans la vallée de la Calima, au cœur des Andes colombiennes, les orfèvres martelaient l'or en fines feuilles. Ce masque aux yeux et à la bouche ouverts, flanqué de deux grands disques comme des ornements d'oreilles, accompagnait sans doute un défunt dans sa tombe. L'or, qui ne ternit pas, garde au visage un éclat permanent : pour de nombreux peuples des Andes, il était lié au soleil et à une vie qui ne finit pas."
+      },
+      {
+        "title": "Masque de danse en écorce battue",
+        "artist": "Artiste d'un peuple de l'Amazonie",
+        "country": "Brésil",
+        "period": "avant 1865",
+        "museum": "Etnografiska museet, Stockholm",
+        "credit": "Etnografiska museet, Stockholm (https://collections.smvk.se/carlotta-em/web/object/1027412), domaine public (CC0), via Europeana",
+        "analysis": "Ce masque de danse vient de l'Amazonie brésilienne et se trouve dans les collections suédoises depuis 1865. Il est fait de tissu d'écorce battue, tendu et cousu avec une ficelle de fibres sur une armature tressée. Deux rouleaux d'écorce torsadée forment les sourcils et le nez, trois fentes horizontales les yeux et la bouche, deux disques cousus les oreilles. Le visage est noirci au goudron, avec des traits blancs et jaunes qui rappellent des tatouages, et deux longues touffes d'écorce effilochée pendaient derrière la tête. Le peuple qui l'a fait n'est pas connu avec certitude : un savant l'avait attribué aux Mundurucú, ce que la notice du musée juge sans doute inexact.",
+        "compare": "Comme le masque d'écaille de tortue du détroit de Torres, un masque fait des matériaux de son milieu ; ici, l'écorce de la forêt amazonienne.",
+        "image": "images/expositions/masque-bresil-amazonie.jpg"
       },
       {
         "title": "Masque en platine et or",
@@ -1165,6 +1440,28 @@
         "compare": "Face au masque de nô Waka-onna, impassible et mystérieux, le kyōgen grimace : le même jour, sur la même scène, le public passait des larmes au rire. Le masque de vieillard coréen joue lui aussi de la farce."
       },
       {
+        "title": "Masque de nô : Yamauba, la femme des montagnes",
+        "artist": "Sculpteur japonais",
+        "country": "Japon",
+        "period": "1800–1850",
+        "museum": "Rijksmuseum, Amsterdam",
+        "credit": "Rijksmuseum, Amsterdam, prêt de la Société royale des amis de l'art asiatique (https://www.rijksmuseum.nl/en/collection/AK-MAK-1197), domaine public",
+        "analysis": "Ce masque de théâtre nô représente Yamauba, la femme des montagnes. Le visage de bois, d'un brun doré, est sobre : des yeux étroits, des pommettes marquées, une bouche entrouverte qui laisse voir les dents. Rien n'y est exagéré, et pourtant ce visage paraît à la fois humain et étrange.",
+        "compare": "Comparez avec la Waka-onna, la jeune femme du nô : même style épuré, mais ici les traits creusés disent l'âge et l'étrangeté.",
+        "image": "images/expositions/masque-japon-yamauba.jpg"
+      },
+      {
+        "title": "Masque de tengu au bec d'oiseau",
+        "artist": "Sculpteur de Kyoto",
+        "country": "Japon",
+        "period": "avant 1885",
+        "museum": "Etnografiska museet, Stockholm",
+        "credit": "Etnografiska museet, Stockholm (https://collections.smvk.se/carlotta-em/web/object/1001673), domaine public (CC0), via Europeana",
+        "analysis": "Ce masque de théâtre de Kyoto est décrit par le musée comme un masque de diable au bec d'oiseau, nommé « sho tengu ». Les cheveux et les sourcils sont en crin sombre ; la face, d'un or ancien, a noirci avec le temps. Il a été rapporté par le navire suédois Vanadis lors de son tour du monde de 1883-1885.",
+        "compare": "Comme le singe du Salvador, un visage d'animal porté par un humain ; mais ici, l'oiseau et le diable se mêlent.",
+        "image": "images/expositions/masque-japon-tengu.jpg"
+      },
+      {
         "title": "Masque de vieillard",
         "artist": "Sculpteur coréen",
         "country": "Corée",
@@ -1208,6 +1505,50 @@
         "analysis": "À l'époque où l'on bâtissait le temple de Borobudur, les orfèvres de Java central travaillaient l'or avec une grande finesse. Ce petit masque au visage apaisé, aux yeux mi-clos, était peut-être posé sur le visage d'un défunt de haut rang ou fixé sur une statue. À Java, le masque deviendra aussi un art vivant : le topeng, théâtre dansé où un seul danseur change de masque pour incarner rois, serviteurs et démons."
       },
       {
+        "title": "Masque topeng d'un guerrier de l'armée des singes",
+        "artist": "Sculpteur javanais",
+        "country": "Indonésie (Java)",
+        "period": "XIXe siècle",
+        "museum": "Rijksmuseum, Amsterdam",
+        "credit": "Rijksmuseum, Amsterdam, prêt de la Société royale des amis de l'art asiatique (https://www.rijksmuseum.nl/en/collection/AK-MAK-261), domaine public",
+        "analysis": "Ce masque topeng de Java représente un guerrier de l'armée des singes : le visage est peint en bleu clair, les sourcils et les cheveux en noir, et les ornements entre les mèches sont dorés. Les grands yeux cernés de noir et la bouche aux lèvres épaisses donnent à ce singe une expression presque humaine.",
+        "compare": "Comparez avec le masque de Pentul, javanais lui aussi, mais d'un tout autre caractère : ici, la couleur bleue suffit à dire qu'il ne s'agit pas d'un homme.",
+        "image": "images/expositions/masque-java-singe.jpg"
+      },
+      {
+        "title": "Masque de Pentul, serviteur du héros Panji",
+        "artist": "Sculpteur javanais",
+        "country": "Indonésie (Java)",
+        "period": "XIXe siècle",
+        "museum": "Rijksmuseum, Amsterdam",
+        "credit": "Rijksmuseum, Amsterdam, prêt de la Société royale des amis de l'art asiatique (https://www.rijksmuseum.nl/en/collection/AK-MAK-1243), domaine public",
+        "analysis": "Ce masque de bois javanais, où restent des traces de peinture, est celui de Pentul, le plus âgé des serviteurs du héros Panji : un visage ridé, au nez rond et aux joues gonflées. Il n'a pas de mâchoire inférieure, et c'est voulu, précise la notice du musée : le bas du visage de l'acteur reste libre.",
+        "compare": "Avec le masque de singe guerrier, deux masques javanais du XIXe siècle aux caractères opposés.",
+        "image": "images/expositions/masque-java-pentul.jpg"
+      },
+      {
+        "title": "Masque de tigre (kotiya) du théâtre kolam",
+        "artist": "Sculpteur de la côte sud-ouest du Sri Lanka",
+        "country": "Sri Lanka",
+        "period": "avant 1916",
+        "museum": "Etnografiska museet, Stockholm",
+        "credit": "Etnografiska museet, Stockholm (https://collections.smvk.se/carlotta-em/web/object/1023299), domaine public (CC0), via Europeana",
+        "analysis": "Le kolam est un théâtre masqué de la côte sud-ouest du Sri Lanka. Ce tigre en est l'un des personnages animaux : il apparaît dans une danse en solo ou dans la partie racontée du spectacle. Il est sculpté dans le bois de vel-kaduru, avec des oreilles en cuir : peint en jaune, tacheté de rouge cerclé de noir, il ouvre une large gueule aux quatre crocs, d'où sort une langue de bois rouge recourbée vers le haut. La notice du musée a été rédigée par un spécialiste sri-lankais des masques, le docteur M. H. Goonatilleka.",
+        "compare": "Comme le masque de buffle bwa du Burkina Faso, un animal puissant prend vie dans la danse ; mais ici, c'est un personnage de théâtre, qui raconte une histoire.",
+        "image": "images/expositions/masque-sri-lanka-kolam.jpg"
+      },
+      {
+        "title": "Masque de chacal (nariya)",
+        "artist": "Sculpteur de la côte sud-ouest du Sri Lanka",
+        "country": "Sri Lanka",
+        "period": "avant 1916",
+        "museum": "Etnografiska museet, Stockholm",
+        "credit": "Etnografiska museet, Stockholm (https://collections.smvk.se/carlotta-em/web/object/1023408), domaine public (CC0), via Europeana",
+        "analysis": "Ce masque de bois de vel-kaduru représente un chacal ou un renard, nariya, personnage animal de l'histoire du roi Maname, l'un des récits joués dans le théâtre masqué du Sri Lanka. Sa forme allongée, peinte en noir, ressemble plutôt à celle d'un crocodile, note le spécialiste sri-lankais M. H. Goonatilleka, qui a rédigé la notice : une gueule grande ouverte, hérissée de dents blanches.",
+        "compare": "Comparez avec le tigre du même théâtre kolam : deux animaux, l'un aux couleurs éclatantes, l'autre tout en noir.",
+        "image": "images/expositions/masque-sri-lanka-chacal.jpg"
+      },
+      {
         "title": "Masque",
         "artist": "Sculpteur tolai",
         "country": "Papouasie-Nouvelle-Guinée",
@@ -1249,6 +1590,28 @@
         "credit": "Musée du site de Jinsha, Chengdu ; photo : Gary Todd, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:2014_Jinsha_Gold_Mask_a.jpg), domaine public (CC0)",
         "analysis": "Ce masque a été trouvé sur le site de Jinsha, à Chengdu, dans le Sichuan, et il y est toujours exposé, dans le musée du site. C'est une fine feuille d'or martelée. Le visage est large et anguleux : de grands yeux en amande évidés, un nez droit en relief, une bouche réduite à une fente et de grandes oreilles percées. Sans aucune couleur ni décor ajouté, l'or seul et ses reflets suffisent à faire de ce visage une apparition.",
         "compare": "À la même époque, dans le nord de la Chine, les artistes Zhou ornaient leurs objets de masques d'animaux, comme celui du Met : deux styles très différents dans la Chine de l'âge du bronze. Comparez aussi avec les masques d'or des Amériques, faits de la même façon, en feuille martelée."
+      },
+      {
+        "title": "Masque de danse bouddhique à trois yeux",
+        "artist": "Atelier de Chengde (Jehol)",
+        "country": "Chine",
+        "period": "avant 1930",
+        "museum": "Etnografiska museet, Stockholm",
+        "credit": "Etnografiska museet, Stockholm (https://collections.smvk.se/carlotta-em/web/object/1016499), domaine public (CC0), via Europeana",
+        "analysis": "Ce masque de papier mâché laqué, à la face dorée, servait aux danses masquées des temples bouddhiques de tradition tibétaine. Il a un troisième œil vertical peint en noir au milieu du front et porte de grandes boucles d'oreilles ajourées. L'expédition suédoise de Sven Hedin l'a acheté en juillet 1930 au temple Da Fo Ci de Jehol, l'actuelle Chengde, au nord de Pékin, avec tout un ensemble de masques de danse. Le carnet de l'expédition rapporte le prix payé : 200 dollars mexicains pour trente-quatre objets.",
+        "compare": "Comparez avec le masque de danse cham du Tibet : la même tradition de danses masquées dans les monastères, ici dans un temple de Chine du Nord.",
+        "image": "images/expositions/masque-chine-chengde.jpg"
+      },
+      {
+        "title": "Masque de danse d'un temple lamaïste de Pékin",
+        "artist": "Atelier de Pékin",
+        "country": "Chine",
+        "period": "avant 1930",
+        "museum": "Etnografiska museet, Stockholm",
+        "credit": "Etnografiska museet, Stockholm (https://collections.smvk.se/carlotta-em/web/object/1010699), domaine public (CC0), via Europeana",
+        "analysis": "Ce masque de danse en papier mâché vient d'un temple bouddhique de tradition tibétaine de Pékin. Le visage est peint en bleu, avec des yeux blancs, des sourcils, des narines et une bouche rouges, et porte un chapeau pointu rayé. Le catalogue de l'expédition de Sven Hedin, qui l'a acheté à Pékin le 16 janvier 1930, le décrit comme un masque de diable.",
+        "compare": "Comparez avec le masque doré de Chengde, acheté la même année par la même expédition : un diable bleu au sourire inquiétant, face à une divinité d'or à trois yeux.",
+        "image": "images/expositions/masque-chine-pekin.jpg"
       }
     ]
   },
@@ -1532,7 +1895,7 @@
   },
   {
     "title": "Croyances et spiritualités du monde",
-    "subtitle": "Du Livre des morts égyptien aux îles Fidji : vingt-sept œuvres de vingt et un pays, vingt traditions et des cinq continents",
+    "subtitle": "Du Livre des morts égyptien aux îles Fidji : trente et une œuvres de vingt-quatre pays, vingt traditions et des cinq continents",
     "status": "published",
     "theme": "Croyances & spiritualités du monde",
     "intro": "Partout et à toutes les époques, les êtres humains ont cherché à donner un sens à la vie, à la mort et au monde qui les dépasse. Cette exposition réunit des œuvres nées de traditions très différentes : la religion de l'Égypte ancienne, l'hindouisme, le jaïnisme, le bouddhisme sous ses différentes formes, le shintô, le taoïsme, le judaïsme, le christianisme d'Orient et d'Occident, d'Éthiopie et d'Arménie, l'islam (dont l'art religieux, sans figures, s'exprime par l'écriture et la géométrie de l'architecture) et sa voie mystique, le soufisme, le sikhisme, les religions du Mexique ancien, la divination yoruba et les rites des îles Fidji. Beaucoup sont des enluminures, ces livres sacrés écrits et peints à la main, où l'or et la couleur honorent la parole. Aucune tradition n'est placée au-dessus d'une autre ; les œuvres se répondent deux à deux, et montrent souvent des religions qui se rencontrent et cohabitent. Par respect, l'exposition ne montre pas d'objets que leurs communautés demandent de ne pas exposer, ni de représentation du Prophète de l'islam ; et certaines traditions, notamment autochtones d'Amérique du Nord et d'Australie, ne sont présentes que par cette mention, car leurs objets les plus sacrés n'ont pas leur place dans un musée.",
@@ -1596,6 +1959,28 @@
         "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1945.172.1.b), domaine public (CC0)",
         "analysis": "En Birmanie, devenir moine bouddhiste est un moment important de la vie d'un homme. Les familles offraient alors aux monastères des manuscrits somptueux contenant les textes de l'ordination, lus à voix haute pendant la cérémonie. Les lettres, en langue pali, sont tracées en laque noire épaisse sur des feuilles laquées et dorées ; aux extrémités, des panneaux ornés d'êtres célestes. Offrir un tel livre était une manière de gagner des mérites.",
         "compare": "Comme le Coran bleu, un texte sacré dont l'écriture elle-même devient décor : or et laque ici, or sur parchemin indigo là-bas."
+      },
+      {
+        "title": "Bouddha couronné debout",
+        "artist": "Fondeur thaï",
+        "country": "Thaïlande",
+        "period": "1500–1700",
+        "museum": "Rijksmuseum, Amsterdam",
+        "credit": "Rijksmuseum, Amsterdam, prêt de la Société royale des amis de l'art asiatique (https://www.rijksmuseum.nl/en/collection/AK-MAK-1174), domaine public",
+        "analysis": "Ce Bouddha thaïlandais porte une couronne et des vêtements richement ornés, comme un roi. Le temps l'a abîmé : les mains et une partie des bras, le sommet de la coiffure, le bas de la robe et les pieds ont disparu. Il reste un visage serein sous la couronne, et un corps droit, immobile, couvert de motifs ciselés.",
+        "compare": "Comparez avec le Bouddha de Java, vêtu d'une simple robe de moine : ici, le Bouddha est paré comme un souverain.",
+        "image": "images/expositions/spirit-thailande-bouddha.jpg"
+      },
+      {
+        "title": "Bouddha debout",
+        "artist": "Fondeur de l'est de Java",
+        "country": "Indonésie (Java)",
+        "period": "vers 700–800",
+        "museum": "Rijksmuseum, Amsterdam",
+        "credit": "Rijksmuseum, Amsterdam, prêt de la Société royale des amis de l'art asiatique (https://www.rijksmuseum.nl/en/collection/AK-MAK-193), domaine public",
+        "analysis": "Ce Bouddha de bronze a été coulé dans l'est de Java il y a plus de mille ans, autour d'un noyau semblable à du ciment ; la protubérance au sommet du crâne, signe de son éveil, est en or. Sa main droite levée fait le geste qui rassure, « n'ayez pas peur » ; sa main gauche, le geste de l'enseignement. Sa robe monastique, très fine, laisse deviner le corps. Le pied droit a été refait.",
+        "compare": "Comme le Bouddha du Sri Lanka entouré de ses disciples, le Bouddha enseigne ; ici, il est seul, et ses mains suffisent à dire son message.",
+        "image": "images/expositions/spirit-java-bouddha.jpg"
       },
       {
         "title": "Tara verte",
@@ -1730,6 +2115,17 @@
         "compare": "Comme le Christ du Sinaï, une icône à prier ; mais huit siècles plus tard, la sévérité byzantine a laissé place à une tendresse toute russe."
       },
       {
+        "title": "Petite icône de voyage retrouvée dans une épave",
+        "artist": "Artisan russe",
+        "country": "Russie",
+        "period": "1750–1790",
+        "museum": "Musée de Kymenlaakso, Kotka (Finlande)",
+        "credit": "Musée de Kymenlaakso, via Finna (https://www.finna.fi/Record/kymenlaaksonmuseot.YLEE408:1), licence CC BY 4.0",
+        "analysis": "Cette minuscule icône de métal, haute de moins de cinq centimètres, se portait sur soi au bout d'une chaînette, grâce à l'anneau du haut. Sur sa face usée, on distingue des colonnades et des arcs, et quatre personnages, dont deux ont une auréole : sans doute des épisodes de la vie d'un saint. Elle a été retrouvée par des plongeurs dans l'épave d'un navire de la guerre russo-suédoise de Gustave III (1788-1790) : elle accompagnait sans doute l'un des hommes à bord.",
+        "compare": "Comparez avec La Trinité de Roublev, peinte pour un monastère : la même foi orthodoxe, ici dans un objet de quelques centimètres, fait pour accompagner une personne partout.",
+        "image": "images/expositions/spirit-icone-epave.jpg"
+      },
+      {
         "title": "Page du Codex Borgia",
         "artist": "Peintres mixtèques ou nahuas",
         "country": "Mexique",
@@ -1805,6 +2201,17 @@
         "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/452743), domaine public (Open Access)",
         "analysis": "Ce petit livre ottoman contient une litanie, une prière à réciter, composée au XIIIe siècle par le savant syrien an-Nawawi. Copié à Istanbul ou dans l'empire en 1739, il est orné de dorures, de fleurs et de cadres délicats autour d'une écriture élégante. Ce genre de livre, de petit format, accompagnait la prière personnelle : on le gardait près de soi.",
         "compare": "Comme le Coran bleu, un livre où l'écriture est l'ornement principal ; huit siècles plus tard, l'art du livre ottoman y ajoute la douceur des fleurs."
+      },
+      {
+        "title": "Rouleau du Coran aux noms sacrés",
+        "artist": "Calligraphe et enlumineur iraniens",
+        "country": "Iran",
+        "period": "vers 1750–1850",
+        "museum": "Chester Beatty, Dublin",
+        "credit": "Chester Beatty, Dublin (https://viewer.cbl.ie/viewer/ppnresolver?id=Is_1622), licence CC BY 4.0",
+        "analysis": "Ce rouleau de papier, large de neuf centimètres mais long de près de six mètres, contient tout le texte du Coran, écrit en écriture ghubar, si minuscule qu'elle ressemble de loin à une trame. Il s'ouvre sur un en-tête enluminé d'or, de rouge et de bleu. Dans la masse du texte, le calligraphe a laissé en réserve, en grandes lettres, les noms sacrés pour les chiites : le Prophète Muhammad, sa fille Fatima, son gendre Ali et leurs descendants, les imams. Aucune image : l'écriture seule devient décor et prière.",
+        "compare": "Comme le Coran bleu de Tunisie et le Hizb ottoman, l'art de l'islam fait de l'écriture elle-même une image sacrée.",
+        "image": "images/expositions/spirit-coran-rouleau.jpg"
       },
       {
         "title": "Le bassin sacré et le temple d'Or d'Amritsar",

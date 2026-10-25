@@ -872,10 +872,10 @@
   },
   {
     "title": "Masques du monde",
-    "subtitle": "Du Pérou au Japon, de l'Alaska au Gabon : trente-trois masques de vingt-neuf pays et des cinq continents",
+    "subtitle": "Du Pérou au Japon, de l'Alaska au Gabon : trente-quatre masques de vingt-neuf pays et des cinq continents",
     "status": "published",
     "theme": "Corps & identité",
-    "intro": "Un masque cache un visage pour en faire apparaître un autre : celui d'un ancêtre, d'un esprit, d'un dieu, d'un défunt, d'un animal ou d'un personnage de théâtre. De l'Égypte des pharaons au théâtre nô, des Andes aux îles du détroit de Torres, ces trente-trois masques montrent comment chaque culture a donné un visage à l'invisible. Beaucoup n'étaient pas faits pour être regardés immobiles dans une vitrine, mais portés, dansés et chantés, avec un costume, de la musique et des gestes : imaginez-les en mouvement, à la lumière du feu. Certains masques sacrés, que leurs communautés demandent de ne pas montrer, comme les visages de guérison haudenosaunee ou certains masques hopis et zuñis, ne figurent volontairement pas ici. Plusieurs de ces objets ont quitté leur pays dans des conditions violentes ou contestées : leur histoire est rappelée quand elle est connue.",
+    "intro": "Un masque cache un visage pour en faire apparaître un autre : celui d'un ancêtre, d'un esprit, d'un dieu, d'un défunt, d'un animal ou d'un personnage de théâtre. De l'Égypte des pharaons au théâtre nô, des Andes aux îles du détroit de Torres, ces trente-quatre masques montrent comment chaque culture a donné un visage à l'invisible. Beaucoup n'étaient pas faits pour être regardés immobiles dans une vitrine, mais portés, dansés et chantés, avec un costume, de la musique et des gestes : imaginez-les en mouvement, à la lumière du feu. Certains masques sacrés, que leurs communautés demandent de ne pas montrer, comme les visages de guérison haudenosaunee ou certains masques hopis et zuñis, ne figurent volontairement pas ici. Plusieurs de ces objets ont quitté leur pays dans des conditions violentes ou contestées : leur histoire est rappelée quand elle est connue.",
     "minimum": 20,
     "search": {
       "keywords": "mask",
@@ -925,6 +925,17 @@
         "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/436905), domaine public (Open Access)",
         "analysis": "Dans la Venise du XVIIIe siècle, le masque ne se portait pas seulement au carnaval : on le mettait une bonne partie de l'année pour aller au théâtre, au Ridotto (la maison de jeu) ou à un rendez-vous discret. Pietro Longhi, peintre de la vie vénitienne, en montre ici les deux formes les plus courantes. À droite, un homme porte la bauta, masque blanc au menton saillant qui laissait boire et parler en changeant la voix, avec le tricorne et la cape noire ; la femme en rose porte la moretta, petit ovale de velours noir tenu par un bouton serré entre les dents : celle qui la portait restait muette. À gauche, une jeune femme tient son masque à la main.",
         "compare": "Comme le masque coréen de vieillard, le masque permet d'échapper aux règles de la société : sous la bauta, on ne savait plus qui était noble et qui ne l'était pas. C'est le seul tableau de l'exposition : il montre les masques portés, dans la vie de tous les jours."
+      },
+      {
+        "title": "Masque olmèque en pierre verte",
+        "artist": "Artiste olmèque",
+        "country": "Mexique",
+        "period": "préclassique récent",
+        "museum": "Museo Nacional de Antropología, Mexico",
+        "image": "images/expositions/masque-mexique-olmeque.jpg",
+        "credit": "Museo Nacional de Antropología, Mexico ; photo : Gary Todd, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Olmec_Green_Stone_Mask_with_Traces_of_Cinnabar.jpg), domaine public (CC0)",
+        "analysis": "Ce petit masque de pierre verte, haut d'une dizaine de centimètres seulement, vient de l'État de Guerrero ; il est exposé dans la salle olmèque du musée national d'anthropologie de Mexico. Le visage, de style olmèque, a des yeux en fente sous des paupières lourdes, un nez large et une bouche entrouverte aux coins tombants, la lèvre supérieure en avant. Dans les creux des yeux et de la bouche subsistent des traces rouges de cinabre. La pierre, polie avec soin, est mouchetée de vert clair et sombre.",
+        "compare": "Comparez avec les deux autres masques du Mexique : celui de Teotihuacan est calme et régulier, celui de Malinaltepec couvert de couleurs ; ici, plusieurs siècles plus tôt, c'est l'expression de la bouche qui donne toute sa force au visage."
       },
       {
         "title": "Masque",

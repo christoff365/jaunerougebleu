@@ -28,7 +28,9 @@ const RECHERCHE_TYPES_EUROPEANA = {
   'Icônes': '(icon OR icône OR Ikone OR ikoon OR ikoni OR ikona OR ikon OR icoană OR icoana OR εικόνα OR икона OR icona)',
   'Manuscrits et livres enluminés': '("illuminated manuscript" OR "manuscrit enluminé" OR enluminure OR Buchmalerei OR "book of hours" OR getijdenboek OR Stundenbuch OR "livre d\'heures" OR psalter OR psautier OR antiphonary OR antiphonaire OR graduale OR missale OR évangéliaire OR evangeliarium OR breviarium OR "Qur\'an" OR Koran OR Coran)'
 };
-const SANS_PHOTOS_EUROPEANA = ' AND NOT (photograph OR fotografie OR fotografia OR foto OR postcard OR "carte postale")';
+const SANS_PHOTOS_EUROPEANA = ' AND NOT (photograph OR fotografie OR fotografia OR foto OR postcard OR "carte postale" OR exlibris OR "ex-libris")';
+// Fiches écartées après coup (type ou titre) : photographies, négatifs, cartes postales, ex-libris, icônes modernes
+const PAS_UNE_OEUVRE_ANCIENNE = /photo|fotograf|n[ée]gati|postcard|carte postale|ex.?libris|екслибрис|modern icon|zeiss|camera|projector|pop culture|afbeelding van/i;
 // Licence d'une fiche Europeana, pour le crédit (domaine public, CC0, CC BY, CC BY-SA)
 function licenceEuropeana(url) {
   const u = String(url || '');
@@ -295,6 +297,11 @@ const MUSEES_MONDE = {
     ['Q842858', 14008, 1, 'Nationalmuseum, Stockholm'],
     ['Q132783', 3797, 0, 'Musée de l\'Ermitage, Saint-Pétersbourg'],
     ['Q816669', 73, 1, 'Musée Benaki, Athènes'],
+    ['Q1018775', 100, 1, 'Musée byzantin et chrétien, Athènes'],
+    ['Q183334', 1500, 1, 'Galerie Tretiakov, Moscou'],
+    ['Q211043', 1000, 1, 'Musée russe, Saint-Pétersbourg'],
+    ['Q1319192', 200, 1, 'Musée national d\'art de Roumanie, Bucarest'],
+    ['Q1658131', 50, 0, 'Musée des icônes, Recklinghausen'],
     ['Q668300', 1081, 0, 'Musée Rietberg, Zurich (arts du monde)'],
     ['Q731126', 810, 0, 'J. Paul Getty Museum, Los Angeles'],
     ['Q6352575', 32668, 1, 'Yale Center for British Art, New Haven'],
@@ -641,7 +648,20 @@ function oeuvresWikidata(lignes, n, options) {
   }));
 }
 // Choisit les musées à interroger : ceux de la région demandée, ou un échantillon du monde entier (surtout hors d'Europe)
-function museesPour(region) {
+// Icônes et manuscrits : peu de musées en conservent ; tirer des musées au hasard dans toutes les régions n'en trouvait
+// presque aucun. Pour ces types, on interroge d'abord les musées qui en ont (galerie Tretiakov, Musée russe, Musée byzantin
+// d'Athènes… ; Chester Beatty, Walters, Getty, musée Condé…), dans la région choisie s'il y en a une.
+const MUSEES_PAR_TYPE = {
+  'Icônes': ['Q183334', 'Q211043', 'Q1018775', 'Q1319192', 'Q1658131', 'Q816669', 'Q132783', 'Q210081'],
+  'Manuscrits et livres enluminés': ['Q391976', 'Q210081', 'Q731126', 'Q1236032', 'Q210610', 'Q170495', 'Q6352575']
+};
+function museesPour(region, types) {
+  const dedies = [].concat(...(types || []).map(t => MUSEES_PAR_TYPE[t] || []));
+  if (dedies.length) {
+    const tous = [].concat(...Object.keys(MUSEES_MONDE).filter(r => !region || r === region).map(r => MUSEES_MONDE[r]));
+    const choisis = tous.filter(m => dedies.includes(m[0]));
+    if (choisis.length) return choisis;
+  }
   if (region) return MUSEES_MONDE[region];
   const melange = l => l.slice().sort(() => Math.random() - 0.5);
   return [].concat(...REGIONS_HORS_EUROPE.map(r => melange(MUSEES_MONDE[r]).slice(0, 3)), melange(MUSEES_MONDE.Europe).slice(0, 2));
@@ -925,7 +945,7 @@ const ADAPTATEURS = {
       // ou un thème précis : on ne les interroge alors que pour la peinture et les dessins
       // (le Musée national de Chine décrit des milliers d'objets sans image : aussi lent qu'un très grand catalogue)
       const grandOk = m => (m[1] <= 3000 && m[0] !== 'Q1074318') || (!genres.length && (!types.length || c.ty.some(t => t === 'Peinture' || t === 'Dessins et estampes')));
-      const musees = [...new Map(museesPour(c.region).map(m => [m[0], m])).values()].filter(grandOk).sort(() => Math.random() - 0.5).slice(0, 10);
+      const musees = [...new Map(museesPour(c.region, c.ty).map(m => [m[0], m])).values()].filter(m => grandOk(m) || (MUSEES_PAR_TYPE[c.ty[0]] || []).includes(m[0])).sort(() => Math.random() - 0.5).slice(0, 10);
       if (!musees.length) return Promise.resolve([]);
       const k = Math.max(4, Math.ceil(n * 3 / musees.length));
       const sousRecherche = m => `{ SELECT ?i ?m ?img ?date WHERE {
@@ -1146,7 +1166,7 @@ const ADAPTATEURS = {
       const peintures = c.mvArtiste && MOUVEMENTS_DE_PEINTURE.has(c.mvArtiste);
       const quoi = peintures ? '&qf=' + encodeURIComponent('what:(painting OR paintings OR peinture OR Gemälde OR schilderij OR maalaus OR målning OR maleri OR pintura OR dipinto)') : '';
       const url = debut => RELAIS + '/europeana?query=' + encodeURIComponent(q) + (speciaux.length ? '' : '&theme=art') + '&qf=' + annees + quoi +
-        '&reusability=open&qf=TYPE:IMAGE' + (speciaux.length ? '' : '&qf=RIGHTS:*publicdomain*') + '&media=true&thumbnail=true&rows=' + (n * 3) + '&start=' + (1 + debut) + '&profile=rich';
+        '&reusability=open&qf=TYPE:IMAGE' + (speciaux.length ? '' : '&qf=RIGHTS:*publicdomain*') + '&media=true&thumbnail=true&rows=' + Math.min(100, n * 3) + '&start=' + (1 + debut) + '&profile=rich';
       // Champs en anglais d'Europeana (type, concepts, description : « painting », « oil on canvas », « drawing »…)
       const enAnglais = o => [o.dcTypeLangAware, o.edmConceptPrefLabelLangAware, o.dcDescriptionLangAware].map(x => (x && x.en) || []).flat().join(' ');
       // Année : champ « year », sinon la période indiquée (« 1840/1850 »)
@@ -1155,6 +1175,7 @@ const ADAPTATEURS = {
       const parMusee = {}, plafond = Math.max(2, Math.ceil(n / 3));
       // Recherche d'un artiste : depuis le début (il a souvent peu de fiches, un départ au hasard les manquerait)
       return pageAuHasard(url, c.artiste ? 1 : 50, r => r.items, r => r.totalResults).then(items => items.filter(o => (o.edmIsShownBy || o.edmPreview) && anneeEu(o) !== null)
+        .filter(o => !speciaux.length || !PAS_UNE_OEUVRE_ANCIENNE.test([].concat(o.dcType || [], o.title || []).join(' ') + ' ' + enAnglais(o)))
         .sort(() => Math.random() - 0.5).filter(o => { const m = (o.dataProvider || [''])[0]; parMusee[m] = (parMusee[m] || 0) + 1; return parMusee[m] <= plafond; })
         .slice(0, n).map(o => oeuvre({
           titre: (o.title || ['Sans titre'])[0], langue: o.language && o.language[0] ? o.language[0] : 'en',
@@ -1268,7 +1289,11 @@ function chercherDansLesMusees(criteres, parSource, seulement) {
       : combinaisons;
     // (avec trois mots, un peu plus d'œuvres par recherche : celles qui ne correspondent pas aux choix sont écartées ensuite)
     const nDe = k => Math.max(4, Math.round((parSource || 8) * (varier && parMotsCles(k) ? 1.5 : 1) / combinaisonsDe(k).length));
-    const chercherCombinaison = (k, co) => ADAPTATEURS[k].chercher(Object.assign({}, criteres, co), nDe(k) * (ADAPTATEURS[k].poids || 1)).then(l => {
+    // Icônes et manuscrits : Europeana, la Library of Congress et Wikidata en ont beaucoup plus que les autres catalogues,
+    // on leur en demande donc davantage (sinon l'exposition s'arrêtait à une quinzaine d'œuvres)
+    const rares = criteres.ty.length && criteres.ty.every(t => MUSEES_PAR_TYPE[t]);
+    const poidsDe = k => (ADAPTATEURS[k].poids || 1) * (rares && ['europeana', 'loc', 'wikidata'].includes(k) ? 3 : 1);
+    const chercherCombinaison = (k, co) => ADAPTATEURS[k].chercher(Object.assign({}, criteres, co), nDe(k) * poidsDe(k)).then(l => {
       if (!co.mvArtiste) return l;
       const periode = periodeMouvement(mouvement(co.mvArtiste));
       return l.filter(w => deLArtiste(w, co.artiste) === 2 && (!periode || w.year === null || w.year === undefined || (w.year >= periode[0] && w.year <= periode[1])));

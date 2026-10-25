@@ -131,7 +131,7 @@ function fmtT(s) { return Math.floor(s / 60) + ':' + (s % 60 < 10 ? '0' : '') + 
 // expositions et certains thèmes de la collection (paysages, nature, lumière, vie quotidienne).
 const EXPOS_BIEN_ETRE = ['Nature, art et bien-être', 'Le paysage à travers le temps et les cultures', 'La lumière comme langage universel', 'La couleur est relative'];
 const THEMES_BIEN_ETRE = ['Paysages', 'Nature morte', 'Lumière & couleur', 'Vie quotidienne', 'Abstraction'];
-const RISQUE_BIEN_ETRE = /\b(morts?|mourant\w*|mourir|funéraire\w*|funerar\w*|momie\w*|mumm\w*|tombe|tombeau\w*|tomb|sépult\w*|burial|guerres?|war|wars|bataille\w*|battle\w*|combat\w*|massacre\w*|sang|blood\w*|monstre\w*|monster\w*|dévor\w*|devour\w*|martyr\w*|crucifi\w*|décapit\w*|behead\w*|enfer|hell|squelette\w*|skelet\w*|skull\w*|crâne\w*|naufrage\w*|shipwreck\w*|meurtre\w*|murder\w*|exécution\w*|execution\w*|supplice\w*|tortur\w*|cadavre\w*|corpse\w*|déluge|deluge|apocalyps\w*|violen\w*|viol|rape|chasse|hunt\w*|deuil|mourning|esclav\w*|slave\w*|incendie\w*|lamentation\w*|pietà|pieta|dead|death|dying|killing|slaughter\w*)\b/i;
+const RISQUE_BIEN_ETRE = /\b(morts?|mourant\w*|mourir|funéraire\w*|funerar\w*|momie\w*|mumm\w*|tombe|tombeau\w*|tomb|sépult\w*|burial|guerres?|war|wars|bataille\w*|ronde de nuit|night watch|milice\w*|militia\w*|arme|armes|armé\w*|weapon\w*|soldat\w*|soldier\w*|battle\w*|combat\w*|massacre\w*|sang|blood\w*|monstre\w*|monster\w*|dévor\w*|devour\w*|martyr\w*|crucifi\w*|décapit\w*|behead\w*|enfer|hell|squelette\w*|skelet\w*|skull\w*|crâne\w*|naufrage\w*|shipwreck\w*|meurtre\w*|murder\w*|exécution\w*|execution\w*|supplice\w*|tortur\w*|cadavre\w*|corpse\w*|déluge|deluge|apocalyps\w*|violen\w*|viol|rape|chasse|hunt\w*|deuil|mourning|esclav\w*|slave\w*|incendie\w*|lamentation\w*|pietà|pieta|dead|death|dying|killing|slaughter\w*)\b/i;
 function apaisante(f) {
   if (f.sensible) return false;
   const texte = [f.titre, f.analyse].filter(Boolean).join(' ').replace(/natures? mortes?|still[- ]life/gi, '');
@@ -295,7 +295,9 @@ function startWb() {
   document.querySelectorAll('#mb-row .mbd,#ma-row .mbd').forEach(b => { b.classList.remove('on'); b.setAttribute('aria-pressed', 'false'); });
   document.getElementById('wb-list').style.display = 'none';
   document.getElementById('wb-sess').style.display = 'block';
-  window.scrollTo(0, 0); document.getElementById('sv-h').tabIndex = -1; document.getElementById('sv-h').focus({ preventScroll: true });
+  // La séance commence en haut de l'écran, juste sous le menu : œuvre, guide et minuteur visibles sans défiler
+  const w = document.querySelector('#wb-sess .sv-wrap'), nav = document.querySelector('nav');
+  window.scrollTo(0, Math.max(0, w.getBoundingClientRect().top + window.scrollY - (nav ? nav.offsetHeight : 0) - 8)); document.getElementById('sv-h').tabIndex = -1; document.getElementById('sv-h').focus({ preventScroll: true });
 }
 // Une autre œuvre adaptée à la même intention, sans interrompre le minuteur
 function changerOeuvreWb() {
@@ -344,7 +346,8 @@ function finirSeanceWb() {
   clearInterval(tInt); tInt = null; tRun = false; tDone = true; souffleWb(false); musiqueWb(false); guideWb(consignes().length);
   document.getElementById('t-st').innerHTML = '<span aria-hidden="true">✓</span> Séance terminée';
   document.getElementById('t-btn').style.display = 'none'; document.getElementById('t-suivant').hidden = true;
-  document.getElementById('after-sec').style.display = 'block';
+  const fin = document.getElementById('after-sec'); fin.style.display = 'block';
+  fin.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'nearest' });
 }
 // « À mon rythme » : le visiteur passe lui-même à la consigne suivante
 function consigneSuivanteWb() {

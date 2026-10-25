@@ -278,8 +278,10 @@ function startWb() {
   guideWb(0, true);
   document.getElementById('sv-souffle').hidden = true;
   document.getElementById('sv-souffle-l').hidden = !i.souffle;
-  document.getElementById('sv-souffle-c').checked = wb.souffle = false;
-  document.getElementById('sv-musique-c').checked = wb.musique = false;
+  // Guidage vocal, respiration et musique sont cochés par défaut ; on peut les décocher à tout moment
+  document.getElementById('sv-voix').checked = wb.voix = true;
+  document.getElementById('sv-souffle-c').checked = wb.souffle = true;
+  document.getElementById('sv-musique-c').checked = wb.musique = true;
   document.getElementById('t-ring').textContent = libre ? '∞' : fmtT(tSec);
   document.getElementById('t-ring').setAttribute('aria-label', libre ? 'À mon rythme, sans minuteur' : fmtT(tSec));
   document.getElementById('t-st').textContent = libre ? 'À mon rythme' : 'Prêt à démarrer';

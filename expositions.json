@@ -1,7 +1,7 @@
 [
   {
     "title": "La lumière comme langage universel",
-    "subtitle": "De l'Égypte romaine à l'Australie : vingt-neuf visions de la lumière, de vingt-cinq pays et des cinq continents",
+    "subtitle": "De l'Égypte romaine à l'Australie : trente visions de la lumière, de vingt-cinq pays et des cinq continents",
     "status": "published",
     "theme": "Lumière & ombre à travers les cultures",
     "intro": "Sur dix-sept siècles (vers 200 – 1900) et cinq continents, de l'Égypte à la Chine, de l'Iran à l'Inde, du Japon à Java, de l'Europe au Mexique, aux Caraïbes et à l'Australie, la lumière est le véritable sujet de ces œuvres. Modelé d'un visage, brume qui efface les montagnes, éclat des céramiques d'une mosquée, lampe de verre, feu d'une fête persane ou indienne, auréoles des saints, clair de lune sur la mer, lave d'un volcan, soleil sur l'eau ou dans une pièce vide : naturelle ou divine, intime ou dramatique, peinte ou suggérée par le vide, elle prend dans chaque culture un sens différent.",
@@ -178,6 +178,17 @@
         "image": "images/expositions/lumiere-hiroshige-lievres-lune.jpg"
       },
       {
+        "title": "Pins dans la brume (paravent)",
+        "artist": "Hasegawa Tōhaku",
+        "country": "Japon",
+        "period": "XVIe siècle (époque Azuchi-Momoyama)",
+        "museum": "Musée national de Tokyo",
+        "credit": "Musée national de Tokyo, ColBase (https://colbase.nich.go.jp/collection_items/tnm/A-10471), licence CC BY 4.0",
+        "analysis": "Sur un paravent à six panneaux, peint à la seule encre sur papier, des pins apparaissent et disparaissent dans la brume. Hasegawa Tōhaku n'a pas tracé de contours nets : avec des coups de pinceau rapides et des dégradés d'encre très délicats, il peint, dit la notice du musée, la lumière voilée qui filtre à travers le brouillard et le vent qui couche les arbres. Au loin, derrière les arbres, se devine la silhouette d'une montagne enneigée. Ce paravent, trésor national, passe pour le sommet de la peinture à l'encre au Japon. Le musée propose un jeu : reculez et avancez jusqu'à ce que le sol peint semble prolonger le vôtre ; vous entrez alors dans la pinède.",
+        "compare": "Comme la Danse de poussière dans les rayons du soleil de Hammershøi, une lumière presque immatérielle, peinte avec très peu de couleurs ; mais chez Tōhaku, ce n'est pas un rayon dans une pièce, c'est la brume d'une forêt, faite du blanc du papier laissé vide.",
+        "image": "images/expositions/lumiere-tohaku-pins.jpg"
+      },
+      {
         "title": "Le Dernier Voyage du Téméraire",
         "artist": "Joseph Mallord William Turner",
         "country": "Angleterre",
@@ -334,7 +345,7 @@
   },
   {
     "title": "La couleur est relative",
-    "subtitle": "D'après L'Interaction des couleurs de Josef Albers : trente-six leçons du regard, de l'Égypte ancienne au Bauhaus",
+    "subtitle": "D'après L'Interaction des couleurs de Josef Albers : trente-sept leçons du regard, de l'Égypte ancienne au Bauhaus",
     "status": "published",
     "theme": "Couleur & perception",
     "intro": "« Dans la perception visuelle, une couleur n'est presque jamais vue telle qu'elle est réellement, physiquement. » C'est ainsi que Josef Albers (1888–1976), peintre et professeur au Bauhaus puis aux États-Unis, ouvre son livre L'Interaction des couleurs (1963). Pour lui, une couleur change selon ses voisines, selon sa quantité, selon la lumière : c'est le moyen le plus relatif de l'art. Il l'enseignait non par la théorie mais par l'expérience, avec des papiers colorés. Ses tableaux n'étant pas encore dans le domaine public, cette exposition met ses leçons à l'épreuve d'œuvres de vingt-six pays et des cinq continents, de l'Égypte ancienne et du Pérou des Wari jusqu'au Bauhaus, où Albers fut étudiant puis professeur. Pour chaque œuvre, un exercice du regard vous est proposé.",
@@ -739,15 +750,26 @@
         "analysis": "Leçon 36 — Une couleur seule, et ce qu'elle laisse dans l'œil. En 1915, Kazimir Malevitch invente le suprématisme : une peinture faite seulement de formes simples et de couleurs, sans rien représenter. Ce tableau carré de 53 cm ne montre qu'un quadrilatère rouge sur un fond blanc ; il n'est pas tout à fait carré, et semble légèrement pencher. Son titre complet prétend pourtant montrer « une paysanne en deux dimensions ». Exercice : fixez le centre du rouge pendant une trentaine de secondes, puis regardez une feuille ou un mur blanc. Une forme de la même taille apparaît, d'un bleu-vert pâle : c'est l'image rémanente, la couleur complémentaire que votre œil fabrique lui-même. Albers étudie ce phénomène dans L'Interaction des couleurs.",
         "compare": "Comme les carrés de Kandinsky (leçon 27), peints deux ans plus tôt, la forme la plus simple pour laisser toute la place à la couleur ; mais Malevitch va plus loin : une seule couleur, sans aucun motif.",
         "image": "images/expositions/couleur-malevitch-carre-rouge.jpg"
+      },
+      {
+        "title": "Le dieu du Vent (des Dieux du vent et du tonnerre)",
+        "artist": "Ogata Kōrin",
+        "country": "Japon",
+        "period": "XVIIIe siècle",
+        "museum": "Musée national de Tokyo",
+        "credit": "Musée national de Tokyo, ColBase (https://colbase.nich.go.jp/collection_items/tnm/A-11189-1), licence CC BY 4.0",
+        "analysis": "Leçon 37 — Une couleur sur un fond d'or. Sur ce paravent à fond de feuille d'or, Ogata Kōrin peint le dieu du Vent, à la peau verte, qui bondit depuis la droite, une longue écharpe blanche gonflée par le vent au-dessus de la tête ; sur le paravent jumeau, le dieu du Tonnerre, à la peau blanche, lui fait face. Selon la notice du musée, les nuages d'orage à l'encre noire, flous, donnent de la profondeur et font ressortir les couleurs des deux dieux. Exercice : regardez le vert du dieu sur l'or, puis sur le noir des nuages. Sur l'or, chaud et lumineux, le vert paraît plus froid et plus vif ; près du noir, il semble s'éclaircir. Et l'or lui-même change de couleur selon l'endroit d'où on le regarde.",
+        "compare": "Comme le Carré rouge de Malevitch (leçon 36), une couleur intense posée sur un grand fond presque uni ; mais ici le fond n'est pas neutre : l'or réchauffe tout ce qu'il touche. Kōrin a aussi peint les Iris à Yatsuhashi (leçon 14) sur fond d'or.",
+        "image": "images/expositions/couleur-korin-dieu-vent.jpg"
       }
     ]
   },
   {
     "title": "Nature, art et bien-être",
-    "subtitle": "Du jardin d'un Égyptien d'il y a 4 000 ans aux lacs du Canada : trente-deux visions de la nature qui font du bien, de vingt-sept pays et des cinq continents, et ce qu'en dit la science",
+    "subtitle": "Du jardin d'un Égyptien d'il y a 4 000 ans aux lacs du Canada : trente-trois visions de la nature qui font du bien, de vingt-sept pays et des cinq continents, et ce qu'en dit la science",
     "status": "published",
     "theme": "La nature dans l'art mondial",
-    "intro": "Bien avant les laboratoires, les humains ont su que la nature leur faisait du bien : les Égyptiens emportaient leur jardin dans la tombe, les Persans en tissaient sur leurs tapis, les lettrés chinois se promenaient dans des rouleaux de montagnes sans quitter leur bureau. Depuis quarante ans, la recherche confirme et précise cette intuition : regarder un paysage, marcher dans un parc, visiter un musée ou dessiner apaisent le stress, améliorent l'humeur et sont associés à une meilleure santé et à une vie plus longue. Cette exposition réunit trente-deux œuvres de vingt-sept pays, des jardins, des fleurs, des rivières, des forêts, des volcans et des clairs de lune, et présente, après les œuvres, ce que disent les études, avec leurs références. Prenez votre temps : regarder lentement fait partie de l'expérience.",
+    "intro": "Bien avant les laboratoires, les humains ont su que la nature leur faisait du bien : les Égyptiens emportaient leur jardin dans la tombe, les Persans en tissaient sur leurs tapis, les lettrés chinois se promenaient dans des rouleaux de montagnes sans quitter leur bureau. Depuis quarante ans, la recherche confirme et précise cette intuition : regarder un paysage, marcher dans un parc, visiter un musée ou dessiner apaisent le stress, améliorent l'humeur et sont associés à une meilleure santé et à une vie plus longue. Cette exposition réunit trente-trois œuvres de vingt-sept pays, des jardins, des fleurs, des rivières, des forêts, des volcans et des clairs de lune, et présente, après les œuvres, ce que disent les études, avec leurs références. Prenez votre temps : regarder lentement fait partie de l'expérience.",
     "minimum": 20,
     "search": {
       "keywords": "landscape garden",
@@ -852,6 +874,17 @@
         "analysis": "Une foule de coqs se presse sur ce rouleau de soie : crêtes rouge vif, plumes blanches, noires, tachetées ou rayées. C'est l'un des trente rouleaux du Royaume coloré des êtres vivants, l'œuvre la plus célèbre d'Itō Jakuchū. Il les avait peints pour honorer une triade du Bouddha Shakyamuni, conservée au temple Shōkoku-ji de Kyoto ; plantes, oiseaux, insectes, poissons et coquillages y sont si bien observés qu'ils fascinent encore, dit la notice du musée. Le temple les offrit à la cour impériale en 1890 ; ils sont aujourd'hui trésor national.",
         "compare": "Comme les Oies sauvages coréennes, des oiseaux observés de près ; mais Jakuchū remplit tout l'espace de couleurs et de motifs, au point que les plumes deviennent presque un décor.",
         "image": "images/expositions/nature-jakuchu-coqs.jpg"
+      },
+      {
+        "title": "Herbes et fleurs d'été sous la pluie (paravent)",
+        "artist": "Sakai Hōitsu",
+        "country": "Japon",
+        "period": "XIXe siècle",
+        "museum": "Musée national de Tokyo",
+        "credit": "Musée national de Tokyo, ColBase (https://colbase.nich.go.jp/collection_items/tnm/A-11189-2), licence CC BY 4.0",
+        "analysis": "Des lys, des liserons et de hautes herbes se courbent sur un fond d'argent qui rappelle, dit la notice du musée, la lumière de la lune ; en haut, un ruisseau d'eau de pluie serpente, bleu sombre : c'est ainsi que Sakai Hōitsu montre un orage d'été sans peindre une seule goutte. Ce paravent forme une paire avec un paysage d'automne balayé par le vent. Hōitsu les avait peints au dos des Dieux du vent et du tonnerre d'Ogata Kōrin, qu'il admirait : les herbes d'été, derrière le dieu du Tonnerre, subissent sa pluie ; celles d'automne, derrière le dieu du Vent, son souffle. Les deux œuvres ont été séparées en 1974.",
+        "compare": "Comme les Iris à Yatsuhashi de Kōrin, des plantes sur un fond de métal précieux ; mais Hōitsu, qui admirait Kōrin, choisit l'argent de la nuit au lieu de l'or du jour.",
+        "image": "images/expositions/nature-hoitsu-herbes-ete.jpg"
       },
       {
         "title": "Panneau de carreaux",
@@ -1213,10 +1246,10 @@
   },
   {
     "title": "Masques du monde",
-    "subtitle": "Du Pérou au Japon, de l'Alaska au Gabon : quarante-huit masques de trente-trois pays et des cinq continents",
+    "subtitle": "Du Pérou au Japon, de l'Alaska au Gabon : quarante-neuf masques de trente-trois pays et des cinq continents",
     "status": "published",
     "theme": "Corps & identité",
-    "intro": "Un masque cache un visage pour en faire apparaître un autre : celui d'un ancêtre, d'un esprit, d'un dieu, d'un défunt, d'un animal ou d'un personnage de théâtre. De l'Égypte des pharaons au théâtre nô, des Andes aux îles du détroit de Torres, ces quarante-huit masques montrent comment chaque culture a donné un visage à l'invisible. Beaucoup n'étaient pas faits pour être regardés immobiles dans une vitrine, mais portés, dansés et chantés, avec un costume, de la musique et des gestes : imaginez-les en mouvement, à la lumière du feu. Certains masques sacrés, que leurs communautés demandent de ne pas montrer, comme les visages de guérison haudenosaunee ou certains masques hopis et zuñis, ne figurent volontairement pas ici. Plusieurs de ces objets ont quitté leur pays dans des conditions violentes ou contestées : leur histoire est rappelée quand elle est connue.",
+    "intro": "Un masque cache un visage pour en faire apparaître un autre : celui d'un ancêtre, d'un esprit, d'un dieu, d'un défunt, d'un animal ou d'un personnage de théâtre. De l'Égypte des pharaons au théâtre nô, des Andes aux îles du détroit de Torres, ces quarante-neuf masques montrent comment chaque culture a donné un visage à l'invisible. Beaucoup n'étaient pas faits pour être regardés immobiles dans une vitrine, mais portés, dansés et chantés, avec un costume, de la musique et des gestes : imaginez-les en mouvement, à la lumière du feu. Certains masques sacrés, que leurs communautés demandent de ne pas montrer, comme les visages de guérison haudenosaunee ou certains masques hopis et zuñis, ne figurent volontairement pas ici. Plusieurs de ces objets ont quitté leur pays dans des conditions violentes ou contestées : leur histoire est rappelée quand elle est connue.",
     "minimum": 20,
     "search": {
       "keywords": "mask",
@@ -1550,6 +1583,17 @@
         "image": "images/expositions/masque-bugaku-ryoo.jpg"
       },
       {
+        "title": "Masque de nô : Ja (le serpent)",
+        "artist": "Atelier japonais",
+        "country": "Japon",
+        "period": "XVIIIe siècle",
+        "museum": "Musée national de Tokyo",
+        "credit": "Musée national de Tokyo, ColBase (https://colbase.nich.go.jp/collection_items/tnm/C-67), licence CC BY 4.0",
+        "analysis": "Ce masque de bois peint sert dans des pièces de nô comme Dōjōji. Selon la notice du musée, il représente l'esprit d'une femme que la jalousie a transformée en serpent. Il a des cornes dorées, des crocs, des mâchoires élargies comme des ouïes, et autour de la bouche grande ouverte un contour en dents de scie qui évoque des nageoires. Les sourcils, très dessinés, sont aussi un trait propre à ce masque.",
+        "compare": "Comme le masque de nô de la jeune femme Waka-onna, un visage de femme ; mais ici, la jalousie l'a changée en monstre : le théâtre nô montre par le masque la transformation de l'âme.",
+        "image": "images/expositions/masque-no-ja.jpg"
+      },
+      {
         "title": "Masque de kyōgen : le Siffleur (Usobuki)",
         "artist": "Sculpteur japonais",
         "country": "Japon",
@@ -1749,10 +1793,10 @@
   },
   {
     "title": "Le paysage à travers le temps et les cultures",
-    "subtitle": "De l'Égypte d'Akhenaton au Canada : vingt-huit paysages de vingt-sept pays et des cinq continents",
+    "subtitle": "De l'Égypte d'Akhenaton au Canada : vingt-neuf paysages de vingt-sept pays et des cinq continents",
     "status": "published",
     "theme": "Paysage à travers les cultures",
-    "intro": "Le paysage n'a pas toujours existé comme genre. En Chine, la peinture « de montagnes et d'eaux » devient l'art le plus noble dès le Xe siècle ; en Europe, le mot « paysage » n'apparaît en français qu'au XVIe siècle, et longtemps le paysage n'est que le fond d'une histoire sacrée ou mythologique. Chaque culture regarde la nature à sa façon : jardin du paradis en Perse, montagne où l'on se promène en esprit en Chine, campagne idéale baignée de lumière en Italie, terre familière aux Pays-Bas, nature sublime et effrayante pour les romantiques, pays réel enfin peint pour lui-même en Corée, lumière fugitive au Japon et chez Turner, terre natale affirmée face à un empire en Finlande, en Norvège ou au Canada. Ces vingt-huit œuvres, de 1350 avant notre ère au XXe siècle, se répondent deux à deux : regardez d'où le peintre nous fait voir le monde (d'en haut, de l'intérieur, par une fenêtre), ce qu'il met au premier plan, et ce qu'il laisse dans l'ombre. Un paysage n'est jamais seulement la nature : c'est une manière de l'habiter, de la rêver, et parfois de la perdre.",
+    "intro": "Le paysage n'a pas toujours existé comme genre. En Chine, la peinture « de montagnes et d'eaux » devient l'art le plus noble dès le Xe siècle ; en Europe, le mot « paysage » n'apparaît en français qu'au XVIe siècle, et longtemps le paysage n'est que le fond d'une histoire sacrée ou mythologique. Chaque culture regarde la nature à sa façon : jardin du paradis en Perse, montagne où l'on se promène en esprit en Chine, campagne idéale baignée de lumière en Italie, terre familière aux Pays-Bas, nature sublime et effrayante pour les romantiques, pays réel enfin peint pour lui-même en Corée, lumière fugitive au Japon et chez Turner, terre natale affirmée face à un empire en Finlande, en Norvège ou au Canada. Ces vingt-neuf œuvres, de 1350 avant notre ère au XXe siècle, se répondent deux à deux : regardez d'où le peintre nous fait voir le monde (d'en haut, de l'intérieur, par une fenêtre), ce qu'il met au premier plan, et ce qu'il laisse dans l'ombre. Un paysage n'est jamais seulement la nature : c'est une manière de l'habiter, de la rêver, et parfois de la perdre.",
     "minimum": 20,
     "search": {
       "keywords": "landscape",
@@ -1868,6 +1912,17 @@
         "analysis": "Sesshū, moine zen et peintre de l'époque de Muromachi, a appris auprès des maîtres japonais Josetsu et Shūbun, puis a voyagé dans la Chine des Ming pour y étudier la peinture. Ce petit rouleau à l'encre sur papier (48 cm de haut) forme une paire avec un paysage d'automne. Au centre, une falaise abrupte monte d'un seul trait jusqu'en haut ; à côté, les bâtiments paraissent minuscules, ce qui fait sentir, dit la notice du musée, la rudesse de l'hiver. En remontant le rouleau, l'œil passe du plus proche au plus lointain, chaque chose à sa place. C'est un trésor national du Japon.",
         "compare": "Comme le rouleau chinois des Ruisseaux et montagnes sans fin, une peinture de « montagnes et d'eaux » à l'encre ; Sesshū l'a apprise en Chine, mais il la rend plus abrupte et plus construite, avec des traits de pinceau puissants.",
         "image": "images/expositions/paysage-sesshu-hiver.jpg"
+      },
+      {
+        "title": "Beaux paysages de la province de Mutsu (Matsushima), rouleau",
+        "artist": "Ike no Taiga",
+        "country": "Japon",
+        "period": "1749",
+        "museum": "Musée national de Kyushu, Dazaifu",
+        "credit": "Musée national de Kyushu, ColBase (https://colbase.nich.go.jp/collection_items/kyuhaku/A33), licence CC BY 4.0",
+        "analysis": "Ike no Taiga, jeune peintre de 26 ans, avait visité en 1748 la baie de Matsushima, l'un des paysages les plus célèbres du Japon, dans le nord-est du pays. Un an plus tard, en vacances à Kanazawa, il en peignit ce long rouleau horizontal (près de 7 mètres) à l'encre et aux couleurs légères. Dans ce passage, des îlots couverts de pins et quelques maisons flottent sur l'eau, évoqués en quelques touches ; de petites inscriptions donnent le nom des lieux, comme l'île d'Oshima (雄島). Taiga pratiquait le nanga, la peinture des lettrés inspirée de la Chine, mais il l'applique ici à un lieu réel de son pays, avec, dit la notice du musée, la fraîcheur d'un jeune artiste qui avait aimé son séjour.",
+        "compare": "Comme Jeong Seon au mont Inwang, en Corée, un peintre formé à la peinture chinoise qui peint enfin un paysage réel de son propre pays.",
+        "image": "images/expositions/paysage-taiga-matsushima.jpg"
       },
       {
         "title": "L'Héroïne qui attend son amant (Utka Nayika)",
@@ -2071,7 +2126,7 @@
   },
   {
     "title": "Croyances et spiritualités du monde",
-    "subtitle": "Du Livre des morts égyptien aux îles Fidji : quarante œuvres de vingt-neuf pays, vingt traditions et des cinq continents",
+    "subtitle": "Du Livre des morts égyptien aux îles Fidji : quarante et une œuvres de vingt-neuf pays, vingt traditions et des cinq continents",
     "status": "published",
     "theme": "Croyances & spiritualités du monde",
     "intro": "Partout et à toutes les époques, les êtres humains ont cherché à donner un sens à la vie, à la mort et au monde qui les dépasse. Cette exposition réunit des œuvres nées de traditions très différentes : la religion de l'Égypte ancienne, l'hindouisme, le jaïnisme, le bouddhisme sous ses différentes formes, le shintô, le taoïsme, le judaïsme, le christianisme d'Orient et d'Occident, d'Éthiopie et d'Arménie, l'islam (dont l'art religieux, sans figures, s'exprime par l'écriture et la géométrie de l'architecture) et sa voie mystique, le soufisme, le sikhisme, les religions du Mexique ancien, la divination yoruba et les rites des îles Fidji. Beaucoup sont des enluminures, ces livres sacrés écrits et peints à la main, où l'or et la couleur honorent la parole. Aucune tradition n'est placée au-dessus d'une autre ; les œuvres se répondent deux à deux, et montrent souvent des religions qui se rencontrent et cohabitent. Par respect, l'exposition ne montre pas d'objets que leurs communautés demandent de ne pas exposer, ni de représentation du Prophète de l'islam ; et certaines traditions, notamment autochtones d'Amérique du Nord et d'Australie, ne sont présentes que par cette mention, car leurs objets les plus sacrés n'ont pas leur place dans un musée.",
@@ -2223,6 +2278,17 @@
         "analysis": "Ces vingt rouleaux de soie peinte illustrent, comme leur titre l'indique, les miracles de la divinité du sanctuaire de Kasuga. Ils furent commandés par Saionji Kinhira, du clan Fujiwara, pour remercier les dieux de la prospérité de sa famille et prier pour son avenir ; le texte fut calligraphié par l'ancien régent Takatsukasa Mototada et ses fils, et les images peintes par Takashina Takakane, chef des peintres de la cour. Dans ce passage, on regarde d'en haut l'intérieur d'une demeure, comme si le toit avait été retiré : des personnages en costume de cour y sont assis. Conservés au sanctuaire de Kasuga, les rouleaux en sortirent à la fin de l'époque d'Edo, puis furent donnés à la cour impériale par la famille Takatsukasa.",
         "compare": "Comme le Mandala des cerfs de Kasuga, une œuvre consacrée au même sanctuaire de Nara ; là, une image à contempler, ici une longue histoire à dérouler, scène après scène.",
         "image": "images/expositions/spirit-kasuga-gongen-genki-e.jpg"
+      },
+      {
+        "title": "Le bodhisattva Fugen (Samantabhadra)",
+        "artist": "Peintre japonais anonyme",
+        "country": "Japon",
+        "period": "XIIe siècle (époque de Heian)",
+        "museum": "Musée national de Tokyo",
+        "credit": "Musée national de Tokyo, ColBase (https://colbase.nich.go.jp/collection_items/tnm/A-1), licence CC BY 4.0",
+        "analysis": "Le bodhisattva Fugen est assis jambes croisées sur un éléphant blanc, sous une légère pluie de pétales et un dais de fleurs. Selon la croyance bouddhique, il apparaît pour protéger ceux qui ont foi dans le Sutra du Lotus, très vénéré au Japon à l'époque de Heian. La notice du musée attire l'attention sur les détails : le vêtement, l'auréole et la selle de l'éléphant sont ornés de motifs faits de minces filets de feuille d'or, et le corps du bodhisattva est dessiné à l'encre très diluée plutôt qu'en traits rouges, pour garder la blancheur de sa peau. L'éléphant, venant de la droite, tourne la tête vers l'arrière. C'est un trésor national.",
+        "compare": "Comme le Bouddha entouré de ses disciples peint au Sri Lanka, une image bouddhique faite pour la dévotion ; mais ici, un seul instant, calme et presque rêvé, avec la délicatesse de l'or et des couleurs claires.",
+        "image": "images/expositions/spirit-fugen-bosatsu.jpg"
       },
       {
         "title": "Fin d'un rouleau des « sutras du 1er mai », avec la prière de l'impératrice Kōmyō",

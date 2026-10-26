@@ -1,7 +1,7 @@
 [
   {
     "title": "La lumière comme langage universel",
-    "subtitle": "De l'Égypte romaine à l'Australie : vingt-six visions de la lumière, de vingt-trois pays et des cinq continents",
+    "subtitle": "De l'Égypte romaine à l'Australie : vingt-huit visions de la lumière, de vingt-cinq pays et des cinq continents",
     "status": "published",
     "theme": "Lumière & ombre à travers les cultures",
     "intro": "Sur dix-sept siècles (vers 200 – 1900) et cinq continents, de l'Égypte à la Chine, de l'Iran à l'Inde, du Japon à Java, de l'Europe au Mexique, aux Caraïbes et à l'Australie, la lumière est le véritable sujet de ces œuvres. Modelé d'un visage, brume qui efface les montagnes, éclat des céramiques d'une mosquée, lampe de verre, feu d'une fête persane ou indienne, auréoles des saints, clair de lune sur la mer, lave d'un volcan, soleil sur l'eau ou dans une pièce vide : naturelle ou divine, intime ou dramatique, peinte ou suggérée par le vide, elle prend dans chaque culture un sens différent.",
@@ -254,6 +254,17 @@
         "compare": "La Ronde de nuit de Rembrandt, malgré son nom, est une scène de jour assombrie ; ici, c'est une vraie nuit, où la lumière n'éclaire presque rien mais devient elle-même le sujet. Comparez avec la lune de Balke, plus haut."
       },
       {
+        "title": "La pêche au flambeau",
+        "artist": "Constantin Volanakis",
+        "country": "Grèce",
+        "period": "1885–1890",
+        "museum": "Fondation Aikaterini Laskaridis (collection Panagiotis K. Laskaridis), Grèce",
+        "credit": "Fondation Aikaterini Laskaridis, via Europeana (https://www.europeana.eu/item/1277/https___www_searchculture_gr_aggregator_edm_volanakis_000176_38498) ; photo : licence CC BY 4.0",
+        "analysis": "La nuit est tombée sur une mer très calme. Au centre, sur une barque de pêche à un mât, un pêcheur tient le pyrofani, un grand feu allumé au-dessus de l'eau, pendant que deux autres remontent les filets et qu'un quatrième retient la corde d'un petit canot. Toute la lumière du tableau vient de ce feu : elle dore la coque, les voiles, et se reflète en traînées orangées sur l'eau noire. Au loin, à gauche, un voilier s'éloigne et un bateau à vapeur disparaît à l'horizon ; à droite, une côte montagneuse et quelques maisons. La notice de la fondation souligne ce que Volanakis aimait opposer : l'obscurité profonde et la lumière éblouissante, l'action et le repos.",
+        "compare": "Comparez avec la Nuit de lune sur le Dniepr de Kuindji : là, la lumière froide de la lune baigne tout le paysage ; ici, un petit feu allumé par des humains, chaud et orangé, ne perce qu'un coin de la nuit.",
+        "image": "images/expositions/lumiere-volanakis-peche-flambeau.jpg"
+      },
+      {
         "title": "Fire's on (« Allumé ! »)",
         "artist": "Arthur Streeton",
         "country": "Australie",
@@ -263,6 +274,17 @@
         "credit": "Art Gallery of New South Wales, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Arthur_Streeton_-_Fire%27s_on_-_Google_Art_Project.jpg), domaine public",
         "analysis": "Dans les Montagnes Bleues, près de Sydney, des ouvriers creusent un tunnel pour le chemin de fer. « Fire's on ! » est le cri qui annonce une explosion. Mais le vrai sujet est la lumière de midi : un soleil si fort que les rochers éclatés deviennent presque blancs, que les ombres sont courtes et bleutées, et que le ciel est d'un bleu intense. Le format très vertical accentue la pente et l'éblouissement. Streeton, peintre de l'école de Heidelberg, cherchait à rendre la lumière crue et chaude de l'Australie, très différente de celle de l'Europe ; pendant qu'il peignait, un ouvrier fut tué par une explosion, et l'on voit, à la sortie du tunnel, deux hommes porter un corps sur un brancard.",
         "compare": "Monet, avec Impression, soleil levant, peignait la lumière douce et brumeuse d'un matin au Havre ; vingt ans plus tard, Streeton applique la même peinture en plein air à une lumière australienne aveuglante."
+      },
+      {
+        "title": "La Neuvième Vague",
+        "artist": "Ivan Aïvazovski",
+        "country": "Russie",
+        "period": "1850",
+        "museum": "Musée russe, Saint-Pétersbourg",
+        "credit": "Musée russe, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Hovhannes_Aivazovsky_-_The_Ninth_Wave_-_Google_Art_Project.jpg), domaine public",
+        "analysis": "Le titre reprend une vieille expression de marins : la « neuvième vague » serait la plus grosse, celle qui arrive après une série de vagues de plus en plus hautes. Au matin, après une tempête de nuit, quelques naufragés s'accrochent aux débris de leur navire, au premier plan, tandis qu'une énorme vague verte s'élève devant eux. Mais le soleil perce les nuages et inonde le ciel et la mer d'une lumière dorée : les tons chauds adoucissent la menace, et laissent espérer que les hommes survivront. Né à Théodosie, en Crimée, Aïvazovski était peintre de marines ; cette immense toile (plus de 3 mètres de large) est son œuvre la plus célèbre.",
+        "compare": "Comparez avec Le Gulf Stream de Winslow Homer : là aussi, un naufragé perdu en mer face aux vagues ; mais chez Homer, le ciel d'orage reste voilé, alors qu'Aïvazovski fait de la lumière du soleil un espoir.",
+        "image": "images/expositions/lumiere-aivazovsky-neuvieme-vague.jpg"
       },
       {
         "title": "Le Gulf Stream",
@@ -301,10 +323,10 @@
   },
   {
     "title": "La couleur est relative",
-    "subtitle": "D'après L'Interaction des couleurs de Josef Albers : trente-trois leçons du regard, de l'Égypte ancienne au Bauhaus",
+    "subtitle": "D'après L'Interaction des couleurs de Josef Albers : trente-six leçons du regard, de l'Égypte ancienne au Bauhaus",
     "status": "published",
     "theme": "Couleur & perception",
-    "intro": "« Dans la perception visuelle, une couleur n'est presque jamais vue telle qu'elle est réellement, physiquement. » C'est ainsi que Josef Albers (1888–1976), peintre et professeur au Bauhaus puis aux États-Unis, ouvre son livre L'Interaction des couleurs (1963). Pour lui, une couleur change selon ses voisines, selon sa quantité, selon la lumière : c'est le moyen le plus relatif de l'art. Il l'enseignait non par la théorie mais par l'expérience, avec des papiers colorés. Ses tableaux n'étant pas encore dans le domaine public, cette exposition met ses leçons à l'épreuve d'œuvres de vingt-cinq pays et des cinq continents, de l'Égypte ancienne et du Pérou des Wari jusqu'au Bauhaus, où Albers fut étudiant puis professeur. Pour chaque œuvre, un exercice du regard vous est proposé.",
+    "intro": "« Dans la perception visuelle, une couleur n'est presque jamais vue telle qu'elle est réellement, physiquement. » C'est ainsi que Josef Albers (1888–1976), peintre et professeur au Bauhaus puis aux États-Unis, ouvre son livre L'Interaction des couleurs (1963). Pour lui, une couleur change selon ses voisines, selon sa quantité, selon la lumière : c'est le moyen le plus relatif de l'art. Il l'enseignait non par la théorie mais par l'expérience, avec des papiers colorés. Ses tableaux n'étant pas encore dans le domaine public, cette exposition met ses leçons à l'épreuve d'œuvres de vingt-six pays et des cinq continents, de l'Égypte ancienne et du Pérou des Wari jusqu'au Bauhaus, où Albers fut étudiant puis professeur. Pour chaque œuvre, un exercice du regard vous est proposé.",
     "minimum": 20,
     "search": {
       "keywords": "color",
@@ -673,15 +695,48 @@
         "analysis": "Leçon 33 — Deux rouges côte à côte. Amrita Sher-Gil, peintre indienne et hongroise, peint ces trois jeunes filles en 1935, peu après son retour d'Europe en Inde ; le tableau reçoit deux ans plus tard la médaille d'or de la Bombay Art Society. Au centre, un voile rouge-orangé ; à droite, un vêtement d'un rouge plus profond, presque carmin ; à gauche, un châle d'un vert très pâle. Exercice : comparez les deux rouges. Puis regardez-les à côté du châle vert pâle : près de lui, ils paraissent plus ardents encore.",
         "compare": "Sher-Gil admirait Gauguin : comme dans Femmes de Tahiti, de grands aplats de couleur chaude se répondent, et les visages sont graves.",
         "image": "images/expositions/couleur-sher-gil-trois-filles.jpg"
+      },
+      {
+        "title": "L'Offrande",
+        "artist": "Saturnino Herrán",
+        "country": "Mexique",
+        "period": "1913",
+        "museum": "Museo Nacional de Arte (MUNAL), Mexico",
+        "credit": "Museo Nacional de Arte, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Saturnino_Herr%C3%A1n_-_The_offering_-_Google_Art_Project.jpg), domaine public",
+        "analysis": "Leçon 34 — Un orange qui brûle entre les tons sourds. Une barque à fond plat (une trajinera) glisse sur l'eau, chargée de fleurs de cempasúchil, les œillets d'Inde orange qu'on offre aux morts au Mexique pour la fête des Morts. À bord, une famille : un homme debout, un bouquet sur l'épaule, un vieil homme qui regarde au loin, une mère et son bébé, une fillette. Saturnino Herrán peint cette grande toile en 1913, pendant la révolution mexicaine. Exercice : regardez les fleurs à côté du châle sombre de la mère, puis à côté de la chemise blanche de l'homme debout. Près du sombre, l'orange semble flamboyer ; près du blanc, il paraît plus doux, presque doré.",
+        "compare": "Comme Amrita Sher-Gil (leçon 33), Herrán peint les gens de son pays avec de grands aplats de couleur chaude ; mais ici, la couleur dominante est celle d'une fleur rituelle.",
+        "image": "images/expositions/couleur-herran-offrande.jpg"
+      },
+      {
+        "title": "Bleuets",
+        "artist": "Ștefan Luchian",
+        "country": "Roumanie",
+        "period": "non daté",
+        "museum": "Musée national d'art de Roumanie, Bucarest",
+        "credit": "Musée national d'art de Roumanie, via Europeana (https://www.europeana.eu/item/2048047/Clasate_09d7c5c97d694ad5882afc4757499cc5) ; photo : licence CC BY-SA 4.0",
+        "analysis": "Leçon 35 — Un bleu pur sur des blancs. Un bouquet de bleuets est posé sur une table couverte d'une nappe blanche. Ștefan Luchian ne peint presque rien d'autre que ces fleurs d'un bleu intense et la nappe aux plis légers. Exercice : la nappe est-elle vraiment blanche ? Comparez-la avec la marge claire, autour de l'image : dans les plis, elle est grise, beige, parfois presque mauve. À côté du bleu des fleurs, ces gris prennent une nuance chaude, orangée, et c'est ce contraste qui fait paraître le bleu encore plus vif.",
+        "compare": "Comme dans Carnaval dans la neige de Klee (leçon 31), une seule couleur saturée, posée sur un fond pâle, devient plus intense que si elle était entourée d'autres couleurs vives.",
+        "image": "images/expositions/couleur-luchian-bleuets.jpg"
+      },
+      {
+        "title": "Carré rouge (Réalisme pictural d'une paysanne en deux dimensions)",
+        "artist": "Kazimir Malevitch",
+        "country": "Russie",
+        "period": "1915",
+        "museum": "Musée russe, Saint-Pétersbourg",
+        "credit": "Musée russe, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Red_Square._Visual_Realism_of_a_Peasant_Woman_in_Two_Dimensions.jpg), domaine public",
+        "analysis": "Leçon 36 — Une couleur seule, et ce qu'elle laisse dans l'œil. En 1915, Kazimir Malevitch invente le suprématisme : une peinture faite seulement de formes simples et de couleurs, sans rien représenter. Ce tableau carré de 53 cm ne montre qu'un quadrilatère rouge sur un fond blanc ; il n'est pas tout à fait carré, et semble légèrement pencher. Son titre complet prétend pourtant montrer « une paysanne en deux dimensions ». Exercice : fixez le centre du rouge pendant une trentaine de secondes, puis regardez une feuille ou un mur blanc. Une forme de la même taille apparaît, d'un bleu-vert pâle : c'est l'image rémanente, la couleur complémentaire que votre œil fabrique lui-même. Albers étudie ce phénomène dans L'Interaction des couleurs.",
+        "compare": "Comme les carrés de Kandinsky (leçon 27), peints deux ans plus tôt, la forme la plus simple pour laisser toute la place à la couleur ; mais Malevitch va plus loin : une seule couleur, sans aucun motif.",
+        "image": "images/expositions/couleur-malevitch-carre-rouge.jpg"
       }
     ]
   },
   {
     "title": "Nature, art et bien-être",
-    "subtitle": "Du jardin d'un Égyptien d'il y a 4 000 ans aux lacs du Canada : vingt-neuf visions de la nature qui font du bien, de vingt-cinq pays et des cinq continents, et ce qu'en dit la science",
+    "subtitle": "Du jardin d'un Égyptien d'il y a 4 000 ans aux lacs du Canada : trente et une visions de la nature qui font du bien, de vingt-sept pays et des cinq continents, et ce qu'en dit la science",
     "status": "published",
     "theme": "La nature dans l'art mondial",
-    "intro": "Bien avant les laboratoires, les humains ont su que la nature leur faisait du bien : les Égyptiens emportaient leur jardin dans la tombe, les Persans en tissaient sur leurs tapis, les lettrés chinois se promenaient dans des rouleaux de montagnes sans quitter leur bureau. Depuis quarante ans, la recherche confirme et précise cette intuition : regarder un paysage, marcher dans un parc, visiter un musée ou dessiner apaisent le stress, améliorent l'humeur et sont associés à une meilleure santé et à une vie plus longue. Cette exposition réunit vingt-neuf œuvres de vingt-cinq pays, des jardins, des fleurs, des rivières, des forêts, des volcans et des clairs de lune, et présente, après les œuvres, ce que disent les études, avec leurs références. Prenez votre temps : regarder lentement fait partie de l'expérience.",
+    "intro": "Bien avant les laboratoires, les humains ont su que la nature leur faisait du bien : les Égyptiens emportaient leur jardin dans la tombe, les Persans en tissaient sur leurs tapis, les lettrés chinois se promenaient dans des rouleaux de montagnes sans quitter leur bureau. Depuis quarante ans, la recherche confirme et précise cette intuition : regarder un paysage, marcher dans un parc, visiter un musée ou dessiner apaisent le stress, améliorent l'humeur et sont associés à une meilleure santé et à une vie plus longue. Cette exposition réunit trente et une œuvres de vingt-sept pays, des jardins, des fleurs, des rivières, des forêts, des volcans et des clairs de lune, et présente, après les œuvres, ce que disent les études, avec leurs références. Prenez votre temps : regarder lentement fait partie de l'expérience.",
     "minimum": 20,
     "search": {
       "keywords": "landscape garden",
@@ -808,6 +863,17 @@
         "compare": "Comme Deux hommes contemplant la lune de Friedrich, la lune comme lumière de recueillement."
       },
       {
+        "title": "Matin dans une forêt de pins",
+        "artist": "Ivan Chichkine et Constantin Savitski",
+        "country": "Russie",
+        "period": "1889",
+        "museum": "Galerie Tretiakov, Moscou",
+        "credit": "Galerie Tretiakov, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Utro_v_sosnovom_lesu.jpg), domaine public",
+        "analysis": "Le matin se lève dans une forêt de pins ; la brume s'éclaircit au fond, là où la lumière commence à passer entre les troncs. Au premier plan, un grand pin cassé et des branches mortes ; une famille d'ours joue dessus et autour. Au départ, Ivan Chichkine, peintre de paysages, n'avait pas prévu d'animaux : c'est son ami Constantin Savitski qui lui proposa d'ajouter les ours, et les peignit lui-même. Les deux artistes avaient signé le tableau avant que le collectionneur Pavel Tretiakov ne l'achète.",
+        "compare": "Comme Le Pin gris de Tom Thomson au Canada, une forêt de résineux du Nord ; mais Chichkine la peint dans ses moindres détails, comme si l'on y marchait, et la peuple de vie.",
+        "image": "images/expositions/nature-chichkine-matin-pins.jpg"
+      },
+      {
         "title": "Le Cap Nord au clair de lune",
         "artist": "Peder Balke",
         "country": "Norvège",
@@ -871,6 +937,17 @@
         "analysis": "Les Tatras sont les plus hautes montagnes de Slovaquie. Ici, les sommets enneigés se perdent dans les nuages ; leurs ombres sont bleues et violettes. Devant eux, un lac calme et une bande d'herbe jaune-vert. La peinture est posée à touches rapides et légères. Le tableau est présenté dans l'exposition permanente consacrée au peintre au château de Strážky, en Slovaquie.",
         "compare": "Comme Le Cap Nord au clair de lune de Balke, une nature immense et silencieuse, peinte avec quelques tons seulement.",
         "image": "images/expositions/nature-mednyanszky-tatras.jpg"
+      },
+      {
+        "title": "Paysage de plaine",
+        "artist": "Ion Andreescu",
+        "country": "Roumanie",
+        "period": "non daté",
+        "museum": "Musée national d'art de Roumanie, Bucarest",
+        "credit": "Musée national d'art de Roumanie, via Europeana (https://www.europeana.eu/item/2048047/Clasate_3ac0d98181af4205aaed7a8fb2c90929) ; photo : licence CC BY-SA 4.0",
+        "analysis": "Un champ d'herbe plat s'étend jusqu'à une ligne de collines, à l'horizon ; un peu à gauche du centre, un arbre isolé ; au-dessus, un grand ciel nuageux occupe presque la moitié du tableau. Rien d'autre : pas de personnage, pas de monument, seulement l'herbe, l'arbre et le ciel, peints en touches rapides. Ce petit tableau (34 cm de large) d'Ion Andreescu a été montré dans les grandes rétrospectives de la peinture roumaine, à Bruxelles en 1932 et à Moscou en 1949.",
+        "compare": "Comme la Vue du lac Sortedam au Danemark, une nature ordinaire, tout près de chez soi, et non un site spectaculaire : un champ et un ciel suffisent à faire un tableau.",
+        "image": "images/expositions/nature-andreescu-plaine.jpg"
       },
       {
         "title": "Vue du lac Sortedam depuis le Dosseringen",
@@ -1114,10 +1191,10 @@
   },
   {
     "title": "Masques du monde",
-    "subtitle": "Du Pérou au Japon, de l'Alaska au Gabon : quarante-cinq masques de trente-deux pays et des cinq continents",
+    "subtitle": "Du Pérou au Japon, de l'Alaska au Gabon : quarante-sept masques de trente-trois pays et des cinq continents",
     "status": "published",
     "theme": "Corps & identité",
-    "intro": "Un masque cache un visage pour en faire apparaître un autre : celui d'un ancêtre, d'un esprit, d'un dieu, d'un défunt, d'un animal ou d'un personnage de théâtre. De l'Égypte des pharaons au théâtre nô, des Andes aux îles du détroit de Torres, ces quarante-cinq masques montrent comment chaque culture a donné un visage à l'invisible. Beaucoup n'étaient pas faits pour être regardés immobiles dans une vitrine, mais portés, dansés et chantés, avec un costume, de la musique et des gestes : imaginez-les en mouvement, à la lumière du feu. Certains masques sacrés, que leurs communautés demandent de ne pas montrer, comme les visages de guérison haudenosaunee ou certains masques hopis et zuñis, ne figurent volontairement pas ici. Plusieurs de ces objets ont quitté leur pays dans des conditions violentes ou contestées : leur histoire est rappelée quand elle est connue.",
+    "intro": "Un masque cache un visage pour en faire apparaître un autre : celui d'un ancêtre, d'un esprit, d'un dieu, d'un défunt, d'un animal ou d'un personnage de théâtre. De l'Égypte des pharaons au théâtre nô, des Andes aux îles du détroit de Torres, ces quarante-sept masques montrent comment chaque culture a donné un visage à l'invisible. Beaucoup n'étaient pas faits pour être regardés immobiles dans une vitrine, mais portés, dansés et chantés, avec un costume, de la musique et des gestes : imaginez-les en mouvement, à la lumière du feu. Certains masques sacrés, que leurs communautés demandent de ne pas montrer, comme les visages de guérison haudenosaunee ou certains masques hopis et zuñis, ne figurent volontairement pas ici. Plusieurs de ces objets ont quitté leur pays dans des conditions violentes ou contestées : leur histoire est rappelée quand elle est connue.",
     "minimum": 20,
     "search": {
       "keywords": "mask",
@@ -1167,6 +1244,17 @@
         "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/436905), domaine public (Open Access)",
         "analysis": "Dans la Venise du XVIIIe siècle, le masque ne se portait pas seulement au carnaval : on le mettait une bonne partie de l'année pour aller au théâtre, au Ridotto (la maison de jeu) ou à un rendez-vous discret. Pietro Longhi, peintre de la vie vénitienne, en montre ici les deux formes les plus courantes. À droite, un homme porte la bauta, masque blanc au menton saillant qui laissait boire et parler en changeant la voix, avec le tricorne et la cape noire ; la femme en rose porte la moretta, petit ovale de velours noir tenu par un bouton serré entre les dents : celle qui la portait restait muette. À gauche, une jeune femme tient son masque à la main.",
         "compare": "Comme le masque coréen de vieillard, le masque permet d'échapper aux règles de la société : sous la bauta, on ne savait plus qui était noble et qui ne l'était pas. C'est le seul tableau de l'exposition : il montre les masques portés, dans la vie de tous les jours."
+      },
+      {
+        "title": "Masque de Saint-Nicolas",
+        "artist": "Anonyme (Europe)",
+        "country": "Pays-Bas",
+        "period": "vers 1840–1900",
+        "museum": "Rijksmuseum, Amsterdam",
+        "credit": "Rijksmuseum, Amsterdam (https://id.rijksmuseum.nl/20076659), domaine public",
+        "analysis": "Ce masque en carton peint a un visage rose, des joues rouges, des lèvres rouges et d'épais sourcils noirs. Il faisait partie d'un costume de Saint-Nicolas (Sinterklaas) porté au XIXe siècle dans une famille néerlandaise, avec une veste de soie, des pantoufles de velours rouge brodées de fil d'argent, une mitre en papier et une crosse. Selon la donatrice, il servit vers 1875 pour des nièces de sa mère.",
+        "compare": "Comme les masques vénitiens de La Rencontre, un masque porté pour jouer un rôle ; mais ici dans l'intimité d'une maison, pour faire apparaître le saint devant des enfants.",
+        "image": "images/expositions/masque-saint-nicolas-pays-bas.jpg"
       },
       {
         "title": "Masque olmèque en pierre verte",
@@ -1527,6 +1615,17 @@
         "image": "images/expositions/masque-java-pentul.jpg"
       },
       {
+        "title": "Masque topeng de Gunung Sari, prince de Kediri",
+        "artist": "Artisan javanais",
+        "country": "Indonésie (Java)",
+        "period": "XVIIIe siècle",
+        "museum": "Rijksmuseum, Amsterdam (prêt de la Société royale des amis de l'art asiatique)",
+        "credit": "Rijksmuseum, Amsterdam (https://id.rijksmuseum.nl/20024140), prêt de la Société royale des amis de l'art asiatique, domaine public",
+        "analysis": "Ce masque de bois du théâtre dansé topeng, à Java, est celui de Gunung Sari, prince du royaume de Kediri. Le visage est doux et fin, avec un nez droit, un léger sourire et des yeux en amande ; il est surmonté d'une coiffe ornée de pierres et de petits morceaux de verre. Haut de 19 cm, il était porté par un danseur.",
+        "compare": "Comparez avec le masque de Pentul, le vieux serviteur du héros Panji, juste avant : dans le même théâtre javanais, un prince aux traits fins et paisibles face à un vieux serviteur au visage ridé et aux joues gonflées.",
+        "image": "images/expositions/masque-gunung-sari-java.jpg"
+      },
+      {
         "title": "Masque de tigre (kotiya) du théâtre kolam",
         "artist": "Sculpteur de la côte sud-ouest du Sri Lanka",
         "country": "Sri Lanka",
@@ -1617,10 +1716,10 @@
   },
   {
     "title": "Le paysage à travers le temps et les cultures",
-    "subtitle": "De l'Égypte d'Akhenaton au Canada : vingt-quatre paysages de vingt-quatre pays et des cinq continents",
+    "subtitle": "De l'Égypte d'Akhenaton au Canada : vingt-sept paysages de vingt-sept pays et des cinq continents",
     "status": "published",
     "theme": "Paysage à travers les cultures",
-    "intro": "Le paysage n'a pas toujours existé comme genre. En Chine, la peinture « de montagnes et d'eaux » devient l'art le plus noble dès le Xe siècle ; en Europe, le mot « paysage » n'apparaît en français qu'au XVIe siècle, et longtemps le paysage n'est que le fond d'une histoire sacrée ou mythologique. Chaque culture regarde la nature à sa façon : jardin du paradis en Perse, montagne où l'on se promène en esprit en Chine, campagne idéale baignée de lumière en Italie, terre familière aux Pays-Bas, nature sublime et effrayante pour les romantiques, pays réel enfin peint pour lui-même en Corée, lumière fugitive au Japon et chez Turner, terre natale affirmée face à un empire en Finlande, en Norvège ou au Canada. Ces vingt-quatre œuvres, de 1350 avant notre ère au XXe siècle, se répondent deux à deux : regardez d'où le peintre nous fait voir le monde (d'en haut, de l'intérieur, par une fenêtre), ce qu'il met au premier plan, et ce qu'il laisse dans l'ombre. Un paysage n'est jamais seulement la nature : c'est une manière de l'habiter, de la rêver, et parfois de la perdre.",
+    "intro": "Le paysage n'a pas toujours existé comme genre. En Chine, la peinture « de montagnes et d'eaux » devient l'art le plus noble dès le Xe siècle ; en Europe, le mot « paysage » n'apparaît en français qu'au XVIe siècle, et longtemps le paysage n'est que le fond d'une histoire sacrée ou mythologique. Chaque culture regarde la nature à sa façon : jardin du paradis en Perse, montagne où l'on se promène en esprit en Chine, campagne idéale baignée de lumière en Italie, terre familière aux Pays-Bas, nature sublime et effrayante pour les romantiques, pays réel enfin peint pour lui-même en Corée, lumière fugitive au Japon et chez Turner, terre natale affirmée face à un empire en Finlande, en Norvège ou au Canada. Ces vingt-sept œuvres, de 1350 avant notre ère au XXe siècle, se répondent deux à deux : regardez d'où le peintre nous fait voir le monde (d'en haut, de l'intérieur, par une fenêtre), ce qu'il met au premier plan, et ce qu'il laisse dans l'ombre. Un paysage n'est jamais seulement la nature : c'est une manière de l'habiter, de la rêver, et parfois de la perdre.",
     "minimum": 20,
     "search": {
       "keywords": "landscape",
@@ -1782,6 +1881,17 @@
         "compare": "Le même romantisme que son ami Friedrich, mais sans personnage de dos : chez Dahl, c'est la terre norvégienne elle-même, ses fermes et ses vallées, qui est au premier plan."
       },
       {
+        "title": "Paysage près de Tørring, Jutland",
+        "artist": "Dankvart Dreyer",
+        "country": "Danemark",
+        "period": "1843",
+        "museum": "SMK – Statens Museum for Kunst, Copenhague",
+        "credit": "SMK – Statens Museum for Kunst, Copenhague (https://open.smk.dk/artwork/image/KMS3194), domaine public",
+        "analysis": "Une lande sombre et vallonnée, avec une colline brune au premier plan et, à gauche, un bras d'eau qui brille ; dans le Jutland, la grande presqu'île du Danemark. Mais l'essentiel du tableau, ce sont les nuages : de gros cumulus blancs et gris occupent les deux tiers de la toile, éclairés par le soleil. Dankvart Dreyer peint ici un pays sans montagnes, où c'est le ciel qui fait le spectacle.",
+        "compare": "Comme Ruisdael aux Pays-Bas, un pays plat où le ciel prend presque toute la place ; mais là où Dahl, en Norvège, trouve la grandeur dans les montagnes, Dreyer la trouve dans les nuages.",
+        "image": "images/expositions/paysage-dreyer-torring.jpg"
+      },
+      {
         "title": "Le lac de Zoug",
         "artist": "Joseph Mallord William Turner",
         "country": "Royaume-Uni",
@@ -1848,6 +1958,17 @@
         "compare": "Comme Ruisdael, Kuindzhi donne presque tout le tableau au ciel ; mais il ne décrit plus la campagne : il peint une sensation de lumière, comme Turner, et la nuit remplace l'orage."
       },
       {
+        "title": "Coucher de soleil à Salamine",
+        "artist": "Constantin Volanakis",
+        "country": "Grèce",
+        "period": "1890–1895",
+        "museum": "Fondation Aikaterini Laskaridis (collection Panagiotis K. Laskaridis), Grèce",
+        "credit": "Fondation Aikaterini Laskaridis, via Europeana (https://www.europeana.eu/item/1277/https___www_searchculture_gr_aggregator_edm_volanakis_000176_38522) ; photo : licence CC BY 4.0",
+        "analysis": "Le port de Salamine, une île en face du Pirée, dans une lumière pâle et dorée ; un disque clair est posé sur l'horizon (le soleil couchant, selon le titre, alors que la notice de la fondation y voit la pleine lune). L'eau est si calme que seuls les avirons d'une barque la troublent : un homme rame, l'autre pêche au trident. À droite, une jetée de pierre, des barques et un voilier à l'ancre ; au fond, une côte boisée et des collines. Volanakis, que l'on a surnommé « le poète de la mer », fait ici de la sérénité le vrai sujet du paysage.",
+        "compare": "Comme le Clair de lune sur le Dniepr de Kuindji, un astre bas sur l'horizon et une eau qui le reflète ; mais là où Kuindji crée un contraste saisissant, Volanakis fond tout dans une même lumière douce.",
+        "image": "images/expositions/paysage-volanakis-salamine.jpg"
+      },
+      {
         "title": "Vladimirka",
         "artist": "Isaac Levitan",
         "country": "Russie",
@@ -1857,6 +1978,17 @@
         "credit": "Galerie Tretiakov, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Vladimirka_without_frame.jpg), domaine public",
         "analysis": "Une route de terre traverse une plaine immense sous un ciel gris ; au loin, une silhouette minuscule. Rien de spectaculaire, et pourtant les Russes de l'époque reconnaissaient cette route : la Vladimirka, qui part de Moscou vers l'est, était le chemin que suivaient à pied, enchaînés, les condamnés envoyés en exil en Sibérie. Isaac Levitan, peintre juif qui dut lui-même quitter Moscou quelque temps cette année-là, peint un paysage « d'humeur » : la tristesse est dans la route vide. Il offrit le tableau à Pavel Tretiakov, le grand collectionneur de Moscou.",
         "compare": "Comme le lac paisible de Duncanson, peint pendant une guerre, un paysage qui porte une histoire qu'il ne montre pas ; mais ici, le silence de la route est lui-même le message."
+      },
+      {
+        "title": "L'Hiver dans la forêt",
+        "artist": "Ion Andreescu",
+        "country": "Roumanie",
+        "period": "1879–1880",
+        "museum": "Musée national d'art de Roumanie, Bucarest",
+        "credit": "Musée national d'art de Roumanie, via Europeana (https://www.europeana.eu/item/2048047/Clasate_cff9bf5ed9cc4866be2bfcb79f0c9dc1) ; photo : licence CC BY-SA 4.0",
+        "analysis": "Une forêt dense en hiver : des troncs bruns et nus, de la neige au sol ; au centre, un peu en retrait, deux cabanes se détachent sur le fond des arbres. La notice du musée souligne les gris froids et sombres mêlés de bruns fins, une gamme de couleurs typique d'Ion Andreescu. Le peintre montre un hiver sans éclat, et l'on devine une vie humaine modeste, cachée dans les bois.",
+        "compare": "Comme la Vladimirka de Levitan, peinte une douzaine d'années plus tard, un paysage gris et silencieux qui laisse deviner, sans les montrer, ceux qui vivent ou passent là.",
+        "image": "images/expositions/paysage-andreescu-hiver-foret.jpg"
       },
       {
         "title": "La Cañada de Metlac",

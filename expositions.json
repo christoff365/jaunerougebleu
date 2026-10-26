@@ -1895,7 +1895,7 @@
   },
   {
     "title": "Croyances et spiritualités du monde",
-    "subtitle": "Du Livre des morts égyptien aux îles Fidji : trente et une œuvres de vingt-quatre pays, vingt traditions et des cinq continents",
+    "subtitle": "Du Livre des morts égyptien aux îles Fidji : trente-neuf œuvres de vingt-neuf pays, vingt traditions et des cinq continents",
     "status": "published",
     "theme": "Croyances & spiritualités du monde",
     "intro": "Partout et à toutes les époques, les êtres humains ont cherché à donner un sens à la vie, à la mort et au monde qui les dépasse. Cette exposition réunit des œuvres nées de traditions très différentes : la religion de l'Égypte ancienne, l'hindouisme, le jaïnisme, le bouddhisme sous ses différentes formes, le shintô, le taoïsme, le judaïsme, le christianisme d'Orient et d'Occident, d'Éthiopie et d'Arménie, l'islam (dont l'art religieux, sans figures, s'exprime par l'écriture et la géométrie de l'architecture) et sa voie mystique, le soufisme, le sikhisme, les religions du Mexique ancien, la divination yoruba et les rites des îles Fidji. Beaucoup sont des enluminures, ces livres sacrés écrits et peints à la main, où l'or et la couleur honorent la parole. Aucune tradition n'est placée au-dessus d'une autre ; les œuvres se répondent deux à deux, et montrent souvent des religions qui se rencontrent et cohabitent. Par respect, l'exposition ne montre pas d'objets que leurs communautés demandent de ne pas exposer, ni de représentation du Prophète de l'islam ; et certaines traditions, notamment autochtones d'Amérique du Nord et d'Australie, ne sont présentes que par cette mention, car leurs objets les plus sacrés n'ont pas leur place dans un musée.",
@@ -1994,6 +1994,17 @@
         "compare": "Comme le bodhisattva coréen de la compassion, une figure qui vient au secours des êtres ; ici la compassion prend un visage féminin."
       },
       {
+        "title": "Le Bouddha et un fidèle, premier feuillet d'un sutra mongol",
+        "artist": "Atelier de Pékin",
+        "country": "Mongolie (copié à Pékin)",
+        "period": "XIXe siècle",
+        "museum": "Bibliothèque d'État de Bavière, Munich",
+        "credit": "Bibliothèque d'État de Bavière (Cod.mongol. 76) ; numérisation : Library of Congress, World Digital Library (https://www.loc.gov/item/2021667745/), libre de droits connus",
+        "analysis": "Ce manuscrit en langue mongole contient le Sutra du Diamant, l'un des textes les plus répandus du bouddhisme du Grand Véhicule. Il a été fabriqué « dans le style de Pékin » : la feuille est encastrée dans une couverture de bois et protégée par un rideau de soie, ici relevé. Sur le premier feuillet, l'écriture mongole, tracée en or sur un fond sombre, se lit de haut en bas ; à gauche, une miniature montre le Bouddha assis sur un lotus, et à droite, un de ses fidèles, les mains jointes.",
+        "compare": "Comparez avec le Sutra du Diamant chinois de 868, le plus ancien livre imprimé daté : le même texte, mille ans plus tard, copié à la main dans une autre langue et une autre écriture.",
+        "image": "images/expositions/spirit-sutra-mongol.jpg"
+      },
+      {
         "title": "Le Sutra du Diamant, frontispice",
         "artist": "Imprimé pour Wang Jie",
         "country": "Chine",
@@ -2025,6 +2036,17 @@
         "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/53187), domaine public (Open Access)",
         "analysis": "Au sanctuaire shintô de Kasuga, à Nara, la légende raconte qu'une divinité arriva en chevauchant un cerf blanc ; les cerfs y sont encore aujourd'hui des messagers sacrés. Sur ce rouleau, un cerf porte sur sa selle un arbre sacré, le sakaki, d'où s'élève un disque doré où apparaissent des bouddhas. Au Japon, on considérait que les divinités shintô (kami) étaient aussi des manifestations des bouddhas : shintô et bouddhisme se mêlent dans une même image.",
         "compare": "Comme la peinture du Sri Lanka, deux traditions qui cohabitent : ici les kami du Japon et les bouddhas venus de l'Inde par la Chine et la Corée."
+      },
+      {
+        "title": "Fin d'un rouleau des « sutras du 1er mai », avec la prière de l'impératrice Kōmyō",
+        "artist": "Copiste professionnel de l'époque de Nara",
+        "country": "Japon",
+        "period": "740",
+        "museum": "Bibliothèque nationale de la Diète, Tokyo",
+        "credit": "Bibliothèque nationale de la Diète ; numérisation : Library of Congress, World Digital Library (https://www.loc.gov/item/2021667442/), libre de droits connus",
+        "analysis": "Copier un sutra à la main passait pour un acte de grand mérite. L'impératrice Kōmyō fit copier environ 7 000 rouleaux, presque tous les textes bouddhiques connus alors au Japon, pour prier pour le repos de ses parents. À la fin de chaque rouleau, on recopiait sa prière, datée du « 1er jour du 5e mois de la 12e année de l'ère Tenpyō » : on la voit ici à gauche, après le titre du texte. L'écriture, en chinois, suit le style de la dynastie Tang, sur un papier de chanvre.",
+        "compare": "Comme le Mandala des cerfs de Kasuga, une œuvre faite pour obtenir une protection : ici, ce n'est pas l'image qui compte, mais le geste de copier.",
+        "image": "images/expositions/spirit-sutra-komyo.jpg"
       },
       {
         "title": "Laozi, le sage du taoïsme",
@@ -2060,6 +2082,39 @@
         "compare": "Comme la Trinité de Roublev, une icône : pour les chrétiens orthodoxes, ce n'est pas un simple portrait, mais une fenêtre ouverte vers le sacré, devant laquelle on prie."
       },
       {
+        "title": "La Vierge de tendresse (Glykophilousa), icône en mosaïque",
+        "artist": "Artiste byzantin anonyme",
+        "country": "Grèce (venue de Triglia, Asie Mineure)",
+        "period": "XIIIe ou XIVe siècle",
+        "museum": "Musée byzantin et chrétien, Athènes",
+        "credit": "Musée byzantin et chrétien d'Athènes, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Episkepsis_(mosaic_icon).jpg), domaine public",
+        "analysis": "La Vierge serre l'Enfant contre elle, joue contre joue : ce type d'image s'appelle Glykophilousa, « qui embrasse tendrement ». Elle n'est pas peinte mais faite de minuscules cubes assemblés sur un fond d'or, une technique très coûteuse, rare pour une icône qu'on peut porter. Une encoche dans le bas du cadre permettait d'y fixer une hampe pour la promener dans les rues lors des processions. Elle vient d'une église de Triglia, près de Constantinople, et a été apportée en Grèce par les réfugiés d'Asie Mineure en 1922.",
+        "compare": "Comparez avec le Christ Pantocrator du Sinaï, peint à la cire : même art byzantin, mais ici l'image est construite en mosaïque, comme les murs des églises.",
+        "image": "images/expositions/spirit-glykophilousa.jpg"
+      },
+      {
+        "title": "Sainte Anne et la Vierge",
+        "artist": "Angelos Akotantos",
+        "country": "Grèce (Crète)",
+        "period": "première moitié du XVe siècle",
+        "museum": "Musée Benaki, Athènes",
+        "credit": "Musée Benaki, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Chanter_Angelos_Akotandos_-_St_Anne_with_the_Virgin_-_Google_Art_Project.jpg), domaine public",
+        "analysis": "Sainte Anne, mère de la Vierge Marie, porte sa fille sur son bras. Les inscriptions grecques en rouge sur le fond d'or donnent leurs noms. Anne est enveloppée dans un grand manteau rouge vif ; Marie, enfant, porte un voile sombre et tient une petite fleur blanche. Angelos Akotantos était un peintre d'icônes de Crète, mort en 1457.",
+        "compare": "Comparez avec la Vierge en mosaïque juste avant : la même tendresse entre mère et enfant, mais rendue par de grands aplats de couleur peinte.",
+        "image": "images/expositions/spirit-akotantos.jpg"
+      },
+      {
+        "title": "Petite Déisis, icône d'iconostase",
+        "artist": "Peintre d'icônes roumain",
+        "country": "Roumanie",
+        "period": "dernier quart du XVIIIe siècle",
+        "museum": "Musée national d'art de Roumanie, Bucarest",
+        "credit": "Musée national d'art de Roumanie, via Europeana (https://www.europeana.eu/item/2048047/Clasate_9734ae52d5ed41e38c3a10cbefe1eac2) ; photo : licence CC BY-SA 4.0",
+        "analysis": "Le Christ bénit de la main droite et tient le livre des Évangiles fermé dans la gauche. Dans son auréole, les lettres grecques signifient « Celui qui est ». De part et d'autre, assis sur des nuages, la Vierge Marie et Jean-Baptiste tendent les mains vers lui : ils intercèdent pour les humains, c'est le sens du mot grec Déisis (« prière »). Taillée dans une seule planche de hêtre, l'icône était placée sur l'iconostase, la cloison couverte d'images qui sépare l'autel du reste de l'église orthodoxe.",
+        "compare": "Comparez avec le Christ Pantocrator du Sinaï, plus de mille ans plus tôt : même geste de bénédiction et même livre, preuve de la fidélité des peintres d'icônes à des modèles très anciens.",
+        "image": "images/expositions/spirit-deisis-roumanie.jpg"
+      },
+      {
         "title": "La page du Chi-Rho, Livre de Kells",
         "artist": "Moines irlandais",
         "country": "Irlande",
@@ -2069,6 +2124,17 @@
         "credit": "Bibliothèque du Trinity College, Dublin, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:KellsFol034rChiRhoMonogram.jpg), domaine public",
         "analysis": "Copié et enluminé par des moines irlandais vers 800, le Livre de Kells contient les quatre Évangiles. Cette page célèbre est presque entièrement occupée par deux lettres grecques, X et P (chi et rho), initiales du nom du Christ, couvertes de spirales, d'entrelacs et de motifs hérités de l'art celte. En les regardant de près, on découvre des anges, une loutre tenant un poisson, des chats et des souris. Écrire et orner le texte sacré était, pour ces moines, une forme de prière.",
         "compare": "Comme le Coran bleu, les lettres sacrées deviennent une œuvre d'art ; mais là où la calligraphie arabe reste sobre, l'enlumineur irlandais fait proliférer les ornements jusqu'au vertige."
+      },
+      {
+        "title": "Otton III prosterné devant le Christ, livre de prières d'Otton III",
+        "artist": "Enlumineur ottonien",
+        "country": "Allemagne",
+        "period": "984–991",
+        "museum": "Bibliothèque d'État de Bavière, Munich",
+        "credit": "Bibliothèque d'État de Bavière (Clm 30111) ; numérisation : Library of Congress, World Digital Library (https://www.loc.gov/item/2021667997/), libre de droits connus",
+        "analysis": "Ce petit livre (15 cm de haut) était le livre de prières personnel du jeune empereur Otton III, qui avait quatre ans à la mort de son père. C'est l'un des deux seuls livres de prières royaux du haut Moyen Âge qui nous soient parvenus. Sur ces deux pages qui se font face, le jeune souverain, à gauche, est prosterné au pied d'un édifice ; à droite, le Christ trône dans une mandorle (une auréole en forme d'amande) portée par deux anges : selon la notice, c'est Otton à genoux devant le Christ. Les prières sont écrites en lettres d'or sur des fonds pourpres encadrés d'or.",
+        "compare": "Comparez avec la page du Livre de Kells : deux livres chrétiens du haut Moyen Âge, l'un couvert d'entrelacs pour une communauté de moines, l'autre fait pour la prière d'une seule personne.",
+        "image": "images/expositions/spirit-otton-iii.jpg"
       },
       {
         "title": "Page de titre de l'Évangile de Jean",
@@ -2093,6 +2159,17 @@
         "compare": "Comparez avec la page de titre de Sargis, un autre enlumineur arménien : là aussi, le Christ apparaît au sommet d'une architecture dorée, comme s'il veillait sur ce qui se trouve en dessous. Comme l'icône du Christ Pantocrator du Sinaï, le Christ y est représenté de face, bénissant, mais ici il bénit des personnes bien réelles, les commanditaires du livre."
       },
       {
+        "title": "Saint Jean et le prêtre Dobreicho, Évangile de Dobreicho",
+        "artist": "Le prêtre Dobreicho (copiste ou donateur)",
+        "country": "Bulgarie",
+        "period": "premier quart du XIIIe siècle",
+        "museum": "Bibliothèque nationale de Bulgarie, Sofia",
+        "credit": "Bibliothèque nationale de Bulgarie ; numérisation : Library of Congress, World Digital Library (https://www.loc.gov/item/2021667512/), libre de droits connus",
+        "analysis": "Sous trois arcs colorés, l'évangéliste Jean est assis sur un trône ; à droite, plus petit, un homme agenouillé tend les mains vers lui : c'est le prêtre Dobreicho, qui a donné ou copié le manuscrit, et dont le nom est écrit en bas de la page. Ce livre des Évangiles, en slavon d'Église, est un témoin important des débuts de la langue bulgare. Une autre partie du manuscrit, conservée à Belgrade, a brûlé en 1941 lors du bombardement de la ville.",
+        "compare": "Comme le prince Levon et la princesse Keran dans l'Évangile arménien, le donateur se fait représenter à côté du saint, en plus petit, pour rester présent dans la prière.",
+        "image": "images/expositions/spirit-dobreicho.jpg"
+      },
+      {
         "title": "Un livre des Évangiles",
         "artist": "Artiste des hauts plateaux éthiopiens",
         "country": "Éthiopie",
@@ -2113,6 +2190,17 @@
         "credit": "Galerie Tretiakov, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Angelsatmamre-trinity-rublev-1410.jpg), domaine public",
         "analysis": "La Bible raconte que trois visiteurs mystérieux apparurent à Abraham, qui les accueillit à sa table. Le moine Andreï Roublev en a tiré l'icône la plus célèbre de Russie : trois anges assis autour d'une table où se trouve une coupe, inscrits dans un cercle invisible. Les chrétiens y voient l'image de la Trinité, un seul Dieu en trois personnes. Tout est douceur : les têtes inclinées, les couleurs claires, le bleu lumineux. L'hospitalité devient une image de l'amour divin.",
         "compare": "Comme le Christ du Sinaï, une icône à prier ; mais huit siècles plus tard, la sévérité byzantine a laissé place à une tendresse toute russe."
+      },
+      {
+        "title": "L'Ange aux cheveux d'or",
+        "artist": "Peintre d'icônes anonyme",
+        "country": "Russie",
+        "period": "XIIe siècle",
+        "museum": "Musée russe, Saint-Pétersbourg",
+        "credit": "Musée russe, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Angel_with_Golden_Hair.jpg), domaine public",
+        "analysis": "Seul le visage d'un ange occupe l'icône : de grands yeux sombres, un regard tourné de côté, et une chevelure dont chaque mèche est soulignée de fins traits d'or, retenue par un bandeau orné d'une pierre rouge. La peinture a beaucoup souffert : on voit le bois nu tout autour et les trous des clous.",
+        "compare": "Comparez avec La Trinité de Roublev, plus de deux siècles plus tard : on y retrouve des anges, mais en entier, assis autour d'une table, avec des couleurs bien plus claires.",
+        "image": "images/expositions/spirit-ange-cheveux-or.jpg"
       },
       {
         "title": "Petite icône de voyage retrouvée dans une épave",

@@ -1,7 +1,7 @@
 [
   {
     "title": "La lumière comme langage universel",
-    "subtitle": "De l'Égypte romaine à l'Australie : trente et une visions de la lumière, de vingt-cinq pays et des cinq continents",
+    "subtitle": "De l'Égypte romaine à l'Australie : trente-deux visions de la lumière, de vingt-six pays et des cinq continents",
     "status": "published",
     "theme": "Lumière & ombre à travers les cultures",
     "intro": "Sur dix-sept siècles (vers 200 – 1900) et cinq continents, de l'Égypte à la Chine, de l'Iran à l'Inde, du Japon à Java, de l'Europe au Mexique, aux Caraïbes et à l'Australie, la lumière est le véritable sujet de ces œuvres. Modelé d'un visage, brume qui efface les montagnes, éclat des céramiques d'une mosquée, lampe de verre, feu d'une fête persane ou indienne, auréoles des saints, clair de lune sur la mer, lave d'un volcan, soleil sur l'eau ou dans une pièce vide : naturelle ou divine, intime ou dramatique, peinte ou suggérée par le vide, elle prend dans chaque culture un sens différent.",
@@ -200,6 +200,17 @@
         "image": "images/expositions/lumiere-kiyochika-kudanzaka.jpg"
       },
       {
+        "title": "Jarre-lune",
+        "artist": "Potier coréen anonyme",
+        "country": "Corée",
+        "period": "époque Joseon",
+        "museum": "Musée national de Corée, Séoul",
+        "credit": "Musée national de Corée, via e-museum (https://www.emuseum.go.kr/detail?relicId=PS0100100100400070200000), licence KOGL type 1 (réutilisation libre avec mention de la source)",
+        "analysis": "On l'appelle « jarre-lune » parce qu'elle est ronde comme la pleine lune. Elle n'est pourtant pas parfaitement ronde : selon la notice du musée, un côté s'est un peu affaissé pendant la cuisson. Haute de 41 cm, elle est couverte d'une glaçure transparente presque sans reflet bleu, avec par endroits de larges craquelures, et sa surface a la couleur du lait. Sur la photographie, la lumière glisse sur la panse et la fait paraître plus claire d'un côté, plus grise de l'autre. Le musée y voit l'image même de la beauté de la porcelaine blanche de Joseon : une lumière blanche et limpide, et une rondeur généreuse.",
+        "compare": "Comme les Lièvres sous la lune de Hiroshige, une lune pâle ; mais ici, ce n'est pas une image de la lune, c'est un objet qui en a pris la forme et la lumière.",
+        "image": "images/expositions/lumiere-jarre-lune-coree.jpg"
+      },
+      {
         "title": "Le Dernier Voyage du Téméraire",
         "artist": "Joseph Mallord William Turner",
         "country": "Angleterre",
@@ -356,10 +367,10 @@
   },
   {
     "title": "La couleur est relative",
-    "subtitle": "D'après L'Interaction des couleurs de Josef Albers : trente-huit leçons du regard, de l'Égypte ancienne au Bauhaus",
+    "subtitle": "D'après L'Interaction des couleurs de Josef Albers : trente-neuf leçons du regard, de l'Égypte ancienne au Bauhaus",
     "status": "published",
     "theme": "Couleur & perception",
-    "intro": "« Dans la perception visuelle, une couleur n'est presque jamais vue telle qu'elle est réellement, physiquement. » C'est ainsi que Josef Albers (1888–1976), peintre et professeur au Bauhaus puis aux États-Unis, ouvre son livre L'Interaction des couleurs (1963). Pour lui, une couleur change selon ses voisines, selon sa quantité, selon la lumière : c'est le moyen le plus relatif de l'art. Il l'enseignait non par la théorie mais par l'expérience, avec des papiers colorés. Ses tableaux n'étant pas encore dans le domaine public, cette exposition met ses leçons à l'épreuve d'œuvres de vingt-six pays et des cinq continents, de l'Égypte ancienne et du Pérou des Wari jusqu'au Bauhaus, où Albers fut étudiant puis professeur. Pour chaque œuvre, un exercice du regard vous est proposé.",
+    "intro": "« Dans la perception visuelle, une couleur n'est presque jamais vue telle qu'elle est réellement, physiquement. » C'est ainsi que Josef Albers (1888–1976), peintre et professeur au Bauhaus puis aux États-Unis, ouvre son livre L'Interaction des couleurs (1963). Pour lui, une couleur change selon ses voisines, selon sa quantité, selon la lumière : c'est le moyen le plus relatif de l'art. Il l'enseignait non par la théorie mais par l'expérience, avec des papiers colorés. Ses tableaux n'étant pas encore dans le domaine public, cette exposition met ses leçons à l'épreuve d'œuvres de vingt-sept pays et des cinq continents, de l'Égypte ancienne et du Pérou des Wari jusqu'au Bauhaus, où Albers fut étudiant puis professeur. Pour chaque œuvre, un exercice du regard vous est proposé.",
     "minimum": 20,
     "search": {
       "keywords": "color",
@@ -783,6 +794,17 @@
         "analysis": "Leçon 38 — De petites couleurs sur un grand bleu. Cette robe de ramie vient du royaume de Ryūkyū, l'actuelle Okinawa. Elle est teinte selon la technique du bingata, que la notice du musée décrit ainsi : on découpe le motif au petit couteau dans un papier enduit de jus de kaki, on teint l'étoffe à l'indigo de Ryūkyū en laissant les motifs en blanc, puis on colore à la main chacun des petits motifs, un par un. Ces motifs japonais, bambous, balles de jeu et feuilles d'érable, faisaient rêver la famille royale de Ryūkyū. Exercice : regardez la robe de loin, puis de près. De loin, les milliers de petits motifs clairs se fondent dans le bleu, qui paraît plus clair et plus doux ; de près, on découvre leurs couleurs, et l'indigo redevient profond autour d'eux.",
         "compare": "Comme la robe en ikat d'Ouzbékistan (leçon 16), une teinture « en réserve » : on protège le fil ou l'étoffe là où la couleur ne doit pas prendre ; mais là-bas les motifs sont grands et flous, ici minuscules et nets.",
         "image": "images/expositions/couleur-bingata-ryukyu.jpg"
+      },
+      {
+        "title": "Brûle-parfum en céladon ajouré (trésor national)",
+        "artist": "Potier coréen de l'époque Goryeo",
+        "country": "Corée",
+        "period": "époque Goryeo",
+        "museum": "Musée national de Corée, Séoul",
+        "credit": "Musée national de Corée, via e-museum (https://www.emuseum.go.kr/detail?relicId=PS0100100100500299000000), licence KOGL type 1 (réutilisation libre avec mention de la source)",
+        "analysis": "Leçon 39 — Un vert qui change avec l'épaisseur. Ce brûle-parfum, trouvé près de Kaesong, est l'un des chefs-d'œuvre du céladon de Goryeo. Il est photographié démonté : à gauche, le couvercle en boule ajourée, par où s'échappait la fumée de l'encens ; à droite, le corps en forme de lotus, où l'on brûlait l'encens, posé sur son support. Selon la notice du musée, le potier a réuni de nombreuses techniques : incision, relief, ajour, engobe blanc, incrustation et pièces rapportées. Exercice : la couverte, ce verre qui recouvre la terre, n'a pas partout la même couleur. Là où elle est épaisse, dans les creux, elle est d'un vert-bleu profond ; sur les arêtes, où elle est mince, elle devient presque grise et laisse deviner la terre. C'est une seule couleur, et pourtant on en voit plusieurs.",
+        "compare": "Comme l'hippopotame égyptien « William » (leçon 1), un objet couvert d'une glaçure bleu-vert ; mais en Corée, le vert du céladon vient de la couverte elle-même, qui change selon son épaisseur.",
+        "image": "images/expositions/couleur-celadon-goryeo.jpg"
       }
     ]
   },
@@ -1268,10 +1290,10 @@
   },
   {
     "title": "Masques du monde",
-    "subtitle": "Du Pérou au Japon, de l'Alaska au Gabon : quarante-neuf masques de trente-trois pays et des cinq continents",
+    "subtitle": "Du Pérou au Japon, de l'Alaska au Gabon : cinquante masques de trente-trois pays et des cinq continents",
     "status": "published",
     "theme": "Corps & identité",
-    "intro": "Un masque cache un visage pour en faire apparaître un autre : celui d'un ancêtre, d'un esprit, d'un dieu, d'un défunt, d'un animal ou d'un personnage de théâtre. De l'Égypte des pharaons au théâtre nô, des Andes aux îles du détroit de Torres, ces quarante-neuf masques montrent comment chaque culture a donné un visage à l'invisible. Beaucoup n'étaient pas faits pour être regardés immobiles dans une vitrine, mais portés, dansés et chantés, avec un costume, de la musique et des gestes : imaginez-les en mouvement, à la lumière du feu. Certains masques sacrés, que leurs communautés demandent de ne pas montrer, comme les visages de guérison haudenosaunee ou certains masques hopis et zuñis, ne figurent volontairement pas ici. Plusieurs de ces objets ont quitté leur pays dans des conditions violentes ou contestées : leur histoire est rappelée quand elle est connue.",
+    "intro": "Un masque cache un visage pour en faire apparaître un autre : celui d'un ancêtre, d'un esprit, d'un dieu, d'un défunt, d'un animal ou d'un personnage de théâtre. De l'Égypte des pharaons au théâtre nô, des Andes aux îles du détroit de Torres, ces cinquante masques montrent comment chaque culture a donné un visage à l'invisible. Beaucoup n'étaient pas faits pour être regardés immobiles dans une vitrine, mais portés, dansés et chantés, avec un costume, de la musique et des gestes : imaginez-les en mouvement, à la lumière du feu. Certains masques sacrés, que leurs communautés demandent de ne pas montrer, comme les visages de guérison haudenosaunee ou certains masques hopis et zuñis, ne figurent volontairement pas ici. Plusieurs de ces objets ont quitté leur pays dans des conditions violentes ou contestées : leur histoire est rappelée quand elle est connue.",
     "minimum": 20,
     "search": {
       "keywords": "mask",
@@ -1658,6 +1680,17 @@
         "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1989.103), domaine public (CC0)",
         "analysis": "Le talchum, théâtre dansé masqué de Corée, mêle chants, danses et dialogues. Né dans la province de Hwanghae, il devient très populaire dans les villages sous la dynastie Joseon. Les spectateurs y riaient des aristocrates prétentieux, des moines hypocrites et des querelles de vieux couples : derrière le masque, on pouvait dire ce qui était interdit à visage découvert. Ce vieillard à la barbe de crin de cheval est l'un de ces personnages familiers.",
         "compare": "Comme le masque comique grec, un type de personnage que tout le public reconnaît, et qui permet de rire des puissants."
+      },
+      {
+        "title": "Masque de bangsangsi, l'exorciste aux quatre yeux",
+        "artist": "Sculpteur coréen anonyme",
+        "country": "Corée",
+        "period": "époque Joseon",
+        "museum": "Musée national de Corée, Séoul",
+        "credit": "Musée national de Corée, via e-museum (https://www.emuseum.go.kr/detail?relicId=PS0100100101100633100000), licence KOGL type 1 (réutilisation libre avec mention de la source)",
+        "analysis": "Ce masque de bois a quatre yeux ronds, un long nez, de grandes oreilles et un front plissé. Selon la notice du musée, on célébrait depuis longtemps, la dernière nuit de l'année lunaire, un rite appelé narye pour chasser les esprits de l'année écoulée, au palais comme dans le peuple, sous les dynasties Goryeo et Joseon. C'était une sorte de théâtre : le bangsangsi, coiffé de ce masque, vêtu d'une peau d'ours et armé d'une lance et d'un bouclier, chassait un acteur déguisé en démon des maladies. Le bangsangsi marchait aussi en tête des convois funéraires, pour empêcher les esprits de s'attacher au défunt. Ce masque est classé patrimoine culturel populaire national de Corée.",
+        "compare": "Comme le masque de danse cham du Tibet, un masque effrayant fait pour chasser le mal ; mais le bangsangsi, avec ses quatre yeux, protège aussi les morts sur leur dernier chemin.",
+        "image": "images/expositions/masque-bangsangsi-coree.jpg"
       },
       {
         "title": "Masque de procession d'une divinité hindoue",
@@ -2148,7 +2181,7 @@
   },
   {
     "title": "Croyances et spiritualités du monde",
-    "subtitle": "Du Livre des morts égyptien aux îles Fidji : quarante-deux œuvres de vingt-neuf pays, vingt traditions et des cinq continents",
+    "subtitle": "Du Livre des morts égyptien aux îles Fidji : quarante-quatre œuvres de trente pays, vingt traditions et des cinq continents",
     "status": "published",
     "theme": "Croyances & spiritualités du monde",
     "intro": "Partout et à toutes les époques, les êtres humains ont cherché à donner un sens à la vie, à la mort et au monde qui les dépasse. Cette exposition réunit des œuvres nées de traditions très différentes : la religion de l'Égypte ancienne, l'hindouisme, le jaïnisme, le bouddhisme sous ses différentes formes, le shintô, le taoïsme, le judaïsme, le christianisme d'Orient et d'Occident, d'Éthiopie et d'Arménie, l'islam (dont l'art religieux, sans figures, s'exprime par l'écriture et la géométrie de l'architecture) et sa voie mystique, le soufisme, le sikhisme, les religions du Mexique ancien, la divination yoruba et les rites des îles Fidji. Beaucoup sont des enluminures, ces livres sacrés écrits et peints à la main, où l'or et la couleur honorent la parole. Aucune tradition n'est placée au-dessus d'une autre ; les œuvres se répondent deux à deux, et montrent souvent des religions qui se rencontrent et cohabitent. Par respect, l'exposition ne montre pas d'objets que leurs communautés demandent de ne pas exposer, ni de représentation du Prophète de l'islam ; et certaines traditions, notamment autochtones d'Amérique du Nord et d'Australie, ne sont présentes que par cette mention, car leurs objets les plus sacrés n'ont pas leur place dans un musée.",
@@ -2278,6 +2311,17 @@
         "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/36029), domaine public (Open Access)",
         "analysis": "Avalokiteshvara, le bodhisattva de la compassion, est assis sur un rocher au bord de l'eau, dans un voile transparent semé d'or. Selon un texte bouddhique, le jeune pèlerin Sudhana vint le trouver dans sa demeure au bord de la mer pour recevoir son enseignement. Sous la dynastie Goryeo, la Corée était profondément bouddhiste, et ses peintres réalisaient des images d'une finesse extraordinaire, dont il ne reste aujourd'hui que peu d'exemples.",
         "compare": "Comme la Tara verte du Tibet, une figure de la compassion ; mais là où Tara se penche vers nous, prête à agir, Avalokiteshvara contemple, dans le calme de la lune reflétée sur l'eau."
+      },
+      {
+        "title": "Bodhisattva pensif (dit Maitreya)",
+        "artist": "Bronzier coréen anonyme",
+        "country": "Corée",
+        "period": "époque des Trois Royaumes",
+        "museum": "Musée national de Corée, Séoul",
+        "credit": "Musée national de Corée, via e-museum (https://www.emuseum.go.kr/detail?relicId=PS0100100100500331200000), licence KOGL type 1 (réutilisation libre avec mention de la source)",
+        "analysis": "Assis, la jambe droite posée sur le genou gauche, la tête inclinée, le bodhisattva effleure sa joue du bout des doigts de la main droite : il est plongé dans une profonde méditation. Selon la notice du musée, ce type de statue vient de l'image du Bouddha Shakyamuni, quand, encore prince, il méditait sur le caractère passager de la vie ; en Chine, on l'appelait « le prince qui médite ». Le léger sourire, le visage qui semble respirer, les plis souples du vêtement, l'équilibre entre le haut et le bas du corps en font, dit le musée, un chef-d'œuvre de la sculpture bouddhique d'Asie de l'Est. Cette statue de bronze doré, haute de 91 cm, est un trésor national de Corée.",
+        "compare": "La notice du musée la rapproche du bodhisattva pensif en bois du temple Kōryū-ji, au Japon, qui lui ressemble beaucoup : comme le Fugen japonais de cette exposition, un bodhisattva calme et intérieur, mais ici fait de métal, et non peint.",
+        "image": "images/expositions/spirit-bodhisattva-pensif-coree.jpg"
       },
       {
         "title": "Mandala des cerfs de Kasuga",
@@ -2531,6 +2575,17 @@
         "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/454662), domaine public (Open Access)",
         "analysis": "Dans l'islam, la parole divine révélée au Prophète est au cœur de tout ; l'art sacré a souvent choisi de ne pas représenter de figures et de magnifier l'écriture. Ce feuillet appartient à l'un des Corans les plus célèbres, sans doute copié à Kairouan, en Tunisie : des lettres coufiques en or sur un parchemin teint en bleu indigo, une rareté. Les petites rosettes d'argent, aujourd'hui noircies, marquaient la fin des versets. La plupart des feuillets conservés sont en Tunisie.",
         "compare": "Comme la page du Chi-Rho de Kells, l'écriture sacrée devient lumière ; ici, sans aucune image, la beauté naît du seul rythme des lettres d'or."
+      },
+      {
+        "title": "Explication des avis des savants et des théologiens, manuscrit de Tombouctou",
+        "artist": "Lettré de Tombouctou",
+        "country": "Mali",
+        "period": "date inconnue",
+        "museum": "Bibliothèque commémorative Mamma Haidara, Tombouctou",
+        "credit": "Bibliothèque commémorative Mamma Haidara ; numérisation : Library of Congress, World Digital Library (https://www.loc.gov/item/2021667141/), libre de droits connus",
+        "analysis": "Tombouctou, fondée vers 1100 comme ville de commerce à travers le Sahara, devint à partir du XIVe siècle un grand foyer d'études islamiques. Ses bibliothèques conservent de nombreux manuscrits importants, écrits ou copiés par ses lettrés dans différents styles d'écriture arabe. Dans celui-ci, l'auteur examine comment les théologiens et les savants abordent diverses questions de droit et de société musulmans, et explique leurs avis. Sur la page, l'écriture arabe à l'encre brune couvre tout l'espace ; quelques mots, écrits à l'encre rouge, servent de titres et de repères. Les bords du papier sont usés par les siècles.",
+        "compare": "Comme le Coran bleu, sans doute copié à Kairouan, en Tunisie, un manuscrit islamique d'Afrique ; mais là, le texte sacré lui-même, ici un livre d'étude qui commente les avis des savants.",
+        "image": "images/expositions/spirit-manuscrit-tombouctou.jpg"
       },
       {
         "title": "Paire de portes d'un minbar",

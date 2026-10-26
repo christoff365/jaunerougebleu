@@ -1,7 +1,7 @@
 [
   {
     "title": "La lumière comme langage universel",
-    "subtitle": "De l'Égypte romaine à l'Australie : vingt-huit visions de la lumière, de vingt-cinq pays et des cinq continents",
+    "subtitle": "De l'Égypte romaine à l'Australie : vingt-neuf visions de la lumière, de vingt-cinq pays et des cinq continents",
     "status": "published",
     "theme": "Lumière & ombre à travers les cultures",
     "intro": "Sur dix-sept siècles (vers 200 – 1900) et cinq continents, de l'Égypte à la Chine, de l'Iran à l'Inde, du Japon à Java, de l'Europe au Mexique, aux Caraïbes et à l'Australie, la lumière est le véritable sujet de ces œuvres. Modelé d'un visage, brume qui efface les montagnes, éclat des céramiques d'une mosquée, lampe de verre, feu d'une fête persane ou indienne, auréoles des saints, clair de lune sur la mer, lave d'un volcan, soleil sur l'eau ou dans une pièce vide : naturelle ou divine, intime ou dramatique, peinte ou suggérée par le vide, elle prend dans chaque culture un sens différent.",
@@ -165,6 +165,17 @@
         "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/57849), domaine public (Open Access)",
         "analysis": "Dans l'estampe japonaise, la lumière est suggérée par l'absence — le blanc du papier devient lumière. Une approche radicalement différente de la tradition occidentale.",
         "compare": "L'absence de clair-obscur révèle que la lumière en art n'est pas universelle : elle est culturelle."
+      },
+      {
+        "title": "Lièvres et prêles sous la lune",
+        "artist": "Utagawa Hiroshige",
+        "country": "Japon",
+        "period": "XIXe siècle",
+        "museum": "Musée national de Tokyo",
+        "credit": "Musée national de Tokyo, ColBase (https://colbase.nich.go.jp/collection_items/tnm/A-10569-872), licence CC BY 4.0",
+        "analysis": "Sur cette estampe étroite et haute, une pleine lune pâle se lève en haut à gauche, au-dessus de tiges de prêles ; en bas, deux lièvres blancs la regardent. Un poème est écrit dans le ciel. Selon la notice du musée, la lune, les prêles et les lièvres évoquent tous l'automne : on récoltait les prêles à cette saison pour polir, et on les offrait à la lune des moissons, le 13e jour du 9e mois, pour demander une bonne récolte ; et l'on croyait que des lièvres vivaient sur la lune. Hiroshige n'emploie presque que des gris et des beiges, et la lune n'est qu'un disque plus clair : c'est la pâleur du papier qui fait sa lumière.",
+        "compare": "Comme les Deux hommes contemplant la lune de Friedrich, des êtres qui lèvent les yeux vers la lune ; chez Friedrich, ce sont deux hommes, chez Hiroshige, deux lièvres, et une croyance populaire.",
+        "image": "images/expositions/lumiere-hiroshige-lievres-lune.jpg"
       },
       {
         "title": "Le Dernier Voyage du Téméraire",
@@ -733,10 +744,10 @@
   },
   {
     "title": "Nature, art et bien-être",
-    "subtitle": "Du jardin d'un Égyptien d'il y a 4 000 ans aux lacs du Canada : trente et une visions de la nature qui font du bien, de vingt-sept pays et des cinq continents, et ce qu'en dit la science",
+    "subtitle": "Du jardin d'un Égyptien d'il y a 4 000 ans aux lacs du Canada : trente-deux visions de la nature qui font du bien, de vingt-sept pays et des cinq continents, et ce qu'en dit la science",
     "status": "published",
     "theme": "La nature dans l'art mondial",
-    "intro": "Bien avant les laboratoires, les humains ont su que la nature leur faisait du bien : les Égyptiens emportaient leur jardin dans la tombe, les Persans en tissaient sur leurs tapis, les lettrés chinois se promenaient dans des rouleaux de montagnes sans quitter leur bureau. Depuis quarante ans, la recherche confirme et précise cette intuition : regarder un paysage, marcher dans un parc, visiter un musée ou dessiner apaisent le stress, améliorent l'humeur et sont associés à une meilleure santé et à une vie plus longue. Cette exposition réunit trente et une œuvres de vingt-sept pays, des jardins, des fleurs, des rivières, des forêts, des volcans et des clairs de lune, et présente, après les œuvres, ce que disent les études, avec leurs références. Prenez votre temps : regarder lentement fait partie de l'expérience.",
+    "intro": "Bien avant les laboratoires, les humains ont su que la nature leur faisait du bien : les Égyptiens emportaient leur jardin dans la tombe, les Persans en tissaient sur leurs tapis, les lettrés chinois se promenaient dans des rouleaux de montagnes sans quitter leur bureau. Depuis quarante ans, la recherche confirme et précise cette intuition : regarder un paysage, marcher dans un parc, visiter un musée ou dessiner apaisent le stress, améliorent l'humeur et sont associés à une meilleure santé et à une vie plus longue. Cette exposition réunit trente-deux œuvres de vingt-sept pays, des jardins, des fleurs, des rivières, des forêts, des volcans et des clairs de lune, et présente, après les œuvres, ce que disent les études, avec leurs références. Prenez votre temps : regarder lentement fait partie de l'expérience.",
     "minimum": 20,
     "search": {
       "keywords": "landscape garden",
@@ -830,6 +841,17 @@
         "analysis": "Hiroshige nous place tout près d'un vieux prunier en fleurs : ses branches sombres traversent l'image au premier plan, et c'est entre elles que l'on découvre le verger blanc de fleurs, avec, au loin, des promeneurs venus pique-niquer. À gauche, on aperçoit une partie de la porte d'entrée. Le ciel rouge vif fait ressortir les fleurs blanches.",
         "compare": "Van Gogh, qui a peint les Iris de cette exposition, a copié cette estampe en 1887 : la nature japonaise a nourri son regard.",
         "image": "images/expositions/nature-hiroshige-kameido.jpg"
+      },
+      {
+        "title": "Coqs, du Royaume coloré des êtres vivants (Dōshoku sai-e)",
+        "artist": "Itō Jakuchū",
+        "country": "Japon",
+        "period": "XVIIIe siècle",
+        "museum": "Musée des collections impériales (Sannomaru Shōzōkan), Tokyo",
+        "credit": "Musée des collections impériales (Sannomaru Shōzōkan), ColBase (https://colbase.nich.go.jp/collection_items/shozokan/SZK002949), licence CC BY 4.0",
+        "analysis": "Une foule de coqs se presse sur ce rouleau de soie : crêtes rouge vif, plumes blanches, noires, tachetées ou rayées. C'est l'un des trente rouleaux du Royaume coloré des êtres vivants, l'œuvre la plus célèbre d'Itō Jakuchū. Il les avait peints pour honorer une triade du Bouddha Shakyamuni, conservée au temple Shōkoku-ji de Kyoto ; plantes, oiseaux, insectes, poissons et coquillages y sont si bien observés qu'ils fascinent encore, dit la notice du musée. Le temple les offrit à la cour impériale en 1890 ; ils sont aujourd'hui trésor national.",
+        "compare": "Comme les Oies sauvages coréennes, des oiseaux observés de près ; mais Jakuchū remplit tout l'espace de couleurs et de motifs, au point que les plumes deviennent presque un décor.",
+        "image": "images/expositions/nature-jakuchu-coqs.jpg"
       },
       {
         "title": "Panneau de carreaux",
@@ -1191,10 +1213,10 @@
   },
   {
     "title": "Masques du monde",
-    "subtitle": "Du Pérou au Japon, de l'Alaska au Gabon : quarante-sept masques de trente-trois pays et des cinq continents",
+    "subtitle": "Du Pérou au Japon, de l'Alaska au Gabon : quarante-huit masques de trente-trois pays et des cinq continents",
     "status": "published",
     "theme": "Corps & identité",
-    "intro": "Un masque cache un visage pour en faire apparaître un autre : celui d'un ancêtre, d'un esprit, d'un dieu, d'un défunt, d'un animal ou d'un personnage de théâtre. De l'Égypte des pharaons au théâtre nô, des Andes aux îles du détroit de Torres, ces quarante-sept masques montrent comment chaque culture a donné un visage à l'invisible. Beaucoup n'étaient pas faits pour être regardés immobiles dans une vitrine, mais portés, dansés et chantés, avec un costume, de la musique et des gestes : imaginez-les en mouvement, à la lumière du feu. Certains masques sacrés, que leurs communautés demandent de ne pas montrer, comme les visages de guérison haudenosaunee ou certains masques hopis et zuñis, ne figurent volontairement pas ici. Plusieurs de ces objets ont quitté leur pays dans des conditions violentes ou contestées : leur histoire est rappelée quand elle est connue.",
+    "intro": "Un masque cache un visage pour en faire apparaître un autre : celui d'un ancêtre, d'un esprit, d'un dieu, d'un défunt, d'un animal ou d'un personnage de théâtre. De l'Égypte des pharaons au théâtre nô, des Andes aux îles du détroit de Torres, ces quarante-huit masques montrent comment chaque culture a donné un visage à l'invisible. Beaucoup n'étaient pas faits pour être regardés immobiles dans une vitrine, mais portés, dansés et chantés, avec un costume, de la musique et des gestes : imaginez-les en mouvement, à la lumière du feu. Certains masques sacrés, que leurs communautés demandent de ne pas montrer, comme les visages de guérison haudenosaunee ou certains masques hopis et zuñis, ne figurent volontairement pas ici. Plusieurs de ces objets ont quitté leur pays dans des conditions violentes ou contestées : leur histoire est rappelée quand elle est connue.",
     "minimum": 20,
     "search": {
       "keywords": "mask",
@@ -1517,6 +1539,17 @@
         "compare": "Comme les masques du théâtre grec, il enveloppait toute la tête et faisait reconnaître un personnage de loin. Et il rappelle que le théâtre japonais est né d'échanges avec la Corée, la Chine et, plus loin, la Perse."
       },
       {
+        "title": "Masque de bugaku : Ryō'ō (le roi de Lanling)",
+        "artist": "Atelier japonais",
+        "country": "Japon",
+        "period": "XIIIe–XIVe siècle",
+        "museum": "Musée national de Tokyo",
+        "credit": "Musée national de Tokyo, ColBase (https://colbase.nich.go.jp/collection_items/tnm/C-14), licence CC BY 4.0",
+        "analysis": "Ce masque de bois peint servait au bugaku, les danses de la cour impériale. Il représente Ryō'ō, le prince de Lanling : selon la notice du musée, ce célèbre général de la Chine ancienne cachait son beau visage derrière un masque effrayant avant de partir au combat. Les yeux sont ronds et saillants, le visage sombre, et une créature sculptée est posée au sommet de la tête ; le menton, séparé, est suspendu par des cordelettes et bouge pendant la danse. Il est classé bien culturel important.",
+        "compare": "Comme le masque de gigaku du jeune garçon perse, un masque d'un ancien théâtre dansé du Japon ; mais ici, le visage terrible est un déguisement qui cache un homme beau.",
+        "image": "images/expositions/masque-bugaku-ryoo.jpg"
+      },
+      {
         "title": "Masque de kyōgen : le Siffleur (Usobuki)",
         "artist": "Sculpteur japonais",
         "country": "Japon",
@@ -1716,10 +1749,10 @@
   },
   {
     "title": "Le paysage à travers le temps et les cultures",
-    "subtitle": "De l'Égypte d'Akhenaton au Canada : vingt-sept paysages de vingt-sept pays et des cinq continents",
+    "subtitle": "De l'Égypte d'Akhenaton au Canada : vingt-huit paysages de vingt-sept pays et des cinq continents",
     "status": "published",
     "theme": "Paysage à travers les cultures",
-    "intro": "Le paysage n'a pas toujours existé comme genre. En Chine, la peinture « de montagnes et d'eaux » devient l'art le plus noble dès le Xe siècle ; en Europe, le mot « paysage » n'apparaît en français qu'au XVIe siècle, et longtemps le paysage n'est que le fond d'une histoire sacrée ou mythologique. Chaque culture regarde la nature à sa façon : jardin du paradis en Perse, montagne où l'on se promène en esprit en Chine, campagne idéale baignée de lumière en Italie, terre familière aux Pays-Bas, nature sublime et effrayante pour les romantiques, pays réel enfin peint pour lui-même en Corée, lumière fugitive au Japon et chez Turner, terre natale affirmée face à un empire en Finlande, en Norvège ou au Canada. Ces vingt-sept œuvres, de 1350 avant notre ère au XXe siècle, se répondent deux à deux : regardez d'où le peintre nous fait voir le monde (d'en haut, de l'intérieur, par une fenêtre), ce qu'il met au premier plan, et ce qu'il laisse dans l'ombre. Un paysage n'est jamais seulement la nature : c'est une manière de l'habiter, de la rêver, et parfois de la perdre.",
+    "intro": "Le paysage n'a pas toujours existé comme genre. En Chine, la peinture « de montagnes et d'eaux » devient l'art le plus noble dès le Xe siècle ; en Europe, le mot « paysage » n'apparaît en français qu'au XVIe siècle, et longtemps le paysage n'est que le fond d'une histoire sacrée ou mythologique. Chaque culture regarde la nature à sa façon : jardin du paradis en Perse, montagne où l'on se promène en esprit en Chine, campagne idéale baignée de lumière en Italie, terre familière aux Pays-Bas, nature sublime et effrayante pour les romantiques, pays réel enfin peint pour lui-même en Corée, lumière fugitive au Japon et chez Turner, terre natale affirmée face à un empire en Finlande, en Norvège ou au Canada. Ces vingt-huit œuvres, de 1350 avant notre ère au XXe siècle, se répondent deux à deux : regardez d'où le peintre nous fait voir le monde (d'en haut, de l'intérieur, par une fenêtre), ce qu'il met au premier plan, et ce qu'il laisse dans l'ombre. Un paysage n'est jamais seulement la nature : c'est une manière de l'habiter, de la rêver, et parfois de la perdre.",
     "minimum": 20,
     "search": {
       "keywords": "landscape",
@@ -1824,6 +1857,17 @@
         "credit": "Musée national de Corée, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Inwangjesaekdo.jpg), domaine public",
         "analysis": "Pendant des siècles, les peintres coréens ont surtout peint des montagnes chinoises imaginaires. Jeong Seon (1676–1759) peint au contraire les vrais paysages de Corée : on appelle ce style jingyeong sansu, le « paysage vrai ». Il a 75 ans quand il peint le mont Inwang, qui domine Séoul, juste après la pluie : les grandes masses de granit, encore mouillées, sont rendues à larges coups de pinceau très noirs, tandis que la brume monte des vallées autour d'une maison. On raconte qu'il l'aurait peint pour un ami poète malade. C'est aujourd'hui un trésor national de Corée.",
         "compare": "Comme Ruisdael aux Pays-Bas, Jeong Seon affirme la beauté de son propre pays plutôt que celle d'un modèle lointain ; mais il garde l'encre noire et la liberté du pinceau de la tradition chinoise."
+      },
+      {
+        "title": "Paysage d'hiver (des Paysages d'automne et d'hiver)",
+        "artist": "Sesshū Tōyō",
+        "country": "Japon",
+        "period": "fin du XVe – début du XVIe siècle",
+        "museum": "Musée national de Tokyo",
+        "credit": "Musée national de Tokyo, ColBase (https://colbase.nich.go.jp/collection_items/tnm/A-1398), licence CC BY 4.0",
+        "analysis": "Sesshū, moine zen et peintre de l'époque de Muromachi, a appris auprès des maîtres japonais Josetsu et Shūbun, puis a voyagé dans la Chine des Ming pour y étudier la peinture. Ce petit rouleau à l'encre sur papier (48 cm de haut) forme une paire avec un paysage d'automne. Au centre, une falaise abrupte monte d'un seul trait jusqu'en haut ; à côté, les bâtiments paraissent minuscules, ce qui fait sentir, dit la notice du musée, la rudesse de l'hiver. En remontant le rouleau, l'œil passe du plus proche au plus lointain, chaque chose à sa place. C'est un trésor national du Japon.",
+        "compare": "Comme le rouleau chinois des Ruisseaux et montagnes sans fin, une peinture de « montagnes et d'eaux » à l'encre ; Sesshū l'a apprise en Chine, mais il la rend plus abrupte et plus construite, avec des traits de pinceau puissants.",
+        "image": "images/expositions/paysage-sesshu-hiver.jpg"
       },
       {
         "title": "L'Héroïne qui attend son amant (Utka Nayika)",
@@ -2027,7 +2071,7 @@
   },
   {
     "title": "Croyances et spiritualités du monde",
-    "subtitle": "Du Livre des morts égyptien aux îles Fidji : trente-neuf œuvres de vingt-neuf pays, vingt traditions et des cinq continents",
+    "subtitle": "Du Livre des morts égyptien aux îles Fidji : quarante œuvres de vingt-neuf pays, vingt traditions et des cinq continents",
     "status": "published",
     "theme": "Croyances & spiritualités du monde",
     "intro": "Partout et à toutes les époques, les êtres humains ont cherché à donner un sens à la vie, à la mort et au monde qui les dépasse. Cette exposition réunit des œuvres nées de traditions très différentes : la religion de l'Égypte ancienne, l'hindouisme, le jaïnisme, le bouddhisme sous ses différentes formes, le shintô, le taoïsme, le judaïsme, le christianisme d'Orient et d'Occident, d'Éthiopie et d'Arménie, l'islam (dont l'art religieux, sans figures, s'exprime par l'écriture et la géométrie de l'architecture) et sa voie mystique, le soufisme, le sikhisme, les religions du Mexique ancien, la divination yoruba et les rites des îles Fidji. Beaucoup sont des enluminures, ces livres sacrés écrits et peints à la main, où l'or et la couleur honorent la parole. Aucune tradition n'est placée au-dessus d'une autre ; les œuvres se répondent deux à deux, et montrent souvent des religions qui se rencontrent et cohabitent. Par respect, l'exposition ne montre pas d'objets que leurs communautés demandent de ne pas exposer, ni de représentation du Prophète de l'islam ; et certaines traditions, notamment autochtones d'Amérique du Nord et d'Australie, ne sont présentes que par cette mention, car leurs objets les plus sacrés n'ont pas leur place dans un musée.",
@@ -2168,6 +2212,17 @@
         "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/53187), domaine public (Open Access)",
         "analysis": "Au sanctuaire shintô de Kasuga, à Nara, la légende raconte qu'une divinité arriva en chevauchant un cerf blanc ; les cerfs y sont encore aujourd'hui des messagers sacrés. Sur ce rouleau, un cerf porte sur sa selle un arbre sacré, le sakaki, d'où s'élève un disque doré où apparaissent des bouddhas. Au Japon, on considérait que les divinités shintô (kami) étaient aussi des manifestations des bouddhas : shintô et bouddhisme se mêlent dans une même image.",
         "compare": "Comme la peinture du Sri Lanka, deux traditions qui cohabitent : ici les kami du Japon et les bouddhas venus de l'Inde par la Chine et la Corée."
+      },
+      {
+        "title": "Légendes du sanctuaire de Kasuga (Kasuga Gongen Genki E), rouleau 3",
+        "artist": "Takashina Takakane",
+        "country": "Japon",
+        "period": "vers 1309",
+        "museum": "Musée des collections impériales (Sannomaru Shōzōkan), Tokyo",
+        "credit": "Musée des collections impériales (Sannomaru Shōzōkan), ColBase (https://colbase.nich.go.jp/collection_items/shozokan/SZK002943), licence CC BY 4.0",
+        "analysis": "Ces vingt rouleaux de soie peinte illustrent, comme leur titre l'indique, les miracles de la divinité du sanctuaire de Kasuga. Ils furent commandés par Saionji Kinhira, du clan Fujiwara, pour remercier les dieux de la prospérité de sa famille et prier pour son avenir ; le texte fut calligraphié par l'ancien régent Takatsukasa Mototada et ses fils, et les images peintes par Takashina Takakane, chef des peintres de la cour. Dans ce passage, on regarde d'en haut l'intérieur d'une demeure, comme si le toit avait été retiré : des personnages en costume de cour y sont assis. Conservés au sanctuaire de Kasuga, les rouleaux en sortirent à la fin de l'époque d'Edo, puis furent donnés à la cour impériale par la famille Takatsukasa.",
+        "compare": "Comme le Mandala des cerfs de Kasuga, une œuvre consacrée au même sanctuaire de Nara ; là, une image à contempler, ici une longue histoire à dérouler, scène après scène.",
+        "image": "images/expositions/spirit-kasuga-gongen-genki-e.jpg"
       },
       {
         "title": "Fin d'un rouleau des « sutras du 1er mai », avec la prière de l'impératrice Kōmyō",

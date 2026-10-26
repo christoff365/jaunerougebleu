@@ -146,6 +146,31 @@ const MUSEES_SMITHSONIAN = {
   NMAI: ['National Museum of the American Indian', 'Native American']
 };
 
+// ColBase (musées nationaux du Japon) : musée de la page « Musées » (identifiant Wikidata) → [nom anglais dans les fiches, nom affiché]
+const MUSEES_COLBASE = {
+  Q653433: ['Tokyo National Museum', 'Musée national de Tokyo'],
+  Q147286: ['Kyoto National Museum', 'Musée national de Kyoto'],
+  Q147312: ['Nara National Museum', 'Musée national de Nara'],
+  Q148543: ['Kyushu National Museum', 'Musée national de Kyushu, Dazaifu'],
+  Q3076188: ['Sannomaru Shozokan', 'Musée des collections impériales (Sannomaru Shōzōkan), Tokyo']
+};
+const MUSEE_COLBASE_FR = {};
+Object.values(MUSEES_COLBASE).forEach(([en, fr]) => { MUSEE_COLBASE_FR[en] = fr; });
+MUSEE_COLBASE_FR['The Museum of the Imperial Collections, Sannomaru Shozokan'] = MUSEES_COLBASE.Q3076188[1];
+// Thèmes du générateur dans le vocabulaire des fiches de ColBase (un mot tiré au hasard à chaque recherche)
+const THEMES_COLBASE = {
+  'Portraits': ['portrait'], 'Paysages': ['landscape', 'view of', 'mountain', 'river'], 'Spiritualité': ['buddha', 'bodhisattva', 'mandala', 'sutra', 'kannon'],
+  'Vie quotidienne': ['genre', 'festival', 'customs'], 'Mythologie': ['legend', 'tale', 'dragon'], 'Nature morte': ['flowers'],
+  'Lumière & couleur': ['moon', 'snow', 'night']
+};
+// Époques de l'histoire du Japon, quand la fiche ne donne pas de siècle (« Heian », « Edo ») : année du milieu de l'époque
+const EPOQUES_JAPONAISES = [[/j[oō]mon/i, -5000], [/yayoi/i, -100], [/kofun/i, 450], [/asuka/i, 640], [/nara/i, 750], [/heian/i, 1000],
+  [/kamakura/i, 1260], [/nanbokuch[oō]/i, 1360], [/muromachi/i, 1450], [/momoyama/i, 1590], [/edo/i, 1730], [/meiji/i, 1890], [/taish[oō]/i, 1920]];
+function anneeEpoqueJaponaise(texte) {
+  const e = EPOQUES_JAPONAISES.find(([re]) => re.test(texte || ''));
+  return e ? e[1] : null;
+}
+
 // Demande une page de résultats à une position tirée au hasard (pour varier les œuvres) ; si la recherche a moins de
 // résultats que cette position, on redemande à une position qui existe, au lieu de revenir les mains vides
 function pageAuHasard(url, max, liste, total) {
@@ -199,6 +224,8 @@ const MUSEES_MONDE = {
     ['Q653433', 305, 1, 'Musée national de Tokyo'],
     ['Q147286', 51, 1, 'Musée national de Kyoto'],
     ['Q147312', 20, 1, 'Musée national de Nara'],
+    ['Q148543', 5, 1, 'Musée national de Kyushu, Dazaifu'],
+    ['Q3076188', 5, 1, 'Musée des collections impériales (Sannomaru Shōzōkan), Tokyo'],
     ['Q540668', 1337, 1, 'Musée national du Palais, Taipei'],
     ['Q2047427', 11016, 1, 'Musée du Palais (Cité interdite), Pékin'],
     ['Q1074318', 252, 1, 'Musée national de Chine, Pékin'],
@@ -1224,6 +1251,65 @@ const ADAPTATEURS = {
     }
   },
 
+  // ColBase : collections des musées nationaux du Japon (Tokyo, Kyoto, Nara, Kyushu) et des collections impériales
+  // (Sannomaru Shōzōkan), lues par l'API publique de Japan Search, la plateforme nationale du patrimoine japonais
+  // (sans clé, ouverte à tous les sites). Images libres de réutilisation avec mention de la source (licence compatible CC BY 4.0).
+  colbase: {
+    nom: 'ColBase – musées nationaux du Japon (via Japan Search)',
+    chercher(c, n) {
+      // Collections surtout japonaises (avec de l'art chinois et coréen) : interrogées pour l'Asie de l'Est ou sans région
+      if (c.region && c.region !== "Asie de l'Est") return Promise.resolve([]);
+      // Mots cherchés : thèmes (dans le vocabulaire des fiches de ColBase), types, mouvement et mots libres ;
+      // un artiste est cherché par son nom dans le champ « auteur »
+      const mv = c.mouvement && mouvement(c.mouvement);
+      const exiges = [].concat(mv ? [c.motMouvement || mv.mots[0]] : [],
+        c.th.map(t => THEMES_COLBASE[t] ? auHasard(THEMES_COLBASE[t]) : null), c.ty.map(t => MOTS_TYPES[t])).filter(Boolean);
+      const libres = String(c.mots || '').toLowerCase().split(/[^a-z\u00c0-\u024f-]+/).filter(m => m.length > 3);
+      const mots = exiges.concat(c.mots ? [c.mots] : []);
+      if (c.th.some(t => !THEMES_COLBASE[t])) return Promise.resolve([]); // thème absent de ces collections (abstraction…)
+      // Exposition d'un seul musée (page « Musées ») : ses seules œuvres
+      const musee = c.musee && MUSEES_COLBASE[c.musee];
+      const taille = Math.min(100, n * 4);
+      const base = 'https://jpsearch.go.jp/api/item/search/jps-cross?f-db=cobas&f-contents=thumb&size=' + taille +
+        (mots.length ? '&keyword=' + encodeURIComponent(mots.join(' ')) : '') + (c.artiste ? '&q-contributor=' + encodeURIComponent(c.artiste) : '') +
+        (musee ? '&q-contributor=' + encodeURIComponent(musee[0]) : '');
+      // Page tirée au hasard (l'API ne donne que les 2 000 premiers résultats) ; avec des mots-clés, parmi les 400 premiers,
+      // les plus pertinents
+      const url = debut => base + '&from=' + debut;
+      return lireJSON(url(0), 12000).then(r => {
+        const max = Math.max(0, Math.min(r.hit || 0, mots.length ? 400 : 2000) - taille);
+        return max && !c.premiere && !c.artiste ? lireJSON(url(hasard(max)), 12000) : r;
+      }).then(r => {
+        // La recherche par mots-clés de Japan Search est large (descriptions, inscriptions…) : on garde les fiches dont le titre
+        // ou la catégorie contient chaque mot cherché, et, pour un artiste, celles qui portent son nom
+        const texte = o => [o.common.titleEn, o['cobas-46-s'], o['cobas-31-s'], o['cobas-33-s']].join(' ').toLowerCase();
+        const nomArtiste = c.artiste ? String(c.artiste).toLowerCase().split(/\s+/).pop() : '';
+        const fiches = (r.list || []).filter(o => o.common && o.common.titleEn && !/^(wood|bronze|clay|stone|lacquer|paper|silk)$/i.test(o.common.titleEn.trim()) && (o.common.thumbnailUrl || []).length && o.common.contentsRightsType === 'ccby')
+          .filter(o => exiges.every(m => texte(o).includes(m.toLowerCase().replace(/s$/, ''))) && (!libres.length || libres.some(m => texte(o).includes(m))))
+          .filter(o => !nomArtiste || String(o['cobas-34-s'] || '').toLowerCase().includes(nomArtiste));
+        // Œuvres célèbres : trésors nationaux et biens culturels importants d'abord
+        const triees = celebres(c) ? fiches.sort((a, b) => !!b['cobas-30-s'] - !!a['cobas-30-s']) : melange(fiches);
+        return triees.map(o => {
+          const co = o.common, epoque = (co.temporal || []).find(t => /[a-z]/i.test(t)) || (co.temporal || [])[0] || '';
+          const auteur = String(o['cobas-34-s'] || '').replace(/^(By|Attributed to|Painted by|Calligraphy by)\s+/i, '');
+          const deces = (auteur.match(/\d{3,4}\s*[-–]\s*(\d{4})\)/) || [])[1];
+          const annee = anneeDe(epoque) ?? anneeEpoqueJaponaise(epoque);
+          // Domaine public seulement : artiste mort depuis plus de 70 ans, et œuvres anonymes d'avant 1930
+          if ((deces && +deces > new Date().getFullYear() - 71) || (!deces && annee !== null && annee >= 1930)) return null;
+          const nomMusee = MUSEE_COLBASE_FR[o['cobas-42-s']] || o['cobas-42-s'] || 'ColBase';
+          return oeuvre({
+            titre: co.titleEn.replace(/&lt;\/?i&gt;|<\/?i>/g, '').replace(/&quot;/g, '"').replace(/&amp;/g, '&'),
+            artiste: /\(|\b[A-Z][a-z]+ [A-Z]/.test(auteur) && !/ware$|^(inscribed|with|gift|signed|seal)\b/i.test(auteur) ? auteur.replace(/\s*\(.*$/, '') : '',
+            date: epoque, annee, lieu: o['cobas-35-s'] || (/dynasty|qing|ming|song|tang|yuan|han\b/i.test(epoque) ? 'China' : /joseon|goryeo|silla/i.test(epoque) ? 'Korea' : 'Japan'), musee: nomMusee + ' (ColBase)',
+            image: co.thumbnailUrl[0].replace('/slideshow_s/', '/slideshow_l/'), fiche: co.linkUrl,
+            credit: nomMusee + ', ColBase (' + co.linkUrl + '), licence CC BY 4.0',
+            classification: [o['cobas-46-s'], o['cobas-31-s'], o['cobas-33-s'], o['cobas-38-s']].filter(Boolean).join(' ')
+          });
+        }).filter(Boolean).slice(0, n);
+      });
+    }
+  },
+
   smithsonian: {
     nom: 'Smithsonian Institution, Washington',
     actif: () => !!RELAIS,
@@ -1584,7 +1670,7 @@ function oeuvreParLien(lien) {
 // - musées du monde entier via Wikidata (sans mot-clé), lancés après quelques secondes s'il manque encore des pays.
 // Une œuvre par pays nouveau. Renvoie (au plus tard après 60 secondes) { choisies, reserve, sources } :
 // la réserve sert à remplacer une œuvre dont l'image ne se charge pas ; sources indique les catalogues qui ont répondu.
-const CATALOGUES_MOTS_CLES = ['met', 'aic', 'cleveland', 'smk', 'mia', 'smithsonian'];
+const CATALOGUES_MOTS_CLES = ['met', 'aic', 'cleveland', 'smk', 'mia', 'smithsonian', 'colbase'];
 // File d'attente : au plus « max » tâches en même temps
 function fileDAttente(max) {
   let actives = 0;

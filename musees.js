@@ -518,7 +518,12 @@ function deLArtiste(w, nom) {
   const cherches = sansAccents(nom).split(/[^\p{L}]+/u).filter(x => x.length >= 3 && !PARTICULES_NOMS.test(x));
   if (!cherches.length) return 0;
   // Le nom de l'artiste peut réunir plusieurs personnes séparées par « ; » (graveur, éditeur…) : on garde celle qui correspond
-  const partie = sansAccents(w.artist).split(';').map(p => p.split(/[^\p{L}]+/u).filter(Boolean)).find(m => cherches.every(x => m.includes(x)));
+  // Prénoms écrits différemment selon les catalogues (« Pierre-Auguste Renoir » tapé, « Auguste Renoir » dans Wikidata et au Met) :
+  // le nom de famille suffit si les autres mots du nom du catalogue font partie du nom cherché
+  const famille = cherches[cherches.length - 1];
+  const memePersonne = m => cherches.every(x => m.includes(x)) || (cherches.length > 1 && m.includes(famille) &&
+    m.filter(x => x !== famille && x.length >= 3 && !PARTICULES_NOMS.test(x)).every(x => cherches.includes(x)));
+  const partie = sansAccents(w.artist).split(';').map(p => p.split(/[^\p{L}]+/u).filter(Boolean)).find(memePersonne);
   if (!partie || partie.some(x => PAS_DE_SA_MAIN.test(x))) return 0;
   if (cherches.length > 1) return 2;
   // Nom d'un seul mot : dernier mot (sans « I », « II », « the Elder »…), ou suivi plus loin d'une particule
@@ -1006,7 +1011,9 @@ const ADAPTATEURS = {
   joconde: {
     nom: 'Musées de France (base Joconde)',
     chercher(c, n) {
-      if (c.artiste) return Promise.resolve([]); // couvert par la source Wikidata
+      // Artiste : ses œuvres conservées dans les musées de France (Orsay, Orangerie, musées de région…), tirées au hasard
+      // (ses chefs-d'œuvre, les plus connus, viennent déjà de la source Wikidata)
+      if (c.artiste) return chercherWikidataArtisteMouvement(Object.assign({}, c, { joconde: true, notoriete: 'decouvertes' }), n);
       // Mouvement : œuvres de ses artistes conservées dans les musées de France (Orsay, Marmottan, musées de région…)
       if (c.mouvement) return (mouvement(c.mouvement) || {}).region === 'Europe' ? chercherWikidataArtisteMouvement(Object.assign({}, c, { joconde: true }), n) : Promise.resolve([]);
       // Hors d'Europe, la recherche (œuvres des musées de France venues d'Amérique, d'Asie…) prend 30 à 70 secondes à Wikidata
@@ -1434,6 +1441,12 @@ function chercherDansLesMusees(criteres, parSource, seulement) {
           if (w.qid) qids.add(w.qid);
           if (cm && !parSourceVue.has(cm)) { parSourceVue.set(cm, source); oeuvreDeCle.set(cm, w); }
         });
+        // Artiste, « Les plus célèbres » : ses chefs-d'œuvre d'abord (œuvres présentes dans au moins cinq Wikipédia : le Bal du
+        // moulin de la Galette avant une étude du Met), les autres ensuite, catalogues toujours pris à tour de rôle
+        if (criteres.artiste && celebres(criteres)) {
+          const phares = oeuvres.filter(w => w.renom >= 5).sort((a, b) => b.renom - a.renom);
+          oeuvres.splice(0, oeuvres.length, ...phares, ...oeuvres.filter(w => w.renom < 5));
+        }
         // Mouvement choisi : les artistes sont pris à tour de rôle, pour que l'exposition montre tout le mouvement.
         // « Les plus célèbres » : les grands maîtres d'abord (artistes de référence du mouvement, liste MOUVEMENTS, classés
         // par la notoriété de leurs œuvres), sept œuvres chacun pour les quatre premiers, quatre pour les autres, leurs

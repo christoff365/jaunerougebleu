@@ -1,7 +1,7 @@
 [
   {
     "title": "La lumière comme langage universel",
-    "subtitle": "De l'Égypte romaine à l'Australie : trente visions de la lumière, de vingt-cinq pays et des cinq continents",
+    "subtitle": "De l'Égypte romaine à l'Australie : trente et une visions de la lumière, de vingt-cinq pays et des cinq continents",
     "status": "published",
     "theme": "Lumière & ombre à travers les cultures",
     "intro": "Sur dix-sept siècles (vers 200 – 1900) et cinq continents, de l'Égypte à la Chine, de l'Iran à l'Inde, du Japon à Java, de l'Europe au Mexique, aux Caraïbes et à l'Australie, la lumière est le véritable sujet de ces œuvres. Modelé d'un visage, brume qui efface les montagnes, éclat des céramiques d'une mosquée, lampe de verre, feu d'une fête persane ou indienne, auréoles des saints, clair de lune sur la mer, lave d'un volcan, soleil sur l'eau ou dans une pièce vide : naturelle ou divine, intime ou dramatique, peinte ou suggérée par le vide, elle prend dans chaque culture un sens différent.",
@@ -189,6 +189,17 @@
         "image": "images/expositions/lumiere-tohaku-pins.jpg"
       },
       {
+        "title": "Nuit de mai à Kudanzaka",
+        "artist": "Kobayashi Kiyochika",
+        "country": "Japon",
+        "period": "ère Meiji, XIXe siècle",
+        "museum": "Musée national de Tokyo",
+        "credit": "Musée national de Tokyo, ColBase (https://colbase.nich.go.jp/collection_items/tnm/A-8808), licence CC BY 4.0",
+        "analysis": "Du haut de la pente de Kudanzaka, à Tokyo, on regarde vers l'est, la nuit. À gauche se dresse une haute tour de pierre surmontée d'une lanterne allumée, le jōtōmyōdai, qui se trouvait alors du côté du sanctuaire Shōkonsha (aujourd'hui Yasukuni) avant d'être déplacée, précise la notice du musée. Il pleut : des passants marchent sous des parapluies, d'autres portent des lanternes, et toutes ces petites lumières se reflètent en traînées sur le sol mouillé. Kobayashi Kiyochika, fils d'un fonctionnaire du shogun, avait appris la peinture et la photographie ; à partir de 1876, il peint le Tokyo qui se transforme dans une série d'estampes qui intègrent des manières de peindre venues d'Occident.",
+        "compare": "Comme Hornsgatan la nuit, à Stockholm, une rue de grande ville sous la lumière artificielle ; mais ici, dans une estampe japonaise, la nuit est faite d'aplats de bleu sombre, et la lumière, de quelques touches claires qui se reflètent dans la pluie.",
+        "image": "images/expositions/lumiere-kiyochika-kudanzaka.jpg"
+      },
+      {
         "title": "Le Dernier Voyage du Téméraire",
         "artist": "Joseph Mallord William Turner",
         "country": "Angleterre",
@@ -345,7 +356,7 @@
   },
   {
     "title": "La couleur est relative",
-    "subtitle": "D'après L'Interaction des couleurs de Josef Albers : trente-sept leçons du regard, de l'Égypte ancienne au Bauhaus",
+    "subtitle": "D'après L'Interaction des couleurs de Josef Albers : trente-huit leçons du regard, de l'Égypte ancienne au Bauhaus",
     "status": "published",
     "theme": "Couleur & perception",
     "intro": "« Dans la perception visuelle, une couleur n'est presque jamais vue telle qu'elle est réellement, physiquement. » C'est ainsi que Josef Albers (1888–1976), peintre et professeur au Bauhaus puis aux États-Unis, ouvre son livre L'Interaction des couleurs (1963). Pour lui, une couleur change selon ses voisines, selon sa quantité, selon la lumière : c'est le moyen le plus relatif de l'art. Il l'enseignait non par la théorie mais par l'expérience, avec des papiers colorés. Ses tableaux n'étant pas encore dans le domaine public, cette exposition met ses leçons à l'épreuve d'œuvres de vingt-six pays et des cinq continents, de l'Égypte ancienne et du Pérou des Wari jusqu'au Bauhaus, où Albers fut étudiant puis professeur. Pour chaque œuvre, un exercice du regard vous est proposé.",
@@ -761,6 +772,17 @@
         "analysis": "Leçon 37 — Une couleur sur un fond d'or. Sur ce paravent à fond de feuille d'or, Ogata Kōrin peint le dieu du Vent, à la peau verte, qui bondit depuis la droite, une longue écharpe blanche gonflée par le vent au-dessus de la tête ; sur le paravent jumeau, le dieu du Tonnerre, à la peau blanche, lui fait face. Selon la notice du musée, les nuages d'orage à l'encre noire, flous, donnent de la profondeur et font ressortir les couleurs des deux dieux. Exercice : regardez le vert du dieu sur l'or, puis sur le noir des nuages. Sur l'or, chaud et lumineux, le vert paraît plus froid et plus vif ; près du noir, il semble s'éclaircir. Et l'or lui-même change de couleur selon l'endroit d'où on le regarde.",
         "compare": "Comme le Carré rouge de Malevitch (leçon 36), une couleur intense posée sur un grand fond presque uni ; mais ici le fond n'est pas neutre : l'or réchauffe tout ce qu'il touche. Kōrin a aussi peint les Iris à Yatsuhashi (leçon 14) sur fond d'or.",
         "image": "images/expositions/couleur-korin-dieu-vent.jpg"
+      },
+      {
+        "title": "Robe à motifs de bambous, cerisiers, érables et balles (bingata)",
+        "artist": "Teinturiers du royaume de Ryūkyū",
+        "country": "Japon (royaume de Ryūkyū, Okinawa)",
+        "period": "XIXe siècle",
+        "museum": "Musée national de Tokyo",
+        "credit": "Musée national de Tokyo, ColBase (https://colbase.nich.go.jp/collection_items/tnm/I-3476), licence CC BY 4.0",
+        "analysis": "Leçon 38 — De petites couleurs sur un grand bleu. Cette robe de ramie vient du royaume de Ryūkyū, l'actuelle Okinawa. Elle est teinte selon la technique du bingata, que la notice du musée décrit ainsi : on découpe le motif au petit couteau dans un papier enduit de jus de kaki, on teint l'étoffe à l'indigo de Ryūkyū en laissant les motifs en blanc, puis on colore à la main chacun des petits motifs, un par un. Ces motifs japonais, bambous, balles de jeu et feuilles d'érable, faisaient rêver la famille royale de Ryūkyū. Exercice : regardez la robe de loin, puis de près. De loin, les milliers de petits motifs clairs se fondent dans le bleu, qui paraît plus clair et plus doux ; de près, on découvre leurs couleurs, et l'indigo redevient profond autour d'eux.",
+        "compare": "Comme la robe en ikat d'Ouzbékistan (leçon 16), une teinture « en réserve » : on protège le fil ou l'étoffe là où la couleur ne doit pas prendre ; mais là-bas les motifs sont grands et flous, ici minuscules et nets.",
+        "image": "images/expositions/couleur-bingata-ryukyu.jpg"
       }
     ]
   },
@@ -2126,7 +2148,7 @@
   },
   {
     "title": "Croyances et spiritualités du monde",
-    "subtitle": "Du Livre des morts égyptien aux îles Fidji : quarante et une œuvres de vingt-neuf pays, vingt traditions et des cinq continents",
+    "subtitle": "Du Livre des morts égyptien aux îles Fidji : quarante-deux œuvres de vingt-neuf pays, vingt traditions et des cinq continents",
     "status": "published",
     "theme": "Croyances & spiritualités du monde",
     "intro": "Partout et à toutes les époques, les êtres humains ont cherché à donner un sens à la vie, à la mort et au monde qui les dépasse. Cette exposition réunit des œuvres nées de traditions très différentes : la religion de l'Égypte ancienne, l'hindouisme, le jaïnisme, le bouddhisme sous ses différentes formes, le shintô, le taoïsme, le judaïsme, le christianisme d'Orient et d'Occident, d'Éthiopie et d'Arménie, l'islam (dont l'art religieux, sans figures, s'exprime par l'écriture et la géométrie de l'architecture) et sa voie mystique, le soufisme, le sikhisme, les religions du Mexique ancien, la divination yoruba et les rites des îles Fidji. Beaucoup sont des enluminures, ces livres sacrés écrits et peints à la main, où l'or et la couleur honorent la parole. Aucune tradition n'est placée au-dessus d'une autre ; les œuvres se répondent deux à deux, et montrent souvent des religions qui se rencontrent et cohabitent. Par respect, l'exposition ne montre pas d'objets que leurs communautés demandent de ne pas exposer, ni de représentation du Prophète de l'islam ; et certaines traditions, notamment autochtones d'Amérique du Nord et d'Australie, ne sont présentes que par cette mention, car leurs objets les plus sacrés n'ont pas leur place dans un musée.",
@@ -2289,6 +2311,17 @@
         "analysis": "Le bodhisattva Fugen est assis jambes croisées sur un éléphant blanc, sous une légère pluie de pétales et un dais de fleurs. Selon la croyance bouddhique, il apparaît pour protéger ceux qui ont foi dans le Sutra du Lotus, très vénéré au Japon à l'époque de Heian. La notice du musée attire l'attention sur les détails : le vêtement, l'auréole et la selle de l'éléphant sont ornés de motifs faits de minces filets de feuille d'or, et le corps du bodhisattva est dessiné à l'encre très diluée plutôt qu'en traits rouges, pour garder la blancheur de sa peau. L'éléphant, venant de la droite, tourne la tête vers l'arrière. C'est un trésor national.",
         "compare": "Comme le Bouddha entouré de ses disciples peint au Sri Lanka, une image bouddhique faite pour la dévotion ; mais ici, un seul instant, calme et presque rêvé, avec la délicatesse de l'or et des couleurs claires.",
         "image": "images/expositions/spirit-fugen-bosatsu.jpg"
+      },
+      {
+        "title": "Figurine dogū aux yeux « en lunettes de neige »",
+        "artist": "Potier de l'époque Jōmon",
+        "country": "Japon",
+        "period": "vers 1000–400 avant notre ère",
+        "museum": "Musée national de Tokyo",
+        "credit": "Musée national de Tokyo, ColBase (https://colbase.nich.go.jp/collection_items/tnm/J-38392), licence CC BY 4.0",
+        "analysis": "Cette figurine de terre cuite, haute de 34 cm, est l'un des dogū les plus célèbres du Japon. On l'a nommée ainsi à l'époque Meiji, quand elle fut découverte, parce que ses yeux ressemblaient aux lunettes qui protègent de l'éclat de la neige ; on pense aujourd'hui que ce sont simplement des yeux exagérés. Le nez, la bouche et les oreilles sont minuscules, les épaules larges, la taille fine ; une jambe a disparu. Des traces de rouge laissent penser qu'elle était entièrement peinte. Selon la notice du musée, les dogū représentent toujours des femmes, et servaient sans doute dans des rites pour demander des naissances heureuses, une descendance nombreuse et de bonnes récoltes. Ils montrent aussi la mode de l'époque : coiffure relevée avec un peigne, colliers, ornements de poitrine.",
+        "compare": "Comme le plat rituel en forme humaine des îles Fidji, un objet en forme de corps humain fait pour les rites ; mais celui-ci a plus de deux mille ans, et l'on ne connaît ses usages que par les hypothèses des archéologues.",
+        "image": "images/expositions/spirit-dogu-jomon.jpg"
       },
       {
         "title": "Fin d'un rouleau des « sutras du 1er mai », avec la prière de l'impératrice Kōmyō",

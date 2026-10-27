@@ -1253,10 +1253,23 @@ function traduirePage() {
   document.querySelectorAll('.langs button').forEach(b => { b.classList.toggle('on', b.dataset.lang === langue); b.setAttribute('aria-pressed', b.dataset.lang === langue); });
   enCours = false;
 }
+// Traductions des commentaires des expositions spéciales (i18n-expositions.js, gros fichier) : chargées seulement
+// quand le visiteur choisit une autre langue que le français, puis la page est traduite à nouveau
+const SRC_TRAD_EXPOS = document.currentScript && document.currentScript.src.replace('i18n.js', 'i18n-expositions.js');
+let tradExposDemandee = false;
+function chargerTraductionsExpos() {
+  if (tradExposDemandee || langue === 'fr' || !SRC_TRAD_EXPOS || !document.getElementById('pg-sp')) return;
+  tradExposDemandee = true;
+  const s = document.createElement('script'); s.src = SRC_TRAD_EXPOS;
+  s.onload = () => traduirePage();
+  s.onerror = () => { tradExposDemandee = false; };
+  document.head.appendChild(s);
+}
 function changerLangue(l) {
   if (!LANGUES[l]) return;
   langue = l;
   try { localStorage.setItem('jrb-langue', l); } catch (e) {}
+  chargerTraductionsExpos();
   traduirePage();
   if (typeof apresChangementLangue === 'function') apresChangementLangue();
 }
@@ -1267,3 +1280,4 @@ new MutationObserver(() => {
   attenteTrad = true;
   setTimeout(() => { attenteTrad = false; traduirePage(); }, 15); // court délai : fonctionne aussi dans un onglet en arrière-plan
 }).observe(document.body, { subtree: true, childList: true, characterData: true, attributes: true, attributeFilter: ATTRIBUTS });
+chargerTraductionsExpos();

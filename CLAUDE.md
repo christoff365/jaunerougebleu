@@ -9,7 +9,7 @@ Site statique en français (GitHub Pages) ; la documentation complète est dans 
 - Uniquement des œuvres du domaine public, chacune créditée (musée, lien vers la fiche, licence). Pour les objets en volume (masques, sculptures…), une photo sous licence libre (CC BY, CC BY-SA) est acceptée si le crédit cite le photographe et la licence (accord de la personne qui gère le site) ; vérifier l'auteur et la licence sur la page du fichier, et écarter les photos qui semblent scannées dans un livre ; au moins 20 pays ; chaque œuvre a une analyse et un point de comparaison vérifiés (ne rien affirmer qui ne se voie pas dans l'image ou ne soit pas dans la notice du musée).
 - Éviter les nus (le site les floute) et les objets sacrés que leurs communautés demandent de ne pas montrer.
 - Le thème (`theme`) doit correspondre à l'exposition ; ajouter un nouveau thème dans `.pages.yml`, `MOTS_THEMES_EXPO` (`index.html`) et `i18n.js` si aucun ne convient.
-- Traduire titre, sous-titre et introduction dans `i18n.js` (anglais, espagnol, arabe).
+- Traduire titre, sous-titre et introduction dans `i18n.js` (anglais, espagnol, arabe), et, pour chaque œuvre ajoutée ou modifiée, son titre, sa date, son analyse et son point de comparaison dans `i18n-expositions.js`.
 
 ## Habitudes de travail
 

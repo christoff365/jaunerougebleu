@@ -1,8 +1,9 @@
 # Configuration de Pages CMS (https://app.pagescms.org)
 # Décrit les formulaires qui permettent de modifier le site :
 # - « Expositions » : les expositions spéciales, enregistrées dans expositions.json ;
+# - « Expositions des mouvements » : une exposition par mouvement de l'onglet Mouvements, dans mouvements.json ;
 # - « Collection du générateur » : les œuvres du générateur d'exposition, enregistrées dans collection.json.
-# Le site lit ces deux fichiers à chaque visite.
+# Le site lit ces fichiers à chaque visite.
 
 # Médiathèque : tout le dossier images/ (sous-dossiers collection, expositions, oeuvres)
 media:
@@ -139,6 +140,81 @@ content:
           - name: url
             label: "Lien (DOI ou page de la publication)"
             type: string
+
+  - name: mouvements
+    label: Expositions des mouvements
+    type: file
+    path: mouvements.json
+    format: json
+    list: true
+    fields:
+      - name: mouvement
+        label: "Mouvement (le bouton de l'onglet Mouvements ouvre cette exposition)"
+        type: select
+        required: true
+        options:
+          values: ["Ukiyo-e", "École Rinpa", "École Kanō", "Paysage monumental des Song", "Peinture lettrée", "École de Shanghai", "Peinture de la dynastie Joseon", "Peinture moghole", "Peinture rajpoute et pahari", "École du Bengale", "Art khmer d'Angkor", "Miniature persane", "Peinture ottomane", "Art mamelouk", "Art amarnien", "Art d'Ifé", "Art de cour du royaume du Bénin", "Peinture chrétienne éthiopienne", "Art maya classique", "École de Cuzco", "Peinture de castas", "Hudson River School", "Sculpture maorie", "Art du Sepik", "Art gothique", "Renaissance", "Baroque", "Romantisme", "École de Barbizon", "Impressionnisme", "Postimpressionnisme", "Art nouveau", "Expressionnisme", "Pionniers de l'abstraction"]
+      - name: slug
+        label: "Identifiant court sans espace ni accent (ex. : ukiyo-e) : nom du fichier de traductions i18n-mouvements/<identifiant>.js"
+        type: string
+      - name: title
+        label: Titre de l'exposition
+        type: string
+        required: true
+      - name: subtitle
+        label: Sous-titre
+        type: string
+      - name: status
+        label: Statut
+        type: select
+        default: draft
+        options:
+          values:
+            - name: published
+              label: Publiée (visible sur le site)
+            - name: draft
+              label: "Brouillon (invisible : le bouton lance alors l'exposition en direct)"
+      - name: intro
+        label: Introduction éditoriale
+        type: text
+      - name: works
+        label: Œuvres à comparer
+        type: object
+        list: true
+        fields:
+          - name: link
+            label: "Lien de l'œuvre au musée (Met, Art Institute of Chicago, Cleveland ou Wikidata) : l'image, le titre, l'artiste, la date, le musée et le crédit sont alors lus automatiquement ; les champs remplis ci-dessous restent prioritaires"
+            type: string
+          - name: title
+            label: "Titre de l'œuvre (facultatif si un lien est donné)"
+            type: string
+          - name: artist
+            label: Artiste
+            type: string
+          - name: country
+            label: Pays
+            type: string
+          - name: period
+            label: Période
+            type: string
+          - name: museum
+            label: Musée
+            type: string
+          - name: image
+            label: "Image de l'œuvre (domaine public uniquement ; facultative si un lien est donné, mais utile si le musée ne répond pas)"
+            type: image
+          - name: sensible
+            label: "Image sensible (violence, nudité…) : floutée jusqu'à ce que le visiteur choisisse de la voir"
+            type: boolean
+          - name: credit
+            label: "Crédit de l'image (ex. : Musée du Louvre, via Wikimedia Commons (lien), domaine public)"
+            type: string
+          - name: analysis
+            label: Analyse éditoriale
+            type: text
+          - name: compare
+            label: Point de comparaison avec les autres œuvres
+            type: text
 
   - name: collection
     label: Collection du générateur

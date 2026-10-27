@@ -972,7 +972,7 @@ html.diapo-ouvert,html.diapo-ouvert body{overflow:hidden}
         <p style="font-size:14px;color:#666;margin-top:4px;font-style:italic" id="sp-sub"></p>
       </div>
       <div class="expo-actions"><button type="button" class="diapo-btn" onclick="lancerDiaporama('sp-wks','sp-h','sp-sub')"><span aria-hidden="true">▶</span> <span>Diaporama</span></button>
-<button class="back-btn" onclick="go('home',document.querySelectorAll('.nav-links button')[0])"><span aria-hidden="true">←</span> Retour</button></div>
+<button class="back-btn" onclick="retourSp()"><span aria-hidden="true">←</span> Retour</button></div>
     </div>
     <p style="font-size:14px;color:#555;line-height:1.8;margin-bottom:24px;border-left:3px solid #C9A84C;padding-left:16px;font-style:italic" id="sp-intro"></p>
     <p class="ey" id="sp-cnt"></p>
@@ -1038,6 +1038,28 @@ function gFlag(c){for(const[k,v]of Object.entries(FLAGS))if(c&&c.toLowerCase().i
 
 // Les expositions sont lues depuis expositions.json (modifiable avec Pages CMS : https://app.pagescms.org)
 let expos=[];
+// Expositions des mouvements (mouvements.json, modifiable avec Pages CMS) : chargées seulement à la première visite
+// de l'onglet Mouvements ; une par mouvement de la liste MOUVEMENTS de musees.js (champ « mouvement »)
+let exposMv=[],mvCharges=null;
+function chargerExposMouvements(){
+  if(!mvCharges)mvCharges=fetch('mouvements.json',{cache:'no-cache'}).then(r=>{if(!r.ok)throw new Error('HTTP '+r.status);return r.json();})
+    .then(d=>{exposMv=(Array.isArray(d)?d:[]).map((e,i)=>Object.assign({},e,{id:'mv'+i,works:Array.isArray(e.works)?e.works:[]}));return exposMv;})
+    .catch(()=>{mvCharges=null;return [];});
+  return mvCharges;
+}
+const exposDuMouvement=nom=>exposMv.find(e=>e.mouvement===nom&&e.status==='published');
+// Traductions des œuvres d'une exposition de mouvement (i18n-mouvements/<slug>.js) : chargées à la demande, hors français
+const tradMvChargees={};
+function chargerTradMouvement(e){
+  if(!e||!e.slug||langue==='fr'||tradMvChargees[e.slug])return;
+  tradMvChargees[e.slug]=true;
+  const v=((document.querySelector('script[src*="i18n.js"]')||{}).src||'').split('?')[1]||'';
+  const sc=document.createElement('script');sc.src='i18n-mouvements/'+encodeURIComponent(e.slug)+'.js'+(v?'?'+v:'');
+  sc.onload=()=>{if(typeof traduirePage==='function')traduirePage();};sc.onerror=()=>{tradMvChargees[e.slug]=false;};
+  document.head.appendChild(sc);
+}
+function apresChangementLangue(){try{if(spEnCours.mouvement)chargerTradMouvement(exposMv.find(e=>e.mouvement===spEnCours.mouvement));}catch(e){}}
+function retourSp(){if(spEnCours.mouvement)go('mv',document.querySelector('.nav-links button[onclick*="\'mv\'"]'));else go('home',document.querySelectorAll('.nav-links button')[0]);}
 
 function go(id,btn){
   document.querySelectorAll('.pg').forEach(p=>p.classList.remove('on'));
@@ -1179,12 +1201,17 @@ const ORDRE_REGIONS_MV=["Asie de l'Est",'Asie du Sud et du Sud-Est','Moyen-Orien
 })();
 // Onglet « Mouvements » : cartes par région, chacune avec un bouton qui prépare l'exposition dans le générateur
 function afficherMouvements(){
+  chargerExposMouvements().then(()=>document.querySelectorAll('#mv-regions [data-mv]').forEach(b=>{if(exposDuMouvement(b.dataset.mv))b.textContent='Voir l\'exposition';}));
   const z=document.getElementById('mv-regions');
   if(!z||z.children.length||typeof MOUVEMENTS==='undefined')return;
   z.innerHTML=ORDRE_REGIONS_MV.map(r=>{const l=MOUVEMENTS.filter(m=>m.region===r);if(!l.length)return'';
     return `<section class="mus-region"><h3>${esc(r)}</h3><div class="mv-liste">${l.map(m=>`<div class="mv-carte"><h4>${esc(m.nom)}</h4><p class="mv-lieu">${esc(m.lieu)} · ${esc(m.epoque)}</p><p>${esc(m.texte)}</p>${m.artistes.length?`<p class="mv-art">${m.artistes.map(esc).join(', ')}</p>`:'<p class="mv-art">Œuvres le plus souvent anonymes</p>'}<button type="button" class="lien-btn" data-mv="${esc(m.nom)}" onclick="exposerMouvement(this.dataset.mv)">Créer une exposition</button></div>`).join('')}</div></section>`;}).join('');
 }
 function exposerMouvement(nom){
+  chargerExposMouvements().then(()=>{const e=exposDuMouvement(nom);if(e)viewSp(e.id);else exposerMouvementDirect(nom);});
+}
+// Exposition composée en direct dans les catalogues des musées, à partir des artistes du mouvement
+function exposerMouvementDirect(nom){
   go('build',document.querySelectorAll('.nav-links button')[1]);
   document.querySelectorAll('#mv-tags .tag').forEach(t=>{const oui=t.dataset.v===nom;if(t.classList.contains('on')!==oui)tog(t,'mv');});
   genExpo(); // l'exposition se lance tout de suite ; « Ajouter des catégories » permet ensuite de la préciser
@@ -1713,7 +1740,7 @@ function majCompteSp(){
   const cartes=[...document.querySelectorAll('#sp-wks .wk-card:not(.wk-attente)')];
   const pays=new Set(),continents=new Set();
   cartes.forEach(c=>{if(c.dataset.pays){pays.add(c.dataset.pays);continents.add(c.dataset.continent);}});
-  document.getElementById('sp-cnt').textContent='Comparaison mondiale · '+cartes.length+' œuvre'+(cartes.length>1?'s':'')+' · '+pays.size+' pays · '+continents.size+' continent'+(continents.size>1?'s':'');
+  document.getElementById('sp-cnt').textContent=spEnCours.mouvement?cartes.length+' œuvre'+(cartes.length>1?'s':''):'Comparaison mondiale · '+cartes.length+' œuvre'+(cartes.length>1?'s':'')+' · '+pays.size+' pays · '+continents.size+' continent'+(continents.size>1?'s':'');
   return pays;
 }
 function marquerPays(el,w){const p=w.pays?{nom:w.pays,continent:w.continent}:paysOeuvre(w);if(p){el.dataset.pays=p.nom;el.dataset.continent=p.continent;}}
@@ -1726,15 +1753,19 @@ function ouvrirExpo(titre){
   const ouvrir=()=>{const e=expos.find(x=>x.title===titre&&x.status==='published');if(e)viewSp(e.id);};
   if(exposChargees)ouvrir();else{const t=setInterval(()=>{if(exposChargees){clearInterval(t);ouvrir();}},200);setTimeout(()=>clearInterval(t),10000);}
 }
-function viewSp(id){const e=expos.find(x=>x.id===id);if(!e)return;
+function viewSp(id){const e=expos.find(x=>x.id===id)||exposMv.find(x=>x.id===id);if(!e)return;
   const numero=spEnCours.numero+1; // si le visiteur ouvre une autre exposition, la recherche en cours est ignorée
-  spEnCours={numero,reserve:[],echecs:{},relances:0,enCours:false,recherche:null};
-  document.getElementById('sp-bdg').innerHTML=`<span class="badge bg">Exposition spéciale</span>${e.theme?` <span class="badge bt">${esc(e.theme)}</span>`:''}`;
+  spEnCours={numero,reserve:[],echecs:{},relances:0,enCours:false,recherche:null,mouvement:e.mouvement||''};
+  const mv=e.mouvement&&typeof MOUVEMENTS!=='undefined'?MOUVEMENTS.find(m=>m.nom===e.mouvement):null;
+  document.getElementById('sp-bdg').innerHTML=e.mouvement?`<span class="badge bg">Mouvement artistique</span>${mv?` <span class="badge bt">${esc(mv.lieu)} · ${esc(mv.epoque)}</span>`:''}`
+    :`<span class="badge bg">Exposition spéciale</span>${e.theme?` <span class="badge bt">${esc(e.theme)}</span>`:''}`;
+  chargerTradMouvement(e);
   document.getElementById('sp-h').textContent=e.title||'';document.getElementById('sp-sub').textContent=e.subtitle||'';document.getElementById('sp-intro').textContent=e.intro||'';
   const zone=document.getElementById('sp-wks');zone.innerHTML='';
   const etat=document.getElementById('sp-etat');etat.textContent='';
   // Après les œuvres : ce que dit la recherche, puis la bibliographie (exposition « Nature, art et bien-être »)
   document.getElementById('sp-recherche').innerHTML=(Array.isArray(e.research)&&e.research.length?`<section class="sp-rech"><h3>Ce que dit la recherche</h3>${e.research.map(r=>`<h4>${esc(r.title||'')}</h4><p>${esc(r.text||'')}</p>`).join('')}</section>`:'')+
+    (e.mouvement?`<p class="sp-mv-direct"><button type="button" class="lien-btn" data-mv="${esc(e.mouvement)}" onclick="exposerMouvementDirect(this.dataset.mv)">Voir d'autres œuvres de ce mouvement, en direct des musées</button></p>`:'')+
     (Array.isArray(e.bibliography)&&e.bibliography.length?`<section class="sp-biblio"><h3>Bibliographie</h3><ol>${e.bibliography.map(b=>`<li>${esc(b.reference||'')}${b.url?` <a href="${esc(b.url)}" target="_blank" rel="noopener">${esc(b.url.replace(/^https?:\/\//,''))}</a>`:''}</li>`).join('')}</ol></section>`:'');
   // Œuvres choisies dans Pages CMS : celles qui ont un lien attendent la réponse du musée (une à une, dans l'ordre choisi)
   const places=e.works.map(w=>{

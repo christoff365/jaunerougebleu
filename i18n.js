@@ -1196,14 +1196,18 @@ function traduireMorceau(m) {
   return null;
 }
 // Textes composés de morceaux séparés par « — », « · », « & » ou « , » (titres d'exposition, légendes…)
+// Une phrase (texte non traduit dont un morceau dépasse dix mots) n'est pas découpée : sinon un mot isolé
+// comme « et », entre deux virgules, serait traduit seul au milieu du français (« Gao, sur le Niger, و, au-delà »)
 function traduireCompose(s) {
   const parts = s.split(/( — | · | & |, )/);
   if (parts.length < 3) { const m = traduireMorceau(s); return m === null ? null : m; }
+  for (let i = 0; i < parts.length; i += 2) if (parts[i].split(' ').length > 10 && !TRAD[parts[i]]) return null;
   const out = []; let trouve = false;
   for (let i = 0; i < parts.length; i += 2) {
     let fait = false;
     for (let j = parts.length - 1; j >= i; j -= 2) { // on essaie d'abord le plus long assemblage connu
       const cand = parts.slice(i, j + 1).join('');
+      if (cand === 'et') continue; // jamais seul : c'est un morceau de phrase, pas un libellé
       const tr = TRAD[cand] ? TRAD[cand][RANG[langue]] : (j === i ? traduireMorceau(cand) : null);
       if (tr !== null && tr !== undefined) { out.push(tr); trouve = true; if (j + 1 < parts.length) out.push(parts[j + 1]); i = j; fait = true; break; }
     }

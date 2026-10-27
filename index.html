@@ -524,54 +524,50 @@ html.sans-animation *,html.sans-animation *::before,html.sans-animation *::after
 .sv-souffle[hidden]{display:none}
 .sv-rond{width:46px;height:46px;border-radius:50%;background:#cdeee2;border:2px solid #137a5a;transform:scale(1.25);transition:transform 4s ease-in-out}
 .sv-souffle.expire .sv-rond{transform:scale(.7);transition-duration:6s}
-/* ---- Diaporama des expositions (diaporama.js) : plein écran, lisible de loin sur une télévision */
+/* ---- Diaporama des expositions (diaporama.js) : l'œuvre seule en plein écran, le commentaire lu à voix haute */
 .expo-actions{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end;flex-shrink:0}
 .diapo-btn{background:#111;border:1px solid #111;color:#fff;font-size:12px;padding:6px 14px;border-radius:3px;white-space:nowrap}
 .diapo-btn:hover,.diapo-btn:focus-visible{background:#C9A84C;border-color:#C9A84C;color:#111}
 html.diapo-ouvert,html.diapo-ouvert body{overflow:hidden}
-.diapo{position:fixed;inset:0;z-index:5000;background:#0d0d0d;color:#eee;display:flex;flex-direction:column;font-size:clamp(15px,1.45vw,34px)}
+.diapo{position:fixed;inset:0;z-index:5000;background:#0b0b0b;color:#eee;display:flex;flex-direction:column;font-size:clamp(15px,1.45vw,34px)}
 .diapo-prog{height:4px;background:#2a2a2a;flex-shrink:0}
-.diapo-prog span{display:block;height:100%;width:0;background:#C9A84C;transition:width .1s linear}
+.diapo-prog span{display:block;height:100%;width:0;background:#C9A84C;transition:width .3s linear}
 .diapo-scene{position:relative;flex:1;min-height:0}
-.diapo-diap{position:absolute;inset:0;display:flex;gap:3vw;padding:3vh 3vw;opacity:0;transition:opacity .7s ease}
+.diapo-diap{position:absolute;inset:0;display:flex;flex-direction:column;padding:2vh 2vw 76px;opacity:0;transition:opacity .8s ease}
 .diapo-diap.on{opacity:1}.diapo-diap.sortie{opacity:0}
-.diapo-cadre{flex:1.5;min-width:0;min-height:0;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}
+.diapo-cadre{flex:1;min-height:0;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}
 .diapo-cadre img{max-width:100%;max-height:100%;object-fit:contain;display:block}
 .diapo-cadre.sensible img{filter:blur(28px)}.diapo-cadre.sensible.vu img{filter:none}
-.diapo-texte{flex:1;min-width:0;overflow-y:auto;align-self:center;max-height:100%;line-height:1.6;padding-inline-end:.5em;scrollbar-color:#555 transparent}
-.diapo-texte:focus{outline:none}.diapo-texte:focus-visible{outline:2px solid #C9A84C}
-.diapo-t{font-family:'Playfair Display',Georgia,serif;font-size:1.75em;line-height:1.2;color:#fff;margin:0 0 .4em}
-.diapo-meta{color:#C9A84C;font-size:.9em;margin:0 0 .2em}
-.diapo-ana{margin:.9em 0 0;color:#e6e6e6}
-.diapo-cmp{margin-top:1em;border-inline-start:3px solid #C9A84C;padding-inline-start:.8em;color:#cfcfcf;font-size:.92em}
-.diapo-cmp .cmp-l{color:#C9A84C;font-size:.8em;text-transform:uppercase;letter-spacing:.08em;margin-bottom:.2em}
-.diapo-credit{display:block;margin-top:1.2em;color:#999;font-size:.65em}.diapo-credit a{color:#bbb}
-.diapo-titre{flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:6vh 12vw;overflow-y:auto}
+.diapo-cadre.sensible button{position:absolute;inset:0;margin:auto;height:max-content;width:max-content;max-width:90%;background:rgba(0,0,0,.8);color:#fff;border:2px solid #fff;border-radius:4px;padding:12px 18px;font-size:1em}
+.diapo-leg{flex-shrink:0;text-align:center;padding-top:.6em;font-size:.62em;color:#aaa;line-height:1.4}
+.diapo-leg b{display:block;color:#ddd;font-weight:500;font-size:1.15em}
+.diapo-leg .img-credit{display:block;color:#888}.diapo-leg a{color:#aaa}
+.diapo-titre{justify-content:center;align-items:center;text-align:center;padding:6vh 10vw 76px}
 .diapo-h{font-family:'Playfair Display',Georgia,serif;font-size:2.6em;line-height:1.15;color:#fff;margin:0}
-.diapo-sous{color:#C9A84C;font-style:italic;font-size:1.15em;margin:.7em 0 0}
-.diapo-intro{color:#ddd;margin:1.4em 0 0;max-width:46em;line-height:1.7}
-.diapo-cmd{position:absolute;inset-inline:0;bottom:0;display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:10px;padding:12px 16px calc(12px + env(safe-area-inset-bottom));background:linear-gradient(transparent,rgba(0,0,0,.92) 35%);font-size:15px;transition:opacity .4s}
+.diapo-sous{color:#C9A84C;font-style:italic;font-size:1.15em;margin:.7em 0 0;max-width:40em}
+.diapo-st{position:absolute;inset-inline:5vw;bottom:calc(76px + 3.5em);margin:0 auto;max-width:44em;max-height:40vh;overflow-y:auto;text-align:center;background:rgba(0,0,0,.78);color:#fff;padding:.5em 1em;border-radius:6px;line-height:1.5;font-size:1.05em;z-index:1}
+.diapo-st[hidden],.diapo-reg[hidden]{display:none}
+.diapo-cmd{position:absolute;inset-inline:0;bottom:0;z-index:2;display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:10px;padding:12px 16px calc(12px + env(safe-area-inset-bottom));background:linear-gradient(transparent,rgba(0,0,0,.92) 35%);font-size:15px;transition:opacity .4s}
 .diapo.cmd-cachees .diapo-cmd{opacity:0;pointer-events:none}.diapo.cmd-cachees{cursor:none}
 .diapo-cmd button,.diapo-cmd select{background:#222;color:#fff;border:1px solid #555;border-radius:4px;font-size:16px;padding:8px 14px;min-height:44px}
 .diapo-cmd button:hover,.diapo-cmd button:focus-visible,.diapo-cmd select:focus-visible{border-color:#C9A84C;outline:2px solid #C9A84C}
 .diapo-cmd #diapo-pause{font-size:20px;min-width:60px}
+.diapo-cmd #diapo-voix[aria-pressed="false"]{color:#999}
 .diapo-num{min-width:5em;text-align:center;color:#ccc}
 .diapo-reg{display:flex;align-items:center;gap:6px;color:#ccc}
 .diapo-reg input{width:20px;height:20px;accent-color:#C9A84C}
 .diapo-quitter{margin-inline-start:8px}
-.diapo-cadre.sensible button{position:absolute;inset:0;margin:auto;height:max-content;width:max-content;max-width:90%;background:rgba(0,0,0,.8);color:#fff;border:2px solid #fff;border-radius:4px;padding:12px 18px;font-size:1em}
-/* Écran en hauteur (téléphone) : l'image en haut, le commentaire dessous */
-@media (orientation:portrait),(max-width:700px){
+/* Téléphone : commandes plus compactes ; la légende reste au-dessus des commandes */
+@media (max-width:700px){
   .diapo{font-size:16px}
-  .diapo-diap:not(.diapo-titre){flex-direction:column;gap:14px;padding:14px 16px 120px}
-  .diapo-cadre{flex:none;height:45%}
-  .diapo-texte{align-self:stretch;flex:1}
-  .diapo-titre{padding:24px 16px 120px;justify-content:flex-start}
+  .diapo-diap{padding:10px 10px 120px}
+  .diapo-titre{padding:24px 16px 120px}
   .diapo-h{font-size:1.8em}
+  .diapo-st{top:12px;bottom:auto;inset-inline:10px;font-size:15px;max-height:35vh}
   .diapo-cmd{gap:6px;padding:8px 8px calc(8px + env(safe-area-inset-bottom))}
   .diapo-cmd button,.diapo-cmd select{padding:6px 10px;font-size:15px}
-  .diapo-reg>span:first-child{display:none}
-  .diapo-quitter span:last-child{display:none}
+  #diapo-reg-duree>span{display:none}
+  .diapo-quitter span:last-child,#diapo-voix span:last-child{display:none}
 }
 @media(prefers-reduced-motion:reduce){.diapo-diap,.diapo-prog span{transition:none}}
 </style>
@@ -1007,9 +1003,9 @@ html.diapo-ouvert,html.diapo-ouvert body{overflow:hidden}
   </div>
 </footer>
 <!-- Traductions (anglais, espagnol, arabe) et moteur de traduction -->
-<script src="i18n.js?v=20261027c"></script>
+<script src="i18n.js?v=20261027d"></script>
 <!-- Recherche en direct dans les catalogues ouverts des musées (domaine public) -->
-<script src="musees.js?v=20261027c"></script>
+<script src="musees.js?v=20261027d"></script>
 <script>
 const ART = [
   { img:"images/oeuvres/grande-vague-hokusai.jpg", credit:'Image : <a href="https://www.metmuseum.org/art/collection/search/45434" target="_blank" rel="noopener">The Metropolitan Museum of Art</a>, domaine public (Open Access)', name:"La Grande Vague de Kanagawa", meta:"Katsushika Hokusai · Japon · vers 1830-1832 · Metropolitan Museum of Art",
@@ -1896,10 +1892,10 @@ afficherValeurs(0);
 traduirePage();
 </script>
 <!-- Fenêtre Accessibilité de chaque œuvre et menu Affichage et lecture -->
-<script src="orchestre.js?v=20261027c"></script>
-<script src="accessibilite.js?v=20261027c"></script>
-<script src="diaporama.js?v=20261027c"></script>
+<script src="orchestre.js?v=20261027d"></script>
+<script src="accessibilite.js?v=20261027d"></script>
+<script src="diaporama.js?v=20261027d"></script>
 <!-- Séances de bien-être composées à la demande -->
-<script src="bienetre.js?v=20261027c"></script>
+<script src="bienetre.js?v=20261027d"></script>
 </body>
 </html>

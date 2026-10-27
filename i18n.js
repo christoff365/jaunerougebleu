@@ -132,6 +132,8 @@ const TRAD = {
   "Œuvre suivante": ["Next work", "Obra siguiente", "العمل التالي"],
   "Durée par œuvre": ["Time per work", "Duración por obra", "المدة لكل عمل"],
   "En boucle": ["Loop", "En bucle", "تكرار"],
+  "Voix": ["Voice", "Voz", "الصوت"],
+  "Sous-titres": ["Subtitles", "Subtítulos", "ترجمة مكتوبة"],
   "Reprendre le diaporama": ["Resume the slideshow", "Reanudar la presentación", "استئناف عرض الشرائح"],
   "Quitter": ["Exit", "Salir", "خروج"],
   "Fin de l'exposition": ["End of the exhibition", "Fin de la exposición", "نهاية المعرض"],

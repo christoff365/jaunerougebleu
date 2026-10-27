@@ -400,7 +400,7 @@
   },
   {
     "title": "La couleur est relative",
-    "subtitle": "D'après L'Interaction des couleurs de Josef Albers : trente-neuf leçons du regard, de l'Égypte ancienne au Bauhaus",
+    "subtitle": "D'après L'Interaction des couleurs de Josef Albers : quarante leçons du regard, de l'Égypte ancienne au Bauhaus",
     "status": "published",
     "theme": "Couleur & perception",
     "intro": "« Dans la perception visuelle, une couleur n'est presque jamais vue telle qu'elle est réellement, physiquement. » C'est ainsi que Josef Albers (1888–1976), peintre et professeur au Bauhaus puis aux États-Unis, ouvre son livre L'Interaction des couleurs (1963). Pour lui, une couleur change selon ses voisines, selon sa quantité, selon la lumière : c'est le moyen le plus relatif de l'art. Il l'enseignait non par la théorie mais par l'expérience, avec des papiers colorés. Ses tableaux n'étant pas encore dans le domaine public, cette exposition met ses leçons à l'épreuve d'œuvres de vingt-sept pays et des cinq continents, de l'Égypte ancienne et du Pérou des Wari jusqu'au Bauhaus, où Albers fut étudiant puis professeur. Pour chaque œuvre, un exercice du regard vous est proposé.",
@@ -838,6 +838,17 @@
         "analysis": "Leçon 39 — Un vert qui change avec l'épaisseur. Ce brûle-parfum, trouvé près de Kaesong, est l'un des chefs-d'œuvre du céladon de Goryeo. Il est photographié démonté : à gauche, le couvercle en boule ajourée, par où s'échappait la fumée de l'encens ; à droite, le corps en forme de lotus, où l'on brûlait l'encens, posé sur son support. Selon la notice du musée, le potier a réuni de nombreuses techniques : incision, relief, ajour, engobe blanc, incrustation et pièces rapportées. Exercice : la couverte, ce verre qui recouvre la terre, n'a pas partout la même couleur. Là où elle est épaisse, dans les creux, elle est d'un vert-bleu profond ; sur les arêtes, où elle est mince, elle devient presque grise et laisse deviner la terre. C'est une seule couleur, et pourtant on en voit plusieurs.",
         "compare": "Comme l'hippopotame égyptien « William » (leçon 1), un objet couvert d'une glaçure bleu-vert ; mais en Corée, le vert du céladon vient de la couverte elle-même, qui change selon son épaisseur.",
         "image": "images/expositions/couleur-celadon-goryeo.jpg"
+      },
+      {
+        "title": "Fraises des bois sur un rebord de pierre",
+        "artist": "Adriaen Coorte",
+        "country": "Pays-Bas",
+        "period": "1705",
+        "museum": "Mauritshuis, La Haye",
+        "credit": "Mauritshuis, La Haye, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Adriaen_Coorte_-_Still_Life_with_Wild_Strawberries_-_1106_-_Mauritshuis.jpg), domaine public",
+        "analysis": "Leçon 40 — Un rouge qui brille dans l'ombre. Des fraises des bois sont posées sur un rebord de pierre, devant un fond sombre ; une tige qui porte encore deux petits fruits dépasse du bord, et une fleur blanche se dresse au-dessus. Le peintre a signé sur la pierre et daté 1705, en bas. Selon la notice du Mauritshuis, ce petit tableau est un « miracle de simplicité » : les graines des fraises ne sont que des points de peinture blanche. Adriaen Coorte vivait sans doute à Middelburg, et son œuvre n'a été redécouverte que dans la seconde moitié du XXe siècle. Exercice : entourez les fraises d'une feuille blanche, pour cacher le fond. Le rouge paraît-il moins lumineux ? Sur le fond presque noir, il semble briller de lui-même, et la fleur blanche, seule tache claire en haut, attire l'œil comme une petite lumière.",
+        "compare": "Comme l'Autoportrait sur fond noir d'Helene Schjerfbeck (leçon 28), une couleur que le fond sombre rend plus vive ; et, comme La Laitière de Vermeer (leçon 11), une peinture néerlandaise où quelques couleurs pures éclatent au milieu des tons sourds.",
+        "image": "images/expositions/couleur-coorte-fraises.jpg"
       }
     ]
   },

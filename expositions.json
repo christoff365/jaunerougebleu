@@ -843,10 +843,10 @@
   },
   {
     "title": "Nature, art et bien-être",
-    "subtitle": "Du jardin d'un Égyptien d'il y a 4 000 ans aux lacs du Canada : trente-quatre visions de la nature qui font du bien, de vingt-huit pays et des cinq continents, et ce qu'en dit la science",
+    "subtitle": "Du jardin d'un Égyptien d'il y a 4 000 ans aux lacs du Canada : trente-six visions de la nature qui font du bien, de vingt-huit pays et des cinq continents, et ce qu'en dit la science",
     "status": "published",
     "theme": "La nature dans l'art mondial",
-    "intro": "Bien avant les laboratoires, les humains ont su que la nature leur faisait du bien : les Égyptiens emportaient leur jardin dans la tombe, les Persans en tissaient sur leurs tapis, les lettrés chinois se promenaient dans des rouleaux de montagnes sans quitter leur bureau. Depuis quarante ans, la recherche confirme et précise cette intuition : regarder un paysage, marcher dans un parc, visiter un musée ou dessiner apaisent le stress, améliorent l'humeur et sont associés à une meilleure santé et à une vie plus longue. Cette exposition réunit trente-quatre œuvres de vingt-huit pays, des jardins, des fleurs, des rivières, des forêts, des volcans et des clairs de lune, et présente, après les œuvres, ce que disent les études, avec leurs références. Prenez votre temps : regarder lentement fait partie de l'expérience.",
+    "intro": "Bien avant les laboratoires, les humains ont su que la nature leur faisait du bien : les Égyptiens emportaient leur jardin dans la tombe, les Persans en tissaient sur leurs tapis, les lettrés chinois se promenaient dans des rouleaux de montagnes sans quitter leur bureau. Depuis quarante ans, la recherche confirme et précise cette intuition : regarder un paysage, marcher dans un parc, visiter un musée ou dessiner apaisent le stress, améliorent l'humeur et sont associés à une meilleure santé et à une vie plus longue. Cette exposition réunit trente-six œuvres de vingt-huit pays, des jardins, des fleurs, des rivières, des forêts, des volcans et des clairs de lune, et présente, après les œuvres, ce que disent les études, avec leurs références. Prenez votre temps : regarder lentement fait partie de l'expérience.",
     "minimum": 20,
     "search": {
       "keywords": "landscape garden",
@@ -1126,6 +1126,28 @@
         "compare": "Comme les Iris de Kōrin, la même fleur, peinte à deux siècles d'écart, au Japon et en France."
       },
       {
+        "title": "Fleurs dans un vase de verre",
+        "artist": "Rachel Ruysch",
+        "country": "Pays-Bas",
+        "period": "vers 1690–1720",
+        "museum": "Rijksmuseum, Amsterdam",
+        "credit": "Rijksmuseum, Amsterdam (https://id.rijksmuseum.nl/200108485), domaine public",
+        "analysis": "Sur un tablier de marbre, un vase de verre déborde de fleurs qui se détachent sur un fond sombre : selon la notice du musée, des tulipes, des roses, des œillets, des iris, des pavots, des jacinthes et des liserons. Rachel Ruysch a signé en bas à gauche « Rachel Ruysch f. » (f. pour fecit, « a fait »). Les fleurs semblent posées une à une dans la lumière, les grandes au centre, les petites qui s'échappent vers les bords, et une fleur orange tombée sur le marbre.",
+        "compare": "Comme les Iris de Van Gogh, juste avant, des fleurs regardées de près ; mais Ruysch les réunit en un bouquet composé avec soin, dans un vase, sur un fond sombre qui les fait briller.",
+        "image": "images/expositions/nature-ruysch-bouquet.jpg"
+      },
+      {
+        "title": "Le Chardonneret",
+        "artist": "Carel Fabritius",
+        "country": "Pays-Bas",
+        "period": "1654",
+        "museum": "Mauritshuis, La Haye",
+        "credit": "Mauritshuis, La Haye, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Fabritius-vink.jpg), domaine public",
+        "analysis": "Un chardonneret, peint à sa taille réelle, est perché sur sa mangeoire fixée à un mur clair ; une fine chaîne retient sa patte. Selon la notice du musée, les chardonnerets étaient alors des oiseaux de compagnie très appréciés, car on pouvait leur apprendre à puiser de l'eau dans un petit seau. Carel Fabritius, dont on connaît très peu d'œuvres, a peint l'oiseau à touches bien visibles ; pour l'aile, il a posé une peinture jaune épaisse, qu'il a rayée avec le manche de son pinceau. Le tableau est au Mauritshuis depuis 1896.",
+        "compare": "Comme les Oies sauvages coréennes, un oiseau peint avec attention ; mais ici, un seul petit oiseau, prisonnier d'une chaîne, que l'on regarde de très près, presque comme un portrait.",
+        "image": "images/expositions/nature-fabritius-chardonneret.jpg"
+      },
+      {
         "title": "Nymphéas",
         "artist": "Claude Monet",
         "country": "France",
@@ -1334,10 +1356,10 @@
   },
   {
     "title": "Masques du monde",
-    "subtitle": "Du Pérou au Japon, de l'Alaska au Gabon : cinquante masques de trente-trois pays et des cinq continents",
+    "subtitle": "Du Pérou au Japon, de l'Alaska au Gabon : cinquante-trois masques de trente-quatre pays et des cinq continents",
     "status": "published",
     "theme": "Corps & identité",
-    "intro": "Un masque cache un visage pour en faire apparaître un autre : celui d'un ancêtre, d'un esprit, d'un dieu, d'un défunt, d'un animal ou d'un personnage de théâtre. De l'Égypte des pharaons au théâtre nô, des Andes aux îles du détroit de Torres, ces cinquante masques montrent comment chaque culture a donné un visage à l'invisible. Beaucoup n'étaient pas faits pour être regardés immobiles dans une vitrine, mais portés, dansés et chantés, avec un costume, de la musique et des gestes : imaginez-les en mouvement, à la lumière du feu. Certains masques sacrés, que leurs communautés demandent de ne pas montrer, comme les visages de guérison haudenosaunee ou certains masques hopis et zuñis, ne figurent volontairement pas ici. Plusieurs de ces objets ont quitté leur pays dans des conditions violentes ou contestées : leur histoire est rappelée quand elle est connue.",
+    "intro": "Un masque cache un visage pour en faire apparaître un autre : celui d'un ancêtre, d'un esprit, d'un dieu, d'un défunt, d'un animal ou d'un personnage de théâtre. De l'Égypte des pharaons au théâtre nô, des Andes aux îles du détroit de Torres, ces cinquante-trois masques montrent comment chaque culture a donné un visage à l'invisible. Beaucoup n'étaient pas faits pour être regardés immobiles dans une vitrine, mais portés, dansés et chantés, avec un costume, de la musique et des gestes : imaginez-les en mouvement, à la lumière du feu. Certains masques sacrés, que leurs communautés demandent de ne pas montrer, comme les visages de guérison haudenosaunee ou certains masques hopis et zuñis, ne figurent volontairement pas ici. Plusieurs de ces objets ont quitté leur pays dans des conditions violentes ou contestées : leur histoire est rappelée quand elle est connue.",
     "minimum": 20,
     "search": {
       "keywords": "mask",
@@ -1398,6 +1420,28 @@
         "analysis": "Ce masque en carton peint a un visage rose, des joues rouges, des lèvres rouges et d'épais sourcils noirs. Il faisait partie d'un costume de Saint-Nicolas (Sinterklaas) porté au XIXe siècle dans une famille néerlandaise, avec une veste de soie, des pantoufles de velours rouge brodées de fil d'argent, une mitre en papier et une crosse. Selon la donatrice, il servit vers 1875 pour des nièces de sa mère.",
         "compare": "Comme les masques vénitiens de La Rencontre, un masque porté pour jouer un rôle ; mais ici dans l'intimité d'une maison, pour faire apparaître le saint devant des enfants.",
         "image": "images/expositions/masque-saint-nicolas-pays-bas.jpg"
+      },
+      {
+        "title": "Masque de carnaval « Narrenvater » (Villingen)",
+        "artist": "Sculpteur souabe-alémanique anonyme",
+        "country": "Allemagne",
+        "period": "XVIIIe siècle",
+        "museum": "Badisches Landesmuseum, Karlsruhe",
+        "credit": "Badisches Landesmuseum, Karlsruhe (https://katalog.landesmuseum.de/object/D5EC62924F43657F4C68A391E15B6577), via Europeana, domaine public (CC0)",
+        "analysis": "Ce masque de bois peint, haut de 29 cm, est une « Scheme » (ou « Glattlarve ») : un visage lisse aux traits nobles, encadré de boucles. Selon l'ancien propriétaire, il servait au carnaval (Fasnacht) de Villingen, en Forêt-Noire, pour le personnage du « Narrenvater », le père des fous. La notice du musée raconte son histoire : un masque plus ancien peut-être adapté, une peinture refaite plusieurs fois (la dernière en 1930), une couronne de cheveux ajoutée. Elle explique aussi la mode des moustaches : à Villingen, ces masques n'en portaient pas au début ; au XVIIIe siècle apparaissent de petites moustaches, qui deviennent énormes au XIXe siècle, toujours peintes et non sculptées.",
+        "compare": "Comme les masques vénitiens de La Rencontre, un masque de fête européen ; mais celui-ci appartient au carnaval des villages du sud de l'Allemagne, où chaque personnage a son masque, transmis et repeint de génération en génération.",
+        "image": "images/expositions/masque-narrenvater-villingen.jpg"
+      },
+      {
+        "title": "Masque de honte, punition pour calomnie",
+        "artist": "Forgeron anonyme",
+        "country": "Allemagne",
+        "period": "XVIIe–XVIIIe siècle",
+        "museum": "Badisches Landesmuseum, Karlsruhe",
+        "credit": "Badisches Landesmuseum, Karlsruhe (https://katalog.landesmuseum.de/object/460899B44561B98D25C3A995176D0679), via Europeana, domaine public (CC0)",
+        "analysis": "Ce masque de fer n'était pas fait pour s'amuser, mais pour punir. Selon la notice du musée, on l'imposait en public à des condamnés pour adultère, ivresse, insulte ou querelles, afin de les livrer à la moquerie de tous ; souvent, ils étaient en même temps exposés au pilori. L'apparence du masque désigne la faute : la langue de 38 cm de long fait penser à une calomnie ou à un mensonge, les longues oreilles à la bêtise. Un grelot fixé au sommet attirait l'attention sur le condamné. Ce type de masque aurait servi de modèle au « Schnabelgigri », un masque de carnaval de la région du lac de Constance.",
+        "compare": "Le Narrenvater, juste avant, se portait pour faire rire ; ce masque-ci faisait rire des autres. Le même objet, le masque, sert ici à humilier au lieu de cacher ou de transformer.",
+        "image": "images/expositions/masque-de-honte-karlsruhe.jpg"
       },
       {
         "title": "Masque olmèque en pierre verte",
@@ -1658,6 +1702,17 @@
         "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1949.158), domaine public (CC0)",
         "analysis": "Le gigaku est le plus ancien théâtre masqué du Japon. Selon les chroniques japonaises, il fut enseigné en 612 par Mimashi, un musicien venu du royaume coréen de Baekje, qui l'avait appris en Chine du Sud ; on le jouait dans les grands temples bouddhiques, comme en 752 pour l'inauguration du Grand Bouddha du Tōdai-ji, à Nara. Ses personnages venaient des routes de la soie : ce masque est celui du fils d'un vieux Perse, qui mime avec son père des prières au Bouddha. Taillé dans le bois de paulownia, laqué et peint, il couvrait toute la tête de l'acteur. Le gigaku a disparu au Moyen Âge ; seuls ses masques nous sont parvenus.",
         "compare": "Comme les masques du théâtre grec, il enveloppait toute la tête et faisait reconnaître un personnage de loin. Et il rappelle que le théâtre japonais est né d'échanges avec la Corée, la Chine et, plus loin, la Perse."
+      },
+      {
+        "title": "Masque de gigaku : Garuda (Karura)",
+        "artist": "Atelier de l'époque de Nara",
+        "country": "Japon",
+        "period": "VIIIe siècle",
+        "museum": "Musée national de Kyoto",
+        "credit": "Musée national de Kyoto, ColBase (https://colbase.nich.go.jp/collection_items/kyohaku/C%E7%94%B27), licence CC BY 4.0",
+        "analysis": "Garuda est un oiseau sacré de l'Inde, monture du dieu Vishnou ; le bouddhisme en fit un dieu protecteur. D'ordinaire, il dévore les serpents venimeux, mais dans le gigaku, ancien théâtre dansé, il joue un rôle un peu comique : il picore des vers de terre. Le masque de bois porte une crête dressée, des sourcils froncés et un bec court. Selon la notice du musée, une inscription à l'encre à l'intérieur pourrait se lire « Kami no Ushikai », le nom d'un peintre du milieu de l'époque de Nara, qui travailla au plafond du pavillon du Grand Bouddha du Tōdai-ji ; le masque aurait donc servi à la cérémonie de consécration du Grand Bouddha, puis été réutilisé pour d'autres rites. Il est classé bien culturel important.",
+        "compare": "Comme le jeune garçon perse du gigaku, juste avant, un masque de ce théâtre venu du continent ; mais celui-ci est un oiseau mythique de l'Inde, devenu au Japon un personnage presque comique.",
+        "image": "images/expositions/masque-gigaku-garuda-kyoto.jpg"
       },
       {
         "title": "Masque de bugaku : Ryō'ō (le roi de Lanling)",

@@ -216,7 +216,7 @@ function afficherDiapo(carte) {
     g.src = grandeImage(petite);
     cadre.appendChild(g);
     if (floue) {
-      const b = document.createElement('button'); b.type = 'button'; b.textContent = 'Scène violente — afficher l\'image';
+      const b = document.createElement('button'); b.type = 'button'; b.textContent = 'Image sensible — afficher l\'image';
       b.onclick = () => { cadre.classList.add('vu'); b.remove(); floue.classList.add('vu'); const o = floue.querySelector('button'); if (o) o.remove(); };
       cadre.appendChild(b);
     }

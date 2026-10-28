@@ -4,7 +4,7 @@
     "slug": "ukiyo-e",
     "status": "published",
     "title": "Ukiyo-e, images du monde flottant",
-    "subtitle": "De Moronobu à Hiroshige : trente-quatre estampes et peintures du Japon d'Edo, presque toutes conservées à Tokyo",
+    "subtitle": "De Moronobu à Hiroshige : trente-six estampes et peintures du Japon d'Edo, presque toutes conservées à Tokyo",
     "intro": "Ukiyo-e veut dire « images du monde flottant » : le monde des plaisirs passagers d'Edo, l'actuelle Tokyo, entre le XVIIe et le XIXe siècle. On y voit les beautés à la mode, les acteurs du théâtre kabuki, les fêtes, puis, au XIXe siècle, les paysages et les routes du Japon. La plupart de ces images sont des estampes gravées sur bois : un artiste dessinait, un graveur taillait une planche par couleur, un imprimeur posait les couleurs à la main, et un éditeur vendait les feuilles à bas prix, en grand nombre. L'exposition suit l'ordre du temps, de la peinture de Moronobu aux dernières vues d'Edo de Hiroshige. Presque toutes les œuvres viennent du Musée national de Tokyo ; trois vues du mont Fuji de Hokusai viennent de musées de Dublin et de Hambourg.",
     "works": [
       {
@@ -72,6 +72,18 @@
         "analysis": "Une jeune femme, vue à mi-corps, souffle dans un petit jouet de verre, la poppin, qu'elle tient devant sa bouche. Elle porte un kimono rose à damiers et à motifs de fleurs, sur un fond clair et uni. L'inscription en haut à droite donne le nom de la série, « Dix types de physionomies féminines », et la signature d'Utamaro en « physionomiste » : selon le Musée national de Tokyo, l'artiste se donnait ce surnom, sûr de savoir lire le caractère d'une personne sur son visage. L'artiste s'approche très près de son modèle : c'est le visage et le geste qui comptent.",
         "compare": "Comme les acteurs de Sharaku, plus loin, une figure en buste, vue de près, sur un fond uni : à la fin du XVIIIe siècle, les estampes deviennent des portraits.",
         "image": "images/mouvements/ukiyo-e/utamaro-jeune-femme-poppin.jpg"
+      },
+      {
+        "title": "Le type volage, des Dix types de physionomies féminines",
+        "artist": "Kitagawa Utamaro",
+        "country": "Japon",
+        "period": "XVIIIe siècle (époque d'Edo)",
+        "museum": "Musée national de Tokyo",
+        "credit": "Musée national de Tokyo, ColBase (https://colbase.nich.go.jp/collection_items/tnm/A-10569-542), licence CC BY 4.0",
+        "analysis": "Une femme sort du bain, vêtue d'un léger kimono d'été (yukata) qui découvre ses épaules et sa poitrine ; elle s'essuie les mains dans une serviette et jette un regard de côté, un sourire au coin des lèvres. Selon la notice du Musée national de Tokyo, c'est l'une des toutes premières séries d'estampes en couleurs montrant des femmes en gros plan, et c'est elle qui a rendu Utamaro célèbre d'un coup. Le fond est couvert de poudre de mica, qui brille. Utamaro a voulu peindre dix caractères de femmes d'après leur apparence ; celle-ci est le type « volage » (uwaki), un mot qui voulait dire aussi, à l'époque, distrait, attiré par autre chose. Le musée suggère que, derrière son regard, il y a peut-être un bel homme.",
+        "compare": "De la même série que la jeune femme à la poppin, juste avant : même cadrage à mi-corps ; mais ici, c'est un geste banal et un regard en coin qui disent tout le caractère.",
+        "image": "images/mouvements/ukiyo-e/utamaro-type-volage.jpg",
+        "sensible": true
       },
       {
         "title": "Naniwaya Okita tenant une tasse sur un plateau",
@@ -347,6 +359,18 @@
         "analysis": "Selon la notice du musée, la Miyato est un autre nom de la rivière Sumida. Au loin, le mont Tsukuba ; dans la rivière bordée de roseaux bien verts, deux pêcheurs, dans l'eau jusqu'à la poitrine, attrapent des anguilles avec un outil à long manche. Le musée remarque que les roseaux, faits de fines lignes d'encre superposées, et les couleurs qui tiennent compte de la lumière viennent sans doute de l'influence des gravures occidentales ; les dégradés de bleu et de noir donnent à l'image un air nouveau.",
         "compare": "Comparez avec la Vue en perspective de Toyoharu, au début : deux manières pour les artistes japonais d'apprendre des images d'Occident, la perspective là, la lumière et les ombres ici.",
         "image": "images/mouvements/ukiyo-e/kuniyoshi-riviere-miyato.jpg"
+      },
+      {
+        "title": "Le frais du soir à Ryōgoku, des Lieux célèbres de la capitale de l'Est",
+        "artist": "Utagawa Kuniyoshi",
+        "country": "Japon",
+        "period": "XIXe siècle (époque d'Edo)",
+        "museum": "Musée national de Tokyo",
+        "credit": "Musée national de Tokyo, ColBase (https://colbase.nich.go.jp/collection_items/tnm/A-10569-2529), licence CC BY 4.0",
+        "analysis": "Une nuit d'été sur la rivière Sumida, près du pont de Ryōgoku. Selon la notice du musée, cette série est la plus représentative des paysages de Kuniyoshi. Les étincelles des feux d'artifice retombent en pluie rouge sur des hommes plongés dans l'eau, en bas à droite, qui brandissent un grand sabre de bois : ce sont les membres d'une confrérie de pèlerins du mont Ōyama, qui se purifient dans la rivière. À côté, les passagers d'un bateau couvert, venus chercher la fraîcheur, achètent à manger à un bateau marchand. Plus loin, la rivière est couverte de bateaux.",
+        "compare": "La même fête d'été que les Feux d'artifice à Ryōgoku d'Utamaro et de Hiroshige (plus haut), sur la même rivière Sumida que la Miyato, juste avant ; mais Kuniyoshi y met la foule, les marchands et les baigneurs.",
+        "image": "images/mouvements/ukiyo-e/kuniyoshi-frais-du-soir-ryogoku.jpg",
+        "sensible": true
       },
       {
         "title": "Chat pour éloigner les souris",

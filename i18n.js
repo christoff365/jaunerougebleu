@@ -927,7 +927,7 @@ const TRAD = {
   "L'art contemporain n'est pas encore représenté : les œuvres récentes sont protégées par le droit d'auteur, et cette collection ne contient que des œuvres du domaine public.": ["Contemporary art is not represented yet: recent works are protected by copyright, and this collection only contains public-domain works.", "El arte contemporáneo aún no está representado: las obras recientes están protegidas por derechos de autor y esta colección solo contiene obras de dominio público.", "الفن المعاصر غير ممثَّل بعد: الأعمال الحديثة محمية بحقوق المؤلف، وهذه المجموعة لا تضم سوى أعمال من الملك العام."],
   "Aucune œuvre ne correspond pour le moment. Essayez d'autres choix.": ["No work matches for now. Try other choices.", "Por ahora ninguna obra coincide. Prueba otras opciones.", "لا يوجد عمل مطابق حاليًا. جرّب خيارات أخرى."],
   "La collection n'a pas pu être chargée. Rechargez la page dans un instant.": ["The collection could not be loaded. Please reload the page in a moment.", "No se pudo cargar la colección. Vuelve a cargar la página en un momento.", "تعذّر تحميل المجموعة. أعد تحميل الصفحة بعد قليل."],
-  "Scène violente — afficher l'image": ["Violent scene — show the image", "Escena violenta: mostrar la imagen", "مشهد عنيف — اعرض الصورة"],
+  "Image sensible — afficher l'image": ["Sensitive image — show it", "Imagen sensible: mostrarla", "صورة حساسة — اعرضها"],
 
   // ---- Accessibilité
   "Accessibilité universelle": ["Universal accessibility", "Accesibilidad universal", "إتاحة الوصول للجميع"],

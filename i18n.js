@@ -1154,6 +1154,7 @@ const TRAD_CREDITS = [
   ["Galerie Tretiakov", ["Tretyakov Gallery", "Galería Tretiakov", "معرض تريتياكوف"]],
   ["Musée des collections impériales (Sannomaru Shōzōkan)", ["Museum of the Imperial Collections (Sannomaru Shōzōkan)", "Museo de las Colecciones Imperiales (Sannomaru Shōzōkan)", "متحف المجموعات الإمبراطورية (سانومارو شوزوكان)"]],
   ["Musée national de Tokyo", ["Tokyo National Museum", "Museo Nacional de Tokio", "متحف طوكيو الوطني"]],
+  ["Musée national du palais, Taipei", ["National Palace Museum, Taipei", "Museo Nacional del Palacio, Taipéi", "متحف القصر الوطني، تايبيه"]],
   ["Badisches Landesmuseum, Karlsruhe", ["Badisches Landesmuseum, Karlsruhe", "Badisches Landesmuseum, Karlsruhe", "متحف ولاية بادن، كارلسروه"]],
   ["Musée national de Kyoto", ["Kyoto National Museum", "Museo Nacional de Kioto", "متحف كيوتو الوطني"]],
   ["Musée national de Nara", ["Nara National Museum", "Museo Nacional de Nara", "متحف نارا الوطني"]],

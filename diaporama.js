@@ -5,6 +5,8 @@
 // À l'écran : l'œuvre seule, avec une petite légende (titre et crédit de l'image, exigé par les licences).
 // On passe à l'œuvre suivante quand la lecture est finie ; voix coupée (ou navigateur sans synthèse vocale),
 // chaque œuvre reste 30 secondes (15 à 90 s au choix). Sous-titres facultatifs pour lire ce qui est dit.
+// Option « Sans commentaires » (pour une télévision, un écran d'accueil) : rien n'est lu ni sous-titré, les œuvres
+// défilent seules ; la page Télévision (tv/index.html) ouvre ce mode en boucle grâce à l'adresse « ?tv=<exposition> ».
 // Commandes : flèches ← → (ou glisser le doigt) pour changer d'œuvre, Espace ou OK pour la pause,
 // Échap ou Retour pour quitter.
 // Les œuvres sont lues dans la page au moment où on les montre : celles qui arrivent des musées pendant
@@ -19,10 +21,10 @@ let diapo = null; // diaporama ouvert
 function reglagesDiapo() {
   let r = {};
   try { r = JSON.parse(localStorage.getItem('jrb-diaporama')) || {}; } catch (e) {}
-  return { duree: DUREES_DIAPO.includes(r.duree) ? r.duree : 30, boucle: !!r.boucle, voix: r.voix !== false, st: !!r.st };
+  return { duree: DUREES_DIAPO.includes(r.duree) ? r.duree : 30, boucle: !!r.boucle, voix: r.voix !== false, st: !!r.st, com: r.com !== false };
 }
 function garderReglageDiapo(cle, val) { const r = reglagesDiapo(); r[cle] = val; try { localStorage.setItem('jrb-diaporama', JSON.stringify(r)); } catch (e) {} }
-const voixActive = () => SYNTHESE && reglagesDiapo().voix;
+const voixActive = () => SYNTHESE && reglagesDiapo().voix && reglagesDiapo().com;
 
 // Copie d'un morceau de la page, remise en français : la traduction de la page la traduit ensuite dans la langue choisie
 function copieFr(el) {
@@ -59,10 +61,14 @@ function voixPour(lang) {
   return v.find(x => x.lang.replace('_', '-') === lang) || v.find(x => x.lang.slice(0, 2) === lang.slice(0, 2)) || null;
 }
 
-function lancerDiaporama(idZone, idTitre, idSous) {
+// options.mode : 'tv' (en boucle, sans commentaires) ou 'commentaires' ; options.attendre : le diaporama attend
+// qu'on appuie sur « Démarrer » (ouvert par un lien : la lecture à voix haute et le plein écran demandent un geste)
+function lancerDiaporama(idZone, idTitre, idSous, options = {}) {
   const zone = document.getElementById(idZone);
   if (!zone || diapo) return;
   if (![...zone.querySelectorAll('.wk-card:not(.wk-attente),.mini')].some(c => c.querySelector('img'))) return;
+  if (options.mode === 'tv') { garderReglageDiapo('com', false); garderReglageDiapo('boucle', true); }
+  else if (options.mode === 'commentaires') garderReglageDiapo('com', true);
   const r = reglagesDiapo();
   const d = document.createElement('div');
   d.id = 'diapo'; d.className = 'diapo'; d.setAttribute('role', 'dialog'); d.setAttribute('aria-modal', 'true'); d.setAttribute('aria-label', 'Diaporama');
@@ -74,8 +80,9 @@ function lancerDiaporama(idZone, idTitre, idSous) {
   <button type="button" id="diapo-pause" aria-label="Pause"><span aria-hidden="true">⏸</span></button>
   <button type="button" id="diapo-suiv" aria-label="Œuvre suivante"><span aria-hidden="true">⏭</span></button>
   <span class="diapo-num" id="diapo-num" aria-live="polite"></span>
+  <label class="diapo-reg"><input type="checkbox" id="diapo-sanscom"${r.com ? '' : ' checked'}> <span>Sans commentaires</span></label>
   ${SYNTHESE ? '<button type="button" id="diapo-voix" aria-pressed="true"><span aria-hidden="true">🔊</span> <span>Voix</span></button>' : ''}
-  <label class="diapo-reg"><input type="checkbox" id="diapo-soustitres"${r.st || !SYNTHESE ? ' checked' : ''}> <span>Sous-titres</span></label>
+  <label class="diapo-reg" id="diapo-reg-st"><input type="checkbox" id="diapo-soustitres"${r.st || !SYNTHESE ? ' checked' : ''}> <span>Sous-titres</span></label>
   <label class="diapo-reg" id="diapo-reg-duree"><span>Durée par œuvre</span> <select id="diapo-duree">${DUREES_DIAPO.map(s => `<option value="${s}"${s === r.duree ? ' selected' : ''}>${s} s</option>`).join('')}</select></label>
   <label class="diapo-reg"><input type="checkbox" id="diapo-boucle"${r.boucle ? ' checked' : ''}> <span>En boucle</span></label>
   <button type="button" id="diapo-quitter" class="diapo-quitter"><span aria-hidden="true">✕</span> <span>Quitter</span></button>
@@ -89,6 +96,7 @@ function lancerDiaporama(idZone, idTitre, idSous) {
   d.querySelector('#diapo-pause').onclick = basculerPauseDiapo;
   d.querySelector('#diapo-quitter').onclick = fermerDiaporama;
   if (SYNTHESE) d.querySelector('#diapo-voix').onclick = () => { garderReglageDiapo('voix', !reglagesDiapo().voix); majVoixDiapo(); diapo.minuterieEnCours = false; demarrerDiapo(); };
+  d.querySelector('#diapo-sanscom').onchange = e => { garderReglageDiapo('com', !e.target.checked); majVoixDiapo(); diapo.minuterieEnCours = false; demarrerDiapo(); };
   d.querySelector('#diapo-soustitres').onchange = e => { garderReglageDiapo('st', e.target.checked); majSousTitre(); };
   d.querySelector('#diapo-duree').onchange = e => { garderReglageDiapo('duree', +e.target.value); diapo.minuterieEnCours = false; if (!voixActive()) demarrerDiapo(); };
   d.querySelector('#diapo-boucle').onchange = e => garderReglageDiapo('boucle', e.target.checked);
@@ -104,19 +112,34 @@ function lancerDiaporama(idZone, idTitre, idSous) {
   document.addEventListener('keydown', toucheDiapo, true);
   document.addEventListener('visibilitychange', garderEcranAllume);
   document.addEventListener('fullscreenchange', sortiePleinEcran);
-  if (d.requestFullscreen) d.requestFullscreen().then(() => { if (diapo) diapo.pleinEcran = true; }).catch(() => {});
+  if (!options.attendre) pleinEcranDiapo();
   garderEcranAllume();
   majVoixDiapo();
+  if (options.attendre) { diapo.pause = true; majBoutonPause(); }
   afficherDiapo(null);
-  d.querySelector('#diapo-pause').focus({ preventScroll: true });
+  if (options.attendre) {
+    // Bouton « Démarrer », choisi d'avance : il suffit d'appuyer sur OK avec la télécommande.
+    // En mode sans commentaires (écran laissé seul), le diaporama démarre aussi tout seul après 15 secondes.
+    const b = document.createElement('button'); b.type = 'button'; b.className = 'diapo-go'; b.id = 'diapo-go';
+    b.innerHTML = '<span aria-hidden="true">▶</span> <span>Démarrer</span>';
+    const go = () => { clearTimeout(diapo.auto); b.remove(); pleinEcranDiapo(); if (diapo.pause) basculerPauseDiapo(); };
+    b.onclick = e => { e.stopPropagation(); go(); };
+    d.querySelector('.diapo-titre').appendChild(b);
+    if (!r.com) diapo.auto = setTimeout(() => { if (diapo && b.isConnected) go(); }, 15000);
+    b.focus({ preventScroll: true });
+  } else d.querySelector('#diapo-pause').focus({ preventScroll: true });
   montrerCmdDiapo();
+}
+function pleinEcranDiapo() {
+  const d = diapo && diapo.d;
+  if (d && d.requestFullscreen && !document.fullscreenElement) d.requestFullscreen().then(() => { if (diapo) diapo.pleinEcran = true; }).catch(() => {});
 }
 
 function fermerDiaporama() {
   if (!diapo) return;
   const { d, retour } = diapo;
   arreterDiapo();
-  clearTimeout(diapo.masquer);
+  clearTimeout(diapo.masquer); clearTimeout(diapo.auto);
   if (diapo.wakeLock) diapo.wakeLock.release().catch(() => {});
   document.removeEventListener('keydown', toucheDiapo, true);
   document.removeEventListener('visibilitychange', garderEcranAllume);
@@ -322,20 +345,22 @@ function majSousTitre() {
   if (!diapo) return;
   const st = diapo.d.querySelector('#diapo-st'), voix = voixActive();
   const s = voix ? diapo.segs[diapo.iSeg] : diapo.segs[0];
-  st.hidden = !(diapo.d.querySelector('#diapo-soustitres').checked && s);
+  st.hidden = !(reglagesDiapo().com && diapo.d.querySelector('#diapo-soustitres').checked && s);
   if (st.hidden) return;
   // Avec la voix : la phrase en cours de lecture ; sans la voix : tout le texte de l'œuvre
   st.textContent = voix ? s.texte : diapo.segs.map(x => x.texte).join(' ');
   st.lang = s.lang.slice(0, 2); st.dir = 'auto';
 }
 function majVoixDiapo() {
-  const b = diapo.d.querySelector('#diapo-voix'), on = voixActive();
-  if (b) { b.setAttribute('aria-pressed', on); b.firstElementChild.textContent = on ? '🔊' : '🔇'; }
+  const b = diapo.d.querySelector('#diapo-voix'), on = voixActive(), com = reglagesDiapo().com;
+  if (b) { b.setAttribute('aria-pressed', on); b.firstElementChild.textContent = on ? '🔊' : '🔇'; b.hidden = !com; }
+  diapo.d.querySelector('#diapo-reg-st').hidden = !com;
   diapo.d.querySelector('#diapo-reg-duree').hidden = on;
 }
 
 function basculerPauseDiapo() {
   if (!diapo) return;
+  const go = diapo.d.querySelector('#diapo-go'); if (go) { go.click(); return; } // ouvert par un lien : bouton « Démarrer »
   if (diapo.fin) { changerDiapo(1); return; } // après la fin : on recommence
   if (diapo.pause) { diapo.pause = false; demarrerDiapo(); }
   else {

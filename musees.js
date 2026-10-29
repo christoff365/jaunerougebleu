@@ -171,6 +171,16 @@ function anneeEpoqueJaponaise(texte) {
   return e ? e[1] : null;
 }
 
+// Wellcome Collection : expressions cherchées pour chaque région (œuvres faites sur place), thèmes possibles, et filtres des titres
+const EXPRESSIONS_WELLCOME = {
+  'Asie du Sud et du Sud-Est': ['Indian artist', 'Indian artist', 'Indian artist', 'Thai artist', 'Sinhalese artist'],
+  'Moyen-Orient': ['Persian artist'],
+  "Asie de l'Est": ['Chinese artist', 'Japanese artist', 'Tibet']
+};
+const THEMES_WELLCOME = { 'Vie quotidienne': '', 'Portraits': '', 'Spiritualité': 'god goddess deity Buddha', 'Mythologie': 'Ramayana legend god' };
+const FAIT_SUR_PLACE_WELLCOME = /by an? [A-Z][a-z]+ (artist|painter)|(painting|watercolour|gouache|drawing|woodcut)[^.]*, (Tibet|India|China|Japan|Nepal|Burma|Iran|Persia|Thailand|Siam|Ceylon|Sri Lanka)\b/;
+const SUJETS_ECARTES_WELLCOME = /skull|corpse|dead|dissect|anatom|disease|surg|operation|tumou?r|lepro|deformit|execut|tortur|punish|bloodletting|moxa|acupunct|medic|physician|pharmac|remed|wound|kill|slave|prison|captive|criminal|beheaded|opium|écorch|body|blood|bone|\bwar\b|first aid/i;
+
 // Demande une page de résultats à une position tirée au hasard (pour varier les œuvres) ; si la recherche a moins de
 // résultats que cette position, on redemande à une position qui existe, au lieu de revenir les mains vides
 function pageAuHasard(url, max, liste, total) {
@@ -1317,6 +1327,41 @@ const ADAPTATEURS = {
     }
   },
 
+  // Wellcome Collection (Londres) : API publique sans clé, ouverte à tous les sites. On n'y garde que des images du domaine public
+  // (Public Domain Mark) faites par des artistes des pays eux-mêmes (« Gouache painting by an Indian artist », « Watercolour, Tibet ») :
+  // peintures et estampes d'Inde, de Perse, de Chine, du Japon, du Tibet, de Thaïlande, de Ceylan… Les gravures européennes
+  // qui représentent d'autres peuples, nombreuses dans ce fonds, sont écartées, ainsi que les sujets médicaux.
+  wellcome: {
+    nom: 'Wellcome Collection, Londres',
+    chercher(c, n) {
+      const regions = Object.keys(EXPRESSIONS_WELLCOME);
+      if ((c.region && !regions.includes(c.region)) || c.artiste || c.mouvement || c.musee) return Promise.resolve([]);
+      // Peintures et estampes seulement (les manuscrits du fonds ont rarement une image, et leur titre n'est qu'une cote)
+      if (c.ty.some(t => t !== 'Peinture' && t !== 'Dessins et estampes')) return Promise.resolve([]);
+      if (c.th.some(t => !(t in THEMES_WELLCOME))) return Promise.resolve([]);
+      const phrase = auHasard(EXPRESSIONS_WELLCOME[c.region || auHasard(regions)]);
+      const mots = ['"' + phrase + '"'].concat(c.th.map(t => THEMES_WELLCOME[t]), c.mots ? [c.mots] : []).filter(Boolean).join(' ');
+      const d = bornesEpoques(c.ep);
+      const taille = Math.min(100, n * 4);
+      const url = page => 'https://api.wellcomecollection.org/catalogue/v2/works?items.locations.license=pdm&workType=k&include=production,genres&pageSize=' + taille +
+        '&query=' + encodeURIComponent(mots) + (d ? '&production.dates.from=' + Math.max(0, d[0]) + '-01-01&production.dates.to=' + Math.max(0, d[1]) + '-12-31' : '') + '&page=' + (page + 1);
+      return pageAuHasard(url, c.premiere ? 1 : 6, r => r.results, r => r.totalPages).then(liste => melange(liste.filter(w =>
+        w.thumbnail && w.thumbnail.license && w.thumbnail.license.id === 'pdm' && FAIT_SUR_PLACE_WELLCOME.test(w.title) && w.title.toLowerCase().includes(phrase.toLowerCase()) && !SUJETS_ECARTES_WELLCOME.test(w.title)))
+        .slice(0, n).map(w => {
+          const [titre, ...reste] = String(w.title).split(/\.\s+/);
+          const prod = (w.production || [])[0] || {}, datation = ((prod.dates || [])[0] || {}).label || ((w.title.match(/\b(?:ca\. )?1[5-9]\d\d\b/) || [])[0]) || '';
+          const fiche = 'https://wellcomecollection.org/works/' + w.id;
+          return oeuvre({
+            titre: titre.replace(/[.\s]+$/, ''), artiste: '', date: datation.replace(/[[\]?]/g, ''), annee: anneeDe(datation.replace(/[[\]?]/g, '')),
+            lieu: (((prod.places || [])[0] || {}).label || '').replace(/[[\],?]/g, '').trim(), culture: reste.join('. '), musee: this.nom,
+            image: w.thumbnail.url.replace('/full/300,/', '/full/!1024,1024/'), fiche,
+            credit: 'Wellcome Collection, Londres (' + fiche + '), domaine public (Public Domain Mark)',
+            type: /woodcut|print|drawing|engraving|lithograph/i.test(reste.join(' ')) ? 'Dessins et estampes' : 'Peinture', langue: 'en'
+          });
+        }));
+    }
+  },
+
   smithsonian: {
     nom: 'Smithsonian Institution, Washington',
     actif: () => !!RELAIS,
@@ -1683,7 +1728,7 @@ function oeuvreParLien(lien) {
 // - musées du monde entier via Wikidata (sans mot-clé), lancés après quelques secondes s'il manque encore des pays.
 // Une œuvre par pays nouveau. Renvoie (au plus tard après 60 secondes) { choisies, reserve, sources } :
 // la réserve sert à remplacer une œuvre dont l'image ne se charge pas ; sources indique les catalogues qui ont répondu.
-const CATALOGUES_MOTS_CLES = ['met', 'aic', 'cleveland', 'smk', 'mia', 'smithsonian', 'colbase'];
+const CATALOGUES_MOTS_CLES = ['met', 'aic', 'cleveland', 'smk', 'mia', 'smithsonian', 'colbase', 'wellcome'];
 // File d'attente : au plus « max » tâches en même temps
 function fileDAttente(max) {
   let actives = 0;

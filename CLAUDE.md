@@ -14,5 +14,5 @@ Site statique en français (GitHub Pages) ; la documentation complète est dans 
 ## Habitudes de travail
 
 - Répondre en français, simplement.
-- Après une modification d'un fichier `.js`, changer le numéro de version des scripts (`?v=AAAAMMJJx`) dans `index.html`, `README.md` et `mentions-legales/index.html`.
+- Après une modification d'un fichier `.js`, changer le numéro de version des scripts (`?v=AAAAMMJJx`) dans `index.html`, `README.md`, `mentions-legales/index.html` et `tv/index.html`.
 - Tester sur un écran de téléphone (390 px) avant de proposer une pull request.

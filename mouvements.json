@@ -2378,5 +2378,629 @@
         "image": "images/mouvements/art-khmer-d-angkor/icone-portative-bouddha.jpg"
       }
     ]
+  },
+  {
+    "mouvement": "Miniature persane",
+    "slug": "miniature-persane",
+    "status": "published",
+    "title": "La miniature persane, les couleurs du Livre des rois",
+    "subtitle": "D'Ilkhanides en Safavides : vingt-trois peintures de 1300 à 1676, de Dublin, New York et Cleveland",
+    "intro": "En Iran et dans les pays voisins, on n'a pas peint de grands tableaux pour les murs, mais des images pour les livres : des épopées, des poèmes, des traités savants, recopiés à la main par des calligraphes et illustrés par des peintres pour les princes. Le livre le plus illustré est le Shahnama, le « Livre des rois », composé vers 1010 par le poète Ferdowsi, qui raconte en vers l'histoire légendaire des rois de l'Iran et les exploits du héros Rostam. Après la conquête mongole, au XIVe siècle, les peintres découvrent les arbres, les rochers et les dragons de la peinture chinoise ; aux XVe et XVIe siècles, à Hérat, Tabriz et Qazvin, sous les Timourides puis les Safavides, ils inventent des pages aux couleurs précieuses, sans ombres, où chaque détail est peint avec soin ; au XVIIe siècle, à Ispahan, apparaissent les pages isolées pour les albums, les dessins et les portraits. Les œuvres sont présentées dans l'ordre du temps. Elles viennent du Chester Beatty de Dublin, du Metropolitan Museum of Art et du Cleveland Museum of Art ; nous n'avons pas encore pu obtenir d'images d'œuvres conservées en Iran, et nous les ajouterons dès que possible.",
+    "works": [
+      {
+        "title": "Les qualités des tourterelles, page d'un Manafi' al-Hayawan (« Les Utilités des animaux »)",
+        "artist": "Peintre de Maragha",
+        "country": "Iran",
+        "period": "vers 1300",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1945.382), domaine public (CC0)",
+        "analysis": "Deux tourterelles dans un arbre au tronc noueux, près d'une fleur de lotus, au milieu du texte. Selon la notice du musée, le dessin du tronc et du lotus montre l'influence du naturalisme chinois. Ce traité sur les animaux, tiré de sources grecques (Aristote), fut traduit de l'arabe en persan pour le souverain mongol Ghazan Khan (règne de 1295 à 1304). Les titres sont écrits en grandes lettres coufiques anguleuses, le texte en écriture cursive. On ne connaît plus qu'une douzaine de pages de ce manuscrit.",
+        "compare": "Le point de départ de l'exposition : sous les Mongols, les peintres d'Iran regardent la Chine. Comparez cet arbre avec ceux du Grand Shahnama mongol, juste après.",
+        "image": "images/mouvements/miniature-persane/manafi-tourterelles.jpg"
+      },
+      {
+        "title": "Rostam attrape Rakhsh, page du « Premier petit Shahnama »",
+        "artist": "Peintre de Tabriz",
+        "country": "Iran",
+        "period": "vers 1300",
+        "museum": "Chester Beatty, Dublin",
+        "credit": "Chester Beatty, Dublin (https://viewer.cbl.ie/viewer/ppnresolver?id=Per_104_8), via Europeana, licence CC BY 4.0",
+        "analysis": "Une bande de peinture sous le texte, comme une frise : un troupeau de chevaux de toutes les couleurs galope vers la droite, et le héros Rostam, au lasso, attrape celui qui deviendra son fidèle cheval, Rakhsh. Selon la notice du musée, cette page vient d'un manuscrit appelé « Premier petit Shahnama », dont soixante-dix-sept pages sont à Dublin ; ces « petits Shahnama » sont les plus anciens exemplaires illustrés connus du Livre des rois, peints après l'installation des Mongols en Iran (1258).",
+        "compare": "Rostam et Rakhsh, le héros et son cheval, reviennent tout au long de l'exposition : retrouvez-les face au dragon, vers 1450.",
+        "image": "images/mouvements/miniature-persane/petit-shahnama-rostam-rakhsh.jpg"
+      },
+      {
+        "title": "Alexandre consulte l'arbre qui parle, page du « Premier petit Shahnama »",
+        "artist": "Peintre de Tabriz",
+        "country": "Iran",
+        "period": "vers 1300",
+        "museum": "Chester Beatty, Dublin",
+        "credit": "Chester Beatty, Dublin (https://viewer.cbl.ie/viewer/ppnresolver?id=Per_104_48), via Europeana, licence CC BY 4.0",
+        "analysis": "En haut de la page, Iskandar (Alexandre le Grand) et ses compagnons se tiennent devant un arbre étrange, dont les branches portent des têtes. Selon la notice du musée, c'est l'arbre qui parle, qui donne des conseils et des prophéties avec une voix d'homme et une voix de femme. La page vient du même manuscrit que la précédente ; elle a été remontée plus tard sur un carton semé d'or.",
+        "compare": "Un récit merveilleux tenu dans une étroite bande d'image : comparez avec les pages pleines du XVIe siècle, où la peinture envahit toute la feuille.",
+        "image": "images/mouvements/miniature-persane/petit-shahnama-arbre-parlant.jpg"
+      },
+      {
+        "title": "Bahram Gour tue un dragon, page du « Grand Shahnama mongol »",
+        "artist": "Peintre de Tabriz",
+        "country": "Iran",
+        "period": "1330–1335",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1943.658.b), domaine public (CC0)",
+        "analysis": "Selon la notice du musée, Bahram Gour plonge son épée dans le poitrail d'un dragon. Roi sassanide (règne de 420 à 438), grand chasseur, il tient son surnom de « Gour », l'onagre (un âne sauvage), son gibier préféré, mais il excellait aussi à tuer les dragons. Les rochers, le tronc d'arbre et le dragon montrent ce que la peinture iranienne de l'époque mongole a emprunté aux modèles chinois. Le paysage et le dragon qui se tord sont peints avec la même énergie. Ce grand manuscrit fut commandé par un souverain de la dynastie mongole des Ilkhanides.",
+        "compare": "Un dragon à la chinoise, tout en écailles et en volutes : comparez avec le dragon de Rostam, un siècle plus tard, et avec le dragon dessiné par Sadiqi Beg vers 1600.",
+        "image": "images/mouvements/miniature-persane/grand-shahnama-mongol-bahram-dragon.jpg"
+      },
+      {
+        "title": "Fereydoun emmène le tyran Zahhak captif au mont Damavand, page du « Grand Shahnama mongol »",
+        "artist": "Peintre de Tabriz",
+        "country": "Iran",
+        "period": "vers 1330–1335",
+        "museum": "Chester Beatty, Dublin",
+        "credit": "Chester Beatty, Dublin (https://viewer.cbl.ie/viewer/ppnresolver?id=Per_111_1), via Europeana, licence CC BY 4.0",
+        "analysis": "Sur un fond bleu, un vieil homme à barbe blanche, monté sur un chameau, avance au milieu d'une troupe serrée de soldats casqués, sous des étendards rouges : d'après le titre donné par le musée, le roi Fereydoun emmène prisonnier le tyran Zahhak vers le mont Damavand. Selon la notice du musée, ce grand manuscrit, appelé « Grand Shahnama mongol » ou « Shahnama Demotte », fut restauré à Téhéran à la fin du XIXe siècle, puis vendu à un marchand parisien, Georges Demotte, qui le démembra à partir de 1913 pour vendre ses peintures une à une, allant jusqu'à séparer en deux des feuilles peintes des deux côtés. Cette peinture a été collée sur une page de texte du XIXe siècle.",
+        "compare": "La même époque et le même manuscrit que le Bahram Gour de Cleveland : une œuvre aujourd'hui dispersée dans les musées du monde entier.",
+        "image": "images/mouvements/miniature-persane/grand-shahnama-mongol-faridun.jpg"
+      },
+      {
+        "title": "L'adresse de Bahram Gour à l'arc, page d'un Haft Paykar (« Les Sept Portraits ») de Nezami",
+        "artist": "Peintre de Hérat",
+        "country": "Afghanistan",
+        "period": "vers 1430",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/455056), domaine public (CC0)",
+        "analysis": "Sur un fond de terre rose, sous un ciel d'or, Bahram Gour, à cheval, tend son arc vers un animal sauvage qui s'enfuit. Autour de lui, des cavaliers, un serviteur qui tient un parasol rouge, d'autres qui le regardent faire ; au bas de la page, quelques têtes apparaissent derrière une colline. Selon la fiche du musée, la page vient d'un manuscrit du Haft Paykar du poète Nezami, peint à Hérat, dans l'actuel Afghanistan, vers 1430.",
+        "compare": "Le même roi chasseur que sur la page du Grand Shahnama mongol, un siècle plus tard : le paysage est devenu clair et aéré, les figures plus fines.",
+        "image": "images/mouvements/miniature-persane/haft-paykar-bahram-arc.jpg"
+      },
+      {
+        "title": "Réception royale dans un paysage, page gauche du frontispice d'un Shahnama",
+        "artist": "Peintre de Chiraz",
+        "country": "Iran",
+        "period": "1444",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1956.10), domaine public (CC0)",
+        "analysis": "Une foule de courtisans, de serviteurs et de musiciens dans un paysage vert semé de fleurs. Selon la notice du musée, cette peinture est la seconde moitié d'un frontispice double, détaché d'un manuscrit du Shahnama ; elle n'illustre pas un épisode du livre, mais représente sans doute la cour pour laquelle le manuscrit a été fait, sous la dynastie des Timourides, à Chiraz. En haut à gauche, on amène deux guépards dressés, un faucon et des chevaux.",
+        "compare": "Une page d'ouverture, où la cour se met en scène avant le récit : comparez avec la fête de Sada, cent ans plus tard, où le roi légendaire est entouré de la même façon.",
+        "image": "images/mouvements/miniature-persane/chiraz-reception-royale.jpg"
+      },
+      {
+        "title": "Rostam tue le dragon, page d'un Shahnama",
+        "artist": "Peintre d'Iran",
+        "country": "Iran",
+        "period": "vers 1450",
+        "museum": "Chester Beatty, Dublin",
+        "credit": "Chester Beatty, Dublin (https://viewer.cbl.ie/viewer/ppnresolver?id=Per_292_3), via Europeana, licence CC BY 4.0",
+        "analysis": "Sur sa monture blanche, Rostam frappe un dragon sombre au long corps sinueux, qui se tord au bord d'une rivière. Selon la notice du musée, le héros accomplit sept épreuves pour aller délivrer son roi, Kay Kavus ; pour la troisième, il lance son brave cheval Rakhsh contre un dragon qui crache du feu et le tue. La page a sans doute été découpée dans un manuscrit pour être remontée dans un album.",
+        "compare": "Le dragon de Rostam et celui de Bahram Gour, cent vingt ans plus tôt : le même combat, mais ici le paysage aux rochers roses et l'arbre aux branches nues sont presque des ornements.",
+        "image": "images/mouvements/miniature-persane/rostam-dragon.jpg"
+      },
+      {
+        "title": "Jamshid enseigne les métiers, page d'un Shahnama",
+        "artist": "Peintre de Chiraz",
+        "country": "Iran",
+        "period": "1480",
+        "museum": "Chester Beatty, Dublin",
+        "credit": "Chester Beatty, Dublin (https://viewer.cbl.ie/viewer/ppnresolver?id=Per_157_11), via Europeana, licence CC BY 4.0",
+        "analysis": "Selon la notice du musée, Jamshid est un roi splendide, dont le règne apporte aux hommes les métiers, ainsi que l'agriculture, l'architecture, les mines et la médecine. Autour de son trône, des forgerons travaillent au feu et à l'enclume, un tisserand à son métier, des brodeurs. Le texte a été copié par Muhammad Baqqal, à Chiraz, et daté du 31 juillet 1480.",
+        "compare": "Un roi de légende, mais des artisans pris sur le vif : comparez avec les jeunes élèves de l'école de Laila et Majnun, plus loin.",
+        "image": "images/mouvements/miniature-persane/jamshid-enseigne-les-metiers.jpg"
+      },
+      {
+        "title": "Derviches dansant, page d'un Divan de Hafez",
+        "artist": "Peintre de Hérat",
+        "country": "Afghanistan",
+        "period": "vers 1480",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/446892), domaine public (CC0)",
+        "analysis": "Dans un jardin sombre semé de fleurs, sous des arbres en fleurs et des cyprès, des derviches dansent en tournant, les bras levés ; d'autres sont tombés à terre, d'autres encore soutiennent un compagnon. À droite, des musiciens jouent du tambourin ; en haut, des hommes âgés regardent, appuyés sur un bâton. Selon la fiche du musée, la page illustre un recueil de poèmes (divan) de Hafez, le grand poète de Chiraz, et a été peinte à Hérat vers 1480.",
+        "compare": "Des hommes qui dansent jusqu'à tomber, peints un à un, chacun avec son geste : comparez avec la foule plus calme de la réception royale de Chiraz.",
+        "image": "images/mouvements/miniature-persane/derviches-dansants-hafez.jpg"
+      },
+      {
+        "title": "La fête de Sada, page du Shahnama de Shah Tahmasp",
+        "artist": "Peintre de Tabriz",
+        "country": "Iran",
+        "period": "vers 1525",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/452111), domaine public (CC0)",
+        "analysis": "Au centre, un grand feu flambe dans une clairière ; autour, le roi, assis sur un tapis, et ses compagnons, en manteaux de couleurs vives. Des rochers roses, mauves et bleus encadrent la scène, et débordent sur la marge ; des gazelles y sont perchées, et en bas, des chèvres, des daims et un homme qui les mène. Selon la fiche du musée, la page vient du Shahnama de Shah Tahmasp, peint à Tabriz.",
+        "compare": "Le plus célèbre des Shahnama, peint pour le jeune Shah Tahmasp : comparez ses rochers aux couleurs de pierres précieuses avec la page de Rostam et du Div blanc, du même manuscrit.",
+        "image": "images/mouvements/miniature-persane/shahnama-tahmasp-fete-de-sada.jpg"
+      },
+      {
+        "title": "La septième épreuve de Rostam : il tue le Div blanc, page du Shahnama de Shah Tahmasp",
+        "artist": "Mir Musavvir et Abd al-Vahhab",
+        "country": "Iran",
+        "period": "1520–1537",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1988.96), domaine public (CC0)",
+        "analysis": "Au fond d'une grotte sombre, le héros Rostam terrasse le chef des démons, le Div blanc ; autour, des rochers aux couleurs vives, et à l'extérieur son cheval. Selon la notice du musée, il prend le sang du foie du démon, nécessaire pour guérir son roi de la cécité. Les peintures de ce Shahnama, fait pour Shah Tahmasp (règne de 1524 à 1576), étaient admirées pour leurs couleurs et leur raffinement ; sept de ses peintres partirent ensuite en Inde, dans les années 1550, diriger le nouvel atelier des empereurs moghols.",
+        "compare": "Ces peintres sont partis fonder la peinture moghole : comparez avec l'exposition Peinture moghole, où l'on retrouve leurs visages de trois quarts et leurs couleurs.",
+        "image": "images/mouvements/miniature-persane/shahnama-tahmasp-div-blanc.jpg"
+      },
+      {
+        "title": "Laila et Majnun à l'école, page d'une Khamsa de Nezami",
+        "artist": "Peintre de Hérat",
+        "country": "Afghanistan",
+        "period": "1524–1525",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/446603), domaine public (CC0)",
+        "analysis": "Une école dans une cour, devant un mur couvert de carreaux bleus : un maître assis lit, des élèves sont assis sur un tapis avec leurs livres posés sur des lutrins en X, d'autres jouent dans la cour. En haut, sur un toit, un homme regarde la scène. Selon la fiche du musée, la page illustre le poème de Laila et Majnun, dans la Khamsa (« Les Cinq Poèmes ») de Nezami, copiée en 1524–1525 à Hérat : les deux amants se sont connus à l'école.",
+        "compare": "Une scène de tous les jours dans une histoire d'amour : comparez avec les artisans de Jamshid, quarante-cinq ans plus tôt.",
+        "image": "images/mouvements/miniature-persane/khamsa-laila-majnun-ecole.jpg"
+      },
+      {
+        "title": "La planète Jupiter en savant, page d'un traité de cosmologie",
+        "artist": "Peintre de Chiraz",
+        "country": "Iran",
+        "period": "1545",
+        "museum": "Chester Beatty, Dublin",
+        "credit": "Chester Beatty, Dublin (https://viewer.cbl.ie/viewer/ppnresolver?id=Per_212_32), via Europeana, licence CC BY 4.0",
+        "analysis": "Selon la notice du musée, ce traité décrit le ciel et la terre et les merveilles de la nature ; cette page traite des influences de la planète Jupiter sur les régions du monde, les comportements humains, les animaux et les minéraux. Dans les images savantes du Moyen-Orient, Jupiter est représenté en vieux savant : il est assis en tailleur, un calame à la main, à côté de livres posés sur un lutrin pliant, avec un sablier. Le texte a été copié à Chiraz en 1545.",
+        "compare": "Une image de science, et non de légende : comparez avec les tourterelles du traité sur les animaux, au début de l'exposition.",
+        "image": "images/mouvements/miniature-persane/jupiter-savant.jpg"
+      },
+      {
+        "title": "Shah Tahmasp Ier (1514–1576) assis dans un paysage",
+        "artist": "Peintre de Qazvin",
+        "country": "Iran",
+        "period": "vers 1575",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1917.1078), domaine public (CC0)",
+        "analysis": "Selon la notice du musée, Shah Tahmasp Ier, deuxième souverain de la dynastie safavide, est agenouillé, pensif, sur un tapis, sous un saule, au bord d'un ruisseau, un livre à côté de lui. Les étoffes de son manteau et de son coussin, semées de motifs d'or, montrent sa richesse ; même le fin tissu blanc de son turban est bordé d'or, surmonté de quelques bijoux.",
+        "compare": "Le roi qui a fait peindre le grand Shahnama, vu ici à la fin de sa vie, seul, sans sa cour : un portrait sur une page isolée, et non plus dans un livre.",
+        "image": "images/mouvements/miniature-persane/shah-tahmasp-paysage.jpg"
+      },
+      {
+        "title": "La bataille entre Khosrow et Afrasiyab, page d'un Shahnama",
+        "artist": "Abdullah Shirazi (attribué à)",
+        "country": "Iran",
+        "period": "vers 1570–1585",
+        "museum": "Chester Beatty, Dublin",
+        "credit": "Chester Beatty, Dublin (https://viewer.cbl.ie/viewer/ppnresolver?id=Per_256_4), via Europeana, licence CC BY 4.0",
+        "analysis": "Une mêlée de cavaliers et de fantassins sur un sol mauve, au pied de rochers ; les étendards flottent, les combattants tombent, les chevaux se cabrent. La peinture déborde du cadre, dans la marge, à droite. Selon la notice du musée, la page vient d'un Shahnama peint sans doute à Qazvin vers 1570–1585, et la peinture est attribuée à Abdullah Shirazi.",
+        "compare": "Une bataille où l'on ne voit d'abord que des couleurs et des mouvements : comparez avec la frise de chevaux du « Premier petit Shahnama », trois siècles plus tôt.",
+        "image": "images/mouvements/miniature-persane/bataille-khosrow-afrasiyab.jpg"
+      },
+      {
+        "title": "Aulad attaché à un platane, page d'un Shahnama",
+        "artist": "Sadiqi Bek",
+        "country": "Iran",
+        "period": "1575–1600",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1988.101), domaine public (CC0)",
+        "analysis": "Selon la notice du musée, la scène montre Aulad, qui guida le héros Rostam dans ses épreuves ; comme on ne lui faisait pas entièrement confiance, Rostam l'attachait souvent à un arbre, ici un platane où niche un couple d'oiseaux. En bas, le cheval tacheté de Rostam, Rakhsh, boit : il était peint en argent, qui a noirci. Le peintre, poète et bibliothécaire royal Sadiqi Bek a signé en tout petit sur le rocher brun, sous Aulad. Ces grandes figures isolées annoncent un nouveau goût, sous Shah Abbas.",
+        "compare": "Rakhsh, le cheval de Rostam, attrapé au lasso au début de l'exposition, se repose ici : comparez les deux images, à trois siècles de distance.",
+        "image": "images/mouvements/miniature-persane/sadiqi-bek-aulad.jpg"
+      },
+      {
+        "title": "Rostam tue l'éléphant blanc, page d'un Shahnama",
+        "artist": "Reza Abbasi (attribué à)",
+        "country": "Iran",
+        "period": "vers 1590–1600",
+        "museum": "Chester Beatty, Dublin",
+        "credit": "Chester Beatty, Dublin (https://viewer.cbl.ie/viewer/ppnresolver?id=Per_277_13), via Europeana, licence CC BY 4.0",
+        "analysis": "Selon la notice du musée, encore enfant, Rostam tue avec la massue de son grand-père un éléphant blanc devenu fou ; impressionné, son père Zal lui confie sa première mission. Dans un jardin, devant un pavillon rose aux portes décorées, l'éléphant s'effondre ; des serviteurs s'enfuient en bas à droite. Les marges sont peintes en or d'animaux dans un paysage. La page vient d'un Shahnama commencé au début du règne de Shah Abbas Ier, à Qazvin, et la peinture est attribuée à Reza Abbasi.",
+        "compare": "Reza Abbasi, le grand peintre d'Ispahan : comparez avec ses « Amants », trente ans plus tard, et avec l'oiseau peint par son fils, Shafi Abbasi.",
+        "image": "images/mouvements/miniature-persane/reza-abbasi-rostam-elephant.jpg"
+      },
+      {
+        "title": "Le Colloque des oiseaux, page d'un Mantiq al-Tayr (« Le Langage des oiseaux ») de Attar",
+        "artist": "Habiballah de Sava",
+        "country": "Iran",
+        "period": "vers 1600",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/451725), domaine public (CC0)",
+        "analysis": "Au bord d'un ruisseau, sur des rochers et sous un grand platane, des oiseaux de toutes espèces se sont rassemblés : un paon qui fait la roue, un coq, une cigogne, un faucon, un perroquet, un corbeau, des hérons, des oies. En haut, deux bouquetins sur les rochers ; à droite, à demi caché, un chasseur tient un fusil. Selon la fiche du musée, la page vient d'un manuscrit du « Langage des oiseaux », le poème mystique de Attar, et a été peinte à Ispahan par Habiballah de Sava.",
+        "compare": "Une assemblée d'oiseaux de toutes espèces, chacun peint avec soin : comparez avec l'oiseau seul de Shafi Abbasi, cinquante ans plus tard.",
+        "image": "images/mouvements/miniature-persane/habiballah-colloque-des-oiseaux.jpg"
+      },
+      {
+        "title": "Dragon dans les nuages",
+        "artist": "Sadiqi Beg",
+        "country": "Iran",
+        "period": "vers 1600",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/457056), domaine public (CC0)",
+        "analysis": "Un dessin à l'encre, à peine rehaussé de couleur : un dragon au long corps sinueux se glisse entre des nuages en volutes et des branches fleuries. Tout est fait de lignes fines et nerveuses, sans fond peint. Selon la fiche du musée, l'œuvre est de Sadiqi Beg (1533–1610).",
+        "compare": "Le même peintre qu'« Aulad attaché à un platane » : ici, le dessin seul suffit. Comparez avec le dragon peint du Grand Shahnama mongol, trois siècles plus tôt.",
+        "image": "images/mouvements/miniature-persane/sadiqi-beg-dragon-nuages.jpg"
+      },
+      {
+        "title": "Les Amants",
+        "artist": "Reza Abbasi",
+        "country": "Iran",
+        "period": "1630",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/451023), domaine public (CC0)",
+        "analysis": "Un jeune homme et une jeune femme s'enlacent, assis, leurs vêtements — brun, vert, orange — s'enroulant en larges courbes. Elle porte un foulard bleu, lui une coiffe verte. À leurs pieds, une bouteille de vin et une coupe de fruits ; derrière eux, des herbes et des feuillages dorés. Une inscription est écrite à gauche. Selon la fiche du musée, la page est datée de 1630 et a été peinte à Ispahan par Reza Abbasi.",
+        "compare": "Une page isolée pour un album, et non plus une illustration de livre : la peinture persane s'intéresse aux gens de son temps. Comparez avec Shah Tahmasp seul dans son paysage.",
+        "image": "images/mouvements/miniature-persane/reza-abbasi-amants.jpg"
+      },
+      {
+        "title": "Oiseau noir et blanc perché sur un arbuste",
+        "artist": "Shafi Abbasi",
+        "country": "Iran",
+        "period": "1651–1652",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1971.84), domaine public (CC0)",
+        "analysis": "Selon la notice du musée, entre les années 1630 et 1650, le peintre de cour Shafi Abbasi, fils du célèbre Reza Abbasi, se spécialisa dans un nouveau genre : des plantes et des oiseaux naturalistes, parfois copiés de gravures botaniques européennes. Certains servaient de modèles pour les tissus. L'inscription indique qu'il a peint celle-ci pour Shah Abbas II en 1651–1652 ; il l'a sans doute copiée d'une gravure européenne. Autour de l'oiseau volent deux papillons.",
+        "compare": "Le fils de Reza Abbasi : comparez cet oiseau seul, copié avec précision, avec la foule d'oiseaux du « Colloque » de Habiballah.",
+        "image": "images/mouvements/miniature-persane/shafi-abbasi-oiseau.jpg"
+      },
+      {
+        "title": "Le Simorgh vient aider Roudabeh à la naissance de Rostam",
+        "artist": "Mohammad Zaman",
+        "country": "Iran",
+        "period": "1675–1676",
+        "museum": "Chester Beatty, Dublin",
+        "credit": "Chester Beatty, Dublin (https://viewer.cbl.ie/viewer/ppnresolver?id=Per_277_3), via Europeana, licence CC BY 4.0",
+        "analysis": "Selon la notice du musée, le Simorgh, un oiseau géant et magique, descend dans l'image à l'appel de Zal, qu'il a élevé autrefois, pendant que l'épouse de Zal, Roudabeh, accouche ; grâce à lui, elle donne naissance à Rostam, le futur héros du Livre des rois. On voit Roudabeh étendue sur une terrasse, entourée de femmes, devant un paysage de montagnes et de nuages. Le peintre de cour Mohammad Zaman, spécialiste du « style européen », a ajouté cette peinture en 1675–1676 à un manuscrit plus ancien de la bibliothèque royale.",
+        "compare": "La dernière œuvre de l'exposition, et la naissance du héros qu'on a suivi depuis le début : ici, le paysage a des ombres et de la profondeur, comme dans la peinture européenne.",
+        "image": "images/mouvements/miniature-persane/mohammad-zaman-simorgh.jpg"
+      }
+    ]
+  },
+  {
+    "mouvement": "Peinture ottomane",
+    "slug": "peinture-ottomane",
+    "status": "published",
+    "title": "La peinture ottomane, l'histoire des sultans en images",
+    "subtitle": "Quatorze peintures et dessins de l'Empire ottoman, de 1498 à 1745, de Dublin, New York et Cleveland",
+    "intro": "Les sultans ottomans, maîtres d'Istanbul depuis 1453, ont réuni dans leur palais un atelier de peintres, venus d'Iran, des Balkans et de tout l'empire. Ils ont d'abord suivi la manière persane, puis inventé leur propre style : des couleurs franches, des scènes claires et lisibles, où chaque personnage est reconnaissable. Leur grand sujet est l'histoire du temps présent : les campagnes de Soliman le Magnifique, les ambassades, les portraits des sultans, peints pour des chroniques officielles. On y trouve aussi les dragons et les feuillages tourbillonnants du style « saz », et, au XVIIe siècle, des pages d'albums montrant la vie d'Istanbul. Les œuvres sont présentées dans l'ordre du temps. Elles viennent du Chester Beatty de Dublin, du Metropolitan Museum of Art et du Cleveland Museum of Art ; nous n'avons pas encore pu obtenir d'images d'œuvres conservées en Turquie, et nous les ajouterons dès que possible.",
+    "works": [
+      {
+        "title": "Khosrow et Shirin, page d'un manuscrit du poème de Hatefi",
+        "artist": "Peintre d'Istanbul ou d'Amasya",
+        "country": "Turquie",
+        "period": "1498–1499",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/452037), domaine public (CC0)",
+        "analysis": "Sous quatre lignes de poésie, un paysage aux collines vertes et aux rochers mauves : deux cavaliers, l'un coiffé d'une haute coiffe, s'avancent, tandis qu'un homme vêtu de vert court vers eux, les bras tendus, devant une ouverture sombre dans le rocher. Selon la fiche du musée, la page vient d'un manuscrit du poème « Khosrow et Shirin » de Hatefi, un poète iranien mort en 1521, et a été peinte probablement à Istanbul ou à Amasya, en 1498–1499.",
+        "compare": "Le point de départ de l'exposition : à la fin du XVe siècle, la peinture ottomane suit encore les modèles persans. Comparez avec la miniature persane de la même époque (exposition Miniature persane).",
+        "image": "images/mouvements/peinture-ottomane/khosrow-et-shirin-1498.jpg"
+      },
+      {
+        "title": "Dragon dans des feuillages, avec des têtes de lion et de phénix",
+        "artist": "Şahkulu",
+        "country": "Turquie",
+        "period": "milieu du XVIe siècle",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1944.492), domaine public (CC0)",
+        "analysis": "Un dessin à l'encre rehaussé d'or. Selon la notice du musée, un dragon se lance vers une perle en forme de sceau, où est inscrit un verset du Coran : « Je confie ma cause à Dieu » (40, 44). Dans sa griffe avant, il tient deux branches fleuries qui produisent comme par magie toutes sortes de fleurs : une tête de lion qui le mord au cou, et un phénix qui lui dispute la perle. Şahkulu, formé par des artistes persans, entra en 1526 dans l'atelier impérial d'Istanbul et en devint le chef en 1545.",
+        "compare": "Le style « saz », fait de feuilles longues et dentelées qui tourbillonnent : comparez avec le dragon de l'album d'Istanbul, juste après.",
+        "image": "images/mouvements/peinture-ottomane/sahkulu-dragon-feuillages.jpg"
+      },
+      {
+        "title": "Étude de dragon, page d'un album ottoman",
+        "artist": "Peintre d'Istanbul",
+        "country": "Turquie",
+        "period": "1550–1600",
+        "museum": "Chester Beatty, Dublin",
+        "credit": "Chester Beatty, Dublin (https://viewer.cbl.ie/viewer/ppnresolver?id=T_439_7), via Europeana, licence CC BY 4.0",
+        "analysis": "Un dragon au long corps sinueux s'élève en spirale au-dessus de nuages en volutes, dessiné à l'encre et légèrement coloré, dans un cadre de poésie persane écrite à l'or. Selon la notice du musée, la page vient d'un album composé à Istanbul vers 1620, sans doute pour un particulier : on y réunissait des calligraphies, des peintures et des dessins, et même des gravures européennes ou des peintures chinoises.",
+        "compare": "Le même animal que chez Şahkulu, mais seul, dans un mouvement de spirale : comparez avec le dragon de Sadiqi Beg, en Iran, à la même époque (exposition Miniature persane).",
+        "image": "images/mouvements/peinture-ottomane/album-istanbul-dragon.jpg"
+      },
+      {
+        "title": "L'armée ottomane entre dans une ville, page d'un Divan de Baki",
+        "artist": "Peintre d'Istanbul",
+        "country": "Turquie",
+        "period": "dernier quart du XVIe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/450587), domaine public (CC0)",
+        "analysis": "En haut, une ville fortifiée aux maisons serrées, avec des minarets et des drapeaux rouges sur les tours ; à la porte, sur la gauche, des hommes regardent. En bas, une foule de cavaliers et de fantassins coiffés de turbans blancs avance, lances et étendards levés, vers la ville. Selon la fiche du musée, la page vient d'un recueil de poèmes (divan) de Baki (1526–1600), le grand poète de la cour ottomane.",
+        "compare": "Une armée, une ville, des drapeaux : un sujet favori des peintres ottomans. Comparez avec l'arrivée de Soliman à Szigetvár, juste après.",
+        "image": "images/mouvements/peinture-ottomane/armee-ottomane-entrant-dans-une-ville.jpg"
+      },
+      {
+        "title": "L'armée ottomane arrive à Szigetvár, page de l'Histoire du sultan Soliman de Seyyid Lokman",
+        "artist": "Peintre de l'atelier impérial d'Istanbul",
+        "country": "Turquie",
+        "period": "1579",
+        "museum": "Chester Beatty, Dublin",
+        "credit": "Chester Beatty, Dublin (https://viewer.cbl.ie/viewer/ppnresolver?id=T_413_64), via Europeana, licence CC BY 4.0",
+        "analysis": "Selon la notice du musée, le sultan Soliman chevauche avec ses cavaliers et ses fantassins et arrive devant la forteresse des Habsbourg à Szigetvár, en Hongrie, pour un grand siège, en 1566. On voit, sur un sol mauve et vert, des rangées de soldats aux coiffes blanches et dorées, des lances et des étendards, et au centre le sultan à cheval. L'historien de la cour, Seyyid Lokman, a raconté en vers les sept dernières années de la vie de Soliman le Magnifique ; ce manuscrit a été fait pour le sultan Murad III, à Istanbul, en 1579.",
+        "compare": "Une chronique du temps présent, peinte treize ans après les faits : comparez avec les rois de légende de la miniature persane.",
+        "image": "images/mouvements/peinture-ottomane/soliman-arrivee-szigetvar.jpg"
+      },
+      {
+        "title": "Un ambassadeur iranien apporte des présents diplomatiques, page de l'Histoire du sultan Soliman",
+        "artist": "Peintre de l'atelier impérial d'Istanbul",
+        "country": "Turquie",
+        "period": "1579",
+        "museum": "Chester Beatty, Dublin",
+        "credit": "Chester Beatty, Dublin (https://viewer.cbl.ie/viewer/ppnresolver?id=T_413_14), via Europeana, licence CC BY 4.0",
+        "analysis": "Selon la notice du musée, un ambassadeur coiffé du turban safavide s'incline devant le sultan Soliman, encadré de très près par deux officiers ottomans. Des rangées de janissaires apportent des oiseaux de chasse, peut-être une partie des cadeaux diplomatiques. Trois autres officiels safavides, en bas à gauche, sont eux aussi étroitement surveillés. Les relations entre l'Empire ottoman et l'Iran safavide alternaient traités et guerres.",
+        "compare": "Le sultan au sommet, sur son trône, et chacun à sa place selon son rang : comparez avec la cour de Shah Tahmasp (exposition Miniature persane), le grand rival.",
+        "image": "images/mouvements/peinture-ottomane/soliman-ambassadeur-iranien.jpg"
+      },
+      {
+        "title": "Le sultan Orhan Ier et son fils Süleyman Pacha, page de la Crème des histoires",
+        "artist": "Sun'i",
+        "country": "Turquie",
+        "period": "vers 1585–1590",
+        "museum": "Chester Beatty, Dublin",
+        "credit": "Chester Beatty, Dublin (https://viewer.cbl.ie/viewer/ppnresolver?id=T_414_146), via Europeana, licence CC BY 4.0",
+        "analysis": "Sous un texte en turc, le sultan Orhan (règne de 1326 à 1351), en caftan rouge, est assis sur son trône ; devant lui, agenouillé, son fils Süleyman Pacha. Selon la notice du musée, l'historien de la cour Seyyid Lokman a écrit cette histoire du monde, de la création jusqu'aux Ottomans, et a demandé au peintre Sun'i de l'illustrer ; l'ouvrage fut offert au chef des eunuques du palais de Topkapı.",
+        "compare": "Un ancêtre lointain, peint comme un sultan du XVIe siècle : comparez avec le portrait de Murad III, du même livre.",
+        "image": "images/mouvements/peinture-ottomane/sunni-sultan-orhan.jpg"
+      },
+      {
+        "title": "Le sultan Murad III et trois de ses ministres, page de la Crème des histoires",
+        "artist": "Sun'i",
+        "country": "Turquie",
+        "period": "vers 1585–1590",
+        "museum": "Chester Beatty, Dublin",
+        "credit": "Chester Beatty, Dublin (https://viewer.cbl.ie/viewer/ppnresolver?id=T_414_253), via Europeana, licence CC BY 4.0",
+        "analysis": "Selon la notice du musée, le sultan Murad III (règne de 1574 à 1595), assis sur un trône doré, est entouré de trois ministres. Il porte un grand turban blanc orné d'une aigrette. Derrière lui, un mur couvert de motifs, et au-dessus, des coupoles. C'est la dernière entrée du livre, consacrée au sultan régnant.",
+        "compare": "Le sultan pour qui fut faite l'Histoire de Soliman, plus haut : comparez avec le portrait d'Ahmet Ier, vingt ans plus tard.",
+        "image": "images/mouvements/peinture-ottomane/sunni-sultan-murad-iii.jpg"
+      },
+      {
+        "title": "Scène aquatique, trois hommes dans une gondole",
+        "artist": "Peintre ottoman",
+        "country": "Turquie",
+        "period": "fin du XVIe–début du XVIIe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/453251), domaine public (CC0)",
+        "analysis": "Sur une eau sombre, une longue barque noire, aux extrémités relevées, glisse sur l'eau ; un homme debout à l'avant la pousse, un autre rame à l'arrière, et un troisième est assis près d'une petite cabine couverte d'un tissu rouge. Au fond, sur la rive, un édifice à coupoles et des arbres, devant des collines enneigées. La page est encadrée d'une large marge bleue décorée d'or.",
+        "compare": "Une scène de la vie de tous les jours, sans héros ni bataille : comparez avec l'album d'Istanbul, plus loin, et sa scène de café.",
+        "image": "images/mouvements/peinture-ottomane/scene-aquatique-gondole.jpg"
+      },
+      {
+        "title": "Portrait du sultan Ahmet Ier (règne de 1603 à 1617)",
+        "artist": "Peintre ottoman",
+        "country": "Turquie",
+        "period": "début du XVIIe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/450516), domaine public (CC0)",
+        "analysis": "Le sultan, barbu, est assis sur un tapis, de face, dans un long caftan gris sombre ; il lève une main. Il porte un très grand turban blanc, surmonté d'une aigrette. Derrière lui, un fond rose semé de petits motifs ; autour, un cadre et une large marge bleu nuit ornée de fleurs d'or.",
+        "compare": "Un portrait isolé, pour lui-même, et non plus dans une chronique : comparez avec Murad III entouré de ses ministres.",
+        "image": "images/mouvements/peinture-ottomane/portrait-ahmet-ier.jpg"
+      },
+      {
+        "title": "Scène de café, page d'un album ottoman",
+        "artist": "Peintre d'Istanbul",
+        "country": "Turquie",
+        "period": "vers 1620",
+        "museum": "Chester Beatty, Dublin",
+        "credit": "Chester Beatty, Dublin (https://viewer.cbl.ie/viewer/ppnresolver?id=T_439_9), via Europeana, licence CC BY 4.0",
+        "analysis": "Selon la notice du musée, des hommes boivent du café, lisent et jouent à des jeux de plateau. On les voit assis en rangs dans une salle, sous des arcades, en turbans et caftans de couleurs vives ; un homme en tablier se tient debout au centre. Au-dessus et au-dessous, des vers persans écrits à l'or. La page vient de l'album réuni à Istanbul vers 1620.",
+        "compare": "Une scène de la vie d'Istanbul, sans sultan ni soldats : comparez avec les scènes de cour des pages précédentes.",
+        "image": "images/mouvements/peinture-ottomane/album-istanbul-cafe.jpg"
+      },
+      {
+        "title": "Jeunes hommes en costume ottoman, page d'un album ottoman",
+        "artist": "Fakhri de Brousse (calligraphie découpée)",
+        "country": "Turquie",
+        "period": "vers 1620",
+        "museum": "Chester Beatty, Dublin",
+        "credit": "Chester Beatty, Dublin (https://viewer.cbl.ie/viewer/ppnresolver?id=T_439_3), via Europeana, licence CC BY 4.0",
+        "analysis": "Selon la notice du musée, la page réunit deux petites peintures — un jeune homme dans un paysage, un jeune homme en manteau rouge — et, au-dessus, des vers persans en papier découpé, signés Fakhri. On voit les deux jeunes gens en pied, l'un en manteau blanc doublé de fourrure, l'autre en long manteau rouge à larges manches noires.",
+        "compare": "Des figures de costume, de la mode d'Istanbul : comparez avec les jeunes gens de Reza Abbasi, en Iran, à la même époque (exposition Miniature persane).",
+        "image": "images/mouvements/peinture-ottomane/album-istanbul-jeunes-hommes.jpg"
+      },
+      {
+        "title": "Lion enchaîné et péri, page d'un album ottoman",
+        "artist": "Peintre d'Istanbul",
+        "country": "Turquie",
+        "period": "vers 1620",
+        "museum": "Chester Beatty, Dublin",
+        "credit": "Chester Beatty, Dublin (https://viewer.cbl.ie/viewer/ppnresolver?id=T_439_11), via Europeana, licence CC BY 4.0",
+        "analysis": "Selon la notice du musée, la page réunit deux dessins légèrement colorés : un lion enchaîné au repos, en haut, et un ange ou une péri, un être féerique, coiffé d'un chapeau de feuilles, en dessous. Les deux dessins sont posés sur un papier marbré (ebru) aux veines bleues, roses et vertes.",
+        "compare": "Le papier marbré encadre les dessins comme un paysage de couleurs : comparez avec les marges dorées des pages persanes (exposition Miniature persane).",
+        "image": "images/mouvements/peinture-ottomane/album-istanbul-lion-peri.jpg"
+      },
+      {
+        "title": "Deux rossignols dans un rosier, page d'un album ottoman",
+        "artist": "Abdullah Buhari",
+        "country": "Turquie",
+        "period": "vers 1725–1745",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/898273), domaine public (CC0)",
+        "analysis": "Sur un fond clair, une tige de rosier porte une rose rouge épanouie et des boutons ; un rossignol est perché au milieu, un autre en bas. Deux petits insectes volent en haut. La page est montée sur un papier marbré aux veines bleues. Selon la fiche du musée, elle a été peinte probablement à Istanbul par Abdullah Buhari.",
+        "compare": "La dernière œuvre de l'exposition : une fleur et deux oiseaux, peints seuls, avec précision. Comparez avec l'oiseau de Shafi Abbasi, en Iran, un siècle plus tôt (exposition Miniature persane).",
+        "image": "images/mouvements/peinture-ottomane/abdullah-bukhari-rossignols.jpg"
+      }
+    ]
+  },
+  {
+    "mouvement": "Art mamelouk",
+    "slug": "art-mamelouk",
+    "status": "published",
+    "title": "L'art mamelouk, le verre, le cuivre et la lumière",
+    "subtitle": "Égypte et Syrie, de 1285 au début du XVIe siècle : dix-sept œuvres de New York, Cleveland et Dublin",
+    "intro": "De 1250 à 1517, les sultans mamelouks, d'anciens soldats esclaves devenus souverains, ont gouverné l'Égypte et la Syrie depuis Le Caire. Eux et leurs émirs ont couvert ces villes de mosquées, d'écoles et de mausolées, et commandé pour les orner des objets d'un luxe extraordinaire : des lampes de verre émaillé et doré, des bassins et des plateaux de cuivre incrustés d'argent et d'or, des portes de bois sculpté et marqueté, des Corans enluminés. On y lit souvent, en grandes lettres, le nom et les titres de celui qui les a fait faire, parfois accompagnés de son emblème. Les œuvres sont présentées dans l'ordre du temps. Elles viennent du Metropolitan Museum of Art, du Cleveland Museum of Art et du Chester Beatty de Dublin ; nous n'avons pas encore pu obtenir d'images d'œuvres conservées en Égypte ou en Syrie, et nous les ajouterons dès que possible.",
+    "works": [
+      {
+        "title": "Lampe de mosquée pour le mausolée de l'émir Aydakin al-Bunduqdar",
+        "artist": "Artisan mamelouk",
+        "country": "Égypte",
+        "period": "peu après 1285",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/447000), domaine public (CC0)",
+        "analysis": "Une lampe de verre soufflé, de 26 cm de haut, au col évasé et au corps renflé, avec de petites anses tout autour. Elle est décorée d'émail et d'or : de grandes inscriptions bleues courent sur le col et le corps, interrompues par des médaillons rouges qui portent un emblème. Selon la fiche du musée, elle a été faite, sans doute au Caire, pour le mausolée de l'émir Aydakin al-Bunduqdar. Une lampe à huile placée à l'intérieur faisait briller le verre et les couleurs.",
+        "compare": "Le point de départ de l'exposition : la lampe de mosquée, objet le plus célèbre de l'art mamelouk. Comparez avec les lampes de l'émir al-Mihmandar et du sultan Barquq, plus loin.",
+        "image": "images/mouvements/art-mamelouk/lampe-mosquee-aydakin.jpg"
+      },
+      {
+        "title": "Bouteille émaillée et dorée",
+        "artist": "Artisan mamelouk",
+        "country": "Égypte",
+        "period": "fin du XIIIe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/450409), domaine public (CC0)",
+        "analysis": "Une grande bouteille de verre verdâtre, de 43,5 cm de haut, au long col et au corps aplati. Sur l'épaule, un grand médaillon bleu rempli d'arabesques ; autour du ventre, une frise de cavaliers aux couleurs vives — rouge, bleu, blanc, vert — qui semblent chasser ou combattre. Selon la fiche du musée, elle a été faite peut-être au Caire.",
+        "compare": "Des cavaliers peints sur du verre, comme ceux du manuel de cavalerie peint au Caire en 1366, plus loin.",
+        "image": "images/mouvements/art-mamelouk/bouteille-emaillee.jpg"
+      },
+      {
+        "title": "Panneau du minbar du sultan Lajin, à la mosquée d'Ibn Tulun du Caire",
+        "artist": "Artisan mamelouk",
+        "country": "Égypte",
+        "period": "1296",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/445028), domaine public (CC0)",
+        "analysis": "Un petit panneau de bois de 38 cm de large, en forme d'étoile étirée, aux pointes aiguës. Il est sculpté d'un rinceau de feuillages et de fleurs en relief, dans un cadre de bois incrusté. Selon la fiche du musée, il vient du minbar — la chaire d'où l'on prêche — offert par le sultan Lajin à la mosquée d'Ibn Tulun, au Caire, daté de 1296. Un minbar est fait de nombreuses pièces comme celle-ci, assemblées.",
+        "compare": "Une seule pièce d'un grand puzzle de bois : comparez avec les portes de minbar, plus loin, où l'on voit l'assemblage complet.",
+        "image": "images/mouvements/art-mamelouk/panneau-minbar-lajin.jpg"
+      },
+      {
+        "title": "Brûle-parfum",
+        "artist": "Artisan mamelouk",
+        "country": "Syrie",
+        "period": "fin du XIIIe–début du XIVe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/447008), domaine public (CC0)",
+        "analysis": "Un brûle-parfum de laiton, de 21 cm de haut, posé sur trois pieds, avec un long manche. Le couvercle en dôme est percé de motifs pour laisser sortir la fumée de l'encens. Tout est couvert d'inscriptions et d'ornements incrustés d'argent et d'or. Selon la fiche du musée, il a été fait à Damas.",
+        "compare": "Le cuivre incrusté d'argent, grande spécialité des ateliers mamelouks : comparez avec le bassin et le plateau, plus loin.",
+        "image": "images/mouvements/art-mamelouk/brule-parfum-damas.jpg"
+      },
+      {
+        "title": "Page d'ouverture d'un Coran",
+        "artist": "Muhammad ibn Mubadir (enluminure)",
+        "country": "Égypte",
+        "period": "vers 1306–1310",
+        "museum": "Chester Beatty, Dublin",
+        "credit": "Chester Beatty, Dublin (https://viewer.cbl.ie/viewer/ppnresolver?id=Is_1457_1), via Europeana, licence CC BY 4.0",
+        "analysis": "Selon la notice du musée, cette page enluminée ouvrait un Coran copié au Caire ; le motif géométrique en étoile, au centre, faisait face à une page identique, aujourd'hui perdue. En haut et en bas, deux inscriptions en lettres coufiques blanches citent le Coran à propos du livre lui-même. Au revers, un autre décor encadre la première sourate. L'enluminure est attribuée à Muhammad ibn Mubadir.",
+        "compare": "Une étoile qui en contient d'autres, à l'infini : le même art géométrique que sur les portes de minbar et le plateau incrusté de l'exposition.",
+        "image": "images/mouvements/art-mamelouk/coran-frontispice-caire.jpg"
+      },
+      {
+        "title": "Lave-mains en forme de paon, page du Livre de la connaissance des procédés mécaniques d'al-Jazari",
+        "artist": "Peintre de Damas",
+        "country": "Syrie",
+        "period": "1315",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1945.383.a), domaine public (CC0)",
+        "analysis": "Selon la notice du musée, cette page vient d'une copie faite en Syrie en 1315 du livre de l'ingénieur al-Jazari, écrit en 1206, qui décrit des machines automatiques : horloges, fontaines, machines à élever l'eau, appareils pour se laver. On voit ici un bassin automatique pour se laver les mains : la bouche du paon verse l'eau, et une petite figure sort d'une porte pour tendre le savon. Ces automates appartenaient à une tradition connue dans l'Antiquité, dans le monde islamique et à Byzance. On ne sait pas si l'appareil d'al-Jazari a vraiment été construit.",
+        "compare": "Une image de science, comme le traité de cosmologie de Chiraz (exposition Miniature persane) : un dessin pour comprendre comment fonctionne une machine.",
+        "image": "images/mouvements/art-mamelouk/al-jazari-lave-mains-paon.jpg"
+      },
+      {
+        "title": "Lampe de mosquée de l'émir Ahmad al-Mihmandar",
+        "artist": "Artisan mamelouk",
+        "country": "Égypte ou Syrie",
+        "period": "vers 1325",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/444713), domaine public (CC0)",
+        "analysis": "Une lampe de verre clair, de 26,7 cm de haut, au col évasé. Une large bande d'inscription en lettres claires sur fond bleu entoure le corps ; sur le col, d'autres inscriptions et un médaillon rouge et blanc. Selon la fiche du musée, elle porte le nom de l'émir Ahmad al-Mihmandar et a été faite en Égypte ou en Syrie.",
+        "compare": "La même forme que la lampe d'Aydakin, quarante ans plus tôt : comparez la place du nom de l'émir et des couleurs.",
+        "image": "images/mouvements/art-mamelouk/lampe-mosquee-mihmandar.jpg"
+      },
+      {
+        "title": "Paire de portes de minbar",
+        "artist": "Artisan mamelouk",
+        "country": "Égypte",
+        "period": "vers 1325–1330",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/444812), domaine public (CC0)",
+        "analysis": "Deux portes de bois de près de 2 mètres de haut. Leur surface est couverte d'un grand décor géométrique d'étoiles et de polygones qui s'emboîtent. Selon la fiche du musée, elles sont faites de bois de rose et de mûrier, sculptées et incrustées d'ivoire sculpté, d'ébène et d'autres bois, et viennent du Caire.",
+        "compare": "Le puzzle de bois complet : comparez avec le panneau isolé du minbar de Lajin, trente ans plus tôt.",
+        "image": "images/mouvements/art-mamelouk/portes-minbar-caire.jpg"
+      },
+      {
+        "title": "Bassin d'ablutions du sultan yéménite al-Mujahid Sayf al-Din Ali",
+        "artist": "Artisan mamelouk",
+        "country": "Égypte ou Syrie",
+        "period": "vers 1321–1363",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/444589), domaine public (CC0)",
+        "analysis": "Un grand bassin de laiton aux bords évasés, de 46,5 cm de diamètre. Sur le pourtour, une grande inscription aux lettres hautes et serrées, incrustée d'argent, sur un fond de fins rinceaux. Selon la fiche du musée, il a été fait en Égypte ou en Syrie pour le sultan du Yémen al-Mujahid Sayf al-Din Ali.",
+        "compare": "Un objet mamelouk commandé par un souverain étranger : les ateliers du Caire et de Damas travaillaient pour tout le monde islamique.",
+        "image": "images/mouvements/art-mamelouk/bassin-sultan-yemen.jpg"
+      },
+      {
+        "title": "Support de plateau",
+        "artist": "Artisan mamelouk",
+        "country": "Égypte ou Syrie",
+        "period": "milieu du XIVe siècle (après 1342)",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/444601), domaine public (CC0)",
+        "analysis": "Un support de laiton en forme de sablier, de 26 cm de haut, sur lequel on posait un grand plateau. Il est couvert d'inscriptions et de médaillons incrustés d'argent et de cuivre ; dans un médaillon, on voit une coupe, un emblème. Selon la fiche du musée, il a été fait en Égypte ou en Syrie, après 1342.",
+        "compare": "La coupe dans le médaillon est un emblème, comme ceux des lampes : comparez avec les médaillons rouges de la lampe d'Aydakin.",
+        "image": "images/mouvements/art-mamelouk/support-de-plateau.jpg"
+      },
+      {
+        "title": "Plat dit « de Philae »",
+        "artist": "Artisan mamelouk",
+        "country": "Égypte ou Syrie",
+        "period": "vers 1345–1360",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/655036), domaine public (CC0)",
+        "analysis": "Un plat rond de laiton, de 29 cm de diamètre, incrusté d'argent et d'or. Une inscription aux grandes lettres fait le tour du bord, coupée de médaillons ; au centre, une rosace de feuillages. Selon la fiche du musée, il a été fait en Égypte ou en Syrie vers 1345–1360.",
+        "compare": "Le même décor en couronne que sur le bassin du sultan du Yémen, à plat cette fois : comparez les deux objets.",
+        "image": "images/mouvements/art-mamelouk/plat-philae.jpg"
+      },
+      {
+        "title": "Quatre cavaliers tournant autour du bassin, page du Manuel de l'art de la cavalerie (Nihayat al-su'l)",
+        "artist": "Peintre du Caire",
+        "country": "Égypte",
+        "period": "1366",
+        "museum": "Chester Beatty, Dublin",
+        "credit": "Chester Beatty, Dublin (https://viewer.cbl.ie/viewer/ppnresolver?id=Ar_5655_167), via Europeana, licence CC BY 4.0",
+        "analysis": "Selon la notice du musée, la légende dit : « Image de quatre cavaliers, chacun avec une épée et un bouclier de cuir, chacun portant son bouclier sur la croupe de son cheval. » Ils tournent autour d'un bassin. Cette encyclopédie militaire, composée à Damas, décrit en douze leçons tous les savoirs nécessaires à une armée de cavaliers : soins des chevaux, maniement des armes, parades à l'hippodrome. Cette copie, faite au Caire en 1366, est l'un des plus anciens exemplaires illustrés connus.",
+        "compare": "Les Mamelouks étaient d'abord des cavaliers : comparez avec la frise de cavaliers de la bouteille émaillée, au début de l'exposition.",
+        "image": "images/mouvements/art-mamelouk/manuel-cavalerie-quatre-cavaliers.jpg"
+      },
+      {
+        "title": "Lampe de mosquée du sultan Barquq",
+        "artist": "Artisan mamelouk",
+        "country": "Égypte ou Syrie",
+        "period": "vers 1382–1399",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/447004), domaine public (CC0)",
+        "analysis": "Une lampe de verre de 37 cm de haut, sur un haut pied. Les inscriptions, en réserve sur un fond d'émail bleu, couvrent le col et le corps ; on voit aussi des médaillons et des touches de rouge et de vert. Selon la fiche du musée, elle porte le nom du sultan Barquq (règne de 1382 à 1399) et a été faite en Égypte ou en Syrie.",
+        "compare": "La dernière des trois lampes de l'exposition, un siècle après celle d'Aydakin : la forme reste la même, le décor devient plus dense.",
+        "image": "images/mouvements/art-mamelouk/lampe-mosquee-barquq.jpg"
+      },
+      {
+        "title": "Panneau de carreaux",
+        "artist": "Artisan mamelouk",
+        "country": "Syrie",
+        "period": "vers 1430",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/456948), domaine public (CC0)",
+        "analysis": "Un ensemble de carreaux de céramique, de 1,14 mètre de côté, peints en bleu foncé, turquoise et blanc sous une glaçure transparente. On y voit un arc dont le fond est rempli d'un treillis d'étoiles à six branches, entouré de rinceaux de fleurs blanches. Selon la fiche du musée, ils ont été faits à Damas vers 1430.",
+        "compare": "Le bleu, le turquoise et le blanc : comparez avec le bleu des lampes de verre émaillé de l'exposition.",
+        "image": "images/mouvements/art-mamelouk/panneau-carreaux-damas.jpg"
+      },
+      {
+        "title": "Boîte à couvercle de Muhammad al-Hamawi, gardien du temps à la Grande Mosquée de Damas",
+        "artist": "Artisan mamelouk",
+        "country": "Syrie",
+        "period": "XVe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/444538), domaine public (CC0)",
+        "analysis": "Une boîte oblongue de laiton, de 17 cm de long, avec un couvercle et un fermoir. Elle est gravée et incrustée d'argent : bandes d'inscriptions, entrelacs et feuillages. Selon la fiche du musée, elle a appartenu à Muhammad al-Hamawi, chargé de mesurer le temps — pour fixer les heures de la prière — à la mosquée des Omeyyades de Damas.",
+        "compare": "Un objet personnel, au nom d'un savant, et non d'un sultan : comparez avec le bassin du sultan du Yémen.",
+        "image": "images/mouvements/art-mamelouk/boite-al-hamawi.jpg"
+      },
+      {
+        "title": "Bol à décor géométrique",
+        "artist": "Artisan mamelouk",
+        "country": "Syrie",
+        "period": "1450–1500",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1945.133), domaine public (CC0)",
+        "analysis": "Selon la notice du musée, ce bol de laiton incrusté d'argent et d'or est décoré d'entrelacs géométriques dans douze panneaux en arc qui rayonnent à partir d'une étoile, sous le fond ; à l'intérieur, six poissons sont gravés en roue. Les panneaux portent six dessins différents, chacun répété deux fois, face à face. Les spécialistes l'ont récemment rattaché à un atelier islamique, peut-être pour l'exportation vers l'Europe.",
+        "compare": "La géométrie à la surface d'un objet du quotidien : comparez avec les étoiles de la page de Coran du Caire, deux siècles plus tôt.",
+        "image": "images/mouvements/art-mamelouk/bol-geometrique-damas.jpg"
+      },
+      {
+        "title": "Tapis mamelouk",
+        "artist": "Artisan mamelouk",
+        "country": "Égypte",
+        "period": "début du XVIe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/447510), domaine public (CC0)",
+        "analysis": "Un tapis de laine nouée de plus de 2,6 mètres de large, aux couleurs rouge, vert et bleu. Au centre, un grand médaillon octogonal, entouré d'une multitude de petites étoiles et de motifs géométriques ; sur les côtés, des bordures avec de longs cartouches. Selon la fiche du musée, il a été fait probablement au Caire.",
+        "compare": "La dernière œuvre de l'exposition, des dernières années des Mamelouks : la même géométrie en étoiles que sur les portes de minbar, mais en laine.",
+        "image": "images/mouvements/art-mamelouk/tapis-mamelouk.jpg"
+      }
+    ]
   }
 ]

@@ -1939,5 +1939,444 @@
         "image": "images/mouvements/ecole-de-shanghai/wu-changshuo-pruniers.jpg"
       }
     ]
+  },
+  {
+    "mouvement": "Peinture rajpoute et pahari",
+    "slug": "peinture-rajpoute-et-pahari",
+    "status": "published",
+    "title": "Les peintures rajpoutes et pahari, les cours royales de l'Inde",
+    "subtitle": "Du Rajasthan aux contreforts de l'Himalaya : vingt-trois peintures de 1560 à 1850",
+    "intro": "À côté de l'empire moghol, des dizaines de petits royaumes hindous gouvernés par des princes rajputs se partageaient le nord de l'Inde : dans les plaines et les déserts du Rajasthan (Mewar, Bikaner, Bundi, Kota, Kishangarh…) et dans les vallées des contreforts de l'Himalaya, les royaumes « pahari », c'est-à-dire « des collines » (Basohli, Guler, Kangra, Mandi…). Chaque cour avait ses peintres, souvent des familles d'artistes qui se transmettaient le métier. Ils illustraient les épopées et les poèmes religieux — avant tout la vie du dieu Krishna et de sa bien-aimée Radha —, les modes de la musique indienne (les ragamalas, « guirlandes de mélodies »), et peignaient les princes, leurs chasses et leurs fêtes. Certains ateliers empruntent à la peinture moghole sa finesse ; d'autres préfèrent les couleurs pures et les fonds unis. Les œuvres sont présentées dans l'ordre du temps. Elles viennent du Cleveland Museum of Art et du Metropolitan Museum of Art ; nous n'avons pas encore pu obtenir d'images de peintures conservées en Inde, et nous les ajouterons dès que possible.",
+    "works": [
+      {
+        "title": "Akrura conduit Krishna et Balarama à Mathura, page du « Bhagavata Purana d'Isarda »",
+        "artist": "Peintre du Rajasthan (Isarda)",
+        "country": "Inde",
+        "period": "vers 1560–1570",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1971.234), domaine public (CC0)",
+        "analysis": "Une page d'un manuscrit hindou. Selon la notice du musée, Krishna, à la peau sombre, et son frère à la peau blanche quittent leurs compagnons du village de bouviers où ils ont grandi : ils partent affronter leur oncle, un roi cruel qui a tué leurs frères et sœurs et emprisonné leurs parents. Leurs gestes montrent avec insistance la direction du voyage. Le goût du rose — dans le ciel, le char et les vêtements — distingue cette œuvre des peintures plus anciennes.",
+        "compare": "Le point de départ de l'exposition, à l'époque où l'empereur Akbar réunit ses peintres (exposition Peinture moghole) : ici, les personnages se détachent sur des fonds de couleur unie, bleu et rouge.",
+        "image": "images/mouvements/peinture-rajpoute-et-pahari/isarda-akrura-krishna-balarama.jpg"
+      },
+      {
+        "title": "Femme nourrissant des daims : Todi Ragini, page d'un Ragamala",
+        "artist": "Peintre du royaume d'Amber",
+        "country": "Inde",
+        "period": "vers 1610",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/2018.167), domaine public (CC0)",
+        "analysis": "Une femme seule, vêtue d'une jupe orange sous un sari brun transparent à motifs d'or, tend de l'herbe à l'un des quatre daims qui s'approchent d'elle. Elle tient une vina, un instrument à cordes bleu et or. Selon la notice du musée, un poème en sanskrit qui décrit Todi Ragini est écrit dans la bordure jaune du haut, et les mélodies jouées dans ce mode, Todi, se jouent entre 9 heures et midi.",
+        "compare": "Un ragamala illustre la musique : chaque mode (raga) devient une scène, avec ses personnages et son heure du jour. Comparez avec les autres pages de ragamala de l'exposition.",
+        "image": "images/mouvements/peinture-rajpoute-et-pahari/todi-ragini-amber.jpg"
+      },
+      {
+        "title": "Portrait du prince Sur Singh Rathor de Bikaner (1594–1631)",
+        "artist": "Peintre du royaume de Bikaner",
+        "country": "Inde",
+        "period": "1611–1613",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/2018.188), domaine public (CC0)",
+        "analysis": "Un jeune prince se tient debout sur un fond bleu clair, en tunique blanche de mousseline transparente et pantalon jaune. Il a un poignard glissé dans sa ceinture et tient une longue épée droite dans un fourreau noir. Selon la notice du musée, les marques religieuses (tilakas) sur son front, son cou et son oreille montrent qu'il était un fidèle du dieu Vishnu, très vénéré dans les familles royales du Rajasthan. Une bourse pend à sa ceinture au bout d'une chaîne d'or.",
+        "compare": "Un portrait en pied, de profil, sur un fond uni : comparez avec les portraits de la cour moghole (exposition Peinture moghole), à la même époque.",
+        "image": "images/mouvements/peinture-rajpoute-et-pahari/prince-sur-singh-bikaner.jpg"
+      },
+      {
+        "title": "Jeunes femmes s'aspergeant pour Holi",
+        "artist": "Peintre du royaume de Bikaner",
+        "country": "Inde",
+        "period": "vers 1640–1650",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1971.83), domaine public (CC0)",
+        "analysis": "Selon la notice du musée, la fête du printemps, Holi, bat son plein dans l'appartement des femmes d'un palais. La plupart des femmes sont déjà tachées des couleurs rouges et jaunes qu'elles se lancent et s'étalent les unes sur les autres, au son des tambours et d'une chanson. Dans une scène reprise d'un modèle moghol, une femme en tient une autre par le cou en jouant et lui verse du liquide rouge dans son corsage. En haut, une cascade de grès envoie l'eau dans les canaux du jardin. Bikaner avait des liens étroits avec la cour moghole, et ses peintres connaissaient la peinture impériale.",
+        "compare": "Une fête populaire peinte avec la finesse moghole : comparez avec la même fête de Holi chez Krishna, plus loin, dans la peinture des collines.",
+        "image": "images/mouvements/peinture-rajpoute-et-pahari/bikaner-holi.jpg"
+      },
+      {
+        "title": "Raja Bikram Singh de Guler fumant le houka",
+        "artist": "Peintre de Chamba (royaumes pahari)",
+        "country": "Inde",
+        "period": "vers 1678–1690",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/2018.89), domaine public (CC0)",
+        "analysis": "Selon la notice du musée, c'est le plus ancien portrait connu d'un chef de Guler ; il a été peint à Chamba, peut-être pour le raja Chattar Singh. On y reconnaît les traits des premiers portraits de Chamba : le tuyau de houka tout droit, le pantalon rayé, les grands coussins et la façon d'être assis du raja. La notice ajoute que Bikram Singh était célèbre pour sa force : il pouvait briser une noix de coco avec les doigts.",
+        "compare": "Notre première peinture des collines : comparez ce prince assis, posé sur un fond uni, avec le prince debout de Bikaner, peint soixante-dix ans plus tôt dans le désert.",
+        "image": "images/mouvements/peinture-rajpoute-et-pahari/raja-bikram-singh-guler.jpg"
+      },
+      {
+        "title": "Shiva et Parvati jouant au chaupar, page d'une série du Rasamanjari",
+        "artist": "Devidasa de Nurpur",
+        "country": "Inde",
+        "period": "1694–1695",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/37942), domaine public (CC0)",
+        "analysis": "Sur un fond jaune vif, le dieu Shiva, au corps blanc, des serpents autour du cou, et la déesse Parvati, en sari rouge, sont assis face à face sur une peau de tigre, de part et d'autre d'un plateau de jeu en forme de croix : le chaupar, un jeu de pions. Deux arbres stylisés encadrent la scène, et une bande blanche et bleue, en haut, figure le ciel. Selon la fiche du musée, la page est datée de 1694–1695, peinte à Basohli par Devidasa, un peintre venu de Nurpur.",
+        "compare": "Le style de Basohli : un fond de couleur pure, des figures nettes, presque sans paysage. Comparez avec le jaune et le rouge des ragamalas du Rajasthan.",
+        "image": "images/mouvements/peinture-rajpoute-et-pahari/devidasa-shiva-parvati-chaupar.jpg"
+      },
+      {
+        "title": "Le prince Amar Singh (1672–1710) conduit lui-même son éléphant",
+        "artist": "Maître au pointillé du Mewar",
+        "country": "Inde",
+        "period": "vers 1695",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/2018.140), domaine public (CC0)",
+        "analysis": "Selon la notice du musée, un jeune prince vêtu d'une tunique jaune tient un aiguillon pour guider son éléphant. Derrière lui, un serviteur tient l'insigne royal, un chasse-mouches, qui flotte au vent tant l'éléphant court vite. Le fond est entièrement vert, un pigment très corrosif. La défense de l'éléphant est ornée d'un anneau d'or. Le peintre, dont on ne connaît pas le nom, est appelé « Maître au pointillé du Mewar ».",
+        "compare": "Le mouvement d'un animal lancé à pleine vitesse : comparez avec les chevaux qui attendent, immobiles, au bas de la grande fête de Jagat Singh, quarante ans plus tard, à la même cour du Mewar.",
+        "image": "images/mouvements/peinture-rajpoute-et-pahari/mewar-amar-singh-elephant.jpg"
+      },
+      {
+        "title": "Hanuman découvre Sita dans le bosquet d'ashokas, page du « Ramayana de Shangri »",
+        "artist": "Peintre des royaumes pahari",
+        "country": "Inde",
+        "period": "vers 1700–1725",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/2025.8), domaine public (CC0)",
+        "analysis": "Selon la notice du musée, Sita, enlevée par le démon Ravana, est retenue prisonnière dans un jardin de l'île de Lanka. Des gardiennes l'entourent et se moquent d'elle, tandis qu'elle est accroupie sur une marche. Les gardiennes ont un corps de femme et des têtes d'animaux fantastiques. Dans l'arbre, au-dessus d'elle, le singe Hanuman, fidèle ami de son époux Rama, s'est fait tout petit pour se cacher : il lui apporte un message, Rama et ses armées vont venir la délivrer.",
+        "compare": "Le Ramayana, la grande épopée de Rama, est l'un des sujets favoris des peintres des collines : comparez avec le dessin de Manaku, juste après, tiré du même récit.",
+        "image": "images/mouvements/peinture-rajpoute-et-pahari/shangri-ramayana-hanuman-sita.jpg"
+      },
+      {
+        "title": "Rama et Lakshmana terrassés par les flèches, page de la série du « Siège de Lanka »",
+        "artist": "Manaku",
+        "country": "Inde",
+        "period": "vers 1725",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/37950), domaine public (CC0)",
+        "analysis": "Une grande feuille (près de 84 cm de large) dessinée à l'encre seule. À droite, deux héros sont étendus sur un lit de flèches qui hérissent leur corps : ce sont, d'après le titre donné par le musée, Rama et son frère Lakshmana. Autour d'eux, une foule immense de singes, assis ou debout : l'armée des singes, alliés de Rama. Selon la fiche du musée, le dessin a été fait au royaume de Guler par Manaku.",
+        "compare": "Un dessin à l'encre, sans couleur, d'un très grand format : comparez avec la petite page en couleurs du même récit, juste avant, peinte dans les collines à la même époque.",
+        "image": "images/mouvements/peinture-rajpoute-et-pahari/manaku-rama-lakshmana-fleches.jpg"
+      },
+      {
+        "title": "Le prince Padam Singh de Bikaner avec son barde Gordhar, sur une terrasse la nuit",
+        "artist": "Bhavani Das",
+        "country": "Inde",
+        "period": "vers 1725",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/38046), domaine public (CC0)",
+        "analysis": "Deux hommes sont assis face à face sur une terrasse blanche, au bord d'une large rivière ; au loin, à gauche, une ville fortifiée et une ligne d'arbres sous un ciel sombre. À gauche, un homme en vêtement clair est adossé à un coussin ; à droite, l'autre porte un châle orange et vert. Devant chacun, un bouclier rond noir clouté d'or ; une épée est posée au sol. Selon la fiche du musée, l'œuvre a été peinte à Kishangarh par Bhavani Das.",
+        "compare": "Un poète et son prince, une conversation au bord de l'eau : comparez avec le portrait de Sur Singh, seul et debout, un siècle plus tôt.",
+        "image": "images/mouvements/peinture-rajpoute-et-pahari/bhavani-das-padam-singh.jpg"
+      },
+      {
+        "title": "Le maharana Jagat Singh assiste au Raslila",
+        "artist": "Jai Ram et Jiva",
+        "country": "Inde",
+        "period": "1736",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/2011.141), domaine public (CC0)",
+        "analysis": "Selon la notice du musée, pour fêter Diwali, le Nouvel An, des danseurs rejouent la vie de Krishna dans une cour du palais, à la lueur des bougies et sous la pleine lune. Le roi est assis à gauche de la cour, avec le halo qui montre que son pouvoir vient des dieux ; il fume un houka d'or en forme de chèvre, son jeune fils à ses côtés. En haut, un danseur vêtu de bleu, coiffé de plumes de paon, joue le rôle de Krishna. En haut à droite, un dais peint de nuages en tourbillons représente l'orage envoyé par le roi des dieux, jaloux. Au premier plan, gardes et palefreniers font de la musique en attendant avec les chevaux. C'est l'une des huit peintures d'une série de grand format (67 cm de haut).",
+        "compare": "Krishna sur scène, joué par des danseurs : comparez avec Krishna peint comme un dieu dans les pages de manuscrits de l'exposition.",
+        "image": "images/mouvements/peinture-rajpoute-et-pahari/mewar-jagat-singh-raslila.jpg"
+      },
+      {
+        "title": "La vision de Krishna et Radha du raja Balwant Singh",
+        "artist": "Nainsukh",
+        "country": "Inde",
+        "period": "vers 1745–1750",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/38009), domaine public (CC0)",
+        "analysis": "Sous un dais orange, sur une terrasse, Krishna, à la peau bleue, couronné, et Radha sont assis sur un trône doré. Face à eux, debout, mains jointes, un homme barbu en longue robe blanche semée de petits motifs : le raja Balwant Singh, d'après le titre donné par le musée. À l'arrière-plan, une rivière et des collines vertes. Selon la fiche du musée, le peintre est Nainsukh, et l'œuvre vient du royaume de Jasrota.",
+        "compare": "Le prince se tient devant ses dieux comme un courtisan devant un roi : comparez avec Jagat Singh, qui regarde Krishna joué par des danseurs.",
+        "image": "images/mouvements/peinture-rajpoute-et-pahari/nainsukh-balwant-singh-krishna-radha.jpg"
+      },
+      {
+        "title": "Radha, la bien-aimée de Krishna",
+        "artist": "Peintre de Kishangarh",
+        "country": "Inde",
+        "period": "vers 1750",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/72752), domaine public (CC0)",
+        "analysis": "Un buste de femme de profil sur un fond gris-bleu : l'œil très allongé, le sourcil arqué, le nez fin et pointu, une perle au nez, des perles aux oreilles et au cou. Un voile transparent bordé d'or couvre ses cheveux noirs. Elle lève une main aux doigts teints de rouge. Selon la fiche du musée, l'œuvre a été peinte au royaume de Kishangarh, au Rajasthan.",
+        "compare": "Un visage presque inventé, aux traits étirés : le style propre à la cour de Kishangarh. Comparez avec les visages ronds de Basohli ou de Bikaner.",
+        "image": "images/mouvements/peinture-rajpoute-et-pahari/kishangarh-radha.jpg"
+      },
+      {
+        "title": "Nature morte : bouquet de fleurs sortant de l'herbe",
+        "artist": "Peintre du royaume de Bundi",
+        "country": "Inde",
+        "period": "vers 1750",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/2018.161), domaine public (CC0)",
+        "analysis": "Selon la notice du musée, les études de bouquets « à l'européenne » sont devenues un sujet à la mode dans la peinture indienne sous l'empereur moghol Jahangir (1605–1627), inspirées par des gravures importées d'Europe. Ici, dans une cour du Rajasthan, tout le bouquet pousse comme par magie hors du sol, à partir d'une seule tige. La fleur du centre est un pavot écarlate.",
+        "compare": "Une idée venue d'Europe, passée par la cour moghole, puis transformée au Rajasthan : comparez avec les fleurs de l'école Rinpa, au Japon, à la même époque.",
+        "image": "images/mouvements/peinture-rajpoute-et-pahari/bundi-bouquet.jpg"
+      },
+      {
+        "title": "Le roi Muchukunda entre dans le domaine du mont Gandhamadana, page du « Cinquième Bhagavata Purana de Basohli »",
+        "artist": "Fattu",
+        "country": "Inde",
+        "period": "vers 1760–1770",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/2018.83), domaine public (CC0)",
+        "analysis": "Selon la notice du musée, d'après la mythologie hindoue, Muchukunda, l'homme vêtu de safran, s'était endormi dans une grotte pendant des milliers d'années. À son réveil, Krishna lui apparut et lui conseilla de faire pénitence pour se purifier et atteindre la délivrance. Il partit alors pour le mont Gandhamadana. La page a été peinte par Fattu.",
+        "compare": "Un récit en plusieurs étapes dans une seule image : comparez avec la page d'Isarda, deux siècles plus tôt, qui racontait déjà la vie de Krishna.",
+        "image": "images/mouvements/peinture-rajpoute-et-pahari/fattu-muchukunda.jpg"
+      },
+      {
+        "title": "Krishna jouant avec les gopis dans la Yamuna",
+        "artist": "Peintre des royaumes pahari",
+        "country": "Inde",
+        "period": "vers 1770",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/2018.118), domaine public (CC0)",
+        "analysis": "Sous un soleil brûlant, Krishna, à la peau bleue, et trois jeunes bouvières (gopis) se rafraîchissent dans les eaux grises de la rivière Yamuna. Selon la notice du musée, les femmes ont rangé leurs vêtements sur un arbre voisin, et la couronne et l'écharpe de Krishna sont posées sur la rive ; Krishna éclabousse en jouant l'une des femmes, qui détourne le visage. La scène évoque la joie de vivre dans l'intimité du dieu.",
+        "compare": "Le fond jaune uni rappelle la page de Devidasa, mais les nageuses aux corps souples sont peintes en plein mouvement.",
+        "sensible": true,
+        "image": "images/mouvements/peinture-rajpoute-et-pahari/pahari-krishna-gopis-yamuna.jpg"
+      },
+      {
+        "title": "Krishna soulevant le mont Govardhan",
+        "artist": "Peintre du royaume de Kangra",
+        "country": "Inde",
+        "period": "vers 1780–1790",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/2001.45), domaine public (CC0)",
+        "analysis": "Selon la notice du musée, Krishna soutient le mont Govardhan avec son seul petit doigt, tout en regardant dans les yeux sa bouvière préférée, Radha, et en caressant la tête d'un enfant. Son frère Balarama, à la peau blanche et en vêtement bleu, aide à soutenir la montagne avec un bâton. Les vaches et les bouviers se serrent autour de Krishna, à l'abri de l'orage envoyé par le dieu Indra, monté sur son éléphant blanc dans le ciel. Le corps d'Indra est couvert d'yeux : on l'appelle « celui qui a mille yeux ».",
+        "compare": "Le même orage d'Indra que sur le dais de la fête de Jagat Singh, au Mewar : un épisode que tous les peintres de Krishna ont représenté.",
+        "image": "images/mouvements/peinture-rajpoute-et-pahari/kangra-krishna-govardhan.jpg"
+      },
+      {
+        "title": "Umed Singh de Kota chassant les lions",
+        "artist": "Peintre de Kota",
+        "country": "Inde",
+        "period": "vers 1785–1790",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1964.51), domaine public (CC0)",
+        "analysis": "Un dessin au pinceau à peine coloré. Selon la notice du musée, une famille de lions avec deux lionceaux est surprise par les chasseurs royaux dans un fouillis de jungle, au bord d'un ruisseau. Les lions adultes se retournent, alertés par la trompe qui doit les chasser de leur clairière. Les hommes, sauf le prince à gauche, ont des turbans camouflés de feuilles et entourent les lions, prêts à lancer lances et flèches. C'est une esquisse préparatoire : les parties plus blanches montrent les endroits effacés et corrigés.",
+        "compare": "La chasse, grand sujet de la peinture de Kota : comparez la liberté de cette esquisse avec la précision des peintures finies de l'exposition.",
+        "image": "images/mouvements/peinture-rajpoute-et-pahari/kota-umed-singh-lions.jpg"
+      },
+      {
+        "title": "Amants royaux regardant les nuages de pluie : le mois de Bhadon, page d'un Barahmasa",
+        "artist": "Peintre des royaumes pahari",
+        "country": "Inde",
+        "period": "vers 1790",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1973.104), domaine public (CC0)",
+        "analysis": "Selon la notice du musée, un roi profite d'une soirée d'orage dans l'appartement des femmes du palais. Une femme garde la porte, une autre tient le chasse-mouches royal. Il montre deux musiciennes, mais le roi et sa bien-aimée n'ont d'yeux que l'un pour l'autre et se touchent tendrement la main. La série illustre chaque mois du calendrier hindou : Bhadon, en août et septembre, à la fin de la mousson, est le mois où les rivières en crue empêchent voyages et guerres, et où les hommes restent chez eux. Le format ovale est devenu à la mode après les années 1760.",
+        "compare": "Les saisons et les sentiments vont ensemble : comparez avec les modes musicaux des ragamalas, où chaque mélodie a aussi son heure et son humeur.",
+        "image": "images/mouvements/peinture-rajpoute-et-pahari/pahari-bhadon-barahmasa.jpg"
+      },
+      {
+        "title": "La coiffure de Radha",
+        "artist": "Peintre des royaumes pahari",
+        "country": "Inde",
+        "period": "vers 1790–1800",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1969.35), domaine public (CC0)",
+        "analysis": "Un dessin rehaussé de quelques couleurs. Selon la notice du musée, Radha, au centre, met un bijou en se regardant dans un miroir. Ni elle ni ses amies ne voient Krishna qui l'observe d'une fenêtre à l'étage. Des servantes tiennent un rideau pour la cacher, d'autres la coiffent, tiennent le miroir, chassent les mouches et apportent à boire ; au fond, des musiciens arrivent avec leurs instruments. Le soin apporté aux détails et aux expressions fait penser à une étude pour une peinture plutôt qu'à un dessin destiné à être recouvert de couleur.",
+        "compare": "Le miroir, les corps courbés des femmes et leurs éventails reprennent la forme ovale du cadre, comme dans la page du mois de Bhadon, juste avant.",
+        "image": "images/mouvements/peinture-rajpoute-et-pahari/pahari-radha-coiffure.jpg"
+      },
+      {
+        "title": "Jeune fille saluant le soleil levant (Surya puja)",
+        "artist": "Chokha",
+        "country": "Inde",
+        "period": "vers 1810",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/2018.151), domaine public (CC0)",
+        "analysis": "Selon la notice du musée, une adolescente vêtue seulement de son vêtement de dessous fait la prière du matin : elle verse un filet d'eau qui ruisselle sur les marches de la plate-forme où elle se tient ; derrière elle, à terre, sa guirlande et son sari orange. En Inde, la prière peut se faire dans la nature, en plein air, sans temple, sans image sacrée ni prêtre. Des animaux s'éveillent dans les collines, et dans le bassin aux lotus, l'un des deux canards tient un poisson dans son bec. Le peintre, Chokha, travaillait au royaume de Devgarh.",
+        "compare": "Le soleil levant est peint en haut à droite, comme le soleil de midi au-dessus de Krishna et des gopis : chez les peintres indiens, l'heure du jour fait partie du sujet.",
+        "image": "images/mouvements/peinture-rajpoute-et-pahari/chokha-surya-puja.jpg"
+      },
+      {
+        "title": "La confidente persuade Radha de rejoindre Krishna, page d'un Gita Govinda de Jayadeva",
+        "artist": "Purkhu",
+        "country": "Inde",
+        "period": "vers 1820–1825",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1989.334), domaine public (CC0)",
+        "analysis": "Selon la notice du musée, toutes les bouvières étaient amoureuses de Krishna, mais il avait une préférée, Radha, qu'il retrouvait en secret dans la forêt avec l'aide de sa confidente (sakhi). Krishna apparaît deux fois : à droite, il prépare un lit de feuilles pour leur rendez-vous ; au milieu, il observe Radha, vêtue d'orange et d'or. La confidente encourage Radha à aller le retrouver, car il se languit d'elle. Le peintre, Purkhu, travaillait dans les collines.",
+        "compare": "Le même amour de Krishna et Radha que chez Nainsukh ou à Kishangarh : ici, il se raconte dans un vaste paysage de forêt.",
+        "image": "images/mouvements/peinture-rajpoute-et-pahari/purkhu-gita-govinda.jpg"
+      },
+      {
+        "title": "Pichvai de Shri Nathji",
+        "artist": "Peintre de Nathdwara",
+        "country": "Inde",
+        "period": "1825–1850",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1937.454), domaine public (CC0)",
+        "analysis": "Une grande toile de coton peinte, de plus de 2,5 mètres de haut. Selon la notice du musée, ces tentures (pichvai) servaient de fond pour le culte de Krishna sous la forme de Shri Nathji, l'image sacrée du centre. De chaque côté, des bouvières se tiennent par les bras, en extase. Des épisodes de la vie de Krishna et une bordure de vaches en adoration encadrent la scène centrale. Ces tissus, longtemps exposés, sont souvent pâlis et usés.",
+        "compare": "La dernière œuvre de l'exposition, et la plus grande : la même dévotion à Krishna que dans les petites pages de manuscrits, mais à la taille d'un mur de temple.",
+        "image": "images/mouvements/peinture-rajpoute-et-pahari/nathdwara-pichvai-shri-nathji.jpg"
+      }
+    ]
+  },
+  {
+    "mouvement": "Art khmer d'Angkor",
+    "slug": "art-khmer-d-angkor",
+    "status": "published",
+    "title": "L'art khmer d'Angkor, le sourire des dieux",
+    "subtitle": "Grès et bronzes du Cambodge, du VIIe au XIIIe siècle : quinze œuvres de Cleveland et de New York",
+    "intro": "Du IXe au XIIIe siècle, les rois khmers ont gouverné depuis Angkor, au nord-ouest de l'actuel Cambodge, un empire qui s'étendait aussi sur une partie de la Thaïlande, du Laos et du Vietnam. Ils ont élevé des centaines de temples de grès, dédiés aux dieux hindous Shiva et Vishnu, puis, sous le roi Jayavarman VII (règne de 1181 à 1218), au bouddhisme. Les sculpteurs y ont taillé des dieux debout, des têtes couronnées au sourire paisible, des linteaux couverts de feuillages, des danseuses célestes, et fondu des bronzes pour les rituels. Les œuvres sont présentées dans l'ordre du temps. Beaucoup de sculptures khmères ont quitté le Cambodge illégalement, surtout à partir des années 1970, et plusieurs ont été rendues par les musées : nous n'avons retenu ici que des œuvres entrées dans les collections avant 1970, d'après l'historique publié par chaque musée. Nous n'avons pas encore pu obtenir d'images d'œuvres conservées au Cambodge, et nous les ajouterons dès que possible.",
+    "works": [
+      {
+        "title": "Vishnu",
+        "artist": "Sculpteur khmer",
+        "country": "Cambodge",
+        "period": "650–700",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1942.563), domaine public (CC0)",
+        "analysis": "Une statue de grès, brisée à mi-cuisses, sculptée avant l'époque d'Angkor. Selon la notice du musée, Vishnu porte les signes de la royauté : une haute couronne en forme de mitre, au sommet plat, typique des statues du site de Prasat Andet. Ses quatre bras, dont on voit encore les traces, montrent qu'il est un dieu, plus grand que tout roi. Les yeux finement dessinés et le léger sourire sont propres à la sculpture cambodgienne ; à cette époque, le corps garde une musculature assez naturelle. Il porte le sampot, le vêtement noué autour de la taille en Asie du Sud-Est.",
+        "compare": "Le point de départ de l'exposition, deux siècles avant la fondation d'Angkor : le sourire paisible des dieux khmers est déjà là.",
+        "image": "images/mouvements/art-khmer-d-angkor/vishnu-prasat-andet.jpg"
+      },
+      {
+        "title": "Linteau à Garuda",
+        "artist": "Sculpteur khmer",
+        "country": "Cambodge",
+        "period": "875–925",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1967.37), domaine public (CC0)",
+        "analysis": "Un linteau, la pierre posée au-dessus de la porte d'un temple, large de près de 1,20 mètre. Selon la notice du musée, Garuda, moitié homme et moitié aigle, la monture de Vishnu, a le nez en forme de bec, et ses ailes sont sculptées comme des feuillages exubérants, à l'image des feuilles qui s'enroulent sur la tige courbée au milieu du panneau. Cette végétation donne naissance à des figures féminines et à des bijoux, avant de se terminer en têtes de cobra. Garuda est l'ennemi des serpents : il tient leurs queues en respect. Dans le feuillage, sous lui, on distingue deux minuscules figures de femmes.",
+        "compare": "Une idée venue de l'Inde, entourer les portes d'images qui purifient et protègent, traitée dans un style khmer : comparez avec le linteau suivant, quelques décennies plus tard.",
+        "image": "images/mouvements/art-khmer-d-angkor/linteau-garuda.jpg"
+      },
+      {
+        "title": "Brahma",
+        "artist": "Sculpteur khmer",
+        "country": "Cambodge",
+        "period": "premier quart du Xe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/38265), domaine public (CC0)",
+        "analysis": "Une statue de grès de 1,20 mètre. Le dieu a quatre visages — on en voit trois, de face et de profil —, coiffés d'une haute couronne à étages. Il se tient debout, très droit, le torse lisse ; ses bras sont brisés aux coudes et ses pieds ont disparu. Il porte un court vêtement plissé, retenu par une ceinture, dont un pan retombe en éventail sur le devant. Le musée l'a acquis en 1936.",
+        "compare": "Quatre visages tournés vers les quatre directions : comparez avec le buste de Hevajra, trois siècles plus tard, aux têtes empilées.",
+        "image": "images/mouvements/art-khmer-d-angkor/brahma.jpg"
+      },
+      {
+        "title": "Linteau aux personnages sculptés",
+        "artist": "Sculpteur khmer",
+        "country": "Cambodge",
+        "period": "vers 921–945",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/38295), domaine public (CC0)",
+        "analysis": "Un autre linteau de temple, en pierre, large de 1,25 mètre. En haut, une frise de petits personnages barbus, assis jambes croisées dans des niches, alterne avec des colonnettes fleuries. En dessous, un foisonnement de feuillages en volutes ; au centre, une créature au visage grimaçant, aux crocs visibles, lève les bras ; de chaque côté partent de longues tiges ornées. Le musée l'a acquis en 1936.",
+        "compare": "Le même principe que le linteau à Garuda : une figure au centre, d'où naissent les feuillages ; mais ici, une frise de personnages s'ajoute au-dessus.",
+        "image": "images/mouvements/art-khmer-d-angkor/linteau-personnages.jpg"
+      },
+      {
+        "title": "Tête d'un dieu ou d'un roi divinisé",
+        "artist": "Sculpteur khmer",
+        "country": "Cambodge",
+        "period": "milieu du Xe siècle",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1923.95), domaine public (CC0)",
+        "analysis": "Selon la notice du musée, le diadème est noué sur une coiffure à étages compliquée, que seuls portaient un dieu ou un roi ; sans autre attribut, on ne peut savoir lequel. Les sculpteurs khmers du Xe siècle aimaient les formes puissantes et les expressions affirmées. Les pupilles gravées indiquent que la statue a reçu le rituel de « l'éveil », où l'on ajoutait les yeux en dernier. Elle vient d'un temple dédié à Shiva, fondé par le roi Jayavarman IV (928–942) dans sa lointaine capitale de Koh Ker, à 160 kilomètres au nord d'Angkor. Le musée l'a acquise en 1923.",
+        "compare": "Une tête au regard direct et à la bouche ferme : comparez avec la douceur des visages de l'époque de Jayavarman VII, à la fin de l'exposition.",
+        "image": "images/mouvements/art-khmer-d-angkor/tete-divinite-koh-ker.jpg"
+      },
+      {
+        "title": "Shiva",
+        "artist": "Sculpteur khmer",
+        "country": "Cambodge",
+        "period": "début du XIIe siècle",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1941.25), domaine public (CC0)",
+        "analysis": "Selon la notice du musée, les mèches de cheveux parallèles et le troisième œil gravé sur le front permettent de reconnaître le dieu Shiva. Une barbe courte se termine en pointe au menton. La silhouette mince et élégante et le court vêtement retenu par une ceinture basse sont typiques de cette époque. Trois « plis de beauté » sont légèrement gravés autour du cou.",
+        "compare": "Un dieu debout, comme le Brahma du Xe siècle, mais plus mince et plus souple : la sculpture khmère s'affine.",
+        "image": "images/mouvements/art-khmer-d-angkor/shiva-baphuon.jpg"
+      },
+      {
+        "title": "Tête de Shiva",
+        "artist": "Sculpteur khmer",
+        "country": "Cambodge",
+        "period": "XIIe siècle",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1940.53), domaine public (CC0)",
+        "analysis": "Selon la notice du musée, les artistes khmers pouvaient représenter soit un roi divinisé, soit un dieu aux attributs royaux : le culte khmer du dieu-roi permettait les deux lectures. Le troisième œil au front et les cheveux en mèches nouées sont des attributs de Shiva, mais aussi de ses fidèles qui l'imitaient pour se rapprocher de lui. La notice du musée indique que cette tête a été rapportée du Cambodge par l'explorateur Louis Delaporte, au XIXe siècle.",
+        "compare": "Comparez avec la statue de Shiva, juste avant : les mêmes attributs, le troisième œil et les mèches de cheveux.",
+        "image": "images/mouvements/art-khmer-d-angkor/tete-de-shiva.jpg"
+      },
+      {
+        "title": "Bouddha trônant sur le naga",
+        "artist": "Sculpteur khmer",
+        "country": "Cambodge",
+        "period": "XIIe siècle",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1963.263), domaine public (CC0)",
+        "analysis": "Un bronze qui garde des traces de dorure. Le Bouddha, couronné et paré de bijoux, est assis sur les anneaux d'un serpent (naga), dont les têtes se dressent derrière lui. Selon la notice du musée, le roi Jayavarman VII s'est associé à cette image, qui devint alors partout un objet de vénération. Plus tard, d'autres formes du bouddhisme y ont vu une scène de la vie du Bouddha, protégé d'une inondation par un serpent. Ses mains, posées sur ses genoux dans le geste de la méditation, tiennent ce qui semble être une offrande de riz, pour souhaiter la prospérité du pays.",
+        "compare": "Le naga, serpent protecteur, est partout dans l'art khmer : sur les têtes de cobra du linteau à Garuda comme sur l'icône portative, à la fin de l'exposition.",
+        "image": "images/mouvements/art-khmer-d-angkor/bouddha-sur-le-naga-bronze.jpg"
+      },
+      {
+        "title": "Estampage du Barattage de la mer de lait",
+        "artist": "Estampage réalisé au Cambodge",
+        "country": "Cambodge",
+        "period": "XXe siècle (estampage d'un bas-relief)",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/62503), domaine public (CC0)",
+        "analysis": "Un estampage : une feuille de papier posée sur un bas-relief de pierre et frottée à l'encre, qui en relève tous les motifs. On y voit une mer grouillante de créatures : des dizaines de poissons aux écailles serrées, de longs crocodiles, des serpents, d'autres animaux marins. Selon le titre donné par le musée, c'est un détail de la scène du Barattage de la mer de lait, un récit hindou où dieux et démons barattent l'océan pour en tirer l'élixir d'immortalité. L'estampage a été donné au musée en 1959 par Jean Laur, conservateur d'Angkor.",
+        "compare": "Le seul moyen, ici, de voir un grand bas-relief d'un temple khmer : comparez son foisonnement avec celui des feuillages des linteaux.",
+        "image": "images/mouvements/art-khmer-d-angkor/estampage-barattage.jpg"
+      },
+      {
+        "title": "Vajrasattva",
+        "artist": "Sculpteur khmer",
+        "country": "Cambodge",
+        "period": "XIIe–XIIIe siècle",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1947.494), domaine public (CC0)",
+        "analysis": "Un petit bronze de 18,5 cm. Selon la notice du musée, Vajrasattva est un être bouddhique d'éveil qui tient dans la main droite le vajra, le foudre, et dans la gauche une clochette : les deux instruments essentiels des rituels tantriques, très pratiqués sous Jayavarman VII. Ces petites statues étaient peut-être sorties du trésor d'un temple pour les rituels. Des cordons pendent à l'arrière de la couronne et de la ceinture et retombent symétriquement sur les épaules et les jambes.",
+        "compare": "Un bronze pour les mains des officiants, et non une statue de temple : comparez sa taille avec les grands grès de l'exposition.",
+        "image": "images/mouvements/art-khmer-d-angkor/vajrasattva-bronze.jpg"
+      },
+      {
+        "title": "Buste de Hevajra",
+        "artist": "Sculpteur khmer",
+        "country": "Cambodge",
+        "period": "fin du XIIe–début du XIIIe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/38304), domaine public (CC0)",
+        "analysis": "Un grand buste de pierre de 1,32 mètre. Plusieurs têtes sont empilées : une rangée de visages en bas, et une autre tête au-dessus, avec d'autres visages de profil sur les côtés. Le visage principal, les yeux baissés, sourit doucement. Les bras et le bas du corps sont brisés. Le musée l'a acquis en 1936.",
+        "compare": "Le même sourire aux yeux baissés que la tête de Lokeshvara, plus loin : le visage typique de l'époque de Jayavarman VII.",
+        "image": "images/mouvements/art-khmer-d-angkor/buste-hevajra.jpg"
+      },
+      {
+        "title": "Frise aux apsaras",
+        "artist": "Sculpteur khmer",
+        "country": "Cambodge",
+        "period": "fin du XIIe siècle",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1938.433), domaine public (CC0)",
+        "analysis": "Selon la notice du musée, des danseuses célestes (apsaras), les jambes repliées pour montrer qu'elles volent dans les airs, animent ce panneau du Bayon, le grand temple d'État de l'empire khmer. Le Bayon était conçu comme un panthéon, abritant toutes les divinités vénérées dans les territoires du roi Jayavarman VII (règne de 1181 à 1218), au Cambodge et dans une partie de la Thaïlande et du Vietnam actuels. Le temple fut dédié tantôt au Bouddha, tantôt au dieu Shiva, et l'image centrale changeait en conséquence.",
+        "compare": "Des danseuses en vol, en rangée : comparez avec les deux danseuses du pilier, juste après, à la même époque.",
+        "image": "images/mouvements/art-khmer-d-angkor/frise-apsaras-bayon.jpg"
+      },
+      {
+        "title": "Fragment de pilier aux apsaras dansantes",
+        "artist": "Sculpteur khmer",
+        "country": "Cambodge",
+        "period": "fin du XIIe–début du XIIIe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/38303), domaine public (CC0)",
+        "analysis": "Un bloc de pierre sculpté en faible relief. Sous un arc de feuillage, deux danseuses célestes (apsaras) dansent côte à côte, un genou levé, les bras ouverts, coiffées de hautes couronnes pointues ; elles se tiennent chacune sur une fleur de lotus. Le reste de la surface est couvert de fins motifs. Le musée l'a acquis en 1936.",
+        "compare": "Les apsaras de la frise volent ; celles-ci dansent sur des lotus : deux manières de montrer les danseuses du ciel.",
+        "image": "images/mouvements/art-khmer-d-angkor/pilier-apsaras.jpg"
+      },
+      {
+        "title": "Tête de Lokeshvara",
+        "artist": "Sculpteur khmer",
+        "country": "Cambodge",
+        "period": "fin du XIIe–début du XIIIe siècle",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1955.47), domaine public (CC0)",
+        "analysis": "Selon la notice du musée, Lokeshvara est l'être de compassion du bouddhisme, la forme sous laquelle le père de Jayavarman VII fut divinisé et vénéré. Les yeux baissés ont un regard bienveillant et méditatif, et la bouche sourit doucement, sûre de la puissance de sa miséricorde. La petite figure d'un Bouddha assis, devant le chignon, confirme qu'il s'agit de Lokeshvara. Des traces de laque noire montrent que la tête a sans doute été réutilisée plus tard pour une autre image ; cette laque a protégé la pierre de l'usure.",
+        "compare": "Le « sourire d'Angkor » à son sommet : comparez avec la tête de Koh Ker, deux siècles et demi plus tôt.",
+        "image": "images/mouvements/art-khmer-d-angkor/tete-lokeshvara.jpg"
+      },
+      {
+        "title": "Icône portative du Bouddha Shakyamuni touchant la terre",
+        "artist": "Sculpteur khmer",
+        "country": "Cambodge",
+        "period": "fin du XIIe–début du XIIIe siècle",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1964.93), domaine public (CC0)",
+        "analysis": "Un bronze de 42 cm. Selon la notice du musée, le Bouddha est assis dans un cercle de joyaux enflammés et de pétales de lotus ; deux serpents dressés, emblèmes de la gloire de l'empire khmer, sortent de chaque côté de son socle. Sa main droite touche la terre ; sa gauche tient sans doute une offrande de riz. En haut, les branches de l'arbre sous lequel il atteignit l'éveil. Sous le socle, la déesse de la Terre tord ses cheveux, et l'eau qui en coule emporte l'armée de Mara, des démons grimaçants armés de massues et de boucliers qui fuient de chaque côté. Ces images servaient à transporter une présence sacrée d'un temple à un autre.",
+        "compare": "La dernière œuvre de l'exposition : tout un récit dans un objet qu'on peut porter, comme les grands bas-reliefs des temples en miniature.",
+        "image": "images/mouvements/art-khmer-d-angkor/icone-portative-bouddha.jpg"
+      }
+    ]
   }
 ]

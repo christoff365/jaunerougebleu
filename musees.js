@@ -5,8 +5,9 @@
 // Sources actives sans clé : 114 institutions du monde entier et le patrimoine mondial de l'UNESCO (via Wikidata et
 // Wikimedia Commons, liste MUSEES_MONDE ci-dessous), Met (New York), Art Institute of Chicago, Cleveland Museum of Art,
 // SMK (Copenhague), Minneapolis Institute of Art. Sources interrogées par le relais de l'association (dossier relais/),
-// qui garde les clés hors du site : Europeana (milliers d'institutions européennes) et Smithsonian (Washington).
-// Adresse du relais (sans « / » final) ; vide = ces deux sources sont ignorées.
+// qui garde les clés hors du site : Europeana (milliers d'institutions européennes) et Smithsonian (Washington) ; et Yale
+// (New Haven), sans clé, mais qui refuse les demandes venant directement d'autres sites.
+// Adresse du relais (sans « / » final) ; vide = ces trois sources sont ignorées.
 const RELAIS = 'https://jaunerougebleu.loic-a-messian.workers.dev';
 
 const DATES_EPOQUES = {
@@ -1383,8 +1384,76 @@ const ADAPTATEURS = {
         });
       }).filter(Boolean).slice(0, n));
     }
+  },
+
+  // Yale (LUX, catalogue commun des musées et bibliothèques de Yale), via le relais : LUX refuse les demandes venant
+  // d'autres sites. Seulement la Yale University Art Gallery et le Yale Center for British Art, et seulement les œuvres
+  // que le musée déclare du domaine public (« Copyright Statement » du manifeste IIIF, lu directement chez Yale).
+  yale: {
+    nom: 'Yale University',
+    actif: () => !!RELAIS,
+    chercher(c, n) {
+      const taille = n * 2;
+      const q = JSON.stringify({ AND: [{ text: motsCles(c).join(' ') || 'painting' }, { hasDigitalImage: 1 },
+        { OR: MUSEES_YALE.map(m => ({ memberOf: { name: m } })) }] });
+      const url = page => RELAIS + '/yale?q=' + encodeURIComponent(q) + '&page=' + (page + 1) + '&pageLength=' + taille;
+      return pageAuHasard(c.premiere ? () => url(0) : url, 5, r => r.orderedItems, r => r.partOf && r.partOf[0] && Math.ceil(r.partOf[0].totalItems / taille))
+        .then(items => Promise.all(items.map(i => oeuvreYale(String(i.id).split('/').pop()).catch(() => null))))
+        .then(l => l.filter(Boolean).slice(0, n));
+    }
   }
 };
+
+// Musées de Yale interrogés (nom des collections dans LUX). Les collections d'anthropologie du musée Peabody ne sont pas
+// interrogées : leurs fiches n'indiquent pas les droits de chaque objet et peuvent comprendre des objets sacrés.
+const MUSEES_YALE = ['Yale University Art Gallery', 'Yale Center for British Art'];
+// Objets que leurs communautés demandent de ne pas montrer (visages de guérison haudenosaunee, katsinam, tjurunga…)
+// et restes humains : écartés d'après le titre, la culture et la classification
+const NON_MONTRES_YALE = /false face|medicine face|husk face|katsina|kachina|tjurunga|churinga|sacred bundle|medicine bundle|human remains|skull|tsantsa|shrunken head|mummy|momie/i;
+// Texte d'une fiche LUX classé sous un libellé donné (« Culture », « Medium »…)
+function texteLux(liste, libelle) {
+  const t = (liste || []).find(x => (x.classified_as || []).some(k => k._label === libelle));
+  return t ? t.content : '';
+}
+// Fiche LUX (par le relais), puis manifeste IIIF du musée (droits et image, lu directement : ouvert à tous les sites)
+function oeuvreYale(id) {
+  return lireJSON(RELAIS + '/yale-fiche?id=' + encodeURIComponent(id)).then(f => {
+    const liens = [].concat(...(f.subject_of || []).map(s => (s.digitally_carried_by || []).map(d => ((d.access_point || [])[0] || {}).id || '')));
+    const manifeste = liens.find(u => /^https:\/\/manifests\.collections\.yale\.edu\/(yuag|ycba)\/obj\/\d+$/.test(u));
+    const fiche = liens.find(u => /^https:\/\/(artgallery|collections\.britishart)\.yale\.edu\//.test(u));
+    if (!manifeste || !fiche) return null;
+    return lireJSON(manifeste).then(m => {
+      const meta = {};
+      (m.metadata || []).forEach(x => { const l = Object.values(x.label || {})[0], v = Object.values(x.value || {})[0]; if (l && v) meta[l[0]] = v[0]; });
+      if (!/^public domain$/i.test(meta['Copyright Statement'] || '')) return null;
+      const corps = (((((m.items || [])[0] || {}).items || [])[0] || {}).items || [])[0];
+      const service = corps && corps.body && (corps.body.service || [])[0];
+      const image = service && (service['@id'] || service.id);
+      if (!image) return null;
+      const prod = f.produced_by || {}, temps = prod.timespan || {};
+      // Artiste : la partie de la production classée « Artist » ou « Primary Artist » (sinon la première) ;
+      // « Artist: John Trumbull (American, 1756–1843) » → nom, et nationalité pour le pays d'origine
+      const parties = (prod.part || []).filter(p => (p.carried_out_by || []).length);
+      const partie = parties.find(p => (p.classified_as || []).some(k => /artist/i.test(k._label))) || parties[0] || {};
+      const nomArtiste = String((partie.carried_out_by || [{}])[0]._label || '').replace(/^[^:]*:\s*/, '').replace(/\s*\(.*$/, '').trim();
+      const createur = texteLux(partie.referred_to_by, 'Creator Description') || meta['Creator(s)'] || '';
+      // Date affichée par le musée (« ca. 1773 », « early to mid-20th century »), sans « n.d. » (non datée)
+      const dateAffichee = ((temps.identified_by || [])[0] || {}).content || meta.Date || '';
+      const datee = /\d/.test(dateAffichee);
+      if (NON_MONTRES_YALE.test([f._label, texteLux(f.referred_to_by, 'Culture'), meta.Classification].join(' '))) return null;
+      const musee = meta.Institution || ((f.current_owner || [])[0] || {})._label || 'Yale University';
+      return oeuvre({
+        titre: f._label || meta.Title, artiste: /^unknown|^unidentified/i.test(nomArtiste) ? '' : nomArtiste,
+        date: datee ? dateAffichee : '', annee: datee ? anneeDe(dateAffichee) : null,
+        lieu: ((prod.took_place_at || [])[0] || {})._label || texteLux(prod.referred_to_by, 'Creation Place Description'),
+        culture: texteLux(f.referred_to_by, 'Culture'), nationalite: (createur.match(/\(([^,)]+)/) || [])[1] || '',
+        indiceRegion: musee === 'Yale Center for British Art' ? 'Europe' : '',
+        musee, image: image + '/full/!1200,1200/0/default.jpg', fiche,
+        classification: [meta.Classification, (f.classified_as || []).map(k => k._label).join(' '), texteLux(f.referred_to_by, 'Medium')].join(' ')
+      });
+    });
+  });
+}
 
 // Recherche dans tous les catalogues en même temps ; un catalogue en panne n'empêche pas les autres de répondre
 // (seulement : liste facultative des catalogues à interroger, par exemple ceux qui savent chercher par mots-clés)
@@ -1728,7 +1797,7 @@ function oeuvreParLien(lien) {
 // - musées du monde entier via Wikidata (sans mot-clé), lancés après quelques secondes s'il manque encore des pays.
 // Une œuvre par pays nouveau. Renvoie (au plus tard après 60 secondes) { choisies, reserve, sources } :
 // la réserve sert à remplacer une œuvre dont l'image ne se charge pas ; sources indique les catalogues qui ont répondu.
-const CATALOGUES_MOTS_CLES = ['met', 'aic', 'cleveland', 'smk', 'mia', 'smithsonian', 'colbase', 'wellcome'];
+const CATALOGUES_MOTS_CLES = ['met', 'aic', 'cleveland', 'smk', 'mia', 'smithsonian', 'colbase', 'wellcome', 'yale'];
 // File d'attente : au plus « max » tâches en même temps
 function fileDAttente(max) {
   let actives = 0;

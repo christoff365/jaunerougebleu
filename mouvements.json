@@ -3002,5 +3002,191 @@
         "image": "images/mouvements/art-mamelouk/tapis-mamelouk.jpg"
       }
     ]
+  },
+  {
+    "mouvement": "Peinture chrétienne éthiopienne",
+    "slug": "peinture-chretienne-ethiopienne",
+    "status": "published",
+    "title": "La peinture chrétienne d'Éthiopie, six siècles de couleurs",
+    "subtitle": "Du XIVe au XIXe siècle : seize peintures de manuscrits, d'icônes et d'églises, de Baltimore, New York, Cleveland et Dublin",
+    "intro": "Le christianisme est arrivé en Éthiopie au IVe siècle, bien avant d'atteindre le nord de l'Europe. Depuis, les églises et les monastères des hauts plateaux ont fait peindre des livres d'Évangiles, des icônes de bois et des murs entiers, dans une langue liturgique propre au pays, le guèze (ge'ez), qu'on lit dans les inscriptions de presque toutes ces œuvres. Ce qui frappe d'abord, ce sont les couleurs franches posées en grands aplats, les contours noirs, les visages aux très grands yeux vus de face, les motifs géométriques et les rayures des vêtements. Les œuvres sont présentées dans l'ordre du temps : Évangiles du Tigray et du lac Tana aux XIVe et XVe siècles, style du monastère de Gunda Gunde au XVIe siècle, peintures de Gondar, la ville des empereurs, aux XVIIe et XVIIIe siècles, puis un livre de prières du XIXe siècle. Elles viennent du Walters Art Museum de Baltimore, du Metropolitan Museum of Art, du Cleveland Museum of Art et du Chester Beatty de Dublin ; nous n'avons pas encore pu obtenir d'images d'œuvres conservées en Éthiopie, et nous les ajouterons dès que possible.",
+    "works": [
+      {
+        "title": "Feuillet d'un livre des Évangiles, peint des deux côtés",
+        "artist": "Artiste éthiopien du Tigray",
+        "country": "Éthiopie",
+        "period": "première moitié du XIVe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/477148), domaine public (CC0)",
+        "analysis": "Une page de parchemin de 28 cm de haut, peinte à la détrempe. Au centre se dresse un petit édifice à colonnes rouges et noires, coiffé d'un toit pointu à la bordure dentelée, surmonté d'une croix. Tout autour, symétriques, de grands oiseaux sombres dans des cercles, de petits oiseaux, deux arbres et deux antilopes aux longues cornes recourbées. De courtes inscriptions en guèze, rouges et noires, nomment les animaux et les arbres. Selon la fiche du musée, la page a été peinte au Tigray, dans le nord de l'Éthiopie.",
+        "compare": "Le point de départ de l'exposition : un monde ordonné et symétrique, presque héraldique, où les animaux entourent l'édifice sacré. Les arcs et les colonnes reviennent dans les pages suivantes.",
+        "image": "images/mouvements/peinture-chretienne-ethiopienne/feuillet-evangiles-tigray.jpg"
+      },
+      {
+        "title": "La Crucifixion, avec le Christ représenté par un agneau au-dessus de la croix",
+        "artist": "Artiste éthiopien du Tigray",
+        "country": "Éthiopie",
+        "period": "début du XIVe siècle",
+        "museum": "Walters Art Museum, Baltimore",
+        "credit": "Walters Art Museum, Baltimore, W.836, fol. 6v (https://www.thedigitalwalters.org/Data/WaltersManuscripts/html/W836/), licence CC BY-SA 3.0",
+        "analysis": "Sous un grand arc décoré de volutes, entre deux colonnes, se dresse une croix à larges bras ornée de petits carrés. Le Christ n'y est pas peint en homme : un agneau blanc, symbole du Christ, se tient au-dessus de la croix. Deux personnages rouges, les mains sur la poitrine, se dressent de part et d'autre sur de hauts supports ; deux petits personnages se tiennent au pied de la croix. Selon le Walters, ce livre des Évangiles a été copié au Tigray par le scribe Mäṭre Krǝstos, et ses premières images renvoient aux lieux saints de Jérusalem, comme le Golgotha, tels qu'ils étaient au VIe siècle.",
+        "compare": "Une crucifixion sans corps du Christ, par le symbole seul. Comparez avec la Crucifixion du XVIe siècle, plus loin, où le Christ est peint en grand, entre deux soldats.",
+        "image": "images/mouvements/peinture-chretienne-ethiopienne/crucifixion-agneau-w836.jpg"
+      },
+      {
+        "title": "La Résurrection du Christ, entre deux femmes",
+        "artist": "Artiste éthiopien du Tigray",
+        "country": "Éthiopie",
+        "period": "début du XIVe siècle",
+        "museum": "Walters Art Museum, Baltimore",
+        "credit": "Walters Art Museum, Baltimore, W.836, fol. 7r (https://www.thedigitalwalters.org/Data/WaltersManuscripts/html/W836/), licence CC BY-SA 3.0",
+        "analysis": "La page suivante du même livre. En haut, un grand dôme rouge surmonté de trois croix, entre un soleil rouge et une lune blanche aux rayons pointus — selon le Walters, l'un des deux ne donne pas sa lumière. Dessous, sous un arc à colonnes, une figure auréolée aux ailes rouges, assise, tient une croix à longue hampe ; deux femmes auréolées, en longues robes, se tiennent de chaque côté. En bas, deux petits soldats sont couchés, avec leurs lances et leurs boucliers ronds.",
+        "compare": "Pas de paysage, mais un édifice coiffé de croix : selon le Walters, ces premières images du livre évoquent les lieux saints de Jérusalem autant que les événements.",
+        "image": "images/mouvements/peinture-chretienne-ethiopienne/resurrection-w836.jpg"
+      },
+      {
+        "title": "Le Christ ressuscité, avec l'archange Michel, Marie-Madeleine, saint Jean et saint Pierre",
+        "artist": "Artiste éthiopien de la région du lac Tana",
+        "country": "Éthiopie",
+        "period": "fin du XIVe siècle",
+        "museum": "Walters Art Museum, Baltimore",
+        "credit": "Walters Art Museum, Baltimore, W.839, verso (https://www.thedigitalwalters.org/Data/WaltersManuscripts/html/W839/), licence CC BY-SA 3.0",
+        "analysis": "Cinq figures auréolées se tiennent côte à côte, de face, sous une arcade décorée d'un damier. Selon le Walters, ce sont le Christ ressuscité, accompagné de l'archange Michel — le personnage ailé, à droite —, qui apparaît à Marie-Madeleine, à saint Jean et à saint Pierre. Leurs visages allongés, aux grands yeux et au long nez, sont presque semblables ; ce sont les vêtements, rouges, jaunes, bleu sombre, qui les distinguent. La page, arrachée d'un livre des Évangiles de la région du lac Tana, est très usée.",
+        "compare": "Comparez avec la Résurrection précédente : même siècle, autre région, mais la même façon d'aligner les saints, droits et immobiles, face à celui qui regarde.",
+        "image": "images/mouvements/peinture-chretienne-ethiopienne/christ-ressuscite-w839.jpg"
+      },
+      {
+        "title": "Saint Luc l'évangéliste",
+        "artist": "Artiste éthiopien de la région du lac Tana",
+        "country": "Éthiopie",
+        "period": "fin du XIVe siècle",
+        "museum": "Walters Art Museum, Baltimore",
+        "credit": "Walters Art Museum, Baltimore, W.840, verso (https://www.thedigitalwalters.org/Data/WaltersManuscripts/html/W840/), licence CC BY-SA 3.0",
+        "analysis": "Saint Luc est assis sur un siège aux pieds courbes, sur un fond bleu marbré, sous une arcade en damier. Il écrit sur une page où l'on lit des lettres guèzes. Selon le Walters, il est montré comme un scribe éthiopien, entouré des outils de son métier — cornes à encre, calames de roseau, grattoir —, et les mots qu'il tient sont les premiers de son Évangile ; son regard levé suggère l'inspiration divine. La page faisait face au début de l'Évangile de Luc dans un livre de la région du lac Tana.",
+        "compare": "À rapprocher du saint Luc suivant, peint un siècle plus tard : même sujet, mais un visage barbu presque réaliste et des plis rayés.",
+        "image": "images/mouvements/peinture-chretienne-ethiopienne/saint-luc-w840.jpg"
+      },
+      {
+        "title": "Feuillet d'un livre des Évangiles avec le portrait de saint Luc",
+        "artist": "Artiste éthiopien du Tigray",
+        "country": "Éthiopie",
+        "period": "vers 1440–1480",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1999.212), domaine public (CC0)",
+        "analysis": "Saint Luc, assis, barbu, auréolé, écrit avec un long calame sur un feuillet blanc. Son manteau est couvert de rayures rouges et jaunes, et le cadre de la page de frises géométriques. Selon le musée, son symbole, le bœuf, est dessiné dans l'arc au-dessus de lui, et le court texte en guèze dit : « Faites cette image de saint Luc avec ce taureau — son offrande — et avec ses bénédictions, qu'ils soient avec nous. Amen. » Le musée souligne les couleurs vives et le jeu des motifs géométriques, typiques de la peinture éthiopienne.",
+        "compare": "Le bœuf de Luc, petit et dessiné à l'encre, contraste avec le grand portrait coloré : l'évangéliste et son symbole sur la même page.",
+        "image": "images/mouvements/peinture-chretienne-ethiopienne/saint-luc-cleveland.jpg"
+      },
+      {
+        "title": "Les mages et les bergers",
+        "artist": "Artiste éthiopien de Gunda Gunde (Tigray)",
+        "country": "Éthiopie",
+        "period": "première moitié du XVIe siècle",
+        "museum": "Walters Art Museum, Baltimore",
+        "credit": "Walters Art Museum, Baltimore, W.850, fol. 2v (https://www.thedigitalwalters.org/Data/WaltersManuscripts/html/W850/), licence CC BY-SA 3.0",
+        "analysis": "La page est découpée en neuf cases. En haut, des hommes âgés et barbus, auréolés, portent des présents ; au milieu, un bœuf blanc, une vache rouge et son veau, deux ânes gris, et trois jeunes hommes ; en bas, des couples de personnages drapés. L'inscription rouge dit : « Image des mages qui sont venus de loin pour adorer le Fils de Dieu. » Selon le Walters, ce livre des Évangiles est un exemple de l'âge d'or du style de Gunda Gunde, du nom d'un monastère du Tigray : de grands blocs de couleur vive, des lignes fines et des figures très stylisées et expressives.",
+        "compare": "Une bande dessinée avant l'heure : l'histoire de la Nativité est racontée case par case, sans décor, par les personnages et les animaux.",
+        "image": "images/mouvements/peinture-chretienne-ethiopienne/mages-bergers-w850.jpg"
+      },
+      {
+        "title": "La Vierge à l'Enfant entre les archanges Michel et Gabriel",
+        "artist": "Artiste éthiopien de Gunda Gunde (Tigray)",
+        "country": "Éthiopie",
+        "period": "première moitié du XVIe siècle",
+        "museum": "Walters Art Museum, Baltimore",
+        "credit": "Walters Art Museum, Baltimore, W.850, fol. 3r (https://www.thedigitalwalters.org/Data/WaltersManuscripts/html/W850/), licence CC BY-SA 3.0",
+        "analysis": "Dans le même livre, la Vierge, enveloppée d'un grand manteau bleu sombre strié de fines lignes, tient l'Enfant habillé de jaune sur ses genoux. Les archanges Michel et Gabriel, de chaque côté, brandissent une épée et déploient au-dessus d'elle des ailes faites de petites écailles de couleur. Le fond est rayé de jaune. Une étoffe rouge est cousue au haut de la page : selon le Walters, c'est un rideau qui couvre l'image.",
+        "compare": "Les deux archanges protègent la Vierge comme des gardes. Une Vierge entre deux anges armés revient à la fin de l'exposition, dans un livre du XIXe siècle.",
+        "image": "images/mouvements/peinture-chretienne-ethiopienne/vierge-archanges-w850.jpg"
+      },
+      {
+        "title": "La Crucifixion",
+        "artist": "Artiste éthiopien de Gunda Gunde (Tigray)",
+        "country": "Éthiopie",
+        "period": "première moitié du XVIe siècle",
+        "museum": "Walters Art Museum, Baltimore",
+        "credit": "Walters Art Museum, Baltimore, W.850, fol. 197r (https://www.thedigitalwalters.org/Data/WaltersManuscripts/html/W850/), licence CC BY-SA 3.0",
+        "analysis": "Le Christ, en pagne rouge, est cloué sur une grande croix brune, sous un soleil rouge et une lune bleue qui ont chacun un visage. À gauche, un soldat pointe une lance vers son côté ; à droite, un autre lève vers lui un long bâton. Selon le Walters, l'inscription du haut dit : « Image de la Crucifixion de Notre-Seigneur Jésus-Christ », et l'écriteau de la croix porte en guèze « Jésus de Nazareth, roi des Juifs ».",
+        "compare": "Comparez avec la Crucifixion du XIVe siècle, au début de l'exposition : deux siècles plus tard, le symbole de l'agneau a laissé place au corps du Christ, peint en grand.",
+        "image": "images/mouvements/peinture-chretienne-ethiopienne/crucifixion-w850.jpg"
+      },
+      {
+        "title": "Triptyque d'Ewosṭatewos et de huit de ses disciples",
+        "artist": "Artiste éthiopien des hauts plateaux du Nord (Amhara)",
+        "country": "Éthiopie",
+        "period": "fin du XVIIe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/319625), domaine public (CC0)",
+        "analysis": "Trois panneaux de bois peints, reliés par des cordelettes, de 70 cm de haut. Au centre, Ewosṭatewos, en grand, à la longue barbe, tient une croix et un encensoir. Autour de lui, ses huit disciples, plus petits, barbus eux aussi, tiennent chacun une croix devant la poitrine. Tous ont des auréoles striées de rouge et des vêtements à motifs jaunes, rouges et orangés.",
+        "compare": "Une icône qui se ferme comme un livre : on rabat les deux volets sur le panneau central. Le maître est plus grand que ses disciples, comme un père au milieu de ses enfants.",
+        "image": "images/mouvements/peinture-chretienne-ethiopienne/triptyque-ewostatewos.jpg"
+      },
+      {
+        "title": "Saint Michel vient à cheval montrer sa puissance ; le miracle du poisson de Dorothée",
+        "artist": "Artiste éthiopien de Gondar",
+        "country": "Éthiopie",
+        "period": "fin du XVIIe siècle",
+        "museum": "Walters Art Museum, Baltimore",
+        "credit": "Walters Art Museum, Baltimore, W.835, fol. 18r (https://www.thedigitalwalters.org/Data/WaltersManuscripts/html/W835/), licence CC BY-SA 3.0",
+        "analysis": "Plusieurs scènes sur une même page, chacune légendée en rouge. En haut, selon le Walters : « Comment saint Michel vint avec son armée, à cheval, comme un roi, pour montrer sa puissance » — un cavalier couronné sur un cheval gris cabré, suivi de deux anges. Plus bas, Dorothée attrape un poisson à la main, puis tient un mouton d'une main et un poisson de l'autre ; saint Michel lui dit d'ouvrir le ventre du poisson, où il trouve une jarre pleine d'or. Selon le Walters, ce recueil de lectures sur les miracles de l'archange Michel a été peint à Gondar, où la cour impériale s'installe alors, par des artistes formés comme peintres, proches des peintres de murs.",
+        "compare": "Le style a changé : fond clair, figures plus souples, vêtements à motifs de tissus. Comparez avec la Vierge peinte sur toile, vers 1800, plus loin.",
+        "image": "images/mouvements/peinture-chretienne-ethiopienne/saint-michel-cavalier-w835.jpg"
+      },
+      {
+        "title": "Diptyque des douze apôtres et de saint Paul",
+        "artist": "Atelier ou entourage de Wäldä Maryam",
+        "country": "Éthiopie",
+        "period": "vers 1700",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/2023.4), domaine public (CC0)",
+        "analysis": "Deux panneaux de bois montrent treize saints, debout sur deux rangées, de face, les mains jointes sur la poitrine. Selon le musée, ce diptyque, de la taille qui convient à une église ou à une riche maison, est peint dans le style des ateliers de la cour du début du XVIIe au milieu du XVIIIe siècle, par Wäldä Maryam ou un de ses élèves. Chaque saint porte des étoffes à la mode, importées d'Inde ; leurs poses et leurs habits se ressemblent, pour montrer qu'ils forment un groupe, mais leurs visages et leurs coiffures sont différents. Des légendes en guèze donnent le nom de chacun.",
+        "compare": "Une foule de saints où chacun garde son visage : comparez avec les cinq figures presque identiques du XIVe siècle, au début de l'exposition.",
+        "image": "images/mouvements/peinture-chretienne-ethiopienne/diptyque-apotres-walda-maryam.jpg"
+      },
+      {
+        "title": "Icône pendentif avec saint Georges et la Vierge à l'Enfant en majesté",
+        "artist": "Artiste éthiopien des hauts plateaux du Nord ou du Centre",
+        "country": "Éthiopie",
+        "period": "XVIIIe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/309529), domaine public (CC0)",
+        "analysis": "Une minuscule icône de bois peint, de 12 cm de haut, faite pour être portée : un panneau, surmonté d'une anse sculptée percée de trous, et un volet qui s'ouvre sur une charnière de métal. Sur le volet, saint Georges, sur un cheval blanc cabré, transperce de sa lance un dragon ; dans le panneau, la Vierge, en manteau bleu, est assise sur un trône avec l'Enfant, entre deux personnages. La peinture du volet est craquelée, mais les couleurs — rouge, vert, jaune, blanc — restent vives.",
+        "compare": "La plus petite œuvre de l'exposition : les mêmes sujets que dans les églises, à garder sur soi. Saint Georges à cheval répond au saint Michel cavalier de Gondar.",
+        "image": "images/mouvements/peinture-chretienne-ethiopienne/icone-pendentif-saint-georges.jpg"
+      },
+      {
+        "title": "Peinture murale de la Vierge à l'Enfant avec des donateurs",
+        "artist": "Artiste éthiopien des hauts plateaux du Nord",
+        "country": "Éthiopie",
+        "period": "vers 1800",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/844779), domaine public (CC0)",
+        "analysis": "Une grande peinture de deux mètres de haut, peinte sur une toile enduite de gesso : selon son titre, c'est une peinture murale. La Vierge, en manteau bleu sombre semé de petites fleurs, est assise sur un trône couvert d'étoffes ; elle tient l'Enfant. Deux anges tirent de grands rideaux rouges ; au-dessus, deux autres anges portent un objet doré. En bas à droite, deux hommes plus petits, en vêtements blancs, se tiennent debout : ce sont sans doute les donateurs du titre. Des visages et des inscriptions courent le long du bas. La peinture est très usée.",
+        "compare": "La Vierge entre rideaux et anges, comme dans le livre du XVIe siècle, mais à l'échelle d'un mur : une image faite pour être vue de loin.",
+        "image": "images/mouvements/peinture-chretienne-ethiopienne/vierge-donateurs-peinture-murale.jpg"
+      },
+      {
+        "title": "L'archange Ouriel et le prophète Esdras",
+        "artist": "Artiste éthiopien",
+        "country": "Éthiopie",
+        "period": "XIXe siècle",
+        "museum": "Chester Beatty, Dublin",
+        "credit": "Chester Beatty, Dublin, W 911, fol. 1v (https://viewer.cbl.ie/viewer/ppnresolver?id=W_911), licence CC BY 4.0",
+        "analysis": "Un ange aux ailes bleues et rouges, auréolé, assis sur un nuage, tend une coupe à un vieil homme agenouillé, en manteau bleu, qui la porte à ses lèvres. Le fond est jaune vif. Selon le Chester Beatty, ce livre de prières, écrit en guèze au XIXe siècle et orné de douze peintures en pleine page, s'ouvre sur l'archange Ouriel avec le prophète Esdras, face à deux saints.",
+        "compare": "Le dessin est devenu plus souple et les couleurs plus claires, presque comme de l'aquarelle : un autre âge de la peinture éthiopienne.",
+        "image": "images/mouvements/peinture-chretienne-ethiopienne/archange-ouriel-ezra.jpg"
+      },
+      {
+        "title": "La Vierge à l'Enfant entre deux anges",
+        "artist": "Artiste éthiopien",
+        "country": "Éthiopie",
+        "period": "XIXe siècle",
+        "museum": "Chester Beatty, Dublin",
+        "credit": "Chester Beatty, Dublin, W 911, fol. 5v (https://viewer.cbl.ie/viewer/ppnresolver?id=W_911), licence CC BY 4.0",
+        "analysis": "La Vierge, en manteau bleu bordé de points jaunes, tient l'Enfant habillé de jaune, qui tend la main. De chaque côté, un ange tient une épée ; leurs grandes ailes roses se croisent au-dessus d'elle. Derrière, une draperie orangée et un ciel vert et violet. Selon le Chester Beatty, cette image termine un hymne à la Vierge, dans un livre de prières du XIXe siècle.",
+        "compare": "Le point d'arrivée de l'exposition : trois siècles après le livre de Gunda Gunde, les mêmes figures — la Vierge entre deux anges armés —, peintes autrement.",
+        "image": "images/mouvements/peinture-chretienne-ethiopienne/vierge-enfant-chester-beatty.jpg"
+      }
+    ]
   }
 ]

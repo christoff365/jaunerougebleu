@@ -590,6 +590,7 @@ const TRAD = {
   "Bien-être": ["Well-being", "Bienestar", "الرفاهية"],
   "Jeux": ["Games", "Juegos", "ألعاب"],
   "Télévision": ["TV", "Televisión", "التلفزيون"],
+  "Sur une télévision": ["On a television", "En un televisor", "على التلفزيون"],
   "Admin": ["Admin", "Admin", "الإدارة"],
   "Site en construction": ["Site under construction", "Sitio en construcción", "الموقع قيد الإنشاء"],
   "L'art mondial,": ["World art,", "El arte del mundo,", "فنّ العالم،"],

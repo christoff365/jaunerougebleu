@@ -3188,5 +3188,169 @@
         "image": "images/mouvements/peinture-chretienne-ethiopienne/vierge-enfant-chester-beatty.jpg"
       }
     ]
+  },
+  {
+    "mouvement": "Art amarnien",
+    "slug": "art-amarnien",
+    "status": "published",
+    "title": "L'art amarnien, Akhenaton, Néfertiti et le disque solaire",
+    "subtitle": "Égypte, vers 1353–1330 av. J.-C. : quatorze œuvres de Cleveland, New York, New Haven et Stockholm",
+    "intro": "Vers 1353 av. J.-C., le jeune roi Amenhotep IV, fils d'Amenhotep III, bouleverse la religion égyptienne : il ne vénère plus qu'un seul dieu, l'Aton, le disque du soleil, et prend le nom d'Akhenaton. Il fait d'abord bâtir à Karnak un grand temple à l'Aton, avec de petits blocs de pierre de taille régulière, les talatat, qu'un seul homme pouvait porter ; puis il fonde une nouvelle capitale, Akhetaton, aujourd'hui Tell el-Amarna, qui donne son nom à cet art. Les images changent : le soleil tend ses rayons terminés par des mains vers le roi et la reine Néfertiti, souvent représentée, et la vie quotidienne, la nature, les champs et les chevaux entrent dans les temples. Après la mort d'Akhenaton, les temples de l'Aton furent démontés et leurs blocs réutilisés dans d'autres constructions, ce qui explique que beaucoup de ces œuvres soient des fragments. Elles viennent du Cleveland Museum of Art, du Metropolitan Museum of Art, de la Yale University Art Gallery et du Medelhavsmuseet de Stockholm ; nous n'avons pas encore pu obtenir d'images d'œuvres conservées en Égypte, et nous les ajouterons dès que possible.",
+    "works": [
+      {
+        "title": "Talatat : portrait de Néfertiti",
+        "artist": "Sculpteur égyptien",
+        "country": "Égypte",
+        "period": "vers 1353–1347 av. J.-C.",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1959.188), domaine public (CC0)",
+        "analysis": "Un bloc de grès peint, de 22 cm de côté, où l'on voit de profil le visage d'une femme coiffée d'une lourde perruque aux mèches tressées : selon le musée, c'est la reine Néfertiti. Le relief est sculpté en creux, l'œil allongé, les lèvres pleines, le menton marqué. Selon le musée, ce bloc vient du temple de l'Aton, le disque solaire, construit par le jeune Akhenaton à Karnak avant qu'il ne déménage sa capitale à Amarna. Il est taillé dans le petit côté d'une talatat, un bloc de taille régulière, assez léger pour que la construction aille plus vite.",
+        "compare": "Le point de départ de l'exposition : la reine qui, selon le musée, apparaît dans ces reliefs bien plus souvent que le roi lui-même.",
+        "image": "images/mouvements/art-amarnien/talatat-portrait-nefertiti.jpg"
+      },
+      {
+        "title": "Talatat : Néfertiti fait une offrande à l'Aton",
+        "artist": "Sculpteur égyptien",
+        "country": "Égypte",
+        "period": "1353–1347 av. J.-C.",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1959.186), domaine public (CC0)",
+        "analysis": "Un autre bloc du temple de Karnak, en grès peint, de 41 cm de long. Le visage de Néfertiti, de profil, est coiffé d'une perruque ; devant elle, une colonne de hiéroglyphes. Selon le musée, juste devant son nez se trouve le signe ankh, symbole de la vie, que lui donne l'Aton, le soleil, pour qu'elle respire ce don du dieu. Le musée rappelle qu'après le règne d'Akhenaton, ces temples de l'Aton furent démontés et leurs blocs utilisés comme fondations et remblais pour agrandir le grand temple d'Amon, le dieu que l'Aton avait brièvement remplacé.",
+        "compare": "Le dieu n'a pas de visage : il agit par ses rayons et ses mains. Comparez avec le relief de New York, plus loin, où l'on voit les rayons.",
+        "image": "images/mouvements/art-amarnien/talatat-nefertiti-offrande-aton.jpg"
+      },
+      {
+        "title": "Talatat : hommes qui piochent la terre",
+        "artist": "Sculpteur égyptien",
+        "country": "Égypte",
+        "period": "vers 1353–1347 av. J.-C.",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1959.187), domaine public (CC0)",
+        "analysis": "Deux ouvriers, courbés, le crâne rasé, en pagne rouge, lèvent leur houe et attaquent le sol. Selon le musée, ils faisaient partie d'une grande scène montrant la fabrication des briques de boue : ils piochent la terre et ramassent l'argile, première étape du travail. Le musée ajoute que la scène raconte très probablement un événement réel, lié aux immenses chantiers du roi à Karnak. Les talatat, rappelle-t-il, pouvaient être portées et mises en place par un seul homme.",
+        "compare": "Des ouvriers au travail sur les murs d'un temple : l'art amarnien fait entrer la vie de tous les jours dans le décor sacré.",
+        "image": "images/mouvements/art-amarnien/talatat-hommes-piochant.jpg"
+      },
+      {
+        "title": "Relief de la reine Néfertiti",
+        "artist": "Sculpteur égyptien",
+        "country": "Égypte",
+        "period": "vers 1347–1330 av. J.-C.",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/545803), domaine public (CC0)",
+        "analysis": "Un fragment de grès de 32 cm de large. La reine, de profil, porte une perruque aux mèches courtes et serrées, surmontée d'une haute couronne ornée d'une rangée de petits motifs dressés. Devant son visage descend un trait oblique ; derrière elle, une colonne de hiéroglyphes, dans un cadre. Le profil est fin : nez droit, lèvres charnues, menton fuyant, long cou.",
+        "compare": "Le même visage qu'à Karnak, mais avec la couronne : comparez les deux profils de Néfertiti du début de l'exposition.",
+        "image": "images/mouvements/art-amarnien/relief-reine-nefertiti.jpg"
+      },
+      {
+        "title": "Pièce d'essai avec la tête d'Akhenaton en relief",
+        "artist": "Sculpteur égyptien",
+        "country": "Égypte",
+        "period": "vers 1347–1330 av. J.-C.",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/545909), domaine public (CC0)",
+        "analysis": "Une plaque de calcaire de 35 cm de haut, sur laquelle un sculpteur a taillé en creux une seule tête de profil, coiffée d'une couronne arrondie qui descend sur la nuque. Le visage est très particulier : long cou, menton allongé, lèvres épaisses, œil étiré. Le titre le dit : c'est une « pièce d'essai », un exercice ou un modèle d'atelier, et non le morceau d'un mur.",
+        "compare": "Le visage du roi tel que les sculpteurs apprenaient à le tailler : un modèle répété, reconnaissable entre tous.",
+        "image": "images/mouvements/art-amarnien/piece-essai-tete-akhenaton.jpg"
+      },
+      {
+        "title": "Relief montrant l'Aton qui touche la reine",
+        "artist": "Sculpteur égyptien",
+        "country": "Égypte",
+        "period": "vers 1347–1330 av. J.-C.",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/558139), domaine public (CC0)",
+        "analysis": "Un fragment de calcaire de 44,5 cm de large. À droite, le visage d'une reine, de profil ; l'œil a été abîmé. Au-dessus et devant elle descendent les rayons du soleil, de longues lignes qui se terminent par de petites mains ; deux de ces mains tiennent devant son visage le signe ankh, la croix ansée. À gauche, des formes arrondies et des traits droits, peut-être un meuble ou un vêtement.",
+        "compare": "Les mains au bout des rayons : c'est ainsi que l'art amarnien montre le dieu. Comparez avec le signe ankh sur le bloc de Cleveland.",
+        "image": "images/mouvements/art-amarnien/relief-aton-reine.jpg"
+      },
+      {
+        "title": "Montant de porte gravé d'une louange à l'Aton",
+        "artist": "Sculpteur égyptien",
+        "country": "Égypte",
+        "period": "1353–1337 av. J.-C.",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1921.1179), domaine public (CC0)",
+        "analysis": "Un bloc de calcaire de 55 cm de haut, autrefois peint. Une seule colonne de hiéroglyphes, nets et bien espacés, est encadrée de deux lignes rouges qui gardent leur couleur. Selon le titre donné par le musée, c'est une louange à l'Aton, gravée sur le montant d'une porte.",
+        "compare": "Pas d'image, seulement l'écriture, soigneusement alignée entre deux traits rouges : ici, ce sont les mots qui honorent le soleil.",
+        "image": "images/mouvements/art-amarnien/montant-porte-louange-aton.jpg"
+      },
+      {
+        "title": "Chevaux attelés à un char",
+        "artist": "Sculpteur égyptien",
+        "country": "Égypte",
+        "period": "vers 1347–1330 av. J.-C.",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/544062), domaine public (CC0)",
+        "analysis": "Un bloc de calcaire peint de 52 cm de long, de la taille d'une talatat. Un cheval harnaché, au corps élancé, au cou long et à la tête fine, avance vers la gauche ; on devine derrière lui le contour d'un deuxième cheval, et, au bord droit, la courbe d'une roue. Le dessin est léger, presque une esquisse, avec quelques traces de couleur.",
+        "compare": "La nature et les animaux observés de près : à rapprocher de l'orge et de la branche d'olivier qui suivent.",
+        "image": "images/mouvements/art-amarnien/chevaux-attelage-char.jpg"
+      },
+      {
+        "title": "Épis d'orge mûrs",
+        "artist": "Sculpteur égyptien",
+        "country": "Égypte",
+        "period": "vers 1347–1330 av. J.-C.",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/544065), domaine public (CC0)",
+        "analysis": "Un bloc de calcaire peint, de 52 cm de long, entièrement couvert d'épis d'orge. Les tiges, droites ou courbées, s'entrecroisent ; chaque épi est fait de petits grains en chevrons et de longues barbes fines. Des traces de bleu restent dans les creux. Il n'y a aucun personnage : le champ lui-même est le sujet.",
+        "compare": "Un champ d'orge pour lui-même, sans paysan : la nature devient un sujet à part entière.",
+        "image": "images/mouvements/art-amarnien/epis-orge-murs.jpg"
+      },
+      {
+        "title": "Main tenant une branche d'olivier",
+        "artist": "Sculpteur égyptien",
+        "country": "Égypte",
+        "period": "vers 1347–1330 av. J.-C.",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/544057), domaine public (CC0)",
+        "analysis": "Sur un bloc de calcaire peint, une main rouge, venue d'en bas à gauche, tient une branche chargée de petites feuilles et d'olives, peintes d'un bleu-gris. D'autres tiges montent derrière elle ; à droite, des hiéroglyphes, en partie effacés. Le reste du personnage a disparu avec le bloc voisin.",
+        "compare": "Il ne reste qu'une main et une branche, mais le geste suffit à faire imaginer toute la scène.",
+        "image": "images/mouvements/art-amarnien/main-branche-olivier.jpg"
+      },
+      {
+        "title": "Relief d'Amarna",
+        "artist": "Sculpteur égyptien",
+        "country": "Égypte",
+        "period": "1349–1336 av. J.-C.",
+        "museum": "Yale University Art Gallery, New Haven",
+        "credit": "Yale University Art Gallery, New Haven (https://artgallery.yale.edu/collections/objects/108025), domaine public",
+        "analysis": "Un bloc de calcaire de 54 cm de long, où le rouge est encore vif. On y voit des bâtiments vus de face, réduits à leurs lignes : colonnes, portes à linteau, murs. Deux petits personnages se courbent jusqu'au sol, l'un en haut, couché à plat, l'autre en bas, le visage vers la terre. Selon le musée, le bloc a été retrouvé à Hermopolis, mais il vient d'el-Amarna.",
+        "compare": "Des bâtiments réduits à quelques lignes, avec des personnages minuscules : on croirait voir une ville de loin.",
+        "image": "images/mouvements/art-amarnien/relief-amarna-yale.jpg"
+      },
+      {
+        "title": "Fragment de la couronne bleue de Néfertiti",
+        "artist": "Sculpteur égyptien",
+        "country": "Égypte",
+        "period": "XVIIIe dynastie (règne d'Akhenaton)",
+        "museum": "Medelhavsmuseet, Stockholm",
+        "credit": "Medelhavsmuseet, Stockholm (https://collections.smvk.se/carlotta-mhm/web/object/3007416), via Europeana, licence CC BY 4.0",
+        "analysis": "Un petit fragment de faïence de 8 cm, couvert d'une glaçure bleu foncé, décoré de dizaines de petits cercles en relief, et percé de deux trous. Selon le musée, c'est un morceau du casque ou de la couronne bleue portée par Néfertiti, qui faisait partie d'un relief mural ; il a été trouvé à Tell el-Amarna lors des fouilles de l'Egypt Exploration Society.",
+        "compare": "Un éclat de bleu vif : selon le musée, il appartenait à un relief, ce qui rappelle que ces murs étaient en couleur.",
+        "image": "images/mouvements/art-amarnien/fragment-couronne-bleue-nefertiti.jpg"
+      },
+      {
+        "title": "Amulette en forme de princesse amarnienne (buste d'un enfant royal)",
+        "artist": "Sculpteur égyptien",
+        "country": "Égypte",
+        "period": "1352–1336 av. J.-C.",
+        "museum": "Yale University Art Gallery, New Haven",
+        "credit": "Yale University Art Gallery, New Haven (https://artgallery.yale.edu/collections/objects/34994), domaine public",
+        "analysis": "Un minuscule buste de 7,6 cm, en verre bleu moulé. Une jeune fille de profil, au crâne très allongé vers l'arrière, porte une mèche de cheveux sur le côté de la tête. Le visage a le menton pointu et les lèvres pleines du style amarnien. Le titre du musée en fait une princesse, une enfant de la famille royale.",
+        "compare": "Comparez avec le long visage du roi sur la pièce d'essai : les mêmes traits étirés, cette fois en verre bleu.",
+        "image": "images/mouvements/art-amarnien/amulette-princesse-amarna.jpg"
+      },
+      {
+        "title": "Vase canope au couvercle en forme de tête de reine",
+        "artist": "Sculpteur égyptien",
+        "country": "Égypte",
+        "period": "vers 1347–1330 av. J.-C. ou peu après",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/544689), domaine public (CC0)",
+        "analysis": "Un grand vase de travertin (albâtre égyptien), au couvercle sculpté en forme de tête de femme. Elle porte une perruque aux mèches ondulées, un large collier, et ses yeux sont incrustés de verre bleu et de pierre sombre, ce que confirme la fiche du musée. La pierre translucide est veinée de bandes plus claires.",
+        "compare": "Le point d'arrivée de l'exposition : un visage royal sculpté en ronde-bosse, aux lèvres pleines, comme les profils de Néfertiti du début de l'exposition.",
+        "image": "images/mouvements/art-amarnien/vase-canope-reine.jpg"
+      }
+    ]
   }
 ]

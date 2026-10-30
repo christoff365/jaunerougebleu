@@ -529,6 +529,8 @@ html.sans-animation *,html.sans-animation *::before,html.sans-animation *::after
 @media(max-width:640px){.expo-top{flex-direction:column;align-items:stretch}.expo-actions{order:-1;justify-content:flex-start}}
 .diapo-btn{background:#111;border:1px solid #111;color:#fff;font-size:12px;padding:6px 14px;border-radius:3px;white-space:nowrap}
 .diapo-btn:hover,.diapo-btn:focus-visible{background:#C9A84C;border-color:#C9A84C;color:#111}
+.diapo-tv{background:#fff;border:1px solid #111;color:#111;font-size:12px;padding:6px 14px;border-radius:3px;white-space:nowrap;text-decoration:none}
+.diapo-tv:hover,.diapo-tv:focus-visible{background:#C9A84C;border-color:#C9A84C}
 html.diapo-ouvert,html.diapo-ouvert body{overflow:hidden}
 .diapo{position:fixed;inset:0;z-index:5000;background:#0b0b0b;color:#eee;display:flex;flex-direction:column;font-size:clamp(15px,1.45vw,34px)}
 .diapo-prog{height:4px;background:#2a2a2a;flex-shrink:0}
@@ -594,6 +596,7 @@ html.diapo-ouvert,html.diapo-ouvert body{overflow:hidden}
     <a href="jeux/index.html">Jeux</a>
     <button onclick="go('mus',this)">Musées</button>
     <button onclick="go('mv',this)">Mouvements</button>
+    <a href="tv/">Télévision</a>
   </div>
   <div class="langs" role="group" aria-label="Langue">
     <button class="on" data-lang="fr" lang="fr" aria-label="Français" onclick="setLang('fr',this)">FR</button>
@@ -708,7 +711,7 @@ html.diapo-ouvert,html.diapo-ouvert body{overflow:hidden}
     <div class="expo-top">
       <div><h2 id="expo-h">Exposition</h2><p style="font-size:13px;color:#666;margin-top:4px" id="expo-s"></p>
         <div class="tags expo-noto" role="group" aria-label="Œuvres" id="expo-noto"><span class="tag on" role="button" tabindex="0" aria-pressed="true" data-notoriete="celebres" onclick="relancerExpo(this.dataset.notoriete)">Les plus célèbres</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-notoriete="decouvertes" onclick="relancerExpo(this.dataset.notoriete)">Découvertes (moins connues)</span></div></div>
-      <div class="expo-actions"><button type="button" class="diapo-btn" onclick="lancerDiaporama('expo-tl','expo-h','expo-s')"><span aria-hidden="true">▶</span> <span>Diaporama</span></button>
+      <div class="expo-actions"><button type="button" class="diapo-btn" onclick="lancerDiaporama('expo-tl','expo-h','expo-s')"><span aria-hidden="true">▶</span> <span>Diaporama</span></button><a class="diapo-tv" href="tv/"><span aria-hidden="true">📺</span> <span>Sur une télévision</span></a>
 <button class="back-btn" onclick="go('build',document.querySelectorAll('.nav-links button')[1])"><span aria-hidden="true">←</span> Retour</button></div>
     </div>
     <div id="expo-tl" aria-live="polite"></div>
@@ -975,7 +978,7 @@ html.diapo-ouvert,html.diapo-ouvert body{overflow:hidden}
         <h2 id="sp-h"></h2>
         <p style="font-size:14px;color:#666;margin-top:4px;font-style:italic" id="sp-sub"></p>
       </div>
-      <div class="expo-actions"><button type="button" class="diapo-btn" onclick="lancerDiaporama('sp-wks','sp-h','sp-sub')"><span aria-hidden="true">▶</span> <span>Diaporama</span></button>
+      <div class="expo-actions"><button type="button" class="diapo-btn" onclick="lancerDiaporama('sp-wks','sp-h','sp-sub')"><span aria-hidden="true">▶</span> <span>Diaporama</span></button><a class="diapo-tv" href="tv/"><span aria-hidden="true">📺</span> <span>Sur une télévision</span></a>
 <button class="back-btn" onclick="retourSp()"><span aria-hidden="true">←</span> Retour</button></div>
     </div>
     <p style="font-size:14px;color:#555;line-height:1.8;margin-bottom:24px;border-left:3px solid #C9A84C;padding-left:16px;font-style:italic" id="sp-intro"></p>
@@ -1007,9 +1010,9 @@ html.diapo-ouvert,html.diapo-ouvert body{overflow:hidden}
   </div>
 </footer>
 <!-- Traductions (anglais, espagnol, arabe) et moteur de traduction -->
-<script src="i18n.js?v=20261030a"></script>
+<script src="i18n.js?v=20261030d"></script>
 <!-- Recherche en direct dans les catalogues ouverts des musées (domaine public) -->
-<script src="musees.js?v=20261030a"></script>
+<script src="musees.js?v=20261030d"></script>
 <script>
 const ART = [
   { img:"images/oeuvres/grande-vague-hokusai.jpg", credit:'Image : <a href="https://www.metmuseum.org/art/collection/search/45434" target="_blank" rel="noopener">The Metropolitan Museum of Art</a>, domaine public (Open Access)', name:"La Grande Vague de Kanagawa", meta:"Katsushika Hokusai · Japon · vers 1830-1832 · Metropolitan Museum of Art",
@@ -1140,6 +1143,7 @@ function afficherMusees(){
     const liste=MUSEES_MONDE[r];
     return `<section class="mus-region"><h3>${esc(r)}</h3><p>${liste.length} <span>institutions</span></p>
       ${r==="Asie de l'Est"?'<p>Au Japon, le générateur interroge aussi directement <a class="mus-site" href="https://colbase.nich.go.jp/?locale=fr" target="_blank" rel="noopener">ColBase</a>, le catalogue des musées nationaux de Tokyo, Kyoto, Nara et Kyushu et des collections impériales, par la plateforme publique <a class="mus-site" href="https://jpsearch.go.jp/" target="_blank" rel="noopener">Japan Search</a> : des dizaines de milliers d\'œuvres libres de réutilisation. Le bouton « Exposition » de ces musées puise dans ce catalogue.</p>':''}
+      ${r==='Amériques'?'<p>Musées des États-Unis : le Met (New York), l\'Art Institute of Chicago, le Cleveland Museum of Art, le Minneapolis Institute of Art et les sept musées d\'art du Smithsonian (Washington) sont interrogés directement dans leurs catalogues : ils figurent plus haut, dans « Dans toutes les régions », car ils conservent des œuvres du monde entier. Le Getty, les deux musées de Yale (New Haven, eux aussi interrogés directement) et le Walters (Baltimore) figurent dans « Europe », car leurs collections sont surtout européennes.</p>':''}
       ${r==='Europe'?'<p>Avec quatre musées américains dont les collections sont surtout européennes : Getty, Yale (deux musées) et Walters.</p>':''}
       <ul lang="fr">${liste.map(m=>lienMusee(m[0],m[3]||m[0])).join('')}</ul>
       ${r==='Europe'?`<p>En Europe, le générateur interroge aussi directement le catalogue du <a class="mus-site" href="https://www.smk.dk/" target="_blank" rel="noopener">SMK – Statens Museum for Kunst (Copenhague)</a> <a class="wd-lien" href="https://www.wikidata.org/wiki/Q671384" target="_blank" rel="noopener" title="Fiche Wikidata" aria-label="Fiche Wikidata"><span class="wd-ico" aria-hidden="true"></span></a>.${boutonExpoMusee('Q671384','SMK – Statens Museum for Kunst (Copenhague)')}</p>`:''}</section>`;
@@ -1939,10 +1943,10 @@ afficherValeurs(0);
 traduirePage();
 </script>
 <!-- Fenêtre Accessibilité de chaque œuvre et menu Affichage et lecture -->
-<script src="orchestre.js?v=20261030a"></script>
-<script src="accessibilite.js?v=20261030a"></script>
-<script src="diaporama.js?v=20261030a"></script>
+<script src="orchestre.js?v=20261030d"></script>
+<script src="accessibilite.js?v=20261030d"></script>
+<script src="diaporama.js?v=20261030d"></script>
 <!-- Séances de bien-être composées à la demande -->
-<script src="bienetre.js?v=20261030a"></script>
+<script src="bienetre.js?v=20261030d"></script>
 </body>
 </html>

@@ -3352,5 +3352,214 @@
         "image": "images/mouvements/art-amarnien/vase-canope-reine.jpg"
       }
     ]
+  },
+  {
+    "mouvement": "Art de cour du royaume du Bénin",
+    "slug": "art-de-cour-du-benin",
+    "status": "published",
+    "title": "L'art de cour du royaume du Bénin, bronzes et ivoires des oba",
+    "subtitle": "Nigeria, XVe–XIXe siècle : dix-huit œuvres de New York, Cleveland, New Haven et Stockholm",
+    "intro": "Le royaume du Bénin n'est pas l'actuelle république du Bénin : il se trouve dans le sud du Nigeria, autour de sa capitale, Benin City, l'ancienne Edo. Ses rois, les oba, faisaient travailler pour le palais des guildes d'artistes : les fondeurs de laiton de l'Igun Eronmwon, les sculpteurs d'ivoire et de bois de l'Igbesanmwan. Ils ont créé des têtes commémoratives posées sur les autels des rois défunts, des défenses d'éléphant sculptées, et près de 900 plaques de laiton qui ornaient le palais et racontaient l'histoire et les coutumes de la cour. On y voit aussi, dès le XVIe siècle, des marchands portugais arrivés par la mer. En février 1897, une expédition militaire britannique prit Benin City, incendia et pilla le palais et exila le roi Ovonramwen : des milliers d'œuvres furent emportées en Europe, puis dispersées dans les musées et les collections du monde entier. Plusieurs fiches de cette exposition le rappellent. Depuis 2022, des musées, dont le Smithsonian à Washington et des musées allemands, ont rendu des œuvres au Nigeria. La lignée des oba, elle, continue de régner à Benin City. Les œuvres présentées ici viennent du Metropolitan Museum of Art, du Cleveland Museum of Art, de la Yale University Art Gallery et de l'Etnografiska museet de Stockholm ; nous n'avons pas encore pu obtenir d'images libres d'œuvres conservées au Nigeria, et nous les ajouterons dès que possible.",
+    "works": [
+      {
+        "title": "Masque-pendentif de la reine mère Idia",
+        "artist": "Sculpteurs de la guilde Igbesanmwan",
+        "country": "Nigeria",
+        "period": "XVIe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/318622), domaine public (CC0)",
+        "analysis": "Un visage d'ivoire de 24 cm à peine, que le musée identifie dans son titre comme celui d'Idia, l'iyoba, c'est-à-dire la reine mère. Deux bandes de fer incrustées marquent le front, les yeux sont cernés de métal sombre, et la coiffure est rendue par un fin quadrillage. Tout autour du sommet, une couronne de petites têtes sculptées ; une autre rangée de têtes forme un collier ajouré sous le menton. Selon la fiche, il est fait d'ivoire, de fer, de laiton et de charbon ; le titre précise que c'est un pendentif, et non un masque porté sur le visage.",
+        "compare": "Le point de départ de l'exposition : un portrait en ivoire. Comparez-le aux têtes de laiton qui suivent.",
+        "image": "images/mouvements/art-de-cour-du-benin/masque-pendentif-reine-mere-idia.jpg"
+      },
+      {
+        "title": "Tête d'un oba (uhunmwun-elao)",
+        "artist": "Fondeurs de la guilde Igun Eronmwon",
+        "country": "Nigeria",
+        "period": "début du XVe – milieu du XVIe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/310766), domaine public (CC0)",
+        "analysis": "Une tête de laiton de 22 cm seulement, que le musée date du début du XVe au milieu du XVIe siècle. Le visage est lisse, les joues pleines, les lèvres bien dessinées. Un bonnet fait d'un filet de perles serre le crâne, de longues mèches de perles tombent de chaque côté du visage, et un haut collier de rangs superposés entoure le cou.",
+        "compare": "Gardez en tête ce visage fin et dégagé : au fil des siècles, le collier monte jusqu'à couvrir le menton, comme on le verra sur la tête du XIXe siècle.",
+        "image": "images/mouvements/art-de-cour-du-benin/tete-oba-xve-xvie.jpg"
+      },
+      {
+        "title": "Tête commémorative d'ancêtre (uhunmwun-elao)",
+        "artist": "Fondeurs de la guilde Igun Eronmwon",
+        "country": "Nigeria",
+        "period": "milieu du XVIe ou début du XVIIe siècle",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1938.6), domaine public (CC0)",
+        "analysis": "Selon le musée, chaque nouvel oba commandait de nombreux objets, dont des têtes de laiton comme celle-ci, quand il consacrait un autel à son prédécesseur. Ce roi porte plusieurs rangs de colliers de perles de corail, qui montent jusqu'aux lèvres ; des perles tubulaires ornent son bonnet en filet et les fines tresses le long des tempes. Son visage, calme, est idéalisé, même s'il représente une personne précise. La tête, coulée épaisse, servait autrefois de support à une défense d'éléphant sculptée. Le laiton, qui ne se corrode pas, symbolise la permanence de la royauté. Le musée rappelle que cet objet religieux, posé sur un autel des ancêtres dans le palais de l'oba, est aujourd'hui exposé au public dans un musée américain, comme beaucoup d'objets pris sur les autels du Bénin.",
+        "compare": "Le musée précise que les oba portent encore aujourd'hui des coiffes et des bijoux de corail comme ceux de cette tête.",
+        "image": "images/mouvements/art-de-cour-du-benin/tete-commemorative-ancetre-cleveland.jpg"
+      },
+      {
+        "title": "Tête d'un oba (uhunmwun-elao)",
+        "artist": "Fondeurs de la guilde Igun Eronmwon",
+        "country": "Nigeria",
+        "period": "XIXe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/310283), domaine public (CC0)",
+        "analysis": "Une tête plus tardive et plus massive, de 34 cm. Le collier de perles monte maintenant jusqu'à la lèvre inférieure et cache tout le menton ; la tête repose sur un large rebord décoré de petits motifs en relief. Le bonnet de perles en filet est hérissé d'excroissances, et des marques verticales sont gravées au-dessus des yeux. Le visage est devenu plus schématique : de grands yeux en amande, un nez large, une bouche serrée.",
+        "compare": "Comparez avec la tête du XVe–XVIe siècle vue plus haut : même sujet, mais la parure a pris le dessus sur le visage.",
+        "image": "images/mouvements/art-de-cour-du-benin/tete-oba-xixe-siecle.jpg"
+      },
+      {
+        "title": "Plaque : un oba soutenu par deux serviteurs",
+        "artist": "Fondeurs de la guilde Igun Eronmwon",
+        "country": "Nigeria",
+        "period": "XVIe–XVIIe siècle",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1999.1), domaine public (CC0)",
+        "analysis": "Selon le musée, près de 900 plaques de métal ornaient la cour du palais de l'oba et racontaient l'histoire et les coutumes du Bénin. Celle-ci montre deux serviteurs (enobore) qui soutiennent un oba par les mains. La composition est hiérarchique : le personnage le plus important est au centre et plus grand, et tout chez lui est plus imposant, le corps, les vêtements, les bijoux. Les serviteurs soutiennent un homme alourdi par ses vêtements royaux et par ses responsabilités. Le numéro peint en bas à gauche montre que la plaque a appartenu au British Museum : elle y est entrée en 1898, un an après que les troupes britanniques l'eurent prise dans une réserve du palais.",
+        "compare": "Le musée invite à regarder les tranches de la plaque : leurs motifs seraient la « signature » des différents fondeurs qui travaillaient pour l'oba.",
+        "image": "images/mouvements/art-de-cour-du-benin/plaque-oba-soutenu-deux-serviteurs.jpg"
+      },
+      {
+        "title": "Plaque : guerrier à l'épée de cour",
+        "artist": "Fondeurs de la guilde Igun Eronmwon",
+        "country": "Nigeria",
+        "period": "XVIe–XVIIe siècle",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1953.425), domaine public (CC0)",
+        "analysis": "Un guerrier coiffé d'un haut casque tient un long bâton et une épée de cour, l'eben. Selon le musée, ces plaques étaient d'abord modelées dans la cire : un moule donnait la forme générale des personnages, puis des détails comme le bâton et l'épée étaient ajoutés à la main, avant la coulée du métal brûlant. Les fleurs gravées sur le fond, appelées ebe-amen (« feuilles de rivière »), sont liées à Olokun, dieu des eaux ; leur motif pourrait avoir des origines islamiques ou européennes, signe des liens du Bénin avec le monde. Les bords repliés servaient à fixer la plaque sur les poutres de bois du palais.",
+        "compare": "Le musée rappelle que ces plaques étaient déjà rangées en réserve avant le siège de 1897, et qu'une recherche récente a reconstitué en virtuel leur disposition dans le palais, d'après leurs dimensions et leurs images.",
+        "image": "images/mouvements/art-de-cour-du-benin/plaque-guerrier-epee-de-cour.jpg"
+      },
+      {
+        "title": "Plaque : l'iyase (commandant royal) et un serviteur",
+        "artist": "Fondeurs de la guilde Igun Eronmwon",
+        "country": "Nigeria",
+        "period": "vers 1540–1570",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/310763), domaine public (CC0)",
+        "analysis": "Selon le titre du musée, le grand personnage est l'iyase, le commandant royal. Il brandit au-dessus de sa tête une épée à lame large et porte un haut col, un casque orné et une jupe décorée. À gauche, beaucoup plus petit, un serviteur tient un objet contre sa poitrine. Le fond est gravé de motifs fins, et l'on voit les trous qui servaient à fixer la plaque.",
+        "compare": "Même principe que sur la plaque de Cleveland : la taille des personnages dit leur rang, et non la distance.",
+        "image": "images/mouvements/art-de-cour-du-benin/plaque-iyase-commandant-royal.jpg"
+      },
+      {
+        "title": "Plaque : un oba (roi) ou un chef",
+        "artist": "Fondeurs de la guilde Igun Eronmwon",
+        "country": "Nigeria",
+        "period": "vers 1540–1570",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/316489), domaine public (CC0)",
+        "analysis": "Un seul personnage, debout et de face, au centre d'une plaque de 50 cm. Un haut collier lui couvre le cou jusqu'à la bouche, il porte une haute coiffe et une jupe à motifs. Aux quatre coins, une rosette en relief ; le reste du fond est gravé de petits motifs. Le titre du musée hésite entre le roi lui-même et un chef.",
+        "compare": "Comparez avec les têtes commémoratives : le même haut collier de perles, qui monte jusqu'au visage.",
+        "image": "images/mouvements/art-de-cour-du-benin/plaque-oba-ou-chef.jpg"
+      },
+      {
+        "title": "Plaque : deux marchands portugais",
+        "artist": "Fondeurs de la guilde Igun Eronmwon",
+        "country": "Nigeria",
+        "period": "vers 1540–1570",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/316490), domaine public (CC0)",
+        "analysis": "Deux hommes en chapeau, aux longs cheveux, vêtus de tuniques serrées à la taille ; celui de gauche porte une longue barbe. Selon le titre du musée, ce sont deux marchands portugais. Le fond est gravé de motifs, et la plaque est percée de trous de fixation.",
+        "compare": "Les étrangers sont vus par les artistes du Bénin : chapeaux, barbes et cheveux longs les distinguent tout de suite des gens de la cour.",
+        "image": "images/mouvements/art-de-cour-du-benin/plaque-deux-marchands-portugais.jpg"
+      },
+      {
+        "title": "Plaque : trois Européens",
+        "artist": "Fondeurs de la guilde Igun Eronmwon",
+        "country": "Nigeria",
+        "period": "milieu du XVIe siècle",
+        "museum": "Etnografiska museet, Stockholm",
+        "credit": "Etnografiska museet, Stockholm (https://collections.smvk.se/carlotta-em/web/object/1238795), via Europeana, domaine public (CC0)",
+        "analysis": "Une plaque de 35 × 37 cm, plus large que haute, au bord supérieur abîmé. Selon le musée, elle représente trois Européens, peut-être une délégation de marchands portugais : au centre, le chef de la délégation, barbu, assis dans un fauteuil, entre un héraut et un soldat d'escorte. Le musée rappelle que ces plaques étaient clouées sur les piliers qui portaient le toit du palais, et formaient un décor impressionnant pour les cérémonies de la cour. La plaque est entrée au musée de Stockholm en 1907.",
+        "compare": "Comparez avec les deux marchands de New York : même costume européen, mais ici une vraie scène, avec un personnage assis et ses deux accompagnateurs.",
+        "image": "images/mouvements/art-de-cour-du-benin/plaque-trois-europeens-stockholm.jpg"
+      },
+      {
+        "title": "Portugais assis",
+        "artist": "Fondeurs de la guilde Igun Eronmwon",
+        "country": "Nigeria",
+        "period": "XVIIIe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/316502), domaine public (CC0)",
+        "analysis": "Une petite figurine de 13 cm : un homme assis, les mains posées sur les genoux. Il porte un chapeau, une longue moustache et une barbe pointue, une veste boutonnée et des culottes. Selon le titre du musée, c'est un Portugais. Deux siècles après les plaques, les fondeurs du Bénin représentent toujours les étrangers avec ces mêmes signes : chapeau et barbe.",
+        "compare": "Le même type d'Européen que sur les plaques du XVIe siècle, mais en ronde-bosse et en miniature.",
+        "image": "images/mouvements/art-de-cour-du-benin/portugais-assis.jpg"
+      },
+      {
+        "title": "Joueur de corne",
+        "artist": "Fondeurs de la guilde Igun Eronmwon",
+        "country": "Nigeria",
+        "period": "1550–1680",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/310753), domaine public (CC0)",
+        "analysis": "Un musicien debout, de 63 cm, porte à sa bouche une longue corne qu'il tient à deux mains. Il est coiffé d'un bonnet ajusté, porte un collier et une jupe nouée à la taille, décorée de motifs ; il est pieds nus. La posture est droite et symétrique, les jambes un peu écartées, comme figé au moment de souffler. Selon la fiche du musée, la statue est en laiton et en fer.",
+        "compare": "Après les rois et les marchands, un homme de la cour, saisi en pleine musique.",
+        "sensible": true,
+        "image": "images/mouvements/art-de-cour-du-benin/joueur-de-corne.jpg"
+      },
+      {
+        "title": "Bâton-idiophone : l'oiseau de prophétie (ahianmwen-oro)",
+        "artist": "Fondeurs de la guilde Igun Eronmwon",
+        "country": "Nigeria",
+        "period": "peut-être XIXe siècle",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1938.5), domaine public (CC0)",
+        "analysis": "Un oiseau aux longues pattes, ailes déployées et longues plumes texturées, au sommet d'un bâton de métal. Selon le musée, c'est l'oiseau de prophétie (ahianmwen-oro). Au XVIe siècle, un oiseau aurait annoncé la défaite et la mort de l'oba Esigie pendant la guerre d'Idah (vers 1515–1517), et ses hommes refusèrent de se battre pour lui. Esigie ayant triomphé, on frappa ensuite ces oiseaux de bronze pendant des jours, pour punir le faux prophète et faire honte aux lâches. Aujourd'hui encore, courtisans, prêtres et grands chefs les frappent pendant la fête de l'Ugie Oro.",
+        "compare": "Une œuvre qu'on ne regarde pas seulement : c'est un instrument de musique, que l'on frappe pendant une fête. Le musée ajoute qu'un oiseau de ce type se dressait autrefois sur le toit du palais.",
+        "image": "images/mouvements/art-de-cour-du-benin/baton-oiseau-de-prophetie.jpg"
+      },
+      {
+        "title": "Ikegobo (autel de la main)",
+        "artist": "Fondeurs de la guilde Igun Eronmwon",
+        "country": "Nigeria",
+        "period": "fin du XVIIIe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/312418), domaine public (CC0)",
+        "analysis": "Un autel cylindrique en bronze, de 26 cm de diamètre. Au centre de la face visible, un personnage vêtu d'un habit à motif de filet en losanges, entouré d'autres figures debout qui font tout le tour du cylindre. Les espaces entre eux sont remplis de motifs d'entrelacs, et le dessus est creusé d'une cuvette ronde. Selon le titre du musée, c'est un ikegobo, un « autel de la main ».",
+        "compare": "Comme les têtes commémoratives, un objet fait pour un autel : la sculpture y est au service du rituel.",
+        "image": "images/mouvements/art-de-cour-du-benin/ikegobo-autel-de-la-main.jpg"
+      },
+      {
+        "title": "Défense d'autel ancestral",
+        "artist": "Sculpteurs de la guilde Igbesanmwan",
+        "country": "Nigeria",
+        "period": "vers 1820",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1968.284), domaine public (CC0)",
+        "analysis": "Une défense d'éléphant de près de 2 mètres, entièrement sculptée. Selon le musée, l'oba Osemwede l'a commandée pour se relier à ses ancêtres et symboliser sa force. Elle est couverte de personnages royaux en grande parure et de scènes de pouvoir, de rituel et de violence. Le règne d'Osemwede fut prospère grâce au commerce avec les Hollandais ; pourtant, ce sont des Portugais du XVIe siècle qui sont sculptés sur le bas de la défense : au XIXe siècle, ils représentaient n'importe quel marchand européen. La surface s'est usée et fendue, sans doute parce qu'on la lavait, la blanchissait et l'enduisait souvent d'une argile blanche (orhue), liée à la paix, à la pureté et à la prospérité.",
+        "compare": "Selon le musée, cette défense était posée sur un autel des ancêtres, avec d'autres objets faits pour honorer un oba défunt ; comme la tête de Cleveland, plus haut, qui servait de support à une défense.",
+        "image": "images/mouvements/art-de-cour-du-benin/defense-autel-ancestral.jpg"
+      },
+      {
+        "title": "Disque",
+        "artist": "Fondeur du royaume du Bénin",
+        "country": "Nigeria",
+        "period": "XVIIIe–XIXe siècle",
+        "museum": "Yale University Art Gallery, New Haven",
+        "credit": "Yale University Art Gallery, New Haven (https://artgallery.yale.edu/collections/objects/84278), domaine public",
+        "analysis": "Un grand disque de laiton de 61 cm de diamètre, travaillé au repoussé et percé d'un trou carré au centre. Un long animal ondulant fait le tour du disque. Selon le musée, la bordure extérieure réunit des léopards, des têtes de Portugais et trois épées de cérémonie : ensemble, ils forment un emblème de l'oba. Le léopard symbolise le roi ; les têtes renvoient au commerce maritime et à Olokun, dieu de la mer, de la fertilité et de la prospérité ; les épées, au pouvoir de l'oba d'ôter la vie. Le musée précise que ce disque a été emporté en 1897 par le lieutenant britannique Norman Burrows, qui participa au raid sur le Bénin, et qu'une inscription peinte au dos porte son nom.",
+        "compare": "Les mêmes signes que sur les plaques et la défense, léopards, Portugais et épées, réunis ici en un seul emblème royal.",
+        "image": "images/mouvements/art-de-cour-du-benin/disque-cuivre-repousse.jpg"
+      },
+      {
+        "title": "Cloche d'autel",
+        "artist": "Fondeur du royaume du Bénin",
+        "country": "Nigeria",
+        "period": "XVIIIe–XIXe siècle",
+        "museum": "Yale University Art Gallery, New Haven",
+        "credit": "Yale University Art Gallery, New Haven (https://artgallery.yale.edu/collections/objects/112389), domaine public",
+        "analysis": "Une cloche de laiton de 20 cm, à quatre faces qui s'évasent vers le bas, munie d'une anse. Sur la face, un petit visage en relief ; tout le reste est couvert d'entrelacs gravés. Selon la fiche du musée, elle a probablement été commandée par l'oba ou un membre de sa cour, puis elle est passée à l'oba Ovonramwen, au palais royal de Benin City, d'où elle a été pillée en février 1897 et emportée par le commandant britannique F. W. Hammond.",
+        "compare": "Les autels du palais réunissaient têtes, défenses sculptées et cloches comme celle-ci, rappelle le musée de Stockholm.",
+        "image": "images/mouvements/art-de-cour-du-benin/cloche-autel.jpg"
+      },
+      {
+        "title": "Léopard",
+        "artist": "Fondeur du royaume du Bénin",
+        "country": "Nigeria",
+        "period": "XIXe siècle",
+        "museum": "Etnografiska museet, Stockholm",
+        "credit": "Etnografiska museet, Stockholm (https://collections.smvk.se/carlotta-em/web/object/1238787), via Europeana, domaine public (CC0)",
+        "analysis": "Un léopard de laiton de 21 cm de long, à la grosse tête ronde, la queue relevée en boucle, le pelage rendu par de petits cercles en relief. Selon le musée, le léopard était au Bénin le symbole des pouvoirs spirituels et physiques de l'oba. Ces statuettes étaient en général faites par paires pour être posées sur des autels : le musée pense que son « jumeau » est un léopard du musée d'ethnographie de Vienne, de mêmes dimensions et même aspect, donné en 1918 par le même collectionneur, Hans Meyer. Il précise aussi que, comme la plupart des « bronzes » du Bénin, celui-ci est en réalité en laiton.",
+        "compare": "Le point d'arrivée de l'exposition : l'animal du roi, que l'on retrouve sur le disque de Yale et sur tant d'objets de la cour.",
+        "image": "images/mouvements/art-de-cour-du-benin/leopard-stockholm.jpg"
+      }
+    ]
   }
 ]

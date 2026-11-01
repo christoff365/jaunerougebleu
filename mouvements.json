@@ -3561,5 +3561,203 @@
         "image": "images/mouvements/art-de-cour-du-benin/leopard-stockholm.jpg"
       }
     ]
+  },
+  {
+    "mouvement": "Art maya classique",
+    "slug": "art-maya-classique",
+    "status": "published",
+    "title": "L'art maya classique, rois, scribes et joueurs de balle",
+    "subtitle": "Mexique, Guatemala et Honduras, IIIe–IXe siècle : dix-sept œuvres de Cleveland, New York et New Haven",
+    "intro": "Entre le IIIe et le IXe siècle de notre ère environ, les Mayas vivent dans des cités rivales, dans ce qui est aujourd'hui le sud du Mexique, le Guatemala, le Belize et le Honduras. Chaque cité a son roi et sa cour. Les rois et les reines font sculpter leur portrait sur de grandes pierres dressées, les stèles, accompagné d'inscriptions en écriture hiéroglyphique qui donnent des dates et racontent leur règne. Les nobles boivent le cacao dans des vases peints de scènes de palais, de batailles et de mythes ; les scribes, très respectés, sont aussi des artistes. On joue à la balle avec les hanches, dans des terrains entourés de murs. Cette exposition suit ces gens de la cour : reines et rois, conseillers, guerriers, scribes, musiciens, joueurs de balle et femmes de la noblesse. Les Mayas n'ont pas disparu : leurs descendants vivent toujours dans ces régions et parlent des langues mayas. Les œuvres présentées ici viennent du Cleveland Museum of Art, du Metropolitan Museum of Art et de la Yale University Art Gallery ; nous n'avons pas encore pu obtenir d'images libres d'œuvres conservées au Mexique, au Guatemala ou au Honduras, et nous les ajouterons dès que possible.",
+    "works": [
+      {
+        "title": "Stèle de la reine Dame K'abel",
+        "artist": "Artiste maya",
+        "country": "Guatemala",
+        "period": "692",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1967.29), domaine public (CC0)",
+        "analysis": "Une pierre sculptée de 2,74 m de haut. Selon le musée, les souverains mayas célébraient les grandes étapes de leur règne par des portraits spectaculaires comme celui-ci, créé pour marquer la fin d'une période de vingt ans, le k'atun. Cette reine, connue sous le nom de Dame K'abel, se dressait à l'origine sur une place, à côté du portrait de son époux, avec qui elle régnait sur El Perú-Waka', au Guatemala. Issue de la puissante dynastie d'une cité voisine, elle semble avoir eu plus d'autorité que son mari et avoir été gouverneure militaire. Sa coiffe porte un éventail de plumes vertes de quetzal, ses bijoux évoquent le jade, et elle tient un sceptre et un bouclier. Le nain à ses côtés est peut-être un serviteur de la cour ; les hiéroglyphes donnent des dates importantes de la dynastie.",
+        "compare": "Le point de départ de l'exposition : une reine guerrière, en grande parure. Comparez avec le panneau suivant, où une autre femme de la cour est représentée de profil.",
+        "image": "images/mouvements/art-maya-classique/stele-dame-kabel.jpg"
+      },
+      {
+        "title": "Panneau avec une femme de la famille royale",
+        "artist": "K'in Lakam Chahk et Jun Nat Omootz",
+        "country": "Guatemala",
+        "period": "vers 795",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1962.32), domaine public (CC0)",
+        "analysis": "Un panneau de calcaire, sans doute tiré de l'intérieur d'un palais de la région du fleuve Usumacinta, entre le Guatemala et le Mexique. Le musée donne les noms des deux sculpteurs, K'in Lakam Chahk et Jun Nat Omootz. La femme se tient immobile, mais la créature qu'elle porte est pleine de vie : selon le musée, c'est un dieu de la royauté, à la jambe en forme de serpent et à la tête grotesque surmontée d'une torche fumante. Ses bijoux de jade et son costume disent son rang ; leur beauté montre, selon le musée, que les textiles et les plumes étaient de grands arts mayas, aujourd'hui perdus à cause du climat tropical. Les hiéroglyphes parlent d'un rituel accompli par cette femme en 795.",
+        "compare": "Une rareté : une œuvre maya dont on connaît le nom des sculpteurs. Le même dieu à la torche réapparaît plus loin, découpé dans un silex.",
+        "image": "images/mouvements/art-maya-classique/panneau-femme-royale.jpg"
+      },
+      {
+        "title": "Tête d'un jeune noble",
+        "artist": "Artiste maya",
+        "country": "Honduras",
+        "period": "746",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1953.154), domaine public (CC0)",
+        "analysis": "Selon le musée, ce jeune homme est peut-être un responsable politique de Copán, grande cité de l'est du monde maya, au Honduras, et il incarne l'idéal maya de la beauté masculine. Il porte des ornements d'oreille ronds et un bandeau, au-dessus duquel ses cheveux noués se dressent. Le sens de la main isolée qui tient son menton est encore discuté. La tête vient de la façade d'un bâtiment qui servait peut-être de maison du conseil au roi de Copán et à ses conseillers, pendant une crise de la dynastie. Huit personnages y trônaient, chacun au-dessus d'un hiéroglyphe qui nommait sans doute une ville ou une famille du royaume : peut-être les conseillers du roi.",
+        "compare": "Après les reines, un conseiller : le pouvoir maya ne repose pas sur le roi seul.",
+        "image": "images/mouvements/art-maya-classique/tete-jeune-noble-copan.jpg"
+      },
+      {
+        "title": "Colonne",
+        "artist": "Artiste maya",
+        "country": "Mexique",
+        "period": "800–900",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/310540), domaine public (CC0)",
+        "analysis": "Une colonne de calcaire de 1,73 m, sculptée tout autour. On y voit un personnage debout et de face, coiffé d'une haute coiffe à plusieurs étages, vêtu d'une riche parure qui couvre le corps de motifs, entre des panneaux de hiéroglyphes. Au centre, un petit visage garde encore des traces de pigment rouge, ce que confirme la fiche du musée (calcaire et pigment).",
+        "compare": "Comparez avec la stèle de Dame K'abel : même personnage de face en grande parure, mais ici enroulé autour d'une colonne, à la fin de la période classique.",
+        "image": "images/mouvements/art-maya-classique/colonne-sculptee.jpg"
+      },
+      {
+        "title": "Encensoir avec un roi assis",
+        "artist": "Artiste maya",
+        "country": "Guatemala",
+        "period": "300–400",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/318345), domaine public (CC0)",
+        "analysis": "Un encensoir de céramique peinte de 80 cm, dont le couvercle forme un roi assis en tailleur sur un haut socle. Il porte une immense coiffe, de grands ornements d'oreille ronds et un collier de perles ; il tient devant lui un objet vertical posé sur un disque. Le corps est peint en rouge, la coiffe et le socle en crème et en ocre. Selon la fiche du musée, il vient du Guatemala et date du IVe siècle, au début de la période classique.",
+        "compare": "Une des plus anciennes œuvres de l'exposition : un roi déjà entouré de tous les signes de son rang.",
+        "image": "images/mouvements/art-maya-classique/encensoir-roi-assis.jpg"
+      },
+      {
+        "title": "Porteur de miroir",
+        "artist": "Artiste maya",
+        "country": "Guatemala",
+        "period": "410–650",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/313256), domaine public (CC0)",
+        "analysis": "Une statue de bois de 36 cm : un homme assis en tailleur, les bras tendus vers l'avant, les mains réunies. Selon son titre, il portait un miroir. Le musée précise qu'il est taillé dans du bois de cordia et couvert d'hématite rouge, dont il reste des traces. Le bois, fendu et usé, laisse encore deviner le visage et les ornements.",
+        "compare": "Un bois vieux de près de 1 500 ans : le musée de Cleveland rappelle, à propos du panneau vu plus haut, que le climat tropical a détruit la plupart des matières fragiles.",
+        "image": "images/mouvements/art-maya-classique/porteur-de-miroir.jpg"
+      },
+      {
+        "title": "Silex excentrique",
+        "artist": "Artiste maya",
+        "country": "Guatemala",
+        "period": "600–900",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1950.161), domaine public (CC0)",
+        "analysis": "Un silex taillé par éclats en une silhouette découpée de 35 cm. Selon le musée, on appelle ces objets « silex excentriques » à cause de leurs formes inhabituelles. Sur le front du grand visage de profil se dresse une torche fumante, insigne d'un dieu étroitement lié aux rois, appelé aujourd'hui K'awiil ; trois autres petits visages se détachent sur les pointes. Certains de ces silex servaient peut-être de sceptres ; on en enterrait aussi en offrande sous les bâtiments et les sculptures. Celui-ci vient de Quiriguá, au Guatemala.",
+        "compare": "Le musée le rapproche du panneau de la femme royale, plus haut, qui tient le même dieu à la torche.",
+        "image": "images/mouvements/art-maya-classique/silex-excentrique-kawiil.jpg"
+      },
+      {
+        "title": "Vase couvert avec pécaris, oiseau et poisson",
+        "artist": "Artiste maya",
+        "country": "Mexique ou Guatemala",
+        "period": "300–400",
+        "museum": "Yale University Art Gallery, New Haven",
+        "credit": "Yale University Art Gallery, New Haven (https://artgallery.yale.edu/collections/objects/63887), domaine public",
+        "analysis": "Selon le musée, la peinture et l'argile modelée couvrent toute la surface de ce bol à couvercle. L'anse du couvercle est formée par le cou et la tête d'un oiseau qui avale un poisson ; les corps de l'oiseau et du poisson sont peints sur le couvercle en beige, rouge et noir. La panse porte des motifs géométriques noirs et blancs sur fond rouge. Les quatre pieds sont des têtes de pécaris modelées, museau vers le bas ; des perles de céramique glissées à l'intérieur les transforment en grelots.",
+        "compare": "Un objet de table qui fait du bruit : les Mayas aimaient les vases qui étonnent.",
+        "image": "images/mouvements/art-maya-classique/vase-couvert-pecaris-oiseau-poisson.jpg"
+      },
+      {
+        "title": "Vase avec scène de bataille",
+        "artist": "Artiste maya",
+        "country": "Guatemala",
+        "period": "600–900",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/2012.32), domaine public (CC0)",
+        "analysis": "Selon le musée, ce vase, sans doute offert comme cadeau politique, montre la présentation de prisonniers après une bataille. Un seigneur de face se tourne pour passer en revue dix guerriers finement dessinés ; certains ont été dépouillés de leurs parures de combat, d'autres portent de grandes coiffes et des vêtements raffinés, dont des tuniques en peau de jaguar. Les hiéroglyphes qui font le tour du bord dédicacent le vase, qui servait à boire une boisson de l'élite à base de cacao, relevée de piment selon le musée. Il vient de la région de Nebaj, dans les hautes terres du Guatemala.",
+        "compare": "Sur un vase rond, la scène se déroule comme une bande dessinée : il faut le tourner pour voir tous les personnages.",
+        "image": "images/mouvements/art-maya-classique/vase-scene-de-bataille.jpg"
+      },
+      {
+        "title": "Vase avec scène mythologique",
+        "artist": "Peintre du Metropolitan",
+        "country": "Mexique ou Guatemala",
+        "period": "600–800",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/314217), domaine public (CC0)",
+        "analysis": "Un petit vase tripode de 11 cm, peint d'un trait brun-noir sur fond crème. Des êtres surnaturels aux grandes têtes, aux coiffes et aux ornements foisonnants, occupent toute la surface ; des hiéroglyphes sont placés entre eux. Le musée attribue ce vase à un peintre resté anonyme, que l'on appelle le « Peintre du Metropolitan », actif aux VIIe–VIIIe siècles.",
+        "compare": "Un trait fin et souple, presque calligraphique : comparez avec les scribes du vase suivant.",
+        "image": "images/mouvements/art-maya-classique/vase-scene-mythologique.jpg"
+      },
+      {
+        "title": "Vase avec des scribes tenant des palettes en coquillage",
+        "artist": "Artiste maya",
+        "country": "Mexique",
+        "period": "600–900",
+        "museum": "Yale University Art Gallery, New Haven",
+        "credit": "Yale University Art Gallery, New Haven (https://artgallery.yale.edu/collections/objects/10663), domaine public",
+        "analysis": "Selon le musée, les artistes mayas ont peint des milliers de vases avec de l'engobe et des pigments naturels, sur des sujets allant de la vie quotidienne aux grands récits surnaturels. Beaucoup d'artistes et de scribes appartenaient à l'élite. Ici, deux scribes se reconnaissent aux pots de peinture qu'ils tiennent et aux bandes de papier pointillées qui sortent de sous leurs bras. Le vase vient du Campeche, au Mexique.",
+        "compare": "Des artistes qui se représentent eux-mêmes : le vase est un hommage au métier de scribe.",
+        "image": "images/mouvements/art-maya-classique/vase-scribes-palettes.jpg"
+      },
+      {
+        "title": "Artisan",
+        "artist": "Artiste maya",
+        "country": "Guatemala",
+        "period": "250–600",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1994.12.1), domaine public (CC0)",
+        "analysis": "Selon le musée, cette figure représente l'un des deux frères Hun Batz et Hun Chuen (« Un Singe » et « Un Artisan »), patrons des arts visuels et de l'écriture. Artistes raffinés mais brutaux envers leurs petits frères, ils furent changés en singes par ceux-ci pour se venger ; c'est pourquoi on les montre avec des traits à la fois humains et simiesques. Assis sur un haut socle bombé, qui servait peut-être de couvercle à un bol, il tenait sans doute un pinceau ou un stylet dans la main levée ; dans l'autre, un morceau d'écorce, qui évoque l'écorce battue dont les Mayas faisaient leurs livres.",
+        "compare": "Les scribes ont leurs dieux protecteurs : des singes artistes, venus d'un mythe.",
+        "image": "images/mouvements/art-maya-classique/artisan-singe.jpg"
+      },
+      {
+        "title": "Assiette avec un joueur de trompe",
+        "artist": "Artiste maya",
+        "country": "Guatemala ou Mexique",
+        "period": "700–800",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/316274), domaine public (CC0)",
+        "analysis": "Une assiette de 32 cm de diamètre, peinte sur fond orange. Au centre, un musicien debout, de profil, souffle dans une longue trompe ; il porte une coiffe à plumes et un pagne orné de pendeloques. Autour de lui, une bordure de triangles hachurés en noir et orange, comme une couronne de rayons, et sur le bord des motifs blancs.",
+        "compare": "Après les scribes, un musicien de la cour : il faut imaginer les fêtes du palais.",
+        "image": "images/mouvements/art-maya-classique/assiette-joueur-de-trompe.jpg"
+      },
+      {
+        "title": "Vase avec un joueur de balle",
+        "artist": "Artiste maya",
+        "country": "Mexique",
+        "period": "vers 600–1000",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1990.180), domaine public (CC0)",
+        "analysis": "Selon le musée, de nombreux peuples de Mésoamérique jouaient à la balle avec les hanches, et non avec les mains ou les pieds, pour garder en jeu une lourde balle de caoutchouc plein. Ici, un joueur maya, protégé par un épais rembourrage autour du torse, plonge pour intercepter la balle, qui flotte devant son visage. La scène est encadrée de murs à gradins, sans doute ceux d'un terrain de jeu. Le décor est sculpté en relief, dans le style dit de Chocholá, au Yucatán. Le musée précise qu'il avait été brisé en 34 morceaux avant d'être restauré.",
+        "compare": "Comparez avec la figurine de Yale qui suit : le même équipement, vu en volume.",
+        "image": "images/mouvements/art-maya-classique/vase-joueur-de-balle.jpg"
+      },
+      {
+        "title": "Joueur de balle",
+        "artist": "Artiste maya",
+        "country": "Mexique",
+        "period": "600–900",
+        "museum": "Yale University Art Gallery, New Haven",
+        "credit": "Yale University Art Gallery, New Haven (https://artgallery.yale.edu/collections/objects/10781), domaine public",
+        "analysis": "Selon le musée, cette petite figurine d'argile de 19 cm représente un joueur de balle. Il porte un pagne et une ceinture protectrice en forme de U, le joug, ouverte sur un côté ; un grand ornement en forme d'oiseau, la hacha, s'avance devant. Un épais turban rembourré lui protège la tête des coups de la lourde balle et de son adversaire. Il porte pourtant de lourds bijoux : ornements d'oreille, bracelets, collier à deux rangs. Les crânes du collier rappellent, selon le musée, que ce jeu, à la fois sport et grande activité religieuse, pouvait être mortel. La figurine vient probablement de l'île de Jaina, au Mexique.",
+        "compare": "Le jeu de balle, entre sport et rituel : un thème qu'on retrouve sur les vases comme dans les figurines.",
+        "image": "images/mouvements/art-maya-classique/joueur-de-balle-jaina.jpg"
+      },
+      {
+        "title": "Femme assise préparant à manger, avec un chien",
+        "artist": "Artiste maya",
+        "country": "Mexique",
+        "period": "600–900",
+        "museum": "Yale University Art Gallery, New Haven",
+        "credit": "Yale University Art Gallery, New Haven (https://artgallery.yale.edu/collections/objects/10699), domaine public",
+        "analysis": "Selon le musée, une femme maya de la noblesse prépare des tamales, des galettes de maïs cuites à la vapeur, tandis qu'un petit chien impatient est assis à côté d'elle. Elle porte un huipil, un vêtement du haut qui laisse voir ses seins, et ses cheveux sont noués en un turban semblable à ceux que portent aujourd'hui les femmes mayas du Guatemala. Elle porte aussi un grand collier et des ornements d'oreille.",
+        "compare": "Une scène de la vie de tous les jours, à côté des reines et des guerriers.",
+        "sensible": true,
+        "image": "images/mouvements/art-maya-classique/femme-cuisinant-avec-chien.jpg"
+      },
+      {
+        "title": "Vieillards sortant de fleurs",
+        "artist": "Artiste maya",
+        "country": "Mexique",
+        "period": "600–900",
+        "museum": "Yale University Art Gallery, New Haven",
+        "credit": "Yale University Art Gallery, New Haven (https://artgallery.yale.edu/collections/objects/15088), domaine public",
+        "analysis": "Deux minuscules figurines de céramique, de 4 à 5 cm. Selon le musée, ce sont deux vieillards chauves et ridés, presque identiques, qui sortent du cœur d'une fleur. Un troisième vieillard et une belle jeune femme, conservés au National Museum of the American Indian à Washington, complétaient un ensemble de quatre fleurs, peut-être cousues autrefois sur le vêtement ou la coiffe d'un personnage de haut rang. Elles viennent probablement de l'île de Jaina, au Mexique.",
+        "compare": "Le point d'arrivée de l'exposition : des bijoux minuscules, pleins d'humour, qui rappellent la richesse des costumes de la cour, aujourd'hui perdus.",
+        "image": "images/mouvements/art-maya-classique/vieillards-sortant-de-fleurs.jpg"
+      }
+    ]
   }
 ]

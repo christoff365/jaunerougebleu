@@ -3765,9 +3765,31 @@
     "slug": "ecole-de-cuzco",
     "status": "published",
     "title": "L'école de Cuzco, des Vierges d'or dans les Andes",
-    "subtitle": "Pérou, XVIIe–XVIIIe siècle : onze tableaux de New York et New Haven",
-    "intro": "Après la conquête espagnole, au XVIe siècle, Cuzco, l'ancienne capitale des Incas, devient l'un des grands centres de peinture de l'Amérique du Sud. Ses peintres, beaucoup d'origine indigène ou métisse, partent de modèles religieux venus d'Europe, souvent des gravures, et les transforment : les Vierges prennent la forme triangulaire des statues habillées que l'on promenait en procession, les vêtements se couvrent de motifs d'or posés sur la peinture, et les paysages se peuplent d'oiseaux et de fleurs. Diego Quispe Tito et Basilio Santa Cruz Pumacallao sont parmi les plus connus. Cette exposition est volontairement petite : ses onze tableaux viennent presque tous du Metropolitan Museum of Art, qui ne publie pour eux que le titre, la date et la technique ; les textes décrivent donc surtout ce que l'on voit. Nous la compléterons avec des œuvres conservées au Pérou, notamment dans la cathédrale de Cuzco, dès que nous pourrons obtenir leurs images libres.",
+    "subtitle": "Pérou, XVIIe–XVIIIe siècle : treize tableaux de Cuzco, New York et New Haven",
+    "intro": "Après la conquête espagnole, au XVIe siècle, Cuzco, l'ancienne capitale des Incas, devient l'un des grands centres de peinture de l'Amérique du Sud. Ses peintres, beaucoup d'origine indigène ou métisse, partent de modèles religieux venus d'Europe, souvent des gravures, et les transforment : les Vierges prennent la forme triangulaire des statues habillées que l'on promenait en procession, les vêtements se couvrent de motifs d'or posés sur la peinture, et les paysages se peuplent d'oiseaux et de fleurs. Diego Quispe Tito et Basilio Santa Cruz Pumacallao sont parmi les plus connus. Cette exposition s'ouvre sur deux tableaux de Diego Quispe Tito toujours conservés dans la cathédrale de Cuzco, photographiés par Paul M.R. Maeyaert. Les onze autres viennent presque tous du Metropolitan Museum of Art, qui ne publie pour eux que le titre, la date et la technique ; les textes décrivent donc surtout ce que l'on voit. Nous ajouterons d'autres œuvres conservées au Pérou dès que nous pourrons obtenir leurs images libres.",
     "works": [
+      {
+        "title": "Série du Zodiaque : le Christ et ses disciples dans la campagne",
+        "artist": "Diego Quispe Tito",
+        "country": "Pérou",
+        "period": "1681",
+        "museum": "Cathédrale de Cuzco",
+        "credit": "Cathédrale de Cuzco ; photo Paul M.R. Maeyaert (https://commons.wikimedia.org/wiki/File:PMa_000093_PE_Cuzco.jpg), via Europeana, licence CC BY-SA 4.0",
+        "analysis": "Selon la notice de la photo, ce tableau d'environ 90 × 120 cm appartient à une série sur le Zodiaque peinte en 1681 par Diego Quispe Tito, et il est toujours conservé dans la cathédrale de Cuzco. En haut, dans le ciel, un petit signe du zodiaque qui ressemble à un crabe. En bas à droite, le Christ, en manteau rouge, marche avec trois disciples. Derrière eux s'étend un vaste paysage : des paysans au travail, des maisons au toit de chaume, un pigeonnier, des champs, une rivière et un village dominé par une église à haute tour.",
+        "compare": "Le point de départ de l'exposition : une œuvre de l'un des peintres les plus connus de Cuzco, restée dans sa ville. Le paysage occupe presque tout le tableau, et la scène religieuse se glisse dans un coin.",
+        "image": "images/mouvements/ecole-de-cuzco/quispe-tito-zodiaque-cancer.jpg"
+      },
+      {
+        "title": "Série du Zodiaque : le Christ et les pêcheurs",
+        "artist": "Diego Quispe Tito",
+        "country": "Pérou",
+        "period": "1681",
+        "museum": "Cathédrale de Cuzco",
+        "credit": "Cathédrale de Cuzco ; photo Paul M.R. Maeyaert (https://commons.wikimedia.org/wiki/File:PMa_000094_PE_Cuzco.jpg), via Europeana, licence CC BY-SA 4.0",
+        "analysis": "Un autre tableau de la même série, selon la notice de la photo. Le Christ, en manteau rouge, se tient sur la rive et tend la main vers des pêcheurs qui tirent leurs filets depuis leurs barques. Derrière lui, un port animé : des porteurs chargés, des navires, une ville aux tours pointues ; au loin, des montagnes et un château perché sur un rocher, sous un ciel d'orage.",
+        "compare": "Des villes aux toits pointus qui rappellent l'Europe du Nord plus que les Andes : comme le dit l'introduction, les peintres de Cuzco partaient souvent de gravures venues d'Europe.",
+        "image": "images/mouvements/ecole-de-cuzco/quispe-tito-zodiaque-pecheurs.jpg"
+      },
       {
         "title": "Notre-Dame de Guápulo",
         "artist": "Peintre de Cuzco",
@@ -3776,7 +3798,7 @@
         "museum": "Metropolitan Museum of Art, New York",
         "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/437271), domaine public (CC0)",
         "analysis": "Une grande toile de 1,71 m. La Vierge, couronnée, tient l'Enfant lui aussi couronné ; sa robe forme un large triangle couvert de motifs dorés, ornée de rubans et de rangs de perles, et elle tient un bouquet de fleurs. Elle se dresse sur un socle, entre deux rideaux rouges écartés, comme une statue sur un autel. Le titre du musée lui donne le nom sous lequel elle était vénérée : Notre-Dame de Guápulo.",
-        "compare": "Le point de départ de l'exposition : la Vierge en robe triangulaire, image typique de la peinture de Cuzco. On la retrouve dans les tableaux suivants.",
+        "compare": "Après les paysages de Quispe Tito, la Vierge en robe triangulaire, image typique de la peinture de Cuzco. On la retrouve dans les tableaux suivants.",
         "image": "images/mouvements/ecole-de-cuzco/notre-dame-de-guapulo.jpg"
       },
       {
@@ -3852,7 +3874,7 @@
         "period": "vers 1670–1690",
         "museum": "Metropolitan Museum of Art, New York",
         "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/764086), domaine public (CC0)",
-        "analysis": "Une petite toile carrée de 30 cm, la seule de l'exposition dont on connaît le peintre : Basilio Santa Cruz Pumacallao. Deux saints franciscains auréolés, en habit de moine, jouent chacun d'un instrument à cordes, la tête levée comme s'ils écoutaient. Derrière eux apparaissent des ailes d'anges. Le cadrage serré, au plus près des visages, rapproche le spectateur des musiciens.",
+        "analysis": "Une petite toile carrée de 30 cm, dont le musée donne le peintre : Basilio Santa Cruz Pumacallao. Deux saints franciscains auréolés, en habit de moine, jouent chacun d'un instrument à cordes, la tête levée comme s'ils écoutaient. Derrière eux apparaissent des ailes d'anges. Le cadrage serré, au plus près des visages, rapproche le spectateur des musiciens.",
         "compare": "Un tableau du XVIIe siècle, plus ancien et plus sombre que les toiles dorées du XVIIIe siècle.",
         "image": "images/mouvements/ecole-de-cuzco/saint-bonaventure-saint-antoine.jpg"
       },
@@ -3864,7 +3886,7 @@
         "museum": "Yale University Art Gallery, New Haven",
         "credit": "Yale University Art Gallery, New Haven, prêt de la Lewis Walpole Library (https://artgallery.yale.edu/collections/objects/333196), domaine public",
         "analysis": "Joseph, auréolé, dort assis, la tête appuyée sur sa main, un bâton fleuri contre l'épaule. Un ange aux ailes roses, vêtu d'une tunique semée d'étoiles d'or, se penche vers lui et lève le doigt vers le ciel. Dans un coin, une femme agenouillée devant un pupitre ; à droite, deux paons, des moutons et une ville au pied des montagnes. Selon la fiche de Yale, le tableau a été acheté à Lima, au Pérou, en 1943.",
-        "compare": "Le seul tableau qui ne vient pas du Met : même goût pour les étoffes dorées et les oiseaux.",
+        "compare": "Le seul tableau de New Haven : même goût pour les étoffes dorées et les oiseaux.",
         "image": "images/mouvements/ecole-de-cuzco/songe-de-joseph.jpg"
       },
       {

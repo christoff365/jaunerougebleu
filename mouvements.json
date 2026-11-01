@@ -3759,5 +3759,137 @@
         "image": "images/mouvements/art-maya-classique/vieillards-sortant-de-fleurs.jpg"
       }
     ]
+  },
+  {
+    "mouvement": "École de Cuzco",
+    "slug": "ecole-de-cuzco",
+    "status": "published",
+    "title": "L'école de Cuzco, des Vierges d'or dans les Andes",
+    "subtitle": "Pérou, XVIIe–XVIIIe siècle : onze tableaux de New York et New Haven",
+    "intro": "Après la conquête espagnole, au XVIe siècle, Cuzco, l'ancienne capitale des Incas, devient l'un des grands centres de peinture de l'Amérique du Sud. Ses peintres, beaucoup d'origine indigène ou métisse, partent de modèles religieux venus d'Europe, souvent des gravures, et les transforment : les Vierges prennent la forme triangulaire des statues habillées que l'on promenait en procession, les vêtements se couvrent de motifs d'or posés sur la peinture, et les paysages se peuplent d'oiseaux et de fleurs. Diego Quispe Tito et Basilio Santa Cruz Pumacallao sont parmi les plus connus. Cette exposition est volontairement petite : ses onze tableaux viennent presque tous du Metropolitan Museum of Art, qui ne publie pour eux que le titre, la date et la technique ; les textes décrivent donc surtout ce que l'on voit. Nous la compléterons avec des œuvres conservées au Pérou, notamment dans la cathédrale de Cuzco, dès que nous pourrons obtenir leurs images libres.",
+    "works": [
+      {
+        "title": "Notre-Dame de Guápulo",
+        "artist": "Peintre de Cuzco",
+        "country": "Pérou",
+        "period": "XVIIIe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/437271), domaine public (CC0)",
+        "analysis": "Une grande toile de 1,71 m. La Vierge, couronnée, tient l'Enfant lui aussi couronné ; sa robe forme un large triangle couvert de motifs dorés, ornée de rubans et de rangs de perles, et elle tient un bouquet de fleurs. Elle se dresse sur un socle, entre deux rideaux rouges écartés, comme une statue sur un autel. Le titre du musée lui donne le nom sous lequel elle était vénérée : Notre-Dame de Guápulo.",
+        "compare": "Le point de départ de l'exposition : la Vierge en robe triangulaire, image typique de la peinture de Cuzco. On la retrouve dans les tableaux suivants.",
+        "image": "images/mouvements/ecole-de-cuzco/notre-dame-de-guapulo.jpg"
+      },
+      {
+        "title": "Notre-Dame de Cocharcas",
+        "artist": "Peintre de Cuzco",
+        "country": "Pérou",
+        "period": "1759",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/764094), domaine public (CC0)",
+        "analysis": "Une toile de 1,53 m, peinte à l'huile et rehaussée d'or. En haut, deux anges déroulent une banderole portant une inscription ; le musée date le tableau de 1759. Au centre, la Vierge et l'Enfant, couronnés, en robe triangulaire rouge et or, sont posés sous un dais garni de clochettes, sur un haut autel. Tout autour se déploie un paysage de montagnes : une église à deux tours, des maisons, des cavaliers, des pèlerins et des religieux ; au pied de l'autel, une foule, et dans la rivière en bas, des gens emportés par le courant.",
+        "compare": "Comparez avec la Vierge de Guápulo : même statue triangulaire, mais cette fois au milieu de la vie d'un village et d'une foule de petits personnages.",
+        "image": "images/mouvements/ecole-de-cuzco/notre-dame-de-cocharcas.jpg"
+      },
+      {
+        "title": "Notre-Dame de Valvanera",
+        "artist": "Peintre de Cuzco",
+        "country": "Pérou",
+        "period": "vers 1770–1780",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/764091), domaine public (CC0)",
+        "analysis": "Le plus grand tableau de l'exposition : 2,44 m de large. La Vierge couronnée, avec l'Enfant sur ses genoux, est assise dans le creux d'un grand arbre, où perchent des perroquets et d'autres oiseaux colorés. Un homme vêtu de sombre est agenouillé à droite ; à gauche, on voit une ville avec un dôme et des clochers, et au fond des montagnes. Le sol est semé de fleurs et de petits animaux. Selon la fiche, le tableau est peint à l'huile et rehaussé d'or.",
+        "compare": "Les oiseaux des Andes et des forêts tropicales entrent dans la scène religieuse : c'est l'une des signatures des peintres de Cuzco.",
+        "image": "images/mouvements/ecole-de-cuzco/notre-dame-de-valvanera.jpg"
+      },
+      {
+        "title": "Notre-Dame de la Merci, dite « la Pèlerine de Quito »",
+        "artist": "Peintre de Cuzco",
+        "country": "Pérou",
+        "period": "vers 1730–1740",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/764092), domaine public (CC0)",
+        "analysis": "La Vierge, vêtue d'une robe brodée de fleurs et coiffée d'un chapeau à plumes par-dessus son voile, voyage assise sur une mule harnachée d'or, l'Enfant dans les bras, lui aussi en chapeau. Un religieux en habit blanc, portant un écusson sur la poitrine, tient la bride. Au fond, un paysage boisé, la mer et un navire. Le titre du musée l'appelle « la Pèlerine de Quito ».",
+        "compare": "La Vierge habillée en voyageuse de son temps : chapeaux à plumes et brocarts, comme une dame en route dans les Andes.",
+        "image": "images/mouvements/ecole-de-cuzco/pelerine-de-quito.jpg"
+      },
+      {
+        "title": "Le Christ portant la croix, dit « le Seigneur de la Chute »",
+        "artist": "Peintre de Cuzco",
+        "country": "Pérou",
+        "period": "vers 1770–1775",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/764095), domaine public (CC0)",
+        "analysis": "Le Christ, couronné d'épines, porte la croix ; son manteau sombre est couvert de fleurs d'or. Tout autour, le décor d'un autel : un dais à plumes, des cierges, des vases de lys, des médaillons de dentelle. Quatre anges aux grandes jupes de dentelle et aux coiffes de plumes tiennent des objets de la Passion, dont une échelle. En bas, au centre, une petite statue de la Vierge à l'Enfant dans une robe triangulaire dorée. Le tableau semble ainsi représenter des statues habillées, sur un autel paré pour une fête.",
+        "compare": "Peindre une statue sur son autel, avec tous ses ornements : une façon de garder l'image d'une fête religieuse.",
+        "image": "images/mouvements/ecole-de-cuzco/seigneur-de-la-chute.jpg"
+      },
+      {
+        "title": "L'Âme de la Vierge Marie",
+        "artist": "Peintre de Cuzco",
+        "country": "Pérou",
+        "period": "XVIIIe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/764096), domaine public (CC0)",
+        "analysis": "La Vierge, à mi-corps, entourée d'une auréole de rayons, porte devant elle l'Enfant Jésus endormi sur un linge, comme s'il reposait en elle ; au-dessus de lui, la colombe du Saint-Esprit. Une inscription latine forme un arc autour de sa tête (« Per Mariam, cum Maria et in Maria… »), et un cartouche en bas, tenu par deux angelots, commence par « Interiora B. Virginis », « l'intérieur de la Bienheureuse Vierge ». Le manteau est couvert de motifs d'or.",
+        "compare": "Une image de méditation plutôt qu'une scène : les mots latins guident la prière.",
+        "image": "images/mouvements/ecole-de-cuzco/ame-de-la-vierge.jpg"
+      },
+      {
+        "title": "Sainte Lucie",
+        "artist": "Peintre de Cuzco",
+        "country": "Pérou",
+        "period": "XVIIIe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/232204), domaine public (CC0)",
+        "analysis": "Une petite toile de 40 cm. La sainte, auréolée, se tient debout dans un paysage, une palme à la main ; elle présente un plat où sont posés deux yeux, l'attribut par lequel on la reconnaît. Sa robe rouge et son manteau sombre sont semés de grandes fleurs d'or ; un oiseau rouge se pose sur un arbre derrière elle. Selon la fiche, la toile a été rentoilée et elle est attribuée, probablement, à Cuzco.",
+        "compare": "Les fleurs d'or posées sur les vêtements, sans suivre les plis du tissu : un procédé typique de Cuzco.",
+        "image": "images/mouvements/ecole-de-cuzco/sainte-lucie.jpg"
+      },
+      {
+        "title": "Saint Bonaventure et saint Antoine de Padoue",
+        "artist": "Basilio Santa Cruz Pumacallao",
+        "country": "Pérou",
+        "period": "vers 1670–1690",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/764086), domaine public (CC0)",
+        "analysis": "Une petite toile carrée de 30 cm, la seule de l'exposition dont on connaît le peintre : Basilio Santa Cruz Pumacallao. Deux saints franciscains auréolés, en habit de moine, jouent chacun d'un instrument à cordes, la tête levée comme s'ils écoutaient. Derrière eux apparaissent des ailes d'anges. Le cadrage serré, au plus près des visages, rapproche le spectateur des musiciens.",
+        "compare": "Un tableau du XVIIe siècle, plus ancien et plus sombre que les toiles dorées du XVIIIe siècle.",
+        "image": "images/mouvements/ecole-de-cuzco/saint-bonaventure-saint-antoine.jpg"
+      },
+      {
+        "title": "Le Songe de Joseph",
+        "artist": "Peintre de Cuzco",
+        "country": "Pérou",
+        "period": "fin du XVIIe – début du XVIIIe siècle",
+        "museum": "Yale University Art Gallery, New Haven",
+        "credit": "Yale University Art Gallery, New Haven, prêt de la Lewis Walpole Library (https://artgallery.yale.edu/collections/objects/333196), domaine public",
+        "analysis": "Joseph, auréolé, dort assis, la tête appuyée sur sa main, un bâton fleuri contre l'épaule. Un ange aux ailes roses, vêtu d'une tunique semée d'étoiles d'or, se penche vers lui et lève le doigt vers le ciel. Dans un coin, une femme agenouillée devant un pupitre ; à droite, deux paons, des moutons et une ville au pied des montagnes. Selon la fiche de Yale, le tableau a été acheté à Lima, au Pérou, en 1943.",
+        "compare": "Le seul tableau qui ne vient pas du Met : même goût pour les étoffes dorées et les oiseaux.",
+        "image": "images/mouvements/ecole-de-cuzco/songe-de-joseph.jpg"
+      },
+      {
+        "title": "Adam et Ève au paradis",
+        "artist": "Peintre de Cuzco",
+        "country": "Pérou",
+        "period": "XVIIIe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/764090), domaine public (CC0)",
+        "analysis": "Dieu le Père, en manteau rouge, se tient à gauche et lève la main vers l'arbre aux fruits rouges ; Adam et Ève, nus, se tiennent près du tronc, cachés par des feuilles. Le paradis est une forêt peuplée d'oiseaux colorés, au bord d'une rivière.",
+        "compare": "Même sujet que dans la peinture européenne, mais avec les perroquets et les oiseaux exotiques chers aux peintres de Cuzco.",
+        "sensible": true,
+        "image": "images/mouvements/ecole-de-cuzco/adam-et-eve-au-paradis.jpg"
+      },
+      {
+        "title": "Emblème de la Folie",
+        "artist": "Peintre de Cuzco",
+        "country": "Pérou",
+        "period": "XVIIIe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/764089), domaine public (CC0)",
+        "analysis": "Un fou, en capuchon rouge à grelot et chapeau à plumes, vêtu d'une robe brodée, chevauche un cheval-bâton ; il brandit une lance et tient sous le bras un panier d'où sort la tête d'un chat. Face à lui, un ange se cache les yeux d'une main. En bas, une inscription latine cite un psaume : « Deus tu scis insipientiam meam… », « Dieu, tu connais ma folie, et mes fautes ne te sont pas cachées ».",
+        "compare": "Le point d'arrivée de l'exposition : une image morale, presque comique, qui montre que la peinture de Cuzco ne se limite pas aux Vierges.",
+        "image": "images/mouvements/ecole-de-cuzco/embleme-de-la-folie.jpg"
+      }
+    ]
   }
 ]

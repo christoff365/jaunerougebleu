@@ -3891,5 +3891,181 @@
         "image": "images/mouvements/ecole-de-cuzco/embleme-de-la-folie.jpg"
       }
     ]
+  },
+  {
+    "mouvement": "Sculpture maorie",
+    "slug": "sculpture-maorie",
+    "status": "published",
+    "title": "La sculpture maorie, bois, pounamu et mana",
+    "subtitle": "Aotearoa Nouvelle-Zélande, XVIIIe–XIXe siècle : quinze œuvres de Cleveland et New York",
+    "intro": "Les Maoris sont le peuple autochtone d'Aotearoa, la Nouvelle-Zélande. Leurs sculpteurs travaillent le bois et une pierre verte très dure, le pounamu, une néphrite. Les surfaces se couvrent de spirales et de motifs qui reprennent ceux des tatouages du visage, et les yeux sont souvent incrustés de nacre d'haliotis, le pāua. Selon le Cleveland Museum of Art, chez les Maoris les chefs héréditaires sont chargés de mana, un pouvoir et un prestige qui peuvent passer dans les œuvres qui leur sont liées et se transmettre avec elles ; ces œuvres, les taonga, relient les vivants aux ancêtres. Cette exposition présente des pendentifs de pounamu, des sculptures de maisons, des boîtes à trésor, des armes, des instruments et un manteau. Les œuvres viennent du Metropolitan Museum of Art et du Cleveland Museum of Art ; nous n'avons pas encore pu obtenir d'images libres d'œuvres conservées en Nouvelle-Zélande, notamment au musée Te Papa Tongarewa de Wellington et au musée d'Auckland, et nous les ajouterons dès que possible.",
+    "works": [
+      {
+        "title": "Pendentif de cou (hei-tiki)",
+        "artist": "Artiste maori",
+        "country": "Nouvelle-Zélande",
+        "period": "XIXe siècle",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1969.107), domaine public (CC0)",
+        "analysis": "Un pendentif de pounamu vert de 17 cm, poli et brillant. La figure a une grande tête penchée, de grands yeux ronds, les mains posées sur les cuisses, les jambes repliées. Selon le musée, chez les Maoris, les chefs héréditaires sont chargés de mana, un pouvoir et un prestige qui passent dans les œuvres qui leur sont liées et se transmettent avec elles. Les hei-tiki font partie de ces trésors de famille, qui relient les vivants aux ancêtres d'avant l'arrivée des Européens. Ils représenteraient peut-être Hine-te-Iwaiwa, une ancêtre légendaire, modèle de la femme maorie et protectrice des naissances.",
+        "compare": "Le point de départ de l'exposition : un bijou qui se transmet de génération en génération. Comparez avec le second hei-tiki, plus étroit.",
+        "image": "images/mouvements/sculpture-maorie/hei-tiki-cleveland.jpg"
+      },
+      {
+        "title": "Pendentif (hei-tiki)",
+        "artist": "Artiste maori",
+        "country": "Nouvelle-Zélande",
+        "period": "XIXe siècle",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1954.147), domaine public (CC0)",
+        "analysis": "Un autre hei-tiki de néphrite, plus petit (11 cm) et plus étroit. La tête est penchée sur le côté, les yeux sont deux grands cercles en relief, et les bras forment des ouvertures de chaque côté du corps. La pierre, d'un vert profond, laisse passer la lumière sur ses bords. Selon le musée, ces pendentifs sont des trésors chargés de mana, transmis dans les familles.",
+        "compare": "Deux hei-tiki, deux silhouettes : chaque pierre et chaque sculpteur donnent une forme différente au même modèle.",
+        "image": "images/mouvements/sculpture-maorie/hei-tiki-etroit.jpg"
+      },
+      {
+        "title": "Linteau de porte (pare)",
+        "artist": "Artiste maori",
+        "country": "Nouvelle-Zélande",
+        "period": "XIXe siècle",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1962.350), domaine public (CC0)",
+        "analysis": "Un linteau de bois ajouré de 76 cm de long, couvert de spirales. Selon le musée, le pare était placé autrefois au-dessus de l'entrée des maisons de réunion maories, qui sont des édifices sacrés : le visiteur passait donc sous la divinité sculptée au centre, souvent féminine, mais dont le sexe n'est pas clair ici. De chaque côté, un esprit gardien à l'allure animale, le manaia, est montré de profil, tourné vers l'extérieur ; le musée invite à chercher ses pieds, qui agrippent les bords du linteau.",
+        "compare": "Une sculpture que l'on regarde en passant dessous : elle marque le seuil entre le dehors et un lieu sacré.",
+        "image": "images/mouvements/sculpture-maorie/linteau-de-porte-pare.jpg"
+      },
+      {
+        "title": "Amo (figure de poteau de maison)",
+        "artist": "Artiste maori",
+        "country": "Nouvelle-Zélande",
+        "period": "vers 1800",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/313697), domaine public (CC0)",
+        "analysis": "Une figure de bois de 1,09 m, sculptée dans un poteau. La grande tête, aux yeux ronds et à la bouche grande ouverte d'où sort la langue, occupe le haut ; le corps, les bras et les jambes sont couverts de spirales finement entaillées et de motifs ajourés. Selon la fiche du musée, elle vient du groupe Te Arawa ; son titre en fait une figure de poteau de maison, un amo.",
+        "compare": "Comparez avec le linteau : la maison maorie elle-même est couverte de figures d'ancêtres.",
+        "image": "images/mouvements/sculpture-maorie/amo-poteau-de-maison.jpg"
+      },
+      {
+        "title": "Tekoteko (figure de pignon)",
+        "artist": "Artiste maori",
+        "country": "Nouvelle-Zélande",
+        "period": "années 1820",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/313626), domaine public (CC0)",
+        "analysis": "Une figure de bois peint en rouge de 66 cm, qui se dressait, selon son titre, au sommet du pignon d'une maison. La grande tête a les yeux incrustés de coquillage et la bouche grande ouverte ; le corps est couvert de spirales. La figure tient contre elle un objet blanc, et sous elle apparaît une seconde tête, au visage calme. De petites figures se tiennent de part et d'autre de la tête. Selon la fiche, elle vient du groupe Te Arawa.",
+        "compare": "Deux têtes superposées, comme les générations qui se suivent : la sculpture maorie aime empiler les figures.",
+        "sensible": true,
+        "image": "images/mouvements/sculpture-maorie/tekoteko-figure-de-pignon.jpg"
+      },
+      {
+        "title": "Proue de pirogue de pêche",
+        "artist": "Artiste maori",
+        "country": "Nouvelle-Zélande",
+        "period": "XIXe siècle",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1967.231), domaine public (CC0)",
+        "analysis": "Une tête de bois de 35 cm, aux yeux incrustés de nacre d'haliotis, qui ornait l'avant d'une pirogue de pêche. Selon le musée, les surfaces finement décorées caractérisent la sculpture maorie sur bois : les spirales et les volutes qui couvrent ce visage reproduisent les motifs traditionnels du tatouage facial. On les retrouve sur les figures de poteaux et de pignons des maisons. Les mots « New Zealand » sont peints sur le support.",
+        "compare": "Le même visage tatoué, des maisons aux pirogues : le motif suit les Maoris sur terre et sur mer.",
+        "image": "images/mouvements/sculpture-maorie/proue-de-pirogue.jpg"
+      },
+      {
+        "title": "Papahou (boîte à trésor)",
+        "artist": "Artiste maori",
+        "country": "Nouvelle-Zélande",
+        "period": "XVIIIe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/311197), domaine public (CC0)",
+        "analysis": "Une boîte longue et plate de 45 cm, en bois, dont le couvercle porte une rangée de petites figures sculptées en relief. Les côtés sont couverts de visages aux yeux incrustés de pāua, la nacre bleu-vert de l'haliotis, entre des spirales. Selon la fiche, elle date du XVIIIe siècle, ce qui en fait l'une des œuvres les plus anciennes de l'exposition.",
+        "compare": "Comparez avec les deux boîtes waka huia qui suivent, de forme plus arrondie.",
+        "image": "images/mouvements/sculpture-maorie/papahou-boite-a-tresor.jpg"
+      },
+      {
+        "title": "Boîte à trésor (wakahuia)",
+        "artist": "Artiste maori",
+        "country": "Nouvelle-Zélande",
+        "period": "XIXe siècle",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1961.405), domaine public (CC0)",
+        "analysis": "Une boîte ovale couverte de spirales en bas relief, avec de petites figures sculptées à chaque bout. Selon le musée, elle servait à ranger les ornements portés par les chefs : plumes de l'oiseau huia, peignes et pendentifs hei-tiki. Comme la tête et le cou des chefs de haut rang étaient tapu, c'est-à-dire sacrés, leurs parures étaient dangereuses pour les enfants et les personnes de rang inférieur ; on suspendait donc ces boîtes aux chevrons de la maison du chef. Selon le musée, des boîtes comme celle-ci étaient en usage quand le capitaine Cook visita la Nouvelle-Zélande, en 1769–1770.",
+        "compare": "Une boîte suspendue au-dessus des têtes : le soin du décor dit l'importance des trésors qu'elle protégeait.",
+        "image": "images/mouvements/sculpture-maorie/wakahuia-cleveland.jpg"
+      },
+      {
+        "title": "Waka huia (boîte à trésor)",
+        "artist": "Artiste maori",
+        "country": "Nouvelle-Zélande",
+        "period": "milieu – fin du XIXe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/313628), domaine public (CC0)",
+        "analysis": "Une boîte de 57 cm, en forme de petite pirogue, avec son couvercle. Toute la surface est couverte de fines lignes parallèles qui se croisent en chevrons ; au milieu et aux extrémités se détachent des figures sculptées aux yeux de pāua brillant. Selon la fiche, elle est en bois et en coquillage.",
+        "compare": "Plus tardive que la boîte de Cleveland, mais faite pour le même usage : garder les plumes et les bijoux des chefs.",
+        "image": "images/mouvements/sculpture-maorie/waka-huia-met.jpg"
+      },
+      {
+        "title": "Mere pounamu (casse-tête)",
+        "artist": "Artiste maori",
+        "country": "Nouvelle-Zélande",
+        "period": "XIXe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/313647), domaine public (CC0)",
+        "analysis": "Un casse-tête plat de 37 cm, taillé dans le pounamu, d'un vert vif semé de taches plus sombres. Sa forme est simple : une lame arrondie qui s'élargit vers l'extrémité, un manche percé d'un trou et terminé par des anneaux sculptés. Ici, pas de figure ni de spirale : toute la beauté vient de la pierre et de son poli.",
+        "compare": "Comparez avec le casse-tête de bois qui suit, couvert de sculptures : deux matières, deux façons d'honorer une arme.",
+        "image": "images/mouvements/sculpture-maorie/mere-pounamu.jpg"
+      },
+      {
+        "title": "Casse-tête court (wahaika)",
+        "artist": "Artiste maori",
+        "country": "Nouvelle-Zélande",
+        "period": "milieu du XIXe siècle",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1964.455), domaine public (CC0)",
+        "analysis": "Selon le musée, le wahaika, porté à la ceinture, servait au combat corps à corps. Les premiers casse-tête, non décorés, étaient en pierre ; ceux d'os et de bois reçurent des décors de plus en plus complexes. La petite figure accrochée au côté de celui-ci représente peut-être le pouvoir surnaturel, le mana, de l'arme, tandis que le visage au bout de la poignée exprime l'agressivité du combat. La lame est couverte d'une grande spirale et de fines rainures parallèles.",
+        "compare": "Le pounamu lisse d'un côté, le bois sculpté de l'autre : la même arme, deux esthétiques.",
+        "image": "images/mouvements/sculpture-maorie/wahaika-casse-tete.jpg"
+      },
+      {
+        "title": "Kapeu (ornement d'oreille)",
+        "artist": "Artiste maori",
+        "country": "Nouvelle-Zélande",
+        "period": "XVIIIe – début du XIXe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/321287), domaine public (CC0)",
+        "analysis": "Une fine tige de pounamu de 12 cm, d'un vert profond, recourbée à une extrémité et percée d'un trou à l'autre. Selon son titre, c'est un ornement d'oreille, un kapeu. La forme est réduite à l'essentiel ; tout l'art est dans la taille et le poli d'une pierre très dure.",
+        "compare": "Après les grands bois sculptés, un bijou minimaliste : la sculpture maorie sait aussi se taire.",
+        "image": "images/mouvements/sculpture-maorie/kapeu-ornement-oreille.jpg"
+      },
+      {
+        "title": "Turuturu (piquet de tissage)",
+        "artist": "Artiste maori",
+        "country": "Nouvelle-Zélande",
+        "period": "fin du XVIIIe – début du XIXe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/313819), domaine public (CC0)",
+        "analysis": "Un piquet de bois de 37 cm, pointu en bas, sculpté en haut d'une figure aux yeux ronds et d'un décor ajouré de spirales et de croisillons. Selon son titre, c'est un turuturu, un piquet utilisé pour le tissage. Même un outil de travail reçoit un décor soigné.",
+        "compare": "Un outil sculpté qui annonce l'œuvre suivante : un manteau tissé.",
+        "image": "images/mouvements/sculpture-maorie/turuturu-piquet-de-tissage.jpg"
+      },
+      {
+        "title": "Kaitaka aronui (manteau)",
+        "artist": "Artiste maori",
+        "country": "Nouvelle-Zélande",
+        "period": "milieu du XIXe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/839896), domaine public (CC0)",
+        "analysis": "Un manteau de 1,73 m de large, tissé en fibre de lin de Nouvelle-Zélande, le harakeke, selon la fiche du musée. Le grand champ couleur paille, fin et serré, est bordé en bas d'une large bande de motifs géométriques, triangles, zigzags et losanges, en brun, noir, beige et rouge ; selon la fiche, le manteau est fait de lin et de laine. Des bordures plus étroites suivent les côtés.",
+        "compare": "Le motif géométrique du tissage répond aux spirales de la sculpture : deux grands arts maoris.",
+        "image": "images/mouvements/sculpture-maorie/kaitaka-aronui-manteau.jpg"
+      },
+      {
+        "title": "Pūtōrino (flûte)",
+        "artist": "Artiste maori",
+        "country": "Nouvelle-Zélande",
+        "period": "vers 1800–1820",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/313818), domaine public (CC0)",
+        "analysis": "Un instrument de bois de 43 cm, en forme de long fuseau, serré par des liens de fibre. Au centre, une ouverture ; en haut et en bas, deux petits visages sculptés. Selon son titre, c'est une pūtōrino, une flûte maorie.",
+        "compare": "Le point d'arrivée de l'exposition : un objet fait pour le son, où la sculpture reste discrète.",
+        "image": "images/mouvements/sculpture-maorie/putorino-flute.jpg"
+      }
+    ]
   }
 ]

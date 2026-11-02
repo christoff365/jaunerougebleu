@@ -4292,8 +4292,8 @@
     "slug": "renaissance",
     "status": "published",
     "title": "La Renaissance, l'Europe redécouvre l'Antiquité et le monde",
-    "subtitle": "Italie, Flandres, Allemagne et Pays-Bas, XVe–XVIe siècle : quatorze œuvres de Washington, New York, Cleveland, Copenhague et Amsterdam",
-    "intro": "Au XVe siècle, des artistes de Florence redécouvrent l'Antiquité grecque et romaine, étudient le corps humain et inventent la perspective, qui donne l'illusion de la profondeur. Au même moment, en Flandres, des peintres comme Jan van Eyck perfectionnent la peinture à l'huile, qui permet de rendre chaque reflet et chaque détail. Ces deux foyers s'influencent, et la Renaissance gagne toute l'Europe : Venise, Rome, l'Allemagne de Dürer et de Cranach, les Pays-Bas de Bruegel. L'imprimerie fait circuler les gravures et les idées. Cette exposition croise le Sud et le Nord : Van Eyck, Botticelli, Léonard de Vinci, Filippino Lippi, Mantegna, Bosch, Raphaël, Dürer, Titien, Cranach et Bruegel. Les œuvres viennent de la National Gallery of Art de Washington, du Metropolitan Museum of Art, du Cleveland Museum of Art, du Statens Museum for Kunst de Copenhague et du Rijksmuseum d'Amsterdam ; les grandes œuvres restées en Italie, en Belgique et en Allemagne seront ajoutées quand nous pourrons obtenir leurs images libres.",
+    "subtitle": "Italie, Flandres, Allemagne, Pays-Bas, Angleterre et France, XVe–XVIe siècle : vingt-trois œuvres de Washington, New York, Cleveland, Copenhague et Amsterdam",
+    "intro": "Au XVe siècle, des artistes de Florence redécouvrent l'Antiquité grecque et romaine, étudient le corps humain et inventent la perspective, qui donne l'illusion de la profondeur. Au même moment, en Flandres, des peintres comme Jan van Eyck perfectionnent la peinture à l'huile, qui permet de rendre chaque reflet et chaque détail. Ces deux foyers s'influencent, et la Renaissance gagne toute l'Europe : Venise, Rome, l'Allemagne de Dürer et de Cranach, les Pays-Bas de Bruegel. L'imprimerie fait circuler les gravures et les idées. Cette exposition croise le Sud et le Nord, la peinture et la sculpture : Van Eyck, Rogier van der Weyden, Botticelli, Verrocchio, Léonard de Vinci, Mantegna, Bosch, Raphaël, Dürer, Parmigianino, Bronzino, Holbein, Titien, Cranach et Bruegel. Les œuvres viennent de la National Gallery of Art de Washington, du Metropolitan Museum of Art, du Cleveland Museum of Art, du Statens Museum for Kunst de Copenhague et du Rijksmuseum d'Amsterdam ; les grandes œuvres restées en Italie, en Belgique et en Allemagne seront ajoutées quand nous pourrons obtenir leurs images libres.",
     "works": [
       {
         "title": "L'Annonciation",
@@ -4307,6 +4307,17 @@
         "image": "images/mouvements/renaissance/van-eyck-annonciation.jpg"
       },
       {
+        "title": "Portrait d'une dame",
+        "artist": "Rogier van der Weyden",
+        "country": "Flandres",
+        "period": "vers 1460",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.51.html), domaine public (CC0)",
+        "analysis": "Un petit panneau de 34 × 25,5 cm. Une jeune femme, les yeux baissés, les mains jointes ornées de bagues, porte une coiffe couverte d'un voile transparent épinglé, une robe sombre et une ceinture rouge à boucle d'or. Elle se détache sur un fond bleu nuit uni. Le voile est si fin qu'on voit au travers. Selon la fiche du musée, le tableau a probablement appartenu aux princes d'Anhalt, qui le gardaient dans leur « maison gothique » de Wörlitz, près de Dessau, en Allemagne, avant d'être vendu en 1925.",
+        "compare": "Un portrait de piété à la flamande : peu de choses, mais chaque matière, le voile, la boucle, la peau, est rendue avec une précision extrême.",
+        "image": "images/mouvements/renaissance/rogier-van-der-weyden-portrait-dame.jpg"
+      },
+      {
         "title": "L'Adoration des Mages",
         "artist": "Sandro Botticelli",
         "country": "Italie",
@@ -4316,6 +4327,28 @@
         "analysis": "La Sainte Famille est installée dans des ruines antiques, sous une charpente de bois ; tout autour se presse un cortège de rois, de serviteurs et de cavaliers aux vêtements de couleurs vives. Les arcs et les piliers de l'architecture conduisent le regard vers le fond, dans un paysage clair. Selon la fiche du musée, ce panneau de 68 × 102 cm a appartenu à Vivant Denon, qui le vendit en 1808 au tsar Alexandre Ier ; il fut ensuite conservé au musée de l'Ermitage, à Saint-Pétersbourg.",
         "compare": "Les ruines antiques au milieu d'une scène chrétienne : la Renaissance florentine fait dialoguer l'Antiquité et la foi.",
         "image": "images/mouvements/renaissance/botticelli-adoration-mages.jpg"
+      },
+      {
+        "title": "Giuliano de' Médicis",
+        "artist": "Andrea del Verrocchio",
+        "country": "Italie",
+        "period": "vers 1475–1478",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.134.html), domaine public (CC0)",
+        "analysis": "Un buste de terre cuite de 61 cm de haut. Le jeune homme, aux cheveux bouclés, la tête légèrement tournée, a un léger sourire assuré. Il porte une armure finement décorée ; au centre de la poitrine, une tête ailée à la bouche grande ouverte. Selon son titre, c'est Giuliano de' Médicis, de la famille qui gouvernait Florence. Selon la fiche du musée, le buste a été acheté en Italie en 1846 par le collectionneur français Eugène Piot, puis a appartenu à Gustave Dreyfus, à Paris.",
+        "compare": "La Renaissance remet à l'honneur le buste-portrait des Romains : un homme réel, fier de son rang, sculpté comme un empereur antique.",
+        "image": "images/mouvements/renaissance/verrocchio-giuliano-de-medici.jpg"
+      },
+      {
+        "title": "Petit garçon",
+        "artist": "Desiderio da Settignano",
+        "country": "Italie",
+        "period": "vers 1455–1460",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.120.html), domaine public (CC0)",
+        "analysis": "Un buste de marbre de 26 cm. Un petit enfant aux joues rondes et aux cheveux courts tourne la tête de côté ; sa chemise légère glisse sur son épaule. Le marbre, très finement poli, semble aussi doux que la peau. Selon la fiche du musée, il a été acheté en Italie en 1846 par Eugène Piot, comme le buste de Verrocchio, et il a fait partie de la même collection Dreyfus, à Paris.",
+        "compare": "Après le prince en armure, un enfant : les sculpteurs florentins observent la vie de tous les jours avec tendresse.",
+        "image": "images/mouvements/renaissance/desiderio-da-settignano-petit-garcon.jpg"
       },
       {
         "title": "Ginevra de' Benci",
@@ -4395,6 +4428,17 @@
         "image": "images/mouvements/renaissance/durer-melencolia-i.jpg"
       },
       {
+        "title": "Portrait de Lorenzo Cybo",
+        "artist": "Parmigianino",
+        "country": "Italie",
+        "period": "1523",
+        "museum": "Statens Museum for Kunst, Copenhague",
+        "credit": "Statens Museum for Kunst, Copenhague (https://open.smk.dk/artwork/image/KMSsp73), domaine public",
+        "analysis": "Selon le musée, l'historien d'art Giorgio Vasari raconte que Lorenzo Cybo, capitaine de la garde suisse et très bel homme, voulut être peint par Parmigianino, et que le peintre « ne le représenta pas tant qu'il le créa de chair et de sang ». L'homme blond, droit et réservé, dégage une certaine arrogance ; détendu, il tient une dague et une énorme épée à deux mains, si lourde qu'un petit garçon l'aide à la porter. Selon le musée, les armes et l'année 1523 inscrites en bas rappellent sans doute sa nomination à la tête de la garde personnelle du pape ; une table de jeu, avec dés et jetons, montre qu'il lui restait du temps pour le plaisir. La toile mesure 126,5 × 104,5 cm.",
+        "compare": "Le musée rappelle que Parmigianino mourut à 37 ans et que son autoportrait dans un miroir convexe est un point de départ du maniérisme, un style raffiné et étrange qui suit la grande Renaissance.",
+        "image": "images/mouvements/renaissance/parmigianino-lorenzo-cybo.jpg"
+      },
+      {
         "title": "Marie-Madeleine",
         "artist": "Jan van Scorel",
         "country": "Pays-Bas",
@@ -4417,6 +4461,28 @@
         "image": "images/mouvements/renaissance/lucas-van-leyden-veau-d-or.jpg"
       },
       {
+        "title": "Portrait d'un jeune homme",
+        "artist": "Bronzino",
+        "country": "Italie",
+        "period": "années 1530",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/435802), domaine public (CC0)",
+        "analysis": "Un jeune homme vêtu de noir se tient debout, une main posée sur un livre, l'autre sur la hanche, et regarde le spectateur avec froideur. Le décor est fait d'architecture grise, avec une table et un fauteuil sculptés de masques et de volutes. Les couleurs sont retenues, les contours nets, les mains longues et élégantes. Selon la fiche du musée, il est peint à l'huile sur bois et mesure 96 × 75 cm.",
+        "compare": "Le portrait maniériste de Florence : moins de chaleur que chez Raphaël, plus de distance et d'élégance.",
+        "image": "images/mouvements/renaissance/bronzino-portrait-jeune-homme.jpg"
+      },
+      {
+        "title": "Terminus, emblème d'Érasme",
+        "artist": "Hans Holbein le Jeune",
+        "country": "Allemagne et Suisse",
+        "period": "vers 1532",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1971.166), domaine public (CC0)",
+        "analysis": "Selon le musée, Érasme de Rotterdam, célèbre humaniste hollandais, adopta l'esprit de la Renaissance italienne et puisa dans la littérature grecque et romaine. Holbein mêle ici les traits d'Érasme à ceux de Terminus, le dieu romain des limites, qui refusa de céder sa place à Jupiter sur la colline du Capitole. Érasme avait pris Terminus, avec la devise « concedo nulli » (« je ne cède à personne »), comme emblème de sa fidélité et de sa fermeté. On voit le buste sur une borne, dans un cercle, et les lettres de la devise de part et d'autre. Selon le musée, l'étude des cernes du bois a permis de dater le panneau.",
+        "compare": "L'humanisme en image : un savant du Nord se représente en dieu romain.",
+        "image": "images/mouvements/renaissance/holbein-terminus-erasme.jpg"
+      },
+      {
         "title": "Portrait de l'électeur Jean le Constant de Saxe",
         "artist": "Lucas Cranach l'Ancien",
         "country": "Allemagne",
@@ -4428,6 +4494,17 @@
         "image": "images/mouvements/renaissance/cranach-jean-le-constant.jpg"
       },
       {
+        "title": "Édouard VI enfant",
+        "artist": "Hans Holbein le Jeune",
+        "country": "Angleterre",
+        "period": "probablement 1538",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.71.html), domaine public (CC0)",
+        "analysis": "Un tout petit prince, en habit rouge et or, coiffé d'un chapeau à plume, lève la main droite comme pour bénir et tient de l'autre un hochet d'or. Sous lui, un long poème latin, dont le début se lit : PARVVLE PATRISSA, « Petit enfant, imite ton père ». Selon la fiche du musée, Holbein offrit ce tableau au roi Henri VIII le 1er janvier 1539, comme cadeau du Nouvel An. Le panneau mesure 57 × 44 cm.",
+        "compare": "Peintre de la cour d'Angleterre, Holbein fait d'un bébé un futur roi : le geste, l'habit et le poème disent déjà son rang.",
+        "image": "images/mouvements/renaissance/holbein-edouard-vi-enfant.jpg"
+      },
+      {
         "title": "Le Cardinal Pietro Bembo",
         "artist": "Titien",
         "country": "Italie",
@@ -4437,6 +4514,28 @@
         "analysis": "Un homme âgé à la longue barbe blanche, en habit et barrette rouges de cardinal, se tourne de trois quarts, la main ouverte comme s'il parlait. Le rouge de la soie, aux reflets et aux plis rendus par touches libres, domine toute la toile, sur un fond sombre. Selon la fiche du musée, le portrait, de 94,5 × 76,5 cm, a probablement été commandé par le modèle lui-même, le cardinal Pietro Bembo (1470–1547), puis transmis à son fils.",
         "compare": "À Venise, Titien peint avec la couleur plus qu'avec la ligne : comparez avec la précision de Van Eyck au début de l'exposition.",
         "image": "images/mouvements/renaissance/titien-cardinal-pietro-bembo.jpg"
+      },
+      {
+        "title": "Chasse près du château de Hartenfels",
+        "artist": "Lucas Cranach l'Ancien",
+        "country": "Allemagne",
+        "period": "1540",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1958.425), domaine public (CC0)",
+        "analysis": "Selon le musée, les princes protestants de Saxe commandèrent cette scène de chasse animée, devant leur résidence, le château de Hartenfels, visible au fond. En bas à gauche, l'électeur Jean-Frédéric le Magnanime, en vert foncé, tend son arbalète et attend que courtisans et chiens rabattent un cerf vers la rivière ; à droite, son épouse, l'électrice Sibylle, se prépare à tirer le premier coup, selon la cérémonie. Ces chasses étaient très organisées, rythmées par les sonneries de cor. Cranach a daté l'œuvre et signé d'un serpent ailé, en bas à droite. Le musée invite à chercher, au fond, un ours et trois sangliers.",
+        "compare": "Le fils de l'électeur vu plus haut : la cour de Saxe se fait peindre en pleine fête, une autre forme de propagande.",
+        "image": "images/mouvements/renaissance/cranach-chasse-hartenfels.jpg"
+      },
+      {
+        "title": "Portrait d'une femme",
+        "artist": "Corneille de Lyon",
+        "country": "France",
+        "period": "vers 1540",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1942.48), domaine public (CC0)",
+        "analysis": "Un portrait minuscule, de 16,5 × 15 cm : une jeune femme rousse, au teint clair, porte une coiffe ornée de perles et une robe noire brodée d'or, sur un fond bleu-vert lisse. Selon le musée, Corneille de Lyon, venu des Pays-Bas, travaillait pour la cour de France et pour de riches marchands. Son style du Nord, proche des miniatures et des manuscrits, contrastait avec le goût pour la peinture italienne. Une restauration récente a rendu au fond son aspect lisse d'émail ; de la feuille d'or a été posée sur les détails de la coiffe et des broderies.",
+        "compare": "La Renaissance en France : un portrait de cour en format de poche, précis comme une miniature.",
+        "image": "images/mouvements/renaissance/corneille-de-lyon-portrait-femme.jpg"
       },
       {
         "title": "Les Moissonneurs",

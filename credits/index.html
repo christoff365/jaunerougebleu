@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Crédits — Jaune-Rouge-Bleu</title>
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Righteous&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+html,body{overflow-x:hidden;max-width:100%}@supports(overflow:clip){html,body{overflow-x:clip}}
+  :root { --jaune: #F5C400; --rouge: #D8261C; --bleu: #1C3F9E; box-sizing: border-box; }
+  *, *::before, *::after { box-sizing: inherit; }
+  body { margin: 0; min-height: 100vh; background: #fff; color: #000; font-family: "Jost", "Segoe UI", sans-serif; font-size: 1.0625rem; line-height: 1.5; }
+  a:focus-visible, button:focus-visible { outline: 3px solid var(--bleu); outline-offset: 3px; }
+  header { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .75rem 2rem; padding: 1rem clamp(1rem, 5vw, 3rem); border-bottom: 6px solid #000; }
+  .marque { font-family: "Bauhaus 93", "Righteous", sans-serif; font-weight: 400; font-size: clamp(1.6rem, 5vw, 2.3rem); line-height: 1; margin: 0; color: #000; text-decoration: none; }
+  .marque .j { color: var(--jaune); text-shadow: 1px 0 0 #000, -1px 0 0 #000, 0 1px 0 #000, 0 -1px 0 #000; } .marque .r { color: var(--rouge); } .marque .b { color: var(--bleu); }
+  .outils { display: flex; align-items: center; gap: 1.25rem; flex-wrap: wrap; }
+  .retour { color: #000; font-weight: 500; text-decoration: none; border-bottom: 3px solid var(--rouge); }
+  .langs { display: flex; gap: 4px; }
+  .langs button { background: none; border: 1px solid #bbb; color: #555; font: inherit; font-size: 12px; padding: 3px 8px; border-radius: 3px; cursor: pointer; }
+  .langs button.on, .langs button:hover { border-color: #000; color: #000; background: var(--jaune); }
+  main { max-width: 760px; margin: 0 auto; padding: 2rem 1rem 3rem; }
+  h1 { font-size: 1.8rem; margin: 0 0 1.75rem; }
+  h2 { font-size: 1rem; font-weight: 700; margin: 1.6rem 0 .4rem; }
+  p { font-size: .95rem; line-height: 1.7; color: #333; margin: 0 0 .5rem; }
+  p a, li a { color: var(--bleu); }
+  ul { padding: 0; margin: 0; list-style: none; }
+  li { font-size: .95rem; line-height: 1.7; color: #333; margin: 0 0 .9rem; padding-inline-start: 14px; border-inline-start: 3px solid var(--jaune); }
+</style>
+</head>
+<body>
+<header>
+  <a class="marque" href="../index.html" aria-label="Jaune-Rouge-Bleu, accueil du site"><span class="j">Jaune</span>-<span class="r">Rouge</span>-<span class="b">Bleu</span></a>
+  <div class="outils">
+    <div class="langs" role="group" aria-label="Langue">
+      <button data-lang="fr" lang="fr" aria-label="Français" onclick="changerLangue('fr')">FR</button>
+      <button data-lang="en" lang="en" aria-label="English" onclick="changerLangue('en')">EN</button>
+      <button data-lang="es" lang="es" aria-label="Español" onclick="changerLangue('es')">ES</button>
+      <button data-lang="ar" lang="ar" aria-label="العربية" onclick="changerLangue('ar')">ع</button>
+    </div>
+    <a class="retour" href="../index.html">← Retour au site</a>
+  </div>
+</header>
+<main>
+  <h1>Crédits des textes</h1>
+  <p>Chaque image du site est créditée juste en dessous, avec un lien vers sa source.</p>
+  <ul>
+    <li>Textes du site (descriptions audio, partitions visuelles, vibrations, séances bien-être, présentation des pages et expositions « La lumière comme langage universel », « La couleur est relative », « Nature, art et bien-être » et « Masques du monde », dont les résumés d'études scientifiques, vérifiés sur les publications citées en bibliographie) — source : Claude AI (Anthropic), textes générés par intelligence artificielle.</li>
+    <li>Les tempos, tonalités et la musique des couleurs sont calculés à partir des couleurs réelles des images, selon une règle de correspondance inventée pour ce site ; les rythmes de vibration et les textes « Si cette œuvre était une musique » sont des interprétations créatives. Aucun ne décrit une musique réelle liée aux œuvres.</li>
+    <li>Sons d'instruments de la musique des couleurs (styles « Symphonie » et « Expérimentale ») : <a href="https://github.com/sgossner/VSCO-2-CE" target="_blank" rel="noopener">VS Chamber Orchestra: Community Edition</a>, enregistré par Sam Gossner et Simon Dalzell (Versilian Studios), dans le domaine public (licence CC0) ; quelques notes par instrument, raccourcies et converties pour le site.</li>
+    <li>Instruments du monde de la musique expérimentale : <a href="https://github.com/sgossner/VCSL" target="_blank" rel="noopener">Versilian Community Sample Library</a>, enregistrée par Versilian Studios, dans le domaine public (licence CC0) ; voix de synthèse composées par le site.</li>
+    <li>Informations sur les œuvres (titres, artistes, dates, lieux de conservation) — source : les musées et la base Wikimedia Commons cités ci-dessus.</li>
+    <li>Traductions anglaise, espagnole et arabe : Claude AI (Anthropic), non relues par des traducteurs.</li>
+    <li>Œuvres du générateur et des séances de bien-être trouvées en direct : fiches et images issues des catalogues ouverts des musées (Met, Art Institute of Chicago, Cleveland Museum of Art, SMK, Minneapolis Institute of Art, Smithsonian Institution, Wellcome Collection, Yale University Art Gallery et Yale Center for British Art), d'Europeana et de la Library of Congress (manuscrits enluminés de la World Digital Library, libres de droits connus) et de ColBase, le catalogue des musées nationaux du Japon (via Japan Search, licence CC BY 4.0), dans leur langue d'origine ; chaque image est créditée avec un lien vers sa fiche. Les icônes et les manuscrits d'Europeana peuvent être sous licence libre (CC BY ou CC BY-SA), indiquée dans le crédit.</li>
+    <li>Descriptions audio composées automatiquement (œuvres sans description écrite) : assemblées par le site à partir des informations du musée et des couleurs de l'image ; elles restent sommaires et doivent être complétées par des descriptions écrites.</li>
+    <li>Œuvres et monuments de 121 institutions du monde entier et du patrimoine mondial de l'UNESCO : fiches de Wikidata et images de Wikimedia Commons, sous licence libre ; chaque image est créditée (auteur, licence et lien vers le fichier).</li>
+    <li>Œuvres des musées de France reliées à leur notice Joconde (ministère de la Culture) : fiches de Wikidata et images de Wikimedia Commons, sous licence libre ; chaque œuvre renvoie à sa notice sur la Plateforme ouverte du patrimoine (POP).</li>
+  </ul>
+</main>
+<script src="../i18n.js?v=20261102g"></script>
+<script>traduirePage();</script>
+</body>
+</html>

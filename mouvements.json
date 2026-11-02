@@ -5084,5 +5084,292 @@
         "image": "images/mouvements/baroque/manet-le-chanteur-espagnol.jpg"
       }
     ]
+  },
+  {
+    "mouvement": "Romantisme",
+    "slug": "romantisme",
+    "status": "published",
+    "title": "Le romantisme, le cœur, la nature et les nations",
+    "subtitle": "Europe, fin du XVIIIe – milieu du XIXe siècle, avec ses sources et son héritage : vingt-cinq œuvres de Washington, New York, Cleveland, Copenhague, Amsterdam et Helsinki",
+    "intro": "Le romantisme naît à la fin du XVIIIe siècle, en réaction contre le siècle des Lumières, qui faisait confiance à la raison, et contre le néoclassicisme, l'art calme et réglé de David et de ses élèves, inspiré de l'Antiquité. Les romantiques préfèrent le sentiment, l'imagination, le rêve et même le cauchemar. Ils cherchent le « sublime », ce mélange d'admiration et d'effroi que l'on éprouve devant une tempête, une montagne ou un incendie, et que le philosophe Edmund Burke avait décrit en 1757. Le mouvement est d'abord littéraire : Rousseau, Goethe et son Werther, Byron, Walter Scott, Chateaubriand, dont le roman Les Natchez inspire Delacroix. Les événements de l'époque le nourrissent. La Révolution française et les guerres de Napoléon suscitent l'enthousiasme, puis la désillusion ; la révolution industrielle transforme les villes, avec le charbon, les usines et la vapeur. Les peuples d'Europe affirment leur identité : les Grecs se soulèvent contre l'Empire ottoman dans les années 1820, la Norvège et la Finlande cherchent leurs paysages et leurs légendes, et Elias Lönnrot publie en 1835 le Kalevala, l'épopée nationale finlandaise. Les sciences comptent aussi : en 1803, Luke Howard donne leurs noms aux nuages, que Constable étudie sans relâche. Les commanditaires changent. À Paris, le Salon, exposition officielle, devient le lieu des grands débats : l'État y achète des tableaux, la critique et le public s'y passionnent. À Londres, la Royal Academy expose chaque année, et de nouveaux collectionneurs, industriels et négociants de Manchester ou de Liverpool, achètent des paysages. La lithographie, nouvelle technique d'impression, fait circuler les images, et les marchands d'art prennent de l'importance. L'héritage du romantisme est immense : le paysage de l'école de Barbizon et de la Hudson River School en Amérique, le symbolisme de la fin du siècle, et les impressionnistes, qui admirent la lumière de Turner et les couleurs de Delacroix. L'exposition suit ce chemin : les sources, à la fin du XVIIIe siècle, le romantisme en Angleterre, en Allemagne, en Scandinavie, aux Pays-Bas, en France, en Espagne et en Finlande, puis son héritage. Les œuvres viennent de la National Gallery of Art de Washington, du Metropolitan Museum of Art, du Cleveland Museum of Art, du Statens Museum for Kunst de Copenhague, du Rijksmuseum d'Amsterdam et de la Galerie nationale de Finlande ; Le Radeau de la Méduse de Géricault et La Liberté guidant le peuple de Delacroix, au Louvre, ou Le Voyageur contemplant une mer de nuages de Friedrich, à Hambourg, seront ajoutés quand nous pourrons obtenir leurs images libres.",
+    "works": [
+      {
+        "title": "Coriolan quittant sa famille",
+        "artist": "Anne-Louis Girodet",
+        "country": "France",
+        "period": "1786",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.221207.html), domaine public (CC0)",
+        "analysis": "Une toile de 114 × 146 cm. Dans une salle aux murs nus, un héros romain en toge rouge s'éloigne de sa famille ; sa femme et sa mère pleurent, un enfant s'accroche à lui, un autre dort sur les genoux d'une femme. À droite, un casque et un bouclier. Les figures sont alignées comme sur un bas-relief antique. Selon la fiche du musée, c'est le tableau que le jeune Girodet présenta au concours du prix de Rome en 1786 ; il fut peut-être offert au chimiste Antoine Lavoisier ou à sa femme, saisi par l'État en 1794, l'année où Lavoisier fut guillotiné, puis rendu à Mme Lavoisier en 1796.",
+        "compare": "Le point de départ de l'exposition : le néoclassicisme, enseigné à l'Académie, avec ses sujets antiques, ses lignes nettes et ses émotions contenues. C'est contre cet art que les romantiques vont se révolter, Girodet lui-même le premier.",
+        "image": "images/mouvements/romantisme/girodet-coriolan-quittant-sa-famille.jpg"
+      },
+      {
+        "title": "La Sorcière de la nuit rendant visite aux sorcières de Laponie",
+        "artist": "Johann Heinrich Füssli",
+        "country": "Angleterre (Londres)",
+        "period": "1796",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/436423), domaine public (CC0)",
+        "analysis": "Une toile de 102 × 126 cm. Dans le ciel nocturne, une figure lumineuse arrive en volant ; en bas, dans l'ombre, des sorcières aux visages grimaçants sont penchées sur un enfant nu étendu sur le sol, à côté d'un couteau. La lumière n'éclaire que quelques corps ; le reste se perd dans le noir. Füssli, né à Zurich, a fait sa carrière à Londres, comme le rappelle la fiche du musée.",
+        "compare": "Le cauchemar et le surnaturel entrent dans la peinture : avant même 1800, Füssli montre ce que la raison des Lumières voulait chasser.",
+        "sensible": true,
+        "image": "images/mouvements/romantisme/fussli-sorciere-de-la-nuit.jpg"
+      },
+      {
+        "title": "Le sommeil de la raison engendre des monstres (Les Caprices, planche 43)",
+        "artist": "Francisco de Goya",
+        "country": "Espagne",
+        "period": "1799",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/338473), domaine public (CC0)",
+        "analysis": "Une eau-forte et aquatinte de 21 × 15 cm, la planche 43 de la série des Caprices. Un homme s'est endormi, la tête dans les bras, sur une table ; derrière lui surgissent des hiboux, des chauves-souris et un grand chat aux yeux fixes. Sur le côté de la table est gravée la phrase qui donne son titre à l'œuvre : « El sueño de la razon produce monstruos », « le sommeil de la raison engendre des monstres ».",
+        "compare": "Une phrase à double sens : quand la raison s'endort, les monstres viennent ; mais l'imagination, libérée, peut aussi créer. Toute l'ambiguïté du romantisme est déjà là.",
+        "image": "images/mouvements/romantisme/goya-le-sommeil-de-la-raison.jpg"
+      },
+      {
+        "title": "Job et ses filles",
+        "artist": "William Blake",
+        "country": "Angleterre (Londres)",
+        "period": "1799–1800",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.30221.html), domaine public (CC0)",
+        "analysis": "Une petite peinture à la plume et à la tempera sur toile, de 27 × 38 cm. Un vieil homme à longue barbe blanche, assis, les bras grands ouverts, montre les scènes peintes sur le mur derrière lui ; ses trois filles l'entourent et l'écoutent. Selon la fiche du musée, Blake l'a peinte pour Thomas Butts, un fonctionnaire qui fut son principal acheteur.",
+        "compare": "Poète, graveur et peintre, Blake invente ses propres visions bibliques, loin des règles de l'Académie. Il vivait grâce à quelques amateurs fidèles, comme Thomas Butts.",
+        "image": "images/mouvements/romantisme/blake-job-et-ses-filles.jpg"
+      },
+      {
+        "title": "Wivenhoe Park, Essex",
+        "artist": "John Constable",
+        "country": "Angleterre",
+        "period": "1816",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.1147.html), domaine public (CC0)",
+        "analysis": "Une toile de 56 × 101 cm. Un grand parc verdoyant s'étend autour d'un lac : au premier plan, des vaches derrière une barrière de bois ; sur l'eau, des cygnes et une barque avec deux pêcheurs ; au fond, entre les arbres, une maison de brique. Le ciel, couvert de gros nuages blancs et gris, occupe près de la moitié du tableau. Selon la fiche du musée, Constable l'a peint pour le propriétaire du domaine, le général Francis Slater Rebow.",
+        "compare": "Un portrait de propriété commandé par son propriétaire, comme on en faisait au XVIIIe siècle ; mais Constable y met une nature vraie, observée sur place, et un ciel changeant.",
+        "image": "images/mouvements/romantisme/constable-wivenhoe-park.jpg"
+      },
+      {
+        "title": "Étude de nuages : coucher de soleil orageux",
+        "artist": "John Constable",
+        "country": "Angleterre",
+        "period": "1821–1822",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.104243.html), domaine public (CC0)",
+        "analysis": "Une petite huile sur papier de 20 × 27 cm, collée sur toile. Rien que le ciel : des nuages gris et violacés, traversés de trouées bleues, et, en bas, une lueur rose et dorée de soleil couchant. La peinture est posée vite, en touches larges. Selon la fiche du musée, l'étude a appartenu à la petite-fille du peintre.",
+        "compare": "Le ciel devient le sujet : Constable peint des dizaines d'études de nuages, à la manière d'un savant qui observe la météo. Comparez avec le ciel de Wivenhoe Park.",
+        "image": "images/mouvements/romantisme/constable-etude-de-nuages.jpg"
+      },
+      {
+        "title": "L'Incendie de la Chambre des lords et des communes, 16 octobre 1834",
+        "artist": "Joseph Mallord William Turner",
+        "country": "Angleterre (Londres)",
+        "period": "1835",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1942.647), domaine public (CC0)",
+        "analysis": "Selon le musée, le feu détruisit le célèbre Parlement de Londres dans la nuit du 16 octobre 1834, et la foule se rassembla sur les rives de la Tamise pour regarder ce spectacle terrifiant. La marée basse empêchait de pomper l'eau et gênait les bateaux à vapeur qui remorquaient le matériel des pompiers ; l'incendie fit rage pendant des heures. En bas à droite, des bateaux se dirigent vers les flammes. Turner, qui s'inspire d'un événement réel, a agrandi la hauteur des flammes : il en fait l'image de l'impuissance humaine face aux forces destructrices de la nature. Ses larges bandes de couleur et ses effets d'atmosphère frôlent l'abstraction. Le musée précise que Turner a peint deux versions de cet incendie.",
+        "compare": "Le sublime : un spectacle terrible et fascinant, presque dissous dans la couleur. Les impressionnistes, quarante ans plus tard, admireront cette liberté.",
+        "image": "images/mouvements/romantisme/turner-incendie-du-parlement.jpg"
+      },
+      {
+        "title": "Bateliers chargeant du charbon au clair de lune",
+        "artist": "Joseph Mallord William Turner",
+        "country": "Angleterre",
+        "period": "1835",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.1225.html), domaine public (CC0)",
+        "analysis": "Une toile de 92 × 123 cm. La lune, au centre, perce les nuages et fait de la rivière un miroir argenté ; à droite, dans la fumée et la lueur rouge des torches, des hommes chargent du charbon sur de grands voiliers ; à gauche, d'autres navires attendent. Turner a inscrit ses initiales, JMWT, sur une bouée à gauche. Selon la fiche du musée, le tableau a été peint pour Henry McConnel, un collectionneur de Manchester.",
+        "compare": "Le travail industriel de nuit, transformé en vision poétique : un tableau commandé par un collectionneur de Manchester, la ville des usines.",
+        "image": "images/mouvements/romantisme/turner-dechargement-du-charbon-clair-de-lune.jpg"
+      },
+      {
+        "title": "Après la tempête",
+        "artist": "Caspar David Friedrich",
+        "country": "Allemagne (Dresde)",
+        "period": "1817",
+        "museum": "Statens Museum for Kunst, Copenhague",
+        "credit": "Statens Museum for Kunst, Copenhague (https://open.smk.dk/artwork/image/KMS8817), domaine public",
+        "analysis": "Une petite toile de 22 × 31 cm. Selon le musée, une violente tempête a jeté un bateau sur des rochers : son mât est brisé, les cordages flottent au vent et la voile s'enfonce dans la mer. Mais les rochers sont peut-être aussi son salut, puisqu'ils l'ancrent sur un sol ferme. Friedrich a grandi à Greifswald, au bord de la Baltique, et a visité toute sa vie l'île de Rügen, où il observait le ciel et la mer par tous les temps ; les bateaux, chez lui, symbolisent souvent le voyage de la vie. Le musée rappelle que Friedrich, comme beaucoup de peintres européens, étudiait les nuages, et qu'il s'était formé à l'Académie de Copenhague de 1794 à 1798.",
+        "compare": "Un paysage qui est aussi une méditation : la tempête, le naufrage et peut-être l'espoir, sous un ciel observé avec précision.",
+        "image": "images/mouvements/romantisme/friedrich-apres-la-tempete.jpg"
+      },
+      {
+        "title": "Deux hommes contemplant la lune",
+        "artist": "Caspar David Friedrich",
+        "country": "Allemagne (Dresde)",
+        "period": "vers 1825–1830",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/438417), domaine public (CC0)",
+        "analysis": "Une petite toile de 35 × 44 cm. Au crépuscule, deux hommes en manteaux sombres, vus de dos, se tiennent sur un chemin de forêt, l'un appuyé sur l'épaule de l'autre ; ils regardent un mince croissant de lune dans un ciel rosé. À côté d'eux, un grand chêne déraciné aux branches tordues, un rocher et, au loin, des sapins.",
+        "compare": "Les personnages vus de dos, si fréquents chez Friedrich, invitent le spectateur à regarder avec eux : la nature devient un lieu de recueillement.",
+        "image": "images/mouvements/romantisme/friedrich-deux-hommes-contemplant-la-lune.jpg"
+      },
+      {
+        "title": "Collines boisées à Sørupvang",
+        "artist": "Johan Thomas Lundbye",
+        "country": "Danemark",
+        "period": "1841",
+        "museum": "Statens Museum for Kunst, Copenhague",
+        "credit": "Statens Museum for Kunst, Copenhague (https://open.smk.dk/artwork/image/KMS6928), domaine public",
+        "analysis": "Une petite toile de 30 × 41 cm. Une colline couverte d'arbres se dresse au-dessus d'une prairie, dans la lumière dorée d'une fin de journée d'été ; au premier plan, des herbes et un champ de blé, au loin, quelques animaux. Selon la fiche du musée, le peintre a gravé dans la peinture le nom du lieu, la date, « Sørup Vang 20 August 1841 », et son monogramme.",
+        "compare": "Un coin de campagne danoise peint sur le motif, avec la date du jour : les jeunes peintres danois veulent montrer la beauté de leur propre pays.",
+        "image": "images/mouvements/romantisme/lundbye-collines-boisees-sorupvang.jpg"
+      },
+      {
+        "title": "Paysage avec une averse menaçante",
+        "artist": "Barend Cornelis Koekkoek",
+        "country": "Pays-Bas",
+        "period": "1825–1829",
+        "museum": "Rijksmuseum, Amsterdam",
+        "credit": "Rijksmuseum, Amsterdam (https://www.rijksmuseum.nl/nl/collectie/SK-C-542), domaine public (CC0)",
+        "analysis": "Selon le musée, au premier plan, sur la rive élevée d'un fleuve, un berger et une bergère gardent leurs moutons ; à gauche, le fleuve traverse un paysage de collines, et un château se dresse au loin. Le ciel, très vaste, est rempli de gros nuages blancs. La toile mesure 56 × 72 cm et est prêtée au musée par la Ville d'Amsterdam.",
+        "compare": "Un romantisme paisible, à la hollandaise : un paysage idéal et soigné, plus serein que les tempêtes de Turner ou de Friedrich.",
+        "image": "images/mouvements/romantisme/koekkoek-paysage-pluie-menacante.jpg"
+      },
+      {
+        "title": "Naufrage sur une côte rocheuse",
+        "artist": "Wijnand Nuijen",
+        "country": "Pays-Bas",
+        "period": "vers 1837",
+        "museum": "Rijksmuseum, Amsterdam",
+        "credit": "Rijksmuseum, Amsterdam (https://www.rijksmuseum.nl/nl/collectie/SK-A-4644), domaine public (CC0)",
+        "analysis": "Une grande toile de 1,54 × 2,06 m. Selon le musée, à droite, le navire échoué est pris dans les vagues ; on tire des naufragés sur la plage ; à gauche, des personnages se réchauffent autour d'un feu ; au premier plan, des marchandises rejetées par la mer. Au-dessus, des falaises et un ciel de tempête où perce une lumière dorée. Le tableau est signé en bas à gauche « W.J.J. Nuijen Bz. f. ».",
+        "compare": "Le naufrage, sujet romantique par excellence : la petitesse des hommes devant la mer déchaînée. Comparez avec le bateau échoué de Friedrich.",
+        "image": "images/mouvements/romantisme/nuijen-naufrage-cote-rocheuse.jpg"
+      },
+      {
+        "title": "La cascade de Feigefossen, Lysterfjord",
+        "artist": "Johan Christian Dahl",
+        "country": "Norvège",
+        "period": "1848",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/2019.76), domaine public (CC0)",
+        "analysis": "Selon le musée, Johan Christian Dahl a peint cette vue spectaculaire de la cascade de Feige, au bord du Lysterfjord, l'une des plus grandes merveilles naturelles de son pays, à une époque où les Norvégiens cherchaient à affirmer leur identité de culture nationale distincte. Ses vues de la Norvège ont fait de lui le principal artiste norvégien de son temps et l'un des grands paysagistes de l'époque romantique. Une haute cascade tombe d'une falaise ; au premier plan, des rochers, un torrent, un berger et ses chèvres. Le musée précise que le fjord s'étend sur près de 110 km avant d'atteindre l'océan, au nord de Bergen, la ville natale de Dahl.",
+        "compare": "La nature d'un pays devient le symbole d'une nation : Dahl, qui vivait à Dresde, ami de Friedrich, peint la Norvège pour lui donner une image.",
+        "image": "images/mouvements/romantisme/dahl-cascade-de-feigefossen.jpg"
+      },
+      {
+        "title": "Le Soir : paysage avec un aqueduc",
+        "artist": "Théodore Géricault",
+        "country": "France",
+        "period": "1818",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/436455), domaine public (CC0)",
+        "analysis": "Une très grande toile de 2,50 × 2,20 m. À gauche, une tour en ruine envahie par la végétation et un grand pin se découpent sur un ciel de coucher de soleil ; au centre, un aqueduc antique enjambe une rivière, et une ville fortifiée se dresse sur un rocher. Au premier plan, de petits personnages se reposent au bord de l'eau. Les nuages sombres et la lumière dorée donnent à la scène une atmosphère dramatique.",
+        "compare": "Un paysage classique, avec ses ruines antiques, mais transformé par une lumière inquiète : Géricault, au moment où il prépare Le Radeau de la Méduse, passe du classicisme au romantisme.",
+        "image": "images/mouvements/romantisme/gericault-le-soir-paysage-aqueduc.jpg"
+      },
+      {
+        "title": "Retour de Russie",
+        "artist": "Théodore Géricault",
+        "country": "France",
+        "period": "vers 1818",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1931.48), domaine public (CC0)",
+        "analysis": "Une lithographie imprimée en noir et en ocre, rehaussée à la main d'aquarelle. Selon le musée, Géricault était un lithographe accompli : il a utilisé deux pierres, l'une pour le dessin en noir, l'autre pour les grandes zones de couleur ocre, et c'est l'une des premières lithographies françaises où une deuxième couleur fait partie de l'image ; il a ajouté de l'aquarelle blanche pour la neige. Contrairement à d'autres artistes qui glorifiaient les guerres napoléoniennes, Géricault montre la misère et les horreurs de la guerre : deux soldats blessés et des animaux épuisés et affamés, après la défaite de Napoléon en Russie.",
+        "compare": "Plus de héros triomphants : le romantisme montre les vaincus et la souffrance. La lithographie, technique nouvelle, permet de diffuser ces images en nombre.",
+        "image": "images/mouvements/romantisme/gericault-retour-de-russie.jpg"
+      },
+      {
+        "title": "Les Natchez",
+        "artist": "Eugène Delacroix",
+        "country": "France",
+        "period": "1823–1824 et 1835",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/436180), domaine public (CC0)",
+        "analysis": "Une toile de 90 × 117 cm. Au bord d'un fleuve, sous un ciel d'orage, un jeune couple amérindien s'est arrêté : l'homme, agenouillé, tient dans ses bras un nouveau-né ; la femme, épuisée, est étendue près de lui, le buste nu. Derrière eux, une pirogue tirée sur la berge. Selon la fiche du musée, Delacroix a peint la toile en deux temps : en 1823–1824, puis en 1835.",
+        "compare": "Une scène tirée de la littérature romantique, qui rêve de peuples lointains : la mélancolie du paysage répond à celle des personnages.",
+        "sensible": true,
+        "image": "images/mouvements/romantisme/delacroix-les-natchez.jpg"
+      },
+      {
+        "title": "Le comte Démétrius de Palatiano en costume souliote",
+        "artist": "Eugène Delacroix",
+        "country": "France",
+        "period": "non daté",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1973.33), domaine public (CC0)",
+        "analysis": "Selon le musée, la guerre d'indépendance grecque, dans les années 1820, passionnait toute l'Europe, et les costumes des soldats grecs, les palikares, étaient des sujets prisés des artistes. Le comte Palatiano, aristocrate grec flamboyant, posait souvent pour Delacroix et ses collègues à Paris. Il porte ici une fustanelle blanche, une veste brodée d'or et un sabre, dans un paysage sombre.",
+        "compare": "Le romantisme s'engage : derrière ce costume pittoresque, il y a la lutte d'un peuple pour sa liberté, qui émeut les artistes et les poètes d'Europe.",
+        "image": "images/mouvements/romantisme/delacroix-comte-palatiano-costume-souliote.jpg"
+      },
+      {
+        "title": "Arabes combattant dans les montagnes",
+        "artist": "Eugène Delacroix",
+        "country": "France",
+        "period": "1863",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.50686.html), domaine public (CC0)",
+        "analysis": "Une toile de 92,5 × 74,5 cm. Dans une vallée de montagne dominée par une forteresse, des cavaliers et des fantassins en burnous s'affrontent ; la fumée des coups de fusil monte entre les arbres ; au premier plan, un cheval s'effondre et un homme est tombé à terre. Le tableau est signé et daté en bas : « Eug. Delacroix 1863 ». Selon la fiche du musée, l'artiste l'a vendu le 12 avril 1863 aux marchands Tedesco frères, à Paris ; il passa plus tard par la galerie Durand-Ruel.",
+        "compare": "L'une des dernières toiles de Delacroix, mort en 1863 : la couleur et le mouvement priment sur le dessin. Vendu à des marchands d'art, il annonce le nouveau marché qu'exploiteront les impressionnistes.",
+        "image": "images/mouvements/romantisme/delacroix-arabes-combattant-dans-les-montagnes.jpg"
+      },
+      {
+        "title": "Portrait de don Juan Antonio Cuervo",
+        "artist": "Francisco de Goya",
+        "country": "Espagne",
+        "period": "1819",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1943.90), domaine public (CC0)",
+        "analysis": "Selon le musée, ce portrait témoigne de l'amitié de Goya pour Cuervo et le présente comme un intellectuel de premier plan. Directeur de l'Académie royale des beaux-arts de San Fernando, l'académie officielle des artistes et des architectes d'Espagne, Cuervo tient le plan de la rénovation récente de l'église Santiago de Madrid. Sa veste brodée de rouge et d'or est celle des membres de l'académie.",
+        "compare": "Le même Goya qui gravait les cauchemars des Caprices peint aussi, avec franchise, ses amis et les notables de Madrid : un regard direct, sans flatterie.",
+        "image": "images/mouvements/romantisme/goya-don-juan-antonio-cuervo.jpg"
+      },
+      {
+        "title": "Les rapides de Kyrö",
+        "artist": "Werner Holmberg",
+        "country": "Finlande",
+        "period": "1854",
+        "museum": "Galerie nationale de Finlande, musée Ateneum, Helsinki",
+        "credit": "Galerie nationale de Finlande, musée Ateneum, Helsinki (https://www.finna.fi/Record/kansallisgalleria.271FDF85691379F012DFA6A7AA5A9D91), domaine public (CC0)",
+        "analysis": "Une toile de 110 × 102 cm. Sous un ciel d'orage très sombre, une rivière dévale des rochers en rapides blancs d'écume ; au bord de l'eau, un moulin ou une scierie de bois ; tout autour, des collines couvertes de forêts. Un rayon de lumière éclaire le centre du paysage.",
+        "compare": "Les forêts, les eaux et les rochers de Finlande deviennent dignes de la grande peinture : comme Dahl en Norvège, Holmberg donne une image à son pays.",
+        "image": "images/mouvements/romantisme/holmberg-rapides-de-kyro.jpg"
+      },
+      {
+        "title": "Bateau à vapeur en feu",
+        "artist": "Marcus Larson",
+        "country": "Suède et Finlande",
+        "period": "1857",
+        "museum": "Galerie nationale de Finlande, musée Sinebrychoff, Helsinki",
+        "credit": "Galerie nationale de Finlande, musée Sinebrychoff, Helsinki (https://www.finna.fi/Record/kansallisgalleria.511D874E304C3D345E0B3F93FA7DDD0A), domaine public (CC0)",
+        "analysis": "Une toile de 65,5 × 102 cm. En pleine mer, de nuit, un bateau à vapeur à roues brûle : les flammes rouges et la fumée s'échappent de sa coque, et leur lueur teinte les vagues. Au-dessus, d'énormes nuages noirs s'ouvrent sur une trouée de lumière blanche.",
+        "compare": "La machine moderne vaincue par le feu et la mer : le peintre suédois Marcus Larson mêle le progrès technique et la catastrophe, comme Turner avec l'incendie du Parlement.",
+        "image": "images/mouvements/romantisme/larson-bateau-a-vapeur-en-feu.jpg"
+      },
+      {
+        "title": "Väinämöinen et Aino",
+        "artist": "Robert Wilhelm Ekman",
+        "country": "Finlande",
+        "period": "1861",
+        "museum": "Galerie nationale de Finlande, musée Ateneum, Helsinki",
+        "credit": "Galerie nationale de Finlande, musée Ateneum, Helsinki (https://www.finna.fi/Record/kansallisgalleria.0AF37B424AF0F729598007D9061BE239), domaine public (CC0)",
+        "analysis": "Un dessin de 33,5 × 51 cm. Dans une forêt de grandes herbes et de feuillages, un vieil homme barbu tend la main vers une jeune femme qui s'écarte de lui. Selon la fiche du musée, c'est un dessin original pour la série « Kalewala, Finsk National-dikt, framställd i teckningar af R.W.Ekman » (« Le Kalevala, poème national finnois, représenté en dessins par R. W. Ekman »). Les personnages sont ceux du titre : le vieux sage Väinämöinen et la jeune Aino.",
+        "compare": "Les légendes du peuple finnois, recueillies dans le Kalevala, deviennent des sujets d'art, comme l'Antiquité l'était pour les néoclassiques.",
+        "image": "images/mouvements/romantisme/ekman-vainamoinen-et-aino.jpg"
+      },
+      {
+        "title": "Le Voyage de la vie : la jeunesse",
+        "artist": "Thomas Cole",
+        "country": "États-Unis",
+        "period": "1842",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.52451.html), domaine public (CC0)",
+        "analysis": "Une grande toile de 1,34 × 1,95 m, la deuxième d'une série de quatre. Un jeune homme, debout dans une barque dorée, s'éloigne de la rive où un ange le regarde partir ; il tend le bras vers un palais blanc qui flotte dans le ciel. Le fleuve traverse un paysage lumineux de palmiers et de montagnes. Le tableau porte l'inscription « Rome / 1842 / T. Cole ». Selon la fiche du musée, le peintre l'a vendu à un collectionneur de Cincinnati, George K. Shoenberger.",
+        "compare": "Le romantisme traverse l'Atlantique : Thomas Cole, fondateur de la Hudson River School, fait du paysage une allégorie de la vie humaine.",
+        "image": "images/mouvements/romantisme/cole-le-voyage-de-la-vie-la-jeunesse.jpg"
+      },
+      {
+        "title": "L'Île des morts",
+        "artist": "Arnold Böcklin",
+        "country": "Suisse",
+        "period": "1880",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/435683), domaine public (CC0)",
+        "analysis": "Un panneau de bois de 74 × 122 cm. Sur une mer noire et immobile, une petite barque, menée par un rameur, approche d'une île rocheuse où se dressent de hauts cyprès sombres ; des portes de tombeaux sont creusées dans les falaises. À l'avant de la barque se tient une figure drapée de blanc. Le ciel nocturne est presque noir.",
+        "compare": "L'héritage du romantisme à la fin du XIXe siècle : le symbolisme. Comme chez Friedrich, le paysage exprime une émotion et une méditation sur la mort.",
+        "image": "images/mouvements/romantisme/bocklin-l-ile-des-morts.jpg"
+      }
+    ]
   }
 ]

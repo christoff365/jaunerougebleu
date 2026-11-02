@@ -139,7 +139,7 @@ hr{border:none;border-top:1px solid #e0d5c0;margin:28px 0}
 .big-art-cap{padding:10px 16px;font-size:13px;color:#777;background:#faf7f2;border-top:1px solid #e0d5c0}
 .big-art-credit{padding:0 16px 10px;font-size:12px;color:#666;background:#faf7f2}
 .big-art-credit a,.credits a{color:inherit;text-decoration:underline}
-.credits{border-top:6px solid #000;background:#faf7f2;color:#555;font-size:13px;line-height:1.7;padding:28px 24px 36px}
+.credits{border-top:6px solid #000;background:#faf7f2;color:#555;font-size:13px;line-height:1.7;padding:18px 24px 24px}
 .credits-in{max-width:920px;margin:0 auto}
 .credits h2{font-family:'Cormorant Garamond',serif;font-size:22px;margin-bottom:10px;color:#111}
 .credits h3{font-size:12px;text-transform:uppercase;letter-spacing:.1em;color:#666;margin:14px 0 6px;font-weight:600}
@@ -207,6 +207,7 @@ hr{border:none;border-top:1px solid #e0d5c0;margin:28px 0}
 html[lang="fr"] .fr-seul{display:none}
 .pastille-direct{display:inline-block!important;margin-top:4px;font-size:10px!important;font-weight:600;color:#0a5c40!important;background:#e3f4ec;border-radius:3px;padding:1px 6px}
 .lien-legal{margin-top:16px;font-weight:600}
+.credits .lien-legal{margin:0;text-align:center}
 .mus-tous,.mus-region{border-top:4px solid #000;padding:18px 0 8px;margin-top:22px}
 .mus-region:nth-child(3n+1){border-color:#E8C547}.mus-region:nth-child(3n+2){border-color:#E03030}.mus-region:nth-child(3n){border-color:#5599EE}
 .mus-tous h3,.mus-region h3{font-family:'Cormorant Garamond',serif;font-size:24px;margin-bottom:8px}
@@ -1013,27 +1014,13 @@ html.diapo-ouvert,html.diapo-ouvert body{overflow:hidden}
 </main>
 <footer class="credits">
   <div class="credits-in">
-    <h2>Crédits des textes</h2>
-    <p>Chaque image du site est créditée juste en dessous, avec un lien vers sa source.</p>
-    <ul>
-      <li>Textes du site (descriptions audio, partitions visuelles, vibrations, séances bien-être, présentation des pages et expositions « La lumière comme langage universel », « La couleur est relative », « Nature, art et bien-être » et « Masques du monde », dont les résumés d'études scientifiques, vérifiés sur les publications citées en bibliographie) — source : Claude AI (Anthropic), textes générés par intelligence artificielle.</li>
-      <li>Les tempos, tonalités et la musique des couleurs sont calculés à partir des couleurs réelles des images, selon une règle de correspondance inventée pour ce site ; les rythmes de vibration et les textes « Si cette œuvre était une musique » sont des interprétations créatives. Aucun ne décrit une musique réelle liée aux œuvres.</li>
-      <li>Sons d'instruments de la musique des couleurs (styles « Symphonie » et « Expérimentale ») : <a href="https://github.com/sgossner/VSCO-2-CE" target="_blank" rel="noopener">VS Chamber Orchestra: Community Edition</a>, enregistré par Sam Gossner et Simon Dalzell (Versilian Studios), dans le domaine public (licence CC0) ; quelques notes par instrument, raccourcies et converties pour le site.</li>
-      <li>Instruments du monde de la musique expérimentale : <a href="https://github.com/sgossner/VCSL" target="_blank" rel="noopener">Versilian Community Sample Library</a>, enregistrée par Versilian Studios, dans le domaine public (licence CC0) ; voix de synthèse composées par le site.</li>
-      <li>Informations sur les œuvres (titres, artistes, dates, lieux de conservation) — source : les musées et la base Wikimedia Commons cités ci-dessus.</li>
-      <li>Traductions anglaise, espagnole et arabe : Claude AI (Anthropic), non relues par des traducteurs.</li>
-      <li>Œuvres du générateur et des séances de bien-être trouvées en direct : fiches et images issues des catalogues ouverts des musées (Met, Art Institute of Chicago, Cleveland Museum of Art, SMK, Minneapolis Institute of Art, Smithsonian Institution, Wellcome Collection, Yale University Art Gallery et Yale Center for British Art), d'Europeana et de la Library of Congress (manuscrits enluminés de la World Digital Library, libres de droits connus) et de ColBase, le catalogue des musées nationaux du Japon (via Japan Search, licence CC BY 4.0), dans leur langue d'origine ; chaque image est créditée avec un lien vers sa fiche. Les icônes et les manuscrits d'Europeana peuvent être sous licence libre (CC BY ou CC BY-SA), indiquée dans le crédit.</li>
-      <li>Descriptions audio composées automatiquement (œuvres sans description écrite) : assemblées par le site à partir des informations du musée et des couleurs de l'image ; elles restent sommaires et doivent être complétées par des descriptions écrites.</li>
-      <li>Œuvres et monuments de 121 institutions du monde entier et du patrimoine mondial de l'UNESCO : fiches de Wikidata et images de Wikimedia Commons, sous licence libre ; chaque image est créditée (auteur, licence et lien vers le fichier).</li>
-      <li>Œuvres des musées de France reliées à leur notice Joconde (ministère de la Culture) : fiches de Wikidata et images de Wikimedia Commons, sous licence libre ; chaque œuvre renvoie à sa notice sur la Plateforme ouverte du patrimoine (POP).</li>
-    </ul>
-    <p class="lien-legal"><a href="tv/">Voir les expositions sur une télévision</a> · <a href="mentions-legales/">Mentions légales</a></p>
+    <p class="lien-legal"><a href="credits/">Crédits des textes</a> · <a href="tv/">Voir les expositions sur une télévision</a> · <a href="mentions-legales/">Mentions légales</a></p>
   </div>
 </footer>
 <!-- Traductions (anglais, espagnol, arabe) et moteur de traduction -->
-<script src="i18n.js?v=20261102f"></script>
+<script src="i18n.js?v=20261102g"></script>
 <!-- Recherche en direct dans les catalogues ouverts des musées (domaine public) -->
-<script src="musees.js?v=20261102f"></script>
+<script src="musees.js?v=20261102g"></script>
 <script>
 const ART = [
   { img:"images/oeuvres/grande-vague-hokusai.jpg", credit:'Image : <a href="https://www.metmuseum.org/art/collection/search/45434" target="_blank" rel="noopener">The Metropolitan Museum of Art</a>, domaine public (Open Access)', name:"La Grande Vague de Kanagawa", meta:"Katsushika Hokusai · Japon · vers 1830-1832 · Metropolitan Museum of Art",
@@ -1971,10 +1958,10 @@ afficherValeurs(0);
 traduirePage();
 </script>
 <!-- Fenêtre Accessibilité de chaque œuvre et menu Affichage et lecture -->
-<script src="orchestre.js?v=20261102f"></script>
-<script src="accessibilite.js?v=20261102f"></script>
-<script src="diaporama.js?v=20261102f"></script>
+<script src="orchestre.js?v=20261102g"></script>
+<script src="accessibilite.js?v=20261102g"></script>
+<script src="diaporama.js?v=20261102g"></script>
 <!-- Séances de bien-être composées à la demande -->
-<script src="bienetre.js?v=20261102f"></script>
+<script src="bienetre.js?v=20261102g"></script>
 </body>
 </html>

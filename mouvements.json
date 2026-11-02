@@ -4744,5 +4744,345 @@
         "image": "images/mouvements/renaissance/poussin-sainte-famille-escalier.jpg"
       }
     ]
+  },
+  {
+    "mouvement": "Baroque",
+    "slug": "baroque",
+    "status": "published",
+    "title": "Le baroque, l'art qui veut émouvoir",
+    "subtitle": "Europe, XVIIe siècle, avec ses sources et son héritage : trente œuvres de Washington, New York, Cleveland, Copenhague et Amsterdam",
+    "intro": "Le mot « baroque » viendrait du portugais barroco, une perle de forme irrégulière ; longtemps, il a désigné un art jugé trop chargé, avant que les historiens du XIXe siècle ne le réhabilitent. Le baroque naît à Rome vers 1600 et gagne toute l'Europe au XVIIe siècle. Il a deux sources. À Bologne puis à Rome, Annibale Carracci et sa famille veulent revenir à l'observation de la nature tout en gardant l'équilibre de Raphaël ; à Rome, Caravage peint des saints sous les traits de gens du peuple, dans une lumière violente qui surgit de l'ombre. Le baroque cherche à émouvoir : mouvement, contrastes de lumière, gestes et visages expressifs, matières rendues avec virtuosité. Les idées et les commanditaires de l'époque expliquent ce choix. Après le concile de Trente (1545–1563), l'Église catholique, qui répond à la Réforme protestante, demande des images claires, vraies et émouvantes pour toucher les fidèles ; les papes, les grandes familles de cardinaux comme les Barberini et les ordres religieux comme les jésuites couvrent Rome d'églises, de fontaines et de statues, dont celles du Bernin. Les monarchies absolues se servent aussi de l'art pour montrer leur puissance : Philippe IV d'Espagne a Velázquez pour peintre, Louis XIV fait construire Versailles, et Charles Le Brun dirige l'Académie royale de peinture et de sculpture, fondée à Paris en 1648. C'est aussi le siècle de la révolution scientifique : Galilée observe le ciel avec une lunette, Descartes, qui vit longtemps aux Pays-Bas, écrit sur la lumière et la vision, et les peintres étudient les reflets, l'optique et l'espace. Dans les Provinces-Unies (les Pays-Bas du Nord), république protestante et marchande, les églises n'achètent presque plus de tableaux : ce sont les bourgeois qui les commandent ou les achètent aux marchands et sur les marchés, pour décorer leur maison. Naissent alors des spécialités : portraits, scènes de la vie quotidienne, paysages, natures mortes ; les compagnies de gardes civiques se font peindre en groupe. Le baroque traverse aussi l'Atlantique, avec les missions et les colonies espagnoles et portugaises (voir l'exposition sur l'école de Cuzco). Son héritage est durable : au XVIIIe siècle, Tiepolo peint encore des plafonds pour les rois, le rococo en tire une version plus légère, Goya étudie Velázquez, et au XIXe siècle Manet, qui l'appelait « le peintre des peintres », s'inspire de lui. L'exposition suit ce chemin : les sources, le baroque en Italie, en Flandres, en Espagne, en France et aux Pays-Bas, puis son héritage. Les œuvres viennent de la National Gallery of Art de Washington, du Metropolitan Museum of Art, du Cleveland Museum of Art, du Statens Museum for Kunst de Copenhague et du Rijksmuseum d'Amsterdam ; les grandes œuvres restées dans les églises de Rome, au Prado ou à Anvers seront ajoutées quand nous pourrons obtenir leurs images libres.",
+    "works": [
+      {
+        "title": "Garçon buvant",
+        "artist": "Annibale Carracci",
+        "country": "Italie (Bologne)",
+        "period": "1582–1583",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1994.4), domaine public (CC0)",
+        "analysis": "Un jeune garçon, la tête renversée, boit dans un verre qu'il tient à deux doigts, une carafe à la main. Selon le musée, Annibale Carracci, avec son frère Agostino et son cousin Lodovico, réforme la peinture en Italie en partant de l'observation attentive de la nature. Son style trouve un chemin entre l'artifice lisse du maniérisme, où le style comptait plus que la fidélité à la nature, et le drame de Caravage. Dans cette œuvre de jeunesse, la toile grossière, le sujet sans noblesse et la déformation des formes par la lumière qui traverse le verre montrent ce regard naturaliste ; le musée invite à remarquer que la carafe renvoie la lumière sur la chemise du garçon.",
+        "compare": "Le point de départ de l'exposition : un sujet ordinaire, observé de près, avec ses reflets et ses déformations. Ce goût du vrai est l'une des racines du baroque.",
+        "image": "images/mouvements/baroque/annibale-carracci-garcon-buvant.jpg"
+      },
+      {
+        "title": "Paysage fluvial",
+        "artist": "Annibale Carracci",
+        "country": "Italie (Bologne)",
+        "period": "vers 1590",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.41673.html), domaine public (CC0)",
+        "analysis": "Une toile de 88 × 148 cm. De grands arbres aux troncs fins encadrent une rivière qui serpente vers des collines et des montagnes bleutées ; sur l'eau, une petite barque, et dans l'herbe, des personnages minuscules. Selon la fiche du musée, le tableau a été vendu en 1859 et encore en 1931 comme une œuvre de Velázquez, avant d'être rendu à Annibale Carracci.",
+        "compare": "Un paysage construit, où la nature est ordonnée et apaisée : ce modèle sera repris par Claude Lorrain, plus loin dans l'exposition.",
+        "image": "images/mouvements/baroque/annibale-carracci-paysage-fluvial.jpg"
+      },
+      {
+        "title": "Les Musiciens",
+        "artist": "Caravage",
+        "country": "Italie",
+        "period": "1597",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/435844), domaine public (CC0)",
+        "analysis": "Une toile de 92 × 118 cm. Quatre jeunes gens sont serrés les uns contre les autres, presque à notre portée : au centre, l'un accorde un luth et nous regarde ; derrière lui, un autre se tourne vers nous ; à droite, un troisième, de dos, lit une partition ; à gauche, un garçon ailé, comme un Cupidon, cueille du raisin. Un violon et des feuilles de musique sont posés au premier plan. Les étoffes blanches et rouges, les peaux claires et les cheveux bouclés se détachent sur un fond sombre.",
+        "compare": "Le jeune Caravage peint ses modèles tels qu'ils sont, de près et sans idéaliser. Comparez avec sa Crucifixion de saint André, dix ans plus tard : la lumière est devenue beaucoup plus dramatique.",
+        "image": "images/mouvements/baroque/caravage-les-musiciens.jpg"
+      },
+      {
+        "title": "La Crucifixion de saint André",
+        "artist": "Caravage",
+        "country": "Italie (Naples)",
+        "period": "1606–1607",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1976.2), domaine public (CC0)",
+        "analysis": "Selon le musée, l'apôtre André, venu prêcher le christianisme en Grèce au Ier siècle, fut condamné à mourir sur la croix parce qu'il refusait de reconnaître les dieux païens. Pendant deux jours, il prêcha depuis sa croix à une foule de plus en plus favorable ; ses bourreaux voulurent alors le détacher, mais leurs mains furent paralysées, et André mourut enveloppé d'une lumière divine. Caravage montre la scène de près, comme un événement intime plutôt qu'un spectacle public ; les forts contrastes d'ombre et de lumière suggèrent la présence de Dieu. Le musée précise que c'est le seul retable de Caravage en Amérique, et que le saint est attaché ici à une croix droite, et non à la croix en X qui lui est habituellement associée. La toile a été peinte à Naples.",
+        "compare": "La lumière qui tombe d'en haut dans l'obscurité, les visages de gens ordinaires, une vieille femme au premier plan : voici l'art que l'Église de la Contre-Réforme attendait, vrai et bouleversant.",
+        "image": "images/mouvements/baroque/caravage-crucifixion-saint-andre.jpg"
+      },
+      {
+        "title": "Monseigneur Francesco Barberini",
+        "artist": "Le Bernin",
+        "country": "Italie",
+        "period": "vers 1623",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.46201.html), domaine public (CC0)",
+        "analysis": "Un buste de marbre de 61 cm de haut (80 cm avec son socle). Un vieil homme à la barbe et aux cheveux courts, au regard grave, porte un camail aux plis profonds sur un rochet de dentelle, que le sculpteur a rendue jusque dans ses trous. Selon la fiche du musée, le buste appartenait au cardinal Francesco Barberini et se trouvait au palais Barberini, à Rome, dès 1627 ; il y resta jusqu'au milieu du XXe siècle.",
+        "compare": "Le marbre rendu souple comme du tissu : le Bernin, sculpteur et architecte des papes, travaille pour les Barberini, l'une des familles qui ont le plus commandé d'œuvres à Rome.",
+        "image": "images/mouvements/baroque/bernin-monsignor-francesco-barberini.jpg"
+      },
+      {
+        "title": "Le Repos pendant la fuite en Égypte",
+        "artist": "Guercino",
+        "country": "Italie",
+        "period": "1624",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1967.123), domaine public (CC0)",
+        "analysis": "Selon le musée, Guercino (« le bigleux ») a peint ce tableau en tondo, un format rond rarement utilisé, sauf pour les sujets sacrés : le cercle, sans début ni fin, symbolise la nature de Dieu. Pendant leur fuite en Égypte, Marie, l'Enfant et Joseph se reposent ; un ange joue du violon et berce le sommeil de l'Enfant. Né près de Bologne, Guercino devint un peintre influent à Rome au début du XVIIe siècle ; son style mêle les forts contrastes de lumière introduits par Caravage et la manière classique d'Annibale Carracci, de Domenichino et de Guido Reni. Le paysage idéal, avec ses ruines antiques, ajoute à la sérénité du tableau.",
+        "compare": "Les deux sources du baroque réunies dans un même tableau : l'ombre et la lumière de Caravage, l'harmonie et le paysage d'Annibale Carracci.",
+        "image": "images/mouvements/baroque/guercino-repos-pendant-la-fuite-en-egypte.jpg"
+      },
+      {
+        "title": "Marie-Madeleine en extase",
+        "artist": "Artemisia Gentileschi",
+        "country": "Italie",
+        "period": "vers 1625",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.231465.html), domaine public (CC0)",
+        "analysis": "Une toile de 81 × 105 cm. Marie-Madeleine, les longs cheveux roux défaits, la tête renversée en arrière et les yeux fermés, s'abandonne, appuyée en arrière, les mains jointes sur les genoux. La lumière, qui vient de la gauche, éclaire son visage, sa gorge, sa chemise blanche aux plis brillants, et laisse le reste dans l'ombre. Selon la fiche du musée, le tableau est resté dans une collection privée du sud de la France pendant au moins deux générations, et le musée l'a acquis en 2025.",
+        "compare": "Artemisia Gentileschi, l'une des rares femmes peintres reconnues de son temps, reprend la lumière de Caravage pour peindre une émotion intérieure, une extase religieuse.",
+        "image": "images/mouvements/baroque/artemisia-gentileschi-marie-madeleine-en-extase.jpg"
+      },
+      {
+        "title": "Portrait d'Isabella Brant",
+        "artist": "Pierre Paul Rubens",
+        "country": "Flandres (Anvers)",
+        "period": "vers 1620–1625",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1947.207), domaine public (CC0)",
+        "analysis": "Selon le musée, Isabella Brant était la première épouse de Rubens ; il l'a peinte de nombreuses fois, de bien des manières, avant qu'elle ne meure à 35 ans. Ce portrait intime, peint au moins cinq ans avant sa mort, montre la proximité entre le peintre et son modèle : couleurs chaudes, touche onctueuse, expression vive. Elle sourit légèrement, la main posée sur la poitrine. Le musée précise que Rubens a d'abord peint le visage, et n'a ajouté les mains que plus tard.",
+        "compare": "Rubens, peintre des rois et des églises, peint aussi ses proches : ici, pas de mise en scène, seulement un visage vivant et un regard complice.",
+        "image": "images/mouvements/baroque/rubens-portrait-isabella-brant.jpg"
+      },
+      {
+        "title": "La Montée au Calvaire (esquisse)",
+        "artist": "Pierre Paul Rubens",
+        "country": "Flandres (Anvers)",
+        "period": "1634",
+        "museum": "Statens Museum for Kunst, Copenhague",
+        "credit": "Statens Museum for Kunst, Copenhague (https://open.smk.dk/artwork/image/KMS1856), domaine public",
+        "analysis": "Une esquisse à l'huile de 104 × 74 cm. Selon le musée, au tout premier plan, des soldats romains traînent Dismas et Gestas, les deux larrons qui seront crucifiés avec Jésus ; ils montent par des chemins sinueux vers le Calvaire, lieu d'exécution hors de Jérusalem. Au centre, Jésus vient de tomber sous le poids de la croix ; au fond, une foule de soldats à cheval, avec lances et bannières, disparaît derrière un rocher. Toute la scène est peinte rapidement, avec une peinture à l'huile brune et fluide utilisée comme de l'aquarelle. Cette esquisse servait à fixer une idée de composition à nombreux personnages : c'était l'une des études préparatoires à un grand retable.",
+        "compare": "On voit ici comment travaillait Rubens : de petites esquisses rapides, puis un grand tableau souvent exécuté avec l'aide de son atelier, à Anvers. Tout est mouvement : la composition monte en diagonale.",
+        "image": "images/mouvements/baroque/rubens-montee-au-calvaire-esquisse.jpg"
+      },
+      {
+        "title": "La marquise Elena Grimaldi Cattaneo",
+        "artist": "Antoine van Dyck",
+        "country": "Flandres et Italie (Gênes)",
+        "period": "1623",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.1231.html), domaine public (CC0)",
+        "analysis": "Un très grand portrait en pied de 2,43 m de haut. Une femme vêtue de noir, avec une grande collerette blanche et des manchettes rouges, avance sur une terrasse bordée de colonnes ; un serviteur noir, en habit doré, tient au-dessus d'elle une ombrelle rouge. Derrière elle, un ciel nuageux. Selon la fiche du musée, le tableau appartenait au mari du modèle, Giacomo Cattaneo, à Gênes, puis resta dans la famille jusqu'en 1906.",
+        "compare": "Le jeune Van Dyck, élève de Rubens, travaille pour l'aristocratie marchande de Gênes : la grande taille du portrait et l'architecture affirment le rang de la famille.",
+        "image": "images/mouvements/baroque/van-dyck-marchesa-elena-grimaldi-cattaneo.jpg"
+      },
+      {
+        "title": "Le Tribut (dit « Le Bac d'Anvers »)",
+        "artist": "Jacob Jordaens",
+        "country": "Flandres (Anvers)",
+        "period": "1616–1634",
+        "museum": "Statens Museum for Kunst, Copenhague",
+        "credit": "Statens Museum for Kunst, Copenhague (https://open.smk.dk/artwork/image/KMS3198), domaine public",
+        "analysis": "Une immense toile de 2,82 × 4,71 m. Selon le musée, des paysans, des marchands et des enfants qui pleurent sont rassemblés dans un espace étroit : un bac chargé d'animaux et de passagers de tous âges, dont le bord dépasse à peine de l'eau. Un marin à demi nu, de dos, nous fait entrer dans le tableau ; un autre pousse la barque avec sa perche et nous regarde. Les passagers ne remarquent pas, à droite, la scène biblique : l'apôtre Pierre trouve une pièce dans la bouche d'un poisson, qui servira à payer le tribut au Temple. Le musée explique que Jordaens n'a reçu de commandes royales qu'après la mort de Rubens, en 1640 ; jusque-là, ses clients étaient presque tous de riches bourgeois.",
+        "compare": "Un sujet biblique noyé dans la vie quotidienne flamande : Jordaens peint pour une clientèle de bourgeois d'Anvers, avec humour et beaucoup de vie.",
+        "image": "images/mouvements/baroque/jordaens-tribut-bac-d-anvers.jpg"
+      },
+      {
+        "title": "Sainte Lucie",
+        "artist": "Francisco de Zurbarán",
+        "country": "Espagne",
+        "period": "vers 1625–1630",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.12209.html), domaine public (CC0)",
+        "analysis": "Une toile de 104 × 77 cm. Sur un fond noir, une jeune femme couronnée de fleurs, en corsage rouge, manches blanches et jupe verte, tient une palme et un plat d'argent où sont posés deux yeux. L'inscription en haut à gauche, S.LVCIA, la nomme : sainte Lucie, que l'on représentait avec ses yeux sur un plat. Selon la fiche du musée, le tableau est passé par le marché de l'art à Paris vers 1927, puis par Smyrne (aujourd'hui Izmir, en Turquie).",
+        "compare": "Une sainte présentée comme une jeune Sévillane de son temps, d'une grande simplicité : Zurbarán peint pour les couvents et les églises d'Espagne.",
+        "image": "images/mouvements/baroque/zurbaran-sainte-lucie.jpg"
+      },
+      {
+        "title": "Juan de Pareja",
+        "artist": "Diego Velázquez",
+        "country": "Espagne",
+        "period": "1650",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/437869), domaine public (CC0)",
+        "analysis": "Une toile de 81 × 70 cm. Un homme à la peau mate, aux cheveux noirs bouclés et à la moustache fine, porte un large col de dentelle blanche sur un vêtement sombre ; il se tient de trois quarts, la main sur la poitrine, et nous regarde droit dans les yeux. Le fond est gris-vert, sans aucun décor. Les dates données dans le titre par le musée (vers 1608–1670) sont celles du modèle.",
+        "compare": "Une peinture faite de quelques touches rapides, qui, de près, se défont : c'est cette liberté que Manet admirera chez Velázquez, à la fin de l'exposition.",
+        "image": "images/mouvements/baroque/velazquez-juan-de-pareja.jpg"
+      },
+      {
+        "title": "Le Retour du fils prodigue",
+        "artist": "Bartolomé Esteban Murillo",
+        "country": "Espagne (Séville)",
+        "period": "1667–1670",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.34956.html), domaine public (CC0)",
+        "analysis": "Une grande toile de 2,36 × 2,61 m. Un vieil homme en manteau pourpre embrasse son fils, agenouillé, pieds nus et vêtu de haillons, qui revient après avoir tout perdu ; un petit chien blanc lui fait fête. À droite, des serviteurs apportent de beaux vêtements ; à gauche, un homme amène un veau pour le festin. Selon la fiche du musée, le tableau avait été commandé pour l'hôpital de la Charité (Hospital de la Caridad) de Séville ; emporté à Paris en 1812 par le maréchal Soult, pendant l'occupation française, il fut vendu en 1835 à un duc anglais.",
+        "compare": "Une parabole du pardon peinte pour un hôpital qui accueillait les pauvres : l'art baroque doit toucher et enseigner la charité.",
+        "image": "images/mouvements/baroque/murillo-retour-du-fils-prodigue.jpg"
+      },
+      {
+        "title": "Saint Pierre repentant",
+        "artist": "Georges de La Tour",
+        "country": "France (Lorraine)",
+        "period": "1645",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1951.454), domaine public (CC0)",
+        "analysis": "Selon le musée, pendant l'arrestation de Jésus, après la Cène, l'apôtre Pierre nia le connaître ; Jésus lui pardonna, mais Pierre fut rongé par la culpabilité. Georges de La Tour le peint en vieil homme qui réfléchit à ses actes, dans un repentir sans fin. Ses yeux rougis et la lumière incertaine de la lanterne suggèrent des nuits sans sommeil ; les couleurs sourdes et les formes simples traduisent sa tristesse. Le coq rappelle que Jésus avait annoncé : « Avant que le coq chante, tu m'auras renié trois fois. » Le musée précise que La Tour travaillait assez isolé, dans le nord-est de la France, et que son lien avec Caravage reste mal connu.",
+        "compare": "La lumière d'une seule lanterne dans la nuit : on retrouve la leçon de Caravage, devenue silencieuse et méditative.",
+        "image": "images/mouvements/baroque/georges-de-la-tour-saint-pierre-repentant.jpg"
+      },
+      {
+        "title": "Paysage avec des marchands",
+        "artist": "Claude Lorrain",
+        "country": "France et Italie (Rome)",
+        "period": "vers 1629",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.41657.html), domaine public (CC0)",
+        "analysis": "Une toile de 97 × 144 cm. Sur la rive d'un fleuve, des marchands déchargent des barques et discutent près de ballots et de caisses ; à droite, une colline couronnée d'une tour ronde ; au loin, la vallée se perd dans une lumière dorée, sous un ciel immense. Selon la fiche du musée, le peintre a inscrit son nom en latin, CLAVDIO, sur le bord d'une barque, à gauche, suivi d'une date et d'une inscription en partie effacées.",
+        "compare": "Lorrain, Français installé à Rome, fait de la lumière le vrai sujet du paysage. Comparez avec le paysage d'Annibale Carracci, au début de l'exposition.",
+        "image": "images/mouvements/baroque/claude-lorrain-paysage-avec-marchands.jpg"
+      },
+      {
+        "title": "La Famille Jabach",
+        "artist": "Charles Le Brun",
+        "country": "France (Paris)",
+        "period": "vers 1660",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/626692), domaine public (CC0)",
+        "analysis": "Une très grande toile de 2,80 × 3,28 m. Un homme en habit sombre, assis, entouré de sa femme et de ses enfants, nous regarde ; autour d'eux, un buste antique, un globe, des livres, des feuilles de dessin et un petit chien. Selon les mots-clés du musée, la scène comprend un autoportrait : à l'arrière-plan à gauche, on distingue en effet le peintre, dans un tableau ou un miroir.",
+        "compare": "Le Brun, qui deviendra le premier peintre de Louis XIV, donne à une famille privée un format immense, digne d'un tableau d'histoire : le grand format, réservé autrefois aux rois et aux saints, s'ouvre à la bourgeoisie.",
+        "image": "images/mouvements/baroque/le-brun-famille-jabach.jpg"
+      },
+      {
+        "title": "Le Joyeux Buveur",
+        "artist": "Frans Hals",
+        "country": "Pays-Bas (Haarlem)",
+        "period": "vers 1628–1630",
+        "museum": "Rijksmuseum, Amsterdam",
+        "credit": "Rijksmuseum, Amsterdam (https://www.rijksmuseum.nl/nl/collectie/SK-A-135), domaine public (CC0)",
+        "analysis": "Selon le musée, un garde civique, riant, barbu et coiffé d'un grand chapeau noir, tient de la main gauche un grand verre à vin, un berkemeier, et lève la main droite ; il porte un médaillon au bout d'une chaîne. Le tableau, de 81 × 66,5 cm, porte le monogramme FH. Le musée l'a acheté en 1816.",
+        "compare": "Un geste saisi sur le vif, comme un instantané : la touche rapide de Hals donne l'impression du mouvement et de la conversation.",
+        "image": "images/mouvements/baroque/frans-hals-joyeux-buveur.jpg"
+      },
+      {
+        "title": "Autoportrait",
+        "artist": "Judith Leyster",
+        "country": "Pays-Bas (Haarlem)",
+        "period": "vers 1630",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.37003.html), domaine public (CC0)",
+        "analysis": "Une toile de 75 × 65 cm. Une jeune femme en collerette blanche se retourne vers nous, souriante, la bouche entrouverte, un pinceau à la main et sa palette dans l'autre main ; sur le chevalet, elle peint un violoniste joyeux. Selon la fiche du musée, le tableau est peut-être celui qui fut vendu à Londres entre 1810 et 1812 comme une œuvre de Frans Hals représentant sa fille.",
+        "compare": "Une femme peintre fière de son métier, qui se montre au travail : longtemps, ses tableaux ont été attribués à Frans Hals. Comparez avec le Joyeux Buveur.",
+        "image": "images/mouvements/baroque/judith-leyster-autoportrait.jpg"
+      },
+      {
+        "title": "Nature morte à la coupe dorée",
+        "artist": "Willem Claesz. Heda",
+        "country": "Pays-Bas (Haarlem)",
+        "period": "1635",
+        "museum": "Rijksmuseum, Amsterdam",
+        "credit": "Rijksmuseum, Amsterdam (https://www.rijksmuseum.nl/nl/collectie/SK-A-4830), domaine public (CC0)",
+        "analysis": "Selon le musée, sur une table couverte d'une nappe verte et de deux serviettes damassées sont posés, entre autres, une assiette d'étain avec du pain, un plat d'huîtres, un verre de vin rouge, une petite carafe à huile ou à vinaigre, une salière d'argent, un grand verre de vin blanc (un roemer), une coupe d'argent renversée, une haute coupe dorée à couvercle, un pichet d'étain et un verre renversé. Un citron à moitié pelé pend au bord de la table. Le panneau, de 88 × 113 cm, est signé et daté sur le bord de la serviette : HEDA. 1635.",
+        "compare": "Des objets précieux, mais un repas interrompu et des verres renversés : les bourgeois de Haarlem achètent ces natures mortes pour leur maison, où le luxe côtoie l'idée que tout passe.",
+        "image": "images/mouvements/baroque/heda-nature-morte-coupe-doree.jpg"
+      },
+      {
+        "title": "La Ronde de nuit",
+        "artist": "Rembrandt",
+        "country": "Pays-Bas (Amsterdam)",
+        "period": "1642",
+        "museum": "Rijksmuseum, Amsterdam",
+        "credit": "Rijksmuseum, Amsterdam (https://www.rijksmuseum.nl/nl/collectie/SK-C-5), domaine public (CC0)",
+        "analysis": "Le titre complet, selon le musée : « Officiers et autres gardes civiques du quartier II d'Amsterdam, sous les ordres du capitaine Frans Banninck Cocq et du lieutenant Willem van Ruytenburch », connu depuis la fin du XVIIIe siècle sous le nom de « Ronde de nuit ». Les gardes sortent d'une porte : au centre, le capitaine en noir avec une écharpe rouge donne un ordre à son lieutenant, habillé de jaune clair ; autour d'eux, on charge les mousquets, on lève les piques et un drapeau, un tambour bat. Une petite fille en robe dorée est prise dans la lumière. Selon le musée, un écusson, près de la porte, porte les noms des personnes représentées ; le tableau est signé « Rembrandt f 1642 » et prêté au musée par la Ville d'Amsterdam.",
+        "compare": "Un portrait de groupe commandé par une compagnie de bourgeois armés, que Rembrandt transforme en scène d'action, pleine d'ombres et de lumière : le baroque au service d'une république de marchands.",
+        "image": "images/mouvements/baroque/rembrandt-la-ronde-de-nuit.jpg"
+      },
+      {
+        "title": "Route à travers une forêt de chênes",
+        "artist": "Jacob van Ruisdael",
+        "country": "Pays-Bas (Haarlem)",
+        "period": "1646–1647",
+        "museum": "Statens Museum for Kunst, Copenhague",
+        "credit": "Statens Museum for Kunst, Copenhague (https://open.smk.dk/artwork/image/KMS3366), domaine public",
+        "analysis": "Selon le musée, Jacob van Ruisdael est considéré comme le plus grand paysagiste hollandais de la seconde moitié du XVIIe siècle. Il a peint ce tableau à 18 ou 19 ans, au moment d'être reçu maître dans la guilde des peintres de Haarlem, sa ville natale. L'atmosphère et la composition montrent l'influence de son oncle Salomon van Ruisdael ; mais le grand format et les couleurs plus variées l'éloignent des paysages presque monochromes de la génération précédente, comme ceux de Jan van Goyen. Les cimes à demi mortes et la souche envahie de végétation, au premier plan, peuvent évoquer la brièveté de la vie.",
+        "compare": "Pas de héros ni de saint : la forêt elle-même est le sujet. Ce genre de paysage était acheté par des particuliers, pas par les églises.",
+        "image": "images/mouvements/baroque/ruisdael-route-foret-de-chenes.jpg"
+      },
+      {
+        "title": "Portrait de René Descartes",
+        "artist": "Frans Hals",
+        "country": "Pays-Bas (Haarlem)",
+        "period": "1647–1648",
+        "museum": "Statens Museum for Kunst, Copenhague",
+        "credit": "Statens Museum for Kunst, Copenhague (https://open.smk.dk/artwork/image/DEP7), domaine public",
+        "analysis": "Un tout petit panneau de 19 × 14 cm. Selon le musée, ce tableau a été maltraité : quelqu'un l'a rayé de lignes en zigzag, peut-être parce qu'il représente un philosophe et mathématicien qui a introduit beaucoup d'idées nouvelles. Le musée rappelle que Descartes conclut, dans ses écrits, que la pensée humaine est la seule certitude absolue. Ce portrait n'est qu'une esquisse peinte, préparatoire à une gravure de Jonas Suyderhoef, et peut-être à un portrait grandeur nature. Frans Hals l'aurait peint avant que Descartes ne quitte Haarlem, en septembre 1649, pour se mettre au service de la reine Christine de Suède.",
+        "compare": "La révolution scientifique en un visage : le philosophe du doute et de la raison, peint par le portraitiste des bourgeois de Haarlem.",
+        "image": "images/mouvements/baroque/frans-hals-portrait-descartes.jpg"
+      },
+      {
+        "title": "Autoportrait",
+        "artist": "Rembrandt",
+        "country": "Pays-Bas (Amsterdam)",
+        "period": "1659",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.79.html), domaine public (CC0)",
+        "analysis": "Une toile de 84,5 × 66 cm. Rembrandt se peint de trois quarts, coiffé d'un béret sombre, les mains jointes dans l'ombre. La lumière tombe sur son visage marqué de rides, aux sourcils levés, au regard las et attentif. La peinture est posée en couches épaisses sur le visage, plus fluide ailleurs. Le tableau est signé et daté à gauche : « Rembrandt f. 1659 ». Selon la fiche du musée, il appartenait en 1767 à un comte anglais, puis resta dans la famille des ducs de Buccleuch.",
+        "compare": "Ici, Rembrandt ne cherche ni la beauté ni le rang, mais la vérité d'un visage qui vieillit.",
+        "image": "images/mouvements/baroque/rembrandt-autoportrait-1659.jpg"
+      },
+      {
+        "title": "La Laitière",
+        "artist": "Johannes Vermeer",
+        "country": "Pays-Bas (Delft)",
+        "period": "vers 1660",
+        "museum": "Rijksmuseum, Amsterdam",
+        "credit": "Rijksmuseum, Amsterdam (https://www.rijksmuseum.nl/nl/collectie/SK-A-2344), domaine public (CC0)",
+        "analysis": "Selon le musée, une servante, debout derrière une table, verse du lait d'une cruche dans une jatte de terre cuite. Sur la table, un panier de pain et une cruche de grès ; à gauche, une fenêtre avec un panier d'osier et un pot de cuivre ; au bas du mur, à droite, une rangée de carreaux de faïence et une chaufferette. La toile mesure seulement 45,5 × 41 cm. La lumière, qui entre par la fenêtre, fait briller les croûtes de pain en petits points clairs et donne au bleu du tablier une grande intensité. Le musée l'a achetée avec le soutien de l'association Vereniging Rembrandt.",
+        "compare": "Un geste quotidien devenu monument : pas d'histoire, pas de saint, seulement la lumière sur une femme au travail.",
+        "image": "images/mouvements/baroque/vermeer-la-laitiere.jpg"
+      },
+      {
+        "title": "Femme tenant une balance",
+        "artist": "Johannes Vermeer",
+        "country": "Pays-Bas (Delft)",
+        "period": "vers 1664",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.1236.html), domaine public (CC0)",
+        "analysis": "Une toile de 40 × 35,5 cm. Une femme, debout près d'une table où sont posés des perles, des pièces et un coffret, tient une petite balance vide entre ses doigts. Elle porte une veste bleue bordée de fourrure blanche. Une lumière douce entre par la fenêtre, voilée d'un rideau jaune. Au mur, derrière elle, un grand tableau sombre où l'on reconnaît le Jugement dernier : le Christ en haut, dans une lumière dorée, et des personnages en bas. Selon la fiche du musée, le tableau appartenait peut-être à Pieter van Ruijven, à Delft ; il fut vendu à Amsterdam en 1696.",
+        "compare": "Peser l'or et les perles devant le Jugement dernier : une méditation silencieuse sur les choix de la vie, peinte pour un collectionneur de Delft.",
+        "image": "images/mouvements/baroque/vermeer-femme-tenant-une-balance.jpg"
+      },
+      {
+        "title": "La Joyeuse Famille",
+        "artist": "Jan Steen",
+        "country": "Pays-Bas",
+        "period": "1668",
+        "museum": "Rijksmuseum, Amsterdam",
+        "credit": "Rijksmuseum, Amsterdam (https://www.rijksmuseum.nl/nl/collectie/SK-C-229), domaine public (CC0)",
+        "analysis": "Selon le musée, le tableau s'appelle aussi « Comme chantent les vieux, ainsi sifflent les jeunes ». Dans un intérieur, une famille s'amuse autour d'une table avec de la musique, des chants et de la boisson. À la fenêtre, un garçon avec une pipe et un cor ; à table, un vieil homme chante en levant son verre, un homme joue de la cornemuse, deux femmes chantent en lisant une feuille ; un garçon joue de la flûte, un autre garçon et une fille fument la pipe, et un enfant boit du vin à même la cruche. Par terre, un chien, des cruches, une assiette et une casserole. La toile, de 110,5 × 141 cm, est signée et datée : « JSteen 1668 ».",
+        "compare": "Une scène joyeuse qui est aussi une leçon : les enfants imitent les mauvais exemples des adultes. Les bourgeois hollandais aimaient ces images à la fois drôles et morales.",
+        "image": "images/mouvements/baroque/jan-steen-joyeuse-famille.jpg"
+      },
+      {
+        "title": "La Richesse et les bienfaits de la monarchie espagnole sous Charles III",
+        "artist": "Giovanni Battista Tiepolo",
+        "country": "Italie et Espagne",
+        "period": "1762",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.12137.html), domaine public (CC0)",
+        "analysis": "Une toile de 182 × 104 cm, peinte comme vue d'en bas, à la manière d'un plafond : au centre, un grand ciel clair ; tout autour, sur les bords, des nuées de figures allégoriques et de divinités, assises sur des nuages ou appuyés sur une architecture peinte. Le titre du musée indique le sujet : la richesse et les bienfaits de la monarchie espagnole sous le roi Charles III.",
+        "compare": "L'héritage du baroque au XVIIIe siècle : le Vénitien Tiepolo travaille pour le roi d'Espagne, et les plafonds peints célèbrent encore la puissance des monarchies, mais avec des couleurs plus claires et plus légères.",
+        "image": "images/mouvements/baroque/tiepolo-richesse-monarchie-espagnole.jpg"
+      },
+      {
+        "title": "Philippe IV à cheval, d'après Velázquez",
+        "artist": "Francisco de Goya",
+        "country": "Espagne",
+        "period": "1778",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/333954), domaine public (CC0)",
+        "analysis": "Une eau-forte de 37 × 31 cm. Le roi Philippe IV, en armure et chapeau à plumes, monte un cheval cabré, dans un vaste paysage. L'inscription gravée au bas de la feuille dit, en espagnol : « Philippe IV, roi d'Espagne. Peinture de don Diego Velázquez, grandeur nature, au Palais royal de Madrid, dessinée et gravée par don Francisco Goya, peintre. Année 1778. »",
+        "compare": "Plus d'un siècle après sa mort, Velázquez sert de modèle : le jeune Goya grave ses tableaux royaux, et les fait connaître hors du palais.",
+        "image": "images/mouvements/baroque/goya-philippe-iv-a-cheval-d-apres-velazquez.jpg"
+      },
+      {
+        "title": "Le Chanteur espagnol",
+        "artist": "Édouard Manet",
+        "country": "France",
+        "period": "1860",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/436944), domaine public (CC0)",
+        "analysis": "Une toile de 147 × 114 cm. Un homme en costume espagnol, un foulard blanc sous un chapeau noir, est assis sur un banc vert et joue de la guitare en chantant, la bouche ouverte. Il gratte les cordes de la main gauche. Par terre, à droite, une cruche de terre et deux oignons ; le fond, brun, est presque vide. Le tableau est signé sur le banc.",
+        "compare": "Le point d'arrivée de l'exposition : un fond neutre, des touches franches, une figure seule, comme dans le Juan de Pareja de Velázquez. Le baroque espagnol devient une source pour la peinture moderne.",
+        "image": "images/mouvements/baroque/manet-le-chanteur-espagnol.jpg"
+      }
+    ]
   }
 ]

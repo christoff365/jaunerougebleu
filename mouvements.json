@@ -5090,8 +5090,8 @@
     "slug": "romantisme",
     "status": "published",
     "title": "Le romantisme, le cœur, la nature et les nations",
-    "subtitle": "Europe, fin du XVIIIe – milieu du XIXe siècle, avec ses sources et son héritage : vingt-cinq œuvres de Washington, New York, Cleveland, Copenhague, Amsterdam et Helsinki",
-    "intro": "Le romantisme naît à la fin du XVIIIe siècle, en réaction contre le siècle des Lumières, qui faisait confiance à la raison, et contre le néoclassicisme, l'art calme et réglé de David et de ses élèves, inspiré de l'Antiquité. Les romantiques préfèrent le sentiment, l'imagination, le rêve et même le cauchemar. Ils cherchent le « sublime », ce mélange d'admiration et d'effroi que l'on éprouve devant une tempête, une montagne ou un incendie, et que le philosophe Edmund Burke avait décrit en 1757. Le mouvement est d'abord littéraire : Rousseau, Goethe et son Werther, Byron, Walter Scott, Chateaubriand, dont le roman Les Natchez inspire Delacroix. Les événements de l'époque le nourrissent. La Révolution française et les guerres de Napoléon suscitent l'enthousiasme, puis la désillusion ; la révolution industrielle transforme les villes, avec le charbon, les usines et la vapeur. Les peuples d'Europe affirment leur identité : les Grecs se soulèvent contre l'Empire ottoman dans les années 1820, la Norvège et la Finlande cherchent leurs paysages et leurs légendes, et Elias Lönnrot publie en 1835 le Kalevala, l'épopée nationale finlandaise. Les sciences comptent aussi : en 1803, Luke Howard donne leurs noms aux nuages, que Constable étudie sans relâche. Les commanditaires changent. À Paris, le Salon, exposition officielle, devient le lieu des grands débats : l'État y achète des tableaux, la critique et le public s'y passionnent. À Londres, la Royal Academy expose chaque année, et de nouveaux collectionneurs, industriels et négociants de Manchester ou de Liverpool, achètent des paysages. La lithographie, nouvelle technique d'impression, fait circuler les images, et les marchands d'art prennent de l'importance. L'héritage du romantisme est immense : le paysage de l'école de Barbizon et de la Hudson River School en Amérique, le symbolisme de la fin du siècle, et les impressionnistes, qui admirent la lumière de Turner et les couleurs de Delacroix. L'exposition suit ce chemin : les sources, à la fin du XVIIIe siècle, le romantisme en Angleterre, en Allemagne, en Scandinavie, aux Pays-Bas, en France, en Espagne et en Finlande, puis son héritage. Les œuvres viennent de la National Gallery of Art de Washington, du Metropolitan Museum of Art, du Cleveland Museum of Art, du Statens Museum for Kunst de Copenhague, du Rijksmuseum d'Amsterdam et de la Galerie nationale de Finlande ; Le Radeau de la Méduse de Géricault et La Liberté guidant le peuple de Delacroix, au Louvre, ou Le Voyageur contemplant une mer de nuages de Friedrich, à Hambourg, seront ajoutés quand nous pourrons obtenir leurs images libres.",
+    "subtitle": "Europe, fin du XVIIIe – milieu du XIXe siècle, avec ses sources et son héritage : vingt-neuf œuvres de Washington, New York, Cleveland, Copenhague, Amsterdam, Helsinki, Paris, Londres et Hambourg",
+    "intro": "Le romantisme naît à la fin du XVIIIe siècle, en réaction contre le siècle des Lumières, qui faisait confiance à la raison, et contre le néoclassicisme, l'art calme et réglé de David et de ses élèves, inspiré de l'Antiquité. Les romantiques préfèrent le sentiment, l'imagination, le rêve et même le cauchemar. Ils cherchent le « sublime », ce mélange d'admiration et d'effroi que l'on éprouve devant une tempête, une montagne ou un incendie, et que le philosophe Edmund Burke avait décrit en 1757. Le mouvement est d'abord littéraire : Rousseau, Goethe et son Werther, Byron, Walter Scott, Chateaubriand, dont le roman Les Natchez inspire Delacroix. Les événements de l'époque le nourrissent. La Révolution française et les guerres de Napoléon suscitent l'enthousiasme, puis la désillusion ; la révolution industrielle transforme les villes, avec le charbon, les usines et la vapeur. Les peuples d'Europe affirment leur identité : les Grecs se soulèvent contre l'Empire ottoman dans les années 1820, la Norvège et la Finlande cherchent leurs paysages et leurs légendes, et Elias Lönnrot publie en 1835 le Kalevala, l'épopée nationale finlandaise. Les sciences comptent aussi : en 1803, Luke Howard donne leurs noms aux nuages, que Constable étudie sans relâche. Les commanditaires changent. À Paris, le Salon, exposition officielle, devient le lieu des grands débats : l'État y achète des tableaux, la critique et le public s'y passionnent. À Londres, la Royal Academy expose chaque année, et de nouveaux collectionneurs, industriels et négociants de Manchester ou de Liverpool, achètent des paysages. La lithographie, nouvelle technique d'impression, fait circuler les images, et les marchands d'art prennent de l'importance. L'héritage du romantisme est immense : le paysage de l'école de Barbizon et de la Hudson River School en Amérique, le symbolisme de la fin du siècle, et les impressionnistes, qui admirent la lumière de Turner et les couleurs de Delacroix. L'exposition suit ce chemin : les sources, à la fin du XVIIIe siècle, le romantisme en Angleterre, en Allemagne, en Scandinavie, aux Pays-Bas, en France, en Espagne et en Finlande, puis son héritage. Les œuvres viennent de la National Gallery of Art de Washington, du Metropolitan Museum of Art, du Cleveland Museum of Art, du Statens Museum for Kunst de Copenhague, du Rijksmuseum d'Amsterdam et de la Galerie nationale de Finlande ; quatre chefs-d'œuvre, Le Radeau de la Méduse de Géricault et La Liberté guidant le peuple de Delacroix, au Louvre, Le Dernier Voyage du Téméraire de Turner, à la National Gallery de Londres, et Le Voyageur contemplant une mer de nuages de Friedrich, à la Kunsthalle de Hambourg, sont montrés grâce aux photographies libres de Wikimedia Commons.",
     "works": [
       {
         "title": "Coriolan quittant sa famille",
@@ -5183,6 +5183,17 @@
         "image": "images/mouvements/romantisme/turner-dechargement-du-charbon-clair-de-lune.jpg"
       },
       {
+        "title": "Le Dernier Voyage du Téméraire",
+        "artist": "Joseph Mallord William Turner",
+        "country": "Angleterre (Londres)",
+        "period": "1839",
+        "museum": "National Gallery, Londres",
+        "credit": "National Gallery, Londres, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:The_Fighting_Temeraire,_JMW_Turner,_National_Gallery.jpg), domaine public",
+        "analysis": "Un vieux navire de guerre, qui avait combattu à Trafalgar, est remorqué par un petit vapeur vers le chantier où il sera démoli. Turner fait du coucher de soleil le vrai sujet : le ciel embrasé occupe la moitié de la toile, la lumière dissout les contours et se reflète dans l'eau. Le navire, pâle et presque fantomatique, s'efface pendant que le jour s'éteint.",
+        "compare": "Le vieux voilier et le remorqueur à vapeur, noir et fumant : la fin d'un monde et l'arrivée de l'âge industriel, comme dans les Bateliers chargeant du charbon.",
+        "image": "images/mouvements/romantisme/turner-dernier-voyage-du-temeraire.jpg"
+      },
+      {
         "title": "Après la tempête",
         "artist": "Caspar David Friedrich",
         "country": "Allemagne (Dresde)",
@@ -5192,6 +5203,17 @@
         "analysis": "Une petite toile de 22 × 31 cm. Selon le musée, une violente tempête a jeté un bateau sur des rochers : son mât est brisé, les cordages flottent au vent et la voile s'enfonce dans la mer. Mais les rochers sont peut-être aussi son salut, puisqu'ils l'ancrent sur un sol ferme. Friedrich a grandi à Greifswald, au bord de la Baltique, et a visité toute sa vie l'île de Rügen, où il observait le ciel et la mer par tous les temps ; les bateaux, chez lui, symbolisent souvent le voyage de la vie. Le musée rappelle que Friedrich, comme beaucoup de peintres européens, étudiait les nuages, et qu'il s'était formé à l'Académie de Copenhague de 1794 à 1798.",
         "compare": "Un paysage qui est aussi une méditation : la tempête, le naufrage et peut-être l'espoir, sous un ciel observé avec précision.",
         "image": "images/mouvements/romantisme/friedrich-apres-la-tempete.jpg"
+      },
+      {
+        "title": "Le Voyageur contemplant une mer de nuages",
+        "artist": "Caspar David Friedrich",
+        "country": "Allemagne (Dresde)",
+        "period": "vers 1818",
+        "museum": "Kunsthalle de Hambourg",
+        "credit": "Kunsthalle de Hambourg, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Friedrich%2C_Caspar_David_-_Wanderer_%C3%BCber_dem_Nebelmeer.jpg), domaine public",
+        "analysis": "C'est l'image la plus célèbre du romantisme. Un homme, vu de dos, se tient sur un rocher au-dessus d'une mer de brume d'où émergent des sommets. Nous ne voyons pas son visage : nous regardons avec lui, à sa place. Friedrich a composé le paysage à partir de dessins faits dans les montagnes de grès de l'Elbe, près de Dresde, mais l'ensemble est imaginaire. Le paysage devient intérieur : ce que l'homme ressent devant l'immensité, la solitude, l'émerveillement ou l'inquiétude, compte autant que ce qu'il voit.",
+        "compare": "Le sublime en une image : comparez avec les Deux hommes contemplant la lune, plus intimes, et avec le petit naufrage d'Après la tempête, peint un an plus tôt.",
+        "image": "images/mouvements/romantisme/friedrich-voyageur-mer-de-nuages.jpg"
       },
       {
         "title": "Deux hommes contemplant la lune",
@@ -5271,6 +5293,18 @@
         "image": "images/mouvements/romantisme/gericault-retour-de-russie.jpg"
       },
       {
+        "title": "Le Radeau de la Méduse",
+        "artist": "Théodore Géricault",
+        "country": "France",
+        "period": "1818–1819",
+        "museum": "Musée du Louvre, Paris",
+        "credit": "Musée du Louvre, Paris, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-_La_Balsa_de_la_Medusa_(Museo_del_Louvre,_1818-19).jpg), domaine public",
+        "analysis": "Sur un radeau de planches battu par les vagues, sous un ciel d'orage, des naufragés s'entassent. Au premier plan gisent des corps sans vie, à demi nus ; un vieil homme, assis, tient un mort sur ses genoux. Derrière, les survivants se relèvent et se tendent les uns au-dessus des autres vers la droite ; tout en haut, un homme noir, porté par ses compagnons, agite un tissu vers l'horizon, où l'on devine un minuscule navire. Une voile gonflée tire le radeau dans l'autre sens.",
+        "compare": "La composition monte en pyramide, du désespoir à l'espoir. Géricault peint un fait divers de son temps, le naufrage d'une frégate française, avec le format immense réservé jusque-là aux héros de l'histoire.",
+        "sensible": true,
+        "image": "images/mouvements/romantisme/gericault-le-radeau-de-la-meduse.jpg"
+      },
+      {
         "title": "Les Natchez",
         "artist": "Eugène Delacroix",
         "country": "France",
@@ -5281,6 +5315,18 @@
         "compare": "Une scène tirée de la littérature romantique, qui rêve de peuples lointains : la mélancolie du paysage répond à celle des personnages.",
         "sensible": true,
         "image": "images/mouvements/romantisme/delacroix-les-natchez.jpg"
+      },
+      {
+        "title": "La Liberté guidant le peuple",
+        "artist": "Eugène Delacroix",
+        "country": "France",
+        "period": "1830",
+        "museum": "Musée du Louvre, Paris",
+        "credit": "Musée du Louvre, Paris, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:La_Libert%C3%A9_guidant_le_peuple_-_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_RF_129_-_apr%C3%A8s_restauration_2024.jpg), domaine public",
+        "analysis": "Une femme coiffée d'un bonnet phrygien, la poitrine nue, franchit une barricade en brandissant le drapeau bleu, blanc, rouge et un fusil à baïonnette. Autour d'elle avancent des insurgés : un homme en chapeau haut de forme armé d'un fusil, un garçon avec deux pistolets, un ouvrier au sabre. Au premier plan, des morts gisent sur les pavés et les planches. À droite, dans la fumée, on reconnaît les tours de Notre-Dame de Paris.",
+        "compare": "Une allégorie, la Liberté, au milieu de Parisiens bien réels : Delacroix peint la révolution de juillet 1830, l'année même de l'événement. Comparez avec le Coriolan de Girodet, au début de l'exposition : on est passé de l'histoire antique à l'actualité.",
+        "sensible": true,
+        "image": "images/mouvements/romantisme/delacroix-la-liberte-guidant-le-peuple.jpg"
       },
       {
         "title": "Le comte Démétrius de Palatiano en costume souliote",

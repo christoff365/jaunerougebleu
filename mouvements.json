@@ -4291,10 +4291,69 @@
     "mouvement": "Renaissance",
     "slug": "renaissance",
     "status": "published",
-    "title": "La Renaissance, l'Europe redécouvre l'Antiquité et le monde",
-    "subtitle": "Italie, Flandres, Allemagne, Pays-Bas, Angleterre et France, XVe–XVIe siècle : vingt-trois œuvres de Washington, New York, Cleveland, Copenhague et Amsterdam",
-    "intro": "Au XVe siècle, des artistes de Florence redécouvrent l'Antiquité grecque et romaine, étudient le corps humain et inventent la perspective, qui donne l'illusion de la profondeur. Au même moment, en Flandres, des peintres comme Jan van Eyck perfectionnent la peinture à l'huile, qui permet de rendre chaque reflet et chaque détail. Ces deux foyers s'influencent, et la Renaissance gagne toute l'Europe : Venise, Rome, l'Allemagne de Dürer et de Cranach, les Pays-Bas de Bruegel. L'imprimerie fait circuler les gravures et les idées. Cette exposition croise le Sud et le Nord, la peinture et la sculpture : Van Eyck, Rogier van der Weyden, Botticelli, Verrocchio, Léonard de Vinci, Mantegna, Bosch, Raphaël, Dürer, Parmigianino, Bronzino, Holbein, Titien, Cranach et Bruegel. Les œuvres viennent de la National Gallery of Art de Washington, du Metropolitan Museum of Art, du Cleveland Museum of Art, du Statens Museum for Kunst de Copenhague et du Rijksmuseum d'Amsterdam ; les grandes œuvres restées en Italie, en Belgique et en Allemagne seront ajoutées quand nous pourrons obtenir leurs images libres.",
+    "title": "La Renaissance, de l'Antiquité retrouvée à l'art des siècles suivants",
+    "subtitle": "Europe, XVe–XVIe siècle, avec ses sources antiques et son héritage : quarante œuvres de Washington, New York, Cleveland, Copenhague et Amsterdam",
+    "intro": "« Renaissance » veut dire « naissance à nouveau » : au XVe siècle, des artistes et des savants italiens veulent faire renaître l'art et la pensée de l'Antiquité grecque et romaine, qu'ils jugent supérieurs à ceux des siècles précédents. À Rome et à Florence, on fouille les ruines, on collectionne les statues, on dessine les sarcophages et les inscriptions. Certaines découvertes font sensation : le groupe du Laocoon, retrouvé à Rome en 1506, l'Apollon et le Torse du Belvédère, exposés au Vatican, que Michel-Ange et Raphaël étudient. De l'Antiquité, les artistes reprennent le corps humain idéal, les proportions, les colonnes et les frontons, les sujets mythologiques et le portrait en buste. Ils y ajoutent leurs propres inventions : la perspective, qui donne l'illusion de la profondeur, l'étude de la nature et de l'anatomie, et, en Flandres, avec Jan van Eyck, la peinture à l'huile. L'humanisme est au cœur de la Renaissance : des savants, de Pétrarque à Érasme, retrouvent, traduisent et impriment les textes grecs et latins, et placent l'être humain, sa dignité et son éducation au centre de leur réflexion. Les commanditaires changent aussi : à côté de l'Église, les princes et les banquiers, comme les Médicis à Florence, deviennent de grands mécènes, et en Flandres de riches marchands commandent des tableaux pour leur maison ou leur chapelle. L'artiste, autrefois considéré comme un artisan, devient un créateur admiré, parfois célèbre dans toute l'Europe. L'imprimerie, après 1450, fait circuler les livres et les gravures, et la Renaissance gagne toute l'Europe : Venise, l'Allemagne de Dürer et de Cranach, les Pays-Bas de Bruegel, la France, l'Angleterre de Holbein. Son héritage est immense. Après elle viennent le maniérisme, plus raffiné et plus étrange, puis le baroque de Caravage et de Rubens, et le classicisme de Poussin, qui prend Raphaël et l'Antiquité pour modèles. Pendant plus de trois siècles, les académies d'art enseignent d'après les mêmes statues antiques et les mêmes maîtres ; au XVIIIe siècle, Winckelmann et le néoclassicisme reviennent encore à l'Antiquité. Il faudra attendre le XIXe et le XXe siècle pour que des artistes, des impressionnistes aux cubistes, remettent en cause la perspective et l'idéal hérités de la Renaissance. L'exposition suit ce chemin en trois temps : les sources antiques, la Renaissance du Sud et du Nord, puis deux œuvres du XVIIe siècle qui montrent son héritage. Les œuvres viennent de la National Gallery of Art de Washington, du Metropolitan Museum of Art, du Cleveland Museum of Art, du Statens Museum for Kunst de Copenhague et du Rijksmuseum d'Amsterdam ; les grandes œuvres restées en Italie, en Belgique et en Allemagne seront ajoutées quand nous pourrons obtenir leurs images libres.",
     "works": [
+      {
+        "title": "Buste-portrait d'un homme",
+        "artist": "Sculpteur romain",
+        "country": "Italie (Rome antique)",
+        "period": "27 av. J.-C. – 14 apr. J.-C.",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1928.860), domaine public (CC0)",
+        "analysis": "Un portrait romain en bronze, grandeur nature. Selon le musée, ses traits réalistes, les rides du front et du coin des yeux, les oreilles très naturelles, décollées et pas tout à fait symétriques, en font un portrait d'une grande vérité. La coiffure régulière suggère l'époque de l'empereur Auguste. Le buste surmontait sans doute un pilier, et une inscription, aujourd'hui perdue, donnait le nom du modèle, resté inconnu. Ses yeux étaient autrefois incrustés, peut-être de pierre, de verre ou d'ivoire.",
+        "compare": "Le point de départ de l'exposition : l'Antiquité, que la Renaissance va redécouvrir. Comparez ce visage avec les bustes de Verrocchio et de Desiderio, plus loin.",
+        "image": "images/mouvements/renaissance/buste-romain-epoque-augustinienne.jpg"
+      },
+      {
+        "title": "Sarcophage d'Oreste",
+        "artist": "Sculpteur romain",
+        "country": "Italie (Rome antique)",
+        "period": "vers 100–125 apr. J.-C.",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1928.856), domaine public (CC0)",
+        "analysis": "Un sarcophage de marbre de 2,10 m, sculpté de figures en haut relief. Selon le musée, le héros tragique Oreste y apparaît trois fois, toujours armé d'une courte épée : au centre, il se tient au-dessus du corps de sa mère Clytemnestre, et à gauche, au-dessus de celui de son amant Égisthe, qu'il a tués pour venger le meurtre de son père Agamemnon, de retour de la guerre de Troie. À gauche, trois Furies se reposent sur le tombeau d'Agamemnon ; à droite, Oreste se purifie au sanctuaire d'Apollon à Delphes. Sur le couvercle, quatre femmes couchées représentent les saisons.",
+        "compare": "Les artistes de la Renaissance dessinaient ces sarcophages, nombreux à Rome : on retrouvera, plus loin, une plaquette de bronze inspirée d'un relief de ce genre.",
+        "sensible": true,
+        "image": "images/mouvements/renaissance/sarcophage-romain-oreste.jpg"
+      },
+      {
+        "title": "Laocoon et ses fils",
+        "artist": "D'après une sculpture antique",
+        "country": "Grèce et Rome antiques",
+        "period": "Antiquité (moulage en plâtre)",
+        "museum": "Statens Museum for Kunst, Copenhague",
+        "credit": "Statens Museum for Kunst, Copenhague, collection royale des moulages (https://open.smk.dk/artwork/image/KAS385), photo du moulage en plâtre, domaine public",
+        "analysis": "Un moulage en plâtre de 2,42 m d'une célèbre sculpture antique. Selon le musée, l'homme au centre est le prêtre Laocoon : des serpents le mordent, ainsi que ses fils, et les tuent. Les dieux grecs les avaient envoyés pour l'empêcher de révéler aux Troyens que le cheval de Troie était un piège. Troie tombe ; les quelques Troyens survivants s'enfuient et fondent une nouvelle ville, Rome. Le musée rappelle aussi qu'en 1764 l'historien Winckelmann vit dans ce Laocoon, qui ne crie pas mais soupire malgré la douleur, une « noble simplicité et calme grandeur », un idéal que l'art de l'avenir devait faire revivre.",
+        "compare": "Des corps tendus, des muscles en action, une douleur intense : l'Antiquité offre aux artistes de la Renaissance un modèle d'émotion et d'anatomie.",
+        "sensible": true,
+        "image": "images/mouvements/renaissance/laocoon-moulage.jpg"
+      },
+      {
+        "title": "Apollon du Belvédère",
+        "artist": "D'après une sculpture antique",
+        "country": "Grèce et Rome antiques",
+        "period": "Antiquité (moulage en plâtre)",
+        "museum": "Statens Museum for Kunst, Copenhague",
+        "credit": "Statens Museum for Kunst, Copenhague, collection royale des moulages (https://open.smk.dk/artwork/image/KAS353), photo du moulage en plâtre, domaine public",
+        "analysis": "Le moulage en plâtre, de 2,32 m, d'une statue antique d'Apollon. Selon le musée, le dieu de la musique et protecteur contre le mal vient de décocher ses flèches mortelles sur Python, un monstre femelle, à Delphes ; il est représenté avec des formes douces et des cheveux longs savamment coiffés. La statue doit son nom à sa place au Vatican, la cour du Belvédère. Le musée précise qu'il s'agit sans doute d'une copie romaine d'une œuvre grecque, et qu'elle a été admirée et copiée pendant près de 400 ans.",
+        "compare": "Le corps idéal, calme et équilibré : un modèle de beauté pour les artistes, de la Renaissance jusqu'au XIXe siècle.",
+        "sensible": true,
+        "image": "images/mouvements/renaissance/apollon-du-belvedere-moulage.jpg"
+      },
+      {
+        "title": "Torse du Belvédère",
+        "artist": "D'après Apollonios, fils de Nestor, Athénien",
+        "country": "Grèce et Rome antiques",
+        "period": "Antiquité (moulage en plâtre)",
+        "museum": "Statens Museum for Kunst, Copenhague",
+        "credit": "Statens Museum for Kunst, Copenhague, collection royale des moulages (https://open.smk.dk/artwork/image/KAS402), photo du moulage en plâtre, domaine public",
+        "analysis": "Un moulage en plâtre, acquis en 1898, d'un fragment antique : un torse puissant, sans tête ni bras, assis sur une peau d'animal, peut-être celle du lion de Némée tué par Hercule. Selon le musée, l'inscription sous la figure dit : « Apollonios, fils de Nestor, Athénien ». Comme Michel-Ange refusa de compléter les parties manquantes, des générations d'élèves des académies d'art ont dû l'étudier tel quel : son inachèvement stimule l'imagination.",
+        "compare": "Un fragment devenu modèle : Michel-Ange y a vu la force du corps humain, comme le montre son dessin, plus loin.",
+        "sensible": true,
+        "image": "images/mouvements/renaissance/torse-du-belvedere-moulage.jpg"
+      },
       {
         "title": "L'Annonciation",
         "artist": "Jan van Eyck",
@@ -4303,8 +4362,19 @@
         "museum": "National Gallery of Art, Washington",
         "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.46.html), domaine public (CC0)",
         "analysis": "Dans une haute église aux colonnes et aux vitraux, l'ange Gabriel, couronné et vêtu d'un somptueux manteau de brocart rouge et or, salue Marie, agenouillée devant un livre, en manteau bleu. Les détails sont infinis : le carrelage décoré, les lys, les reflets sur les pierres précieuses, la lumière qui entre par les fenêtres. Selon la fiche du musée, les petites scènes du mur du fond portent des inscriptions latines liées à l'histoire de Moïse. Le tableau, de 90 × 34 cm, a été transféré de son panneau de bois sur une toile ; il provient peut-être de la chartreuse de Champmol, près de Dijon, et a appartenu au roi Guillaume II des Pays-Bas, puis au tsar Nicolas Ier de Russie.",
-        "compare": "Le point de départ de l'exposition : la Renaissance du Nord, où la peinture à l'huile rend chaque matière avec une précision encore jamais vue.",
+        "compare": "Le début de la Renaissance au Nord : la peinture à l'huile rend chaque matière avec une précision encore jamais vue.",
         "image": "images/mouvements/renaissance/van-eyck-annonciation.jpg"
+      },
+      {
+        "title": "L'Annonciation",
+        "artist": "Fra Filippo Lippi",
+        "country": "Italie",
+        "period": "vers 1435–1440",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.12133.html), domaine public (CC0)",
+        "analysis": "Un grand panneau de 100 × 161 cm. À gauche, l'ange agenouillé tient un lys ; à droite, Marie, en manteau bleu sombre, s'incline, les mains croisées sur la poitrine. Une colonne les sépare. Derrière eux, une pièce, une porte et un jardin s'enfoncent en profondeur : on voit la perspective, nouvelle invention florentine, construire l'espace. Selon la fiche du musée, le panneau a peut-être appartenu à Tommaso Puccini, près de Pistoia.",
+        "compare": "Comparez avec l'Annonciation de Van Eyck, peinte à la même époque en Flandres : même sujet, mais ici l'espace clair et géométrique de Florence.",
+        "image": "images/mouvements/renaissance/fra-filippo-lippi-annonciation.jpg"
       },
       {
         "title": "Portrait d'une dame",
@@ -4316,6 +4386,17 @@
         "analysis": "Un petit panneau de 34 × 25,5 cm. Une jeune femme, les yeux baissés, les mains jointes ornées de bagues, porte une coiffe couverte d'un voile transparent épinglé, une robe sombre et une ceinture rouge à boucle d'or. Elle se détache sur un fond bleu nuit uni. Le voile est si fin qu'on voit au travers. Selon la fiche du musée, le tableau a probablement appartenu aux princes d'Anhalt, qui le gardaient dans leur « maison gothique » de Wörlitz, près de Dessau, en Allemagne, avant d'être vendu en 1925.",
         "compare": "Un portrait de piété à la flamande : peu de choses, mais chaque matière, le voile, la boucle, la peau, est rendue avec une précision extrême.",
         "image": "images/mouvements/renaissance/rogier-van-der-weyden-portrait-dame.jpg"
+      },
+      {
+        "title": "Portrait d'un homme à la flèche",
+        "artist": "Hans Memling",
+        "country": "Flandres",
+        "period": "vers 1470–1475",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.49.html), domaine public (CC0)",
+        "analysis": "Un petit panneau de 31 × 25 cm. Un homme aux cheveux longs, coiffé d'un bonnet noir, tient une flèche entre ses doigts ; il porte une bague. Il se détache sur un fond bleu uni. Le visage, calme, est rendu avec une grande douceur : chaque reflet de la peau, chaque fil de la chemise rayée.",
+        "compare": "Le portrait flamand, sobre et précis, sera admiré et imité par les peintres italiens.",
+        "image": "images/mouvements/renaissance/memling-homme-a-la-fleche.jpg"
       },
       {
         "title": "L'Adoration des Mages",
@@ -4406,6 +4487,62 @@
         "image": "images/mouvements/renaissance/juan-de-flandes-naissance-saint-jean.jpg"
       },
       {
+        "title": "Hypnerotomachia Poliphili (Le Songe de Poliphile)",
+        "artist": "Francesco Colonna",
+        "country": "Italie",
+        "period": "décembre 1499",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/365313), domaine public (CC0)",
+        "analysis": "Un livre imprimé à Venise en décembre 1499, illustré de gravures sur bois, selon la fiche du musée. La page de droite montre un monument antique avec fronton et colonnes ; sous l'image, des mots grecs. Le texte est imprimé en caractères romains clairs. Selon son titre, c'est le « Songe de Poliphile », un récit en forme de rêve.",
+        "compare": "L'imprimerie fait voyager l'Antiquité : grâce aux livres et aux gravures, les modèles antiques circulent dans toute l'Europe.",
+        "image": "images/mouvements/renaissance/hypnerotomachia-poliphili.jpg"
+      },
+      {
+        "title": "Vierge à l'Enfant en majesté avec des saints (retable Colonna)",
+        "artist": "Raphaël",
+        "country": "Italie",
+        "period": "vers 1504",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/437372), domaine public (CC0)",
+        "analysis": "Un grand retable de 1,72 m, peint à l'huile et rehaussé d'or, selon la fiche du musée. La Vierge, assise sur un trône sous un dais, tient l'Enfant, et le petit Jean-Baptiste se tient à ses pieds ; autour d'eux, quatre saints, dont saint Pierre avec sa clé et saint Paul avec son épée. Dans la partie cintrée du haut, Dieu le Père bénit, entouré de deux anges. La composition est symétrique, les figures calmes et équilibrées.",
+        "compare": "Raphaël jeune, avant son séjour à Rome : la symétrie et la sérénité de son art deviendront un modèle pour des siècles.",
+        "image": "images/mouvements/renaissance/raphael-retable-colonna.jpg"
+      },
+      {
+        "title": "Adam et Ève",
+        "artist": "Albrecht Dürer",
+        "country": "Allemagne",
+        "period": "1504",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/336222), domaine public (CC0)",
+        "analysis": "Une gravure sur cuivre de 25 × 20 cm. Adam et Ève, nus, se tiennent de part et d'autre de l'arbre de la connaissance, où s'enroule le serpent ; Ève reçoit le fruit. Autour d'eux, des animaux : un chat, une souris, un lapin, un bœuf, un élan. Un petit panneau suspendu à une branche porte le nom latin de Dürer et la date de 1504. Les corps, aux proportions calculées, rappellent les statues antiques.",
+        "compare": "Dürer cherche les proportions idéales du corps humain, comme les sculpteurs de l'Antiquité : comparez avec l'Apollon du Belvédère.",
+        "sensible": true,
+        "image": "images/mouvements/renaissance/durer-adam-et-eve.jpg"
+      },
+      {
+        "title": "Saint Jérôme lisant",
+        "artist": "Giovanni Bellini",
+        "country": "Italie",
+        "period": "1505",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.358.html), domaine public (CC0)",
+        "analysis": "Saint Jérôme, vieillard à la barbe blanche, vêtu d'un simple drap bleu, lit assis sur un rocher, au bord d'un bassin ; des lapins jouent près de lui. Derrière l'arche de rochers s'ouvre un paysage lumineux avec une ville et des collines. Selon la fiche du musée, le panneau porte en bas à gauche la signature et la date : « Bellinus MCCCCCV » (1505).",
+        "compare": "À Venise, la lumière dorée et le paysage prennent autant de place que le saint : une voie que suivront Giorgione et Titien.",
+        "image": "images/mouvements/renaissance/bellini-saint-jerome-lisant.jpg"
+      },
+      {
+        "title": "L'Adoration des bergers",
+        "artist": "Giorgione",
+        "country": "Italie",
+        "period": "1505–1510",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.432.html), domaine public (CC0)",
+        "analysis": "Devant l'entrée d'une grotte, la Vierge, Joseph et deux bergers s'agenouillent autour de l'Enfant couché sur un linge. À gauche s'étend un vaste paysage : des arbres, une rivière, une ville au loin, sous un ciel clair. La lumière douce baigne tout le tableau. Selon la fiche du musée, il a appartenu au cardinal Fesch, à Rome.",
+        "compare": "Le paysage devient presque le sujet : Giorgione ouvre la voie à toute la peinture de paysage qui suivra.",
+        "image": "images/mouvements/renaissance/giorgione-adoration-des-bergers.jpg"
+      },
+      {
         "title": "Saint Georges et le dragon",
         "artist": "Raphaël",
         "country": "Italie",
@@ -4415,6 +4552,29 @@
         "analysis": "Un tout petit panneau de 28,5 × 21,5 cm. Saint Georges, en armure, sur un cheval blanc cabré, plonge sa lance dans le dragon ; à droite, la princesse prie, agenouillée. Selon la fiche du musée, le harnais du cheval porte la signature RAPHELLO V. (« Raphaël d'Urbino »), et la jarretière du saint le mot HONI, début de la devise de l'ordre anglais de la Jarretière. Le tableau appartenait vers 1627 au comte de Pembroke, qui le donna au roi d'Angleterre Charles Ier.",
         "compare": "Le mouvement du cheval et du cavalier, et un paysage paisible : Raphaël concilie l'action et l'harmonie.",
         "image": "images/mouvements/renaissance/raphael-saint-georges-dragon.jpg"
+      },
+      {
+        "title": "Études pour la Sibylle libyque",
+        "artist": "Michel-Ange",
+        "country": "Italie",
+        "period": "vers 1510–1511",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/337497), domaine public (CC0)",
+        "analysis": "Un dessin à la sanguine de 29 × 21 cm. Michel-Ange étudie un corps vu de dos, qui se tourne et lève les bras ; le dos, les épaules et les bras sont musclés comme ceux d'une statue antique. Autour, il reprend plusieurs fois des détails : le visage, la main, et surtout le pied et ses orteils. Selon son titre, ce sont des études pour la Sibylle libyque, l'une des prophétesses qu'il peignit au plafond de la chapelle Sixtine, à Rome.",
+        "compare": "On y voit le lien avec le Torse du Belvédère, au début de l'exposition : Michel-Ange donne à ses figures la puissance des corps antiques.",
+        "sensible": true,
+        "image": "images/mouvements/renaissance/michel-ange-etudes-sibylle-libyque.jpg"
+      },
+      {
+        "title": "La Petite Crucifixion",
+        "artist": "Matthias Grünewald",
+        "country": "Allemagne",
+        "period": "vers 1511–1520",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.46118.html), domaine public (CC0)",
+        "analysis": "Sous un ciel nocturne, le Christ en croix, sous l'inscription I.N.R.I., a le corps tordu et couvert de plaies, les mains crispées. À gauche, Marie et Marie-Madeleine, en pleurs ; à droite, saint Jean prie. Selon la fiche du musée, le panneau, de 61 × 46 cm, a appartenu au duc Guillaume V de Bavière, au XVIe siècle.",
+        "compare": "Au même moment que Raphaël, un autre chemin : Grünewald refuse la beauté idéale et peint la souffrance sans détour.",
+        "image": "images/mouvements/renaissance/grunewald-petite-crucifixion.jpg"
       },
       {
         "title": "Melencolia I",
@@ -4437,6 +4597,18 @@
         "analysis": "Selon le musée, l'historien d'art Giorgio Vasari raconte que Lorenzo Cybo, capitaine de la garde suisse et très bel homme, voulut être peint par Parmigianino, et que le peintre « ne le représenta pas tant qu'il le créa de chair et de sang ». L'homme blond, droit et réservé, dégage une certaine arrogance ; détendu, il tient une dague et une énorme épée à deux mains, si lourde qu'un petit garçon l'aide à la porter. Selon le musée, les armes et l'année 1523 inscrites en bas rappellent sans doute sa nomination à la tête de la garde personnelle du pape ; une table de jeu, avec dés et jetons, montre qu'il lui restait du temps pour le plaisir. La toile mesure 126,5 × 104,5 cm.",
         "compare": "Le musée rappelle que Parmigianino mourut à 37 ans et que son autoportrait dans un miroir convexe est un point de départ du maniérisme, un style raffiné et étrange qui suit la grande Renaissance.",
         "image": "images/mouvements/renaissance/parmigianino-lorenzo-cybo.jpg"
+      },
+      {
+        "title": "Satyresse",
+        "artist": "Giovanni Maria Mosca",
+        "country": "Italie",
+        "period": "vers 1525–1528",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1947.29), domaine public (CC0)",
+        "analysis": "Une petite plaquette de bronze de 16,5 × 11,5 cm. Selon le musée, dans l'Antiquité les satyres étaient des divinités des bois, amies du vin et de la fête ; la Renaissance en fit des symboles du vice. Cette satyresse vient sans doute d'une gravure de Marcantonio Raimondi reproduisant un sarcophage romain. Le sculpteur l'a entourée d'objets symboliques : un casque à plumes sous son sabot, un laurier à moitié fleuri, une lyre, une flûte de Pan, un arc. Le musée y voit peut-être une allégorie du plaisir qui l'emporte sur la vertu.",
+        "compare": "Du sarcophage antique à la gravure, puis au bronze : c'est ainsi que les modèles antiques circulaient à la Renaissance.",
+        "sensible": true,
+        "image": "images/mouvements/renaissance/mosca-satyresse-plaquette.jpg"
       },
       {
         "title": "Marie-Madeleine",
@@ -4545,8 +4717,31 @@
         "museum": "Metropolitan Museum of Art, New York",
         "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/435809), domaine public (CC0)",
         "analysis": "Un champ de blé doré occupe la moitié du tableau. À gauche, des paysans fauchent et lient les gerbes ; au centre, sous un arbre, d'autres font la pause : ils mangent et boivent, et l'un d'eux dort étendu sur le dos. Au loin s'étend un vaste paysage : un village, une église, des étangs, et la mer à l'horizon. Selon la fiche du musée, le tableau est peint à l'huile sur bois de chêne et daté de 1565.",
-        "compare": "Le point d'arrivée de l'exposition : chez Bruegel, ce ne sont plus des saints ni des princes, mais des paysans au travail qui deviennent le sujet d'un grand tableau.",
+        "compare": "La fin de la Renaissance : chez Bruegel, ce ne sont plus des saints ni des princes, mais des paysans au travail qui deviennent le sujet d'un grand tableau.",
         "image": "images/mouvements/renaissance/bruegel-les-moissonneurs.jpg"
+      },
+      {
+        "title": "Laocoon, vu de face avec son plus jeune fils",
+        "artist": "Willem Panneels",
+        "country": "Flandres",
+        "period": "1628–1630",
+        "museum": "Statens Museum for Kunst, Copenhague",
+        "credit": "Statens Museum for Kunst, Copenhague (https://open.smk.dk/artwork/image/KKSgb4811), domaine public",
+        "analysis": "Un dessin de 37 × 25 cm, daté selon le musée de 1628–1630. L'artiste flamand Willem Panneels a dessiné le groupe du Laocoon, vu au début de l'exposition : le corps du prêtre, puissant et tordu, les serpents enroulés, le visage tourné vers le ciel. Un siècle après la Renaissance, les artistes continuent d'étudier les mêmes statues antiques.",
+        "compare": "L'héritage : au XVIIe siècle, les modèles admirés par Michel-Ange et Raphaël restent la base de l'apprentissage des artistes.",
+        "sensible": true,
+        "image": "images/mouvements/renaissance/panneels-dessin-laocoon.jpg"
+      },
+      {
+        "title": "La Sainte Famille à l'escalier",
+        "artist": "Nicolas Poussin",
+        "country": "France",
+        "period": "1648",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1981.18), domaine public (CC0)",
+        "analysis": "Selon le musée, cette composition, simple en apparence, médite sur le rôle de la Sainte Famille dans le salut des hommes. Au centre, Marie présente l'Enfant au monde ; à gauche, sainte Élisabeth se penche, et son fils, Jean-Baptiste, offre une pomme à Jésus, signe de la chute d'Adam et Ève. À droite, Joseph tient un compas, outil du charpentier et symbole de Dieu le Père. Poussin a construit son tableau avec soin, avec des couleurs primaires claires, des formes simples et une organisation géométrique. Le musée ajoute qu'il plaçait de petits modèles de cire dans une boîte percée de trous pour étudier la lumière.",
+        "compare": "Le point d'arrivée de l'exposition : un siècle après Raphaël, le Français Poussin, installé à Rome, reprend son équilibre, ses architectures antiques et ses couleurs claires. C'est le début du classicisme.",
+        "image": "images/mouvements/renaissance/poussin-sainte-famille-escalier.jpg"
       }
     ]
   }

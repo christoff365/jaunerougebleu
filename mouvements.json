@@ -4286,5 +4286,169 @@
         "image": "images/mouvements/art-gothique/licorne-captive.jpg"
       }
     ]
+  },
+  {
+    "mouvement": "Renaissance",
+    "slug": "renaissance",
+    "status": "published",
+    "title": "La Renaissance, l'Europe redécouvre l'Antiquité et le monde",
+    "subtitle": "Italie, Flandres, Allemagne et Pays-Bas, XVe–XVIe siècle : quatorze œuvres de Washington, New York, Cleveland, Copenhague et Amsterdam",
+    "intro": "Au XVe siècle, des artistes de Florence redécouvrent l'Antiquité grecque et romaine, étudient le corps humain et inventent la perspective, qui donne l'illusion de la profondeur. Au même moment, en Flandres, des peintres comme Jan van Eyck perfectionnent la peinture à l'huile, qui permet de rendre chaque reflet et chaque détail. Ces deux foyers s'influencent, et la Renaissance gagne toute l'Europe : Venise, Rome, l'Allemagne de Dürer et de Cranach, les Pays-Bas de Bruegel. L'imprimerie fait circuler les gravures et les idées. Cette exposition croise le Sud et le Nord : Van Eyck, Botticelli, Léonard de Vinci, Filippino Lippi, Mantegna, Bosch, Raphaël, Dürer, Titien, Cranach et Bruegel. Les œuvres viennent de la National Gallery of Art de Washington, du Metropolitan Museum of Art, du Cleveland Museum of Art, du Statens Museum for Kunst de Copenhague et du Rijksmuseum d'Amsterdam ; les grandes œuvres restées en Italie, en Belgique et en Allemagne seront ajoutées quand nous pourrons obtenir leurs images libres.",
+    "works": [
+      {
+        "title": "L'Annonciation",
+        "artist": "Jan van Eyck",
+        "country": "Flandres",
+        "period": "vers 1434–1436",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.46.html), domaine public (CC0)",
+        "analysis": "Dans une haute église aux colonnes et aux vitraux, l'ange Gabriel, couronné et vêtu d'un somptueux manteau de brocart rouge et or, salue Marie, agenouillée devant un livre, en manteau bleu. Les détails sont infinis : le carrelage décoré, les lys, les reflets sur les pierres précieuses, la lumière qui entre par les fenêtres. Selon la fiche du musée, les petites scènes du mur du fond portent des inscriptions latines liées à l'histoire de Moïse. Le tableau, de 90 × 34 cm, a été transféré de son panneau de bois sur une toile ; il provient peut-être de la chartreuse de Champmol, près de Dijon, et a appartenu au roi Guillaume II des Pays-Bas, puis au tsar Nicolas Ier de Russie.",
+        "compare": "Le point de départ de l'exposition : la Renaissance du Nord, où la peinture à l'huile rend chaque matière avec une précision encore jamais vue.",
+        "image": "images/mouvements/renaissance/van-eyck-annonciation.jpg"
+      },
+      {
+        "title": "L'Adoration des Mages",
+        "artist": "Sandro Botticelli",
+        "country": "Italie",
+        "period": "vers 1478–1482",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.24.html), domaine public (CC0)",
+        "analysis": "La Sainte Famille est installée dans des ruines antiques, sous une charpente de bois ; tout autour se presse un cortège de rois, de serviteurs et de cavaliers aux vêtements de couleurs vives. Les arcs et les piliers de l'architecture conduisent le regard vers le fond, dans un paysage clair. Selon la fiche du musée, ce panneau de 68 × 102 cm a appartenu à Vivant Denon, qui le vendit en 1808 au tsar Alexandre Ier ; il fut ensuite conservé au musée de l'Ermitage, à Saint-Pétersbourg.",
+        "compare": "Les ruines antiques au milieu d'une scène chrétienne : la Renaissance florentine fait dialoguer l'Antiquité et la foi.",
+        "image": "images/mouvements/renaissance/botticelli-adoration-mages.jpg"
+      },
+      {
+        "title": "Ginevra de' Benci",
+        "artist": "Léonard de Vinci",
+        "country": "Italie",
+        "period": "vers 1474–1478",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.50724.html), domaine public (CC0)",
+        "analysis": "Le portrait d'une jeune femme au teint très pâle, aux cheveux bouclés, qui regarde au loin sans sourire. Derrière elle, un buisson sombre aux aiguilles fines, puis un paysage d'eau et d'arbres qui s'efface dans une brume bleutée. Selon la fiche du musée, le panneau mesure 38 × 37 cm ; au revers sont peints une couronne de laurier, de palmier et de genévrier et un phylactère. Il appartenait aux princes de Liechtenstein au moins depuis 1733, et le musée l'a acheté en 1967.",
+        "compare": "Léonard ne détaille pas tout comme Van Eyck : il adoucit les contours et fond le paysage dans la lumière.",
+        "image": "images/mouvements/renaissance/leonard-de-vinci-ginevra-de-benci.jpg"
+      },
+      {
+        "title": "La Sainte Famille avec saint Jean-Baptiste et sainte Marguerite",
+        "artist": "Filippino Lippi",
+        "country": "Italie",
+        "period": "vers 1488–1493",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1932.227), domaine public (CC0)",
+        "analysis": "Selon le musée, ce grand tondo, un tableau rond de 1,53 m de diamètre, est l'une des œuvres majeures de Filippino Lippi. Il fut commandé par le cardinal napolitain Oliviero Carafa. Cinq figures aux couleurs éclatantes s'enchevêtrent dans le cercle : derrière un muret garni d'objets sacrés et domestiques, Joseph regarde Marie qui tient l'Enfant, lequel embrasse son cousin Jean-Baptiste, soutenu par sainte Marguerite. Peint pendant le séjour du peintre à Rome, le tableau s'inspire de l'art antique : son dessin préparatoire montre que sainte Marguerite reprend une statue antique de Vénus, et le pilier usé rappelle les ruines de la ville.",
+        "compare": "Le musée précise que le bleu outremer, utilisé à profusion ici, coûtait bien plus cher que l'or à la Renaissance.",
+        "image": "images/mouvements/renaissance/filippino-lippi-sainte-famille-tondo.jpg"
+      },
+      {
+        "title": "Le Christ rédempteur souffrant",
+        "artist": "Andrea Mantegna",
+        "country": "Italie",
+        "period": "vers 1485–1495",
+        "museum": "Statens Museum for Kunst, Copenhague",
+        "credit": "Statens Museum for Kunst, Copenhague (https://open.smk.dk/artwork/image/KMSsp69), domaine public",
+        "analysis": "Selon le musée, le Christ est assis sur un sarcophage antique, comme une statue sur son socle. L'aube se lève et, au fond, le travail de la journée a commencé. Deux anges chantent le miracle : le Christ est ressuscité. Ils retirent doucement le linceul blanc et découvrent un torse nu et pâle, semblable à une sculpture de marbre, selon un idéal du corps masculin hérité de l'Antiquité. Le musée explique qu'Adam et Ève eurent honte de leur nudité après la faute, tandis que le Christ, sans péché, peut être montré à la fois nu et pur, humain et parfait. Le tableau mesure 78 × 48 cm.",
+        "compare": "Un corps peint comme une statue antique : Mantegna, grand connaisseur de l'Antiquité, transforme le Christ en sculpture vivante.",
+        "image": "images/mouvements/renaissance/mantegna-christ-redempteur-souffrant.jpg"
+      },
+      {
+        "title": "La Mort et l'Avare",
+        "artist": "Jérôme Bosch",
+        "country": "Pays-Bas",
+        "period": "vers 1485–1490",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.41645.html), domaine public (CC0)",
+        "analysis": "Un panneau étroit de 93 × 31 cm. Dans une chambre voûtée, un homme mourant est couché dans un lit à baldaquin ; la Mort, un squelette, entre par la porte avec une flèche. Un ange lui montre un crucifix à la fenêtre, tandis qu'un petit démon lui tend un sac. Au premier plan, un vieil homme dépose des pièces dans un coffre où se cachent d'autres démons. Les créatures étranges, mi-animales mi-humaines, sont typiques de Bosch.",
+        "compare": "Au même moment que Botticelli et Léonard, au Nord, Bosch peint une leçon morale peuplée de démons : l'argent ou le salut ?",
+        "image": "images/mouvements/renaissance/bosch-la-mort-et-l-avare.jpg"
+      },
+      {
+        "title": "La Naissance et l'Imposition du nom de saint Jean-Baptiste",
+        "artist": "Juan de Flandes",
+        "country": "Flandres et Espagne",
+        "period": "1496–1499",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1975.3), domaine public (CC0)",
+        "analysis": "Selon le musée, cette scène biblique se déroule dans une maison confortable des Pays-Bas de la fin du XVe siècle. Élisabeth, la mère de Jean-Baptiste, se repose après l'accouchement ; la Vierge Marie, sa cousine, présente le nouveau-né à son père, Zacharie. Devenu muet pour avoir douté de la prophétie d'un ange, Zacharie écrit le nom de son fils, et retrouve la parole à cet instant. Le musée invite à chercher les détails de la vie de l'époque : un brasero pour chauffer en bas à droite, un miroir convexe au-dessus du lit. Le panneau faisait partie d'un retable commandé par la reine Isabelle la Catholique pour un monastère près de Burgos, en Espagne.",
+        "compare": "Un peintre flamand au service de la reine de Castille : la Renaissance du Nord voyage jusqu'en Espagne.",
+        "image": "images/mouvements/renaissance/juan-de-flandes-naissance-saint-jean.jpg"
+      },
+      {
+        "title": "Saint Georges et le dragon",
+        "artist": "Raphaël",
+        "country": "Italie",
+        "period": "vers 1506",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.28.html), domaine public (CC0)",
+        "analysis": "Un tout petit panneau de 28,5 × 21,5 cm. Saint Georges, en armure, sur un cheval blanc cabré, plonge sa lance dans le dragon ; à droite, la princesse prie, agenouillée. Selon la fiche du musée, le harnais du cheval porte la signature RAPHELLO V. (« Raphaël d'Urbino »), et la jarretière du saint le mot HONI, début de la devise de l'ordre anglais de la Jarretière. Le tableau appartenait vers 1627 au comte de Pembroke, qui le donna au roi d'Angleterre Charles Ier.",
+        "compare": "Le mouvement du cheval et du cavalier, et un paysage paisible : Raphaël concilie l'action et l'harmonie.",
+        "image": "images/mouvements/renaissance/raphael-saint-georges-dragon.jpg"
+      },
+      {
+        "title": "Melencolia I",
+        "artist": "Albrecht Dürer",
+        "country": "Allemagne",
+        "period": "1514",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/336228), domaine public (CC0)",
+        "analysis": "Une gravure sur cuivre de 24 × 19 cm. Une grande figure ailée est assise, la tête appuyée sur la main, un compas posé sur les genoux, l'air absorbé. Autour d'elle s'entassent des instruments : une échelle, une balance, un sablier, une cloche, un carré de chiffres, des outils, une sphère et un grand polyèdre. Un chien dort à ses pieds, un petit ange écrit à côté d'elle. Dans le ciel, un astre lumineux et un arc-en-ciel, et une chauve-souris qui porte le titre MELENCOLIA I.",
+        "compare": "La gravure fait circuler les images dans toute l'Europe : Dürer, à Nuremberg, est aussi célèbre en Italie que chez lui.",
+        "image": "images/mouvements/renaissance/durer-melencolia-i.jpg"
+      },
+      {
+        "title": "Marie-Madeleine",
+        "artist": "Jan van Scorel",
+        "country": "Pays-Bas",
+        "period": "vers 1530",
+        "museum": "Rijksmuseum, Amsterdam",
+        "credit": "Rijksmuseum, Amsterdam (https://www.rijksmuseum.nl/nl/collectie/SK-A-372), domaine public (CC0)",
+        "analysis": "Selon le musée, Marie-Madeleine est assise sous un arbre, son pot d'onguent sur les genoux, dans un paysage de montagnes et de rochers étranges. Elle porte une robe somptueuse, aux manches brodées de perles, et regarde le spectateur. Le panneau mesure 66 × 76 cm. Selon le musée, un inventaire de 1572 le mentionnait déjà dans la grande salle de la commanderie de Saint-Jean, à Haarlem, comme « fait par maître Jan Scorel ».",
+        "compare": "Jan van Scorel avait séjourné en Italie : sa sainte a l'élégance des portraits italiens et les paysages fantastiques du Nord.",
+        "image": "images/mouvements/renaissance/van-scorel-marie-madeleine.jpg"
+      },
+      {
+        "title": "Triptyque de l'adoration du Veau d'or",
+        "artist": "Lucas van Leyden",
+        "country": "Pays-Bas",
+        "period": "vers 1530",
+        "museum": "Rijksmuseum, Amsterdam",
+        "credit": "Rijksmuseum, Amsterdam (https://www.rijksmuseum.nl/nl/collectie/SK-A-3841), domaine public (CC0)",
+        "analysis": "Selon le musée, sur le panneau central, les Israélites dansent autour de l'idole du Veau d'or, avec un groupe de musiciens à gauche. Au premier plan, des familles avec leurs enfants, assises par terre, mangent, boivent et font la fête ; au fond, on aperçoit Moïse sur le mont Sinaï. Sur les volets, d'autres personnages mangent et boivent, près d'une tente à gauche. Le panneau central mesure 93,5 × 67 cm.",
+        "compare": "Une scène biblique devenue grande fête populaire : un thème que reprendra Bruegel, à la fin de l'exposition.",
+        "image": "images/mouvements/renaissance/lucas-van-leyden-veau-d-or.jpg"
+      },
+      {
+        "title": "Portrait de l'électeur Jean le Constant de Saxe",
+        "artist": "Lucas Cranach l'Ancien",
+        "country": "Allemagne",
+        "period": "1531–1534",
+        "museum": "Statens Museum for Kunst, Copenhague",
+        "credit": "Statens Museum for Kunst, Copenhague (https://open.smk.dk/artwork/image/KMSsp729), domaine public",
+        "analysis": "Selon le musée, l'électeur de Saxe Jean Ier, dit le Constant, mourut en 1532 ; son fils Jean-Frédéric commanda alors à Lucas Cranach toute une série de portraits des trois électeurs de la famille. Chaque portrait portait un poème imprimé à sa gloire, collé sous l'image ; ici, le poème s'est retrouvé au dos, et il célèbre par erreur Frédéric le Sage. Ces portraits, offerts aux alliés de la famille, servaient de propagande politique, et aussi de propagande protestante contre le pape. L'homme, au visage lourd et barbu, porte un béret noir et un manteau à col de fourrure.",
+        "compare": "Le portrait devient une arme politique, reproduit en série par l'atelier de Cranach, ami de Luther.",
+        "image": "images/mouvements/renaissance/cranach-jean-le-constant.jpg"
+      },
+      {
+        "title": "Le Cardinal Pietro Bembo",
+        "artist": "Titien",
+        "country": "Italie",
+        "period": "1539–1540",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.41638.html), domaine public (CC0)",
+        "analysis": "Un homme âgé à la longue barbe blanche, en habit et barrette rouges de cardinal, se tourne de trois quarts, la main ouverte comme s'il parlait. Le rouge de la soie, aux reflets et aux plis rendus par touches libres, domine toute la toile, sur un fond sombre. Selon la fiche du musée, le portrait, de 94,5 × 76,5 cm, a probablement été commandé par le modèle lui-même, le cardinal Pietro Bembo (1470–1547), puis transmis à son fils.",
+        "compare": "À Venise, Titien peint avec la couleur plus qu'avec la ligne : comparez avec la précision de Van Eyck au début de l'exposition.",
+        "image": "images/mouvements/renaissance/titien-cardinal-pietro-bembo.jpg"
+      },
+      {
+        "title": "Les Moissonneurs",
+        "artist": "Pieter Bruegel l'Ancien",
+        "country": "Pays-Bas",
+        "period": "1565",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/435809), domaine public (CC0)",
+        "analysis": "Un champ de blé doré occupe la moitié du tableau. À gauche, des paysans fauchent et lient les gerbes ; au centre, sous un arbre, d'autres font la pause : ils mangent et boivent, et l'un d'eux dort étendu sur le dos. Au loin s'étend un vaste paysage : un village, une église, des étangs, et la mer à l'horizon. Selon la fiche du musée, le tableau est peint à l'huile sur bois de chêne et daté de 1565.",
+        "compare": "Le point d'arrivée de l'exposition : chez Bruegel, ce ne sont plus des saints ni des princes, mais des paysans au travail qui deviennent le sujet d'un grand tableau.",
+        "image": "images/mouvements/renaissance/bruegel-les-moissonneurs.jpg"
+      }
+    ]
   }
 ]

@@ -4089,5 +4089,202 @@
         "image": "images/mouvements/sculpture-maorie/putorino-flute.jpg"
       }
     ]
+  },
+  {
+    "mouvement": "Art gothique",
+    "slug": "art-gothique",
+    "status": "published",
+    "title": "L'art gothique, des cathédrales aux fonds d'or",
+    "subtitle": "Europe, XIIIe–XVe siècle : dix-sept œuvres de Washington, New York, Cleveland et Helsinki",
+    "intro": "Au XIIe siècle naît en France, autour de Paris, une nouvelle façon de bâtir les églises : voûtes sur croisées d'ogives, arcs brisés, murs percés de grands vitraux. On l'appellera plus tard « gothique ». Pendant trois siècles, cet art gagne toute l'Europe, de l'Angleterre à l'Italie et de l'Espagne à la Finlande. Les façades des cathédrales se couvrent de statues, les vitraux font entrer une lumière colorée, et en Italie les peintres de Sienne et de Florence, Duccio, Giotto, Simone Martini, peignent sur des panneaux de bois aux fonds d'or. Vers 1400, un style élégant et raffiné, qu'on appelle aujourd'hui le gothique international, circule entre les cours de Paris, de Bourgogne, de Prague et d'Italie. Cette exposition va des sculptures de cathédrale aux retables, des vitraux aux statues de bois des églises du Nord, et se termine par une célèbre tapisserie de la Licorne. Les œuvres viennent de la National Gallery of Art de Washington, du Metropolitan Museum of Art, du Cleveland Museum of Art et du Musée national de Finlande ; les grandes œuvres restées dans les cathédrales et les musées de France, d'Italie et d'Allemagne seront ajoutées quand nous pourrons obtenir leurs images libres.",
+    "works": [
+      {
+        "title": "Tête d'apôtre du portail sud de la cathédrale de Thérouanne",
+        "artist": "Sculpteur français",
+        "country": "France",
+        "period": "vers 1235–1240",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1978.56.2), domaine public (CC0)",
+        "analysis": "Une tête de pierre de 48 cm, aux cheveux ondulés profondément creusés, à la barbe bouclée et au front ridé. Selon le musée, ces têtes monumentales font partie des rares restes du décor sculpté de la cathédrale de Thérouanne, dans le nord de la France, rasée sur ordre de l'empereur Charles Quint en juin 1553. Elles ornaient le pignon du portail sud et furent transportées en 1554 à la cathédrale de Saint-Omer ; on les a retrouvées en janvier 1923, prises dans un mur d'une rue de Saint-Omer. Même abîmées par le temps, elles montrent la puissance des sculptures qui couvraient les façades des églises gothiques.",
+        "compare": "Le point de départ de l'exposition : la sculpture des cathédrales, dont il ne reste parfois que des fragments.",
+        "image": "images/mouvements/art-gothique/tete-apotre-therouanne.jpg"
+      },
+      {
+        "title": "Ange",
+        "artist": "Sculpteur de la région de Reims",
+        "country": "France",
+        "period": "vers 1250",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1966.360), domaine public (CC0)",
+        "analysis": "Un ange de noyer de 75 cm, qui a perdu ses avant-bras, ses mains et ses ailes. Selon le musée, sa peinture et sa dorure, presque entièrement disparues, donnaient autrefois à ses vêtements l'aspect d'un riche brocart et à ses cheveux un or somptueux. Son attitude gracieuse et son visage, qui exprime peut-être l'inquiétude ou l'émotion, gardent la délicatesse et la force du grand style gothique des cathédrales françaises du XIIIe siècle. Le style désigne Reims ou ses environs, peut-être des sculpteurs liés à la cathédrale ; il faisait partie d'une paire, et les deux anges encadraient peut-être un autel, posés sur des colonnes.",
+        "compare": "Après la pierre de Thérouanne, le bois : un visage plus doux, une tête penchée, pour une sculpture placée peut-être près d'un autel.",
+        "image": "images/mouvements/art-gothique/ange-region-de-reims.jpg"
+      },
+      {
+        "title": "Fenêtre composée de vitraux anglais",
+        "artist": "Verrier anglais",
+        "country": "Angleterre",
+        "period": "XVe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/463580), domaine public (CC0)",
+        "analysis": "Une grande fenêtre de 3,56 m de haut, faite de plusieurs vitraux anglais du XVe siècle réunis. Dans les lancettes, des saints debout, chacun sous un dais d'architecture peint ; en haut, dans les petites ouvertures, des anges. Selon la fiche, on a utilisé du verre teint dans la masse, du verre blanc, de la grisaille et du jaune d'argent, qui permet de colorer le verre blanc en jaune.",
+        "compare": "La lumière devient image : c'est le grand art des églises gothiques, qui ouvrent leurs murs pour laisser entrer le vitrail.",
+        "image": "images/mouvements/art-gothique/fenetre-vitraux-anglais.jpg"
+      },
+      {
+        "title": "Vitrail de la Vierge à l'Enfant",
+        "artist": "Verrier allemand",
+        "country": "Allemagne",
+        "period": "1430–1435",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/467933), domaine public (CC0)",
+        "analysis": "Un vitrail allemand de 1,52 m. La Vierge, couronnée et auréolée de rouge, tient l'Enfant contre elle ; ses vêtements, peints en grisaille sur du verre clair, tombent en longs plis jusqu'au sol. Elle se détache sur un fond jaune vif entouré de bleu. Le réseau de plomb, qui tient les morceaux de verre, dessine aussi les contours.",
+        "compare": "Le style des années 1430 : silhouette élancée, plis souples, visage doux. On retrouvera ce goût dans les peintures du gothique international, plus loin.",
+        "image": "images/mouvements/art-gothique/vitrail-vierge-enfant-allemand.jpg"
+      },
+      {
+        "title": "La Vocation des apôtres Pierre et André",
+        "artist": "Duccio di Buoninsegna",
+        "country": "Italie",
+        "period": "1308–1311",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.282.html), domaine public (CC0)",
+        "analysis": "Sur un fond d'or, le Christ, debout sur un rocher, appelle deux pêcheurs dans leur barque, Pierre et André, qui tiennent encore leur filet ; on voit les poissons sous l'eau verte. Selon la fiche du musée, ce petit panneau de 43 × 46 cm faisait partie de la prédelle arrière de la Maestà, le grand retable à deux faces que Duccio peignit pour la cathédrale de Sienne : commencé en 1308, il fut placé sur le maître-autel le 30 juin 1311. Le retable fut retiré de l'autel en 1506, et ses petits panneaux furent plus tard dispersés.",
+        "compare": "Le récit tient en peu de choses : trois personnages, une barque, des gestes clairs, sur un fond d'or qui place la scène hors du temps.",
+        "image": "images/mouvements/art-gothique/duccio-vocation-pierre-andre.jpg"
+      },
+      {
+        "title": "Vierge à l'Enfant",
+        "artist": "Giotto",
+        "country": "Italie",
+        "period": "vers 1310–1315",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.397.html), domaine public (CC0)",
+        "analysis": "La Vierge, à mi-corps, dans un manteau bleu bordé d'or, tient sur son bras l'Enfant, qui tend la main vers la fleur blanche qu'elle lui présente. Les visages et les mains ont du volume, les corps du poids : Giotto les modèle par la lumière et l'ombre. Selon la fiche du musée, ce panneau de 85 × 62 cm a sans doute été commandé pour une église de Florence, Santa Croce ou Ognissanti.",
+        "compare": "Comparez avec Duccio : même fond d'or, mais Giotto donne à ses figures une présence nouvelle, presque sculptée.",
+        "image": "images/mouvements/art-gothique/giotto-vierge-enfant.jpg"
+      },
+      {
+        "title": "L'Ange de l'Annonciation",
+        "artist": "Simone Martini",
+        "country": "Italie",
+        "period": "vers 1330",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.357.html), domaine public (CC0)",
+        "analysis": "Un petit panneau de 30 × 21 cm. L'ange, agenouillé, porte un rameau ; ses ailes et son manteau sont couverts de motifs dorés, presque fondus dans le fond d'or lui-même gravé de motifs. Le dessin est fin et souple, les couleurs précieuses. Son titre en fait l'ange de l'Annonciation, venu annoncer à Marie la naissance du Christ.",
+        "compare": "Le peintre de Sienne pousse le raffinement plus loin que Duccio : l'or n'est plus seulement un fond, il devient matière du tableau.",
+        "image": "images/mouvements/art-gothique/simone-martini-ange-annonciation.jpg"
+      },
+      {
+        "title": "Vierge à l'Enfant",
+        "artist": "Andrea Pisano",
+        "country": "Italie",
+        "period": "vers 1330–1340",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1972.51), domaine public (CC0)",
+        "analysis": "Une petite statue de marbre de 33 cm, avec des traces de dorure. La Vierge, debout, porte l'Enfant sur son bras, l'autre main tendue vers lui. Selon le musée, c'est l'une des plus belles sculptures connues d'Andrea Pisano, et sans doute la seule de lui aux États-Unis ; elle lui est attribuée par comparaison avec ses reliefs de bronze pour les portes du baptistère de Florence. Son style vient de la sculpture de Pise, mais il a été très influencé par le peintre Giotto et par l'orfèvrerie gothique française.",
+        "compare": "Le musée fait lui-même le lien avec Giotto, vu juste avant : peintres et sculpteurs se regardaient.",
+        "image": "images/mouvements/art-gothique/andrea-pisano-vierge-enfant.jpg"
+      },
+      {
+        "title": "Vierge à l'Enfant en majesté",
+        "artist": "Gentile da Fabriano",
+        "country": "Italie",
+        "period": "vers 1420",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.396.html), domaine public (CC0)",
+        "analysis": "La Vierge, assise sur un tapis semé de fleurs, tient l'Enfant debout sur ses genoux ; son manteau rouge sombre est bordé d'un galon d'or. Selon la fiche du musée, on lit sur son col le mot MATER (« Mère ») et, sur l'ourlet de sa robe, le début de la salutation de l'ange : AVE MARIA GRATIA PLENA, « Je vous salue Marie, pleine de grâce ». Le panneau mesure 96 × 57 cm.",
+        "compare": "Un siècle après Giotto, le gothique international : douceur des gestes, richesse des étoffes, fleurs semées comme un tissu précieux.",
+        "image": "images/mouvements/art-gothique/gentile-da-fabriano-vierge-enfant.jpg"
+      },
+      {
+        "title": "La Crucifixion",
+        "artist": "Maître de sainte Véronique",
+        "country": "Allemagne",
+        "period": "vers 1400–1410",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.46128.html), domaine public (CC0)",
+        "analysis": "Sur un fond d'or, le Christ en croix, sous l'inscription I.N.R.I., est entouré de petits anges bleus qui volent. À gauche, la Vierge en manteau bleu ; à droite, saint Jean ; au pied de la croix, deux donateurs agenouillés, l'un en riche manteau, l'autre en habit blanc. Selon la fiche du musée, ce panneau de 41 × 25 cm vient peut-être de la chartreuse Sainte-Barbe de Cologne, la ville du peintre.",
+        "compare": "Le gothique international au nord des Alpes : figures fines et allongées, couleurs claires, émotion contenue.",
+        "image": "images/mouvements/art-gothique/maitre-sainte-veronique-crucifixion.jpg"
+      },
+      {
+        "title": "La Mort de sainte Claire",
+        "artist": "Maître de Heiligenkreuz",
+        "country": "Autriche",
+        "period": "vers 1400–1410",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.41698.html), domaine public (CC0)",
+        "analysis": "Sainte Claire est étendue sur son lit, entourée de religieuses en noir et de saintes couronnées, aux robes de couleurs vives ; une femme en grand manteau bleu se penche vers elle. En haut, dans une nuée, le Christ tient dans ses bras une petite figure, sans doute l'âme de la sainte. Selon la fiche du musée, une religieuse en bas à droite tient un livre où l'on lit quelques mots latins, et le tableau vient peut-être d'un couvent de clarisses d'Europe centrale.",
+        "compare": "Les silhouettes allongées et les plis en courbes douces sont typiques du gothique international vers 1400, en Autriche comme à Cologne.",
+        "image": "images/mouvements/art-gothique/maitre-heiligenkreuz-mort-sainte-claire.jpg"
+      },
+      {
+        "title": "Pleurant du tombeau de Philippe le Hardi, duc de Bourgogne",
+        "artist": "Claus de Werve",
+        "country": "France",
+        "period": "1404–1410",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1958.67), domaine public (CC0)",
+        "analysis": "Une petite figure d'albâtre de 41 cm : un homme en long manteau à capuchon, les mains jointes sous les plis. Selon le musée, elle vient du tombeau du duc Philippe le Hardi, à la chartreuse de Champmol, près de Dijon. Le duc engagea les meilleurs artistes, souvent venus des Pays-Bas ; commandé en 1381, le tombeau ne fut achevé qu'en 1410, six ans après sa mort. Ce pleurant est inhabituel pour son temps : au lieu d'un relief figé, il semble se tourner vers le spectateur et vers les autres membres du cortège. L'albâtre, tendre et laiteux, permettait des détails fins et un poli brillant.",
+        "compare": "Les pleurants forment un cortège funèbre tout autour du tombeau : chacun exprime le deuil à sa façon.",
+        "image": "images/mouvements/art-gothique/pleurant-tombeau-philippe-le-hardi.jpg"
+      },
+      {
+        "title": "Aquamanile en forme de lion",
+        "artist": "Fondeur de Hildesheim",
+        "country": "Allemagne",
+        "period": "1200–1250",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1972.167), domaine public (CC0)",
+        "analysis": "Un lion de bronze de 26 cm, à la crinière en mèches régulières, la gueule ouverte. Selon le musée, un aquamanile est un récipient à eau servant à se laver les mains, aussi bien à l'autel des églises qu'à la table des riches. Il prenait souvent la forme d'animaux fantastiques, dragons ou licornes, ou d'animaux réels, chevaux, oiseaux, chiens ou lions comme celui-ci. L'anse a la forme d'un dragon à la longue queue recourbée.",
+        "compare": "L'art gothique ne se limite pas aux églises : il orne aussi les objets de tous les jours chez les puissants.",
+        "image": "images/mouvements/art-gothique/lion-aquamanile-hildesheim.jpg"
+      },
+      {
+        "title": "Sainte tenant un livre",
+        "artist": "Sculpteur de Gotland",
+        "country": "Suède (Gotland)",
+        "period": "1326–1350",
+        "museum": "Musée national de Finlande, Helsinki",
+        "credit": "Musée national de Finlande (Kansallismuseo, Museovirasto), H3510:11 (https://www.finna.fi/Record/museovirasto.B2DEEFFFC9B0FBA34CE790C668D5213C), photographe non indiqué, licence CC BY 4.0",
+        "analysis": "Une statue de bois de 99 cm. Selon la notice du musée, elle a été sculptée sur l'île de Gotland, en Suède, et elle se trouvait dans l'église de Sääksmäki, en Finlande. La sainte se tient droite, légèrement penchée, et porte un livre fermé dans sa main gauche ; la main droite a disparu, comme la couronne, dont on voit l'emplacement au sommet de la tête. Il reste des traces de peinture : du rouge dans les plis de la robe, de l'or sur le manteau et du bleu dans les revers.",
+        "compare": "Le gothique gagne les pays du Nord : ici, une statue venue de Suède pour une église finlandaise.",
+        "image": "images/mouvements/art-gothique/sainte-au-livre-gotland.jpg"
+      },
+      {
+        "title": "Sainte Barbe",
+        "artist": "Sculpteur finlandais",
+        "country": "Finlande",
+        "period": "vers 1500",
+        "museum": "Musée national de Finlande, Helsinki",
+        "credit": "Musée national de Finlande (Kansallismuseo, Museovirasto), H28092:14 (https://www.finna.fi/Record/museovirasto.7D2BF9B714330B5087058328A084CB46), photographe non indiqué, licence CC BY 4.0",
+        "analysis": "Une statue de 65 cm, taillée dans une seule pièce de bois, peut-être du bouleau, selon la notice du musée. La sainte, couronnée, tient de la main gauche une tour pointue à sept côtés, son attribut, terminée par une boule. Son manteau est fermé sur la poitrine par une grande broche en quadrilobe ; ses cheveux ondulés tombent sur ses épaules. Il reste un peu de couleur : rouge sur la robe, or sur le manteau, bleu dans la doublure. Selon la notice, elle était utilisée dans l'église aujourd'hui en ruine de Pälkäne, en Finlande.",
+        "compare": "Un siècle et demi après la sainte de Gotland, la même forme élancée, mais un visage plus large et plus populaire.",
+        "image": "images/mouvements/art-gothique/sainte-barbe-palkane.jpg"
+      },
+      {
+        "title": "Saint Pierre",
+        "artist": "Sculpteur finlandais",
+        "country": "Finlande",
+        "period": "vers 1500",
+        "museum": "Musée national de Finlande, Helsinki",
+        "credit": "Musée national de Finlande (Kansallismuseo, Museovirasto), H1322 (https://www.finna.fi/Record/museovirasto.949BA4ADC5C96AEFDC8B182F4FE38AFE), photographe non indiqué, licence CC BY 4.0",
+        "analysis": "Un apôtre de chêne de 78 cm, creusé à l'arrière comme une coquille, selon la notice du musée. Ses mains, fixées autrefois par des chevilles de bois avec l'objet qu'il tenait, ont disparu, et l'on voit les trous carrés dans les manches. Ses cheveux courts forment une couronne autour du crâne chauve, il porte une barbe courte et ses yeux mi-clos regardent vers le bas. Le nez est cassé. Selon la notice, la statue vient de Janakkala, en Finlande.",
+        "compare": "Même abîmées, ces statues de bois racontent la vie des églises de campagne du Nord, loin des grandes cathédrales.",
+        "image": "images/mouvements/art-gothique/saint-pierre-janakkala.jpg"
+      },
+      {
+        "title": "La Licorne au repos dans un jardin (tapisseries de la Licorne)",
+        "artist": "Carton français, tissage des Pays-Bas du Sud",
+        "country": "France et Pays-Bas du Sud",
+        "period": "1495–1505",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/467642), domaine public (CC0)",
+        "analysis": "Une tapisserie de 3,68 m de haut, tissée en laine, soie, fils d'argent et d'or, selon la fiche du musée. Une licorne blanche est couchée dans un petit enclos de bois rond, attachée à un arbre chargé de fruits ; tout autour, un fond sombre couvert de centaines de fleurs et de plantes. Elle fait partie de la célèbre série des tapisseries de la Licorne, dont le dessin vient de France et qui fut tissée dans les Pays-Bas du Sud.",
+        "compare": "Le point d'arrivée de l'exposition : à la fin du Moyen Âge, le gothique s'épanouit dans les tapisseries, en un jardin infini de fleurs.",
+        "image": "images/mouvements/art-gothique/licorne-captive.jpg"
+      }
+    ]
   }
 ]

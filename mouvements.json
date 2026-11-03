@@ -5692,5 +5692,279 @@
         "image": "images/mouvements/ecole-de-barbizon/van-gogh-premiers-pas-d-apres-millet.jpg"
       }
     ]
+  },
+  {
+    "mouvement": "Impressionnisme",
+    "slug": "impressionnisme",
+    "status": "published",
+    "title": "L'impressionnisme, peindre la lumière et la vie moderne",
+    "subtitle": "France, 1860–1890, avec ses sources et son héritage : vingt-quatre œuvres de Washington, New York, Cleveland, Copenhague, Amsterdam, Helsinki et Paris",
+    "intro": "Dans les années 1860, de jeunes peintres se rencontrent à Paris : Claude Monet, Auguste Renoir, Alfred Sisley et Frédéric Bazille dans l'atelier du peintre Gleyre, Camille Pissarro, Berthe Morisot, Edgar Degas, puis l'Américaine Mary Cassatt et Gustave Caillebotte. Ils admirent Édouard Manet, qui peint la vie de son temps et choque le public. Leurs sources sont nombreuses : les paysagistes de l'école de Barbizon et Corot (voir l'exposition sur l'école de Barbizon), Eugène Boudin et Johan Barthold Jongkind, qui peignent le ciel et la mer sur les côtes de Normandie, les estampes japonaises, que Paris découvre dans les années 1860, et la photographie. Les sciences et les techniques comptent aussi : le chimiste Eugène Chevreul a montré en 1839 que deux couleurs placées côte à côte se modifient l'une l'autre ; le tube de peinture permet de travailler dehors ; le chemin de fer conduit les Parisiens vers la banlieue, les bords de Seine et la mer. Les impressionnistes peignent vite, en touches de couleur pure, pour saisir un instant de lumière, et choisissent des sujets modernes : les boulevards du baron Haussmann, les loisirs, le canotage, les bals, la danse, les gares. Leur histoire est aussi celle des commanditaires. Le Salon officiel, dont le jury refuse souvent leurs toiles, décide des carrières ; en 1863, Napoléon III fait ouvrir un « Salon des refusés ». En 1874, les peintres organisent leur propre exposition, dans l'ancien atelier du photographe Nadar, boulevard des Capucines ; un critique, Louis Leroy, se moque d'un tableau de Monet, Impression, soleil levant, et les surnomme « impressionnistes ». Huit expositions suivent jusqu'en 1886. Faute de commandes de l'État, ce sont des marchands, comme Paul Durand-Ruel, qui achète leurs toiles en grand nombre et les montre à New York en 1886, et des collectionneurs privés qui les font vivre : le médecin Georges de Bellio, l'éditeur Georges Charpentier, des industriels et, aux États-Unis, la famille Havemeyer, conseillée par Mary Cassatt. Caillebotte, peintre et riche collectionneur, lègue sa collection à l'État, qui en accepte une partie en 1896. L'héritage de l'impressionnisme est immense : il gagne l'Europe et l'Amérique, prépare le postimpressionnisme, et les grands Nymphéas de Monet annoncent la peinture abstraite. L'exposition suit ce chemin : les sources, les débuts autour de 1872, les années des expositions impressionnistes, puis l'héritage et les impressionnismes du monde. Les œuvres viennent de la National Gallery of Art de Washington, du Metropolitan Museum of Art, du Cleveland Museum of Art, du Statens Museum for Kunst de Copenhague, du Rijksmuseum d'Amsterdam et de la Galerie nationale de Finlande ; Impression, soleil levant (musée Marmottan Monet) et le Bal du moulin de la Galette (musée d'Orsay) sont montrés grâce aux photographies libres de Wikimedia Commons.",
+    "works": [
+      {
+        "title": "Plage de Trouville",
+        "artist": "Eugène Boudin",
+        "country": "France",
+        "period": "1864–1865",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.52156.html), domaine public (CC0)",
+        "analysis": "Un petit panneau de bois de 27 × 49 cm, signé en bas à droite « E. Boudin. ». Sur une plage de Normandie, des estivants en robes à crinoline et en chapeaux sont assis sur des chaises, un chien court, un cavalier passe ; au loin, des voiliers et un bateau à vapeur. Le grand ciel nuageux occupe les deux tiers du tableau.",
+        "compare": "Le point de départ de l'exposition : Boudin, qui a conseillé le jeune Monet, peint sur place la lumière changeante de la côte et les loisirs de la bourgeoisie, deux thèmes que l'impressionnisme fera siens.",
+        "image": "images/mouvements/impressionnisme/boudin-plage-de-trouville.jpg"
+      },
+      {
+        "title": "La Grande Vague au large de Kanagawa",
+        "artist": "Katsushika Hokusai",
+        "country": "Japon",
+        "period": "vers 1830–1832",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/45434), domaine public (CC0)",
+        "analysis": "Une estampe japonaise gravée sur bois, de la série des Trente-six vues du mont Fuji. Une vague immense, dont la crête se recourbe comme des griffes d'écume, menace trois barques chargées de rameurs ; tout au fond, au creux de la vague, le mont Fuji paraît minuscule. Les couleurs sont posées en aplats, sans ombres, et le bleu domine.",
+        "compare": "Les estampes japonaises arrivent en Europe au milieu du XIXe siècle et fascinent les impressionnistes : cadrages audacieux, couleurs franches, scènes de la vie quotidienne. Monet en collectionnera plus de deux cents.",
+        "image": "images/mouvements/impressionnisme/hokusai-la-grande-vague.jpg"
+      },
+      {
+        "title": "L'Exécution de l'empereur Maximilien",
+        "artist": "Édouard Manet",
+        "country": "France",
+        "period": "1867",
+        "museum": "Statens Museum for Kunst, Copenhague",
+        "credit": "Statens Museum for Kunst, Copenhague (https://open.smk.dk/artwork/image/KMS3270), domaine public",
+        "analysis": "Une toile de 48 × 58 cm, signée « Manet 1867 ». Un peloton de soldats en uniforme tire à bout portant sur trois hommes debout ; la fumée des fusils les cache à moitié. Derrière un mur, des spectateurs regardent la scène. Le titre du musée désigne l'événement : l'exécution de Maximilien, empereur du Mexique, en 1867. La peinture est rapide, les formes simplifiées.",
+        "compare": "Manet peint un événement d'actualité, avec une froideur qui dérange. Les jeunes impressionnistes voient en lui un modèle : peindre son temps, sans les conventions de l'Académie.",
+        "image": "images/mouvements/impressionnisme/manet-execution-de-maximilien.jpg"
+      },
+      {
+        "title": "Impression, soleil levant",
+        "artist": "Claude Monet",
+        "country": "France",
+        "period": "1872",
+        "museum": "Musée Marmottan Monet, Paris",
+        "credit": "Musée Marmottan Monet, Paris, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Monet_-_Impression,_Sunrise.jpg), domaine public",
+        "analysis": "Le port du Havre au petit matin, dans la brume. Quelques touches rapides suffisent : les bateaux et les grues ne sont que des silhouettes, et le soleil, petit disque orange, trace sur l'eau un reflet fait de quelques coups de pinceau. Monet ne peint pas le port, mais l'impression d'un instant de lumière. Le titre du tableau a donné son nom au mouvement impressionniste.",
+        "compare": "Montré à la première exposition du groupe, en 1874, le tableau a été moqué par le critique Louis Leroy, qui inventa à partir de son titre le mot « impressionnistes ».",
+        "image": "images/mouvements/impressionnisme/monet-impression-soleil-levant.jpg"
+      },
+      {
+        "title": "Claude Monet",
+        "artist": "Auguste Renoir",
+        "country": "France",
+        "period": "1872",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.66433.html), domaine public (CC0)",
+        "analysis": "Une toile de 65 × 50 cm, signée en bas à gauche « A.Renoir. ». Le jeune Monet, barbu, lit en fumant la pipe, penché sur un livre ouvert. Le fond est fait de touches bleues et vertes, la veste noire de larges coups de pinceau. Selon la fiche du musée, le tableau appartenait au collectionneur Jean Dollfus, puis passa par la galerie Durand-Ruel.",
+        "compare": "Les impressionnistes forment une bande d'amis qui se peignent les uns les autres : Renoir et Monet travaillent souvent côte à côte.",
+        "image": "images/mouvements/impressionnisme/renoir-claude-monet.jpg"
+      },
+      {
+        "title": "L'Écluse de Pontoise",
+        "artist": "Camille Pissarro",
+        "country": "France",
+        "period": "1872",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1990.7), domaine public (CC0)",
+        "analysis": "Selon le musée, Pissarro a joué un rôle majeur dans l'invention de la technique impressionniste : peindre vite, en plein air, pour saisir les effets passagers de la lumière et de l'atmosphère. L'eau qui se précipite et le ciel couvert de cette vue d'une écluse, près de sa maison de Pontoise, à une trentaine de kilomètres de Paris, sont peints en touches rapides et fragmentées de couleur pure. Il a peint directement sur la toile, sans dessin préparatoire, peut-être en une seule séance.",
+        "compare": "Pas de lignes, mais des touches de couleur côte à côte : de près, elles se séparent ; de loin, elles donnent la sensation de la lumière du dehors.",
+        "image": "images/mouvements/impressionnisme/pissarro-l-ecluse-de-pontoise.jpg"
+      },
+      {
+        "title": "Inondation à Port-Marly",
+        "artist": "Alfred Sisley",
+        "country": "France",
+        "period": "1872",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.66436.html), domaine public (CC0)",
+        "analysis": "Une toile de 46 × 61 cm, signée et datée en bas à gauche « Sisley.72 ». La Seine en crue a envahi une rue de village : devant une auberge à l'enseigne « A St Nicolas », des barques remplacent les passants ; des arbres et des poteaux sortent de l'eau, qui reflète le ciel nuageux. Selon la fiche du musée, le tableau appartenait au vicomte de Curel, un collectionneur parisien.",
+        "compare": "Un événement ordinaire de la vie d'un village devient un sujet de peinture : Sisley s'intéresse surtout aux reflets et au ciel gris et doux.",
+        "image": "images/mouvements/impressionnisme/sisley-inondation-a-port-marly.jpg"
+      },
+      {
+        "title": "La Lecture",
+        "artist": "Berthe Morisot",
+        "country": "France",
+        "period": "1873",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1950.89), domaine public (CC0)",
+        "analysis": "Selon le musée, la sœur de Berthe Morisot, Edma, a posé pour ce tableau : une femme assise sur son châle dans un champ lit un livre, une ombrelle et un éventail posés dans l'herbe. Sa robe blanche reflète la lumière et les ombres du plein air, et son motif fleuri fait écho aux fleurs des champs. La radiographie montre que Morisot a repris les yeux d'Edma, qui regardaient d'abord le spectateur, à la manière des figures de Manet : les personnages de Morisot sont plutôt absorbés dans leurs occupations ou leurs pensées.",
+        "compare": "Le musée rappelle que les impressionnistes étaient surtout des hommes, avec quelques exceptions comme Berthe Morisot, dont les sujets reflètent aussi les contraintes de la vie des femmes de son temps.",
+        "image": "images/mouvements/impressionnisme/morisot-la-lecture.jpg"
+      },
+      {
+        "title": "La Classe de danse",
+        "artist": "Edgar Degas",
+        "country": "France",
+        "period": "1874",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/438817), domaine public (CC0)",
+        "analysis": "Une toile de 83,5 × 77 cm. Dans une grande salle aux murs verts, un vieux maître de ballet, appuyé sur une canne, fait travailler un groupe de jeunes danseuses en tutu blanc ; au premier plan, une danseuse de dos ajuste sa tenue, une autre, assise sur un piano, se gratte le dos ; au fond, des mères attendent. Le plancher, en diagonale, entraîne le regard vers le fond de la pièce.",
+        "compare": "Degas ne peint pas le spectacle, mais les coulisses : l'attente, la fatigue, le travail. Son cadrage décentré rappelle la photographie et les estampes japonaises.",
+        "image": "images/mouvements/impressionnisme/degas-la-classe-de-danse.jpg"
+      },
+      {
+        "title": "En bateau",
+        "artist": "Édouard Manet",
+        "country": "France",
+        "period": "1874",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/436947), domaine public (CC0)",
+        "analysis": "Une toile de 97 × 130 cm. Un homme en tenue blanche et canotier tient la barre d'un voilier ; à côté de lui, une femme en robe bleue à rayures, coiffée d'un chapeau à voilette, regarde au loin. L'eau bleue, sans horizon, remplit tout le fond. Selon la fiche du musée, le tableau a été légué au Metropolitan Museum par Mme Havemeyer en 1929.",
+        "compare": "Manet, qui n'exposa jamais avec les impressionnistes, peint ici en plein air, à Argenteuil, comme ses jeunes amis : couleurs claires, sujet de loisir moderne.",
+        "image": "images/mouvements/impressionnisme/manet-en-bateau.jpg"
+      },
+      {
+        "title": "La Femme à l'ombrelle – Madame Monet et son fils",
+        "artist": "Claude Monet",
+        "country": "France",
+        "period": "1875",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.61379.html), domaine public (CC0)",
+        "analysis": "Une toile de 100 × 81 cm, signée en bas à droite « Claude Monet 75 ». Sur une colline herbeuse, Camille, la femme du peintre, vue d'en bas, tient une ombrelle verte qui se détache sur le ciel ; le vent soulève son voile et sa robe. Un peu plus loin, leur fils Jean. Selon la fiche du musée, Monet a vendu le tableau en 1876 au docteur Georges de Bellio, l'un des premiers collectionneurs des impressionnistes.",
+        "compare": "Un instant de promenade, saisi en touches rapides : l'herbe, les nuages et les ombres colorées comptent autant que les personnages.",
+        "image": "images/mouvements/impressionnisme/monet-la-femme-a-l-ombrelle.jpg"
+      },
+      {
+        "title": "Étendage du linge",
+        "artist": "Berthe Morisot",
+        "country": "France",
+        "period": "1875",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.66426.html), domaine public (CC0)",
+        "analysis": "Une petite toile de 33 × 41 cm, signée en bas à gauche « Berthe Morisot ». Dans un jardin de banlieue, des femmes étendent du linge blanc sur des cordes ; au fond, une maison, des arbres et, à l'horizon, des cheminées d'usine qui fument. La peinture est faite de touches légères et rapides. Selon la fiche du musée, le docteur Georges de Bellio l'a achetée en 1876.",
+        "compare": "Le travail quotidien, la banlieue et les usines au loin : un sujet moderne, peint avec la liberté d'une esquisse.",
+        "image": "images/mouvements/impressionnisme/morisot-etendage-du-linge.jpg"
+      },
+      {
+        "title": "Bal du moulin de la Galette",
+        "artist": "Auguste Renoir",
+        "country": "France",
+        "period": "1876",
+        "museum": "Musée d'Orsay, Paris",
+        "credit": "Musée d'Orsay, Paris, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Renoir,_Pierre-Auguste_-_Dance_at_Le_Moulin_de_la_Galette,_1876.jpg), domaine public",
+        "analysis": "Un dimanche après-midi, dans le jardin d'un bal populaire de Montmartre, des jeunes gens dansent, bavardent et boivent sous les arbres et les lampions. Le soleil filtre à travers les feuilles et pose des taches de lumière sur les robes rayées, les chapeaux de paille, les visages et le sol. Au premier plan, un groupe est assis autour d'une table ; derrière, la foule des danseurs se perd dans la lumière.",
+        "compare": "La joie d'un dimanche à Montmartre : les taches de soleil, peintes en touches claires, deviennent le vrai sujet du tableau.",
+        "image": "images/mouvements/impressionnisme/renoir-bal-du-moulin-de-la-galette.jpg"
+      },
+      {
+        "title": "Périssoires",
+        "artist": "Gustave Caillebotte",
+        "country": "France",
+        "period": "1877",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.66404.html), domaine public (CC0)",
+        "analysis": "Une toile de 89 × 116 cm, signée et datée en haut à droite « G. Caillebotte / 1877 ». Sur une rivière bordée d'arbres, un homme en canotier pagaie dans une périssoire, une barque longue et étroite, qui fonce vers nous ; ses pagaies jaunes et leurs reflets dansent sur l'eau verte ; plus loin, d'autres barques. Selon la fiche du musée, le tableau est resté dans la famille du peintre jusqu'en 1966.",
+        "compare": "Un cadrage audacieux, comme un instantané : Caillebotte, peintre et riche collectionneur, a aussi acheté et soutenu ses amis impressionnistes.",
+        "image": "images/mouvements/impressionnisme/caillebotte-perissoires.jpg"
+      },
+      {
+        "title": "Petite Fille dans un fauteuil bleu",
+        "artist": "Mary Cassatt",
+        "country": "France",
+        "period": "1878",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.61368.html), domaine public (CC0)",
+        "analysis": "Une toile de 89,5 × 130 cm, signée en bas à gauche « Mary Cassatt ». Une petite fille, avachie dans un grand fauteuil bleu à fleurs, un bras derrière la tête, s'ennuie ; un petit chien dort dans un autre fauteuil. Les fauteuils bleus remplissent le salon, vu de très près et de biais. Selon la fiche du musée, une inscription au dos indique le marchand Ambroise Vollard, qui a acheté le tableau à l'artiste.",
+        "compare": "L'Américaine Mary Cassatt, invitée par Degas à exposer avec les impressionnistes, peint l'enfance sans mièvrerie, avec un cadrage inspiré des estampes japonaises.",
+        "image": "images/mouvements/impressionnisme/cassatt-petite-fille-fauteuil-bleu.jpg"
+      },
+      {
+        "title": "Madame Georges Charpentier et ses enfants",
+        "artist": "Auguste Renoir",
+        "country": "France",
+        "period": "1878",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/438815), domaine public (CC0)",
+        "analysis": "Une grande toile de 154 × 190 cm. Dans un salon décoré à la japonaise, une femme en robe noire est assise sur un canapé à côté de ses deux enfants vêtus de bleu ; l'un est assis sur un gros chien noir et blanc couché sur le tapis. Le titre du musée nomme les modèles : Marguerite-Louise Charpentier, femme de l'éditeur Georges Charpentier, et leurs enfants Georgette et Paul.",
+        "compare": "Un portrait commandé par un mécène : l'éditeur Charpentier soutenait les impressionnistes, et ce grand tableau valut à Renoir un succès au Salon de 1879.",
+        "image": "images/mouvements/impressionnisme/renoir-madame-charpentier-et-ses-enfants.jpg"
+      },
+      {
+        "title": "Paul Lafond et Alphonse Cherfils examinant un tableau",
+        "artist": "Edgar Degas",
+        "country": "France",
+        "period": "vers 1878–1880",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1958.25), domaine public (CC0)",
+        "analysis": "Selon le musée, le coin supérieur gauche porte une dédicace de Degas « à ses chers amis ». Ce double portrait montre Paul Lafond, futur conservateur du musée de Pau, et Alphonse Cherfils, collectionneur et défenseur des impressionnistes. Grâce à eux, des œuvres de Degas furent choisies pour les expositions de la Société des amis des arts, et son Bureau de coton (1873) fut le premier de ses tableaux acheté par un musée. Le tableau qu'ils examinent est sans doute de Degas : l'image célèbre à la fois une amitié et une relation d'affaires. Le musée précise qu'ils allaient directement dans les ateliers acheter les œuvres qu'ils voulaient exposer ou vendre.",
+        "compare": "Les commanditaires changent : ce ne sont plus l'Église ni les rois, mais des amateurs, des collectionneurs et des marchands qui font vivre les artistes.",
+        "image": "images/mouvements/impressionnisme/degas-lafond-et-cherfils-examinant-un-tableau.jpg"
+      },
+      {
+        "title": "Marée basse à Pourville, près de Dieppe",
+        "artist": "Claude Monet",
+        "country": "France",
+        "period": "1882",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1947.196), domaine public (CC0)",
+        "analysis": "Selon le musée, c'est l'une des vues de Pourville, village de pêcheurs de Normandie, avec une promenade, une large plage et de hautes falaises. Dans ses lettres, Monet écrit qu'on ne pouvait pas être plus près de la mer que lui, logé sur la plage de galets, au pied des vagues ; au printemps 1882, il habitait un petit hôtel semblable aux maisons du pied de la falaise, à droite. Le musée précise que les petits traits noirs au bord de l'eau, au pied de la falaise, sont des baigneurs.",
+        "compare": "La mer, le ciel et la falaise, réduits à quelques bandes de couleur et de reflets : Monet peint des séries de vues d'un même lieu à différents moments.",
+        "image": "images/mouvements/impressionnisme/monet-maree-basse-a-pourville.jpg"
+      },
+      {
+        "title": "Paris sous la neige",
+        "artist": "Albert Edelfelt",
+        "country": "Finlande et France",
+        "period": "1887",
+        "museum": "Galerie nationale de Finlande, musée Ateneum, Helsinki",
+        "credit": "Galerie nationale de Finlande, musée Ateneum, Helsinki (https://www.finna.fi/Record/kansallisgalleria.2FFD842FC6532B5094B55A4C2D6E3FBA), domaine public (CC0)",
+        "analysis": "Une toile de 46 × 37 cm, signée en bas à gauche « A. Edelfelt ». Vue d'une fenêtre en hauteur, une ville couverte de neige s'étend jusqu'à l'horizon, où fument des cheminées d'usine ; une longue avenue d'arbres nus traverse l'image, et un toit bleuté occupe le coin en bas à droite. Les ombres sur la neige sont bleues et mauves.",
+        "compare": "Le Finlandais Albert Edelfelt, qui vivait une partie de l'année à Paris, adopte les ombres colorées et la lumière claire des impressionnistes.",
+        "image": "images/mouvements/impressionnisme/edelfelt-paris-sous-la-neige.jpg"
+      },
+      {
+        "title": "Frise de danseuses",
+        "artist": "Edgar Degas",
+        "country": "France",
+        "period": "vers 1895",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1946.83), domaine public (CC0)",
+        "analysis": "Selon le musée, le tableau montre peut-être une seule danseuse vue sous quatre angles différents. La jeune femme, qui lace ses chaussons, est placée dans un décor indéfini, fait de simples traînées de couleur, posées si spontanément que la peinture a coulé ; Degas a même tracé les cercles du premier plan avec son pouce. Une telle audace, admise dans une esquisse, a dû choquer sur une toile de deux mètres. L'idée de montrer plusieurs vues d'une même figure vient peut-être des photographies d'Eadweard Muybridge.",
+        "compare": "Degas va plus loin que l'impression : il décompose le mouvement, comme la photographie de son temps, et ouvre la voie à l'art du XXe siècle.",
+        "image": "images/mouvements/impressionnisme/degas-frise-de-danseuses.jpg"
+      },
+      {
+        "title": "Le Boulevard Montmartre, matin d'hiver",
+        "artist": "Camille Pissarro",
+        "country": "France",
+        "period": "1897",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/437310), domaine public (CC0)",
+        "analysis": "Une toile de 65 × 81 cm, signée et datée en bas à gauche. Vu d'une fenêtre en hauteur, un large boulevard parisien bordé d'immeubles et d'arbres nus s'enfonce vers l'horizon ; des fiacres, des omnibus et des passants le parcourent dans une lumière grise et froide.",
+        "compare": "Les boulevards du baron Haussmann, sujet moderne par excellence : à près de 70 ans, Pissarro peint une série de vues du même boulevard à différentes heures et saisons.",
+        "image": "images/mouvements/impressionnisme/pissarro-boulevard-montmartre-matin-d-hiver.jpg"
+      },
+      {
+        "title": "Jeune Fille en kimono blanc",
+        "artist": "George Hendrik Breitner",
+        "country": "Pays-Bas",
+        "period": "1894",
+        "museum": "Rijksmuseum, Amsterdam",
+        "credit": "Rijksmuseum, Amsterdam (https://www.rijksmuseum.nl/nl/collectie/SK-A-3584), domaine public (CC0)",
+        "analysis": "Selon le musée, une jeune fille vêtue d'un kimono est allongée en arrière sur un divan ; le modèle est probablement Geesje Kwak. Le kimono blanc à fleurs rouges se détache sur un paravent sombre et des tapis. Le tableau est signé en haut à gauche « G.H. Breitner » ; une esquisse en figure dans une lettre du peintre à son ami Willem Witsen.",
+        "compare": "L'impressionnisme d'Amsterdam : Breitner mêle la touche rapide et le goût du Japon, venus de Paris, à la vie de sa ville.",
+        "image": "images/mouvements/impressionnisme/breitner-jeune-fille-en-kimono-blanc.jpg"
+      },
+      {
+        "title": "Coquelicots, Isles of Shoals",
+        "artist": "Childe Hassam",
+        "country": "États-Unis",
+        "period": "1891",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.103172.html), domaine public (CC0)",
+        "analysis": "Une toile de 50 × 61 cm, signée et datée en bas à gauche « Childe Hassam 1891 ». Au premier plan, un massif de coquelicots rouges et roses ; derrière, des rochers clairs plongent dans une mer bleue, et deux voiliers glissent au loin sous un ciel pâle.",
+        "compare": "L'impressionnisme américain : Hassam, qui avait étudié à Paris, applique la touche colorée de Monet aux îles de la côte de la Nouvelle-Angleterre.",
+        "image": "images/mouvements/impressionnisme/hassam-coquelicots-isles-of-shoals.jpg"
+      },
+      {
+        "title": "Nymphéas (Agapanthes)",
+        "artist": "Claude Monet",
+        "country": "France",
+        "period": "vers 1915–1926",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1960.81), domaine public (CC0)",
+        "analysis": "Selon le musée, Monet, jardinier passionné, a passé les trente dernières années de sa vie à peindre le jardin qu'il avait dessiné dans sa maison de Giverny. Cette toile immense, de deux mètres sur plus de quatre, montre son bassin aux nymphéas : elle saisit les effets passagers du soleil qui pénètre la surface de l'eau et s'y reflète. En se concentrant sur l'eau, sans horizon ni rives, Monet suggère une étendue sans limites. Le musée précise qu'il a peint environ 250 compositions de nymphéas.",
+        "compare": "Le point d'arrivée de l'exposition : plus de ciel, plus de rive, seulement la couleur et la lumière. Ces grandes toiles annoncent la peinture abstraite du XXe siècle.",
+        "image": "images/mouvements/impressionnisme/monet-nympheas-agapanthes.jpg"
+      }
+    ]
   }
 ]

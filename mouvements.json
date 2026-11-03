@@ -5417,5 +5417,280 @@
         "image": "images/mouvements/romantisme/bocklin-l-ile-des-morts.jpg"
       }
     ]
+  },
+  {
+    "mouvement": "École de Barbizon",
+    "slug": "ecole-de-barbizon",
+    "status": "published",
+    "title": "L'école de Barbizon, peindre la nature d'après nature",
+    "subtitle": "France, 1830–1875, avec ses sources et son héritage : vingt-quatre œuvres de Washington, New York, Cleveland, Amsterdam, Helsinki et Paris",
+    "intro": "Barbizon est un village au bord de la forêt de Fontainebleau, à une soixantaine de kilomètres de Paris. À partir des années 1830, des peintres s'y installent ou y séjournent : Théodore Rousseau, Narcisse Díaz de la Peña, Jules Dupré, Constant Troyon, Charles Jacque, Jean-François Millet à partir de 1849, et Camille Corot, qui y vient souvent. Ils peignent le paysage pour lui-même, sans héros ni sujet antique, en partant de ce qu'ils observent : les arbres, les mares, le ciel, les bêtes et les paysans. Ils dessinent et peignent des études en plein air, puis achèvent souvent leurs grands tableaux à l'atelier. Leurs sources sont les paysagistes hollandais du XVIIe siècle, comme Ruisdael (voir l'exposition sur le baroque), l'Anglais Constable, admiré au Salon de Paris en 1824, et la tradition des esquisses à l'huile faites en Italie. L'époque explique ce goût de la nature. Paris grandit et s'industrialise ; le chemin de fer arrive à Fontainebleau en 1849 et amène peintres et promeneurs ; le tube de peinture, inventé en 1841, rend la peinture en plein air plus facile. La révolution de 1848 met les paysans et les pauvres au centre des débats, et les paysans de Millet sont lus par certains comme une image politique. Les commanditaires changent aussi. À l'Académie, le paysage est un genre mineur, et le Salon refuse souvent Rousseau, surnommé « le grand refusé ». Les acheteurs viennent d'ailleurs : des marchands comme Paul Durand-Ruel, des collectionneurs néerlandais et surtout américains, qui font entrer ces tableaux dans les musées de New York, de Boston ou de Washington. Les peintres défendent aussi leur forêt : en 1861, un décret protège une partie de la forêt de Fontainebleau pour des raisons artistiques, l'une des premières protections de la nature au monde. Leur héritage est immense : les impressionnistes, dont le jeune Monet, viennent peindre à Fontainebleau ; l'école de La Haye aux Pays-Bas et des peintres américains s'en inspirent ; Van Gogh copie Millet. L'exposition suit ce chemin : les sources, les peintres de Barbizon et de la forêt, Millet et la vie paysanne, Daubigny et le dernier Corot, l'école de Barbizon à l'étranger, puis son héritage. Les œuvres viennent de la National Gallery of Art de Washington, du Metropolitan Museum of Art, du Cleveland Museum of Art, du Rijksmuseum d'Amsterdam et de la Galerie nationale de Finlande ; Des glaneuses de Millet, au musée d'Orsay, est montré grâce à une photographie libre de Wikimedia Commons.",
+    "works": [
+      {
+        "title": "Vue de Rome",
+        "artist": "Pierre-Henri de Valenciennes",
+        "country": "France",
+        "period": "vers 1782–1784",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1970.55), domaine public (CC0)",
+        "analysis": "Une petite esquisse à l'huile sur papier, de 19,5 × 39 cm. Selon le musée, elle montre au loin la basilique Saint-Pierre et a été peinte pendant le séjour de l'artiste à Rome, de 1777 à 1785. Sa spontanéité et sa fraîcheur sont typiques des études en plein air de Valenciennes, qui cherchait à saisir la lumière et l'atmosphère de Rome. Au premier plan, une bande de terrain brun ; au-dessus, la ville et le grand ciel clair.",
+        "compare": "Le point de départ de l'exposition : une étude rapide, peinte dehors, pour saisir une lumière. Les peintres de Barbizon feront de ce travail sur le motif le cœur de leur art.",
+        "image": "images/mouvements/ecole-de-barbizon/valenciennes-vue-de-rome.jpg"
+      },
+      {
+        "title": "Paysage près de Paris",
+        "artist": "Georges Michel",
+        "country": "France",
+        "period": "vers 1840",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1975.78), domaine public (CC0)",
+        "analysis": "Selon le musée, le lieu, sans doute près de Paris, n'a pas été identifié avec certitude. Contrairement à la plupart des peintres de son temps, Michel n'est jamais allé en Italie et n'a peint que des paysages de France. Il admirait l'art hollandais et on le surnommait le « Ruisdael français ». Après 1808 environ, il s'intéresse surtout à la lumière, au ciel et à l'espace. L'atmosphère sombre et un peu menaçante du tableau, avec ses nuages lourds sur une plaine immense et quelques personnages minuscules, traduit l'idée romantique de la petitesse de l'homme face à la nature.",
+        "compare": "Pas besoin d'aller en Italie : la campagne autour de Paris suffit. Michel ouvre la voie aux peintres de Barbizon.",
+        "image": "images/mouvements/ecole-de-barbizon/georges-michel-paysage-pres-de-paris.jpg"
+      },
+      {
+        "title": "La Cervara, campagne romaine",
+        "artist": "Camille Corot",
+        "country": "France",
+        "period": "vers 1830–1831",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1963.91), domaine public (CC0)",
+        "analysis": "Selon le musée, Corot a réalisé ce grand tableau d'après des dessins et des esquisses à l'huile faits en plein air. Attiré par la beauté de la campagne italienne, il dessinait souvent autour de Rome, où il vécut de 1825 à 1828. La composition très construite, avec des formes qui s'enfoncent dans le lointain le long de diagonales, est typique de ses débuts et rappelle les paysages classiques de Nicolas Poussin. Le musée rappelle qu'en 1845 le poète Charles Baudelaire a désigné Corot comme le premier peintre du paysage moderne.",
+        "compare": "Corot jeune, encore classique : comparez avec son Étang de Ville-d'Avray, plus loin, peint quarante ans plus tard.",
+        "image": "images/mouvements/ecole-de-barbizon/corot-la-cervara-campagne-romaine.jpg"
+      },
+      {
+        "title": "Torrent de montagne en Auvergne",
+        "artist": "Théodore Rousseau",
+        "country": "France",
+        "period": "1830",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.98290.html), domaine public (CC0)",
+        "analysis": "Une petite huile sur papier, collée sur toile, de 31 × 37 cm, signée en bas à gauche « Th. Rousseau ». Un pont de pierre en arche enjambe un torrent qui coule entre de gros rochers ; à gauche, une maison de bois et un moulin ; au fond, une montagne boisée sous un ciel clair. La peinture est posée vite, en touches épaisses.",
+        "compare": "Rousseau a dix-huit ans : il part peindre la nature sauvage d'Auvergne, sur place. Ce regard direct deviendra la marque de Barbizon.",
+        "image": "images/mouvements/ecole-de-barbizon/rousseau-torrent-en-auvergne.jpg"
+      },
+      {
+        "title": "Forêt de Fontainebleau",
+        "artist": "Camille Corot",
+        "country": "France",
+        "period": "1834",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.46584.html), domaine public (CC0)",
+        "analysis": "Une grande toile de 1,76 × 2,43 m, signée en bas à gauche « COROT ». Dans une clairière de la forêt, de grands arbres aux troncs tordus entourent un ruisseau ; au premier plan, une jeune femme allongée dans l'herbe lit au bord de l'eau ; au fond, des vaches et une trouée de lumière. Selon la fiche du musée, le tableau appartenait dès 1855 au marchand parisien Louis-Alfred Binant.",
+        "compare": "La forêt de Fontainebleau devient un sujet digne d'un grand format, autrefois réservé à l'histoire et à la mythologie.",
+        "image": "images/mouvements/ecole-de-barbizon/corot-foret-de-fontainebleau.jpg"
+      },
+      {
+        "title": "L'Orage qui approche",
+        "artist": "Constant Troyon",
+        "country": "France",
+        "period": "1849",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.92234.html), domaine public (CC0)",
+        "analysis": "Une toile de 116 × 157,5 cm, signée et datée en bas à gauche « C. TROYON. / 1849. ». Au bord d'une rivière calme, un passeur pousse sa barque avec une perche ; plus loin, des barques sont amarrées et quelques personnages attendent sous de grands arbres. Le ciel est envahi de nuages sombres, mais un rayon de soleil éclaire encore le centre du paysage. Selon la fiche du musée, le tableau a appartenu à un collectionneur de Liverpool, puis a été vendu à Londres en 1898.",
+        "compare": "Le ciel change d'un instant à l'autre : les peintres de Barbizon cherchent à saisir un moment du temps qu'il fait.",
+        "image": "images/mouvements/ecole-de-barbizon/troyon-orage-qui-approche.jpg"
+      },
+      {
+        "title": "Crépuscule",
+        "artist": "Théodore Rousseau",
+        "country": "France",
+        "period": "1840–1867",
+        "museum": "Rijksmuseum, Amsterdam",
+        "credit": "Rijksmuseum, Amsterdam (https://www.rijksmuseum.nl/nl/collectie/SK-A-2709), domaine public (CC0)",
+        "analysis": "Selon le musée, un groupe d'arbres entoure une maison au bord d'un étang, et un homme rame dans une barque sur l'eau. Les arbres forment une masse sombre qui se découpe sur un ciel jaune pâle, où flottent quelques petits nuages. La toile mesure 42 × 63 cm ; elle a été donnée au musée par les héritiers de W. J. van Randwijk, à La Haye.",
+        "compare": "Le soir efface les détails : il ne reste que des masses d'ombre et un ciel lumineux, une émotion plus qu'une description.",
+        "image": "images/mouvements/ecole-de-barbizon/rousseau-crepuscule.jpg"
+      },
+      {
+        "title": "La Lisière de la forêt aux Monts-Girard, Fontainebleau",
+        "artist": "Narcisse Díaz de la Peña",
+        "country": "France",
+        "period": "1868",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.111573.html), domaine public (CC0)",
+        "analysis": "Une toile de 98 × 125,5 cm, signée et datée en bas à gauche « N. DIAZ. 1868 ». À la lisière de la forêt, de vieux chênes aux feuilles rousses et dorées se dressent au bord d'une mare entourée de rochers ; à gauche, une prairie s'ouvre sous un ciel de nuages blancs et gris. La peinture est épaisse, posée en petites touches qui font vibrer les feuillages. Selon la fiche du musée, le tableau a appartenu au collectionneur londonien James Staats Forbes.",
+        "compare": "Díaz aime les sous-bois et les reflets de lumière dans les feuilles : une peinture riche en matière, qui annonce les touches des impressionnistes.",
+        "image": "images/mouvements/ecole-de-barbizon/diaz-lisiere-foret-monts-girard.jpg"
+      },
+      {
+        "title": "Le Vieux Chêne",
+        "artist": "Jules Dupré",
+        "country": "France",
+        "period": "vers 1870",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.35089.html), domaine public (CC0)",
+        "analysis": "Une petite toile de 32 × 41,5 cm, signée en bas à gauche « Jules Dupré ». Un grand chêne trapu, aux branches tordues, domine une lande où se dressent des rochers ; un personnage minuscule marche sur le chemin. Le ciel, agité de nuages blancs et bleus, est peint en touches vigoureuses. Selon la fiche du musée, le tableau a été acheté en 1880 par la galerie Knoedler, puis vendu à des collectionneurs de New York.",
+        "compare": "Le vieil arbre, presque un personnage : un motif cher à Barbizon, qui a beaucoup plu aux collectionneurs américains.",
+        "image": "images/mouvements/ecole-de-barbizon/dupre-le-vieux-chene.jpg"
+      },
+      {
+        "title": "La Bergerie",
+        "artist": "Charles Jacque",
+        "country": "France",
+        "period": "1857",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/436772), domaine public (CC0)",
+        "analysis": "Un panneau de bois de 46 × 92 cm. Dans une bergerie sombre au toit de poutres, un berger porte une brassée de foin ; les moutons se pressent vers la mangeoire, des poules picorent la paille. La lumière entre par la porte ouverte à gauche et éclaire le sol doré.",
+        "compare": "Charles Jacque, installé à Barbizon, s'est fait une spécialité des moutons et des basses-cours : la vie de la ferme devient un sujet en soi.",
+        "image": "images/mouvements/ecole-de-barbizon/jacque-la-bergerie.jpg"
+      },
+      {
+        "title": "Le Marché aux chevaux",
+        "artist": "Rosa Bonheur",
+        "country": "France",
+        "period": "1852–1855",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/435702), domaine public (CC0)",
+        "analysis": "Une toile immense de 2,45 × 5,07 m. Sur une avenue bordée d'arbres, des palefreniers mènent au galop un groupe de chevaux de trait, blancs, gris et bruns ; certains se cabrent, et les hommes peinent à les retenir. Au fond, à gauche, on aperçoit un dôme. Selon la fiche du musée, le tableau a été donné au Metropolitan Museum en 1887 par Cornelius Vanderbilt.",
+        "compare": "Rosa Bonheur, l'une des peintres les plus célèbres de son temps, observait les animaux de près ; son chef-d'œuvre a été offert à un musée américain par un grand collectionneur de New York.",
+        "image": "images/mouvements/ecole-de-barbizon/rosa-bonheur-le-marche-aux-chevaux.jpg"
+      },
+      {
+        "title": "Retour des champs",
+        "artist": "Jean-François Millet",
+        "country": "France",
+        "period": "vers 1846–1847",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1972.19), domaine public (CC0)",
+        "analysis": "Selon le musée, cette vision idéalisée d'une vie paysanne noble a été peinte pendant une période d'industrialisation intense en France, accompagnée de crise économique et d'abandon des fermes. Les scènes paysannes nostalgiques étaient très appréciées dans les années 1840, en contraste avec les désillusions et les tensions qui éclateront violemment à la révolution de 1848. Les formes et les visages flous de cette famille, un homme poussant une brouette chargée d'herbe où sont assis une femme et un enfant, en font des symboles de la terre plutôt que des individus.",
+        "compare": "Le jeune Millet, avant Barbizon : des paysans encore idylliques. Comparez avec Des glaneuses, dix ans plus tard.",
+        "sensible": true,
+        "image": "images/mouvements/ecole-de-barbizon/millet-retour-des-champs.jpg"
+      },
+      {
+        "title": "Des glaneuses",
+        "artist": "Jean-François Millet",
+        "country": "France",
+        "period": "1857",
+        "museum": "Musée d'Orsay, Paris",
+        "credit": "Musée d'Orsay, Paris, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Jean-Fran%C3%A7ois_Millet_-_Des_glaneuses.jpg), domaine public",
+        "analysis": "Trois paysannes, courbées vers le sol, ramassent les épis de blé restés dans un champ après la moisson ; leurs dos et leurs bras forment une ligne lente et pesante. Au loin, dans une lumière dorée, d'énormes meules, une charrette, des moissonneurs au travail et un homme à cheval qui surveille. Les couleurs sont sourdes : bruns, ocres, bleus passés et rouges éteints.",
+        "compare": "Les plus pauvres, qui ramassent les restes, au premier plan d'un grand tableau : exposé au Salon de 1857, il a été lu par certains comme une image de la misère paysanne.",
+        "image": "images/mouvements/ecole-de-barbizon/millet-des-glaneuses.jpg"
+      },
+      {
+        "title": "La Porteuse d'eau",
+        "artist": "Jean-François Millet",
+        "country": "France",
+        "period": "vers 1855–1860",
+        "museum": "Rijksmuseum, Amsterdam",
+        "credit": "Rijksmuseum, Amsterdam (https://www.rijksmuseum.nl/nl/collectie/SK-A-2707), domaine public (CC0)",
+        "analysis": "Selon le musée, une femme debout porte deux seaux, et l'on voit un puits à l'arrière-plan. Elle avance vers nous, coiffée d'un foulard orange, les bras tendus par le poids. La toile, de 41 × 33 cm, est signée en bas à droite « J.F. Millet ».",
+        "compare": "Un geste quotidien, répété chaque jour, devient presque solennel : Millet donne aux paysannes la dignité des figures de la grande peinture.",
+        "image": "images/mouvements/ecole-de-barbizon/millet-la-porteuse-d-eau.jpg"
+      },
+      {
+        "title": "Meules : l'automne",
+        "artist": "Jean-François Millet",
+        "country": "France",
+        "period": "vers 1874",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/437097), domaine public (CC0)",
+        "analysis": "Une toile de 85 × 110 cm. Trois grandes meules de foin se dressent dans une plaine immense, sous un ciel d'orage gris-vert ; au premier plan, un troupeau de moutons broute, et un berger s'appuie sur son bâton près des meules. Au loin, les maisons d'un village.",
+        "compare": "Une des dernières œuvres de Millet, mort à Barbizon en 1875 : les meules seront reprises par Monet, qui en fera une célèbre série.",
+        "image": "images/mouvements/ecole-de-barbizon/millet-meules-automne.jpg"
+      },
+      {
+        "title": "Les Bords de l'Oise",
+        "artist": "Charles-François Daubigny",
+        "country": "France",
+        "period": "1863",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/436080), domaine public (CC0)",
+        "analysis": "Un panneau de bois de 37,5 × 67 cm. Une rivière large et calme reflète les arbres de la rive et un ciel clair du soir ; sur la berge, quelques maisons et de petits personnages. La moitié du tableau est occupée par l'eau et le ciel.",
+        "compare": "Daubigny peignait l'Oise depuis un bateau aménagé en atelier, une manière de travailler sur le motif que Monet imitera.",
+        "image": "images/mouvements/ecole-de-barbizon/daubigny-les-bords-de-l-oise.jpg"
+      },
+      {
+        "title": "Plage à marée basse",
+        "artist": "Charles-François Daubigny",
+        "country": "France",
+        "period": "vers 1850–1878",
+        "museum": "Rijksmuseum, Amsterdam",
+        "credit": "Rijksmuseum, Amsterdam (https://www.rijksmuseum.nl/nl/collectie/SK-A-1867), domaine public (CC0)",
+        "analysis": "Selon le musée, une plage à marée basse, où marche un personnage au premier plan. Le panneau, de 35 × 55 cm, est signé en bas à droite « Daubigny ». Le ciel gris rosé occupe plus de la moitié de l'image ; la mer et le sable sont faits de longues bandes de couleur.",
+        "compare": "Presque rien : du ciel, de l'eau, du sable. La touche rapide de Daubigny fut critiquée à son époque comme « une impression », un mot repris plus tard par les impressionnistes.",
+        "image": "images/mouvements/ecole-de-barbizon/daubigny-plage-a-maree-basse.jpg"
+      },
+      {
+        "title": "L'Étang de Ville-d'Avray",
+        "artist": "Camille Corot",
+        "country": "France",
+        "period": "fin des années 1860",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1944.80), domaine public (CC0)",
+        "analysis": "Selon le musée, Corot a peint cette vue d'un étang près de sa maison de Ville-d'Avray, à l'ouest de Paris, dans son style tardif aux formes douces et brumeuses et à la lumière argentée. Ces tableaux mêlent l'étude de la nature, poursuivie toute sa vie, et des souvenirs nostalgiques ; ils contrastent avec les compositions plus construites de ses débuts. Le musée précise que l'attachement de Corot à l'étude directe de la nature a beaucoup influencé les impressionnistes, et qu'il voulait rendre la « première impression » du paysage.",
+        "compare": "Comparez avec La Cervara, au début de l'exposition : les lignes nettes ont fait place à une brume argentée, comme un souvenir.",
+        "image": "images/mouvements/ecole-de-barbizon/corot-etang-de-ville-d-avray.jpg"
+      },
+      {
+        "title": "La Vallée de la Lackawanna",
+        "artist": "George Inness",
+        "country": "États-Unis",
+        "period": "vers 1856",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.30776.html), domaine public (CC0)",
+        "analysis": "Une toile de 86 × 127,5 cm, signée en bas à gauche « G. Inness ». Dans une vallée verte entourée de collines bleues, un train à vapeur avance en crachant de la fumée vers une ville et un dépôt de locomotives circulaire ; au premier plan, un jeune homme est assis dans une prairie parsemée de souches d'arbres coupés. Selon la fiche du musée, le tableau a été commandé vers 1856 par la compagnie de chemin de fer Delaware, Lackawanna and Western, à Scranton, en Pennsylvanie.",
+        "compare": "Un paysage à la manière de Barbizon commandé par une compagnie de chemin de fer : l'Américain Inness, qui admirait les peintres français, montre la nature et l'industrie côte à côte.",
+        "image": "images/mouvements/ecole-de-barbizon/inness-la-vallee-de-la-lackawanna.jpg"
+      },
+      {
+        "title": "Promenade matinale à cheval sur la plage",
+        "artist": "Anton Mauve",
+        "country": "Pays-Bas",
+        "period": "1876",
+        "museum": "Rijksmuseum, Amsterdam",
+        "credit": "Rijksmuseum, Amsterdam (https://www.rijksmuseum.nl/nl/collectie/SK-A-3602), domaine public (CC0)",
+        "analysis": "Selon le musée, deux hommes et une femme à cheval descendent la dune en direction de la plage ; devant eux, un quatrième cavalier ; sur la plage, quelques cabines de bain. On les voit de dos, dans une lumière blanche et douce. La toile, de 44 × 69 cm, est signée en bas à droite « A Mauve f. ». Elle a été léguée au musée par M. et Mme Drucker-Fraser.",
+        "compare": "L'école de La Haye, aux Pays-Bas, reprend la leçon de Barbizon : peindre la lumière et les gens ordinaires de son pays.",
+        "image": "images/mouvements/ecole-de-barbizon/mauve-promenade-matinale-a-cheval.jpg"
+      },
+      {
+        "title": "Pont de bois sur un canal à Rijswijk",
+        "artist": "Jacob Maris",
+        "country": "Pays-Bas",
+        "period": "vers 1878",
+        "museum": "Rijksmuseum, Amsterdam",
+        "credit": "Rijksmuseum, Amsterdam (https://www.rijksmuseum.nl/nl/collectie/SK-A-2470), domaine public (CC0)",
+        "analysis": "Selon le musée, un pont de bois enjambe un canal bordé de maisons ; à gauche, une femme portant un joug sur les épaules marche sur la route. Le petit panneau, de 22 × 28 cm, est signé en bas à gauche « J Maris ». La peinture est posée en touches larges et grasses, sous un grand ciel nuageux.",
+        "compare": "Jacob Maris avait vécu à Paris et connaissait les peintres de Barbizon : il applique leur liberté de touche aux canaux hollandais.",
+        "image": "images/mouvements/ecole-de-barbizon/jacob-maris-pont-de-bois-rijswijk.jpg"
+      },
+      {
+        "title": "Bazille et Camille (étude pour Le Déjeuner sur l'herbe)",
+        "artist": "Claude Monet",
+        "country": "France",
+        "period": "1865",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.52185.html), domaine public (CC0)",
+        "analysis": "Une toile de 93 × 69 cm, signée en bas à droite « Claude Monet ». Un homme en costume sombre et chapeau et une jeune femme en longue robe gris-bleu se promènent sous les arbres d'une forêt ; des taches de soleil tombent sur le chemin et sur les feuillages. Le titre du musée nomme les modèles, le peintre Frédéric Bazille et Camille, et indique que c'est une étude pour Le Déjeuner sur l'herbe.",
+        "compare": "L'héritage : en 1865, le jeune Monet vient peindre dans la forêt de Fontainebleau, comme ses aînés de Barbizon, mais il cherche avant tout les taches de lumière.",
+        "image": "images/mouvements/ecole-de-barbizon/monet-bazille-et-camille.jpg"
+      },
+      {
+        "title": "Paysage, d'après Camille Corot",
+        "artist": "Helene Schjerfbeck",
+        "country": "Finlande",
+        "period": "1877–1878",
+        "museum": "Galerie nationale de Finlande, musée Ateneum, Helsinki",
+        "credit": "Galerie nationale de Finlande, musée Ateneum, Helsinki (https://www.finna.fi/Record/kansallisgalleria.316F821043A38CC3D418AB3106B50C4C), domaine public (CC0)",
+        "analysis": "Un tout petit dessin de 10 × 14,5 cm. Des arbres légers entourent une clairière, dessinés en traits rapides et vaporeux ; en bas, l'inscription « Corot pinx. » rappelle le modèle. Selon la fiche du musée, il fait partie des esquisses d'après des œuvres d'autres artistes réalisées par la jeune Helene Schjerfbeck à l'académie privée d'Adolf von Becker, à Helsinki.",
+        "compare": "Une adolescente finlandaise, qui deviendra une grande peintre, apprend en copiant Corot : l'école de Barbizon sert déjà de modèle dans toute l'Europe.",
+        "image": "images/mouvements/ecole-de-barbizon/schjerfbeck-paysage-d-apres-corot.jpg"
+      },
+      {
+        "title": "Premiers pas, d'après Millet",
+        "artist": "Vincent van Gogh",
+        "country": "Pays-Bas et France",
+        "period": "1890",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/436526), domaine public (CC0)",
+        "analysis": "Une toile de 72 × 91 cm. Dans un jardin, devant une clôture et du linge qui sèche, un paysan accroupi, qui a posé sa bêche près de sa brouette, tend les bras vers son enfant ; la mère tient la petite fille qui fait ses premiers pas vers lui. Les couleurs vives, bleus, verts et jaunes, et les touches en virgules sont celles de Van Gogh ; le sujet et la composition viennent de Millet, comme l'indique le titre.",
+        "compare": "Le point d'arrivée de l'exposition : Van Gogh admirait tant Millet qu'il a repeint ses compositions avec ses propres couleurs. La vie paysanne de Barbizon entre dans l'art moderne.",
+        "image": "images/mouvements/ecole-de-barbizon/van-gogh-premiers-pas-d-apres-millet.jpg"
+      }
+    ]
   }
 ]

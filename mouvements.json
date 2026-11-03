@@ -6243,5 +6243,247 @@
         "image": "images/mouvements/postimpressionnisme/gallen-kallela-vue-de-lac.jpg"
       }
     ]
+  },
+  {
+    "mouvement": "Art nouveau",
+    "slug": "art-nouveau",
+    "status": "published",
+    "title": "L'Art nouveau, la nature dans la vie de tous les jours",
+    "subtitle": "Europe et Amérique, 1890–1910, avec ses sources et son héritage : vingt et une œuvres de Cleveland, New York, Amsterdam, Mänttä et Vienne",
+    "intro": "Vers 1890, dans toute l'Europe et aux États-Unis, des artistes veulent en finir avec l'imitation des styles du passé et inventer un art de leur temps. Le mouvement prend le nom d'une boutique ouverte à Paris en 1895 par le marchand Siegfried Bing, « La Maison de l'Art Nouveau », mais il s'appelle Jugendstil en Allemagne, Sécession à Vienne, Modernisme en Catalogne, Stile Liberty en Italie, Nieuwe Kunst aux Pays-Bas. Ses sources sont le mouvement anglais Arts and Crafts de William Morris, qui voulait rendre leur dignité aux artisans face à l'industrie, l'art japonais, ses estampes et ses pochoirs, que l'Europe découvre alors, l'art gothique et celtique, et l'étude des plantes et des animaux. L'Art nouveau prend la nature pour modèle : tiges, fleurs, insectes, vagues et chevelures donnent des lignes souples et ondulantes, qu'on surnomme « coup de fouet ». Il veut aussi abolir la hiérarchie entre les beaux-arts et les arts décoratifs : un architecte dessine la maison, les meubles, les vitraux, les poignées de porte ; c'est l'idée d'« art total ». Les idées de l'époque le portent : le désir de beauté dans la vie quotidienne, la question sociale chez Morris, l'affirmation des nations, comme en Finlande ou en Catalogne, et les nouveaux matériaux, le fer, le verre et le béton. Les commanditaires changent encore. Ce sont des industriels et des banquiers qui commandent maisons et décors : Eusebi Güell pour Antoni Gaudí à Barcelone, la famille Solvay pour Victor Horta à Bruxelles, les grandes familles de Vienne pour Gustav Klimt. Ce sont aussi des entreprises : les grands magasins, les éditeurs, les théâtres et les marques commandent des affiches, comme Sarah Bernhardt à Alphonse Mucha ; les villes commandent des édicules, comme le métro de Paris à Hector Guimard. Les Expositions universelles, notamment celle de Paris en 1900, font connaître le style dans le monde entier, et des entreprises comme Tiffany à New York ou la manufacture de Sèvres le diffusent. À Vienne, les artistes de la Sécession, fondée en 1897 autour de Klimt, prennent pour devise « À chaque époque son art, à l'art sa liberté ». Son héritage : après 1910, l'Art déco simplifie ses formes, tandis que des architectes comme Adolf Loos dénoncent l'ornement et préparent l'architecture moderne ; dans les années 1960, les affiches psychédéliques redécouvriront Mucha. L'exposition suit ce chemin : les sources, l'Art nouveau en France, puis en Grande-Bretagne, aux Pays-Bas, en Autriche, aux États-Unis, en Russie et en Finlande, et enfin son héritage. Les œuvres viennent du Cleveland Museum of Art, du Metropolitan Museum of Art, du Rijksmuseum d'Amsterdam et des musées Serlachius, en Finlande ; Le Baiser de Klimt, au Belvédère de Vienne, est montré grâce à une photographie libre de Wikimedia Commons. L'architecture de Horta, de Guimard ou de Gaudí n'est évoquée ici qu'à travers des objets.",
+    "works": [
+      {
+        "title": "Tulipe",
+        "artist": "William Morris",
+        "country": "Royaume-Uni",
+        "period": "1875",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1937.579), domaine public (CC0)",
+        "analysis": "Un coton imprimé au rouleau, de 76 × 95 cm, couvert de tulipes et de feuilles vert pâle qui s'enroulent en un motif répété. Selon le musée, William Morris était à la fois dessinateur, artisan, poète, romancier, homme d'affaires et militant social. Sa firme, Morris & Co., vendait des meubles et des tissus recherchés pour leurs motifs élégants et la qualité de leurs matériaux. Morris tenait à produire dans des conditions de travail équitables, à une époque où beaucoup d'usines imposaient des journées épuisantes pour de bas salaires. Il conseillait : « N'ayez rien dans vos maisons que vous ne sachiez utile ou ne croyiez beau. »",
+        "compare": "Le point de départ de l'exposition : le mouvement anglais Arts and Crafts, qui veut réconcilier l'art, l'artisanat et la vie quotidienne. L'Art nouveau en reprend l'idée et les motifs végétaux.",
+        "image": "images/mouvements/art-nouveau/william-morris-tissu-tulipe.jpg"
+      },
+      {
+        "title": "Pochoir à motif tiré de Matsukaze",
+        "artist": "Artisan japonais",
+        "country": "Japon",
+        "period": "XIXe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/69299), domaine public (CC0)",
+        "analysis": "Un pochoir de papier et de soie de 28 × 42 cm, utilisé au Japon pour teindre les tissus. Le papier brun est découpé en un dessin d'une grande finesse : des vagues, des pins, des rochers et deux silhouettes. Le titre du musée le rattache à Matsukaze, une célèbre pièce du théâtre nô. Selon la fiche, il a été donné au musée par Mme Horace Havemeyer.",
+        "compare": "Ces pochoirs, les katagami, arrivent par milliers en Europe à la fin du XIXe siècle : leurs lignes souples et leurs motifs naturels inspirent directement les décorateurs de l'Art nouveau.",
+        "image": "images/mouvements/art-nouveau/pochoir-japonais-matsukaze.jpg"
+      },
+      {
+        "title": "Lorenzaccio",
+        "artist": "Alphonse Mucha",
+        "country": "France (artiste tchèque)",
+        "period": "1896–1900",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1973.1018), domaine public (CC0)",
+        "analysis": "Une lithographie en couleurs, réduction d'une affiche de théâtre, de 40 × 29 cm. Dans un cadre étroit et vertical, une silhouette en costume noir de la Renaissance, l'air pensif, se tient sous un dragon et des armoiries. Les inscriptions annoncent « Lorenzaccio, drame d'Alfred de Musset », le « Théâtre de la Renaissance » et, en lettres verticales, le nom de Sarah Bernhardt. En bas de la feuille, la mention « Les Maîtres de l'Affiche, Pl. 34 » montre qu'il s'agit de la version publiée dans un recueil d'affiches.",
+        "compare": "Une actrice comme commanditaire : Sarah Bernhardt, la plus grande vedette de Paris, confiait ses affiches au Tchèque Mucha, qui leur dut sa célébrité. Les affiches se collectionnaient déjà en recueils.",
+        "image": "images/mouvements/art-nouveau/mucha-lorenzaccio-sarah-bernhardt.jpg"
+      },
+      {
+        "title": "Documents décoratifs : pavots d'Orient",
+        "artist": "Alphonse Mucha",
+        "country": "France (artiste tchèque)",
+        "period": "1901–1902",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1969.236), domaine public (CC0)",
+        "analysis": "Une planche lithographiée d'un recueil intitulé Documents décoratifs. En haut, des pavots stylisés dessinés en motifs répétés ; en bas, une frise de grands pavots roses aux tiges droites, posés sur un fond doré, au-dessus de feuilles vertes enroulées. Chaque fleur est simplifiée en lignes souples, prête à être reprise sur un papier peint, un tissu ou un objet.",
+        "compare": "Un manuel pour les artisans : Mucha publie des modèles pour que tout le monde puisse décorer à la manière de l'Art nouveau. L'art entre dans les objets du quotidien.",
+        "image": "images/mouvements/art-nouveau/mucha-documents-decoratifs-pavots.jpg"
+      },
+      {
+        "title": "Vase « Colchiques »",
+        "artist": "Émile Gallé",
+        "country": "France (Nancy)",
+        "period": "vers 1900",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/483825), domaine public (CC0)",
+        "analysis": "Un vase de verre de 44 cm de haut, étroit et élancé comme une tige. Sur le verre rose et laiteux montent des fleurs de colchique violettes et une grande fleur orange, posées en relief ; la base sombre, aplatie, ressemble à un bulbe. La forme même du vase imite la plante.",
+        "compare": "Gallé, à Nancy, était aussi botaniste : il étudiait les plantes avant de les transformer en objets. L'école de Nancy fait de la Lorraine un grand foyer de l'Art nouveau.",
+        "image": "images/mouvements/art-nouveau/galle-vase-colchiques.jpg"
+      },
+      {
+        "title": "Étagère « Ombellifères »",
+        "artist": "Émile Gallé",
+        "country": "France (Nancy)",
+        "period": "vers 1900",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/482526), domaine public (CC0)",
+        "analysis": "Une étagère murale en bois de 102 × 125 cm. Le sommet est sculpté de grandes ombelles, ces fleurs en parasol de la carotte sauvage ; les montants se courbent comme des tiges. Au centre, une petite porte en marqueterie de bois clairs, où sont incrustés des papillons. Selon la fiche du musée, Gallé a utilisé des érables de différentes sortes, du châtaignier, du bois de citronnier et du noyer.",
+        "compare": "Le meuble devient une plante : chez Gallé, la nature n'est pas un décor ajouté, mais la forme même de l'objet.",
+        "image": "images/mouvements/art-nouveau/galle-etagere-ombelliferes.jpg"
+      },
+      {
+        "title": "Peigne au muguet",
+        "artist": "René Lalique",
+        "country": "France",
+        "period": "vers 1900",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1981.49), domaine public (CC0)",
+        "analysis": "Un peigne de 15 cm, en corne, émail et or. Selon le musée, il a été acheté à Lalique par Jeptha Homer Wade II, un habitant de Cleveland qui avait admiré ses créations à l'Exposition universelle de Paris en 1900, sans doute pour sa femme. La corne nacrée forme les feuilles du muguet, d'où sortent les fleurs en clochettes d'émail blanc. Le musée précise que Lalique aimait la corne pour sa transparence et sa couleur naturelle.",
+        "compare": "Un bijou pensé comme une œuvre d'art : Lalique préfère des matières modestes comme la corne aux pierres précieuses. L'Exposition de 1900 le rend célèbre jusqu'en Amérique.",
+        "image": "images/mouvements/art-nouveau/lalique-peigne-muguet.jpg"
+      },
+      {
+        "title": "Vase des Binelles",
+        "artist": "Hector Guimard (manufacture de Sèvres)",
+        "country": "France",
+        "period": "1903",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1994.107), domaine public (CC0)",
+        "analysis": "Selon le musée, en 1899, l'architecte Hector Guimard a construit le Castel Henriette, rue des Binelles, à Sèvres, près de Paris. Ce vase de grès à glaçure cristallisée, haut de 1,30 m, porte le nom de cette rue et ressemble à certains éléments de la maison. Sa forme asymétrique et courbe est typique de l'Art nouveau. La manufacture de Sèvres, célèbre depuis le XVIIIe siècle, en a produit cinq exemplaires.",
+        "compare": "Le même architecte dessine la maison et le vase : c'est l'idée d'art total. Guimard est aussi l'auteur des célèbres entrées du métro de Paris.",
+        "image": "images/mouvements/art-nouveau/guimard-vase-des-binelles.jpg"
+      },
+      {
+        "title": "Chaise",
+        "artist": "Hector Guimard",
+        "country": "France",
+        "period": "vers 1907",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1985.96), domaine public (CC0)",
+        "analysis": "Une chaise de bois de poirier, haute de 1,08 m, avec un dossier et un siège de cuir repoussé. Le haut du dossier forme un écusson ; les montants s'affinent et se courbent comme des branches, et les pieds se terminent en sabots légèrement évasés. Aucune ligne n'est tout à fait droite.",
+        "compare": "Comparez avec le vase des Binelles : mêmes lignes nerveuses, comme si la matière avait poussé d'elle-même.",
+        "image": "images/mouvements/art-nouveau/guimard-chaise.jpg"
+      },
+      {
+        "title": "Cabinet",
+        "artist": "Louis Majorelle",
+        "country": "France (Nancy)",
+        "period": "vers 1910",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1976.53), domaine public (CC0)",
+        "analysis": "Selon le musée, la famille Majorelle dirigeait à Nancy une grande entreprise de meubles de style Art nouveau. Ce cabinet de 1,31 × 1,62 m le montre bien : la marqueterie des portes, faite de bois incrustés, dessine des formes abstraites et courbes, et des montures de métal doré, en forme de feuilles, ornent les angles et les poignées. Le musée invite à suivre du regard les lignes sinueuses et les formes végétales, qui célèbrent la beauté du bois et de la nature.",
+        "compare": "Une entreprise, pas un atelier isolé : à Nancy, l'Art nouveau est aussi une industrie qui vend dans toute la France.",
+        "image": "images/mouvements/art-nouveau/majorelle-cabinet.jpg"
+      },
+      {
+        "title": "Affiche pour The Yellow Book, volume IV",
+        "artist": "Aubrey Beardsley",
+        "country": "Royaume-Uni",
+        "period": "janvier 1895",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/637486), domaine public (CC0)",
+        "analysis": "Une affiche de 39 × 30 cm, imprimée en noir sur papier jaune. À gauche, une femme en robe noire, coiffée d'un grand chapeau, lit un livre ; à droite, le sommaire du volume IV de la revue The Yellow Book, de janvier 1895, avec les noms des écrivains et des artistes, et le prix : « $1.50 net ». En bas, une petite scène dans un jardin. Le dessin est fait de grands aplats noirs et de lignes fines.",
+        "compare": "Beardsley, mort à 25 ans, invente un style en noir et blanc inspiré des estampes japonaises. La revue et son affiche choquaient la société victorienne.",
+        "sensible": true,
+        "image": "images/mouvements/art-nouveau/beardsley-affiche-yellow-book.jpg"
+      },
+      {
+        "title": "Affiche pour la Revue bimestrielle pour l'art appliqué",
+        "artist": "Johan Thorn Prikker",
+        "country": "Pays-Bas",
+        "period": "1896",
+        "museum": "Rijksmuseum, Amsterdam",
+        "credit": "Rijksmuseum, Amsterdam (https://www.rijksmuseum.nl/nl/collectie/RP-P-1912-2412), domaine public (CC0)",
+        "analysis": "Selon le musée, une lithographie imprimée en vert sur deux feuilles collées sur toile, de 1,38 × 1,03 m. Elle montre la crucifixion du Christ et, en haut, des têtes, peut-être celles des apôtres ; la revue était publiée par H. Kleinmann, à Haarlem. Les lignes s'enroulent et remplissent toute la surface ; les lettres elles-mêmes sont dessinées comme des ornements.",
+        "compare": "Aux Pays-Bas, la Nieuwe Kunst (« art nouveau ») mêle symbolisme religieux et lignes décoratives. Les revues d'art appliqué diffusent le style en Europe.",
+        "image": "images/mouvements/art-nouveau/thorn-prikker-affiche-revue-art-applique.jpg"
+      },
+      {
+        "title": "Affiche pour l'huile Delftsche Slaolie",
+        "artist": "Carel Adolph Lion Cachet",
+        "country": "Pays-Bas",
+        "period": "entre 1874 et 1945",
+        "museum": "Rijksmuseum, Amsterdam",
+        "credit": "Rijksmuseum, Amsterdam (https://www.rijksmuseum.nl/nl/collectie/RP-P-1969-347), domaine public (CC0)",
+        "analysis": "Une affiche de 55 × 32 cm. Au centre, une bouteille d'huile dorée porte l'étiquette « Delftsche Slaolie extra », de l'huilerie de Delft ; tout autour, sur un fond noir, de grandes arabesques claires s'enroulent symétriquement. Selon le musée, l'affiche a été donnée par C. Lion Cachet ; la date exacte n'est pas connue.",
+        "compare": "La publicité commandée par une marque : une simple bouteille d'huile entourée d'ornements devient une image d'art. L'huile de Delft a fait appel à plusieurs artistes pour ses affiches.",
+        "image": "images/mouvements/art-nouveau/lion-cachet-affiche-delftsche-slaolie.jpg"
+      },
+      {
+        "title": "Tulipes (projet de décor de faïence)",
+        "artist": "Theo Colenbrander",
+        "country": "Pays-Bas",
+        "period": "22 juin 1917",
+        "museum": "Rijksmuseum, Amsterdam",
+        "credit": "Rijksmuseum, Amsterdam (https://www.rijksmuseum.nl/nl/collectie/RP-T-1982-82(R)), domaine public (CC0)",
+        "analysis": "Selon le musée, un projet de décor pour une faïence, au crayon et au pinceau en couleurs, de 22 × 13 cm, daté en haut à droite « 22 juni 17 ». Deux tulipes, l'une mauve et bleue, l'autre orange et rose, et une grande feuille courbe sont dessinées librement ; des annotations à la main indiquent les couleurs à employer.",
+        "compare": "On voit ici le travail du dessinateur avant l'objet : la fleur réelle, observée, est déjà simplifiée en formes et en couleurs pour la céramique.",
+        "image": "images/mouvements/art-nouveau/colenbrander-tulipes.jpg"
+      },
+      {
+        "title": "Serena Pulitzer Lederer",
+        "artist": "Gustav Klimt",
+        "country": "Autriche (Vienne)",
+        "period": "1899",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/436820), domaine public (CC0)",
+        "analysis": "Une très grande toile de 1,91 × 0,85 m, étroite et haute. Une femme aux cheveux noirs, vêtue d'une longue robe blanche vaporeuse, se tient debout, de face, sur un fond blanc grisâtre. Son visage et ses mains sont précis, mais la robe se dissout dans des touches légères, presque transparentes. Le titre du musée donne les dates du modèle (1867–1943).",
+        "compare": "La famille Lederer, de riches industriels de Vienne, fut l'une des grandes protectrices de Klimt. Ce portrait date de la naissance de la Sécession viennoise.",
+        "image": "images/mouvements/art-nouveau/klimt-serena-pulitzer-lederer.jpg"
+      },
+      {
+        "title": "Le Baiser",
+        "artist": "Gustav Klimt",
+        "country": "Autriche (Vienne)",
+        "period": "1907–1908",
+        "museum": "Österreichische Galerie Belvedere, Vienne",
+        "credit": "Österreichische Galerie Belvedere, Vienne, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg), domaine public",
+        "analysis": "Un couple s'enlace au bord d'un pré fleuri, sur un fond doré. L'homme, dont on ne voit que la nuque et le profil, couronné de lierre, se penche vers la femme agenouillée, les yeux fermés. Leurs corps disparaissent sous des manteaux d'or : celui de l'homme est couvert de rectangles noirs, blancs et argentés, celui de la femme de cercles et de fleurs de couleur. Seuls les visages, les mains et les pieds sont peints de façon réaliste.",
+        "compare": "L'or, l'ornement et la figure humaine fondus en une seule image : Klimt unit la peinture et l'art décoratif, comme le voulait la Sécession viennoise.",
+        "image": "images/mouvements/art-nouveau/klimt-le-baiser.jpg"
+      },
+      {
+        "title": "Vitrail de la maison Hinds",
+        "artist": "Tiffany Glass and Decorating Company",
+        "country": "États-Unis",
+        "period": "vers 1900",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1966.432), domaine public (CC0)",
+        "analysis": "Selon le musée, ce vitrail de 2,27 × 1,14 m a été commandé vers 1900 pour la maison de Howell Hinds, à Cleveland. Des milliers de morceaux de verre de couleur, superposés, dessinent une scène idyllique : une terrasse à colonnes couverte de glycine, ouverte sur un paysage au coucher du soleil ; tout autour, une bordure de verres verts. La maison a été démolie en 1930 ; des photographies montrent le vitrail dans le salon, près de la cheminée, et les intérieurs somptueux que Louis Comfort Tiffany avait conçus pour la bibliothèque et la salle à manger.",
+        "compare": "Un décor complet commandé par une riche famille d'Amérique du Nord : Tiffany, comme les architectes européens, dessine toute la maison.",
+        "image": "images/mouvements/art-nouveau/tiffany-vitrail-maison-hinds.jpg"
+      },
+      {
+        "title": "Lampe « Glycine » (modèle « Pony »)",
+        "artist": "Clara Wolcott Driscoll pour Tiffany Studios",
+        "country": "États-Unis",
+        "period": "vers 1902–1910",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/2018.261), domaine public (CC0)",
+        "analysis": "Selon le musée, Louis Comfort Tiffany a contribué à l'Art nouveau par l'irisation de son verre « Favrile » et par les compositions naturelles de ses lampes et de ses vitraux, qui lui valurent le succès en Europe et en Amérique. Dans cette lampe de 43 cm, le pied de bronze monte comme un tronc et se transforme en branches de glycine, dont les grappes de verre bleu et mauve forment l'abat-jour. Elle a été dessinée par Clara Wolcott Driscoll, cheffe du dessin des lampes chez Tiffany ; le modèle a obtenu un grand prix pour Tiffany Studios à l'exposition internationale de Turin en 1902.",
+        "compare": "Une femme designer longtemps oubliée derrière le nom de l'entreprise : Clara Driscoll dirigeait un atelier de femmes qui coupaient et assemblaient le verre.",
+        "image": "images/mouvements/art-nouveau/driscoll-tiffany-lampe-glycine.jpg"
+      },
+      {
+        "title": "Coupe",
+        "artist": "Maison Fabergé",
+        "country": "Russie",
+        "period": "1895",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/2021.159), domaine public (CC0)",
+        "analysis": "Selon le musée, Fabergé produisait surtout des objets ornés à la manière des styles anciens, mais la firme suivait aussi les dernières modes européennes. Cette coupe d'argent de 10 cm est de style Art nouveau : son corps creusé et son anse asymétrique, qui s'enroule en boucle, évoquent le mouvement d'un liquide, souligné par les reflets ondulants de l'argent. Le musée suppose qu'elle servait à présenter des bonbons, ou simplement à être admirée.",
+        "compare": "Pas de fleurs ni d'ornements : seulement une ligne qui ondule. L'Art nouveau atteint jusqu'à la cour de Russie.",
+        "image": "images/mouvements/art-nouveau/faberge-coupe.jpg"
+      },
+      {
+        "title": "Affiche pour « Les Sept Frères » d'Aleksis Kivi",
+        "artist": "Akseli Gallen-Kallela",
+        "country": "Finlande",
+        "period": "1907",
+        "museum": "Musées Serlachius, Mänttä (Finlande)",
+        "credit": "Musées Serlachius, Mänttä (https://www.finna.fi/Record/serlachius.urn:uuid:7954A2DB-9A26-46A2-854F-3B9F16316B8A), domaine public (CC0), photo Teemu Källi",
+        "analysis": "Une affiche de 106,5 × 64 cm, photographiée dans son cadre. En haut, une frise de sept visages orange ; au-dessous, sous un ciel étoilé, des chasseurs avancent dans la neige, l'un tendant un arc, avec leurs traces de pas. Le texte, en finnois, annonce Seitsemän veljestä (Les Sept Frères) d'Aleksis Kivi, « illustré par Akseli Gallen-Kallela », publié par Yrjö Weilin à Helsinki et paraissant en fascicules.",
+        "compare": "En Finlande, l'Art nouveau sert l'identité nationale : Gallen-Kallela illustre le grand roman finlandais et dessine aussi des meubles et des tissus, et décore le pavillon finlandais de l'Exposition de 1900.",
+        "image": "images/mouvements/art-nouveau/gallen-kallela-affiche-sept-freres.jpg"
+      },
+      {
+        "title": "Vase « Grenouilles et nénuphars »",
+        "artist": "René Lalique",
+        "country": "France",
+        "period": "1909–1912",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/2007.180), domaine public (CC0)",
+        "analysis": "Selon le musée, ce vase de 21 cm est l'un des premiers essais de René Lalique dans le verre d'art. Il combine du verre appliqué, coulé et moulé pour suggérer un marais trouble, un motif typique de l'Art nouveau : des feuilles de nénuphar couvrent la surface, et des grenouilles vertes sont posées dessus. Le musée précise que Lalique a placé de petites feuilles de métal derrière les grenouilles pour leur donner un reflet vert sombre.",
+        "compare": "Le point d'arrivée de l'exposition : le bijoutier Lalique devient maître verrier. Ses verres moulés, produits en série, annoncent l'Art déco des années 1920.",
+        "image": "images/mouvements/art-nouveau/lalique-vase-grenouilles-nenuphars.jpg"
+      }
+    ]
   }
 ]

@@ -6485,5 +6485,270 @@
         "image": "images/mouvements/art-nouveau/lalique-vase-grenouilles-nenuphars.jpg"
       }
     ]
+  },
+  {
+    "mouvement": "Expressionnisme",
+    "slug": "expressionnisme",
+    "status": "published",
+    "title": "L'expressionnisme, peindre ce que l'on ressent",
+    "subtitle": "Europe du Nord, 1905–1930, avec ses sources et son héritage : vingt-trois œuvres de Cleveland, Washington, New York, Copenhague, Helsinki et Munich",
+    "intro": "L'expressionnisme ne cherche plus à montrer le monde tel qu'on le voit, mais tel qu'on le ressent : l'angoisse, la colère, la joie ou la solitude déforment les corps, les visages et les paysages, et les couleurs deviennent violentes ou arbitraires. Le mouvement naît surtout en Allemagne et en Europe du Nord, entre 1905 et la fin des années 1920. Ses sources sont Van Gogh et Gauguin (voir l'exposition sur le postimpressionnisme), le Belge James Ensor et le Norvégien Edvard Munch, qui peignent dès les années 1880–1890 l'inquiétude, la maladie et la mort, ainsi que les arts dits « primitifs », les gravures sur bois du Moyen Âge et l'art populaire. Deux groupes l'incarnent. À Dresde, en 1905, de jeunes étudiants en architecture fondent Die Brücke (« Le Pont ») autour d'Ernst Ludwig Kirchner ; ils peignent des corps libres, des danseuses, des cirques et la ville moderne, et relancent la gravure sur bois. À Munich, en 1911, Vassily Kandinsky et Franz Marc créent Der Blaue Reiter (« Le Cavalier bleu »), avec August Macke, Alexej von Jawlensky, Marianne von Werefkin et Paul Klee ; ils cherchent une couleur spirituelle, et Kandinsky ouvre la voie de l'abstraction. À Vienne, Egon Schiele dessine des corps tendus et inquiets. Les idées de l'époque le portent : la philosophie de Nietzsche, la psychanalyse de Freud, qui révèle l'inconscient, le refus d'une société bourgeoise et industrielle, la grande ville et sa solitude. Puis vient la guerre de 1914–1918 : Franz Marc et August Macke y sont tués, Max Beckmann en revient traumatisé, Käthe Kollwitz, qui y perd son fils, consacre son art aux pauvres et aux victimes. Les commanditaires sont nouveaux : des galeries d'avant-garde, comme celle de Herwarth Walden, Der Sturm, à Berlin, des revues et des almanachs, des éditeurs d'estampes, des collectionneurs privés et quelques directeurs de musées audacieux ; l'estampe, bon marché, permet de toucher un large public. En 1937, les nazis retirent des musées allemands des milliers d'œuvres modernes, qu'ils qualifient d'« art dégénéré » ; beaucoup d'artistes sont persécutés ou s'exilent. L'expressionnisme s'est aussi répandu en Scandinavie, en Finlande, en Belgique et en France, avec Chaïm Soutine. Son héritage est immense : l'abstraction de Kandinsky et de Klee, le cinéma expressionniste allemand et, après 1945, l'expressionnisme abstrait américain. Note sur le droit d'auteur : une œuvre n'entre dans le domaine public que soixante-dix ans après la mort de l'artiste ; les œuvres d'Emil Nolde, d'Oskar Kokoschka, d'Erich Heckel, de Gabriele Münter ou d'Otto Dix ne peuvent donc pas encore être montrées ici. Les œuvres viennent du Cleveland Museum of Art, de la National Gallery of Art de Washington, du Metropolitan Museum of Art, du Statens Museum for Kunst de Copenhague, de la Galerie nationale de Finlande et, pour une étude de Kandinsky, du Lenbachhaus de Munich, via Wikimedia Commons.",
+    "works": [
+      {
+        "title": "Le Jardin de la famille Rousseau",
+        "artist": "James Ensor",
+        "country": "Belgique",
+        "period": "1885",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1950.582), domaine public (CC0)",
+        "analysis": "Selon le musée, ce tableau représente le jardin d'Ernest et Mariette Rousseau, des amis proches d'Ensor, chez qui il séjournait souvent à Bruxelles. Il l'a peint en couleurs vives, en touches fortes et fragmentées. On ne sait pas s'il l'a peint d'après nature ou de mémoire, mais ce jardin vide de toute présence humaine suggère un sentiment d'isolement social, thème majeur de son œuvre. Une brouette est abandonnée au premier plan. Le musée rappelle qu'Ensor peignait dans des styles très variés, des paysages réalistes aux scènes fantastiques, et qu'il aimait la mer d'Ostende, sa ville natale.",
+        "compare": "Le point de départ de l'exposition : chez le Belge Ensor, la couleur et la touche commencent à traduire un sentiment, la solitude.",
+        "image": "images/mouvements/expressionnisme/ensor-jardin-de-la-famille-rousseau.jpg"
+      },
+      {
+        "title": "Soir, Mélancolie I",
+        "artist": "Edvard Munch",
+        "country": "Norvège",
+        "period": "1896",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1959.82), domaine public (CC0)",
+        "analysis": "Une gravure sur bois coloriée à la main, de 38 × 45 cm. Selon le musée, elle représente Jappe Nilssen, critique d'art et ami de Munch, abandonné et tourmenté, sur le rivage d'Åsgårdstrand, un village de pêcheurs au sud d'Oslo. Munch a choisi des planches au grain très marqué, qui donnent sa texture à la scène, et les a taillées grossièrement ; il a coloré chaque feuille à l'aquarelle et à la gouache, si bien que chaque épreuve est unique. Les formes simplifiées, l'espace aplati et les couleurs sombres correspondent à la profonde dépression du personnage.",
+        "compare": "La technique sert l'émotion : la gravure sur bois, rude et primitive, deviendra l'outil préféré des expressionnistes allemands.",
+        "image": "images/mouvements/expressionnisme/munch-soir-melancolie.jpg"
+      },
+      {
+        "title": "L'Enfant malade",
+        "artist": "Edvard Munch",
+        "country": "Norvège",
+        "period": "1894",
+        "museum": "Galerie nationale de Finlande, musée Ateneum, Helsinki",
+        "credit": "Galerie nationale de Finlande, musée Ateneum, Helsinki (https://www.finna.fi/Record/kansallisgalleria.39EF7BCD5DC3C7506FB1B18DB2E588C2), domaine public (CC0)",
+        "analysis": "Une estampe de 38,5 × 29,5 cm, signée au crayon en bas à droite « Edv Munch ». Une jeune fille malade, aux longs cheveux, est assise dans un lit, adossée à un oreiller ; à côté d'elle, une femme penchée, la tête baissée, lui tient la main. Les traits noirs et serrés assombrissent toute la chambre ; sous l'image, un petit paysage esquissé.",
+        "compare": "Munch a repris plusieurs fois ce sujet, inspiré par la mort de sa sœur, emportée par la tuberculose quand il était enfant : l'art devient l'expression d'une douleur intime.",
+        "image": "images/mouvements/expressionnisme/munch-l-enfant-malade.jpg"
+      },
+      {
+        "title": "Vieille usine",
+        "artist": "Paula Modersohn-Becker",
+        "country": "Allemagne",
+        "period": "1900",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.150903.html), domaine public (CC0)",
+        "analysis": "Une peinture à l'huile sur carton de 39 × 54 cm, datée « 1900 » en bas à gauche. Un vieux bâtiment de brique aux murs ocre et rouges, surmonté d'une haute cheminée, se dresse au bord d'une prairie verte, sous un ciel gris. Les formes sont simples et massives, la peinture épaisse.",
+        "compare": "Paula Modersohn-Becker, morte à 31 ans en 1907, simplifie les formes et les couleurs bien avant les groupes expressionnistes : une pionnière.",
+        "image": "images/mouvements/expressionnisme/modersohn-becker-vieille-usine.jpg"
+      },
+      {
+        "title": "La Mer près de Staberhuk",
+        "artist": "Ernst Ludwig Kirchner",
+        "country": "Allemagne",
+        "period": "1908",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1974.104), domaine public (CC0)",
+        "analysis": "Selon le musée, Kirchner a fait cette lithographie la première année où il apprenait cette technique. Contre l'usage, il voulait qu'on voie tout de suite qu'une lithographie n'est pas un dessin : il a dessiné au lavis jusqu'aux bords de la pierre, coupant brusquement la composition et soulignant les contours irréguliers de la pierre. Les traits rapides, qui imitent le vent et les vagues, et la présence visible de la matière répondent à sa recherche de vérité. On distingue un voilier, des vagues et des rochers.",
+        "compare": "Die Brücke voulait un art direct et sincère : les traits bruts de Kirchner refusent la belle finition.",
+        "image": "images/mouvements/expressionnisme/kirchner-la-mer-pres-de-staberhuk.jpg"
+      },
+      {
+        "title": "Lutteurs au cirque",
+        "artist": "Ernst Ludwig Kirchner",
+        "country": "Allemagne",
+        "period": "1909",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1966.49), domaine public (CC0)",
+        "analysis": "Selon le musée, des lutteurs massifs, enlacés dans une prise dangereuse, se tordent sur un tapis aux couleurs vives. Kirchner, célèbre pour ses scènes de la vie urbaine, utilise des touches libres pour rendre le flou des corps en mouvement ; autour, les spectateurs. Les corps sont roses et bleus, cernés de noir. Le musée rappelle que, dans les années 1930, 639 œuvres de Kirchner furent retirées des musées allemands, détruites ou vendues à l'étranger ; un an après l'exposition « Art dégénéré » organisée par les nazis à Munich, Kirchner se donna la mort.",
+        "compare": "Des couleurs qui ne décrivent plus la réalité mais l'énergie du combat : le corps, le spectacle et la ville sont les grands sujets de Die Brücke.",
+        "image": "images/mouvements/expressionnisme/kirchner-lutteurs-au-cirque.jpg"
+      },
+      {
+        "title": "Salle de danse Bellevue",
+        "artist": "Ernst Ludwig Kirchner",
+        "country": "Allemagne",
+        "period": "1909–1910",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.71238.html), domaine public (CC0)",
+        "analysis": "Une toile de 56 × 90 cm. Un grand bâtiment aux façades vertes, jaunes et orange se dresse au bord d'une rue rose et bleue, sous un ciel bleu vif ; les fenêtres et les contours sont tracés en rouge et en noir. Aucune couleur n'est naturelle : tout est intensifié. Selon la fiche du musée, le tableau est resté dans la succession de l'artiste avant d'être vendu par une galerie suisse.",
+        "compare": "Une salle de bal de Dresde peinte en couleurs pures, comme chez les fauves français, mais avec une tension plus nerveuse.",
+        "image": "images/mouvements/expressionnisme/kirchner-salle-de-danse-bellevue.jpg"
+      },
+      {
+        "title": "Murnau",
+        "artist": "Alexej von Jawlensky",
+        "country": "Allemagne",
+        "period": "1910",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.54131.html), domaine public (CC0)",
+        "analysis": "Une petite peinture sur panneau de 33 × 42 cm, signée en bas à droite « A. Jawlensky ». Une montagne bleu nuit domine un village aux toits rouges et des prés vert vif ; le ciel est rose. Les formes sont simplifiées en grandes taches de couleur cernées.",
+        "compare": "À Murnau, en Bavière, Jawlensky, Kandinsky, Gabriele Münter et Marianne von Werefkin peignent ensemble : la couleur devient plus libre que la nature.",
+        "image": "images/mouvements/expressionnisme/jawlensky-murnau.jpg"
+      },
+      {
+        "title": "Chiens de Sibérie dans la neige",
+        "artist": "Franz Marc",
+        "country": "Allemagne",
+        "period": "1909–1910",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.62640.html), domaine public (CC0)",
+        "analysis": "Une toile de 80,5 × 114 cm, signée en bas à droite « F Marc ». Deux grands chiens blancs, couchés et marchant dans la neige, se fondent presque dans le paysage blanc, bleuté et jaune pâle. Selon la fiche du musée, le tableau a été acquis vers 1910 par Ludwig et Alice Hopf, à Aix-la-Chapelle ; la famille Hopf, qui s'est ensuite installée à Londres et à Dublin, l'a gardé jusqu'en 1958.",
+        "compare": "Franz Marc peint les animaux comme des êtres purs, en harmonie avec la nature. Ici, encore des couleurs douces ; bientôt viendront ses chevaux bleus.",
+        "image": "images/mouvements/expressionnisme/marc-chiens-de-siberie-dans-la-neige.jpg"
+      },
+      {
+        "title": "Tigre",
+        "artist": "Franz Marc",
+        "country": "Allemagne",
+        "period": "1912",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1961.157), domaine public (CC0)",
+        "analysis": "Une gravure sur bois. Selon le musée, comme les autres membres du Blaue Reiter à Munich, Franz Marc représentait des animaux, symboles d'une renaissance joyeuse ; mais son Tigre est plus menaçant : mâchoires serrées, il guette un animal recroquevillé derrière lui. Le dessin, fait de lignes noires épaisses et de rayures, se mêle aux plantes. Le musée rappelle que Marc, engagé avec enthousiasme dans l'armée allemande, fut tué à Verdun le 4 mars 1916 ; sa mort et celle d'August Macke bouleversèrent les expressionnistes de Munich, dont le rêve d'un paradis terrestre s'effondra.",
+        "compare": "Les formes de l'animal se brisent en lignes anguleuses : la gravure sur bois expressionniste approche de l'abstraction.",
+        "image": "images/mouvements/expressionnisme/marc-tigre.jpg"
+      },
+      {
+        "title": "Étude de couleurs. Carrés avec cercles concentriques",
+        "artist": "Vassily Kandinsky",
+        "country": "Allemagne (Munich), artiste russe",
+        "period": "1913",
+        "museum": "Städtische Galerie im Lenbachhaus, Munich",
+        "credit": "Städtische Galerie im Lenbachhaus, Munich, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Wassily_Kandinsky_Color_Study._Squares_with_Concentric_Circles.jpg), domaine public",
+        "analysis": "Une étude à l'aquarelle : douze carrés, disposés sur trois rangs, sont chacun remplis de cercles concentriques de couleurs différentes. La forme ne change pas, seules les couleurs et leur ordre changent, comme dans une expérience.",
+        "compare": "Kandinsky, cofondateur du Blaue Reiter, pensait que chaque couleur a un son, comme un instrument de musique. En se détachant de l'objet, il ouvre la voie à la peinture abstraite.",
+        "image": "images/mouvements/expressionnisme/kandinsky-etude-de-couleurs-carres-cercles.jpg"
+      },
+      {
+        "title": "Promeneurs au bord du lac bleu",
+        "artist": "August Macke",
+        "country": "Allemagne",
+        "period": "1913",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.121344.html), domaine public (CC0)",
+        "analysis": "Une toile de 60 × 48 cm, signée en bas à droite « AMacke ». Un couple élégant, la femme en robe longue et l'homme en chapeau melon, se promène avec un enfant entre des arbres aux couleurs vives, devant un lac bleu. Les formes sont faites de plans de couleur pure, rouges, orange, bleus et verts.",
+        "compare": "Macke peint un monde joyeux et lumineux, la vie paisible des promeneurs. Il est tué au front en septembre 1914, à 27 ans.",
+        "image": "images/mouvements/expressionnisme/macke-promeneurs-au-lac-bleu.jpg"
+      },
+      {
+        "title": "Avec le point",
+        "artist": "Paul Klee",
+        "country": "Allemagne",
+        "period": "1916",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1961.50), domaine public (CC0)",
+        "analysis": "Un petit dessin à la plume et à l'encre noire de 12 × 14,5 cm. Selon le musée, Klee l'a fait pendant la Première Guerre mondiale. Une figure flottante, sainte ou démoniaque, domine une scène où l'on voit un zeppelin, un enfant décapité, un soldat tombé et une figure qui recule ou attaque. Le casque du soldat porte une poignée, comme une machine de guerre déshumanisée. Le « point » du titre désigne le zeppelin rond, un cercle menaçant qui revient souvent chez Klee. En 1915, il écrivait : « Plus ce monde devient horrible, plus l'art devient abstrait ; un monde en paix produit un art réaliste. »",
+        "compare": "Le dessin presque enfantin de Klee cache l'horreur de la guerre : une autre manière d'exprimer ce que l'on ressent.",
+        "image": "images/mouvements/expressionnisme/klee-avec-le-point.jpg"
+      },
+      {
+        "title": "Autoportrait",
+        "artist": "Egon Schiele",
+        "country": "Autriche (Vienne)",
+        "period": "1911",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/483438), domaine public (CC0)",
+        "analysis": "Une aquarelle avec graphite et gouache sur papier, de 51 × 35 cm. Schiele s'est représenté nu, de face, le corps maigre et anguleux, un bras levé et coudé ; ses cheveux sont hérissés, ses yeux cernés et sa bouche entrouverte. La peau est faite de taches orange, rouges et violettes, et un contour blanc entoure le corps sur le papier nu. Le monogramme et la date sont inscrits à gauche.",
+        "compare": "Le corps devient l'expression de l'angoisse : Schiele, mort à 28 ans, se peint sans complaisance, comme une sorte de radiographie de son état intérieur.",
+        "sensible": true,
+        "image": "images/mouvements/expressionnisme/schiele-autoportrait-1911.jpg"
+      },
+      {
+        "title": "Portrait d'enfant (Anton Peschka fils)",
+        "artist": "Egon Schiele",
+        "country": "Autriche (Vienne)",
+        "period": "1916",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1964.285), domaine public (CC0)",
+        "analysis": "Selon le musée, Schiele a représenté un petit enfant, le fils d'un ami, sans aucun décor. L'enfant vacille dans une position bizarre, comme suspendu, retenu seulement par une étoffe aux motifs multiples, qui retient surtout l'intérêt du peintre. Cette pose tordue est typique de ses nombreux dessins, où il explore la force expressive du corps humain pour traduire un état psychique. Le musée rappelle que Schiele mourut de la grippe espagnole en 1918, à 28 ans, laissant un très grand nombre de dessins.",
+        "compare": "Même un portrait d'enfant devient chez Schiele une étude de déséquilibre et d'inquiétude.",
+        "image": "images/mouvements/expressionnisme/schiele-portrait-d-enfant-anton-peschka.jpg"
+      },
+      {
+        "title": "Ouvriers rentrant chez eux",
+        "artist": "Edvard Munch",
+        "country": "Norvège",
+        "period": "1914",
+        "museum": "Statens Museum for Kunst, Copenhague",
+        "credit": "Statens Museum for Kunst, Copenhague (https://open.smk.dk/artwork/image/KMS3823), domaine public",
+        "analysis": "Une grande toile de 1,31 × 1,61 m, signée « E. Munch 1914 ». Une foule d'ouvriers en vêtements bleus et noirs avance vers nous dans une rue, après le travail ; les visages verdâtres et fatigués, au premier plan, sont presque coupés par le bord du tableau. Les couleurs sont posées en larges traits rapides, sans détails.",
+        "compare": "Le Munch de la maturité peint la vie collective : la foule qui avance semble sortir du tableau, vers le spectateur.",
+        "image": "images/mouvements/expressionnisme/munch-ouvriers-rentrant-chez-eux.jpg"
+      },
+      {
+        "title": "Autoportrait",
+        "artist": "Harald Giersing",
+        "country": "Danemark",
+        "period": "1907",
+        "museum": "Statens Museum for Kunst, Copenhague",
+        "credit": "Statens Museum for Kunst, Copenhague (https://open.smk.dk/artwork/image/KMS3917), domaine public",
+        "analysis": "Une petite toile de 25,5 × 22 cm. Un jeune homme aux cheveux bruns, au regard grave et un peu méfiant, se représente en buste devant un fond bleu-vert fait de touches visibles. Le visage est construit par plans de couleur, verts, roses et ocre, sans modelé lisse.",
+        "compare": "Le Danois Harald Giersing, l'un des pionniers du modernisme dans son pays, cherche lui aussi la couleur et la touche franches.",
+        "image": "images/mouvements/expressionnisme/giersing-autoportrait-1907.jpg"
+      },
+      {
+        "title": "Les Lavandières",
+        "artist": "Tyko Sallinen",
+        "country": "Finlande",
+        "period": "1911",
+        "museum": "Galerie nationale de Finlande, musée Ateneum, Helsinki",
+        "credit": "Galerie nationale de Finlande, musée Ateneum, Helsinki (https://www.finna.fi/Record/kansallisgalleria.4455F33022D8DA07E7AE75F0A6EF5E9B), domaine public (CC0)",
+        "analysis": "Une grande toile de 1,54 × 1,36 m. Deux femmes, les manches retroussées, se tiennent bras dessus, bras dessous devant un baquet de linge ; l'une, en jupe rose, penche la tête vers l'autre, en jupe bleue, qui sourit. Derrière elles, de hautes herbes et une rangée d'arbres bleus. Les visages et les corps sont déformés, les couleurs posées en larges touches vives.",
+        "compare": "Le Finlandais Tyko Sallinen, qui a découvert à Paris le fauvisme et l'expressionnisme, peint des paysannes sans les embellir, ce qui a choqué une partie du public d'Helsinki.",
+        "image": "images/mouvements/expressionnisme/sallinen-les-lavandieres.jpg"
+      },
+      {
+        "title": "Ouvrière au châle bleu",
+        "artist": "Käthe Kollwitz",
+        "country": "Allemagne",
+        "period": "1903",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1932.320), domaine public (CC0)",
+        "analysis": "Une lithographie en couleurs. Selon le musée, Käthe Kollwitz préférait l'estampe parce qu'elle y voyait un art démocratique, bon marché et capable de toucher toutes les classes sociales. Dans des estampes comme ce portrait d'une ouvrière, elle représentait les habitants les plus démunis de Berlin. Le regard de la femme et sa posture épuisée suggèrent ses difficiles conditions de vie et de travail, mais aussi sa dignité. Le musée précise que le mari de Kollwitz était médecin auprès des ouvriers pauvres de Berlin.",
+        "compare": "L'expressionnisme peut aussi être un engagement social : Kollwitz donne un visage aux pauvres, sans pittoresque.",
+        "image": "images/mouvements/expressionnisme/kollwitz-ouvriere-au-chale-bleu.jpg"
+      },
+      {
+        "title": "Bonne année 1917",
+        "artist": "Max Beckmann",
+        "country": "Allemagne",
+        "period": "1917",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1975.53), domaine public (CC0)",
+        "analysis": "Une pointe sèche de 24 × 30 cm. Selon le musée, cette image serrée montre une foule de gens lors d'une fête de fin d'année. Un ancien combattant squelettique, avec un bandeau sur l'œil, n'est que l'un des fêtards ivres dont la célébration du nouvel an est, selon Beckmann, une pure folie. La pointe sèche, qui consiste à griffer directement la plaque, lui permettait de travailler de manière spontanée, comme on dessine à la plume.",
+        "compare": "En pleine guerre, Beckmann montre une fête qui ressemble à un cauchemar : les visages grimaçants disent la folie du temps.",
+        "image": "images/mouvements/expressionnisme/beckmann-bonne-annee-1917.jpg"
+      },
+      {
+        "title": "Tête de pêcheur",
+        "artist": "Max Pechstein",
+        "country": "Allemagne",
+        "period": "1922",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1955.507), domaine public (CC0)",
+        "analysis": "Une gravure sur bois. Selon le musée, à travers des portraits de paysans et de pêcheurs, Max Pechstein s'intéressait aux gens qu'il voyait comme rudes et proches de la nature. Il a tiré parti du caractère brut du bois pour accentuer les traits forts du pêcheur, taillant à la gouge, dans le sens du fil, sans dessin préparatoire. Le résultat est un visage marqué, direct, qui révèle des années de dur travail en mer.",
+        "compare": "Un ancien de Die Brücke, après la guerre : le noir et blanc taillé dans le bois garde toute sa force.",
+        "image": "images/mouvements/expressionnisme/pechstein-tete-de-pecheur.jpg"
+      },
+      {
+        "title": "Vieille femme",
+        "artist": "Chaïm Soutine",
+        "country": "France (artiste né dans l'Empire russe)",
+        "period": "vers 1923–1924",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1988.94), domaine public (CC0)",
+        "analysis": "Selon le musée, dans les quelque 200 portraits qu'il a peints, Chaïm Soutine a presque toujours représenté des modèles anonymes et solitaires, assis de face, à mi-corps, les mains sur les hanches ou croisées sur les genoux, comme ici. Les déformations, les grandes mains de la femme, ses sourcils verts arqués et son menton pointu, peintes en touches agitées et tranchantes, renforcent l'expression du portrait.",
+        "compare": "L'expressionnisme à Paris : Soutine, venu de l'Empire russe, tord les visages et les corps comme sous l'effet d'une émotion violente.",
+        "image": "images/mouvements/expressionnisme/soutine-vieille-femme.jpg"
+      },
+      {
+        "title": "Le Dernier Devoir de Persée",
+        "artist": "Max Beckmann",
+        "country": "Allemagne et États-Unis",
+        "period": "1949",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/2013.7), domaine public (CC0)",
+        "analysis": "Selon le musée, ce tableau représente Persée, guerrier de la mythologie grecque célèbre pour avoir tranché la tête de Méduse. Mais le massacre représenté ici n'existe pas dans le mythe : c'est une allégorie de cauchemar, pleine de symboles personnels, qui reflète peut-être l'expérience de Beckmann, survivant de deux guerres mondiales. Traumatisé comme infirmier pendant la Première Guerre mondiale, il fut ensuite persécuté par les nazis et émigra aux États-Unis en 1947. Peint après la Shoah et sous la menace nucléaire, le tableau critique amèrement le goût humain pour la destruction ; Persée y apparaît en vêtement féminin.",
+        "compare": "Le point d'arrivée de l'exposition : un an avant sa mort, Beckmann, en exil, porte encore le regard expressionniste sur la violence de son siècle.",
+        "sensible": true,
+        "image": "images/mouvements/expressionnisme/beckmann-le-dernier-devoir-de-persee.jpg"
+      }
+    ]
   }
 ]

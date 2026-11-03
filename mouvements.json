@@ -5966,5 +5966,282 @@
         "image": "images/mouvements/impressionnisme/monet-nympheas-agapanthes.jpg"
       }
     ]
+  },
+  {
+    "mouvement": "Postimpressionnisme",
+    "slug": "postimpressionnisme",
+    "status": "published",
+    "title": "Le postimpressionnisme, après l'impression, chacun son chemin",
+    "subtitle": "Europe, 1885–1910, avec ses sources et son héritage : vingt-quatre œuvres de Washington, New York, Cleveland, Amsterdam, Helsinki et Paris",
+    "intro": "Le mot « postimpressionnisme » a été inventé après coup, en 1910, par le critique anglais Roger Fry, pour une exposition à Londres. Il ne désigne pas un groupe, mais des artistes qui, vers 1885, ont tous traversé l'impressionnisme et veulent aller plus loin, chacun à sa manière. Georges Seurat et Paul Signac cherchent une méthode presque scientifique : ils appliquent les lois du chimiste Eugène Chevreul sur le contraste des couleurs et posent de petits points de couleur pure ; c'est le néo-impressionnisme, ou pointillisme. Paul Cézanne, à Aix-en-Provence, veut rendre la nature solide et construite, « comme l'art des musées ». Paul Gauguin, en Bretagne puis à Tahiti, alors colonie française, cherche un art plus simple et plus spirituel, loin de la civilisation industrielle ; ce rêve d'un « ailleurs » est aussi lié au regard colonial de l'époque. Vincent van Gogh, venu des Pays-Bas, fait de la couleur et de la touche l'expression de ses émotions. Henri de Toulouse-Lautrec peint la vie nocturne de Montmartre et dessine des affiches. Autour d'eux, les Nabis, comme Paul Sérusier et Édouard Vuillard, Odilon Redon et le peintre autodidacte Henri Rousseau ouvrent d'autres voies. Les idées de l'époque comptent : le symbolisme des poètes, qui préfèrent la suggestion et le rêve à la description, l'admiration pour les estampes japonaises et pour les arts non européens, la science des couleurs et l'essor de la publicité. Les commanditaires changent encore. En 1884 est créé le Salon des indépendants, sans jury ni récompense, où chacun peut exposer ; Seurat y montre ses grandes toiles. Les marchands deviennent essentiels : Théo van Gogh, frère de Vincent, chez Boussod, Valadon et Cie, Ambroise Vollard, qui organise en 1895 la première grande exposition de Cézanne, ou le marchand de couleurs Julien Tanguy, qui accepte des toiles en paiement. Après la mort de Van Gogh, sa belle-sœur, Johanna van Gogh-Bonger, fait connaître son œuvre, et de grands collectionneurs, en Russie, en Europe du Nord ou aux États-Unis, achètent ces peintres que la France boudait encore. Leur héritage est immense : le fauvisme et l'expressionnisme prolongent la couleur de Van Gogh et de Gauguin, le cubisme naît des formes de Cézanne, et des artistes de toute l'Europe, des Pays-Bas à la Finlande, s'en inspirent. L'exposition suit ce chemin : les sources, Seurat et le néo-impressionnisme, Cézanne, Van Gogh, Gauguin et Pont-Aven, la vie moderne et les Nabis, puis l'héritage. Les œuvres viennent de la National Gallery of Art de Washington, du Metropolitan Museum of Art, du Cleveland Museum of Art, du Rijksmuseum d'Amsterdam et de la Galerie nationale de Finlande ; Femmes de Tahiti, au musée d'Orsay, est montré grâce à une photographie libre de Wikimedia Commons.",
+    "works": [
+      {
+        "title": "L'Été",
+        "artist": "Pierre Puvis de Chavannes",
+        "country": "France",
+        "period": "1891",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1916.1056), domaine public (CC0)",
+        "analysis": "Selon le musée, ce tableau est une version plus petite d'une peinture murale sur le même sujet, réalisée pour l'Hôtel de Ville de Paris, accompagnée d'un pendant intitulé L'Hiver. Un écrivain de l'époque décrivait L'Été comme « rempli de joie, de bonheur, de repos, l'apothéose de la vie ». Au bord d'un lac, des baigneurs et des baigneuses se reposent dans une lumière pâle, entre de minces arbres. Le musée précise que Seurat, Gauguin et Picasso ont été influencés par les sujets rêveurs de Puvis et par son style aux formes simplifiées et aplaties, qui ne cherche pas à imiter la nature.",
+        "compare": "Le point de départ de l'exposition : un art calme et décoratif, aux couleurs pâles et aux formes simples, admiré par toute la jeune génération.",
+        "sensible": true,
+        "image": "images/mouvements/postimpressionnisme/puvis-de-chavannes-l-ete.jpg"
+      },
+      {
+        "title": "Le Jardin des pruniers à Kamata, des Cent Vues célèbres d'Edo",
+        "artist": "Utagawa Hiroshige",
+        "country": "Japon",
+        "period": "1857",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/53681), domaine public (CC0)",
+        "analysis": "Une estampe japonaise gravée sur bois, de 34 × 22 cm, de la série des Cent Vues célèbres d'Edo (l'ancien nom de Tokyo). Des pruniers en fleurs aux troncs sombres se dressent au premier plan, sous un ciel rose ; au fond, des maisons de thé et des promeneurs. À droite, coupé par le bord de l'image, un palanquin vert à motifs. Les couleurs sont posées en aplats, sans ombres.",
+        "compare": "Les arbres coupés par le cadre, les aplats de couleur, le ciel rose : Van Gogh a copié en peinture une autre estampe de cette même série, Le Jardin des pruniers à Kameido.",
+        "image": "images/mouvements/postimpressionnisme/hiroshige-jardin-des-pruniers-a-kamata.jpg"
+      },
+      {
+        "title": "Étude pour « La Grande Jatte »",
+        "artist": "Georges Seurat",
+        "country": "France",
+        "period": "1884–1885",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.52225.html), domaine public (CC0)",
+        "analysis": "Un tout petit panneau de bois de 16 × 25 cm, marqué « Seurat » par un tampon. Sur une rive herbeuse au bord de la Seine, quelques promeneurs sont assis ou debout à l'ombre des arbres ; un voilier passe sur l'eau. Tout est fait de petites touches croisées de vert, de jaune, d'orangé et de bleu.",
+        "compare": "Seurat prépare son grand tableau, Un dimanche après-midi à l'île de la Grande Jatte, par des dizaines de petites études peintes sur place, comme celle-ci.",
+        "image": "images/mouvements/postimpressionnisme/seurat-etude-pour-la-grande-jatte.jpg"
+      },
+      {
+        "title": "Parade de cirque",
+        "artist": "Georges Seurat",
+        "country": "France",
+        "period": "1887–1888",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/437654), domaine public (CC0)",
+        "analysis": "Le soir, devant un cirque de Paris, un tromboniste et des musiciens jouent pour attirer le public, éclairés par une rangée de becs de gaz ; au premier plan, les silhouettes des spectateurs. Seurat ne mélange presque pas ses couleurs sur la palette : il les pose côte à côte, en petits points d'orangé, de bleu, de violet et de vert. De près, chaque point est distinct ; de loin, ils se fondent en un gris violacé de nuit. Les figures, vues de face ou de profil, sont raides comme sur une frise.",
+        "compare": "La méthode scientifique de Seurat, inspirée des lois de Chevreul, appliquée à une scène de la vie nocturne de Paris.",
+        "image": "images/mouvements/postimpressionnisme/seurat-parade-de-cirque.jpg"
+      },
+      {
+        "title": "Calanque des Antibois",
+        "artist": "Henri-Edmond Cross",
+        "country": "France",
+        "period": "1891–1892",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.61248.html), domaine public (CC0)",
+        "analysis": "Une toile de 65 × 92 cm, signée en bas à droite « henri Edmond Cross ». Une petite crique de la Méditerranée, bordée de rochers orangés et roses ; deux barques sont tirées sur la rive, près d'une cabane au toit rose ; au loin, des collines bleues. Toute la toile est faite de petites touches carrées de couleur pure.",
+        "compare": "Cross, ami de Signac, applique la méthode de Seurat au soleil du Midi : les ombres deviennent bleues et violettes, les rochers orange.",
+        "image": "images/mouvements/postimpressionnisme/cross-calanque-des-antibois.jpg"
+      },
+      {
+        "title": "Portrait de Marie Jeanette de Lange",
+        "artist": "Jan Toorop",
+        "country": "Pays-Bas",
+        "period": "1900",
+        "museum": "Rijksmuseum, Amsterdam",
+        "credit": "Rijksmuseum, Amsterdam (https://www.rijksmuseum.nl/nl/collectie/SK-A-4989), domaine public (CC0)",
+        "analysis": "Selon le musée, le tableau est peint selon la technique pointilliste. Le modèle, assis à droite, étudie un livre à la lumière d'une lampe à pétrole ; elle porte une robe rose, une « robe réforme », et a les cheveux simplement relevés. Sur la table, à gauche, on voit en partie la lampe, à côté d'un petit vase de roses et d'un bouquet de marguerites. La toile est signée et datée en bas à droite « J.Toorop 1900 ».",
+        "compare": "Le pointillisme voyage : le Néerlandais Jan Toorop, né à Java, l'adopte pour un portrait intime, plein de fleurs et de lumière.",
+        "image": "images/mouvements/postimpressionnisme/toorop-portrait-marie-jeanette-de-lange.jpg"
+      },
+      {
+        "title": "Le Pigeonnier de Bellevue",
+        "artist": "Paul Cézanne",
+        "country": "France",
+        "period": "1890",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1936.19), domaine public (CC0)",
+        "analysis": "Selon le musée, Cézanne a construit ce tableau en trois bandes horizontales : le bleu azur du ciel, le blanc lumineux de la tour et des bâtiments de la ferme, et le sol orange brûlé du premier plan, couleur de la terre riche en fer de Provence. Les verts chatoyants des cyprès et des oliviers, ses arbres préférés, sont répartis au milieu. La composition, réduite à l'essentiel, illustre son ambition de faire « quelque chose de solide et de durable, comme l'art des musées ».",
+        "compare": "Le musée rappelle que la manière de Cézanne, qui resserre l'espace et simplifie les formes en volumes géométriques, a servi de fondement au fauvisme et au cubisme.",
+        "image": "images/mouvements/postimpressionnisme/cezanne-le-pigeonnier-de-bellevue.jpg"
+      },
+      {
+        "title": "Les Joueurs de cartes",
+        "artist": "Paul Cézanne",
+        "country": "France",
+        "period": "1890–1892",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/435868), domaine public (CC0)",
+        "analysis": "Une toile de 65 × 82 cm. Autour d'une petite table, trois paysans jouent aux cartes, concentrés et silencieux, tandis qu'un quatrième, debout, fume la pipe en les regardant. Des pipes sont accrochées au mur, un rideau orange tombe à droite. Les corps, les chapeaux et la table sont construits comme des volumes simples, en touches parallèles.",
+        "compare": "Une scène de café sans anecdote : les joueurs sont aussi immobiles que des montagnes. Cézanne a peint plusieurs versions de ce sujet.",
+        "image": "images/mouvements/postimpressionnisme/cezanne-les-joueurs-de-cartes.jpg"
+      },
+      {
+        "title": "La Montagne Sainte-Victoire",
+        "artist": "Paul Cézanne",
+        "country": "France",
+        "period": "vers 1904",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1958.21), domaine public (CC0)",
+        "analysis": "Selon le musée, pendant les vingt dernières années de sa vie, Cézanne a peint plusieurs fois la montagne Sainte-Victoire, près de sa maison d'Aix-en-Provence. Il a peint cette vue sur le motif, depuis l'un de ses lieux favoris, un petit chemin menant d'Aix vers la montagne : il installait son chevalet au bord de la route, d'où il voyait deux pins parasols et la montagne qui domine la scène. Une branche de pin traverse le ciel depuis la gauche et répond à la pente de la montagne, reliant le proche et le lointain. Le musée précise qu'il en a fait 36 peintures et 45 aquarelles.",
+        "compare": "Le paysage devient un assemblage de taches de couleur bleues, vertes et orangées : un pas de plus vers l'art abstrait du XXe siècle.",
+        "image": "images/mouvements/postimpressionnisme/cezanne-la-montagne-sainte-victoire.jpg"
+      },
+      {
+        "title": "Autoportrait",
+        "artist": "Vincent van Gogh",
+        "country": "Pays-Bas et France",
+        "period": "1887",
+        "museum": "Rijksmuseum, Amsterdam",
+        "credit": "Rijksmuseum, Amsterdam (https://www.rijksmuseum.nl/nl/collectie/SK-A-3262), domaine public (CC0)",
+        "analysis": "Selon le musée, Van Gogh s'est représenté en buste, avec une veste brune et un chapeau gris. Le petit tableau, peint à l'huile sur carton, mesure 42 × 34 cm. Le fond est fait de courtes touches bleues qui rayonnent autour de la tête ; le visage, la barbe rousse et la veste sont faits de petites touches de couleurs vives, juxtaposées.",
+        "compare": "Peint à Paris, où Van Gogh découvre les impressionnistes et les pointillistes : sa touche se fragmente et ses couleurs s'éclaircissent.",
+        "image": "images/mouvements/postimpressionnisme/van-gogh-autoportrait-1887.jpg"
+      },
+      {
+        "title": "La Mousmé",
+        "artist": "Vincent van Gogh",
+        "country": "France",
+        "period": "1888",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.46626.html), domaine public (CC0)",
+        "analysis": "Une toile de 73 × 60 cm. Une jeune fille aux cheveux noirs, assise dans un fauteuil de bambou, tient une petite branche fleurie ; elle porte un corsage rayé rouge et bleu aux boutons orange et une jupe bleue à pois orange, sur un fond vert pâle. Selon la fiche du musée, le tableau appartenait à Johanna van Gogh-Bonger, la belle-sœur du peintre, qui le vendit en 1909.",
+        "compare": "« Mousmé » est un mot japonais pour une jeune fille : à Arles, Van Gogh rêve du Japon et pose des couleurs franches, sans ombres, comme dans les estampes.",
+        "image": "images/mouvements/postimpressionnisme/van-gogh-la-mousme.jpg"
+      },
+      {
+        "title": "Champ de blé avec cyprès",
+        "artist": "Vincent van Gogh",
+        "country": "France",
+        "period": "1889",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/436535), domaine public (CC0)",
+        "analysis": "Un champ de blé près de Saint-Rémy-de-Provence, où Van Gogh était soigné en 1889. Le blé jaune doré occupe le bas ; le ciel, bleu pâle et turquoise, est rempli de nuages blancs en volutes ; entre les deux, des buissons et des cyprès vert sombre montent comme des flammes. La peinture, posée en épaisseur, forme des tourbillons et des courbes.",
+        "compare": "Le paysage devient émotion : chaque touche bouge, comme si la nature entière vibrait. Les expressionnistes s'en souviendront.",
+        "image": "images/mouvements/postimpressionnisme/van-gogh-champ-de-ble-avec-cypres.jpg"
+      },
+      {
+        "title": "Rue à Auvers-sur-Oise",
+        "artist": "Vincent van Gogh",
+        "country": "Pays-Bas et France",
+        "period": "1890",
+        "museum": "Galerie nationale de Finlande, musée Ateneum, Helsinki",
+        "credit": "Galerie nationale de Finlande, musée Ateneum, Helsinki (https://www.finna.fi/Record/kansallisgalleria.D58C091103F4D9D5DF15A9BC9A202DCE), domaine public (CC0)",
+        "analysis": "Une toile de 73,5 × 92,5 cm. Une rue de village monte entre des maisons aux toits orange vif et des murs blancs ; des arbres verts se tordent, et le ciel est fait de grandes touches bleues sur un fond blanc. Une partie de la toile, dans le ciel, paraît à peine couverte.",
+        "compare": "Peint à Auvers-sur-Oise dans les dernières semaines de la vie de Van Gogh, mort en juillet 1890 : ce tableau a été acheté pour la Finlande dès 1903, l'un des premiers Van Gogh entrés dans un musée.",
+        "image": "images/mouvements/postimpressionnisme/van-gogh-rue-a-auvers-sur-oise.jpg"
+      },
+      {
+        "title": "Petites Bretonnes dansant, Pont-Aven",
+        "artist": "Paul Gauguin",
+        "country": "France",
+        "period": "1888",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.61369.html), domaine public (CC0)",
+        "analysis": "Une toile de 73 × 93 cm, signée et datée en bas à droite « P. Gauguin 88 ». Trois fillettes en costume breton, coiffes blanches et sabots, dansent une ronde dans un pré où sèchent des meules de foin ; un petit chien les regarde ; au fond, les toits et le clocher du village. Selon la fiche du musée, la galerie Boussod, Valadon et Cie a acheté le tableau à Gauguin en novembre 1888.",
+        "compare": "À Pont-Aven, Gauguin cherche une Bretagne simple et rustique. Le tableau a été acheté par la galerie où travaillait Théo van Gogh, l'un des rares marchands à soutenir ces peintres.",
+        "image": "images/mouvements/postimpressionnisme/gauguin-petites-bretonnes-dansant.jpg"
+      },
+      {
+        "title": "Dans les vagues",
+        "artist": "Paul Gauguin",
+        "country": "France",
+        "period": "1889",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1978.63), domaine public (CC0)",
+        "analysis": "Selon le musée, ce tableau peint à Pont-Aven montre une femme nue qui se jette dans la mer : une image possible de la femme européenne moderne qui abandonne la civilisation pour retrouver ses instincts naturels. Les lignes simplifiées et les couleurs exagérées, surtout le contraste du vert et de l'orange, semblent inventées plutôt qu'observées. En exposant ce tableau au café Volpini, à Paris, en 1889, Gauguin s'est imposé comme l'un des chefs du symbolisme en peinture.",
+        "compare": "En marge de l'Exposition universelle de 1889, où ils ne sont pas invités, Gauguin et ses amis exposent leurs toiles dans un café, le café Volpini.",
+        "sensible": true,
+        "image": "images/mouvements/postimpressionnisme/gauguin-dans-les-vagues.jpg"
+      },
+      {
+        "title": "Ia Orana Maria (Je vous salue Marie)",
+        "artist": "Paul Gauguin",
+        "country": "France (Tahiti)",
+        "period": "1891",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/438821), domaine public (CC0)",
+        "analysis": "Une toile de 114 × 88 cm. Dans un paysage tropical aux couleurs vives, une femme tahitienne en paréo rouge porte un enfant sur son épaule ; tous deux ont une auréole. Deux femmes aux mains jointes s'approchent ; derrière elles, une figure ailée. Au premier plan, des fruits sur un autel. L'inscription en bas à gauche, « IA ORANA MARIA », est la salutation tahitienne qui donne son titre au tableau.",
+        "compare": "Le thème chrétien de l'Annonciation transposé à Tahiti, alors colonie française : Gauguin mêle la religion européenne et l'image qu'il se fait des Tahitiens.",
+        "sensible": true,
+        "image": "images/mouvements/postimpressionnisme/gauguin-ia-orana-maria.jpg"
+      },
+      {
+        "title": "Femmes de Tahiti",
+        "artist": "Paul Gauguin",
+        "country": "France (Tahiti)",
+        "period": "1891",
+        "museum": "Musée d'Orsay, Paris",
+        "credit": "Musée d'Orsay, Paris, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Paul_Gauguin_056.jpg), domaine public",
+        "analysis": "Deux femmes sont assises sur le sable, l'une de dos, la tête penchée, en paréo rouge à motifs blancs, l'autre de face, en robe rose, qui tresse des feuilles. Derrière elles, une bande verte et une bande noire évoquent la mer. Les formes sont simples, cernées, et les couleurs posées en larges aplats.",
+        "compare": "Pas de perspective ni de détails : Gauguin aplatit l'espace comme dans les estampes japonaises et donne aux couleurs une force décorative.",
+        "image": "images/mouvements/postimpressionnisme/gauguin-femmes-de-tahiti.jpg"
+      },
+      {
+        "title": "Ferme au Pouldu",
+        "artist": "Paul Sérusier",
+        "country": "France",
+        "period": "1890",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.116570.html), domaine public (CC0)",
+        "analysis": "Une toile de 72 × 60 cm, signée et datée en bas à droite « PSérusier / 90 ». Une paysanne bretonne en tablier bleu marche dans une cour de ferme jaune ; à droite, un grand mur de grange rose et une maison au toit couvert d'herbe ; au fond, des arbres et un ciel bleu. Les couleurs sont pures et les formes simplifiées.",
+        "compare": "Sérusier, élève de Gauguin au Pouldu, rapporta à ses amis parisiens la leçon de la couleur pure : ils fondent le groupe des Nabis, « prophètes » en hébreu.",
+        "image": "images/mouvements/postimpressionnisme/serusier-ferme-au-pouldu.jpg"
+      },
+      {
+        "title": "Quadrille au Moulin-Rouge",
+        "artist": "Henri de Toulouse-Lautrec",
+        "country": "France",
+        "period": "1892",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.46696.html), domaine public (CC0)",
+        "analysis": "Une peinture sur carton de 81 × 60 cm. Au Moulin-Rouge, une danseuse en robe verte, les mains sur les hanches, s'avance vers nous ; derrière elle, une autre danseuse lève la jambe dans un nuage de jupons ; au premier plan, de dos, une femme en manteau brun, et des spectateurs en chapeau haut de forme. Le carton brun reste visible entre les traits de peinture.",
+        "compare": "Toulouse-Lautrec peint la vie nocturne de Montmartre comme un reporter, en traits rapides : pas de beauté idéale, mais des personnages saisis sur le vif.",
+        "image": "images/mouvements/postimpressionnisme/toulouse-lautrec-quadrille-au-moulin-rouge.jpg"
+      },
+      {
+        "title": "Divan Japonais",
+        "artist": "Henri de Toulouse-Lautrec",
+        "country": "France",
+        "period": "1892–1893",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/334197), domaine public (CC0)",
+        "analysis": "Une affiche, lithographie imprimée en quatre couleurs, de 81 × 61 cm. Au premier plan, une femme en robe et chapeau noirs, assise de profil, et un homme barbu en haut-de-forme, appuyé sur sa canne ; au fond, une chanteuse dont on ne voit que la robe noire, la tête coupée par le bord de l'affiche. Les lettres annoncent « Divan Japonais, 75 rue des Martyrs, Ed Fournier directeur ».",
+        "compare": "Une affiche commandée pour un café-concert : la publicité devient un art, et la rue une galerie. Le cadrage coupé vient des estampes japonaises.",
+        "image": "images/mouvements/postimpressionnisme/toulouse-lautrec-divan-japonais.jpg"
+      },
+      {
+        "title": "La Conversation",
+        "artist": "Édouard Vuillard",
+        "country": "France",
+        "period": "1891",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.52236.html), domaine public (CC0)",
+        "analysis": "Une petite toile de 24 × 33 cm, avec le tampon d'atelier « E Vuillard ». Dans un intérieur aux tons ocre, une femme en noir, debout derrière une chaise, et une femme assise à droite se parlent de part et d'autre d'une table. Les formes sont des taches de couleur aux contours simples, presque sans modelé.",
+        "compare": "Vuillard, l'un des Nabis, peint la vie intime des intérieurs parisiens avec la couleur plate et décorative apprise de Gauguin.",
+        "image": "images/mouvements/postimpressionnisme/vuillard-la-conversation.jpg"
+      },
+      {
+        "title": "Fleurs dans un vase",
+        "artist": "Odilon Redon",
+        "country": "France",
+        "period": "vers 1910",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.52200.html), domaine public (CC0)",
+        "analysis": "Une toile de 56 × 39 cm, signée en bas à droite « ODILON REDON ». Un bouquet de coquelicots rouges, de bleuets et de marguerites jaillit d'un vase brun doré, sur un fond clair et vaporeux, sans table ni mur. Les couleurs vives semblent flotter dans la lumière.",
+        "compare": "Redon, longtemps auteur de dessins noirs et inquiétants, se tourne à la fin de sa vie vers la couleur : des fleurs qui ressemblent à des visions.",
+        "image": "images/mouvements/postimpressionnisme/redon-fleurs-dans-un-vase.jpg"
+      },
+      {
+        "title": "La Jungle équatoriale",
+        "artist": "Henri Rousseau",
+        "country": "France",
+        "period": "1909",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.46688.html), domaine public (CC0)",
+        "analysis": "Une toile de 141 × 130 cm, signée et datée en bas à droite « Henri Julien Rousseau / 1909 ». Une jungle dense de feuilles géantes, de fleurs roses et blanches et de plantes pointues ; au centre, à moitié caché dans la végétation, un animal sombre nous regarde. Chaque feuille est peinte avec précision, dans des dizaines de verts différents. Selon la fiche du musée, l'artiste a donné ou vendu le tableau au peintre Robert Delaunay.",
+        "compare": "Henri Rousseau, ancien employé de l'octroi de Paris, n'a jamais vu de jungle : il l'invente à partir des serres et des livres. Les jeunes peintres d'avant-garde, comme Delaunay, l'admirent.",
+        "image": "images/mouvements/postimpressionnisme/henri-rousseau-la-jungle-equatoriale.jpg"
+      },
+      {
+        "title": "Vue de lac",
+        "artist": "Akseli Gallen-Kallela",
+        "country": "Finlande",
+        "period": "1901",
+        "museum": "Galerie nationale de Finlande, musée Ateneum, Helsinki",
+        "credit": "Galerie nationale de Finlande, musée Ateneum, Helsinki (https://www.finna.fi/Record/kansallisgalleria.2077DE8EDDDBF2DAC6AA978C0D365BC0), domaine public (CC0)",
+        "analysis": "Une toile de 84 × 57 cm. Vu d'en haut, un grand lac s'étend jusqu'à des collines bleues ; deux îles sombres flottent sur l'eau, où se reflète un ciel rose et doré ; au premier plan, de jeunes pins et bouleaux. Les reflets sont faits de larges bandes de couleur claire.",
+        "compare": "L'héritage : le Finlandais Gallen-Kallela, qui avait étudié à Paris, simplifie le paysage en grandes formes et en couleurs vives pour donner une image de son pays.",
+        "image": "images/mouvements/postimpressionnisme/gallen-kallela-vue-de-lac.jpg"
+      }
+    ]
   }
 ]

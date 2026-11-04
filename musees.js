@@ -453,6 +453,8 @@ const MOUVEMENTS = [
     "Nature sublime, passions, histoire et rêve."],
   ['École de Barbizon', 'Europe', 'France', '1830–1875', ['Barbizon'], ['Barbizon school', 'Barbizon School'], 'corot|millet|daubigny|rousseau', ['Camille Corot|Jean-Baptiste-Camille Corot', 'Jean-François Millet', 'Théodore Rousseau', 'Charles-François Daubigny', 'Narcisse Díaz de la Peña|Narcisse Virgilio Díaz de la Peña', 'Constant Troyon', 'Jules Dupré', 'Charles Jacque'],
     "Dans la forêt de Fontainebleau, des peintres quittent l'atelier pour peindre sur le motif les arbres, le ciel et le travail des paysans."],
+  ['Réalisme', 'Europe', 'Europe et États-Unis', '1840–1900', ['Realism'], ['Realism', 'realism'], 'courbet|daumier', ['Gustave Courbet', 'Honoré Daumier', 'Jules Breton', 'Jules Bastien-Lepage', 'Adolph Menzel', 'Wilhelm Leibl', 'Jozef Israëls', 'Constantin Meunier', 'Ilia Répine|Ilya Repin', 'Winslow Homer', 'Thomas Eakins'],
+    "Peindre le monde tel qu'il est : le travail, les pauvres et la vie de tous les jours."],
   ['Impressionnisme', 'Europe', 'France', '1860–1890', ['Impressionism'], ['Impressionism'], 'monet|renoir|degas|pissarro|sisley|morisot', ['Claude Monet', 'Berthe Morisot', 'Camille Pissarro', 'Pierre-Auguste Renoir', 'Edgar Degas', 'Édouard Manet', 'Alfred Sisley', 'Gustave Caillebotte', 'Mary Cassatt'],
     "Peindre en plein air la lumière changeante, par touches rapides."],
   ['Postimpressionnisme', 'Europe', 'Europe', '1885–1910', ['Post-Impressionism'], ['Post-Impressionism', 'Post-impressionism'], 'van gogh|gauguin|c[eé]zanne|seurat', ['Vincent van Gogh', 'Paul Gauguin', 'Paul Cézanne', 'Georges Seurat', 'Henri de Toulouse-Lautrec', 'Paul Signac'],

@@ -7072,5 +7072,291 @@
         "image": "images/mouvements/neoclassicisme/ingres-madame-moitessier.jpg"
       }
     ]
+  },
+  {
+    "mouvement": "Réalisme",
+    "slug": "realisme",
+    "status": "published",
+    "title": "Le réalisme, peindre le monde tel qu'il est",
+    "subtitle": "Europe et États-Unis, 1840–1900, avec ses sources et son héritage : vingt-cinq œuvres de New York, Washington, Cleveland, Copenhague, Amsterdam et Helsinki",
+    "intro": "Vers 1850, des artistes refusent de peindre des dieux, des héros antiques ou des rêves romantiques : ils veulent montrer leur propre époque, telle qu'elle est, avec ses paysans, ses ouvriers, ses pauvres, ses rues et ses trains. « Montrez-moi un ange, et j'en peindrai un », aurait dit Gustave Courbet. Le mot « réalisme » s'impose en 1855, quand Courbet, dont deux grands tableaux ont été refusés par l'Exposition universelle de Paris, construit à ses frais un pavillon pour montrer ses œuvres, sous le titre « Du réalisme ». Les sources du mouvement sont anciennes : les peintres hollandais et espagnols du XVIIe siècle, les frères Le Nain et Chardin, qui peignaient déjà la vie modeste avec dignité, mais aussi la caricature de presse, avec Honoré Daumier, et la photographie, inventée en 1839, qui habitue les regards à une image exacte du monde. Les idées de l'époque le portent : la révolution de 1848, qui donne le droit de vote à tous les hommes en France, la « question sociale » née de l'industrie et de l'exode rural, les penseurs socialistes, comme Pierre-Joseph Proudhon, ami de Courbet, la science et l'observation. Le réalisme choque : peindre des casseurs de pierres ou un enterrement de village dans les grands formats réservés à l'histoire paraît une provocation. Courbet participe en 1871 à la Commune de Paris ; condamné, il finit sa vie en exil en Suisse. Les commanditaires changent : le Salon reste la grande vitrine et l'État achète encore des tableaux, mais les marchands, comme Paul Durand-Ruel, la presse illustrée et des collectionneurs bourgeois, en Europe et aux États-Unis, font vivre les artistes. Le mouvement devient international : en Allemagne avec Adolph Menzel et Wilhelm Leibl, aux Pays-Bas avec Jozef Israëls, en Belgique avec Constantin Meunier, sculpteur des mineurs et des dockers, en Russie, où les « Ambulants » organisent à partir de 1871 des expositions itinérantes et où le marchand Pavel Tretiakov achète leurs œuvres, au Danemark, en Finlande et aux États-Unis, avec Winslow Homer et Thomas Eakins. Dans les années 1870–1890, le « naturalisme », proche des romans d'Émile Zola, prolonge le réalisme avec Jules Bastien-Lepage, Jules Breton ou Léon Lhermitte, et des peintres scandinaves montrent les ouvriers, les expulsions et la misère des campagnes. Son héritage est immense : l'impressionnisme, qui peint lui aussi la vie moderne, Van Gogh et ses mangeurs de pommes de terre, le réalisme social du XXe siècle et la photographie documentaire. Note sur les sources : les grands tableaux de Courbet (Un enterrement à Ornans, L'Atelier du peintre) et d'Ilia Répine (Les Bateliers de la Volga) sont à Paris et à Saint-Pétersbourg ; leurs photos sont sur Wikimedia Commons, mais le site refusait les téléchargements au moment de la préparation de l'exposition (« trop de requêtes »). Les œuvres viennent du Metropolitan Museum of Art, de la National Gallery of Art de Washington, du Cleveland Museum of Art, du Statens Museum for Kunst de Copenhague, du Rijksmuseum et de la Galerie nationale de Finlande.",
+    "works": [
+      {
+        "title": "Intérieur paysan",
+        "artist": "Louis Le Nain",
+        "country": "France",
+        "period": "vers 1645",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.41603.html), domaine public (CC0)",
+        "analysis": "Une toile de 55,6 × 64,7 cm. Autour d'un tonneau qui sert de table, couvert d'une nappe blanche, une famille paysanne est assise : un vieil homme en manteau, son chapeau à la main et un bâton contre la jambe, une femme qui tient une quenouille, un garçon avec une cruche ; une fillette se tient debout dans l'ombre. Personne ne sourit, chacun regarde calmement devant soi. Selon la fiche du musée, le tableau était en France au XVIIIe siècle, puis chez les ducs de Leeds, en Angleterre.",
+        "compare": "Deux siècles avant Courbet, les frères Le Nain peignent les paysans sans moquerie ni pitié, avec une gravité silencieuse : les réalistes du XIXe siècle les redécouvrent et les admirent.",
+        "image": "images/mouvements/realisme/le-nain-interieur-paysan.jpg"
+      },
+      {
+        "title": "La Ratisseuse de navets",
+        "artist": "Jean Siméon Chardin",
+        "country": "France",
+        "period": "1738",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.41650.html), domaine public (CC0)",
+        "analysis": "Une toile de 46 × 37,5 cm, signée et datée à droite « Chardin / 1738 ». Une servante en tablier blanc, assise sur une chaise de paille, interrompt son travail, le couteau et un navet à la main, et regarde ailleurs, pensive. Autour d'elle, des navets épluchés dans une jatte, une citrouille, une casserole de cuivre et un billot où est planté un couperet. Selon la fiche du musée, le tableau a été acquis auprès de Chardin par le prince Joseph Wenzel de Liechtenstein, ambassadeur d'Autriche en France.",
+        "compare": "Chardin donne à un geste de cuisine la dignité d'un grand sujet : un prince l'achète. Le réalisme retiendra cette attention aux gestes simples et aux objets humbles.",
+        "image": "images/mouvements/realisme/chardin-la-ratisseuse.jpg"
+      },
+      {
+        "title": "Rue Transnonain, le 15 avril 1834",
+        "artist": "Honoré Daumier",
+        "country": "France",
+        "period": "1834",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1924.809), domaine public (CC0)",
+        "analysis": "Une lithographie. Dans une chambre en désordre, un homme en chemise de nuit gît mort au pied de son lit, sur le corps d'un enfant ; d'autres victimes sont étendues autour de lui. Selon le musée, le gouvernement de Louis-Philippe opprimait les ouvriers : la révolte des canuts de Lyon, les ouvriers de la soie, qui travaillaient dix-huit heures par jour pour presque rien, entraîna une révolte à Paris. Des coups de feu ayant été tirés d'une maison de la rue Transnonain, les soldats massacrèrent ses habitants, vieillards, femmes et enfants compris. Daumier insiste sur la souffrance humaine et l'innocence des victimes. L'estampe parut dans L'Association mensuelle de Charles Philipon ; selon le musée, la censure, qui en avait autorisé la publication, la saisit quand elle fut exposée chez un marchand d'estampes.",
+        "compare": "Une image de presse qui dit la vérité d'un événement : Daumier, caricaturiste et lithographe, ouvre la voie au réalisme bien avant 1848.",
+        "sensible": true,
+        "image": "images/mouvements/realisme/daumier-rue-transnonain.jpg"
+      },
+      {
+        "title": "Les Demoiselles de village",
+        "artist": "Gustave Courbet",
+        "country": "France",
+        "period": "1851–1852",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/438820), domaine public (CC0)",
+        "analysis": "Une très grande toile de 195 × 261 cm. Dans un vallon entouré de falaises calcaires, trois jeunes femmes en robes claires, l'une sous une ombrelle, donnent quelque chose à manger à une petite gardienne de vaches pieds nus ; deux vaches et un chien sont près d'elles. Les personnages sont petits dans le paysage, peints sans élégance particulière, et la perspective semble maladroite.",
+        "compare": "Courbet y peint ses trois sœurs, près d'Ornans, son village de Franche-Comté. Montrer à Paris, dans un format de tableau d'histoire, des filles de la campagne en promenade a paru vulgaire aux critiques du Salon de 1852 : c'est le scandale du réalisme.",
+        "image": "images/mouvements/realisme/courbet-les-demoiselles-de-village.jpg"
+      },
+      {
+        "title": "Ratapoil",
+        "artist": "Honoré Daumier",
+        "country": "France",
+        "period": "modèle de 1851, fonte vers 1891",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.41522.html), domaine public (CC0)",
+        "analysis": "Un bronze de 43,5 cm. Un homme maigre, au chapeau cabossé, à la moustache et à la barbiche pointues, se tient cambré, appuyé sur un gros bâton ; sa redingote flotte, déchirée, autour de ses jambes. Le modelage est rapide, plein de creux et de bosses, comme une caricature en trois dimensions. Selon la fiche du musée, le nom « DAUMIER » est gravé sur la base.",
+        "compare": "Ratapoil est le type de l'agent de propagande qui, en 1851, faisait campagne, à coups de bâton s'il le fallait, pour Louis-Napoléon Bonaparte, bientôt empereur : Daumier sculpte la satire politique.",
+        "image": "images/mouvements/realisme/daumier-ratapoil.jpg"
+      },
+      {
+        "title": "Saltimbanques errants",
+        "artist": "Honoré Daumier",
+        "country": "France",
+        "period": "1847–1850",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.46489.html), domaine public (CC0)",
+        "analysis": "Un petit panneau de bois de 32,6 × 24,8 cm. Un saltimbanque aux cheveux dressés marche, l'air las, suivi d'un enfant qui porte une chaise au-dessus de sa tête ; une silhouette sombre l'accompagne à gauche. La peinture est rapide, en ombres et en lumières, sans détail. Selon la fiche du musée, le tableau a appartenu aux collectionneurs parisiens Alexis et Henri Rouart.",
+        "compare": "Daumier peint les gens du voyage et les pauvres de la rue, avec tendresse : les artistes de cirque, libres et misérables, deviennent un sujet moderne.",
+        "image": "images/mouvements/realisme/daumier-saltimbanques-errants.jpg"
+      },
+      {
+        "title": "La Grotte de la Loue",
+        "artist": "Gustave Courbet",
+        "country": "France",
+        "period": "1864",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.43681.html), domaine public (CC0)",
+        "analysis": "Une toile de 98 × 130 cm, signée en bas à gauche « Gustave Courbet ». La bouche d'une grotte ouvre un grand trou noir dans un rocher massif, d'où sort une rivière qui écume sur les pierres ; un minuscule personnage se tient debout sur une passerelle de bois. La roche est peinte en couches épaisses, souvent au couteau. Selon la fiche du musée, Courbet a vendu le tableau en 1872 au marchand Paul Durand-Ruel ; il a ensuite appartenu au patron de presse Émile de Girardin.",
+        "compare": "Le paysage réaliste : pas de vue idéale, mais la matière brute des rochers de la Loue, la rivière de son pays natal. Durand-Ruel, futur marchand des impressionnistes, achète déjà Courbet.",
+        "image": "images/mouvements/realisme/courbet-la-grotte-de-la-loue.jpg"
+      },
+      {
+        "title": "Mme L… (Laure Borreau)",
+        "artist": "Gustave Courbet",
+        "country": "France",
+        "period": "1863",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1962.2), domaine public (CC0)",
+        "analysis": "Une toile de 81 × 61 cm, signée en bas à droite. Selon le musée, Courbet a peint quatre portraits de Laure Borreau ; celui-ci est le dernier et le plus abouti. Réaliste, Courbet voulait représenter ce qu'il voyait dans le monde visible et tangible : il la montre dans une robe de soie noire ornée de dentelle, coiffée d'un chapeau assorti, devant un coucher de soleil doré et violet. Mais le portrait n'est pas idéalisé : ses yeux cernés et son cou épais ont fait écrire à un critique : « J'ose dire qu'au naturel elle est peut-être très jolie, mais dans le tableau de Courbet elle n'est rien de moins que choquante. »",
+        "compare": "Le réalisme jusque dans le portrait : Courbet refuse d'embellir son modèle, même aimé, et la critique ne le lui pardonne pas.",
+        "image": "images/mouvements/realisme/courbet-madame-laure-borreau.jpg"
+      },
+      {
+        "title": "Le Wagon de troisième classe",
+        "artist": "Honoré Daumier",
+        "country": "France",
+        "period": "1864",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/436095), domaine public (CC0)",
+        "analysis": "Une toile de 65,4 × 90,2 cm. Sur une banquette de bois, au premier plan, une jeune mère tient son bébé, une vieille femme serre un panier sur ses genoux et un garçon dort ; derrière eux, sans les regarder, des rangées de voyageurs serrés les uns contre les autres, en chapeaux et en bonnets. La lumière entre par les petites fenêtres du wagon. Les visages sont à peine dessinés, en couleurs brunes et chaudes.",
+        "compare": "Le train, invention moderne, rapproche les gens sans les réunir : chacun reste seul dans la foule. Daumier peint la dignité des pauvres voyageurs, sans anecdote.",
+        "image": "images/mouvements/realisme/daumier-le-wagon-de-troisieme-classe.jpg"
+      },
+      {
+        "title": "La Glaneuse fatiguée",
+        "artist": "Jules Breton",
+        "country": "France",
+        "period": "1880",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1915.721), domaine public (CC0)",
+        "analysis": "Une toile de 94 × 64 cm, signée « Jules Breton 1880 ». Selon le musée, glaner, c'est-à-dire ramasser les quelques épis restés au sol après la moisson, était le travail des pauvres, surtout des femmes et des enfants. Une glaneuse s'étire devant le soleil couchant, tandis que d'autres travaillent encore dans le champ ; ses pieds nus et ses vêtements usés disent qu'elle est paysanne, et ses couleurs la relient au paysage. Le tableau évoque à la fois la dureté de la vie paysanne et le lien entre l'homme et la terre. Selon le musée, c'est une variante plus petite d'un tableau exposé au Salon de 1880, sans doute commandée par le collectionneur de Cleveland Hinman H. Hurlbut, qui l'a achetée à l'artiste.",
+        "compare": "Breton, plus doux que Courbet ou Millet, rend la paysanne belle et presque héroïque : un réalisme qui plaît aux collectionneurs américains.",
+        "image": "images/mouvements/realisme/breton-la-glaneuse-fatiguee.jpg"
+      },
+      {
+        "title": "Jeanne d'Arc",
+        "artist": "Jules Bastien-Lepage",
+        "country": "France",
+        "period": "1879",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/435621), domaine public (CC0)",
+        "analysis": "Une immense toile de 254 × 279 cm. Dans le jardin touffu d'une maison de village, une jeune paysanne en corsage et jupe de laine se tient debout, le bras tendu vers les feuillages, les yeux grands ouverts, comme saisie. Derrière elle, à gauche, flottent des figures presque transparentes, dont un chevalier en armure. Tout le reste, les arbres, les herbes, le mur de la maison, est peint avec une précision minutieuse.",
+        "compare": "Jeanne d'Arc entend les voix des saints dans le jardin de ses parents : Bastien-Lepage, venu lui aussi de la Lorraine, peint la scène sacrée comme une scène de la vie rurale. C'est le naturalisme, qui mêle observation exacte et émotion.",
+        "image": "images/mouvements/realisme/bastien-lepage-jeanne-d-arc.jpg"
+      },
+      {
+        "title": "Le Marché aux pommes à Landerneau",
+        "artist": "Léon Lhermitte",
+        "country": "France",
+        "period": "1878",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/2008.356), domaine public (CC0)",
+        "analysis": "Un dessin à la plume et à l'encre brune sur un tracé à la sanguine, signé en bas à gauche « L. Lhermitte ». Sur une place bordée de maisons de pierre et d'une église, des paysannes en coiffes blanches vendent et achètent des pommes, assises ou debout parmi les paniers. Selon le musée, ce dessin est l'un des plus de cinquante qui se rapportent au grand tableau Le Marché aux pommes à Landerneau, exposé au Salon de 1878 ; Lhermitte a fait plusieurs scènes de paysans de Bretagne, région connue pour ses costumes traditionnels et sa piété.",
+        "compare": "Plus de cinquante études pour un seul tableau : le naturalisme observe la vie réelle avec la méthode d'un enquêteur.",
+        "image": "images/mouvements/realisme/lhermitte-le-marche-aux-pommes-a-landerneau.jpg"
+      },
+      {
+        "title": "Le Salon de l'artiste dans la Ritterstrasse",
+        "artist": "Adolph Menzel",
+        "country": "Allemagne",
+        "period": "1851",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/440726), domaine public (CC0)",
+        "analysis": "Une petite peinture à l'huile sur carton de 32 × 27 cm. Une pièce vide, à Berlin : au fond, une fenêtre aux rideaux rouges à motifs, traversés par le soleil ; une table, des chaises, un tapis sur le parquet luisant, des cadres aux murs et un poêle. Personne n'est là ; seuls comptent la lumière et l'atmosphère d'une journée ordinaire.",
+        "compare": "Menzel, le grand réaliste allemand, peignait pour lui-même ces intérieurs familiers, avec une liberté de touche qui annonce l'impressionnisme, une vingtaine d'années avant lui.",
+        "image": "images/mouvements/realisme/menzel-le-salon-de-l-artiste-ritterstrasse.jpg"
+      },
+      {
+        "title": "Enfants de la mer",
+        "artist": "Jozef Israëls",
+        "country": "Pays-Bas",
+        "period": "1872",
+        "museum": "Rijksmuseum, Amsterdam",
+        "credit": "Rijksmuseum, Amsterdam (https://www.rijksmuseum.nl/nl/collectie/SK-A-2382), domaine public",
+        "analysis": "Une toile de 48,5 × 93,5 cm, signée et datée en bas à gauche « Jozef Israëls // 1872 ». Selon la fiche du musée, quatre enfants jouent dans l'eau, sur la plage, avec un petit voilier ; l'aîné porte un enfant sur son dos. Ils sont pieds nus, en vêtements simples, devant une mer grise et calme.",
+        "compare": "Israëls, l'une des grandes figures de l'école de La Haye, peint la vie des familles de pêcheurs de la côte néerlandaise : un réalisme tendre, attentif aux pauvres.",
+        "image": "images/mouvements/realisme/israels-enfants-de-la-mer.jpg"
+      },
+      {
+        "title": "Portrait de l'artiste Rafail Levitski",
+        "artist": "Ilia Répine",
+        "country": "Russie",
+        "period": "1878",
+        "museum": "Galerie nationale de Finlande, musée Ateneum, Helsinki",
+        "credit": "Galerie nationale de Finlande, musée Ateneum, Helsinki (https://www.finna.fi/Record/kansallisgalleria.480BA0675FF00270C9C5FA196B069541), domaine public (CC0)",
+        "analysis": "Une toile de 89 × 69 cm, signée et datée en haut à gauche en caractères cyrilliques, « 1878 ». Un homme barbu, en costume sombre, est assis de trois quarts, accoudé au dossier de sa chaise, et tourne vivement la tête vers la droite, les sourcils froncés. Le tableau est peint presque sans couleurs, en bruns et en gris.",
+        "compare": "Ilia Répine, le plus célèbre des « Ambulants » russes, saisit le caractère de ses modèles d'un regard. Il a passé la fin de sa vie en Finlande, ce qui explique la présence de ses œuvres à Helsinki.",
+        "image": "images/mouvements/realisme/repine-portrait-de-rafail-levitski.jpg"
+      },
+      {
+        "title": "Jeune Paysanne au fichu blanc",
+        "artist": "Wilhelm Leibl",
+        "country": "Allemagne",
+        "period": "1885",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/436867), domaine public (CC0)",
+        "analysis": "Une petite toile de 25 × 23 cm. Une jeune paysanne, la tête couverte d'un grand fichu blanc noué, baisse les yeux ; elle porte un vêtement noir à col blanc. Le visage, aux joues roses, est peint avec une grande précision, le reste par touches plus libres.",
+        "compare": "Admirateur de Courbet, qu'il a rencontré à Munich, Leibl s'installe dans les villages de Bavière pour peindre les paysans, sans les embellir ni les idéaliser.",
+        "image": "images/mouvements/realisme/leibl-jeune-paysanne-au-fichu-blanc.jpg"
+      },
+      {
+        "title": "Le Débardeur du port d'Anvers",
+        "artist": "Constantin Meunier",
+        "country": "Belgique",
+        "period": "1885, fonte avant 1902",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/911152), domaine public (CC0)",
+        "analysis": "Un bronze de 48 cm. Un docker se tient debout, les mains sur les hanches, la tête couverte d'un capuchon ; il porte une blouse et un pantalon de travail. Son corps est robuste, son visage calme et fier.",
+        "compare": "Le Belge Meunier fait de l'ouvrier un héros de bronze, comme on sculptait autrefois les dieux et les rois : le travail devient un sujet digne de la sculpture.",
+        "image": "images/mouvements/realisme/meunier-le-debardeur-du-port-d-anvers.jpg"
+      },
+      {
+        "title": "La Fonderie de Burmeister & Wain",
+        "artist": "Peder Severin Krøyer",
+        "country": "Danemark",
+        "period": "1885",
+        "museum": "Statens Museum for Kunst, Copenhague",
+        "credit": "Statens Museum for Kunst, Copenhague (https://open.smk.dk/artwork/image/KMS3605), domaine public",
+        "analysis": "Une grande toile de 144 × 194 cm, signée « SKrøyer -85 ». Sous la charpente de fer d'une immense halle, des ouvriers en blouse bleue et en casquette manœuvrent une poche de métal en fusion suspendue à une grue ; la lumière orangée du feu éclaire leurs visages et le sol, tandis que le jour entre par les verrières.",
+        "compare": "Burmeister & Wain était le grand chantier naval et l'usine de machines de Copenhague : Krøyer, qu'on connaît pour ses plages de Skagen, peint ici l'industrie et le travail ouvrier.",
+        "image": "images/mouvements/realisme/kroyer-la-fonderie-burmeister-et-wain.jpg"
+      },
+      {
+        "title": "Un enterrement",
+        "artist": "Anna Ancher",
+        "country": "Danemark",
+        "period": "1891",
+        "museum": "Statens Museum for Kunst, Copenhague",
+        "credit": "Statens Museum for Kunst, Copenhague (https://open.smk.dk/artwork/image/KMS1433), domaine public",
+        "analysis": "Une toile de 103,5 × 124,5 cm, signée « Anna Ancher 1891. ». Dans une pièce claire, des hommes et des femmes en vêtements sombres entourent un cercueil couvert de couronnes ; un pasteur en col blanc se tient au fond. Selon le musée, le premier tableau exposé par Anna Ancher représentait deux pauvres originaux, Per et Stine Bollerhus ; des années plus tard, elle assista à l'enterrement de Stine et en tira ce tableau. Comme dans la plupart de ses œuvres, personne ne cherche à croiser le regard du spectateur, et la pièce, pleine de lumière, lui permet de montrer sa maîtrise des bleus, des roses et des verts.",
+        "compare": "Une scène vécue dans le village de pêcheurs de Skagen, au Danemark : le réalisme de la vie ordinaire, des naissances aux enterrements.",
+        "image": "images/mouvements/realisme/anna-ancher-un-enterrement.jpg"
+      },
+      {
+        "title": "Locataires expulsés",
+        "artist": "Erik Henningsen",
+        "country": "Danemark",
+        "period": "1892",
+        "museum": "Statens Museum for Kunst, Copenhague",
+        "credit": "Statens Museum for Kunst, Copenhague (https://open.smk.dk/artwork/image/KMS1454), domaine public",
+        "analysis": "Une grande toile de 158 × 220,5 cm, signée « ErikHenningsen 1892. ». Dans une rue enneigée, une femme âgée, une jeune femme et des enfants se tiennent sur le trottoir au milieu de leurs meubles, de leurs ballots de linge et de leurs ustensiles ; à droite, un policier en uniforme parle avec un homme, et des ouvriers regardent la scène. Selon la fiche du musée, le tableau est entré dans les collections la même année.",
+        "compare": "Une image de la misère urbaine, sans héros ni caricature : à la fin du siècle, la peinture réaliste dénonce, et un musée national achète aussitôt le tableau.",
+        "image": "images/mouvements/realisme/henningsen-locataires-expulses.jpg"
+      },
+      {
+        "title": "Garçon et corneille",
+        "artist": "Akseli Gallen-Kallela",
+        "country": "Finlande",
+        "period": "1884",
+        "museum": "Galerie nationale de Finlande, musée Ateneum, Helsinki",
+        "credit": "Galerie nationale de Finlande, musée Ateneum, Helsinki (https://www.finna.fi/Record/kansallisgalleria.9368034FE2953DD8DAD1B83837541D6F), domaine public (CC0)",
+        "analysis": "Une toile de 86 × 72 cm. Un petit garçon aux cheveux ras, pieds nus, en chemise et pantalon rapiécés, se tient debout dans un pré pierreux et regarde une corneille qui picore l'herbe devant lui. Le pré occupe presque toute la toile, peint en touches claires de vert, d'ocre et de brun.",
+        "compare": "À dix-neuf ans, avant de peindre les légendes finlandaises, Gallen-Kallela montre la pauvreté des campagnes avec une simplicité directe : le réalisme gagne la Finlande.",
+        "image": "images/mouvements/realisme/gallen-kallela-garcon-et-corneille.jpg"
+      },
+      {
+        "title": "Sous le joug (L'Écobuage)",
+        "artist": "Eero Järnefelt",
+        "country": "Finlande",
+        "period": "1893",
+        "museum": "Galerie nationale de Finlande, musée Ateneum, Helsinki",
+        "credit": "Galerie nationale de Finlande, musée Ateneum, Helsinki (https://www.finna.fi/Record/kansallisgalleria.761E073D2AD5CE3C69A84293DBB10E70), domaine public (CC0)",
+        "analysis": "Une grande toile de 131 × 164 cm. Sur une colline de forêt brûlée, des paysans, hommes et femmes, attisent avec de longues perches les troncs qui se consument pour défricher la terre ; la fumée et les flammes montent vers un horizon de forêts bleues. Au centre, une jeune fille au visage noirci de suie s'arrête et regarde le spectateur.",
+        "compare": "Le titre finnois, rendu en anglais par « Sous le joug », parle de travailleurs asservis : Järnefelt montre la dureté de l'écobuage, la culture sur brûlis, et le regard de l'enfant interpelle celui qui regarde le tableau.",
+        "image": "images/mouvements/realisme/jarnefelt-sous-le-joug-l-ecobuage.jpg"
+      },
+      {
+        "title": "Prisonniers du front",
+        "artist": "Winslow Homer",
+        "country": "États-Unis",
+        "period": "1866",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/11133), domaine public (CC0)",
+        "analysis": "Une toile de 61 × 96,5 cm. Sur un champ de bataille dévasté, hérissé de souches, un jeune officier nordiste en uniforme bleu, sabre au côté, fait face à des prisonniers sudistes, dont un vieil homme et un jeune homme aux cheveux longs, à l'air provocant ; un soldat en armes les garde. Les deux camps se regardent, sans violence, mais sans se comprendre.",
+        "compare": "Homer avait suivi la guerre de Sécession comme dessinateur pour un journal illustré : un an après la fin du conflit, il peint non pas une bataille héroïque, mais la rencontre de deux Amériques.",
+        "image": "images/mouvements/realisme/homer-prisonniers-du-front.jpg"
+      },
+      {
+        "title": "Le Champion de skiff (Max Schmitt en skiff)",
+        "artist": "Thomas Eakins",
+        "country": "États-Unis",
+        "period": "1871",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/10819), domaine public (CC0)",
+        "analysis": "Une toile de 82 × 117,5 cm. Sur une rivière calme, à Philadelphie, un rameur en maillot blanc se repose dans son long bateau étroit et se retourne vers nous ; plus loin, un autre rameur avance, et deux ponts traversent la rivière. Les reflets, les arbres d'automne et les petits nuages sont peints avec une précision presque photographique.",
+        "compare": "Eakins, qui avait étudié à Paris, applique au sport moderne l'exactitude du réalisme ; il s'est peint lui-même dans le bateau du second plan, où il a inscrit son nom et la date.",
+        "image": "images/mouvements/realisme/eakins-max-schmitt-en-skiff.jpg"
+      },
+      {
+        "title": "Le Gulf Stream",
+        "artist": "Winslow Homer",
+        "country": "États-Unis",
+        "period": "1899, repris jusqu'en 1906",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/11122), domaine public (CC0)",
+        "analysis": "Un marin noir, seul sur un bateau sans mât, dérive au large des Bahamas, cerné par des requins, pendant qu'une trombe d'eau se forme à l'horizon et qu'un trois-mâts passe au loin sans le voir. La lumière est celle d'un orage tropical : un ciel blanchâtre et voilé, d'où ne tombe aucun rayon, et une mer turquoise et vert sombre dont l'écume accroche la lumière. Le corps du marin, éclairé de côté, est le point le plus net du tableau. Homer, qui avait séjourné plusieurs fois aux Bahamas, peint la lumière crue des Caraïbes.",
+        "compare": "Le point d'arrivée de l'exposition : à la fin de sa vie, Homer place au centre d'un grand tableau un homme noir face au danger, sans héroïsme ni pitié. Le réalisme ouvre la voie à des sujets que la peinture avait longtemps ignorés.",
+        "image": "images/mouvements/realisme/homer-le-gulf-stream.jpg"
+      }
+    ]
   }
 ]

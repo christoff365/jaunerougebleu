@@ -6750,5 +6750,327 @@
         "image": "images/mouvements/expressionnisme/beckmann-le-dernier-devoir-de-persee.jpg"
       }
     ]
+  },
+  {
+    "mouvement": "Néoclassicisme",
+    "slug": "neoclassicisme",
+    "status": "published",
+    "title": "Le néoclassicisme, le retour à l'Antique",
+    "subtitle": "Europe et États-Unis, 1750–1830, avec ses sources et son héritage : vingt-huit œuvres de Washington, New York, Cleveland, Copenhague et Helsinki",
+    "intro": "Au milieu du XVIIIe siècle, l'Europe redécouvre l'Antiquité. On fouille Herculanum, à partir de 1738, puis Pompéi, à partir de 1748, deux villes romaines ensevelies par le Vésuve en l'an 79 ; le graveur Piranèse diffuse dans toute l'Europe les vues des ruines de Rome ; l'Allemand Johann Joachim Winckelmann, qui admire dans la sculpture grecque « une noble simplicité et une calme grandeur », publie en 1764 une Histoire de l'art de l'Antiquité. Contre les courbes, les ors et la légèreté du rococo, les artistes veulent un art clair, sévère et moral : des lignes nettes, des compositions simples, des corps idéalisés, des sujets tirés de l'histoire grecque et romaine qui célèbrent le courage, la vertu et le sacrifice. Ce retour à l'Antique accompagne les idées des Lumières, la raison, la science et la critique des privilèges, et devient le langage des révolutions : la Révolution américaine choisit pour ses bâtiments publics les colonnes et les frontons des temples antiques, et en France, Jacques-Louis David, peintre engagé dans la Révolution de 1789, puis premier peintre de Napoléon, fait de la peinture d'histoire une leçon civique. Rome est la capitale du mouvement : de jeunes artistes de toute l'Europe y viennent étudier les antiques, et les riches voyageurs du « Grand Tour », surtout britanniques, y achètent portraits, vues de ruines et copies. Les commanditaires sont les rois et les princes, comme Charles III d'Espagne, Catherine II de Russie ou Gustave III de Suède, les papes, l'État révolutionnaire puis l'Empire, qui veut des images de sa gloire, les académies, qui forment les artistes et organisent le Salon, à Paris, mais aussi des aristocrates, des banquiers et des industriels, comme le potier anglais Josiah Wedgwood, qui vend dans toute l'Europe des vases inspirés de l'Antiquité. Le mouvement est européen : l'Italien Antonio Canova, le Danois Bertel Thorvaldsen et le Suédois Johan Tobias Sergel renouvellent la sculpture ; la Suissesse Angelica Kauffmann triomphe à Londres et à Rome ; Adélaïde Labille-Guiard et Élisabeth Vigée Le Brun sont admises en 1783 à l'Académie royale de Paris. Il gagne aussi la Russie, où Saint-Pétersbourg se couvre de palais à colonnes, et les Amériques, de Washington à Mexico, où l'académie de San Carlos, fondée en 1781, enseigne le dessin d'après les antiques. L'exposition suit trois temps : les sources, la redécouverte de Rome et de Pompéi ; le mouvement, en France, en Italie, en Scandinavie et aux États-Unis ; puis son héritage, d'Ingres au romantisme naissant. Note sur les sources : la plupart des grands tableaux de David sont au Louvre ; leurs photos sont sur Wikimedia Commons, mais le site refusait les téléchargements au moment de la préparation de l'exposition (« trop de requêtes »). Les œuvres viennent de la National Gallery of Art de Washington, du Metropolitan Museum of Art, du Cleveland Museum of Art, du Statens Museum for Kunst de Copenhague et de la Galerie nationale de Finlande.",
+    "works": [
+      {
+        "title": "Vues de Rome : le Panthéon",
+        "artist": "Giovanni Battista Piranesi (Piranèse)",
+        "country": "Italie",
+        "period": "1761",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1922.5), domaine public (CC0)",
+        "analysis": "Une eau-forte et gravure au burin de la série des Vues de Rome. Le grand temple romain, avec son portique de colonnes, son fronton et sa coupole, occupe presque toute la feuille ; on lit sur la frise l'inscription antique qui nomme Agrippa. Deux petits clochers, ajoutés au XVIIe siècle et démolis depuis, coiffent encore le bâtiment. Au pied des colonnes, de minuscules personnages donnent l'échelle. Sous l'image, une légende en italien décrit le monument.",
+        "compare": "Les Vues de Rome, vendues aux voyageurs, ont fait connaître les ruines antiques dans toute l'Europe : beaucoup d'artistes du néoclassicisme ont découvert Rome par ces gravures avant d'y aller.",
+        "image": "images/mouvements/neoclassicisme/piranese-pantheon.jpg"
+      },
+      {
+        "title": "Le Temple d'Isis à Pompéi",
+        "artist": "Francesco Piranesi et Louis Jean Desprez",
+        "country": "Italie",
+        "period": "1788",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/2001.19), domaine public (CC0)",
+        "analysis": "Une eau-forte coloriée à l'aquarelle, de 47,7 × 69,6 cm. Selon le musée, Pompéi et Herculanum, ensevelies sous les cendres du Vésuve en l'an 79, ont été redécouvertes et fouillées au XVIIIe siècle et ont enflammé l'imagination de l'Europe des Lumières. Francesco Piranesi, le fils de Piranèse, a gravé la planche d'après les observations du Français Desprez, qui en a colorié et signé quelques épreuves, vendues comme des « dessins coloriés » réservés aux « hommes de goût ». On voit le temple dégagé, ses escaliers, ses colonnes et ses murs, et des visiteurs qui se promènent parmi les ruines.",
+        "compare": "Un souvenir de luxe pour les voyageurs : la redécouverte de Pompéi est l'une des grandes sources du néoclassicisme.",
+        "image": "images/mouvements/neoclassicisme/desprez-piranesi-temple-d-isis-pompei.jpg"
+      },
+      {
+        "title": "Portrait d'un gentilhomme",
+        "artist": "Pompeo Batoni",
+        "country": "Italie",
+        "period": "vers 1762",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.129282.html), domaine public (CC0)",
+        "analysis": "Une toile de 75 × 63,5 cm. Un jeune homme, dont le nom n'est pas connu, pose à mi-corps, le bras appuyé, la main posée avec élégance. Il porte un habit bleu bordé de galons d'or et une manchette de dentelle ; le fond est sombre et uni, et toute la lumière tombe sur le visage et les mains.",
+        "compare": "Batoni, à Rome, était le portraitiste préféré des jeunes aristocrates du « Grand Tour », surtout britanniques, venus achever leur éducation devant les antiques : un portrait de lui était le meilleur souvenir du voyage.",
+        "image": "images/mouvements/neoclassicisme/batoni-portrait-d-un-gentilhomme.jpg"
+      },
+      {
+        "title": "L'Adoration des bergers",
+        "artist": "Anton Raphael Mengs",
+        "country": "Espagne (artiste allemand)",
+        "period": "vers 1764–1765",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.195461.html), domaine public (CC0)",
+        "analysis": "Une grande toile de 264 × 152 cm. Dans une étable, la nuit, la Vierge en manteau bleu présente l'Enfant Jésus, d'où semble venir toute la lumière ; Joseph se tient à gauche, des bergers s'approchent à droite, l'un d'eux à genoux, et des anges volent au-dessus. Selon la fiche du musée, le tableau a été commandé comme retable pour la chapelle privée du roi Charles III d'Espagne, à Madrid ; Joseph Bonaparte, frère de Napoléon et roi d'Espagne, l'a ensuite emporté aux États-Unis.",
+        "compare": "Mengs, peintre allemand ami de Winckelmann à Rome, fut appelé à Madrid par Charles III : les rois d'Europe se disputaient les artistes du nouveau goût.",
+        "image": "images/mouvements/neoclassicisme/mengs-adoration-des-bergers.jpg"
+      },
+      {
+        "title": "Le Ponte Salario",
+        "artist": "Hubert Robert",
+        "country": "France",
+        "period": "vers 1775",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.41665.html), domaine public (CC0)",
+        "analysis": "Une toile de 91 × 121 cm. Un vieux pont de pierre à une seule arche, surmonté d'une tour fortifiée couverte de plantes, enjambe une rivière près de Rome ; sous l'arche, des lavandières étendent leur linge, et un homme debout regarde la rivière qui s'étend au loin. Selon la fiche du musée, le premier propriétaire connu du tableau est Jean-Frédéric Perregaux, à Paris.",
+        "compare": "Hubert Robert, surnommé « Robert des ruines », a passé onze ans à Rome : il mêle les monuments antiques à la vie quotidienne. Perregaux, son premier propriétaire connu, était un banquier parisien : les financiers aussi achetaient le goût de l'Antique.",
+        "image": "images/mouvements/neoclassicisme/hubert-robert-ponte-salario.jpg"
+      },
+      {
+        "title": "Vase Portland",
+        "artist": "Josiah Wedgwood and Sons",
+        "country": "Angleterre",
+        "period": "vers 1790",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1918.823), domaine public (CC0)",
+        "analysis": "Un vase en grès « jaspé » noir, de 26,4 cm de haut, orné de figures blanches en relief. Selon le musée, l'original est un vase romain en verre bleu foncé du Ier siècle, une trouvaille archéologique rare qui fascinait les collectionneurs et les artistes ; il appartint dans les années 1780 au troisième duc de Portland, qui le prêta vers 1790 au potier Josiah Wedgwood pour qu'il en fasse des répliques exactes en céramique. L'exemplaire de Cleveland est l'un des tout premiers. L'original est aujourd'hui au British Museum. Selon le musée, beaucoup de chercheurs pensent que la scène représente le mariage de Pélée et Thétis, de la mythologie grecque.",
+        "compare": "L'Antique entre dans les maisons : l'industriel Wedgwood vend dans toute l'Europe des copies de vases antiques, et le néoclassicisme devient une mode.",
+        "image": "images/mouvements/neoclassicisme/wedgwood-vase-portland.jpg"
+      },
+      {
+        "title": "Télémaque et les nymphes de Calypso",
+        "artist": "Angelica Kauffmann",
+        "country": "Suisse et Angleterre",
+        "period": "1782",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/436810), domaine public (CC0)",
+        "analysis": "Une toile de 82,6 × 112,4 cm. Au bord de la mer, sous un rocher, un jeune homme est assis, entouré de jeunes femmes vêtues de robes légères à l'antique ; l'une lui passe une guirlande de fleurs autour du cou. À gauche, un vieil homme barbu, enveloppé d'un manteau à capuchon, se tourne vers lui. Les couleurs sont douces, roses, vertes et dorées, sous un ciel de crépuscule.",
+        "compare": "Le sujet vient d'un roman français très lu au XVIIIe siècle, Les Aventures de Télémaque de Fénelon : le fils d'Ulysse, guidé par son vieux maître Mentor, doit résister aux charmes de l'île de Calypso. Angelica Kauffmann, née en Suisse, fut l'une des fondatrices de la Royal Academy de Londres.",
+        "image": "images/mouvements/neoclassicisme/kauffmann-telemaque-nymphes-de-calypso.jpg"
+      },
+      {
+        "title": "Voltaire",
+        "artist": "Jean-Antoine Houdon",
+        "country": "France",
+        "period": "1778",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.1266.html), domaine public (CC0)",
+        "analysis": "Un buste en marbre de 52,7 cm. Le vieux philosophe sourit, le visage creusé de rides, sous une perruque bouclée ; sa chemise est ouverte. Selon la fiche du musée, Houdon a signé et daté le bras droit coupé : « HOUDON, F. 1778 » ; au dos, une inscription rappelle que Voltaire est né à Paris en 1694 et mort en 1778. Le buste a été fait pour la famille Lamorinière.",
+        "compare": "Voltaire, grande figure des Lumières, est mort en 1778, l'année même du buste : Houdon fixe pour la postérité le visage de l'esprit critique.",
+        "image": "images/mouvements/neoclassicisme/houdon-voltaire.jpg"
+      },
+      {
+        "title": "Autoportrait avec deux élèves, Marie Gabrielle Capet et Marie Marguerite Carreaux de Rosemond",
+        "artist": "Adélaïde Labille-Guiard",
+        "country": "France",
+        "period": "1785",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/436840), domaine public (CC0)",
+        "analysis": "Une toile de 210,8 × 151,1 cm. La peintre est assise devant son chevalet, la palette et les pinceaux à la main, dans une robe de soie bleu argent, coiffée d'un chapeau de paille orné de plumes et de rubans. Derrière elle, ses deux élèves, nommées dans le titre, regardent le tableau en cours ; l'une pose la main sur le dossier de sa chaise. Dans l'ombre, à gauche, on devine un buste sculpté.",
+        "compare": "En 1783, l'Académie royale de peinture et de sculpture de Paris admet Labille-Guiard et Vigée Le Brun le même jour, mais elle limite à quatre le nombre de femmes : en se peignant avec ses élèves, Labille-Guiard affirme le droit des femmes à apprendre et à enseigner la peinture.",
+        "image": "images/mouvements/neoclassicisme/labille-guiard-autoportrait-avec-deux-eleves.jpg"
+      },
+      {
+        "title": "La Marquise de Pezay et la Marquise de Rougé avec ses fils Alexis et Adrien",
+        "artist": "Élisabeth Louise Vigée Le Brun",
+        "country": "France",
+        "period": "1787",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.50215.html), domaine public (CC0)",
+        "analysis": "Une toile de 123 × 156 cm. Deux jeunes femmes, en robes de soie bleue et rayée, coiffées de foulards légers, sont assises sur une terrasse au bord d'un parc ; l'un des garçons se penche sur l'épaule de sa mère, l'autre appuie sa joue sur ses genoux. Une balustrade de pierre et des roses ferment la scène. Selon la fiche du musée, le tableau a appartenu à l'un des modèles, la marquise de Rougé, puis à ses descendants.",
+        "compare": "Portraitiste de la reine Marie-Antoinette, Vigée Le Brun allie la tendresse des gestes aux robes simples et aux coiffures « à l'antique » de la fin du siècle. Deux ans plus tard, la Révolution la pousse à l'exil.",
+        "image": "images/mouvements/neoclassicisme/vigee-le-brun-marquises-de-pezay-et-de-rouge.jpg"
+      },
+      {
+        "title": "La Mort de Socrate",
+        "artist": "Jacques-Louis David",
+        "country": "France",
+        "period": "1787",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/436105), domaine public (CC0)",
+        "analysis": "Une toile de 129,5 × 196,2 cm. Dans une prison aux murs nus, le vieux philosophe Socrate, torse nu, est assis sur son lit ; d'une main il tend le bras vers la coupe de poison qu'un jeune homme en rouge lui présente en détournant le visage, de l'autre il montre le ciel. Ses disciples l'entourent, effondrés, cachant leur visage ou levant les bras ; un vieillard est assis, voûté, au pied du lit. Au fond, sous une arche, d'autres personnages montent un escalier. Les figures sont alignées comme sur un bas-relief antique, sous une lumière nette.",
+        "compare": "En 399 avant notre ère, Athènes condamne Socrate à boire la ciguë ; il refuse de fuir et parle jusqu'au bout de l'immortalité de l'âme. Deux ans avant la Révolution, David peint une leçon de courage et de fidélité à ses idées.",
+        "image": "images/mouvements/neoclassicisme/david-la-mort-de-socrate.jpg"
+      },
+      {
+        "title": "Antoine Laurent Lavoisier et Marie Anne Lavoisier",
+        "artist": "Jacques-Louis David",
+        "country": "France",
+        "period": "1788",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/436106), domaine public (CC0)",
+        "analysis": "Une très grande toile de 259,7 × 194,6 cm. Le chimiste Lavoisier, assis à une table couverte de velours rouge, écrit avec une plume ; il se tourne vers sa femme, Marie Anne, qui s'appuie sur son épaule et regarde le spectateur, dans une robe blanche serrée d'un ruban bleu. Sur la table et par terre, des instruments de verre et de cuivre ; à gauche, un carton à dessins posé sur un fauteuil. Le décor, des pilastres et un mur nu, est d'une grande sobriété.",
+        "compare": "Lavoisier, l'un des fondateurs de la chimie moderne, travaillait avec sa femme, qui traduisait des ouvrages scientifiques et dessinait les expériences : le portrait célèbre la science et le couple, deux valeurs des Lumières. Lavoisier, fermier général, fut guillotiné en 1794.",
+        "image": "images/mouvements/neoclassicisme/david-antoine-et-marie-anne-lavoisier.jpg"
+      },
+      {
+        "title": "L'Empereur Napoléon dans son cabinet de travail aux Tuileries",
+        "artist": "Jacques-Louis David",
+        "country": "France",
+        "period": "1812",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.46114.html), domaine public (CC0)",
+        "analysis": "Une toile de 204 × 125 cm. Napoléon se tient debout, en uniforme bleu et blanc à épaulettes d'or, décoré de plaques et de médailles, la main glissée dans son gilet. Derrière lui, une haute horloge marque un peu plus de quatre heures ; sur le bureau et le fauteuil, des papiers, des livres et une épée. Selon la fiche du musée, David a signé « LVD.CI.DAVID OPVS / 1812 » et inscrit le mot « CODE » sur un rouleau, qui rappelle le Code civil. Le tableau a été commandé par un admirateur écossais de Napoléon, Alexander Douglas, futur duc de Hamilton.",
+        "compare": "David, qui a peint des héros antiques, est devenu le premier peintre de l'Empereur : il montre ici, dit-on, un chef qui a travaillé toute la nuit pour ses sujets. L'image de propagande est née.",
+        "image": "images/mouvements/neoclassicisme/david-napoleon-dans-son-cabinet-de-travail.jpg"
+      },
+      {
+        "title": "Buste de Napoléon",
+        "artist": "Antonio Canova",
+        "country": "Italie",
+        "period": "vers 1808–1814",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/239576), domaine public (CC0)",
+        "analysis": "Un buste en marbre blanc, probablement de Carrare, de 73,7 cm de haut. Le visage de Napoléon est lisse et idéalisé, les cheveux courts en mèches, le cou et les épaules nus comme ceux d'un empereur romain ; le regard fixe donne à la tête une gravité sans âge.",
+        "compare": "Canova, le plus célèbre sculpteur de son temps, a fait poser Napoléon à Paris en 1802 : il lui donne les traits d'un héros antique plutôt que ceux d'un homme de son temps.",
+        "image": "images/mouvements/neoclassicisme/canova-buste-de-napoleon.jpg"
+      },
+      {
+        "title": "Persée tenant la tête de Méduse",
+        "artist": "Antonio Canova",
+        "country": "Italie",
+        "period": "1804–1806",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/204758), domaine public (CC0)",
+        "analysis": "Un marbre de 2,43 mètres de haut. Le héros grec Persée, nu, coiffé d'un casque ailé, brandit de la main gauche la tête coupée de la Gorgone Méduse, dont les cheveux sont des serpents, et tient de la main droite une épée recourbée ; un manteau tombe de son bras. Le corps est lisse et idéal, la pose calme malgré l'action.",
+        "compare": "Canova cherche la « noble simplicité » que Winckelmann admirait chez les Grecs : pas de violence, mais un héros immobile et parfait. Le Vatican possède la première version de cette statue.",
+        "sensible": true,
+        "image": "images/mouvements/neoclassicisme/canova-persee-tenant-la-tete-de-meduse.jpg"
+      },
+      {
+        "title": "Faune",
+        "artist": "Johan Tobias Sergel",
+        "country": "Suède",
+        "period": "1774",
+        "museum": "Galerie nationale de Finlande, musée d'art Sinebrychoff, Helsinki",
+        "credit": "Galerie nationale de Finlande, musée d'art Sinebrychoff, Helsinki (https://www.finna.fi/Record/kansallisgalleria.EB3F69FD8DADE37B3CE67074B0C7DCCC), domaine public (CC0)",
+        "analysis": "Un marbre de 47 × 86 cm. Un faune, être mi-homme, mi-bête de la mythologie, est allongé sur une peau de bête, le bras replié au-dessus de la tête, comme endormi ou ivre ; son titre suédois le dit d'ailleurs « ivre ». Les muscles du corps et l'abandon de la pose sont rendus avec une grande souplesse.",
+        "compare": "Le Suédois Sergel a sculpté ce faune à Rome, d'après le souvenir des statues antiques de satyres endormis ; rappelé à Stockholm par le roi Gustave III, il devient le sculpteur de la cour.",
+        "sensible": true,
+        "image": "images/mouvements/neoclassicisme/sergel-faune.jpg"
+      },
+      {
+        "title": "L'Amour et Psyché",
+        "artist": "Johan Tobias Sergel",
+        "country": "Suède",
+        "period": "1789",
+        "museum": "Galerie nationale de Finlande, musée d'art Sinebrychoff, Helsinki",
+        "credit": "Galerie nationale de Finlande, musée d'art Sinebrychoff, Helsinki (https://www.finna.fi/Record/kansallisgalleria.132FDAD8CD416B06FB5F01C72851F3E9), domaine public (CC0)",
+        "analysis": "Un groupe en marbre. Debout, l'Amour, un adolescent ailé, se penche vers Psyché, agenouillée, qui l'enlace et lève vers lui son visage ; il lui prend la main. Les deux corps forment une seule masse claire et lisse, aux lignes douces.",
+        "compare": "Le même sujet que le tableau de David plus loin dans l'exposition : chez Sergel, la tendresse ; chez David, trente ans plus tard, l'ironie.",
+        "sensible": true,
+        "image": "images/mouvements/neoclassicisme/sergel-amour-et-psyche.jpg"
+      },
+      {
+        "title": "Autoportrait",
+        "artist": "Bertel Thorvaldsen",
+        "country": "Danemark",
+        "period": "1810",
+        "museum": "Statens Museum for Kunst, Copenhague",
+        "credit": "Statens Museum for Kunst, Copenhague (https://open.smk.dk/artwork/image/KMS5767), domaine public",
+        "analysis": "Un buste en plâtre de 74,5 cm, en forme d'hermès, c'est-à-dire coupé net aux épaules comme les bustes antiques posés sur un pilier. Le sculpteur s'est représenté les cheveux bouclés, le regard grave ; son nom, « THORVALDSEN », est gravé sur le devant en capitales romaines.",
+        "compare": "Le Danois Thorvaldsen a vécu une quarantaine d'années à Rome, où il était, avec Canova, le sculpteur le plus admiré d'Europe : il se présente lui-même comme un héros antique.",
+        "image": "images/mouvements/neoclassicisme/thorvaldsen-autoportrait.jpg"
+      },
+      {
+        "title": "La Jurisprudence, figure allégorique",
+        "artist": "Nicolai Abildgaard",
+        "country": "Danemark",
+        "period": "1800",
+        "museum": "Statens Museum for Kunst, Copenhague",
+        "credit": "Statens Museum for Kunst, Copenhague (https://open.smk.dk/artwork/image/KMS3880), domaine public",
+        "analysis": "Une toile de 73,5 × 57 cm, signée « N. Abildgaard. 1800. ». Une jeune femme en robe blanche à l'antique, une ceinture rose à la taille, est assise pieds nus sur un bloc de pierre ; elle s'appuie sur un faisceau de verges liées, au pied duquel dépasse une lame de hache, et tient un objet triangulaire, comme une équerre. Derrière elle se déploie un arc-en-ciel.",
+        "compare": "Le faisceau était l'emblème de l'autorité des magistrats romains : le néoclassicisme emprunte à l'Antiquité ses symboles pour parler de la loi et de la justice.",
+        "image": "images/mouvements/neoclassicisme/abildgaard-jurisprudence.jpg"
+      },
+      {
+        "title": "Vue de la Cloaca Maxima, à Rome",
+        "artist": "Christoffer Wilhelm Eckersberg",
+        "country": "Danemark",
+        "period": "1814",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.125227.html), domaine public (CC0)",
+        "analysis": "Une petite toile de 32 × 47 cm. Dans un creux herbeux, une arche sombre marque l'endroit où le grand égout de la Rome antique se jette dans le Tibre ; au-dessus s'étagent des maisons aux toits de tuiles, un clocher roman et, à droite, un petit temple rond à colonnes. Un promeneur marche sur le sentier. Le ciel bleu et les nuages sont peints avec une grande précision. Selon la fiche du musée, le tableau est resté chez l'artiste jusqu'à sa mort.",
+        "compare": "Le Danois Eckersberg, élève de David à Paris, a peint à Rome de petites vues prises sur le motif, d'une clarté parfaite : la leçon néoclassique devient observation de la réalité.",
+        "image": "images/mouvements/neoclassicisme/eckersberg-vue-de-la-cloaca-maxima-rome.jpg"
+      },
+      {
+        "title": "M. A. Calonius",
+        "artist": "Erik Cainberg",
+        "country": "Finlande",
+        "period": "1796",
+        "museum": "Galerie nationale de Finlande, musée Ateneum, Helsinki",
+        "credit": "Galerie nationale de Finlande, musée Ateneum, Helsinki (https://www.finna.fi/Record/kansallisgalleria.B844FC78C4A25488AA09F34C617DBE7E), domaine public (CC0)",
+        "analysis": "Un médaillon en plâtre bronzé. Dans un cadre rond orné d'une frise de perles, le visage d'un homme d'âge mûr est sculpté en relief, de profil, les cheveux courts, comme sur une médaille antique.",
+        "compare": "Le profil en médaillon imite les monnaies et les camées romains. Matthias Calonius était un grand juriste de Turku ; Erik Cainberg, né en Finlande et formé à Stockholm et à Rome, est l'un des premiers sculpteurs finlandais.",
+        "image": "images/mouvements/neoclassicisme/cainberg-m-a-calonius.jpg"
+      },
+      {
+        "title": "George Washington",
+        "artist": "Jean-Antoine Houdon",
+        "country": "France et États-Unis",
+        "period": "1786–1793",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.73902.html), domaine public (CC0)",
+        "analysis": "Un buste en plâtre de 52,6 cm. Le premier président des États-Unis est représenté sans perruque, les cheveux noués, le visage sévère et précis, les épaules couvertes d'un drapé. Selon la fiche du musée, un sceau de cire rouge au dos porte l'inscription « ACADEM. ROYALE DE PEINTURE ET SCULPT. HOUDON SC. ».",
+        "compare": "En 1785, Houdon a traversé l'Atlantique pour modeler le visage de Washington chez lui, à Mount Vernon, afin de sculpter la statue commandée par l'État de Virginie : la jeune république américaine se donne une image à l'antique.",
+        "image": "images/mouvements/neoclassicisme/houdon-george-washington.jpg"
+      },
+      {
+        "title": "George Washington (portrait Vaughan-Sinclair)",
+        "artist": "Gilbert Stuart",
+        "country": "États-Unis",
+        "period": "1795",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.565.html), domaine public (CC0)",
+        "analysis": "Une toile de 74 × 61 cm. Washington, en habit noir et jabot blanc, les cheveux poudrés, est vu à mi-buste devant un fond rouge chaud ; le visage, aux joues roses, est calme et sérieux. Selon la fiche du musée, le portrait a d'abord appartenu à William Sinclair, en Irlande.",
+        "compare": "Gilbert Stuart a peint Washington d'après nature à Philadelphie, puis en a fait de nombreuses répliques : ces portraits sobres, sans décor ni symbole, ont fixé l'image du président.",
+        "image": "images/mouvements/neoclassicisme/stuart-george-washington.jpg"
+      },
+      {
+        "title": "Marcotte d'Argenteuil",
+        "artist": "Jean-Auguste-Dominique Ingres",
+        "country": "France",
+        "period": "1810",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.41607.html), domaine public (CC0)",
+        "analysis": "Une toile de 94 × 69 cm. Un homme d'une trentaine d'années pose à mi-corps, appuyé sur un fauteuil, en redingote bleu nuit au col de velours, gilet jaune et cravate noire ; un petit ruban rouge est à sa boutonnière. Le visage, aux sourcils épais, est peint avec une précision lisse. Selon la fiche du musée, Ingres a signé « Ingres.Pinx.Rom. / 1810 » : il a peint ce portrait à Rome.",
+        "compare": "Ingres, élève de David, pousse la ligne jusqu'à la perfection. Marcotte, son ami, devient son mécène : c'est lui qui commande le tableau suivant.",
+        "image": "images/mouvements/neoclassicisme/ingres-marcotte-d-argenteuil.jpg"
+      },
+      {
+        "title": "Le Pape Pie VII dans la chapelle Sixtine",
+        "artist": "Jean-Auguste-Dominique Ingres",
+        "country": "France",
+        "period": "1814",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.41606.html), domaine public (CC0)",
+        "analysis": "Une toile de 74,5 × 92,7 cm. Le pape, en vêtements blancs et or, prie sous un dais, entouré de cardinaux en rouge et en blanc ; au premier plan, des prêtres et des religieux sont assis en rangs. À droite, on reconnaît sur le mur une partie du Jugement dernier de Michel-Ange. Selon la fiche du musée, le tableau a été commandé par Marcotte d'Argenteuil, et la date, d'abord 1814, a été modifiée par la suite.",
+        "compare": "Pie VII avait été retenu prisonnier par Napoléon jusqu'en 1814 : Ingres peint une cérémonie religieuse avec l'exactitude d'un historien, dans le décor de la Renaissance qu'il admirait.",
+        "image": "images/mouvements/neoclassicisme/ingres-pie-vii-dans-la-chapelle-sixtine.jpg"
+      },
+      {
+        "title": "L'Amour et Psyché",
+        "artist": "Jacques-Louis David",
+        "country": "Belgique (artiste français)",
+        "period": "1817",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1962.37), domaine public (CC0)",
+        "analysis": "Une grande toile de 184 × 242 cm, signée sur le bras du lit « L. David 1817 Bruxelles ». Selon le musée, David utilise l'histoire de l'Amour et de Psyché pour explorer le conflit entre l'amour idéal et la réalité physique : l'Amour, qui rendait visite chaque nuit à la belle mortelle Psyché à condition qu'elle ignore qui il était, est habituellement représenté comme un adolescent idéal ; David en fait au contraire un garçon un peu gauche, qui sourit de sa conquête. Il s'est inspiré d'un poème grec de Moschos, récemment publié, qui décrit l'Amour comme un garnement aux yeux brillants et aux cheveux bouclés. Le musée signale deux papillons, l'un au-dessus de Psyché endormie, l'autre sur le pied du lit.",
+        "compare": "Exilé à Bruxelles après la chute de Napoléon, David garde le style lisse et la mythologie du néoclassicisme, mais le héros antique est devenu un adolescent moqueur.",
+        "sensible": true,
+        "image": "images/mouvements/neoclassicisme/david-l-amour-et-psyche.jpg"
+      },
+      {
+        "title": "Ossian chantant son chant du cygne",
+        "artist": "Nicolai Abildgaard",
+        "country": "Danemark",
+        "period": "1780–1782",
+        "museum": "Statens Museum for Kunst, Copenhague",
+        "credit": "Statens Museum for Kunst, Copenhague (https://open.smk.dk/artwork/image/KMS395), domaine public",
+        "analysis": "Une petite toile de 42 × 35,5 cm. Un vieux barde, à la longue barbe blanche soulevée par le vent, est assis dans une grotte sombre, une harpe contre lui et une lance à ses côtés ; il lève un bras, et son manteau bleu-vert s'envole au-dessus de sa tête.",
+        "compare": "Le même Abildgaard qui peint la Jurisprudence s'enthousiasme pour Ossian, un barde écossais dont les poèmes, publiés dans les années 1760 comme anciens, passionnaient l'Europe : sous l'Antique, la nuit, le vent et les légendes du Nord annoncent déjà le romantisme.",
+        "image": "images/mouvements/neoclassicisme/abildgaard-ossian-chantant-son-chant-du-cygne.jpg"
+      },
+      {
+        "title": "Madame Moitessier",
+        "artist": "Jean-Auguste-Dominique Ingres",
+        "country": "France",
+        "period": "1851",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.32696.html), domaine public (CC0)",
+        "analysis": "Une toile de 147 × 100 cm. Une jeune femme debout, en robe de velours noir et dentelle, des fleurs roses dans les cheveux, se tient devant un mur tendu de soie rouge ; elle porte des bracelets, un collier de perles et une broche, et tient un éventail fermé. Selon la fiche du musée, Ingres a signé et daté le tableau en bas, « I.A.D. INGRES P.XIT ANO 1851 », et inscrit le nom du modèle en haut à droite : « M.E INES MOITESSIER / NÉE DE FOUCAULD ».",
+        "compare": "Le point d'arrivée de l'exposition : en 1851, Ingres, devenu le maître de l'Académie face aux romantiques, garde la ligne pure et la pose de statue héritées de l'Antique.",
+        "image": "images/mouvements/neoclassicisme/ingres-madame-moitessier.jpg"
+      }
+    ]
   }
 ]

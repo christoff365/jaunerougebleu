@@ -8,7 +8,7 @@ Le site est un site statique : pas de serveur, pas de base de données. Il est h
 
 Les bénévoles se connectent sur **https://app.pagescms.org** (compte GitHub ou invitation par e-mail), ouvrent le site *jaunerougebleu*, puis :
 
-- **Expositions** : les expositions spéciales de la page d'accueil (fichier `expositions.json`) ;
+- **Expositions** : les expositions spéciales de la page d'accueil (fichier `expositions.json`). Le champ « Image de couverture » choisit l'image affichée en haut de la carte de l'exposition sur l'accueil (format 16:10 conseillé ; les couvertures actuelles, allégées à 960 × 600 pixels, sont dans `images/couvertures/`) ; s'il est vide, la carte montre la première œuvre non sensible de l'exposition ;
 - **Expositions des mouvements** : les expositions préparées pour les mouvements de l'onglet Mouvements (fichier `mouvements.json`) ;
 - **Collection du générateur** : les œuvres utilisées par le générateur d'exposition (fichier `collection.json`).
 

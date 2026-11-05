@@ -50,6 +50,9 @@ content:
             - Guerre & paix
             - Abstraction universelle
             - Couleur & perception
+      - name: cover
+        label: "Image de couverture (carte de l'accueil, format 16:10 conseillé) : si vide, la première œuvre non sensible de l'exposition"
+        type: image
       - name: intro
         label: Introduction éditoriale
         type: text

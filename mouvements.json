@@ -7358,5 +7358,480 @@
         "image": "images/mouvements/realisme/homer-le-gulf-stream.jpg"
       }
     ]
+  },
+  {
+    "mouvement": "Symbolisme",
+    "slug": "symbolisme",
+    "status": "published",
+    "title": "Le symbolisme, peindre le rêve et l'invisible",
+    "subtitle": "Europe et États-Unis, 1860–1910, avec ses sources et son héritage : vingt et une œuvres de New York, Washington, Cleveland, Copenhague, Amsterdam et Helsinki",
+    "intro": "À la fin du XIXe siècle, alors que le réalisme et l'impressionnisme peignent le monde visible, des artistes veulent au contraire montrer ce qui ne se voit pas : le rêve, l'âme, l'angoisse, la mort, l'amour, le sacré. Pour eux, une image n'est pas une copie de la réalité, mais un symbole qui éveille une idée ou une émotion, comme un poème. Le mot vient de la littérature : en 1886, le poète Jean Moréas publie dans Le Figaro un « manifeste du symbolisme », dans le sillage de Charles Baudelaire, de Paul Verlaine et de Stéphane Mallarmé ; la musique de Richard Wagner, qui veut unir tous les arts, fascine peintres et poètes. Les sources sont anciennes : les mythes grecs, la Bible, les légendes médiévales, les peintres anglais préraphaélites, comme Dante Gabriel Rossetti et Edward Burne-Jones, qui reviennent à l'art d'avant Raphaël, et les visionnaires romantiques, comme William Blake ou Johann Heinrich Füssli. En France, Gustave Moreau peint des mythes étincelants de bijoux, Pierre Puvis de Chavannes de grands décors calmes et silencieux, Odilon Redon des rêves en noir puis en couleurs. Les thèmes reviennent d'un pays à l'autre : la femme fatale, Salomé ou le Sphinx, la mort, la nuit, l'ange, le voyage de l'âme. Les idées de l'époque le portent : le doute devant le progrès et la science, le goût de l'occultisme et des religions orientales, la théosophie, la psychologie naissante, qui s'intéresse aux rêves. Les commanditaires et les lieux changent : des collectionneurs privés, souvent fortunés, des revues d'art et de poésie, des groupes d'artistes indépendants, comme les XX à Bruxelles, à partir de 1883, ou la Sécession viennoise, à partir de 1897, et les Salons de la Rose-Croix organisés à Paris par Joséphin Péladan de 1892 à 1897. Le mouvement est européen et au-delà : en Belgique avec Fernand Khnopff, en Suisse avec Ferdinand Hodler, en Italie avec Giovanni Segantini, en Norvège avec Edvard Munch, en Finlande, où Akseli Gallen-Kallela et Hugo Simberg puisent dans le Kalevala, l'épopée nationale, et dans les légendes populaires, en Russie avec Mikhaïl Vroubel, aux États-Unis avec Albert Pinkham Ryder. Son héritage est immense : l'expressionnisme, le surréalisme, et l'abstraction, dont plusieurs pionniers, comme Kandinsky, Mondrian ou Hilma af Klint, sont venus du symbolisme et de la théosophie (voir l'exposition sur les pionniers de l'abstraction). Note sur les sources : plusieurs chefs-d'œuvre du symbolisme, comme L'Apparition de Moreau (musée d'Orsay), Des caresses de Khnopff (Bruxelles) ou Le Démon assis de Vroubel (Moscou), ont leurs photos sur Wikimedia Commons, mais le site refusait les téléchargements au moment de la préparation de l'exposition (« trop de requêtes »). Les œuvres viennent du Metropolitan Museum of Art, de la National Gallery of Art de Washington, du Cleveland Museum of Art, du Statens Museum for Kunst de Copenhague, du Rijksmuseum et de la Galerie nationale de Finlande.",
+    "works": [
+      {
+        "title": "Œdipe et le Sphinx",
+        "artist": "Gustave Moreau",
+        "country": "France",
+        "period": "1864",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/437153), domaine public (CC0)",
+        "analysis": "Une haute toile de 206 × 105 cm. Dans un défilé rocheux, le jeune héros grec Œdipe, presque nu, appuyé sur une lance, affronte le Sphinx, un monstre à tête et poitrine de femme, à corps de lion et à ailes d'oiseau, qui s'est agrippé à lui et le fixe dans les yeux. En bas, on aperçoit les pieds et la main d'un cadavre, victime du monstre ; à droite, une colonne surmontée d'une urne. Tout est peint avec une précision minutieuse.",
+        "compare": "Selon le mythe, le Sphinx dévorait ceux qui ne résolvaient pas son énigme. Moreau en fait un face-à-face silencieux entre l'homme et la femme-monstre : un des points de départ du symbolisme, qui aimera les femmes fatales.",
+        "sensible": true,
+        "image": "images/mouvements/symbolisme/moreau-oedipe-et-le-sphinx.jpg"
+      },
+      {
+        "title": "Le Fils prodigue",
+        "artist": "Pierre Puvis de Chavannes",
+        "country": "France",
+        "period": "vers 1879",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.46675.html), domaine public (CC0)",
+        "analysis": "Une toile de 106,5 × 146,7 cm. Un homme barbu, vêtu seulement d'un pagne, est assis par terre, adossé à un talus, les mains jointes contre sa poitrine, les yeux baissés ; derrière lui, des porcs fouillent la terre d'un paysage nu, aux couleurs pâles et assourdies. Selon la fiche du musée, le tableau est resté chez l'artiste jusqu'à sa mort, puis a été vendu au marchand Durand-Ruel.",
+        "compare": "La parabole de l'Évangile : le fils qui a dilapidé sa fortune garde les porcs et regrette la maison de son père. Puvis la peint sans décor ni anecdote, avec des formes simples et des couleurs sourdes : une image intérieure, que les symbolistes admireront.",
+        "image": "images/mouvements/symbolisme/puvis-de-chavannes-le-fils-prodigue.jpg"
+      },
+      {
+        "title": "La Cour du jardin",
+        "artist": "Edward Burne-Jones",
+        "country": "Angleterre",
+        "period": "1870–1875",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1994.197), domaine public (CC0)",
+        "analysis": "Un dessin au graphite et à l'aquarelle, rehaussé de gouache blanche. Selon le musée, l'histoire de la Belle au bois dormant a occupé Burne-Jones pendant une grande partie de sa carrière ; ce dessin se rapporte sans doute à sa première série de tableaux sur ce thème, aujourd'hui au Museo de Arte de Ponce, à Porto Rico. Des tiges de ronces s'enroulent en arabesques sur un fond plat vert-jaune, comme pour emprisonner six servantes endormies près d'un métier à tisser et d'un puits.",
+        "compare": "Le Britannique Burne-Jones, héritier des préraphaélites, peint un monde de sommeil et de légende, hors du temps : une des grandes sources du symbolisme européen.",
+        "image": "images/mouvements/symbolisme/burne-jones-la-cour-du-jardin.jpg"
+      },
+      {
+        "title": "Salomé avec la tête de saint Jean-Baptiste",
+        "artist": "Gustave Moreau",
+        "country": "France",
+        "period": "vers 1876",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/782308), domaine public (CC0)",
+        "analysis": "Un tout petit panneau de bois de 21,6 × 12,1 cm. Dans un palais sombre, Salomé, vêtue d'une longue robe brodée d'or et coiffée d'un diadème, présente sur un plateau la tête coupée de Jean-Baptiste, entourée d'une auréole de rayons. Une lampe brûle à gauche ; le ciel, par une ouverture, est bleu nuit.",
+        "compare": "Dans l'Évangile, Salomé obtient du roi Hérode la tête du prophète Jean-Baptiste. Moreau a peint ce sujet à de nombreuses reprises : la princesse immobile et parée de bijoux devient l'image même de la femme fatale symboliste.",
+        "image": "images/mouvements/symbolisme/moreau-salome-avec-la-tete-de-saint-jean-baptiste.jpg"
+      },
+      {
+        "title": "L'Aile",
+        "artist": "Odilon Redon",
+        "country": "France",
+        "period": "1893",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.10181.html), domaine public (CC0)",
+        "analysis": "Une lithographie de 32 × 24,4 cm. Un cheval ailé, dessiné en noirs profonds et en gris veloutés, se cabre dans un espace indéfini ; ses grandes ailes sombres s'ouvrent autour de lui, et sa tête, éclairée, semble surgir de la nuit. En bas à droite, la signature imprimée : « ODILON REDON ».",
+        "compare": "Pendant vingt ans, Redon n'a travaillé presque qu'en noir, au fusain et à la lithographie : ses « noirs », peuplés de monstres et de visions, ont fait de lui le peintre du rêve préféré des poètes symbolistes.",
+        "image": "images/mouvements/symbolisme/redon-l-aile.jpg"
+      },
+      {
+        "title": "Orphée",
+        "artist": "Odilon Redon",
+        "country": "France",
+        "period": "vers 1903–1910",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1926.25), domaine public (CC0)",
+        "analysis": "Un pastel sur papier brun de 68,8 × 56,8 cm, signé en bas à gauche « ODILON REDON ». Selon le musée, il représente la tête du poète et musicien Orphée, dont la musique continua après sa mort, à travers sa lyre et sa tête ; ce mythe fascinait Redon, qui se reconnaissait dans le dévouement d'Orphée à son art, et rejoignait son intérêt pour le rêve et la spiritualité. La tête flotte, comme suspendue, près de la lyre, tandis que s'élève derrière elle le mont Parnasse, demeure d'Apollon et des Muses. Les couleurs, violettes, roses et bleues, sont posées en couches vives de pastel.",
+        "compare": "Après les « noirs », la couleur : à soixante ans, Redon passe au pastel et à la peinture, et ses rêves s'illuminent. Selon le musée, une autre version de ce pastel fit découvrir l'artiste au public américain en 1913.",
+        "image": "images/mouvements/symbolisme/redon-orphee.jpg"
+      },
+      {
+        "title": "Pandore",
+        "artist": "Odilon Redon",
+        "country": "France",
+        "period": "1910–1912",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.46531.html), domaine public (CC0)",
+        "analysis": "Une toile étroite de 143,5 × 63 cm, signée en bas à droite « ODILON REDON ». Une jeune femme vêtue d'une longue robe bleu-vert, les cheveux roux, se tient debout de profil, la tête penchée sur une petite boîte qu'elle tient contre elle ; autour d'elle s'épanouissent des fleurs imaginaires, jaunes, orange et blanches, devant des montagnes bleutées et un ciel rose.",
+        "compare": "Dans le mythe grec, Pandore ouvre la boîte qui libère tous les maux du monde. Redon en fait une rêverie colorée et paisible : le symbole compte plus que l'histoire.",
+        "image": "images/mouvements/symbolisme/redon-pandore.jpg"
+      },
+      {
+        "title": "Le Christ orange",
+        "artist": "Maurice Denis",
+        "country": "France",
+        "period": "1889",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/2020.107), domaine public (CC0)",
+        "analysis": "Une petite peinture sur carton de 23,8 × 18,9 cm. Selon le musée, Maurice Denis, catholique fervent, voulait créer des « icônes impérissables » ; il utilise ici des plans plats de couleurs intenses pour susciter l'émotion. Un groupe de femmes, réduites à des formes noires et bleues, se tient au pied d'un Christ orange en croix, la tête entourée d'un halo jaune ; le ciel rouge violacé est strié de nuages verts, et des anges roses l'entourent.",
+        "compare": "Denis a écrit qu'un tableau est « une surface plane recouverte de couleurs en un certain ordre assemblées » : chez les Nabis, le symbolisme ouvre déjà la voie à l'art moderne.",
+        "image": "images/mouvements/symbolisme/denis-le-christ-orange.jpg"
+      },
+      {
+        "title": "Le Contemplateur",
+        "artist": "Eugène Carrière",
+        "country": "France",
+        "period": "1901",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1946.283), domaine public (CC0)",
+        "analysis": "Une toile de 33,6 × 41 cm, signée en bas à droite. Selon le musée, ce tableau illustre le poème de Victor Hugo Booz endormi ; c'est l'une des cinq images que Carrière a créées pour le centenaire de la naissance de Hugo. Un poète étendu regarde les étoiles, comme en rêve, une main sur le cœur, l'autre tendue vers un croissant de lune. Le musée rappelle que la lune passait pour exercer une influence particulière sur les poètes et les artistes, inspirant la création mais aussi la mélancolie.",
+        "compare": "Tout est peint dans un seul ton brun, comme dans une brume : selon le musée, ces tableaux presque monochromes de Carrière ont influencé la période bleue de Picasso.",
+        "image": "images/mouvements/symbolisme/carriere-le-contemplateur.jpg"
+      },
+      {
+        "title": "L'Offrande",
+        "artist": "Fernand Khnopff",
+        "country": "Belgique",
+        "period": "1891",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/373860), domaine public (CC0)",
+        "analysis": "Un pastel, graphite et craie sur papier de 35 × 75 cm, en longueur. À gauche, une jeune femme aux cheveux roux, les épaules nues, appuie son bras sur un long autel ou un muret de marbre blanc ; elle tend la main sur le marbre, vers le centre de l'image. À droite, une tête sculptée, pâle comme une statue, se dresse à l'autre bout. Au milieu, une étroite bande de ciel bleu. Tout est clair, silencieux et énigmatique.",
+        "compare": "Le Belge Khnopff, membre du groupe des XX à Bruxelles, peint des femmes au regard fixe et lointain, entre le rêve et l'idole : on ne sait jamais ce qui se passe, et c'est voulu.",
+        "image": "images/mouvements/symbolisme/khnopff-l-offrande.jpg"
+      },
+      {
+        "title": "Portrait de Madame Jules Ricard, née Augustine Bulteau",
+        "artist": "Fernand Khnopff",
+        "country": "Belgique",
+        "period": "vers 1893",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/2018.206), domaine public (CC0)",
+        "analysis": "Un dessin à la pierre noire sur vélin brun clair. Selon le musée, Khnopff était surtout connu pour ses femmes fatales, mais ce dessin donne un portrait personnel et intime de son modèle, Augustine Bulteau, romancière et écrivaine, qui tenait un salon fréquenté par des artistes comme Manet et Toulouse-Lautrec. Elle est vêtue de façon sobre mais élégante et garde un doigt dans un livre, comme si on l'avait interrompue dans sa lecture.",
+        "compare": "Le même Khnopff, dans un registre tout différent : un regard calme et direct, sans mystère apparent. Le symbolisme n'est pas qu'un monde de légendes.",
+        "image": "images/mouvements/symbolisme/khnopff-madame-jules-ricard.jpg"
+      },
+      {
+        "title": "Le Rêve du berger",
+        "artist": "Ferdinand Hodler",
+        "country": "Suisse",
+        "period": "1896",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/634108), domaine public (CC0)",
+        "analysis": "Une très haute toile de 250 × 130,5 cm. En bas, dans un paysage de rochers clairs et d'herbe verte, un berger agenouillé, appuyé sur son bâton, cache son visage dans sa main. En haut, au-dessus d'une ligne d'horizon, une rangée de jeunes femmes nues, aux cheveux roux, se tiennent debout et dansent, comme une vision. Les formes sont cernées, les couleurs claires et plates.",
+        "compare": "Le rêve et la réalité sont superposés comme deux bandes d'une frise : le Suisse Hodler organise ses tableaux par répétitions et symétries, ce qu'il appelait le « parallélisme ».",
+        "sensible": true,
+        "image": "images/mouvements/symbolisme/hodler-le-reve-du-berger.jpg"
+      },
+      {
+        "title": "Le Pin",
+        "artist": "Giovanni Segantini",
+        "country": "Italie et Suisse",
+        "period": "vers 1897",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1982.124), domaine public (CC0)",
+        "analysis": "Une toile étroite de 135 × 72 cm. Selon le musée, Segantini a peint ce pin des Alpes suisses avec ses couleurs brillantes posées en petites touches séparées ; plutôt qu'une copie de la nature, le cadrage très serré et l'espace plat et décoratif cherchent à éveiller une émotion. Il écrivait : « La nature dit à l'artiste le mot éternel : amour, amour ; et la terre chante la vie au printemps, et l'âme des choses se réveille. » Selon le musée, le coin inférieur droit est resté inachevé : on y voit la préparation rouge de la toile.",
+        "compare": "Un symbolisme sans légende : l'Italien Segantini cherche « l'âme des choses » dans un simple arbre de montagne.",
+        "image": "images/mouvements/symbolisme/segantini-pin.jpg"
+      },
+      {
+        "title": "Femme aux cheveux roux et aux yeux verts (Le Péché)",
+        "artist": "Edvard Munch",
+        "country": "Norvège",
+        "period": "1901",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1983.185), domaine public (CC0)",
+        "analysis": "Une lithographie en couleurs de 69,8 × 40,2 cm. Le buste nu d'une femme est enveloppé d'une immense chevelure rousse qui tombe jusqu'en bas de l'image ; ses yeux verts fixent le spectateur. Selon le musée, la longue chevelure, symbole de la séduction de la femme fatale, est un thème récurrent chez Munch, qui utilisait souvent le roux comme symbole de la sexualité ; ses estampes circulaient largement à Paris, et les femmes fatales du jeune Picasso leur ressemblent de façon frappante.",
+        "compare": "La femme fatale, de Moreau à Munch : le Norvégien la simplifie en quelques aplats de couleur, et l'image devient obsédante.",
+        "sensible": true,
+        "image": "images/mouvements/symbolisme/munch-le-peche.jpg"
+      },
+      {
+        "title": "Intérieur avec le chevalet de l'artiste",
+        "artist": "Vilhelm Hammershøi",
+        "country": "Danemark",
+        "period": "1910",
+        "museum": "Statens Museum for Kunst, Copenhague",
+        "credit": "Statens Museum for Kunst, Copenhague (https://open.smk.dk/artwork/image/KMS7444), domaine public",
+        "analysis": "Selon le musée, Hammershøi s'est levé de sa chaise devant le chevalet et a changé de place pour le peindre de dos. On voit son appartement-atelier, sa chaise, une porte ouverte sur un bol de faïence posé sur un meuble ancien, et au mur une estampe dans un cadre doré. Personne n'est là ; presque tout est gris.",
+        "compare": "Un symbolisme du silence : le Danois Hammershøi ne peint ni mythe ni monstre, mais des pièces vides où le temps semble suspendu.",
+        "image": "images/mouvements/symbolisme/hammershoi-interieur-avec-le-chevalet.jpg"
+      },
+      {
+        "title": "Le Jardin de la mort",
+        "artist": "Hugo Simberg",
+        "country": "Finlande",
+        "period": "1896",
+        "museum": "Galerie nationale de Finlande, musée Ateneum, Helsinki",
+        "credit": "Galerie nationale de Finlande, musée Ateneum, Helsinki (https://www.finna.fi/Record/kansallisgalleria.0A48459FA177256B62CC6FD2D340317E), domaine public (CC0)",
+        "analysis": "Une petite œuvre de 15,8 × 17,5 cm, signée « HS » et datée 1896 en bas à droite. Dans un jardin de terre brune, trois squelettes vêtus de robes noires de moines s'occupent de fleurs plantées dans des bacs et des pots : l'un les arrose avec un arrosoir vert, un autre tient tendrement une petite fleur bleue. Les formes sont naïves, comme dans une illustration de conte.",
+        "compare": "Chez Simberg, la Mort n'est pas terrifiante : c'est un jardinier attentif qui soigne les âmes comme des plantes. Le symbolisme finlandais mêle humour, tendresse et mélancolie.",
+        "image": "images/mouvements/symbolisme/simberg-le-jardin-de-la-mort.jpg"
+      },
+      {
+        "title": "La Mère de Lemminkäinen",
+        "artist": "Akseli Gallen-Kallela",
+        "country": "Finlande",
+        "period": "1897",
+        "museum": "Galerie nationale de Finlande, musée Ateneum, Helsinki",
+        "credit": "Galerie nationale de Finlande, musée Ateneum, Helsinki (https://www.finna.fi/Record/kansallisgalleria.3A091E90021FB4F7C3DED1C3E108197E), domaine public (CC0)",
+        "analysis": "Une toile de 85,5 × 108,5 cm. Sur une rive de galets, au bord d'une eau noire, une vieille femme en fichu blanc est assise près du corps nu et blême d'un jeune homme étendu ; une main posée sur lui, elle lève les yeux vers le ciel, d'où descend un rayon de lumière dorée. Des ossements et un crâne sont épars autour d'eux ; au loin, sur l'eau noire, nage un cygne.",
+        "compare": "Une scène du Kalevala, l'épopée nationale finlandaise : la mère du héros Lemminkäinen a repêché les morceaux de son fils dans le fleuve des morts et attend l'aide du ciel pour le ramener à la vie. Le mythe devient le symbole d'un peuple qui cherche son identité.",
+        "sensible": true,
+        "image": "images/mouvements/symbolisme/gallen-kallela-la-mere-de-lemminkainen.jpg"
+      },
+      {
+        "title": "L'Ange blessé",
+        "artist": "Hugo Simberg",
+        "country": "Finlande",
+        "period": "1903",
+        "museum": "Galerie nationale de Finlande, musée Ateneum, Helsinki",
+        "credit": "Galerie nationale de Finlande, musée Ateneum, Helsinki (https://www.finna.fi/Record/kansallisgalleria.7DD4ABCA5363876504605CBB60DBC422), domaine public (CC0)",
+        "analysis": "Une toile de 127 × 154 cm. Deux garçons en vêtements sombres portent sur une civière de bois un ange aux ailes blanches, une jeune fille aux yeux bandés, l'aile tachée de sang, qui tient un petit bouquet de fleurs blanches. Ils marchent sur un chemin de terre, au bord d'un lac, dans un paysage pâle de printemps ; le garçon de droite se retourne et regarde le spectateur, l'air grave.",
+        "compare": "L'une des images les plus aimées de Finlande. Simberg n'a jamais expliqué ce qu'elle signifiait, et c'est ce mystère qui en fait un tableau symboliste : chacun y lit la fragilité, la blessure ou l'espoir.",
+        "image": "images/mouvements/symbolisme/simberg-l-ange-blesse.jpg"
+      },
+      {
+        "title": "Le Champ de courses (La Mort sur un cheval pâle)",
+        "artist": "Albert Pinkham Ryder",
+        "country": "États-Unis",
+        "period": "vers 1896–1908",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1928.8), domaine public (CC0)",
+        "analysis": "Une toile de 70,5 × 90 cm, signée en bas à gauche. Selon le musée, le sujet a été inspiré par une course de chevaux à New York en 1888 : un ami de Ryder avait parié 500 dollars et, son cheval ayant perdu, s'était donné la mort. La Mort, un squelette armé d'une faux, galope à cheval sur une piste déserte, sous un ciel d'orage, tandis qu'un serpent, signe de tentation et de mal, rampe au premier plan. Ryder a travaillé des années sur ce tableau et refusait de s'en séparer.",
+        "compare": "Un symbolisme américain, nourri d'images médiévales : la Mort à cheval de l'Apocalypse fait irruption dans un fait divers moderne.",
+        "image": "images/mouvements/symbolisme/ryder-le-champ-de-courses.jpg"
+      },
+      {
+        "title": "Le Moulin Oostzijdse au bord du Gein, au clair de lune",
+        "artist": "Piet Mondrian",
+        "country": "Pays-Bas",
+        "period": "vers 1903",
+        "museum": "Rijksmuseum, Amsterdam",
+        "credit": "Rijksmuseum, Amsterdam (https://www.rijksmuseum.nl/nl/collectie/SK-A-4987), domaine public",
+        "analysis": "Une toile signée en bas à gauche « PieT MONDRIAAN ». Selon la fiche du musée, le moulin Oostzijdse se dresse au bord de la rivière Gein, près d'Abcoude ; l'horizon est un peu au-dessus du milieu, la lune, en haut à droite du moulin, est en partie cachée par un nuage, et le premier plan est occupé par une mare couverte de végétation où se reflète le moulin. Les couleurs sont bleues, vertes et violettes, dans la lumière du soir.",
+        "compare": "Le jeune Mondrian peint d'abord des paysages de crépuscule et de clair de lune, pleins de mystère ; passionné de théosophie, il ira bientôt jusqu'à l'abstraction (voir l'exposition sur les pionniers de l'abstraction).",
+        "image": "images/mouvements/symbolisme/mondrian-moulin-oostzijdse-au-clair-de-lune.jpg"
+      },
+      {
+        "title": "Paysage décoratif",
+        "artist": "Ellen Thesleff",
+        "country": "Finlande",
+        "period": "1910",
+        "museum": "Galerie nationale de Finlande, musée Ateneum, Helsinki",
+        "credit": "Galerie nationale de Finlande, musée Ateneum (https://www.kansallisgalleria.fi/en/object/398658), domaine public (CC0)",
+        "analysis": "Ellen Thesleff peint un grand arbre contre un ciel bleu, à larges touches visibles. Le feuillage est fait de deux verts, l'un tirant sur le jaune, l'autre sur le bleu, et les troncs sont bleus. Il n'y a ni personnage ni détail : seulement des couleurs et des formes simplifiées.",
+        "compare": "Le point d'arrivée de l'exposition : la Finlandaise Thesleff, qui avait commencé par des tableaux symbolistes pâles et rêveurs, laisse la couleur exprimer seule l'émotion. Le chemin vers l'art moderne est ouvert.",
+        "image": "images/mouvements/symbolisme/thesleff-paysage-decoratif.jpg"
+      }
+    ]
+  },
+  {
+    "mouvement": "Pionniers de l'abstraction",
+    "slug": "pionniers-de-l-abstraction",
+    "status": "published",
+    "title": "Les pionniers de l'abstraction, peindre sans rien représenter",
+    "subtitle": "Europe, 1905–1930, avec ses sources et son héritage : vingt œuvres de Cleveland, Washington, Amsterdam, Copenhague et d'autres musées d'Europe",
+    "intro": "Entre 1905 et 1920, dans plusieurs pays à la fois, des artistes franchissent un pas que personne n'avait osé : peindre des tableaux qui ne représentent rien de reconnaissable, ni paysage, ni personne, ni objet, seulement des couleurs, des lignes et des formes. Ils ne se connaissent pas tous, mais ils partagent des sources. La musique d'abord, un art qui touche sans rien imiter : dès les années 1860, le peintre américain James McNeill Whistler donne à ses tableaux des titres musicaux, « symphonie », « nocturne », « arrangement ». Le symbolisme ensuite, qui voulait peindre l'invisible (voir l'exposition sur le symbolisme), et la théosophie, une doctrine spirituelle très en vogue, qui promettait de voir au-delà des apparences : la Suédoise Hilma af Klint, le Russe Vassily Kandinsky et le Néerlandais Piet Mondrian s'y sont tous intéressés. Enfin, les recherches sur la couleur, de l'impressionnisme au fauvisme, et le cubisme de Picasso et Braque, qui décompose les objets en facettes. Hilma af Klint peint dès 1906, à Stockholm, de grandes toiles abstraites qu'elle ne montre presque à personne. Kandinsky, à Munich, publie en 1911 Du spirituel dans l'art et peint ses « Improvisations » et ses « Compositions ». À Paris, Robert Delaunay peint des disques de couleurs simultanées, que le poète Apollinaire appelle l'« orphisme ». À Moscou et à Pétrograd, Kazimir Malevitch lance en 1915 le suprématisme, avec son Carré noir, et Lioubov Popova, Olga Rozanova ou El Lissitzky suivent de nouvelles voies ; après la révolution de 1917, l'abstraction veut construire un monde nouveau, avant d'être interdite par Staline au profit du réalisme socialiste. Aux Pays-Bas, Mondrian et Theo van Doesburg fondent en 1917 la revue De Stijl, qui réduit la peinture aux lignes droites et aux trois couleurs primaires, et l'étend aux meubles, aux intérieurs et à l'architecture. En Allemagne, l'école du Bauhaus, fondée en 1919, accueille Kandinsky et Paul Klee comme professeurs. Les commanditaires sont rares et nouveaux : des galeries d'avant-garde, comme Der Sturm, d'Herwarth Walden, à Berlin, qui expose aussi Jacoba van Heemskerck, des revues, des collectionneurs passionnés, comme Katherine Dreier et sa Société anonyme, fondée à New York en 1920, puis Solomon Guggenheim et Hilla Rebay, qui ouvrent en 1939 un musée de la peinture non figurative. En 1937, les nazis classent l'abstraction parmi l'« art dégénéré ». Son héritage est immense : l'expressionnisme abstrait américain, le design, l'architecture moderne, le graphisme et même nos écrans. Note sur le droit d'auteur : une œuvre n'entre dans le domaine public que soixante-dix ans après la mort de l'artiste ; les œuvres de František Kupka, de Sonia Delaunay, de Jean Arp ou d'Alexandre Rodtchenko ne peuvent donc pas encore être montrées ici. Note sur les sources : beaucoup d'œuvres de ces pionniers, comme le Carré noir de Malevitch (Moscou) ou les grandes Compositions de Kandinsky, ont leurs photos sur Wikimedia Commons, mais le site refusait les téléchargements au moment de la préparation de l'exposition (« trop de requêtes ») ; quatre images, téléchargées auparavant et déjà présentes sur le site, viennent de Stockholm, Munich, Saint-Pétersbourg et Bâle. Les autres œuvres viennent du Cleveland Museum of Art, de la National Gallery of Art de Washington, du Rijksmuseum et du Statens Museum for Kunst de Copenhague.",
+    "works": [
+      {
+        "title": "Gris et argent : Chelsea Wharf",
+        "artist": "James McNeill Whistler",
+        "country": "États-Unis et Angleterre",
+        "period": "vers 1864–1868",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.1238.html), domaine public (CC0)",
+        "analysis": "Une toile de 61 × 46 cm. Sur la Tamise, à Londres, des mâts et des voiles brunes et rouges se dressent devant une rive à peine visible, dans un brouillard gris argenté ; au premier plan, quelques silhouettes sombres sur le quai. La peinture est fluide et transparente, presque sans détails. Selon la fiche du musée, Whistler l'a vendue avant 1886 à un collectionneur de Londres.",
+        "compare": "Le titre parle d'abord de couleurs, « gris et argent », comme on nommerait un morceau de musique : Whistler annonce l'idée qu'un tableau vaut d'abord par ses accords de couleurs, avant ce qu'il représente.",
+        "image": "images/mouvements/pionniers-de-l-abstraction/whistler-gris-et-argent-chelsea-wharf.jpg"
+      },
+      {
+        "title": "Chrysanthème",
+        "artist": "Piet Mondrian",
+        "country": "Pays-Bas",
+        "period": "1906 ou plus tard",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1958.38), domaine public (CC0)",
+        "analysis": "Une toile de 41,5 × 38,5 cm, signée « P M ». Selon le musée, Mondrian, fasciné par la structure complexe des chrysanthèmes, en a peint tout au long de sa carrière ; cette fleur unique, vue de face, rappelle les chrysanthèmes stylisés des estampes japonaises. Il a ajouté ses initiales et la date de 1906 après coup ; comme il est souvent revenu à ce sujet, le tableau pourrait dater de 1942, année où il l'exposa à New York. La fleur jaune pâle se détache sur un fond ocre, ses pétales dessinés de fins traits bleus.",
+        "compare": "Avant les lignes droites, la fleur : Mondrian n'a jamais cessé d'étudier la nature, même devenu le plus abstrait des peintres.",
+        "image": "images/mouvements/pionniers-de-l-abstraction/mondrian-chrysantheme.jpg"
+      },
+      {
+        "title": "Champ avec de jeunes arbres au premier plan",
+        "artist": "Piet Mondrian",
+        "country": "Pays-Bas",
+        "period": "vers 1907",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1971.220), domaine public (CC0)",
+        "analysis": "Une peinture à l'huile sur papier de 65,7 × 72 cm. Selon le musée, elle représente un champ près du hameau d'Oele, dans l'est des Pays-Bas, où Mondrian a passé l'été 1907. L'atmosphère des arbres en silhouette contre un ciel de crépuscule montre que sa recherche spirituelle était présente avant ses premières compositions entièrement abstraites, en 1916 ; guidé par ses lectures de métaphysique et de philosophie, il voulait atteindre une réalité spirituelle supérieure, ce qui le conduisit à éliminer toute représentation.",
+        "compare": "De jeunes troncs verticaux sur une bande horizontale de champ : sans le savoir encore, Mondrian pose déjà la croix de la verticale et de l'horizontale.",
+        "image": "images/mouvements/pionniers-de-l-abstraction/mondrian-champ-avec-jeunes-arbres.jpg"
+      },
+      {
+        "title": "Le Cygne, n° 17 (série SUW, groupe IX)",
+        "artist": "Hilma af Klint",
+        "country": "Suède",
+        "period": "1915",
+        "museum": "Fondation Hilma af Klint, Stockholm",
+        "credit": "Fondation Hilma af Klint, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Hilma_af_Klint,_1915,_Svanen,_No._17.jpg), domaine public",
+        "analysis": "Un seul rouge couvre tout le fond de la toile. Sur ce fond se détachent deux grands anneaux, l'un blanc, à gauche, l'autre bleu, à droite, et, au centre, de petites formes géométriques. Il n'y a ni cygne ni paysage : seulement des cercles, des couleurs et une stricte symétrie.",
+        "compare": "Hilma af Klint peint des abstractions dès 1906, avant Kandinsky, mais demande que ses œuvres spirituelles ne soient montrées que longtemps après sa mort : on ne l'a vraiment découverte que dans les années 1980.",
+        "image": "images/mouvements/pionniers-de-l-abstraction/hilma-af-klint-le-cygne-n-17.jpg"
+      },
+      {
+        "title": "Étude de couleurs. Carrés avec cercles concentriques",
+        "artist": "Vassily Kandinsky",
+        "country": "Allemagne (artiste russe)",
+        "period": "1913",
+        "museum": "Städtische Galerie im Lenbachhaus, Munich",
+        "credit": "Städtische Galerie im Lenbachhaus, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Wassily_Kandinsky_Color_Study._Squares_with_Concentric_Circles.jpg), domaine public",
+        "analysis": "Kandinsky, peintre russe installé à Munich, a peint à l'aquarelle douze carrés, disposés sur trois rangs et chacun rempli de cercles concentriques de couleurs différentes. C'est une étude, presque une expérience de laboratoire : la forme ne change pas, seules les couleurs et leur ordre changent.",
+        "compare": "Dans Du spirituel dans l'art, Kandinsky compare les couleurs aux sons des instruments : le jaune serait une trompette, le bleu profond un orgue. Ces cercles sont une gamme de couleurs.",
+        "image": "images/mouvements/pionniers-de-l-abstraction/kandinsky-etude-de-couleurs-carres-cercles.jpg"
+      },
+      {
+        "title": "Drame politique",
+        "artist": "Robert Delaunay",
+        "country": "France",
+        "period": "1914",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.52397.html), domaine public (CC0)",
+        "analysis": "Une peinture à l'huile avec collage sur carton de 88,7 × 67,3 cm, signée au centre en bas « ROBERT DELAUNAY ». Des cercles concentriques de toutes les couleurs, comme une cible ou un arc-en-ciel tournant, remplissent l'image ; deux hommes y sont pris, l'un en costume noir qui tombe, l'autre, un personnage en rouge, qui tient une arme. Selon la fiche du musée, le tableau est resté chez Sonia Delaunay, la femme de l'artiste, jusqu'en 1956 au moins.",
+        "compare": "Le sujet est un fait divers de 1914, un meurtre politique à Paris, mais ce sont les disques de couleurs qui occupent tout le tableau : avec l'« orphisme », Delaunay fait tourner la couleur pour elle-même.",
+        "image": "images/mouvements/pionniers-de-l-abstraction/delaunay-drame-politique.jpg"
+      },
+      {
+        "title": "Une paysanne va chercher de l'eau",
+        "artist": "Kazimir Malevitch",
+        "country": "Russie",
+        "period": "1913",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.93945.html), domaine public (CC0)",
+        "analysis": "Une petite lithographie de 13 × 12 cm. Selon la fiche du musée, Malevitch a écrit sur la pierre, en lettres russes, son nom et le titre. La paysanne et ses seaux sont découpés en cônes, en cylindres et en triangles hachurés de noir, si bien qu'on la reconnaît à peine.",
+        "compare": "Deux ans avant le suprématisme, Malevitch décompose encore une figure, comme les cubistes et les futuristes. Le pas suivant sera de supprimer complètement la paysanne.",
+        "image": "images/mouvements/pionniers-de-l-abstraction/malevitch-une-paysanne-va-chercher-de-l-eau.jpg"
+      },
+      {
+        "title": "Carré rouge (Réalisme pictural d'une paysanne en deux dimensions)",
+        "artist": "Kazimir Malevitch",
+        "country": "Russie",
+        "period": "1915",
+        "museum": "Musée russe, Saint-Pétersbourg",
+        "credit": "Musée russe, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Red_Square._Visual_Realism_of_a_Peasant_Woman_in_Two_Dimensions.jpg), domaine public",
+        "analysis": "En 1915, Kazimir Malevitch invente le suprématisme : une peinture faite seulement de formes simples et de couleurs, sans rien représenter. Ce tableau carré de 53 cm ne montre qu'un quadrilatère rouge sur un fond blanc ; il n'est pas tout à fait carré et semble légèrement pencher. Son titre complet prétend pourtant montrer « une paysanne en deux dimensions ».",
+        "compare": "Comparez avec la lithographie précédente : de la paysanne découpée en formes, il ne reste qu'un carré rouge. Le titre, presque ironique, garde la trace du chemin parcouru.",
+        "image": "images/mouvements/pionniers-de-l-abstraction/malevitch-carre-rouge.jpg"
+      },
+      {
+        "title": "Autoportrait",
+        "artist": "Lioubov Popova",
+        "country": "Russie",
+        "period": "années 1910",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.227884.html), domaine public (CC0)",
+        "analysis": "Un dessin au fusain sur papier vergé de 27 × 20,4 cm. Le visage de l'artiste, vu de face, est construit en quelques lignes fermes : grands yeux, sourcils arqués, nez et lèvres dessinés comme des formes géométriques. Selon la fiche du musée, la feuille n'est ni signée ni datée, et elle a appartenu au grand collectionneur de l'avant-garde russe George Costakis.",
+        "compare": "Popova, l'une des grandes artistes de l'avant-garde russe, est passée du portrait cubiste à des « architectures picturales » entièrement abstraites, puis au design de textiles et de théâtre. Elle est morte en 1924, à trente-cinq ans.",
+        "image": "images/mouvements/pionniers-de-l-abstraction/popova-autoportrait.jpg"
+      },
+      {
+        "title": "Petit Monde",
+        "artist": "Paul Klee",
+        "country": "Allemagne (artiste suisse)",
+        "period": "1914",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1984.227), domaine public (CC0)",
+        "analysis": "Une eau-forte. Toute la surface est couverte d'un réseau serré de petits signes, de lignes, de cercles, de visages, de plantes et de flèches, gravés en blanc sur un fond sombre, comme une écriture inconnue ou un monde vu au microscope.",
+        "compare": "Klee, musicien autant que peintre, invente un langage de signes à mi-chemin entre le dessin d'enfant et l'abstraction : « L'art ne reproduit pas le visible, il rend visible », écrira-t-il.",
+        "image": "images/mouvements/pionniers-de-l-abstraction/klee-petit-monde.jpg"
+      },
+      {
+        "title": "Composition n° 15",
+        "artist": "Jacoba van Heemskerck",
+        "country": "Pays-Bas",
+        "period": "1915",
+        "museum": "Rijksmuseum, Amsterdam",
+        "credit": "Rijksmuseum, Amsterdam (https://www.rijksmuseum.nl/nl/collectie/RP-P-1957-482), domaine public",
+        "analysis": "Une gravure sur bois de 29,2 × 39 cm. Selon la fiche du musée, on y voit à gauche un pont ; des formes noires et blanches très contrastées, en arcs, en triangles et en bandes, évoquent des bâtiments, des rampes et des escaliers, sans qu'on puisse tout identifier.",
+        "compare": "La Néerlandaise Jacoba van Heemskerck exposait à Berlin, à la galerie Der Sturm d'Herwarth Walden, aux côtés de Kandinsky et de Franz Marc : une femme parmi les premiers abstraits.",
+        "image": "images/mouvements/pionniers-de-l-abstraction/van-heemskerck-composition-n-15.jpg"
+      },
+      {
+        "title": "Composition XVI n° 2",
+        "artist": "Jacoba van Heemskerck",
+        "country": "Pays-Bas",
+        "period": "1917",
+        "museum": "Rijksmuseum, Amsterdam",
+        "credit": "Rijksmuseum, Amsterdam (https://www.rijksmuseum.nl/nl/collectie/RP-P-1948-364), domaine public",
+        "analysis": "Une gravure sur bois de 24 × 35,8 cm. Selon la fiche du musée, elle représente des bateaux dans un port. Les voiles, les mâts, les bâtiments et les vagues sont réduits à des silhouettes noires, des arcs, des cercles et des lignes ondulées, sur le blanc du papier.",
+        "compare": "Le sujet est encore là, mais caché : Van Heemskerck, comme Kandinsky à la même époque, fait du motif un prétexte pour un rythme de formes.",
+        "image": "images/mouvements/pionniers-de-l-abstraction/van-heemskerck-composition-xvi-n-2.jpg"
+      },
+      {
+        "title": "Composition de couleurs dans un intérieur",
+        "artist": "Theo van Doesburg",
+        "country": "Pays-Bas",
+        "period": "vers 1919–1920",
+        "museum": "Rijksmuseum, Amsterdam",
+        "credit": "Rijksmuseum, Amsterdam (https://www.rijksmuseum.nl/nl/collectie/RP-T-2013-55), domaine public",
+        "analysis": "Un collage et une gouache sur papier et carton de 26,5 × 21 cm. Selon la fiche du musée, c'est un projet de couleurs pour le plafond et les quatre murs d'une pièce. Le plafond et les murs sont divisés en grands aplats rouges, jaunes, bleus, gris et blancs ; le sol est noir, et une chaise et une table blanches sont posées au centre. Une légende imprimée nomme Theo van Doesburg, indique que les meubles sont de Gerrit Rietveld et que l'image a paru dans la revue De Stijl.",
+        "compare": "Avec De Stijl, l'abstraction sort du tableau : elle colore les murs, dessine les meubles et l'architecture. Une pièce entière devient une composition.",
+        "image": "images/mouvements/pionniers-de-l-abstraction/van-doesburg-composition-de-couleurs-dans-un-interieur.jpg"
+      },
+      {
+        "title": "Wendingen",
+        "artist": "El Lissitzky",
+        "country": "Russie et Pays-Bas",
+        "period": "1921, publié en 1923",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.93943.html), domaine public (CC0)",
+        "analysis": "Une lithographie en couleurs de 33 × 66,5 cm, la couverture de la revue néerlandaise d'art et d'architecture Wendingen. Sur un fond beige, des cercles et demi-cercles noirs, un carré rouge, des barres grises et noires et de fines lignes droites s'équilibrent ; le titre WENDINGEN est écrit à la verticale, et Lissitzky a signé « EL » dans la pierre.",
+        "compare": "Le Russe Lissitzky appelait ses compositions des « Prouns », des étapes entre la peinture et l'architecture. L'abstraction devient graphisme : une couverture de revue qui ressemble à un plan de construction.",
+        "image": "images/mouvements/pionniers-de-l-abstraction/lissitzky-wendingen.jpg"
+      },
+      {
+        "title": "Petits Mondes II",
+        "artist": "Vassily Kandinsky",
+        "country": "Allemagne (artiste russe)",
+        "period": "1922",
+        "museum": "Statens Museum for Kunst, Copenhague",
+        "credit": "Statens Museum for Kunst, Copenhague (https://open.smk.dk/artwork/image/KKS13672/2), domaine public",
+        "analysis": "Une lithographie en couleurs de 35,7 × 27,9 cm, de la série Petits Mondes, signée au crayon « Kandinsky » et marquée du monogramme « VK 22 ». Une grande forme bleue est bordée d'un croissant jaune ; deux disques noirs, des lignes droites, des demi-cercles et des formes mouchetées la traversent, comme des astres et des instruments dans un ciel.",
+        "compare": "En 1922, Kandinsky enseigne au Bauhaus : ses formes deviennent plus géométriques, cercles, triangles et lignes droites, mais gardent l'énergie de ses premières improvisations.",
+        "image": "images/mouvements/pionniers-de-l-abstraction/kandinsky-petits-mondes-ii.jpg"
+      },
+      {
+        "title": "Petits Mondes III",
+        "artist": "Vassily Kandinsky",
+        "country": "Allemagne (artiste russe)",
+        "period": "1922",
+        "museum": "Statens Museum for Kunst, Copenhague",
+        "credit": "Statens Museum for Kunst, Copenhague (https://open.smk.dk/artwork/image/KKS13672/3), domaine public",
+        "analysis": "Une autre lithographie en couleurs de la même série, de 35,5 × 28 cm, signée au crayon et marquée « VK 22 ». Une grande forme claire, ovale, se détache sur un fond noir ; elle est remplie de petits éléments de toutes les couleurs, lignes, points, carrés, triangles, taches et arcs, qui semblent flotter.",
+        "compare": "Douze « petits mondes », douze univers : chez Kandinsky, chaque estampe est un cosmos de signes, sans rien représenter.",
+        "image": "images/mouvements/pionniers-de-l-abstraction/kandinsky-petits-mondes-iii.jpg"
+      },
+      {
+        "title": "Kleine Dada Soirée (Petite Soirée dada)",
+        "artist": "Theo van Doesburg et Kurt Schwitters",
+        "country": "Pays-Bas",
+        "period": "1922",
+        "museum": "National Gallery of Art, Washington",
+        "credit": "National Gallery of Art, Washington (https://www.nga.gov/collection/art-object-page.154076.html), domaine public (CC0)",
+        "analysis": "Une affiche-programme lithographiée en rouge et noir, de 30 × 30 cm. Des mots en lettres de toutes tailles, dans plusieurs langues, partent dans tous les sens : « DADA », « Programma », « Kurt Schwitters », « Théo van Doesburg », « Banalitäten » ; un grand mot rouge, « DADA », barre l'image en diagonale, et des petits dessins, une main, un cœur, un oiseau, se glissent entre les lettres.",
+        "compare": "Le même Van Doesburg, sévère dans De Stijl, s'amuse avec les dadaïstes : la typographie devient une composition libre, presque abstraite. Graphisme et abstraction se rejoignent.",
+        "image": "images/mouvements/pionniers-de-l-abstraction/van-doesburg-schwitters-kleine-dada-soiree.jpg"
+      },
+      {
+        "title": "Alter Klang (« Son ancien »)",
+        "artist": "Paul Klee",
+        "country": "Allemagne (artiste suisse)",
+        "period": "1925",
+        "museum": "Kunstmuseum Basel",
+        "credit": "Kunstmuseum Basel, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Alter_Klang,_1925_-_Paul_Klee.jpg), domaine public",
+        "analysis": "Paul Klee, né près de Berne en Suisse et professeur au Bauhaus, peint ce petit tableau à l'huile sur carton en 1925. Il est fait de carrés irréguliers, posés comme un damier un peu de travers. Au centre, les carrés sont clairs et chauds : jaune, saumon, vert tendre. Vers les bords, ils s'assombrissent peu à peu, bruns, violets, gris-bleu, jusqu'à se perdre dans un fond presque noir.",
+        "compare": "Le titre parle d'un son : Klee compose des carrés de couleur comme des notes, du plus clair au plus sombre, une musique silencieuse.",
+        "image": "images/mouvements/pionniers-de-l-abstraction/klee-alter-klang.jpg"
+      },
+      {
+        "title": "La Tour",
+        "artist": "Robert Delaunay",
+        "country": "France",
+        "period": "1926",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1989.59), domaine public (CC0)",
+        "analysis": "Une lithographie en noir et blanc. La tour Eiffel se dresse au centre, comme vue d'en bas, découpée en facettes ; les immeubles qui l'entourent penchent vers elle, et de gros nuages ronds l'enveloppent.",
+        "compare": "Dans les années 1920, Delaunay revient à son grand sujet d'avant 1914, la tour Eiffel, symbole de la vie moderne : l'abstraction n'a pas fait disparaître le monde, elle a appris à le regarder autrement.",
+        "image": "images/mouvements/pionniers-de-l-abstraction/delaunay-la-tour.jpg"
+      },
+      {
+        "title": "Composition avec rouge, jaune et bleu",
+        "artist": "Piet Mondrian",
+        "country": "Pays-Bas",
+        "period": "1927",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1967.215), domaine public (CC0)",
+        "analysis": "Une toile de 49,5 × 49 cm, signée en bas au centre « P M '27 ». De grosses lignes noires, horizontales et verticales, divisent un fond blanc-gris en rectangles ; un rectangle rouge en haut à gauche, une bande jaune à droite et un rectangle bleu en bas. Selon le musée, dans les années 1910, l'art de Mondrian est passé du cubisme à une abstraction fondée sur la grille ; il s'est limité aux lignes horizontales et verticales, aux trois couleurs primaires, au noir et au blanc, et croyait qu'après la Première Guerre mondiale de telles compositions pouvaient aider à construire une société plus harmonieuse, grâce à un langage visuel universel. Selon le musée, la baguette de bois peinte en gris autour de la toile est le cadre d'origine voulu par Mondrian.",
+        "compare": "Le point d'arrivée de l'exposition : du chrysanthème et des arbres d'Oele à ces quelques lignes et trois couleurs, Mondrian a parcouru tout le chemin de l'abstraction, avec l'idée qu'une harmonie parfaite pouvait changer le monde.",
+        "image": "images/mouvements/pionniers-de-l-abstraction/mondrian-composition-rouge-jaune-bleu.jpg"
+      }
+    ]
   }
 ]

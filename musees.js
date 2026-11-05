@@ -459,11 +459,13 @@ const MOUVEMENTS = [
     "Peindre en plein air la lumière changeante, par touches rapides."],
   ['Postimpressionnisme', 'Europe', 'Europe', '1885–1910', ['Post-Impressionism'], ['Post-Impressionism', 'Post-impressionism'], 'van gogh|gauguin|c[eé]zanne|seurat', ['Vincent van Gogh', 'Paul Gauguin', 'Paul Cézanne', 'Georges Seurat', 'Henri de Toulouse-Lautrec', 'Paul Signac'],
     "Après l'impressionnisme, chacun cherche sa voie : couleur expressive, formes construites, points de couleur."],
+  ['Symbolisme', 'Europe', 'Europe et États-Unis', '1860–1910', ['Symbolism'], ['Symbolism', 'symbolism'], 'redon|moreau|khnopff', ['Gustave Moreau', 'Odilon Redon', 'Pierre Puvis de Chavannes', 'Fernand Khnopff', 'Ferdinand Hodler', 'Edward Burne-Jones', 'Hugo Simberg', 'Akseli Gallen-Kallela', 'Giovanni Segantini', 'Albert Pinkham Ryder'],
+    "Rêves, mythes, mort et mystère : peindre l'invisible plutôt que le monde visible."],
   ['Art nouveau', 'Europe', 'Europe', '1890–1910', ['Art Nouveau'], ['Art Nouveau'], '', ['Alfons Mucha|Alphonse Mucha', 'Gustav Klimt', 'Hector Guimard', 'Antoni Gaudí', 'Victor Horta', 'Émile Gallé', 'René Lalique', 'Louis Comfort Tiffany', 'Aubrey Beardsley', 'Otto Wagner'],
     "Lignes courbes inspirées des plantes, dans les affiches, les objets et l'architecture."],
   ['Expressionnisme', 'Europe', 'Europe du Nord', '1905–1930', ['Expressionism'], ['Expressionism'], '', ['Edvard Munch', 'Ernst Ludwig Kirchner', 'Egon Schiele', 'Franz Marc', 'August Macke', 'Paula Modersohn-Becker', 'Alexej von Jawlensky', 'James Ensor', 'Max Beckmann'],
     "Couleurs violentes et formes déformées pour exprimer l'angoisse et l'émotion."],
-  ["Pionniers de l'abstraction", 'Europe', 'Europe', '1910–1940', ['abstract'], ['abstract art'], 'hilma af klint', ['Hilma af Klint', 'Vassily Kandinsky', 'Piet Mondrian'],
+  ["Pionniers de l'abstraction", 'Europe', 'Europe', '1910–1940', ['abstract'], ['abstract art'], 'hilma af klint', ['Hilma af Klint', 'Vassily Kandinsky|Wassily Kandinsky', 'Piet Mondrian', 'Kazimir Malevitch|Kazimir Malevich', 'Robert Delaunay', 'Paul Klee', 'El Lissitzky', 'Theo van Doesburg'],
     "Premières peintures sans sujet reconnaissable : la couleur et la forme pour elles-mêmes."]
 ].map(([nom, region, lieu, epoque, mots, wd, local, artistes, texte]) => ({ nom, region, lieu, epoque, mots, wd, local, texte,
   // Un artiste peut avoir plusieurs écritures (« Michel-Ange|Michelangelo ») : la première est affichée, la dernière

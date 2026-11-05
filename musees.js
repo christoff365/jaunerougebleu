@@ -415,6 +415,8 @@ const MOUVEMENTS = [
     "Mouvement moderne qui renoue avec les traditions de l'Inde et de l'Asie face à l'enseignement académique britannique."],
   ["Art khmer d'Angkor", 'Asie du Sud et du Sud-Est', 'Cambodge', 'IXe–XIIIe siècle', ['Khmer'], [], '', [],
     "Sculptures de grès et de bronze des temples d'Angkor : divinités hindoues et bouddhiques au sourire paisible."],
+  ['Art assyrien', 'Moyen-Orient', 'Irak', 'IXe–VIIe siècle av. J.-C.', ['Assyrian', 'Nimrud', 'Nineveh'], [], 'assyri|nimrud|nimroud|ninive|nineveh', [],
+    "Palais royaux couverts de reliefs, génies ailés et taureaux gardiens, ivoires sculptés et récits de guerre."],
   ['Miniature persane', 'Moyen-Orient', 'Iran', 'XIIIe–XVIIe siècle', ['Persian painting', 'Shahnama'], ['Persian miniature'], 'shahnam|tabriz', ['Kamal ud-Din Behzad', 'Sultan Muhammad', 'Reza Abbasi'],
     "Peintures de manuscrits aux couleurs précieuses et sans ombres : épopées du Livre des rois, poésie, scènes de cour."],
   ['Peinture ottomane', 'Moyen-Orient', 'Turquie', 'XVIe–XVIIIe siècle', ['Ottoman'], ['Ottoman miniature'], '', ['Nakkaş Osman', 'Levni'],

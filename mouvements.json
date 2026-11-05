@@ -7833,5 +7833,301 @@
         "image": "images/mouvements/pionniers-de-l-abstraction/mondrian-composition-rouge-jaune-bleu.jpg"
       }
     ]
+  },
+  {
+    "mouvement": "Art assyrien",
+    "slug": "art-assyrien",
+    "status": "published",
+    "title": "L'art assyrien, les palais des rois de Nimroud et de Ninive",
+    "subtitle": "Irak du Nord, IXe–VIIe siècle avant notre ère, avec son héritage et sa redécouverte : vingt-six œuvres de New York et de Cleveland",
+    "intro": "Au IXe siècle avant notre ère, les rois d'Assyrie, un royaume du nord de l'Irak actuel, bâtissent le plus grand empire que le Proche-Orient ait connu : il s'étend bientôt de l'Iran à l'Égypte. Pour montrer leur puissance, ils construisent des palais immenses, dans des capitales nouvelles : Nimroud, l'ancienne Kalhu, sous Assurnasirpal II (883–859), Khorsabad, l'ancienne Dur-Sharrukin, sous Sargon II (721–705), puis Ninive sous Sennachérib (704–681) et Assurbanipal (668–627), qui y réunit une célèbre bibliothèque de tablettes. Les murs de ces palais sont couverts de grandes dalles de gypse sculptées en bas-relief, autrefois peintes : le roi, ses serviteurs, des génies ailés protecteurs appelés apkallu, des arbres sacrés, puis, à Ninive, des batailles, des sièges et des chasses. Aux portes veillent des lamassu, des taureaux et des lions ailés à tête humaine. Une inscription en écriture cunéiforme, toujours la même, la « Standard Inscription », court au milieu des reliefs de Nimroud et énumère les titres et les victoires du roi. Le commanditaire, ici, c'est le roi lui-même : l'art assyrien est un art de palais et de propagande, réalisé par des ateliers de sculpteurs dont on ne connaît pas les noms ; les ivoires sculptés qui ornaient les meubles venaient souvent d'artisans phéniciens et syriens, comme tribut ou comme butin. En 612 avant notre ère, les Mèdes et les Babyloniens prennent Ninive, et l'empire s'effondre ; Babylone, puis la Perse, reprennent son héritage. Les palais restent enfouis plus de deux mille ans. En 1843, le consul de France Paul-Émile Botta fouille Khorsabad ; à partir de 1845, le Britannique Austen Henry Layard dégage le palais de Nimroud. Les reliefs partent pour le Louvre et le British Museum, et l'Europe se passionne pour Ninive : on en fait des bijoux, des vases et des motifs d'ornement. Dans les années 1850, des collèges de Nouvelle-Angleterre en reçoivent aussi, grâce à leurs anciens élèves missionnaires : le Dartmouth College, dans le New Hampshire, conserve ainsi six grands reliefs du palais d'Assurnasirpal II, arrivés en décembre 1856 après un voyage à dos d'âne, de chameau, en voilier, en bateau à vapeur et en train, comme le raconte la StoryMap du Hood Museum of Art (The Assyrian Reliefs at the Hood Museum) ; leurs images ne peuvent pas encore être montrées ici, une demande d'autorisation est en cours auprès du musée. Ces œuvres ont quitté l'Irak sous l'Empire ottoman, à l'époque coloniale, avec des permis des autorités ottomanes, à une époque où les habitants n'avaient pas leur mot à dire ; et une partie de ce qui était resté sur place, à Nimroud même, a été détruite par l'organisation État islamique en 2015. L'exposition suit l'histoire des palais : Nimroud et ses ivoires, Khorsabad, Ninive, puis l'héritage, de Babylone et de Persépolis à la redécouverte du XIXe siècle. Les œuvres viennent du Metropolitan Museum of Art de New York et du Cleveland Museum of Art.",
+    "works": [
+      {
+        "title": "Taureau ailé à tête humaine (lamassu)",
+        "artist": "Art assyrien, atelier royal",
+        "country": "Irak",
+        "period": "vers 883–859 av. J.-C.",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/322608), domaine public (CC0)",
+        "analysis": "Un bloc de gypse de 3,14 mètres de haut et de plus de sept tonnes. Le corps d'un taureau, aux muscles soulignés, porte de grandes ailes aux plumes alignées et une tête d'homme barbu, coiffée d'une haute tiare à cornes. Comme beaucoup de lamassu, il a cinq pattes : vu de face, il se tient immobile ; vu de profil, il marche.",
+        "compare": "Ces gardiens se dressaient par paires aux portes du palais d'Assurnasirpal II à Nimroud, pour protéger le roi et impressionner les visiteurs. Ils mêlent la force du taureau, la rapidité de l'oiseau et l'intelligence de l'homme.",
+        "image": "images/mouvements/art-assyrien/lamassu-taureau-aile-a-tete-humaine.jpg"
+      },
+      {
+        "title": "Lion ailé à tête humaine (lamassu)",
+        "artist": "Art assyrien, atelier royal",
+        "country": "Irak",
+        "period": "vers 883–859 av. J.-C.",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/322609), domaine public (CC0)",
+        "analysis": "Le second gardien de la même porte, de 3,11 mètres de haut : cette fois un corps de lion, aux pattes griffues, sous les mêmes grandes ailes et la même tête d'homme barbu à la tiare cornue. La barbe et les cheveux sont faits de rangées de boucles régulières ; le visage, calme, regarde droit devant lui.",
+        "compare": "Taureau et lion se répondaient de part et d'autre du passage. Le Met les a reçus en 1932 du mécène John D. Rockefeller Jr. ; d'autres lamassu sont restés au British Museum, au Louvre et en Irak.",
+        "image": "images/mouvements/art-assyrien/lamassu-lion-aile-a-tete-humaine.jpg"
+      },
+      {
+        "title": "Le roi Assurnasirpal II et un serviteur",
+        "artist": "Art assyrien, atelier royal",
+        "country": "Irak",
+        "period": "vers 883–859 av. J.-C.",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/322611), domaine public (CC0)",
+        "analysis": "Un panneau de gypse de 2,34 × 2,34 mètres. À gauche, le roi, coiffé d'une haute tiare pointue, une épée à la ceinture, lève une coupe et tient un arc ; face à lui, un serviteur imberbe, aux longs cheveux bouclés, s'approche. Une bande d'écriture cunéiforme traverse les deux personnages à mi-hauteur, par-dessus leurs vêtements.",
+        "compare": "Le roi apparaît dans une cérémonie, sans doute de libation, entouré de ses serviteurs. Le Hood Museum de Dartmouth possède un relief semblable du même palais, « Le roi et un apkallu » : les deux appartenaient à la même suite de pièces.",
+        "image": "images/mouvements/art-assyrien/relief-le-roi-assurnasirpal-ii-et-un-serviteur.jpg"
+      },
+      {
+        "title": "Serviteur imberbe près d'un arbre sacré",
+        "artist": "Art assyrien, atelier royal",
+        "country": "Irak",
+        "period": "vers 883–859 av. J.-C.",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/322488), domaine public (CC0)",
+        "analysis": "Un panneau de gypse de 1,55 × 1,87 mètre. Un serviteur imberbe, l'arc et le carquois à l'épaule, une épée au côté, tient devant lui une masse au sommet en forme de fleur ; à gauche, on voit le bord d'un arbre stylisé, fait de tiges ondulées terminées par des palmettes. La bande d'inscription cunéiforme passe au milieu.",
+        "compare": "Les serviteurs imberbes, sans doute des eunuques, accompagnaient le roi et portaient ses armes. Dartmouth en conserve un aussi, « Serviteur du roi », dans la même série.",
+        "image": "images/mouvements/art-assyrien/relief-serviteur-imberbe-et-arbre-sacre.jpg"
+      },
+      {
+        "title": "Génie ailé (apkallu) au seau, et serviteur",
+        "artist": "Art assyrien, atelier royal",
+        "country": "Irak",
+        "period": "vers 883–859 av. J.-C.",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/322613), domaine public (CC0)",
+        "analysis": "Un panneau de gypse de 2,34 × 2,43 mètres. À gauche, un génie ailé et barbu, coiffé d'une tiare à cornes, tient un petit seau et lève l'autre main ; ses grandes ailes retombent jusqu'aux genoux. À droite, un serviteur imberbe porte une masse fleurie et un arc. Les muscles des bras et des jambes sont dessinés avec une grande précision, comme les franges des vêtements.",
+        "compare": "Les apkallu étaient des sages et des esprits protecteurs : ils semblent purifier ou bénir à l'aide du seau. Trois des reliefs de Dartmouth montrent ce même geste, « apkallu au seau ».",
+        "image": "images/mouvements/art-assyrien/relief-genie-aile-apkallu-au-seau.jpg"
+      },
+      {
+        "title": "Génie ailé (apkallu) à la main levée",
+        "artist": "Art assyrien, atelier royal",
+        "country": "Irak",
+        "period": "vers 883–859 av. J.-C.",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/322616), domaine public (CC0)",
+        "analysis": "Un panneau étroit de gypse, de 1,33 mètre de haut. Un génie ailé et barbu, coiffé d'une tiare à cornes, lève la main droite en signe de salut ou de bénédiction et tient dans l'autre une tige terminée par des fleurs. Au-dessus de lui, une frise de palmettes. Le bord du relief montre qu'il ornait un passage, à côté d'une porte.",
+        "compare": "Ces génies se répétaient de porte en porte, comme une garde invisible : le palais tout entier était placé sous leur protection.",
+        "image": "images/mouvements/art-assyrien/relief-genie-aile-apkallu-a-la-main-levee.jpg"
+      },
+      {
+        "title": "Esprit protecteur saluant",
+        "artist": "Art assyrien, atelier royal",
+        "country": "Irak (Nimroud)",
+        "period": "883–859 av. J.-C.",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1943.246), domaine public (CC0)",
+        "analysis": "Un relief de gypse de 2,30 × 1,37 mètre. Selon le musée, ce dieu ailé avance, les bras et les jambes musclés, en faisant un geste de salut et en tenant des symboles de prospérité agricole ; il porte une longue cape frangée à glands sur un pagne plus court et une tunique, détaillés avec soin. Le relief est couvert du récit des conquêtes et des victoires d'Assurnasirpal II ; il se dressait à côté de centaines d'autres semblables dans le palais de Nimroud. Selon la fiche du musée, il a été dégagé par Austen Henry Layard, puis donné au collège d'Amherst par le docteur Henry John Lobdell.",
+        "compare": "Henry Lobdell, missionnaire à Mossoul, est aussi celui qui a acheminé les six reliefs de Dartmouth en 1854–1855 : dans les années 1850, plusieurs collèges de Nouvelle-Angleterre ont reçu leurs reliefs de Nimroud par les mêmes réseaux d'anciens élèves.",
+        "image": "images/mouvements/art-assyrien/relief-esprit-protecteur-saluant.jpg"
+      },
+      {
+        "title": "Brique inscrite au nom d'Assurnasirpal II",
+        "artist": "Art assyrien, atelier royal",
+        "country": "Irak",
+        "period": "vers 883–859 av. J.-C.",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/324342), domaine public (CC0)",
+        "analysis": "Une brique de terre cuite de 36,5 × 37 cm et de 12 cm d'épaisseur. Sur l'une de ses faces, trois lignes d'écriture cunéiforme, faite de petits coins imprimés dans l'argile encore molle, nomment le roi.",
+        "compare": "Les rois mésopotamiens faisaient inscrire leur nom jusque sur les briques de leurs bâtiments : l'écriture, née en Mésopotamie vers 3300 avant notre ère, servait aussi la gloire du roi.",
+        "image": "images/mouvements/art-assyrien/brique-inscrite-au-nom-d-assurnasirpal-ii.jpg"
+      },
+      {
+        "title": "Plaque ajourée avec un sphinx marchant",
+        "artist": "Art assyrien, ivoire de Nimroud",
+        "country": "Irak",
+        "period": "IXe–VIIIe siècle av. J.-C.",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/325660), domaine public (CC0)",
+        "analysis": "Une petite plaque d'ivoire de 8,8 × 10,3 cm, découpée à jour. Un sphinx ailé, à corps de lion et à tête de femme, avance ; son visage aux grands yeux est encadré d'une lourde coiffure à l'égyptienne, et ses ailes recourbées, faites de plumes finement incisées, se dressent derrière lui.",
+        "compare": "Le sphinx et la coiffure viennent d'Égypte : les ivoiriers phéniciens et syriens qui travaillaient pour les rois d'Assyrie mêlaient les motifs de tout le Proche-Orient.",
+        "image": "images/mouvements/art-assyrien/ivoire-sphinx-marchant.jpg"
+      },
+      {
+        "title": "Plaque de meuble : homme saisissant un arbre, sous un disque solaire ailé",
+        "artist": "Art assyrien, ivoire de Nimroud",
+        "country": "Irak",
+        "period": "VIIIe siècle av. J.-C.",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/324926), domaine public (CC0)",
+        "analysis": "Une plaque d'ivoire de 26,7 × 11,4 cm. Un homme barbu, en long vêtement couvert de motifs, saisit d'une main la tige d'un arbre stylisé aux branches recourbées ; au-dessus de lui plane un disque solaire ailé.",
+        "compare": "Le disque ailé, symbole divin, et l'arbre sacré se retrouvent sur les grands reliefs : le même langage passe des murs du palais aux meubles du roi.",
+        "image": "images/mouvements/art-assyrien/ivoire-homme-saisissant-un-arbre.jpg"
+      },
+      {
+        "title": "Plaque décorative : sphinx à tête de bélier de part et d'autre d'un arbre sacré",
+        "artist": "Art phénicien, ivoire de Nimroud",
+        "country": "Irak (Nimroud), style phénicien",
+        "period": "900–800 av. J.-C.",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1968.47), domaine public (CC0)",
+        "analysis": "Une plaque d'ivoire de 15 × 9 cm. Deux sphinx à tête de bélier se font face de part et d'autre d'un arbre sacré aux volutes et aux fleurs stylisées. Selon le musée, cette plaque est de style phénicien, avec ses compositions symétriques, ses figures allongées et ses sujets et motifs égyptiens ; on en a trouvé dans tout le Proche-Orient, mais des milliers viennent de Nimroud, où la plupart ont été dégagées dans les réserves d'un arsenal militaire construit par le roi Salmanazar. Lors du pillage du palais au VIIe siècle avant notre ère, ces ivoires furent jetés dans un puits, où Sir Max Mallowan, le mari d'Agatha Christie, les découvrit en 1951.",
+        "compare": "La symétrie parfaite autour de l'arbre sacré est un motif que l'on retrouve sur les reliefs de Dartmouth, « Apkallu oignant un arbre sacré ».",
+        "image": "images/mouvements/art-assyrien/ivoire-sphinx-a-tete-de-belier-et-arbre-sacre.jpg"
+      },
+      {
+        "title": "Plaque décorative : homme combattant un griffon",
+        "artist": "Art phénicien, ivoire de Nimroud",
+        "country": "Irak (Nimroud), style phénicien",
+        "period": "900–800 av. J.-C.",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1968.45), domaine public (CC0)",
+        "analysis": "Une minuscule plaque d'ivoire de 6,5 × 3,9 cm. Un jeune homme aux cheveux courts et bouclés, vêtu d'un pagne, saisit un griffon ailé, mi-lion mi-aigle, et le frappe ; des fleurs stylisées poussent à leurs pieds. Selon le musée, ces ivoires de style phénicien ont été découverts à Nimroud, jetés dans un puits lors du pillage du palais.",
+        "compare": "Le combat du héros contre un monstre est un thème très ancien du Proche-Orient : les rois d'Assyrie s'en servaient pour dire qu'ils maintenaient l'ordre du monde.",
+        "image": "images/mouvements/art-assyrien/ivoire-homme-combattant-un-griffon.jpg"
+      },
+      {
+        "title": "Plaque décorative : vache allaitant son veau",
+        "artist": "Art phénicien, ivoire de Nimroud",
+        "country": "Irak (Nimroud), style phénicien",
+        "period": "900–800 av. J.-C.",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1968.48), domaine public (CC0)",
+        "analysis": "Une plaque d'ivoire de 4,6 × 12,4 cm. Une vache tourne la tête vers son petit veau, qui tète sous elle ; elle semble le lécher. L'animal est sculpté en relief sous une fine baguette d'ivoire qui servait à fixer la plaque. Selon le musée, ces ivoires de style phénicien viennent de Nimroud.",
+        "compare": "Une scène de tendresse au milieu de l'art du pouvoir : la vache et son veau, symbole de fécondité, était un motif aimé dans tout le Proche-Orient et en Égypte.",
+        "image": "images/mouvements/art-assyrien/ivoire-vache-allaitant-son-veau.jpg"
+      },
+      {
+        "title": "Joueur de tambourin",
+        "artist": "Art assyrien, atelier royal",
+        "country": "Irak ou Syrie",
+        "period": "900–700 av. J.-C.",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1969.67), domaine public (CC0)",
+        "analysis": "Une petite plaque de bronze de 7,3 cm de haut. Un homme barbu, aux longs cheveux, frappe un grand tambourin rond qu'il tient devant lui ; il porte une longue robe. Selon le musée, c'est sans doute l'une des plaques qui décoraient le côté d'un trône ; la coiffure et le costume ressemblent à ceux des grands reliefs, qui sont probablement de la même époque.",
+        "compare": "La musique accompagnait les fêtes et les cérémonies du palais : sur un trône, ce petit musicien faisait partie du décor de la majesté royale.",
+        "image": "images/mouvements/art-assyrien/joueur-de-tambourin-bronze.jpg"
+      },
+      {
+        "title": "Palefrenier étranger dans une procession de tribut",
+        "artist": "Art assyrien, atelier royal",
+        "country": "Irak",
+        "period": "vers 721–705 av. J.-C.",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/322895), domaine public (CC0)",
+        "analysis": "Un fragment de relief de 49 × 79,5 cm. Un homme barbu, aux cheveux courts et bouclés, conduit deux chevaux richement harnachés, dont on voit les têtes, les mors et les ornements de la crinière. Selon le titre du musée, c'est un étranger venu apporter un tribut.",
+        "compare": "Sous Sargon II, à Khorsabad, les reliefs montrent les peuples soumis qui apportent leur tribut : des chevaux, des métaux, des étoffes. L'empire se donne à voir comme le centre du monde.",
+        "image": "images/mouvements/art-assyrien/khorsabad-palefrenier-etranger.jpg"
+      },
+      {
+        "title": "Tête d'un serviteur royal imberbe",
+        "artist": "Art assyrien, atelier royal",
+        "country": "Irak",
+        "period": "vers 721–705 av. J.-C.",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/322896), domaine public (CC0)",
+        "analysis": "Un fragment de relief de 56,7 × 56,8 cm. Le profil d'un jeune homme imberbe, au nez droit et au grand œil en amande, porte une boucle d'oreille ; ses cheveux ondulés tombent sur la nuque en rangées de boucles rondes. Le relief est plus haut et plus arrondi qu'à Nimroud.",
+        "compare": "À Khorsabad, cent cinquante ans après Assurnasirpal, les visages deviennent plus pleins et plus doux. Le palais de Sargon, fouillé par Botta à partir de 1843, a fourni au Louvre ses plus grands reliefs assyriens.",
+        "image": "images/mouvements/art-assyrien/khorsabad-tete-de-serviteur-imberbe.jpg"
+      },
+      {
+        "title": "Prince héritier assyrien",
+        "artist": "Art assyrien, atelier royal",
+        "country": "Irak",
+        "period": "vers 704–681 av. J.-C.",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/322620), domaine public (CC0)",
+        "analysis": "Un fragment de relief de 66,5 × 35,5 cm. Un homme barbu, la barbe et les cheveux en longues boucles serrées, est vu de profil, les mains croisées ; il porte un bandeau ou un diadème. Selon le titre du musée, c'est un prince héritier.",
+        "compare": "À Ninive, sous Sennachérib, le relief se fait plus fin et plus bas qu'à Nimroud. Le prince héritier était souvent représenté près du roi : la succession était une affaire d'État.",
+        "image": "images/mouvements/art-assyrien/ninive-prince-heritier-assyrien.jpg"
+      },
+      {
+        "title": "Scène de bataille : des Assyriens prennent d'assaut une citadelle",
+        "artist": "Art assyrien, atelier royal",
+        "country": "Irak",
+        "period": "vers 704–681 av. J.-C.",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/324434), domaine public (CC0)",
+        "analysis": "Un relief de 124 × 85 cm. En haut, les murs et les tours crénelées d'une ville fortifiée ; en dessous, sur plusieurs registres, des soldats assyriens s'avancent, armés, et des captifs sont emmenés. Les personnages, nombreux et petits, couvrent toute la surface.",
+        "compare": "Les reliefs de Sennachérib racontent ses campagnes comme une bande dessinée de pierre : sièges, combats, déportations. Ils servaient à impressionner les visiteurs du palais.",
+        "image": "images/mouvements/art-assyrien/ninive-assaut-d-une-citadelle.jpg"
+      },
+      {
+        "title": "Cavaliers le long d'un cours d'eau en montagne",
+        "artist": "Art assyrien, atelier royal",
+        "country": "Irak",
+        "period": "vers 704–681 av. J.-C.",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/322623), domaine public (CC0)",
+        "analysis": "Un fragment de relief de 54,5 × 88 cm. Des cavaliers assyriens, coiffés de casques pointus, avancent à cheval ; le sol est couvert d'un motif d'écailles qui représente les montagnes, et en bas coule un ruisseau aux lignes ondulées.",
+        "compare": "Pour représenter un paysage, les sculpteurs de Ninive inventent des signes simples : des écailles pour la montagne, des ondulations pour l'eau. Le décor devient le lieu réel d'une campagne militaire.",
+        "image": "images/mouvements/art-assyrien/ninive-cavaliers-le-long-d-un-cours-d-eau.jpg"
+      },
+      {
+        "title": "Soldat assyrien conduisant des captifs sur l'eau",
+        "artist": "Art assyrien, atelier royal",
+        "country": "Irak",
+        "period": "vers 668–627 av. J.-C.",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/322612), domaine public (CC0)",
+        "analysis": "Un fragment de relief de 51,5 × 45,3 cm. Sur une rivière, rendue par des lignes ondulées serrées, une barque aux extrémités relevées transporte des captifs accroupis ; deux hommes debout tiennent de longues perches. Dans l'eau, en bas, un homme nage.",
+        "compare": "Sous Assurbanipal, le dernier grand roi d'Assyrie, les reliefs de Ninive atteignent une grande finesse dans le détail : l'eau, les barques et les gestes sont observés avec précision.",
+        "image": "images/mouvements/art-assyrien/ninive-soldat-conduisant-des-captifs-sur-l-eau.jpg"
+      },
+      {
+        "title": "Panneau avec un lion marchant",
+        "artist": "Art néo-babylonien",
+        "country": "Irak",
+        "period": "vers 604–562 av. J.-C.",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/322585), domaine public (CC0)",
+        "analysis": "Un panneau de briques moulées et émaillées de 97 × 227 cm. Un lion blanc et jaune, à la crinière dorée, marche la gueule ouverte sur un fond bleu turquoise ; une bande jaune et brune court sous ses pattes.",
+        "compare": "Après la chute de Ninive en 612, Babylone prend le relais : sous Nabuchodonosor II, la voie processionnelle de la ville était bordée de lions comme celui-ci, en briques colorées et brillantes plutôt qu'en pierre sculptée.",
+        "image": "images/mouvements/art-assyrien/babylone-panneau-au-lion-marchant.jpg"
+      },
+      {
+        "title": "Tête d'un garde perse",
+        "artist": "Art achéménide",
+        "country": "Iran",
+        "period": "vers 486–465 av. J.-C.",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/324433), domaine public (CC0)",
+        "analysis": "Un fragment de relief de calcaire de 54 × 62 cm. Un garde, vu de profil, porte une haute coiffe cannelée ; sa barbe et ses cheveux sont faits de rangées de petites boucles rondes. Devant lui, un objet rectangulaire qu'il porte à l'épaule.",
+        "compare": "Les rois perses, qui succèdent à l'Assyrie et à Babylone, couvrent eux aussi leurs palais de reliefs : les boucles régulières et les longues processions de Persépolis prolongent l'art assyrien.",
+        "image": "images/mouvements/art-assyrien/persepolis-tete-de-garde-perse.jpg"
+      },
+      {
+        "title": "Ninive et Perse n° 1, planche XII de La Grammaire de l'ornement",
+        "artist": "Owen Jones",
+        "country": "Royaume-Uni",
+        "period": "1868",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/891631), domaine public (CC0)",
+        "analysis": "Une lithographie en couleurs de 33 × 22 cm, planche d'un grand recueil de motifs décoratifs. Sur fond crème, l'architecte britannique a reproduit et coloré en orange, bleu, jaune et brun des frises, des rosaces, des palmettes et des arbres sacrés assyriens et perses, alignés comme dans un catalogue.",
+        "compare": "La Grammaire de l'ornement, publiée pour la première fois en 1856, proposait aux décorateurs des motifs de toutes les civilisations : les ornements de Ninive entrent dans les papiers peints, les tissus et les objets de l'Europe victorienne.",
+        "image": "images/mouvements/art-assyrien/owen-jones-ninive-et-perse-grammaire-de-l-ornement.jpg"
+      },
+      {
+        "title": "Broche au lion ailé à tête humaine",
+        "artist": "Orfèvre britannique",
+        "country": "Royaume-Uni",
+        "period": "vers 1850–1880",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/891651), domaine public (CC0)",
+        "analysis": "Une broche ronde en or de 5 cm de diamètre. Au centre, un lion ailé à tête humaine marche de profil, ciselé en relief sur un fond d'or poli, comme une miniature des lamassu des palais assyriens.",
+        "compare": "Après les fouilles de Layard, l'Assyrie devient une mode : les dames de l'époque victorienne portaient sur elles les gardiens des palais de Nimroud. Comparez avec le grand lamassu du début de l'exposition.",
+        "image": "images/mouvements/art-assyrien/broche-au-lion-aile-assyrien.jpg"
+      },
+      {
+        "title": "Urne aux scènes assyriennes",
+        "artist": "Atelier français",
+        "country": "France",
+        "period": "1851",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/891607), domaine public (CC0)",
+        "analysis": "Une urne en ardoise et bronze de 40 cm de haut. Une frise en relief court autour de la panse : des personnages et des chars inspirés des reliefs assyriens ; les anses sont surmontées de lions couchés, et le pied porte d'autres figures et des palmettes.",
+        "compare": "En 1851, l'année de la première Exposition universelle, à Londres, l'Assyrie fascine aussi la France, qui expose depuis 1847 au Louvre les reliefs de Khorsabad envoyés par Botta.",
+        "image": "images/mouvements/art-assyrien/urne-aux-scenes-assyriennes.jpg"
+      },
+      {
+        "title": "Études de figures assyriennes",
+        "artist": "Paul Cézanne",
+        "country": "France",
+        "period": "vers 1864–1868",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/891629), domaine public (CC0)",
+        "analysis": "Une feuille de dessins au graphite de 24 × 17,7 cm, dessinée des deux côtés. Le jeune Cézanne a esquissé plusieurs figures assyriennes, un personnage barbu en longue robe, des têtes coiffées de tiares, et noté autour, à la main, des remarques sur les couleurs, comme « costume jaune ».",
+        "compare": "Le point d'arrivée de l'exposition : avant de devenir le père de la peinture moderne, Cézanne copie les reliefs assyriens, sans doute au Louvre. Trois mille ans après Nimroud, les sculpteurs anonymes des rois d'Assyrie enseignent encore la force des formes simples.",
+        "image": "images/mouvements/art-assyrien/cezanne-etudes-de-figures-assyriennes.jpg"
+      }
+    ]
   }
 ]

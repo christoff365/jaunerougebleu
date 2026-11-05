@@ -8129,5 +8129,246 @@
         "image": "images/mouvements/art-assyrien/cezanne-etudes-de-figures-assyriennes.jpg"
       }
     ]
+  },
+  {
+    "mouvement": "Peinture de la dynastie Joseon",
+    "slug": "peinture-de-la-dynastie-joseon",
+    "status": "published",
+    "title": "La peinture de la dynastie Joseon, de la brume des montagnes au paysage « vrai »",
+    "subtitle": "Corée, XVe–XIXe siècle : vingt et une peintures de Séoul, de New York et de Cleveland",
+    "intro": "En 1392, le général Yi Seong-gye fonde en Corée la dynastie Joseon, qui va régner plus de cinq siècles, jusqu'en 1910, depuis sa nouvelle capitale, Hanyang, l'actuelle Séoul. L'État adopte le néo-confucianisme : le pouvoir appartient au roi et à une élite de lettrés-fonctionnaires, les yangban, qui lisent les classiques chinois, écrivent des poèmes et peignent à l'encre pour leur plaisir. À côté d'eux, un bureau de peinture de la cour, le Dohwaseo, emploie des peintres professionnels pour les portraits, les cérémonies, les paravents du palais et les cartes. Au début de la dynastie, les peintres coréens s'inspirent des paysages chinois des Song et des Ming, de grandes montagnes noyées de brume ; An Gyeon, peintre de la cour au XVe siècle, fixe ce style pour longtemps. Les invasions japonaises (1592–1598) et mandchoues (1627, 1636) ravagent le pays ; puis, au XVIIIe siècle, sous les rois Yeongjo et Jeongjo, vient une période de paix et de renouveau. Jeong Seon invente alors le « paysage vrai » (jingyeong sansu) : au lieu de copier des montagnes chinoises imaginaires, il peint les sites réels de la Corée, les monts de Diamant (Geumgang) et le mont Inwang à Séoul. Kim Hong-do et Sin Yun-bok peignent la vie quotidienne, et des peintres comme Kang Se-hwang font leur propre portrait. Dans les maisons, on accroche des tigres et des pies, des bibliothèques en trompe-l'œil, des fleurs et des insectes ; derrière le trône du roi se dresse le paravent du Soleil, de la Lune et des Cinq Pics. Au XIXe siècle, Jang Seung-eop, orphelin devenu peintre célèbre, ferme ce long chapitre. L'exposition suit cet ordre : les débuts et l'héritage chinois, les lettrés et les fleurs, le paysage vrai et le portrait, la cour et la maison, puis la fin de la dynastie. Les neuf œuvres de Séoul viennent du Musée national de Corée, qui les publie sur son site e-museum sous la licence coréenne KOGL type 1 (libre réutilisation avec mention de la source) ; faute de pouvoir obtenir une clé d'accès à son interface de données, réservée aux personnes qui ont une pièce d'identité et un téléphone coréens, elles ont été prises sur les pages publiques du site. Deux chefs-d'œuvre n'ont pas pu être ajoutés pour cette raison : l'Hiver (Sehando) de Kim Jeong-hui, dont l'image en ligne est trop petite, et l'École de village de Kim Hong-do. Les autres œuvres viennent du Metropolitan Museum of Art de New York et du Cleveland Museum of Art.",
+    "works": [
+      {
+        "title": "Cloche du soir d'un temple dans la brume ; Lune d'automne sur le lac Dongting",
+        "artist": "Style d'An Gyeon",
+        "country": "Corée",
+        "period": "vers 1450–1500",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/50897), domaine public (CC0)",
+        "analysis": "Deux rouleaux verticaux à l'encre sur soie, de 89,9 × 45,4 cm chacun, montés côte à côte. Sur chacun, des sommets escarpés et des arbres sortent de la brume au-dessus d'une étendue d'eau calme, avec, en bas, une rive basse. Les formes s'effacent dans un lavis gris, et le vide occupe presque la moitié de chaque image.",
+        "compare": "Les deux titres appartiennent aux « Huit Vues des rivières Xiao et Xiang », un thème né en Chine sous les Song. Le Met rattache ces rouleaux au style d'An Gyeon, le grand peintre de la cour du XVe siècle, dont presque aucune œuvre sûre n'a survécu.",
+        "image": "images/mouvements/peinture-de-la-dynastie-joseon/style-d-an-gyeon-cloche-du-soir-et-lune-d-automne.jpg"
+      },
+      {
+        "title": "Oies sauvages se posant sur un banc de sable",
+        "artist": "Peintre coréen anonyme",
+        "country": "Corée",
+        "period": "fin du XVe – début du XVIe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/39888), domaine public (CC0)",
+        "analysis": "Un rouleau à l'encre sur soie de 126,4 × 48,9 cm. Des collines et des îlots se succèdent en bandes horizontales, de plus en plus pâles vers le haut, jusqu'à disparaître dans la brume ; un poème est écrit en haut à droite. Il faut chercher les petites silhouettes des oies au-dessus de l'eau.",
+        "compare": "Une autre des « Huit Vues des rivières Xiao et Xiang ». Comparez avec la paire précédente : même thème, mêmes brumes, mais une composition plus ouverte, où le regard glisse de rive en rive.",
+        "image": "images/mouvements/peinture-de-la-dynastie-joseon/oies-sauvages-se-posant-sur-un-banc-de-sable.jpg"
+      },
+      {
+        "title": "Marché de montagne, temps clair et brume qui se lève",
+        "artist": "Peintre coréen anonyme",
+        "country": "Corée",
+        "period": "début du XVIe siècle",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/2015.517), domaine public (CC0)",
+        "analysis": "Un rouleau à l'encre sur soie de 115,3 × 60 cm. Selon le musée, on y suit un lettré retiré à la montagne : il accueille un hôte dans sa cour en bas à gauche, croise un voyageur sur un pont, rend visite à un ami, admire la vue d'une terrasse près d'un vieux pin, puis repart avec deux serviteurs sur un pont de bois sinueux. Derrière la grande montagne rocheuse s'ouvre la vue d'un marché animé.",
+        "compare": "Selon le musée, à cause de son style, on a longtemps cru que cette peinture était chinoise et datait des Song du Nord, au XIIe siècle : la preuve de la place qu'occupait le modèle chinois au début de la dynastie Joseon.",
+        "image": "images/mouvements/peinture-de-la-dynastie-joseon/marche-de-montagne-dans-la-brume-qui-se-leve.jpg"
+      },
+      {
+        "title": "Paysage des quatre saisons",
+        "artist": "Yi Sumun",
+        "country": "Japon",
+        "period": "fin du XVe siècle",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1976.92), domaine public (CC0)",
+        "analysis": "Une paire de paravents à six panneaux, à l'encre et légères couleurs sur papier, de 3,49 mètres de long. Lus de droite à gauche, ils font passer les quatre saisons : collines, lacs, pavillons, ponts et pins se suivent sans interruption d'un panneau à l'autre, avec de petites figures de voyageurs.",
+        "compare": "Selon le musée, Yi Sumun serait un Coréen parti au Japon en 1424, à l'âge de vingt ans, où il devint un paysagiste influent ; ces paravents sont son œuvre la plus importante dans ce format. Ils montrent les échanges entre la peinture coréenne et la peinture japonaise à l'encre de la même époque.",
+        "image": "images/mouvements/peinture-de-la-dynastie-joseon/yi-sumun-paysage-des-quatre-saisons.jpg"
+      },
+      {
+        "title": "Paysage de neige avec personnages",
+        "artist": "Kim Si",
+        "country": "Corée",
+        "period": "1584",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1987.187), domaine public (CC0)",
+        "analysis": "Un rouleau à l'encre sur soie de 53 × 67,3 cm. Des montagnes couvertes de neige dominent une vallée ; au pied d'une falaise, sous des arbres dénudés, un lettré se tient seul dans son studio, et un pont de bois vide traverse l'eau au loin. Une inscription et des sceaux sont placés en haut à gauche.",
+        "compare": "Selon le musée, Kim Si appartenait à l'aristocratie, mais sa famille perdit le pouvoir et il vécut en peintre retiré : le lettré isolé dans la neige n'est pas seulement l'image d'une vie idéale d'étude, c'est aussi un paysage intérieur, celui d'une gloire familiale oubliée. Une des rares peintures sûres du début de la dynastie qui aient survécu.",
+        "image": "images/mouvements/peinture-de-la-dynastie-joseon/kim-si-paysage-de-neige.jpg"
+      },
+      {
+        "title": "Plantes et insectes : pastèques et souris",
+        "artist": "Attribué à Sin Saimdang",
+        "country": "Corée",
+        "period": "XVIe siècle",
+        "museum": "Musée national de Corée, Séoul",
+        "credit": "Musée national de Corée, via e-museum (https://www.emuseum.go.kr/detail?relicId=PS0100100101100355000000), licence KOGL type 1 (réutilisation libre avec mention de la source)",
+        "analysis": "Une feuille de 32,8 × 28 cm. Deux grosses pastèques rayées poussent sur une tige en arc qui porte des feuilles découpées ; l'une d'elles est entamée, et deux souris grignotent sa chair rouge au premier plan. Deux papillons volent au-dessus, près d'œillets rouges. Selon le musée, le trait fin, les couleurs franches et la composition stable en font une œuvre remarquable.",
+        "compare": "Selon le musée, Sin Saimdang (1504–1551), mère du grand lettré Yi I, est la peintre la plus célèbre du début de la dynastie ; cette feuille vient d'un paravent de huit panneaux de plantes et d'insectes, un genre qu'on lui attribue souvent et qui a ensuite servi de modèle aux brodeuses.",
+        "image": "images/mouvements/peinture-de-la-dynastie-joseon/sin-saimdang-pasteques-et-souris.jpg"
+      },
+      {
+        "title": "Faucon blanc",
+        "artist": "Peintre coréen anonyme",
+        "country": "Corée",
+        "period": "XVIe siècle",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/2026.15), domaine public (CC0)",
+        "analysis": "Un rouleau à l'encre et couleurs sur soie de 86 × 43,2 cm. Un faucon blanc, aux plumes dessinées une à une, se tient sur un rocher, la tête tournée vers le bas, les serres agrippées à la pierre ; autour de lui, un arbre en fleurs et des herbes sont tracés à larges coups de pinceau. Selon le musée, ce contraste entre l'oiseau minutieux et les plantes rapides est typique des peintures coréennes d'oiseaux et de fleurs du milieu du XVIe et du début du XVIIe siècle.",
+        "compare": "Selon le musée, dans l'Asie de l'Est d'autrefois, le faucon blanc symbolisait l'intégrité morale ; les rois offraient souvent de telles peintures aux fonctionnaires méritants.",
+        "image": "images/mouvements/peinture-de-la-dynastie-joseon/faucon-blanc.jpg"
+      },
+      {
+        "title": "Promenade en barque au clair de lune",
+        "artist": "Peintre coréen anonyme",
+        "country": "Corée",
+        "period": "XVIIe siècle",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1989.87), domaine public (CC0)",
+        "analysis": "Une feuille d'album à l'encre sur soie, de 30 × 26,3 cm. Sous une haute falaise et un arbre penché, un lettré allongé dans une barque contemple la lune, tandis qu'un batelier rame à l'arrière. Le musée invite à regarder tout ce que contient la barque : une plante en pot, un livre, un luth, une boîte à repas à étages, une théière et un petit réchaud.",
+        "compare": "Selon le musée, cette promenade au pied d'une falaise rappelle les deux poèmes de l'« Ode à la Falaise rouge » du poète chinois Su Shi (1037–1101), souvent illustrés en Chine et en Corée.",
+        "image": "images/mouvements/peinture-de-la-dynastie-joseon/promenade-en-barque-au-clair-de-lune.jpg"
+      },
+      {
+        "title": "Vue générale des monts de Diamant intérieurs, album du Pungak de 1711",
+        "artist": "Jeong Seon",
+        "country": "Corée",
+        "period": "1711",
+        "museum": "Musée national de Corée, Séoul",
+        "credit": "Musée national de Corée, via e-museum (https://www.emuseum.go.kr/detail?relicId=PS0100100100500090300000), licence KOGL type 1 (réutilisation libre avec mention de la source)",
+        "analysis": "Une feuille de soie de 36,1 × 37,6 cm. Des dizaines de pics blancs et pointus se dressent comme une forêt de pierre, enserrés par des montagnes boisées plus sombres ; des sentiers et des torrents serpentent entre eux, et de petits temples sont nichés dans les vallées. Le nom de chaque sommet est écrit à côté de lui, et le titre en haut à droite.",
+        "compare": "Selon le musée, c'est sans doute la plus ancienne œuvre datée de Jeong Seon, peinte à 36 ans, lors du voyage aux monts Geumgang de son voisin Sin Tae-dong en 1711 ; les noms des pics et les chemins bien marqués montrent l'influence des cartes de l'époque. C'est à partir de ces vues d'après nature que Jeong Seon invente le « paysage vrai ».",
+        "image": "images/mouvements/peinture-de-la-dynastie-joseon/jeong-seon-vue-generale-des-monts-de-diamant-interieurs.jpg"
+      },
+      {
+        "title": "Après la pluie sur le mont Inwang",
+        "artist": "Jeong Seon",
+        "country": "Corée",
+        "period": "1751",
+        "museum": "Musée national de Corée, Séoul",
+        "credit": "Musée national de Corée, via e-museum (https://www.emuseum.go.kr/detail?relicId=PS0100100102400000100000), licence KOGL type 1 (réutilisation libre avec mention de la source)",
+        "analysis": "Un grand rouleau horizontal de 79,2 × 138,2 cm, à l'encre sur papier. La masse sombre et arrondie du mont Inwang, à Séoul, occupe tout le haut de l'image ; des bandes de brume blanche montent entre les crêtes couvertes de pins noirs, et une maison apparaît en bas à droite. L'encre est posée en larges coups de pinceau mouillés, presque noirs sur la roche. L'inscription en haut à droite donne le titre, « Inwang jesaek », la signature de Gyeomjae (Jeong Seon) et la date : la dernière décade du mois intercalaire de l'année sinmi, soit 1751.",
+        "compare": "Un trésor national de la Corée, peint quand Jeong Seon avait 75 ans. Ce n'est plus une montagne chinoise rêvée, comme dans les rouleaux du début de l'exposition, mais la montagne que le peintre voyait de chez lui, au moment précis où la pluie s'arrête.",
+        "image": "images/mouvements/peinture-de-la-dynastie-joseon/jeong-seon-apres-la-pluie-sur-le-mont-inwang.jpg"
+      },
+      {
+        "title": "Autoportrait",
+        "artist": "Kang Se-hwang",
+        "country": "Corée",
+        "period": "1782",
+        "museum": "Musée national de Corée, Séoul",
+        "credit": "Musée national de Corée, via e-museum (https://www.emuseum.go.kr/detail?relicId=PS0100100101601056200000), licence KOGL type 1 (réutilisation libre avec mention de la source)",
+        "analysis": "Un rouleau sur soie. Un vieil homme à la barbe blanche est assis en tailleur, de face, dans une robe d'intérieur bleu très pâle serrée par un cordon rouge, mais coiffé du haut chapeau noir à ailes des fonctionnaires. Son visage ridé est peint avec un grand soin. De part et d'autre, une inscription : « Qui est cet homme aux cheveux et aux sourcils blancs ? Il porte le chapeau officiel et l'habit des champs… », puis « Le vieil homme a soixante-dix ans, son nom de plume est Nojuk ; il a peint son portrait et écrit lui-même l'éloge », avec la date cyclique de 1782.",
+        "compare": "Le chapeau de la cour avec la robe du lettré retiré : Kang Se-hwang se peint à la fois en fonctionnaire et en homme libre. Le musée le désigne comme un portrait peint de sa propre main ; c'est l'un des autoportraits les plus célèbres de Corée, et un trésor du pays.",
+        "image": "images/mouvements/peinture-de-la-dynastie-joseon/kang-se-hwang-autoportrait.jpg"
+      },
+      {
+        "title": "Le Chant de l'automne",
+        "artist": "Kim Hong-do",
+        "country": "Corée",
+        "period": "1805",
+        "museum": "Musée national de Corée, Séoul",
+        "credit": "Musée national de Corée, via e-museum (https://www.emuseum.go.kr/detail?relicId=PS0100100102400001600000), licence KOGL type 1 (réutilisation libre avec mention de la source)",
+        "analysis": "Un rouleau horizontal à l'encre et légères couleurs sur papier. Dans un paysage d'arbres presque dépouillés, sous la lune, un lettré est assis dans une maison à la fenêtre ronde, et un jeune serviteur se tient dans la cour. Le long texte à gauche est l'« Ode au son de l'automne » du poète chinois Ouyang Xiu : la nuit, l'écrivain entend un bruit venu du sud-ouest et envoie son serviteur voir ce que c'est ; le garçon répond que « les étoiles et la lune brillent, la Voie lactée est au ciel, et le son est dans les arbres ». La date, l'année eulchuk, trois jours après le solstice d'hiver, correspond à 1805.",
+        "compare": "Une des dernières œuvres de Kim Hong-do (1745–1806 ?), le plus célèbre peintre de la cour, connu surtout pour ses scènes de la vie quotidienne. Ici, à la fin de sa vie, il peint le vent d'automne qui fait tomber les feuilles, une méditation sur la vieillesse. Un trésor de la Corée.",
+        "image": "images/mouvements/peinture-de-la-dynastie-joseon/kim-hong-do-le-chant-de-l-automne.jpg"
+      },
+      {
+        "title": "Faucon au soleil levant",
+        "artist": "Attribué à Jeong Hong-rae",
+        "country": "Corée",
+        "period": "seconde moitié du XVIIIe – première moitié du XIXe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/860960), domaine public (CC0)",
+        "analysis": "Un rouleau à l'encre et couleurs sur soie de 113 × 59,7 cm. Un faucon aux plumes brunes et au ventre blanc se tient sur un rocher aux couleurs vertes et bleues, battu par des vagues écumantes ; au-dessus, un grand soleil rouge se lève. Le rocher et les vagues sont stylisés, le plumage est peint avec précision.",
+        "compare": "Comparez avec le Faucon blanc du XVIe siècle : même oiseau, même posture fière sur un rocher, mais ici le soleil levant et la mer en font une image de bon augure, pleine de couleurs.",
+        "image": "images/mouvements/peinture-de-la-dynastie-joseon/jeong-hong-rae-faucon-au-soleil-levant.jpg"
+      },
+      {
+        "title": "Le Soleil, la Lune et les Cinq Pics (Irworobongdo)",
+        "artist": "Peintre coréen anonyme",
+        "country": "Corée",
+        "period": "dynastie Joseon",
+        "museum": "Musée national de Corée, Séoul",
+        "credit": "Musée national de Corée, via e-museum (https://www.emuseum.go.kr/detail?relicId=PS0100100100101161500000), licence KOGL type 1 (réutilisation libre avec mention de la source)",
+        "analysis": "Un paravent à quatre panneaux. Cinq montagnes vertes et bleues se dressent sur un ciel sombre, avec, à gauche, une lune ronde pâle, et, à droite, un soleil rouge. Des cascades blanches descendent entre les pics, et des pins aux troncs rouges se dressent de part et d'autre. Tout est symétrique.",
+        "compare": "Ce paravent se plaçait derrière le trône du roi de Joseon, dans les palais et lors des cérémonies : le soleil et la lune, le roi et la reine ou le yang et le yin, les cinq pics et les pins forment un univers ordonné dont le souverain occupe le centre.",
+        "image": "images/mouvements/peinture-de-la-dynastie-joseon/le-soleil-la-lune-et-les-cinq-pics.jpg"
+      },
+      {
+        "title": "Bibliothèque en trompe-l'œil (chaekgado), panneau d'un paravent à six panneaux",
+        "artist": "Peintre coréen anonyme",
+        "country": "Corée",
+        "period": "dynastie Joseon",
+        "museum": "Musée national de Corée, Séoul",
+        "credit": "Musée national de Corée, via e-museum (https://www.emuseum.go.kr/detail?relicId=PS0100100102400412300000), licence KOGL type 1 (réutilisation libre avec mention de la source)",
+        "analysis": "Un panneau de 152,2 × 68,3 cm. Des étagères aux parois bleu-gris s'emboîtent en perspective : on y voit une branche de fleurs roses dans un vase, une coupe en forme de poisson, un bol pourpre, une pêche sur un plat, une théière, des vases rouges à long col, un brûle-parfum et des boîtes de livres empilés. Chaque case a sa propre perspective, ce qui donne une impression de relief un peu étrange.",
+        "compare": "Les chaekgado, « peintures de bibliothèques », ont décoré le palais avant de devenir à la mode chez les lettrés : on s'entourait de livres et d'objets précieux, au moins en peinture. Comparez avec celui de Yi Taek-gyun, juste après.",
+        "image": "images/mouvements/peinture-de-la-dynastie-joseon/bibliotheque-en-trompe-l-oeil-chaekgado.jpg"
+      },
+      {
+        "title": "Livres et objets de lettré (chaekgado)",
+        "artist": "Yi Taek-gyun",
+        "country": "Corée",
+        "period": "fin du XIXe siècle",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/2011.37), domaine public (CC0)",
+        "analysis": "Un paravent à dix panneaux, à l'encre et couleurs sur soie, de 3,95 mètres de long. Une grande bibliothèque se déploie d'un bout à l'autre, sur un fond bleu nuit : des rangées de livres jaunes empilés, des vases, des théières, des fleurs et des pinceaux, case après case. Selon le musée, le troisième panneau à partir de la droite porte un sceau caché qui révèle le nom de l'artiste, peintre de la cour.",
+        "compare": "Selon le musée, ces peintures de bibliothèques apparaissent dans la seconde moitié du XVIIIe siècle et deviennent un emblème royal au XIXe ; une hypothèse les rapproche des cabinets en trompe-l'œil de la Renaissance européenne et des peintures d'objets précieux de la Chine des Qing.",
+        "image": "images/mouvements/peinture-de-la-dynastie-joseon/yi-taek-gyun-livres-et-objets-de-lettre.jpg"
+      },
+      {
+        "title": "Portrait d'un fonctionnaire",
+        "artist": "Peintre coréen anonyme",
+        "country": "Corée",
+        "period": "début du XIXe siècle",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1999.45), domaine public (CC0)",
+        "analysis": "Un rouleau à l'encre et couleurs sur soie de 147,7 × 76,4 cm. Un homme à longue barbe grise, coiffé du chapeau noir de la cour, est assis de trois quarts sur un fauteuil couvert d'une peau de léopard, les mains cachées dans les manches de son uniforme rose pâle ; ses pieds reposent sur un tabouret, au-dessus d'un tapis à motifs.",
+        "compare": "Selon le musée, l'inscription qui donnait son nom a sans doute été coupée ; mais l'uniforme rose indique qu'il servait à la cour après le début du XVIIIe siècle, quand la couleur des uniformes passa du vert foncé au rose pâle, et la peau de léopard était un cadeau du roi. Ces portraits étaient conservés comme des reliques de famille.",
+        "image": "images/mouvements/peinture-de-la-dynastie-joseon/portrait-d-un-fonctionnaire.jpg"
+      },
+      {
+        "title": "Tigre et pies",
+        "artist": "Peintre coréen anonyme",
+        "country": "Corée",
+        "period": "dynastie Joseon",
+        "museum": "Musée national de Corée, Séoul",
+        "credit": "Musée national de Corée, via e-museum (https://www.emuseum.go.kr/detail?relicId=PS0100100100900261300000), licence KOGL type 1 (réutilisation libre avec mention de la source)",
+        "analysis": "Un rouleau de 134,6 × 80,6 cm. Un énorme tigre rayé descend de la gauche, la tête tournée vers nous, les yeux ronds et la gueule rouge grande ouverte sur ses crocs ; sa queue remonte le long du tronc d'un vieux pin, où deux pies noires et blanches sont perchées et semblent l'interpeller. Chaque poil du pelage est tracé au pinceau.",
+        "compare": "Le tigre et la pie sont un thème très aimé de la peinture populaire coréenne : on accrochait ces images au Nouvel An pour chasser le mal. Le tigre, mi-effrayant mi-comique, n'impressionne guère la pie, messagère de bonnes nouvelles.",
+        "image": "images/mouvements/peinture-de-la-dynastie-joseon/tigre-et-pies.jpg"
+      },
+      {
+        "title": "Famille de tigres",
+        "artist": "Peintre coréen anonyme",
+        "country": "Corée",
+        "period": "fin du XIXe siècle",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1997.148), domaine public (CC0)",
+        "analysis": "Un rouleau à l'encre et couleurs sur papier de 170 × 90,4 cm. Dans la montagne, une tigresse, deux petits et un léopard accueillent le soleil du matin, rouge derrière un grand pin. Le pelage des félins est rendu avec un grand souci de réalisme.",
+        "compare": "Selon le musée, ce n'est pas seulement une scène amusante : le pin symbolise la longévité, la tigresse et ses petits la prospérité, le léopard la chance, et l'on collait des tigres sur les portes la veille du Nouvel An pour éloigner les esprits mauvais. Comparez avec le tigre aux pies précédent : ici le soleil remplace les pies.",
+        "image": "images/mouvements/peinture-de-la-dynastie-joseon/famille-de-tigres.jpg"
+      },
+      {
+        "title": "Orchidées et rochers",
+        "artist": "Yi Ha-eung",
+        "country": "Corée",
+        "period": "1897–1898",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/2015.138), domaine public (CC0)",
+        "analysis": "Un paravent à huit panneaux, à l'encre seule sur soie. Sur chaque panneau, des orchidées sauvages aux longues feuilles courbes pendent d'un rocher ou d'une falaise, avec des inscriptions et des sceaux rouges. Le pinceau trace chaque feuille d'un seul geste, épais puis fin.",
+        "compare": "Selon le musée, Yi Ha-eung (1820–1898), le régent Heungseon Daewongun, gouverna la Corée de 1866 à 1873 au nom de son fils, le roi Gojong, et mena une politique de fermeture aux étrangers ; il était aussi un maître de l'orchidée, l'un des « Quatre Gentilshommes » de la peinture lettrée, symbole de l'homme de principes.",
+        "image": "images/mouvements/peinture-de-la-dynastie-joseon/yi-ha-eung-orchidees-et-rochers.jpg"
+      },
+      {
+        "title": "Immortel sous un bananier",
+        "artist": "Jang Seung-eop",
+        "country": "Corée",
+        "period": "seconde moitié du XIXe siècle",
+        "museum": "Musée national de Corée, Séoul",
+        "credit": "Musée national de Corée, via e-museum (https://www.emuseum.go.kr/detail?relicId=PS0100100100900257200000), licence KOGL type 1 (réutilisation libre avec mention de la source)",
+        "analysis": "Un rouleau de 201 × 84,9 cm, sur papier. Sous les grandes feuilles d'un bananier, un immortel en habit à la chinoise est accoudé au sol ; selon le musée, il est en train de peindre. Un plateau est posé sur un haut support près de lui. Toujours selon le musée, son visage est détaillé au pinceau fin, alors qu'un jeune serviteur, en bas, est peint beaucoup plus petit. Un texte à gauche, écrit en 1933 par Ji Un-yeong, attribue la peinture, qui n'est pas signée, à Jang Seung-eop.",
+        "compare": "Selon le musée, Jang Seung-eop (1843–1897), dont l'enfance fut difficile et la vie errante, a eu une grande influence sur les peintres modernes. Il est le dernier grand maître de la peinture Joseon : le costume chinois, à l'ancienne, montre le goût de son temps pour le passé.",
+        "image": "images/mouvements/peinture-de-la-dynastie-joseon/jang-seung-eop-immortel-sous-un-bananier.jpg"
+      }
+    ]
   }
 ]

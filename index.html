@@ -250,6 +250,7 @@ a.mus-site:hover{color:var(--bleu)}
 .art-choix .art-tag.on{background:#1a1614;color:#fff;border-color:#1a1614}
 .artiste-ligne input{width:100%;max-width:520px;padding:10px 12px;border:1px solid #e0d5c0;border-radius:4px;font:inherit;font-size:14px;background:#fff;color:#111}
 .mv-carte{break-inside:avoid;margin:0 0 14px}
+.mv-cov{display:block;width:100%;height:auto;aspect-ratio:16/10;object-fit:cover;border-radius:4px;margin:0 0 8px;background:#111}
 .mv-carte h4{font-family:'Cormorant Garamond',serif;font-size:19px;margin:0 0 2px;color:#111}
 .mv-carte .mv-lieu{font-size:12px;color:#666;margin:0 0 4px}
 .mv-carte .mv-art{font-size:12px;color:#555;font-style:italic}
@@ -1224,13 +1225,16 @@ const ORDRE_REGIONS_MV=["Asie de l'Est",'Asie du Sud et du Sud-Est','Moyen-Orien
   if(z)z.innerHTML=ORDRE_REGIONS_MV.map(r=>{const l=MOUVEMENTS.filter(m=>m.region===r);return l.length?`<div class="mv-groupe"><p class="mv-groupe-t">${esc(r)}</p><div class="tags">${l.map(m=>`<span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="${esc(m.nom)}" onclick="tog(this,'mv')">${esc(m.nom)}</span>`).join('')}</div></div>`:'';}).join('');
   majArtistes();
 })();
+// Vignettes des cartes de mouvement (images/mouvements/couvertures/<slug>.jpg, 640×400) : une par exposition préparée,
+// une œuvre non sensible de l'exposition. Nom du mouvement → slug de son exposition.
+const COUV_MV={"Ukiyo-e":"ukiyo-e","Peinture moghole":"peinture-moghole","Hudson River School":"hudson-river-school","École Rinpa":"ecole-rinpa","École Kanō":"ecole-kano","Paysage monumental des Song":"paysage-song","Peinture lettrée":"peinture-lettree","École de Shanghai":"ecole-de-shanghai","Peinture rajpoute et pahari":"peinture-rajpoute-et-pahari","Art khmer d'Angkor":"art-khmer-d-angkor","Miniature persane":"miniature-persane","Peinture ottomane":"peinture-ottomane","Art mamelouk":"art-mamelouk","Peinture chrétienne éthiopienne":"peinture-chretienne-ethiopienne","Art amarnien":"art-amarnien","Art de cour du royaume du Bénin":"art-de-cour-du-benin","Art maya classique":"art-maya-classique","École de Cuzco":"ecole-de-cuzco","Sculpture maorie":"sculpture-maorie","Art gothique":"art-gothique","Renaissance":"renaissance","Baroque":"baroque","Romantisme":"romantisme","École de Barbizon":"ecole-de-barbizon","Impressionnisme":"impressionnisme","Postimpressionnisme":"postimpressionnisme","Art nouveau":"art-nouveau","Expressionnisme":"expressionnisme","Néoclassicisme":"neoclassicisme","Réalisme":"realisme","Symbolisme":"symbolisme","Pionniers de l'abstraction":"pionniers-de-l-abstraction","Art assyrien":"art-assyrien","Peinture de la dynastie Joseon":"peinture-de-la-dynastie-joseon"};
 // Onglet « Mouvements » : cartes par région, chacune avec un bouton qui prépare l'exposition dans le générateur
 function afficherMouvements(){
   chargerExposMouvements().then(()=>document.querySelectorAll('#mv-regions [data-mv]').forEach(b=>{if(exposDuMouvement(b.dataset.mv))b.textContent='Voir l\'exposition';}));
   const z=document.getElementById('mv-regions');
   if(!z||z.children.length||typeof MOUVEMENTS==='undefined')return;
   z.innerHTML=ORDRE_REGIONS_MV.map(r=>{const l=MOUVEMENTS.filter(m=>m.region===r);if(!l.length)return'';
-    return `<section class="mus-region"><h3>${esc(r)}</h3><div class="mv-liste">${l.map(m=>`<div class="mv-carte"><h4>${esc(m.nom)}</h4><p class="mv-lieu">${esc(m.lieu)} · ${esc(m.epoque)}</p><p>${esc(m.texte)}</p>${m.artistes.length?`<p class="mv-art">${m.artistes.map(esc).join(', ')}</p>`:'<p class="mv-art">Œuvres le plus souvent anonymes</p>'}<button type="button" class="lien-btn" data-mv="${esc(m.nom)}" onclick="exposerMouvement(this.dataset.mv)">Créer une exposition</button></div>`).join('')}</div></section>`;}).join('');
+    return `<section class="mus-region"><h3>${esc(r)}</h3><div class="mv-liste">${l.map(m=>`<div class="mv-carte">${COUV_MV[m.nom]?`<img class="mv-cov" src="images/mouvements/couvertures/${COUV_MV[m.nom]}.jpg" alt="" width="640" height="400" loading="lazy" decoding="async">`:''}<h4>${esc(m.nom)}</h4><p class="mv-lieu">${esc(m.lieu)} · ${esc(m.epoque)}</p><p>${esc(m.texte)}</p>${m.artistes.length?`<p class="mv-art">${m.artistes.map(esc).join(', ')}</p>`:'<p class="mv-art">Œuvres le plus souvent anonymes</p>'}<button type="button" class="lien-btn" data-mv="${esc(m.nom)}" onclick="exposerMouvement(this.dataset.mv)">Créer une exposition</button></div>`).join('')}</div></section>`;}).join('');
 }
 function exposerMouvement(nom){
   chargerExposMouvements().then(()=>{const e=exposDuMouvement(nom);if(e)viewSp(e.id);else exposerMouvementDirect(nom);});

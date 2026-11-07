@@ -8370,5 +8370,246 @@
         "image": "images/mouvements/peinture-de-la-dynastie-joseon/jang-seung-eop-immortel-sous-un-bananier.jpg"
       }
     ]
+  },
+  {
+    "mouvement": "École du Bengale",
+    "slug": "ecole-du-bengale",
+    "status": "published",
+    "title": "L'école du Bengale, une peinture pour l'Inde nouvelle",
+    "subtitle": "Calcutta, 1900–1940 : vingt et une œuvres, de Kalighat aux Tagore, de Calcutta, de New Delhi, de New York et de Cleveland",
+    "intro": "Au XIXe siècle, Calcutta, l'actuelle Kolkata, est la capitale de l'Inde britannique. Deux images s'y côtoient. Autour du temple de Kali, à Kalighat, des peintres populaires vendent aux pèlerins des aquarelles vives et rapides, dieux, déesses et caricatures de la société coloniale. Dans les écoles d'art fondées par les Britanniques, on apprend au contraire la peinture à l'huile à l'européenne ; Raja Ravi Varma peint les dieux hindous à la manière des académies et les diffuse dans tout le pays, depuis sa presse de Bombay, en chromolithographies. En 1905, le partage du Bengale par les Britanniques provoque le mouvement Swadeshi, qui appelle à boycotter les produits anglais et à défendre ce qui est indien. C'est dans ce climat qu'Abanindranath Tagore (1871–1951), neveu du poète Rabindranath Tagore, invente une autre voie, avec l'appui d'Ernest Binfield Havell, directeur de l'École d'art de Calcutta : retrouver la finesse des miniatures mogholes et rajpoutes, les sujets de l'histoire et de la mythologie indiennes, et emprunter au Japon la technique du lavis, apprise auprès des peintres Yokoyama Taikan et Hishida Shunsō, venus à Calcutta à l'invitation du penseur Okakura Kakuzō en 1903. Ses élèves fondent ce qu'on appellera l'école du Bengale ; en 1907, ils créent la Société indienne d'art oriental. Son frère Gaganendranath (1867–1938) prend un autre chemin : il dessine des caricatures mordantes de la société de Calcutta, puis compose des villes de lumière et d'ombre qui sont parmi les premières œuvres cubistes de l'Inde. Rabindranath Tagore (1861–1941), prix Nobel de littérature en 1913, se met à peindre à près de soixante-dix ans, en partant des ratures de ses manuscrits. Dans les années 1930, une nouvelle génération, avec Amrita Sher-Gil, cherche une peinture moderne qui ne soit ni européenne ni tournée vers le passé. L'exposition suit cette histoire : les sources, de Kalighat à Ravi Varma, Abanindranath Tagore, Gaganendranath Tagore, puis Rabindranath et l'héritage. Les œuvres principales sont conservées en Inde, au Victoria Memorial Hall et au Musée indien de Calcutta, et à la National Gallery of Modern Art de New Delhi ; leurs images viennent de Wikimedia Commons, souvent d'après Google Arts & Culture. Les autres viennent du Metropolitan Museum of Art et du Cleveland Museum of Art. Les élèves les plus célèbres d'Abanindranath, comme Nandalal Bose, mort en 1966, ne sont pas encore du domaine public et ne peuvent pas être montrés ici. Une œuvre d'Abanindranath, Jeune fille santal, a été écartée parce que l'image disponible est celle d'une reproduction imprimée, et non du tableau lui-même.",
+    "works": [
+      {
+        "title": "Shiva porte le corps de Sati",
+        "artist": "Peintre de Kalighat",
+        "country": "Inde",
+        "period": "vers 1865–1875",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/55034), domaine public (CC0)",
+        "analysis": "Une aquarelle opaque de 45,7 × 27,9 cm, rehaussée d'argent. Shiva, le teint bleu pâle, vêtu d'une peau de tigre, porte sur son épaule le corps sans vie de son épouse Sati, dont les longs cheveux pendent derrière lui. Les formes sont rondes et pleines, cernées d'un trait d'encre souple, sur un fond uni.",
+        "compare": "Dans le mythe, Shiva, fou de douleur, erre à travers le monde avec le corps de Sati ; les lieux où tombent les morceaux de son corps deviennent des sanctuaires, et Kalighat passe pour l'un d'eux. Ces images vendues aux pèlerins sont la première peinture moderne de Calcutta.",
+        "image": "images/mouvements/ecole-du-bengale/kalighat-shiva-porte-le-corps-de-sati.jpg"
+      },
+      {
+        "title": "La déesse Kali",
+        "artist": "Peintre de Kalighat",
+        "country": "Inde",
+        "period": "vers 1890",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/2003.110.a), domaine public (CC0)",
+        "analysis": "Une feuille de 45,9 × 28 cm, à la détrempe, à l'encre et à l'étain. Selon le musée, Kali, à la peau noire et à quatre bras, tire la langue, le sang coule de sa bouche et un troisième œil, signe de la connaissance divine, marque son front ; elle tient une épée et la tête tranchée d'un démon, et fait de ses deux autres mains les gestes de la protection et de la bénédiction. Un grand halo de rayons verts et orange l'entoure.",
+        "compare": "Selon le musée, cette image, réplique de celle qu'on vénère dans le temple de Kalighat, était vendue comme souvenir aux pèlerins et aux Britanniques, qui la rapportaient en Angleterre pour impressionner leurs amis : un regard colonial fasciné et effrayé.",
+        "image": "images/mouvements/ecole-du-bengale/kalighat-la-deesse-kali.jpg"
+      },
+      {
+        "title": "Krishna dompte le serpent Kaliya",
+        "artist": "Peintre de Kalighat",
+        "country": "Inde",
+        "period": "vers 1890",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/2003.113.b), domaine public (CC0)",
+        "analysis": "Une aquarelle de 25 × 20 cm. Le jeune Krishna, à la peau bleue, danse en jouant de la flûte sur la tête d'un immense serpent dont le corps forme une grande boucle bleue ; de chaque côté, les épouses du serpent, mi-femmes mi-serpents, joignent les mains pour l'implorer. Quelques larges coups de pinceau suffisent pour les corps.",
+        "compare": "Selon le musée, le serpent Kaliya empoisonnait la rivière Yamuna ; Krishna le vainquit, puis l'épargna à la prière de ses épouses, représentées ici comme des sirènes. La simplicité du trait de Kalighat a plus tard fasciné les peintres modernes de l'Inde.",
+        "image": "images/mouvements/ecole-du-bengale/kalighat-krishna-dompte-le-serpent-kaliya.jpg"
+      },
+      {
+        "title": "Servante apportant un houka à une dame",
+        "artist": "Peintre de Kalighat",
+        "country": "Inde",
+        "period": "vers 1890",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/2003.107.a), domaine public (CC0)",
+        "analysis": "Une feuille de 45,8 × 27,5 cm. À gauche, une servante en sari vert tend le tuyau d'un houka ; à droite, une dame en sari rouge, couverte de bijoux, tient une fleur. Les longs cheveux noirs, les grands yeux et les plis des saris sont dessinés d'un trait ferme, avec des rehauts d'étain.",
+        "compare": "Selon le musée, les peintres de Kalighat se moquaient aussi de la société coloniale : les babus, employés bengalis enrichis qui imitaient leurs maîtres britanniques, et les courtisanes à la mode qu'ils entretenaient. Gaganendranath Tagore reprendra cette veine satirique.",
+        "image": "images/mouvements/ecole-du-bengale/kalighat-servante-apportant-un-houka.jpg"
+      },
+      {
+        "title": "Lakshmi",
+        "artist": "Raja Ravi Varma (presse lithographique Ravi Varma)",
+        "country": "Inde",
+        "period": "1894",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/78264), domaine public (CC0)",
+        "analysis": "Une chromolithographie de 71,4 × 50,8 cm. La déesse Lakshmi, à quatre bras, se tient debout sur un grand lotus rose au milieu d'un étang, vêtue d'un sari rouge bordé d'or ; elle tient deux lotus, un éléphant l'asperge d'eau avec sa trompe et deux cygnes nagent à gauche. La signature « Ravi Varma 1894 » et la mention « The Ravi Varma Fine Arts Lithographic Press, Bombay » figurent au bas de la feuille.",
+        "compare": "Ravi Varma peint les dieux hindous à la manière des académies européennes, avec le modelé, la perspective et la lumière de la peinture à l'huile, et ses estampes entrent dans toutes les maisons. C'est contre ce modèle que l'école du Bengale va chercher une manière plus indienne.",
+        "image": "images/mouvements/ecole-du-bengale/ravi-varma-lakshmi.jpg"
+      },
+      {
+        "title": "La Mort de Shah Jahan",
+        "artist": "Abanindranath Tagore",
+        "country": "Inde",
+        "period": "1902",
+        "museum": "Victoria Memorial Hall, Calcutta",
+        "credit": "Victoria Memorial Hall, Calcutta, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Abanindranath_Tagore_-_The_Passing_of_Shah_Jahan%2C_1902.jpg), domaine public",
+        "analysis": "Une peinture à l'huile sur bois de 14 × 10 pouces (environ 36 × 25 cm). Dans un pavillon de marbre blanc incrusté de fleurs, l'empereur moghol Shah Jahan est allongé sur une couche ; une femme est assise à ses pieds. Entre les colonnes, au loin, de l'autre côté du fleuve, se dresse le Taj Mahal. Le cadre, les incrustations et les petites figures rappellent les miniatures mogholes.",
+        "compare": "Shah Jahan, prisonnier de son fils, aurait passé ses dernières années à contempler le Taj Mahal, tombeau de son épouse, et mourut en 1666 veillé par sa fille Jahanara. En choisissant un sujet de l'histoire indienne et la délicatesse des miniatures, Abanindranath pose ici les bases de l'école du Bengale.",
+        "image": "images/mouvements/ecole-du-bengale/abanindranath-tagore-la-mort-de-shah-jahan.jpg"
+      },
+      {
+        "title": "Bharat Mata (Mère Inde)",
+        "artist": "Abanindranath Tagore",
+        "country": "Inde",
+        "period": "1905",
+        "museum": "Victoria Memorial Hall, Calcutta",
+        "credit": "Victoria Memorial Hall, Calcutta, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Bharat_Mata_by_Abanindranath_Tagore.jpg), domaine public",
+        "analysis": "Une petite aquarelle sur papier. Une jeune femme vêtue d'un sari safran, nimbée d'un halo, se tient debout sur des lotus blancs ; de ses quatre mains, elle tient un livre, des épis, un tissu blanc et un chapelet. Les couleurs sont lavées et douces, le fond doré presque vide.",
+        "compare": "Peinte en 1905, l'année du partage du Bengale et du mouvement Swadeshi, l'image fut d'abord appelée « Banga Mata » (Mère Bengale). Les objets qu'elle tient évoquent le savoir, la nourriture, le vêtement et la spiritualité : elle est devenue l'une des images les plus célèbres du nationalisme indien.",
+        "image": "images/mouvements/ecole-du-bengale/abanindranath-tagore-bharat-mata.jpg"
+      },
+      {
+        "title": "Ganesh Janani (La Mère de Ganesh)",
+        "artist": "Abanindranath Tagore",
+        "country": "Inde",
+        "period": "1908",
+        "museum": "Musée indien, Calcutta",
+        "credit": "Musée indien, Calcutta, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Ganesh_Janani.jpg), domaine public",
+        "analysis": "Une peinture de 34 × 20,4 cm. Au pied d'une montagne rose, la déesse Parvati, vêtue de blanc, tend les bras vers le petit Ganesh, à tête d'éléphant, qui s'est suspendu à la branche d'un arbre. Les contours sont fins, les couleurs claires, le paysage simplifié comme dans les miniatures. Le tampon du Musée indien est visible en bas à droite.",
+        "compare": "Une scène tendre et familière entre une mère et son enfant, qui fait de la mythologie une histoire de tous les jours : c'est l'un des sujets que l'école du Bengale préférait aux grands récits héroïques.",
+        "image": "images/mouvements/ecole-du-bengale/abanindranath-tagore-ganesh-janani.jpg"
+      },
+      {
+        "title": "La Fin du voyage",
+        "artist": "Abanindranath Tagore",
+        "country": "Inde",
+        "period": "vers 1913",
+        "museum": "National Gallery of Modern Art, New Delhi",
+        "credit": "National Gallery of Modern Art, New Delhi, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Abanindranath_Tagore_-_Journey%27s_End_-_Google_Art_Project.jpg), domaine public",
+        "analysis": "Une détrempe sur papier. Sur un fond rouge sombre, un chameau lourdement chargé s'effondre sur ses genoux, la tête basse, la bouche ouverte. Son corps est dessiné d'un trait souple, presque sans relief, et le paysage se réduit à quelques pierres.",
+        "compare": "On a souvent lu ce chameau épuisé sous son fardeau comme une image de l'Inde ployant sous la domination coloniale, ou de la fin d'une vie. Le fond uni et la ligne fine montrent ce qu'Abanindranath a retenu du Japon.",
+        "image": "images/mouvements/ecole-du-bengale/abanindranath-tagore-la-fin-du-voyage.jpg"
+      },
+      {
+        "title": "Le Paon blanc",
+        "artist": "Abanindranath Tagore",
+        "country": "Inde",
+        "period": "1915–1916",
+        "museum": "Victoria Memorial Hall, Calcutta",
+        "credit": "Victoria Memorial Hall, Calcutta, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Abanindranath_Tagore_-_White_Peacock%2C_1915-16.jpg), domaine public",
+        "analysis": "Une aquarelle de 10 × 7 pouces (environ 25 × 18 cm). Un paon blanc est perché sur un rocher, sa longue queue retombant vers le bas ; autour de lui, le fond est fait de taches de couleur diluées, bleu-noir, ocre et orange, qui se fondent les unes dans les autres. Une signature et un sceau sont placés en bas à droite.",
+        "compare": "La technique du lavis, apprise auprès des peintres japonais Yokoyama Taikan et Hishida Shunsō venus à Calcutta en 1903, permet ces fonds brumeux où la forme semble naître de la couleur.",
+        "image": "images/mouvements/ecole-du-bengale/abanindranath-tagore-le-paon-blanc.jpg"
+      },
+      {
+        "title": "Rabindranath dans le rôle du chanteur aveugle",
+        "artist": "Abanindranath Tagore",
+        "country": "Inde",
+        "period": "1916",
+        "museum": "Victoria Memorial Hall, Calcutta",
+        "credit": "Victoria Memorial Hall, Calcutta, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Abanindranath_Tagore_-_Rabindranath_in_the_Role_of_%E2%80%98Blind_Singer%E2%80%99%2C_1916.jpg), domaine public",
+        "analysis": "Une aquarelle de 7 × 10 pouces (environ 18 × 25 cm). Dans un immense paysage de crépuscule, entre ciel bleu sombre et terre verdâtre, une petite silhouette en robe claire marche, appuyée sur un bâton ; une étoile brille dans le ciel.",
+        "compare": "Le titre rappelle que Rabindranath Tagore, oncle du peintre, jouait lui-même dans ses pièces de théâtre, ici le rôle d'un chanteur aveugle. Presque tout est vide : la solitude du personnage devient le vrai sujet.",
+        "image": "images/mouvements/ecole-du-bengale/abanindranath-tagore-rabindranath-chanteur-aveugle.jpg"
+      },
+      {
+        "title": "Musique au village",
+        "artist": "Abanindranath Tagore",
+        "country": "Inde",
+        "period": "1926–1927",
+        "museum": "Victoria Memorial Hall, Calcutta",
+        "credit": "Victoria Memorial Hall, Calcutta, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Abanindranath_Tagore_-_Village_Music%2C_1926-27.jpg), domaine public",
+        "analysis": "Une aquarelle. Sur une eau calme, vert pâle, glisse une longue barque étroite : à l'avant, un batelier debout la pousse avec une perche ; à l'arrière, deux hommes sont assis, dont l'un tient un instrument à long manche. Un sceau rouge et une signature sont placés en bas à droite.",
+        "compare": "Une scène de la vie du delta du Bengale, avec ses rivières et ses bateliers chanteurs. La brume et le grand vide autour de la barque font entendre le silence de l'eau.",
+        "image": "images/mouvements/ecole-du-bengale/abanindranath-tagore-musique-au-village.jpg"
+      },
+      {
+        "title": "Sindabad le marchand",
+        "artist": "Abanindranath Tagore",
+        "country": "Inde",
+        "period": "1930",
+        "museum": "Victoria Memorial Hall, Calcutta",
+        "credit": "Victoria Memorial Hall, Calcutta, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Abanindranath_Tagore_-_Sindabad%2C_the_Seller%2C_1930.jpg), domaine public",
+        "analysis": "Une aquarelle de 10,5 × 9,5 pouces (environ 27 × 24 cm). Sur des tapis et des coussins aux motifs géométriques, des hommes en costumes de différents pays sont assis autour d'un vieillard à la barbe blanche ; derrière eux, une grande toile montre un navire à voiles. Une inscription en bengali court en haut de la feuille.",
+        "compare": "Le titre évoque Sindbad, le héros des Mille et Une Nuits : vers 1930, Abanindranath peint une série d'images de ces contes, avec des couleurs plus vives et un dessin plus libre que dans ses débuts.",
+        "image": "images/mouvements/ecole-du-bengale/abanindranath-tagore-sindabad-le-marchand.jpg"
+      },
+      {
+        "title": "Vue de rivière",
+        "artist": "Gaganendranath Tagore",
+        "country": "Inde",
+        "period": "vers 1905–1915",
+        "museum": "National Gallery of Modern Art, New Delhi",
+        "credit": "National Gallery of Modern Art, New Delhi, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Gaganendranath_Tagore_-_River_View_-_Google_Art_Project.jpg), domaine public",
+        "analysis": "Une aquarelle. Vue d'en haut, une rivière serpente dans une plaine ; sur la rive, des bosquets d'arbres sombres, des huttes aux toits de chaume et des barques. Le ciel, très grand, est fait d'un lavis orangé, et l'eau reflète la même lumière de fin de journée.",
+        "compare": "Comme son frère Abanindranath, Gaganendranath apprend le lavis japonais ; ses premiers paysages du Bengale sont faits de couleurs fondues et de grands vides lumineux.",
+        "image": "images/mouvements/ecole-du-bengale/gaganendranath-tagore-vue-de-riviere.jpg"
+      },
+      {
+        "title": "Le Brahmane du Kali Yuga (caricature)",
+        "artist": "Gaganendranath Tagore",
+        "country": "Inde",
+        "period": "1917",
+        "museum": "Victoria Memorial Hall, Calcutta",
+        "credit": "Victoria Memorial Hall, Calcutta, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Gaganendranath_Tagore_-_Brahmin_of_Kaliyuga%2C_1917.jpg), domaine public",
+        "analysis": "Un dessin au pinceau et à l'encre, rehaussé de brun. Un énorme personnage assis, au corps rougeâtre et au visage grimaçant, tient un verre ; à côté de lui, une grande bouteille, un panier, un plateau ; une femme, derrière lui, lève une pipe. Des mouches tournent autour de la scène.",
+        "compare": "Le Kali Yuga est, dans la pensée hindoue, l'âge sombre où tout se corrompt. Gaganendranath publie dans ces années des albums de caricatures qui se moquent des prêtres hypocrites et de la bourgeoisie de Calcutta, dans l'esprit satirique des peintres de Kalighat.",
+        "image": "images/mouvements/ecole-du-bengale/gaganendranath-tagore-le-brahmane-du-kali-yuga.jpg"
+      },
+      {
+        "title": "Rencontre dans l'escalier",
+        "artist": "Gaganendranath Tagore",
+        "country": "Inde",
+        "period": "vers 1920–1925",
+        "museum": "National Gallery of Modern Art, New Delhi",
+        "credit": "National Gallery of Modern Art, New Delhi, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Gaganendranath_Tagore_-_Meeting_at_the_Staircase_-_Google_Art_Project.jpg), domaine public",
+        "analysis": "Une aquarelle presque monochrome, en bruns et en noirs. Sous une arcade, deux silhouettes féminines voilées se font face, découpées par la lumière ; derrière elles, des marches montent vers une autre porte, et un escalier descend dans l'ombre au premier plan.",
+        "compare": "Gaganendranath découvre le cubisme européen par des revues, et en tire un jeu de plans, d'escaliers et de lumières qui transforme une maison de Calcutta en décor de théâtre.",
+        "image": "images/mouvements/ecole-du-bengale/gaganendranath-tagore-rencontre-dans-l-escalier.jpg"
+      },
+      {
+        "title": "La Ville la nuit",
+        "artist": "Gaganendranath Tagore",
+        "country": "Inde",
+        "period": "1925",
+        "museum": "Victoria Memorial Hall, Calcutta",
+        "credit": "Victoria Memorial Hall, Calcutta, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Gaganendranath_Tagore_-_City_in_the_Night%2C_1925.jpg), domaine public",
+        "analysis": "Une aquarelle. Toute la surface est découpée en facettes et en arcs de couleur, bleus, verts, oranges et rouges, où l'on devine des arcades, des fenêtres et des cercles lumineux. Aucun personnage : la ville elle-même devient un kaléidoscope.",
+        "compare": "C'est l'une des premières œuvres cubistes peintes en Inde. Gaganendranath ne copie pas Picasso ou Braque : il garde la transparence de l'aquarelle et la lumière des nuits de Calcutta.",
+        "image": "images/mouvements/ecole-du-bengale/gaganendranath-tagore-la-ville-la-nuit.jpg"
+      },
+      {
+        "title": "Dwarkapuri",
+        "artist": "Gaganendranath Tagore",
+        "country": "Inde",
+        "period": "début du XXe siècle",
+        "museum": "Victoria Memorial Hall, Calcutta",
+        "credit": "Victoria Memorial Hall, Calcutta, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Gaganendranath_Tagore_-_Dwarkapuri.jpg), domaine public",
+        "analysis": "Une aquarelle. Une ville de palais et de temples, aux murs pâles et aux toits en coupoles, s'étage devant des montagnes bleues sous un ciel nocturne ; au premier plan, de grands plans géométriques, comme des marches ou des remparts, mènent vers elle.",
+        "compare": "Dwarka est la ville légendaire du dieu Krishna, engloutie par la mer. Gaganendranath la rêve avec les moyens du cubisme : une cité mythique faite de prismes et de lumière.",
+        "image": "images/mouvements/ecole-du-bengale/gaganendranath-tagore-dwarkapuri.jpg"
+      },
+      {
+        "title": "Rabindranath Tagore",
+        "artist": "Muirhead Bone",
+        "country": "Royaume-Uni",
+        "period": "1920",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1940.835), domaine public (CC0)",
+        "analysis": "Une pointe sèche. Le poète, assis, coiffé d'un bonnet, porte une longue barbe ; selon le musée, son visage est rendu avec un réalisme pénétrant et des textures riches, tandis que le corps reste une esquisse, ce qui lui donne une présence presque immatérielle ; la position de ses mains évoque les gestes symboliques (mudras) des saints hommes et des divinités de l'Inde.",
+        "compare": "Selon le musée, ce portrait date sans doute du séjour de Tagore à Londres en 1920 ; après le massacre d'Amritsar en 1919, il avait renoncé au titre de chevalier que lui avaient donné les Britanniques. Le premier Asiatique prix Nobel de littérature, vu par un graveur britannique.",
+        "image": "images/mouvements/ecole-du-bengale/muirhead-bone-rabindranath-tagore.jpg"
+      },
+      {
+        "title": "Étude de tête (géométrique)",
+        "artist": "Rabindranath Tagore",
+        "country": "Inde",
+        "period": "1928–1929",
+        "museum": "National Gallery of Modern Art, New Delhi",
+        "credit": "National Gallery of Modern Art, New Delhi, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Rabindranath_Tagore_Head_Study_%28Geometric%29.jpg), domaine public",
+        "analysis": "Une encre et lavis sur papier. Un profil de tête, tourné vers la gauche, est construit comme un bâtiment : des étages, des fenêtres, des escaliers et des planchers forment le crâne. Tout autour, un réseau serré de traits griffonnés remplit le fond, et une frise de motifs occupe le bas.",
+        "compare": "Rabindranath Tagore commence à peindre vers 1928, à près de soixante-dix ans, en transformant les ratures de ses manuscrits en formes. Libre de toute école, il ne suit pas son neveu Abanindranath : ses images étranges, exposées à Paris en 1930, annoncent l'art moderne indien.",
+        "image": "images/mouvements/ecole-du-bengale/rabindranath-tagore-etude-de-tete-geometrique.jpg"
+      },
+      {
+        "title": "Trois jeunes filles",
+        "artist": "Amrita Sher-Gil",
+        "country": "Inde",
+        "period": "1935",
+        "museum": "National Gallery of Modern Art, New Delhi",
+        "credit": "National Gallery of Modern Art, New Delhi, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Amrita_Sher-Gil_Group_of_Three_Girls.jpg), domaine public",
+        "analysis": "Une huile sur toile de 73,5 × 99,5 cm. Trois jeunes femmes, serrées l'une contre l'autre, sont assises dans des voiles vert, orange et rouge ; leurs visages graves, aux grands yeux baissés, ne se regardent pas. Les couleurs sont posées en larges plans, avec peu de détails.",
+        "compare": "Formée à Paris, Amrita Sher-Gil (1913–1941) rentre en Inde en 1934 et cherche à peindre la vie des femmes indiennes sans l'exotisme européen ni la nostalgie de l'école du Bengale. Avec elle commence une autre histoire de la peinture moderne en Inde.",
+        "image": "images/mouvements/ecole-du-bengale/amrita-sher-gil-trois-jeunes-filles.jpg"
+      }
+    ]
   }
 ]

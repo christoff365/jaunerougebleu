@@ -72,8 +72,8 @@ nav{background:#fff;border-bottom:6px solid var(--noir);display:flex;flex-wrap:w
 .langs button.on,.langs button:hover{border-color:var(--noir);color:var(--noir);background:var(--jaune)}
 @media(max-width:760px){
   nav{padding:10px 16px}
-  .nav-links{order:3;width:100%;justify-content:center;gap:0 6px;border-top:2px solid var(--noir);padding-top:4px}
-  .nav-links button,.nav-links a{padding:6px 5px;font-size:12px}
+  .nav-links{order:3;width:100%;justify-content:center;gap:0 2px;border-top:2px solid var(--noir);padding-top:4px}
+  .nav-links button,.nav-links a{padding:6px 4px;font-size:12px;letter-spacing:.03em}
 }
 .pg{display:none}.pg.on{display:block}
 .pg:focus{outline:none}
@@ -603,11 +603,11 @@ html.diapo-ouvert,html.diapo-ouvert body{overflow:hidden}
   <div class="nav-links">
     <button class="on" onclick="go('home',this)">Accueil</button>
     <button onclick="go('build',this)">Exposition</button>
+    <button onclick="go('mv',this)">Mouvements</button>
     <button onclick="go('acc',this)">Accessibilité</button>
     <button onclick="go('wb',this)">Bien-être</button>
     <a href="jeux/index.html">Jeux</a>
     <button onclick="go('mus',this)">Musées</button>
-    <button onclick="go('mv',this)">Mouvements</button>
     <a href="tv/">Télévision</a>
   </div>
   <div class="langs" role="group" aria-label="Langue">
@@ -629,7 +629,7 @@ html.diapo-ouvert,html.diapo-ouvert body{overflow:hidden}
         <p>Expositions personnalisées, accessibles aux aveugles et aux sourds, comparaisons mondiales — une plateforme culturelle unique.</p>
         <div class="hero-btns">
           <button class="btn-y" onclick="go('build',document.querySelectorAll('.nav-links button')[1])">Créer mon exposition</button>
-          <button class="btn-w" onclick="go('acc',document.querySelectorAll('.nav-links button')[2])">Accessibilité</button>
+          <button class="btn-w" onclick="go('acc',document.querySelector('.nav-links button[onclick*=&quot;acc&quot;]'))">Accessibilité</button>
         </div>
       </div>
       <svg class="composition" viewBox="0 0 400 480" role="img" aria-label="Composition : triangle jaune, carré rouge, cercle bleu et le mot IMAGINE">
@@ -700,7 +700,7 @@ html.diapo-ouvert,html.diapo-ouvert body{overflow:hidden}
       <span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Peinture" onclick="tog(this,'ty')">Peinture</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Sculpture" onclick="tog(this,'ty')">Sculpture</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Architecture" onclick="tog(this,'ty')">Architecture</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Dessins et estampes" onclick="tog(this,'ty')">Dessins et estampes</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Arts décoratifs" onclick="tog(this,'ty')">Arts décoratifs</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Photographie" onclick="tog(this,'ty')">Photographie</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Manuscrits et livres enluminés" onclick="tog(this,'ty')">Manuscrits et livres enluminés</span><span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="Icônes" onclick="tog(this,'ty')">Icônes</span>
     </div>
     <div class="step-row"><div class="step-n">5</div><div class="step-l">Mouvements, écoles et styles</div></div>
-    <p class="mv-aide">Facultatif. Les œuvres sont choisies parmi celles des artistes du mouvement, datées de sa période. <button type="button" class="lien-btn" onclick="go('mv',document.querySelectorAll('.nav-links button')[5])">Voir les mouvements et ce qui manque</button></p>
+    <p class="mv-aide">Facultatif. Les œuvres sont choisies parmi celles des artistes du mouvement, datées de sa période. <button type="button" class="lien-btn" onclick="go('mv',document.querySelector('.nav-links button[onclick*=&quot;mv&quot;]'))">Voir les mouvements et ce qui manque</button></p>
     <div id="mv-tags"></div>
     <div class="step-row"><div class="step-n">6</div><div class="step-l"><label for="gen-artiste">Artiste</label></div></div>
     <div class="artiste-ligne">
@@ -1020,9 +1020,9 @@ html.diapo-ouvert,html.diapo-ouvert body{overflow:hidden}
   </div>
 </footer>
 <!-- Traductions (anglais, espagnol, arabe) et moteur de traduction -->
-<script src="i18n.js?v=20261107a"></script>
+<script src="i18n.js?v=20261107b"></script>
 <!-- Recherche en direct dans les catalogues ouverts des musées (domaine public) -->
-<script src="musees.js?v=20261107a"></script>
+<script src="musees.js?v=20261107b"></script>
 <script>
 const ART = [
   { img:"images/oeuvres/grande-vague-hokusai.jpg", credit:'Image : <a href="https://www.metmuseum.org/art/collection/search/45434" target="_blank" rel="noopener">The Metropolitan Museum of Art</a>, domaine public (Open Access)', name:"La Grande Vague de Kanagawa", meta:"Katsushika Hokusai · Japon · vers 1830-1832 · Metropolitan Museum of Art",
@@ -1227,7 +1227,7 @@ const ORDRE_REGIONS_MV=["Asie de l'Est",'Asie du Sud et du Sud-Est','Moyen-Orien
 })();
 // Vignettes des cartes de mouvement (images/mouvements/couvertures/<slug>.jpg, 640×400) : une par exposition préparée,
 // une œuvre non sensible de l'exposition. Nom du mouvement → slug de son exposition.
-const COUV_MV={"Ukiyo-e":"ukiyo-e","Peinture moghole":"peinture-moghole","Hudson River School":"hudson-river-school","École Rinpa":"ecole-rinpa","École Kanō":"ecole-kano","Paysage monumental des Song":"paysage-song","Peinture lettrée":"peinture-lettree","École de Shanghai":"ecole-de-shanghai","Peinture rajpoute et pahari":"peinture-rajpoute-et-pahari","Art khmer d'Angkor":"art-khmer-d-angkor","Miniature persane":"miniature-persane","Peinture ottomane":"peinture-ottomane","Art mamelouk":"art-mamelouk","Peinture chrétienne éthiopienne":"peinture-chretienne-ethiopienne","Art amarnien":"art-amarnien","Art de cour du royaume du Bénin":"art-de-cour-du-benin","Art maya classique":"art-maya-classique","École de Cuzco":"ecole-de-cuzco","Sculpture maorie":"sculpture-maorie","Art gothique":"art-gothique","Renaissance":"renaissance","Baroque":"baroque","Romantisme":"romantisme","École de Barbizon":"ecole-de-barbizon","Impressionnisme":"impressionnisme","Postimpressionnisme":"postimpressionnisme","Art nouveau":"art-nouveau","Expressionnisme":"expressionnisme","Néoclassicisme":"neoclassicisme","Réalisme":"realisme","Symbolisme":"symbolisme","Pionniers de l'abstraction":"pionniers-de-l-abstraction","Art assyrien":"art-assyrien","Peinture de la dynastie Joseon":"peinture-de-la-dynastie-joseon"};
+const COUV_MV={"Ukiyo-e":"ukiyo-e","École du Bengale":"ecole-du-bengale","Peinture moghole":"peinture-moghole","Hudson River School":"hudson-river-school","École Rinpa":"ecole-rinpa","École Kanō":"ecole-kano","Paysage monumental des Song":"paysage-song","Peinture lettrée":"peinture-lettree","École de Shanghai":"ecole-de-shanghai","Peinture rajpoute et pahari":"peinture-rajpoute-et-pahari","Art khmer d'Angkor":"art-khmer-d-angkor","Miniature persane":"miniature-persane","Peinture ottomane":"peinture-ottomane","Art mamelouk":"art-mamelouk","Peinture chrétienne éthiopienne":"peinture-chretienne-ethiopienne","Art amarnien":"art-amarnien","Art de cour du royaume du Bénin":"art-de-cour-du-benin","Art maya classique":"art-maya-classique","École de Cuzco":"ecole-de-cuzco","Sculpture maorie":"sculpture-maorie","Art gothique":"art-gothique","Renaissance":"renaissance","Baroque":"baroque","Romantisme":"romantisme","École de Barbizon":"ecole-de-barbizon","Impressionnisme":"impressionnisme","Postimpressionnisme":"postimpressionnisme","Art nouveau":"art-nouveau","Expressionnisme":"expressionnisme","Néoclassicisme":"neoclassicisme","Réalisme":"realisme","Symbolisme":"symbolisme","Pionniers de l'abstraction":"pionniers-de-l-abstraction","Art assyrien":"art-assyrien","Peinture de la dynastie Joseon":"peinture-de-la-dynastie-joseon"};
 // Onglet « Mouvements » : cartes par région, chacune avec un bouton qui prépare l'exposition dans le générateur
 function afficherMouvements(){
   chargerExposMouvements().then(()=>document.querySelectorAll('#mv-regions [data-mv]').forEach(b=>{if(exposDuMouvement(b.dataset.mv))b.textContent='Voir l\'exposition';}));
@@ -1923,7 +1923,7 @@ document.addEventListener('keydown',e=>{
 });
 // Accès direct à l'un des deux parcours de la page Accessibilité
 function allerParcours(id){
-  go('acc',document.querySelectorAll('.nav-links button')[2]);
+  go('acc',document.querySelector('.nav-links button[onclick*="acc"]'));
   const p=document.getElementById(id);
   if(p){p.scrollIntoView({block:'start'});window.scrollBy(0,-90);p.focus({preventScroll:true});}
 }
@@ -1966,10 +1966,10 @@ afficherValeurs(0);
 traduirePage();
 </script>
 <!-- Fenêtre Accessibilité de chaque œuvre et menu Affichage et lecture -->
-<script src="orchestre.js?v=20261107a"></script>
-<script src="accessibilite.js?v=20261107a"></script>
-<script src="diaporama.js?v=20261107a"></script>
+<script src="orchestre.js?v=20261107b"></script>
+<script src="accessibilite.js?v=20261107b"></script>
+<script src="diaporama.js?v=20261107b"></script>
 <!-- Séances de bien-être composées à la demande -->
-<script src="bienetre.js?v=20261107a"></script>
+<script src="bienetre.js?v=20261107b"></script>
 </body>
 </html>

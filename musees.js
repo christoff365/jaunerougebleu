@@ -307,6 +307,9 @@ const MUSEES_MONDE = {
     ['Q1068063', 434, 0, 'Musée des beaux-arts du Canada, Ottawa'],
     ['Q860812', 191, 0, 'Musée des beaux-arts de Montréal'],
     ['Q649250', 37, 0, 'Musée royal de l\'Ontario, Toronto'],
+    ['Q6940507', 34, 0, 'Museo Nacional de San Carlos, Mexico'],
+    ['Q1786577', 33, 1, 'Musée national des arts visuels, Montevideo'],
+    ['Q3329100', 17, 0, 'Museo Botero, Bogotá'],
     ['Q2568412', 22, 1, 'Museo de América, Madrid']
   ],
   'Océanie': [
@@ -320,7 +323,8 @@ const MUSEES_MONDE = {
     ['Q758657', 117, 1, 'Musée du mémorial de guerre d\'Auckland'],
     ['Q7424149', 347, 0, 'Sarjeant Gallery, Whanganui'],
     ['Q61797555', 143, 0, 'The Suter, Nelson'],
-    ['Q5109058', 11, 0, 'Christchurch Art Gallery']
+    ['Q5109058', 11, 0, 'Christchurch Art Gallery'],
+    ['Q826520', 22, 1, 'Bishop Museum, Honolulu']
   ],
   'Europe': [
     ['Q190804', 6286, 1, 'Rijksmuseum, Amsterdam'],

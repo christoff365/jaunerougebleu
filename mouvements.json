@@ -8611,5 +8611,214 @@
         "image": "images/mouvements/ecole-du-bengale/amrita-sher-gil-trois-jeunes-filles.jpg"
       }
     ]
+  },
+  {
+    "mouvement": "Peinture de castas",
+    "slug": "peinture-de-castas",
+    "status": "published",
+    "title": "La peinture de castas, une classification coloniale en images",
+    "subtitle": "Nouvelle-Espagne et Pérou, XVIIIe siècle : dix-huit tableaux de Mexico, de Madrid, de Vilanova i la Geltrú, de Los Angeles et de Denver",
+    "intro": "Au XVIIIe siècle, la Nouvelle-Espagne, l'actuel Mexique, est la plus riche colonie de l'empire espagnol. Depuis la conquête, Espagnols, peuples autochtones et Africains réduits en esclavage s'y côtoient, et leurs enfants forment une population très mêlée. Les autorités coloniales et l'Église tentent de classer cette population en « castas », des catégories qui déterminent les impôts, les métiers permis, l'accès aux études ou aux charges : en haut, les Espagnols, au nom de la « pureté du sang » ; en bas, les Africains et leurs descendants ; les autochtones, à part, sous la tutelle de la Couronne. Vers 1710 apparaît un genre de peinture propre à la Nouvelle-Espagne : la « peinture de castas ». En général en séries de seize tableaux, chacun montre un père, une mère et leur enfant, avec une inscription du type « D'Espagnol et d'Indienne, naît Métis ». Les noms donnés aux mélanges les plus éloignés des Espagnols, « lobo » (loup), « coyote », « torna atrás » (retour en arrière), « tente en el aire » (tiens-toi en l'air) ou « no te entiendo » (je ne te comprends pas), montrent le mépris de ce système. Les plus grands peintres de Mexico, comme Juan Rodríguez Juárez, José de Ibarra, Miguel Cabrera, Juan Patricio Morlete Ruiz ou José de Páez, ont peint de ces séries. Les commanditaires étaient surtout des fonctionnaires et des voyageurs espagnols ou européens, qui les rapportaient en Europe comme des curiosités, ou des savants intéressés par l'histoire naturelle : ces images voulaient faire voir un ordre colonial idéal, où chacun reste à sa place, alors que la réalité était bien plus mêlée et que les gens pouvaient changer de « casta » au cours de leur vie. Les peintres y ont pourtant glissé une foule de détails précieux sur la vie quotidienne : les vêtements, les métiers, les cuisines, les marchés, les fruits du pays. Au Pérou, le vice-roi Manuel de Amat fit peindre une série semblable vers 1770, envoyée au cabinet d'histoire naturelle de Madrid. Le genre disparaît avec l'indépendance du Mexique en 1821, qui abolit officiellement les castas. Aujourd'hui, ces tableaux sont étudiés comme les témoins d'une idéologie raciale, et non comme une description fidèle des personnes. L'exposition suit cet ordre : les débuts, les grandes séries de Mexico, les tableaux qui réunissent les seize castas, le Pérou, puis la fin du genre. Les œuvres sont conservées au Mexique (Museo Nacional de Arte, Museo Nacional del Virreinato, Museo Nacional de Antropología, Museo Kaluz), en Espagne, où beaucoup ont été envoyées au XVIIIe siècle (Museo de América et Museo Nacional de Antropología de Madrid, Real Academia Española, Biblioteca Museu Víctor Balaguer) et aux États-Unis (Los Angeles County Museum of Art, Denver Art Museum) ; leurs images viennent de Wikimedia Commons. Plusieurs sont des photographies prises dans les musées, publiées sous licence libre, et le nom du photographe est indiqué.",
+    "works": [
+      {
+        "title": "Diseño de mulata (Portrait d'une femme mulâtresse)",
+        "artist": "Manuel de Arellano",
+        "country": "Mexique",
+        "period": "1711",
+        "museum": "Denver Art Museum",
+        "credit": "Denver Art Museum, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Dice%C3%B1o_de_Mulata_%281711%29_Arellano.jpg), domaine public",
+        "analysis": "Une huile sur toile de 40 × 29¼ pouces (environ 102 × 74 cm). Une jeune femme, coiffée d'un bonnet de dentelle, porte un collier de perles, une robe blanche aux manches bouffantes et un manteau brun bordé de galons ; elle regarde vers le haut, une main sur la poitrine. L'inscription dorée, en haut à droite, dit : « Dessin d'une mulâtresse, fille d'une Noire et d'un Espagnol, en la ville de Mexico, tête des Amériques, le 22 août 1711 ».",
+        "compare": "Ce tableau, l'un des premiers à nommer une « casta », est encore un vrai portrait d'une personne, riche et élégante, et non un type. Le genre va ensuite transformer les personnes en exemples d'une classification.",
+        "image": "images/mouvements/peinture-de-castas/manuel-de-arellano-diseno-de-mulata.jpg"
+      },
+      {
+        "title": "« De castizo et de métisse, chamizo »",
+        "artist": "Miguel Cabrera",
+        "country": "Mexique",
+        "period": "1763",
+        "museum": "Museo de América, Madrid",
+        "credit": "Museo de América, Madrid, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Miguel_Cabrera_painting%2C_Museo_de_Am%C3%A9rica.jpg), photo Simon Burchell, licence CC BY-SA 3.0",
+        "analysis": "Une huile sur toile, quatorzième tableau d'une série de seize. Un homme assis, la tête couverte d'un linge blanc, tient sur ses genoux un plateau rempli de petits objets, peut-être des bâtonnets ou des cigarettes ; derrière lui, une femme accoudée à un comptoir, la tête dans les mains, le regarde, et un garçon s'appuie sur un panier. L'inscription est écrite en haut à gauche.",
+        "compare": "Miguel Cabrera, le plus célèbre peintre de Mexico au XVIIIe siècle, signe en 1763 une série de castas d'une grande qualité, dont plusieurs tableaux sont au Museo de América. Il montre ici une famille au travail, avec la même attention qu'un portrait.",
+        "image": "images/mouvements/peinture-de-castas/miguel-cabrera-de-castizo-y-mestiza-chamizo.jpg"
+      },
+      {
+        "title": "VII. « D'Espagnol et de morisca, albino »",
+        "artist": "Juan Patricio Morlete Ruiz",
+        "country": "Mexique",
+        "period": "vers 1760",
+        "museum": "Los Angeles County Museum of Art",
+        "credit": "Los Angeles County Museum of Art, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:VII._De_espanol_y_morisca%2C_albino_%28Casta_painting%29_LACMA_M.2011.20.1_%281_of_6%29.jpg), domaine public",
+        "analysis": "Une huile sur toile d'environ 100 × 120 cm. Dans un paysage d'arbres, un homme drapé d'une cape rouge et une femme en jupe bleue brodée encadrent leur fils, qui tient un papier ou un livre ; au premier plan, des fruits sont posés sur le sol. Un cartouche numéroté, en bas au centre, porte l'inscription.",
+        "compare": "Morlete Ruiz place ses familles dans un paysage, comme une promenade. Le mot « albino », donné à un enfant né d'un Espagnol et d'une femme d'ascendance en partie africaine, n'a rien à voir avec l'albinisme : c'est l'une des nombreuses étiquettes inventées par ce système.",
+        "image": "images/mouvements/peinture-de-castas/morlete-de-espanol-y-morisca-albino.jpg"
+      },
+      {
+        "title": "IX. « D'Espagnol et d'albina, torna atrás »",
+        "artist": "Juan Patricio Morlete Ruiz",
+        "country": "Mexique",
+        "period": "vers 1760",
+        "museum": "Los Angeles County Museum of Art",
+        "credit": "Los Angeles County Museum of Art, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:IX._De_espanol_y_albina%2C_torna_atras_%28Casta_painting%29_LACMA_M.2011.20.2_%281_of_5%29.jpg), domaine public",
+        "analysis": "Une huile sur toile d'environ 100 × 120 cm. Un homme en costume noir et rouge, l'épée au côté, se tient près d'une femme en robe blanche brodée de rouge qui porte un bébé emmailloté. Le paysage boisé et les fruits au premier plan reprennent le décor du tableau précédent.",
+        "compare": "« Torna atrás » signifie « retour en arrière » : un enfant à la peau plus sombre que ses parents était présenté comme un recul, comme si l'ascendance africaine reparaissait. Le nom dit l'idéologie du système, que les visages paisibles de la peinture cachent.",
+        "image": "images/mouvements/peinture-de-castas/morlete-de-espanol-y-albina-torna-atras.jpg"
+      },
+      {
+        "title": "X. « D'Espagnol et de torna atrás, tente en el aire »",
+        "artist": "Juan Patricio Morlete Ruiz",
+        "country": "Mexique",
+        "period": "vers 1760",
+        "museum": "Los Angeles County Museum of Art",
+        "credit": "Los Angeles County Museum of Art, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:X._De_espanol_y_torna_atras%2C_tente_en_el_aire_%28Casta_painting%29_LACMA_M.2011.20.3_%281_of_6%29.jpg), domaine public",
+        "analysis": "Une huile sur toile de 100 × 120,6 cm. Dans un paysage de rivière et d'arbres, un homme coiffé d'un chapeau noir, en veste bleue et bas rouges, l'épée à la ceinture, s'avance avec une femme en robe rose ; entre eux, un petit garçon. Des fruits et des plantes sont peints au premier plan.",
+        "compare": "« Tente en el aire » veut dire « tiens-toi en l'air » : un enfant qu'on disait suspendu, ni d'une catégorie ni d'une autre. La série de Morlete montre comment ces étiquettes s'enchaînent de tableau en tableau, numérotées comme les pages d'un traité.",
+        "image": "images/mouvements/peinture-de-castas/morlete-de-espanol-y-torna-atras-tente-en-el-aire.jpg"
+      },
+      {
+        "title": "« D'une Noire et d'un Espagnol naît mulâtre »",
+        "artist": "Peintre de Nouvelle-Espagne anonyme",
+        "country": "Mexique",
+        "period": "XVIIIe siècle",
+        "museum": "Museo Nacional de Arte (MUNAL), Mexico",
+        "credit": "Museo Nacional de Arte (MUNAL), Mexico, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Casta_-_de_Negra_y_Espa%C3%B1ol_sale_Mulato%2C_s._XVIII_-_An%C3%B3nimo.jpg), domaine public",
+        "analysis": "Une huile sur toile. À gauche, un homme en veste rouge et bonnet blanc semble nourrir un perroquet ; à côté de lui, une femme noire, enveloppée d'un châle rayé bleu et blanc, et un enfant qui tient un bol. À droite, une carcasse de viande et des volailles pendent : la scène se passe dans une boucherie.",
+        "compare": "Beaucoup de tableaux de castas montrent des métiers et des boutiques de Mexico. Ici, la viande et la volaille peintes avec soin rappellent les natures mortes espagnoles : les peintres y montraient leur savoir-faire autant que la classification.",
+        "image": "images/mouvements/peinture-de-castas/munal-de-negra-y-espanol-sale-mulato.jpg"
+      },
+      {
+        "title": "« De mulâtre et de china naît cambujo »",
+        "artist": "Peintre de Nouvelle-Espagne anonyme",
+        "country": "Mexique",
+        "period": "XVIIIe siècle",
+        "museum": "Museo Nacional de Arte (MUNAL), Mexico",
+        "credit": "Museo Nacional de Arte (MUNAL), Mexico, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Casta_-_de_Mulato_y_China_sale_Cambujo%2C_s._XVIII_-_An%C3%B3nimo.jpg), domaine public",
+        "analysis": "Une huile sur toile. Dans une cuisine aux étagères chargées de faïences et de jarres, un homme en veste verte porte un enfant vêtu de blanc ; à côté, une femme en chemise blanche coupe des légumes devant une table couverte de pain, de fruits, de poulets et de bouquets d'herbes.",
+        "compare": "Le mot « china » désignait ici une femme d'ascendance africaine et autochtone, sans rapport avec la Chine. Comme dans une nature morte, les aliments du pays occupent la moitié du tableau.",
+        "image": "images/mouvements/peinture-de-castas/munal-de-mulato-y-china-sale-cambujo.jpg"
+      },
+      {
+        "title": "Vue d'Iztacalco : « D'Indienne et d'Espagnol naît métisse »",
+        "artist": "Attribué à Juan Patricio Morlete Ruiz",
+        "country": "Mexique",
+        "period": "XVIIIe siècle",
+        "museum": "Museo Kaluz, Mexico",
+        "credit": "Museo Kaluz, Mexico, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Vista_de_Iztacalco_con_casta_o_mestizaje_-_siglo_XVIII_-_Juan_Patricio_Morlete_-_Museo_Kaluz.jpg), domaine public",
+        "analysis": "Une huile sur toile. Un vaste paysage de collines, de canaux et de jardins s'étend sous le ciel, avec un pont, des maisons blanches et des barques ; des dizaines de petits personnages s'y promènent, travaillent ou pêchent. En bas à gauche, une inscription indique : « Yndia y Español produce Mestiza ».",
+        "compare": "Iztacalco, au sud de Mexico, était célèbre pour ses canaux et ses jardins flottants, où l'on venait se promener en barque. La classification n'est plus ici qu'une légende sous une vue de la ville et de ses habitants.",
+        "image": "images/mouvements/peinture-de-castas/morlete-vista-de-iztacalco.jpg"
+      },
+      {
+        "title": "La Vierge de Guadalupe et les castas",
+        "artist": "Luis de Mena",
+        "country": "Mexique",
+        "period": "vers 1750",
+        "museum": "Museo de América, Madrid",
+        "credit": "Museo de América, Madrid, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Casta_Painting_by_Luis_de_Mena.jpg), domaine public",
+        "analysis": "Une huile sur toile. Au centre, en haut, la Vierge de Guadalupe, entourée de rayons ; de chaque côté, des vues de paysages et de fêtes. En dessous, deux rangées de familles, chacune avec une inscription ; tout en bas, un étal de fruits et de légumes du pays, ouverts et coupés, comme sur une planche d'histoire naturelle.",
+        "compare": "La Vierge de Guadalupe, protectrice de la Nouvelle-Espagne, domine les castas : la religion, la société et la nature du pays sont réunies dans une seule image. C'est l'un des rares tableaux qui associent la classification à une image sacrée.",
+        "image": "images/mouvements/peinture-de-castas/luis-de-mena-vierge-de-guadalupe-et-castas.jpg"
+      },
+      {
+        "title": "Les castas",
+        "artist": "Peintre de Nouvelle-Espagne anonyme",
+        "country": "Mexique",
+        "period": "XVIIIe siècle",
+        "museum": "Museo Nacional del Virreinato, Tepotzotlán (Mexique)",
+        "credit": "Museo Nacional del Virreinato, Tepotzotlán (Mexique), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Casta_painting_all.jpg), domaine public",
+        "analysis": "Une huile sur toile de 148 × 104 cm, divisée en seize cases numérotées. Dans chacune, un couple et un ou deux enfants, avec une inscription : « Español con India, Mestizo », « Mestizo con Española, Castizo »… Les familles du haut portent en général des habits plus riches que celles du bas.",
+        "compare": "Le tableau rend visible la hiérarchie : les Espagnols en haut, les personnes d'ascendance africaine et autochtone en bas. C'est une échelle sociale déguisée en ordre naturel, que l'on peut lire de haut en bas comme une page.",
+        "image": "images/mouvements/peinture-de-castas/museo-del-virreinato-les-seize-castas.jpg"
+      },
+      {
+        "title": "Les castas de la Nouvelle-Espagne",
+        "artist": "Ignacio María Barreda",
+        "country": "Mexique",
+        "period": "1777",
+        "museum": "Real Academia Española, Madrid",
+        "credit": "Real Academia Española, Madrid, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Castas_de_Nueva_Espa%C3%B1a_%28Ignacio_Mar%C3%ADa_Barreda_Ord%C3%B3%C3%B1ez%29.jpg), photo Jl FilpoC, licence CC BY-SA 4.0",
+        "analysis": "Une huile sur toile de 77 × 49 cm. Seize petites scènes de familles, dans des cadres ornés, sont disposées en grille ; en bas, une scène plus grande montre des autochtones dans un paysage. L'inscription du bas dit que Barreda a peint « ces castas de Nouvelle-Espagne » à la demande d'un lieutenant-colonel de l'armée, « son très digne ami et passionné de cet art », à Mexico, le 18 février 1777.",
+        "compare": "L'inscription montre qui commandait ces tableaux : un officier, amateur d'art, qui l'a sans doute rapporté en Espagne. La Real Academia Española le conserve aujourd'hui à Madrid.",
+        "image": "images/mouvements/peinture-de-castas/ignacio-maria-barreda-castas-de-nueva-espana.jpg"
+      },
+      {
+        "title": "« Espagnol, Indienne des montagnes : produit métis »",
+        "artist": "Peintre péruvien anonyme",
+        "country": "Pérou",
+        "period": "vers 1770",
+        "museum": "Museo Nacional de Antropología, Madrid",
+        "credit": "Museo Nacional de Antropología, Madrid, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Mestiso_1770.jpg), domaine public",
+        "analysis": "Une huile sur toile de 100 × 125 cm. Un homme poudré, en habit gris, tient un objet ouvragé en argent ; à côté de lui, une femme coiffée d'un bonnet et enveloppée d'une étoffe rayée rouge et blanche porte un bébé qui tient un fruit. L'inscription en haut nomme chacun : « Español », « Yndia serrana », « Mestiso ».",
+        "compare": "D'après la notice de l'image, ce tableau fait partie de la série commandée au Pérou par le vice-roi Manuel de Amat et envoyée à Madrid. Les figures, à mi-corps et très proches, ressemblent à des portraits de famille.",
+        "image": "images/mouvements/peinture-de-castas/serie-amat-espanol-e-india-serrana-mestizo.jpg"
+      },
+      {
+        "title": "« Métis, métisse : métisse »",
+        "artist": "Peintre péruvien anonyme",
+        "country": "Pérou",
+        "period": "vers 1770",
+        "museum": "Museo Nacional de Antropología, Madrid",
+        "credit": "Museo Nacional de Antropología, Madrid, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Mestizo._Mestiza._Mestiza.jpg), domaine public",
+        "analysis": "Une huile sur toile de 100 × 125 cm. Sur un fond de ciel bleu, un homme aux cheveux longs, en veste sombre, et une femme au châle rose, des fleurs dans les cheveux, tiennent entre eux une petite fille souriante en jupe jaune. L'inscription en haut nomme : « Mestizo », « Mestiza », « Mestiza ».",
+        "compare": "Comparez avec le tableau précédent de la même série : ici, l'enfant a la même « casta » que ses parents. Au Pérou comme au Mexique, le système voulait fixer chacun dans une catégorie.",
+        "image": "images/mouvements/peinture-de-castas/serie-amat-mestizo-mestiza-mestiza.jpg"
+      },
+      {
+        "title": "1. « D'Espagnol et d'Indienne naît métis »",
+        "artist": "Peintre de Nouvelle-Espagne anonyme",
+        "country": "Mexique",
+        "period": "1799",
+        "museum": "Biblioteca Museu Víctor Balaguer, Vilanova i la Geltrú (Espagne)",
+        "credit": "Biblioteca Museu Víctor Balaguer, Vilanova i la Geltrú (Espagne), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:BMVB_-_an%C3%B2nim_-_%221_De_Espa%C3%B1ol_y_India_sale_Mestizo%22_-_1075.jpg), domaine public",
+        "analysis": "Une huile sur toile, premier tableau d'une série. Devant une maison, un homme en chapeau blanc et habit brun tend la main vers une femme qui porte un enfant dans son châle et une cruche ; à gauche, un enfant court avec un petit chien. Le cartouche, en bas à gauche, porte l'inscription.",
+        "compare": "Cette série tardive, datée de 1799, est conservée en Catalogne. Les personnages, plus petits dans l'espace, semblent pris sur le vif dans la rue.",
+        "image": "images/mouvements/peinture-de-castas/balaguer-de-espanol-y-india-sale-mestizo.jpg"
+      },
+      {
+        "title": "6. « D'Espagnol et de Noire, mulâtre »",
+        "artist": "Peintre de Nouvelle-Espagne anonyme",
+        "country": "Mexique",
+        "period": "1799",
+        "museum": "Biblioteca Museu Víctor Balaguer, Vilanova i la Geltrú (Espagne)",
+        "credit": "Biblioteca Museu Víctor Balaguer, Vilanova i la Geltrú (Espagne), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:BMVB_-_an%C3%B2nim_-_%226._De_Espa%C3%B1ol_y_Negra%2C_Mulato%22_-_9347.jpg), domaine public",
+        "analysis": "Une huile sur toile. Dans une cuisine ouverte sur un balcon, un homme en habit blanc, une canne à la main, tient un enfant par la main ; une femme noire en jupe rouge se tient près d'une table et d'étagères garnies de vaisselle et de jarres. Le cartouche est en bas à gauche.",
+        "compare": "Comparez avec le tableau du MUNAL sur le même sujet, quelques décennies plus tôt : les deux placent la famille dans une cuisine, mais ici les personnages sont plus petits, dans une pièce plus vaste et plus claire.",
+        "image": "images/mouvements/peinture-de-castas/balaguer-de-espanol-y-negra-mulato.jpg"
+      },
+      {
+        "title": "4. « De castizo et d'Indienne, coyota »",
+        "artist": "Peintre de Nouvelle-Espagne anonyme",
+        "country": "Mexique",
+        "period": "1799",
+        "museum": "Biblioteca Museu Víctor Balaguer, Vilanova i la Geltrú (Espagne)",
+        "credit": "Biblioteca Museu Víctor Balaguer, Vilanova i la Geltrú (Espagne), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:BMVB_-_an%C3%B2nim_-_%224._De_Castizo_y_India%2C_Coyota%22_-_9345.jpg), domaine public",
+        "analysis": "Une huile sur toile. Dans une pièce dallée, un homme assis, en cape rouge, joue de la guitare ; une femme en jupe rouge brodée se tient debout à droite, et entre eux une petite fille en jupe bleue regarde un petit chien qui se dresse sur ses pattes.",
+        "compare": "Une scène de musique en famille : vers 1800, les tableaux de castas deviennent des scènes de genre presque aimables, alors que les mots, comme « coyota », gardent la même violence.",
+        "image": "images/mouvements/peinture-de-castas/balaguer-de-castizo-y-india-coyota.jpg"
+      },
+      {
+        "title": "9. « De lobo et de Noire naît china »",
+        "artist": "Peintre de Nouvelle-Espagne anonyme",
+        "country": "Mexique",
+        "period": "XVIIIe siècle",
+        "museum": "Museo Nacional de Antropología, Mexico",
+        "credit": "Museo Nacional de Antropología, Mexico, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:%27De_Lobo_y_Negra%2C_nace_China%27_by_anonymous_from_New_Spain_-_Ethnography_-_National_Museum_of_Antropology_-_Mexico_2024.jpg), photo José Luiz Bernardes Ribeiro, licence CC BY-SA 4.0",
+        "analysis": "Une huile sur toile. Un homme en veste rouge coupe une étoffe avec de grands ciseaux sur une table de tailleur ; des vêtements sont accrochés au mur de paille tressée. À droite, une femme en mantille sombre et jupe blanche à fleurs tient par la main un petit garçon en habit rouge. Le cartouche numéroté est au centre.",
+        "compare": "L'homme, tailleur, est montré au travail : beaucoup de ces tableaux associent chaque « casta » à un métier, comme si la naissance décidait du travail de chacun.",
+        "image": "images/mouvements/peinture-de-castas/museo-de-antropologia-de-lobo-y-negra-china.jpg"
+      },
+      {
+        "title": "16. « Indiens apaches »",
+        "artist": "Peintre de Nouvelle-Espagne anonyme",
+        "country": "Mexique",
+        "period": "vers 1775",
+        "museum": "Museo de América, Madrid",
+        "credit": "Museo de América, Madrid, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Yndios_Apaches.jpg), CC0",
+        "analysis": "Une huile sur toile, dernier tableau d'une série. Dans un paysage de rochers et de palmiers, un homme et une femme vêtus de jupes à franges et coiffés de plumes tiennent des arcs ; la femme porte deux enfants sur son dos. Le cartouche, en bas, porte le numéro 16 et l'inscription « Yndios Apaches ».",
+        "compare": "Les séries finissaient souvent par les peuples autochtones restés hors de la domination espagnole, appelés alors « Indios bárbaros » (Indiens « barbares ») et représentés de façon exotique, loin de la réalité des Apaches. La dernière image dit le regard colonial de tout le système.",
+        "sensible": true,
+        "image": "images/mouvements/peinture-de-castas/yndios-apaches.jpg"
+      }
+    ]
   }
 ]

@@ -8820,5 +8820,271 @@
         "image": "images/mouvements/peinture-de-castas/yndios-apaches.jpg"
       }
     ]
+  },
+  {
+    "mouvement": "Art du Sepik",
+    "slug": "art-du-sepik",
+    "status": "published",
+    "title": "L'art du Sepik, sculpteurs du grand fleuve de Nouvelle-Guinée",
+    "subtitle": "Papouasie-Nouvelle-Guinée, du VIIe au XXe siècle : vingt-trois œuvres de New York, Cleveland, Berlin, Paris, Marseille, Londres, Zurich, San Francisco, Honolulu et Dunedin",
+    "intro": "Le Sepik est le plus long fleuve de Papouasie-Nouvelle-Guinée : plus de mille kilomètres de méandres, de marais et de lacs, entre les montagnes du centre de l'île et la mer de Bismarck. Des dizaines de peuples, qui parlent des langues très différentes, vivent sur ses rives et celles de ses affluents : les Iatmul et les Sawos du cours moyen, les Kambot du cours inférieur, les peuples du Korewori et du Karawari en amont. Ils forment l'une des régions de sculpture les plus riches du monde. Au centre de chaque village se dresse la maison des hommes, haute et ornée, où se réunissent les clans : on y débat, on y garde les grands tambours à fente, les figures d'ancêtres et les objets des cérémonies, dont les plus sacrés restent cachés aux femmes, aux enfants et aux non-initiés. Les sculpteurs y représentent les ancêtres et les esprits, souvent sous l'aspect d'animaux totems du clan, crocodile, oiseau, poisson ou cochon. Le bois, la vannerie, les coquillages, les plumes et les pigments d'argile composent ces œuvres, que l'on repeignait pour chaque fête. De 1884 à 1914, le nord-est de la Nouvelle-Guinée est une colonie allemande : le fleuve est rebaptisé « Kaiserin-Augusta-Fluss », et des expéditions, comme celle de 1912–1913, rapportent des milliers d'objets à Berlin. Au XXe siècle, l'Australie administre le territoire jusqu'à l'indépendance de 1975, et les collectionneurs occidentaux, puis les grands musées, achètent beaucoup d'objets. Ces sculptures ont fasciné les artistes d'avant-garde européens, de l'expressionnisme au surréalisme. Aujourd'hui encore, les sculpteurs du Sepik continuent à créer, et des chercheurs de Papouasie-Nouvelle-Guinée, comme Grace Vele pour le Brücke-Museum de Berlin, écrivent les notices de ces objets, en anglais et en tok pisin. Par respect pour les communautés du Sepik, l'exposition ne montre ni les crânes d'ancêtres surmodelés, qui sont des restes humains, ni les flûtes sacrées et les objets réservés aux initiés. Elle suit quatre thèmes : la maison des hommes, les masques et les esprits, les très anciennes sculptures du Korewori, puis les objets de la vie quotidienne. Les œuvres viennent du Metropolitan Museum of Art et du Cleveland Museum of Art, et de dix autres musées, dont les images ont été publiées sur Wikimedia Commons par les musées eux-mêmes ou par des photographes, avec leur nom et leur licence. Les musées de Papouasie-Nouvelle-Guinée ne publient pas encore d'images de leurs collections sous licence libre.",
+    "works": [
+      {
+        "title": "Planche cérémonielle (malu)",
+        "artist": "Sculpteur sawos",
+        "country": "Papouasie-Nouvelle-Guinée",
+        "period": "XIXe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/311159), domaine public (CC0)",
+        "analysis": "Une planche de bois de 1,90 mètre de haut, entièrement ajourée. En haut, deux grands yeux et un visage ; au centre, une longue figure verticale, une spirale et des motifs entrelacés qui évoquent des corps d'animaux ; en bas, une rangée de dents découpées comme une grande bouche ouverte.",
+        "compare": "Les Sawos et les Iatmul du cours moyen du Sepik gardaient de telles planches dans la maison des hommes, où elles représentaient des ancêtres et des esprits de clan. Le vide compte autant que le bois : la planche est un dessin en relief, qui laisse passer la lumière.",
+        "image": "images/mouvements/art-du-sepik/sawos-planche-ceremonielle-malu.jpg"
+      },
+      {
+        "title": "Figure d'ancêtre (konumb ou atei)",
+        "artist": "Sculpteur kopar ou angoram",
+        "country": "Papouasie-Nouvelle-Guinée",
+        "period": "XIXe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/311173), domaine public (CC0)",
+        "analysis": "Une figure étroite et très haute, de 1,85 mètre, sculptée dans une seule planche de bois et peinte. Un petit personnage accroupi est assis au sommet, au-dessus d'un grand visage ; plus bas, d'autres figures et des motifs ajourés s'empilent le long du corps, jusqu'aux jambes allongées.",
+        "compare": "Les figures du bas Sepik superposent souvent plusieurs êtres : l'ancêtre, les esprits et les animaux liés au clan. Comparez avec la planche malu : même goût pour l'ajour et l'empilement des formes.",
+        "image": "images/mouvements/art-du-sepik/kopar-figure-d-ancetre-konumb.jpg"
+      },
+      {
+        "title": "Figure d'ancêtre",
+        "artist": "Sculpteur sawos",
+        "country": "Papouasie-Nouvelle-Guinée",
+        "period": "XIXe siècle ou avant",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/313780), domaine public (CC0)",
+        "analysis": "Une figure d'homme debout de 1,83 mètre, en bois peint, avec des fibres et du métal, venue du village de Yamok. Le corps est mince, les bras le long du corps ; le visage, au long nez, porte des traces de peinture blanche et brune, et la surface du bois est profondément usée.",
+        "compare": "La taille presque humaine de la figure lui donnait une forte présence dans la maison des hommes. Le fer, introduit par le commerce avec les Européens, montre que l'objet a été utilisé et réparé au fil du temps.",
+        "sensible": true,
+        "image": "images/mouvements/art-du-sepik/sawos-figure-d-ancetre.jpg"
+      },
+      {
+        "title": "Figure d'ancêtre",
+        "artist": "Sculpteur kambot",
+        "country": "Papouasie-Nouvelle-Guinée",
+        "period": "XIXe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/311294), domaine public (CC0)",
+        "analysis": "Une grande figure de 2,44 mètres, en bois peint en rouge, noir et blanc, avec des fibres, venue de la rivière Keram, dans le bas Sepik. Un homme debout, le visage allongé, est couvert de motifs de spirales et de points ; derrière lui, des panneaux sculptés de formes animales l'encadrent comme un dossier.",
+        "compare": "Le musée la classe parmi les éléments d'architecture : ces figures faisaient partie de la charpente des maisons des hommes, qu'elles portaient et protégeaient à la fois.",
+        "sensible": true,
+        "image": "images/mouvements/art-du-sepik/kambot-figure-d-ancetre.jpg"
+      },
+      {
+        "title": "Poteau de maison",
+        "artist": "Sculpteur iatmul",
+        "country": "Papouasie-Nouvelle-Guinée",
+        "period": "première moitié du XXe siècle",
+        "museum": "British Museum, Londres",
+        "credit": "British Museum, Londres, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Iatmul_House_Post_in_the_British_Museum.jpg), photo Ethan Doyle White, licence CC BY-SA 4.0",
+        "analysis": "Un tronc d'arbre sculpté, haut de plus de deux mètres, très érodé par le temps. On y reconnaît un visage aux grands yeux ronds et au long nez, puis un corps aux bras repliés, taillés dans la masse du bois. La surface est fendue et creusée.",
+        "compare": "Ce poteau soutenait une maison iatmul. Même usé, il garde la force de la sculpture du Sepik : un ancêtre qui porte littéralement la maison sur ses épaules.",
+        "image": "images/mouvements/art-du-sepik/iatmul-poteau-de-maison.jpg"
+      },
+      {
+        "title": "Tabouret d'orateur (kawa rigit)",
+        "artist": "Sculpteur iatmul",
+        "country": "Papouasie-Nouvelle-Guinée",
+        "period": "XIXe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/311978), domaine public (CC0)",
+        "analysis": "Une sculpture d'un mètre de haut, en bois peint en noir, blanc et ocre, avec des coquillages. Une figure humaine aux yeux de coquillage, au visage blanc et grimaçant, est sculptée contre un siège rond posé sur un pied épais.",
+        "compare": "On ne s'asseyait pas sur ce « tabouret » : pendant les grands débats de la maison des hommes, l'orateur le frappait avec une gerbe de feuilles pour ponctuer ses arguments sur l'histoire des clans et les noms des ancêtres.",
+        "image": "images/mouvements/art-du-sepik/iatmul-tabouret-d-orateur.jpg"
+      },
+      {
+        "title": "Tabouret d'orateur",
+        "artist": "Sculpteur iatmul",
+        "country": "Papouasie-Nouvelle-Guinée",
+        "period": "XIXe–XXe siècle",
+        "museum": "Musée d'arts africains, océaniens et amérindiens, Marseille",
+        "credit": "Musée d'arts africains, océaniens et amérindiens, Marseille, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:MAAOA-Oc%C3%A9anie-Iatmul-tabouret.jpg), photo Rvalette, licence CC BY-SA 4.0",
+        "analysis": "Un tabouret d'orateur de 1,40 mètre de haut, en bois, argile, fibres et coquillages. La figure debout a un grand visage modelé d'argile, cerné d'une rangée de coquillages, aux yeux ronds, au nez long et à la bouche ouverte sur les dents ; elle tient ses mains sur son ventre, au-dessus d'un socle.",
+        "compare": "Comparez avec le tabouret du Met : même fonction, mais ici le visage est modelé en argile sur le bois, une technique propre au Sepik pour donner aux figures des traits plus vivants.",
+        "image": "images/mouvements/art-du-sepik/iatmul-tabouret-d-orateur-marseille.jpg"
+      },
+      {
+        "title": "Tambour à fente sacré (waken)",
+        "artist": "Sculpteur iatmul",
+        "country": "Papouasie-Nouvelle-Guinée",
+        "period": "XIXe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/311262), domaine public (CC0)",
+        "analysis": "Un tronc creusé de 3,86 mètres de long, venu du village de Komindimbit. Une longue fente s'ouvre sur le dessus ; aux deux extrémités, le bois est sculpté en têtes d'animaux, dont l'une, à la mâchoire allongée et aux dents visibles, fait penser à un crocodile.",
+        "compare": "Frappés avec de lourds battoirs, ces tambours portaient des messages d'un village à l'autre et rythmaient les cérémonies ; leur voix était celle des ancêtres. Le crocodile, ancêtre de nombreux clans iatmul, est l'animal le plus présent dans l'art du moyen Sepik.",
+        "image": "images/mouvements/art-du-sepik/iatmul-tambour-a-fente-waken.jpg"
+      },
+      {
+        "title": "Figure d'ancêtre",
+        "artist": "Sculpteur du Sepik",
+        "country": "Papouasie-Nouvelle-Guinée",
+        "period": "XIXe siècle",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1971.150), domaine public (CC0)",
+        "analysis": "Une figure de bois peint de 1,05 mètre, avec des fibres et du tissu d'écorce. Le visage, sculpté comme un masque, est couvert de longues fibres qui tombent comme une chevelure jusqu'aux genoux ; un pagne d'écorce couvre la taille.",
+        "compare": "Selon le musée, la vie sociale et religieuse des villages du Sepik est centrée sur la maison des hommes, où l'on garde les tambours à fente, les tabourets d'orateur et les flûtes ; les objets les plus sacrés y sont cachés aux femmes et aux enfants, et les figures sculptées, qui représentent sans doute des ancêtres, y étaient conservées.",
+        "image": "images/mouvements/art-du-sepik/sepik-figure-d-ancetre-cleveland.jpg"
+      },
+      {
+        "title": "Masque de Masandamai",
+        "artist": "Sculpteur du moyen Sepik",
+        "country": "Papouasie-Nouvelle-Guinée",
+        "period": "VIIe–VIIIe siècle (datation au carbone 14)",
+        "museum": "De Young Museum, San Francisco",
+        "credit": "De Young Museum, San Francisco, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Mask%2C_Middle_Sepik%2C_Masandamai_Village%2C_C-14_dating_of_650-780_AD_with_95.4%25_probability%2C_wood%2C_pigment_-_De_Young_Museum_-_DSC01031.JPG), photo Daderot, CC0",
+        "analysis": "Un grand masque de bois, avec des traces de pigments, venu du village de Masandamai, dans le moyen Sepik. Un visage aux yeux ronds et creux, au nez long et à la bouche ouverte, est surmonté d'un animal accroupi ; tout autour, le bois est sculpté de volutes et de petites têtes.",
+        "compare": "Selon l'étiquette du musée, le bois a été daté au carbone 14 entre 650 et 780 de notre ère, avec 95 % de probabilité : l'une des plus anciennes sculptures connues de la région, qui montre que l'art du Sepik a plus de mille ans.",
+        "image": "images/mouvements/art-du-sepik/masque-de-masandamai.jpg"
+      },
+      {
+        "title": "Masque",
+        "artist": "Sculpteur romkun, breri ou igana",
+        "country": "Papouasie-Nouvelle-Guinée",
+        "period": "XIXe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/310350), domaine public (CC0)",
+        "analysis": "Un masque de bois de 60 centimètres, de la région du bas Sepik et de la rivière Ramu. Un grand ovale en relief forme le visage : les sourcils, les yeux en amande et le nez descendent en lignes profondes, et la bouche est une simple barre. Le bois, sans peinture, est poli par l'usage.",
+        "compare": "La sculpture repose sur quelques grandes formes taillées avec force. C'est ce genre de visage simplifié que les artistes d'avant-garde européens ont admiré au début du XXe siècle.",
+        "image": "images/mouvements/art-du-sepik/bas-sepik-masque.jpg"
+      },
+      {
+        "title": "Masque",
+        "artist": "Sculpteur du bas Sepik ou de la Ramu",
+        "country": "Papouasie-Nouvelle-Guinée",
+        "period": "XIXe siècle",
+        "museum": "Museum Rietberg, Zurich",
+        "credit": "Museum Rietberg, Zurich, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Gesichtsmaske_Sepik-Ramu_Museum_Rietberg_RME_10.jpg), photo Andreas Praefcke, domaine public",
+        "analysis": "Un masque de bois au nez démesuré, qui descend comme un bec jusque sous le menton, avec du rotin, de la fibre et des coquillages. Le visage est peint de lignes blanches, bleues et rouges, entouré d'une couronne de fibres et de plumes.",
+        "compare": "Le long nez en bec relie le visage humain à l'oiseau, l'un des ancêtres mythiques des clans. Le Museum Rietberg de Zurich l'a reçu du collectionneur Eduard von der Heydt.",
+        "image": "images/mouvements/art-du-sepik/bas-sepik-ou-ramu-masque-rietberg.jpg"
+      },
+      {
+        "title": "Masque de cochon",
+        "artist": "Vannier du moyen Sepik",
+        "country": "Papouasie-Nouvelle-Guinée",
+        "period": "avant 1914",
+        "museum": "Musée ethnologique, Berlin",
+        "credit": "Musée ethnologique, Berlin, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Sepik_pig_mask_Berlin-Dahlem.jpg), photo Andreas Praefcke, domaine public",
+        "analysis": "Un masque en rotin et en gaines de feuilles de palmier, couvert de plumes de casoar, qui représente un cochon. Le groin, les oreilles, les petits yeux et le dos bombé sont peints de motifs ocre, blancs et noirs.",
+        "compare": "Selon la notice, il vient de la collection de l'ethnologue Richard Thurnwald, entrée au musée de Berlin en 1914, à la fin de la période coloniale allemande. Le porteur, caché sous la vannerie et les fibres, devenait l'animal pendant la danse.",
+        "image": "images/mouvements/art-du-sepik/moyen-sepik-masque-cochon.jpg"
+      },
+      {
+        "title": "Masque de poisson-scie",
+        "artist": "Vannier de Kararau, moyen Sepik",
+        "country": "Papouasie-Nouvelle-Guinée",
+        "period": "avant 1912–1913",
+        "museum": "Musée ethnologique, Berlin",
+        "credit": "Musée ethnologique, Berlin, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Sepik_sawfish_mask_Berlin-Dahlem.jpg), photo Andreas Praefcke, domaine public",
+        "analysis": "Un masque en rotin et en fibres végétales, qui représente un poisson-scie. Le visage, aux grands yeux cerclés de blanc, se prolonge par un long rostre garni de dents ; le crâne bombé est couvert de petits motifs tressés et peints.",
+        "compare": "Il a été rapporté du village de Kararau par l'expédition allemande de 1912–1913 sur le Sepik, alors appelé « Kaiserin-Augusta-Fluss ». Le poisson-scie, puissant habitant des eaux, était l'un des esprits de clan représentés lors des cérémonies.",
+        "image": "images/mouvements/art-du-sepik/kararau-masque-poisson-scie.jpg"
+      },
+      {
+        "title": "Masque de proue de pirogue",
+        "artist": "Sculpteur de Tambanum",
+        "country": "Papouasie-Nouvelle-Guinée",
+        "period": "XIXe–XXe siècle",
+        "museum": "Brücke-Museum, Berlin",
+        "credit": "Brücke-Museum, Berlin, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Canoe_Prow_Mask%2C_Papua_New_Guinea%2C_Br%C3%BCcke_Museum_Berlin%2C_65038%2C_view_a.jpg), photo Nick Ash, CC0",
+        "analysis": "Un masque de bois de 51 centimètres, noirci, avec des coquillages et du cuir, venu de Tambanum, dans la province du Sepik oriental. Le visage ovale est marqué de grandes volutes en relief ; le nez long et fin descend jusqu'à la bouche, et une bordure dentelée entoure le visage.",
+        "compare": "Selon la notice de Grace Vele, ces masques sont encore fabriqués aujourd'hui, et aucun ne ressemble à un autre ; en tok pisin, elle explique que leurs traits évoquent l'animal ancêtre de chaque clan, crocodile, oiseau ou aigle. Le peintre allemand Karl Schmidt-Rottluff, qui le possédait, l'a représenté en 1957 dans un tableau.",
+        "image": "images/mouvements/art-du-sepik/tambanum-masque-de-proue.jpg"
+      },
+      {
+        "title": "Masque-crochet (garra ou gra)",
+        "artist": "Sculpteur bahinemo",
+        "country": "Papouasie-Nouvelle-Guinée",
+        "period": "XVIe–XIXe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/669443), domaine public (CC0)",
+        "analysis": "Une planche de bois de 74 centimètres, très usée, avec des traces de pigment. Un visage allongé y est taillé : deux grands trous ronds pour les yeux, un nez en relief, et une bouche découpée en dents de scie ; au-dessus, deux crochets se recourbent vers le bas.",
+        "compare": "Le bois, rongé par le temps, explique la date large donnée par le musée. Chez les Bahinemo du haut Korewori, ces sculptures à crochets représentaient des esprits liés à la chasse et à la forêt.",
+        "image": "images/mouvements/art-du-sepik/bahinemo-masque-crochet-garra.jpg"
+      },
+      {
+        "title": "Figure (yipwon)",
+        "artist": "Sculpteur alamblak ou yimam",
+        "country": "Papouasie-Nouvelle-Guinée",
+        "period": "XIXe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/311174), domaine public (CC0)",
+        "analysis": "Une figure de bois peint de 2,46 mètres, presque plate et vue de profil. Une tête au long nez surmonte une série de crochets recourbés, disposés de part et d'autre d'un cercle central, comme des côtes autour d'un cœur ; une seule jambe soutient le tout.",
+        "compare": "Les yipwon des peuples du Korewori étaient des esprits de la chasse et de la guerre. Leur forme réduite à un profil et à des crochets est l'une des inventions les plus audacieuses de la sculpture océanienne.",
+        "image": "images/mouvements/art-du-sepik/alamblak-figure-yipwon.jpg"
+      },
+      {
+        "title": "Figure féminine",
+        "artist": "Sculpteur inyai-ewa",
+        "country": "Papouasie-Nouvelle-Guinée",
+        "period": "XVIe–XIXe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/311327), domaine public (CC0)",
+        "analysis": "Une figure plate et ajourée de 1,70 mètre, taillée dans une planche. Un petit visage rond, aux yeux en spirale, est entouré d'un cadre dentelé comme un soleil ; en dessous, un buste aux seins marqués, puis un long corps étroit et deux jambes.",
+        "compare": "Les sculptures des Inyai-Ewa, du Korewori, ont été retrouvées dans des abris sous roche, où elles avaient été conservées très longtemps : d'où la date de plusieurs siècles. Leur style, fait de cadres et de vides, ne ressemble à aucun autre.",
+        "image": "images/mouvements/art-du-sepik/inyai-ewa-figure-feminine.jpg"
+      },
+      {
+        "title": "Figure masculine (aripa)",
+        "artist": "Sculpteur inyai-ewa",
+        "country": "Papouasie-Nouvelle-Guinée",
+        "period": "XVIe–XIXe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/311949), domaine public (CC0)",
+        "analysis": "Une figure de bois peint de 1,09 mètre, inclinée comme une lame. En haut, une tête d'animal au long museau, avec un œil rond ; en dessous, le corps ajouré forme une sorte de chevron, avec des arêtes comme celles d'un poisson, jusqu'à une pointe.",
+        "compare": "Comparez avec la figure féminine de la même région : l'ajour, les arêtes et les crochets sont les signes communs de ces très anciennes sculptures du Korewori.",
+        "image": "images/mouvements/art-du-sepik/inyai-ewa-figure-masculine-aripa.jpg"
+      },
+      {
+        "title": "Crochet de suspension",
+        "artist": "Sculpteur iatmul (probablement)",
+        "country": "Papouasie-Nouvelle-Guinée",
+        "period": "XIXe–XXe siècle",
+        "museum": "Honolulu Museum of Art",
+        "credit": "Honolulu Museum of Art, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Suspension_hook%2C_Papua_New_Guinea%2C_Middle_Sepik_River_region%2C_probably_Iatmul_people%2C_Honolulu_Academy_of_Arts.JPG), photo Haa900, CC0",
+        "analysis": "Une figure de bois sculpté, avec des traces de pigment rouge et blanc : un homme debout se tient sur un grand crochet à deux branches, sous lequel pend un filet garni de dents d'animaux. La figure a un visage ovale aux yeux étroits.",
+        "compare": "On suspendait à ces crochets, sous le toit, les filets de nourriture et les objets précieux, hors de portée des rats et des chiens. La figure plaçait ces réserves sous la protection d'un esprit.",
+        "sensible": true,
+        "image": "images/mouvements/art-du-sepik/iatmul-crochet-de-suspension.jpg"
+      },
+      {
+        "title": "Bouchon de pot à chaux en forme d'oiseau",
+        "artist": "Sculpteur iatmul",
+        "country": "Papouasie-Nouvelle-Guinée",
+        "period": "fin du XIXe – début du XXe siècle",
+        "museum": "Honolulu Museum of Art",
+        "credit": "Honolulu Museum of Art, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Stopper_for_lime_container%2C_Papua_New_Guinea%2C_Middle_Sepik_River_region%2C_Iatmul_people%2C_Honolulu_Academy_of_Arts.JPG), photo Haa900, CC0",
+        "analysis": "Un bouchon de bois sculpté, avec des coquillages, des traces de pigment et de la ficelle de coco. Un oiseau au long bec, à la tête ornée d'un œil de coquillage, déploie des ailes découpées en grandes lames ajourées.",
+        "compare": "Selon la notice, il fermait le pot de chaux qu'on mâchait avec la noix de bétel. Même un objet de tous les jours devient ici une sculpture, où l'oiseau rappelle un ancêtre du clan.",
+        "image": "images/mouvements/art-du-sepik/iatmul-bouchon-de-pot-a-chaux.jpg"
+      },
+      {
+        "title": "Jarre à sagou",
+        "artist": "Potière iatmul",
+        "country": "Papouasie-Nouvelle-Guinée",
+        "period": "XIXe–XXe siècle",
+        "museum": "Otago Museum, Dunedin (Nouvelle-Zélande)",
+        "credit": "Otago Museum, Dunedin (Nouvelle-Zélande), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Sago_storage_jar%2C_Iatmul%2C_Sepik%2C_earthenware_-_Otago_Museum_-_Dunedin%2C_NZ_-_DSC04417.jpg), photo Daderot, CC0",
+        "analysis": "Une grande jarre en terre cuite au col évasé. Sur la panse, un visage en relief, aux yeux en amande et au nez long, est peint en blanc ; tout autour, des cercles et des points ocre, blancs et noirs dessinent comme un collier.",
+        "compare": "Le sagou, une farine tirée de la moelle du palmier, est la nourriture de base du Sepik. Dans la région, ce sont les femmes qui façonnent la poterie : cette jarre est l'une des rares œuvres de l'exposition faite par une femme.",
+        "image": "images/mouvements/art-du-sepik/iatmul-jarre-a-sagou.jpg"
+      },
+      {
+        "title": "Bouclier",
+        "artist": "Sculpteur iatmul de Palimbei",
+        "country": "Papouasie-Nouvelle-Guinée",
+        "period": "début du XXe siècle",
+        "museum": "Musée du quai Branly – Jacques Chirac, Paris",
+        "credit": "Musée du quai Branly – Jacques Chirac, Paris, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Papua_nuova_guinea%2C_iatmul%2C_scudo%2C_da_palimbei%2C_medio_sepik%2C_inizio_del_XX_sec.JPG), photo Sailko, licence CC BY-SA 3.0",
+        "analysis": "Un grand bouclier de bois, haut et étroit, venu de Palimbei, dans le moyen Sepik. Un visage aux yeux ronds et au nez en forme de bec, peint en noir et blanc, occupe le centre ; tout autour, des spirales et des lignes rouges, ocre et blanches couvrent la surface jusqu'au bord, couronné de coquillages.",
+        "compare": "Le visage peint sur le bouclier devait effrayer l'ennemi et protéger le guerrier. Palimbei est l'un des grands villages iatmul, célèbre pour ses maisons des hommes.",
+        "image": "images/mouvements/art-du-sepik/iatmul-bouclier-de-palimbei.jpg"
+      }
+    ]
   }
 ]

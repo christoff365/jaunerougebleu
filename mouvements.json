@@ -9086,5 +9086,180 @@
         "image": "images/mouvements/art-du-sepik/iatmul-bouclier-de-palimbei.jpg"
       }
     ]
+  },
+  {
+    "mouvement": "Art d'Ifé",
+    "slug": "art-d-ife",
+    "status": "published",
+    "title": "L'art d'Ifé, les visages des rois yoruba",
+    "subtitle": "Nigeria, XIIe–XVe siècle : quinze œuvres photographiées à Ile-Ife, Berlin, Londres, Paris, New York, Fort Worth et Valladolid",
+    "intro": "Ile-Ife, dans le sud-ouest du Nigeria, est la ville sacrée des Yoruba : selon leurs récits, c'est là que les dieux ont créé la terre et les premiers humains, et c'est de là que viennent les dynasties royales yoruba. Elle est gouvernée par un roi, l'Ooni. Entre le XIIe et le XVe siècle environ, la ville est une grande capitale, entourée de remparts, célèbre pour ses perles de verre et ses pavements de tessons de poterie. Ses artistes y créent des têtes et des figures d'un réalisme saisissant, en terre cuite et en alliage de cuivre coulé à la cire perdue : des visages calmes, aux yeux en amande et aux lèvres pleines, souvent couverts de fines stries verticales, qui représentent sans doute des rois, des reines et des membres de la cour. Beaucoup portaient des couronnes et des colliers de perles ; de petits trous autour de la bouche et sur le front servaient peut-être à fixer des voiles de perles ou des cheveux. Ces œuvres étaient placées sur des autels et dans des sanctuaires. Quand l'ethnologue allemand Leo Frobenius en emporte plusieurs à Berlin en 1910–1913, l'Europe refuse d'abord de croire que des artistes africains aient pu les créer, et invente des origines grecques ou étrangères. En 1938, des ouvriers découvrent treize têtes en alliage de cuivre en creusant les fondations d'une maison près du palais de l'Ooni ; en 1957, les fouilles d'Ita Yemoo mettent au jour d'autres sculptures, dont un couple royal. Depuis, l'art d'Ifé est reconnu comme l'un des sommets de la sculpture mondiale ; il a influencé le royaume de Bénin, qui, selon la tradition, aurait appris d'Ifé l'art de la fonte. La plupart des grandes œuvres sont aujourd'hui conservées au Nigeria, au Musée national d'Ife et à Lagos, mais ces musées ne publient pas encore leurs images sous licence libre. L'exposition commence donc par des photographies prises à Ile-Ife même : des photos du Touring Club Italiano de 1957 et 1964, et des photos récentes du concours Wiki Loves Monuments au Nigeria et de l'université Obafemi Awolowo. Elle se poursuit avec les têtes en terre cuite conservées à Berlin, New York, Paris, Fort Worth et Valladolid, et se termine par la célèbre tête du British Museum et une tête en pierre de la même époque.",
+    "works": [
+      {
+        "title": "Couple royal (photographie de 1957)",
+        "artist": "Artiste d'Ifé",
+        "country": "Nigeria",
+        "period": "XIIe–XVe siècle",
+        "museum": "Ile-Ife (Nigeria), photographie du Touring Club Italiano",
+        "credit": "Ile-Ife (Nigeria), 1957, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Photo_Royal_couple_in_brass_1957_-_Touring_Club_Italiano_BBH_213.jpg), photo Touring Club Italiano, licence CC BY-SA 4.0",
+        "analysis": "Une photographie en noir et blanc prise à Ile-Ife en 1957. Deux figures debout, côte à côte, se tiennent par le bras ; elles portent de hautes coiffes surmontées d'un ornement, de lourds colliers de perles, des bracelets et des pagnes. Le métal est très corrodé, mais les visages restent lisibles.",
+        "compare": "L'année même de cette photo, les fouilles d'Ita Yemoo, à Ile-Ife, mettaient au jour des sculptures en alliage de cuivre, dont un couple royal. Le roi et la reine enlacés disent l'importance du couple dans la royauté d'Ifé.",
+        "image": "images/mouvements/art-d-ife/ife-couple-royal-photo-1957.jpg"
+      },
+      {
+        "title": "Masque de l'Ooni Obalufon II (photographie de 1964)",
+        "artist": "Artiste d'Ifé",
+        "country": "Nigeria",
+        "period": "XIIe–XVe siècle",
+        "museum": "Ile-Ife (Nigeria), photographie du Touring Club Italiano",
+        "credit": "Ile-Ife (Nigeria), 1964, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Photo_Copper_mask_of_Oni_Obalufon_II_1964_-_Touring_Club_Italiano_BBH_226.jpg), photo Touring Club Italiano, licence CC BY-SA 4.0",
+        "analysis": "Une photographie de 1964. Un visage en cuivre, grandeur nature, aux yeux en amande et aux lèvres pleines, d'un poli presque lisse ; un bandeau marque le haut du front, et de petits trous entourent la bouche et le menton. Les fentes des yeux sont étroites, sous des paupières lourdes.",
+        "compare": "Selon la tradition, ce masque représente Obalufon II, un Ooni d'Ifé. Il est en cuivre presque pur, un métal très difficile à couler : une prouesse technique des fondeurs d'Ifé. Les trous servaient peut-être à fixer une barbe ou un voile de perles.",
+        "image": "images/mouvements/art-d-ife/ife-masque-d-obalufon-ii-photo-1964.jpg"
+      },
+      {
+        "title": "Tête en alliage de cuivre aux stries (photographie de 1964)",
+        "artist": "Artiste d'Ifé",
+        "country": "Nigeria",
+        "period": "XIIe–XVe siècle",
+        "museum": "Ile-Ife (Nigeria), photographie du Touring Club Italiano",
+        "credit": "Ile-Ife (Nigeria), 1964, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Photo_Brass_head_1964_-_Touring_Club_Italiano_BBH_224.jpg), photo Touring Club Italiano, licence CC BY-SA 4.0",
+        "analysis": "Une photographie de 1964. Une tête grandeur nature, au cou épais, dont tout le visage est couvert de fines lignes verticales gravées, du front au menton ; seuls les yeux et les lèvres restent lisses. Un petit trou est percé à la base du cou.",
+        "compare": "Les stries, très fréquentes dans l'art d'Ifé, représentaient peut-être des scarifications, ou un voile de perles. Le trou à la base du cou permettait sans doute de fixer la tête sur un support, pour une cérémonie.",
+        "image": "images/mouvements/art-d-ife/ife-tete-striee-photo-1964.jpg"
+      },
+      {
+        "title": "Tête au cou annelé (photographie de 1964)",
+        "artist": "Artiste d'Ifé",
+        "country": "Nigeria",
+        "period": "XIIe–XVe siècle",
+        "museum": "Ile-Ife (Nigeria), photographie du Touring Club Italiano",
+        "credit": "Ile-Ife (Nigeria), 1964, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Photo_Brass_mask_1964_-_Touring_Club_Italiano_BBH_228.jpg), photo Touring Club Italiano, licence CC BY-SA 4.0",
+        "analysis": "Une photographie de 1964. Une tête en métal au visage lisse, aux yeux en amande ourlés, avec une rangée de petits trous au-dessus du front et d'autres autour de la bouche ; le long cou est entouré d'anneaux, comme des colliers.",
+        "compare": "Les anneaux du cou évoquent les rangées de perles que portaient les rois et les dignitaires. Comparez avec la tête striée : même visage idéal, mais une autre façon de décorer la surface.",
+        "image": "images/mouvements/art-d-ife/ife-tete-aux-anneaux-photo-1964.jpg"
+      },
+      {
+        "title": "Tête d'un dignitaire de la cour (photographie de 1964)",
+        "artist": "Artiste d'Ifé",
+        "country": "Nigeria",
+        "period": "XIIe–XVe siècle",
+        "museum": "Ile-Ife (Nigeria), photographie du Touring Club Italiano",
+        "credit": "Ile-Ife (Nigeria), 1964, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Photo_Mask_representing_a_high-ranking_court_dignitary_1964_-_Touring_Club_Italiano_BBH_227.jpg), photo Touring Club Italiano, licence CC BY-SA 4.0",
+        "analysis": "Une photographie de 1964, prise de très près. Le visage, au nez large et aux lèvres serrées, est marqué de petits trous autour de la bouche et sur le front ; le cou porte des anneaux et un trou. Le métal, piqué par la corrosion, garde un beau poli sur le nez et les joues.",
+        "compare": "Selon la légende de la photographie, cette tête représente un haut dignitaire de la cour. À Ifé, l'art ne montre pas des individus avec leurs défauts, mais des visages calmes et parfaits, à l'image de la dignité de leur rang.",
+        "image": "images/mouvements/art-d-ife/ife-tete-de-dignitaire-photo-1964.jpg"
+      },
+      {
+        "title": "Tête de reine d'Ita Yemoo",
+        "artist": "Artiste d'Ifé",
+        "country": "Nigeria",
+        "period": "XIIe–XVe siècle",
+        "museum": "Musée au Nigeria (photo Wiki Loves Monuments 2023)",
+        "credit": "Musée au Nigeria (photo Wiki Loves Monuments 2023), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Ife_terracotta_head_of_a_queen_from_ITA_YEMO.jpg), photo Stephanie cheks, licence CC BY-SA 4.0",
+        "analysis": "Une tête en terre cuite, exposée dans une vitrine d'un musée du Nigeria. Le visage, aux yeux en amande et aux lèvres pleines, est couvert de fines stries ; il porte une couronne à plusieurs rangs, avec un ornement au-dessus du front. L'étiquette indique : « Tête de reine en terre cuite d'Ifé, d'Ita Yemoo ».",
+        "compare": "Ita Yemoo est le site d'Ile-Ife où des fouilles, en 1957, ont livré de nombreuses sculptures. Photographiée au Nigeria en 2023 pour le concours Wiki Loves Monuments, cette tête est l'une des rares œuvres de l'exposition montrées dans leur pays d'origine.",
+        "image": "images/mouvements/art-d-ife/ife-tete-de-reine-d-ita-yemoo.jpg"
+      },
+      {
+        "title": "Tête en terre cuite",
+        "artist": "Artiste d'Ifé",
+        "country": "Nigeria",
+        "period": "XIIe–XVe siècle",
+        "museum": "Université Obafemi Awolowo, Ile-Ife (Nigeria)",
+        "credit": "Université Obafemi Awolowo, Ile-Ife (Nigeria), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Nature_and_Heritage_09.jpg), photo WikiMide, licence CC BY-SA 4.0",
+        "analysis": "Une tête en terre cuite claire, photographiée dans une vitrine de l'université Obafemi Awolowo, à Ile-Ife. Le visage, de trois quarts, est strié de lignes verticales ; une bande ceint le front, et la coiffe, au sommet, est cassée. L'étiquette porte : « Terracotta head (Ife) ».",
+        "compare": "L'université d'Ile-Ife, fondée en 1962, mène depuis des décennies des recherches sur l'archéologie de la ville. Les terres cuites d'Ifé étaient souvent placées sur des autels, parfois enterrées, puis retrouvées au cours de fouilles ou de travaux.",
+        "image": "images/mouvements/art-d-ife/ife-tete-universite-obafemi-awolowo.jpg"
+      },
+      {
+        "title": "Tête humaine",
+        "artist": "Artiste d'Ifé",
+        "country": "Nigeria",
+        "period": "XIIe–XVe siècle",
+        "museum": "Musée ethnologique, Berlin",
+        "credit": "Musée ethnologique, Berlin, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Kopf_Ife_EthnM_III_IIIC27527.jpg), photo FA2010, domaine public",
+        "analysis": "Une tête en terre cuite. Le visage, aux grands yeux cernés et au nez large, est barré de lignes en relief qui descendent du front jusqu'au menton ; la coiffe forme une calotte à côtes. La tête repose sur un cou épais, cassé à sa base.",
+        "compare": "Selon la notice, elle fait partie des œuvres emportées par Leo Frobenius et acquises par le musée de Berlin en 1913. Ces lignes en relief, plus marquées que les fines stries, représentent sans doute des scarifications.",
+        "image": "images/mouvements/art-d-ife/ife-tete-berlin-frobenius.jpg"
+      },
+      {
+        "title": "Tête humaine",
+        "artist": "Artiste d'Ifé",
+        "country": "Nigeria",
+        "period": "XIIe–XVe siècle",
+        "museum": "Musée ethnologique, Berlin",
+        "credit": "Musée ethnologique, Berlin, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:T%C3%AAte_Ife-Mus%C3%A9e_ethnologique_de_Berlin.jpg), photo Ji-Elle, licence CC BY-SA 3.0",
+        "analysis": "Une tête en terre cuite de 19 cm. Le visage ovale est lisse, aux yeux en amande et à la bouche petite ; au-dessus des sourcils, une rangée de petits boutons ; la coiffe est faite de nombreuses boucles rondes, comme des tresses enroulées.",
+        "compare": "La coiffure, minutieusement modelée, montre l'attention des artistes d'Ifé aux parures. Comparez avec la tête précédente du même musée : le même art du visage, deux façons de traiter la peau et les cheveux.",
+        "image": "images/mouvements/art-d-ife/ife-tete-berlin.jpg"
+      },
+      {
+        "title": "Fragment de tête",
+        "artist": "Artiste d'Ifé",
+        "country": "Nigeria",
+        "period": "1100–1500",
+        "museum": "Brooklyn Museum, New York",
+        "credit": "Brooklyn Museum, New York, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Brooklyn_Museum_L54.5_Fragment_of_a_Head.jpg), photo Brooklyn Museum, licence CC BY 3.0",
+        "analysis": "Un fragment de tête en terre cuite de 15,2 cm. Il reste le visage, aux yeux en amande, au nez fin et aux lèvres pleines, entièrement couvert de fines stries parallèles, et le début d'une coiffe.",
+        "compare": "Selon le musée, cette tête montre que la sculpture yoruba était très développée il y a mille ans ; elle représente un Ooni, roi d'Ifé, et le sens exact des stries reste inconnu, même si elles mettent en valeur le modelé délicat du visage.",
+        "image": "images/mouvements/art-d-ife/ife-fragment-de-tete-brooklyn.jpg"
+      },
+      {
+        "title": "Tête masculine",
+        "artist": "Artiste d'Ifé",
+        "country": "Nigeria",
+        "period": "XIIe–XIVe siècle",
+        "museum": "Musée du Louvre, Pavillon des Sessions (dépôt du musée du quai Branly), Paris",
+        "credit": "Musée du Louvre, Pavillon des Sessions (dépôt du musée du quai Branly), Paris, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Ife_sculpture_Inv.A96-1-4.jpg), photo Jastrow, domaine public",
+        "analysis": "Une tête en terre cuite de 15,5 cm. Le visage, aux yeux aux paupières lourdes et au nez large, est strié de lignes verticales ; un bandeau ceint le front, sous une calotte lisse.",
+        "compare": "Selon la notice, il s'agit probablement d'un serviteur du roi. Photographiée au Louvre, au Pavillon des Sessions, parmi les chefs-d'œuvre des arts du monde, elle montre que la cour d'Ifé n'était pas représentée seulement par ses rois.",
+        "image": "images/mouvements/art-d-ife/ife-tete-masculine-louvre.jpg"
+      },
+      {
+        "title": "Tête, peut-être d'un roi",
+        "artist": "Artiste d'Ifé",
+        "country": "Nigeria",
+        "period": "XIIe–XIVe siècle",
+        "museum": "Kimbell Art Museum, Fort Worth",
+        "credit": "Kimbell Art Museum, Fort Worth, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Africa_Ife_Head_2_Kimbell.jpg), photo domaine public",
+        "analysis": "Une tête en terre cuite de 26,7 cm, vue de profil. Le visage, couvert de fines stries, a un profil très pur, au nez droit et aux lèvres pleines ; une haute couronne conique, faite de plusieurs étages de rangs et d'ornements, s'élève au-dessus de la tête.",
+        "compare": "La couronne à étages rappelle les couronnes de perles que portent encore aujourd'hui les rois yoruba. Le musée la présente comme la tête d'un roi possible.",
+        "image": "images/mouvements/art-d-ife/ife-tete-kimbell.jpg"
+      },
+      {
+        "title": "Tête humaine",
+        "artist": "Artiste d'Ifé",
+        "country": "Nigeria",
+        "period": "XIVe–XVIe siècle",
+        "museum": "Museo de Arte Africano Arellano Alonso, Valladolid",
+        "credit": "Museo de Arte Africano Arellano Alonso, Valladolid, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Cabeza_humana_%28Cultura_Ife%2C_Nigeria%29.jpg), photo Jl FilpoC, licence CC BY-SA 4.0",
+        "analysis": "Une tête en terre cuite grise, sur un socle. Le visage, aux yeux en amande, au nez large et aux lèvres pleines, est encadré d'une coiffe faite de petites boucles ; la surface est usée et granuleuse.",
+        "compare": "Selon la notice de l'image, ce musée de Valladolid, consacré aux arts d'Afrique, la date des XIVe–XVIe siècles, la fin de la grande époque d'Ifé.",
+        "image": "images/mouvements/art-d-ife/ife-tete-valladolid.jpg"
+      },
+      {
+        "title": "Tête d'un roi (Ooni)",
+        "artist": "Artiste d'Ifé",
+        "country": "Nigeria",
+        "period": "XIVe – début du XVe siècle",
+        "museum": "British Museum, Londres",
+        "credit": "British Museum, Londres, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:British_Museum_Room_25_Head_of_a_king_Ife_17022019_5147.jpg), photo Vassil, CC0",
+        "analysis": "Une tête en laiton, grandeur nature. Le visage, couvert de fines stries, est d'un calme parfait ; la tête porte une couronne faite de rangs de perles, surmontée d'une rosette et d'un haut cimier en forme de plumet. Des traces de pigment rouge restent sur la couronne.",
+        "compare": "Selon la notice, cette tête a été découverte en 1939 près du palais d'Ifé. C'est l'une des plus célèbres sculptures d'Afrique ; la couronne montre que l'artiste représentait un Ooni.",
+        "image": "images/mouvements/art-d-ife/ife-tete-de-roi-british-museum.jpg"
+      },
+      {
+        "title": "Tête provenant d'une figure",
+        "artist": "Artiste yoruba",
+        "country": "Nigeria",
+        "period": "XIIe–XVe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/312519), domaine public (CC0)",
+        "analysis": "Une tête en stéatite de 28,6 cm, détachée d'une figure. Le visage, aux yeux en amande cernés et à la bouche abîmée, est surmonté d'une haute coiffure sculptée, très érodée.",
+        "compare": "Le musée indique qu'elle vient d'Offa, au nord du pays yoruba. Elle est de la même époque que les œuvres d'Ifé, mais sculptée dans la pierre : la région yoruba comptait plusieurs foyers d'art, autour du grand centre d'Ile-Ife.",
+        "image": "images/mouvements/art-d-ife/tete-en-pierre-offa.jpg"
+      }
+    ]
   }
 ]

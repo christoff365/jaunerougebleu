@@ -259,7 +259,17 @@ const MUSEES_MONDE = {
     ['Q1467125', 195, 1, 'Musée national d\'Indonésie, Jakarta'],
     ['Q1255815', 12, 1, 'Musée national de Bangkok'],
     ['Q3654706', 11, 1, 'Musée national des beaux-arts du Vietnam, Hanoï'],
-    ['Q860994', 369, 0, 'Musée Guimet, Paris']
+    ['Q860994', 369, 0, 'Musée Guimet, Paris'],
+    ['Q1640876', 3, 1, 'Musée de Lahore'],
+    ['Q1967486', 1, 1, 'Musée national du Pakistan, Karachi'],
+    ['Q3536763', 2, 1, 'Government Museum, Chennai'],
+    ['Q23035092', 4, 1, 'Bharat Kala Bhavan, Varanasi'],
+    ['Q715467', 2, 1, 'Musée national d\'Afghanistan, Kaboul'],
+    ['Q4146885', 7, 1, 'Musée d\'État des arts de l\'Ouzbékistan, Tachkent'],
+    ['Q597055', 1, 1, 'Musée d\'art Savitsky, Noukous (Ouzbékistan)'],
+    ['Q1667156', 4, 1, 'Musée national des Philippines, Manille'],
+    ['Q6970475', 5, 1, 'National Gallery Singapore'],
+    ['Q633033', 1, 0, 'Musée des civilisations asiatiques, Singapour']
   ],
   'Moyen-Orient': [
     ['Q46815', 233, 0, 'Musée d\'Israël, Jérusalem'],
@@ -289,7 +299,12 @@ const MUSEES_MONDE = {
     ['Q4115728', 17, 0, 'Musée Mahmoud Khalil, Le Caire'],
     ['Q1419469', 18, 1, 'Galerie nationale d\'Afrique du Sud, Le Cap'],
     ['Q6217142', 11, 1, 'Galerie d\'art de Johannesburg'],
-    ['Q167863', 167, 0, 'Musée du quai Branly, Paris']
+    ['Q167863', 167, 0, 'Musée du quai Branly, Paris'],
+    ['Q59521062', 1, 1, 'Musée des civilisations noires, Dakar'],
+    ['Q2652168', 1, 1, 'Musée national d\'Éthiopie, Addis-Abeba'],
+    ['Q1429003', 2, 1, 'Musée national du Bardo, Tunis'],
+    ['Q1784177', 2, 1, 'Musée copte, Le Caire'],
+    ['Q3330629', 3, 1, 'Musée d\'art islamique, Le Caire']
   ],
   'Amériques': [
     ['Q1138147', 171, 1, 'Museo Nacional de Arte, Mexico'],
@@ -310,7 +325,11 @@ const MUSEES_MONDE = {
     ['Q6940507', 34, 0, 'Museo Nacional de San Carlos, Mexico'],
     ['Q1786577', 33, 1, 'Musée national des arts visuels, Montevideo'],
     ['Q3329100', 17, 0, 'Museo Botero, Bogotá'],
-    ['Q2568412', 22, 1, 'Museo de América, Madrid']
+    ['Q2568412', 22, 1, 'Museo de América, Madrid'],
+    ['Q671264', 5, 1, 'Musée national de Colombie, Bogotá'],
+    ['Q1954240', 3, 1, 'Musée Larco, Lima'],
+    ['Q1968698', 1, 1, 'Musée national du Costa Rica, San José'],
+    ['Q2630111', 1, 1, 'Musée des beaux-arts de Caracas']
   ],
   'Océanie': [
     ['Q1464509', 333, 0, 'National Gallery of Victoria, Melbourne'],
@@ -324,7 +343,11 @@ const MUSEES_MONDE = {
     ['Q7424149', 347, 0, 'Sarjeant Gallery, Whanganui'],
     ['Q61797555', 143, 0, 'The Suter, Nelson'],
     ['Q5109058', 11, 0, 'Christchurch Art Gallery'],
-    ['Q826520', 22, 1, 'Bishop Museum, Honolulu']
+    ['Q826520', 22, 1, 'Bishop Museum, Honolulu'],
+    ['Q4796833', 5, 0, 'Art Gallery of Western Australia, Perth'],
+    ['Q1967496', 1, 1, 'Musée national d\'Australie, Canberra'],
+    ['Q769416', 1, 1, 'Australian Museum, Sydney'],
+    ['Q7687474', 1, 1, 'Tasmanian Museum and Art Gallery, Hobart']
   ],
   'Europe': [
     ['Q190804', 6286, 1, 'Rijksmuseum, Amsterdam'],
@@ -1000,7 +1023,8 @@ const ADAPTATEURS = {
       // ou un thème précis : on ne les interroge alors que pour la peinture et les dessins
       // (le Musée national de Chine décrit des milliers d'objets sans image : aussi lent qu'un très grand catalogue)
       const grandOk = m => (m[1] <= 3000 && m[0] !== 'Q1074318') || (!genres.length && (!types.length || c.ty.some(t => t === 'Peinture' || t === 'Dessins et estampes')));
-      const musees = [...new Map(museesPour(c.region, c.ty).map(m => [m[0], m])).values()].filter(m => grandOk(m) || (MUSEES_PAR_TYPE[c.ty[0]] || []).includes(m[0])).sort(() => Math.random() - 0.5).slice(0, 10);
+      const musees = [...new Map(museesPour(c.region, c.ty).map(m => [m[0], m])).values()].filter(m => grandOk(m) || (MUSEES_PAR_TYPE[c.ty[0]] || []).includes(m[0])).sort(() => Math.random() - 0.5)
+        .sort((x, y) => (y[1] >= 10) - (x[1] >= 10)).slice(0, 10); // les petites collections (moins de 10 œuvres illustrées) passent après les autres
       if (!musees.length) return Promise.resolve([]);
       const k = Math.max(4, Math.ceil(n * 3 / musees.length));
       const sousRecherche = m => `{ SELECT ?i ?m ?img ?date WHERE {

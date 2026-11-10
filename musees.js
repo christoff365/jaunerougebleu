@@ -420,6 +420,8 @@ const GENRES_THEMES = {
 // dans « wd ». « local » reconnaît les œuvres de collection.json (artiste ou titre). Artistes : exemples, morts depuis plus de 70 ans.
 // [nom, région, lieu, époque, mots, wd, local, artistes, description]
 const MOUVEMENTS = [
+  ['Chine ancienne', "Asie de l'Est", 'Chine', 'XXXe siècle av. J.-C. – Xe siècle', ['Chinese'], ['ancient Chinese art'], 'shang|han dynasty|tang dynasty', [],
+    "Des jades de Liangzhu aux Tang : bronzes des Shang, os oraculaires, armée de terre cuite, routes de la soie et grottes bouddhiques."],
   ['Ukiyo-e', "Asie de l'Est", 'Japon', 'XVIIe–XIXe siècle', ['ukiyo-e'], ['ukiyo-e'], 'hokusai|hiroshige|utamaro', ['Katsushika Hokusai', 'Utagawa Hiroshige', 'Kitagawa Utamaro'],
     "« Images du monde flottant » : estampes gravées sur bois montrant acteurs, beautés, paysages et scènes de la vie d'Edo."],
   ['École Rinpa', "Asie de l'Est", 'Japon', 'XVIIe–XIXe siècle', ['Rinpa'], ['Rinpa school', 'Rinpa'], 'k[oō]rin|s[oō]tatsu|h[oō]itsu', ['Tawaraya Sōtatsu', 'Ogata Kōrin', 'Sakai Hōitsu'],
@@ -535,7 +537,7 @@ const STYLES_ARCHITECTURE = { 'Art gothique': 'Q176483' };
 const ANONYME = 'Q4233718'; // « anonyme » dans Wikidata
 // Mouvements d'abord de l'estampe : leurs estampes ne sont pas limitées à trois
 // Expositions consacrées à une civilisation plutôt qu'à un mouvement (badge « Civilisation » sur leur page)
-const CIVILISATIONS = new Set(['Égypte ancienne', 'Grèce antique', 'Rome antique', 'Aksoum']);
+const CIVILISATIONS = new Set(['Égypte ancienne', 'Chine ancienne', 'Grèce antique', 'Rome antique', 'Aksoum']);
 const MOUVEMENTS_D_ESTAMPES = new Set(['Ukiyo-e', 'Expressionnisme']);
 // Mouvements de peintres : si le visiteur n'a pas choisi de type, l'exposition ne montre que des peintures
 // (pas les dessins, études, estampes ou éventails que les catalogues renvoient aussi pour ces artistes)

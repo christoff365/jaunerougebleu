@@ -9283,5 +9283,309 @@
         "image": "images/mouvements/art-d-ife/tete-en-pierre-offa.jpg"
       }
     ]
+  },
+  {
+    "mouvement": "Grèce antique",
+    "slug": "grece-antique",
+    "status": "published",
+    "title": "La Grèce antique, des Cyclades à Pergame",
+    "subtitle": "XXVIIIe–IIe siècle av. J.-C. : vingt-six œuvres d'Athènes, d'Héraklion, de Delphes, d'Olympie, de Paris, de Munich, de Berlin, du Vatican, de New York et de Cleveland",
+    "intro": "Bien avant Athènes, le monde grec commence dans la mer Égée. Vers 2800 av. J.-C., dans les îles Cyclades, des sculpteurs taillent dans le marbre des figures très simples ; puis, en Crète, la civilisation minoenne construit des palais, comme celui de Cnossos, couverts de fresques aux couleurs vives, et, sur le continent, les rois de Mycènes se font enterrer avec des masques d'or. Après la chute de ces palais, vers 1200 av. J.-C., l'écriture disparaît pendant des siècles. Au VIIIe siècle av. J.-C., les Grecs adoptent l'alphabet des Phéniciens, et les cités (poleis) se forment : Athènes, Sparte, Corinthe… Ce sont des communautés indépendantes, qui se font souvent la guerre, mais partagent une langue, des dieux, les poèmes d'Homère et de grands sanctuaires, comme Olympie, où se tiennent les Jeux, et Delphes, où l'on consulte l'oracle d'Apollon. On dit « Grèce », mais les Grecs vivent aussi en Asie Mineure (l'actuelle Turquie), en Italie du Sud, en Sicile et jusqu'à Marseille. À l'époque archaïque (VIIe–VIe siècle av. J.-C.), les sculpteurs dressent de grandes statues de jeunes hommes nus (kouroi) et de jeunes filles vêtues (korai), encore raides, au léger sourire ; les potiers d'Athènes peignent leurs vases de figures noires, puis de figures rouges. Au Ve siècle av. J.-C., après la victoire sur les Perses, Athènes devient une démocratie, réservée aux hommes citoyens, et elle reconstruit l'Acropole autour du Parthénon : c'est l'époque classique, celle des corps en mouvement et des visages calmes. Puis Alexandre le Grand (356–323 av. J.-C.) conquiert l'Empire perse jusqu'à l'Inde, et ses successeurs fondent des royaumes, de l'Égypte à Pergame : c'est l'époque hellénistique, plus dramatique, plus savante aussi. Rome conquiert la Grèce au IIe siècle av. J.-C., mais elle en adopte l'art et les dieux. Il faut imaginer ces œuvres en couleur : les statues de marbre étaient peintes, les bronzes brillaient comme de l'or. L'exposition suit cette histoire : l'âge du bronze (Cyclades, Crète, Mycènes), l'époque géométrique et archaïque, l'époque classique, puis l'époque hellénistique. La plupart des œuvres sont conservées en Grèce, au Musée national archéologique d'Athènes, au musée de l'Acropole, à Héraklion, à Delphes et à Olympie ; ces musées ne publient pas eux-mêmes d'images libres, et ce sont des visiteurs qui les ont photographiées et publiées sous licence libre, avec leur nom. Les autres viennent du Louvre, du Vatican, de Munich, de Berlin, du Metropolitan Museum of Art de New York et du Cleveland Museum of Art, dont les images sont dans le domaine public. Les statues nues sont marquées « Image sensible ».",
+    "works": [
+      {
+        "title": "Joueur de harpe assis",
+        "artist": "Sculpteur des Cyclades",
+        "country": "Grèce",
+        "period": "2800–2700 av. J.-C.",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/254587), domaine public (CC0)",
+        "analysis": "Une petite statuette de marbre blanc. Un homme est assis sur un siège à haut dossier ; il tient contre lui une harpe triangulaire, dont il touche les cordes, et lève la tête. Tout est simplifié : la tête est un ovale presque sans visage, le nez seul est marqué, les bras et les jambes sont de simples volumes arrondis.",
+        "compare": "Ces figures de marbre des îles Cyclades, en mer Égée, sont parmi les plus anciennes sculptures du monde grec ; on les trouve surtout dans des tombes, et l'on ignore à quoi elles servaient. À l'origine, des détails étaient peints sur la pierre. Leur simplicité a fasciné les sculpteurs modernes du XXe siècle.",
+        "image": "images/mouvements/grece-antique/joueur-de-harpe-cycladique.jpg"
+      },
+      {
+        "title": "Fresque du saut du taureau",
+        "artist": "Peintre minoen",
+        "country": "Grèce",
+        "period": "1600–1450 av. J.-C.",
+        "museum": "Musée archéologique d'Héraklion (Crète)",
+        "credit": "Musée archéologique d'Héraklion (Crète), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Bull_leaping_minoan_fresco_archmus_Heraklion_%28cropped%29.jpg), photo Jebulon, domaine public (CC0)",
+        "analysis": "Sur un fond bleu, un grand taureau brun galope, les pattes tendues. Un acrobate à la peau sombre fait la culbute au-dessus de son dos ; à droite et à gauche, deux personnages à la peau claire, dont l'un saisit les cornes de l'animal. Autour, une bordure de bandes colorées et de motifs en écailles.",
+        "compare": "Cette fresque ornait le palais de Cnossos, en Crète, au cœur de la civilisation minoenne. Selon une convention partagée avec l'Égypte, la peau claire désigne sans doute des femmes, la peau sombre des hommes. Elle a été retrouvée en morceaux au début du XXe siècle et en partie complétée par les restaurateurs de l'archéologue Arthur Evans.",
+        "image": "images/mouvements/grece-antique/fresque-du-saut-du-taureau-cnossos.jpg"
+      },
+      {
+        "title": "Déesse aux serpents",
+        "artist": "Artiste minoen",
+        "country": "Grèce",
+        "period": "vers 1600 av. J.-C.",
+        "museum": "Musée archéologique d'Héraklion (Crète)",
+        "credit": "Musée archéologique d'Héraklion (Crète), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Snake_goddess_from_the_Palace_of_Knossos_1600BC_%28js%2901.jpg), photo Jerzy Strzelecki, licence CC BY-SA 4.0",
+        "analysis": "Une petite figurine de faïence. Une femme debout, la poitrine nue, porte une jupe longue à volants superposés et un tablier. Elle lève les bras de chaque côté et tient dans chaque main un serpent ; un petit animal assis, peut-être un félin, est posé sur sa tête.",
+        "compare": "Elle a été trouvée en 1903 dans le palais de Cnossos. On ne sait pas si elle représente une déesse ou une prêtresse ; la statuette a été en partie restaurée. Elle montre la place des femmes dans les rites de la Crète minoenne, différente de celle qu'elles auront plus tard dans les cités grecques.",
+        "sensible": true,
+        "image": "images/mouvements/grece-antique/deesse-aux-serpents-cnossos.jpg"
+      },
+      {
+        "title": "Fresque du printemps",
+        "artist": "Peintre d'Akrotiri",
+        "country": "Grèce",
+        "period": "XVIIe siècle av. J.-C.",
+        "museum": "Musée national archéologique, Athènes",
+        "credit": "Musée national archéologique, Athènes, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Spring_fresco_Akrotiri_NAMA.jpg), photo Jebulon, domaine public (CC0)",
+        "analysis": "Les trois murs d'une petite pièce, reconstituée au musée. Des collines rouges, ocre et bleues, aux formes souples, portent des touffes de lis rouges ; entre elles volent des hirondelles, seules ou par deux, qui semblent se poursuivre. Il n'y a aucun personnage.",
+        "compare": "Akrotiri, sur l'île de Santorin, a été ensevelie sous les cendres d'une éruption volcanique vers 1600 av. J.-C. Comme plus tard à Pompéi, les cendres ont protégé les maisons et leurs peintures, mises au jour à partir de 1967. C'est l'une des plus anciennes peintures de paysage d'Europe.",
+        "image": "images/mouvements/grece-antique/fresque-du-printemps-akrotiri.jpg"
+      },
+      {
+        "title": "Masque funéraire dit « d'Agamemnon »",
+        "artist": "Orfèvre mycénien",
+        "country": "Grèce",
+        "period": "XVIe siècle av. J.-C.",
+        "museum": "Musée national archéologique, Athènes",
+        "credit": "Musée national archéologique, Athènes, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Agamemnon_mask_NAMA_Athens_Greece.jpg), photo Jebulon, domaine public (CC0)",
+        "analysis": "Une feuille d'or martelée en forme de visage d'homme : les yeux sont fermés, les sourcils arqués, la moustache relevée et la barbe tracée de fines lignes. Les oreilles sont découpées sur les côtés. Le masque était posé sur le visage du mort.",
+        "compare": "Il a été trouvé en 1876 par Heinrich Schliemann dans une tombe royale de Mycènes, qui crut avoir découvert le visage d'Agamemnon, le roi de l'Iliade. On sait aujourd'hui qu'il est plus ancien de plusieurs siècles que la guerre de Troie racontée par Homère ; le nom est resté.",
+        "image": "images/mouvements/grece-antique/masque-d-agamemnon.jpg"
+      },
+      {
+        "title": "Amphore du Dipylon",
+        "artist": "Peintre du Dipylon",
+        "country": "Grèce",
+        "period": "vers 760–750 av. J.-C.",
+        "museum": "Musée national archéologique, Athènes",
+        "credit": "Musée national archéologique, Athènes, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:The_Dipylon_Amphora_%28National_Archaeological_Museum_of_Athens%2C_1-31-2023%29.jpg), photo George E. Koronaios, licence CC BY-SA 4.0",
+        "analysis": "Un très grand vase de terre cuite, presque aussi haut qu'un homme, entièrement couvert de bandes de motifs géométriques peints en brun : méandres, zigzags, cercles. Entre les anses, une scène : un mort est étendu sur un lit funéraire, entouré de personnages aux bras levés vers la tête en signe de deuil. Les corps sont faits de triangles et de traits.",
+        "compare": "Ce vase se dressait sur une tombe du cimetière du Céramique, à Athènes, près de la porte du Dipylon. C'est l'époque « géométrique », où les figures humaines reviennent dans l'art grec après des siècles de motifs abstraits ; on y voit déjà les rites du deuil que décrivent les poèmes d'Homère.",
+        "image": "images/mouvements/grece-antique/amphore-du-dipylon.jpg"
+      },
+      {
+        "title": "Statue d'un kouros (jeune homme)",
+        "artist": "Sculpteur athénien",
+        "country": "Grèce",
+        "period": "vers 590–580 av. J.-C.",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/253370), domaine public (CC0)",
+        "analysis": "Une statue de marbre presque grandeur nature (1,95 m). Un jeune homme nu se tient debout, de face, la jambe gauche avancée, les bras le long du corps et les poings fermés. Ses longs cheveux sont faits de perles alignées et retenus par un bandeau ; les genoux, les côtes et les muscles du ventre sont dessinés comme des motifs.",
+        "compare": "C'est l'une des plus anciennes statues de marbre d'un être humain sculptées en Attique, la région d'Athènes. Sa pose rigide rappelle les statues de l'Égypte, que les Grecs connaissaient. Ces kouroi se dressaient sur les tombes ou dans les sanctuaires.",
+        "sensible": true,
+        "image": "images/mouvements/grece-antique/kouros-de-new-york.jpg"
+      },
+      {
+        "title": "Kouros d'Anavyssos (Kroisos)",
+        "artist": "Sculpteur athénien",
+        "country": "Grèce",
+        "period": "vers 530 av. J.-C.",
+        "museum": "Musée national archéologique, Athènes",
+        "credit": "Musée national archéologique, Athènes, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Kouros_NAMA_3851_Athens_Greece.jpg), photo Jebulon, domaine public (CC0)",
+        "analysis": "La même pose que le kouros de New York, la jambe gauche en avant, les bras le long du corps. Mais, soixante ans plus tard, le corps est plus rond, plus musclé, plus vivant, et les lèvres dessinent un léger sourire. On voit encore des traces de couleur rouge dans les cheveux.",
+        "compare": "Cette statue se dressait sur la tombe d'un jeune guerrier, Kroisos ; l'inscription de sa base dit : « Arrête-toi et pleure devant le tombeau de Kroisos, mort, que le farouche Arès a fait périr un jour qu'il combattait au premier rang. » Comparez avec le kouros de New York : en deux générations, la sculpture grecque se rapproche du corps réel.",
+        "sensible": true,
+        "image": "images/mouvements/grece-antique/kouros-de-kroisos.jpg"
+      },
+      {
+        "title": "Le Moschophore (porteur de veau)",
+        "artist": "Sculpteur athénien",
+        "country": "Grèce",
+        "period": "vers 570 av. J.-C.",
+        "museum": "Musée de l'Acropole, Athènes",
+        "credit": "Musée de l'Acropole, Athènes, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:ACMA_Moschophoros.jpg), photo Marsyas, licence CC BY-SA 2.5",
+        "analysis": "Un homme barbu, vêtu d'un manteau léger, porte un veau sur ses épaules ; il tient les pattes de l'animal croisées devant sa poitrine. La tête du veau se penche contre celle de l'homme, qui sourit. Les yeux, aujourd'hui vides, étaient incrustés d'une autre matière. Les jambes manquent sous les genoux.",
+        "compare": "C'est une offrande à la déesse Athéna, sur l'Acropole : l'inscription de la base garde le nom de celui qui l'a offerte, Rhombos. Le veau devait être sacrifié à la déesse. Les deux têtes réunies et les bras croisés forment un motif en X, très étudié.",
+        "image": "images/mouvements/grece-antique/moschophore.jpg"
+      },
+      {
+        "title": "Korè au péplos",
+        "artist": "Sculpteur athénien",
+        "country": "Grèce",
+        "period": "vers 530 av. J.-C.",
+        "museum": "Musée de l'Acropole, Athènes",
+        "credit": "Musée de l'Acropole, Athènes, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:ACMA_679_Kore_2.JPG), photo Marsyas, licence CC BY-SA 2.5",
+        "analysis": "Une jeune fille de marbre, debout, de face. Elle porte une robe serrée à la taille, et de longues tresses tombent sur ses épaules. Elle sourit doucement. Le bras droit descend le long du corps ; l'avant-bras gauche, qui se tendait sans doute pour tenir une offrande, est cassé. On voit des traces de peinture sur les cheveux et les yeux.",
+        "compare": "Les korai, statues de jeunes filles vêtues, étaient offertes à Athéna sur l'Acropole. Elles ont été renversées par les Perses en 480 av. J.-C., puis enterrées par les Athéniens, ce qui les a protégées. Les traces de couleur montrent qu'elles étaient peintes de couleurs vives.",
+        "image": "images/mouvements/grece-antique/kore-au-peplos.jpg"
+      },
+      {
+        "title": "Achille et Ajax jouant aux dés",
+        "artist": "Exékias",
+        "country": "Grèce",
+        "period": "540–530 av. J.-C.",
+        "museum": "Musées du Vatican, Museo Gregoriano Etrusco, Rome",
+        "credit": "Musées du Vatican, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Achilles_and_Ajax_playing_dice%2C_Attic_black-figured_amphora%2C_signed_by_Exekias_as_both_painter_and_potter%2C_540-530_BC%2C_inv._16757_-_Museo_Gregoriano_Etrusco_-_Vatican_Museums_-_DSC01049.jpg), photo Daderot, domaine public (CC0)",
+        "analysis": "Une amphore à figures noires : les personnages sont peints en noir brillant sur le fond orangé de l'argile, et les détails gravés à la pointe. Deux guerriers en armure, assis face à face sur des blocs, se penchent sur un plateau de jeu ; ils tiennent encore leurs lances. Les motifs de leurs manteaux sont gravés avec une extrême finesse.",
+        "compare": "Exékias a signé ce vase deux fois, comme potier et comme peintre. Les inscriptions donnent les noms des héros de l'Iliade et les chiffres qu'ils annoncent : « quatre » pour Achille, « trois » pour Ajax. Ils jouent pendant une pause de la guerre de Troie, sans savoir qu'ils vont mourir. Le vase a été trouvé en Étrurie, en Italie, où les vases athéniens étaient très recherchés.",
+        "image": "images/mouvements/grece-antique/exekias-achille-et-ajax.jpg"
+      },
+      {
+        "title": "Coupe de Dionysos",
+        "artist": "Exékias",
+        "country": "Grèce",
+        "period": "vers 530 av. J.-C.",
+        "museum": "Collections nationales d'antiquités (Staatliche Antikensammlungen), Munich",
+        "credit": "Staatliche Antikensammlungen, Munich, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Kylix_Dionysus_on_a_ship_between_dolphins_530_BC%2C_Staatliche_Antikensammlungen_Munich_120638x.jpg), photo Zde, licence CC BY-SA 3.0",
+        "analysis": "L'intérieur d'une coupe à boire, peint d'un rouge-orangé éclatant. Le dieu Dionysos est allongé sur un bateau à voile ; du mât sort une vigne chargée de grappes qui s'étend sur tout le ciel. Autour du bateau, sept dauphins nagent dans la mer.",
+        "compare": "Un hymne homérique raconte que des pirates enlevèrent Dionysos : le dieu fit pousser une vigne sur le mât, et les pirates, effrayés, sautèrent à la mer, où ils furent changés en dauphins. Le buveur découvrait l'image en vidant sa coupe de vin, la boisson de Dionysos.",
+        "image": "images/mouvements/grece-antique/exekias-coupe-de-dionysos.jpg"
+      },
+      {
+        "title": "L'Aurige de Delphes",
+        "artist": "Sculpteur grec",
+        "country": "Grèce",
+        "period": "vers 478–474 av. J.-C.",
+        "museum": "Musée archéologique de Delphes",
+        "credit": "Musée archéologique de Delphes, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Aurige._Mus%C3%A9e_Delphes._Gr%C3%A8ce.png), photo Jebulon, domaine public (CC0)",
+        "analysis": "Une statue de bronze grandeur nature. Un jeune conducteur de char se tient debout, très droit, dans une longue tunique serrée haut par une ceinture, dont les plis tombent comme des cannelures de colonne. Il tient encore les rênes dans sa main droite. Ses yeux sont incrustés de pierre et de verre, ses lèvres de cuivre.",
+        "compare": "Il faisait partie d'un groupe en bronze, avec un char et des chevaux, offert à Apollon pour une victoire à la course de chars des Jeux pythiques de Delphes ; l'inscription nomme Polyzalos, tyran de Gela, en Sicile. Il a été retrouvé en 1896, enseveli par un tremblement de terre. Très peu de grands bronzes grecs ont survécu : la plupart ont été fondus.",
+        "image": "images/mouvements/grece-antique/aurige-de-delphes.jpg"
+      },
+      {
+        "title": "Zeus ou Poséidon du cap Artémision",
+        "artist": "Sculpteur grec",
+        "country": "Grèce",
+        "period": "vers 460 av. J.-C.",
+        "museum": "Musée national archéologique, Athènes",
+        "credit": "Musée national archéologique, Athènes, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Bronze_Zeus_or_Poseidon_NAMA_X_15161_Athens_Greece.jpg), photo Jebulon, domaine public (CC0)",
+        "analysis": "Une statue de bronze plus grande que nature (2,09 m). Un dieu barbu et nu, les jambes écartées, tend le bras gauche devant lui pour viser et ramène le bras droit en arrière pour lancer. L'arme a disparu : la foudre de Zeus ou le trident de Poséidon.",
+        "compare": "Elle a été retrouvée au fond de la mer, au large du cap Artémision, en 1926–1928, sans doute dans l'épave d'un navire. Le mouvement est saisi à l'instant qui précède le lancer, avec un équilibre parfait : c'est l'idéal de l'époque classique. L'arme perdue empêche de savoir quel dieu elle représente.",
+        "sensible": true,
+        "image": "images/mouvements/grece-antique/zeus-ou-poseidon-de-l-artemision.jpg"
+      },
+      {
+        "title": "Frise du Parthénon : deux cavaliers",
+        "artist": "Atelier de Phidias",
+        "country": "Grèce",
+        "period": "447–432 av. J.-C.",
+        "museum": "Musée de l'Acropole, Athènes",
+        "credit": "Musée de l'Acropole, Athènes, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Frieze_of_the_Parthenon_on_the_Acropolis_of_Athens_in_the_Acropolis_Museum._Two_horsemen_on_galopping_horses.jpg), photo Yair Haklai, licence CC BY-SA 4.0",
+        "analysis": "Un bloc de marbre sculpté en relief peu profond. Deux jeunes cavaliers montent des chevaux au galop qui se chevauchent ; les manteaux flottent derrière eux, les chevaux lèvent les pattes avant et tendent l'encolure. La pierre est usée et brisée par endroits.",
+        "compare": "La frise courait sur 160 mètres tout autour du Parthénon, le temple d'Athéna sur l'Acropole ; on y voit le plus souvent la procession des Panathénées, la grande fête de la déesse. Au début du XIXe siècle, Lord Elgin en a fait emporter une grande partie à Londres, au British Museum ; la Grèce en demande le retour, et le musée de l'Acropole montre des moulages à la place des blocs absents.",
+        "image": "images/mouvements/grece-antique/frise-du-parthenon-cavaliers.jpg"
+      },
+      {
+        "title": "Les Caryatides de l'Érechthéion",
+        "artist": "Sculpteur athénien",
+        "country": "Grèce",
+        "period": "vers 420–410 av. J.-C.",
+        "museum": "Musée de l'Acropole, Athènes",
+        "credit": "Musée de l'Acropole, Athènes, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Caryatids_of_Erechtheum_in_the_Acropolis_Museum_%28Athens%29.jpg), photo Yair Haklai, licence CC BY-SA 4.0",
+        "analysis": "Dans une grande salle du musée, cinq statues de jeunes femmes en marbre sont alignées sur un socle. Chacune porte une longue robe aux plis profonds et plie une jambe, comme si elle marchait ; leurs cheveux tombent en tresses dans le dos, et elles portent sur la tête une sorte de chapiteau. L'une d'elles est très abîmée.",
+        "compare": "Elles servaient de colonnes : six jeunes femmes soutenaient le toit d'un portique de l'Érechthéion, un temple de l'Acropole. Lord Elgin a emporté la sixième à Londres, où elle est toujours, au British Museum. Pour les protéger de la pollution, les originaux ont été mis à l'abri au musée, et des copies les remplacent sur l'Acropole.",
+        "image": "images/mouvements/grece-antique/caryatides-de-l-erechtheion.jpg"
+      },
+      {
+        "title": "Stèle funéraire d'Hégéso",
+        "artist": "Sculpteur athénien",
+        "country": "Grèce",
+        "period": "vers 410–400 av. J.-C.",
+        "museum": "Musée national archéologique, Athènes",
+        "credit": "Musée national archéologique, Athènes, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:The_Grave_Stele_of_Hegeso_%285th_cent._B.C.%29_at_the_National_Archaeological_Museum_on_3_April_2018.jpg), photo George E. Koronaios, licence CC BY-SA 4.0",
+        "analysis": "Un relief de marbre en forme de petit temple. Une femme est assise sur une chaise élégante, les pieds sur un tabouret ; elle prend un bijou dans un coffret que lui tend une jeune servante debout devant elle. Les deux visages sont calmes, penchés l'un vers l'autre ; les plis légers des robes laissent deviner les corps.",
+        "compare": "L'inscription au-dessus donne son nom : « Hégéso, fille de Proxénos ». La stèle se dressait sur sa tombe, au cimetière du Céramique d'Athènes. Ce n'est pas la mort qui est montrée, mais un moment tranquille de la vie quotidienne, que la famille voulait garder en mémoire.",
+        "image": "images/mouvements/grece-antique/stele-d-hegeso.jpg"
+      },
+      {
+        "title": "Cratère des Niobides : Héraclès et les héros",
+        "artist": "Peintre des Niobides",
+        "country": "Grèce",
+        "period": "460–450 av. J.-C.",
+        "museum": "Musée du Louvre, Paris",
+        "credit": "Musée du Louvre, Paris, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Krater_Niobid_Painter_A_Louvre_G341.jpg), photo Bibi Saint-Pol, domaine public",
+        "analysis": "Un grand vase à mélanger le vin et l'eau, à figures rouges : cette fois, les personnages gardent la couleur de l'argile et c'est le fond qui est peint en noir. Des héros en armes, debout, assis ou allongés, sont placés à différentes hauteurs, sur de petites lignes de terrain ; au centre se tient Héraclès, nu, couronné de laurier, avec sa massue, son arc et sa peau de lion.",
+        "compare": "Placer les personnages à plusieurs niveaux, comme sur une colline, était nouveau : le peintre imitait sans doute les grandes peintures murales de son temps, toutes perdues. La scène montre peut-être le rassemblement des Argonautes. Le vase a été trouvé à Orvieto, en Italie, chez les Étrusques.",
+        "sensible": true,
+        "image": "images/mouvements/grece-antique/cratere-des-niobides.jpg"
+      },
+      {
+        "title": "Hermès portant Dionysos enfant",
+        "artist": "Attribué à Praxitèle",
+        "country": "Grèce",
+        "period": "IVe siècle av. J.-C.",
+        "museum": "Musée archéologique d'Olympie",
+        "credit": "Musée archéologique d'Olympie, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Hermes_bearing_the_infant_Dionysus%2C_traditionally_attributed_to_Praxiteles_and_dated_to_the_4th_century_BC%2C_discovered_in_1877_in_the_ruins_of_the_Temple_of_Hera_at_Olympia%2C_Archaeological_Museum_of_Olympia_%2816373294135%29.jpg), photo Carole Raddato, licence CC BY-SA 2.0",
+        "analysis": "Une statue de marbre. Le dieu Hermès, nu, s'appuie sur un tronc d'arbre couvert de son manteau ; il porte sur son bras gauche le petit Dionysos. Son corps forme une courbe souple, en S, et son visage est rêveur. Le bras droit, qui tenait sans doute une grappe de raisin pour l'enfant, a disparu.",
+        "compare": "Elle a été découverte en 1877 dans les ruines du temple d'Héra à Olympie, à l'endroit où l'écrivain Pausanias, au IIe siècle, avait vu un Hermès de Praxitèle. Les savants discutent encore : original ou copie plus tardive ? Comparez avec les kouroi : le corps n'est plus raide, il se détend et se balance.",
+        "sensible": true,
+        "image": "images/mouvements/grece-antique/hermes-de-praxitele.jpg"
+      },
+      {
+        "title": "Apollon sauroctone (tueur de lézard)",
+        "artist": "Attribué à Praxitèle ou à son entourage",
+        "country": "Grèce",
+        "period": "vers 350–200 av. J.-C.",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/2004.30), domaine public (CC0)",
+        "analysis": "Une statue de bronze de 1,50 m. Le jeune dieu Apollon, nu, se tient sur la jambe droite et se penche vers la gauche, vers un appui aujourd'hui perdu. Ses cheveux sont noués, ses ongles finement sculptés, ses lèvres incrustées de cuivre.",
+        "compare": "Selon le musée, l'auteur romain Pline l'Ancien décrit un « Apollon sauroctone » de Praxitèle qui vise un lézard ; on en connaissait des copies en marbre, et celle de Cleveland est la seule grande version en bronze conservée. Certains spécialistes pensent qu'elle pourrait être l'œuvre vue par Pline, d'autres qu'elle est d'un successeur. Comparez avec l'Hermès d'Olympie : même corps souple en S.",
+        "sensible": true,
+        "image": "images/mouvements/grece-antique/apollon-sauroctone-cleveland.jpg"
+      },
+      {
+        "title": "La Victoire de Samothrace",
+        "artist": "Sculpteur grec",
+        "country": "Grèce",
+        "period": "vers 190 av. J.-C.",
+        "museum": "Musée du Louvre, Paris",
+        "credit": "Musée du Louvre, Paris, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Nike_of_Samothrace%2C_Paris%2C_Louvre.jpg), photo Wilfredo Rodríguez, domaine public (CC0)",
+        "analysis": "Une déesse ailée, en marbre blanc, se pose sur la proue d'un navire de guerre en marbre gris. Elle a perdu la tête et les bras, mais tout son corps est mouvement : le vent plaque sa robe contre son ventre et ses jambes et la fait claquer derrière elle ; ses grandes ailes s'ouvrent vers l'arrière.",
+        "compare": "Elle se dressait dans le sanctuaire des Grands Dieux, sur l'île de Samothrace, sans doute pour célébrer une victoire navale. Elle a été découverte en 1863 par le consul de France Charles Champoiseau et reconstituée au Louvre, en haut du grand escalier Daru. Comparez avec l'Aurige : le calme classique a laissé place au drame hellénistique.",
+        "image": "images/mouvements/grece-antique/victoire-de-samothrace.jpg"
+      },
+      {
+        "title": "L'Aphrodite de Milo, dite Vénus de Milo",
+        "artist": "Sculpteur grec",
+        "country": "Grèce",
+        "period": "vers 150–125 av. J.-C.",
+        "museum": "Musée du Louvre, Paris",
+        "credit": "Musée du Louvre, Paris, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Venus_de_Milo_from_Paris_Project%2C_44.jpg), photo Wilfredo Rodríguez, domaine public (CC0)",
+        "analysis": "Une statue de marbre de femme, plus grande que nature. Le haut du corps est nu ; un drapé glisse sur ses hanches et couvre ses jambes. Le corps tourne légèrement en spirale, la tête se détourne. Les deux bras ont disparu.",
+        "compare": "Elle a été trouvée en 1820 sur l'île de Milo, dans les Cyclades, et offerte au roi Louis XVIII. On pense qu'elle représente Aphrodite, la déesse de l'amour, que les Romains appelaient Vénus. Les bras perdus ont fait naître beaucoup d'hypothèses : tenait-elle une pomme, un miroir, un bouclier ?",
+        "sensible": true,
+        "image": "images/mouvements/grece-antique/venus-de-milo.jpg"
+      },
+      {
+        "title": "Danseuse voilée",
+        "artist": "Coroplathe (modeleur de figurines) grec",
+        "country": "Grèce",
+        "period": "vers 150–100 av. J.-C.",
+        "museum": "Musée du Louvre, Paris",
+        "credit": "Musée du Louvre, Paris, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Veiled_dancer_Louvre_Myr660.jpg), photo Marie-Lan Nguyen, domaine public",
+        "analysis": "Une statuette de terre cuite de 18 cm. Une danseuse tourne sur elle-même, enveloppée d'un grand voile qui couvre jusqu'à son visage ; le tissu tourbillonne autour de son corps en plis profonds, et l'on devine le mouvement des bras sous l'étoffe.",
+        "compare": "Les figurines de terre cuite, moulées en série puis peintes, étaient vendues partout dans le monde grec ; on les offrait aux dieux ou on les plaçait dans les tombes. Elles montrent des gens ordinaires, des femmes élégantes, des enfants, des danseuses. Loin des grandes statues de dieux, c'est un art du quotidien.",
+        "image": "images/mouvements/grece-antique/danseuse-voilee-terre-cuite.jpg"
+      },
+      {
+        "title": "Le Jockey du cap Artémision",
+        "artist": "Sculpteur grec",
+        "country": "Grèce",
+        "period": "vers 140 av. J.-C.",
+        "museum": "Musée national archéologique, Athènes",
+        "credit": "Musée national archéologique, Athènes, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Jockey_of_Artemision_on_Site.jpg), photo Nikos Kitsakis, licence CC BY 4.0",
+        "analysis": "Un cheval de bronze grandeur nature galope, le corps étiré, les quatre jambes tendues dans le vide. Sur son dos, un petit garçon en tunique courte se penche en avant et tourne la tête ; il est beaucoup plus petit que le cheval.",
+        "compare": "Le cheval et son cavalier ont été retrouvés en morceaux au fond de la mer, au large du cap Artémision, dans la même zone que le Zeus ou Poséidon. Le jeune jockey, peut-être un enfant africain, montre le goût de l'art hellénistique pour les gens de tous âges et de toutes origines, et pour l'instant saisi en pleine course.",
+        "image": "images/mouvements/grece-antique/jockey-de-l-artemision.jpg"
+      },
+      {
+        "title": "Le mécanisme d'Anticythère",
+        "artist": "Savant et artisan grec",
+        "country": "Grèce",
+        "period": "150–100 av. J.-C.",
+        "museum": "Musée national archéologique, Athènes",
+        "credit": "Musée national archéologique, Athènes, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Mechanism_of_Antikythera%2C_150-100_BC%2C_NAMA%2C_191431.jpg), photo Zde, licence CC BY-SA 4.0",
+        "analysis": "Sur un mur du musée, des fragments de bronze vert, rongés par la mer, de tailles différentes. Dans les plus grands, on distingue des roues dentées, imbriquées les unes dans les autres.",
+        "compare": "Ces fragments ont été trouvés en 1901 dans une épave, au large de l'île d'Anticythère. Les chercheurs ont reconstitué, grâce aux rayons X, une machine à engrenages qui calculait la position du Soleil et de la Lune et prévoyait les éclipses : on l'appelle souvent le plus ancien « ordinateur » connu. Rien d'aussi complexe n'est connu avant les horloges du Moyen Âge.",
+        "image": "images/mouvements/grece-antique/mecanisme-d-anticythere.jpg"
+      },
+      {
+        "title": "L'autel de Pergame",
+        "artist": "Sculpteurs du royaume de Pergame",
+        "country": "Turquie",
+        "period": "vers 180–160 av. J.-C.",
+        "museum": "Pergamonmuseum, Berlin",
+        "credit": "Pergamonmuseum, Berlin, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Berlin_-_Pergamonmuseum_-_Altar_01.jpg), photo Jan Mehlich, licence CC BY-SA 3.0",
+        "analysis": "Dans une immense salle, la façade d'un autel monumental : un large escalier monte vers une colonnade, entre deux ailes dont la base est couverte d'une frise sculptée où des dieux combattent des géants. Les visiteurs, assis sur les marches, donnent l'échelle.",
+        "compare": "Pergame, en Asie Mineure (aujourd'hui Bergama, en Turquie), était la capitale d'un royaume hellénistique. L'autel, sans doute dédié à Zeus, a été fouillé par l'ingénieur allemand Carl Humann à partir de 1878, et ses frises ont été transportées à Berlin, où le musée a été construit pour lui. Le combat des dieux contre les géants célébrait, pour les rois de Pergame, la victoire de l'ordre sur le chaos.",
+        "image": "images/mouvements/grece-antique/autel-de-pergame.jpg"
+      }
+    ]
   }
 ]

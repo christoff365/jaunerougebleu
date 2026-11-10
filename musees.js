@@ -420,8 +420,8 @@ const GENRES_THEMES = {
 // dans « wd ». « local » reconnaît les œuvres de collection.json (artiste ou titre). Artistes : exemples, morts depuis plus de 70 ans.
 // [nom, région, lieu, époque, mots, wd, local, artistes, description]
 const MOUVEMENTS = [
-  ['Chine ancienne', "Asie de l'Est", 'Chine', 'XXXe siècle av. J.-C. – Xe siècle', ['Chinese'], ['ancient Chinese art'], 'shang|han dynasty|tang dynasty', [],
-    "Des jades de Liangzhu aux Tang : bronzes des Shang, os oraculaires, armée de terre cuite, routes de la soie et grottes bouddhiques."],
+  ['Chine ancienne', "Asie de l'Est", 'Chine', 'XXXe siècle av. J.-C. – XXe siècle', ['Chinese'], ['ancient Chinese art'], 'shang|han dynasty|tang dynasty', [],
+    "Des jades de Liangzhu aux derniers empereurs : bronzes des Shang, armée de terre cuite, routes de la soie, paysages des Song, porcelaine, Cité interdite et Grande Muraille."],
   ['Ukiyo-e', "Asie de l'Est", 'Japon', 'XVIIe–XIXe siècle', ['ukiyo-e'], ['ukiyo-e'], 'hokusai|hiroshige|utamaro', ['Katsushika Hokusai', 'Utagawa Hiroshige', 'Kitagawa Utamaro'],
     "« Images du monde flottant » : estampes gravées sur bois montrant acteurs, beautés, paysages et scènes de la vie d'Edo."],
   ['École Rinpa', "Asie de l'Est", 'Japon', 'XVIIe–XIXe siècle', ['Rinpa'], ['Rinpa school', 'Rinpa'], 'k[oō]rin|s[oō]tatsu|h[oō]itsu', ['Tawaraya Sōtatsu', 'Ogata Kōrin', 'Sakai Hōitsu'],
@@ -452,10 +452,10 @@ const MOUVEMENTS = [
     "Chroniques illustrées des sultans, fêtes, cortèges et portraits, dans un style narratif précis."],
   ['Art mamelouk', 'Moyen-Orient', 'Égypte et Syrie', 'XIIIe–XVIe siècle', ['Mamluk'], [], '', [],
     "Lampes de mosquée en verre émaillé, métal incrusté d'argent et Corans enluminés du sultanat du Caire et de Damas."],
-  ['Aksoum', 'Afrique', 'Éthiopie et Érythrée', 'VIIIe siècle av. J.-C. – XIIIe siècle', ['Aksum', 'Axum'], ['Aksumite art'], 'aksum|axum|aksoum', [],
-    "Le royaume de la mer Rouge : temple de Yeha, stèles géantes, inscriptions du roi Ézana, puis les églises taillées dans le roc de Lalibela."],
+  ['Aksoum', 'Afrique', 'Éthiopie et Érythrée', 'VIIIe siècle av. J.-C. – XVIe siècle', ['Aksum', 'Axum'], ['Aksumite art'], 'aksum|axum|aksoum', [],
+    "Le royaume de la mer Rouge : temple de Yeha, stèles géantes, inscriptions du roi Ézana, puis ses héritiers, les églises taillées dans le roc de Lalibela et les manuscrits peints."],
   ['Égypte ancienne', 'Afrique', 'Égypte', 'XXXe–Ier siècle av. J.-C.', ['Egyptian'], ['ancient Egyptian art'], 'toutankhamon|tutankhamun|pharaon', [],
-    "Des pyramides de Gizeh au temple de Philae : statues, peintures, papyrus et grands sites archéologiques de trois mille ans de pharaons."],
+    "Des pyramides de Gizeh au temple de Philae : statues, peintures, papyrus, art d'Amarna et grands sites archéologiques de trois mille ans de pharaons."],
   ['Art amarnien', 'Afrique', 'Égypte', 'XIVe siècle av. J.-C.', ['Amarna'], ['Amarna art'], '', [],
     "Sous Akhenaton, l'art égyptien devient plus souple et plus intime : corps allongés, scènes de famille, rayons du soleil Aton."],
   ["Art d'Ifé", 'Afrique', 'Nigeria', 'XIIe–XVe siècle', ['Ife'], [], '', [],

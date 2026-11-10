@@ -450,6 +450,8 @@ const MOUVEMENTS = [
     "Chroniques illustrées des sultans, fêtes, cortèges et portraits, dans un style narratif précis."],
   ['Art mamelouk', 'Moyen-Orient', 'Égypte et Syrie', 'XIIIe–XVIe siècle', ['Mamluk'], [], '', [],
     "Lampes de mosquée en verre émaillé, métal incrusté d'argent et Corans enluminés du sultanat du Caire et de Damas."],
+  ['Égypte ancienne', 'Afrique', 'Égypte', 'XXXe–Ier siècle av. J.-C.', ['Egyptian'], ['ancient Egyptian art'], 'toutankhamon|tutankhamun|pharaon', [],
+    "Des pyramides de Gizeh au temple de Philae : statues, peintures, papyrus et grands sites archéologiques de trois mille ans de pharaons."],
   ['Art amarnien', 'Afrique', 'Égypte', 'XIVe siècle av. J.-C.', ['Amarna'], ['Amarna art'], '', [],
     "Sous Akhenaton, l'art égyptien devient plus souple et plus intime : corps allongés, scènes de famille, rayons du soleil Aton."],
   ["Art d'Ifé", 'Afrique', 'Nigeria', 'XIIe–XVe siècle', ['Ife'], [], '', [],
@@ -531,7 +533,7 @@ const STYLES_ARCHITECTURE = { 'Art gothique': 'Q176483' };
 const ANONYME = 'Q4233718'; // « anonyme » dans Wikidata
 // Mouvements d'abord de l'estampe : leurs estampes ne sont pas limitées à trois
 // Expositions consacrées à une civilisation plutôt qu'à un mouvement (badge « Civilisation » sur leur page)
-const CIVILISATIONS = new Set(['Grèce antique', 'Rome antique']);
+const CIVILISATIONS = new Set(['Égypte ancienne', 'Grèce antique', 'Rome antique']);
 const MOUVEMENTS_D_ESTAMPES = new Set(['Ukiyo-e', 'Expressionnisme']);
 // Mouvements de peintres : si le visiteur n'a pas choisi de type, l'exposition ne montre que des peintures
 // (pas les dessins, études, estampes ou éventails que les catalogues renvoient aussi pour ces artistes)
@@ -763,7 +765,7 @@ function periodeMouvement(mv) {
   const annees = (e.match(/\d{4}/g) || []).map(Number);
   if (annees.length >= 2) return [annees[0] - marge, annees[annees.length - 1] + marge];
   const romain = r => { const v = { I: 1, V: 5, X: 10, L: 50, C: 100 }; let t = 0; for (let k = 0; k < r.length; k++) { const a = v[r[k]], b = v[r[k + 1]] || 0; t += a < b ? -a : a; } return t; };
-  const siecles = [...e.matchAll(/\b([IVXLC]+)e\b/g)].map(m => romain(m[1]));
+  const siecles = [...e.matchAll(/\b([IVXLC]+)(?:e|er)\b/g)].map(m => romain(m[1]));
   if (!siecles.length) return null;
   const av = /av\. J\.-C\./.test(e);
   let debut = (siecles[0] - 1) * 100 + 1, fin = siecles[siecles.length - 1] * 100;
@@ -774,7 +776,7 @@ function periodeMouvement(mv) {
   if (av) { // siècles avant notre ère (ceux qui précèdent « av. J.-C. ») : « IXe–VIIe siècle av. J.-C. »,
     // ou mêlés à des siècles de notre ère : « VIIIe siècle av. J.-C. – IIIe siècle »
     const posAv = e.search(/av\. J\.-C\./);
-    const bornes = [...e.matchAll(/\b([IVXLC]+)e\b/g)].map(m => { const c = romain(m[1]);
+    const bornes = [...e.matchAll(/\b([IVXLC]+)(?:e|er)\b/g)].map(m => { const c = romain(m[1]);
       return m.index < posAv ? [-c * 100, -(c - 1) * 100 - 1] : [(c - 1) * 100 + 1, c * 100]; }).flat();
     [debut, fin] = [Math.min(...bornes), Math.max(...bornes)];
   }

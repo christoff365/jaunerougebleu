@@ -9289,7 +9289,7 @@
     "slug": "grece-antique",
     "status": "published",
     "title": "La Grèce antique, des Cyclades à Pergame",
-    "subtitle": "XXVIIIe–IIe siècle av. J.-C. : trente-deux œuvres et sites archéologiques de Cnossos, de Mycènes, d'Athènes, d'Héraklion, de Delphes, d'Olympie, de Paris, de Munich, de Berlin, du Vatican, de New York et de Cleveland",
+    "subtitle": "XXVIIIe–IIe siècle av. J.-C. : trente-trois œuvres et sites archéologiques de Cnossos, de Mycènes, d'Athènes, d'Héraklion, de Delphes, d'Olympie, de Paris, de Munich, de Berlin, du Vatican, de New York et de Cleveland",
     "intro": "Bien avant Athènes, le monde grec commence dans la mer Égée. Vers 2800 av. J.-C., dans les îles Cyclades, des sculpteurs taillent dans le marbre des figures très simples ; puis, en Crète, la civilisation minoenne construit des palais, comme celui de Cnossos, couverts de fresques aux couleurs vives, et, sur le continent, les rois de Mycènes se font enterrer avec des masques d'or. Après la chute de ces palais, vers 1200 av. J.-C., l'écriture disparaît pendant des siècles. Au VIIIe siècle av. J.-C., les Grecs adoptent l'alphabet des Phéniciens, et les cités (poleis) se forment : Athènes, Sparte, Corinthe… Ce sont des communautés indépendantes, qui se font souvent la guerre, mais partagent une langue, des dieux, les poèmes d'Homère et de grands sanctuaires, comme Olympie, où se tiennent les Jeux, et Delphes, où l'on consulte l'oracle d'Apollon. On dit « Grèce », mais les Grecs vivent aussi en Asie Mineure (l'actuelle Turquie), en Italie du Sud, en Sicile et jusqu'à Marseille. À l'époque archaïque (VIIe–VIe siècle av. J.-C.), les sculpteurs dressent de grandes statues de jeunes hommes nus (kouroi) et de jeunes filles vêtues (korai), encore raides, au léger sourire ; les potiers d'Athènes peignent leurs vases de figures noires, puis de figures rouges. Au Ve siècle av. J.-C., après la victoire sur les Perses, Athènes devient une démocratie, réservée aux hommes citoyens, et elle reconstruit l'Acropole autour du Parthénon : c'est l'époque classique, celle des corps en mouvement et des visages calmes. Puis Alexandre le Grand (356–323 av. J.-C.) conquiert l'Empire perse jusqu'à l'Inde, et ses successeurs fondent des royaumes, de l'Égypte à Pergame : c'est l'époque hellénistique, plus dramatique, plus savante aussi. Rome conquiert la Grèce au IIe siècle av. J.-C., mais elle en adopte l'art et les dieux. Il faut imaginer ces œuvres en couleur : les statues de marbre étaient peintes, les bronzes brillaient comme de l'or. L'exposition suit cette histoire : l'âge du bronze (Cyclades, Crète, Mycènes), l'époque géométrique et archaïque, l'époque classique, puis l'époque hellénistique ; à chaque époque, les œuvres sont accompagnées des grands sites archéologiques où l'on peut encore marcher aujourd'hui : le palais de Cnossos, la porte des Lionnes de Mycènes, Delphes, l'Acropole, Olympie et Épidaure. La plupart des œuvres sont conservées en Grèce, au Musée national archéologique d'Athènes, au musée de l'Acropole, à Héraklion, à Delphes et à Olympie ; ces musées ne publient pas eux-mêmes d'images libres, et ce sont des visiteurs qui les ont photographiées et publiées sous licence libre, avec leur nom. Les autres viennent du Louvre, du Vatican, de Munich, de Berlin, du Metropolitan Museum of Art de New York et du Cleveland Museum of Art, dont les images sont dans le domaine public. Les statues nues sont marquées « Image sensible ».",
     "contexte": [
       {
@@ -9635,6 +9635,17 @@
         "image": "images/mouvements/grece-antique/theatre-d-epidaure.jpg"
       },
       {
+        "title": "Masque comique",
+        "artist": "Coroplathe grec (peut-être attique)",
+        "country": "Grèce",
+        "period": "fin du IVe–IIIe siècle av. J.-C.",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/241075), domaine public (CC0)",
+        "analysis": "Les vrais masques du théâtre grec, en lin stuqué ou en bois, ont tous disparu ; ces copies en terre cuite, offertes dans les sanctuaires ou gardées dans les maisons, nous montrent à quoi ils ressemblaient. Dans la comédie de l'époque de Ménandre, chaque masque désignait un type que le public reconnaissait au premier coup d'œil : jeune homme, vieillard, esclave, courtisane. Cheveux bouclés, bouche grande ouverte pour porter la voix jusqu'aux derniers gradins : c'est l'ancêtre de nos personnages de théâtre.",
+        "compare": "Comparez avec le théâtre d'Épidaure, juste avant : c'est pour ces gradins immenses, en plein air, que les traits du masque sont si appuyés.",
+        "image": "images/expositions/masque-grece.jpg"
+      },
+      {
         "title": "La Victoire de Samothrace",
         "artist": "Sculpteur grec",
         "country": "Grèce",
@@ -9708,8 +9719,8 @@
     "slug": "rome-antique",
     "status": "published",
     "title": "La Rome antique, d'une ville à un empire",
-    "subtitle": "VIIIe siècle av. J.-C. – IIIe siècle : vingt-sept œuvres et sites archéologiques d'Italie, de France, d'Espagne, d'Allemagne, du Royaume-Uni, de Tunisie, d'Algérie, de Libye, d'Égypte, de Turquie, de Jordanie, du Liban et de Syrie",
-    "intro": "Selon la légende, Rome est fondée en 753 av. J.-C. par Romulus, qu'une louve avait nourri avec son jumeau Rémus. D'abord gouvernée par des rois, la ville devient une République en 509 av. J.-C., dirigée par le Sénat et des magistrats élus, puis conquiert l'Italie et tout le pourtour de la Méditerranée, qu'elle appelle « notre mer ». Après des guerres civiles et l'assassinat de Jules César (44 av. J.-C.), son fils adoptif Octave devient en 27 av. J.-C. le premier empereur, Auguste. Suivent deux siècles de « paix romaine » : au temps de Trajan (98–117), l'Empire s'étend de l'Écosse au golfe Persique, et quelque soixante millions d'habitants y parlent latin à l'ouest, grec à l'est, mais aussi punique, araméen, égyptien ou celte. Rome n'efface pas ces peuples : elle leur bâtit des routes, des aqueducs, des thermes, des théâtres et des amphithéâtres, fait des notables locaux des citoyens romains, et des Africains, des Espagnols ou des Syriens deviennent empereurs. L'art romain doit beaucoup aux Grecs, dont il copie et admire les statues, mais il invente le portrait réaliste, les grandes architectures de béton, les reliefs qui racontent l'histoire, la peinture murale et la mosaïque. Une grande partie de ce que nous savons vient de l'archéologie : Pompéi et Herculanum, ensevelies par le Vésuve en 79, sont fouillées depuis le XVIIIe siècle, et les villes romaines d'Afrique du Nord, d'Asie Mineure et du Proche-Orient sortent peu à peu du sable. Certaines ont souffert des guerres récentes, comme Palmyre en Syrie, en partie détruite en 2015. L'exposition suit trois chemins : Rome, la ville et le pouvoir ; Pompéi et la baie de Naples, une ville arrêtée en un jour ; puis un empire sur trois continents, d'un bout à l'autre de la Méditerranée. Les œuvres et les sites ont été photographiés par des visiteurs, qui ont publié leurs images sous licence libre avec leur nom ; trois œuvres viennent du Metropolitan Museum of Art de New York, dont les images sont dans le domaine public. L'Empire continue ensuite : il devient chrétien au IVe siècle, l'Occident tombe en 476, et l'Orient se prolonge à Constantinople, sous le nom d'Empire byzantin, jusqu'en 1453.",
+    "subtitle": "VIIIe siècle av. J.-C. – IIIe siècle : vingt-huit œuvres et sites archéologiques d'Italie, de France, d'Espagne, d'Allemagne, du Royaume-Uni, de Tunisie, d'Algérie, de Libye, d'Égypte, de Turquie, de Jordanie, du Liban et de Syrie",
+    "intro": "Selon la légende, Rome est fondée en 753 av. J.-C. par Romulus, qu'une louve avait nourri avec son jumeau Rémus. D'abord gouvernée par des rois, la ville devient une République en 509 av. J.-C., dirigée par le Sénat et des magistrats élus, puis conquiert l'Italie et tout le pourtour de la Méditerranée, qu'elle appelle « notre mer ». Après des guerres civiles et l'assassinat de Jules César (44 av. J.-C.), son fils adoptif Octave devient en 27 av. J.-C. le premier empereur, Auguste. Suivent deux siècles de « paix romaine » : au temps de Trajan (98–117), l'Empire s'étend de l'Écosse au golfe Persique, et quelque soixante millions d'habitants y parlent latin à l'ouest, grec à l'est, mais aussi punique, araméen, égyptien ou celte. Rome n'efface pas ces peuples : elle leur bâtit des routes, des aqueducs, des thermes, des théâtres et des amphithéâtres, fait des notables locaux des citoyens romains, et des Africains, des Espagnols ou des Syriens deviennent empereurs. L'art romain doit beaucoup aux Grecs, dont il copie et admire les statues, mais il invente le portrait réaliste, les grandes architectures de béton, les reliefs qui racontent l'histoire, la peinture murale et la mosaïque. Une grande partie de ce que nous savons vient de l'archéologie : Pompéi et Herculanum, ensevelies par le Vésuve en 79, sont fouillées depuis le XVIIIe siècle, et les villes romaines d'Afrique du Nord, d'Asie Mineure et du Proche-Orient sortent peu à peu du sable. Certaines ont souffert des guerres récentes, comme Palmyre en Syrie, en partie détruite en 2015. L'exposition suit trois chemins : Rome, la ville et le pouvoir ; Pompéi et la baie de Naples, une ville arrêtée en un jour ; puis un empire sur trois continents, d'un bout à l'autre de la Méditerranée. Les œuvres et les sites ont été photographiés par des visiteurs, qui ont publié leurs images sous licence libre avec leur nom ; quatre œuvres viennent du Metropolitan Museum of Art de New York, dont les images sont dans le domaine public. L'Empire continue ensuite : il devient chrétien au IVe siècle, l'Occident tombe en 476, et l'Orient se prolonge à Constantinople, sous le nom d'Empire byzantin, jusqu'en 1453.",
     "contexte": [
       {
         "title": "Une société de rangs",
@@ -9922,6 +9933,17 @@
         "image": "images/mouvements/rome-antique/chambre-de-boscoreale.jpg"
       },
       {
+        "title": "Polyphème et Galatée dans un paysage",
+        "artist": "Peintre romain",
+        "country": "Italie",
+        "period": "dernière décennie du Ier siècle av. J.-C.",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/250946), domaine public (CC0)",
+        "analysis": "Cette fresque ornait une villa impériale à Boscotrecase, près de Pompéi, ensevelie par le Vésuve en 79. Sur un fond vert sombre flotte un paysage de rochers, d'arbres, d'eau et de chèvres, comme une vision : c'est le style des paysages « sacro-idylliques » romains, où sanctuaires, bergers et mythes se mêlent à la nature. Le cyclope Polyphème, berger amoureux de la nymphe marine Galatée, y apparaît parmi ses bêtes, minuscule dans un décor qui le dépasse. Pour les Romains, ces vues peintes ouvraient les murs des chambres sur une campagne rêvée.",
+        "compare": "Comparez avec la chambre de Boscoreale, juste avant, une autre villa de la baie de Naples ensevelie en 79 : là, des architectures en trompe-l'œil ; ici, un paysage qui flotte comme un rêve.",
+        "image": "images/expositions/paysage-boscotrecase.jpg"
+      },
+      {
         "title": "Le Pont du Gard",
         "artist": "Bâtisseurs romains",
         "country": "France",
@@ -10071,8 +10093,8 @@
     "slug": "egypte-ancienne",
     "status": "published",
     "title": "L'Égypte ancienne, trois mille ans au bord du Nil",
-    "subtitle": "Vers 3000 av. J.-C. – Ier siècle : vingt et une œuvres et sites archéologiques de Gizeh, Saqqarah, Louxor, Abou Simbel, Philae, Le Caire, Paris, Londres et New York",
-    "intro": "L'Égypte, disait l'historien grec Hérodote, est « un don du Nil ». Chaque été, le fleuve débordait et déposait sur ses rives un limon noir et fertile : c'est sur cette étroite bande de terre, au milieu du désert, qu'est née l'une des plus anciennes et des plus longues civilisations du monde. Vers 3000 av. J.-C., la Haute et la Basse-Égypte sont réunies sous l'autorité d'un seul roi, que l'on appellera plus tard pharaon, et l'écriture hiéroglyphique apparaît. Pendant près de trois mille ans, malgré des périodes de crise, se succèdent l'Ancien Empire, le temps des pyramides ; le Moyen Empire ; le Nouvel Empire, le temps des grands temples de Louxor et de la Vallée des Rois, où l'Égypte domine la Nubie et une partie du Proche-Orient ; puis la Basse Époque, où le pays est conquis tour à tour par les Nubiens, les Perses, Alexandre le Grand, dont les successeurs, les Ptolémées, règnent jusqu'à Cléopâtre, et enfin par Rome en 30 av. J.-C. L'art égyptien est fait pour durer : il obéit à des règles précises, qui changent peu, car il sert d'abord les dieux, le roi et la vie après la mort. L'exposition suit cette histoire, des pyramides à Philae, en mêlant œuvres et grands sites archéologiques ; le règne d'Akhenaton a son exposition à part, l'art amarnien. Les œuvres conservées en Égypte, au Musée égyptien du Caire et au Grand Musée égyptien, ouvert en 2025 près des pyramides, ont été photographiées par des visiteurs qui ont publié leurs images sous licence libre, avec leur nom ; d'autres viennent du Louvre, du British Museum et du Metropolitan Museum of Art de New York. Par respect, l'exposition ne montre pas de momies, qui sont des restes humains.",
+    "subtitle": "Vers 3000 av. J.-C. – Ier siècle : vingt-six œuvres et sites archéologiques de Gizeh, Saqqarah, Louxor, Amarna, Abou Simbel, Philae, Le Caire, Paris, Londres, New York et Cleveland",
+    "intro": "L'Égypte, disait l'historien grec Hérodote, est « un don du Nil ». Chaque été, le fleuve débordait et déposait sur ses rives un limon noir et fertile : c'est sur cette étroite bande de terre, au milieu du désert, qu'est née l'une des plus anciennes et des plus longues civilisations du monde. Vers 3000 av. J.-C., la Haute et la Basse-Égypte sont réunies sous l'autorité d'un seul roi, que l'on appellera plus tard pharaon, et l'écriture hiéroglyphique apparaît. Pendant près de trois mille ans, malgré des périodes de crise, se succèdent l'Ancien Empire, le temps des pyramides ; le Moyen Empire ; le Nouvel Empire, le temps des grands temples de Louxor et de la Vallée des Rois, où l'Égypte domine la Nubie et une partie du Proche-Orient ; puis la Basse Époque, où le pays est conquis tour à tour par les Nubiens, les Perses, Alexandre le Grand, dont les successeurs, les Ptolémées, règnent jusqu'à Cléopâtre, et enfin par Rome en 30 av. J.-C. L'art égyptien est fait pour durer : il obéit à des règles précises, qui changent peu, car il sert d'abord les dieux, le roi et la vie après la mort. L'exposition suit cette histoire, des pyramides à Philae, en mêlant œuvres et grands sites archéologiques ; elle s'arrête aussi sur le règne d'Akhenaton et l'art d'Amarna, qui ont en plus leur propre exposition dans l'onglet Mouvements. Les œuvres conservées en Égypte, au Musée égyptien du Caire et au Grand Musée égyptien, ouvert en 2025 près des pyramides, ont été photographiées par des visiteurs qui ont publié leurs images sous licence libre, avec leur nom ; d'autres viennent du Louvre, du British Museum et du Metropolitan Museum of Art de New York. Par respect, l'exposition ne montre pas de momies, qui sont des restes humains.",
     "contexte": [
       {
         "title": "Pharaon et la société",
@@ -10271,6 +10293,50 @@
         "image": "images/mouvements/egypte-ancienne/jardin-de-nebamon.jpg"
       },
       {
+        "title": "Talatat : portrait de Néfertiti",
+        "artist": "Sculpteur égyptien",
+        "country": "Égypte",
+        "period": "vers 1353–1347 av. J.-C.",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1959.188), domaine public (CC0)",
+        "analysis": "Un bloc de grès peint, de 22 cm de côté, où l'on voit de profil le visage d'une femme coiffée d'une lourde perruque aux mèches tressées : selon le musée, c'est la reine Néfertiti. Le relief est sculpté en creux, l'œil allongé, les lèvres pleines, le menton marqué. Selon le musée, ce bloc vient du temple de l'Aton, le disque solaire, construit par le jeune Akhenaton à Karnak avant qu'il ne déménage sa capitale à Amarna. Il est taillé dans le petit côté d'une talatat, un bloc de taille régulière, assez léger pour que la construction aille plus vite.",
+        "compare": "Un tournant dans l'histoire de l'Égypte : vers 1353 av. J.-C., le roi Akhenaton impose le culte presque exclusif de l'Aton, le disque solaire, et l'art change avec lui. Comparez ce profil avec les visages calmes et réguliers de Rahotep et Nofret, plus de mille ans plus tôt.",
+        "image": "images/mouvements/art-amarnien/talatat-portrait-nefertiti.jpg"
+      },
+      {
+        "title": "Pièce d'essai avec la tête d'Akhenaton en relief",
+        "artist": "Sculpteur égyptien",
+        "country": "Égypte",
+        "period": "vers 1347–1330 av. J.-C.",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/545909), domaine public (CC0)",
+        "analysis": "Une plaque de calcaire de 35 cm de haut, sur laquelle un sculpteur a taillé en creux une seule tête de profil, coiffée d'une couronne arrondie qui descend sur la nuque. Le visage est très particulier : long cou, menton allongé, lèvres épaisses, œil étiré. Le titre le dit : c'est une « pièce d'essai », un exercice ou un modèle d'atelier, et non le morceau d'un mur.",
+        "compare": "Le visage du roi, reconnaissable entre tous : long cou, menton étiré, lèvres épaisses. Comparez avec Khéphren, au début de l'exposition : l'image idéale et immobile du roi a fait place à un style nouveau, abandonné après la mort d'Akhenaton.",
+        "image": "images/mouvements/art-amarnien/piece-essai-tete-akhenaton.jpg"
+      },
+      {
+        "title": "Relief montrant l'Aton qui touche la reine",
+        "artist": "Sculpteur égyptien",
+        "country": "Égypte",
+        "period": "vers 1347–1330 av. J.-C.",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/558139), domaine public (CC0)",
+        "analysis": "Un fragment de calcaire de 44,5 cm de large. À droite, le visage d'une reine, de profil ; l'œil a été abîmé. Au-dessus et devant elle descendent les rayons du soleil, de longues lignes qui se terminent par de petites mains ; deux de ces mains tiennent devant son visage le signe ankh, la croix ansée. À gauche, des formes arrondies et des traits droits, peut-être un meuble ou un vêtement.",
+        "compare": "Le dieu n'a plus de corps humain ni de tête d'animal : c'est un disque dont les rayons se terminent par des mains. Comparez avec les dieux à tête d'animal de la pesée du cœur, plus loin, qui retrouvent leur place après Akhenaton.",
+        "image": "images/mouvements/art-amarnien/relief-aton-reine.jpg"
+      },
+      {
+        "title": "Épis d'orge mûrs",
+        "artist": "Sculpteur égyptien",
+        "country": "Égypte",
+        "period": "vers 1347–1330 av. J.-C.",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/544065), domaine public (CC0)",
+        "analysis": "Un bloc de calcaire peint, de 52 cm de long, entièrement couvert d'épis d'orge. Les tiges, droites ou courbées, s'entrecroisent ; chaque épi est fait de petits grains en chevrons et de longues barbes fines. Des traces de bleu restent dans les creux. Il n'y a aucun personnage : le champ lui-même est le sujet.",
+        "compare": "L'orge, avec le blé amidonnier, était la grande céréale de l'Égypte, celle du pain et de la bière. Comparez avec le jardin de Nebamon : ici, sans personne, le champ lui-même devient le sujet.",
+        "image": "images/mouvements/art-amarnien/epis-orge-murs.jpg"
+      },
+      {
         "title": "La Vallée des Rois",
         "artist": "Bâtisseurs égyptiens",
         "country": "Égypte",
@@ -10291,6 +10357,17 @@
         "analysis": "Un masque d'or massif, éclairé dans une vitrine sombre. Le jeune roi porte le némès rayé d'or et de bleu, un large collier de pierres colorées et une longue barbe tressée ; sur son front se dressent un cobra et une tête de vautour. Ses yeux sont soulignés de noir.",
         "compare": "Il couvrait le visage de la momie du roi, mort vers 18 ou 19 ans. Sa tombe a été découverte en 1922 par l'archéologue britannique Howard Carter et ses ouvriers égyptiens ; elle contenait plus de 5 000 objets. Le masque, qui pèse plus de 10 kilogrammes d'or, est exposé depuis 2025 au Grand Musée égyptien, construit près des pyramides pour réunir pour la première fois tout le trésor du roi.",
         "image": "images/mouvements/egypte-ancienne/masque-de-toutankhamon.jpg"
+      },
+      {
+        "title": "La pesée du cœur, Livre des morts de Hounefer",
+        "artist": "Scribe et peintre égyptiens",
+        "country": "Égypte",
+        "period": "vers 1275 av. J.-C. (XIXe dynastie)",
+        "museum": "British Museum, Londres",
+        "credit": "British Museum, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:BD_Hunefer.jpg), domaine public",
+        "analysis": "Pour les anciens Égyptiens, le mort devait passer un jugement avant de rejoindre l'au-delà. Sur ce papyrus placé dans la tombe du scribe Hounefer, le dieu à tête de chacal Anubis le conduit vers la balance : son cœur y est pesé contre la plume de Maât, la vérité et la justice. Le dieu Thot, à tête d'ibis, note le résultat ; un monstre, Ammit, attend de dévorer les cœurs trop lourds. Horus présente enfin le défunt à Osiris, roi des morts, assis sur son trône. Le Livre des morts est un recueil de formules pour réussir ce passage.",
+        "compare": "Le jugement des morts, au cœur des croyances égyptiennes. Comparez avec le Livre des morts de Nany, juste après : le même recueil de formules, mais ici on voit l'épreuve elle-même, la pesée du cœur.",
+        "image": "images/expositions/spirit-hunefer.jpg"
       },
       {
         "title": "Le Livre des morts de la chanteuse d'Amon Nany",
@@ -10365,8 +10442,8 @@
     "slug": "aksoum",
     "status": "published",
     "title": "Aksoum, le royaume africain de la mer Rouge",
-    "subtitle": "Éthiopie et Érythrée, vers 700 av. J.-C. – XIIIe siècle : quatorze œuvres et sites archéologiques de Yeha, Aksoum, Qohaito, Debre Damo, Lalibela, Addis-Abeba et New York",
-    "intro": "Sur les hauts plateaux du nord de l'Éthiopie et de l'Érythrée, à quelques jours de marche de la mer Rouge, s'est développé l'un des grands royaumes de l'Antiquité, Aksoum. Dès le Ier millénaire av. J.-C., des liens étroits unissent ces plateaux à l'Arabie du Sud, de l'autre côté de la mer : à Yeha, un temple de pierre rappelle ceux du royaume de Saba. Puis, à partir du Ier siècle, la ville d'Aksoum devient la capitale de rois qui contrôlent le commerce entre la Méditerranée, l'Arabie et l'Inde, grâce à leur port d'Adulis : ivoire, or, encens et animaux partent vers l'Empire romain, tandis qu'arrivent vin, huile, verre et tissus. Au IIIe siècle, le prophète perse Mani compte Aksoum parmi les quatre grands royaumes du monde, avec Rome, la Perse et la Chine. Les rois d'Aksoum frappent leurs propres monnaies d'or, d'argent et de bronze, écrivent en guèze, en sabéen et en grec, et dressent au-dessus de leurs tombes des stèles de granit géantes. Vers 330, le roi Ézana se convertit au christianisme : l'Éthiopie devient l'un des plus anciens pays chrétiens du monde. Au VIIe siècle, Aksoum accueille aussi les premiers musulmans fuyant La Mecque. Le royaume décline ensuite, mais son héritage continue avec les églises taillées dans le roc de Lalibela et l'écriture guèze, toujours utilisée. L'exposition suit cette histoire, des origines aux héritiers d'Aksoum ; la peinture chrétienne éthiopienne a son exposition à part, dans l'onglet Mouvements. Peu de musées publient des images libres d'œuvres aksoumites : les sites et les objets ont été photographiés sur place par des visiteurs, qui ont publié leurs images sous licence libre avec leur nom. Les objets sacrés que l'Église éthiopienne garde cachés, comme les tablettes d'autel (tabot), ne sont pas montrés.",
+    "subtitle": "Éthiopie et Érythrée, vers 700 av. J.-C. – XVIe siècle : seize œuvres et sites archéologiques de Yeha, Aksoum, Qohaito, Debre Damo, Lalibela, Addis-Abeba, Baltimore et New York",
+    "intro": "Sur les hauts plateaux du nord de l'Éthiopie et de l'Érythrée, à quelques jours de marche de la mer Rouge, s'est développé l'un des grands royaumes de l'Antiquité, Aksoum. Dès le Ier millénaire av. J.-C., des liens étroits unissent ces plateaux à l'Arabie du Sud, de l'autre côté de la mer : à Yeha, un temple de pierre rappelle ceux du royaume de Saba. Puis, à partir du Ier siècle, la ville d'Aksoum devient la capitale de rois qui contrôlent le commerce entre la Méditerranée, l'Arabie et l'Inde, grâce à leur port d'Adulis : ivoire, or, encens et animaux partent vers l'Empire romain, tandis qu'arrivent vin, huile, verre et tissus. Au IIIe siècle, le prophète perse Mani compte Aksoum parmi les quatre grands royaumes du monde, avec Rome, la Perse et la Chine. Les rois d'Aksoum frappent leurs propres monnaies d'or, d'argent et de bronze, écrivent en guèze, en sabéen et en grec, et dressent au-dessus de leurs tombes des stèles de granit géantes. Vers 330, le roi Ézana se convertit au christianisme : l'Éthiopie devient l'un des plus anciens pays chrétiens du monde. Au VIIe siècle, Aksoum accueille aussi les premiers musulmans fuyant La Mecque. Le royaume décline ensuite, mais son héritage continue avec les églises taillées dans le roc de Lalibela et l'écriture guèze, toujours utilisée. L'exposition suit cette histoire, des origines aux héritiers d'Aksoum ; parmi eux, la peinture chrétienne éthiopienne, présente ici par deux manuscrits, a en plus sa propre exposition dans l'onglet Mouvements. Peu de musées publient des images libres d'œuvres aksoumites : les sites et les objets ont été photographiés sur place par des visiteurs, qui ont publié leurs images sous licence libre avec leur nom. Les objets sacrés que l'Église éthiopienne garde cachés, comme les tablettes d'autel (tabot), ne sont pas montrés.",
     "contexte": [
       {
         "title": "Un royaume entre l'Afrique, l'Arabie et la Méditerranée",
@@ -10553,6 +10630,17 @@
         "image": "images/mouvements/aksoum/lalibela-bete-medhane-alem.jpg"
       },
       {
+        "title": "Saint Luc l'évangéliste",
+        "artist": "Artiste éthiopien de la région du lac Tana",
+        "country": "Éthiopie",
+        "period": "fin du XIVe siècle",
+        "museum": "Walters Art Museum, Baltimore",
+        "credit": "Walters Art Museum, Baltimore, W.840, verso (https://www.thedigitalwalters.org/Data/WaltersManuscripts/html/W840/), licence CC BY-SA 3.0",
+        "analysis": "Saint Luc est assis sur un siège aux pieds courbes, sur un fond bleu marbré, sous une arcade en damier. Il écrit sur une page où l'on lit des lettres guèzes. Selon le Walters, il est montré comme un scribe éthiopien, entouré des outils de son métier — cornes à encre, calames de roseau, grattoir —, et les mots qu'il tient sont les premiers de son Évangile ; son regard levé suggère l'inspiration divine. La page faisait face au début de l'Évangile de Luc dans un livre de la région du lac Tana.",
+        "compare": "L'héritage d'Aksoum : l'écriture guèze et l'Église éthiopienne, née de la conversion du roi Ézana. Comparez avec la pierre d'Ézana, plus haut, gravée notamment en guèze : la même écriture, environ dix siècles plus tard.",
+        "image": "images/mouvements/peinture-chretienne-ethiopienne/saint-luc-w840.jpg"
+      },
+      {
         "title": "Livre des Évangiles",
         "artist": "Peintre et scribe éthiopiens",
         "country": "Éthiopie",
@@ -10562,6 +10650,17 @@
         "analysis": "Une page de parchemin. Sous un grand arc peint de motifs entrelacés rouges, verts et jaunes, porté par deux colonnes, des colonnes de petits caractères noirs et rouges ; au-dessus de l'arc, des oiseaux et un petit animal sont perchés.",
         "compare": "Ce manuscrit vient de la région du lac Tana. Il est écrit en guèze, la langue d'Aksoum, devenue la langue sacrée de l'Église éthiopienne, avec l'alphabet des inscriptions d'Ézana. Ces arcs encadrent des tables qui permettent de comparer les passages des quatre Évangiles. Mille ans après Aksoum, son écriture et sa foi se transmettent toujours ; voir aussi l'exposition sur la peinture chrétienne éthiopienne, dans l'onglet Mouvements.",
         "image": "images/mouvements/aksoum/evangile-ethiopien-met.jpg"
+      },
+      {
+        "title": "La Vierge à l'Enfant entre les archanges Michel et Gabriel",
+        "artist": "Artiste éthiopien de Gunda Gunde (Tigray)",
+        "country": "Éthiopie",
+        "period": "première moitié du XVIe siècle",
+        "museum": "Walters Art Museum, Baltimore",
+        "credit": "Walters Art Museum, Baltimore, W.850, fol. 3r (https://www.thedigitalwalters.org/Data/WaltersManuscripts/html/W850/), licence CC BY-SA 3.0",
+        "analysis": "La Vierge, enveloppée d'un grand manteau bleu sombre strié de fines lignes, tient l'Enfant habillé de jaune sur ses genoux. Les archanges Michel et Gabriel, de chaque côté, brandissent une épée et déploient au-dessus d'elle des ailes faites de petites écailles de couleur. Le fond est rayé de jaune. Une étoffe rouge est cousue au haut de la page : selon le Walters, c'est un rideau qui couvre l'image.",
+        "compare": "Marie tient une très grande place dans l'Église éthiopienne. Comparez avec saint Luc, plus haut : le même goût des grandes surfaces de couleur et des fines lignes qui dessinent les plis.",
+        "image": "images/mouvements/peinture-chretienne-ethiopienne/vierge-archanges-w850.jpg"
       }
     ]
   },
@@ -10569,21 +10668,21 @@
     "mouvement": "Chine ancienne",
     "slug": "chine-ancienne",
     "status": "published",
-    "title": "La Chine ancienne, des premiers rois aux Tang",
-    "subtitle": "Vers 3000 av. J.-C. – 907 : dix-sept œuvres et sites archéologiques d'Anyang, du Sichuan, du Hubei, de Xi'an, du Hebei, du Gansu, de Dunhuang, de Luoyang, de New York et de Cleveland",
-    "intro": "La Chine est l'une des plus anciennes civilisations continues du monde : on y écrit la même langue, avec des caractères qui descendent directement de ceux de l'âge du bronze, depuis plus de trois mille ans. Dans les vallées du fleuve Jaune et du Yangzi, des cultures néolithiques travaillent déjà le jade avec une grande finesse. Vers 1600 av. J.-C., la dynastie Shang règne sur le nord de la Chine : ses rois consultent leurs ancêtres en lisant les fissures d'os et de carapaces, où apparaît la première écriture chinoise, et font fondre d'immenses vases de bronze pour les cultes. Les Zhou leur succèdent vers 1046 av. J.-C. ; leur royaume se divise ensuite en principautés rivales, au temps de Confucius et de Laozi. En 221 av. J.-C., le roi de Qin unifie le pays et devient le premier empereur : il impose la même écriture, les mêmes poids et mesures, et se fait enterrer avec une armée de terre cuite. La dynastie Han (206 av. J.-C. – 220 apr. J.-C.) organise un empire de fonctionnaires et ouvre les routes de la soie vers l'Asie centrale. Après trois siècles de divisions, pendant lesquels le bouddhisme venu d'Inde se répand, les Tang (618–907) font de leur capitale, Chang'an, l'actuelle Xi'an, l'une des plus grandes villes du monde, ouverte aux marchands, aux moines et aux idées de toute l'Asie. L'exposition suit cette histoire, des premiers rois aux Tang ; la peinture chinoise des époques suivantes a ses expositions dans l'onglet Mouvements. Les œuvres conservées en Chine ont été photographiées par des visiteurs, qui ont publié leurs images sous licence libre avec leur nom ; d'autres viennent du Metropolitan Museum of Art de New York et du Cleveland Museum of Art. Le costume de jade du prince Liu Sheng est montré vide, tel qu'il est exposé au musée.",
+    "title": "La Chine, des premiers rois aux derniers empereurs",
+    "subtitle": "Vers 3000 av. J.-C. – 1912 : vingt-huit œuvres et sites archéologiques d'Anyang, du Sichuan, du Hubei, de Xi'an, du Hebei, du Gansu, de Dunhuang, de Luoyang, de Pékin, de Shanghai, de Taipei, de New York et de Cleveland",
+    "intro": "La Chine est l'une des plus anciennes civilisations continues du monde : on y écrit la même langue, avec des caractères qui descendent directement de ceux de l'âge du bronze, depuis plus de trois mille ans. Dans les vallées du fleuve Jaune et du Yangzi, des cultures néolithiques travaillent déjà le jade avec une grande finesse. Vers 1600 av. J.-C., la dynastie Shang règne sur le nord de la Chine : ses rois consultent leurs ancêtres en lisant les fissures d'os et de carapaces, où apparaît la première écriture chinoise, et font fondre d'immenses vases de bronze pour les cultes. Les Zhou leur succèdent vers 1046 av. J.-C. ; leur royaume se divise ensuite en principautés rivales, au temps de Confucius et de Laozi. En 221 av. J.-C., le roi de Qin unifie le pays et devient le premier empereur : il impose la même écriture, les mêmes poids et mesures, et se fait enterrer avec une armée de terre cuite. La dynastie Han (206 av. J.-C. – 220 apr. J.-C.) organise un empire de fonctionnaires et ouvre les routes de la soie vers l'Asie centrale. Après trois siècles de divisions, pendant lesquels le bouddhisme venu d'Inde se répand, les Tang (618–907) font de leur capitale, Chang'an, l'actuelle Xi'an, l'une des plus grandes villes du monde, ouverte aux marchands, aux moines et aux idées de toute l'Asie. Après les Tang viennent les Song (960–1279), le temps des grands paysages et des céramiques les plus raffinées, puis les Yuan, une dynastie mongole (1271–1368), les Ming (1368–1644), qui bâtissent la Cité interdite et la Grande Muraille que l'on visite aujourd'hui, et enfin les Qing, une dynastie mandchoue, jusqu'à l'abdication du dernier empereur en 1912. L'exposition suit toute cette histoire ; la peinture chinoise a en plus trois expositions dans l'onglet Mouvements : le paysage des Song, la peinture lettrée et l'école de Shanghai. Les œuvres conservées en Chine ont été photographiées par des visiteurs, qui ont publié leurs images sous licence libre avec leur nom ; d'autres viennent du Musée national du palais de Taipei, du Metropolitan Museum of Art de New York et du Cleveland Museum of Art. Le costume de jade du prince Liu Sheng est montré vide, tel qu'il est exposé au musée.",
     "contexte": [
       {
         "title": "Le Fils du Ciel et ses lettrés",
-        "text": "Depuis les Zhou, le souverain chinois est le « Fils du Ciel » : il gouverne grâce au « mandat du Ciel », que le Ciel peut lui retirer s'il gouverne mal, ce qui explique, pour les Chinois, la chute des dynasties. À partir des Qin et des Han, l'empereur s'appuie sur des fonctionnaires lettrés, recrutés de plus en plus selon leur connaissance des classiques confucéens ; sous les Tang, des examens écrits commencent à sélectionner une partie d'entre eux. La société est très hiérarchisée : en haut, la famille impériale et les grandes familles aristocratiques ; puis les lettrés, les paysans, les artisans et, en bas de l'échelle selon les confucéens, les marchands, souvent riches pourtant. La famille est au cœur de tout : on doit obéissance et respect aux parents et aux ancêtres, c'est la « piété filiale ». Les femmes dépendent de leur père, puis de leur mari et de leur fils, mais certaines, comme Fu Hao ou l'impératrice Wu Zetian, ont exercé un grand pouvoir."
+        "text": "Depuis les Zhou, le souverain chinois est le « Fils du Ciel » : il gouverne grâce au « mandat du Ciel », que le Ciel peut lui retirer s'il gouverne mal, ce qui explique, pour les Chinois, la chute des dynasties. À partir des Qin et des Han, l'empereur s'appuie sur des fonctionnaires lettrés, recrutés de plus en plus selon leur connaissance des classiques confucéens ; sous les Tang, des examens écrits commencent à sélectionner une partie d'entre eux. La société est très hiérarchisée : en haut, la famille impériale et les grandes familles aristocratiques ; puis les lettrés, les paysans, les artisans et, en bas de l'échelle selon les confucéens, les marchands, souvent riches pourtant. La famille est au cœur de tout : on doit obéissance et respect aux parents et aux ancêtres, c'est la « piété filiale ». Les femmes dépendent de leur père, puis de leur mari et de leur fils, mais certaines, comme Fu Hao ou l'impératrice Wu Zetian, ont exercé un grand pouvoir. Sous les Song, puis les Ming et les Qing, ces examens deviennent la grande voie d'accès aux fonctions de l'État, jusqu'à leur suppression en 1905 ; sept ans plus tard, en 1912, le dernier empereur abdique et la Chine devient une république."
       },
       {
         "title": "La vie de tous les jours",
-        "text": "La grande majorité des Chinois sont des paysans : millet et blé au nord, le long du fleuve Jaune, riz au sud, dans la vallée du Yangzi. Ils paient l'impôt en grain et en tissu, et doivent des jours de travail et de service militaire à l'État ; c'est ainsi que sont construits les murailles, les canaux et les tombeaux impériaux. On mange avec des baguettes, on boit de l'alcool de céréales, puis, sous les Tang, de plus en plus de thé. La soie, produite par les femmes qui élèvent les vers à soie et tissent, est à la fois un vêtement, une monnaie et un cadeau diplomatique. Les Chinois inventent très tôt des techniques que le reste du monde adoptera plus tard : le papier sous les Han, la fonte du fer, la boussole, l'impression sur bois sous les Tang. Chang'an, la capitale des Tang, compte peut-être un million d'habitants, avec des marchés où se croisent des marchands sogdiens, perses, arabes, coréens et japonais."
+        "text": "La grande majorité des Chinois sont des paysans : millet et blé au nord, le long du fleuve Jaune, riz au sud, dans la vallée du Yangzi. Ils paient l'impôt en grain et en tissu, et doivent des jours de travail et de service militaire à l'État ; c'est ainsi que sont construits les murailles, les canaux et les tombeaux impériaux. On mange avec des baguettes, on boit de l'alcool de céréales, puis, sous les Tang, de plus en plus de thé. La soie, produite par les femmes qui élèvent les vers à soie et tissent, est à la fois un vêtement, une monnaie et un cadeau diplomatique. Les Chinois inventent très tôt des techniques que le reste du monde adoptera plus tard : le papier sous les Han, la fonte du fer, la boussole, l'impression sur bois sous les Tang. Chang'an, la capitale des Tang, compte peut-être un million d'habitants, avec des marchés où se croisent des marchands sogdiens, perses, arabes, coréens et japonais. Sous les Song, les villes et le commerce se développent encore, avec la première monnaie de papier ; plus tard, la porcelaine de Jingdezhen, le thé et la soie partent en grande quantité vers l'Asie, l'Afrique de l'Est et, à partir du XVIe siècle, l'Europe."
       },
       {
         "title": "Ancêtres, sages et bouddhas",
-        "text": "Le culte des ancêtres est la plus ancienne et la plus durable des pratiques religieuses chinoises : on leur offre de la nourriture et du vin dans des vases rituels, on les consulte, on soigne leurs tombes, où l'on place tout ce qui les servira dans l'au-delà. Au VIe et au Ve siècle av. J.-C., Confucius enseigne une morale fondée sur l'étude, les rites, le respect des relations familiales et le gouvernement par l'exemple ; le taoïsme, inspiré de Laozi, cherche à vivre en accord avec la Voie, le Dao, le rythme naturel du monde. À partir du Ier siècle, le bouddhisme arrive d'Inde par les routes de la soie : des moines traduisent les textes, des grottes et des monastères se multiplient, et sous les Tang il devient l'une des grandes religions de la Chine. D'autres religions arrivent aussi avec les marchands, comme le christianisme nestorien, le manichéisme et l'islam. Les Chinois combinent souvent ces traditions plutôt que de choisir entre elles."
+        "text": "Le culte des ancêtres est la plus ancienne et la plus durable des pratiques religieuses chinoises : on leur offre de la nourriture et du vin dans des vases rituels, on les consulte, on soigne leurs tombes, où l'on place tout ce qui les servira dans l'au-delà. Au VIe et au Ve siècle av. J.-C., Confucius enseigne une morale fondée sur l'étude, les rites, le respect des relations familiales et le gouvernement par l'exemple ; le taoïsme, inspiré de Laozi, cherche à vivre en accord avec la Voie, le Dao, le rythme naturel du monde. À partir du Ier siècle, le bouddhisme arrive d'Inde par les routes de la soie : des moines traduisent les textes, des grottes et des monastères se multiplient, et sous les Tang il devient l'une des grandes religions de la Chine. D'autres religions arrivent aussi avec les marchands, comme le christianisme nestorien, le manichéisme et l'islam. Les Chinois combinent souvent ces traditions plutôt que de choisir entre elles. Sous les Song, le lettré Zhu Xi propose une nouvelle lecture de Confucius, le néoconfucianisme, qui servira de base aux examens de l'État jusqu'en 1905."
       },
       {
         "title": "Ce que nous apprend l'archéologie",
@@ -10805,6 +10904,127 @@
         "analysis": "Sur un papier jauni, un cheval blanc à la robe pommelée, dessiné à l'encre, est attaché à un poteau noir ; il se cabre, les naseaux dilatés et l'œil roulant. Tout autour, des dizaines de sceaux rouges et d'inscriptions couvrent la feuille.",
         "compare": "C'était l'un des chevaux préférés de l'empereur Xuanzong, et son peintre, Han Gan, était célèbre pour ses portraits de chevaux. C'est l'une des très rares peintures de l'époque Tang conservées. Les sceaux rouges sont ceux des collectionneurs, empereurs et lettrés, qui l'ont possédée et admirée au fil des siècles, et parfois écrit leurs commentaires : une œuvre chinoise porte ainsi son histoire sur elle.",
         "image": "images/mouvements/chine-ancienne/han-gan-blanc-qui-eclaire-la-nuit.jpg"
+      },
+      {
+        "title": "Voyageurs parmi les montagnes et les ruisseaux",
+        "artist": "Fan Kuan",
+        "country": "Chine",
+        "period": "début du XIe siècle",
+        "museum": "Musée national du palais, Taipei",
+        "credit": "Musée national du palais, Taipei, « Travelers Among Mountains and Streams » (https://digitalarchive.npm.gov.tw/Collection/Detail/1195?dep=P), CC BY 4.0 @ www.npm.gov.tw",
+        "analysis": "Une immense montagne se dresse au centre, avec une cascade fine comme un fil sur la droite. Tout en bas, une file d'ânes chargés passe sur le chemin : ce sont les voyageurs du titre, minuscules. Selon la notice du Musée national du palais, Fan Kuan est considéré comme un maître fondateur du paysage chinois ; il vécut retiré dans les montagnes et était encore en vie vers 1025. Ce tableau est universellement reconnu comme une œuvre de sa main, et comme l'image même de la peinture de paysage des Song. Le peintre ne cherche pas à imiter un espace réel : il repousse la montagne, rapproche le plan moyen et oppose la petitesse des voyageurs à la grandeur de la montagne. Sa signature, « Fan Kuan », est cachée dans le feuillage en bas à droite.",
+        "compare": "Après les Tang, sous la dynastie Song (960–1279), le paysage devient le grand sujet de la peinture chinoise. Comparez avec le cheval de Han Gan, juste avant : on ne peint plus seulement ce que possède l'empereur, mais le monde, immense, où l'homme est minuscule.",
+        "image": "images/mouvements/paysage-song/fan-kuan-voyageurs.jpg"
+      },
+      {
+        "title": "Le Début du printemps",
+        "artist": "Guo Xi",
+        "country": "Chine",
+        "period": "1072",
+        "museum": "Musée national du palais, Taipei",
+        "credit": "Musée national du palais, Taipei, « Early Spring » (https://digitalarchive.npm.gov.tw/Collection/Detail/47?dep=P), CC BY 4.0 @ www.npm.gov.tw",
+        "analysis": "Selon la notice du Musée national du palais, une inscription le long du bord gauche dit : « Début du printemps, peint par Guo Xi en l'année renzi (1072) ». C'est l'une des étapes les plus importantes de l'histoire du paysage chinois. Guo Xi travaillait pour l'empereur Shenzong, et ses paysages décoraient les nouveaux bureaux du gouvernement. La composition est symétrique, mais pleine de rythme : les dégradés d'encre, du clair au foncé, créent l'illusion de l'espace et de la brume du printemps. On y voit des gens en barque, des porteurs de bois et des voyageurs. Fan Kuan, dit le musée, montrait la montagne solennelle et éternelle ; Guo Xi saisit l'essence du printemps : le paysage semble palpiter, couler, disparaître et réapparaître.",
+        "compare": "Un peintre de la cour : Guo Xi travaillait pour l'empereur, et ses paysages ornaient les bureaux du gouvernement. Comparez avec Fan Kuan, juste avant : même montagne au centre, mais tout bouge dans la brume.",
+        "image": "images/mouvements/paysage-song/guo-xi-debut-du-printemps.jpg"
+      },
+      {
+        "title": "Petit lave-pinceau ovale en céladon des fours de Ru",
+        "artist": "Potiers des fours de Ru (Henan)",
+        "country": "Chine",
+        "period": "fin du XIe – début du XIIe siècle",
+        "museum": "Musée national du palais, Taipei",
+        "credit": "Musée national du palais, Taipei, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:%E6%B1%9D%E7%AA%AF_%E9%9D%92%E7%93%B7%E6%A9%A2%E5%9C%93%E5%B0%8F%E6%B4%97.jpg), image du musée, notice https://digitalarchive.npm.gov.tw/Collection/Detail/36?dep=U, domaine public (CC0)",
+        "analysis": "Un petit plat ovale à bord bas, couvert d'une glaçure bleu-vert pâle, finement craquelée. Selon la notice du Musée national du palais, cette glaçure « bleu du ciel », mince et opaque, a un aspect doux ; sous le fond, légèrement creux, restent trois marques des petits supports sur lesquels la pièce reposait dans le four, et à l'intérieur on devine deux poissons-dragons face à face. Les fours de Ru, dans le Henan, ont travaillé pour la cour des Song du Nord pendant une courte période : on connaît aujourd'hui moins d'une centaine de pièces, parmi les céramiques les plus admirées de Chine.",
+        "compare": "La beauté sans décor : ni dessin, ni couleur vive, seulement la teinte et le craquelé de la glaçure. Comparez avec le cheval Tang aux trois couleurs, plus haut, et avec le vase bleu et blanc des Yuan, plus loin.",
+        "image": "images/mouvements/chine-ancienne/lave-pinceau-ru.jpg"
+      },
+      {
+        "title": "Séjour dans les monts Fuchun (détail)",
+        "artist": "Huang Gongwang",
+        "country": "Chine",
+        "period": "1347–1350",
+        "museum": "Musée national du palais, Taipei",
+        "credit": "Musée national du palais, Taipei, « Dwelling in the Fuchun Mountains (Master Wuyong Scroll) » (https://digitalarchive.npm.gov.tw/Collection/Detail/1194?dep=P), CC BY 4.0 @ www.npm.gov.tw",
+        "analysis": "On voit ici un passage de ce rouleau de plus de six mètres : de grandes montagnes aux pentes striées, des pins et des arbres nus, un chemin au creux de la vallée. Selon la notice du Musée national du palais, Huang Gongwang, devenu moine taoïste après un séjour en prison, est le doyen des quatre grands maîtres des Yuan. Revenu dans les monts Fuchun, à l'ouest de Hangzhou, avec son ami taoïste Wuyong, il commença ce rouleau en 1347 et y travailla par moments, selon son humeur, jusqu'en 1350. Il posait d'abord la composition à l'encre légère, puis ajoutait des touches sèches et foncées, et enfin des points ; les maisons et les arbres sont réduits aux formes les plus simples. Endommagé par un incendie en 1650, le rouleau a perdu son début, conservé aujourd'hui au musée de la province du Zhejiang. Le musée y voit son plus grand chef-d'œuvre et l'idéal de l'art lettré.",
+        "compare": "Sous les Yuan (1271–1368), la Chine est gouvernée par les Mongols ; beaucoup de lettrés se tiennent à l'écart du pouvoir et peignent pour eux-mêmes et leurs amis. Comparez avec Guo Xi, peintre de la cour : ici, la peinture devient une écriture personnelle.",
+        "image": "images/mouvements/peinture-lettree/huang-gongwang-monts-fuchun.jpg"
+      },
+      {
+        "title": "Vase couvert (meiping) à décor de phénix et de dragon",
+        "artist": "Potiers de Jingdezhen (Jiangxi)",
+        "country": "Chine",
+        "period": "XIVe siècle (dynastie Yuan)",
+        "museum": "Musée de Shanghai",
+        "credit": "Musée de Shanghai, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Yuan_Underglaze_Blue_Jingdezhen_Porcelain_Vase.jpg), photo Gary Lee Todd, domaine public (CC0)",
+        "analysis": "Un grand vase de porcelaine blanche, à l'épaule large et au col étroit, fermé par un couvercle. Le décor est peint en bleu de cobalt sous une glaçure transparente, en trois bandes : sur l'épaule, un oiseau aux longues plumes, un phénix, vole parmi des rinceaux de fleurs ; au milieu, un dragon au corps couvert d'écailles avance parmi des nuages ; en bas, des panneaux allongés portent des motifs suspendus. C'est sous les Yuan, la dynastie mongole, que les potiers de Jingdezhen ont développé ce décor « bleu et blanc », avec un cobalt en grande partie importé de Perse ; ces porcelaines ont été très recherchées jusqu'au Moyen-Orient.",
+        "compare": "Le début d'une histoire mondiale : le bleu et blanc chinois sera imité en Perse, en Turquie, au Japon, puis en Europe, à Delft. Comparez avec le céladon Ru, plus haut : le décor peint a remplacé la seule beauté de la glaçure.",
+        "image": "images/mouvements/chine-ancienne/vase-bleu-et-blanc-yuan.jpg"
+      },
+      {
+        "title": "La Cité interdite à Pékin : la salle de l'Harmonie suprême",
+        "artist": "Architectes et artisans des Ming et des Qing",
+        "country": "Chine",
+        "period": "palais construit de 1406 à 1420 ; salle reconstruite en 1695–1697",
+        "museum": "Site du palais impérial, Pékin (musée du Palais)",
+        "credit": "Pékin, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Hall_of_Supreme_Harmony_%2820220218132012%29.jpg), photo N509FZ, licence CC BY-SA 4.0",
+        "analysis": "Au fond d'une immense cour pavée, où il reste un peu de neige, se dresse une grande salle de bois au double toit couvert de tuiles jaunes, la couleur réservée à l'empereur. Elle repose sur une haute terrasse de marbre blanc à trois niveaux, avec des escaliers et des balustrades. La Cité interdite a été construite de 1406 à 1420 pour l'empereur Yongle, des Ming, qui installa sa capitale à Pékin ; vingt-quatre empereurs Ming et Qing y ont vécu jusqu'à la fin de l'empire, en 1912. La salle de l'Harmonie suprême, la plus grande du palais, servait aux grandes cérémonies, comme l'avènement d'un empereur ; détruite plusieurs fois par le feu, elle a été reconstruite à la fin du XVIIe siècle. Le palais est devenu un musée en 1925 ; une partie de ses collections a été emportée à Taïwan en 1948–1949, et se trouve aujourd'hui au Musée national du palais de Taipei.",
+        "compare": "Le palais du « Fils du Ciel ». Comparez avec le temple du Ciel, juste après, où l'empereur venait prier : ici des toits jaunes, couleur de l'empereur, là des toits bleus, couleur du ciel.",
+        "image": "images/mouvements/chine-ancienne/cite-interdite-salle-harmonie-supreme.jpg"
+      },
+      {
+        "title": "Le temple du Ciel à Pékin : la salle de la Prière pour les bonnes récoltes",
+        "artist": "Architectes et artisans des Ming et des Qing",
+        "country": "Chine",
+        "period": "fondé en 1420 ; salle reconstruite après l'incendie de 1889",
+        "museum": "Site du temple du Ciel, Pékin",
+        "credit": "Pékin, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Temple_of_Heaven_-_Hall_of_Prayer_for_Good_Harvests_01.jpg), photo xiquinhosilva, licence CC BY 2.0",
+        "analysis": "Une salle ronde, coiffée de trois toits de tuiles bleues superposés et d'une boule dorée, se dresse sur une terrasse de marbre blanc à trois niveaux, où se pressent les visiteurs. Le temple du Ciel a été fondé en 1420, en même temps que la Cité interdite. Chaque année, l'empereur, le « Fils du Ciel », venait y prier pour de bonnes récoltes et y faire des sacrifices au Ciel : le bâtiment est rond et bleu, comme le ciel. Frappée par la foudre, la salle a brûlé en 1889, et a été reconstruite sur le même modèle dans les années suivantes. L'ensemble est inscrit au patrimoine mondial de l'UNESCO depuis 1998.",
+        "compare": "Comparez avec la Cité interdite, juste avant : le palais aligne des salles rectangulaires aux toits jaunes ; le temple est rond et ses toits sont bleus, comme le ciel.",
+        "image": "images/mouvements/chine-ancienne/temple-du-ciel.jpg"
+      },
+      {
+        "title": "Le Haut Mont Lu",
+        "artist": "Shen Zhou",
+        "country": "Chine",
+        "period": "1467",
+        "museum": "Musée national du palais, Taipei",
+        "credit": "Musée national du palais, Taipei, « Lofty Mount Lu » (https://digitalarchive.npm.gov.tw/Collection/Detail/3593?dep=P), CC BY 4.0 @ www.npm.gov.tw",
+        "analysis": "Une immense montagne, avec une cascade qui tombe au centre, des pins, des rochers, un pont ; tout en bas, un petit personnage regarde. En haut, le titre et un long poème. Selon la notice du Musée national du palais, l'inscription dit que Shen Zhou, « disciple » de Changzhou, a écrit le poème et peint le tableau le jour de la fête des Bateaux-Dragons de 1467, pour l'anniversaire de son maître, M. Xing'an. Le poème célèbre la hauteur du mont Lu, et à travers elle la grandeur morale du maître. Plus tard, en 1755, l'empereur Qianlong y ajouta lui-même un poème.",
+        "compare": "Sous les Ming (1368–1644), la peinture des lettrés devient un art de l'amitié et du cadeau. Comparez avec Huang Gongwang, plus haut, que Shen Zhou admirait et copiait.",
+        "image": "images/mouvements/peinture-lettree/shen-zhou-mont-lu.jpg"
+      },
+      {
+        "title": "La Grande Muraille à Mutianyu",
+        "artist": "Bâtisseurs de la dynastie Ming",
+        "country": "Chine",
+        "period": "dynastie Ming (1368–1644)",
+        "museum": "Site de la Grande Muraille, Mutianyu (Pékin)",
+        "credit": "Mutianyu, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:The_Mutianyu_section_of_the_Great_Wall_of_China.jpg), photo Lloyd Tudor, licence CC BY-SA 4.0",
+        "analysis": "Un chemin de ronde pavé, bordé de murs crénelés en briques, suit la crête des montagnes ; de place en place s'élèvent des tours de guet, jusqu'au sommet des pics. Des murailles ont été construites dans le nord de la Chine dès le VIIe siècle av. J.-C., et le premier empereur en a relié plusieurs ; mais la muraille que l'on visite près de Pékin, en briques et en pierre, est pour l'essentiel l'œuvre des Ming, qui voulaient se protéger des Mongols et des peuples du Nord. Selon un relevé chinois de 2009, les murailles des Ming s'étendent sur environ 8 850 km. La Grande Muraille est inscrite au patrimoine mondial de l'UNESCO depuis 1987.",
+        "compare": "Deux immenses chantiers de l'État chinois, à plus de dix-sept siècles de distance : comparez avec l'armée de terre cuite du premier empereur, plus haut, faite pour l'au-delà ; la muraille, elle, devait défendre la frontière du Nord.",
+        "image": "images/mouvements/chine-ancienne/grande-muraille-mutianyu.jpg"
+      },
+      {
+        "title": "Souvenir des trente-six pics du mont Huang",
+        "artist": "Shitao",
+        "country": "Chine",
+        "period": "vers 1705",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/49181), domaine public (CC0)",
+        "analysis": "Des pics couverts de pins se dressent les uns derrière les autres ; à mi-hauteur, un pavillon ; en bas à gauche, deux personnes dans une barque, sur une eau ridée. L'encre est posée en innombrables touches, en points et en taches, qui donnent du mouvement à toute la montagne. Le titre, écrit en haut à gauche, le dit : Shitao peint ici un souvenir, pas une vue prise sur le motif.",
+        "compare": "Sous les Qing (1644–1912), la dynastie mandchoue, Shitao, descendant de la famille impériale des Ming devenu moine bouddhiste, peint à sa façon. Comparez avec Fan Kuan, au début de cette partie : sept siècles plus tard, la montagne n'est plus décrite, elle est revécue par la mémoire et par le pinceau.",
+        "image": "images/mouvements/peinture-lettree/shitao-trente-six-pics-huangshan.jpg"
+      },
+      {
+        "title": "Zhong Kui",
+        "artist": "Ren Yi (Ren Bonian)",
+        "country": "Chine",
+        "period": "1883",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/37393), domaine public (CC0)",
+        "analysis": "Zhong Kui, le chasseur de démons de la légende chinoise, est assis sur un banc de bois, barbu, l'air farouche, dans une grande robe rouge-orangé. Près de lui, des vases avec des branches fleuries, des livres et un rouleau. Le visage et la barbe sont peints avec soin, la robe à grands traits souples. Le rouleau est grand, plus d'un mètre soixante-dix de haut.",
+        "compare": "À la fin de l'empire, à Shanghai, port ouvert au commerce étranger, les peintres vendent leurs œuvres à une nouvelle clientèle de marchands. Le dernier empereur abdique en 1912, vingt-neuf ans après ce tableau : l'exposition s'arrête là.",
+        "image": "images/mouvements/ecole-de-shanghai/ren-yi-zhong-kui.jpg"
       }
     ]
   }

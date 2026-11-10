@@ -218,6 +218,50 @@ content:
           - name: compare
             label: Point de comparaison avec les autres œuvres
             type: text
+          - name: lieu
+            label: "Lieu sur la carte (civilisations) : nom exact d'un des lieux de la carte, vide si l'origine n'est pas connue avec précision"
+            type: string
+          - name: lieuType
+            label: Type de lieu
+            type: select
+            options:
+              values: [site, découverte, fabrication, représenté, origine]
+          - name: lieuProbable
+            label: "Lieu probable seulement (affiche « probablement »)"
+            type: boolean
+      - name: carte
+        label: "Carte (facultative, pour les civilisations) : fond de carte, limites en degrés et lieux"
+        type: object
+        fields:
+          - name: image
+            label: "Fond de carte (SVG dans images/mouvements/cartes/)"
+            type: string
+          - name: ouest
+            label: Longitude ouest
+            type: number
+          - name: est
+            label: Longitude est
+            type: number
+          - name: sud
+            label: Latitude sud
+            type: number
+          - name: nord
+            label: Latitude nord
+            type: number
+          - name: lieux
+            label: Lieux (points de la carte)
+            type: object
+            list: true
+            fields:
+              - name: nom
+                label: Nom du lieu
+                type: string
+              - name: lat
+                label: Latitude
+                type: number
+              - name: lon
+                label: Longitude
+                type: number
       - name: contexte
         label: "La civilisation en bref (facultatif, pour les civilisations) : paragraphes affichés après l'introduction (société, vie quotidienne, croyances, archéologie)"
         type: object

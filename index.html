@@ -459,6 +459,24 @@ img.zoom:focus-visible{outline:3px solid #1a3a8a;outline-offset:-3px}
 .sp-ctx h3{font-family:'Cormorant Garamond',serif;font-size:24px;color:#111;margin-bottom:6px}
 .sp-ctx h4{font-size:15px;color:#222;margin:14px 0 4px}
 .sp-ctx p{font-size:14px;color:#444;line-height:1.8;max-width:820px}
+/* Carte des civilisations (champ « carte » de mouvements.json) */
+.sp-carte{margin:0 0 28px}
+.sp-carte h3{font-family:'Cormorant Garamond',serif;font-size:24px;color:#111;margin-bottom:6px}
+.sp-carte-note{font-size:13px;color:#555;line-height:1.7;margin-bottom:10px;max-width:820px}
+.civ-carte svg{width:100%;height:auto;display:block;border:1px solid #d8d0c0;border-radius:6px;background:#dce8ee}
+.civ-pt{cursor:pointer}.civ-pt .civ-zone{fill:transparent}
+.civ-pt .civ-pt-c{fill:#C9A84C;stroke:#111;stroke-width:3}
+.civ-pt.on .civ-pt-c{fill:#c0392b;stroke:#fff;transform:scale(1.4)}
+.civ-lien{color:var(--bleu);text-decoration:underline}
+.civ-info{margin:10px 0;padding:12px 14px;background:#faf6ee;border-radius:6px;font-size:14px;color:#444;line-height:1.7}
+.civ-info h4{font-size:15px;color:#111;margin-bottom:4px}
+.civ-info ul{margin:0;padding-left:18px}.civ-info li{margin:2px 0}
+.civ-type,.civ-prob{font-size:13px;color:#666}.civ-type::before{content:' · '}.civ-prob::before{content:', '}
+.civ-lieux{list-style:none;display:flex;flex-wrap:wrap;gap:6px;padding:0;margin:0}
+.civ-lieux button{font:inherit;font-size:13px;border:1px solid #ccc;background:#fff;color:#222;border-radius:14px;padding:5px 10px;cursor:pointer}
+.civ-lieux button.on{background:#111;color:#f0e8e0;border-color:#111}
+.civ-n{display:inline-block;margin-left:6px;font-size:11px;color:#8a6d1f}
+.wk-flash{outline:3px solid #C9A84C;outline-offset:4px;transition:outline-color 1.5s}
 .sp-rech h3,.sp-biblio h3{font-family:'Cormorant Garamond',serif;font-size:24px;color:#111;margin-bottom:12px}
 .sp-rech h4{font-size:15px;color:#222;margin:16px 0 6px}
 .sp-rech p{font-size:14px;color:#444;line-height:1.8;max-width:820px}
@@ -1026,6 +1044,7 @@ html.diapo-ouvert,html.diapo-ouvert body{overflow:hidden}
     </div>
     <p style="font-size:14px;color:#555;line-height:1.8;margin-bottom:24px;border-left:3px solid #C9A84C;padding-left:16px;font-style:italic" id="sp-intro"></p>
     <div id="sp-contexte"></div>
+    <div id="sp-carte"></div>
     <p class="ey" id="sp-cnt"></p>
     <p class="sp-etat" id="sp-etat" aria-live="polite"></p>
     <div id="sp-wks"></div>
@@ -1040,9 +1059,9 @@ html.diapo-ouvert,html.diapo-ouvert body{overflow:hidden}
   </div>
 </footer>
 <!-- Traductions (anglais, espagnol, arabe) et moteur de traduction -->
-<script src="i18n.js?v=20261112b"></script>
+<script src="i18n.js?v=20261112c"></script>
 <!-- Recherche en direct dans les catalogues ouverts des musées (domaine public) -->
-<script src="musees.js?v=20261112b"></script>
+<script src="musees.js?v=20261112c"></script>
 <script>
 const ART = [
   { img:"images/oeuvres/grande-vague-hokusai.jpg", credit:'Image : <a href="https://www.metmuseum.org/art/collection/search/45434" target="_blank" rel="noopener">The Metropolitan Museum of Art</a>, domaine public (Open Access)', name:"La Grande Vague de Kanagawa", meta:"Katsushika Hokusai · Japon · vers 1830-1832 · Metropolitan Museum of Art",
@@ -1813,6 +1832,36 @@ function ouvrirExpo(titre){
   const ouvrir=()=>{const e=expos.find(x=>x.title===titre&&x.status==='published');if(e)viewSp(e.id);};
   if(exposChargees)ouvrir();else{const t=setInterval(()=>{if(exposChargees){clearInterval(t);ouvrir();}},200);setTimeout(()=>clearInterval(t),10000);}
 }
+// Carte d'une civilisation : fond SVG (Natural Earth) et un point par lieu ; chaque œuvre peut avoir un lieu
+// (« lieu », « lieuType », « lieuProbable ») ; projection équirectangulaire identique à celle du fond de carte
+const TYPES_LIEU={site:'Site ou monument','découverte':'Lieu de découverte',fabrication:'Lieu de fabrication','représenté':'Lieu représenté',origine:"Lieu d'origine (l'œuvre a été déplacée)"};
+let civLieux=[];
+function carteCiv(e){
+  const c=e.carte;civLieux=[];
+  if(!c||!Array.isArray(c.lieux)||!c.image)return '';
+  civLieux=c.lieux.map(l=>({l,ws:e.works.map((w,i)=>({w,i})).filter(o=>o.w.lieu===l.nom)})).filter(o=>o.ws.length);
+  if(!civLieux.length)return '';
+  const W=1000,H=Math.round(W*(c.nord-c.sud)/((c.est-c.ouest)*Math.cos((c.nord+c.sud)/2*Math.PI/180)));
+  const x=lon=>((lon-c.ouest)/(c.est-c.ouest)*W).toFixed(1),y=lat=>((c.nord-lat)/(c.nord-c.sud)*H).toFixed(1);
+  const pts=civLieux.map((o,k)=>`<g class="civ-pt" data-k="${k}" transform="translate(${x(o.l.lon)} ${y(o.l.lat)})" onclick="montrerLieu(${k})"><title>${esc(o.l.nom)}</title><circle class="civ-zone" r="34"/><circle class="civ-pt-c" r="${12+Math.min(o.ws.length,6)*2}"/></g>`).join('');
+  return `<section class="sp-carte"><h3>Carte</h3><p class="sp-carte-note">Chaque point est un site archéologique, ou le lieu où une œuvre a été découverte, fabriquée ou représentée. Les œuvres dont l'origine n'est pas connue avec précision ne sont pas placées. Fond de carte : Natural Earth (domaine public), frontières actuelles en pointillé ; coordonnées : Wikidata.</p>`+
+    `<div class="civ-carte"><svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Carte des lieux de l'exposition"><image href="${esc(c.image)}" width="${W}" height="${H}"/>${pts}</svg></div>`+
+    `<div class="civ-info" aria-live="polite"><p>Touchez un point ou un nom de lieu pour voir les œuvres de ce lieu.</p></div>`+
+    `<ul class="civ-lieux">${civLieux.map((o,k)=>`<li><button type="button" data-k="${k}" onclick="montrerLieu(${k})"><span>${esc(o.l.nom)}</span><span class="civ-n">${o.ws.length}</span></button></li>`).join('')}</ul></section>`;
+}
+function montrerLieu(k){
+  const o=civLieux[k];if(!o)return;
+  document.querySelectorAll('#sp-carte [data-k]').forEach(el=>el.classList.toggle('on',+el.dataset.k===k));
+  const g=document.querySelector(`#sp-carte g.civ-pt[data-k="${k}"]`);if(g)g.parentNode.appendChild(g); // point choisi au premier plan
+  document.querySelector('#sp-carte .civ-info').innerHTML=`<h4>${esc(o.l.nom)}</h4><ul>${o.ws.map(({w,i})=>`<li><a href="#" class="civ-lien" onclick="allerOeuvre(${i});return false">${esc(w.title)}</a><span class="civ-type">${esc(TYPES_LIEU[w.lieuType]||'')}</span>${w.lieuProbable?'<span class="civ-prob">probablement</span>':''}</li>`).join('')}</ul>`;
+}
+function allerOeuvre(i){
+  const el=document.querySelector(`#sp-wks [data-idx="${i}"]`);if(!el)return;
+  const nav=document.querySelector('nav'),haut=(nav?nav.getBoundingClientRect().height:0)+12; // la barre de navigation reste en haut de l'écran
+  // les images au-dessus se chargent pendant le saut et décalent la page : on corrige la position deux fois
+  const aller=()=>window.scrollTo({top:el.getBoundingClientRect().top+window.scrollY-haut});
+  aller();setTimeout(aller,400);setTimeout(aller,1200);el.classList.add('wk-flash');setTimeout(()=>el.classList.remove('wk-flash'),2500);
+}
 function viewSp(id){const e=expos.find(x=>x.id===id)||exposMv.find(x=>x.id===id);if(!e)return;
   const numero=spEnCours.numero+1; // si le visiteur ouvre une autre exposition, la recherche en cours est ignorée
   spEnCours={numero,reserve:[],echecs:{},relances:0,enCours:false,recherche:null,mouvement:e.mouvement||''};
@@ -1823,6 +1872,7 @@ function viewSp(id){const e=expos.find(x=>x.id===id)||exposMv.find(x=>x.id===id)
   document.getElementById('sp-h').textContent=e.title||'';document.getElementById('sp-sub').textContent=e.subtitle||'';document.getElementById('sp-intro').textContent=e.intro||'';
   // Civilisations : la société, la vie quotidienne, les croyances… avant les œuvres (champ « contexte »)
   document.getElementById('sp-contexte').innerHTML=Array.isArray(e.contexte)&&e.contexte.length?`<section class="sp-ctx"><h3>La civilisation en bref</h3>${e.contexte.map(c=>`<h4>${esc(c.title||'')}</h4><p>${esc(c.text||'')}</p>`).join('')}</section>`:'';
+  document.getElementById('sp-carte').innerHTML=carteCiv(e);
   const zone=document.getElementById('sp-wks');zone.innerHTML='';
   const etat=document.getElementById('sp-etat');etat.textContent='';
   // Après les œuvres : ce que dit la recherche, puis la bibliographie (exposition « Nature, art et bien-être »)
@@ -1830,14 +1880,14 @@ function viewSp(id){const e=expos.find(x=>x.id===id)||exposMv.find(x=>x.id===id)
     (e.mouvement?`<p class="sp-mv-direct"><button type="button" class="lien-btn" data-mv="${esc(e.mouvement)}" onclick="exposerMouvementDirect(this.dataset.mv)">Voir d'autres œuvres de ce mouvement, en direct des musées</button></p>`:'')+
     (Array.isArray(e.bibliography)&&e.bibliography.length?`<section class="sp-biblio"><h3>Bibliographie</h3><ol>${e.bibliography.map(b=>`<li>${esc(b.reference||'')}${b.url?` <a href="${esc(b.url)}" target="_blank" rel="noopener">${esc(b.url.replace(/^https?:\/\//,''))}</a>`:''}</li>`).join('')}</ol></section>`:'');
   // Œuvres choisies dans Pages CMS : celles qui ont un lien attendent la réponse du musée (une à une, dans l'ordre choisi)
-  const places=e.works.map(w=>{
-    if(!w.link){if(!w.title)return null;const el=ajouterCarteSp(zone,w,false);return Promise.resolve(el);}
+  const places=e.works.map((w,i)=>{
+    if(!w.link){if(!w.title)return null;const el=ajouterCarteSp(zone,w,false);if(el)el.dataset.idx=i;return Promise.resolve(el);}
     const attente=document.createElement('div');attente.className='wk-card wk-attente';attente.innerHTML='<p class="sub">Chargement de l\'œuvre depuis le musée…</p>';zone.appendChild(attente);
     const lire=typeof oeuvreParLien==='function'?oeuvreParLien(w.link).catch(()=>null):Promise.resolve(null);
     return lire.then(m=>{const f=fusionnerOeuvre(w,m);
       if(numero!==spEnCours.numero)return null;
       if(!f||!f.title){attente.remove();return null;}
-      const tmp=document.createElement('div');tmp.innerHTML=carteSp(f,false);const el=tmp.firstElementChild;marquerPays(el,f);attente.replaceWith(el);return el;});
+      const tmp=document.createElement('div');tmp.innerHTML=carteSp(f,false);const el=tmp.firstElementChild;el.dataset.idx=i;marquerPays(el,f);attente.replaceWith(el);return el;});
   });
   majCompteSp();
   document.querySelectorAll('.pg').forEach(p=>p.classList.remove('on'));document.getElementById('pg-sp').classList.add('on');document.querySelectorAll('.nav-links button').forEach(b=>b.classList.remove('on'));window.scrollTo(0,0);
@@ -1999,10 +2049,10 @@ afficherValeurs(0);
 traduirePage();
 </script>
 <!-- Fenêtre Accessibilité de chaque œuvre et menu Affichage et lecture -->
-<script src="orchestre.js?v=20261112b"></script>
-<script src="accessibilite.js?v=20261112b"></script>
-<script src="diaporama.js?v=20261112b"></script>
+<script src="orchestre.js?v=20261112c"></script>
+<script src="accessibilite.js?v=20261112c"></script>
+<script src="diaporama.js?v=20261112c"></script>
 <!-- Séances de bien-être composées à la demande -->
-<script src="bienetre.js?v=20261112b"></script>
+<script src="bienetre.js?v=20261112c"></script>
 </body>
 </html>

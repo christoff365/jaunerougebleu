@@ -136,6 +136,7 @@ const TRAD = {
   "En boucle": ["Loop", "En bucle", "تكرار"],
   "Mouvement artistique": ["Art movement", "Movimiento artístico", "حركة فنية"],
   "Civilisation": ["Civilisation", "Civilización", "حضارة"],
+  "La civilisation en bref": ["The civilisation in brief", "La civilización en breve", "الحضارة باختصار"],
   "Voir l'exposition": ["See the exhibition", "Ver la exposición", "شاهد المعرض"],
   "Voir d'autres œuvres de ce mouvement, en direct des musées": ["See more works from this movement, live from the museums", "Ver otras obras de este movimiento, en directo desde los museos", "شاهد أعمالًا أخرى من هذه الحركة مباشرةً من المتاحف"],
   "Voix": ["Voice", "Voz", "الصوت"],

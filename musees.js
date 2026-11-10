@@ -450,6 +450,8 @@ const MOUVEMENTS = [
     "Chroniques illustrées des sultans, fêtes, cortèges et portraits, dans un style narratif précis."],
   ['Art mamelouk', 'Moyen-Orient', 'Égypte et Syrie', 'XIIIe–XVIe siècle', ['Mamluk'], [], '', [],
     "Lampes de mosquée en verre émaillé, métal incrusté d'argent et Corans enluminés du sultanat du Caire et de Damas."],
+  ['Aksoum', 'Afrique', 'Éthiopie et Érythrée', 'VIIIe siècle av. J.-C. – XIIIe siècle', ['Aksum', 'Axum'], ['Aksumite art'], 'aksum|axum|aksoum', [],
+    "Le royaume de la mer Rouge : temple de Yeha, stèles géantes, inscriptions du roi Ézana, puis les églises taillées dans le roc de Lalibela."],
   ['Égypte ancienne', 'Afrique', 'Égypte', 'XXXe–Ier siècle av. J.-C.', ['Egyptian'], ['ancient Egyptian art'], 'toutankhamon|tutankhamun|pharaon', [],
     "Des pyramides de Gizeh au temple de Philae : statues, peintures, papyrus et grands sites archéologiques de trois mille ans de pharaons."],
   ['Art amarnien', 'Afrique', 'Égypte', 'XIVe siècle av. J.-C.', ['Amarna'], ['Amarna art'], '', [],
@@ -533,7 +535,7 @@ const STYLES_ARCHITECTURE = { 'Art gothique': 'Q176483' };
 const ANONYME = 'Q4233718'; // « anonyme » dans Wikidata
 // Mouvements d'abord de l'estampe : leurs estampes ne sont pas limitées à trois
 // Expositions consacrées à une civilisation plutôt qu'à un mouvement (badge « Civilisation » sur leur page)
-const CIVILISATIONS = new Set(['Égypte ancienne', 'Grèce antique', 'Rome antique']);
+const CIVILISATIONS = new Set(['Égypte ancienne', 'Grèce antique', 'Rome antique', 'Aksoum']);
 const MOUVEMENTS_D_ESTAMPES = new Set(['Ukiyo-e', 'Expressionnisme']);
 // Mouvements de peintres : si le visiteur n'a pas choisi de type, l'exposition ne montre que des peintures
 // (pas les dessins, études, estampes ou éventails que les catalogues renvoient aussi pour ces artistes)

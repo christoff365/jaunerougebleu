@@ -631,6 +631,9 @@ const TRAD = {
   "Couleur & perception": ["Colour & perception", "Color y percepción", "اللون والإدراك"],
   // Générateur : mouvements, artiste, manuscrits et icônes ; onglet « Mouvements »
   "Mouvements": ["Movements", "Movimientos", "الحركات الفنية"],
+  "Civilisations": ["Civilisations", "Civilizaciones", "الحضارات"],
+  "Histoire du monde": ["World history", "Historia del mundo", "تاريخ العالم"],
+  "Des expositions consacrées à une civilisation tout entière : ses œuvres, ses grands sites archéologiques, et, pour chacune, « La civilisation en bref » : comment la société était organisée, comment on vivait, ce que l'on croyait, et ce que nous apprend l'archéologie. Les sources sont citées à la fin de chaque exposition.": ["Exhibitions devoted to a whole civilisation: its works, its great archaeological sites and, for each one, “The civilisation in brief”: how society was organised, how people lived, what they believed, and what archaeology teaches us. Sources are cited at the end of each exhibition.", "Exposiciones dedicadas a una civilización entera: sus obras, sus grandes sitios arqueológicos y, para cada una, «La civilización en breve»: cómo estaba organizada la sociedad, cómo se vivía, en qué se creía y lo que nos enseña la arqueología. Las fuentes se citan al final de cada exposición.", "معارض مكرّسة لحضارة بأكملها: أعمالها ومواقعها الأثرية الكبرى، ولكلٍّ منها «الحضارة باختصار»: كيف كان المجتمع منظَّمًا، وكيف كان الناس يعيشون، وبماذا كانوا يؤمنون، وما يعلّمنا إياه علم الآثار. وتُذكر المصادر في نهاية كل معرض."],
   "Mouvements, écoles et styles": ["Movements, schools and styles", "Movimientos, escuelas y estilos", "الحركات والمدارس والأساليب"],
   "Artiste": ["Artist", "Artista", "الفنان"],
   "Manuscrits et livres enluminés": ["Manuscripts and illuminated books", "Manuscritos y libros iluminados", "المخطوطات والكتب المزخرفة"],

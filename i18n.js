@@ -698,7 +698,7 @@ const TRAD = {
   "Égypte ancienne": ["Ancient Egypt", "Antiguo Egipto", "مصر القديمة"],
   "Aksoum": ["Aksum", "Aksum", "أكسوم"],
   "Han Gan": ["Han Gan", "Han Gan", "هان قان"],
-  "Chine ancienne": ["Ancient China", "China antigua", "الصين القديمة"],
+  "Chine, des origines à 1912": ["China, from its origins to 1912", "China, de los orígenes a 1912", "الصين، من البدايات إلى 1912"],
   "XXXe siècle av. J.-C. – XXe siècle": ["30th century BCE – 20th century CE", "siglo XXX a. C. – siglo XX d. C.", "من القرن الثلاثين قبل الميلاد إلى القرن العشرين الميلادي"],
   "Des jades de Liangzhu aux derniers empereurs : bronzes des Shang, armée de terre cuite, routes de la soie, paysages des Song, porcelaine, Cité interdite et Grande Muraille.": ["From the jades of Liangzhu to the last emperors: Shang bronzes, the terracotta army, the Silk Roads, Song landscapes, porcelain, the Forbidden City and the Great Wall.", "De los jades de Liangzhu a los últimos emperadores: bronces Shang, el ejército de terracota, las rutas de la seda, los paisajes Song, la porcelana, la Ciudad Prohibida y la Gran Muralla.", "من يشم ليانغتشو إلى آخر الأباطرة: برونزيات شانغ، وجيش الطين المشوي، وطرق الحرير، ومناظر سونغ الطبيعية، والخزف، والمدينة المحرّمة، والسور العظيم."],
   "Éthiopie et Érythrée": ["Ethiopia and Eritrea", "Etiopía y Eritrea", "إثيوبيا وإريتريا"],

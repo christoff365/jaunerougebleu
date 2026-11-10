@@ -9587,5 +9587,315 @@
         "image": "images/mouvements/grece-antique/autel-de-pergame.jpg"
       }
     ]
+  },
+  {
+    "mouvement": "Rome antique",
+    "slug": "rome-antique",
+    "status": "published",
+    "title": "La Rome antique, d'une ville à un empire",
+    "subtitle": "VIIIe siècle av. J.-C. – IIIe siècle : vingt-sept œuvres et sites archéologiques d'Italie, de France, d'Espagne, d'Allemagne, du Royaume-Uni, de Tunisie, d'Algérie, de Libye, d'Égypte, de Turquie, de Jordanie, du Liban et de Syrie",
+    "intro": "Selon la légende, Rome est fondée en 753 av. J.-C. par Romulus, qu'une louve avait nourri avec son jumeau Rémus. D'abord gouvernée par des rois, la ville devient une République en 509 av. J.-C., dirigée par le Sénat et des magistrats élus, puis conquiert l'Italie et tout le pourtour de la Méditerranée, qu'elle appelle « notre mer ». Après des guerres civiles et l'assassinat de Jules César (44 av. J.-C.), son fils adoptif Octave devient en 27 av. J.-C. le premier empereur, Auguste. Suivent deux siècles de « paix romaine » : au temps de Trajan (98–117), l'Empire s'étend de l'Écosse au golfe Persique, et quelque soixante millions d'habitants y parlent latin à l'ouest, grec à l'est, mais aussi punique, araméen, égyptien ou celte. Rome n'efface pas ces peuples : elle leur bâtit des routes, des aqueducs, des thermes, des théâtres et des amphithéâtres, fait des notables locaux des citoyens romains, et des Africains, des Espagnols ou des Syriens deviennent empereurs. L'art romain doit beaucoup aux Grecs, dont il copie et admire les statues, mais il invente le portrait réaliste, les grandes architectures de béton, les reliefs qui racontent l'histoire, la peinture murale et la mosaïque. Une grande partie de ce que nous savons vient de l'archéologie : Pompéi et Herculanum, ensevelies par le Vésuve en 79, sont fouillées depuis le XVIIIe siècle, et les villes romaines d'Afrique du Nord, d'Asie Mineure et du Proche-Orient sortent peu à peu du sable. Certaines ont souffert des guerres récentes, comme Palmyre en Syrie, en partie détruite en 2015. L'exposition suit trois chemins : Rome, la ville et le pouvoir ; Pompéi et la baie de Naples, une ville arrêtée en un jour ; puis un empire sur trois continents, d'un bout à l'autre de la Méditerranée. Les œuvres et les sites ont été photographiés par des visiteurs, qui ont publié leurs images sous licence libre avec leur nom ; trois œuvres viennent du Metropolitan Museum of Art de New York, dont les images sont dans le domaine public. L'Empire continue ensuite : il devient chrétien au IVe siècle, l'Occident tombe en 476, et l'Orient se prolonge à Constantinople, sous le nom d'Empire byzantin, jusqu'en 1453.",
+    "works": [
+      {
+        "title": "La Louve du Capitole",
+        "artist": "Fondeur inconnu ; jumeaux ajoutés à la Renaissance",
+        "country": "Italie",
+        "period": "louve : Ve siècle av. J.-C. ou Moyen Âge ; jumeaux : vers 1500",
+        "museum": "Musées du Capitole, Rome",
+        "credit": "Musées du Capitole, Rome, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Lupa_Capitolina%2C_Rome.jpg), photo Wilfredo Rodríguez (fond retiré), domaine public (CC0)",
+        "analysis": "Une louve de bronze, maigre et tendue, se tient debout, la tête tournée vers nous, les oreilles dressées et la gueule entrouverte ; on voit ses côtes et les poils de son cou, dessinés en boucles régulières. Sous elle, deux petits garçons nus, assis et à genoux, lèvent la tête pour la téter.",
+        "compare": "C'est le symbole de Rome : la louve qui, selon la légende, nourrit Romulus et Rémus. Les jumeaux ont été ajoutés vers 1500. La louve elle-même passait pour une œuvre étrusque du Ve siècle av. J.-C., mais des analyses scientifiques récentes ont proposé une date au Moyen Âge, et le débat continue : l'archéologie, c'est aussi savoir douter d'une date.",
+        "image": "images/mouvements/rome-antique/louve-du-capitole.jpg"
+      },
+      {
+        "title": "Le Forum romain et le Capitole",
+        "artist": "Bâtisseurs romains",
+        "country": "Italie",
+        "period": "VIe siècle av. J.-C. – IVe siècle",
+        "museum": "Site archéologique, Rome",
+        "credit": "Rome, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Capitoline_Museums_and_Roman_Forum.jpg), photo Julian Lupyan, domaine public (CC0)",
+        "analysis": "Au premier plan, des ruines de pierre et de brique, des colonnes isolées et les colonnes d'un temple dont il ne reste que le portique. Derrière, sur la colline, les palais des Musées du Capitole, bâtis sur les fondations romaines, sous des pins parasols et un ciel bleu.",
+        "compare": "Le Forum était le cœur de la Rome antique : on y votait, on y jugeait, on y priait et on y faisait des affaires. Abandonné au Moyen Âge, il servit de pâturage et fut appelé « le champ des vaches » ; les fouilles commencent au XIXe siècle. Sur le Capitole se dressait le grand temple de Jupiter ; Michel-Ange y a dessiné au XVIe siècle la place que l'on voit aujourd'hui.",
+        "image": "images/mouvements/rome-antique/forum-romain-et-capitole.jpg"
+      },
+      {
+        "title": "Auguste de Prima Porta",
+        "artist": "Sculpteur romain",
+        "country": "Italie",
+        "period": "début du Ier siècle",
+        "museum": "Musées du Vatican, Rome",
+        "credit": "Musées du Vatican, Rome, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Augustus_of_Prima_Porta_%28inv._2290%29.jpg), photo Joel Bellviure, licence CC BY-SA 4.0",
+        "analysis": "Une statue de marbre plus grande que nature. L'empereur Auguste, jeune et calme, se tient debout en général, le bras droit levé comme pour parler à ses soldats ; il porte une cuirasse couverte de petits reliefs et un manteau enroulé autour de la taille. Il est pieds nus. À ses pieds, un petit Amour chevauche un dauphin.",
+        "compare": "Elle a été trouvée en 1863 dans la villa de son épouse Livie, à Prima Porta, près de Rome. Sur la cuirasse, un Parthe rend à un Romain des enseignes militaires perdues : Auguste les avait récupérées en 20 av. J.-C. par la diplomatie. L'Amour sur le dauphin rappelle que sa famille disait descendre de Vénus. Les pieds nus et la jeunesse éternelle font de lui presque un dieu : c'est un portrait de propagande.",
+        "image": "images/mouvements/rome-antique/auguste-de-prima-porta.jpg"
+      },
+      {
+        "title": "L'Autel de la Paix d'Auguste (Ara Pacis), panneau dit « de Tellus »",
+        "artist": "Sculpteur romain",
+        "country": "Italie",
+        "period": "13–9 av. J.-C.",
+        "museum": "Musée de l'Ara Pacis, Rome",
+        "credit": "Musée de l'Ara Pacis, Rome, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Ara_Pacis%2C_Tellus_panel.jpg), photo Joel Bellviure, licence CC BY-SA 4.0",
+        "analysis": "Un relief de marbre. Au centre, une femme assise, en robe légère, tient deux bébés sur ses genoux ; autour d'elle, des fruits, des fleurs, une vache couchée et un mouton. De chaque côté, une jeune femme au torse nu est assise, l'une sur un cygne, l'autre sur un monstre marin. Des pilastres sculptés de feuillages encadrent la scène.",
+        "compare": "L'autel a été voté par le Sénat en 13 av. J.-C. pour célébrer la paix ramenée par Auguste. La femme du panneau est peut-être la Terre (Tellus), la Paix ou l'Italie : les savants ne sont pas d'accord, mais tous y voient l'abondance de l'âge d'or. L'autel, retrouvé en morceaux, a été reconstruit en 1938 ; il est abrité depuis 2006 dans un musée de verre de l'architecte Richard Meier.",
+        "sensible": true,
+        "image": "images/mouvements/rome-antique/ara-pacis-panneau-de-tellus.jpg"
+      },
+      {
+        "title": "Le Colisée (amphithéâtre flavien)",
+        "artist": "Bâtisseurs romains",
+        "country": "Italie",
+        "period": "70–80",
+        "museum": "Site archéologique, Rome",
+        "credit": "Rome, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Colosseum_in_Rome%2C_Italy_-_April_2007.jpg), photo David Iliff, licence CC BY-SA 2.5",
+        "analysis": "À la tombée de la nuit, le grand amphithéâtre ovale est éclairé de l'intérieur. Sa façade de pierre superpose trois étages d'arcades, encadrées de colonnes engagées, et un étage plein percé de petites fenêtres ; d'un côté, la façade extérieure a disparu, et l'on voit les murs intérieurs.",
+        "compare": "Commencé par l'empereur Vespasien et inauguré par son fils Titus en 80, il pouvait accueillir environ 50 000 spectateurs, placés selon leur rang. On y donnait des combats de gladiateurs et des chasses d'animaux sauvages. Au Moyen Âge, il servit de carrière de pierre, ce qui explique la façade manquante. C'est le modèle de tous les amphithéâtres de l'Empire, comme celui d'El Jem, plus loin dans l'exposition.",
+        "image": "images/mouvements/rome-antique/colisee.jpg"
+      },
+      {
+        "title": "La colonne Trajane",
+        "artist": "Sculpteur romain",
+        "country": "Italie",
+        "period": "113",
+        "museum": "Site archéologique, Rome",
+        "credit": "Rome, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Trajan_column_%28Rome%29_September_2015-1.jpg), photo Alvesgaspar, licence CC BY-SA 4.0",
+        "analysis": "Une haute colonne de marbre, entourée d'une bande sculptée qui monte en spirale jusqu'au sommet, où se dresse une statue de bronze. Au pied, les fûts de colonnes brisées du forum de Trajan, et les immeubles de la Rome d'aujourd'hui.",
+        "compare": "Elle raconte en images, sur environ 200 mètres de relief, les deux guerres de Trajan contre les Daces, dans l'actuelle Roumanie : on y voit des milliers de soldats marcher, construire des ponts, combattre. Les cendres de l'empereur furent placées dans son socle. La statue de Trajan qui la couronnait a été remplacée en 1588 par celle de saint Pierre.",
+        "image": "images/mouvements/rome-antique/colonne-trajane.jpg"
+      },
+      {
+        "title": "La coupole du Panthéon",
+        "artist": "Bâtisseurs romains",
+        "country": "Italie",
+        "period": "vers 118–125",
+        "museum": "Site archéologique, Rome",
+        "credit": "Rome, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Pantheon_%28Rome%29%2C_Dome_interior.jpg), photo Wilfredo Rodríguez, domaine public (CC0)",
+        "analysis": "Vue d'en bas, une immense coupole grise, creusée de cinq rangs de caissons carrés qui rapetissent vers le haut, et percée au sommet d'une ouverture ronde par laquelle on voit le ciel blanc.",
+        "compare": "Le Panthéon, temple de tous les dieux, a été reconstruit sous l'empereur Hadrien. Sa coupole de béton, de plus de 43 mètres de diamètre, est restée la plus grande du monde pendant plus de mille ans ; l'ouverture du sommet, l'oculus, est la seule source de lumière, et la pluie y entre. Devenu une église en 609, il est l'un des monuments antiques les mieux conservés.",
+        "image": "images/mouvements/rome-antique/pantheon-coupole.jpg"
+      },
+      {
+        "title": "Statue équestre de Marc Aurèle",
+        "artist": "Sculpteur romain",
+        "country": "Italie",
+        "period": "vers 175",
+        "museum": "Musées du Capitole, Rome",
+        "credit": "Musées du Capitole, Rome, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Rome_Capitoline_Marcus_Aurelius_statue_original.jpg), photo Nicholas Hartmann, licence CC BY-SA 4.0",
+        "analysis": "Une statue de bronze, vue de près : l'empereur barbu, à cheval, tend la main droite ouverte dans un geste calme ; le cheval lève une patte et tourne la tête. On voit encore des restes de dorure sur le bronze sombre.",
+        "compare": "C'est la seule grande statue équestre de bronze de l'Antiquité romaine conservée : au Moyen Âge, on croyait qu'elle représentait Constantin, le premier empereur chrétien, et on ne l'a donc pas fondue. Michel-Ange l'a placée en 1538 au centre de la place du Capitole ; l'original a été mis à l'abri dans le musée, et une copie le remplace dehors. Elle a servi de modèle aux statues équestres de toute l'Europe.",
+        "image": "images/mouvements/rome-antique/marc-aurele-equestre.jpg"
+      },
+      {
+        "title": "Laocoon et ses fils",
+        "artist": "Hagésandros, Athénodoros et Polydoros de Rhodes",
+        "country": "Italie",
+        "period": "Ier siècle av. J.-C. ou Ier siècle",
+        "museum": "Musées du Vatican, Rome",
+        "credit": "Musées du Vatican, Rome, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Laoco%C3%B6n_and_his_sons_group.jpg), photo Wilfredo Rodríguez, domaine public (CC0)",
+        "analysis": "Un groupe de marbre. Un homme barbu et nu, le visage tordu par la douleur, lutte contre deux grands serpents qui s'enroulent autour de lui et de ses deux fils, de chaque côté ; l'un des garçons est déjà mordu, l'autre essaie de se dégager. Tous les muscles sont tendus.",
+        "compare": "Dans l'Énéide de Virgile, le prêtre troyen Laocoon avait mis en garde contre le cheval de Troie : les dieux envoient des serpents pour le tuer. Le groupe a été découvert en 1506 dans une vigne de Rome, en présence de Michel-Ange, et l'auteur romain Pline l'Ancien en avait donné les noms des trois sculpteurs de Rhodes. Ce drame de style grec, admiré par les Romains, a bouleversé les artistes de la Renaissance.",
+        "sensible": true,
+        "image": "images/mouvements/rome-antique/laocoon.jpg"
+      },
+      {
+        "title": "Pompéi : le forum et le Vésuve",
+        "artist": "Bâtisseurs romains",
+        "country": "Italie",
+        "period": "IIe siècle av. J.-C. – 79",
+        "museum": "Site archéologique, Pompéi",
+        "credit": "Pompéi, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Pompeii_Forum_%26_Mt._Vesuvius_%289809458366%29.jpg), photo Gary Todd, domaine public (CC0)",
+        "analysis": "Une grande place couverte d'herbe, entourée de ruines de colonnes et de murs de brique rouge. Au fond, dans la brume, se dresse la silhouette du Vésuve.",
+        "compare": "Le 24 octobre 79 (ou le 24 août, la date est discutée), le Vésuve entre en éruption et ensevelit Pompéi sous plusieurs mètres de cendres et de pierres ponces. L'écrivain Pline le Jeune, témoin depuis l'autre côté de la baie, a raconté la catastrophe, où son oncle Pline l'Ancien trouva la mort. Fouillée depuis 1748, la ville montre la vie romaine arrêtée en un jour : maisons, boutiques, inscriptions, graffitis.",
+        "image": "images/mouvements/rome-antique/pompei-forum-et-vesuve.jpg"
+      },
+      {
+        "title": "Fresque de la Villa des Mystères",
+        "artist": "Peintre romain",
+        "country": "Italie",
+        "period": "vers 60–50 av. J.-C.",
+        "museum": "Site archéologique, Pompéi",
+        "credit": "Pompéi, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Villa_of_the_Mysteries_%28Pompeii%29_-_Hall_of_the_Mysteries_%28East_wall%29.jpg), photo Yair Haklai, licence CC BY-SA 4.0",
+        "analysis": "Le mur d'une salle, peint d'un rouge profond. Des personnages grandeur nature, debout ou assis sur une étroite bande verte, se suivent comme sur une scène de théâtre : des femmes drapées, une femme agenouillée, une danseuse, des figures ailées.",
+        "compare": "Cette grande frise, qui fait le tour d'une salle de la villa, montrerait l'initiation d'une jeune femme aux mystères de Dionysos, un culte secret ; son sens exact reste discuté. Ce rouge intense est devenu célèbre sous le nom de « rouge pompéien ». La villa, en dehors des murs de la ville, a été dégagée à partir de 1909.",
+        "sensible": true,
+        "image": "images/mouvements/rome-antique/villa-des-mysteres.jpg"
+      },
+      {
+        "title": "Portrait d'un couple, dit de Terentius Neo et de son épouse",
+        "artist": "Peintre romain",
+        "country": "Italie",
+        "period": "vers 50–79",
+        "museum": "Musée archéologique national de Naples",
+        "credit": "Musée archéologique national de Naples, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:MANNapoli_9058_couple_painting.jpg), photo Jebulon, domaine public (CC0)",
+        "analysis": "Une fresque carrée. Un homme et une femme posent côte à côte, de face, et nous regardent. Lui, aux cheveux courts et à la barbe naissante, tient un rouleau ; elle, coiffée de petites boucles, porte à ses lèvres un stylet et tient des tablettes de cire. Les visages sont peints avec des ombres et des lumières, comme de vrais portraits.",
+        "compare": "Elle vient d'une maison de Pompéi, que l'on a longtemps attribuée à un boulanger, Terentius Neo, d'après une inscription voisine. Le rouleau et les tablettes montrent un couple qui sait lire et écrire, et qui tient à le faire savoir. Ce sont des gens ordinaires, pas des empereurs : c'est l'un des portraits les plus vivants de l'Antiquité.",
+        "image": "images/mouvements/rome-antique/portrait-d-un-couple-de-pompei.jpg"
+      },
+      {
+        "title": "La mosaïque d'Alexandre (bataille d'Issos)",
+        "artist": "Mosaïste romain d'après un peintre grec",
+        "country": "Italie",
+        "period": "vers 100 av. J.-C.",
+        "museum": "Musée archéologique national de Naples",
+        "credit": "Musée archéologique national de Naples, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Battle_of_Issus_mosaic_-_Museo_Archeologico_Nazionale_-_Naples_2013-05-16_16-25-06_BW.jpg), photo Berthold Werner, licence CC BY-SA 3.0",
+        "analysis": "Une grande mosaïque faite de minuscules cubes de pierre de couleur. À gauche, le jeune Alexandre le Grand, tête nue, charge à cheval et transperce de sa lance un Perse. À droite, sur son char, le roi perse Darius tend le bras vers lui, tandis que son cocher fait demi-tour ; une forêt de lances se dresse au-dessus de la mêlée. Une grande partie de la gauche a disparu.",
+        "compare": "Elle couvrait le sol de la maison du Faune, à Pompéi. Elle copie sans doute une peinture grecque célèbre de la fin du IVe siècle av. J.-C., aujourd'hui perdue, qui montrait une victoire d'Alexandre sur Darius III. On estime qu'elle compte plus d'un million de cubes. Voir aussi l'exposition sur la Grèce antique : les Romains aimaient l'art et l'histoire grecs.",
+        "image": "images/mouvements/rome-antique/mosaique-d-alexandre.jpg"
+      },
+      {
+        "title": "Chambre à coucher de la villa de Boscoreale",
+        "artist": "Peintre romain",
+        "country": "Italie",
+        "period": "vers 50–40 av. J.-C.",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/247017), domaine public (CC0)",
+        "analysis": "Une petite pièce reconstituée au musée, dont les murs sont entièrement peints. Sur un fond rouge vif, des colonnes, des portes, des balcons et un petit temple rond semblent s'ouvrir sur des jardins et des villes imaginaires ; tout est peint en trompe-l'œil, en jouant sur la perspective.",
+        "compare": "Cette chambre vient de la villa de Publius Fannius Synistor à Boscoreale, près de Pompéi, ensevelie par la même éruption en 79. Les peintres créaient ainsi l'illusion de fenêtres et de paysages dans des pièces souvent sans vue. Fouillée en 1900, la villa a vu ses peintures partagées entre plusieurs musées ; le Met a acheté cette chambre en 1903.",
+        "image": "images/mouvements/rome-antique/chambre-de-boscoreale.jpg"
+      },
+      {
+        "title": "Le Pont du Gard",
+        "artist": "Bâtisseurs romains",
+        "country": "France",
+        "period": "milieu du Ier siècle",
+        "museum": "Site archéologique, Vers-Pont-du-Gard (France)",
+        "credit": "Vers-Pont-du-Gard (France), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Pont_du_Gard_BLS.jpg), photo Benh Lieu Song, licence CC BY-SA 3.0",
+        "analysis": "Un immense pont de pierre dorée enjambe une rivière verte, entre des collines boisées. Il superpose trois rangs d'arches : six grandes en bas, onze au milieu, et une longue file de petites arches tout en haut, qui portaient le canal.",
+        "compare": "Ce n'est pas un pont pour les voitures, mais un aqueduc : il faisait passer au-dessus du Gardon l'eau qui alimentait la ville de Nîmes, à travers un canal d'environ 50 kilomètres. Haut de 48 mètres, il est fait de blocs posés sans mortier. Il montre la maîtrise des ingénieurs romains, qui faisaient couler l'eau sur des kilomètres avec une pente presque imperceptible.",
+        "image": "images/mouvements/rome-antique/pont-du-gard.jpg"
+      },
+      {
+        "title": "L'aqueduc de Ségovie",
+        "artist": "Bâtisseurs romains",
+        "country": "Espagne",
+        "period": "fin du Ier – début du IIe siècle",
+        "museum": "Site archéologique, Ségovie (Espagne)",
+        "credit": "Ségovie (Espagne), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Acueducto_de_Segovia_01.jpg), photo David Corral Gadea, licence CC BY-SA 3.0 es",
+        "analysis": "Vue d'en bas, contre un ciel bleu, deux rangs d'arches faites de gros blocs de granit gris, empilés les uns sur les autres.",
+        "compare": "L'aqueduc traverse encore la ville de Ségovie, en Espagne, sur près de 30 mètres de haut. Ses blocs de granit tiennent sans mortier, par leur seul poids. Il a apporté de l'eau à la ville jusqu'à l'époque moderne. Comparez avec le Pont du Gard : la même technique, à l'autre bout de l'Empire.",
+        "image": "images/mouvements/rome-antique/aqueduc-de-segovie.jpg"
+      },
+      {
+        "title": "La Porta Nigra de Trèves",
+        "artist": "Bâtisseurs romains",
+        "country": "Allemagne",
+        "period": "vers 170",
+        "museum": "Site archéologique, Trèves (Allemagne)",
+        "credit": "Trèves (Allemagne), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Porta_Nigra_morgens_%28100MP%29.jpg), photo Thomas Wolf, licence CC BY-SA 3.0 de",
+        "analysis": "Une grande porte de ville en blocs de grès noircis par le temps, avec deux passages voûtés au rez-de-chaussée et des étages percés de rangées de fenêtres en arc. Une tour plus haute se dresse à gauche.",
+        "compare": "C'était la porte nord de Trèves, l'une des grandes villes romaines de l'Ouest, qui fut au IVe siècle une résidence des empereurs. Elle a survécu parce qu'un ermite s'y installa au XIe siècle et qu'elle fut transformée en église. Son nom, « porte noire », vient du Moyen Âge.",
+        "image": "images/mouvements/rome-antique/porta-nigra-treves.jpg"
+      },
+      {
+        "title": "Le mur d'Hadrien",
+        "artist": "Bâtisseurs romains",
+        "country": "Royaume-Uni",
+        "period": "à partir de 122",
+        "museum": "Site archéologique, Northumberland (Royaume-Uni)",
+        "credit": "Northumberland (Royaume-Uni), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Hadrian%27s_Wall_on_Housesteads_Crags_-_06.jpg), photo Benjamin Smith, licence CC BY-SA 4.0",
+        "analysis": "Un mur de pierre bas suit la crête d'une colline verte, monte et descend avec le terrain, et disparaît au loin dans un paysage de prairies et de lacs, sous un ciel gris.",
+        "compare": "L'empereur Hadrien fit construire ce mur d'une mer à l'autre, sur environ 117 kilomètres, pour marquer et surveiller la frontière nord de la province de Bretagne, l'actuelle Angleterre. Des soldats venus de tout l'Empire, jusque de Syrie, y tenaient garnison, et l'on a retrouvé leurs lettres sur des tablettes de bois au fort de Vindolanda, tout proche.",
+        "image": "images/mouvements/rome-antique/mur-d-hadrien.jpg"
+      },
+      {
+        "title": "L'amphithéâtre d'El Jem",
+        "artist": "Bâtisseurs romains",
+        "country": "Tunisie",
+        "period": "vers 238",
+        "museum": "Site archéologique, El Jem (Tunisie)",
+        "credit": "El Jem (Tunisie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Amphith%C3%A9%C3%A2tre_d%E2%80%99El_Jem_vue_aerienne_%282023%29_1.jpg), photo Skander Zarrad, licence CC BY-SA 4.0",
+        "analysis": "Vu du ciel, un immense amphithéâtre ovale de pierre dorée se dresse au milieu des maisons blanches et basses d'une petite ville ; ses trois étages d'arcades sont presque intacts d'un côté, ouverts de l'autre.",
+        "compare": "La ville romaine de Thysdrus, riche grâce à l'huile d'olive, construisit cet amphithéâtre pour environ 35 000 spectateurs, l'un des plus grands du monde romain. Comparez avec le Colisée : le même modèle, à des centaines de kilomètres de Rome. Il est inscrit au patrimoine mondial de l'UNESCO.",
+        "image": "images/mouvements/rome-antique/amphitheatre-d-el-jem.jpg"
+      },
+      {
+        "title": "Mosaïque de Virgile entre deux Muses",
+        "artist": "Mosaïste d'Afrique romaine",
+        "country": "Tunisie",
+        "period": "IIIe siècle",
+        "museum": "Musée national du Bardo, Tunis",
+        "credit": "Musée national du Bardo, Tunis, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Virgil_mosaic_in_the_Bardo_National_Museum_%28Tunis%29_%2812241228546%29.jpg), photo Boyd Dwyer, licence CC BY-SA 2.0",
+        "analysis": "Une mosaïque carrée. Un homme assis, vêtu d'une toge blanche, tient sur ses genoux un rouleau ouvert où l'on peut lire des mots latins. Debout à ses côtés, deux femmes : l'une lit un rouleau, l'autre tient un masque de théâtre.",
+        "compare": "C'est sans doute le poète Virgile, l'auteur de l'Énéide, entre Clio, Muse de l'histoire, et Melpomène, Muse de la tragédie ; le rouleau porte un vers du début de l'Énéide. Elle a été trouvée à Sousse, l'antique Hadrumète. L'Afrique romaine, aujourd'hui la Tunisie, l'Algérie et la Libye, était l'une des régions les plus riches de l'Empire et a laissé des milliers de mosaïques.",
+        "image": "images/mouvements/rome-antique/mosaique-de-virgile.jpg"
+      },
+      {
+        "title": "Le théâtre de Leptis Magna",
+        "artist": "Bâtisseurs romains",
+        "country": "Libye",
+        "period": "1–2 apr. J.-C.",
+        "museum": "Site archéologique, Leptis Magna (Libye)",
+        "credit": "Leptis Magna (Libye), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Leptis_Magna_Theatre.jpg), photo Daviegunn, domaine public",
+        "analysis": "Un théâtre en demi-cercle, aux gradins de pierre, face à la mer bleue. Derrière la scène se dressent les colonnes du mur de fond, sur plusieurs niveaux.",
+        "compare": "Leptis Magna, port fondé par les Phéniciens, devint l'une des grandes villes de l'Afrique romaine. Le théâtre fut offert par un notable local, Annobal Rufus, dont l'inscription est rédigée en latin et en punique, la langue des Phéniciens : la culture locale continuait à vivre. L'empereur Septime Sévère y est né en 145 et a couvert sa ville de monuments.",
+        "image": "images/mouvements/rome-antique/theatre-de-leptis-magna.jpg"
+      },
+      {
+        "title": "L'arc dit « de Trajan » à Timgad",
+        "artist": "Bâtisseurs romains",
+        "country": "Algérie",
+        "period": "fin du IIe siècle",
+        "museum": "Site archéologique, Timgad (Algérie)",
+        "credit": "Timgad (Algérie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Arch_of_Trajan_%28Timgad%29.jpg), photo Bernard Gagnon, licence CC BY 4.0",
+        "analysis": "Un arc de triomphe de grès doré à trois passages, encadré de colonnes, se dresse au bout d'une rue dallée, entre des fûts de colonnes brisées, sur fond de collines et de ciel bleu.",
+        "compare": "Timgad, l'antique Thamugadi, fut fondée en 100 par l'empereur Trajan pour d'anciens soldats. Ses rues se croisent à angle droit, comme sur un damier, ce que l'on voit encore parfaitement dans les ruines. Ensablée après l'Antiquité, elle est l'une des villes romaines les mieux conservées d'Afrique.",
+        "image": "images/mouvements/rome-antique/arc-de-trajan-timgad.jpg"
+      },
+      {
+        "title": "La bibliothèque de Celsus à Éphèse",
+        "artist": "Bâtisseurs romains",
+        "country": "Turquie",
+        "period": "vers 110–135",
+        "museum": "Site archéologique, Éphèse (Turquie)",
+        "credit": "Éphèse (Turquie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Ephesus_Celsus_Library_Fa%C3%A7ade.jpg), photo Benh Lieu Song, licence CC BY-SA 3.0",
+        "analysis": "Une façade de marbre à deux étages, avec des colonnes jumelées, des niches où se tiennent des statues de femmes, et trois portes. Un large escalier y mène.",
+        "compare": "Le fils du gouverneur Celsus fit construire cette bibliothèque en l'honneur de son père, enterré dessous. Elle aurait contenu environ 12 000 rouleaux. Les statues des niches représentent la Sagesse, la Connaissance, l'Intelligence et la Vertu. Écroulée, la façade a été remontée par les archéologues dans les années 1970.",
+        "image": "images/mouvements/rome-antique/bibliotheque-de-celsus-ephese.jpg"
+      },
+      {
+        "title": "Le forum ovale de Jerash",
+        "artist": "Bâtisseurs romains",
+        "country": "Jordanie",
+        "period": "Ier–IIe siècle",
+        "museum": "Site archéologique, Jerash (Jordanie)",
+        "credit": "Jerash (Jordanie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Oval_Forum%2C_Jerash%2C_Jordan4.jpg), photo Diego Delso, licence CC BY-SA 3.0",
+        "analysis": "Une grande place ovale dallée de pierre, entourée d'une longue colonnade en arc de cercle. Une partie des colonnes ont gardé leurs chapiteaux.",
+        "compare": "Gerasa, l'actuelle Jerash, en Jordanie, était l'une des villes de la Décapole, au Proche-Orient. Sa place ovale, rare dans le monde romain, ouvrait sur une longue rue à colonnades. Comme beaucoup de villes de l'Empire, elle mêle l'architecture romaine aux traditions locales.",
+        "image": "images/mouvements/rome-antique/forum-ovale-de-jerash.jpg"
+      },
+      {
+        "title": "Le temple dit « de Bacchus » à Baalbek",
+        "artist": "Bâtisseurs romains",
+        "country": "Liban",
+        "period": "IIe siècle",
+        "museum": "Site archéologique, Baalbek (Liban)",
+        "credit": "Baalbek (Liban), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Lebanon%2C_Baalbek%2C_Temple_of_Bacchus.jpg), photo Vyacheslav Argenberg, licence CC BY 4.0",
+        "analysis": "Au fond, un temple entouré de hautes colonnes, presque complet, avec son entablement sculpté ; au premier plan, une énorme colonne et des blocs de pierre tombés.",
+        "compare": "Baalbek, l'antique Héliopolis, au Liban, était un grand sanctuaire où les Romains honoraient Jupiter, Vénus et Mercure, à côté des dieux locaux. Ce temple est l'un des mieux conservés du monde romain, et le sanctuaire possède certains des plus grands blocs de pierre jamais taillés.",
+        "image": "images/mouvements/rome-antique/temple-de-bacchus-baalbek.jpg"
+      },
+      {
+        "title": "Palmyre : la grande colonnade",
+        "artist": "Bâtisseurs de Palmyre",
+        "country": "Syrie",
+        "period": "IIe–IIIe siècle",
+        "museum": "Site archéologique, Palmyre (Syrie)",
+        "credit": "Palmyre (Syrie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Palmyra_-_Decumanus_Maximus.jpg), photo Bernard Gagnon, licence CC BY-SA 3.0",
+        "analysis": "Une longue rue bordée de colonnes, dont beaucoup sont encore debout, traverse le désert ; au bout, un arc, et les collines sèches à l'horizon. Des blocs de pierre jonchent le sol.",
+        "compare": "Palmyre, oasis du désert syrien, s'enrichit grâce aux caravanes qui reliaient la Méditerranée à la Mésopotamie. Au IIIe siècle, sa reine Zénobie se révolta contre Rome. En 2015, le groupe État islamique y a détruit plusieurs monuments, dont des temples et un arc, et assassiné l'archéologue Khaled al-Asaad, qui avait consacré sa vie au site. Cette photo a été prise avant ces destructions.",
+        "image": "images/mouvements/rome-antique/palmyre-grande-colonnade.jpg"
+      },
+      {
+        "title": "Portrait d'une jeune femme en rouge",
+        "artist": "Peintre de l'Égypte romaine",
+        "country": "Égypte",
+        "period": "90–120",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/547860), domaine public (CC0)",
+        "analysis": "Une planche de bois peinte. Une jeune femme aux grands yeux sombres nous regarde de face ; elle porte une couronne de feuilles d'or, une boucle d'oreille en or, un collier, et une robe rouge foncé. La peinture à la cire donne à la peau un aspect lumineux.",
+        "compare": "Dans l'Égypte romaine, on peignait ainsi le portrait du défunt, que l'on plaçait sur sa momie, au niveau du visage : on les appelle les « portraits du Fayoum », d'après la région où beaucoup ont été trouvés. Ils mêlent la tradition égyptienne de la momie et le portrait réaliste gréco-romain. Après deux mille ans, ce sont encore des visages d'une présence saisissante.",
+        "image": "images/mouvements/rome-antique/portrait-du-fayoum.jpg"
+      }
+    ]
   }
 ]

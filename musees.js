@@ -472,6 +472,8 @@ const MOUVEMENTS = [
     "Masques, crochets et figures d'ancêtres peints, liés aux maisons cérémonielles et aux rites."],
   ['Grèce antique', 'Europe', 'Grèce et monde grec', 'XXVIIIe–IIe siècle av. J.-C.', ['Greek'], ['ancient Greek art'], 'exekias|exékias|praxit', ['Exékias|Exekias', 'Praxitèle|Praxiteles', 'Phidias|Pheidias'],
     "Des figures de marbre des Cyclades à l'autel de Pergame : fresques de Crète, kouroi, vases peints, Parthénon et statues hellénistiques."],
+  ['Rome antique', 'Europe', 'Italie et pourtour de la Méditerranée', 'VIIIe siècle av. J.-C. – IIIe siècle', ['Roman'], ['ancient Roman art'], 'pompei|pompéi|pompeii', [],
+    "De la Louve du Capitole à Palmyre : portraits et reliefs du pouvoir, fresques de Pompéi, et villes, aqueducs et amphithéâtres de tout l'Empire."],
   ['Art gothique', 'Europe', 'Europe', 'XIIe–XVe siècle', ['Gothic'], ['Gothic art', 'International Gothic'], 'licorne', ['Duccio|Duccio di Buoninsegna', 'Simone Martini', 'Giotto|Giotto di Bondone', 'Frères de Limbourg|Limbourg brothers', 'Claus Sluter', 'Ambrogio Lorenzetti', 'Pietro Lorenzetti', 'Cimabue', 'Gentile da Fabriano', 'Stefan Lochner'],
     "Vitraux, sculptures, tapisseries et retables aux fonds d'or, aux silhouettes élancées et aux couleurs précieuses."],
   ['Renaissance', 'Europe', 'Italie et Europe', 'XVe–XVIe siècle', ['Renaissance'], ['Renaissance', 'Italian Renaissance', 'Northern Renaissance', 'High Renaissance', 'Early Renaissance'], 'bruegel', ['Léonard de Vinci|Leonardo da Vinci', 'Raphaël|Raphael', 'Albrecht Dürer', 'Michel-Ange|Michel-Ange Buronarroti|Michelangelo', 'Sandro Botticelli', 'Titien|Titian', 'Jan van Eyck', 'Donatello', "Pieter Brueghel l'Ancien|Pieter Bruegel the Elder", 'Jérôme Bosch|Hieronymus Bosch', 'Hans Holbein le Jeune|Hans Holbein the Younger', 'Andrea Mantegna'],
@@ -529,7 +531,7 @@ const STYLES_ARCHITECTURE = { 'Art gothique': 'Q176483' };
 const ANONYME = 'Q4233718'; // « anonyme » dans Wikidata
 // Mouvements d'abord de l'estampe : leurs estampes ne sont pas limitées à trois
 // Expositions consacrées à une civilisation plutôt qu'à un mouvement (badge « Civilisation » sur leur page)
-const CIVILISATIONS = new Set(['Grèce antique']);
+const CIVILISATIONS = new Set(['Grèce antique', 'Rome antique']);
 const MOUVEMENTS_D_ESTAMPES = new Set(['Ukiyo-e', 'Expressionnisme']);
 // Mouvements de peintres : si le visiteur n'a pas choisi de type, l'exposition ne montre que des peintures
 // (pas les dessins, études, estampes ou éventails que les catalogues renvoient aussi pour ces artistes)
@@ -769,8 +771,11 @@ function periodeMouvement(mv) {
   const debutDu = e.match(/début du ([IVXLC]+)e/), finDu = e.match(/fin du ([IVXLC]+)e/);
   if (debutDu && romain(debutDu[1]) === siecles[siecles.length - 1]) fin = (siecles[siecles.length - 1] - 1) * 100 + 35;
   if (finDu && romain(finDu[1]) === siecles[0]) debut = (siecles[0] - 1) * 100 + 66;
-  if (av) { // siècles avant notre ère : le premier nommé est le plus ancien (« IXe–VIIe siècle av. J.-C. »)
-    const bornes = siecles.map(c => [-c * 100, -(c - 1) * 100 - 1]).flat();
+  if (av) { // siècles avant notre ère (ceux qui précèdent « av. J.-C. ») : « IXe–VIIe siècle av. J.-C. »,
+    // ou mêlés à des siècles de notre ère : « VIIIe siècle av. J.-C. – IIIe siècle »
+    const posAv = e.search(/av\. J\.-C\./);
+    const bornes = [...e.matchAll(/\b([IVXLC]+)e\b/g)].map(m => { const c = romain(m[1]);
+      return m.index < posAv ? [-c * 100, -(c - 1) * 100 - 1] : [(c - 1) * 100 + 1, c * 100]; }).flat();
     [debut, fin] = [Math.min(...bornes), Math.max(...bornes)];
   }
   return [debut - marge, fin + marge];

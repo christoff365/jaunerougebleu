@@ -249,11 +249,16 @@ a.mus-site:hover{color:var(--bleu)}
 .art-choix .art-tag{font:inherit;font-size:13px;cursor:pointer}
 .art-choix .art-tag.on{background:#1a1614;color:#fff;border-color:#1a1614}
 .artiste-ligne input{width:100%;max-width:520px;padding:10px 12px;border:1px solid #e0d5c0;border-radius:4px;font:inherit;font-size:14px;background:#fff;color:#111}
-.mv-carte{break-inside:avoid;margin:0 0 14px}
-.mv-cov{display:block;width:100%;height:auto;aspect-ratio:16/10;object-fit:cover;border-radius:4px;margin:0 0 8px;background:#111}
-.mv-carte h4{font-family:'Cormorant Garamond',serif;font-size:19px;margin:0 0 2px;color:#111}
-.mv-carte .mv-lieu{font-size:12px;color:#666;margin:0 0 4px}
-.mv-carte .mv-art{font-size:12px;color:#555;font-style:italic}
+/* Cartes des mouvements et des civilisations : fond noir, comme les expositions spéciales de l'accueil */
+.mv-carte{break-inside:avoid;margin:0 0 14px;background:#111;border:1px solid #333;border-radius:6px;padding:18px;overflow:hidden;display:inline-block;width:100%;transition:border-color .22s}
+.mv-carte:hover{border-color:#C9A84C}
+.mv-cov{display:block;width:calc(100% + 36px);max-width:none;height:auto;aspect-ratio:16/10;object-fit:cover;margin:-18px -18px 14px;background:#111;border-bottom:1px solid #333}
+.mv-carte h4{font-family:'Cormorant Garamond',serif;font-size:20px;margin:0 0 4px;color:#f0e8e0}
+.mus-region .mv-carte .mv-lieu{font-size:10px;text-transform:uppercase;letter-spacing:.12em;color:#E8C547;margin:0 0 8px}
+.mus-region .mv-carte p{color:#b5b5b5}
+.mus-region .mv-carte .mv-art{font-size:12px;color:#8f8f8f;font-style:italic}
+.mv-carte .lien-btn{color:#E8C547;font-weight:600}
+.mv-carte .lien-btn:hover,.mv-carte .lien-btn:focus-visible{color:#fff}
 .mv-liste{columns:2 300px;column-gap:28px}
 .mv-absences b{color:#222}
 .frise-mecenes{margin:0 0 28px}

@@ -10065,5 +10065,299 @@
         "image": "images/mouvements/rome-antique/portrait-du-fayoum.jpg"
       }
     ]
+  },
+  {
+    "mouvement": "Égypte ancienne",
+    "slug": "egypte-ancienne",
+    "status": "published",
+    "title": "L'Égypte ancienne, trois mille ans au bord du Nil",
+    "subtitle": "Vers 3000 av. J.-C. – Ier siècle : vingt et une œuvres et sites archéologiques de Gizeh, Saqqarah, Louxor, Abou Simbel, Philae, Le Caire, Paris, Londres et New York",
+    "intro": "L'Égypte, disait l'historien grec Hérodote, est « un don du Nil ». Chaque été, le fleuve débordait et déposait sur ses rives un limon noir et fertile : c'est sur cette étroite bande de terre, au milieu du désert, qu'est née l'une des plus anciennes et des plus longues civilisations du monde. Vers 3000 av. J.-C., la Haute et la Basse-Égypte sont réunies sous l'autorité d'un seul roi, que l'on appellera plus tard pharaon, et l'écriture hiéroglyphique apparaît. Pendant près de trois mille ans, malgré des périodes de crise, se succèdent l'Ancien Empire, le temps des pyramides ; le Moyen Empire ; le Nouvel Empire, le temps des grands temples de Louxor et de la Vallée des Rois, où l'Égypte domine la Nubie et une partie du Proche-Orient ; puis la Basse Époque, où le pays est conquis tour à tour par les Nubiens, les Perses, Alexandre le Grand, dont les successeurs, les Ptolémées, règnent jusqu'à Cléopâtre, et enfin par Rome en 30 av. J.-C. L'art égyptien est fait pour durer : il obéit à des règles précises, qui changent peu, car il sert d'abord les dieux, le roi et la vie après la mort. L'exposition suit cette histoire, des pyramides à Philae, en mêlant œuvres et grands sites archéologiques ; le règne d'Akhenaton a son exposition à part, l'art amarnien. Les œuvres conservées en Égypte, au Musée égyptien du Caire et au Grand Musée égyptien, ouvert en 2025 près des pyramides, ont été photographiées par des visiteurs qui ont publié leurs images sous licence libre, avec leur nom ; d'autres viennent du Louvre, du British Museum et du Metropolitan Museum of Art de New York. Par respect, l'exposition ne montre pas de momies, qui sont des restes humains.",
+    "contexte": [
+      {
+        "title": "Pharaon et la société",
+        "text": "Au sommet se tient le roi, que l'on appellera pharaon, d'après le mot égyptien per-aâ, « la grande maison », le palais. Il est à la fois chef de l'État, chef de l'armée et grand prêtre : il sert d'intermédiaire entre les hommes et les dieux et doit maintenir Maât, l'ordre juste du monde, contre le chaos. Il gouverne avec un vizir, des gouverneurs de province, des prêtres et une foule de scribes qui comptent les récoltes, lèvent les impôts et organisent les chantiers. La grande majorité des Égyptiens sont des paysans, qui doivent une part de leur récolte et des jours de travail à l'État. Il existe des esclaves, souvent des prisonniers de guerre, mais l'économie repose surtout sur le travail des paysans libres. Les femmes ont plus de droits que dans beaucoup de sociétés anciennes : elles peuvent posséder des biens, signer des contrats, témoigner en justice et divorcer ; quelques-unes, comme Hatshepsout, ont même régné."
+      },
+      {
+        "title": "La vie au bord du Nil",
+        "text": "Toute la vie suit le rythme du Nil. L'année compte trois saisons : l'inondation, quand le fleuve recouvre les champs, puis les semailles et les récoltes. Pendant la crue, les paysans travaillent souvent sur les chantiers du roi. On vit dans des maisons de briques crues, séchées au soleil ; on mange du pain, des oignons, des lentilles, du poisson et des dattes, et l'on boit de la bière d'orge. Le papyrus, une plante des marais, sert à faire des barques, des cordes, des sandales et le papier sur lequel écrivent les scribes. Les enfants des familles aisées vont à l'école des scribes ; les autres apprennent le métier de leurs parents. Les Égyptiens aiment les jeux de plateau, comme le senet, la musique, les parfums et le maquillage : le khôl, autour des yeux, protège aussi du soleil et des infections. Les ouvriers qui creusaient les tombes royales vivaient dans un village, Deir el-Médineh, dont les archéologues ont retrouvé les maisons et des milliers de notes écrites sur des éclats de pierre."
+      },
+      {
+        "title": "Les dieux et l'au-delà",
+        "text": "Les Égyptiens honorent des centaines de dieux, souvent représentés avec un corps humain et une tête d'animal : Rê, le soleil ; Osiris, roi des morts, et son épouse Isis ; leur fils Horus, le faucon, protecteur du roi ; Amon, le grand dieu de Thèbes ; Hathor, déesse de l'amour et de la musique ; Anubis, le chacal, gardien des tombes. Le temple est la maison du dieu : chaque jour, des prêtres y lavent, habillent et nourrissent sa statue, à l'abri des regards, et le peuple ne le voit que lors des grandes processions. Pour vivre éternellement, il faut conserver le corps, d'où la momification, et fournir au mort tout ce dont il aura besoin : nourriture, objets, statues, maquettes, textes magiques. Le mort doit aussi passer le jugement d'Osiris, où son cœur est pesé contre la plume de Maât. Sous le roi Akhenaton, vers 1350 av. J.-C., un seul dieu, le disque solaire Aton, fut un temps placé au-dessus de tous les autres : c'est le sujet de l'exposition sur l'art amarnien."
+      },
+      {
+        "title": "Ce que nous apprend l'archéologie",
+        "text": "L'égyptologie moderne naît avec l'expédition de Bonaparte en Égypte, en 1798, dont les savants publient la Description de l'Égypte, et avec le déchiffrement des hiéroglyphes par Champollion en 1822. Le XIXe siècle est aussi celui des pillages : obélisques, statues, peintures et même plafonds partent pour l'Europe. En 1858, l'archéologue Auguste Mariette crée au Caire le premier service des antiquités pour les protéger. Les grandes découvertes continuent, de la tombe de Toutânkhamon en 1922 aux fouilles d'aujourd'hui, menées de plus en plus par des archéologues égyptiens. Dans les années 1960, la campagne de l'UNESCO pour sauver les temples de Nubie, menacés par le haut barrage d'Assouan, a réuni une cinquantaine de pays : c'est l'origine de la liste du patrimoine mondial. Aujourd'hui, l'Égypte demande le retour de certaines œuvres célèbres, comme la pierre de Rosette ou le buste de Néfertiti, et elle a ouvert en 2025 le Grand Musée égyptien. Les momies, qui sont des personnes, sont de plus en plus montrées avec respect, et certains musées choisissent de ne plus les exposer."
+      }
+    ],
+    "bibliography": [
+      {
+        "reference": "UNESCO, Patrimoine mondial : Memphis et sa nécropole, les zones des pyramides de Guizeh à Dahchour",
+        "url": "https://whc.unesco.org/fr/list/86"
+      },
+      {
+        "reference": "UNESCO, Patrimoine mondial : Thèbes antique et sa nécropole",
+        "url": "https://whc.unesco.org/fr/list/87"
+      },
+      {
+        "reference": "UNESCO, Patrimoine mondial : monuments de Nubie d'Abou Simbel à Philae",
+        "url": "https://whc.unesco.org/fr/list/88"
+      },
+      {
+        "reference": "Metropolitan Museum of Art, Heilbrunn Timeline of Art History, essais sur l'Égypte ancienne",
+        "url": "https://www.metmuseum.org/toah/"
+      },
+      {
+        "reference": "Metropolitan Museum of Art, « Queen Hatshepsut Restored »",
+        "url": "https://www.metmuseum.org/essays/queen-hatshepsut-restored"
+      },
+      {
+        "reference": "Musée du Louvre, collections en ligne",
+        "url": "https://collections.louvre.fr/"
+      },
+      {
+        "reference": "Nicolas Grimal, Histoire de l'Égypte ancienne, Paris, Fayard, 1988"
+      },
+      {
+        "reference": "Christiane Desroches Noblecourt, La Femme au temps des pharaons, Paris, Stock, 1986"
+      },
+      {
+        "reference": "Les notices des musées citées dans les crédits de chaque œuvre"
+      }
+    ],
+    "works": [
+      {
+        "title": "La palette de Narmer",
+        "artist": "Sculpteur égyptien",
+        "country": "Égypte",
+        "period": "vers 3000 av. J.-C.",
+        "museum": "Musée égyptien, Le Caire",
+        "credit": "Musée égyptien, Le Caire, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:The_Narmer_Palette%2C_early_First_Dynasty%2C_ca._3000_BCE%3B_Egyptian_Museum%2C_Cairo_%281%29.jpg), photo Richard Mortel, licence CC BY 2.0",
+        "analysis": "Une plaque de pierre en forme de bouclier, sculptée en relief. Un roi, beaucoup plus grand que les autres personnages, coiffé d'une haute couronne, lève une massue au-dessus d'un ennemi agenouillé qu'il tient par les cheveux. En haut, deux têtes de vache encadrent son nom en hiéroglyphes ; à droite, un faucon se tient sur des tiges de papyrus.",
+        "compare": "Elle a été trouvée en 1897–1898 à Hiérakonpolis, en Haute-Égypte. On y voit souvent l'un des premiers rois à régner sur toute l'Égypte, et l'une des plus anciennes inscriptions hiéroglyphiques. Les conventions de l'art égyptien sont déjà là : le roi plus grand que tous, le visage de profil mais l'œil et les épaules de face, les scènes rangées en registres.",
+        "image": "images/mouvements/egypte-ancienne/palette-de-narmer.jpg"
+      },
+      {
+        "title": "La pyramide à degrés de Djéser, à Saqqarah",
+        "artist": "Imhotep, architecte du roi Djéser",
+        "country": "Égypte",
+        "period": "vers 2650 av. J.-C.",
+        "museum": "Site archéologique, Saqqarah",
+        "credit": "Saqqarah, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Saqqara_pyramid_ver_2.jpg), photo Charles J. Sharp, licence CC BY-SA 3.0",
+        "analysis": "Dans le désert, une pyramide de pierre faite de six gradins superposés, de plus en plus petits ; au premier plan, un dromadaire couché.",
+        "compare": "C'est le plus ancien grand monument de pierre taillée du monde. Son architecte, Imhotep, a eu l'idée d'empiler des tombeaux rectangulaires, les mastabas, comme un escalier vers le ciel. Imhotep est l'un des rares architectes de l'Antiquité dont on connaisse le nom ; plus tard, les Égyptiens l'ont honoré comme un dieu de la médecine et de la sagesse.",
+        "image": "images/mouvements/egypte-ancienne/pyramide-de-djeser.jpg"
+      },
+      {
+        "title": "Les pyramides de Gizeh",
+        "artist": "Bâtisseurs égyptiens",
+        "country": "Égypte",
+        "period": "vers 2560–2500 av. J.-C.",
+        "museum": "Site archéologique, Gizeh",
+        "credit": "Gizeh, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:All_Gizah_Pyramids.jpg), photo Ricardo Liberato, licence CC BY-SA 2.0",
+        "analysis": "Sur le plateau de sable, sous un ciel bleu, trois grandes pyramides se suivent en diagonale, précédées de trois petites pyramides. La pierre est d'un beige doré ; au sommet de l'une d'elles reste un peu du revêtement lisse d'origine.",
+        "compare": "Ce sont les tombeaux des rois Khéops, Khéphren et Mykérinos. La grande pyramide de Khéops, haute à l'origine de 146 mètres, est restée le plus haut bâtiment du monde pendant près de quatre mille ans ; c'est la seule des sept merveilles du monde antique encore debout. Les fouilles du village des ouvriers, au pied du plateau, ont montré qu'elles ont été bâties non par des esclaves, mais par des équipes d'ouvriers et de paysans, nourris et soignés par l'État.",
+        "image": "images/mouvements/egypte-ancienne/pyramides-de-gizeh.jpg"
+      },
+      {
+        "title": "Le grand Sphinx de Gizeh",
+        "artist": "Bâtisseurs égyptiens",
+        "country": "Égypte",
+        "period": "vers 2550–2500 av. J.-C.",
+        "museum": "Site archéologique, Gizeh",
+        "credit": "Gizeh, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Great_Sphinx_of_Giza_%28%D8%A3%D8%A8%D9%88_%D8%A7%D9%84%D9%87%D9%88%D9%84%29.jpg), photo Petar Milošević, licence CC BY-SA 4.0",
+        "analysis": "Un immense lion couché à tête humaine, taillé dans la roche du plateau. Le visage, usé et sans nez, porte la coiffe royale à rayures, le némès, dont les pans tombent sur les épaules. Derrière lui s'élève une pyramide.",
+        "compare": "Long d'environ 73 mètres, c'est l'une des plus grandes sculptures du monde. Il représente sans doute le roi Khéphren, dont la pyramide et le temple sont tout proches, avec la force d'un lion. Pendant des siècles, le sable l'a recouvert jusqu'au cou ; il a été entièrement dégagé au XXe siècle.",
+        "image": "images/mouvements/egypte-ancienne/grand-sphinx-de-gizeh.jpg"
+      },
+      {
+        "title": "Statue du roi Khéphren",
+        "artist": "Sculpteur égyptien",
+        "country": "Égypte",
+        "period": "vers 2520–2494 av. J.-C.",
+        "museum": "Musée égyptien, Le Caire",
+        "credit": "Musée égyptien, Le Caire, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Statue_of_King_Khafre_%2853280945214%29.jpg), photo Mustang Joe, domaine public (CC0)",
+        "analysis": "Le buste d'une statue de pierre sombre et veinée, très polie. Le roi, au visage calme et jeune, porte le némès rayé et une fausse barbe ; derrière sa tête, un faucon déploie ses ailes et l'enveloppe.",
+        "compare": "Elle a été trouvée dans une fosse de son temple, au pied des pyramides de Gizeh. Le faucon est le dieu Horus, qui protège le roi et dont le roi est l'incarnation sur terre. Selon la notice citée sur la photo, la pierre vient de Toshka, près d'Abou Simbel, à plus de 1 000 kilomètres : le signe que le pouvoir du roi s'étendait jusqu'au sud du pays.",
+        "image": "images/mouvements/egypte-ancienne/statue-de-khephren.jpg"
+      },
+      {
+        "title": "Rahotep et Nofret",
+        "artist": "Sculpteur égyptien",
+        "country": "Égypte",
+        "period": "vers 2600 av. J.-C.",
+        "museum": "Musée égyptien, Le Caire",
+        "credit": "Musée égyptien, Le Caire, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Rahotep_and_Nofret_Statue%2C_Egyptian_Museum%2C_al-Q%C4%81hirah%2C_CG%2C_EGY_%2847856923342%29.jpg), photo Warren LeMay, domaine public (CC0)",
+        "analysis": "Deux statues de pierre peinte, assises côte à côte sur des sièges cubiques. L'homme, à la peau brun-rouge, porte un pagne blanc et une fine moustache ; la femme, à la peau claire, est enveloppée dans un manteau blanc et coiffée d'une perruque noire ornée d'un bandeau. Leurs yeux, incrustés, semblent vivants.",
+        "compare": "Rahotep, prince et grand prêtre, et sa femme Nofret ont été retrouvés en 1871 dans leur tombeau de Meïdoum ; on raconte que les ouvriers prirent peur en voyant briller leurs yeux. La peau foncée pour l'homme et claire pour la femme suit une convention de l'art égyptien. Leurs noms et leurs titres sont écrits en hiéroglyphes sur le dossier de leurs sièges.",
+        "image": "images/mouvements/egypte-ancienne/rahotep-et-nofret.jpg"
+      },
+      {
+        "title": "Le Scribe accroupi",
+        "artist": "Sculpteur égyptien",
+        "country": "Égypte",
+        "period": "vers 2600–2350 av. J.-C.",
+        "museum": "Musée du Louvre, Paris",
+        "credit": "Musée du Louvre, Paris, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Le_Scribe_accroupi_-_Mus%C3%A9e_du_Louvre_Antiquit%C3%A9s_%C3%A9gyptiennes_E_3023.jpg), photo Shonagon, domaine public (CC0)",
+        "analysis": "Un homme assis en tailleur, vêtu d'un pagne blanc tendu sur ses genoux, tient sur ses jambes un rouleau de papyrus à demi déroulé ; sa main droite tenait un calame, aujourd'hui perdu. Sa peau est peinte en brun-rouge, son ventre est un peu mou, et ses yeux, incrustés de pierre, regardent droit devant lui.",
+        "compare": "Il a été découvert à Saqqarah en 1850 par l'archéologue français Auguste Mariette ; on ignore son nom. Les scribes, qui savaient lire et écrire les hiéroglyphes, administraient le pays : impôts, récoltes, chantiers, justice. Être scribe était un métier très respecté, et l'artiste montre ici un homme d'âge mûr, attentif, prêt à écrire.",
+        "image": "images/mouvements/egypte-ancienne/scribe-accroupi.jpg"
+      },
+      {
+        "title": "Hippopotame dit « William »",
+        "artist": "Artisan égyptien",
+        "country": "Égypte",
+        "period": "vers 1961–1878 av. J.-C.",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/544227), domaine public (CC0)",
+        "analysis": "Un petit hippopotame de faïence bleu turquoise, long de 20 centimètres. Sur son corps, des traits noirs dessinent des fleurs de lotus, des boutons et des feuilles, comme si l'animal se tenait au milieu des plantes du fleuve.",
+        "compare": "L'hippopotame était l'un des animaux les plus dangereux du Nil. Placé dans une tombe, cet animal pouvait aider le mort à renaître, comme la vie qui revient chaque année avec la crue ; selon le musée, trois de ses pattes avaient été cassées volontairement, sans doute pour qu'il ne puisse pas nuire au défunt, et ont été restaurées. Il vient d'un puits de la tombe du gouverneur Senbi, à Meir. Surnommé « William » en 1931 par un magazine humoristique anglais, il est devenu la mascotte du Metropolitan Museum.",
+        "image": "images/mouvements/egypte-ancienne/hippopotame-william.jpg"
+      },
+      {
+        "title": "Maquette de bateau à rames, tombe de Meketrê",
+        "artist": "Artisan égyptien",
+        "country": "Égypte",
+        "period": "vers 1981–1975 av. J.-C.",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/544211), domaine public (CC0)",
+        "analysis": "Un bateau de bois peint en vert, long de plus d'un mètre, avec une proue et une poupe relevées. À bord, des dizaines de petits rameurs en bois, assis en rangs, tiennent leurs pagaies ; d'autres personnages se tiennent debout, et un grand gouvernail est fixé à l'arrière.",
+        "compare": "Le Nil était la grande route de l'Égypte. Cette maquette vient de la tombe du haut fonctionnaire Meketrê, à Thèbes, découverte en 1920 avec toute une série de modèles : bateaux, greniers, boulangerie, brasserie, atelier de tissage. Ils devaient fournir au mort, pour l'éternité, tout ce dont il avait besoin. Les fouilleurs les ont partagés entre le Musée égyptien du Caire et le Metropolitan Museum.",
+        "image": "images/mouvements/egypte-ancienne/maquette-de-barque-meketre.jpg"
+      },
+      {
+        "title": "Le temple d'Hatshepsout à Deir el-Bahari",
+        "artist": "Senenmout, architecte de la reine Hatshepsout",
+        "country": "Égypte",
+        "period": "vers 1479–1458 av. J.-C.",
+        "museum": "Site archéologique, Louxor (rive ouest)",
+        "credit": "Louxor, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Templo_funerario_de_Hatshepsut%2C_Luxor%2C_Egipto%2C_2022-04-03%2C_DD_13.jpg), photo Diego Delso, licence CC BY-SA 4.0",
+        "analysis": "Au pied d'une haute falaise dorée, un temple s'étage sur trois grandes terrasses reliées par des rampes, chacune bordée de colonnades ; le soleil rasant éclaire la montagne et laisse le désert dans l'ombre.",
+        "compare": "Hatshepsout fut l'une des rares femmes à régner comme pharaon, pendant une vingtaine d'années. Son temple funéraire raconte en reliefs une expédition au pays de Pount, au sud de la mer Rouge, d'où l'on rapporta de l'encens et des arbres. Une mission archéologique polonaise et égyptienne restaure le temple depuis 1961.",
+        "image": "images/mouvements/egypte-ancienne/temple-d-hatshepsout.jpg"
+      },
+      {
+        "title": "Statue assise d'Hatshepsout",
+        "artist": "Sculpteur égyptien",
+        "country": "Égypte",
+        "period": "vers 1479–1458 av. J.-C.",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/544450), domaine public (CC0)",
+        "analysis": "Le haut d'une statue de calcaire blanc, presque grandeur nature. Le visage fin, aux grands yeux en amande et au léger sourire, est encadré par le némès royal ; le corps, mince, porte les vêtements du roi.",
+        "compare": "Hatshepsout se fait représenter avec les attributs d'un roi, mais ici avec un visage et un corps de femme. Après sa mort, son successeur Thoutmôsis III fit briser beaucoup de ses statues ; selon le musée, celle-ci a été reconstituée à partir de fragments retrouvés près de son temple de Deir el-Bahari par les fouilles du Metropolitan Museum, à la fin des années 1920, et de morceaux conservés à Berlin depuis 1845, obtenus par un échange.",
+        "image": "images/mouvements/egypte-ancienne/statue-d-hatshepsout.jpg"
+      },
+      {
+        "title": "La grande salle hypostyle de Karnak",
+        "artist": "Bâtisseurs égyptiens",
+        "country": "Égypte",
+        "period": "vers 1290–1224 av. J.-C.",
+        "museum": "Site archéologique, Louxor (Karnak)",
+        "credit": "Louxor, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Karnak_Temple_Great_Hypostyle_Hall_2014.jpg), photo Tsyganov Sergey, domaine public (CC0)",
+        "analysis": "Vues d'en bas contre un ciel bleu, d'énormes colonnes de pierre, couvertes de hiéroglyphes et de reliefs gravés, se dressent les unes derrière les autres, comme les troncs d'une forêt.",
+        "compare": "Karnak était le plus grand sanctuaire d'Égypte, consacré au dieu Amon. Sa salle hypostyle, construite sous les rois Séthi Ier et Ramsès II, compte 134 colonnes ; celles du centre mesurent plus de 20 mètres. Elles imitent des tiges de papyrus et évoquent le marais des origines, d'où le monde est sorti selon les Égyptiens. Seuls les prêtres et le roi pouvaient entrer au cœur du temple.",
+        "image": "images/mouvements/egypte-ancienne/salle-hypostyle-de-karnak.jpg"
+      },
+      {
+        "title": "Le jardin de Nebamon",
+        "artist": "Peintre égyptien",
+        "country": "Égypte",
+        "period": "vers 1350 av. J.-C.",
+        "museum": "British Museum, Londres",
+        "credit": "British Museum, Londres, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:British_Museum_2024-10-03zza.jpg), photo Djehouty, licence CC BY-SA 4.0",
+        "analysis": "Un fragment de peinture murale. Au centre, un bassin rectangulaire vu d'en haut, plein d'eau bleue, de poissons, de canards et de fleurs de lotus ; tout autour, des arbres fruitiers et des palmiers, peints de profil, comme s'ils étaient couchés sur le sol.",
+        "compare": "Il vient de la chapelle funéraire de Nebamon, un scribe chargé de compter les céréales, à Thèbes. Le peintre montre chaque chose sous son meilleur angle : le bassin d'en haut, les poissons et les arbres de côté. Ce jardin plein d'ombre et d'eau est le paradis que le mort espère retrouver dans l'au-delà. Les peintures ont été détachées des murs dans les années 1820 et vendues au British Museum ; l'emplacement exact de la tombe a ensuite été oublié.",
+        "image": "images/mouvements/egypte-ancienne/jardin-de-nebamon.jpg"
+      },
+      {
+        "title": "La Vallée des Rois",
+        "artist": "Bâtisseurs égyptiens",
+        "country": "Égypte",
+        "period": "vers 1539–1075 av. J.-C.",
+        "museum": "Site archéologique, Louxor (rive ouest)",
+        "credit": "Louxor, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Thebes%2C_Luxor%2C_Egypt%2C_Valley_of_the_Kings_from_above.jpg), photo Vyacheslav Argenberg, licence CC BY 4.0",
+        "analysis": "Vue d'en haut, une vallée sèche et rocheuse, entre des falaises de calcaire ; au fond, des chemins, de petits bâtiments et les entrées de tombes creusées dans la roche.",
+        "compare": "Pendant le Nouvel Empire, les rois ne se font plus enterrer dans des pyramides, trop visibles et pillées, mais dans des tombes cachées au cœur de cette vallée, sous une montagne en forme de pyramide naturelle. On y connaît une soixantaine de tombes, aux murs couverts de textes et d'images pour guider le roi dans l'au-delà. Presque toutes ont été pillées dès l'Antiquité ; celle de Toutânkhamon, découverte en 1922, est la seule retrouvée presque intacte.",
+        "image": "images/mouvements/egypte-ancienne/vallee-des-rois.jpg"
+      },
+      {
+        "title": "Le masque funéraire de Toutânkhamon",
+        "artist": "Orfèvres de la cour royale",
+        "country": "Égypte",
+        "period": "vers 1323 av. J.-C.",
+        "museum": "Grand Musée égyptien, Gizeh",
+        "credit": "Grand Musée égyptien, Gizeh, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Mask_of_Tutankhamun_in_2025.jpg), photo Dawid Wdowczyk, licence CC BY 4.0",
+        "analysis": "Un masque d'or massif, éclairé dans une vitrine sombre. Le jeune roi porte le némès rayé d'or et de bleu, un large collier de pierres colorées et une longue barbe tressée ; sur son front se dressent un cobra et une tête de vautour. Ses yeux sont soulignés de noir.",
+        "compare": "Il couvrait le visage de la momie du roi, mort vers 18 ou 19 ans. Sa tombe a été découverte en 1922 par l'archéologue britannique Howard Carter et ses ouvriers égyptiens ; elle contenait plus de 5 000 objets. Le masque, qui pèse plus de 10 kilogrammes d'or, est exposé depuis 2025 au Grand Musée égyptien, construit près des pyramides pour réunir pour la première fois tout le trésor du roi.",
+        "image": "images/mouvements/egypte-ancienne/masque-de-toutankhamon.jpg"
+      },
+      {
+        "title": "Le Livre des morts de la chanteuse d'Amon Nany",
+        "artist": "Scribe et peintre égyptiens",
+        "country": "Égypte",
+        "period": "vers 1050 av. J.-C.",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/548344), domaine public (CC0)",
+        "analysis": "Une feuille de papyrus jaune pâle. À gauche, le dieu Osiris, à la peau verte, se tient debout, coiffé d'une haute couronne blanche ; devant lui, une femme en longue robe blanche transparente lève les mains en prière, près d'une table d'offrandes. Au-dessus, des oiseaux et un serpent ; à droite, des colonnes de hiéroglyphes noirs et rouges.",
+        "compare": "Le « Livre des morts » est un recueil de formules magiques placé dans la tombe pour aider le défunt à traverser les dangers de l'au-delà et à réussir le jugement d'Osiris, où son cœur est pesé contre la plume de Maât, la déesse de la justice et de la vérité. Les femmes pouvaient avoir le leur : Nany, chanteuse au service du dieu Amon, a été enterrée près de Deir el-Bahari, où le Metropolitan Museum a fouillé sa tombe.",
+        "image": "images/mouvements/egypte-ancienne/livre-des-morts-de-nany.jpg"
+      },
+      {
+        "title": "Le grand temple d'Abou Simbel",
+        "artist": "Bâtisseurs égyptiens",
+        "country": "Égypte",
+        "period": "vers 1264–1244 av. J.-C. ; déplacé en 1964–1968",
+        "museum": "Site archéologique, Abou Simbel",
+        "credit": "Abou Simbel, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Templo_de_Rams%C3%A9s_II%2C_Abu_Simbel%2C_Egipto%2C_2022-04-02%2C_DD_03.jpg), photo Diego Delso, licence CC BY-SA 4.0",
+        "analysis": "Une façade taillée dans une colline de grès : quatre statues géantes du roi Ramsès II, assises, encadrent une porte ; l'une d'elles a perdu sa tête, tombée à ses pieds. Entre leurs jambes se tiennent de petites statues de la famille royale.",
+        "compare": "Ramsès II l'a fait creuser en Nubie, à la frontière sud de l'Égypte, pour impressionner les voyageurs et les peuples voisins. Deux fois par an, le soleil levant traverse le temple et éclaire les statues du fond. Dans les années 1960, le haut barrage d'Assouan allait le noyer sous le lac Nasser : une campagne internationale, menée par l'UNESCO, l'a découpé en plus de mille blocs et remonté 65 mètres plus haut. C'est l'une des plus grandes opérations de sauvetage de l'histoire de l'archéologie.",
+        "image": "images/mouvements/egypte-ancienne/temple-d-abou-simbel.jpg"
+      },
+      {
+        "title": "La pierre de Rosette",
+        "artist": "Prêtres égyptiens, sous le roi Ptolémée V",
+        "country": "Égypte",
+        "period": "196 av. J.-C.",
+        "museum": "British Museum, Londres",
+        "credit": "British Museum, Londres, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Rosetta_Stone.JPG), photo Hans Hillewaert, licence CC BY-SA 4.0",
+        "analysis": "Un grand bloc de pierre sombre et brisé, couvert de lignes d'écriture serrées : en haut, des hiéroglyphes ; au milieu, une écriture cursive ; en bas, des lettres grecques.",
+        "compare": "C'est un décret des prêtres en l'honneur du roi, écrit trois fois : en hiéroglyphes, en démotique, l'écriture de tous les jours, et en grec, la langue des Ptolémées. Trouvée en 1799 par des soldats de l'expédition de Bonaparte près de la ville de Rachid (Rosette), elle a été cédée aux Britanniques en 1801. En comparant les trois textes, Jean-François Champollion a déchiffré les hiéroglyphes en 1822, ouvrant la lecture de toute l'histoire égyptienne. L'Égypte en demande le retour.",
+        "image": "images/mouvements/egypte-ancienne/pierre-de-rosette.jpg"
+      },
+      {
+        "title": "Le temple d'Isis à Philae",
+        "artist": "Bâtisseurs égyptiens",
+        "country": "Égypte",
+        "period": "IIIe siècle av. J.-C. – IIe siècle ; déplacé en 1977–1980",
+        "museum": "Site archéologique, Assouan (île d'Aguilkia)",
+        "credit": "Assouan, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Temple_of_Isis_in_Philae.jpg), photo M.ramadan2014, licence CC BY-SA 3.0",
+        "analysis": "Sous un ciel bleu traversé de nuages, deux hautes façades de temple en forme de trapèze, les pylônes, couvertes de reliefs, se dressent derrière des palmiers et des rochers.",
+        "compare": "Philae était le grand sanctuaire de la déesse Isis, construit surtout par les Ptolémées et les empereurs romains, qui se faisaient représenter en pharaons. C'est là qu'a été gravée la dernière inscription hiéroglyphique connue, en 394. Menacé par les eaux des barrages d'Assouan, le temple a été démonté et reconstruit sur une île voisine, Aguilkia, grâce à une campagne de l'UNESCO.",
+        "image": "images/mouvements/egypte-ancienne/temple-de-philae.jpg"
+      },
+      {
+        "title": "Le zodiaque de Dendérah",
+        "artist": "Sculpteur égyptien",
+        "country": "Égypte",
+        "period": "vers 50 av. J.-C.",
+        "museum": "Musée du Louvre, Paris",
+        "credit": "Musée du Louvre, Paris, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Zodiaque_de_Dend%C3%A9ra_-_Mus%C3%A9e_du_Louvre_Antiquit%C3%A9s_Egyptiennes_D_38_%3B_E_13482.jpg), photo Shonagon, domaine public (CC0)",
+        "analysis": "Un grand plafond de grès sculpté, vu d'en bas, dans la pénombre. Un disque est porté par des déesses debout et des génies à tête de faucon ; à l'intérieur, des dizaines de figures tournent en cercle : des animaux, des dieux, des étoiles.",
+        "compare": "C'est une carte du ciel sculptée sur le plafond d'une chapelle du temple d'Hathor à Dendérah. On y reconnaît les constellations égyptiennes et les signes du zodiaque venus de Babylone et de Grèce, comme le Bélier ou le Scorpion. En 1821, il a été découpé à l'explosif et à la scie et emporté en France ; une copie le remplace aujourd'hui dans le temple.",
+        "image": "images/mouvements/egypte-ancienne/zodiaque-de-dendera.jpg"
+      },
+      {
+        "title": "Le temple de Dendour",
+        "artist": "Bâtisseurs égyptiens",
+        "country": "Égypte",
+        "period": "achevé vers 10 apr. J.-C.",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/547802), domaine public (CC0)",
+        "analysis": "Dans une immense salle aux murs de verre, un petit temple de grès est remonté sur une plate-forme de pierre, devant un bassin : une porte monumentale isolée, puis le temple lui-même, à l'entrée flanquée de deux colonnes.",
+        "compare": "Ce temple a été construit en Nubie sous l'empereur romain Auguste, représenté sur ses murs en pharaon devant les dieux. Menacé lui aussi par le lac du haut barrage d'Assouan, il a été offert par l'Égypte aux États-Unis en 1965, pour remercier de leur aide au sauvetage des monuments de Nubie, et remonté au Metropolitan Museum. D'autres temples sauvés ont été offerts à l'Espagne, aux Pays-Bas et à l'Italie.",
+        "image": "images/mouvements/egypte-ancienne/temple-de-dendour.jpg"
+      }
+    ]
   }
 ]

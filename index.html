@@ -608,6 +608,7 @@ html.diapo-ouvert,html.diapo-ouvert body{overflow:hidden}
     <button class="on" onclick="go('home',this)">Accueil</button>
     <button onclick="go('build',this)">Exposition</button>
     <button onclick="go('mv',this)">Mouvements</button>
+    <button onclick="go('civ',this)">Civilisations</button>
     <button onclick="go('acc',this)">Accessibilité</button>
     <button onclick="go('wb',this)">Bien-être</button>
     <a href="jeux/index.html">Jeux</a>
@@ -963,6 +964,15 @@ html.diapo-ouvert,html.diapo-ouvert body{overflow:hidden}
 </div>
 
 <!-- MOUVEMENTS : écoles et styles du monde, recherche et absences (liste MOUVEMENTS de musees.js) -->
+<div id="pg-civ" class="pg">
+  <div class="wrap">
+    <p class="ey">Histoire du monde</p>
+    <h2>Civilisations</h2>
+    <p class="sub">Des expositions consacrées à une civilisation tout entière : ses œuvres, ses grands sites archéologiques, et, pour chacune, « La civilisation en bref » : comment la société était organisée, comment on vivait, ce que l'on croyait, et ce que nous apprend l'archéologie. Les sources sont citées à la fin de chaque exposition.</p>
+    <section class="mus-region"><div id="civ-liste" class="mv-liste"></div></section>
+  </div>
+</div>
+
 <div id="pg-mv" class="pg">
   <div class="wrap">
     <p class="ey">Histoire de l'art mondiale</p>
@@ -1025,9 +1035,9 @@ html.diapo-ouvert,html.diapo-ouvert body{overflow:hidden}
   </div>
 </footer>
 <!-- Traductions (anglais, espagnol, arabe) et moteur de traduction -->
-<script src="i18n.js?v=20261110d"></script>
+<script src="i18n.js?v=20261111b"></script>
 <!-- Recherche en direct dans les catalogues ouverts des musées (domaine public) -->
-<script src="musees.js?v=20261110d"></script>
+<script src="musees.js?v=20261111b"></script>
 <script>
 const ART = [
   { img:"images/oeuvres/grande-vague-hokusai.jpg", credit:'Image : <a href="https://www.metmuseum.org/art/collection/search/45434" target="_blank" rel="noopener">The Metropolitan Museum of Art</a>, domaine public (Open Access)', name:"La Grande Vague de Kanagawa", meta:"Katsushika Hokusai · Japon · vers 1830-1832 · Metropolitan Museum of Art",
@@ -1081,7 +1091,7 @@ function chargerTradMouvement(e){
   document.head.appendChild(sc);
 }
 function apresChangementLangue(){try{if(spEnCours.mouvement)chargerTradMouvement(exposMv.find(e=>e.mouvement===spEnCours.mouvement));}catch(e){}}
-function retourSp(){if(spEnCours.mouvement)go('mv',document.querySelector('.nav-links button[onclick*="\'mv\'"]'));else go('home',document.querySelectorAll('.nav-links button')[0]);}
+function retourSp(){if(spEnCours.mouvement&&estCivilisation(spEnCours.mouvement))go('civ',document.querySelector('.nav-links button[onclick*="\'civ\'"]'));else if(spEnCours.mouvement)go('mv',document.querySelector('.nav-links button[onclick*="\'mv\'"]'));else go('home',document.querySelectorAll('.nav-links button')[0]);}
 
 function go(id,btn){
   document.querySelectorAll('.pg').forEach(p=>p.classList.remove('on'));
@@ -1092,6 +1102,7 @@ function go(id,btn){
   if(id==='build')viderGenerateur();
   if(id==='mus')afficherMusees();
   if(id==='mv')afficherMouvements();
+  if(id==='civ')afficherCivilisations();
   if(id==='acc'&&typeof afficherAutresOeuvresAcces==='function')afficherAutresOeuvresAcces();
   if(id==='wb'&&typeof initBienEtre==='function')initBienEtre();
   if(id!=='wb'&&typeof stopWb==='function'&&document.getElementById('wb-sess').style.display==='block')stopWb();
@@ -1228,19 +1239,28 @@ function choisirArtiste(a){
 const ORDRE_REGIONS_MV=["Asie de l'Est",'Asie du Sud et du Sud-Est','Moyen-Orient','Afrique','Amériques','Océanie','Europe'];
 (()=>{if(typeof MOUVEMENTS==='undefined')return;
   const z=document.getElementById('mv-tags');
-  if(z)z.innerHTML=ORDRE_REGIONS_MV.map(r=>{const l=MOUVEMENTS.filter(m=>m.region===r);return l.length?`<div class="mv-groupe"><p class="mv-groupe-t">${esc(r)}</p><div class="tags">${l.map(m=>`<span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="${esc(m.nom)}" onclick="tog(this,'mv')">${esc(m.nom)}</span>`).join('')}</div></div>`:'';}).join('');
+  if(z)z.innerHTML=ORDRE_REGIONS_MV.concat(['Civilisations']).map(r=>{const l=r==='Civilisations'?MOUVEMENTS.filter(m=>CIVILISATIONS.has(m.nom)):MOUVEMENTS.filter(m=>m.region===r&&!CIVILISATIONS.has(m.nom));return l.length?`<div class="mv-groupe"><p class="mv-groupe-t">${esc(r)}</p><div class="tags">${l.map(m=>`<span class="tag" role="button" tabindex="0" aria-pressed="false" data-v="${esc(m.nom)}" onclick="tog(this,'mv')">${esc(m.nom)}</span>`).join('')}</div></div>`:'';}).join('');
   majArtistes();
 })();
 // Vignettes des cartes de mouvement (images/mouvements/couvertures/<slug>.jpg, 640×400) : une par exposition préparée,
 // une œuvre non sensible de l'exposition. Nom du mouvement → slug de son exposition.
-const COUV_MV={"Ukiyo-e":"ukiyo-e","École du Bengale":"ecole-du-bengale","Peinture moghole":"peinture-moghole","Peinture de castas":"peinture-de-castas","Hudson River School":"hudson-river-school","École Rinpa":"ecole-rinpa","École Kanō":"ecole-kano","Paysage monumental des Song":"paysage-song","Peinture lettrée":"peinture-lettree","École de Shanghai":"ecole-de-shanghai","Peinture rajpoute et pahari":"peinture-rajpoute-et-pahari","Art khmer d'Angkor":"art-khmer-d-angkor","Miniature persane":"miniature-persane","Peinture ottomane":"peinture-ottomane","Art mamelouk":"art-mamelouk","Peinture chrétienne éthiopienne":"peinture-chretienne-ethiopienne","Art amarnien":"art-amarnien","Art d'Ifé":"art-d-ife","Art de cour du royaume du Bénin":"art-de-cour-du-benin","Art maya classique":"art-maya-classique","École de Cuzco":"ecole-de-cuzco","Sculpture maorie":"sculpture-maorie","Art du Sepik":"art-du-sepik","Art gothique":"art-gothique","Renaissance":"renaissance","Baroque":"baroque","Romantisme":"romantisme","École de Barbizon":"ecole-de-barbizon","Impressionnisme":"impressionnisme","Postimpressionnisme":"postimpressionnisme","Art nouveau":"art-nouveau","Expressionnisme":"expressionnisme","Néoclassicisme":"neoclassicisme","Réalisme":"realisme","Symbolisme":"symbolisme","Pionniers de l'abstraction":"pionniers-de-l-abstraction","Art assyrien":"art-assyrien","Grèce antique":"grece-antique","Rome antique":"rome-antique","Peinture de la dynastie Joseon":"peinture-de-la-dynastie-joseon"};
+const COUV_MV={"Ukiyo-e":"ukiyo-e","École du Bengale":"ecole-du-bengale","Peinture moghole":"peinture-moghole","Peinture de castas":"peinture-de-castas","Hudson River School":"hudson-river-school","École Rinpa":"ecole-rinpa","École Kanō":"ecole-kano","Paysage monumental des Song":"paysage-song","Peinture lettrée":"peinture-lettree","École de Shanghai":"ecole-de-shanghai","Peinture rajpoute et pahari":"peinture-rajpoute-et-pahari","Art khmer d'Angkor":"art-khmer-d-angkor","Miniature persane":"miniature-persane","Peinture ottomane":"peinture-ottomane","Art mamelouk":"art-mamelouk","Peinture chrétienne éthiopienne":"peinture-chretienne-ethiopienne","Art amarnien":"art-amarnien","Égypte ancienne":"egypte-ancienne","Art d'Ifé":"art-d-ife","Art de cour du royaume du Bénin":"art-de-cour-du-benin","Art maya classique":"art-maya-classique","École de Cuzco":"ecole-de-cuzco","Sculpture maorie":"sculpture-maorie","Art du Sepik":"art-du-sepik","Art gothique":"art-gothique","Renaissance":"renaissance","Baroque":"baroque","Romantisme":"romantisme","École de Barbizon":"ecole-de-barbizon","Impressionnisme":"impressionnisme","Postimpressionnisme":"postimpressionnisme","Art nouveau":"art-nouveau","Expressionnisme":"expressionnisme","Néoclassicisme":"neoclassicisme","Réalisme":"realisme","Symbolisme":"symbolisme","Pionniers de l'abstraction":"pionniers-de-l-abstraction","Art assyrien":"art-assyrien","Grèce antique":"grece-antique","Rome antique":"rome-antique","Peinture de la dynastie Joseon":"peinture-de-la-dynastie-joseon"};
 // Onglet « Mouvements » : cartes par région, chacune avec un bouton qui prépare l'exposition dans le générateur
 function afficherMouvements(){
   chargerExposMouvements().then(()=>document.querySelectorAll('#mv-regions [data-mv]').forEach(b=>{if(exposDuMouvement(b.dataset.mv))b.textContent='Voir l\'exposition';}));
   const z=document.getElementById('mv-regions');
   if(!z||z.children.length||typeof MOUVEMENTS==='undefined')return;
-  z.innerHTML=ORDRE_REGIONS_MV.map(r=>{const l=MOUVEMENTS.filter(m=>m.region===r);if(!l.length)return'';
-    return `<section class="mus-region"><h3>${esc(r)}</h3><div class="mv-liste">${l.map(m=>`<div class="mv-carte">${COUV_MV[m.nom]?`<img class="mv-cov" src="images/mouvements/couvertures/${COUV_MV[m.nom]}.jpg" alt="" width="640" height="400" loading="lazy" decoding="async">`:''}<h4>${esc(m.nom)}</h4><p class="mv-lieu">${esc(m.lieu)} · ${esc(m.epoque)}</p><p>${esc(m.texte)}</p>${m.artistes.length?`<p class="mv-art">${m.artistes.map(esc).join(', ')}</p>`:'<p class="mv-art">Œuvres le plus souvent anonymes</p>'}<button type="button" class="lien-btn" data-mv="${esc(m.nom)}" onclick="exposerMouvement(this.dataset.mv)">Créer une exposition</button></div>`).join('')}</div></section>`;}).join('');
+  z.innerHTML=ORDRE_REGIONS_MV.map(r=>{const l=MOUVEMENTS.filter(m=>m.region===r&&!estCivilisation(m.nom));if(!l.length)return'';
+    return `<section class="mus-region"><h3>${esc(r)}</h3><div class="mv-liste">${l.map(carteMv).join('')}</div></section>`;}).join('');
+}
+// Les civilisations (liste CIVILISATIONS de musees.js) ont leur propre onglet, après les mouvements
+function estCivilisation(nom){return typeof CIVILISATIONS!=='undefined'&&CIVILISATIONS.has(nom);}
+function carteMv(m){return `<div class="mv-carte">${COUV_MV[m.nom]?`<img class="mv-cov" src="images/mouvements/couvertures/${COUV_MV[m.nom]}.jpg" alt="" width="640" height="400" loading="lazy" decoding="async">`:''}<h4>${esc(m.nom)}</h4><p class="mv-lieu">${esc(m.lieu)} · ${esc(m.epoque)}</p><p>${esc(m.texte)}</p>${m.artistes.length?`<p class="mv-art">${m.artistes.map(esc).join(', ')}</p>`:'<p class="mv-art">Œuvres le plus souvent anonymes</p>'}<button type="button" class="lien-btn" data-mv="${esc(m.nom)}" onclick="exposerMouvement(this.dataset.mv)">Créer une exposition</button></div>`;}
+function afficherCivilisations(){
+  chargerExposMouvements().then(()=>document.querySelectorAll('#civ-liste [data-mv]').forEach(b=>{if(exposDuMouvement(b.dataset.mv))b.textContent='Voir l\'exposition';}));
+  const z=document.getElementById('civ-liste');
+  if(!z||z.children.length||typeof MOUVEMENTS==='undefined')return;
+  z.innerHTML=[...CIVILISATIONS].map(n=>MOUVEMENTS.find(m=>m.nom===n)).filter(Boolean).map(carteMv).join('');
 }
 function exposerMouvement(nom){
   chargerExposMouvements().then(()=>{const e=exposDuMouvement(nom);if(e)viewSp(e.id);else exposerMouvementDirect(nom);});
@@ -1974,10 +1994,10 @@ afficherValeurs(0);
 traduirePage();
 </script>
 <!-- Fenêtre Accessibilité de chaque œuvre et menu Affichage et lecture -->
-<script src="orchestre.js?v=20261110d"></script>
-<script src="accessibilite.js?v=20261110d"></script>
-<script src="diaporama.js?v=20261110d"></script>
+<script src="orchestre.js?v=20261111b"></script>
+<script src="accessibilite.js?v=20261111b"></script>
+<script src="diaporama.js?v=20261111b"></script>
 <!-- Séances de bien-être composées à la demande -->
-<script src="bienetre.js?v=20261110d"></script>
+<script src="bienetre.js?v=20261111b"></script>
 </body>
 </html>

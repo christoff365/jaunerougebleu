@@ -9841,6 +9841,80 @@
           "lat": 39.1295,
           "lon": 27.1841
         }
+      ],
+      "pays": [
+        {
+          "nom": "Turquie",
+          "lat": 38.593,
+          "lon": 27.658
+        },
+        {
+          "nom": "Grèce",
+          "lat": 39.493,
+          "lon": 21.726
+        },
+        {
+          "nom": "Albanie",
+          "lat": 40.481,
+          "lon": 20.208
+        },
+        {
+          "nom": "Macédoine du Nord",
+          "lat": 41.072,
+          "lon": 21.266
+        }
+      ],
+      "villes": [
+        {
+          "nom": "Athènes",
+          "lat": 37.985,
+          "lon": 23.731
+        },
+        {
+          "nom": "Thessalonique",
+          "lat": 40.698,
+          "lon": 22.883
+        },
+        {
+          "nom": "Patras",
+          "lat": 38.23,
+          "lon": 21.73
+        },
+        {
+          "nom": "Héraklion",
+          "lat": 35.325,
+          "lon": 25.13
+        },
+        {
+          "nom": "Kalamata",
+          "lat": 37.039,
+          "lon": 22.114
+        },
+        {
+          "nom": "Balıkesir",
+          "lat": 39.65,
+          "lon": 27.89
+        },
+        {
+          "nom": "Larissa",
+          "lat": 39.63,
+          "lon": 22.42
+        },
+        {
+          "nom": "Tekirdağ",
+          "lat": 40.991,
+          "lon": 27.51
+        },
+        {
+          "nom": "Çanakkale",
+          "lat": 40.146,
+          "lon": 26.406
+        },
+        {
+          "nom": "Söke",
+          "lat": 37.751,
+          "lon": 27.41
+        }
       ]
     }
   },
@@ -10346,6 +10420,130 @@
           "lat": 34.5504,
           "lon": 38.2698
         }
+      ],
+      "pays": [
+        {
+          "nom": "Tunisie",
+          "lat": 33.687,
+          "lon": 9.008
+        },
+        {
+          "nom": "Royaume-Uni",
+          "lat": 54.403,
+          "lon": -2.116
+        },
+        {
+          "nom": "Italie",
+          "lat": 44.732,
+          "lon": 11.077
+        },
+        {
+          "nom": "Libye",
+          "lat": 31.139,
+          "lon": 13.658
+        },
+        {
+          "nom": "Allemagne",
+          "lat": 50.962,
+          "lon": 9.678
+        },
+        {
+          "nom": "Espagne",
+          "lat": 40.091,
+          "lon": -3.465
+        },
+        {
+          "nom": "Turquie",
+          "lat": 39.345,
+          "lon": 34.508
+        },
+        {
+          "nom": "France",
+          "lat": 46.696,
+          "lon": 2.552
+        },
+        {
+          "nom": "Algérie",
+          "lat": 32.377,
+          "lon": 2.801
+        },
+        {
+          "nom": "Ukraine",
+          "lat": 49.725,
+          "lon": 32.141
+        },
+        {
+          "nom": "Russie",
+          "lat": 53.039,
+          "lon": 35.64
+        },
+        {
+          "nom": "Pologne",
+          "lat": 51.99,
+          "lon": 19.49
+        },
+        {
+          "nom": "Maroc",
+          "lat": 32.434,
+          "lon": -5.186
+        },
+        {
+          "nom": "Roumanie",
+          "lat": 45.733,
+          "lon": 24.973
+        }
+      ],
+      "villes": [
+        {
+          "nom": "Le Caire",
+          "lat": 30.052,
+          "lon": 31.248
+        },
+        {
+          "nom": "Moscou",
+          "lat": 55.754,
+          "lon": 37.614
+        },
+        {
+          "nom": "Paris",
+          "lat": 48.858,
+          "lon": 2.353
+        },
+        {
+          "nom": "Rome",
+          "lat": 41.898,
+          "lon": 12.481
+        },
+        {
+          "nom": "Athènes",
+          "lat": 37.985,
+          "lon": 23.731
+        },
+        {
+          "nom": "Vienne",
+          "lat": 48.202,
+          "lon": 16.365
+        },
+        {
+          "nom": "Amsterdam",
+          "lat": 52.352,
+          "lon": 4.915
+        },
+        {
+          "nom": "Alger",
+          "lat": 36.765,
+          "lon": 3.049
+        },
+        {
+          "nom": "Tel Aviv",
+          "lat": 32.082,
+          "lon": 34.768
+        },
+        {
+          "nom": "Lisbonne",
+          "lat": 38.725,
+          "lon": -9.147
+        }
       ]
     }
   },
@@ -10810,6 +11008,70 @@
           "lat": 31.4014,
           "lon": 30.4194
         }
+      ],
+      "pays": [
+        {
+          "nom": "Égypte",
+          "lat": 26.186,
+          "lon": 29.446
+        },
+        {
+          "nom": "Israël",
+          "lat": 30.911,
+          "lon": 34.848
+        }
+      ],
+      "villes": [
+        {
+          "nom": "Le Caire",
+          "lat": 30.052,
+          "lon": 31.248
+        },
+        {
+          "nom": "Amman",
+          "lat": 31.952,
+          "lon": 35.931
+        },
+        {
+          "nom": "Gaza",
+          "lat": 31.53,
+          "lon": 34.445
+        },
+        {
+          "nom": "Alexandrie",
+          "lat": 31.202,
+          "lon": 29.948
+        },
+        {
+          "nom": "Louxor",
+          "lat": 25.7,
+          "lon": 32.65
+        },
+        {
+          "nom": "Port-Saïd",
+          "lat": 31.26,
+          "lon": 32.29
+        },
+        {
+          "nom": "Assiout",
+          "lat": 27.19,
+          "lon": 31.18
+        },
+        {
+          "nom": "Médinet el-Fayoum",
+          "lat": 29.31,
+          "lon": 30.84
+        },
+        {
+          "nom": "Assouan",
+          "lat": 24.088,
+          "lon": 32.899
+        },
+        {
+          "nom": "Al-Minya",
+          "lat": 28.09,
+          "lon": 30.75
+        }
       ]
     }
   },
@@ -11112,6 +11374,80 @@
           "nom": "Région du lac Tana",
           "lat": 12,
           "lon": 37.25
+        }
+      ],
+      "pays": [
+        {
+          "nom": "Érythrée",
+          "lat": 15.787,
+          "lon": 38.286
+        },
+        {
+          "nom": "Éthiopie",
+          "lat": 12.673,
+          "lon": 38.996
+        },
+        {
+          "nom": "Soudan",
+          "lat": 14.401,
+          "lon": 35.754
+        },
+        {
+          "nom": "Yémen",
+          "lat": 15.069,
+          "lon": 43.438
+        }
+      ],
+      "villes": [
+        {
+          "nom": "Asmara",
+          "lat": 15.333,
+          "lon": 38.933
+        },
+        {
+          "nom": "Djibouti",
+          "lat": 11.595,
+          "lon": 43.148
+        },
+        {
+          "nom": "Kassala",
+          "lat": 15.46,
+          "lon": 36.39
+        },
+        {
+          "nom": "Baher Dar",
+          "lat": 11.6,
+          "lon": 37.383
+        },
+        {
+          "nom": "Assab",
+          "lat": 13.01,
+          "lon": 42.73
+        },
+        {
+          "nom": "Mekele",
+          "lat": 13.5,
+          "lon": 39.47
+        },
+        {
+          "nom": "Al-Qadarif",
+          "lat": 14.04,
+          "lon": 35.38
+        },
+        {
+          "nom": "Dessie",
+          "lat": 11.13,
+          "lon": 39.63
+        },
+        {
+          "nom": "Sa'dah",
+          "lat": 16.94,
+          "lon": 43.85
+        },
+        {
+          "nom": "Mendefera",
+          "lat": 14.886,
+          "lon": 38.816
         }
       ]
     }
@@ -11619,6 +11955,85 @@
           "lat": 31.2325,
           "lon": 121.4692
         }
+      ],
+      "pays": [
+        {
+          "nom": "Chine",
+          "lat": 32.498,
+          "lon": 106.337
+        },
+        {
+          "nom": "Birmanie",
+          "lat": 24.702,
+          "lon": 96.047
+        },
+        {
+          "nom": "Inde",
+          "lat": 25.735,
+          "lon": 92.984
+        },
+        {
+          "nom": "Viêt Nam",
+          "lat": 22.157,
+          "lon": 104.49
+        },
+        {
+          "nom": "Taïwan",
+          "lat": 23.652,
+          "lon": 120.868
+        }
+      ],
+      "villes": [
+        {
+          "nom": "Pékin",
+          "lat": 39.902,
+          "lon": 116.394
+        },
+        {
+          "nom": "Hong Kong",
+          "lat": 22.307,
+          "lon": 114.183
+        },
+        {
+          "nom": "Taipei",
+          "lat": 25.036,
+          "lon": 121.568
+        },
+        {
+          "nom": "Shanghai",
+          "lat": 31.218,
+          "lon": 121.435
+        },
+        {
+          "nom": "Chengdu",
+          "lat": 30.672,
+          "lon": 104.068
+        },
+        {
+          "nom": "Chongqing",
+          "lat": 29.567,
+          "lon": 106.593
+        },
+        {
+          "nom": "Shenyang",
+          "lat": 41.807,
+          "lon": 123.448
+        },
+        {
+          "nom": "Chittagong",
+          "lat": 22.332,
+          "lon": 91.798
+        },
+        {
+          "nom": "Xi'an",
+          "lat": 34.277,
+          "lon": 108.893
+        },
+        {
+          "nom": "Guiyang",
+          "lat": 26.582,
+          "lon": 106.718
+        }
       ]
     }
   },
@@ -11996,7 +12411,35 @@
           "lon": -99.5
         }
       ],
-      "note": "Le contour bleu en pointillé montre les anciens lacs de la vallée de Mexico (Texcoco, Xochimilco, Chalco), aujourd'hui presque entièrement asséchés ; Tenochtitlan était bâtie sur une île de ce lac."
+      "note": "Le contour bleu en pointillé montre les anciens lacs de la vallée de Mexico (Texcoco, Xochimilco, Chalco), aujourd'hui presque entièrement asséchés ; Tenochtitlan était bâtie sur une île de ce lac.",
+      "pays": [],
+      "villes": [
+        {
+          "nom": "Mexico",
+          "lat": 19.444,
+          "lon": -99.133
+        },
+        {
+          "nom": "Cuernavaca",
+          "lat": 18.921,
+          "lon": -99.24
+        },
+        {
+          "nom": "Toluca",
+          "lat": 19.289,
+          "lon": -99.653
+        },
+        {
+          "nom": "Zumpango",
+          "lat": 19.81,
+          "lon": -99.11
+        },
+        {
+          "nom": "Atlixco",
+          "lat": 18.9,
+          "lon": -98.45
+        }
+      ]
     }
   },
   {
@@ -12328,6 +12771,85 @@
           "nom": "Cajamarca",
           "lat": -7.1575,
           "lon": -78.5175
+        }
+      ],
+      "pays": [
+        {
+          "nom": "Équateur",
+          "lat": -1.259,
+          "lon": -78.188
+        },
+        {
+          "nom": "Bolivie",
+          "lat": -13.732,
+          "lon": -67.774
+        },
+        {
+          "nom": "Pérou",
+          "lat": -12.977,
+          "lon": -72.9
+        },
+        {
+          "nom": "Brésil",
+          "lat": -5.542,
+          "lon": -69.732
+        },
+        {
+          "nom": "Colombie",
+          "lat": -2.117,
+          "lon": -71.356
+        }
+      ],
+      "villes": [
+        {
+          "nom": "Lima",
+          "lat": -12.046,
+          "lon": -77.052
+        },
+        {
+          "nom": "La Paz",
+          "lat": -16.496,
+          "lon": -68.152
+        },
+        {
+          "nom": "Guayaquil",
+          "lat": -2.218,
+          "lon": -79.922
+        },
+        {
+          "nom": "Trujillo",
+          "lat": -8.12,
+          "lon": -79.02
+        },
+        {
+          "nom": "Cuzco",
+          "lat": -13.525,
+          "lon": -71.972
+        },
+        {
+          "nom": "Ica",
+          "lat": -14.068,
+          "lon": -75.725
+        },
+        {
+          "nom": "Leticia",
+          "lat": -4.201,
+          "lon": -69.955
+        },
+        {
+          "nom": "Cruzeiro do Sul",
+          "lat": -7.63,
+          "lon": -72.67
+        },
+        {
+          "nom": "Iquitos",
+          "lat": -3.75,
+          "lon": -73.25
+        },
+        {
+          "nom": "Huancayo",
+          "lat": -12.08,
+          "lon": -75.2
         }
       ]
     }

@@ -262,6 +262,37 @@ content:
               - name: lon
                 label: Longitude
                 type: number
+          - name: note
+            label: "Légende propre à cette carte (facultative)"
+            type: text
+          - name: pays
+            label: "Pays d'aujourd'hui affichés en gris pour se repérer (nom en français, traduit dans i18n-mouvements)"
+            type: object
+            list: true
+            fields:
+              - name: nom
+                label: Nom du pays
+                type: string
+              - name: lat
+                label: Latitude de l'étiquette
+                type: number
+              - name: lon
+                label: Longitude de l'étiquette
+                type: number
+          - name: villes
+            label: "Grandes villes d'aujourd'hui affichées en gris pour se repérer"
+            type: object
+            list: true
+            fields:
+              - name: nom
+                label: Nom de la ville
+                type: string
+              - name: lat
+                label: Latitude
+                type: number
+              - name: lon
+                label: Longitude
+                type: number
       - name: contexte
         label: "La civilisation en bref (facultatif, pour les civilisations) : paragraphes affichés après l'introduction (société, vie quotidienne, croyances, archéologie)"
         type: object

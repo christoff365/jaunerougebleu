@@ -465,6 +465,11 @@ img.zoom:focus-visible{outline:3px solid #1a3a8a;outline-offset:-3px}
 .sp-carte-note{font-size:13px;color:#555;line-height:1.7;margin-bottom:10px;max-width:820px}
 .civ-carte svg{width:100%;height:auto;display:block;border:1px solid #d8d0c0;border-radius:6px;background:#dce8ee}
 .civ-pt{cursor:pointer}.civ-pt .civ-zone{fill:transparent}
+/* repères actuels : pays et grandes villes (taille de texte constante à l'écran grâce à --k, échelle de la carte) */
+.civ-carte svg{--k:2.5}
+.civ-pays{font-size:calc(10.5px * var(--k));fill:#8c8270;letter-spacing:.12em;text-transform:uppercase;text-anchor:middle;dominant-baseline:middle;font-weight:600;paint-order:stroke;stroke:#f4eedf;stroke-width:calc(3px * var(--k));pointer-events:none}
+.civ-ville text{font-size:calc(10.5px * var(--k));fill:#4a4438;dominant-baseline:middle;paint-order:stroke;stroke:#f4eedf;stroke-width:calc(3px * var(--k));pointer-events:none}
+.civ-ville circle{fill:#4a4438;stroke:#f4eedf;stroke-width:2}
 .civ-pt .civ-pt-c{fill:#C9A84C;stroke:#111;stroke-width:3}
 .civ-pt.on .civ-pt-c{fill:#c0392b;stroke:#fff;transform:scale(1.4)}
 .civ-lien{color:var(--bleu);text-decoration:underline}
@@ -1059,9 +1064,9 @@ html.diapo-ouvert,html.diapo-ouvert body{overflow:hidden}
   </div>
 </footer>
 <!-- Traductions (anglais, espagnol, arabe) et moteur de traduction -->
-<script src="i18n.js?v=20261112f"></script>
+<script src="i18n.js?v=20261112g"></script>
 <!-- Recherche en direct dans les catalogues ouverts des musées (domaine public) -->
-<script src="musees.js?v=20261112f"></script>
+<script src="musees.js?v=20261112g"></script>
 <script>
 const ART = [
   { img:"images/oeuvres/grande-vague-hokusai.jpg", credit:'Image : <a href="https://www.metmuseum.org/art/collection/search/45434" target="_blank" rel="noopener">The Metropolitan Museum of Art</a>, domaine public (Open Access)', name:"La Grande Vague de Kanagawa", meta:"Katsushika Hokusai · Japon · vers 1830-1832 · Metropolitan Museum of Art",
@@ -1843,12 +1848,18 @@ function carteCiv(e){
   if(!civLieux.length)return '';
   const W=1000,H=Math.round(W*(c.nord-c.sud)/((c.est-c.ouest)*Math.cos((c.nord+c.sud)/2*Math.PI/180)));
   const x=lon=>((lon-c.ouest)/(c.est-c.ouest)*W).toFixed(1),y=lat=>((c.nord-lat)/(c.nord-c.sud)*H).toFixed(1);
+  // repères d'aujourd'hui : pays et grandes villes (Natural Earth), sous les points de l'exposition
+  const fond=(c.pays||[]).map(p=>`<text class="civ-pays" x="${x(p.lon)}" y="${y(p.lat)}">${esc(p.nom)}</text>`).join('')+
+    (c.villes||[]).map(v=>{const vx=+x(v.lon),gauche=vx>W-170;return `<g class="civ-ville"><circle cx="${vx}" cy="${y(v.lat)}" r="5"/><text x="${gauche?vx-12:vx+12}" y="${y(v.lat)}" text-anchor="${gauche?'end':'start'}">${esc(v.nom)}</text></g>`;}).join('');
   const pts=civLieux.map((o,k)=>`<g class="civ-pt" data-k="${k}" transform="translate(${x(o.l.lon)} ${y(o.l.lat)})" onclick="montrerLieu(${k})"><title>${esc(o.l.nom)}</title><circle class="civ-zone" r="34"/><circle class="civ-pt-c" r="${12+Math.min(o.ws.length,6)*2}"/></g>`).join('');
-  return `<section class="sp-carte"><h3>Carte</h3><p class="sp-carte-note">Chaque point est un site archéologique, ou le lieu où une œuvre a été découverte, fabriquée ou représentée. Les œuvres dont l'origine n'est pas connue avec précision ne sont pas placées. Fond de carte : Natural Earth (domaine public), frontières actuelles en pointillé ; coordonnées : Wikidata.</p>`+(c.note?`<p class="sp-carte-note">${esc(c.note)}</p>`:'')+
-    `<div class="civ-carte"><svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Carte des lieux de l'exposition"><image href="${esc(c.image)}" width="${W}" height="${H}"/>${pts}</svg></div>`+
+  return `<section class="sp-carte"><h3>Carte</h3><p class="sp-carte-note">Chaque point est un site archéologique, ou le lieu où une œuvre a été découverte, fabriquée ou représentée. Les œuvres dont l'origine n'est pas connue avec précision ne sont pas placées. En gris, les pays et les grandes villes d'aujourd'hui, pour se repérer ; frontières actuelles en pointillé. Fond de carte, pays et villes : Natural Earth (domaine public) ; coordonnées des lieux : Wikidata.</p>`+(c.note?`<p class="sp-carte-note">${esc(c.note)}</p>`:'')+
+    `<div class="civ-carte"><svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Carte des lieux de l'exposition"><image href="${esc(c.image)}" width="${W}" height="${H}"/>${fond}${pts}</svg></div>`+
     `<div class="civ-info" aria-live="polite"><p>Touchez un point ou un nom de lieu pour voir les œuvres de ce lieu.</p></div>`+
     `<ul class="civ-lieux">${civLieux.map((o,k)=>`<li><button type="button" data-k="${k}" onclick="montrerLieu(${k})"><span>${esc(o.l.nom)}</span><span class="civ-n">${o.ws.length}</span></button></li>`).join('')}</ul></section>`;
 }
+// garde une taille de texte constante à l'écran, quelle que soit la largeur de la carte
+function ajusterCarteCiv(){const s=document.querySelector('#sp-carte svg');if(s&&s.clientWidth)s.style.setProperty('--k',(1000/s.clientWidth).toFixed(3));}
+window.addEventListener('resize',ajusterCarteCiv);
 function montrerLieu(k){
   const o=civLieux[k];if(!o)return;
   document.querySelectorAll('#sp-carte [data-k]').forEach(el=>el.classList.toggle('on',+el.dataset.k===k));
@@ -1890,7 +1901,7 @@ function viewSp(id){const e=expos.find(x=>x.id===id)||exposMv.find(x=>x.id===id)
       const tmp=document.createElement('div');tmp.innerHTML=carteSp(f,false);const el=tmp.firstElementChild;el.dataset.idx=i;marquerPays(el,f);attente.replaceWith(el);return el;});
   });
   majCompteSp();
-  document.querySelectorAll('.pg').forEach(p=>p.classList.remove('on'));document.getElementById('pg-sp').classList.add('on');document.querySelectorAll('.nav-links button').forEach(b=>b.classList.remove('on'));window.scrollTo(0,0);
+  document.querySelectorAll('.pg').forEach(p=>p.classList.remove('on'));document.getElementById('pg-sp').classList.add('on');document.querySelectorAll('.nav-links button').forEach(b=>b.classList.remove('on'));window.scrollTo(0,0);ajusterCarteCiv();
   Promise.all(places).then(()=>{
     if(numero!==spEnCours.numero)return;
     const pays=majCompteSp(),objectif=objectifPays(e),manque=objectif-pays.size;
@@ -2049,10 +2060,10 @@ afficherValeurs(0);
 traduirePage();
 </script>
 <!-- Fenêtre Accessibilité de chaque œuvre et menu Affichage et lecture -->
-<script src="orchestre.js?v=20261112f"></script>
-<script src="accessibilite.js?v=20261112f"></script>
-<script src="diaporama.js?v=20261112f"></script>
+<script src="orchestre.js?v=20261112g"></script>
+<script src="accessibilite.js?v=20261112g"></script>
+<script src="diaporama.js?v=20261112g"></script>
 <!-- Séances de bien-être composées à la demande -->
-<script src="bienetre.js?v=20261112f"></script>
+<script src="bienetre.js?v=20261112g"></script>
 </body>
 </html>

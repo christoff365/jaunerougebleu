@@ -138,4 +138,9 @@ Object.assign(TRAD, {
   "Xochimilco": ["Xochimilco", "Xochimilco", "سوتشيميلكو"],
   "Tlalmanalco": ["Tlalmanalco", "Tlalmanalco", "تلالماناكو"],
   "Malinalco": ["Malinalco", "Malinalco", "مالينالكو"],
+  "Mexico": ["Mexico City", "Ciudad de México", "مدينة مكسيكو"],
+  "Cuernavaca": ["Cuernavaca", "Cuernavaca", "كويرنافاكا"],
+  "Toluca": ["Toluca", "Toluca de Lerdo", "تولوكا"],
+  "Zumpango": ["Zumpango", "Zumpango", "زومبانغو"],
+  "Atlixco": ["Atlixco", "Atlixco de las flores", "أتليسكو"],
 });

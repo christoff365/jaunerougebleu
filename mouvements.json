@@ -9841,6 +9841,80 @@
           "lat": 39.1295,
           "lon": 27.1841
         }
+      ],
+      "pays": [
+        {
+          "nom": "Turquie",
+          "lat": 38.593,
+          "lon": 27.658
+        },
+        {
+          "nom": "Grèce",
+          "lat": 39.493,
+          "lon": 21.726
+        },
+        {
+          "nom": "Albanie",
+          "lat": 40.481,
+          "lon": 20.208
+        },
+        {
+          "nom": "Macédoine du Nord",
+          "lat": 41.072,
+          "lon": 21.266
+        }
+      ],
+      "villes": [
+        {
+          "nom": "Athènes",
+          "lat": 37.985,
+          "lon": 23.731
+        },
+        {
+          "nom": "Thessalonique",
+          "lat": 40.698,
+          "lon": 22.883
+        },
+        {
+          "nom": "Patras",
+          "lat": 38.23,
+          "lon": 21.73
+        },
+        {
+          "nom": "Héraklion",
+          "lat": 35.325,
+          "lon": 25.13
+        },
+        {
+          "nom": "Kalamata",
+          "lat": 37.039,
+          "lon": 22.114
+        },
+        {
+          "nom": "Balıkesir",
+          "lat": 39.65,
+          "lon": 27.89
+        },
+        {
+          "nom": "Larissa",
+          "lat": 39.63,
+          "lon": 22.42
+        },
+        {
+          "nom": "Tekirdağ",
+          "lat": 40.991,
+          "lon": 27.51
+        },
+        {
+          "nom": "Çanakkale",
+          "lat": 40.146,
+          "lon": 26.406
+        },
+        {
+          "nom": "Söke",
+          "lat": 37.751,
+          "lon": 27.41
+        }
       ]
     }
   },
@@ -10346,6 +10420,130 @@
           "lat": 34.5504,
           "lon": 38.2698
         }
+      ],
+      "pays": [
+        {
+          "nom": "Tunisie",
+          "lat": 33.687,
+          "lon": 9.008
+        },
+        {
+          "nom": "Royaume-Uni",
+          "lat": 54.403,
+          "lon": -2.116
+        },
+        {
+          "nom": "Italie",
+          "lat": 44.732,
+          "lon": 11.077
+        },
+        {
+          "nom": "Libye",
+          "lat": 31.139,
+          "lon": 13.658
+        },
+        {
+          "nom": "Allemagne",
+          "lat": 50.962,
+          "lon": 9.678
+        },
+        {
+          "nom": "Espagne",
+          "lat": 40.091,
+          "lon": -3.465
+        },
+        {
+          "nom": "Turquie",
+          "lat": 39.345,
+          "lon": 34.508
+        },
+        {
+          "nom": "France",
+          "lat": 46.696,
+          "lon": 2.552
+        },
+        {
+          "nom": "Algérie",
+          "lat": 32.377,
+          "lon": 2.801
+        },
+        {
+          "nom": "Ukraine",
+          "lat": 49.725,
+          "lon": 32.141
+        },
+        {
+          "nom": "Russie",
+          "lat": 53.039,
+          "lon": 35.64
+        },
+        {
+          "nom": "Pologne",
+          "lat": 51.99,
+          "lon": 19.49
+        },
+        {
+          "nom": "Maroc",
+          "lat": 32.434,
+          "lon": -5.186
+        },
+        {
+          "nom": "Roumanie",
+          "lat": 45.733,
+          "lon": 24.973
+        }
+      ],
+      "villes": [
+        {
+          "nom": "Le Caire",
+          "lat": 30.052,
+          "lon": 31.248
+        },
+        {
+          "nom": "Moscou",
+          "lat": 55.754,
+          "lon": 37.614
+        },
+        {
+          "nom": "Paris",
+          "lat": 48.858,
+          "lon": 2.353
+        },
+        {
+          "nom": "Rome",
+          "lat": 41.898,
+          "lon": 12.481
+        },
+        {
+          "nom": "Athènes",
+          "lat": 37.985,
+          "lon": 23.731
+        },
+        {
+          "nom": "Vienne",
+          "lat": 48.202,
+          "lon": 16.365
+        },
+        {
+          "nom": "Amsterdam",
+          "lat": 52.352,
+          "lon": 4.915
+        },
+        {
+          "nom": "Alger",
+          "lat": 36.765,
+          "lon": 3.049
+        },
+        {
+          "nom": "Tel Aviv",
+          "lat": 32.082,
+          "lon": 34.768
+        },
+        {
+          "nom": "Lisbonne",
+          "lat": 38.725,
+          "lon": -9.147
+        }
       ]
     }
   },
@@ -10810,6 +11008,70 @@
           "lat": 31.4014,
           "lon": 30.4194
         }
+      ],
+      "pays": [
+        {
+          "nom": "Égypte",
+          "lat": 26.186,
+          "lon": 29.446
+        },
+        {
+          "nom": "Israël",
+          "lat": 30.911,
+          "lon": 34.848
+        }
+      ],
+      "villes": [
+        {
+          "nom": "Le Caire",
+          "lat": 30.052,
+          "lon": 31.248
+        },
+        {
+          "nom": "Amman",
+          "lat": 31.952,
+          "lon": 35.931
+        },
+        {
+          "nom": "Gaza",
+          "lat": 31.53,
+          "lon": 34.445
+        },
+        {
+          "nom": "Alexandrie",
+          "lat": 31.202,
+          "lon": 29.948
+        },
+        {
+          "nom": "Louxor",
+          "lat": 25.7,
+          "lon": 32.65
+        },
+        {
+          "nom": "Port-Saïd",
+          "lat": 31.26,
+          "lon": 32.29
+        },
+        {
+          "nom": "Assiout",
+          "lat": 27.19,
+          "lon": 31.18
+        },
+        {
+          "nom": "Médinet el-Fayoum",
+          "lat": 29.31,
+          "lon": 30.84
+        },
+        {
+          "nom": "Assouan",
+          "lat": 24.088,
+          "lon": 32.899
+        },
+        {
+          "nom": "Al-Minya",
+          "lat": 28.09,
+          "lon": 30.75
+        }
       ]
     }
   },
@@ -11112,6 +11374,80 @@
           "nom": "Région du lac Tana",
           "lat": 12,
           "lon": 37.25
+        }
+      ],
+      "pays": [
+        {
+          "nom": "Érythrée",
+          "lat": 15.787,
+          "lon": 38.286
+        },
+        {
+          "nom": "Éthiopie",
+          "lat": 12.673,
+          "lon": 38.996
+        },
+        {
+          "nom": "Soudan",
+          "lat": 14.401,
+          "lon": 35.754
+        },
+        {
+          "nom": "Yémen",
+          "lat": 15.069,
+          "lon": 43.438
+        }
+      ],
+      "villes": [
+        {
+          "nom": "Asmara",
+          "lat": 15.333,
+          "lon": 38.933
+        },
+        {
+          "nom": "Djibouti",
+          "lat": 11.595,
+          "lon": 43.148
+        },
+        {
+          "nom": "Kassala",
+          "lat": 15.46,
+          "lon": 36.39
+        },
+        {
+          "nom": "Baher Dar",
+          "lat": 11.6,
+          "lon": 37.383
+        },
+        {
+          "nom": "Assab",
+          "lat": 13.01,
+          "lon": 42.73
+        },
+        {
+          "nom": "Mekele",
+          "lat": 13.5,
+          "lon": 39.47
+        },
+        {
+          "nom": "Al-Qadarif",
+          "lat": 14.04,
+          "lon": 35.38
+        },
+        {
+          "nom": "Dessie",
+          "lat": 11.13,
+          "lon": 39.63
+        },
+        {
+          "nom": "Sa'dah",
+          "lat": 16.94,
+          "lon": 43.85
+        },
+        {
+          "nom": "Mendefera",
+          "lat": 14.886,
+          "lon": 38.816
         }
       ]
     }
@@ -11618,6 +11954,902 @@
           "nom": "Shanghai",
           "lat": 31.2325,
           "lon": 121.4692
+        }
+      ],
+      "pays": [
+        {
+          "nom": "Chine",
+          "lat": 32.498,
+          "lon": 106.337
+        },
+        {
+          "nom": "Birmanie",
+          "lat": 24.702,
+          "lon": 96.047
+        },
+        {
+          "nom": "Inde",
+          "lat": 25.735,
+          "lon": 92.984
+        },
+        {
+          "nom": "Viêt Nam",
+          "lat": 22.157,
+          "lon": 104.49
+        },
+        {
+          "nom": "Taïwan",
+          "lat": 23.652,
+          "lon": 120.868
+        }
+      ],
+      "villes": [
+        {
+          "nom": "Pékin",
+          "lat": 39.902,
+          "lon": 116.394
+        },
+        {
+          "nom": "Hong Kong",
+          "lat": 22.307,
+          "lon": 114.183
+        },
+        {
+          "nom": "Taipei",
+          "lat": 25.036,
+          "lon": 121.568
+        },
+        {
+          "nom": "Shanghai",
+          "lat": 31.218,
+          "lon": 121.435
+        },
+        {
+          "nom": "Chengdu",
+          "lat": 30.672,
+          "lon": 104.068
+        },
+        {
+          "nom": "Chongqing",
+          "lat": 29.567,
+          "lon": 106.593
+        },
+        {
+          "nom": "Shenyang",
+          "lat": 41.807,
+          "lon": 123.448
+        },
+        {
+          "nom": "Chittagong",
+          "lat": 22.332,
+          "lon": 91.798
+        },
+        {
+          "nom": "Xi'an",
+          "lat": 34.277,
+          "lon": 108.893
+        },
+        {
+          "nom": "Guiyang",
+          "lat": 26.582,
+          "lon": 106.718
+        }
+      ]
+    }
+  },
+  {
+    "mouvement": "Aztèques",
+    "slug": "azteques",
+    "status": "published",
+    "title": "Les Aztèques, de l'aigle sur le cactus à la chute de Tenochtitlan",
+    "subtitle": "Mexique, vers 1325 – 1521 : vingt-quatre œuvres et sites archéologiques de Mexico, Xochimilco, Tlatelolco, Malinalco, Oxford, Paris, Florence, Vienne, Londres, New York et Cleveland",
+    "intro": "Ceux que nous appelons les Aztèques se nommaient eux-mêmes les Mexicas : c'est d'eux que viennent les noms de Mexico et du Mexique. Venus du nord, selon leurs récits, ils fondent vers 1325 leur capitale, Tenochtitlan, sur une île du lac de Texcoco, au cœur des hauts plateaux du Mexique central, là où d'autres grandes civilisations les avaient précédés, comme celle de Teotihuacan. En un peu plus d'un siècle, alliés à deux villes voisines, ils soumettent une grande partie du Mexique central, du golfe du Mexique à l'océan Pacifique : un empire fondé sur la guerre et sur le tribut que paient les peuples vaincus. Au début du XVIe siècle, Tenochtitlan est l'une des plus grandes villes du monde, avec ses canaux, ses temples, ses marchés et ses écoles. Elle tombe en 1521, après le débarquement des Espagnols d'Hernán Cortés, leurs alliances avec les ennemis des Mexicas et une terrible épidémie de variole. Mais la langue des Aztèques, le nahuatl, est toujours parlée par plus d'un million et demi de Mexicains, et leurs mots sont passés dans le monde entier : chocolat, tomate, avocat, coyote… L'exposition suit cette histoire, de la fondation de la ville à sa chute, en mêlant sites archéologiques, sculptures, objets précieux et codex, ces livres peints par des scribes indigènes. Les œuvres conservées au Mexique ont été photographiées par des visiteurs, qui ont publié leurs images sous licence libre avec leur nom ; d'autres viennent de bibliothèques et de musées d'Europe et des États-Unis. La pierre de Coyolxauhqui, où la déesse est représentée nue et démembrée, est marquée « Image sensible ». Par respect, l'exposition ne montre pas d'objets faits de restes humains.",
+    "contexte": [
+      {
+        "title": "Le tlatoani, les nobles et le peuple",
+        "text": "À la tête de Tenochtitlan se trouve le tlatoani, « celui qui parle », choisi parmi les membres d'une même famille par un conseil de nobles et de prêtres ; Moctezuma II, qui règne de 1502 à 1520, est le plus célèbre. En 1428, Tenochtitlan s'allie à deux autres villes du lac, Texcoco et Tlacopan : c'est la Triple Alliance, qui soumet en moins d'un siècle une grande partie du Mexique central. Les peuples vaincus gardent souvent leurs chefs, mais doivent livrer un tribut régulier : maïs, haricots, cacao, coton, plumes, or, jade, vêtements et armes. La société est très hiérarchisée : les nobles (pipiltin) occupent les hautes fonctions, tandis que les gens du peuple (macehualtin) sont regroupés en quartiers, les calpolli, qui se partagent les terres, l'école et le temple. Les guerriers qui font des prisonniers peuvent s'élever dans la société ; les marchands au long cours (pochteca) et les artisans de luxe forment des groupes à part, très respectés."
+      },
+      {
+        "title": "Vivre sur le lac",
+        "text": "Tenochtitlan est bâtie sur une île du lac de Texcoco, reliée à la terre ferme par de grandes chaussées ; un aqueduc apporte l'eau douce de Chapultepec, et des canaux parcourus par des milliers de canoës servent de rues. Au début du XVIe siècle, la ville compte peut-être 200 000 habitants, plus que la plupart des villes d'Europe. Autour, les paysans cultivent des chinampas, des champs gagnés sur les eaux peu profondes avec de la boue et des plantes, très fertiles. On mange surtout du maïs, sous forme de galettes (tortillas) et de bouillies, des haricots, des courges, des piments, des tomates, des poissons et des insectes du lac ; le cacao, réservé aux riches, sert aussi de monnaie. Tous les garçons vont à l'école : les fils de nobles au calmecac, où l'on apprend les écritures, le calendrier et les chants, les autres au telpochcalli, l'école des jeunes guerriers. Les femmes filent, tissent, préparent les repas et vendent au marché ; certaines sont sages-femmes, guérisseuses ou prêtresses."
+      },
+      {
+        "title": "Les dieux, le temps et le sacrifice",
+        "text": "Les Aztèques honorent de nombreux dieux : Huitzilopochtli, dieu du soleil et de la guerre, protecteur des Mexicas ; Tlaloc, dieu de la pluie ; Quetzalcoatl, le serpent à plumes, dieu du vent et du savoir ; Tezcatlipoca, le « miroir fumant » ; et des déesses de la terre, de l'eau et du maïs. Ils pensent vivre sous le cinquième soleil, après quatre mondes détruits, et que le soleil a besoin d'être nourri pour continuer sa course. D'où les offrandes, les jeûnes, les saignées que s'infligent les prêtres, et les sacrifices humains, surtout de prisonniers de guerre, au sommet des temples ; leur nombre exact reste discuté par les historiens, car les chiffres donnés par les Espagnols servaient aussi à justifier la conquête. Le temps est réglé par deux calendriers qui tournent ensemble : l'année solaire de 365 jours et le calendrier rituel de 260 jours ; ils reviennent au même point tous les 52 ans, et l'on célèbre alors la cérémonie du Feu nouveau."
+      },
+      {
+        "title": "La conquête et ce que nous apprend l'archéologie",
+        "text": "En 1519, l'Espagnol Hernán Cortés débarque sur la côte du golfe du Mexique avec quelques centaines d'hommes. Il est accueilli à Tenochtitlan par Moctezuma, puis la guerre éclate. Les Espagnols ne gagnent qu'avec l'aide de dizaines de milliers d'alliés indigènes, surtout de Tlaxcala, ennemis des Mexicas, et grâce à une épidémie de variole qui ravage la ville en 1520. Après un long siège, Tenochtitlan tombe le 13 août 1521 ; Mexico, la capitale de la Nouvelle-Espagne, est construite sur ses ruines. Une grande partie de ce que nous savons vient des codex peints par des scribes indigènes, souvent après la conquête, et des enquêtes de religieux comme Bernardino de Sahagún. Mais l'archéologie a tout renouvelé : en 1790, des travaux sur la grande place de Mexico mettent au jour la Pierre du Soleil et la Coatlicue ; en 1978, des ouvriers découvrent la pierre de Coyolxauhqui, et les fouilles du Templo Mayor, qui durent encore, révèlent des milliers d'offrandes enfouies sous le centre de la ville actuelle."
+      }
+    ],
+    "bibliography": [
+      {
+        "reference": "UNESCO, Patrimoine mondial : Centre historique de Mexico et Xochimilco",
+        "url": "https://whc.unesco.org/fr/list/412"
+      },
+      {
+        "reference": "Instituto Nacional de Antropología e Historia (INAH), Museo del Templo Mayor",
+        "url": "https://www.templomayor.inah.gob.mx/"
+      },
+      {
+        "reference": "Bodleian Library, Oxford : le Codex Mendoza (MS. Arch. Selden. A. 1), numérisé",
+        "url": "https://digital.bodleian.ox.ac.uk/objects/2fea788e-2aa2-4f08-b6d9-648c00486220/"
+      },
+      {
+        "reference": "Bernardino de Sahagún et ses collaborateurs nahuas, Histoire générale des choses de la Nouvelle-Espagne (Codex de Florence), vers 1577, Biblioteca Medicea Laurenziana, Florence"
+      },
+      {
+        "reference": "Miguel León-Portilla, La Vision des vaincus : la conquête espagnole vue par les Indiens, Gallimard (édition originale en espagnol : 1959)"
+      },
+      {
+        "reference": "Jacques Soustelle, La Vie quotidienne des Aztèques à la veille de la conquête espagnole, Hachette, 1955"
+      },
+      {
+        "reference": "Notices des œuvres : Metropolitan Museum of Art, Cleveland Museum of Art, British Museum, Weltmuseum Wien"
+      }
+    ],
+    "works": [
+      {
+        "title": "Le départ d'Aztlan, codex Boturini (Tira de la peregrinación)",
+        "artist": "Peintres-scribes nahuas (tlacuilos)",
+        "country": "Mexique",
+        "period": "XVIe siècle",
+        "museum": "Museo Nacional de Antropología, Mexico",
+        "credit": "Museo Nacional de Antropología, Mexico, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Tira-1.jpg), photo El Comandante, domaine public",
+        "analysis": "Une longue bande de papier d'écorce, peinte seulement à l'encre noire. À gauche, une île entourée d'eau, avec une pyramide à degrés et des signes de dates ; un homme et une femme y sont assis. Un homme en barque traverse l'eau. Puis une ligne de traces de pas mène vers une colline recourbée, dans laquelle s'ouvre une grotte où apparaît le visage d'un dieu ; entre les deux, dans un carré, le signe d'une année. Les Mexicas racontaient qu'ils venaient d'Aztlan, une île au milieu d'un lac, d'où leur vient le nom d'« Aztèques ». Ce codex, conservé à Mexico, raconte leur longue migration, guidée par leur dieu Huitzilopochtli, jusqu'à la vallée de Mexico. On le lit de gauche à droite, en suivant les pas. Aztlan n'a jamais été localisée : c'est le récit des origines tel que les Mexicas le transmettaient.",
+        "compare": "Le point de départ de l'exposition : un récit des origines, que la page suivante achève avec la fondation de la ville.",
+        "image": "images/mouvements/azteques/codex-boturini-depart-aztlan.jpg"
+      },
+      {
+        "title": "La fondation de Tenochtitlan, codex Mendoza (folio 2 recto)",
+        "artist": "Peintres-scribes nahuas (tlacuilos)",
+        "country": "Mexique",
+        "period": "vers 1541",
+        "museum": "Bodleian Library, Oxford",
+        "credit": "Bodleian Library, Oxford (MS. Arch. Selden. A. 1), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Codex_Mendoza_folio_2r.jpg), domaine public",
+        "analysis": "Au centre, un aigle se pose sur un cactus (nopal) qui pousse sur une pierre ; dessous, un bouclier et des flèches. Le carré est divisé en quatre par deux bandes bleues en croix, l'eau des canaux ; dix hommes assis, avec leur nom écrit en signe à côté de la tête, se répartissent autour. Une bordure de petits carrés bleus compte les années. En bas, deux guerriers armés de boucliers soumettent deux villes, figurées par des temples. Selon la tradition, Huitzilopochtli avait promis aux Mexicas qu'ils fonderaient leur ville là où ils verraient un aigle sur un cactus : ce fut sur une île du lac de Texcoco, vers 1325. Ce signe est aujourd'hui au centre du drapeau mexicain. Le codex Mendoza a été peint par des scribes indigènes vers 1541, à la demande des autorités espagnoles, pour expliquer à l'empereur Charles Quint l'histoire et l'organisation de l'empire aztèque ; les commentaires en espagnol ont été ajoutés ensuite.",
+        "compare": "Comparez avec le codex Boturini, juste avant : la migration s'achève ici, au lieu promis par le dieu, et le dessin à l'encre devient une page en couleurs.",
+        "image": "images/mouvements/azteques/codex-mendoza-fondation-tenochtitlan.jpg",
+        "lieu": "Tenochtitlan et Tlatelolco (aujourd'hui Mexico)",
+        "lieuType": "représenté"
+      },
+      {
+        "title": "Les chinampas de Xochimilco",
+        "artist": "Paysans du bassin de Mexico",
+        "country": "Mexique",
+        "period": "technique préhispanique, toujours pratiquée",
+        "museum": "Site, Xochimilco (Mexico)",
+        "credit": "Xochimilco, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Chinampas_Xochimilco.jpg), photo Gael Simon, licence CC BY-SA 3.0",
+        "analysis": "Un canal d'eau calme, où flottent des plantes, reflète une rangée d'arbres hauts et minces qui bordent les champs, de chaque côté. Le ciel est gris, la lumière douce. Ces champs, les chinampas, ont été gagnés sur les eaux peu profondes des lacs en empilant de la boue et des plantes ; les arbres plantés au bord retiennent la terre. Très fertiles, ils permettaient plusieurs récoltes par an et nourrissaient Tenochtitlan. Xochimilco est l'un des derniers endroits où l'on cultive encore ainsi ; il est inscrit au patrimoine mondial de l'UNESCO avec le centre historique de Mexico.",
+        "compare": "Le point de départ de la vie aztèque : une ville sur l'eau, nourrie par des jardins flottants. Les canaux du codex Mendoza, juste avant, sont ceux-là.",
+        "image": "images/mouvements/azteques/chinampas-xochimilco.jpg",
+        "lieu": "Xochimilco",
+        "lieuType": "site"
+      },
+      {
+        "title": "Les ruines du Templo Mayor, au cœur de Mexico",
+        "artist": "Bâtisseurs mexicas",
+        "country": "Mexique",
+        "period": "vers 1325 – 1521, fouillé depuis 1978",
+        "museum": "Site archéologique, Mexico",
+        "credit": "Mexico, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Ruinas_del_Templo_Mayor_-_Centro_Hist%C3%B3rico_de_Ciudad_de_M%C3%A9xico.jpg), photo Juan Carlos Fonseca Mata, licence CC BY-SA 4.0",
+        "analysis": "Au soleil couchant, des murs et des escaliers de pierre sombre s'emboîtent les uns dans les autres, en contrebas de la rue ; une passerelle de bois permet aux visiteurs de les parcourir. Tout autour se dressent des bâtiments de l'époque coloniale et des immeubles modernes. C'était le grand temple de Tenochtitlan, une pyramide surmontée de deux sanctuaires : l'un pour Huitzilopochtli, dieu de la guerre et du soleil, l'autre pour Tlaloc, dieu de la pluie. Il a été agrandi sept fois, chaque nouvelle pyramide recouvrant la précédente : c'est pourquoi on voit des escaliers emboîtés. Les Espagnols l'ont détruit après 1521 et ont bâti la ville par-dessus. On l'a redécouvert en 1978, quand des ouvriers ont trouvé la pierre de Coyolxauhqui, présentée plus loin.",
+        "compare": "Le cœur religieux et politique de l'empire, enfoui pendant plus de quatre siècles sous la capitale de la Nouvelle-Espagne, puis du Mexique.",
+        "image": "images/mouvements/azteques/ruines-templo-mayor.jpg",
+        "lieu": "Tenochtitlan et Tlatelolco (aujourd'hui Mexico)",
+        "lieuType": "site"
+      },
+      {
+        "title": "Maquette de temple",
+        "artist": "Potier aztèque",
+        "country": "Mexique",
+        "period": "1400–1521",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/316871), domaine public (CC0)",
+        "analysis": "Une petite maquette de terre cuite, haute de 12 cm : une plate-forme à degrés, avec un escalier sur le devant, porte un sanctuaire étroit et très haut, dont la façade est percée d'une porte et décorée en haut de petits rectangles en creux. Les temples ont tous été détruits ou rasés ; ces petites maquettes, faites pour des offrandes ou des autels domestiques, montrent à quoi ressemblaient leurs sommets : une haute plate-forme et un sanctuaire, où se trouvait la statue du dieu. Selon le Metropolitan Museum, celle-ci viendrait peut-être de l'État de Guerrero.",
+        "compare": "Comparez avec les ruines du Templo Mayor, juste avant : la maquette rend aux temples la hauteur que les ruines ont perdue.",
+        "image": "images/mouvements/azteques/maquette-de-temple.jpg"
+      },
+      {
+        "title": "La pierre de Coyolxauhqui",
+        "artist": "Sculpteur aztèque",
+        "country": "Mexique",
+        "period": "vers 1469–1481",
+        "museum": "Museo del Templo Mayor, Mexico",
+        "credit": "Museo del Templo Mayor, Mexico, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Aztec_Coyolxauhqui_Stone_%289781975356%29.jpg), photo Gary Todd, domaine public (CC0)",
+        "analysis": "Un grand disque de pierre, d'environ trois mètres de diamètre, posé à plat dans la pénombre. On y voit, en relief, le corps d'une femme démembré : la tête, de profil, porte des grelots sur la joue ; les bras et les jambes sont séparés du tronc ; une ceinture faite d'un serpent et d'un crâne serre sa taille. Des traces de couleur ocre et blanche restent sur la pierre. Coyolxauhqui, déesse de la lune, voulut tuer sa mère Coatlicue ; son frère Huitzilopochtli, le soleil, naquit tout armé, la vainquit et précipita son corps du haut de la montagne de Coatepec. Le disque était placé au pied de l'escalier du temple de Huitzilopochtli, qui représentait cette montagne : le mythe y était rejoué. C'est sa découverte par hasard, en février 1978, par des ouvriers de la compagnie d'électricité, qui a lancé les grandes fouilles du Templo Mayor.",
+        "compare": "Une image de la défaite de la lune devant le soleil, placée là où tous la voyaient. Sa mère, Coatlicue, apparaît plus loin.",
+        "sensible": true,
+        "image": "images/mouvements/azteques/pierre-de-coyolxauhqui.jpg",
+        "lieu": "Tenochtitlan et Tlatelolco (aujourd'hui Mexico)",
+        "lieuType": "découverte"
+      },
+      {
+        "title": "Le monolithe de Tlaltecuhtli",
+        "artist": "Sculpteur aztèque",
+        "country": "Mexique",
+        "period": "vers 1502",
+        "museum": "Museo del Templo Mayor, Mexico",
+        "credit": "Museo del Templo Mayor, Mexico, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Monolito_de_Tlaltecuhtli_%28crop%29_-_Museo_del_Templo_Mayor_-_Mexico_2024.jpg), photo José Luiz, licence CC BY-SA 4.0",
+        "analysis": "Une immense dalle de pierre rose, sculptée en relief et brisée en plusieurs morceaux. Une figure accroupie, vue de face, ouvre les bras et les jambes ; sa tête est entourée d'une coiffure de boucles et d'ornements d'oreilles ; de sa bouche sort un long ruban. Le centre de la dalle s'est effondré. On distingue encore des traces de peinture. Tlaltecuhtli est la divinité de la terre, qui avale les morts et donne naissance à toute chose ; le ruban qui sort de sa bouche est un flot de sang. Découvert en 2006 au pied du Templo Mayor, ce monolithe d'environ 4 mètres sur 3,6 est la plus grande sculpture aztèque connue. Il était posé à plat, comme la pierre de Coyolxauhqui, et couvrait des dépôts d'offrandes.",
+        "compare": "La dernière grande découverte du Templo Mayor, près de trente ans après Coyolxauhqui, juste avant : les fouilles continuent de livrer des chefs-d'œuvre.",
+        "image": "images/mouvements/azteques/monolithe-de-tlaltecuhtli.jpg",
+        "lieu": "Tenochtitlan et Tlatelolco (aujourd'hui Mexico)",
+        "lieuType": "découverte"
+      },
+      {
+        "title": "Guerrier aigle",
+        "artist": "Potier aztèque",
+        "country": "Mexique",
+        "period": "vers 1440–1469",
+        "museum": "Museo del Templo Mayor, Mexico",
+        "credit": "Museo del Templo Mayor, Mexico, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Guerrero_%C3%A1guila_en_el_Museo_del_Templo_Mayor_01.jpg), photo Luisalvaz, domaine public (CC0)",
+        "analysis": "Une statue de terre cuite grandeur nature, debout, les bras écartés. Le visage du guerrier sort du bec ouvert d'un casque en forme de tête d'aigle ; ses bras portent des ailes, son corps et ses cuisses sont couverts de rangées de plumes modelées, et ses pieds sont des serres. Des traces de blanc restent sur l'argile. Les guerriers aigles et les guerriers jaguars formaient les deux grands ordres militaires aztèques, réservés à ceux qui s'étaient distingués au combat. Cette statue a été trouvée en deux exemplaires dans la « maison des Aigles », un bâtiment voisin du Templo Mayor où ils se réunissaient. Faite de plusieurs pièces assemblées, elle était sans doute recouverte de stuc. L'aigle était aussi le symbole du soleil.",
+        "compare": "L'aigle de la fondation de Tenochtitlan, au début de l'exposition, devient ici un homme : la guerre est au cœur de l'empire.",
+        "image": "images/mouvements/azteques/guerrier-aigle.jpg",
+        "lieu": "Tenochtitlan et Tlatelolco (aujourd'hui Mexico)",
+        "lieuType": "découverte"
+      },
+      {
+        "title": "Tlatelolco et la place des Trois Cultures",
+        "artist": "Bâtisseurs mexicas",
+        "country": "Mexique",
+        "period": "XIVe–XVIe siècle",
+        "museum": "Site archéologique, Tlatelolco (Mexico)",
+        "credit": "Tlatelolco (Mexico), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Zona_arqueol%C3%B3gica_de_Tlatelolco_%28CDMX%29.jpg), photo Juan Carlos Fonseca Mata, licence CC BY-SA 4.0",
+        "analysis": "Sur une pelouse, les bases de pierre de plusieurs temples, dont une plate-forme ronde au premier plan. Derrière se dresse une église de pierre sombre à la façade massive et au clocher carré, et, à droite, une haute tour moderne de verre et de béton. Tlatelolco était la ville sœur de Tenochtitlan, sur la même île, et abritait le plus grand marché de l'empire : selon Cortés, plus de soixante mille personnes s'y pressaient chaque jour. C'est là que les derniers défenseurs mexicas résistèrent, et que le dernier tlatoani, Cuauhtémoc, fut capturé le 13 août 1521. Les ruines aztèques, l'église coloniale de Santiago, bâtie avec leurs pierres, et la tour moderne ont donné son nom à la place : les « Trois Cultures ».",
+        "compare": "Trois époques sur une seule image : comparez avec le Templo Mayor, plus haut, lui aussi entouré par la ville coloniale et moderne.",
+        "image": "images/mouvements/azteques/zone-archeologique-tlatelolco.jpg",
+        "lieu": "Tenochtitlan et Tlatelolco (aujourd'hui Mexico)",
+        "lieuType": "site"
+      },
+      {
+        "title": "La Pierre du Soleil, dite « calendrier aztèque »",
+        "artist": "Sculpteur aztèque",
+        "country": "Mexique",
+        "period": "fin du XVe – début du XVIe siècle",
+        "museum": "Museo Nacional de Antropología, Mexico",
+        "credit": "Museo Nacional de Antropología, Mexico, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Piedra_del_Sol_-_Sala_Mexica_del_Museo_Nacional_de_Antropolog%C3%ADa.jpg), photo Juan Carlos Fonseca Mata, licence CC BY-SA 4.0",
+        "analysis": "Un énorme disque de pierre, dressé contre un mur, couvert de reliefs en cercles. Au centre, un visage à la langue tirée, entouré de quatre carrés ; autour, un anneau de vingt petits signes, puis des rayons en forme de pointes. Deux serpents couverts d'écailles font le tour du disque et se rejoignent en bas, gueule contre gueule ; dans chacune apparaît un visage humain. Ce disque de basalte de 3,6 mètres de diamètre pèse environ 24 tonnes. Il a été découvert le 17 décembre 1790 sous la grande place de Mexico, puis encastré dans une tour de la cathédrale jusqu'en 1885. Malgré son surnom, ce n'est pas un calendrier qu'on consultait : il représente l'histoire du monde selon les Aztèques. Les quatre carrés autour du visage central rappellent les quatre soleils, ou mondes, détruits avant le nôtre ; l'anneau porte les vingt signes des jours. Le visage du centre est discuté : le soleil Tonatiuh, ou la terre Tlaltecuhtli.",
+        "compare": "Le symbole du Mexique, reproduit partout. Comparez avec Tlaltecuhtli, plus haut : même langue tirée, et peut-être la même divinité.",
+        "image": "images/mouvements/azteques/pierre-du-soleil.jpg",
+        "lieu": "Tenochtitlan et Tlatelolco (aujourd'hui Mexico)",
+        "lieuType": "découverte"
+      },
+      {
+        "title": "Coatlicue",
+        "artist": "Sculpteur aztèque",
+        "country": "Mexique",
+        "period": "fin du XVe siècle",
+        "museum": "Museo Nacional de Antropología, Mexico",
+        "credit": "Museo Nacional de Antropología, Mexico, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Coatlicue_%28Museo_Nacional_de_Antropolog%C3%ADa%29_20250426_160346.jpg), photo Beat Estermann, licence CC BY 4.0",
+        "analysis": "Une statue de pierre massive, plus haute qu'un homme, vue de trois quarts dans une salle du musée. Elle n'a pas de visage humain : à la place de la tête, deux têtes de serpent se font face. Le corps est couvert de motifs serrés : une jupe de serpents entrelacés, un collier de mains et de cœurs, et des pieds en forme de griffes. Coatlicue, « celle qui a une jupe de serpents », est la mère de Huitzilopochtli et de Coyolxauhqui : la terre mère, qui donne la vie et la reprend. Selon une interprétation courante, les deux serpents sont deux jets de sang : la déesse a été décapitée. La statue fut découverte en août 1790, peu avant la Pierre du Soleil ; jugée trop troublante, elle fut enterrée de nouveau dans la cour de l'université, avant d'être définitivement sortie de terre au XIXe siècle.",
+        "compare": "La mère de Coyolxauhqui, plus haut : la même histoire sacrée, racontée en pierre.",
+        "image": "images/mouvements/azteques/coatlicue.jpg",
+        "lieu": "Tenochtitlan et Tlatelolco (aujourd'hui Mexico)",
+        "lieuType": "découverte"
+      },
+      {
+        "title": "Une page du calendrier rituel, codex Borbonicus (page 13)",
+        "artist": "Peintres-scribes nahuas (tlacuilos)",
+        "country": "Mexique",
+        "period": "début du XVIe siècle (date discutée)",
+        "museum": "Bibliothèque de l'Assemblée nationale, Paris",
+        "credit": "Bibliothèque de l'Assemblée nationale, Paris, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Codex_Borbonicus_%28p._13%29.jpg), domaine public",
+        "analysis": "Une page carrée aux couleurs vives. En haut à gauche, dans un grand cadre, deux divinités richement parées, l'une assise, l'autre vêtue d'un costume d'oiseau, entourées d'objets et de symboles. Sur la droite et en bas, des cases alignées contiennent chacune un petit signe de jour, une petite figure et un oiseau. De courtes notes en espagnol ont été ajoutées à l'encre brune. Ce long livre plié en accordéon, peint sur papier d'écorce, s'ouvre sur le calendrier rituel de 260 jours, le tonalpohualli, divisé en vingt périodes de treize jours ; chaque page en présente une, avec les dieux qui la protègent. Les prêtres s'en servaient pour savoir si un jour était favorable à un mariage, un voyage ou une guerre. On discute encore pour savoir s'il a été peint juste avant ou juste après la conquête. Il est conservé à Paris depuis le XIXe siècle.",
+        "compare": "Les vingt signes des jours de la Pierre du Soleil, juste avant, reviennent ici dans chaque case : la pierre montre le cycle, le livre sert à le lire.",
+        "image": "images/mouvements/azteques/codex-borbonicus-page-13.jpg"
+      },
+      {
+        "title": "Chalchiuhtlicue, déesse des eaux",
+        "artist": "Sculpteur aztèque",
+        "country": "Mexique",
+        "period": "1325–1521",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/307651), domaine public (CC0)",
+        "analysis": "Une statuette de basalte de 30 cm, aux traces de peinture rouge. Une femme, les mains posées sur les genoux, porte une coiffe faite d'un large bandeau, d'où pendent de chaque côté de grands ornements rectangulaires, et une cape triangulaire bordée de franges et de petits pompons. Son visage est calme, le regard droit devant. Chalchiuhtlicue, « celle qui a une jupe de jade », est la déesse des rivières, des lacs et des sources, et la compagne du dieu de la pluie, Tlaloc. Pour un peuple qui vivait sur un lac et dépendait des pluies pour ses récoltes, elle était essentielle. Ces statues de déesses, sobres et frontales, se trouvaient dans les temples comme dans les maisons.",
+        "compare": "À côté de la Coatlicue, plus haut, une déesse paisible : les dieux aztèques ne sont pas tous terrifiants.",
+        "image": "images/mouvements/azteques/chalchiuhtlicue-met.jpg"
+      },
+      {
+        "title": "Tlaloc, dieu de la pluie",
+        "artist": "Sculpteur aztèque",
+        "country": "Mexique",
+        "period": "vers 1200–1519",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1966.361), domaine public (CC0)",
+        "analysis": "Un galet de pierre verte, lisse et arrondi, haut de 29 cm. On y a sculpté en faible relief un visage aux yeux cerclés, au nez marqué et à la bouche garnie de crocs, sous une coiffe de petits disques ; sur le corps, une main tient une tige. Selon le Cleveland Museum of Art, on reconnaît Tlaloc à ses yeux cerclés, à l'ornement torsadé de son nez et à sa bouche à crocs ; comme pourvoyeur d'eau, il protège l'agriculture et tient une tige de maïs. Pour les Aztèques, c'était un dieu très ancien et civilisé, dont le culte remontait jusqu'à Teotihuacan, la grande cité en ruine qu'ils vénéraient. Il partageait avec Huitzilopochtli le sommet du Templo Mayor.",
+        "compare": "Le compagnon de Chalchiuhtlicue, juste avant : la pluie et les eaux du lac, deux dieux pour le maïs.",
+        "image": "images/mouvements/azteques/tlaloc-cleveland.jpg"
+      },
+      {
+        "title": "Xochipilli, le prince des fleurs",
+        "artist": "Sculpteur aztèque",
+        "country": "Mexique",
+        "period": "vers 1250–1521",
+        "museum": "Museo Nacional de Antropología, Mexico",
+        "credit": "Museo Nacional de Antropología, Mexico, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:2013-12-24_Xochipilli_01_anagoria.JPG), photo Anagoria, licence CC BY 3.0",
+        "analysis": "Un jeune homme de pierre est assis en tailleur sur un socle cubique, les bras croisés sur les genoux, la tête levée et la bouche entrouverte. Son visage est couvert d'un masque. Son corps, ses jambes et le socle sont sculptés de fleurs et de motifs en spirale. Xochipilli est le dieu des arts, des jeux, de la beauté, de la danse, des fleurs et du chant. Cette statue a été trouvée au XIXe siècle sur les pentes des volcans, près de Tlalmanalco. Les fleurs sculptées sur son corps ont fait l'objet de nombreuses interprétations, dont certaines y voient des plantes qui provoquent des visions : la question reste discutée. Pour les Aztèques, « fleur et chant » (in xochitl in cuicatl) désignait la poésie.",
+        "compare": "Après les dieux de l'eau, le dieu de la joie : la religion aztèque célèbre aussi la beauté et la musique.",
+        "image": "images/mouvements/azteques/xochipilli.jpg",
+        "lieu": "Tlalmanalco",
+        "lieuType": "découverte"
+      },
+      {
+        "title": "Homme assis portant du maïs",
+        "artist": "Sculpteur aztèque",
+        "country": "Mexique",
+        "period": "1325–1521",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1949.555), domaine public (CC0)",
+        "analysis": "Une sculpture de pierre grise de 31 cm, aux traces de couleur. Un homme est assis, les genoux remontés ; il tient près de son visage un cône de fleurs et porte sur le dos une charge d'épis de maïs. Sa tête est couverte d'une coiffe à crête. Selon le Cleveland Museum of Art, il représente sans doute Macuilxochitl ou Xochipilli, divinités de la beauté, des arts, des jeux et de la danse, dont les noms contiennent le mot « fleur » ; le cône qu'il tient serait la couronne fleurie d'un cactus. La charge de maïs rappelle peut-être son énergie créatrice. Pour les Aztèques, les fleurs signifiaient la beauté, le raffinement et la fertilité.",
+        "compare": "Le même dieu que Xochipilli, juste avant, mais dans une sculpture modeste, faite pour une maison ou un petit sanctuaire.",
+        "image": "images/mouvements/azteques/dieu-assis-portant-du-mais.jpg"
+      },
+      {
+        "title": "Le tribut de la province de Xoconochco, codex Mendoza (folio 47 recto)",
+        "artist": "Peintres-scribes nahuas (tlacuilos)",
+        "country": "Mexique",
+        "period": "vers 1541",
+        "museum": "Bodleian Library, Oxford",
+        "credit": "Bodleian Library, Oxford (MS. Arch. Selden. A. 1), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Codex_Mendoza_folio_47r.jpg), domaine public",
+        "analysis": "Une page claire, couverte de petits dessins colorés rangés en lignes. À gauche, en colonne, les signes des villes : un cactus, une tortue, un animal à la gueule ouverte… En haut, deux longs colliers de perles vertes ; puis des bottes de plumes bleues, rouges et vertes ; plus bas, deux peaux de jaguar, des disques jaunes et des récipients. Au-dessus de plusieurs objets, de petits drapeaux ; à côté, des notes en espagnol. Le nom de la province, Xoconochco (aujourd'hui le Soconusco, sur la côte pacifique du Chiapas), est écrit en haut à gauche. La page dit ce qu'elle devait livrer à Tenochtitlan : colliers de pierres vertes, bottes de plumes précieuses, peaux de jaguar, et d'autres produits de ces terres chaudes, comme le cacao. Chaque petit drapeau vaut vingt : c'est ainsi que les scribes notaient les nombres. Une grande partie du codex Mendoza est consacrée à ce tribut, ville par ville : c'est sur lui que reposait l'empire.",
+        "compare": "Les plumes et les pierres vertes de cette page sont la matière première des chefs-d'œuvre qui suivent : la coiffe de plumes de Vienne et le serpent de turquoise.",
+        "image": "images/mouvements/azteques/codex-mendoza-tribut-xoconochco.jpg",
+        "lieu": "Tenochtitlan et Tlatelolco (aujourd'hui Mexico)",
+        "lieuType": "fabrication"
+      },
+      {
+        "title": "La coiffe de plumes dite « de Moctezuma »",
+        "artist": "Plumassiers aztèques (amanteca)",
+        "country": "Mexique",
+        "period": "début du XVIe siècle",
+        "museum": "Weltmuseum Wien, Vienne",
+        "credit": "Weltmuseum Wien, Vienne, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Moctezuma%27s_feather_headdress%2C_ca._1515%2C_Mexico%3B_Weltmuseum%2C_Vienna_%283%29.jpg), photo Richard Mortel, licence CC BY 2.0",
+        "analysis": "Dans une vitrine sombre, un grand éventail de longues plumes vertes et brillantes, disposé en demi-cercle. À sa base, des bandes de plumes bleues, rouges et brunes forment des arcs, cousus de centaines de petites plaques d'or. C'est l'une des très rares œuvres de plumes aztèques qui nous soient parvenues. Les longues plumes vertes sont celles du quetzal, un oiseau des forêts tropicales que les Aztèques faisaient venir par le tribut et le commerce. Elle est arrivée en Europe au XVIe siècle et figure en 1596 dans les collections de l'archiduc Ferdinand II, au château d'Ambras. Rien ne prouve qu'elle ait appartenu à Moctezuma. Le Mexique en demande le retour ; une étude a conclu que, trop fragile, elle ne supporterait pas le voyage.",
+        "compare": "Les plumes bleues et rouges du tribut de Xoconochco, juste avant, transformées par les plumassiers en un objet de prestige.",
+        "image": "images/mouvements/azteques/coiffe-de-plumes-vienne.jpg"
+      },
+      {
+        "title": "Serpent à deux têtes en mosaïque de turquoise",
+        "artist": "Artisans mixtèques ou aztèques",
+        "country": "Mexique",
+        "period": "XVe–XVIe siècle",
+        "museum": "British Museum, Londres",
+        "credit": "British Museum, Londres, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Double-headed_serpent_turquoise_mosaic.jpg), photo BabelStone, licence CC BY-SA 3.0",
+        "analysis": "Un serpent ondule en forme de W, une tête à chaque extrémité. Son corps est entièrement couvert de minuscules carreaux de turquoise, bleu-vert ; ses deux gueules, ouvertes, sont rouges, avec des dents blanches et pointues. Sur une âme de bois sculpté, les artisans ont collé des milliers de petits morceaux de turquoise, et des coquillages, rouges pour les gueules, blancs pour les dents. La turquoise pouvait venir de très loin, peut-être jusque du sud-ouest des actuels États-Unis, par le commerce. Le serpent était sans doute porté sur la poitrine lors de cérémonies. Les mosaïques de turquoise étaient un art des peuples mixtèques, au sud de Mexico, dont les Aztèques recevaient les œuvres en tribut.",
+        "compare": "Comparez avec les colliers de pierres vertes du codex Mendoza, plus haut : la même passion pour les pierres bleu-vert, couleur de l'eau et du précieux.",
+        "image": "images/mouvements/azteques/serpent-bicephale-turquoise.jpg"
+      },
+      {
+        "title": "Ornement de lèvre en forme de tête d'aigle",
+        "artist": "Orfèvre aztèque",
+        "country": "Mexique",
+        "period": "1325–1521",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/310663), domaine public (CC0)",
+        "analysis": "Une petite tête d'aigle en or, longue de 4 cm, au grand bec recourbé et à l'œil rond, posée au bout d'une tige. L'or poli brille comme un miroir. Ce bijou se portait passé dans la lèvre inférieure, percée : la tête d'aigle dépassait sous la bouche. Seuls les hommes de haut rang, nobles et grands guerriers, avaient le droit de porter des ornements d'or. Les Espagnols ont fondu en lingots presque tous les objets d'or qu'ils ont trouvés : ceux qui restent sont très rares.",
+        "compare": "L'aigle du guerrier de terre cuite, plus haut, porté ici en or sur le visage même d'un noble.",
+        "image": "images/mouvements/azteques/labret-tete-d-aigle.jpg"
+      },
+      {
+        "title": "Tambour à fente (teponaztli)",
+        "artist": "Artisan aztèque",
+        "country": "Mexique",
+        "period": "XVe–XVIe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/312583), domaine public (CC0)",
+        "analysis": "Un tronc de bois sombre et poli, long de 47 cm, couché à l'horizontale, avec une fente sur le dessus. Ses deux extrémités sont décorées de motifs sculptés ; une bande de fer, sans doute ajoutée plus tard, entoure l'une d'elles. Le teponaztli est un tambour creusé dans un tronc ; sur le dessus, une fente en forme de H découpe deux languettes de bois qui donnent deux notes différentes quand on les frappe avec des baguettes à bout de caoutchouc. Avec le grand tambour vertical, le huehuetl, il rythmait les fêtes, les danses et les chants sacrés.",
+        "compare": "Écoutez avec les yeux la page suivante : on y voit le huehuetl, son grand frère, au milieu des danseurs.",
+        "image": "images/mouvements/azteques/tambour-teponaztli.jpg"
+      },
+      {
+        "title": "Danseurs et joueur de huehuetl, codex de Florence (livre IX)",
+        "artist": "Peintres nahuas, sous la direction de Bernardino de Sahagún",
+        "country": "Mexique",
+        "period": "vers 1577",
+        "museum": "Biblioteca Medicea Laurenziana, Florence",
+        "credit": "Biblioteca Medicea Laurenziana, Florence, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Dancers_and_drummer_playing_the_huehuetl_in_Book_9_of_the_Florentine_Codex%2C_1577.jpg), domaine public",
+        "analysis": "Sur un sol carrelé, cinq hommes vêtus de capes blanches et de pagnes dansent, tenant des bouquets de fleurs et des éventails de plumes. Au centre, un homme frappe des mains un grand tambour vertical, posé sur des pieds et décoré d'une bande colorée. Le codex de Florence est une encyclopédie du monde aztèque en douze livres, écrite en nahuatl et en espagnol et illustrée de plus de deux mille images. Le religieux franciscain Bernardino de Sahagún l'a réalisée pendant des décennies avec des savants et des peintres nahuas formés au collège de Tlatelolco, en interrogeant les anciens. Le livre IX est consacré aux marchands et aux artisans de luxe, dont les fêtes comprenaient de grandes danses.",
+        "compare": "Le tambour à fente, juste avant, et le grand huehuetl, ici : la musique aztèque, dont les instruments ont survécu mais pas les mélodies.",
+        "image": "images/mouvements/azteques/codex-de-florence-danseurs.jpg",
+        "lieu": "Tenochtitlan et Tlatelolco (aujourd'hui Mexico)",
+        "lieuType": "fabrication"
+      },
+      {
+        "title": "Malinalco : le temple taillé dans la montagne (Cuauhcalli)",
+        "artist": "Bâtisseurs mexicas",
+        "country": "Mexique",
+        "period": "à partir de 1501",
+        "museum": "Site archéologique, Malinalco (État de Mexico)",
+        "credit": "Malinalco, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Zona_arqueol%C3%B3gica_de_Cuauhtinch%C3%A1n%2C_templo_Cuauhcalli_%28%27Casa_del_sol%27_o_%27Casa_de_las_%C3%A1guilas%27%29.JPG), photo Joaogabriel, licence CC BY-SA 3.0",
+        "analysis": "Au pied d'une falaise, un petit temple se dresse sur une plate-forme taillée dans la roche, avec un escalier central encadré de restes de sculptures. Il est coiffé d'un haut toit conique de chaume. Des visiteurs se promènent sur l'esplanade de pierre. Ce temple n'a pas été construit, mais sculpté d'un seul bloc dans la montagne, sous les règnes d'Ahuitzotl et de Moctezuma II. On y entre par une porte en forme de gueule de serpent ; à l'intérieur, une salle ronde porte, sculptées dans la roche, des peaux d'aigle et de jaguar. On pense que les guerriers aigles et jaguars y étaient initiés. Le toit de chaume est une reconstitution moderne.",
+        "compare": "Le guerrier aigle de terre cuite, plus haut, trouve ici son sanctuaire, loin de la capitale, dans un paysage de montagnes.",
+        "image": "images/mouvements/azteques/malinalco-cuauhcalli.jpg",
+        "lieu": "Malinalco",
+        "lieuType": "site"
+      },
+      {
+        "title": "L'épidémie de variole de 1520, codex de Florence (livre XII)",
+        "artist": "Peintres nahuas, sous la direction de Bernardino de Sahagún",
+        "country": "Mexique",
+        "period": "vers 1577",
+        "museum": "Biblioteca Medicea Laurenziana, Florence",
+        "credit": "Biblioteca Medicea Laurenziana, Florence, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Healer_%28ticitl%29_tending_to_people_suffering_from_smallpox_in_1520_in_Book_12_of_the_Florentine_Codex%2C_1577.jpg), domaine public",
+        "analysis": "Un dessin à l'encre en quatre cases. Des malades, couverts de taches, sont allongés sur des nattes tressées, enveloppés dans des couvertures ; en haut à gauche, un homme assis parle à l'un d'eux, comme l'indique le petit signe de parole qui sort de sa bouche. Le livre XII du codex de Florence raconte la conquête du point de vue des Mexicas. En 1520, la variole, une maladie arrivée avec les Européens et inconnue en Amérique, frappe Tenochtitlan : les habitants n'ont aucune défense contre elle, et des milliers meurent, dont Cuitlahuac, le successeur de Moctezuma. Affaiblie, la ville tombe l'année suivante, le 13 août 1521. Les épidémies ont ensuite décimé les peuples du Mexique pendant tout le XVIe siècle.",
+        "compare": "La fin de l'exposition et d'un monde, racontée par ceux qui l'ont vécue. Comparez avec les danseurs du même codex, plus haut : la même main, mais la fête a laissé place au deuil.",
+        "image": "images/mouvements/azteques/codex-de-florence-variole.jpg",
+        "lieu": "Tenochtitlan et Tlatelolco (aujourd'hui Mexico)",
+        "lieuType": "fabrication"
+      }
+    ],
+    "carte": {
+      "image": "images/mouvements/cartes/azteques.svg",
+      "ouest": -99.95,
+      "est": -98.35,
+      "sud": 18.75,
+      "nord": 19.95,
+      "lieux": [
+        {
+          "nom": "Tenochtitlan et Tlatelolco (aujourd'hui Mexico)",
+          "lat": 19.435,
+          "lon": -99.1314
+        },
+        {
+          "nom": "Xochimilco",
+          "lat": 19.2476,
+          "lon": -99.0982
+        },
+        {
+          "nom": "Tlalmanalco",
+          "lat": 19.2,
+          "lon": -98.72
+        },
+        {
+          "nom": "Malinalco",
+          "lat": 18.95,
+          "lon": -99.5
+        }
+      ],
+      "note": "Le contour bleu en pointillé montre les anciens lacs de la vallée de Mexico (Texcoco, Xochimilco, Chalco), aujourd'hui presque entièrement asséchés ; Tenochtitlan était bâtie sur une île de ce lac.",
+      "pays": [],
+      "villes": [
+        {
+          "nom": "Mexico",
+          "lat": 19.444,
+          "lon": -99.133
+        },
+        {
+          "nom": "Cuernavaca",
+          "lat": 18.921,
+          "lon": -99.24
+        },
+        {
+          "nom": "Toluca",
+          "lat": 19.289,
+          "lon": -99.653
+        },
+        {
+          "nom": "Zumpango",
+          "lat": 19.81,
+          "lon": -99.11
+        },
+        {
+          "nom": "Atlixco",
+          "lat": 18.9,
+          "lon": -98.45
+        }
+      ]
+    }
+  },
+  {
+    "mouvement": "Incas",
+    "slug": "incas",
+    "status": "published",
+    "title": "Les Incas, l'empire des quatre régions",
+    "subtitle": "Andes, XVe siècle – 1572 : dix-neuf œuvres et sites archéologiques du Pérou, de l'Équateur et de la Bolivie, de Lima, Copenhague, New York et Cleveland",
+    "intro": "Au XVe siècle, les Incas, un peuple de la région de Cuzco, dans les Andes du Pérou, bâtissent en moins d'un siècle le plus grand empire de l'Amérique ancienne. Sous l'Inca Pachacuti, qui règne à partir de 1438 selon la tradition, puis sous ses successeurs, il s'étend sur plus de 4 000 kilomètres, du sud de la Colombie actuelle au centre du Chili et au nord-ouest de l'Argentine, et compte peut-être une dizaine de millions d'habitants. Les Incas l'appellent Tawantinsuyu, « les quatre régions réunies ». Sans roue pour les transports, sans fer et sans écriture alphabétique, ils relient ces montagnes, ces déserts et ces forêts par des milliers de kilomètres de routes, comptent tout sur des cordelettes à nœuds, construisent des murs de pierre d'une précision inégalée et transforment les pentes en terrasses cultivées. L'empire s'effondre après l'arrivée des Espagnols de Francisco Pizarro en 1532, au milieu d'une guerre civile et des épidémies ; les derniers Incas résistent jusqu'en 1572. Mais la langue quechua, les cultures des Andes, les fêtes et les savoir-faire sont toujours vivants. L'exposition suit cette histoire, de Cuzco aux confins de l'empire, en mêlant grands sites archéologiques, tissus, orfèvrerie, objets du quotidien et récits de la conquête. Les sites ont été photographiés par des visiteurs, qui ont publié leurs images sous licence libre avec leur nom ; les objets viennent du Metropolitan Museum of Art de New York, du Cleveland Museum of Art, du Museo Larco de Lima et de la Bibliothèque royale du Danemark. Par respect, l'exposition ne montre pas les momies des Andes, qui sont des restes humains ; une petite figurine nue est marquée « Image sensible ».",
+    "contexte": [
+      {
+        "title": "Le Sapa Inca et les quatre régions",
+        "text": "Les Incas appelaient leur empire Tawantinsuyu, « les quatre régions réunies » : quatre grandes provinces partaient de Cuzco, la capitale, considérée comme le nombril du monde. À sa tête, le Sapa Inca, « l'unique Inca », était tenu pour le fils du Soleil ; à sa mort, son corps conservé continuait d'être honoré et de garder ses biens. Autour de lui, la noblesse de Cuzco et des gouverneurs administraient les peuples soumis, qui gardaient souvent leurs chefs locaux, les curacas. Il n'y avait ni monnaie ni marchés comme en Europe : chaque famille devait à l'État un impôt en travail, la mit'a, en cultivant ses terres, en bâtissant ses routes et ses forteresses, en servant dans l'armée ou en tissant. En échange, l'État stockait dans des milliers d'entrepôts des vivres et des étoffes, qu'il redistribuait lors des fêtes et des disettes. Pour mieux tenir l'empire, les Incas déplaçaient parfois des communautés entières et répandaient leur langue, le quechua, toujours parlée aujourd'hui par plusieurs millions de personnes dans les Andes."
+      },
+      {
+        "title": "Vivre dans les Andes",
+        "text": "L'empire s'étend des côtes désertiques du Pacifique aux forêts de l'Amazonie, mais son cœur est la montagne, entre 2 500 et 4 000 mètres d'altitude. Les paysans vivent en communautés, les ayllus, qui se partagent les terres et s'entraident. Ils taillent les pentes en terrasses, irriguent, et cultivent des centaines de variétés de pommes de terre, du maïs, du quinoa et des haricots ; pour conserver les pommes de terre, ils les font geler et sécher, ce qui donne le chuño. Les lamas portent les charges et les alpagas donnent leur laine. Le tissu est la plus grande richesse : on l'offre, on le brûle en sacrifice, on le reçoit de l'Inca en récompense. Les femmes filent et tissent dans toutes les familles, et des femmes choisies, les aclla, vivent à part pour tisser les plus belles étoffes et préparer la chicha, la bière de maïs des fêtes."
+      },
+      {
+        "title": "Le Soleil, la Terre et les huacas",
+        "text": "Le grand dieu de l'État est Inti, le Soleil, ancêtre des Incas ; on honore aussi Viracocha, le créateur, Pachamama, la Terre mère, Mama Quilla, la Lune, et Illapa, le tonnerre. Le monde est rempli de huacas, des lieux et des objets sacrés : sources, rochers, montagnes, tombeaux des ancêtres. Les montagnes, les apus, sont des protecteurs que l'on honore encore aujourd'hui. On offre de la chicha, des feuilles de coca, des étoffes, des figurines de métal et des lamas ; en de rares occasions, lors de la cérémonie de la capacocha, des enfants étaient sacrifiés au sommet des montagnes. La grande fête du Soleil, l'Inti Raymi, avait lieu au solstice d'hiver, en juin ; elle est de nouveau célébrée chaque année à Cuzco depuis 1944."
+      },
+      {
+        "title": "La conquête et ce que nous apprend l'archéologie",
+        "text": "Vers 1527, l'Inca Huayna Capac meurt, peut-être d'une épidémie venue d'Europe avant même l'arrivée des Espagnols, et ses fils Huáscar et Atahualpa se font la guerre. En novembre 1532, l'Espagnol Francisco Pizarro, avec moins de deux cents hommes, capture Atahualpa à Cajamarca ; malgré une rançon d'or et d'argent, il le fait exécuter en 1533. Les Espagnols prennent Cuzco, mais des Incas résistent encore pendant près de quarante ans, jusqu'à la prise de Vilcabamba en 1572. Les Incas n'avaient pas d'écriture alphabétique : ils notaient les nombres et peut-être des récits sur des cordelettes à nœuds, les khipus, que personne ne sait plus lire entièrement. Nous les connaissons par les chroniques espagnoles et indigènes, comme celle de Guaman Poma de Ayala, mais surtout par l'archéologie : leurs routes, leurs terrasses, leurs entrepôts et leurs temples, construits avec une précision extraordinaire, résistent aux tremblements de terre depuis plus de cinq siècles."
+      }
+    ],
+    "bibliography": [
+      {
+        "reference": "UNESCO, Patrimoine mondial : Ville de Cuzco",
+        "url": "https://whc.unesco.org/fr/list/273"
+      },
+      {
+        "reference": "UNESCO, Patrimoine mondial : Sanctuaire historique de Machu Picchu",
+        "url": "https://whc.unesco.org/fr/list/274"
+      },
+      {
+        "reference": "UNESCO, Patrimoine mondial : Qhapaq Ñan, réseau de routes andin",
+        "url": "https://whc.unesco.org/fr/list/1459"
+      },
+      {
+        "reference": "Felipe Guaman Poma de Ayala, El primer nueva corónica y buen gobierno (vers 1615), Bibliothèque royale du Danemark, Copenhague (GKS 2232 4°)"
+      },
+      {
+        "reference": "Museo Larco, Lima : notice « Capac Cuna Inca ou généalogie des Incas »",
+        "url": "https://www.museolarco.org/fr/exposition/exposicion-permanente/exposition-en-ligne/le-syncretisme/capac-cuna-inca-ou-genealogie-des-incas/"
+      },
+      {
+        "reference": "Nathan Wachtel, La Vision des vaincus : les Indiens du Pérou devant la conquête espagnole, Gallimard, 1971"
+      },
+      {
+        "reference": "Notices des œuvres : Metropolitan Museum of Art, Cleveland Museum of Art"
+      }
+    ],
+    "works": [
+      {
+        "title": "Les murailles de Sacsayhuamán, au-dessus de Cuzco",
+        "artist": "Bâtisseurs incas",
+        "country": "Pérou",
+        "period": "XVe siècle",
+        "museum": "Site archéologique, Cuzco (Pérou)",
+        "credit": "Cuzco, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Sacsayhuam%C3%A1n%2C_Cusco%2C_Per%C3%BA%2C_2015-07-31%2C_DD_05.JPG), photo Diego Delso, licence CC BY-SA 4.0",
+        "analysis": "Sous un ciel bleu intense, de longues murailles de pierre grise avancent en zigzag, en plusieurs étages. Au premier plan, d'énormes blocs aux formes irrégulières, plus hauts qu'un homme, s'emboîtent exactement les uns dans les autres, sans mortier. Sacsayhuamán domine Cuzco, la capitale inca. Ses trois murailles en zigzag sont faites de blocs dont certains pèsent plus de cent tonnes, taillés pour s'ajuster parfaitement à leurs voisins : on ne sait toujours pas exactement comment ils ont été déplacés. C'était à la fois un lieu de culte et une forteresse : en 1536, l'Inca Manco s'y battit contre les Espagnols. Ceux-ci ont ensuite utilisé ses pierres pour bâtir la ville coloniale ; seuls les blocs trop lourds sont restés en place.",
+        "compare": "Le point de départ de l'exposition : la puissance des Incas se lit d'abord dans la pierre.",
+        "image": "images/mouvements/incas/sacsayhuaman.jpg",
+        "lieu": "Cuzco",
+        "lieuType": "site"
+      },
+      {
+        "title": "La pierre aux douze angles, rue Hatun Rumiyoc",
+        "artist": "Bâtisseurs incas",
+        "country": "Pérou",
+        "period": "XVe siècle",
+        "museum": "Rue Hatun Rumiyoc, Cuzco (Pérou)",
+        "credit": "Cuzco, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:La_piedra_de_los_doce_%C3%A1ngulos%2C_en_calle_Hatun_Rumiyoc%2C_Cuzco_05.jpg), photo Rodolfo Pimentel, licence CC BY-SA 4.0",
+        "analysis": "Un mur de grosses pierres vertes et grises, aux faces légèrement bombées. Au centre, un bloc plus grand que les autres a de nombreux côtés ; ses voisins s'ajustent à chacun de ses angles, si serrés qu'on ne pourrait pas glisser une feuille entre eux. Cette pierre de douze angles fait partie du mur d'un palais inca, attribué à l'Inca Roca, sur lequel les Espagnols ont bâti le palais de l'archevêque. Dans le centre de Cuzco, de nombreuses rues sont encore bordées de murs incas, qui ont mieux résisté aux tremblements de terre que les bâtiments coloniaux posés dessus : leurs pierres taillées, sans mortier, bougent légèrement puis reprennent leur place.",
+        "compare": "Les géants de Sacsayhuamán, juste avant, et ici une seule pierre, en pleine ville : la même maîtrise, à l'échelle d'une rue.",
+        "image": "images/mouvements/incas/pierre-aux-douze-angles.jpg",
+        "lieu": "Cuzco",
+        "lieuType": "site"
+      },
+      {
+        "title": "Le Qorikancha, temple du Soleil, sous le couvent de Santo Domingo",
+        "artist": "Bâtisseurs incas",
+        "country": "Pérou",
+        "period": "XVe siècle",
+        "museum": "Qorikancha, Cuzco (Pérou)",
+        "credit": "Cuzco, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Peru_-_Cusco_023_-_Qorikancha_%287084772615%29.jpg), photo McKay Savage, licence CC BY 2.0",
+        "analysis": "Au-dessus de jardins en terrasses, un grand mur courbe de pierres parfaitement jointes porte une église de pierre à coupole et un couvent colonial aux murs blancs et aux toits de tuiles rouges. Le Qorikancha, l'« enclos d'or », était le plus grand temple de Cuzco, consacré au Soleil ; selon les chroniqueurs espagnols, ses murs étaient couverts de plaques d'or, qui furent fondues lors de la conquête. Les dominicains ont construit leur église et leur couvent sur ses fondations. Lors des tremblements de terre de 1650 et de 1950, l'église a été très endommagée, tandis que les murs incas, en dessous, ont tenu.",
+        "compare": "Deux mondes superposés, comme le palais de la pierre aux douze angles, juste avant : en bas, l'Inca, en haut, l'Espagne.",
+        "image": "images/mouvements/incas/qorikancha.jpg",
+        "lieu": "Cuzco",
+        "lieuType": "site"
+      },
+      {
+        "title": "Machu Picchu",
+        "artist": "Bâtisseurs incas",
+        "country": "Pérou",
+        "period": "vers 1450",
+        "museum": "Site archéologique, Machu Picchu (Pérou)",
+        "credit": "Machu Picchu, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:80_-_Machu_Picchu_-_Juin_2009_-_edit.jpg), photo Martin St-Amant, licence CC BY-SA 3.0",
+        "analysis": "Dans la lumière dorée du soir, une petite ville de pierre s'étend sur une crête, entre deux pics. Ses maisons sans toit, ses places et ses terrasses en gradins épousent la pente. Derrière se dresse un piton rocheux très pointu, et tout autour, des montagnes couvertes de forêt descendent vers des vallées profondes. Machu Picchu, à plus de 2 400 mètres d'altitude, a sans doute été construit vers 1450 comme domaine pour l'Inca Pachacuti, le grand conquérant. On y trouve des temples, des palais, des maisons, des fontaines et des terrasses cultivées. Les Espagnols ne l'ont jamais trouvé. Les paysans de la région le connaissaient, mais il est devenu célèbre dans le monde entier après la visite de l'explorateur américain Hiram Bingham en 1911. Il est inscrit au patrimoine mondial de l'UNESCO depuis 1983.",
+        "compare": "Après Cuzco, la capitale, une résidence royale dans la montagne : les Incas bâtissent avec le paysage, non contre lui.",
+        "image": "images/mouvements/incas/machu-picchu.jpg",
+        "lieu": "Machu Picchu",
+        "lieuType": "site"
+      },
+      {
+        "title": "Les terrasses d'Ollantaytambo",
+        "artist": "Bâtisseurs incas",
+        "country": "Pérou",
+        "period": "XVe siècle",
+        "museum": "Site archéologique, Ollantaytambo (Pérou)",
+        "credit": "Ollantaytambo, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:08-Ollantaytambo-nX-44.jpg), photo PsamatheM, licence CC BY-SA 4.0",
+        "analysis": "Au pied d'une falaise rocheuse, des murs de pierre montent en gradins réguliers ; chaque terrasse est soutenue par un mur soigneusement appareillé. Des visiteurs, minuscules, montent un escalier. Ollantaytambo, dans la Vallée sacrée, était un domaine royal de l'Inca Pachacuti, avec des temples, des terrasses et des entrepôts. En 1537, l'Inca Manco, révolté contre les Espagnols, y repoussa leur attaque avant de se retirer dans la forêt de Vilcabamba. Le village voisin a gardé le plan de ses rues incas et il est toujours habité.",
+        "compare": "Comparez avec les terrasses de Machu Picchu, juste avant : partout, les Incas transforment les pentes en escaliers de culture.",
+        "image": "images/mouvements/incas/ollantaytambo.jpg",
+        "lieu": "Ollantaytambo et Moray (Vallée sacrée)",
+        "lieuType": "site"
+      },
+      {
+        "title": "Les terrasses circulaires de Moray",
+        "artist": "Bâtisseurs incas",
+        "country": "Pérou",
+        "period": "XVe siècle",
+        "museum": "Site archéologique, Moray (Pérou)",
+        "credit": "Moray, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:View_of_Inca_terraces_of_Moray%2C_2018.jpg), photo F. Delventhal, licence CC BY 2.0",
+        "analysis": "Dans un creux naturel du plateau, des terrasses herbeuses forment des cercles concentriques qui descendent comme les gradins d'un immense amphithéâtre. Autour, des champs et des collines vertes. À Moray, les Incas ont aménagé plusieurs dépressions naturelles en terrasses circulaires, la plus grande profonde d'une trentaine de mètres. Entre le haut et le fond, la température change sensiblement : l'hypothèse la plus répandue est qu'ils y étudiaient comment les plantes poussaient selon l'altitude et le climat, une sorte de laboratoire agricole, mais d'autres usages, notamment religieux, sont possibles.",
+        "compare": "Les terrasses d'Ollantaytambo, juste avant, servaient à cultiver ; celles de Moray, en cercles parfaits, posent encore des questions.",
+        "image": "images/mouvements/incas/terrasses-de-moray.jpg",
+        "lieu": "Ollantaytambo et Moray (Vallée sacrée)",
+        "lieuType": "site"
+      },
+      {
+        "title": "Le Qhapaq Ñan, la grande route inca, vers le Kuntisuyu",
+        "artist": "Bâtisseurs incas",
+        "country": "Pérou",
+        "period": "XVe siècle",
+        "museum": "Route inca, province de Cuzco (Pérou)",
+        "credit": "Province de Cuzco, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:QHAPAQ_%C3%91AN_-_KUNTISUYO.jpg), photo Ordzonhyd Rudyard Tarco Palomino, licence CC BY-SA 4.0",
+        "analysis": "Dans le brouillard, une large route pavée de pierres plates monte le long d'une pente couverte d'herbes et d'arbustes jaunes ; ses bords sont tenus par des pierres posées de chant. Elle disparaît au loin dans la brume. Les Incas ont relié leur empire par un immense réseau de routes, le Qhapaq Ñan, de plus de 30 000 kilomètres, de la Colombie actuelle jusqu'au Chili et à l'Argentine. Des coureurs, les chasquis, s'y relayaient pour porter les messages ; des relais, les tambos, abritaient les voyageurs et les entrepôts. Ce tronçon part de Cuzco vers le Kuntisuyu, la région du sud-ouest. Le Qhapaq Ñan est inscrit au patrimoine mondial de l'UNESCO depuis 2014, au nom de six pays.",
+        "compare": "Les pierres de Cuzco, plus haut, deviennent ici un chemin : c'est par lui que l'empire tenait ensemble.",
+        "image": "images/mouvements/incas/qhapaq-nan.jpg",
+        "lieu": "Cuzco",
+        "lieuType": "site"
+      },
+      {
+        "title": "Le pont de cordes de Q'eswachaka",
+        "artist": "Communautés quechuas de Quehue",
+        "country": "Pérou",
+        "period": "technique inca, refait chaque année",
+        "museum": "Rivière Apurímac, Canas (Pérou)",
+        "credit": "Canas (Pérou), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Inka_suspension_bridge_Qeswachaka_DSC_2730.jpg), photo Aga Khan (IT), licence CC BY-SA 4.0",
+        "analysis": "Un pont suspendu fait de cordes d'herbe tressée franchit une gorge rocheuse, au-dessus d'une rivière verte et rapide. Il repose de chaque côté sur des culées de pierre ; deux cordes servent de rambardes. C'est le dernier pont inca de ce type encore en usage. Chaque année, au mois de juin, des familles de quatre communautés quechuas tressent en quelques jours de nouvelles cordes avec une herbe des hauts plateaux, le q'oya, et reconstruisent entièrement le pont, long d'une trentaine de mètres, selon les techniques transmises depuis les Incas. Ce savoir-faire est inscrit au patrimoine culturel immatériel de l'UNESCO depuis 2013.",
+        "compare": "Sur la route inca, juste avant, ces ponts franchissaient les gorges des Andes. Ici, la civilisation inca n'est pas un souvenir : c'est un geste qui se répète chaque année.",
+        "image": "images/mouvements/incas/pont-de-qeswachaka.jpg",
+        "lieu": "Q'eswachaka",
+        "lieuType": "site"
+      },
+      {
+        "title": "Ingapirca, le temple du Soleil en Équateur",
+        "artist": "Bâtisseurs incas",
+        "country": "Pérou",
+        "period": "fin du XVe siècle",
+        "museum": "Site archéologique, Ingapirca (Équateur)",
+        "credit": "Ingapirca (Équateur), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Ingapirca_Temple_of_the_Sun_seen_from_the_northeast_2.jpg), photo Ymblanter, licence CC BY-SA 4.0",
+        "analysis": "Au sommet d'une colline verte, sous un ciel de nuages, se dresse un édifice ovale aux murs de pierre bien taillée, surmonté d'une petite construction. Autour, des terrasses et des champs. Ingapirca, « mur de l'Inca » en quechua, est le plus grand site inca de l'Équateur, à quelque 1 400 kilomètres de Cuzco à vol d'oiseau. Les Incas l'ont bâti sur un lieu sacré du peuple cañari, qu'ils avaient soumis, et y ont élevé ce temple ovale, appelé le temple du Soleil. Il montre comment l'empire s'installait chez les peuples conquis : en partageant leurs lieux saints et en y imposant son architecture.",
+        "compare": "Au bout de la route inca, juste avant, la même pierre taillée qu'à Cuzco, mais à l'autre extrémité de l'empire, vers le nord.",
+        "image": "images/mouvements/incas/ingapirca.jpg",
+        "lieu": "Ingapirca (Équateur)",
+        "lieuType": "site"
+      },
+      {
+        "title": "Pilko Kaina, sur l'île du Soleil (lac Titicaca)",
+        "artist": "Bâtisseurs incas",
+        "country": "Pérou",
+        "period": "XVe siècle",
+        "museum": "Site archéologique, Isla del Sol (Bolivie)",
+        "credit": "Isla del Sol (Bolivie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:20170811_Bolivia_1728_Pilko_Kaina_sRGB_%2826204424409%29.jpg), photo Dan Lundberg, licence CC BY-SA 2.0",
+        "analysis": "Un bâtiment de pierres plates, sans toit, adossé à une pente, sous un ciel bleu. Ses murs sont percés de grandes portes en forme de trapèze, plus étroites en haut qu'en bas. Plus loin, des terrasses cultivées descendent la colline. Selon un mythe inca, c'est du lac Titicaca, sur cette île, que le Soleil fit sortir le premier Inca, Manco Capac, et sa sœur et épouse, Mama Ocllo, avant qu'ils ne partent fonder Cuzco. Les Incas firent de l'île un grand sanctuaire, où venaient les pèlerins. Pilko Kaina est un édifice inca de deux étages. Les portes en trapèze sont la signature de l'architecture inca, de l'Équateur à la Bolivie.",
+        "compare": "Ingapirca, juste avant, était au nord de l'empire ; l'île du Soleil est au sud, sur le lac sacré des origines. Comparez leurs portes et leurs pierres.",
+        "image": "images/mouvements/incas/pilko-kaina-isla-del-sol.jpg",
+        "lieu": "Isla del Sol, lac Titicaca (Bolivie)",
+        "lieuType": "site"
+      },
+      {
+        "title": "Khipu, cordelettes à nœuds",
+        "artist": "Comptable inca (khipukamayuq)",
+        "country": "Pérou",
+        "period": "vers 1400–1532",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1940.469), domaine public (CC0)",
+        "analysis": "Sur un fond clair, des dizaines de fines cordelettes de coton et de laine pendent d'une corde principale, disposée en arc. Certaines sont plus foncées ; on y voit, à différentes hauteurs, des groupes de petits nœuds. Les Incas n'avaient pas d'écriture alphabétique, mais ils gardaient la mémoire de l'empire sur ces cordelettes, les khipus. La position des nœuds indique les unités, les dizaines, les centaines ; la couleur et la torsion des fils donnaient d'autres informations. Des spécialistes, les khipukamayuq, y notaient les recensements, les tributs et le contenu des entrepôts. Certains chercheurs pensent que des khipus enregistraient aussi des récits ; la question reste ouverte, car on ne sait plus les lire entièrement.",
+        "compare": "Les entrepôts des tambos, le long de la route inca, plus haut, étaient comptés ici : sans les khipus, pas d'empire.",
+        "image": "images/mouvements/incas/khipu-cleveland.jpg"
+      },
+      {
+        "title": "Tunique à motif de « clé inca »",
+        "artist": "Tisserande inca",
+        "country": "Pérou",
+        "period": "vers 1400–1540",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1957.136), domaine public (CC0)",
+        "analysis": "Une tunique de tapisserie presque carrée, de 85 cm de haut. Le haut est couvert d'un damier de petits carrés ocre, bruns et rouges, chacun orné d'un motif en escalier et en crochet ; le bas est rayé de larges bandes rouges et brunes. Une fente au centre laisse passer la tête. Selon le Cleveland Museum of Art, ces tuniques de tapisserie très fine étaient un privilège de la noblesse. Elles étaient tissées par des femmes de familles nobles, par des tisserands professionnels et par les aclla, les « femmes choisies », qui vivaient à part et servaient l'État en tissant et en brassant la bière de maïs. L'État les offrait en cadeau à ses alliés et à ses fidèles. Ce décor, appelé la « clé inca », est l'un des plus courants des tuniques incas.",
+        "compare": "Le tissu était la plus grande richesse des Incas, plus que l'or : une tunique comme celle-ci était un don de l'empereur.",
+        "image": "images/mouvements/incas/tunique-cle-inca-cleveland.jpg"
+      },
+      {
+        "title": "Tunique en damier",
+        "artist": "Tisserande inca",
+        "country": "Pérou",
+        "period": "1400–1535",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/751901), domaine public (CC0)",
+        "analysis": "Une tunique de laine de camélidé, haute de 87 cm, couverte d'un damier noir et blanc. En haut, un grand empiècement rouge en forme de V descend en escalier depuis l'encolure. Cette tunique suit un modèle très précis, qui se répète presque à l'identique sur d'autres exemplaires conservés : les Incas imposaient des dessins fixes, reconnaissables de loin, à certaines catégories de personnes. Ce damier noir et blanc au col rouge est souvent associé aux soldats de l'armée inca.",
+        "compare": "Comparez avec la tunique à « clé inca », juste avant : deux uniformes, deux rôles dans l'empire, lisibles au premier coup d'œil.",
+        "image": "images/mouvements/incas/tunique-damier-met.jpg"
+      },
+      {
+        "title": "Grande jarre à chicha (urpu)",
+        "artist": "Potier inca",
+        "country": "Pérou",
+        "period": "1400–1535",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/309389), domaine public (CC0)",
+        "analysis": "Une jarre de terre cuite de 29 cm, à la panse ronde, au long col évasé et au fond pointu, avec deux petites anses sur les côtés et un bouton en relief. Elle est peinte de grands cercles rouges et bruns, semés de petits motifs, sur un fond clair. Ces jarres, que les Européens ont appelées « aryballes », servaient à conserver et à transporter la chicha, la bière de maïs bue lors des fêtes et des travaux collectifs. On les portait sur le dos grâce à une corde passée dans les anses et sous le bouton ; le fond pointu les faisait tenir dans le sol ou dans un support. On en a retrouvé de toutes les tailles, dans tout l'empire.",
+        "compare": "La chicha préparée par les aclla, comme les tuniques tissées juste avant : l'État inca offrait à boire autant qu'à porter.",
+        "image": "images/mouvements/incas/urpu-met.jpg"
+      },
+      {
+        "title": "Gobelet de bois (kero)",
+        "artist": "Artisan inca",
+        "country": "Pérou",
+        "period": "1400–1535",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/313267), domaine public (CC0)",
+        "analysis": "Un gobelet de bois sombre, haut de 16 cm, aux parois évasées. Sa surface est gravée de motifs géométriques : des losanges, des chevrons et des carrés emboîtés, en bandes. Les keros allaient souvent par paires : deux personnes buvaient ensemble la chicha, l'une offrant à l'autre, pour sceller une alliance, un accord ou une fête. L'Inca lui-même trinquait ainsi avec les chefs des peuples soumis. Après la conquête, on a continué à fabriquer des keros pendant des siècles, en les peignant de scènes nouvelles.",
+        "compare": "La jarre, juste avant, transportait la chicha ; le kero servait à la partager : boire ensemble, c'était faire alliance.",
+        "image": "images/mouvements/incas/kero-met.jpg"
+      },
+      {
+        "title": "Figurine féminine",
+        "artist": "Orfèvre inca",
+        "country": "Pérou",
+        "period": "1400–1535",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/309944), domaine public (CC0)",
+        "analysis": "Une statuette de 7 cm, en alliage d'or et d'argent. Une femme debout, nue, les mains posées sur la poitrine ; ses cheveux, tirés en arrière, couvrent le haut de sa tête comme un bonnet. Le corps est très simplifié, les jambes courtes et droites. Ces figurines de métal précieux étaient habillées de minuscules vêtements tissés et déposées en offrandes, dans les sanctuaires et sur les sommets des montagnes sacrées. Faites dans des ateliers d'État, elles se ressemblent toutes, de l'Équateur à l'Argentine. Comme presque tout l'or inca a été fondu par les Espagnols, ces petites offrandes, cachées, sont parmi les rares objets d'or qui nous restent.",
+        "compare": "Une offrande aux montagnes, les apus : la religion inca ne se voit pas seulement dans les temples, comme le Qorikancha, plus haut, mais sur les sommets.",
+        "sensible": true,
+        "image": "images/mouvements/incas/figurine-feminine-met.jpg"
+      },
+      {
+        "title": "Lama miniature",
+        "artist": "Orfèvre inca",
+        "country": "Pérou",
+        "period": "1400–1535",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/309960), domaine public (CC0)",
+        "analysis": "Un petit lama de 5 cm, en argent, en or et en alliage de cuivre, debout sur ses quatre pattes droites, le cou dressé et les oreilles pointées vers le haut. Son corps est lisse et brillant. Le lama et l'alpaga, des camélidés des Andes, étaient la grande richesse des Incas : ils portaient les charges sur les routes, donnaient leur laine pour les tissus, leur viande et leurs excréments, qui servaient d'engrais et de combustible. Les troupeaux de l'État et des temples comptaient des milliers de bêtes. Ces petits lamas de métal étaient offerts, comme les figurines humaines, pour demander la prospérité des troupeaux.",
+        "compare": "La compagne de la figurine, juste avant : on offrait aux dieux ce qui faisait vivre les hommes.",
+        "image": "images/mouvements/incas/lama-en-argent-met.jpg"
+      },
+      {
+        "title": "Atahualpa sur son trône à Cajamarca, chronique de Guaman Poma de Ayala",
+        "artist": "Felipe Guaman Poma de Ayala",
+        "country": "Pérou",
+        "period": "vers 1615",
+        "museum": "Bibliothèque royale du Danemark, Copenhague",
+        "credit": "Bibliothèque royale du Danemark, Copenhague (GKS 2232 4°), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:POMA0386v.jpg), domaine public",
+        "analysis": "Une page dessinée à l'encre, sous un titre en grandes lettres : « Atagualpa Inga est dans la ville de Caxamarca sur son trône, usno ». Au centre, l'Inca, assis sur son trône, coiffé d'un bandeau orné, est entouré de guerriers armés de lances. Devant lui s'agenouillent deux Espagnols dont le nom est écrit à côté d'eux : Pizarro, l'épée à la main, et un religieux, « fray Vicente », qui lui tend un petit livre ; à droite se tient l'interprète, Felipe. Felipe Guaman Poma de Ayala, un noble andin, a écrit et dessiné vers 1615 une immense chronique de près de 1 200 pages, avec près de quatre cents dessins, adressée au roi d'Espagne Philippe III, pour raconter l'histoire des Incas et dénoncer les abus de la colonisation. Le manuscrit, conservé à Copenhague, n'a été redécouvert qu'en 1908. Ici, le dernier souverain inca, Atahualpa, reçoit les Espagnols à Cajamarca. Selon les chroniques, le frère Vicente de Valverde lui présenta un livre de prières ; l'Inca le jeta à terre, et les Espagnols attaquèrent : Pizarro le fit prisonnier ce 16 novembre 1532, et le fit exécuter l'année suivante.",
+        "compare": "La conquête racontée par un Andin, en images : comparez avec le codex de Florence, dans l'exposition sur les Aztèques, où des peintres nahuas racontent la chute de leur propre ville.",
+        "image": "images/mouvements/incas/guaman-poma-atahualpa-cajamarca.jpg",
+        "lieu": "Cajamarca",
+        "lieuType": "représenté"
+      },
+      {
+        "title": "Capac Cuna, la généalogie des Incas",
+        "artist": "Peintre de l'école de Cuzco",
+        "country": "Pérou",
+        "period": "XVIIIe siècle",
+        "museum": "Museo Larco, Lima",
+        "credit": "Museo Larco, Lima, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Capac_Cuna_Inca_ou_G%C3%A9n%C3%A9alogie_des_Incas.jpg), photo Pierre André Leclercq, licence CC BY-SA 4.0",
+        "analysis": "Un tableau à l'huile divisé en petits médaillons : sur plusieurs rangées, des portraits de souverains vêtus et coiffés à la manière inca, chacun accompagné d'une inscription. En haut, d'autres portraits, entourés de blasons. Selon le Museo Larco, ce tableau de l'école de Cuzco présente le roi d'Espagne Charles IV comme le descendant des empereurs incas. Deux siècles après la conquête, les souverains incas restaient une source de légitimité : les rois d'Espagne s'en réclamaient, et les nobles andins aussi, qui faisaient peindre leurs ancêtres pour défendre leurs droits. En 1780, Túpac Amaru II, qui se disait descendant des Incas, mena une grande révolte contre le pouvoir colonial.",
+        "compare": "La fin de l'exposition : les Incas ont disparu comme empire, mais pas comme mémoire. Pour en voir davantage, l'exposition sur l'école de Cuzco, dans l'onglet Mouvements, présente la peinture de la ville après la conquête.",
+        "image": "images/mouvements/incas/capac-cuna-genealogie-des-incas.jpg",
+        "lieu": "Cuzco",
+        "lieuType": "fabrication"
+      }
+    ],
+    "carte": {
+      "image": "images/mouvements/cartes/incas.svg",
+      "ouest": -81.5,
+      "est": -66.5,
+      "sud": -17.5,
+      "nord": 0,
+      "lieux": [
+        {
+          "nom": "Cuzco",
+          "lat": -13.5169,
+          "lon": -71.9786
+        },
+        {
+          "nom": "Machu Picchu",
+          "lat": -13.1633,
+          "lon": -72.5456
+        },
+        {
+          "nom": "Ollantaytambo et Moray (Vallée sacrée)",
+          "lat": -13.2581,
+          "lon": -72.2633
+        },
+        {
+          "nom": "Q'eswachaka",
+          "lat": -14.3813,
+          "lon": -71.484
+        },
+        {
+          "nom": "Ingapirca (Équateur)",
+          "lat": -2.5397,
+          "lon": -78.875
+        },
+        {
+          "nom": "Isla del Sol, lac Titicaca (Bolivie)",
+          "lat": -16.0206,
+          "lon": -69.1764
+        },
+        {
+          "nom": "Cajamarca",
+          "lat": -7.1575,
+          "lon": -78.5175
+        }
+      ],
+      "pays": [
+        {
+          "nom": "Équateur",
+          "lat": -1.259,
+          "lon": -78.188
+        },
+        {
+          "nom": "Bolivie",
+          "lat": -13.732,
+          "lon": -67.774
+        },
+        {
+          "nom": "Pérou",
+          "lat": -12.977,
+          "lon": -72.9
+        },
+        {
+          "nom": "Brésil",
+          "lat": -5.542,
+          "lon": -69.732
+        },
+        {
+          "nom": "Colombie",
+          "lat": -2.117,
+          "lon": -71.356
+        }
+      ],
+      "villes": [
+        {
+          "nom": "Lima",
+          "lat": -12.046,
+          "lon": -77.052
+        },
+        {
+          "nom": "La Paz",
+          "lat": -16.496,
+          "lon": -68.152
+        },
+        {
+          "nom": "Guayaquil",
+          "lat": -2.218,
+          "lon": -79.922
+        },
+        {
+          "nom": "Trujillo",
+          "lat": -8.12,
+          "lon": -79.02
+        },
+        {
+          "nom": "Cuzco",
+          "lat": -13.525,
+          "lon": -71.972
+        },
+        {
+          "nom": "Ica",
+          "lat": -14.068,
+          "lon": -75.725
+        },
+        {
+          "nom": "Leticia",
+          "lat": -4.201,
+          "lon": -69.955
+        },
+        {
+          "nom": "Cruzeiro do Sul",
+          "lat": -7.63,
+          "lon": -72.67
+        },
+        {
+          "nom": "Iquitos",
+          "lat": -3.75,
+          "lon": -73.25
+        },
+        {
+          "nom": "Huancayo",
+          "lat": -12.08,
+          "lon": -75.2
         }
       ]
     }

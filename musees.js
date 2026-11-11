@@ -464,6 +464,8 @@ const MOUVEMENTS = [
     "Plaques et têtes en laiton du palais royal d'Edo, qui célèbrent les rois (oba) ; beaucoup ont été pillées en 1897."],
   ['Peinture chrétienne éthiopienne', 'Afrique', 'Éthiopie', 'XVe–XIXe siècle', ['Ethiopian'], [], 'ewostatewos', [],
     "Icônes, manuscrits et peintures murales aux grands yeux et aux couleurs vives, parents de l'art copte et byzantin."],
+  ['Aztèques', 'Amériques', 'Mexique', 'XIVe–XVIe siècle', ['Aztec', 'Mexica'], ['Aztec art'], 'aztec|azteque|aztèque|mexica|tenochtitlan', [],
+    "Tenochtitlan, la ville sur le lac : Templo Mayor, Pierre du Soleil, Coatlicue, codex peints, plumes et turquoises, jusqu'à la conquête de 1521."],
   ['Art maya classique', 'Amériques', 'Mexique et Guatemala', 'IIIe–IXe siècle', ['Maya'], [], '', [],
     "Stèles, vases peints et figurines qui racontent les rois, les dieux et le jeu de balle."],
   ['École de Cuzco', 'Amériques', 'Pérou', 'XVIe–XVIIIe siècle', ['Cuzco'], ['Cusco School'], '', ['Diego Quispe Tito', 'Marcos Zapata'],
@@ -537,7 +539,7 @@ const STYLES_ARCHITECTURE = { 'Art gothique': 'Q176483' };
 const ANONYME = 'Q4233718'; // « anonyme » dans Wikidata
 // Mouvements d'abord de l'estampe : leurs estampes ne sont pas limitées à trois
 // Expositions consacrées à une civilisation plutôt qu'à un mouvement (badge « Civilisation » sur leur page)
-const CIVILISATIONS = new Set(['Égypte ancienne', 'Chine, des origines à 1912', 'Grèce antique', 'Rome antique', 'Aksoum']);
+const CIVILISATIONS = new Set(['Égypte ancienne', 'Chine, des origines à 1912', 'Grèce antique', 'Rome antique', 'Aksoum', 'Aztèques']);
 const MOUVEMENTS_D_ESTAMPES = new Set(['Ukiyo-e', 'Expressionnisme']);
 // Mouvements de peintres : si le visiteur n'a pas choisi de type, l'exposition ne montre que des peintures
 // (pas les dessins, études, estampes ou éventails que les catalogues renvoient aussi pour ces artistes)

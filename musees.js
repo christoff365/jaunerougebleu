@@ -452,6 +452,8 @@ const MOUVEMENTS = [
     "Chroniques illustrées des sultans, fêtes, cortèges et portraits, dans un style narratif précis."],
   ['Art mamelouk', 'Moyen-Orient', 'Égypte et Syrie', 'XIIIe–XVIe siècle', ['Mamluk'], [], '', [],
     "Lampes de mosquée en verre émaillé, métal incrusté d'argent et Corans enluminés du sultanat du Caire et de Damas."],
+  ['Empire du Mali', 'Afrique', 'Mali, Sénégal, Gambie, Guinée et Mauritanie', 'XIIIe–XVIe siècle', ['Mali Empire', 'Djenne', 'Timbuktu'], ['art of the Mali Empire'], 'mali|mansa|djenne|djenné|tombouctou|timbuktu', [],
+    "Soundiata, Mansa Musa et l'or du Sahara : mosquées de terre de Tombouctou et de Djenné, manuscrits, terres cuites du Niger et griots."],
   ['Aksoum', 'Afrique', 'Éthiopie et Érythrée', 'VIIIe siècle av. J.-C. – XVIe siècle', ['Aksum', 'Axum'], ['Aksumite art'], 'aksum|axum|aksoum', [],
     "Le royaume de la mer Rouge : temple de Yeha, stèles géantes, inscriptions du roi Ézana, puis ses héritiers, les églises taillées dans le roc de Lalibela et les manuscrits peints."],
   ['Égypte ancienne', 'Afrique', 'Égypte', 'XXXe–Ier siècle av. J.-C.', ['Egyptian'], ['ancient Egyptian art'], 'toutankhamon|tutankhamun|pharaon', [],
@@ -541,7 +543,7 @@ const STYLES_ARCHITECTURE = { 'Art gothique': 'Q176483' };
 const ANONYME = 'Q4233718'; // « anonyme » dans Wikidata
 // Mouvements d'abord de l'estampe : leurs estampes ne sont pas limitées à trois
 // Expositions consacrées à une civilisation plutôt qu'à un mouvement (badge « Civilisation » sur leur page)
-const CIVILISATIONS = new Set(['Égypte ancienne', 'Chine, des origines à 1912', 'Grèce antique', 'Rome antique', 'Aksoum', 'Aztèques', 'Incas']);
+const CIVILISATIONS = new Set(['Égypte ancienne', 'Chine, des origines à 1912', 'Grèce antique', 'Rome antique', 'Aksoum', 'Empire du Mali', 'Aztèques', 'Incas']);
 const MOUVEMENTS_D_ESTAMPES = new Set(['Ukiyo-e', 'Expressionnisme']);
 // Mouvements de peintres : si le visiteur n'a pas choisi de type, l'exposition ne montre que des peintures
 // (pas les dessins, études, estampes ou éventails que les catalogues renvoient aussi pour ces artistes)

@@ -13569,5 +13569,409 @@
         }
       ]
     }
+  },
+  {
+    "mouvement": "Perse ancienne",
+    "slug": "perse-ancienne",
+    "status": "published",
+    "title": "La Perse ancienne, des Achéménides aux Sassanides",
+    "subtitle": "Iran, vers 550 av. J.-C. – 651 apr. J.-C. : dix-huit œuvres et sites archéologiques d'Iran et d'Irak, de Téhéran, Londres, Paris et New York",
+    "intro": "Vers 550 av. J.-C., Cyrus le Grand, roi des Perses, un peuple du sud-ouest de l'Iran, fonde le premier empire qui s'étend sur trois continents, de l'Égypte et de l'Asie Mineure jusqu'à l'Indus. Ses successeurs, les Achéménides, le gouvernent pendant plus de deux siècles depuis Pasargades, Suse et Persépolis, jusqu'à la conquête d'Alexandre le Grand en 330 av. J.-C. Après les rois grecs viennent les Parthes, puis, de 224 à 651 de notre ère, les Sassanides, qui se veulent les héritiers des anciens rois et rivalisent avec Rome et Byzance. L'exposition commence chez les Élamites, leurs prédécesseurs, et suit ces mille deux cents ans d'histoire à travers les palais, les reliefs taillés dans les falaises, l'orfèvrerie, les sanctuaires du feu et les qanats qui irriguaient le plateau. Plusieurs œuvres sont restées sur place, en Iran et en Irak ; les photographies sont celles de visiteurs, publiées sous licence libre.",
+    "contexte": [
+      {
+        "title": "Le Roi des rois et les satrapies",
+        "text": "Le souverain perse se fait appeler « Roi des rois » : il règne sur des dizaines de peuples, de l'Égypte à l'Inde et de la mer Égée à l'Asie centrale. Sous Darius Ier, l'empire achéménide est divisé en grandes provinces, les satrapies, gouvernées par des satrapes qui lèvent le tribut et les soldats ; des inspecteurs royaux, appelés « les yeux et les oreilles du roi », les surveillent. Une route royale de plus de 2 500 kilomètres relie Sardes, en Asie Mineure, à Suse, avec des relais où des messagers changent de chevaux. Les rois respectent en général les coutumes, les langues et les religions des peuples soumis, tant qu'ils paient le tribut et obéissent ; l'administration écrit en élamite et surtout en araméen, la langue commune de l'empire. Plus tard, les Parthes puis les Sassanides reprennent ce modèle d'un grand roi entouré de grandes familles nobles."
+      },
+      {
+        "title": "Vivre sur le plateau iranien",
+        "text": "L'Iran est un haut plateau entouré de montagnes, souvent sec, avec des déserts au centre. Pour y cultiver, les Perses ont perfectionné une technique remarquable, le qanat : un tunnel souterrain qui amène, sur des kilomètres, l'eau des nappes du pied des montagnes jusqu'aux villages, sans l'exposer à l'évaporation. Autour des palais, ils créent des jardins clos, plantés d'arbres et traversés de canaux ; le mot vieux-perse pour ces enclos est à l'origine de notre mot « paradis ». La majorité des habitants sont des paysans et des éleveurs ; dans les villes travaillent des artisans célèbres pour l'orfèvrerie, les tissus et plus tard les tapis. Selon les tablettes d'argile retrouvées à Persépolis, des femmes travaillaient dans les ateliers royaux et recevaient des rations, parfois égales à celles des hommes. Le Nouvel An persan, Norouz, fêté à l'équinoxe de printemps, a des origines très anciennes et se célèbre toujours."
+      },
+      {
+        "title": "Ahura Mazda et le feu sacré",
+        "text": "La religion des rois perses est liée à l'enseignement du prophète Zarathoustra, que les Grecs appelaient Zoroastre : le monde est le lieu d'une lutte entre le bien et le mal, la vérité et le mensonge, et chacun doit choisir la vérité par ses pensées, ses paroles et ses actes. Le grand dieu est Ahura Mazda, « le Seigneur sage », que Darius invoque dans ses inscriptions. Le feu, signe de pureté, est entretenu dans des temples où il ne doit jamais s'éteindre. Sous les Sassanides, le zoroastrisme devient religion d'État, avec un clergé puissant, mais l'empire compte aussi des juifs, des chrétiens, des manichéens et des bouddhistes. Après la conquête arabe, la plupart des Iraniens deviennent musulmans ; des communautés zoroastriennes vivent toujours en Iran et en Inde, où on les appelle les Parsis."
+      },
+      {
+        "title": "Des Achéménides aux Sassanides, et ce que nous apprend l'archéologie",
+        "text": "L'empire achéménide, fondé par Cyrus vers 550 av. J.-C., tombe en 330 av. J.-C. devant Alexandre le Grand, qui incendie Persépolis. Après ses successeurs grecs, les Séleucides, les Parthes dominent l'Iran pendant près de cinq siècles et tiennent tête à Rome. En 224, Ardashir fonde l'empire sassanide, qui rivalise avec Rome puis Byzance jusqu'à la conquête arabe, entre 636 et 651. Pendant longtemps, on n'a connu cette histoire que par les Grecs, ennemis des Perses, comme Hérodote, et par la Bible. L'archéologie a tout changé : au XIXe siècle, l'officier britannique Henry Rawlinson copie la grande inscription de Behistoun, ce qui permet de déchiffrer l'écriture cunéiforme ; dans les années 1930, les fouilles de Persépolis livrent des dizaines de milliers de tablettes administratives. Le Livre des rois, l'immense poème écrit par Ferdowsi vers l'an 1000, a gardé en persan la mémoire des rois anciens."
+      }
+    ],
+    "bibliography": [
+      {
+        "reference": "UNESCO, Patrimoine mondial : Persépolis",
+        "url": "https://whc.unesco.org/fr/list/114"
+      },
+      {
+        "reference": "UNESCO, Patrimoine mondial : Pasargades",
+        "url": "https://whc.unesco.org/fr/list/1106"
+      },
+      {
+        "reference": "UNESCO, Patrimoine mondial : Behistoun",
+        "url": "https://whc.unesco.org/fr/list/1222"
+      },
+      {
+        "reference": "UNESCO, Patrimoine mondial : Tchoga Zanbil",
+        "url": "https://whc.unesco.org/fr/list/113"
+      },
+      {
+        "reference": "UNESCO, Patrimoine mondial : le qanat perse",
+        "url": "https://whc.unesco.org/fr/list/1506"
+      },
+      {
+        "reference": "Pierre Briant, Histoire de l'Empire perse, de Cyrus à Alexandre, Fayard, 1996"
+      },
+      {
+        "reference": "Ferdowsi, Le Livre des rois (Shahnameh), vers 1010"
+      },
+      {
+        "reference": "Notices des œuvres : Metropolitan Museum of Art, British Museum, musée du Louvre, Musée national d'Iran"
+      }
+    ],
+    "works": [
+      {
+        "title": "La ziggourat de Tchogha Zanbil",
+        "artist": "Bâtisseurs élamites",
+        "country": "Iran",
+        "period": "vers 1250 av. J.-C.",
+        "museum": "Site archéologique, Tchogha Zanbil (Iran)",
+        "credit": "Tchogha Zanbil (Iran), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:The_east_side_of_the_ziggurat%2C_Chogha_Zanbil%2C_Iran_%2847780495562%29.jpg), photo Carole Raddato, licence CC BY-SA 2.0",
+        "analysis": "Une immense construction de briques, en gradins, se dresse sur une plaine ; ses murs, faits de milliers de briques cuites régulières, montent en terrasses successives, sous un ciel nuageux. Avant les Perses, le sud-ouest de l'Iran était le pays des Élamites, dont la capitale était Suse. Vers 1250 av. J.-C., le roi Untash-Napirisha fit construire cette ziggourat, une tour à étages surmontée d'un temple, pour les dieux de son royaume. C'est l'une des mieux conservées du Proche-Orient ; des briques portent encore des inscriptions en écriture cunéiforme élamite. Les Perses ont hérité de cette culture : six siècles plus tard, l'élamite était encore l'une des langues de leur administration. Le site est inscrit au patrimoine mondial de l'UNESCO depuis 1979.",
+        "compare": "Le point de départ de l'exposition : l'Iran avait déjà une longue histoire quand Cyrus y fonda son empire.",
+        "image": "images/mouvements/perse-ancienne/ziggurat-de-tchogha-zanbil.jpg",
+        "lieu": "Tchogha Zanbil",
+        "lieuType": "site"
+      },
+      {
+        "title": "Le tombeau de Cyrus le Grand à Pasargades",
+        "artist": "Bâtisseurs achéménides",
+        "country": "Iran",
+        "period": "vers 530 av. J.-C.",
+        "museum": "Site archéologique, Pasargades (Iran)",
+        "credit": "Pasargades (Iran), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:CyrustheGreatTomb_22059.jpg), photo Truth Seeker, licence CC BY-SA 3.0",
+        "analysis": "Sous un ciel bleu, une petite chambre de pierre au toit à deux pentes repose sur une haute base de six gradins, faite de gros blocs de calcaire clair. Cyrus II, dit le Grand, réunit vers 550 av. J.-C. les Perses et les Mèdes, puis conquiert la Lydie, en Asie Mineure, et Babylone : il fonde le premier grand empire perse, celui des Achéménides. Il se fit construire cette tombe dans sa capitale, Pasargades. Selon les historiens grecs, Alexandre le Grand, deux siècles plus tard, la trouva pillée et la fit restaurer. Sa forme simple, inspirée peut-être des temples d'Asie Mineure, en fait l'un des monuments les plus célèbres d'Iran.",
+        "compare": "Comparez avec la ziggourat, juste avant : le fondateur du plus grand empire de son temps choisit une tombe modeste.",
+        "image": "images/mouvements/perse-ancienne/tombeau-de-cyrus.jpg",
+        "lieu": "Pasargades",
+        "lieuType": "site"
+      },
+      {
+        "title": "Le cylindre de Cyrus",
+        "artist": "Scribe babylonien",
+        "country": "Iran",
+        "period": "vers 539 av. J.-C.",
+        "museum": "British Museum, Londres",
+        "credit": "British Museum, Londres, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Kyros-Zylinder_Cyrus_Cylinder_British_Museum_in_London_Mohammad_Nemat_Zadeh.jpg), photo M-nemat, domaine public (CC0)",
+        "analysis": "Dans une vitrine, un cylindre d'argile beige, en forme de tonneau, long d'environ 23 cm, couvert de lignes serrées d'écriture cunéiforme, avec des cassures. Ce texte en akkadien, la langue de Babylone, a été écrit après la prise de la ville par Cyrus en 539 av. J.-C. et enfoui dans ses murs. Cyrus y raconte qu'il est entré dans Babylone en paix, qu'il a rétabli les cultes et permis aux peuples déportés de rentrer chez eux. On l'a parfois présenté comme la première charte des droits de l'homme ; les historiens y voient plutôt une proclamation royale, dans la tradition des rois de Mésopotamie. Il a été découvert à Babylone en 1879 ; une copie est exposée au siège des Nations unies.",
+        "compare": "Le roi du tombeau de Pasargades, juste avant, tel qu'il voulait être vu par les peuples conquis : un souverain qui respecte leurs dieux.",
+        "image": "images/mouvements/perse-ancienne/cylindre-de-cyrus.jpg",
+        "lieu": "Babylone",
+        "lieuType": "découverte"
+      },
+      {
+        "title": "L'inscription et le relief de Darius à Behistoun",
+        "artist": "Sculpteurs achéménides",
+        "country": "Iran",
+        "period": "vers 520 av. J.-C.",
+        "museum": "Site archéologique, Behistoun (Iran)",
+        "credit": "Behistoun (Iran), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Behistun_inscription_reliefs.jpg), domaine public",
+        "analysis": "Un relief taillé dans la roche : à gauche, un roi plus grand que les autres pose le pied sur un homme couché ; devant lui, une file d'hommes aux mains liées et reliés par une corde au cou. Au-dessus flotte un personnage dans un disque ailé. Tout autour, des colonnes de texte gravé couvrent la paroi. Sur une falaise, à plus de soixante mètres au-dessus de la route de Babylone, Darius Ier fit graver le récit de sa prise du pouvoir : il écrase l'usurpateur Gaumata et reçoit la soumission de neuf rois rebelles, sous la protection d'Ahura Mazda. Le texte est écrit en trois langues, le vieux-perse, l'élamite et le babylonien. Au XIXe siècle, l'officier britannique Henry Rawlinson le copia au péril de sa vie ; la comparaison des trois versions permit de déchiffrer l'écriture cunéiforme, comme la pierre de Rosette pour les hiéroglyphes.",
+        "compare": "Comparez avec la pierre de Rosette, dans l'exposition sur l'Égypte ancienne : deux textes en trois écritures qui ont rendu leur voix à des civilisations entières.",
+        "image": "images/mouvements/perse-ancienne/relief-de-behistoun.jpg",
+        "lieu": "Behistoun",
+        "lieuType": "site"
+      },
+      {
+        "title": "Persépolis : la porte de toutes les nations",
+        "artist": "Bâtisseurs achéménides",
+        "country": "Iran",
+        "period": "vers 475 av. J.-C.",
+        "museum": "Site archéologique, Persépolis (Iran)",
+        "credit": "Persépolis (Iran), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Persepolis_%E2%80%93_Gate_of_All_Nations_01.jpg), photo Skot, licence CC BY-SA 4.0",
+        "analysis": "Deux hauts piliers de pierre grise se dressent contre un ciel bleu intense ; au pied de chacun, un énorme taureau ailé à tête humaine sculpté dans la pierre, aujourd'hui très abîmé. Entre eux, au loin, une colonne isolée. Persépolis, que les Perses appelaient Parsa, fut fondée par Darius Ier vers 518 av. J.-C. et agrandie par ses successeurs. C'était une capitale de cérémonie, bâtie sur une immense terrasse. Les visiteurs y entraient par cette porte, construite par Xerxès, fils de Darius, et gardée par des taureaux ailés à tête humaine, inspirés de ceux d'Assyrie. En 330 av. J.-C., Alexandre le Grand incendia la ville. Le site est inscrit au patrimoine mondial de l'UNESCO depuis 1979.",
+        "compare": "Les taureaux ailés de l'exposition sur l'art assyrien, dans l'onglet Mouvements, ont inspiré ceux-ci : l'empire perse a repris l'art des empires qu'il avait conquis.",
+        "image": "images/mouvements/perse-ancienne/porte-des-nations-persepolis.jpg",
+        "lieu": "Persépolis et Naqsh-e Rostam",
+        "lieuType": "site"
+      },
+      {
+        "title": "Persépolis : porteurs de tribut sur l'escalier de l'Apadana",
+        "artist": "Sculpteurs achéménides",
+        "country": "Iran",
+        "period": "vers 500 av. J.-C.",
+        "museum": "Site archéologique, Persépolis (Iran)",
+        "credit": "Persépolis (Iran), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Tribute-Bearer_on_the_Apadana_Staircase_2_%28Best_Viewed_as_Size_%22Large%22%29_%284685838875%29.jpg), photo A. Davey, licence CC BY 2.0",
+        "analysis": "Un relief de pierre grise, finement sculpté : des hommes en longues tuniques avancent en file, chacun portant un présent ou menant un animal. Des arbres stylisés les séparent, et une rangée de rosaces court en haut. L'Apadana était la grande salle d'audience de Persépolis. Sur les escaliers qui y montent, les sculpteurs ont représenté les délégations de plus de vingt peuples de l'empire, chacun reconnaissable à son costume et à ses présents : tissus, vases, bijoux, chevaux, chameaux, lions… Ce n'est pas une scène de guerre, mais une procession ordonnée : l'image d'un empire où chaque peuple a sa place autour du roi.",
+        "compare": "Comparez avec le relief de Behistoun, plus haut : là, des rebelles enchaînés ; ici, des peuples qui viennent en paix. Les deux visages du pouvoir perse.",
+        "image": "images/mouvements/perse-ancienne/porteurs-de-tribut-apadana.jpg",
+        "lieu": "Persépolis et Naqsh-e Rostam",
+        "lieuType": "site"
+      },
+      {
+        "title": "La frise des archers du palais de Darius à Suse",
+        "artist": "Sculpteurs achéménides",
+        "country": "Iran",
+        "period": "vers 510 av. J.-C.",
+        "museum": "Musée du Louvre, Paris",
+        "credit": "Musée du Louvre, Paris, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Archers_frieze_Louvre_AOD488.jpg), domaine public",
+        "analysis": "Un mur de briques émaillées aux couleurs vives : sur un fond bleu turquoise, une file de guerriers de profil, en longues robes richement décorées, tient une lance verticale ; un arc et un carquois pendent à leur épaule. Ces briques ornaient le palais que Darius Ier fit construire à Suse, l'ancienne capitale élamite. Elles ont été mises au jour par les archéologues français Marcel et Jane Dieulafoy en 1884–1886, puis reconstituées au Louvre. Les guerriers sont souvent identifiés aux « Immortels », la garde du roi dont parle l'historien grec Hérodote, mais ce n'est pas certain. La technique de la brique émaillée venait de Babylone, conquise par Cyrus.",
+        "compare": "Les mêmes défilés qu'à Persépolis, juste avant, mais en couleurs : les palais perses étaient beaucoup plus colorés que leurs ruines grises ne le laissent croire.",
+        "image": "images/mouvements/perse-ancienne/frise-des-archers-suse.jpg",
+        "lieu": "Suse",
+        "lieuType": "découverte"
+      },
+      {
+        "title": "Maquette de char du trésor de l'Oxus",
+        "artist": "Orfèvre achéménide",
+        "country": "Iran",
+        "period": "Ve – IVe siècle av. J.-C.",
+        "museum": "British Museum, Londres",
+        "credit": "British Museum, Londres, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Oxus_chariot_model.jpg), photo BabelStone, licence CC BY-SA 3.0",
+        "analysis": "Une petite maquette en or : un char à deux grandes roues, tiré par quatre minuscules chevaux. À l'intérieur, deux personnages en longs manteaux et coiffes, le cocher et un passager assis. L'avant du char porte le visage d'un dieu. Le trésor de l'Oxus, environ 180 objets d'or et d'argent, a été trouvé vers 1877–1880 près du fleuve Oxus (l'Amou-Daria), dans l'actuel Tadjikistan, à l'autre bout de l'empire perse, puis acheté par des collectionneurs britanniques. Il était peut-être déposé en offrande dans un temple. Cette maquette montre comment voyageaient les nobles perses sur les routes de l'empire.",
+        "compare": "Les routes royales de « La civilisation en bref » en miniature : un empire qui s'étendait de l'Égypte à l'Asie centrale.",
+        "image": "images/mouvements/perse-ancienne/char-du-tresor-de-l-oxus.jpg"
+      },
+      {
+        "title": "Vase en or terminé par un lion fantastique",
+        "artist": "Orfèvre achéménide",
+        "country": "Iran",
+        "period": "Ve siècle av. J.-C.",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/324291), domaine public (CC0)",
+        "analysis": "Un vase en forme de corne, en or, haut de 17 cm, dont le haut est cerclé de fines lignes. Il se termine par l'avant d'un lion rugissant, la gueule ouverte, la crinière finement ciselée, les pattes repliées sous lui. Ce vase, appelé rhyton, pèse environ un kilo d'or : il servait à boire du vin lors des banquets de la cour, où l'on montrait sa richesse. Les orfèvres perses mêlaient des modèles venus de tout l'empire : le lion ailé et fantastique vient de traditions de Mésopotamie et d'Iran.",
+        "compare": "Le luxe de la cour, que les porteurs de tribut de l'Apadana, plus haut, venaient alimenter.",
+        "image": "images/mouvements/perse-ancienne/vase-en-or-achemenide.jpg"
+      },
+      {
+        "title": "Naqsh-e Rostam : le tombeau de Darius et un relief sassanide",
+        "artist": "Bâtisseurs achéménides",
+        "country": "Iran",
+        "period": "vers 486 av. J.-C. (tombeau) ; IIIe siècle (relief)",
+        "museum": "Site archéologique, Naqsh-e Rostam (Iran)",
+        "credit": "Naqsh-e Rostam (Iran), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Tomb_of_Darius_the_Great_and_relief_of_Shapur_I_at_Naqsh-e_Rostam%2C_Iran_%2816279256871%29.jpg), photo anmede, licence CC BY-SA 2.0",
+        "analysis": "Dans une haute falaise de roche dorée, une immense façade en forme de croix a été creusée : au centre, des colonnes encadrent une porte ; au-dessus, des personnages sculptés. En bas, un autre relief, plus petit, montre des cavaliers. Près de Persépolis, quatre rois achéménides, dont Darius Ier, se firent creuser des tombes dans cette falaise ; celle de Darius est identifiée par son inscription. Huit siècles plus tard, les rois sassanides firent sculpter leurs propres victoires juste en dessous, pour se présenter comme les héritiers des anciens rois perses. Le site porte le nom de Rostam, le héros légendaire du Livre des rois.",
+        "compare": "Le lien entre les deux grands empires perses : l'œuvre suivante montre ce relief sassanide de près.",
+        "image": "images/mouvements/perse-ancienne/naqsh-e-rostam.jpg",
+        "lieu": "Persépolis et Naqsh-e Rostam",
+        "lieuType": "site"
+      },
+      {
+        "title": "Rhyton terminé par l'avant d'un félin sauvage",
+        "artist": "Orfèvre parthe",
+        "country": "Iran",
+        "period": "vers le Ier siècle av. J.-C.",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/326623), domaine public (CC0)",
+        "analysis": "Une corne d'argent brillant, longue d'une trentaine de centimètres, s'évase vers le haut, où court une bande dorée. Elle se termine par l'avant d'un félin aux oreilles pointues, doré par endroits, les pattes tendues comme s'il bondissait. Après Alexandre le Grand et ses successeurs grecs, les Parthes, venus du nord-est de l'Iran, dominent la région du IIIe siècle av. J.-C. au IIIe siècle de notre ère et tiennent tête à Rome. Leur art mêle traditions perses et influences grecques. Ce rhyton reprend la forme des vases à boire achéménides, comme le vase en or plus haut, mais le liquide pouvait s'écouler par un petit trou au poitrail de l'animal.",
+        "compare": "Comparez avec le vase en or achéménide, plus haut : quatre siècles plus tard, la même idée, un animal qui jaillit de la corne, plus élancée.",
+        "image": "images/mouvements/perse-ancienne/rhyton-parthe-au-felin.jpg"
+      },
+      {
+        "title": "La statue en bronze d'un prince parthe de Shami",
+        "artist": "Sculpteur parthe",
+        "country": "Iran",
+        "period": "entre 50 av. J.-C. et 150 apr. J.-C.",
+        "museum": "Musée national d'Iran, Téhéran",
+        "credit": "Musée national d'Iran, Téhéran, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Shami_statue%2C_1.94_metre-high_bronze_statue_of_a_Parthian_noble%2C_from_the_sanctuary_at_Shami_in_Elymais%2C_Parthian_period%2C_dated_50_BC_-_150_AD%2C_National_Museum_of_Iran%2C_Tehran%2C_Iran.jpg), photo Carole Raddato, licence CC BY-SA 2.0",
+        "analysis": "Un homme en bronze sombre, plus grand que nature, se tient debout, de face. Il a une moustache, une barbe courte et une épaisse chevelure retenue par un bandeau ; il porte une tunique serrée à la taille et un large pantalon aux plis profonds. Ses avant-bras manquent. Haute de 1,94 mètre, cette statue a été trouvée dans les ruines d'un sanctuaire à Shami, dans les montagnes du sud-ouest de l'Iran, qui faisaient alors partie du petit royaume d'Élymaïde, sous l'autorité des Parthes. Elle représente sans doute un prince ou un noble local. Le pantalon et la tunique sont le costume des cavaliers iraniens, très différent des toges grecques et romaines. C'est l'une des rares grandes statues de bronze de l'Antiquité iranienne parvenues jusqu'à nous.",
+        "compare": "Comparez son costume avec les longues robes des archers de Suse, plus haut : le pantalon des cavaliers s'est imposé chez les Parthes.",
+        "image": "images/mouvements/perse-ancienne/statue-de-shami.jpg"
+      },
+      {
+        "title": "Le triomphe de Shapur Ier sur l'empereur romain Valérien",
+        "artist": "Sculpteurs sassanides",
+        "country": "Iran",
+        "period": "après 260",
+        "museum": "Site archéologique, Naqsh-e Rostam (Iran)",
+        "credit": "Naqsh-e Rostam (Iran), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Naghsh-e_rostam%2C_Ir%C3%A1n%2C_2016-09-24%2C_DD_12.jpg), photo Diego Delso, licence CC BY-SA 4.0",
+        "analysis": "Sculpté dans la falaise, un roi à cheval, coiffé d'une couronne surmontée d'un gros globe, domine la scène. Devant lui, un homme en manteau romain met un genou à terre, les mains tendues ; un autre, debout, est tenu par le poignet par le roi. En 224, Ardashir Ier renverse le dernier roi parthe et fonde la dynastie des Sassanides, qui se veut l'héritière des Achéménides. Son fils Shapur Ier remporte de grandes victoires sur Rome : en 260, près d'Édesse, il capture l'empereur Valérien, qui mourut prisonnier en Perse. Shapur fit sculpter ce triomphe sous les tombeaux des rois achéménides. L'homme agenouillé est généralement identifié à l'empereur Philippe l'Arabe, qui avait dû payer la paix, et l'homme tenu par le poignet à Valérien.",
+        "compare": "La victoire d'un roi sur ses ennemis, comme à Behistoun, plus haut, sept siècles plus tôt : les Sassanides reprennent les images des Achéménides.",
+        "image": "images/mouvements/perse-ancienne/triomphe-de-shapur.jpg",
+        "lieu": "Persépolis et Naqsh-e Rostam",
+        "lieuType": "site"
+      },
+      {
+        "title": "Taq-e Bostan : l'investiture d'Ardashir II",
+        "artist": "Sculpteurs sassanides",
+        "country": "Iran",
+        "period": "vers 380",
+        "museum": "Site archéologique, Taq-e Bostan, Kermanshah (Iran)",
+        "credit": "Taq-e Bostan, Kermanshah (Iran), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Taq-e_Bostan_%28Kermanshah%29_%E2%80%93_Relief_of_the_Coronation_of_Ardashir_II.jpg), photo Skot, licence CC BY-SA 4.0",
+        "analysis": "Au pied d'une montagne, au bord d'un bassin d'eau, la roche a été creusée d'une grande grotte en arc. À droite, un panneau sculpté montre trois personnages debout : au centre le roi, à droite un personnage qui lui tend un anneau, à gauche un autre debout sur une fleur. Un homme est couché sous leurs pieds. Près de Kermanshah, sur la route de Ctésiphon, les rois sassanides aimaient ce lieu de sources et de jardins. Ce relief montre le roi Ardashir II recevant l'anneau du pouvoir d'Ahura Mazda, le dieu suprême des zoroastriens ; derrière lui, debout sur une fleur de lotus, se tient Mithra, dieu de la lumière et des serments. L'homme couché est un ennemi vaincu, souvent identifié à l'empereur romain Julien, mort en Mésopotamie en 363 en combattant les Perses. Les grandes grottes voisines, plus tardives, montrent des chasses royales.",
+        "compare": "Le dieu ailé de Behistoun, plus haut, est devenu un personnage qui donne lui-même la couronne au roi : le pouvoir vient d'Ahura Mazda.",
+        "image": "images/mouvements/perse-ancienne/taq-e-bostan.jpg",
+        "lieu": "Taq-e Bostan",
+        "lieuType": "site"
+      },
+      {
+        "title": "Plat : la chasse de Bahram Gour et Azadeh",
+        "artist": "Orfèvre sassanide",
+        "country": "Iran",
+        "period": "vers le Ve siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/327497), domaine public (CC0)",
+        "analysis": "Un plat rond en argent de 20 cm, au décor en relief doré : un roi couronné, monté sur un chameau, tire à l'arc sur des gazelles qui s'enfuient. Derrière lui, une jeune femme joue de la harpe. Une gazelle est à terre, sous le chameau. Le roi Bahram V, surnommé Gour (« l'onagre »), régna au Ve siècle ; il devint le héros de nombreuses légendes. Dans l'une d'elles, sa musicienne Azadeh le met au défi de prouver son adresse à la chasse. Ces plats d'argent, offerts par le roi à ses nobles et aux souverains étrangers, répandaient l'image du roi chasseur jusqu'en Chine. Plus tard, le poète Ferdowsi raconta cette histoire dans le Livre des rois, et les peintres persans l'illustrèrent pendant des siècles.",
+        "compare": "Le dernier objet de luxe de l'exposition : comparez l'orfèvrerie sassanide, qui raconte une histoire, avec les vases-animaux achéménide et parthe, plus haut.",
+        "image": "images/mouvements/perse-ancienne/plat-bahram-gur-et-azadeh.jpg"
+      },
+      {
+        "title": "Takht-e Soleyman, le sanctuaire du feu royal",
+        "artist": "Bâtisseurs sassanides",
+        "country": "Iran",
+        "period": "Ve – VIIe siècle",
+        "museum": "Site archéologique, Takht-e Soleyman (Iran)",
+        "credit": "Takht-e Soleyman (Iran), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Takhte_Soleyman_%285%29.jpg), photo Elaheabed, licence CC BY-SA 4.0",
+        "analysis": "Vue d'en haut, au milieu de champs dorés et de montagnes, une grande enceinte ovale de murs en ruine entoure un petit lac aux eaux bleues. Un village et des arbres se trouvent à l'arrière-plan. Dans le nord-ouest de l'Iran, autour d'un lac alimenté par une source, les Sassanides bâtirent le sanctuaire d'Adur Gushnasp, l'un des trois grands feux sacrés de l'empire, celui des rois et des guerriers. Les rois y venaient en pèlerinage avant de monter sur le trône. Pour les zoroastriens, le feu et l'eau sont purs : le temple réunissait les deux. Le site, réoccupé plus tard par les Mongols, est inscrit au patrimoine mondial de l'UNESCO depuis 2003.",
+        "compare": "Ahura Mazda, présent dans les reliefs de Behistoun et de Taq-e Bostan, plus haut, était honoré ici par un feu qui ne devait jamais s'éteindre.",
+        "image": "images/mouvements/perse-ancienne/takht-e-soleyman.jpg",
+        "lieu": "Takht-e Soleyman",
+        "lieuType": "site"
+      },
+      {
+        "title": "Les puits d'un qanat, canal souterrain",
+        "artist": "Ingénieurs iraniens",
+        "country": "Iran",
+        "period": "technique connue depuis le Ier millénaire av. J.-C.",
+        "museum": "Paysage de l'Iran",
+        "credit": "Iran, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Puits_de_creusement_et_de_maintenance_d%27un_qanat_en_Iran.jpg), photo Payam Azadi, licence CC BY-SA 4.0",
+        "analysis": "Vue d'avion, une plaine désertique est traversée par une longue ligne de petits cratères ronds, alignés à intervalles réguliers. Ce sont les bouches de puits, entourées de la terre qu'on en a sortie. Un qanat est un tunnel en pente douce qui va chercher l'eau des nappes au pied des montagnes et l'amène, par gravité, jusqu'aux villages et aux champs, parfois à des dizaines de kilomètres. Les puits servaient à creuser le tunnel et à l'entretenir. Cette technique, développée en Iran dès l'Antiquité et répandue par les Perses dans leur empire, a permis l'agriculture et les jardins sur un plateau très sec. Des milliers de qanats fonctionnent encore ; onze d'entre eux sont inscrits au patrimoine mondial de l'UNESCO sous le nom de « qanat perse » depuis 2016.",
+        "compare": "Sans l'eau des qanats, pas de jardins : le « paradis », mot venu du vieux-perse, était d'abord un jardin clos et irrigué.",
+        "image": "images/mouvements/perse-ancienne/qanat.jpg"
+      },
+      {
+        "title": "Le Taq Kasra, palais des rois sassanides à Ctésiphon",
+        "artist": "Bâtisseurs sassanides",
+        "country": "Irak",
+        "period": "VIe siècle",
+        "museum": "Site archéologique, Ctésiphon (Irak)",
+        "credit": "Ctésiphon (Irak), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:001125-TaqKasra-Iraq-IMG_7914-2.jpg), photo Safa.daneshvar, licence CC BY-SA 4.0",
+        "analysis": "Dans une plaine sèche, une haute façade de briques ocre, rythmée d'arcs et de colonnes plaquées, est coupée par une immense voûte en berceau, en partie couverte d'échafaudages et de filets bleus de restauration. Des palmiers poussent devant. Ctésiphon, au bord du Tigre, près de l'actuelle Bagdad, fut la capitale des Parthes puis des Sassanides. De leur palais reste cette salle d'audience ouverte, dont la voûte de briques, haute d'environ 35 mètres, est l'une des plus grandes jamais construites sans armature. On l'attribue le plus souvent au roi Khosrô Ier, au VIe siècle. En 637, les armées arabes prennent la ville ; l'empire sassanide disparaît peu après, mais la langue persane, les fêtes comme Norouz et le souvenir des anciens rois survivent en Iran.",
+        "compare": "Le point d'arrivée de l'exposition : de la ziggourat de briques du début à cette voûte de briques, deux mille ans d'architecture en Iran et en Mésopotamie.",
+        "image": "images/mouvements/perse-ancienne/taq-kasra-ctesiphon.jpg",
+        "lieu": "Ctésiphon",
+        "lieuType": "site"
+      }
+    ],
+    "carte": {
+      "image": "images/mouvements/cartes/perse-ancienne.svg",
+      "ouest": 43.5,
+      "est": 55,
+      "sud": 28.5,
+      "nord": 38,
+      "lieux": [
+        {
+          "nom": "Tchogha Zanbil",
+          "lat": 32.0083,
+          "lon": 48.5208
+        },
+        {
+          "nom": "Suse",
+          "lat": 32.1894,
+          "lon": 48.2575
+        },
+        {
+          "nom": "Pasargades",
+          "lat": 30.2003,
+          "lon": 53.1792
+        },
+        {
+          "nom": "Persépolis et Naqsh-e Rostam",
+          "lat": 29.9356,
+          "lon": 52.8914
+        },
+        {
+          "nom": "Behistoun",
+          "lat": 34.3906,
+          "lon": 47.4361
+        },
+        {
+          "nom": "Taq-e Bostan",
+          "lat": 34.3878,
+          "lon": 47.1325
+        },
+        {
+          "nom": "Takht-e Soleyman",
+          "lat": 36.6036,
+          "lon": 47.2353
+        },
+        {
+          "nom": "Ctésiphon",
+          "lat": 33.0936,
+          "lon": 44.5808
+        },
+        {
+          "nom": "Babylone",
+          "lat": 32.5422,
+          "lon": 44.4211
+        }
+      ],
+      "pays": [
+        {
+          "nom": "Irak",
+          "lat": 33.202,
+          "lon": 44.822
+        },
+        {
+          "nom": "Iran",
+          "lat": 33.323,
+          "lon": 50.541
+        },
+        {
+          "nom": "Koweït",
+          "lat": 29.414,
+          "lon": 47.314
+        }
+      ],
+      "villes": [
+        {
+          "nom": "Téhéran",
+          "lat": 35.674,
+          "lon": 51.422
+        },
+        {
+          "nom": "Ispahan",
+          "lat": 32.702,
+          "lon": 51.698
+        },
+        {
+          "nom": "Chiraz",
+          "lat": 29.632,
+          "lon": 52.568
+        },
+        {
+          "nom": "Ahvaz",
+          "lat": 31.282,
+          "lon": 48.718
+        },
+        {
+          "nom": "Bassorah",
+          "lat": 30.515,
+          "lon": 47.812
+        },
+        {
+          "nom": "Nadjaf",
+          "lat": 32.0,
+          "lon": 44.335
+        },
+        {
+          "nom": "Kirkouk",
+          "lat": 35.472,
+          "lon": 44.392
+        },
+        {
+          "nom": "Hamadan",
+          "lat": 34.796,
+          "lon": 48.515
+        },
+        {
+          "nom": "Yazd",
+          "lat": 31.92,
+          "lon": 54.37
+        },
+        {
+          "nom": "Qom",
+          "lat": 34.652,
+          "lon": 50.948
+        }
+      ]
+    }
   }
 ]

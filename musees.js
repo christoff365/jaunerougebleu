@@ -456,6 +456,8 @@ const MOUVEMENTS = [
     "Soundiata, Mansa Musa et l'or du Sahara : mosquées de terre de Tombouctou et de Djenné, manuscrits, terres cuites du Niger et griots."],
   ['Aksoum', 'Afrique', 'Éthiopie et Érythrée', 'VIIIe siècle av. J.-C. – XVIe siècle', ['Aksum', 'Axum'], ['Aksumite art'], 'aksum|axum|aksoum', [],
     "Le royaume de la mer Rouge : temple de Yeha, stèles géantes, inscriptions du roi Ézana, puis ses héritiers, les églises taillées dans le roc de Lalibela et les manuscrits peints."],
+  ['Royaume de Koush', 'Afrique', 'Soudan', 'XXVe siècle av. J.-C. – IVe siècle', ['Kushite', 'Meroitic', 'Kerma', 'Napatan'], ['Kushite art'], 'kush|koush|meroe|méroé|kerma|napata|nubia|nubie', [],
+    "Les pharaons noirs et les pyramides du Soudan : Kerma, le Gebel Barkal, Taharqa, les reines kandake de Méroé et leur écriture."],
   ['Égypte ancienne', 'Afrique', 'Égypte', 'XXXe–Ier siècle av. J.-C.', ['Egyptian'], ['ancient Egyptian art'], 'toutankhamon|tutankhamun|pharaon', [],
     "Des pyramides de Gizeh au temple de Philae : statues, peintures, papyrus, art d'Amarna et grands sites archéologiques de trois mille ans de pharaons."],
   ['Art amarnien', 'Afrique', 'Égypte', 'XIVe siècle av. J.-C.', ['Amarna'], ['Amarna art'], '', [],
@@ -543,7 +545,7 @@ const STYLES_ARCHITECTURE = { 'Art gothique': 'Q176483' };
 const ANONYME = 'Q4233718'; // « anonyme » dans Wikidata
 // Mouvements d'abord de l'estampe : leurs estampes ne sont pas limitées à trois
 // Expositions consacrées à une civilisation plutôt qu'à un mouvement (badge « Civilisation » sur leur page)
-const CIVILISATIONS = new Set(['Égypte ancienne', 'Chine, des origines à 1912', 'Grèce antique', 'Rome antique', 'Aksoum', 'Empire du Mali', 'Aztèques', 'Incas']);
+const CIVILISATIONS = new Set(['Égypte ancienne', 'Royaume de Koush', 'Chine, des origines à 1912', 'Grèce antique', 'Rome antique', 'Aksoum', 'Empire du Mali', 'Aztèques', 'Incas']);
 const MOUVEMENTS_D_ESTAMPES = new Set(['Ukiyo-e', 'Expressionnisme']);
 // Mouvements de peintres : si le visiteur n'a pas choisi de type, l'exposition ne montre que des peintures
 // (pas les dessins, études, estampes ou éventails que les catalogues renvoient aussi pour ces artistes)

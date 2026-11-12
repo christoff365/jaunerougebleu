@@ -13973,5 +13973,414 @@
         }
       ]
     }
+  },
+  {
+    "mouvement": "Israël et Juda",
+    "slug": "israel-et-juda",
+    "status": "published",
+    "title": "Israël et Juda, les royaumes de l'Antiquité",
+    "subtitle": "Levant, Xe siècle av. J.-C. – VIe siècle : dix-huit œuvres et sites archéologiques d'Israël, de Cisjordanie, de Jordanie, d'Irak et d'Italie, de Jérusalem, Amman, Istanbul, Londres et Paris",
+    "intro": "Entre la Méditerranée et le Jourdain, au carrefour de l'Égypte et de la Mésopotamie, un petit peuple, les Israélites, forme au début du Ier millénaire av. J.-C. deux royaumes : Israël au nord, Juda au sud, autour de Jérusalem. Leur culture est à part : un seul Dieu, sans images, un Temple unique et des textes rassemblés peu à peu dans la Bible hébraïque. Pris entre les empires, ils sont vaincus par l'Assyrie, puis par Babylone, qui détruit le premier Temple ; les Perses permettent le retour des exilés, et un second Temple est bâti. Après les rois hasmonéens et Hérode vient Rome, qui détruit le Temple en 70 et écrase la dernière révolte en 135. L'exposition suit cette histoire à travers les sites, les inscriptions de ce peuple et de ses voisins, les manuscrits de la mer Morte et les synagogues qui ont pris le relais du Temple. Elle s'en tient à l'Antiquité et distingue ce que montrent les fouilles de ce que raconte la Bible.",
+    "contexte": [
+      {
+        "title": "Un peuple, un Dieu, un livre",
+        "text": "Les Israélites, qu'on appelle aussi Hébreux, sont un peuple du Levant, la région située entre la Méditerranée et le Jourdain, où vivaient aussi les Cananéens, les Philistins, les Phéniciens, les Araméens et les Moabites. Peu à peu, leur religion se concentre sur un seul Dieu, nommé YHWH, sans image ni statue : c'est l'un des premiers monothéismes de l'histoire. Leurs textes, écrits en hébreu avec un alphabet venu des Phéniciens, ont été rassemblés pendant des siècles dans la Bible hébraïque, dont la Torah forme le cœur. Le repos du sabbat, les fêtes de Pessah et de Soukkot, les lois et les récits de la Bible ont ensuite marqué le judaïsme, puis le christianisme et l'islam."
+      },
+      {
+        "title": "Deux petits royaumes entre les empires",
+        "text": "Au IXe siècle av. J.-C., deux royaumes existent côte à côte : Israël au nord, avec Samarie pour capitale, et Juda au sud, autour de Jérusalem. Placés entre l'Égypte et la Mésopotamie, ils subissent les grands empires. L'Assyrie détruit le royaume d'Israël en 722 av. J.-C. ; Babylone prend Jérusalem et détruit son Temple en 587 ou 586 av. J.-C., et une partie des habitants est exilée. Après la conquête de Babylone par Cyrus, des exilés reviennent et un second Temple est construit. Plus tard, la révolte des Maccabées contre les rois grecs donne naissance à un royaume indépendant, celui des Hasmonéens, jusqu'à l'arrivée de Rome en 63 av. J.-C. Le roi Hérode, allié des Romains, agrandit le Temple. Deux grandes révoltes contre Rome finissent par la destruction du Temple en 70 de notre ère, puis par la défaite de Bar Kokhba en 135. Le judaïsme continue ensuite autour des synagogues et des rabbins, en Galilée, à Babylone et dans tout le monde méditerranéen."
+      },
+      {
+        "title": "La Bible et l'archéologie",
+        "text": "La Bible raconte l'histoire de ce peuple, mais elle a été écrite et réécrite pendant des siècles, souvent longtemps après les faits. Les archéologues confrontent donc ses récits aux fouilles et aux inscriptions. Plusieurs rois d'Israël et de Juda, comme Omri, Jéhu ou Ézéchias, sont cités dans des textes de leurs voisins et de leurs ennemis, que l'exposition présente. En revanche, d'autres récits, comme la sortie d'Égypte, ou la grandeur du royaume de David et de Salomon, ne sont pas confirmés par les fouilles et restent discutés. Dans les notices, on écrit donc « selon la Bible » quand seule la Bible rapporte un fait."
+      },
+      {
+        "title": "Une terre partagée, et ce que l'on voit dans l'exposition",
+        "text": "Les lieux de cette histoire se trouvent aujourd'hui en Israël, en Cisjordanie et en Jordanie, une région où vivent plusieurs peuples et qui est au cœur d'un conflit actuel. L'exposition s'en tient à l'Antiquité : elle ne prend parti pour personne et rappelle que beaucoup de peuples ont vécu sur cette terre. Les objets sont dispersés : certains sont restés sur place ou au musée d'Israël, à Jérusalem, et au musée de Jordanie, à Amman ; d'autres sont partis au XIXe siècle à Istanbul, alors capitale de l'Empire ottoman qui gouvernait la région, à Londres ou à Paris. Plusieurs objets viennent des palais de l'Assyrie, l'ennemie d'Israël et de Juda, et montrent l'histoire du point de vue des vainqueurs. Les photographies sont pour la plupart celles de visiteurs, publiées sous licence libre."
+      }
+    ],
+    "bibliography": [
+      {
+        "reference": "UNESCO, Patrimoine mondial : les tells bibliques (Megiddo, Hazor, Beer-Sheba)",
+        "url": "https://whc.unesco.org/fr/list/1108"
+      },
+      {
+        "reference": "UNESCO, Patrimoine mondial : Massada",
+        "url": "https://whc.unesco.org/fr/list/1040"
+      },
+      {
+        "reference": "Israël Finkelstein et Neil Asher Silberman, La Bible dévoilée, Bayard, 2002"
+      },
+      {
+        "reference": "Flavius Josèphe, La Guerre des Juifs, vers 75"
+      },
+      {
+        "reference": "Notices du musée du Louvre, du British Museum, des musées archéologiques d'Istanbul, du musée d'Israël et du musée de Jordanie"
+      }
+    ],
+    "works": [
+      {
+        "title": "Le tell de Megiddo",
+        "artist": "Habitants successifs de la ville",
+        "country": "Israël",
+        "period": "du IVe millénaire au VIe siècle av. J.-C.",
+        "museum": "Site archéologique, Megiddo (Israël)",
+        "credit": "Megiddo (Israël), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:TEL_MEGIDO_AERIAL_A.jpg), photo AVRAMGR, licence CC BY-SA 4.0",
+        "analysis": "Vue d'avion, une colline isolée, au sommet clair et plat, couvert de ruines, domine une grande plaine de champs verts et dorés. Des routes passent à son pied ; au loin, des collines boisées. Un tell est une colline faite par l'homme : des villes y ont été reconstruites les unes sur les autres pendant des millénaires. Megiddo contrôlait le passage entre l'Égypte et la Mésopotamie. Ville cananéenne, elle passe au IXe siècle av. J.-C. sous l'autorité du royaume d'Israël, qui y bâtit des palais et de grands systèmes d'eau. Son nom a donné, dans l'Apocalypse, le mot « Armageddon » (« la colline de Megiddo »). Elle est inscrite au patrimoine mondial de l'UNESCO depuis 2005, avec les tells de Hazor et de Beer-Sheba.",
+        "compare": "Le point de départ de l'exposition : une terre de passage entre les empires, où les Israélites vivaient au milieu d'autres peuples.",
+        "image": "images/mouvements/israel-et-juda/tel-megiddo.jpg",
+        "lieu": "Megiddo",
+        "lieuType": "site"
+      },
+      {
+        "title": "Le calendrier de Gezer",
+        "artist": "Auteur inconnu",
+        "country": "Israël",
+        "period": "Xe siècle av. J.-C.",
+        "museum": "Musées archéologiques d'Istanbul",
+        "credit": "Musées archéologiques d'Istanbul, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Gezer_tablet_-_original.jpg), photo Ana al'ain, licence CC BY-SA 3.0",
+        "analysis": "Une petite plaque de calcaire clair, aux bords cassés, est posée sur un support transparent. Sa surface porte quelques lignes de lettres gravées, très fines. Trouvée en 1908 à Gezer, cette plaque énumère les travaux des champs mois après mois : la récolte des olives, les semailles, la coupe du lin, la moisson de l'orge, puis du blé, la taille des vignes et les fruits d'été. Ce serait un exercice d'écolier ou un aide-mémoire. Écrite dans l'alphabet que les Phéniciens et les Hébreux partageaient, elle est l'un des plus anciens textes connus dans une langue très proche de l'hébreu ; les spécialistes discutent encore pour savoir s'il s'agit déjà d'hébreu. Elle est conservée à Istanbul, où elle a été envoyée quand la région faisait partie de l'Empire ottoman.",
+        "compare": "Avant les rois et les guerres, la vie de tous les jours : un peuple de paysans, d'oliviers, de blé et de vignes.",
+        "image": "images/mouvements/israel-et-juda/calendrier-de-gezer.jpg",
+        "lieu": "Gezer",
+        "lieuType": "découverte"
+      },
+      {
+        "title": "La stèle de Mesha, roi de Moab",
+        "artist": "Scribe moabite",
+        "country": "Jordanie",
+        "period": "vers 840 av. J.-C.",
+        "museum": "Musée du Louvre, Paris",
+        "credit": "Musée du Louvre, Paris, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Mesha_stele_%28Louvre%2C_AO_5066%29.jpg), photo Tangopaso, domaine public",
+        "analysis": "Une stèle de basalte sombre, au sommet arrondi, haute d'environ un mètre, couverte de lignes d'écriture. On distingue nettement des morceaux d'origine, plus sombres, et des parties reconstituées, plus lisses. Mesha, roi de Moab, à l'est de la mer Morte, y raconte qu'Omri, roi d'Israël, avait soumis son pays, et comment lui-même s'en est libéré avec l'aide de son dieu Kemosh. C'est l'un des plus anciens textes qui nomment le royaume d'Israël et son dieu YHWH, vus par un ennemi ; la Bible raconte la même guerre de son côté. Découverte en 1868 à Dhiban, dans l'actuelle Jordanie, la stèle fut brisée par des habitants, mais une empreinte du texte avait été prise juste avant : elle a permis de la reconstituer au Louvre.",
+        "compare": "Le royaume d'Israël vu par un voisin : la Bible n'est pas seule à raconter cette histoire.",
+        "image": "images/mouvements/israel-et-juda/stele-de-mesha.jpg",
+        "lieu": "Dhiban",
+        "lieuType": "découverte"
+      },
+      {
+        "title": "La stèle de Tel Dan et la « maison de David »",
+        "artist": "Scribe araméen",
+        "country": "Israël",
+        "period": "IXe siècle av. J.-C.",
+        "museum": "Musée d'Israël, Jérusalem",
+        "credit": "Musée d'Israël, Jérusalem, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Tel_dan_inscription.JPG), photo בית השלום, licence libre avec attribution",
+        "analysis": "Des fragments de basalte gris, assemblés en vitrine, forment un morceau de stèle brisée. Leur surface est couverte de petites lettres gravées en lignes régulières. Ces fragments ont été trouvés en 1993 et 1994 dans les fouilles de Tel Dan, au nord d'Israël. Le texte, en araméen, est celui d'un roi de Damas, sans doute Hazaël, qui se vante d'avoir tué un roi d'Israël et un roi de la « maison de David ». Pour la plupart des spécialistes, c'est la plus ancienne mention connue de David en dehors de la Bible : elle montre que, cent cinquante ans environ après lui, les rois de Juda étaient connus comme sa dynastie.",
+        "compare": "Un autre ennemi, cette fois araméen, qui confirme l'existence de la dynastie de David, sans rien dire de la grandeur que lui prête la Bible.",
+        "image": "images/mouvements/israel-et-juda/stele-de-tel-dan.jpg",
+        "lieu": "Tel Dan",
+        "lieuType": "découverte"
+      },
+      {
+        "title": "Jéhu, roi d'Israël, devant le roi d'Assyrie (Obélisque noir)",
+        "artist": "Sculpteurs assyriens",
+        "country": "Irak",
+        "period": "vers 825 av. J.-C.",
+        "museum": "British Museum, Londres",
+        "credit": "British Museum, Londres, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Jehu_of_the_House_of_Omri_bows_before_the_Assyrian_king_Shalmaneser_III%2C_The_Black_Obelisk..JPG), photo Osama Shukir Muhammed Amin, licence CC BY-SA 4.0",
+        "analysis": "Sur un haut pilier de pierre noire, des scènes sculptées sont rangées en bandes, séparées par des lignes d'écriture cunéiforme. Dans l'une d'elles, un homme est prosterné, le front contre le sol, devant un roi debout entouré de serviteurs ; un disque ailé flotte au-dessus. Cet obélisque, trouvé en 1846 par Austen Henry Layard à Nimroud, en Irak, célèbre les campagnes du roi assyrien Salmanazar III. L'inscription présente l'homme prosterné comme « Jéhu, fils d'Omri », apportant un tribut d'argent et d'or. C'est la seule image connue d'un roi d'Israël ou de Juda faite de son vivant, et elle le montre à genoux devant l'empereur assyrien.",
+        "compare": "Comparez avec les reliefs de l'exposition sur l'art assyrien, dans l'onglet Mouvements : le même art de palais, qui montre ici un petit royaume soumis.",
+        "image": "images/mouvements/israel-et-juda/obelisque-noir-jehu.jpg"
+      },
+      {
+        "title": "L'inscription du tunnel de Siloé",
+        "artist": "Ouvriers du roi Ézéchias",
+        "country": "Jérusalem",
+        "period": "vers 700 av. J.-C.",
+        "museum": "Musées archéologiques d'Istanbul",
+        "credit": "Musées archéologiques d'Istanbul, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Siloam_Inscription_from_Hezekiahs_Tunnel_Istanbul_Archaeology_Museums.jpg), photo Yong Woo Park, domaine public (CC0)",
+        "analysis": "Une plaque de pierre claire, irrégulière, est encastrée dans un support rouge. Sur sa surface usée, on devine quelques lignes de lettres gravées. Pour protéger l'eau de Jérusalem d'un siège, le roi de Juda Ézéchias fit creuser un tunnel de plus de cinq cents mètres dans la roche, de la source de Guihon jusqu'au bassin de Siloé. Cette inscription en hébreu, gravée dans la paroi du tunnel, raconte le moment où les deux équipes de tailleurs, parties chacune d'un bout, se sont entendues à travers la roche puis rejointes. Découverte en 1880, elle fut découpée et emportée à Istanbul en 1891. Le tunnel, lui, conduit toujours l'eau.",
+        "compare": "Le roi Ézéchias se prépare à l'attaque assyrienne que racontent les deux œuvres suivantes.",
+        "image": "images/mouvements/israel-et-juda/inscription-de-siloe.jpg",
+        "lieu": "Jérusalem",
+        "lieuType": "découverte"
+      },
+      {
+        "title": "Le prisme de Sennachérib (prisme Taylor)",
+        "artist": "Scribes assyriens",
+        "country": "Irak",
+        "period": "691 av. J.-C.",
+        "museum": "British Museum, Londres",
+        "credit": "British Museum, Londres, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Taylor_Prism-2.jpg), photo David Castor, domaine public",
+        "analysis": "Un prisme d'argile à six faces, haut et étroit, est entièrement couvert de minuscules signes cunéiformes. Son sommet est percé d'un trou rond. Le roi d'Assyrie Sennachérib y fait le récit de ses campagnes. En 701 av. J.-C., il envahit Juda : il dit avoir pris quarante-six villes fortifiées et avoir enfermé Ézéchias dans Jérusalem « comme un oiseau en cage ». Mais il ne dit pas avoir pris la ville : Ézéchias paya un lourd tribut. La Bible raconte aussi ce siège, et le départ de l'armée assyrienne. Ce prisme porte le nom du colonel britannique Taylor, qui l'acheta en Irak vers 1830.",
+        "compare": "La même guerre racontée par les deux camps : le prisme assyrien et la Bible ne disent pas tout à fait la même chose.",
+        "image": "images/mouvements/israel-et-juda/prisme-de-sennacherib.jpg"
+      },
+      {
+        "title": "Le siège de Lakish, relief du palais de Ninive",
+        "artist": "Sculpteurs assyriens",
+        "country": "Irak",
+        "period": "vers 700 av. J.-C.",
+        "museum": "British Museum, Londres",
+        "credit": "British Museum, Londres, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Lachish_Relief%2C_British_Museum_3.jpg), photo Mike Peel, licence CC BY-SA 4.0",
+        "analysis": "Une longue frise de pierre sculptée, éclairée d'une lumière dorée : sur une colline couverte d'un motif d'écailles, des soldats aux boucliers ronds, armés de lances et d'arcs, montent à l'assaut, serrés les uns contre les autres. Le haut de la frise est cassé. Lakish était la deuxième ville du royaume de Juda. En 701 av. J.-C., l'armée de Sennachérib l'assiégea et la prit. Le roi fit représenter cette victoire sur les murs d'une salle de son palais de Ninive : l'assaut, puis les habitants vaincus partant en exil avec leurs biens. Les fouilles de Lakish ont retrouvé la rampe de siège assyrienne et des pointes de flèches. Les reliefs, découverts par Layard dans les années 1840, sont au British Museum.",
+        "compare": "Ce que le prisme dit en mots, le relief le montre en images : la guerre vue par le vainqueur.",
+        "image": "images/mouvements/israel-et-juda/relief-du-siege-de-lakish.jpg",
+        "lieu": "Lakish",
+        "lieuType": "représenté"
+      },
+      {
+        "title": "Le cylindre de Cyrus et le retour de l'exil",
+        "artist": "Scribe babylonien",
+        "country": "Irak",
+        "period": "vers 539 av. J.-C.",
+        "museum": "British Museum, Londres",
+        "credit": "British Museum, Londres, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Kyros-Zylinder_Cyrus_Cylinder_British_Museum_in_London_Mohammad_Nemat_Zadeh.jpg), photo M-nemat, domaine public (CC0)",
+        "analysis": "Dans une vitrine, un cylindre d'argile beige, en forme de tonneau, couvert de lignes serrées d'écriture cunéiforme, avec des cassures. En 587 ou 586 av. J.-C., le roi de Babylone Nabuchodonosor II prend Jérusalem, détruit le Temple et déporte une partie des habitants : c'est l'exil à Babylone, pendant lequel une grande partie de la Bible est mise par écrit. En 539, le Perse Cyrus prend Babylone. Sur ce cylindre, il dit avoir rendu leurs sanctuaires aux dieux et permis aux peuples déportés de rentrer chez eux. Le texte ne nomme pas les Judéens, mais la Bible, dans le livre d'Esdras, rapporte que Cyrus les autorisa à rentrer et à rebâtir le Temple.",
+        "compare": "Le même objet figure dans l'exposition sur la Perse ancienne : vu d'ici, il marque la fin de l'exil et le début du second Temple.",
+        "image": "images/mouvements/israel-et-juda/cylindre-de-cyrus.jpg"
+      },
+      {
+        "title": "L'Hérodion, palais-forteresse du roi Hérode",
+        "artist": "Bâtisseurs du roi Hérode",
+        "country": "Désert de Judée",
+        "period": "vers 23 – 15 av. J.-C.",
+        "museum": "Site archéologique, Hérodion (Cisjordanie)",
+        "credit": "Hérodion (Cisjordanie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Herodium_from_above_2.jpg), photo Asaf T., domaine public",
+        "analysis": "Vue d'avion, une colline en forme de cône tronqué se dresse dans un paysage aride ; à son sommet, un cratère circulaire entouré d'un mur rond abrite des ruines. Une route serpente au pied. Hérode, roi de Judée de 37 à 4 av. J.-C. grâce au soutien de Rome, fut un grand bâtisseur. Au sud de Bethléem, il fit élever cette colline en partie artificielle et y construisit un palais circulaire fortifié, avec un autre palais et des jardins à son pied. Selon l'historien juif Flavius Josèphe, il y fut enterré ; en 2007, l'archéologue Ehud Netzer annonça avoir retrouvé son tombeau sur la pente de la colline.",
+        "compare": "Le roi qui agrandit aussi le Temple de Jérusalem, dont parle l'œuvre suivante.",
+        "image": "images/mouvements/israel-et-juda/herodion.jpg",
+        "lieu": "Hérodion",
+        "lieuType": "site"
+      },
+      {
+        "title": "L'inscription d'avertissement du Temple de Jérusalem",
+        "artist": "Graveur du Temple d'Hérode",
+        "country": "Jérusalem",
+        "period": "Ier siècle av. J.-C. – Ier siècle",
+        "museum": "Musées archéologiques d'Istanbul",
+        "credit": "Musées archéologiques d'Istanbul, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Temple_Warning_Inscription_from_Jerusalem_Istanbul_Archaeology_Museums.jpg), photo Yong Woo Park, domaine public (CC0)",
+        "analysis": "Un gros bloc de calcaire rectangulaire, aux angles abîmés, porte sept lignes de lettres grecques capitales, gravées profondément. Le Temple reconstruit par Hérode était entouré de cours successives. Ce texte grec, placé à l'entrée de la partie intérieure, interdit à tout étranger d'aller plus loin et prévient que celui qui sera pris sera lui-même responsable de sa mort. Flavius Josèphe parle de ces avertissements en grec et en latin. Le bloc a été trouvé en 1871 à Jérusalem par l'archéologue français Charles Clermont-Ganneau ; c'est l'un des rares objets connus du Temple, détruit par les Romains en 70.",
+        "compare": "Écrit en grec, la langue commune de l'Orient romain, pour être lu par les visiteurs venus de tout l'empire.",
+        "image": "images/mouvements/israel-et-juda/inscription-du-temple.jpg",
+        "lieu": "Jérusalem",
+        "lieuType": "découverte"
+      },
+      {
+        "title": "Les grottes de Qumrân",
+        "artist": "Paysage du désert de Judée",
+        "country": "Désert de Judée",
+        "period": "manuscrits du IIIe siècle av. J.-C. au Ier siècle",
+        "museum": "Site archéologique, Qumrân (Cisjordanie)",
+        "credit": "Qumrân (Cisjordanie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Cave_in_Qumran_historical_place_bible_scrolls.jpg), photo Peter van der Sluijs, licence CC BY-SA 4.0",
+        "analysis": "Une falaise de roche tendre et claire, creusée et ravinée par l'érosion, forme des bosses arrondies. Une ouverture sombre, l'entrée d'une grotte, s'ouvre dans la paroi. En 1947, un berger bédouin trouva dans une grotte près de la mer Morte des jarres contenant des rouleaux. Dans les années suivantes, onze grottes livrèrent les restes d'environ neuf cents manuscrits, écrits surtout en hébreu, mais aussi en araméen et en grec. Ce sont les plus anciennes copies connues des livres de la Bible hébraïque, avec d'autres textes religieux juifs. Beaucoup de chercheurs pensent qu'ils appartenaient à un groupe religieux installé tout près, à Qumrân, peut-être les Esséniens, mais la question est discutée.",
+        "compare": "Le désert a protégé ces manuscrits pendant deux mille ans : les deux œuvres suivantes en montrent deux, exposés à Amman.",
+        "image": "images/mouvements/israel-et-juda/grottes-de-qumran.jpg",
+        "lieu": "Qumrân",
+        "lieuType": "site"
+      },
+      {
+        "title": "Manuscrit de la mer Morte : la « Règle de la congrégation »",
+        "artist": "Scribe juif",
+        "country": "Désert de Judée",
+        "period": "Ier siècle av. J.-C.",
+        "museum": "Musée de Jordanie, Amman",
+        "credit": "Musée de Jordanie, Amman, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Dead_Sea_Scroll_28a_from_Qumran_Cave_1%2C_the_Jordan_Museum_in_Amman.jpg), photo Osama Shukir Muhammed Amin, licence CC BY-SA 4.0",
+        "analysis": "Sur un fond noir, des morceaux de parchemin jaunis, déchirés et troués, sont couverts de colonnes d'écriture hébraïque à l'encre noire, régulière et serrée. Ce manuscrit, trouvé dans la première grotte de Qumrân, décrit comment devait vivre la communauté d'Israël à la fin des temps : son organisation, ses repas, l'âge auquel on devenait adulte. Comme la plupart des rouleaux, il est écrit sur du parchemin, une peau d'animal préparée. Une partie des manuscrits trouvés avant 1967 est conservée au musée de Jordanie, à Amman ; la plupart des autres sont au musée d'Israël, à Jérusalem.",
+        "compare": "Un texte religieux écrit à la main, sur parchemin, mille ans avant les plus anciens manuscrits complets de la Bible hébraïque connus auparavant.",
+        "image": "images/mouvements/israel-et-juda/manuscrit-de-la-mer-morte-1q28a.jpg",
+        "lieu": "Qumrân",
+        "lieuType": "découverte"
+      },
+      {
+        "title": "Une bande du rouleau de cuivre de Qumrân",
+        "artist": "Auteur inconnu",
+        "country": "Désert de Judée",
+        "period": "Ier siècle",
+        "museum": "Musée de Jordanie, Amman",
+        "credit": "Musée de Jordanie, Amman, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Strip_of_the_Copper_Scroll_from_Qumran_Cave_3_written_in_the_Hebrew_Mishnaic_dialect%2C_on_display_at_the_Jordan_Museum%2C_Amman_%28cropped%29.jpg), photo Osama Shukir Muhammed Amin, licence CC BY-SA 4.0",
+        "analysis": "Une bande de métal verdâtre, longue et étroite, légèrement incurvée, est couverte de lettres hébraïques frappées en relief, alignées en lignes serrées. Trouvé en 1952 dans la troisième grotte de Qumrân, ce rouleau est unique : il est fait de feuilles de cuivre et non de parchemin. Trop oxydé pour être déroulé, il fut découpé en bandes en 1955–1956, à Manchester, pour être lu. Son texte, en hébreu, est une liste d'une soixantaine de cachettes où auraient été enfouis de l'or, de l'argent et des objets précieux. Personne ne sait s'il décrit un véritable trésor, peut-être celui du Temple, ni si on l'a jamais retrouvé.",
+        "compare": "Un autre support pour l'écriture : le métal, censé durer plus longtemps que le parchemin du manuscrit précédent.",
+        "image": "images/mouvements/israel-et-juda/rouleau-de-cuivre.jpg",
+        "lieu": "Qumrân",
+        "lieuType": "découverte"
+      },
+      {
+        "title": "Massada, la dernière forteresse de la révolte contre Rome",
+        "artist": "Bâtisseurs du roi Hérode",
+        "country": "Israël",
+        "period": "Ier siècle av. J.-C. – 73 ou 74",
+        "museum": "Site archéologique, Massada (Israël)",
+        "credit": "Massada (Israël), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Israel-2013-Aerial_21-Masada.jpg), photo Godot13, licence CC BY-SA 4.0",
+        "analysis": "Vue d'avion, un immense rocher aux parois abruptes et ocre domine le désert ; son sommet plat porte des ruines. Au loin brillent les eaux de la mer Morte et les montagnes de l'autre rive. Hérode fit de ce rocher une forteresse avec des palais, des citernes et des réserves. En 66 commence la grande révolte des Juifs contre Rome ; en 70, Jérusalem est prise et le Temple détruit. Massada, tenue par les derniers révoltés, tombe en 73 ou 74 après un siège : les Romains construisent une rampe de terre qui se voit encore. Selon Flavius Josèphe, les défenseurs choisirent de mourir plutôt que de devenir esclaves ; les historiens discutent de ce récit. Le site est inscrit au patrimoine mondial de l'UNESCO depuis 2001.",
+        "compare": "Comparez avec l'Hérodion, plus haut : le même roi bâtisseur, et des forteresses devenues, un siècle plus tard, les refuges des révoltés.",
+        "image": "images/mouvements/israel-et-juda/massada.jpg",
+        "lieu": "Massada",
+        "lieuType": "site"
+      },
+      {
+        "title": "Le butin du Temple sur l'arc de Titus",
+        "artist": "Sculpteurs romains",
+        "country": "Italie",
+        "period": "vers 81",
+        "museum": "Forum romain, Rome (Italie)",
+        "credit": "Forum romain, Rome, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Arch_of_titus_relief_2.jpg), photo Anthony M., licence CC BY 2.0",
+        "analysis": "Sous la voûte d'un arc de marbre, un relief usé montre une procession d'hommes en tuniques, couronnés, qui portent sur des brancards un grand chandelier à sept branches. D'autres objets sont brandis au-dessus des têtes ; à droite, une porte en arc. Après la prise de Jérusalem en 70, le futur empereur Titus célébra son triomphe à Rome en exhibant le butin du Temple. Cet arc, élevé après sa mort par son frère Domitien, montre le défilé : la ménorah, le chandelier d'or du Temple, des trompettes et la table sacrée. La ménorah, que l'on voit ici portée par les vainqueurs, est restée un symbole du peuple juif.",
+        "compare": "Comparez avec l'exposition sur la Rome antique : la même ville, vue cette fois par un peuple vaincu.",
+        "image": "images/mouvements/israel-et-juda/arc-de-titus.jpg"
+      },
+      {
+        "title": "Tétradrachme de la révolte de Bar Kokhba",
+        "artist": "Atelier monétaire des révoltés",
+        "country": "Judée",
+        "period": "132 – 135",
+        "museum": "Pièce présentée par la Classical Numismatic Group",
+        "credit": "Classical Numismatic Group, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Barkokhba-silver-tetradrachm.jpg), photo Classical Numismatic Group (CNG), licence CC BY-SA 3.0",
+        "analysis": "Les deux faces d'une pièce d'argent. D'un côté, une façade à quatre colonnes abrite un coffre, avec une étoile au-dessus ; de l'autre, un bouquet de branches et un fruit. Tout autour, des lettres de l'alphabet paléo-hébreu. En 132, une nouvelle révolte éclate en Judée, menée par Shimon bar Kosiba, appelé Bar Kokhba, « le fils de l'étoile ». Les révoltés frappent leurs propres monnaies par-dessus des pièces romaines. On y voit la façade du Temple détruit, et les branches et le fruit que l'on porte à la fête de Soukkot, avec le nom de Shimon et des formules comme « pour la liberté de Jérusalem ». La révolte est écrasée en 135 ; les Romains interdisent alors aux Juifs l'entrée de Jérusalem, qu'ils rebaptisent Aelia Capitolina.",
+        "compare": "Soixante ans après l'arc de Titus, le Temple n'existe plus que sur les pièces des révoltés.",
+        "image": "images/mouvements/israel-et-juda/tetradrachme-de-bar-kokhba.jpg"
+      },
+      {
+        "title": "La mosaïque de la synagogue de Beth Alpha",
+        "artist": "Marianos et son fils Hanina, mosaïstes",
+        "country": "Israël",
+        "period": "VIe siècle",
+        "museum": "Site archéologique, Beth Alpha (Israël)",
+        "credit": "Beth Alpha (Israël), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Beit_Alfa_Synagogue_Zodiac_Mosaic_%2811894685956%29.jpg), photo Betty Nudler, licence CC BY 2.0",
+        "analysis": "Dans une salle sombre, éclairée d'une lumière dorée, un grand sol de mosaïque s'étend entre des bases de colonnes. Au fond, une roue divisée en cases ; au premier plan, des personnages dessinés simplement, un bélier et un autel où brûle un feu, avec une inscription. Après les révoltes, la vie juive se poursuit, notamment en Galilée, autour des synagogues, des maisons de prière et d'étude. Découverte en 1928–1929 par des habitants d'un kibboutz, celle de Beth Alpha a un sol en trois parties : le sacrifice d'Isaac par Abraham, au premier plan, un zodiaque autour du char du soleil, et l'arche de la Torah entourée de chandeliers. Une inscription en grec nomme les artisans, Marianos et son fils Hanina ; une autre, en araméen, date le sol du règne d'un empereur byzantin nommé Justin.",
+        "compare": "Le point d'arrivée de l'exposition : sans Temple ni royaume, la culture juive continue autour du livre, de la prière et de la communauté.",
+        "image": "images/mouvements/israel-et-juda/synagogue-de-beth-alpha.jpg",
+        "lieu": "Beth Alpha",
+        "lieuType": "site"
+      }
+    ],
+    "carte": {
+      "image": "images/mouvements/cartes/israel-et-juda.svg",
+      "ouest": 34.2,
+      "est": 36.4,
+      "sud": 30.9,
+      "nord": 33.45,
+      "lieux": [
+        {
+          "nom": "Megiddo",
+          "lat": 32.5847,
+          "lon": 35.1847
+        },
+        {
+          "nom": "Gezer",
+          "lat": 31.8592,
+          "lon": 34.9194
+        },
+        {
+          "nom": "Dhiban",
+          "lat": 31.5011,
+          "lon": 35.7764
+        },
+        {
+          "nom": "Tel Dan",
+          "lat": 33.2486,
+          "lon": 35.6522
+        },
+        {
+          "nom": "Jérusalem",
+          "lat": 31.7767,
+          "lon": 35.2345
+        },
+        {
+          "nom": "Lakish",
+          "lat": 31.565,
+          "lon": 34.8486
+        },
+        {
+          "nom": "Hérodion",
+          "lat": 31.6658,
+          "lon": 35.2414
+        },
+        {
+          "nom": "Qumrân",
+          "lat": 31.7411,
+          "lon": 35.4589
+        },
+        {
+          "nom": "Massada",
+          "lat": 31.3156,
+          "lon": 35.3536
+        },
+        {
+          "nom": "Beth Alpha",
+          "lat": 32.5189,
+          "lon": 35.4286
+        }
+      ],
+      "pays": [
+        {
+          "nom": "Liban",
+          "lat": 33.265,
+          "lon": 35.386
+        },
+        {
+          "nom": "Palestine",
+          "lat": 32.047,
+          "lon": 35.291
+        },
+        {
+          "nom": "Israël",
+          "lat": 32.124,
+          "lon": 34.869
+        },
+        {
+          "nom": "Jordanie",
+          "lat": 31.875,
+          "lon": 35.973
+        },
+        {
+          "nom": "Syrie",
+          "lat": 32.91,
+          "lon": 36.132
+        }
+      ],
+      "villes": [
+        {
+          "nom": "Amman",
+          "lat": 31.952,
+          "lon": 35.931
+        },
+        {
+          "nom": "Jérusalem",
+          "lat": 31.778,
+          "lon": 35.207
+        },
+        {
+          "nom": "Gaza",
+          "lat": 31.53,
+          "lon": 34.445
+        },
+        {
+          "nom": "Ramallah",
+          "lat": 31.903,
+          "lon": 35.206
+        },
+        {
+          "nom": "Haïfa",
+          "lat": 32.822,
+          "lon": 34.978
+        },
+        {
+          "nom": "Naplouse",
+          "lat": 32.221,
+          "lon": 35.254
+        },
+        {
+          "nom": "Nazareth",
+          "lat": 32.704,
+          "lon": 35.296
+        },
+        {
+          "nom": "Al-Karak",
+          "lat": 31.185,
+          "lon": 35.705
+        },
+        {
+          "nom": "Qouneitra",
+          "lat": 33.126,
+          "lon": 35.824
+        },
+        {
+          "nom": "Zarka",
+          "lat": 32.07,
+          "lon": 36.1
+        }
+      ]
+    }
   }
 ]

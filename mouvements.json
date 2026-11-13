@@ -15974,5 +15974,486 @@
         }
       ]
     }
+  },
+  {
+    "mouvement": "Inde ancienne",
+    "slug": "inde-ancienne",
+    "status": "published",
+    "title": "L'Inde ancienne, d'Ashoka aux grands temples",
+    "subtitle": "Inde et Pakistan, IIIe siècle av. J.-C. – XIIIe siècle : vingt œuvres et sites, de Sarnath, Patna, Sanchi, Ajanta, Ellora, Thanjavur et New York",
+    "intro": "Pendant quinze siècles, de l'empereur Ashoka aux rois Chola, le sous-continent indien voit se succéder de grands empires et de grands royaumes : les Maurya, les Kouchans, les Gupta, les Pallava, les Chola. Trois religions y naissent ou s'y épanouissent, le bouddhisme, le jaïnisme et l'hindouisme ; ses savants inventent le zéro et la numération décimale ; ses marchands commercent avec Rome, la Chine et l'Asie du Sud-Est, où ils portent leurs dieux, leur écriture et leur art. L'exposition suit cette histoire à travers des piliers et des inscriptions, des stupas, des grottes peintes, des statues du Bouddha et de Shiva, et des temples taillés dans la roche ou élevés vers le ciel.",
+    "contexte": [
+      {
+        "title": "Pourquoi parle-t-on d'une civilisation ?",
+        "text": "Après la civilisation de l'Indus, de nouvelles villes naissent dans la plaine du Gange à partir du VIe siècle av. J.-C. Des royaumes puis des empires s'y forment : les Maurya (vers 321–185 av. J.-C.), qui réunissent presque tout le sous-continent, puis les Kouchans au nord, les Gupta (vers 320–550), et de grands royaumes au sud, comme les Pallava et les Chola. On y trouve tous les critères des historiens : des capitales comme Pataliputra, une administration, une écriture, la brahmi, ancêtre de presque toutes les écritures de l'Inde, des monuments, des artisans réputés et un commerce qui va de Rome à la Chine."
+      },
+      {
+        "title": "Trois religions nées en Inde",
+        "text": "Vers le Ve siècle av. J.-C., deux maîtres enseignent dans la plaine du Gange : Siddhartha Gautama, le Bouddha, et Mahavira, fondateur du jaïnisme. Tous deux proposent une voie pour se libérer de la souffrance et du cycle des renaissances. L'hindouisme, héritier des textes anciens appelés Veda, honore de nombreux dieux, dont Vishnu, Shiva et la Déesse. L'empereur Ashoka favorise le bouddhisme, qui se répand ensuite dans toute l'Asie ; en Inde même, l'hindouisme reste la religion la plus suivie. Les trois religions ont cohabité et partagé les mêmes artistes."
+      },
+      {
+        "title": "Savoirs et échanges",
+        "text": "L'Inde ancienne a beaucoup donné au monde. Ses mathématiciens ont mis au point la numération décimale avec le zéro, d'où viennent nos chiffres, transmis par les savants arabes ; Aryabhata, vers 500, calcule la valeur de pi et explique les éclipses. Le grammairien Panini décrit la langue sanskrite avec une précision inégalée. Les épopées du Mahabharata et du Ramayana sont racontées jusqu'en Asie du Sud-Est. Le monastère de Nalanda attire des étudiants de Chine, de Corée et du Tibet. Par la mer et par les routes de la soie, l'Inde exporte du coton, du poivre, des pierres précieuses, et ses religions."
+      },
+      {
+        "title": "Ce que l'on voit dans l'exposition",
+        "text": "L'exposition va de l'empereur Ashoka, au IIIe siècle av. J.-C., aux grands temples du XIIIe siècle, quand des sultans musulmans prennent le pouvoir dans le nord de l'Inde et qu'une autre période commence. Elle montre des piliers et des inscriptions, des stupas, des grottes peintes et sculptées, des statues du Bouddha et des dieux hindous, des temples taillés dans le roc ou bâtis en pierre. Beaucoup de ces monuments sont restés en place : les photographies sont celles de visiteurs, publiées sous licence libre. Les autres œuvres viennent du musée de Sarnath, du Bihar Museum de Patna et du Metropolitan Museum. Certaines sculptures montrent des corps peu vêtus, comme le voulait l'art indien ; elles sont signalées."
+      }
+    ],
+    "bibliography": [
+      {
+        "reference": "UNESCO, Patrimoine mondial : monuments bouddhiques de Sanchi",
+        "url": "https://whc.unesco.org/fr/list/524"
+      },
+      {
+        "reference": "UNESCO, Patrimoine mondial : grottes d'Ajanta",
+        "url": "https://whc.unesco.org/fr/list/242"
+      },
+      {
+        "reference": "UNESCO, Patrimoine mondial : grottes d'Ellora",
+        "url": "https://whc.unesco.org/fr/list/243"
+      },
+      {
+        "reference": "UNESCO, Patrimoine mondial : ensemble de monuments de Mahabalipuram",
+        "url": "https://whc.unesco.org/fr/list/249"
+      },
+      {
+        "reference": "UNESCO, Patrimoine mondial : site archéologique du Nalanda Mahavihara",
+        "url": "https://whc.unesco.org/fr/list/1502"
+      },
+      {
+        "reference": "UNESCO, Patrimoine mondial : les grands temples vivants Chola",
+        "url": "https://whc.unesco.org/fr/list/250"
+      },
+      {
+        "reference": "Romila Thapar, Early India: From the Origins to AD 1300, Penguin, 2002"
+      },
+      {
+        "reference": "Notices du Metropolitan Museum of Art"
+      }
+    ],
+    "works": [
+      {
+        "title": "Le pilier d'Ashoka à Vaishali",
+        "artist": "Sculpteurs de l'empereur Ashoka",
+        "country": "Inde",
+        "period": "IIIe siècle av. J.-C.",
+        "museum": "Site archéologique, Vaishali, Bihar (Inde)",
+        "credit": "Vaishali (Inde), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Ananda_Stupa_with_Ashok_lion_pillar_at_vaishali%2C_Bihar_03.jpg), photo Rohit Sharma, licence CC BY-SA 4.0",
+        "analysis": "Sous un ciel bleu, une haute colonne de pierre lisse, surmontée d'un lion assis, se dresse à côté d'un grand dôme de briques rouges ; au premier plan, des restes de petites constructions rondes en briques. Ashoka, troisième empereur de la dynastie Maurya, régna vers 268–232 av. J.-C. sur presque tout le sous-continent indien. Converti au bouddhisme, il fit dresser dans son empire des piliers taillés dans un seul bloc de grès et polis comme du métal, souvent sur les lieux liés à la vie du Bouddha. Celui de Vaishali, où le Bouddha aurait prononcé son dernier sermon, est l'un des rares à être encore debout avec son lion. Le dôme voisin est un stupa, un monument qui abrite des reliques.",
+        "compare": "Le point de départ de l'exposition : comparez avec les colonnes de Persépolis, dans l'exposition sur la Perse ancienne, qui ont peut-être inspiré les sculpteurs d'Ashoka.",
+        "image": "images/mouvements/inde-ancienne/pilier-d-ashoka-vaishali.jpg",
+        "lieu": "Vaishali et Pataliputra (Patna)",
+        "lieuType": "site"
+      },
+      {
+        "title": "Le chapiteau aux lions de Sarnath",
+        "artist": "Sculpteurs de l'empereur Ashoka",
+        "country": "Inde",
+        "period": "vers 250 av. J.-C.",
+        "museum": "Musée archéologique de Sarnath (Inde)",
+        "credit": "Musée archéologique de Sarnath, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Lion_capital_of_Ashoka%2C_Sarnath.jpg), photo lisa bat, licence CC BY 2.0",
+        "analysis": "Dans une salle de musée, quatre lions de pierre claire et polie, assis dos à dos, la gueule ouverte, reposent sur un tambour rond orné de roues et d'animaux, lui-même posé sur une cloche en forme de fleur de lotus renversée. Ce chapiteau, haut de plus de deux mètres, couronnait le pilier qu'Ashoka fit dresser à Sarnath, où le Bouddha donna son premier enseignement. Les roues sont les « roues de la Loi », symbole de cet enseignement. Retrouvé en 1905, il est devenu en 1950 l'emblème officiel de la République de l'Inde, et sa roue figure au centre du drapeau indien. Il est conservé au musée de Sarnath, près du lieu de sa découverte.",
+        "compare": "Une œuvre vieille de plus de deux mille ans devenue le symbole d'un État moderne, comme la louve du Capitole pour Rome.",
+        "image": "images/mouvements/inde-ancienne/chapiteau-aux-lions-de-sarnath.jpg",
+        "lieu": "Sarnath",
+        "lieuType": "découverte"
+      },
+      {
+        "title": "Les édits d'Ashoka sur le rocher de Girnar",
+        "artist": "Graveurs de l'empereur Ashoka",
+        "country": "Inde",
+        "period": "vers 250 av. J.-C.",
+        "museum": "Girnar, Junagadh, Gujarat (Inde)",
+        "credit": "Junagadh (Inde), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Ashoka_Rock_Edict_at_Junagadh.jpg), photo Jadia gaurang, licence CC BY-SA 3.0",
+        "analysis": "Un gros rocher arrondi, abrité dans un bâtiment, porte sur toute sa surface de fines lignes de petits signes gravés. Après la conquête sanglante du Kalinga, vers 261 av. J.-C., Ashoka dit avoir été saisi de remords. Il fit graver sur des rochers et des piliers, dans tout son empire, des édits où il demande à ses sujets de respecter toutes les religions, d'éviter la violence et de bien traiter les serviteurs et les animaux ; il y annonce aussi des puits, des arbres et des soins pour les hommes et les bêtes. À Girnar, quatorze édits sont écrits en brahmi. Cette écriture fut déchiffrée en 1837 par James Prinsep, ce qui fit redécouvrir Ashoka, alors oublié.",
+        "compare": "Comparez avec l'inscription de Darius à Behistoun, dans l'exposition sur la Perse ancienne : un roi qui parle à ses sujets sur la roche, mais ici pour prêcher la tolérance.",
+        "image": "images/mouvements/inde-ancienne/edit-d-ashoka-girnar.jpg",
+        "lieu": "Girnar",
+        "lieuType": "site"
+      },
+      {
+        "title": "Le grand stupa de Sanchi",
+        "artist": "Bâtisseurs bouddhistes",
+        "country": "Inde",
+        "period": "IIIe siècle av. J.-C. – Ier siècle",
+        "museum": "Sanchi, Madhya Pradesh (Inde)",
+        "credit": "Sanchi (Inde), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Stupa_1%2C_Sanchi_02.jpg), photo Bernard Gagnon, licence CC BY-SA 3.0",
+        "analysis": "Un grand dôme de pierre, couronné d'un petit parasol, est entouré d'une balustrade de pierre ; on y entre par un haut portail sculpté fait de deux piliers et de trois linteaux. Un stupa est un monument plein, en forme de dôme, qui abrite des reliques du Bouddha ou de ses disciples ; les fidèles en font le tour à pied, dans le sens du soleil. Celui de Sanchi fut commencé sous Ashoka, agrandi au IIe siècle av. J.-C., puis doté de quatre portails sculptés, les torana, vers le Ier siècle av. J.-C. C'est l'un des plus anciens monuments de pierre de l'Inde. Le site est inscrit au patrimoine mondial de l'UNESCO depuis 1989.",
+        "compare": "Comparez avec la pagode du Hōryū-ji, dans l'exposition sur le Japon : la pagode d'Asie de l'Est est la lointaine descendante du stupa indien.",
+        "image": "images/mouvements/inde-ancienne/grand-stupa-de-sanchi.jpg",
+        "lieu": "Sanchi",
+        "lieuType": "site"
+      },
+      {
+        "title": "Détail d'un portail (torana) de Sanchi",
+        "artist": "Sculpteurs de Vidisha",
+        "country": "Inde",
+        "period": "Ier siècle av. J.-C. – Ier siècle",
+        "museum": "Sanchi, Madhya Pradesh (Inde)",
+        "credit": "Sanchi (Inde), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:North_Torana%2C_Sanchi_04.jpg), photo Bernard Gagnon, licence CC BY-SA 3.0",
+        "analysis": "Un détail de grès doré, sculpté de tous côtés : au centre, dans un cadre, un personnage assis entouré de deux éléphants ; à droite, un éléphant monté par des cavaliers ; à gauche, un personnage debout sous un arbre. Les portails de Sanchi sont couverts de scènes de la vie du Bouddha et de ses vies antérieures. Une inscription dit que des ivoiriers de la ville voisine de Vidisha y ont travaillé : la pierre est sculptée avec la finesse de l'ivoire. Dans cet art ancien, le Bouddha lui-même n'est jamais représenté sous forme humaine : un arbre, un trône vide, des empreintes de pieds ou une roue indiquent sa présence.",
+        "compare": "Comparez avec le Bouddha du Gandhara, plus loin : trois siècles plus tard, les artistes lui donnent enfin un visage.",
+        "image": "images/mouvements/inde-ancienne/torana-de-sanchi.jpg",
+        "lieu": "Sanchi",
+        "lieuType": "site"
+      },
+      {
+        "title": "La Yakshi de Didarganj",
+        "artist": "Sculpteur de Pataliputra",
+        "country": "Inde",
+        "period": "IIIe siècle av. J.-C. – IIe siècle (date discutée)",
+        "museum": "Bihar Museum, Patna (Inde)",
+        "credit": "Bihar Museum, Patna, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Didarganj_Yakshi_in_the_Bihar_Museum_%28cropped%29.jpg), photo Shivam Setu, licence CC BY-SA 4.0",
+        "analysis": "Une statue de femme en pierre claire et brillante, grandeur nature, se tient debout, légèrement penchée ; elle porte de lourds bijoux, une jupe aux plis fins, et tient sur l'épaule un chasse-mouches. Sa poitrine est nue. Cette statue a été trouvée en 1917 au bord du Gange, près de Patna, l'ancienne Pataliputra, capitale des Maurya. Son grès poli comme un miroir est le même que celui des piliers d'Ashoka, mais sa date est discutée, entre le IIIe siècle av. J.-C. et le IIe siècle de notre ère. On l'appelle yakshi, du nom des esprits féminins de la nature, liés à la fertilité et à l'abondance ; ce pourrait aussi être une servante royale. C'est l'une des sculptures les plus admirées de l'Inde.",
+        "compare": "Comparez son poli avec celui du chapiteau aux lions, plus haut : la même technique des ateliers impériaux, appliquée à un corps de femme.",
+        "sensible": true,
+        "image": "images/mouvements/inde-ancienne/yakshi-de-didarganj.jpg",
+        "lieu": "Vaishali et Pataliputra (Patna)",
+        "lieuType": "découverte"
+      },
+      {
+        "title": "La grande salle de prière de Karla",
+        "artist": "Tailleurs de pierre bouddhistes",
+        "country": "Inde",
+        "period": "Ier – IIe siècle",
+        "museum": "Grottes de Karla, Maharashtra (Inde)",
+        "credit": "Karla (Inde), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Karla_interiors_%282540801624%29.jpg), photo Soham Banerjee, licence CC BY 2.0",
+        "analysis": "Une longue salle creusée dans la roche : deux rangées de colonnes aux chapiteaux sculptés mènent à un stupa de pierre, au fond ; la voûte en berceau est garnie de grands arcs de bois. Des visiteurs donnent l'échelle. Dans l'ouest de l'Inde, les moines bouddhistes creusèrent dans les falaises des monastères et des salles de prière, appelées chaitya, souvent financés par des marchands : ces grottes bordent les routes qui reliaient les ports aux villes de l'intérieur. Celle de Karla, longue d'environ 45 mètres, est la plus grande de ce type. Tout y imite une construction en bois, et les arcs de la voûte sont de vraies pièces de bois, vieilles de près de deux mille ans.",
+        "compare": "Le stupa de Sanchi, plus haut, se retrouve ici à l'intérieur, au fond d'une salle taillée dans la montagne.",
+        "image": "images/mouvements/inde-ancienne/grotte-de-karla.jpg",
+        "lieu": "Karla",
+        "lieuType": "site"
+      },
+      {
+        "title": "Bouddha du Gandhara",
+        "artist": "Sculpteur du Gandhara",
+        "country": "Pakistan",
+        "period": "IIIe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/646117), domaine public (CC0)",
+        "analysis": "Sur un fond noir, une statue de pierre gris sombre, haute de 93 cm : un homme debout, les cheveux ondulés noués en chignon, une auréole derrière la tête, est enveloppé dans un manteau aux plis lourds et profonds. Le Gandhara, dans le nord-ouest du Pakistan actuel, faisait partie de l'empire des Kouchans, qui s'étendait de l'Asie centrale à la plaine du Gange. Depuis Alexandre le Grand, des Grecs y vivaient. C'est là, et à Mathura en Inde, que les artistes représentèrent pour la première fois le Bouddha sous forme humaine, vers le Ier siècle. Au Gandhara, ils lui donnèrent le manteau à plis et les cheveux ondulés des statues grecques et romaines.",
+        "compare": "Comparez avec les statues de l'exposition sur la Grèce antique : la rencontre de l'art grec et du bouddhisme, au carrefour des routes de la soie.",
+        "image": "images/mouvements/inde-ancienne/bouddha-du-gandhara.jpg",
+        "lieu": "Gandhara",
+        "lieuType": "origine"
+      },
+      {
+        "title": "Les grottes d'Ajanta",
+        "artist": "Moines et artisans bouddhistes",
+        "country": "Inde",
+        "period": "IIe siècle av. J.-C. – Ve siècle",
+        "museum": "Grottes d'Ajanta, Maharashtra (Inde)",
+        "credit": "Ajanta (Inde), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Ajanta_Caves_panorama_view.jpg), photo Sarah Welch, licence CC BY-SA 4.0",
+        "analysis": "Au-dessus d'une vallée très verte, une longue falaise sombre en arc de cercle est percée d'une rangée d'ouvertures et de façades à colonnes ; des arbres en fleurs rouges occupent le premier plan. Dans une falaise au-dessus d'une rivière, une trentaine de monastères et de salles de prière ont été creusés en deux périodes : vers le IIe siècle av. J.-C., puis au Ve siècle, sous les rois Vakataka, alliés des Gupta. Abandonnées puis oubliées, les grottes furent retrouvées en 1819 par un officier britannique à la chasse. Elles conservent les plus importantes peintures de l'Inde ancienne. Le site est inscrit au patrimoine mondial de l'UNESCO depuis 1983.",
+        "compare": "Comparez avec les grottes de Mogao à Dunhuang, dans l'exposition sur la Chine : l'idée du monastère creusé dans la falaise a suivi le bouddhisme le long des routes de la soie.",
+        "image": "images/mouvements/inde-ancienne/grottes-d-ajanta.jpg",
+        "lieu": "Ajanta",
+        "lieuType": "site"
+      },
+      {
+        "title": "Le bodhisattva Padmapani, grotte 1 d'Ajanta",
+        "artist": "Peintres d'Ajanta",
+        "country": "Inde",
+        "period": "fin du Ve siècle",
+        "museum": "Grottes d'Ajanta, Maharashtra (Inde)",
+        "credit": "Ajanta (Inde), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Ajanta_Cave_1_Padmapani.jpg), photo Anandajoti Bhikkhu (Photo Dharma), licence CC BY 2.0",
+        "analysis": "Sur une paroi peinte, abîmée par endroits, un grand personnage au corps souple, la tête inclinée et les yeux baissés, porte une haute couronne et des colliers de perles ; il tient une fleur dans la main droite. D'autres figures l'entourent. Un bodhisattva est un être qui pourrait atteindre l'éveil, mais reste dans le monde pour aider les autres. Celui-ci, Padmapani, « celui qui tient le lotus », est le plus célèbre des personnages peints à Ajanta. Les peintres travaillaient sur un enduit sec, à la lumière de lampes ou de miroirs, et modelaient les corps par des dégradés de couleur. Ce style a influencé la peinture bouddhique de toute l'Asie.",
+        "compare": "Comparez avec le bodhisattva Fugen, dans l'exposition sur le Japon : sept siècles plus tard, à l'autre bout de l'Asie, la même douceur du regard.",
+        "image": "images/mouvements/inde-ancienne/padmapani-ajanta.jpg",
+        "lieu": "Ajanta",
+        "lieuType": "site"
+      },
+      {
+        "title": "Bouddha debout de Mathura",
+        "artist": "Sculpteur de Mathura",
+        "country": "Inde",
+        "period": "fin du Ve siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/38198), domaine public (CC0)",
+        "analysis": "Une statue de grès rouge, haute de 85 cm : un homme debout, les yeux mi-clos, les cheveux en petites boucles serrées, porte une robe très fine dont les plis réguliers dessinent des courbes sur tout le corps. Les mains manquent. Sous les Gupta, qui règnent sur le nord de l'Inde d'environ 320 à 550, les arts et les sciences connaissent un grand essor : on parle souvent d'« âge classique ». Les sculpteurs de Mathura et de Sarnath créent alors l'image du Bouddha qui servira de modèle à toute l'Asie : un corps calme et idéalisé, un regard tourné vers l'intérieur, une robe transparente. Le grès rouge tacheté est la pierre de Mathura.",
+        "compare": "Comparez avec le Bouddha du Gandhara, plus haut : le manteau grec aux plis lourds est devenu un voile léger, et le style est désormais pleinement indien.",
+        "image": "images/mouvements/inde-ancienne/bouddha-gupta-de-mathura.jpg",
+        "lieu": "Mathura",
+        "lieuType": "fabrication"
+      },
+      {
+        "title": "Monnaie d'or du roi Kumaragupta en archer",
+        "artist": "Atelier monétaire des Gupta",
+        "country": "Inde",
+        "period": "415–455",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/39405), domaine public (CC0)",
+        "analysis": "Une petite pièce d'or de 1,9 cm, très brillante : un homme debout, le corps souple, tient un arc ; des signes d'écriture l'entourent. Les rois Gupta frappaient des monnaies d'or d'une grande finesse, où ils se montrent en archers, en cavaliers ou en tueurs de lions, avec des légendes en sanskrit écrites en brahmi. Kumaragupta Ier régna de 415 à 455 environ ; on lui attribue la fondation du grand monastère de Nalanda. L'or venait en partie du commerce avec l'Empire romain, qui achetait à l'Inde ses épices, ses perles et ses tissus.",
+        "compare": "Le roi en personne, après les images du Bouddha : comparez avec le penny d'Offa, dans l'exposition sur les Anglo-Saxons, autre monnaie qui porte l'image d'un pouvoir.",
+        "image": "images/mouvements/inde-ancienne/monnaie-de-kumaragupta.jpg"
+      },
+      {
+        "title": "Le pilier de fer de Delhi",
+        "artist": "Forgerons de l'époque Gupta",
+        "country": "Inde",
+        "period": "vers 400",
+        "museum": "Complexe du Qutb, Delhi (Inde)",
+        "credit": "Delhi (Inde), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Delhi_Iron_pillar%2C_2010-09-27.jpg), photo Aiwok, licence CC BY-SA 3.0",
+        "analysis": "Dans une cour dallée, une haute colonne de métal sombre, mince et lisse, terminée par un chapiteau, se dresse devant une grande arche de pierre en ruine ; une grille l'entoure, et des visiteurs paraissent petits à côté. Ce pilier de fer, haut de plus de sept mètres et lourd d'environ six tonnes, porte une inscription à la gloire d'un roi nommé Chandra, que l'on identifie le plus souvent à Chandragupta II (vers 375–415). Il a été transporté plus tard à Delhi. Depuis seize siècles, il n'a presque pas rouillé : son fer, riche en phosphore, s'est couvert d'une fine couche protectrice. C'est un témoin du savoir-faire des métallurgistes indiens.",
+        "compare": "Comparez avec le pilier de pierre d'Ashoka, au début de l'exposition : sept siècles plus tard, un autre empereur dresse un pilier, cette fois en fer.",
+        "image": "images/mouvements/inde-ancienne/pilier-de-fer-de-delhi.jpg",
+        "lieu": "Delhi",
+        "lieuType": "site"
+      },
+      {
+        "title": "Le monastère-université de Nalanda",
+        "artist": "Bâtisseurs bouddhistes",
+        "country": "Inde",
+        "period": "Ve – XIIe siècle",
+        "museum": "Site archéologique, Nalanda, Bihar (Inde)",
+        "credit": "Nalanda (Inde), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Temple_12_-_Nalanda_Mahavihara_%2821%29.jpg), photo Sumitsurai, licence CC BY-SA 4.0",
+        "analysis": "Un long mur de briques rouges, usé par le temps, est rythmé de moulures horizontales et de petites niches décorées, alignées à intervalles réguliers. Fondé au Ve siècle, Nalanda fut pendant sept cents ans le plus grand centre d'études du monde bouddhique. On y enseignait la philosophie, la logique, la grammaire, la médecine et l'astronomie. Le pèlerin chinois Xuanzang, qui y étudia au VIIe siècle, décrit des milliers de moines et de grandes bibliothèques. Le monastère fut ravagé vers 1200, lors des conquêtes des armées de Bakhtiyar Khalji, puis abandonné. Le site est inscrit au patrimoine mondial de l'UNESCO depuis 2016.",
+        "compare": "Comparez avec les manuscrits de Tombouctou, dans l'exposition sur l'empire du Mali : deux grandes villes du savoir, sur deux continents.",
+        "image": "images/mouvements/inde-ancienne/nalanda.jpg",
+        "lieu": "Nalanda",
+        "lieuType": "site"
+      },
+      {
+        "title": "La Descente du Gange à Mahabalipuram (détail)",
+        "artist": "Sculpteurs des rois Pallava",
+        "country": "Inde",
+        "period": "VIIe siècle",
+        "museum": "Mahabalipuram, Tamil Nadu (Inde)",
+        "credit": "Mahabalipuram (Inde), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Cleft_Low_Half_Descent_Ganges_Mahabalipuram_Sep22_A7C_02497.jpg), photo Timothy A. Gonsalves, licence CC BY-SA 4.0",
+        "analysis": "Sur une paroi de granit clair, de chaque côté d'une fente verticale, des personnages sculptés se tournent vers le centre, les mains jointes ; dans la fente, un être à corps de serpent et à buste humain, coiffé de têtes de cobra, semble monter. À Mahabalipuram, port des rois Pallava sur la côte sud-est, un rocher long de 27 mètres a été entièrement sculpté de dieux, d'hommes et d'animaux, dont des éléphants grandeur nature. Tous convergent vers une fente où l'eau coulait les jours de pluie. On y voit soit la descente sur terre du fleuve sacré, le Gange, soit la pénitence du héros Arjuna : les deux lectures sont possibles. Les êtres-serpents, les nagas, sont les gardiens des eaux. Le site est inscrit au patrimoine mondial de l'UNESCO depuis 1984.",
+        "compare": "Après le nord bouddhique, le sud hindou : les Pallava ont aussi envoyé leurs marchands et leur écriture vers l'Asie du Sud-Est, jusqu'à Java et au Cambodge.",
+        "image": "images/mouvements/inde-ancienne/descente-du-gange-mahabalipuram.jpg",
+        "lieu": "Mahabalipuram",
+        "lieuType": "site"
+      },
+      {
+        "title": "Le temple du Kailasa à Ellora",
+        "artist": "Tailleurs de pierre des rois Rashtrakuta",
+        "country": "Inde",
+        "period": "VIIIe siècle",
+        "museum": "Grottes d'Ellora, Maharashtra (Inde)",
+        "credit": "Ellora (Inde), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Ellora_Caves%2C_India%2C_Kailasa_Temple.jpg), photo Vyacheslav Argenberg, licence CC BY 4.0",
+        "analysis": "Au fond d'une cour taillée dans la roche sombre, la base d'un temple est sculptée d'éléphants qui semblent le porter ; de hautes parois rocheuses l'entourent, et trois visiteuses en saris colorés donnent l'échelle. Ce temple dédié à Shiva n'a pas été construit : il a été taillé d'un seul bloc dans la montagne, de haut en bas, au VIIIe siècle, sous le roi Krishna Ier. Les ouvriers ont enlevé des centaines de milliers de tonnes de roche pour dégager un temple entier, avec sa cour, ses salles, ses piliers et ses sculptures. Il représente le mont Kailasa, la demeure de Shiva. À Ellora, des grottes bouddhiques, hindoues et jaïnes se côtoient. Le site est inscrit au patrimoine mondial de l'UNESCO depuis 1983.",
+        "compare": "Comparez avec les églises taillées dans le roc de Lalibela, dans l'exposition sur Aksoum : la même idée, sculpter un monument au lieu de le bâtir.",
+        "image": "images/mouvements/inde-ancienne/kailasa-ellora.jpg",
+        "lieu": "Ellora",
+        "lieuType": "site"
+      },
+      {
+        "title": "Le temple de Kandariya Mahadeva à Khajuraho",
+        "artist": "Bâtisseurs des rois Chandela",
+        "country": "Inde",
+        "period": "vers 1030",
+        "museum": "Khajuraho, Madhya Pradesh (Inde)",
+        "credit": "Khajuraho (Inde), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Kandariya_Mahadeva_Temple%2C_Khajuraho%2C_Madhya_Pradesh%2C_India_002.jpg), photo WarmaFiesta, licence CC BY-SA 4.0",
+        "analysis": "Sur une haute plateforme, un temple de grès doré élève une série de toits de plus en plus hauts jusqu'à une grande tour courbe, entièrement couverte de sculptures ; un temple plus petit se dresse à gauche. Les rois Chandela firent construire à Khajuraho, entre 950 et 1050, des dizaines de temples hindous et jaïns, dont une vingtaine subsistent. Celui-ci, dédié à Shiva, est le plus grand : sa tour de 31 mètres, entourée de tours plus petites, évoque une chaîne de montagnes. Ses murs portent des centaines de sculptures de dieux, de danseuses, de musiciens et de couples enlacés, pour lesquelles Khajuraho est célèbre. Le site est inscrit au patrimoine mondial de l'UNESCO depuis 1986.",
+        "compare": "Le temple-montagne du nord de l'Inde : comparez avec le temple de Thanjavur, plus loin, qui montre le style du sud, en pyramide à étages.",
+        "image": "images/mouvements/inde-ancienne/khajuraho.jpg",
+        "lieu": "Khajuraho",
+        "lieuType": "site"
+      },
+      {
+        "title": "Shiva Nataraja, seigneur de la danse",
+        "artist": "Bronzier de l'époque Chola",
+        "country": "Inde",
+        "period": "fin du XIe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/39328), domaine public (CC0)",
+        "analysis": "Une statue de bronze verdi, haute de 68 cm : un dieu à quatre bras danse sur une jambe, l'autre levée en travers du corps, à l'intérieur d'un cercle de flammes ; ses cheveux volent de chaque côté de la tête, et il écrase du pied un petit personnage. Sous les rois Chola, qui dominent le sud de l'Inde du IXe au XIIIe siècle, les bronziers coulent à la cire perdue des statues que l'on porte en procession lors des fêtes. Shiva y danse la création et la destruction du monde : il tient un tambour, dont le rythme fait naître l'univers, et une flamme, qui le détruira ; il écrase le nain de l'ignorance. Selon le musée, cette image est devenue l'un des symboles les plus connus de la civilisation indienne.",
+        "compare": "Comparez avec le Shiva de l'exposition sur l'art khmer d'Angkor : par la mer, les dieux de l'Inde du Sud ont gagné toute l'Asie du Sud-Est.",
+        "image": "images/mouvements/inde-ancienne/shiva-nataraja.jpg"
+      },
+      {
+        "title": "Le temple de Brihadisvara à Thanjavur",
+        "artist": "Bâtisseurs du roi Rajaraja Ier",
+        "country": "Inde",
+        "period": "vers 1010",
+        "museum": "Thanjavur, Tamil Nadu (Inde)",
+        "credit": "Thanjavur (Inde), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Brihadeeswarar_Temple_Thanjavur_%28124454981%29.jpeg), photo Vincent Paul, licence CC BY-SA 3.0",
+        "analysis": "Sous un ciel bleu profond du soir, une haute tour en pyramide à étages, éclairée d'une lumière orangée et coiffée d'un dôme, s'élève derrière un long mur sombre surmonté de petites statues. Le roi Rajaraja Ier, qui fit des Chola une grande puissance maritime, fit bâtir ce temple à Shiva dans sa capitale ; il fut achevé vers 1010. Sa tour de granit, haute de plus de soixante mètres, était alors l'une des plus hautes constructions de l'Inde. Les murs portent de longues inscriptions en tamoul qui énumèrent les dons du roi, les terres, les bijoux, et les centaines de personnes attachées au temple, prêtres, danseuses, musiciens et comptables. Il est inscrit au patrimoine mondial de l'UNESCO depuis 1987, et l'on y célèbre toujours le culte.",
+        "compare": "Comparez avec la tour courbe de Khajuraho, plus haut : au sud, le temple s'élève en pyramide, et ses inscriptions en font aussi les archives d'un royaume.",
+        "image": "images/mouvements/inde-ancienne/brihadisvara-thanjavur.jpg",
+        "lieu": "Thanjavur",
+        "lieuType": "site"
+      },
+      {
+        "title": "Une roue du temple du Soleil de Konarak",
+        "artist": "Sculpteurs du roi Narasimhadeva Ier",
+        "country": "Inde",
+        "period": "vers 1250",
+        "museum": "Konarak, Odisha (Inde)",
+        "credit": "Konarak (Inde), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Stone_wheel_engraved_in_the_13th_century_built_Konark_Sun_Temple_in_Orissa%2C_India.jpg), photo Subhrajyoti07, licence CC BY-SA 4.0",
+        "analysis": "Une grande roue de pierre à huit rayons larges et huit rayons fins, couverte de fins motifs, est sculptée contre le soubassement d'un temple ; autour d'elle, le mur est entièrement décoré de petites figures et de frises. Au bord du golfe du Bengale, le roi Narasimhadeva Ier fit construire vers 1250 un temple à Surya, le dieu Soleil, en forme de char géant : vingt-quatre roues de pierre de trois mètres de diamètre sont sculptées sur ses côtés, et sept chevaux le tirent. Les roues peuvent servir de cadrans solaires. Le temple, en partie effondré, est l'un des derniers grands monuments de l'Inde ancienne ; il est inscrit au patrimoine mondial de l'UNESCO depuis 1984. Parmi les petites figures du mur, on voit des couples enlacés.",
+        "compare": "Le point d'arrivée de l'exposition : comparez avec la roue de la Loi du chapiteau de Sarnath, au début ; quinze siècles séparent ces deux roues, devenues toutes deux des symboles de l'Inde.",
+        "sensible": true,
+        "image": "images/mouvements/inde-ancienne/roue-de-konarak.jpg",
+        "lieu": "Konarak",
+        "lieuType": "site"
+      }
+    ],
+    "carte": {
+      "image": "images/mouvements/cartes/inde-ancienne.svg",
+      "ouest": 67,
+      "est": 90,
+      "sud": 7.5,
+      "nord": 36,
+      "lieux": [
+        {
+          "nom": "Vaishali et Pataliputra (Patna)",
+          "lat": 25.8,
+          "lon": 85.13
+        },
+        {
+          "nom": "Sarnath",
+          "lat": 25.3811,
+          "lon": 83.0214
+        },
+        {
+          "nom": "Girnar",
+          "lat": 21.525,
+          "lon": 70.478
+        },
+        {
+          "nom": "Sanchi",
+          "lat": 23.4794,
+          "lon": 77.7397
+        },
+        {
+          "nom": "Karla",
+          "lat": 18.783,
+          "lon": 73.47
+        },
+        {
+          "nom": "Gandhara",
+          "lat": 34.0,
+          "lon": 72.0
+        },
+        {
+          "nom": "Ajanta",
+          "lat": 20.5519,
+          "lon": 75.7033
+        },
+        {
+          "nom": "Ellora",
+          "lat": 20.0268,
+          "lon": 75.179
+        },
+        {
+          "nom": "Mathura",
+          "lat": 27.49,
+          "lon": 77.67
+        },
+        {
+          "nom": "Delhi",
+          "lat": 28.5245,
+          "lon": 77.1855
+        },
+        {
+          "nom": "Nalanda",
+          "lat": 25.1367,
+          "lon": 85.4433
+        },
+        {
+          "nom": "Mahabalipuram",
+          "lat": 12.6169,
+          "lon": 80.1993
+        },
+        {
+          "nom": "Khajuraho",
+          "lat": 24.853,
+          "lon": 79.9198
+        },
+        {
+          "nom": "Thanjavur",
+          "lat": 10.7828,
+          "lon": 79.1318
+        },
+        {
+          "nom": "Konarak",
+          "lat": 19.8876,
+          "lon": 86.0945
+        }
+      ],
+      "pays": [
+        {
+          "nom": "Pakistan",
+          "lat": 29.854,
+          "lon": 70.175
+        },
+        {
+          "nom": "Inde",
+          "lat": 22.687,
+          "lon": 79.358
+        },
+        {
+          "nom": "Chine",
+          "lat": 31.643,
+          "lon": 84.389
+        },
+        {
+          "nom": "Népal",
+          "lat": 28.298,
+          "lon": 83.64
+        },
+        {
+          "nom": "Sri Lanka",
+          "lat": 8.635,
+          "lon": 80.566
+        }
+      ],
+      "villes": [
+        {
+          "nom": "Kaboul",
+          "lat": 34.519,
+          "lon": 69.181
+        },
+        {
+          "nom": "New Delhi",
+          "lat": 28.6,
+          "lon": 77.2
+        },
+        {
+          "nom": "Katmandou",
+          "lat": 27.719,
+          "lon": 85.315
+        },
+        {
+          "nom": "Islamabad",
+          "lat": 33.689,
+          "lon": 73.081
+        },
+        {
+          "nom": "Bombay",
+          "lat": 19.068,
+          "lon": 72.876
+        },
+        {
+          "nom": "Calcutta",
+          "lat": 22.57,
+          "lon": 88.369
+        },
+        {
+          "nom": "Bangalore",
+          "lat": 12.972,
+          "lon": 77.558
+        },
+        {
+          "nom": "Lahore",
+          "lat": 31.562,
+          "lon": 74.348
+        },
+        {
+          "nom": "Hyderabad",
+          "lat": 17.402,
+          "lon": 78.478
+        },
+        {
+          "nom": "Ahmedabad",
+          "lat": 23.032,
+          "lon": 72.578
+        }
+      ]
+    }
   }
 ]

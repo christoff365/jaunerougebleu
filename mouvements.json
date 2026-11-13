@@ -15652,5 +15652,327 @@
         }
       ]
     }
+  },
+  {
+    "mouvement": "Civilisation de l'Indus",
+    "slug": "civilisation-de-l-indus",
+    "status": "published",
+    "title": "La civilisation de l'Indus, les premières villes de l'Asie du Sud",
+    "subtitle": "Pakistan et Inde, vers 2600–1900 av. J.-C. : quinze œuvres et sites, de Mohenjo-daro, Dholavira et Lothal, de New Delhi, Londres et New York",
+    "intro": "Il y a plus de quatre mille ans, à la même époque que l'Égypte des pyramides et les cités de Mésopotamie, une troisième grande civilisation s'épanouit dans la vallée de l'Indus, dans l'actuel Pakistan et le nord-ouest de l'Inde. Ses villes, comme Mohenjo-daro et Harappa, sont tracées au cordeau, construites en briques de mêmes proportions et équipées d'égouts ; ses habitants utilisent les mêmes poids, la même écriture et des sceaux gravés, et commercent jusqu'en Mésopotamie. Elle réunit tous les critères d'une civilisation, mais reste pleine de mystères : son écriture n'est pas déchiffrée, et l'on ne sait pas qui la gouvernait. L'exposition présente ses villes, ses objets, son commerce et sa redécouverte au XXe siècle.",
+    "contexte": [
+      {
+        "title": "Pourquoi parle-t-on d'une civilisation ?",
+        "text": "Entre 2600 et 1900 av. J.-C. environ, dans la vallée de l'Indus et de ses affluents, dans l'actuel Pakistan et le nord-ouest de l'Inde, plus d'un millier de sites partagent la même culture. On y trouve de grandes villes planifiées, comme Mohenjo-daro, Harappa, Dholavira, Rakhigarhi ou Lothal ; des briques de même proportion, des poids standardisés et une écriture commune sur des milliers de sceaux ; des artisans spécialisés, perliers, potiers, métallurgistes ; et un commerce qui va jusqu'à la Mésopotamie. Tous les critères des historiens sont réunis. Un mystère demeure : on n'a retrouvé ni palais, ni grands temples, ni tombes royales, et l'on ignore qui gouvernait."
+      },
+      {
+        "title": "Une écriture qu'on ne sait pas lire",
+        "text": "L'écriture de l'Indus compte environ quatre cents signes, gravés surtout sur de petits sceaux carrés et sur des objets. Les textes sont très courts, cinq signes en moyenne, et aucune inscription bilingue, comme la pierre de Rosette, n'a été trouvée. Elle n'est donc toujours pas déchiffrée, et l'on ne sait pas quelle langue parlaient ses habitants. Ce que nous savons de cette civilisation vient de l'archéologie."
+      },
+      {
+        "title": "Déclin et redécouverte, et ce que l'on voit dans l'exposition",
+        "text": "Après 1900 av. J.-C., les grandes villes se vident peu à peu, sans doute à cause de changements du climat et du cours des rivières ; les habitants se dispersent dans de petits villages. La civilisation est oubliée jusqu'aux fouilles de Harappa et de Mohenjo-daro, dans les années 1920. Les sites se trouvent aujourd'hui au Pakistan et en Inde, et les objets sont partagés entre les musées des deux pays, depuis la partition de 1947. L'exposition présente des sites photographiés par des visiteurs, sous licence libre, et des objets du musée national de New Delhi, du musée national du Pakistan à Karachi, du British Museum, du Louvre et du Metropolitan Museum."
+      }
+    ],
+    "bibliography": [
+      {
+        "reference": "UNESCO, Patrimoine mondial : ruines archéologiques de Mohenjo-daro",
+        "url": "https://whc.unesco.org/fr/list/138"
+      },
+      {
+        "reference": "UNESCO, Patrimoine mondial : Dholavira, une cité harappéenne",
+        "url": "https://whc.unesco.org/fr/list/1645"
+      },
+      {
+        "reference": "Jonathan Mark Kenoyer, Ancient Cities of the Indus Valley Civilization, Oxford University Press, 1998"
+      },
+      {
+        "reference": "Notices du Metropolitan Museum of Art, du British Museum et du musée du Louvre"
+      }
+    ],
+    "works": [
+      {
+        "title": "La ville de Mohenjo-daro",
+        "artist": "Bâtisseurs harappéens",
+        "country": "Pakistan",
+        "period": "vers 2500–1900 av. J.-C.",
+        "museum": "Site archéologique, Mohenjo-daro (Pakistan)",
+        "credit": "Mohenjo-daro (Pakistan), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Mohenjo-daro.jpg), photo Saqib Qayyum, licence CC BY-SA 3.0",
+        "analysis": "Sous un ciel pâle, un vaste champ de ruines de briques rouges s'étend à perte de vue : murs bas, pièces carrées, escaliers et rues droites. Au fond, une butte plus haute est couronnée d'un monument arrondi. Mohenjo-daro, dans la province du Sind, au Pakistan, fut l'une des plus grandes villes du monde vers 2500 av. J.-C. Elle comprenait une ville haute, que les archéologues appellent la « citadelle », et une ville basse aux rues tracées à angle droit, bordées de maisons de briques cuites, souvent avec un puits et une salle d'eau. Son nom ancien est inconnu : « Mohenjo-daro » signifie « la butte des morts » en sindhi. Le site est inscrit au patrimoine mondial de l'UNESCO depuis 1980 ; il est menacé par le sel et l'érosion.",
+        "compare": "Le point de départ de l'exposition : comparez avec les villes de Mésopotamie et d'Égypte de la même époque ; ici, pas de grand palais ni de temple géant, mais une ville organisée pour tous.",
+        "image": "images/mouvements/civilisation-de-l-indus/mohenjo-daro.jpg",
+        "lieu": "Mohenjo-daro",
+        "lieuType": "site"
+      },
+      {
+        "title": "Le Grand Bain de Mohenjo-daro",
+        "artist": "Bâtisseurs harappéens",
+        "country": "Pakistan",
+        "period": "vers 2500 av. J.-C.",
+        "museum": "Site archéologique, Mohenjo-daro (Pakistan)",
+        "credit": "Mohenjo-daro (Pakistan), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Great_bath_view_Mohenjodaro.JPG), photo Saqib Qayyum, licence CC BY-SA 3.0",
+        "analysis": "Un grand bassin rectangulaire en briques rouges, vide, est creusé dans le sol ; des marches descendent jusqu'au fond, et des murs de briques l'entourent. Long d'environ 12 mètres, large de 7 et profond de 2,4, ce bassin était rendu étanche par des briques soigneusement ajustées et une couche de bitume. On y descendait par deux escaliers. Comme il se trouve sur la ville haute, entouré de salles, beaucoup d'archéologues pensent qu'il servait à des bains rituels de purification, mais on ne le sait pas avec certitude. C'est l'un des plus anciens bassins publics connus.",
+        "compare": "L'eau était au cœur de la vie de l'Indus : comparez avec les canalisations, juste après, et le réservoir de Dholavira.",
+        "image": "images/mouvements/civilisation-de-l-indus/grand-bain-mohenjo-daro.jpg",
+        "lieu": "Mohenjo-daro",
+        "lieuType": "site"
+      },
+      {
+        "title": "Un canal d'évacuation à Mohenjo-daro",
+        "artist": "Bâtisseurs harappéens",
+        "country": "Pakistan",
+        "period": "vers 2500 av. J.-C.",
+        "museum": "Site archéologique, Mohenjo-daro (Pakistan)",
+        "credit": "Mohenjo-daro (Pakistan), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Water_canal_for_the_great_bath_-_Mohenjo-daro.jpg), photo Quratulain, licence CC BY-SA 3.0",
+        "analysis": "Un canal étroit et profond, aux parois de briques bien alignées, passe entre deux murs ; la lumière du soleil éclaire un côté. Ce canal, qui servait selon le photographe à vider le Grand Bain, fait partie d'un réseau d'évacuation remarquable. À Mohenjo-daro, les maisons avaient souvent des salles d'eau et des toilettes reliées à des égouts couverts de briques, qui couraient le long des rues et que l'on pouvait nettoyer. Peu de villes au monde ont eu un tel système avant l'Empire romain.",
+        "compare": "Comparez avec les aqueducs de l'exposition sur la Rome antique, comme le pont du Gard, plus de deux mille ans plus tard : la même maîtrise de l'eau.",
+        "image": "images/mouvements/civilisation-de-l-indus/canal-mohenjo-daro.jpg",
+        "lieu": "Mohenjo-daro",
+        "lieuType": "site"
+      },
+      {
+        "title": "Un réservoir de Dholavira",
+        "artist": "Bâtisseurs harappéens",
+        "country": "Inde",
+        "period": "vers 2600–1900 av. J.-C.",
+        "museum": "Site archéologique, Dholavira, Gujarat (Inde)",
+        "credit": "Dholavira (Inde), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Water_reservoir_at_Dholavira_site.jpg), photo Bhajish Bharathan, licence CC BY-SA 4.0",
+        "analysis": "Un grand bassin rectangulaire, creusé dans le sol et bordé de murs de pierre, est à sec ; au fond, des pierres ; derrière, une butte aux murs de pierre et quelques arbres. Dholavira, sur une île du désert salé du Kutch, en Inde, recevait peu de pluie. Ses habitants construisirent des barrages, des canaux et une série de grands réservoirs, en partie taillés dans la roche, pour recueillir l'eau des orages. Près d'une porte de la citadelle, on a trouvé dix grands signes de l'écriture de l'Indus, peut-être une enseigne. Le site est inscrit au patrimoine mondial de l'UNESCO depuis 2021.",
+        "compare": "Après les villes du Pakistan, une cité de l'Inde : la même civilisation s'étendait sur un territoire plus vaste que l'Égypte et la Mésopotamie réunies.",
+        "image": "images/mouvements/civilisation-de-l-indus/dholavira.jpg",
+        "lieu": "Dholavira",
+        "lieuType": "site"
+      },
+      {
+        "title": "Le grand bassin de Lothal",
+        "artist": "Bâtisseurs harappéens",
+        "country": "Inde",
+        "period": "vers 2400–1900 av. J.-C.",
+        "museum": "Site archéologique, Lothal, Gujarat (Inde)",
+        "credit": "Lothal (Inde), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Lothal_Dockyard_N-GJ-60.jpg), photo Jashjashjash, licence CC BY-SA 4.0",
+        "analysis": "Un long bassin rectangulaire bordé de murs de briques contient un peu d'eau ; autour, une plaine sèche et quelques buissons sous un ciel bleu. À Lothal, près du golfe de Cambay, l'archéologue indien S. R. Rao a dégagé un grand bassin de briques d'environ 200 mètres de long, qu'il a interprété comme un port, l'un des plus anciens du monde, relié à la mer par une rivière. D'autres chercheurs pensent plutôt à un réservoir d'eau douce. On a trouvé à Lothal des ateliers de perles et un sceau du golfe Persique, preuves de commerce maritime.",
+        "compare": "Port ou réservoir ? Comme beaucoup de choses dans l'Indus, la question reste ouverte, faute de textes lisibles.",
+        "image": "images/mouvements/civilisation-de-l-indus/lothal.jpg",
+        "lieu": "Lothal",
+        "lieuType": "site"
+      },
+      {
+        "title": "Poids cubiques harappéens",
+        "artist": "Artisans harappéens",
+        "country": "Pakistan",
+        "period": "vers 2600–1900 av. J.-C.",
+        "museum": "British Museum, Londres",
+        "credit": "British Museum, Londres, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Poids_cubiques_harapp%C3%A9ens_-_BM.jpg), photo Zunkir, licence CC BY-SA 4.0",
+        "analysis": "Dans une vitrine, une série de cubes de pierre claire, de tailles très différentes, du plus gros au minuscule, est disposée en rang. Ces poids en chert, une pierre dure, viennent de Mohenjo-daro. On en a trouvé de semblables dans toute la zone de l'Indus, des montagnes de l'Afghanistan à la côte du Gujarat : ils suivent le même système, où chaque poids vaut le double du précédent pour les petits, puis des multiples décimaux pour les gros. Un tel système commun montre une organisation très poussée du commerce, même si l'on ignore quelle autorité le garantissait.",
+        "compare": "Des briques aux poids, tout est mesuré de la même façon d'un bout à l'autre du territoire : l'un des signes les plus forts d'une civilisation unifiée.",
+        "image": "images/mouvements/civilisation-de-l-indus/poids-harappeens.jpg",
+        "lieu": "Mohenjo-daro",
+        "lieuType": "découverte"
+      },
+      {
+        "title": "Sceau à la licorne",
+        "artist": "Artisans harappéens",
+        "country": "Vallée de l'Indus",
+        "period": "vers 2600–1900 av. J.-C.",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/324062), domaine public (CC0)",
+        "analysis": "Un petit sceau carré de pierre blanchâtre, de 3,8 cm de côté, et son empreinte moderne : un animal à une seule corne, de profil, se tient devant un objet sur pied ; au-dessus, une ligne de signes d'écriture. Les sceaux de l'Indus, en stéatite cuite, servaient à imprimer une marque dans de l'argile fraîche pour fermer et identifier des marchandises. L'animal à une corne est le motif le plus fréquent ; devant lui, un objet que le musée identifie, avec un point d'interrogation, comme un brûle-parfum. Les signes du haut appartiennent à l'écriture de l'Indus, toujours pas déchiffrée.",
+        "compare": "Les Mésopotamiens roulaient des sceaux-cylindres sur l'argile, les gens de l'Indus pressaient des sceaux carrés : on a retrouvé des sceaux de l'Indus jusqu'à Ur et Kish, en Mésopotamie.",
+        "image": "images/mouvements/civilisation-de-l-indus/sceau-a-la-licorne.jpg"
+      },
+      {
+        "title": "Trois sceaux de l'Indus",
+        "artist": "Artisans harappéens",
+        "country": "Vallée de l'Indus",
+        "period": "vers 2600–1900 av. J.-C.",
+        "museum": "Musée national, New Delhi",
+        "credit": "Musée national, New Delhi, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Harappan_seals_%28Indus_Valley%29.jpg), photo Gary Todd, domaine public (CC0)",
+        "analysis": "Sous une vitrine, trois petits sceaux carrés de pierre, l'un sombre et deux clairs, gravés de personnages, d'animaux ou de plantes, avec des signes d'écriture en haut. On connaît plusieurs milliers de sceaux de l'Indus. Beaucoup montrent des animaux, un taureau, un éléphant, un rhinocéros, d'autres des personnages et des scènes que l'on ne comprend pas toujours, peut-être religieuses. Le musée national de New Delhi expose une grande partie des objets attribués à l'Inde lors de la partition de 1947.",
+        "compare": "Le même art du sceau qu'au Met, juste avant : un objet minuscule qui circulait d'un bout à l'autre de la civilisation.",
+        "image": "images/mouvements/civilisation-de-l-indus/sceaux-de-l-indus-new-delhi.jpg"
+      },
+      {
+        "title": "Le sceau dit « de Pashupati »",
+        "artist": "Artisans harappéens",
+        "country": "Pakistan",
+        "period": "vers 2600–1900 av. J.-C.",
+        "museum": "Musée national, New Delhi",
+        "credit": "Musée national, New Delhi, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Pashupati_Seal_from_the_Harappan_Civilization.jpg), photo Aadrit28, licence CC BY-SA 4.0",
+        "analysis": "Un petit sceau carré sombre : au centre, un personnage assis, jambes repliées, porte une grande coiffe à cornes ; des animaux l'entourent, et des signes d'écriture courent en haut. Ce sceau de Mohenjo-daro, de 3,4 cm de côté, montre un personnage assis dans une posture qui rappelle celle du yoga, entouré d'animaux. L'archéologue John Marshall y vit en 1931 une forme ancienne du dieu Shiva « seigneur des animaux » (Pashupati), d'où son nom. Cette interprétation est très discutée : sans textes lisibles, on ne sait pas qui il représente, ni si les croyances de l'Indus ont survécu dans l'hindouisme.",
+        "compare": "Un mystère de l'Indus : comparez avec le Shiva de l'exposition sur l'art khmer d'Angkor, sculpté près de trois mille ans plus tard.",
+        "image": "images/mouvements/civilisation-de-l-indus/sceau-de-pashupati.jpg",
+        "lieu": "Mohenjo-daro",
+        "lieuType": "découverte"
+      },
+      {
+        "title": "Grande jarre peinte de Chanhudaro",
+        "artist": "Potier harappéen",
+        "country": "Pakistan",
+        "period": "vers 2700–2000 av. J.-C.",
+        "museum": "Musée national, New Delhi",
+        "credit": "Musée national, New Delhi, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Storage_jar._Mature_Harappan_period._Indus_civilization.jpg), photo Ismoon, domaine public (CC0)",
+        "analysis": "Une grande jarre de terre cuite rougeâtre, à la panse ronde et au fond pointu, posée sur un support de métal ; sa partie haute est couverte d'un décor noir de cercles qui se croisent en forme de fleurs. Cette jarre de stockage vient de Chanhudaro, une petite ville de l'Indus, au Pakistan, où travaillaient de nombreux artisans, en particulier des fabricants de perles. Les potiers de l'Indus tournaient leurs vases au tour et les décoraient de motifs noirs sur fond rouge ; les cercles entrecroisés sont l'un de leurs motifs favoris. Selon la notice du photographe, elle est conservée au musée national de New Delhi.",
+        "compare": "Un objet de tous les jours, mais fabriqué en série avec le même décor dans tout le territoire, comme les briques et les poids.",
+        "image": "images/mouvements/civilisation-de-l-indus/jarre-de-chanhudaro.jpg",
+        "lieu": "Chanhudaro",
+        "lieuType": "découverte"
+      },
+      {
+        "title": "Mouflon couché",
+        "artist": "Sculpteur harappéen",
+        "country": "Vallée de l'Indus",
+        "period": "vers 2600–1900 av. J.-C.",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/326374), domaine public (CC0)",
+        "analysis": "Un animal de pierre claire, long de 28 cm, est couché, les pattes repliées sous lui ; ses grandes cornes s'enroulent le long de sa tête. Les formes sont simples, lisses et arrondies. Selon le musée, cette sculpture en marbre représente un mouflon, un mouton sauvage des montagnes. Les grandes sculptures de pierre sont rares dans l'Indus, qui a surtout laissé de petits objets ; celle-ci montre une grande habileté à simplifier les formes de l'animal. Quelques sculptures d'animaux semblables ont été trouvées à Mohenjo-daro.",
+        "compare": "Comparez avec les animaux des sceaux, plus haut : les artistes de l'Indus aimaient représenter les animaux, avec la même économie de traits.",
+        "image": "images/mouvements/civilisation-de-l-indus/mouflon-couche.jpg"
+      },
+      {
+        "title": "Le « Prêtre-roi » de Mohenjo-daro (moulage)",
+        "artist": "Sculpteur harappéen ; moulage moderne",
+        "country": "Pakistan",
+        "period": "vers 2200–2000 av. J.-C. (original)",
+        "museum": "Moulage exposé au Pakistan ; original au musée national du Pakistan, Karachi",
+        "credit": "Pakistan, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:King_Priest%2C_Pakistan.jpg), photo Umair Shaikh, licence CC BY 2.5",
+        "analysis": "Sur un socle, le buste d'un homme barbu en pierre claire, les yeux mi-clos, un bandeau autour de la tête ; il porte sur l'épaule un manteau décoré de motifs en trèfle. Une étiquette indique qu'il s'agit d'un moulage. L'original, en stéatite, haut de 17,5 cm, a été trouvé à Mohenjo-daro en 1927 et se trouve au musée national du Pakistan, à Karachi ; faute de photo libre de l'original, nous montrons ici un moulage photographié par un visiteur. C'est la sculpture la plus célèbre de l'Indus. Son nom de « Prêtre-roi » est une invention des archéologues : on ignore qui il représente, car on n'a pas trouvé de palais ni de rois dans l'Indus. Les trèfles de son manteau étaient à l'origine remplis de pâte rouge.",
+        "compare": "Le grand mystère de l'Indus en un visage : un homme important, mais dont nous ne savons ni le nom ni le rôle.",
+        "image": "images/mouvements/civilisation-de-l-indus/pretre-roi-moulage.jpg",
+        "lieu": "Mohenjo-daro",
+        "lieuType": "découverte"
+      },
+      {
+        "title": "La « Danseuse » de Mohenjo-daro",
+        "artist": "Bronzier harappéen",
+        "country": "Pakistan",
+        "period": "vers 2300–1750 av. J.-C.",
+        "museum": "Musée national, New Delhi",
+        "credit": "Musée national, New Delhi, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Dancing_Girl_-_National_Museum%2C_New_Delhi.jpg), photo Amrit Sufi, licence CC BY 3.0",
+        "analysis": "Une petite statuette de bronze sombre : une jeune femme nue se tient debout, une main sur la hanche, l'autre bras couvert de bracelets posé sur la jambe ; la tête est légèrement relevée. Haute d'une dizaine de centimètres seulement, cette statuette a été trouvée à Mohenjo-daro en 1926. Elle a été coulée selon la technique de la cire perdue, déjà maîtrisée par les artisans de l'Indus. On l'appelle « danseuse » à cause de sa pose pleine d'assurance, mais rien ne prouve qu'elle dansait. Elle est conservée au musée national de New Delhi.",
+        "compare": "Comparez avec le « Prêtre-roi », juste avant : l'un est grave et immobile, l'autre vivante et naturelle ; deux images très différentes des habitants de la même ville.",
+        "sensible": true,
+        "image": "images/mouvements/civilisation-de-l-indus/danseuse-de-mohenjo-daro.jpg",
+        "lieu": "Mohenjo-daro",
+        "lieuType": "découverte"
+      },
+      {
+        "title": "Collier de perles de cornaline trouvé à Ur",
+        "artist": "Perliers de l'Indus (perles) ; tombe d'Ur",
+        "country": "Irak",
+        "period": "vers 2600–2300 av. J.-C.",
+        "museum": "British Museum, Londres",
+        "credit": "British Museum, Londres, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:British_Museum_Middle_East_14022019_Gold_and_carnelian_beads_2600-2300_BC_Royal_cemetery_of_Ur_%28necklace%29.jpg), photo Vassil, domaine public (CC0)",
+        "analysis": "Sur un fond clair, un long collier de perles rouge-orangé, allongées et effilées aux deux bouts, avec une perle plus large au centre. Ce collier vient du cimetière royal d'Ur, en Mésopotamie, dans l'actuel Irak. Les longues perles de cornaline de ce type, percées sur toute leur longueur, demandaient un savoir-faire que possédaient surtout les perliers de l'Indus, comme ceux de Chanhudaro et de Lothal. Les textes mésopotamiens parlent d'un pays lointain, Meluhha, d'où arrivaient par bateau la cornaline, le bois et l'ivoire : la plupart des historiens pensent qu'il s'agit de la civilisation de l'Indus.",
+        "compare": "Des perles de l'Indus dans une tombe royale de Mésopotamie : la preuve que les deux grandes civilisations commerçaient, à plus de deux mille kilomètres de distance.",
+        "image": "images/mouvements/civilisation-de-l-indus/perles-de-cornaline-ur.jpg"
+      },
+      {
+        "title": "La butte de la citadelle de Mohenjo-daro et son stupa",
+        "artist": "Bâtisseurs harappéens ; stupa bouddhique plus tardif",
+        "country": "Pakistan",
+        "period": "vers 2500 av. J.-C. ; stupa des premiers siècles de notre ère",
+        "museum": "Site archéologique, Mohenjo-daro (Pakistan)",
+        "credit": "Mohenjo-daro (Pakistan), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Mohenjodaro_-_view_of_the_stupa_mound.JPG), photo Saqib Qayyum, licence CC BY-SA 3.0",
+        "analysis": "Au-dessus d'un champ de ruines de briques, une butte porte une construction ronde en briques, un peu effondrée, sous un ciel brumeux. Après 1900 av. J.-C., les villes de l'Indus furent abandonnées peu à peu. Deux mille ans plus tard, des bouddhistes construisirent un stupa sur la butte de la citadelle de Mohenjo-daro, sans savoir qu'une ville plus ancienne dormait dessous. C'est en venant étudier ce stupa qu'en 1922 l'archéologue indien R. D. Banerji découvrit les restes de la cité de l'Indus. Avec les fouilles de Harappa, elles révélèrent une civilisation oubliée depuis quatre mille ans.",
+        "compare": "Le point d'arrivée de l'exposition : comparez avec la première photo de Mohenjo-daro ; le monument qu'on voyait au loin n'appartient pas à l'Indus, mais c'est lui qui a mené à sa redécouverte.",
+        "image": "images/mouvements/civilisation-de-l-indus/butte-du-stupa-mohenjo-daro.jpg",
+        "lieu": "Mohenjo-daro",
+        "lieuType": "site"
+      }
+    ],
+    "carte": {
+      "image": "images/mouvements/cartes/civilisation-de-l-indus.svg",
+      "ouest": 65.5,
+      "est": 76,
+      "sud": 21,
+      "nord": 31.5,
+      "lieux": [
+        {
+          "nom": "Mohenjo-daro",
+          "lat": 27.3243,
+          "lon": 68.1357
+        },
+        {
+          "nom": "Chanhudaro",
+          "lat": 26.1739,
+          "lon": 68.3222
+        },
+        {
+          "nom": "Dholavira",
+          "lat": 23.8873,
+          "lon": 70.2133
+        },
+        {
+          "nom": "Lothal",
+          "lat": 22.5218,
+          "lon": 72.2496
+        }
+      ],
+      "note": "Harappa, qui a donné son autre nom à cette civilisation (« civilisation harappéenne »), se trouve au Pendjab pakistanais, au nord-est de la carte ; les perles de cornaline ont été trouvées à Ur, en Irak, hors du cadre.",
+      "pays": [
+        {
+          "nom": "Pakistan",
+          "lat": 29.328,
+          "lon": 68.546
+        },
+        {
+          "nom": "Inde",
+          "lat": 26.281,
+          "lon": 73.07
+        }
+      ],
+      "villes": [
+        {
+          "nom": "Karachi",
+          "lat": 24.872,
+          "lon": 66.988
+        },
+        {
+          "nom": "Ahmedabad",
+          "lat": 23.032,
+          "lon": 72.578
+        },
+        {
+          "nom": "Surate",
+          "lat": 21.202,
+          "lon": 72.838
+        },
+        {
+          "nom": "Jaipur",
+          "lat": 26.923,
+          "lon": 75.808
+        },
+        {
+          "nom": "Multan",
+          "lat": 30.202,
+          "lon": 71.453
+        },
+        {
+          "nom": "Hyderâbâd",
+          "lat": 25.382,
+          "lon": 68.373
+        },
+        {
+          "nom": "Vadodara",
+          "lat": 22.312,
+          "lon": 73.178
+        },
+        {
+          "nom": "Rajkot",
+          "lat": 22.312,
+          "lon": 70.798
+        },
+        {
+          "nom": "Jalandhar",
+          "lat": 31.337,
+          "lon": 75.567
+        },
+        {
+          "nom": "Kota",
+          "lat": 25.182,
+          "lon": 75.833
+        }
+      ]
+    }
   }
 ]

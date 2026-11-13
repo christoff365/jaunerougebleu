@@ -14812,5 +14812,414 @@
         }
       ]
     }
+  },
+  {
+    "mouvement": "Anglo-Saxons",
+    "slug": "anglo-saxons",
+    "status": "published",
+    "title": "Les Anglo-Saxons, aux origines de l'Angleterre",
+    "subtitle": "Angleterre, Ve siècle – 1066 : dix-neuf œuvres et sites d'Angleterre, d'Italie et de France, de Londres, Oxford, Cambridge, Birmingham, Florence, Bayeux et New York",
+    "intro": "Après le départ des Romains, au Ve siècle, des peuples germaniques venus d'au-delà de la mer du Nord, les Angles, les Saxons et les Jutes, s'installent dans l'actuelle Angleterre. Pendant six siècles, leurs royaumes se font la guerre, se convertissent au christianisme, résistent aux Vikings, puis s'unissent en un seul royaume, l'Angleterre, « la terre des Angles ». Leur langue, le vieil anglais, est l'ancêtre de l'anglais d'aujourd'hui. L'exposition suit cette histoire, des premiers villages aux trésors royaux de Sutton Hoo et du Staffordshire, des monastères et de leurs manuscrits aux croix de pierre, jusqu'au roi Alfred le Grand et à la conquête normande de 1066.",
+    "contexte": [
+      {
+        "title": "Angles, Saxons et Jutes",
+        "text": "Au début du Ve siècle, Rome abandonne la Bretagne, la province qui correspond à peu près à l'Angleterre et au pays de Galles actuels. Des peuples germaniques venus de l'autre côté de la mer du Nord, des actuels Danemark, nord de l'Allemagne et Pays-Bas, s'y installent : les Angles, les Saxons et les Jutes. Leurs langues donnent naissance au vieil anglais, et les Angles donnent leur nom à l'Angleterre, « la terre des Angles ». Les Bretons, qui parlaient une langue celtique, restent maîtres de l'ouest, au pays de Galles et en Cornouailles, ou partent en Armorique, qui devient la Bretagne française. L'arrivée des Anglo-Saxons s'est faite sur plusieurs générations, par la guerre mais aussi par le mélange avec les habitants."
+      },
+      {
+        "title": "Des royaumes rivaux",
+        "text": "Aux VIe et VIIe siècles, plusieurs royaumes se forment : la Northumbrie au nord, la Mercie au centre, l'Est-Anglie, le Kent, l'Essex, le Sussex et le Wessex au sud. Leurs rois se font la guerre et s'allient par des mariages. Au VIIIe siècle, Offa de Mercie domine une grande partie de l'Angleterre. À partir de 793, les Vikings attaquent, puis s'installent dans le nord et l'est. Seul le Wessex résiste, sous le roi Alfred le Grand (871–899) ; ses successeurs réunissent peu à peu les royaumes en un seul, l'Angleterre, au Xe siècle."
+      },
+      {
+        "title": "Des dieux germaniques au christianisme",
+        "text": "Les premiers Anglo-Saxons honoraient des dieux germaniques, proches de ceux des Scandinaves : Woden, Thunor, Tiw et Frige ont laissé leur nom aux jours de la semaine en anglais (Wednesday, Thursday, Tuesday, Friday). En 597, le pape Grégoire le Grand envoie le moine Augustin, qui baptise le roi de Kent ; au nord, des moines irlandais venus d'Iona fondent le monastère de Lindisfarne. Les monastères deviennent des centres de savoir : on y copie et décore des livres, et le moine Bède, à Jarrow, écrit vers 731 la première histoire du peuple anglais."
+      },
+      {
+        "title": "1066, et ce que l'on voit dans l'exposition",
+        "text": "En 1066, le duc Guillaume de Normandie bat le roi Harold à Hastings et devient roi d'Angleterre : l'époque anglo-saxonne s'achève, mais sa langue, transformée par le français des Normands, deviendra l'anglais moderne. L'exposition présente des tombes royales, des trésors d'or et de grenats, des manuscrits enluminés, des croix de pierre, des églises, des bijoux et des monnaies. Elle vient du British Museum, de la British Library, de l'Ashmolean Museum et de la Bodleian Library d'Oxford, du Corpus Christi College de Cambridge, de la bibliothèque Laurentienne de Florence, de Bayeux et du Metropolitan Museum ; beaucoup de photos sont celles de visiteurs, publiées sous licence libre."
+      }
+    ],
+    "bibliography": [
+      {
+        "reference": "Bède le Vénérable, Histoire ecclésiastique du peuple anglais, vers 731"
+      },
+      {
+        "reference": "La Chronique anglo-saxonne, IXe – XIIe siècle"
+      },
+      {
+        "reference": "Notices du British Museum sur Sutton Hoo, le coffret Franks et la broche Fuller"
+      },
+      {
+        "reference": "British Library : les Évangiles de Lindisfarne",
+        "url": "https://www.bl.uk/collection-items/lindisfarne-gospels"
+      },
+      {
+        "reference": "Birmingham Museums : le trésor du Staffordshire",
+        "url": "https://www.staffordshirehoard.org.uk/"
+      },
+      {
+        "reference": "Portable Antiquities Scheme (objets trouvés par le public en Angleterre et au pays de Galles)",
+        "url": "https://finds.org.uk/"
+      }
+    ],
+    "works": [
+      {
+        "title": "Fibule à tête carrée",
+        "artist": "Orfèvre anglo-saxon",
+        "country": "Angleterre",
+        "period": "VIe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/466124), domaine public (CC0)",
+        "analysis": "Une grande broche de cuivre doré, haute de 13,6 cm : en haut, une plaque rectangulaire bordée de petites têtes saillantes ; en bas, une tige qui s'élargit et se termine en tête d'animal stylisée. Toute la surface est couverte de motifs taillés en creux, de formes animales découpées et entremêlées. Ces grandes fibules, qui servaient à fermer les vêtements, sont typiques des premiers siècles anglo-saxons ; on les trouve surtout dans des tombes de femmes. Leur décor d'animaux découpés en morceaux, appelé « style animalier », vient des pays d'origine des Angles et des Saxons, au bord de la mer du Nord. Selon la notice du musée, le cuivre doré est incrusté de nielle, une pâte noire.",
+        "compare": "Le point de départ de l'exposition : l'art que les nouveaux venus ont apporté de l'autre côté de la mer du Nord.",
+        "image": "images/mouvements/anglo-saxons/fibule-a-tete-carree.jpg"
+      },
+      {
+        "title": "Le village anglo-saxon de West Stow",
+        "artist": "Reconstitution moderne d'après les fouilles",
+        "country": "Angleterre",
+        "period": "village du Ve – VIIe siècle",
+        "museum": "West Stow, Suffolk (Angleterre)",
+        "credit": "West Stow (Angleterre), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Two_houses%2C_West_Stow_Anglo-Saxon_village_-_geograph.org.uk_-_5466871.jpg), photo Christine Johnstone, licence CC BY-SA 2.0",
+        "analysis": "Sur une pelouse, deux maisons de bois aux grands toits de chaume très pentus descendent presque jusqu'au sol ; une clôture de branches tressées se trouve à gauche. Les archéologues ont fouillé à West Stow un village anglo-saxon des premiers siècles. À partir des traces laissées dans le sol, ils ont reconstruit sur place plusieurs maisons, en essayant différentes façons de les bâtir. Ce sont donc des reconstitutions modernes, qui restent en partie des hypothèses. Elles montrent comment vivait la plupart des Anglo-Saxons : dans de petits villages de fermiers, loin des rois et de leurs trésors.",
+        "compare": "La vie ordinaire, avant les trésors royaux de Sutton Hoo, juste après.",
+        "image": "images/mouvements/anglo-saxons/village-de-west-stow.jpg",
+        "lieu": "West Stow",
+        "lieuType": "site"
+      },
+      {
+        "title": "Les tumulus de Sutton Hoo",
+        "artist": "Rois et nobles d'Est-Anglie",
+        "country": "Angleterre",
+        "period": "fin du VIe – VIIe siècle",
+        "museum": "Sutton Hoo, Suffolk (Angleterre)",
+        "credit": "Sutton Hoo (Angleterre), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Sutton_Hoo%2C_The_Royal_Burial_Ground%2C_Burial_Mounds_7_and_6_-_geograph.org.uk_-_6945293.jpg), photo Michael Garlick, licence CC BY-SA 2.0",
+        "analysis": "Une lande d'herbe sèche, vaste et presque plate, où l'on devine de larges buttes basses ; des sentiers circulent entre elles, et une ligne d'arbres ferme l'horizon. En 1939, à la demande de la propriétaire du terrain, Edith Pretty, l'archéologue Basil Brown fouilla le plus grand de ces tumulus. Il y trouva l'empreinte d'un bateau de 27 mètres, dont le bois avait disparu, et, au centre, une chambre funéraire remplie d'objets précieux. Le corps lui-même avait été dissous par le sol acide. Beaucoup pensent qu'il s'agit de la tombe de Rædwald, roi d'Est-Anglie mort vers 624, mais aucune inscription ne le confirme. Edith Pretty offrit le trésor au British Museum.",
+        "compare": "Comparez avec les bateaux-tombes d'Oseberg et de Gokstad, dans l'exposition sur les Vikings : la même idée, deux siècles plus tôt, en Angleterre.",
+        "image": "images/mouvements/anglo-saxons/tumulus-de-sutton-hoo.jpg",
+        "lieu": "Sutton Hoo",
+        "lieuType": "site"
+      },
+      {
+        "title": "Le casque de Sutton Hoo",
+        "artist": "Atelier royal d'Est-Anglie",
+        "country": "Angleterre",
+        "period": "vers 625",
+        "museum": "British Museum, Londres",
+        "credit": "British Museum, Londres, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Sutton_Hoo_helmet_2016.JPG), photo Geni, licence CC BY-SA 4.0",
+        "analysis": "Dans une vitrine, un casque de fer rouillé, reconstitué à partir de nombreux fragments, couvre toute la tête : un masque avec des trous pour les yeux, un nez et une moustache de métal, des protège-joues et un protège-nuque. Des plaques décorées, plus claires, sont fixées sur la calotte. Ce casque a été trouvé écrasé en centaines de morceaux dans la tombe de Sutton Hoo ; il a fallu des années pour le reconstituer. Les sourcils et le nez forment, vus ensemble, un oiseau ou un dragon aux ailes déployées. Les plaques montrent des guerriers et des cavaliers, comme sur des casques trouvés en Suède : les élites anglo-saxonnes et scandinaves partageaient le même goût et les mêmes échanges. C'est devenu l'image la plus célèbre de l'Angleterre anglo-saxonne.",
+        "compare": "Les Vikings n'avaient pas de casques à cornes : ce casque, plus ancien, montre à quoi ressemblait vraiment l'équipement d'un roi germanique.",
+        "image": "images/mouvements/anglo-saxons/casque-de-sutton-hoo.jpg",
+        "lieu": "Sutton Hoo",
+        "lieuType": "découverte"
+      },
+      {
+        "title": "Agrafe d'épaule de Sutton Hoo",
+        "artist": "Atelier royal d'Est-Anglie",
+        "country": "Angleterre",
+        "period": "vers 625",
+        "museum": "British Museum, Londres",
+        "credit": "British Museum, Londres, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Anglo-Saxon_Shoulder_Clasp_from_Sutton_Hoo_Burial%2C_625-630_AD.jpg), photo Gary Todd, domaine public (CC0)",
+        "analysis": "Deux pièces d'or articulées, attachées par une fine chaîne et une épingle, sont couvertes de petites cellules remplies de pierres rouges et de verre coloré, formant des motifs en damier et en escalier. Ces agrafes, portées par paire, fermaient sur les épaules un vêtement de cuir, à la manière des cuirasses des généraux romains. Les pierres rouges sont des grenats, taillés en lamelles très fines et posés sur une feuille d'or gravée qui les fait briller. Ces grenats venaient sans doute d'Inde ou du Sri Lanka : l'or et les pierres d'un roi d'Est-Anglie avaient traversé une grande partie du monde.",
+        "compare": "Un roi germanique qui s'habille comme un général romain : les Anglo-Saxons admiraient l'empire qu'ils avaient remplacé.",
+        "image": "images/mouvements/anglo-saxons/agrafe-d-epaule-de-sutton-hoo.jpg",
+        "lieu": "Sutton Hoo",
+        "lieuType": "découverte"
+      },
+      {
+        "title": "Couvercle de bourse de Sutton Hoo",
+        "artist": "Atelier royal d'Est-Anglie",
+        "country": "Angleterre",
+        "period": "vers 625",
+        "museum": "British Museum, Londres",
+        "credit": "British Museum, Londres, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Sutton_hoo_purse_lid02017.JPG), photo Geni, licence CC BY-SA 4.0",
+        "analysis": "Un cadre d'or en forme de haricot, posé sur un fond clair, porte des plaques d'or et de grenats : au centre, deux oiseaux de proie ; de chaque côté, un homme debout entre deux animaux dressés ; en haut, des motifs géométriques. Ce couvercle fermait une bourse de cuir accrochée à la ceinture, qui contenait trente-sept pièces d'or venues du royaume des Francs. La matière du fond, sans doute de l'os ou de l'ivoire, a disparu : le fond actuel est moderne. Le thème de l'homme entre deux bêtes se retrouve dans tout le monde germanique, jusqu'en Suède.",
+        "compare": "Des monnaies franques dans la tombe d'un roi anglais : l'Angleterre anglo-saxonne n'était pas isolée sur son île.",
+        "image": "images/mouvements/anglo-saxons/couvercle-de-bourse-de-sutton-hoo.jpg",
+        "lieu": "Sutton Hoo",
+        "lieuType": "découverte"
+      },
+      {
+        "title": "Pièces d'or du trésor du Staffordshire",
+        "artist": "Orfèvres anglo-saxons",
+        "country": "Angleterre",
+        "period": "VIIe siècle",
+        "museum": "Birmingham Museum and Art Gallery et Potteries Museum, Stoke-on-Trent",
+        "credit": "Trésor du Staffordshire, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Staffordshire_Hoard_Pommel_Caps.jpg), photo Jon Callas, licence CC BY 2.0",
+        "analysis": "Sur un fond sombre, quelques petits objets d'or brillants : des pommeaux d'épée arrondis ou en forme de pyramide, décorés de filigrane et de grenats rouges. En 2009, un amateur de détection de métaux trouva dans un champ du Staffordshire le plus grand trésor d'or anglo-saxon connu : plus de 3 500 pièces et fragments, environ 5 kilos d'or. Ce sont surtout des décorations arrachées à des épées et à des armes, peut-être un butin pris après des batailles, à l'époque où la Mercie, le royaume du centre de l'Angleterre, devenait puissante. Personne ne sait pourquoi il a été enterré.",
+        "compare": "Le même travail de l'or et des grenats qu'à Sutton Hoo, plus haut, mais arraché aux armes : le revers guerrier du luxe des rois.",
+        "image": "images/mouvements/anglo-saxons/tresor-du-staffordshire.jpg",
+        "lieu": "Hammerwich (Staffordshire)",
+        "lieuType": "découverte"
+      },
+      {
+        "title": "Les Évangiles de saint Augustin : saint Luc",
+        "artist": "Enlumineur italien",
+        "country": "Italie",
+        "period": "VIe siècle",
+        "museum": "Parker Library, Corpus Christi College, Cambridge (MS 286)",
+        "credit": "Corpus Christi College, Cambridge, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:AugsutineGospelsFolio129vStLuke.jpg), domaine public",
+        "analysis": "Une page de manuscrit : l'évangéliste Luc, vêtu de blanc, est assis sous une arche entre deux colonnes de marbre ; au-dessus de lui, un bœuf ailé. Sur les côtés, de petites cases montrent des scènes de la vie du Christ. Ce livre des Évangiles a été copié en Italie au VIe siècle. Selon la tradition, c'est l'un des livres que le moine Augustin apporta en 597, quand le pape Grégoire le Grand l'envoya convertir les Anglo-Saxons ; Augustin devint le premier archevêque de Canterbury. C'est l'un des plus anciens livres illustrés en latin qui existent. Il sert encore aujourd'hui lors de l'intronisation des archevêques de Canterbury.",
+        "compare": "Le livre venu de Rome qui a servi de modèle : comparez avec les Évangiles de Lindisfarne, plus loin, où les Anglo-Saxons inventent leur propre style.",
+        "image": "images/mouvements/anglo-saxons/evangiles-de-saint-augustin.jpg"
+      },
+      {
+        "title": "L'église saxonne d'Escomb",
+        "artist": "Bâtisseurs northumbriens",
+        "country": "Angleterre",
+        "period": "vers 675",
+        "museum": "Escomb, comté de Durham (Angleterre)",
+        "credit": "Escomb (Angleterre), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Escomb%2C_%27The_Saxon_Church%27%2C_North_western_aspect_-_geograph.org.uk_-_6334858.jpg), photo Michael Garlick, licence CC BY-SA 2.0",
+        "analysis": "Une petite église de pierre grise, haute et étroite, au toit d'ardoises, se dresse derrière un muret de pierre, à l'ombre de grands arbres. Construite vers 675 en Northumbrie, l'église d'Escomb est l'une des églises anglo-saxonnes les plus complètes encore debout, et on y célèbre toujours le culte. Ses bâtisseurs ont réutilisé des pierres taillées du fort romain voisin de Binchester : on y voit encore une inscription romaine. Après des siècles de maisons en bois, les chrétiens anglo-saxons reprennent la construction en pierre, apprise de Rome.",
+        "compare": "Comparez avec les maisons de bois de West Stow, plus haut : avec le christianisme arrive la pierre.",
+        "image": "images/mouvements/anglo-saxons/eglise-d-escomb.jpg",
+        "lieu": "Escomb",
+        "lieuType": "site"
+      },
+      {
+        "title": "Les Évangiles de Lindisfarne : page tapis",
+        "artist": "Eadfrith, évêque de Lindisfarne",
+        "country": "Angleterre",
+        "period": "vers 700–715",
+        "museum": "British Library, Londres",
+        "credit": "British Library, Londres, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:F26v.jpg), domaine public",
+        "analysis": "Une page entière de manuscrit est couverte d'un décor minutieux : une grande croix se détache sur un fond d'entrelacs serrés, où se mêlent rubans et animaux, en bleu, vert, rouge et ocre. Ce livre des Évangiles a été réalisé au monastère de Lindisfarne, sur une île de la côte de Northumbrie, en l'honneur de saint Cuthbert ; selon une note ajoutée au Xe siècle, il a été écrit par l'évêque Eadfrith. Ces « pages tapis », sans texte, mêlent les entrelacs irlandais, les animaux du style germanique et la croix chrétienne. Au Xe siècle, le prêtre Aldred ajouta entre les lignes une traduction en vieil anglais : la plus ancienne version connue des Évangiles en anglais.",
+        "compare": "Les entrelacs d'animaux de la fibule du début, au service de la croix : l'art germanique devenu chrétien.",
+        "image": "images/mouvements/anglo-saxons/evangiles-de-lindisfarne.jpg",
+        "lieu": "Lindisfarne",
+        "lieuType": "fabrication"
+      },
+      {
+        "title": "Le Codex Amiatinus : le prophète Esdras",
+        "artist": "Moines de Wearmouth-Jarrow",
+        "country": "Angleterre",
+        "period": "avant 716",
+        "museum": "Bibliothèque Laurentienne, Florence (Amiatino 1)",
+        "credit": "Bibliothèque Laurentienne, Florence, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Meister_des_Codex_Amiatus_001.jpg), domaine public",
+        "analysis": "Un homme âgé, auréolé, assis sur un banc, écrit dans un livre posé sur ses genoux. Derrière lui, une grande armoire aux portes ouvertes contient des livres rouges couchés sur des étagères ; des instruments d'écriture sont posés au sol. Cette Bible complète en latin, de plus de mille feuillets et pesant plus de trente kilos, a été copiée au monastère de Wearmouth-Jarrow, en Northumbrie, où vivait le savant moine Bède. L'abbé Ceolfrith l'emporta en 716 pour l'offrir au pape, mais mourut en chemin en France. Le livre arriva en Italie, où on le crut longtemps italien. C'est la plus ancienne Bible latine complète conservée. L'image montre le prophète Esdras, qui recopia selon la tradition les livres saints.",
+        "compare": "Le chemin inverse des Évangiles de saint Augustin, plus haut : un siècle après avoir reçu des livres de Rome, les Anglo-Saxons en offrent un au pape.",
+        "image": "images/mouvements/anglo-saxons/codex-amiatinus.jpg",
+        "lieu": "Wearmouth-Jarrow",
+        "lieuType": "fabrication"
+      },
+      {
+        "title": "Le coffret Franks",
+        "artist": "Sculpteur northumbrien",
+        "country": "Angleterre",
+        "period": "début du VIIIe siècle",
+        "museum": "British Museum, Londres",
+        "credit": "British Museum, Londres, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Franks_Casket_4.jpg), photo Mike Peel, licence CC BY-SA 4.0",
+        "analysis": "Dans une vitrine, un petit coffret rectangulaire en os, de couleur crème, posé de biais : son couvercle et ses côtés sont couverts de scènes sculptées en relief, entourées de bordures de lettres. Ce coffret en os de baleine réunit sur ses faces des histoires de mondes très différents : la légende germanique du forgeron Weland, l'adoration des mages venus voir l'enfant Jésus, Romulus et Remus nourris par la louve, et la prise de Jérusalem par l'empereur romain Titus en 70. Les inscriptions sont écrites en vieil anglais et en latin, surtout en runes. Il porte le nom d'Augustus Franks, qui l'offrit au British Museum ; un des côtés, séparé, est conservé au musée du Bargello, à Florence.",
+        "compare": "La prise de Jérusalem, qu'on voit aussi sur l'arc de Titus dans l'exposition Israël et Juda, racontée par un sculpteur anglo-saxon en runes.",
+        "image": "images/mouvements/anglo-saxons/coffret-franks.jpg"
+      },
+      {
+        "title": "Le psautier Vespasien : David et ses musiciens",
+        "artist": "Enlumineur de Canterbury",
+        "country": "Angleterre",
+        "period": "vers 725",
+        "museum": "British Library, Londres",
+        "credit": "British Library, Londres, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:VespasianPsalterFolio30VDavidWthMusicians.jpg), domaine public",
+        "analysis": "Sous une grande arche décorée de rosaces, le roi David, assis sur un trône, joue d'un instrument à cordes. Autour de lui, des musiciens soufflent dans des cornes et des danseurs lèvent les mains ; le fond orangé est encadré de bordures bleues et dorées. Ce livre des psaumes a été réalisé à Canterbury, dans le royaume de Kent. Ici, le style est très différent de celui de Lindisfarne : les personnages, l'arche et les couleurs imitent les livres venus de Rome. Au IXe siècle, quelqu'un a ajouté entre les lignes une traduction des psaumes en vieil anglais, l'une des plus anciennes traductions de la Bible dans cette langue.",
+        "compare": "Comparez avec les Évangiles de saint Augustin, plus haut : le modèle romain, copié à Canterbury un siècle plus tard.",
+        "image": "images/mouvements/anglo-saxons/psautier-vespasien.jpg",
+        "lieu": "Canterbury",
+        "lieuType": "fabrication"
+      },
+      {
+        "title": "La croix de Bewcastle",
+        "artist": "Sculpteur northumbrien",
+        "country": "Angleterre",
+        "period": "VIIIe siècle",
+        "museum": "Cimetière de Bewcastle, Cumbria (Angleterre)",
+        "credit": "Bewcastle (Angleterre), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Bewcastle_Cross_W_face.jpg), photo Kognos, licence CC BY-SA 4.0",
+        "analysis": "Un haut pilier de pierre, privé de sa tête, se dresse dans un cimetière. Sur sa face, plusieurs personnages sont sculptés l'un au-dessus de l'autre dans des niches, séparés par des lignes d'inscription. Cette croix de pierre, haute de plus de quatre mètres, se dresse toujours à sa place d'origine, dans le nord de l'Angleterre. Sur la face ouest, on reconnaît notamment le Christ, et en bas un homme avec un oiseau, souvent identifié à saint Jean l'évangéliste et son aigle ; une longue inscription en runes y est gravée. Les autres faces sont couvertes de rinceaux de vigne et d'entrelacs. Avec la croix voisine de Ruthwell, en Écosse, c'est l'un des chefs-d'œuvre de la sculpture anglo-saxonne.",
+        "compare": "Les runes, écriture des peuples germaniques, gravées sur une croix chrétienne, comme sur le coffret Franks, juste avant.",
+        "image": "images/mouvements/anglo-saxons/croix-de-bewcastle.jpg",
+        "lieu": "Bewcastle",
+        "lieuType": "site"
+      },
+      {
+        "title": "Penny d'argent du roi Offa",
+        "artist": "Eoba, monnayeur de Canterbury",
+        "country": "Angleterre",
+        "period": "792–796",
+        "museum": "Trouvaille déclarée au Portable Antiquities Scheme (Lincolnshire)",
+        "credit": "Portable Antiquities Scheme, Lincolnshire, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Silver_penny_of_Offa_%28FindID_625864%29.jpg), photo Adam Daubney, Lincolnshire County Council, licence CC BY-SA 4.0",
+        "analysis": "Les deux faces d'une pièce d'argent mince, un peu ébréchée : sur l'une, les mots « OFFA REX » ; sur l'autre, le nom du monnayeur, encadrés de petits points et de motifs simples. Offa, roi de Mercie de 757 à 796, domina presque toute l'Angleterre au sud de la Humber et traita d'égal à égal avec Charlemagne. On lui attribue la levée d'un long rempart de terre face aux Gallois, la « digue d'Offa ». Il généralisa le penny d'argent, mince et large, qui resta la monnaie anglaise pendant des siècles. Celle-ci, frappée à Canterbury par le monnayeur Eoba, a été trouvée par un particulier et déclarée au Portable Antiquities Scheme, qui recense les découvertes du public.",
+        "compare": "Après les trésors des rois, une petite pièce de tous les jours : le pouvoir d'Offa passait aussi par la monnaie.",
+        "image": "images/mouvements/anglo-saxons/denier-d-offa.jpg",
+        "lieu": "Canterbury",
+        "lieuType": "fabrication"
+      },
+      {
+        "title": "Le joyau d'Alfred",
+        "artist": "Orfèvre du roi Alfred le Grand",
+        "country": "Angleterre",
+        "period": "871–899",
+        "museum": "Ashmolean Museum, Oxford",
+        "credit": "Ashmolean Museum, Oxford, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Alfred-jewel-ashmolean.jpg), photo Mkooiman, licence CC BY-SA 4.0",
+        "analysis": "Sur un fond noir, un petit objet d'or en forme de goutte : sous une plaque de cristal transparent, un personnage en émail coloré tient deux tiges fleuries. En bas, l'or se termine par une tête d'animal à la gueule ouverte. Trouvé en 1693 dans le Somerset, près de l'endroit où Alfred s'était réfugié face aux Vikings, ce bijou porte autour de son cadre une inscription en vieil anglais : « Alfred m'a fait faire ». Alfred, roi du Wessex, voulait que son peuple apprenne à lire en anglais ; il fit traduire des livres latins et envoya avec eux, dit-il, un « æstel » à chaque évêché. Beaucoup pensent que ce joyau était le manche d'un tel æstel, une baguette pour suivre les lignes en lisant.",
+        "compare": "Le roi qui a résisté aux Vikings voulait aussi un peuple qui lise : la Chronique anglo-saxonne, plus loin, a été commencée sous son règne.",
+        "image": "images/mouvements/anglo-saxons/joyau-d-alfred.jpg",
+        "lieu": "North Petherton",
+        "lieuType": "découverte"
+      },
+      {
+        "title": "La broche Fuller et les cinq sens",
+        "artist": "Orfèvre anglo-saxon",
+        "country": "Angleterre",
+        "period": "fin du IXe siècle",
+        "museum": "British Museum, Londres",
+        "credit": "British Museum, Londres, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Fuller_Brosche_9jhd.JPG), photo Aiwok, licence CC BY-SA 3.0",
+        "analysis": "Une grande broche ronde en argent, au décor gravé et noirci : au centre, un personnage aux grands yeux ; autour, quatre figures dans des compartiments ; tout autour, une couronne de petits médaillons ronds. Selon le British Museum, c'est la plus ancienne représentation connue des cinq sens : au centre la Vue, aux grands yeux, et autour le Goût, l'Odorat, le Toucher et l'Ouïe. Les médaillons du bord montrent des hommes, des animaux et des plantes, la Création tout entière. Le dessin est gravé dans l'argent et rempli de nielle noire. Cette broche a longtemps été prise pour un faux, avant d'être reconnue authentique ; elle porte le nom du capitaine Fuller, qui l'a donnée au musée.",
+        "compare": "Comparez avec la fibule du début de l'exposition : trois siècles plus tard, les animaux entremêlés ont laissé place à une idée, les sens de l'homme.",
+        "image": "images/mouvements/anglo-saxons/broche-fuller.jpg"
+      },
+      {
+        "title": "La Chronique anglo-saxonne de Peterborough",
+        "artist": "Moines de Peterborough",
+        "country": "Angleterre",
+        "period": "vers 1121–1154",
+        "museum": "Bodleian Library, Oxford (MS Laud Misc. 636)",
+        "credit": "Bodleian Library, Oxford, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Peterborough.Chronicle.firstpage.jpg), domaine public",
+        "analysis": "Une page de parchemin couverte d'une écriture noire régulière, en lignes serrées ; elle commence par une grande lettre B ornée, rouge et verte. En bas, une note a été ajoutée d'une autre main. Sous le roi Alfred, on commença à tenir en vieil anglais une chronique, année après année, de l'histoire du pays ; plusieurs monastères en recopièrent et continuèrent des versions. Celle de Peterborough, copiée vers 1121, commence par une description de la Bretagne et fut tenue à jour jusqu'en 1154, bien après l'arrivée des Normands : c'est la dernière à être écrite en anglais, une langue qui était en train de changer.",
+        "compare": "L'histoire racontée par les Anglo-Saxons eux-mêmes, dans leur langue, alors que la Tapisserie de Bayeux, juste après, la raconte du côté des vainqueurs normands.",
+        "image": "images/mouvements/anglo-saxons/chronique-de-peterborough.jpg",
+        "lieu": "Peterborough",
+        "lieuType": "fabrication"
+      },
+      {
+        "title": "La Tapisserie de Bayeux : la mort du roi Harold",
+        "artist": "Brodeurs, probablement anglais",
+        "country": "Angleterre",
+        "period": "vers 1070",
+        "museum": "Musée de la Tapisserie de Bayeux (France)",
+        "credit": "Musée de la Tapisserie de Bayeux, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_scene57_Harold_death_%28cropped%29.jpg), photo Myrabella, domaine public",
+        "analysis": "Sur une toile claire, des personnages brodés en laine de couleur : à gauche, des soldats à pied avec boucliers et lances ; à droite, un cavalier frappe un homme qui tombe. Au-dessus, en latin : « HAROLD REX INTERFECTUS EST », « le roi Harold est tué ». Cette broderie de près de 70 mètres raconte la conquête de l'Angleterre par Guillaume, duc de Normandie, jusqu'à la bataille de Hastings, le 14 octobre 1066, où meurt le dernier roi anglo-saxon, Harold. Commandée sans doute par Odon, évêque de Bayeux et demi-frère de Guillaume, elle a probablement été brodée en Angleterre, à Canterbury, par des artisans anglo-saxons. Le récit est celui des vainqueurs. Elle est inscrite au registre « Mémoire du monde » de l'UNESCO.",
+        "compare": "Le point d'arrivée de l'exposition : la fin des rois anglo-saxons, brodée peut-être par des mains anglo-saxonnes.",
+        "image": "images/mouvements/anglo-saxons/tapisserie-de-bayeux.jpg",
+        "lieu": "Canterbury",
+        "lieuType": "fabrication",
+        "lieuProbable": true
+      }
+    ],
+    "carte": {
+      "image": "images/mouvements/cartes/anglo-saxons.svg",
+      "ouest": -5.2,
+      "est": 2,
+      "sud": 50.5,
+      "nord": 56,
+      "lieux": [
+        {
+          "nom": "West Stow",
+          "lat": 52.3058,
+          "lon": 0.6383
+        },
+        {
+          "nom": "Sutton Hoo",
+          "lat": 52.0889,
+          "lon": 1.3383
+        },
+        {
+          "nom": "Hammerwich (Staffordshire)",
+          "lat": 52.6575,
+          "lon": -1.8917
+        },
+        {
+          "nom": "Escomb",
+          "lat": 54.6658,
+          "lon": -1.7086
+        },
+        {
+          "nom": "Lindisfarne",
+          "lat": 55.6693,
+          "lon": -1.8007
+        },
+        {
+          "nom": "Wearmouth-Jarrow",
+          "lat": 54.98,
+          "lon": -1.47
+        },
+        {
+          "nom": "Bewcastle",
+          "lat": 55.0636,
+          "lon": -2.6814
+        },
+        {
+          "nom": "Canterbury",
+          "lat": 51.2798,
+          "lon": 1.0789
+        },
+        {
+          "nom": "North Petherton",
+          "lat": 51.0917,
+          "lon": -3.0144
+        },
+        {
+          "nom": "Peterborough",
+          "lat": 52.5725,
+          "lon": -0.2386
+        }
+      ],
+      "pays": [
+        {
+          "nom": "Royaume-Uni",
+          "lat": 54.403,
+          "lon": -2.116
+        }
+      ],
+      "villes": [
+        {
+          "nom": "Londres",
+          "lat": 51.502,
+          "lon": -0.119
+        },
+        {
+          "nom": "Cardiff",
+          "lat": 51.483,
+          "lon": -3.168
+        },
+        {
+          "nom": "Douglas",
+          "lat": 54.149,
+          "lon": -4.48
+        },
+        {
+          "nom": "Glasgow",
+          "lat": 55.862,
+          "lon": -4.239
+        },
+        {
+          "nom": "Birmingham",
+          "lat": 52.477,
+          "lon": -1.922
+        },
+        {
+          "nom": "Manchester",
+          "lat": 53.475,
+          "lon": -2.249
+        },
+        {
+          "nom": "Leeds",
+          "lat": 53.79,
+          "lon": -1.551
+        },
+        {
+          "nom": "Newcastle upon Tyne",
+          "lat": 54.99,
+          "lon": -1.612
+        },
+        {
+          "nom": "Nottingham",
+          "lat": 52.941,
+          "lon": -1.166
+        },
+        {
+          "nom": "Brighton",
+          "lat": 50.83,
+          "lon": -0.17
+        }
+      ]
+    }
   }
 ]

@@ -71,7 +71,9 @@ nav{background:#fff;border-bottom:6px solid var(--noir);display:flex;flex-wrap:w
 .langs button{background:none;border:1px solid #bbb;color:#555;font-size:12px;padding:3px 8px;border-radius:3px;transition:.2s}
 .langs button.on,.langs button:hover{border-color:var(--noir);color:var(--noir);background:var(--jaune)}
 @media(max-width:760px){
-  nav{padding:10px 16px}
+  nav{padding:8px 12px;gap:6px 8px;min-height:0}
+  .wordmark{font-size:1.25rem}
+  .langs{gap:3px}.langs button{padding:3px 6px}
   .nav-links{order:3;width:100%;justify-content:center;gap:0 2px;border-top:2px solid var(--noir);padding-top:4px}
   .nav-links button,.nav-links a{padding:6px 4px;font-size:12px;letter-spacing:.03em}
 }
@@ -451,7 +453,7 @@ img.zoom:focus-visible{outline:3px solid #1a3a8a;outline-offset:-3px}
 .img-credit a{color:inherit;text-decoration:underline}
 .mini-info .img-credit,.art-card-info .img-credit{margin:4px 0 0}
 .mini-info .img-credit{font-size:10px}
-.wk-ana{font-size:13px;color:#444;line-height:1.8;margin-bottom:10px}
+.wk-ana{font-size:13px;color:#444;line-height:1.8;margin-bottom:10px;max-width:78ch}
 .sp-etat{font-size:13px;color:#0a5c40;margin:-4px 0 14px}
 .sp-etat:empty{display:none}
 .sp-rech,.sp-biblio{margin-top:32px;padding-top:18px;border-top:1px solid #e0d5c0}
@@ -601,6 +603,7 @@ html.diapo-ouvert,html.diapo-ouvert body{overflow:hidden}
 .diapo-cmd #diapo-pause{font-size:20px;min-width:60px}
 .diapo-cmd #diapo-voix[aria-pressed="false"]{color:#999}
 .diapo-num{min-width:5em;text-align:center;color:#ccc}
+@media(max-width:600px){.diapo-diap{padding-bottom:190px}.diapo-titre{padding-bottom:190px}.diapo-st{bottom:calc(190px + 1em)}.diapo-cmd{gap:8px;padding-top:8px}}
 .diapo-reg{display:flex;align-items:center;gap:6px;color:#ccc}
 .diapo-reg input{width:20px;height:20px;accent-color:#C9A84C}
 .diapo-quitter{margin-inline-start:8px}
@@ -1064,9 +1067,9 @@ html.diapo-ouvert,html.diapo-ouvert body{overflow:hidden}
   </div>
 </footer>
 <!-- Traductions (anglais, espagnol, arabe) et moteur de traduction -->
-<script src="i18n.js?v=20261113e"></script>
+<script src="i18n.js?v=20261113f"></script>
 <!-- Recherche en direct dans les catalogues ouverts des musées (domaine public) -->
-<script src="musees.js?v=20261113e"></script>
+<script src="musees.js?v=20261113f"></script>
 <script>
 const ART = [
   { img:"images/oeuvres/grande-vague-hokusai.jpg", credit:'Image : <a href="https://www.metmuseum.org/art/collection/search/45434" target="_blank" rel="noopener">The Metropolitan Museum of Art</a>, domaine public (Open Access)', name:"La Grande Vague de Kanagawa", meta:"Katsushika Hokusai · Japon · vers 1830-1832 · Metropolitan Museum of Art",
@@ -2024,7 +2027,7 @@ function allerParcours(id){
 // ÉCRAN D'OUVERTURE
 (function () {
   var splash = document.getElementById('splash');
-  var DUREE = 6000; // durée d'affichage du logo, en millisecondes (6 secondes)
+  var DUREE = 3000; // durée d'affichage du logo, en millisecondes (3 secondes) ; un clic, un toucher ou une touche le ferme avant
   var minuteur = null;
 
   function masquer() {
@@ -2049,7 +2052,8 @@ function allerParcours(id){
   } else {
     document.documentElement.classList.add('splash-actif');
     minuteur = setTimeout(masquer, reduit ? 1500 : DUREE);
-    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') masquer(); });
+    document.addEventListener('keydown', masquer, { once: true });
+    splash.addEventListener('click', masquer);
     splash.focus({ preventScroll: true });
   }
 })();
@@ -2060,10 +2064,10 @@ afficherValeurs(0);
 traduirePage();
 </script>
 <!-- Fenêtre Accessibilité de chaque œuvre et menu Affichage et lecture -->
-<script src="orchestre.js?v=20261113e"></script>
-<script src="accessibilite.js?v=20261113e"></script>
-<script src="diaporama.js?v=20261113e"></script>
+<script src="orchestre.js?v=20261113f"></script>
+<script src="accessibilite.js?v=20261113f"></script>
+<script src="diaporama.js?v=20261113f"></script>
 <!-- Séances de bien-être composées à la demande -->
-<script src="bienetre.js?v=20261113e"></script>
+<script src="bienetre.js?v=20261113f"></script>
 </body>
 </html>

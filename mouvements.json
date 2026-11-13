@@ -14382,5 +14382,435 @@
         }
       ]
     }
+  },
+  {
+    "mouvement": "Vikings",
+    "slug": "vikings",
+    "status": "published",
+    "title": "Les Vikings, peuples du Nord",
+    "subtitle": "Scandinavie, VIe – XIIe siècle : dix-neuf œuvres et sites de Suède, de Norvège, du Danemark, d'Allemagne, d'Italie, d'Islande, du Canada et d'Écosse, de Stockholm, Oslo, Roskilde, Visby, Édimbourg et New York",
+    "intro": "De la fin du VIIIe siècle au milieu du XIe siècle, les peuples de Scandinavie, dans les actuels Danemark, Norvège et Suède, se lancent sur les mers. On les appelle Vikings. Pillards redoutés des monastères d'Europe, ils sont aussi des paysans, des artisans, des marchands et des explorateurs : leurs bateaux remontent les fleuves jusqu'à Constantinople et Bagdad, et traversent l'Atlantique jusqu'à l'Islande, au Groenland et à l'Amérique. L'exposition commence avant eux, avec les tombes des rois d'Uppsala, et suit leur histoire à travers les bateaux, les pierres runiques, les bijoux, les trésors d'argent, les villes et les assemblées, jusqu'à leur conversion au christianisme et aux royaumes du Moyen Âge. Elle montre aussi ce que l'on ne sait pas : les Vikings ont peu écrit, et beaucoup de ce que l'on raconte sur eux a été mis par écrit plus tard, ou inventé au XIXe siècle.",
+    "contexte": [
+      {
+        "title": "Qui étaient les Vikings ?",
+        "text": "On appelle « âge des Vikings » la période qui va de la fin du VIIIe siècle au milieu du XIe siècle en Scandinavie, c'est-à-dire dans les actuels Danemark, Norvège et Suède. Le mot « viking » désignait à l'origine ceux qui partaient en expédition sur la mer ; la plupart des Scandinaves étaient en réalité des paysans, des pêcheurs, des artisans et des marchands. Ils parlaient le vieux norrois, écrivaient avec des runes et vivaient dans des sociétés de chefs et de rois, avec des assemblées d'hommes libres, les things. Leurs bateaux, rapides et légers, pouvaient naviguer en haute mer comme remonter les fleuves."
+      },
+      {
+        "title": "Pillards, marchands et explorateurs",
+        "text": "En 793, le pillage du monastère de Lindisfarne, en Angleterre, ouvre l'âge des Vikings dans les récits de l'époque. Pendant deux siècles, les Scandinaves attaquent les côtes de l'Europe, s'installent en Angleterre, en Irlande et en Normandie, qui doit son nom à ces « hommes du Nord ». Mais ils sont aussi des marchands : par les fleuves de l'actuelle Russie, ceux qu'on appelle les Varègues ou les Rus' rejoignent Constantinople et Bagdad, d'où viennent des milliers de pièces d'argent arabes trouvées en Scandinavie. Vers l'ouest, ils s'installent en Islande, au Groenland, et atteignent l'Amérique du Nord vers l'an 1000, cinq siècles avant Christophe Colomb."
+      },
+      {
+        "title": "Les dieux du Nord et la conversion",
+        "text": "Les Scandinaves honoraient plusieurs dieux : Odin, dieu de la sagesse et de la guerre, Thor, maître du tonnerre armé de son marteau, Freyr et Freyja, liés à la fertilité. Les guerriers morts au combat étaient, disait-on, conduits par les Valkyries jusqu'au Valhalla. Nous connaissons surtout ces récits par des textes écrits plus tard en Islande, au XIIIe siècle, comme l'Edda de Snorri Sturluson, déjà chrétiens. À partir du Xe siècle, les rois se convertissent au christianisme : au Danemark sous Harald à la Dent bleue, puis en Norvège, en Islande vers l'an 1000 et en Suède. Pendant un temps, les deux croyances cohabitent, et l'art viking passe des tombes païennes aux églises."
+      },
+      {
+        "title": "La fin de l'âge viking, et ce que l'on voit dans l'exposition",
+        "text": "On fait souvent finir l'âge des Vikings en 1066, quand le roi de Norvège Harald Hardrada est tué en Angleterre à Stamford Bridge. Les royaumes scandinaves deviennent alors des monarchies chrétiennes semblables aux autres royaumes d'Europe. Les Vikings n'ont jamais porté de casques à cornes : cette image vient des peintres et des opéras du XIXe siècle. L'exposition montre des tombes royales, des bateaux, des pierres runiques, des bijoux, des trésors et des sites de Scandinavie, mais aussi d'Allemagne, d'Italie, d'Islande, du Canada et d'Écosse. Les objets viennent du musée d'histoire de Suède, des musées d'Oslo, de Roskilde et d'Édimbourg, et du Metropolitan Museum ; les photographies des sites sont celles de visiteurs, publiées sous licence libre."
+      }
+    ],
+    "bibliography": [
+      {
+        "reference": "UNESCO, Patrimoine mondial : tumulus, pierres runiques et église de Jelling",
+        "url": "https://whc.unesco.org/fr/list/697"
+      },
+      {
+        "reference": "UNESCO, Patrimoine mondial : les sites des fortifications circulaires vikings (Trelleborg)",
+        "url": "https://whc.unesco.org/fr/list/1660"
+      },
+      {
+        "reference": "UNESCO, Patrimoine mondial : ensemble archéologique frontalier de Hedeby et du Danevirke",
+        "url": "https://whc.unesco.org/fr/list/1553"
+      },
+      {
+        "reference": "UNESCO, Patrimoine mondial : site historique national de L'Anse aux Meadows",
+        "url": "https://whc.unesco.org/fr/list/4"
+      },
+      {
+        "reference": "UNESCO, Patrimoine mondial : parc national de Þingvellir",
+        "url": "https://whc.unesco.org/fr/list/1152"
+      },
+      {
+        "reference": "UNESCO, Patrimoine mondial : l'église en bois debout d'Urnes",
+        "url": "https://whc.unesco.org/fr/list/58"
+      },
+      {
+        "reference": "Régis Boyer, Les Vikings, Perrin, 2008"
+      },
+      {
+        "reference": "Snorri Sturluson, l'Edda, vers 1220"
+      },
+      {
+        "reference": "Notices du musée d'histoire de Suède, du musée de l'âge viking (Oslo), du musée des bateaux vikings de Roskilde, des musées nationaux d'Écosse et du Metropolitan Museum"
+      }
+    ],
+    "works": [
+      {
+        "title": "Les tumulus royaux de Gamla Uppsala",
+        "artist": "Peuple des Svear",
+        "country": "Suède",
+        "period": "Ve – VIe siècle",
+        "museum": "Site archéologique, Gamla Uppsala (Suède)",
+        "credit": "Gamla Uppsala (Suède), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Royal_Mounds_of_Gamla_Uppsala_%28by_Pudelek%29.JPG), photo Pudelek, licence CC BY-SA 4.0",
+        "analysis": "Sous un ciel bleu, de grandes collines arrondies couvertes d'herbe se dressent au milieu d'une prairie ; un sentier y mène, et un arbre encadre la vue à gauche. Ces trois grands tumulus, élevés aux Ve et VIe siècles, avant l'âge viking proprement dit, contenaient des tombes à incinération de personnages puissants ; la tradition les attribue à des rois légendaires. Gamla Uppsala resta pendant des siècles le centre religieux et politique des Svear, le peuple qui a donné son nom à la Suède. Vers 1070, le chroniqueur allemand Adam de Brême y décrit un grand temple païen consacré à Thor, Odin et Freyr ; les archéologues discutent encore de son existence.",
+        "compare": "Le point de départ de l'exposition : les rois scandinaves étaient déjà puissants avant les grandes expéditions.",
+        "image": "images/mouvements/vikings/tumulus-de-gamla-uppsala.jpg",
+        "lieu": "Gamla Uppsala",
+        "lieuType": "site"
+      },
+      {
+        "title": "La pierre historiée de Tängelgårda",
+        "artist": "Sculpteur du Gotland",
+        "country": "Suède",
+        "period": "VIIIe siècle",
+        "museum": "Musée d'histoire de Suède, Stockholm",
+        "credit": "Musée d'histoire de Suède, Stockholm, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Bildsten_-_Historiska_museet_-_DIG_53923.jpg), photo Helena Bonnevier, licence CC BY 4.0",
+        "analysis": "Une grande dalle de calcaire au sommet arrondi porte deux rangées de personnages en longs vêtements, encadrées par une bordure d'entrelacs. Les creux sont peints en noir, ce qui fait ressortir les figures claires. Sur l'île de Gotland, dans la mer Baltique, on dressait des pierres sculptées de scènes : bateaux, cavaliers, guerriers, animaux. Celle-ci, trouvée à Tängelgårda, montre des hommes armés et des scènes que l'on interprète souvent comme l'arrivée d'un guerrier mort au Valhalla, le séjour des héros d'Odin, mais le sens exact reste discuté. La peinture est moderne, posée pour rendre l'image lisible ; ces pierres étaient à l'origine peintes de couleurs vives.",
+        "compare": "Avant les livres, les images de pierre racontaient les croyances des Scandinaves ; comparez avec la pierre runique de Rök, juste après, qui les raconte avec des mots.",
+        "image": "images/mouvements/vikings/pierre-de-tangelgarda.jpg",
+        "lieu": "Gotland",
+        "lieuType": "découverte"
+      },
+      {
+        "title": "La pierre runique de Rök",
+        "artist": "Varin, auteur du texte",
+        "country": "Suède",
+        "period": "début du IXe siècle",
+        "museum": "Église de Rök, Östergötland (Suède)",
+        "credit": "Rök (Suède), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:R%C3%B6k_runestone_%28R%C3%B6k%2C_%C3%96desh%C3%B6g_Municipality%2C_%C3%96sterg%C3%B6tland%2C_Sweden%29.jpg), photo L'imaginaire, domaine public (CC0)",
+        "analysis": "Sous un petit abri de bois au toit de tuiles, une haute pierre grise, plus grande qu'un homme, se dresse dans l'herbe. Sa face est couverte de lignes serrées de signes gravés. Les runes sont l'alphabet des peuples germaniques du Nord, fait de traits droits faciles à graver. Avec environ sept cent cinquante signes, la pierre de Rök porte la plus longue inscription runique connue. Un père, Varin, l'a fait dresser en mémoire de son fils mort ; le texte, plein d'énigmes, évoque des héros, des batailles et peut-être la peur de la fin du monde. Les spécialistes en discutent encore le sens.",
+        "compare": "Le début de l'âge viking écrit par un Scandinave : un message pour les vivants, gravé dans la pierre pour durer.",
+        "image": "images/mouvements/vikings/pierre-runique-de-rok.jpg",
+        "lieu": "Rök",
+        "lieuType": "site"
+      },
+      {
+        "title": "Le bateau d'Oseberg",
+        "artist": "Charpentiers de marine norvégiens",
+        "country": "Norvège",
+        "period": "vers 820 (inhumé en 834)",
+        "museum": "Musée de l'âge viking (Vikingskipshuset), Oslo",
+        "credit": "Musée de l'âge viking, Oslo, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Viking_Ship_Museum_-_Oseberg_ship_-_1.jpg), photo Vassia Atanassova, licence CC BY-SA 3.0",
+        "analysis": "Dans une grande salle blanche, un long bateau de bois sombre aux bords bas s'élève vers une proue très haute, terminée par une spirale, comme le cou d'un serpent enroulé. Ce bateau de 21,5 mètres, aux décors finement sculptés, a servi de tombe à deux femmes de haut rang, enterrées en 834 près de Tønsberg, en Norvège, avec des chariots, des traîneaux, des lits, des tissus, des animaux et de la vaisselle. L'argile du tertre l'a conservé jusqu'à sa fouille, en 1904. Qui étaient ces femmes ? Peut-être une reine et sa compagne, mais leurs noms sont inconnus. Le bateau est conservé au musée de l'âge viking d'Oslo, en cours de reconstruction.",
+        "compare": "Un bateau pour le dernier voyage : chez les Vikings, le navire était aussi un symbole de pouvoir.",
+        "image": "images/mouvements/vikings/bateau-d-oseberg.jpg",
+        "lieu": "Oseberg et Gokstad",
+        "lieuType": "découverte"
+      },
+      {
+        "title": "Poteau à tête d'animal d'Oseberg",
+        "artist": "Sculpteur norvégien",
+        "country": "Norvège",
+        "period": "vers 834",
+        "museum": "Musée de l'âge viking (Vikingskipshuset), Oslo",
+        "credit": "Musée de l'âge viking, Oslo, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Oslo_Norway%2C_Viking_Ship_Museum-_Animal_Head_Post%2C_detail_of_head_9C.jpg), photo William Allen, licence CC BY-SA 2.0",
+        "analysis": "Dans une vitrine, une tête d'animal fantastique en bois, gueule ouverte et dents visibles, est entièrement couverte d'un réseau d'entrelacs ajourés, où se mêlent de petites créatures. Cinq poteaux de ce genre ont été trouvés dans la tombe d'Oseberg. On ignore à quoi ils servaient : peut-être à des rites, peut-être à effrayer les esprits. Chacun a été sculpté par un artiste différent. On y voit l'art viking à son sommet : des animaux étirés et entremêlés, qui ne laissent aucun vide.",
+        "compare": "Comparez avec le portail de l'église d'Urnes, à la fin de l'exposition : plus de deux siècles plus tard, les mêmes animaux entrelacés décorent une église chrétienne.",
+        "image": "images/mouvements/vikings/poteau-a-tete-animale-oseberg.jpg",
+        "lieu": "Oseberg et Gokstad",
+        "lieuType": "découverte"
+      },
+      {
+        "title": "Le bateau de Gokstad",
+        "artist": "Charpentiers de marine norvégiens",
+        "country": "Norvège",
+        "period": "vers 890",
+        "museum": "Musée de l'âge viking (Vikingskipshuset), Oslo",
+        "credit": "Musée de l'âge viking, Oslo, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Gokstad_Ship_June_2012.jpg), photo Colgill, licence CC BY-SA 4.0",
+        "analysis": "Vu de face, dans une haute salle voûtée et blanche, un grand bateau de bois aux lignes fines dresse son étrave pointue. Des visiteurs, minuscules à côté, le regardent ; son mât se dresse vers le plafond. Long de près de 24 mètres, avec seize paires de rames et une voile, ce bateau pouvait affronter la haute mer. Il a servi de tombe à un homme important, enterré vers 900 près de Sandefjord, en Norvège, et a été fouillé en 1880. En 1893, une copie exacte, le Viking, traversa l'Atlantique jusqu'à Chicago : la preuve que ces bateaux pouvaient atteindre l'Amérique.",
+        "compare": "Comparez avec le bateau d'Oseberg, juste avant : plus haut et plus robuste, celui-ci était fait pour la haute mer.",
+        "image": "images/mouvements/vikings/bateau-de-gokstad.jpg",
+        "lieu": "Oseberg et Gokstad",
+        "lieuType": "découverte"
+      },
+      {
+        "title": "Épée viking",
+        "artist": "Forgeron et orfèvre scandinaves",
+        "country": "Scandinavie",
+        "period": "Xe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/24832), domaine public (CC0)",
+        "analysis": "Une longue épée droite à double tranchant, d'environ 96 cm, à la lame grise et piquée par le temps. La garde courte et le pommeau arrondi sont décorés de métal clair. Selon la notice du musée, la poignée est décorée d'argent, de cuivre et de nielle, une pâte noire incrustée dans le métal. Une épée comme celle-ci coûtait très cher : c'était l'arme des chefs et des guerriers riches, qu'on transmettait d'une génération à l'autre et qu'on déposait parfois dans les tombes. Beaucoup de lames étaient fabriquées dans l'empire franc et décorées ensuite en Scandinavie.",
+        "compare": "L'arme du guerrier, mais aussi un objet de prestige, comme les bateaux de tombe, plus haut.",
+        "image": "images/mouvements/vikings/epee-viking.jpg"
+      },
+      {
+        "title": "Skuldelev 3, un petit bateau de commerce",
+        "artist": "Charpentiers de marine danois",
+        "country": "Danemark",
+        "period": "vers 1040",
+        "museum": "Musée des bateaux vikings, Roskilde",
+        "credit": "Musée des bateaux vikings, Roskilde, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Skuldelev_Viking_ship_at_Vikingeskibsmuseet_Roskilde%2C_Denmark.jpg), photo Bradley Rentz, licence CC BY-SA 4.0",
+        "analysis": "Les restes d'une coque de bateau en bois clair, aux planches qui se chevauchent, sont posés sur un support métallique qui redonne sa forme au navire. On voit à l'intérieur les membrures et les bancs. Vers 1070, les habitants de Roskilde, au Danemark, coulèrent cinq bateaux dans le fjord pour barrer le passage aux attaquants. Retrouvés en 1962, ils montrent la variété de la flotte viking : bateaux de guerre, navires de haute mer et petits caboteurs. Celui-ci, long d'environ 14 mètres, transportait des marchandises le long des côtes avec un petit équipage. Le musée en a construit des copies qui naviguent.",
+        "compare": "Après les bateaux des rois, un bateau de marchands : le commerce comptait autant que la guerre.",
+        "image": "images/mouvements/vikings/bateau-de-skuldelev.jpg",
+        "lieu": "Roskilde",
+        "lieuType": "découverte"
+      },
+      {
+        "title": "Hedeby, ville marchande des Vikings",
+        "artist": "Habitants de Hedeby",
+        "country": "Allemagne",
+        "period": "VIIIe – XIe siècle",
+        "museum": "Site archéologique, Busdorf (Allemagne)",
+        "credit": "Hedeby, Busdorf (Allemagne), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Busdorf_-_Haithabu_%28Halbkreiswall%29_01_ies.jpg), photo Frank Vincentz, licence CC BY-SA 3.0",
+        "analysis": "Depuis le haut d'un rempart couvert d'herbe, la vue s'étend sur une grande prairie plate, bordée d'arbres et de haies, sous un ciel légèrement nuageux. Sous cette prairie, au fond d'un bras de mer, se trouvait Hedeby, l'une des plus grandes villes de Scandinavie, protégée par un rempart en demi-cercle. Placée à la frontière du royaume danois et de l'empire franc, aujourd'hui dans le nord de l'Allemagne, elle reliait la mer du Nord et la Baltique. On y fabriquait et on y vendait des bijoux, du verre, des tissus et des esclaves, et on y a frappé des monnaies. Pillée en 1050 puis détruite en 1066, elle fut abandonnée. Le site est inscrit au patrimoine mondial de l'UNESCO depuis 2018.",
+        "compare": "Les Vikings ne faisaient pas que piller : ils fondaient aussi des villes de commerce, où l'on vendait, hélas, aussi des êtres humains.",
+        "image": "images/mouvements/vikings/hedeby.jpg",
+        "lieu": "Hedeby",
+        "lieuType": "site"
+      },
+      {
+        "title": "Argent coupé du trésor de Spillings",
+        "artist": "Propriétaires inconnus",
+        "country": "Suède",
+        "period": "enfoui vers 870",
+        "museum": "Gotlands Museum, Visby (Suède)",
+        "credit": "Gotlands Museum, Visby, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Hacksilver_Spillings_Hoard_1.jpg), photo W. Carter, licence CC BY-SA 4.0",
+        "analysis": "Dans une vitrine, des bracelets, des anneaux tordus et des morceaux d'argent coupés, ternis par le temps, sont posés en désordre sur un fond gris-bleu. En 1999, dans une ferme de l'île de Gotland, des archéologues ont trouvé le plus grand trésor d'argent de l'âge viking : environ 67 kilos, dont plus de 14 000 pièces, presque toutes venues du monde islamique, entre l'Afrique du Nord et l'Asie centrale. Les Vikings ne comptaient pas l'argent en pièces mais au poids : ils coupaient bijoux et lingots en morceaux, l'« argent coupé », pour payer.",
+        "compare": "De l'argent du califat de Bagdad au milieu de la Baltique : les routes vikings reliaient la Scandinavie au monde arabe.",
+        "image": "images/mouvements/vikings/tresor-de-spillings.jpg",
+        "lieu": "Gotland",
+        "lieuType": "découverte"
+      },
+      {
+        "title": "Le lion du Pirée et ses runes",
+        "artist": "Sculpteur grec ; runes gravées par des Scandinaves",
+        "country": "Italie",
+        "period": "IVe siècle av. J.-C. ; runes du XIe siècle",
+        "museum": "Arsenal de Venise (Italie)",
+        "credit": "Arsenal de Venise, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Piraeus_Lion_%28Leone_del_Pireo%29%2C_Arsenale_di_Venezia_%2837726221046%29.jpg), photo Dimitris Kamaras, licence CC BY 2.0",
+        "analysis": "Devant un portail de briques et de pierre blanche, un grand lion de marbre est assis sur un socle, la tête dressée, les pattes avant tendues. Ce lion grec gardait le port du Pirée, près d'Athènes. Au XIe siècle, des Scandinaves au service de l'empereur byzantin, la garde varangienne, gravèrent sur ses épaules de longues inscriptions runiques, aujourd'hui presque effacées. En 1687, le Vénitien Francesco Morosini l'emporta à Venise comme butin de guerre. Il témoigne du chemin parcouru par les Scandinaves, des fjords jusqu'à la Méditerranée.",
+        "compare": "Comparez avec l'exposition sur la Grèce antique : un lion grec devenu un livre d'or des voyageurs vikings.",
+        "image": "images/mouvements/vikings/lion-du-piree.jpg"
+      },
+      {
+        "title": "Pendentif en forme de marteau de Thor",
+        "artist": "Artisan scandinave",
+        "country": "Suède",
+        "period": "âge viking",
+        "museum": "Musée d'histoire de Suède, Stockholm",
+        "credit": "Musée d'histoire de Suède, Stockholm, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Torshammare_h%C3%A4nge_-_Historiska_museet_-_DIG_55081.jpg), photo Ola Myrin, licence CC BY 4.0",
+        "analysis": "Sur un fond blanc, un petit pendentif de métal sombre, haut de quelques centimètres : un manche droit terminé en haut par une boucle de suspension et en bas par une tête de marteau aux bords évasés. Le marteau de Thor, Mjöllnir, protégeait les dieux et les hommes contre les géants. Les Scandinaves portaient de petites copies en amulettes, surtout au Xe siècle, au moment où le christianisme progressait : certains y voient une réponse païenne à la croix des chrétiens. Des moules d'artisans permettaient d'ailleurs de fondre, dans le même atelier, des marteaux et des croix.",
+        "compare": "Comparez avec la pierre de Jelling, plus loin, où le Christ remplace les anciens dieux.",
+        "image": "images/mouvements/vikings/pendentif-marteau-de-thor.jpg"
+      },
+      {
+        "title": "Pendentif en forme de femme, dite « valkyrie »",
+        "artist": "Artisan scandinave",
+        "country": "Suède",
+        "period": "âge viking",
+        "museum": "Musée d'histoire de Suède, Stockholm",
+        "credit": "Musée d'histoire de Suède, Stockholm, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Valkyriah%C3%A4nge_-_Historiska_museet_-_DIG_55546.jpg), photo Ola Myrin, licence CC BY 4.0",
+        "analysis": "Sur un fond blanc, une minuscule figurine de métal de quelques centimètres : une femme vue de profil, en longue robe décorée, les cheveux noués en chignon, qui tient un objet devant elle. Ces petites figures de femmes, que l'on portait en pendentif, sont souvent appelées « valkyries », du nom des messagères d'Odin qui choisissaient les guerriers morts pour le Valhalla et les y accueillaient avec une corne à boire. Mais on ne sait pas vraiment qui elles représentent : des valkyries, des déesses comme Freyja, ou l'image idéale d'une femme de haut rang. Elles montrent en tout cas la coiffure et les vêtements des femmes de l'époque.",
+        "compare": "Comparez avec les deux femmes enterrées dans le bateau d'Oseberg, plus haut : les femmes avaient leur place dans les croyances comme dans la société.",
+        "image": "images/mouvements/vikings/pendentif-valkyrie.jpg"
+      },
+      {
+        "title": "La forteresse circulaire de Trelleborg",
+        "artist": "Bâtisseurs du roi Harald à la Dent bleue",
+        "country": "Danemark",
+        "period": "vers 980",
+        "museum": "Site archéologique, Slagelse (Danemark)",
+        "credit": "Trelleborg, Slagelse (Danemark), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Trelleborg_airphoto.JPG), photo Thue C. Leibrandt, licence CC BY-SA 3.0",
+        "analysis": "Vue d'avion, dans la lumière dorée du soir, un grand anneau de terre parfaitement circulaire se détache dans les champs, entre deux cours d'eau ; à l'intérieur, l'herbe garde la trace de bâtiments disposés en carré. Vers 980, le roi danois Harald à la Dent bleue fit construire plusieurs forteresses rondes identiques, avec quatre portes orientées vers les points cardinaux et de grandes maisons rangées en carrés. Leur plan régulier montre la puissance d'un roi capable d'organiser de grands chantiers dans tout son royaume. Elles n'ont été utilisées que peu de temps. Ces forteresses sont inscrites au patrimoine mondial de l'UNESCO depuis 2023.",
+        "compare": "Le même roi fit graver la pierre de Jelling, juste après : la naissance du royaume de Danemark.",
+        "image": "images/mouvements/vikings/trelleborg.jpg",
+        "lieu": "Trelleborg",
+        "lieuType": "site"
+      },
+      {
+        "title": "La grande pierre de Jelling",
+        "artist": "Sculpteur du roi Harald à la Dent bleue",
+        "country": "Danemark",
+        "period": "vers 965",
+        "museum": "Site de Jelling (Danemark)",
+        "credit": "Jelling (Danemark), photo pour le Musée national du Danemark, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Jellingsten_stor_1.jpg), photo Roberto Fortuna, licence CC BY-SA 3.0",
+        "analysis": "Sur un fond noir, un gros bloc de granit irrégulier est couvert de sculptures en relief : au centre, un personnage aux bras écartés est pris dans des entrelacs de rubans et de feuillages. Le roi Harald à la Dent bleue fit dresser cette pierre en mémoire de ses parents, Gorm et Thyre. L'inscription runique dit qu'il « a gagné tout le Danemark et la Norvège et rendu les Danois chrétiens ». Sur l'une des faces, le personnage aux bras écartés est le Christ, la plus ancienne image du Christ au Danemark. On l'appelle souvent « l'acte de baptême du Danemark ». La pierre se trouve toujours à Jelling, entre deux grands tumulus, protégée aujourd'hui par une vitrine ; le site est inscrit au patrimoine mondial de l'UNESCO depuis 1994.",
+        "compare": "Les entrelacs de l'art viking, comme sur le poteau d'Oseberg, entourent désormais le Christ.",
+        "image": "images/mouvements/vikings/pierre-de-jelling.jpg",
+        "lieu": "Jelling",
+        "lieuType": "site"
+      },
+      {
+        "title": "Þingvellir, la plaine de l'Althing",
+        "artist": "Colons scandinaves d'Islande",
+        "country": "Islande",
+        "period": "depuis 930",
+        "museum": "Parc national de Þingvellir (Islande)",
+        "credit": "Þingvellir (Islande), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Roca_de_la_Ley%2C_Parque_Nacional_de_%C3%9Eingvellir%2C_Su%C3%B0urland%2C_Islandia%2C_2014-08-16%2C_DD_022.JPG), photo Diego Delso, licence CC BY-SA 4.0",
+        "analysis": "Une longue faille rocheuse, couverte de mousse, traverse une plaine de lave ; au loin s'étendent un lac et des montagnes sous un ciel nuageux. Les Scandinaves s'installèrent en Islande à partir de la fin du IXe siècle. En 930, ils créèrent une assemblée commune, l'Althing, qui se réunissait chaque été dans cette plaine, au pied du « rocher de la Loi », où un homme récitait les lois de mémoire. Il n'y avait pas de roi : les chefs réglaient ensemble les conflits. C'est là que, vers l'an 1000, l'assemblée décida que l'Islande deviendrait chrétienne. Le site est inscrit au patrimoine mondial de l'UNESCO depuis 2004.",
+        "compare": "Une société sans roi, qui écrira plus tard les sagas : c'est en Islande que l'on a mis par écrit l'histoire et les mythes des Vikings.",
+        "image": "images/mouvements/vikings/thingvellir.jpg"
+      },
+      {
+        "title": "L'Anse aux Meadows, les Vikings en Amérique",
+        "artist": "Navigateurs scandinaves ; reconstitution moderne",
+        "country": "Canada",
+        "period": "vers 1000–1021",
+        "museum": "Site historique national de L'Anse aux Meadows, Terre-Neuve (Canada)",
+        "credit": "L'Anse aux Meadows (Canada), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:L%27Anse_aux_Meadows%2C_entrance_to_long_house.jpg), photo D. Gordon E. Robertson, licence CC BY-SA 3.0",
+        "analysis": "Une maison basse aux murs de mottes de gazon empilées, couverte d'herbe, s'ouvre par une petite porte de bois sous un auvent en planches. Les sagas islandaises racontent que Leif Erikson, parti du Groenland, atteignit vers l'an 1000 une terre qu'il appela Vinland. En 1960, Helge et Anne Stine Ingstad découvrirent à Terre-Neuve les restes d'un campement scandinave ; l'analyse du bois coupé a montré que les Scandinaves s'y trouvaient en 1021. C'est la seule installation viking connue en Amérique, utilisée peu de temps. Ces maisons sont des reconstitutions modernes, bâties près des vestiges. Le site est inscrit au patrimoine mondial de l'UNESCO depuis 1978.",
+        "compare": "Le bateau de Gokstad, plus haut, montre comment ces marins ont pu traverser l'Atlantique nord, d'île en île.",
+        "image": "images/mouvements/vikings/l-anse-aux-meadows.jpg"
+      },
+      {
+        "title": "Les sculptures de l'église en bois debout d'Urnes",
+        "artist": "Sculpteur norvégien",
+        "country": "Norvège",
+        "period": "vers 1070 (église vers 1130)",
+        "museum": "Église d'Urnes, Luster (Norvège)",
+        "credit": "Urnes (Norvège), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Carvings_in_north_wall_portal%2C_Urnes_Stave_Church-3.jpg), photo Bjørn Erik Pedersen, licence CC BY-SA 4.0",
+        "analysis": "Sur des planches de bois gris, de longs animaux minces aux corps en rubans s'enroulent et se mordent en grandes boucles souples, avec quelques feuillages. L'église en bois debout d'Urnes, dans un fjord de l'ouest de la Norvège, a été construite vers 1130 ; elle réemploie les planches sculptées d'une église plus ancienne, vers 1070. Leur décor a donné son nom au dernier style de l'art viking, le « style d'Urnes ». Les animaux qui se battent sont peut-être une image de la lutte entre le bien et le mal. L'église est inscrite au patrimoine mondial de l'UNESCO depuis 1979.",
+        "compare": "Comparez avec le poteau d'Oseberg, plus haut : l'art des tombes païennes est passé dans les églises chrétiennes.",
+        "image": "images/mouvements/vikings/portail-d-urnes.jpg",
+        "lieu": "Urnes",
+        "lieuType": "site"
+      },
+      {
+        "title": "Le roi et la reine des pièces d'échecs de Lewis",
+        "artist": "Sculpteurs scandinaves, probablement de Trondheim",
+        "country": "Norvège",
+        "period": "vers 1150–1200",
+        "museum": "Musée national d'Écosse, Édimbourg",
+        "credit": "Musée national d'Écosse, Édimbourg, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:NMSLewisChessmen28.jpg), photo National Museums Scotland, licence CC BY-SA 4.0",
+        "analysis": "Sur un fond noir, deux petites figurines d'ivoire couleur crème, assises sur des trônes : un roi barbu, couronné, une épée posée sur les genoux, et une reine couronnée qui appuie sa joue sur sa main, l'air songeur. Ces pièces d'échecs, sculptées surtout dans de l'ivoire de morse, ont été trouvées en 1831 sur l'île de Lewis, en Écosse, qui appartenait alors au royaume de Norvège. Elles ont sans doute été faites en Norvège, peut-être à Trondheim. Le jeu d'échecs, venu d'Inde par la Perse et le monde arabe, était devenu à la mode dans les cours d'Europe. Sur les 93 objets trouvés, 11 sont à Édimbourg et les autres au British Museum. Les expressions des visages, tantôt sévères, tantôt inquiètes, les ont rendues célèbres.",
+        "compare": "Le point d'arrivée de l'exposition : après l'âge viking, les royaumes du Nord sont des monarchies chrétiennes, avec leurs rois, leurs reines et leurs évêques, même aux échecs.",
+        "image": "images/mouvements/vikings/pieces-d-echecs-de-lewis.jpg"
+      }
+    ],
+    "carte": {
+      "image": "images/mouvements/cartes/vikings.svg",
+      "ouest": 5.5,
+      "est": 20,
+      "sud": 54,
+      "nord": 62.3,
+      "lieux": [
+        {
+          "nom": "Gamla Uppsala",
+          "lat": 59.8977,
+          "lon": 17.6339
+        },
+        {
+          "nom": "Gotland",
+          "lat": 57.75,
+          "lon": 18.7
+        },
+        {
+          "nom": "Rök",
+          "lat": 58.2953,
+          "lon": 14.7764
+        },
+        {
+          "nom": "Oseberg et Gokstad",
+          "lat": 59.23,
+          "lon": 10.34
+        },
+        {
+          "nom": "Roskilde",
+          "lat": 55.6505,
+          "lon": 12.0806
+        },
+        {
+          "nom": "Hedeby",
+          "lat": 54.4906,
+          "lon": 9.5656
+        },
+        {
+          "nom": "Trelleborg",
+          "lat": 55.3944,
+          "lon": 11.2653
+        },
+        {
+          "nom": "Jelling",
+          "lat": 55.7564,
+          "lon": 9.4197
+        },
+        {
+          "nom": "Urnes",
+          "lat": 61.2981,
+          "lon": 7.3228
+        }
+      ],
+      "note": "Þingvellir (Islande), L'Anse aux Meadows (Canada), le lion du Pirée (Venise) et les pièces d'échecs de l'île de Lewis (Écosse) sont hors du cadre de la carte, comme les routes vers Constantinople et Bagdad.",
+      "pays": [
+        {
+          "nom": "Allemagne",
+          "lat": 54.459,
+          "lon": 9.545
+        },
+        {
+          "nom": "Danemark",
+          "lat": 55.967,
+          "lon": 9.018
+        },
+        {
+          "nom": "Norvège",
+          "lat": 61.357,
+          "lon": 9.68
+        },
+        {
+          "nom": "Suède",
+          "lat": 58.819,
+          "lon": 14.307
+        },
+        {
+          "nom": "Pologne",
+          "lat": 54.408,
+          "lon": 17.538
+        }
+      ],
+      "villes": [
+        {
+          "nom": "Stockholm",
+          "lat": 59.324,
+          "lon": 18.066
+        },
+        {
+          "nom": "Copenhague",
+          "lat": 55.681,
+          "lon": 12.562
+        },
+        {
+          "nom": "Oslo",
+          "lat": 59.919,
+          "lon": 10.748
+        },
+        {
+          "nom": "Kristiansand",
+          "lat": 58.146,
+          "lon": 7.975
+        },
+        {
+          "nom": "Göteborg",
+          "lat": 57.709,
+          "lon": 11.979
+        },
+        {
+          "nom": "Uppsala",
+          "lat": 59.86,
+          "lon": 17.64
+        },
+        {
+          "nom": "Linköping",
+          "lat": 58.41,
+          "lon": 15.63
+        },
+        {
+          "nom": "Jönköping",
+          "lat": 57.771,
+          "lon": 14.165
+        },
+        {
+          "nom": "Skien",
+          "lat": 59.2,
+          "lon": 9.6
+        },
+        {
+          "nom": "Odense",
+          "lat": 55.4,
+          "lon": 10.383
+        }
+      ]
+    }
   }
 ]

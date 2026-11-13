@@ -5298,7 +5298,7 @@
         "country": "France",
         "period": "1818–1819",
         "museum": "Musée du Louvre, Paris",
-        "credit": "Musée du Louvre, Paris, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-_La_Balsa_de_la_Medusa_(Museo_del_Louvre,_1818-19).jpg), domaine public",
+        "credit": "Musée du Louvre, Paris, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-_La_Balsa_de_la_Medusa_%28Museo_del_Louvre,_1818-19%29.jpg), domaine public",
         "analysis": "Sur un radeau de planches battu par les vagues, sous un ciel d'orage, des naufragés s'entassent. Au premier plan gisent des corps sans vie, à demi nus ; un vieil homme, assis, tient un mort sur ses genoux. Derrière, les survivants se relèvent et se tendent les uns au-dessus des autres vers la droite ; tout en haut, un homme noir, porté par ses compagnons, agite un tissu vers l'horizon, où l'on devine un minuscule navire. Une voile gonflée tire le radeau dans l'autre sens.",
         "compare": "La composition monte en pyramide, du désespoir à l'espoir. Géricault peint un fait divers de son temps, le naufrage d'une frégate française, avec le format immense réservé jusque-là aux héros de l'histoire.",
         "sensible": true,
@@ -6402,7 +6402,7 @@
         "country": "Pays-Bas",
         "period": "22 juin 1917",
         "museum": "Rijksmuseum, Amsterdam",
-        "credit": "Rijksmuseum, Amsterdam (https://www.rijksmuseum.nl/nl/collectie/RP-T-1982-82(R)), domaine public (CC0)",
+        "credit": "Rijksmuseum, Amsterdam (https://www.rijksmuseum.nl/nl/collectie/RP-T-1982-82%28R%29), domaine public (CC0)",
         "analysis": "Selon le musée, un projet de décor pour une faïence, au crayon et au pinceau en couleurs, de 22 × 13 cm, daté en haut à droite « 22 juni 17 ». Deux tulipes, l'une mauve et bleue, l'autre orange et rose, et une grande feuille courbe sont dessinées librement ; des annotations à la main indiquent les couleurs à employer.",
         "compare": "On voit ici le travail du dessinateur avant l'objet : la fleur réelle, observée, est déjà simplifiée en formes et en couleurs pour la céramique.",
         "image": "images/mouvements/art-nouveau/colenbrander-tulipes.jpg"
@@ -15971,6 +15971,1021 @@
           "nom": "Kota",
           "lat": 25.182,
           "lon": 75.833
+        }
+      ]
+    }
+  },
+  {
+    "mouvement": "Inde ancienne",
+    "slug": "inde-ancienne",
+    "status": "published",
+    "title": "L'Inde ancienne, d'Ashoka aux grands temples",
+    "subtitle": "Inde et Pakistan, IIIe siècle av. J.-C. – XIIIe siècle : vingt œuvres et sites, de Sarnath, Patna, Sanchi, Ajanta, Ellora, Thanjavur et New York",
+    "intro": "Pendant quinze siècles, de l'empereur Ashoka aux rois Chola, le sous-continent indien voit se succéder de grands empires et de grands royaumes : les Maurya, les Kouchans, les Gupta, les Pallava, les Chola. Trois religions y naissent ou s'y épanouissent, le bouddhisme, le jaïnisme et l'hindouisme ; ses savants inventent le zéro et la numération décimale ; ses marchands commercent avec Rome, la Chine et l'Asie du Sud-Est, où ils portent leurs dieux, leur écriture et leur art. L'exposition suit cette histoire à travers des piliers et des inscriptions, des stupas, des grottes peintes, des statues du Bouddha et de Shiva, et des temples taillés dans la roche ou élevés vers le ciel.",
+    "contexte": [
+      {
+        "title": "Pourquoi parle-t-on d'une civilisation ?",
+        "text": "Après la civilisation de l'Indus, de nouvelles villes naissent dans la plaine du Gange à partir du VIe siècle av. J.-C. Des royaumes puis des empires s'y forment : les Maurya (vers 321–185 av. J.-C.), qui réunissent presque tout le sous-continent, puis les Kouchans au nord, les Gupta (vers 320–550), et de grands royaumes au sud, comme les Pallava et les Chola. On y trouve tous les critères des historiens : des capitales comme Pataliputra, une administration, une écriture, la brahmi, ancêtre de presque toutes les écritures de l'Inde, des monuments, des artisans réputés et un commerce qui va de Rome à la Chine."
+      },
+      {
+        "title": "Trois religions nées en Inde",
+        "text": "Vers le Ve siècle av. J.-C., deux maîtres enseignent dans la plaine du Gange : Siddhartha Gautama, le Bouddha, et Mahavira, fondateur du jaïnisme. Tous deux proposent une voie pour se libérer de la souffrance et du cycle des renaissances. L'hindouisme, héritier des textes anciens appelés Veda, honore de nombreux dieux, dont Vishnu, Shiva et la Déesse. L'empereur Ashoka favorise le bouddhisme, qui se répand ensuite dans toute l'Asie ; en Inde même, l'hindouisme reste la religion la plus suivie. Les trois religions ont cohabité et partagé les mêmes artistes."
+      },
+      {
+        "title": "Savoirs et échanges",
+        "text": "L'Inde ancienne a beaucoup donné au monde. Ses mathématiciens ont mis au point la numération décimale avec le zéro, d'où viennent nos chiffres, transmis par les savants arabes ; Aryabhata, vers 500, calcule la valeur de pi et explique les éclipses. Le grammairien Panini décrit la langue sanskrite avec une précision inégalée. Les épopées du Mahabharata et du Ramayana sont racontées jusqu'en Asie du Sud-Est. Le monastère de Nalanda attire des étudiants de Chine, de Corée et du Tibet. Par la mer et par les routes de la soie, l'Inde exporte du coton, du poivre, des pierres précieuses, et ses religions."
+      },
+      {
+        "title": "Ce que l'on voit dans l'exposition",
+        "text": "L'exposition va de l'empereur Ashoka, au IIIe siècle av. J.-C., aux grands temples du XIIIe siècle, quand des sultans musulmans prennent le pouvoir dans le nord de l'Inde et qu'une autre période commence. Elle montre des piliers et des inscriptions, des stupas, des grottes peintes et sculptées, des statues du Bouddha et des dieux hindous, des temples taillés dans le roc ou bâtis en pierre. Beaucoup de ces monuments sont restés en place : les photographies sont celles de visiteurs, publiées sous licence libre. Les autres œuvres viennent du musée de Sarnath, du Bihar Museum de Patna et du Metropolitan Museum. Certaines sculptures montrent des corps peu vêtus, comme le voulait l'art indien ; elles sont signalées."
+      }
+    ],
+    "bibliography": [
+      {
+        "reference": "UNESCO, Patrimoine mondial : monuments bouddhiques de Sanchi",
+        "url": "https://whc.unesco.org/fr/list/524"
+      },
+      {
+        "reference": "UNESCO, Patrimoine mondial : grottes d'Ajanta",
+        "url": "https://whc.unesco.org/fr/list/242"
+      },
+      {
+        "reference": "UNESCO, Patrimoine mondial : grottes d'Ellora",
+        "url": "https://whc.unesco.org/fr/list/243"
+      },
+      {
+        "reference": "UNESCO, Patrimoine mondial : ensemble de monuments de Mahabalipuram",
+        "url": "https://whc.unesco.org/fr/list/249"
+      },
+      {
+        "reference": "UNESCO, Patrimoine mondial : site archéologique du Nalanda Mahavihara",
+        "url": "https://whc.unesco.org/fr/list/1502"
+      },
+      {
+        "reference": "UNESCO, Patrimoine mondial : les grands temples vivants Chola",
+        "url": "https://whc.unesco.org/fr/list/250"
+      },
+      {
+        "reference": "Romila Thapar, Early India: From the Origins to AD 1300, Penguin, 2002"
+      },
+      {
+        "reference": "Notices du Metropolitan Museum of Art"
+      }
+    ],
+    "works": [
+      {
+        "title": "Le pilier d'Ashoka à Vaishali",
+        "artist": "Sculpteurs de l'empereur Ashoka",
+        "country": "Inde",
+        "period": "IIIe siècle av. J.-C.",
+        "museum": "Site archéologique, Vaishali, Bihar (Inde)",
+        "credit": "Vaishali (Inde), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Ananda_Stupa_with_Ashok_lion_pillar_at_vaishali%2C_Bihar_03.jpg), photo Rohit Sharma, licence CC BY-SA 4.0",
+        "analysis": "Sous un ciel bleu, une haute colonne de pierre lisse, surmontée d'un lion assis, se dresse à côté d'un grand dôme de briques rouges ; au premier plan, des restes de petites constructions rondes en briques. Ashoka, troisième empereur de la dynastie Maurya, régna vers 268–232 av. J.-C. sur presque tout le sous-continent indien. Converti au bouddhisme, il fit dresser dans son empire des piliers taillés dans un seul bloc de grès et polis comme du métal, souvent sur les lieux liés à la vie du Bouddha. Celui de Vaishali, où le Bouddha aurait prononcé son dernier sermon, est l'un des rares à être encore debout avec son lion. Le dôme voisin est un stupa, un monument qui abrite des reliques.",
+        "compare": "Le point de départ de l'exposition : comparez avec les colonnes de Persépolis, dans l'exposition sur la Perse ancienne, qui ont peut-être inspiré les sculpteurs d'Ashoka.",
+        "image": "images/mouvements/inde-ancienne/pilier-d-ashoka-vaishali.jpg",
+        "lieu": "Vaishali et Pataliputra (Patna)",
+        "lieuType": "site"
+      },
+      {
+        "title": "Le chapiteau aux lions de Sarnath",
+        "artist": "Sculpteurs de l'empereur Ashoka",
+        "country": "Inde",
+        "period": "vers 250 av. J.-C.",
+        "museum": "Musée archéologique de Sarnath (Inde)",
+        "credit": "Musée archéologique de Sarnath, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Lion_capital_of_Ashoka%2C_Sarnath.jpg), photo lisa bat, licence CC BY 2.0",
+        "analysis": "Dans une salle de musée, quatre lions de pierre claire et polie, assis dos à dos, la gueule ouverte, reposent sur un tambour rond orné de roues et d'animaux, lui-même posé sur une cloche en forme de fleur de lotus renversée. Ce chapiteau, haut de plus de deux mètres, couronnait le pilier qu'Ashoka fit dresser à Sarnath, où le Bouddha donna son premier enseignement. Les roues sont les « roues de la Loi », symbole de cet enseignement. Retrouvé en 1905, il est devenu en 1950 l'emblème officiel de la République de l'Inde, et sa roue figure au centre du drapeau indien. Il est conservé au musée de Sarnath, près du lieu de sa découverte.",
+        "compare": "Une œuvre vieille de plus de deux mille ans devenue le symbole d'un État moderne, comme la louve du Capitole pour Rome.",
+        "image": "images/mouvements/inde-ancienne/chapiteau-aux-lions-de-sarnath.jpg",
+        "lieu": "Sarnath",
+        "lieuType": "découverte"
+      },
+      {
+        "title": "Les édits d'Ashoka sur le rocher de Girnar",
+        "artist": "Graveurs de l'empereur Ashoka",
+        "country": "Inde",
+        "period": "vers 250 av. J.-C.",
+        "museum": "Girnar, Junagadh, Gujarat (Inde)",
+        "credit": "Junagadh (Inde), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Ashoka_Rock_Edict_at_Junagadh.jpg), photo Jadia gaurang, licence CC BY-SA 3.0",
+        "analysis": "Un gros rocher arrondi, abrité dans un bâtiment, porte sur toute sa surface de fines lignes de petits signes gravés. Après la conquête sanglante du Kalinga, vers 261 av. J.-C., Ashoka dit avoir été saisi de remords. Il fit graver sur des rochers et des piliers, dans tout son empire, des édits où il demande à ses sujets de respecter toutes les religions, d'éviter la violence et de bien traiter les serviteurs et les animaux ; il y annonce aussi des puits, des arbres et des soins pour les hommes et les bêtes. À Girnar, quatorze édits sont écrits en brahmi. Cette écriture fut déchiffrée en 1837 par James Prinsep, ce qui fit redécouvrir Ashoka, alors oublié.",
+        "compare": "Comparez avec l'inscription de Darius à Behistoun, dans l'exposition sur la Perse ancienne : un roi qui parle à ses sujets sur la roche, mais ici pour prêcher la tolérance.",
+        "image": "images/mouvements/inde-ancienne/edit-d-ashoka-girnar.jpg",
+        "lieu": "Girnar",
+        "lieuType": "site"
+      },
+      {
+        "title": "Le grand stupa de Sanchi",
+        "artist": "Bâtisseurs bouddhistes",
+        "country": "Inde",
+        "period": "IIIe siècle av. J.-C. – Ier siècle",
+        "museum": "Sanchi, Madhya Pradesh (Inde)",
+        "credit": "Sanchi (Inde), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Stupa_1%2C_Sanchi_02.jpg), photo Bernard Gagnon, licence CC BY-SA 3.0",
+        "analysis": "Un grand dôme de pierre, couronné d'un petit parasol, est entouré d'une balustrade de pierre ; on y entre par un haut portail sculpté fait de deux piliers et de trois linteaux. Un stupa est un monument plein, en forme de dôme, qui abrite des reliques du Bouddha ou de ses disciples ; les fidèles en font le tour à pied, dans le sens du soleil. Celui de Sanchi fut commencé sous Ashoka, agrandi au IIe siècle av. J.-C., puis doté de quatre portails sculptés, les torana, vers le Ier siècle av. J.-C. C'est l'un des plus anciens monuments de pierre de l'Inde. Le site est inscrit au patrimoine mondial de l'UNESCO depuis 1989.",
+        "compare": "Comparez avec la pagode du Hōryū-ji, dans l'exposition sur le Japon : la pagode d'Asie de l'Est est la lointaine descendante du stupa indien.",
+        "image": "images/mouvements/inde-ancienne/grand-stupa-de-sanchi.jpg",
+        "lieu": "Sanchi",
+        "lieuType": "site"
+      },
+      {
+        "title": "Détail d'un portail (torana) de Sanchi",
+        "artist": "Sculpteurs de Vidisha",
+        "country": "Inde",
+        "period": "Ier siècle av. J.-C. – Ier siècle",
+        "museum": "Sanchi, Madhya Pradesh (Inde)",
+        "credit": "Sanchi (Inde), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:North_Torana%2C_Sanchi_04.jpg), photo Bernard Gagnon, licence CC BY-SA 3.0",
+        "analysis": "Un détail de grès doré, sculpté de tous côtés : au centre, dans un cadre, un personnage assis entouré de deux éléphants ; à droite, un éléphant monté par des cavaliers ; à gauche, un personnage debout sous un arbre. Les portails de Sanchi sont couverts de scènes de la vie du Bouddha et de ses vies antérieures. Une inscription dit que des ivoiriers de la ville voisine de Vidisha y ont travaillé : la pierre est sculptée avec la finesse de l'ivoire. Dans cet art ancien, le Bouddha lui-même n'est jamais représenté sous forme humaine : un arbre, un trône vide, des empreintes de pieds ou une roue indiquent sa présence.",
+        "compare": "Comparez avec le Bouddha du Gandhara, plus loin : trois siècles plus tard, les artistes lui donnent enfin un visage.",
+        "image": "images/mouvements/inde-ancienne/torana-de-sanchi.jpg",
+        "lieu": "Sanchi",
+        "lieuType": "site"
+      },
+      {
+        "title": "La Yakshi de Didarganj",
+        "artist": "Sculpteur de Pataliputra",
+        "country": "Inde",
+        "period": "IIIe siècle av. J.-C. – IIe siècle (date discutée)",
+        "museum": "Bihar Museum, Patna (Inde)",
+        "credit": "Bihar Museum, Patna, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Didarganj_Yakshi_in_the_Bihar_Museum_%28cropped%29.jpg), photo Shivam Setu, licence CC BY-SA 4.0",
+        "analysis": "Une statue de femme en pierre claire et brillante, grandeur nature, se tient debout, légèrement penchée ; elle porte de lourds bijoux, une jupe aux plis fins, et tient sur l'épaule un chasse-mouches. Sa poitrine est nue. Cette statue a été trouvée en 1917 au bord du Gange, près de Patna, l'ancienne Pataliputra, capitale des Maurya. Son grès poli comme un miroir est le même que celui des piliers d'Ashoka, mais sa date est discutée, entre le IIIe siècle av. J.-C. et le IIe siècle de notre ère. On l'appelle yakshi, du nom des esprits féminins de la nature, liés à la fertilité et à l'abondance ; ce pourrait aussi être une servante royale. C'est l'une des sculptures les plus admirées de l'Inde.",
+        "compare": "Comparez son poli avec celui du chapiteau aux lions, plus haut : la même technique des ateliers impériaux, appliquée à un corps de femme.",
+        "sensible": true,
+        "image": "images/mouvements/inde-ancienne/yakshi-de-didarganj.jpg",
+        "lieu": "Vaishali et Pataliputra (Patna)",
+        "lieuType": "découverte"
+      },
+      {
+        "title": "La grande salle de prière de Karla",
+        "artist": "Tailleurs de pierre bouddhistes",
+        "country": "Inde",
+        "period": "Ier – IIe siècle",
+        "museum": "Grottes de Karla, Maharashtra (Inde)",
+        "credit": "Karla (Inde), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Karla_interiors_%282540801624%29.jpg), photo Soham Banerjee, licence CC BY 2.0",
+        "analysis": "Une longue salle creusée dans la roche : deux rangées de colonnes aux chapiteaux sculptés mènent à un stupa de pierre, au fond ; la voûte en berceau est garnie de grands arcs de bois. Des visiteurs donnent l'échelle. Dans l'ouest de l'Inde, les moines bouddhistes creusèrent dans les falaises des monastères et des salles de prière, appelées chaitya, souvent financés par des marchands : ces grottes bordent les routes qui reliaient les ports aux villes de l'intérieur. Celle de Karla, longue d'environ 45 mètres, est la plus grande de ce type. Tout y imite une construction en bois, et les arcs de la voûte sont de vraies pièces de bois, vieilles de près de deux mille ans.",
+        "compare": "Le stupa de Sanchi, plus haut, se retrouve ici à l'intérieur, au fond d'une salle taillée dans la montagne.",
+        "image": "images/mouvements/inde-ancienne/grotte-de-karla.jpg",
+        "lieu": "Karla",
+        "lieuType": "site"
+      },
+      {
+        "title": "Bouddha du Gandhara",
+        "artist": "Sculpteur du Gandhara",
+        "country": "Pakistan",
+        "period": "IIIe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/646117), domaine public (CC0)",
+        "analysis": "Sur un fond noir, une statue de pierre gris sombre, haute de 93 cm : un homme debout, les cheveux ondulés noués en chignon, une auréole derrière la tête, est enveloppé dans un manteau aux plis lourds et profonds. Le Gandhara, dans le nord-ouest du Pakistan actuel, faisait partie de l'empire des Kouchans, qui s'étendait de l'Asie centrale à la plaine du Gange. Depuis Alexandre le Grand, des Grecs y vivaient. C'est là, et à Mathura en Inde, que les artistes représentèrent pour la première fois le Bouddha sous forme humaine, vers le Ier siècle. Au Gandhara, ils lui donnèrent le manteau à plis et les cheveux ondulés des statues grecques et romaines.",
+        "compare": "Comparez avec les statues de l'exposition sur la Grèce antique : la rencontre de l'art grec et du bouddhisme, au carrefour des routes de la soie.",
+        "image": "images/mouvements/inde-ancienne/bouddha-du-gandhara.jpg",
+        "lieu": "Gandhara",
+        "lieuType": "origine"
+      },
+      {
+        "title": "Les grottes d'Ajanta",
+        "artist": "Moines et artisans bouddhistes",
+        "country": "Inde",
+        "period": "IIe siècle av. J.-C. – Ve siècle",
+        "museum": "Grottes d'Ajanta, Maharashtra (Inde)",
+        "credit": "Ajanta (Inde), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Ajanta_Caves_panorama_view.jpg), photo Sarah Welch, licence CC BY-SA 4.0",
+        "analysis": "Au-dessus d'une vallée très verte, une longue falaise sombre en arc de cercle est percée d'une rangée d'ouvertures et de façades à colonnes ; des arbres en fleurs rouges occupent le premier plan. Dans une falaise au-dessus d'une rivière, une trentaine de monastères et de salles de prière ont été creusés en deux périodes : vers le IIe siècle av. J.-C., puis au Ve siècle, sous les rois Vakataka, alliés des Gupta. Abandonnées puis oubliées, les grottes furent retrouvées en 1819 par un officier britannique à la chasse. Elles conservent les plus importantes peintures de l'Inde ancienne. Le site est inscrit au patrimoine mondial de l'UNESCO depuis 1983.",
+        "compare": "Comparez avec les grottes de Mogao à Dunhuang, dans l'exposition sur la Chine : l'idée du monastère creusé dans la falaise a suivi le bouddhisme le long des routes de la soie.",
+        "image": "images/mouvements/inde-ancienne/grottes-d-ajanta.jpg",
+        "lieu": "Ajanta",
+        "lieuType": "site"
+      },
+      {
+        "title": "Le bodhisattva Padmapani, grotte 1 d'Ajanta",
+        "artist": "Peintres d'Ajanta",
+        "country": "Inde",
+        "period": "fin du Ve siècle",
+        "museum": "Grottes d'Ajanta, Maharashtra (Inde)",
+        "credit": "Ajanta (Inde), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Ajanta_Cave_1_Padmapani.jpg), photo Anandajoti Bhikkhu (Photo Dharma), licence CC BY 2.0",
+        "analysis": "Sur une paroi peinte, abîmée par endroits, un grand personnage au corps souple, la tête inclinée et les yeux baissés, porte une haute couronne et des colliers de perles ; il tient une fleur dans la main droite. D'autres figures l'entourent. Un bodhisattva est un être qui pourrait atteindre l'éveil, mais reste dans le monde pour aider les autres. Celui-ci, Padmapani, « celui qui tient le lotus », est le plus célèbre des personnages peints à Ajanta. Les peintres travaillaient sur un enduit sec, à la lumière de lampes ou de miroirs, et modelaient les corps par des dégradés de couleur. Ce style a influencé la peinture bouddhique de toute l'Asie.",
+        "compare": "Comparez avec le bodhisattva Fugen, dans l'exposition sur le Japon : sept siècles plus tard, à l'autre bout de l'Asie, la même douceur du regard.",
+        "image": "images/mouvements/inde-ancienne/padmapani-ajanta.jpg",
+        "lieu": "Ajanta",
+        "lieuType": "site"
+      },
+      {
+        "title": "Bouddha debout de Mathura",
+        "artist": "Sculpteur de Mathura",
+        "country": "Inde",
+        "period": "fin du Ve siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/38198), domaine public (CC0)",
+        "analysis": "Une statue de grès rouge, haute de 85 cm : un homme debout, les yeux mi-clos, les cheveux en petites boucles serrées, porte une robe très fine dont les plis réguliers dessinent des courbes sur tout le corps. Les mains manquent. Sous les Gupta, qui règnent sur le nord de l'Inde d'environ 320 à 550, les arts et les sciences connaissent un grand essor : on parle souvent d'« âge classique ». Les sculpteurs de Mathura et de Sarnath créent alors l'image du Bouddha qui servira de modèle à toute l'Asie : un corps calme et idéalisé, un regard tourné vers l'intérieur, une robe transparente. Le grès rouge tacheté est la pierre de Mathura.",
+        "compare": "Comparez avec le Bouddha du Gandhara, plus haut : le manteau grec aux plis lourds est devenu un voile léger, et le style est désormais pleinement indien.",
+        "image": "images/mouvements/inde-ancienne/bouddha-gupta-de-mathura.jpg",
+        "lieu": "Mathura",
+        "lieuType": "fabrication"
+      },
+      {
+        "title": "Monnaie d'or du roi Kumaragupta en archer",
+        "artist": "Atelier monétaire des Gupta",
+        "country": "Inde",
+        "period": "415–455",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/39405), domaine public (CC0)",
+        "analysis": "Une petite pièce d'or de 1,9 cm, très brillante : un homme debout, le corps souple, tient un arc ; des signes d'écriture l'entourent. Les rois Gupta frappaient des monnaies d'or d'une grande finesse, où ils se montrent en archers, en cavaliers ou en tueurs de lions, avec des légendes en sanskrit écrites en brahmi. Kumaragupta Ier régna de 415 à 455 environ ; on lui attribue la fondation du grand monastère de Nalanda. L'or venait en partie du commerce avec l'Empire romain, qui achetait à l'Inde ses épices, ses perles et ses tissus.",
+        "compare": "Le roi en personne, après les images du Bouddha : comparez avec le penny d'Offa, dans l'exposition sur les Anglo-Saxons, autre monnaie qui porte l'image d'un pouvoir.",
+        "image": "images/mouvements/inde-ancienne/monnaie-de-kumaragupta.jpg"
+      },
+      {
+        "title": "Le pilier de fer de Delhi",
+        "artist": "Forgerons de l'époque Gupta",
+        "country": "Inde",
+        "period": "vers 400",
+        "museum": "Complexe du Qutb, Delhi (Inde)",
+        "credit": "Delhi (Inde), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Delhi_Iron_pillar%2C_2010-09-27.jpg), photo Aiwok, licence CC BY-SA 3.0",
+        "analysis": "Dans une cour dallée, une haute colonne de métal sombre, mince et lisse, terminée par un chapiteau, se dresse devant une grande arche de pierre en ruine ; une grille l'entoure, et des visiteurs paraissent petits à côté. Ce pilier de fer, haut de plus de sept mètres et lourd d'environ six tonnes, porte une inscription à la gloire d'un roi nommé Chandra, que l'on identifie le plus souvent à Chandragupta II (vers 375–415). Il a été transporté plus tard à Delhi. Depuis seize siècles, il n'a presque pas rouillé : son fer, riche en phosphore, s'est couvert d'une fine couche protectrice. C'est un témoin du savoir-faire des métallurgistes indiens.",
+        "compare": "Comparez avec le pilier de pierre d'Ashoka, au début de l'exposition : sept siècles plus tard, un autre empereur dresse un pilier, cette fois en fer.",
+        "image": "images/mouvements/inde-ancienne/pilier-de-fer-de-delhi.jpg",
+        "lieu": "Delhi",
+        "lieuType": "site"
+      },
+      {
+        "title": "Le monastère-université de Nalanda",
+        "artist": "Bâtisseurs bouddhistes",
+        "country": "Inde",
+        "period": "Ve – XIIe siècle",
+        "museum": "Site archéologique, Nalanda, Bihar (Inde)",
+        "credit": "Nalanda (Inde), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Temple_12_-_Nalanda_Mahavihara_%2821%29.jpg), photo Sumitsurai, licence CC BY-SA 4.0",
+        "analysis": "Un long mur de briques rouges, usé par le temps, est rythmé de moulures horizontales et de petites niches décorées, alignées à intervalles réguliers. Fondé au Ve siècle, Nalanda fut pendant sept cents ans le plus grand centre d'études du monde bouddhique. On y enseignait la philosophie, la logique, la grammaire, la médecine et l'astronomie. Le pèlerin chinois Xuanzang, qui y étudia au VIIe siècle, décrit des milliers de moines et de grandes bibliothèques. Le monastère fut ravagé vers 1200, lors des conquêtes des armées de Bakhtiyar Khalji, puis abandonné. Le site est inscrit au patrimoine mondial de l'UNESCO depuis 2016.",
+        "compare": "Comparez avec les manuscrits de Tombouctou, dans l'exposition sur l'empire du Mali : deux grandes villes du savoir, sur deux continents.",
+        "image": "images/mouvements/inde-ancienne/nalanda.jpg",
+        "lieu": "Nalanda",
+        "lieuType": "site"
+      },
+      {
+        "title": "La Descente du Gange à Mahabalipuram (détail)",
+        "artist": "Sculpteurs des rois Pallava",
+        "country": "Inde",
+        "period": "VIIe siècle",
+        "museum": "Mahabalipuram, Tamil Nadu (Inde)",
+        "credit": "Mahabalipuram (Inde), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Cleft_Low_Half_Descent_Ganges_Mahabalipuram_Sep22_A7C_02497.jpg), photo Timothy A. Gonsalves, licence CC BY-SA 4.0",
+        "analysis": "Sur une paroi de granit clair, de chaque côté d'une fente verticale, des personnages sculptés se tournent vers le centre, les mains jointes ; dans la fente, un être à corps de serpent et à buste humain, coiffé de têtes de cobra, semble monter. À Mahabalipuram, port des rois Pallava sur la côte sud-est, un rocher long de 27 mètres a été entièrement sculpté de dieux, d'hommes et d'animaux, dont des éléphants grandeur nature. Tous convergent vers une fente où l'eau coulait les jours de pluie. On y voit soit la descente sur terre du fleuve sacré, le Gange, soit la pénitence du héros Arjuna : les deux lectures sont possibles. Les êtres-serpents, les nagas, sont les gardiens des eaux. Le site est inscrit au patrimoine mondial de l'UNESCO depuis 1984.",
+        "compare": "Après le nord bouddhique, le sud hindou : les Pallava ont aussi envoyé leurs marchands et leur écriture vers l'Asie du Sud-Est, jusqu'à Java et au Cambodge.",
+        "image": "images/mouvements/inde-ancienne/descente-du-gange-mahabalipuram.jpg",
+        "lieu": "Mahabalipuram",
+        "lieuType": "site"
+      },
+      {
+        "title": "Le temple du Kailasa à Ellora",
+        "artist": "Tailleurs de pierre des rois Rashtrakuta",
+        "country": "Inde",
+        "period": "VIIIe siècle",
+        "museum": "Grottes d'Ellora, Maharashtra (Inde)",
+        "credit": "Ellora (Inde), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Ellora_Caves%2C_India%2C_Kailasa_Temple.jpg), photo Vyacheslav Argenberg, licence CC BY 4.0",
+        "analysis": "Au fond d'une cour taillée dans la roche sombre, la base d'un temple est sculptée d'éléphants qui semblent le porter ; de hautes parois rocheuses l'entourent, et trois visiteuses en saris colorés donnent l'échelle. Ce temple dédié à Shiva n'a pas été construit : il a été taillé d'un seul bloc dans la montagne, de haut en bas, au VIIIe siècle, sous le roi Krishna Ier. Les ouvriers ont enlevé des centaines de milliers de tonnes de roche pour dégager un temple entier, avec sa cour, ses salles, ses piliers et ses sculptures. Il représente le mont Kailasa, la demeure de Shiva. À Ellora, des grottes bouddhiques, hindoues et jaïnes se côtoient. Le site est inscrit au patrimoine mondial de l'UNESCO depuis 1983.",
+        "compare": "Comparez avec les églises taillées dans le roc de Lalibela, dans l'exposition sur Aksoum : la même idée, sculpter un monument au lieu de le bâtir.",
+        "image": "images/mouvements/inde-ancienne/kailasa-ellora.jpg",
+        "lieu": "Ellora",
+        "lieuType": "site"
+      },
+      {
+        "title": "Le temple de Kandariya Mahadeva à Khajuraho",
+        "artist": "Bâtisseurs des rois Chandela",
+        "country": "Inde",
+        "period": "vers 1030",
+        "museum": "Khajuraho, Madhya Pradesh (Inde)",
+        "credit": "Khajuraho (Inde), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Kandariya_Mahadeva_Temple%2C_Khajuraho%2C_Madhya_Pradesh%2C_India_002.jpg), photo WarmaFiesta, licence CC BY-SA 4.0",
+        "analysis": "Sur une haute plateforme, un temple de grès doré élève une série de toits de plus en plus hauts jusqu'à une grande tour courbe, entièrement couverte de sculptures ; un temple plus petit se dresse à gauche. Les rois Chandela firent construire à Khajuraho, entre 950 et 1050, des dizaines de temples hindous et jaïns, dont une vingtaine subsistent. Celui-ci, dédié à Shiva, est le plus grand : sa tour de 31 mètres, entourée de tours plus petites, évoque une chaîne de montagnes. Ses murs portent des centaines de sculptures de dieux, de danseuses, de musiciens et de couples enlacés, pour lesquelles Khajuraho est célèbre. Le site est inscrit au patrimoine mondial de l'UNESCO depuis 1986.",
+        "compare": "Le temple-montagne du nord de l'Inde : comparez avec le temple de Thanjavur, plus loin, qui montre le style du sud, en pyramide à étages.",
+        "image": "images/mouvements/inde-ancienne/khajuraho.jpg",
+        "lieu": "Khajuraho",
+        "lieuType": "site"
+      },
+      {
+        "title": "Shiva Nataraja, seigneur de la danse",
+        "artist": "Bronzier de l'époque Chola",
+        "country": "Inde",
+        "period": "fin du XIe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/39328), domaine public (CC0)",
+        "analysis": "Une statue de bronze verdi, haute de 68 cm : un dieu à quatre bras danse sur une jambe, l'autre levée en travers du corps, à l'intérieur d'un cercle de flammes ; ses cheveux volent de chaque côté de la tête, et il écrase du pied un petit personnage. Sous les rois Chola, qui dominent le sud de l'Inde du IXe au XIIIe siècle, les bronziers coulent à la cire perdue des statues que l'on porte en procession lors des fêtes. Shiva y danse la création et la destruction du monde : il tient un tambour, dont le rythme fait naître l'univers, et une flamme, qui le détruira ; il écrase le nain de l'ignorance. Selon le musée, cette image est devenue l'un des symboles les plus connus de la civilisation indienne.",
+        "compare": "Comparez avec le Shiva de l'exposition sur l'art khmer d'Angkor : par la mer, les dieux de l'Inde du Sud ont gagné toute l'Asie du Sud-Est.",
+        "image": "images/mouvements/inde-ancienne/shiva-nataraja.jpg"
+      },
+      {
+        "title": "Le temple de Brihadisvara à Thanjavur",
+        "artist": "Bâtisseurs du roi Rajaraja Ier",
+        "country": "Inde",
+        "period": "vers 1010",
+        "museum": "Thanjavur, Tamil Nadu (Inde)",
+        "credit": "Thanjavur (Inde), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Brihadeeswarar_Temple_Thanjavur_%28124454981%29.jpeg), photo Vincent Paul, licence CC BY-SA 3.0",
+        "analysis": "Sous un ciel bleu profond du soir, une haute tour en pyramide à étages, éclairée d'une lumière orangée et coiffée d'un dôme, s'élève derrière un long mur sombre surmonté de petites statues. Le roi Rajaraja Ier, qui fit des Chola une grande puissance maritime, fit bâtir ce temple à Shiva dans sa capitale ; il fut achevé vers 1010. Sa tour de granit, haute de plus de soixante mètres, était alors l'une des plus hautes constructions de l'Inde. Les murs portent de longues inscriptions en tamoul qui énumèrent les dons du roi, les terres, les bijoux, et les centaines de personnes attachées au temple, prêtres, danseuses, musiciens et comptables. Il est inscrit au patrimoine mondial de l'UNESCO depuis 1987, et l'on y célèbre toujours le culte.",
+        "compare": "Comparez avec la tour courbe de Khajuraho, plus haut : au sud, le temple s'élève en pyramide, et ses inscriptions en font aussi les archives d'un royaume.",
+        "image": "images/mouvements/inde-ancienne/brihadisvara-thanjavur.jpg",
+        "lieu": "Thanjavur",
+        "lieuType": "site"
+      },
+      {
+        "title": "Une roue du temple du Soleil de Konarak",
+        "artist": "Sculpteurs du roi Narasimhadeva Ier",
+        "country": "Inde",
+        "period": "vers 1250",
+        "museum": "Konarak, Odisha (Inde)",
+        "credit": "Konarak (Inde), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Stone_wheel_engraved_in_the_13th_century_built_Konark_Sun_Temple_in_Orissa%2C_India.jpg), photo Subhrajyoti07, licence CC BY-SA 4.0",
+        "analysis": "Une grande roue de pierre à huit rayons larges et huit rayons fins, couverte de fins motifs, est sculptée contre le soubassement d'un temple ; autour d'elle, le mur est entièrement décoré de petites figures et de frises. Au bord du golfe du Bengale, le roi Narasimhadeva Ier fit construire vers 1250 un temple à Surya, le dieu Soleil, en forme de char géant : vingt-quatre roues de pierre de trois mètres de diamètre sont sculptées sur ses côtés, et sept chevaux le tirent. Les roues peuvent servir de cadrans solaires. Le temple, en partie effondré, est l'un des derniers grands monuments de l'Inde ancienne ; il est inscrit au patrimoine mondial de l'UNESCO depuis 1984. Parmi les petites figures du mur, on voit des couples enlacés.",
+        "compare": "Le point d'arrivée de l'exposition : comparez avec la roue de la Loi du chapiteau de Sarnath, au début ; quinze siècles séparent ces deux roues, devenues toutes deux des symboles de l'Inde.",
+        "sensible": true,
+        "image": "images/mouvements/inde-ancienne/roue-de-konarak.jpg",
+        "lieu": "Konarak",
+        "lieuType": "site"
+      }
+    ],
+    "carte": {
+      "image": "images/mouvements/cartes/inde-ancienne.svg",
+      "ouest": 67,
+      "est": 90,
+      "sud": 7.5,
+      "nord": 36,
+      "lieux": [
+        {
+          "nom": "Vaishali et Pataliputra (Patna)",
+          "lat": 25.8,
+          "lon": 85.13
+        },
+        {
+          "nom": "Sarnath",
+          "lat": 25.3811,
+          "lon": 83.0214
+        },
+        {
+          "nom": "Girnar",
+          "lat": 21.525,
+          "lon": 70.478
+        },
+        {
+          "nom": "Sanchi",
+          "lat": 23.4794,
+          "lon": 77.7397
+        },
+        {
+          "nom": "Karla",
+          "lat": 18.783,
+          "lon": 73.47
+        },
+        {
+          "nom": "Gandhara",
+          "lat": 34.0,
+          "lon": 72.0
+        },
+        {
+          "nom": "Ajanta",
+          "lat": 20.5519,
+          "lon": 75.7033
+        },
+        {
+          "nom": "Ellora",
+          "lat": 20.0268,
+          "lon": 75.179
+        },
+        {
+          "nom": "Mathura",
+          "lat": 27.49,
+          "lon": 77.67
+        },
+        {
+          "nom": "Delhi",
+          "lat": 28.5245,
+          "lon": 77.1855
+        },
+        {
+          "nom": "Nalanda",
+          "lat": 25.1367,
+          "lon": 85.4433
+        },
+        {
+          "nom": "Mahabalipuram",
+          "lat": 12.6169,
+          "lon": 80.1993
+        },
+        {
+          "nom": "Khajuraho",
+          "lat": 24.853,
+          "lon": 79.9198
+        },
+        {
+          "nom": "Thanjavur",
+          "lat": 10.7828,
+          "lon": 79.1318
+        },
+        {
+          "nom": "Konarak",
+          "lat": 19.8876,
+          "lon": 86.0945
+        }
+      ],
+      "pays": [
+        {
+          "nom": "Pakistan",
+          "lat": 29.854,
+          "lon": 70.175
+        },
+        {
+          "nom": "Inde",
+          "lat": 22.687,
+          "lon": 79.358
+        },
+        {
+          "nom": "Chine",
+          "lat": 31.643,
+          "lon": 84.389
+        },
+        {
+          "nom": "Népal",
+          "lat": 28.298,
+          "lon": 83.64
+        },
+        {
+          "nom": "Sri Lanka",
+          "lat": 8.635,
+          "lon": 80.566
+        }
+      ],
+      "villes": [
+        {
+          "nom": "Kaboul",
+          "lat": 34.519,
+          "lon": 69.181
+        },
+        {
+          "nom": "New Delhi",
+          "lat": 28.6,
+          "lon": 77.2
+        },
+        {
+          "nom": "Katmandou",
+          "lat": 27.719,
+          "lon": 85.315
+        },
+        {
+          "nom": "Islamabad",
+          "lat": 33.689,
+          "lon": 73.081
+        },
+        {
+          "nom": "Bombay",
+          "lat": 19.068,
+          "lon": 72.876
+        },
+        {
+          "nom": "Calcutta",
+          "lat": 22.57,
+          "lon": 88.369
+        },
+        {
+          "nom": "Bangalore",
+          "lat": 12.972,
+          "lon": 77.558
+        },
+        {
+          "nom": "Lahore",
+          "lat": 31.562,
+          "lon": 74.348
+        },
+        {
+          "nom": "Hyderabad",
+          "lat": 17.402,
+          "lon": 78.478
+        },
+        {
+          "nom": "Ahmedabad",
+          "lat": 23.032,
+          "lon": 72.578
+        }
+      ]
+    }
+  },
+  {
+    "mouvement": "Royaumes de Java et de Sumatra",
+    "slug": "java-et-sumatra",
+    "status": "published",
+    "title": "Java et Sumatra, les royaumes de l'archipel",
+    "subtitle": "Indonésie, VIIe – XVIe siècle : quatorze œuvres et sites, de Srivijaya à Majapahit, de Jakarta, Amsterdam et New York",
+    "intro": "Entre l'océan Indien et la mer de Chine, les îles de Sumatra et de Java ont vu naître de grands royaumes de marins et de bâtisseurs. Srivijaya, à partir du VIIe siècle, contrôle les détroits et le commerce entre l'Inde et la Chine. À Java, le royaume de Mataram élève Borobudur, le plus grand monument bouddhique du monde, et les temples hindous de Prambanan ; puis Singhasari et Majapahit dominent l'archipel jusqu'au début du XVIe siècle. Ces royaumes ont reçu de l'Inde des religions et une écriture, mais en ont fait un art qui n'appartient qu'à eux. L'exposition suit cette histoire, des premières inscriptions aux portes de briques de la dernière capitale.",
+    "contexte": [
+      {
+        "title": "Pourquoi parle-t-on d'une civilisation ?",
+        "text": "Entre le VIIe et le XVIe siècle, de grands royaumes se forment dans les îles de Sumatra et de Java, dans l'actuelle Indonésie. Srivijaya, à Sumatra, contrôle le détroit de Malacca, passage obligé des navires entre l'Inde et la Chine. À Java, le royaume de Mataram bâtit Borobudur et Prambanan aux VIIIe et IXe siècles ; plus tard, Singhasari puis Majapahit, aux XIIIe–XVe siècles, dominent une grande partie de l'archipel. Ces royaumes ont des capitales, des rois et une administration, une écriture, le kawi, des lois, des monuments immenses, des artisans spécialisés et un commerce lointain : tous les critères des historiens sont réunis."
+      },
+      {
+        "title": "Entre l'Inde et la Chine",
+        "text": "Les marins de l'archipel naviguaient depuis très longtemps : leurs ancêtres avaient peuplé les îles du Pacifique et Madagascar. À partir des premiers siècles de notre ère, des marchands et des religieux indiens apportent l'hindouisme, le bouddhisme, le sanskrit et une écriture venue du sud de l'Inde. Les rois de Java et de Sumatra adoptent ces idées sans être conquis, et les transforment : les temples, appelés candi, les récits du Ramayana et les statues prennent un style propre à Java. Les épices des Moluques, girofle et muscade, le camphre et l'or attirent les navires de toute l'Asie."
+      },
+      {
+        "title": "De Majapahit à l'Indonésie d'aujourd'hui, et ce que l'on voit dans l'exposition",
+        "text": "Au XIVe siècle, sous le roi Hayam Wuruk et son ministre Gajah Mada, Majapahit est à son apogée ; le poème Nagarakretagama, écrit en 1365, décrit sa cour et ses territoires. Aux XVe et XVIe siècles, l'islam, arrivé par les marchands, gagne les ports puis toute l'île de Java ; Majapahit disparaît vers 1527. Sa culture ne s'éteint pas : elle se poursuit à Bali, restée hindoue, et dans le théâtre d'ombres, la danse et la langue javanaises. La devise de l'Indonésie, « Unité dans la diversité », vient d'un poème de Majapahit. L'exposition présente des temples et des reliefs photographiés par des visiteurs, sous licence libre, et des œuvres du musée national d'Indonésie, du Rijksmuseum et du Metropolitan Museum."
+      }
+    ],
+    "bibliography": [
+      {
+        "reference": "UNESCO, Patrimoine mondial : ensemble de Borobudur",
+        "url": "https://whc.unesco.org/fr/list/592"
+      },
+      {
+        "reference": "UNESCO, Patrimoine mondial : ensemble de Prambanan",
+        "url": "https://whc.unesco.org/fr/list/642"
+      },
+      {
+        "reference": "Rijksmuseum, Amsterdam : collection d'art asiatique",
+        "url": "https://www.rijksmuseum.nl/"
+      },
+      {
+        "reference": "Notices du Metropolitan Museum of Art"
+      },
+      {
+        "reference": "Mpu Prapanca, Nagarakretagama, 1365"
+      },
+      {
+        "reference": "John Miksic, Borobudur: Golden Tales of the Buddhas, Periplus, 1990"
+      }
+    ],
+    "works": [
+      {
+        "title": "L'inscription de Kedukan Bukit",
+        "artist": "Graveur du royaume de Srivijaya",
+        "country": "Indonésie",
+        "period": "683",
+        "museum": "Musée national d'Indonésie, Jakarta",
+        "credit": "Musée national d'Indonésie, Jakarta, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Prasasti_Kedukan_Bukit_3.jpg), photo Gunawan Kartapranata, licence CC BY-SA 4.0",
+        "analysis": "Dans une vitrine, un galet de pierre gris, large et arrondi, porte une dizaine de lignes d'une écriture ronde, soigneusement gravée. Trouvée en 1920 à Palembang, sur l'île de Sumatra, cette petite pierre est le plus ancien texte connu en vieux malais, l'ancêtre de l'indonésien et du malais, écrit avec une écriture venue du sud de l'Inde. Elle raconte qu'en 683 un souverain appelé Dapunta Hyang partit en bateau avec une grande armée et fonda une cité prospère : on y voit l'acte de naissance du royaume de Srivijaya, qui domina pendant des siècles le commerce maritime entre l'Inde et la Chine.",
+        "compare": "Le point de départ de l'exposition : une écriture venue de l'Inde, que l'on a vue dans l'exposition sur l'Inde ancienne, sert ici à écrire une langue de l'archipel.",
+        "image": "images/mouvements/java-et-sumatra/inscription-de-kedukan-bukit.jpg",
+        "lieu": "Palembang",
+        "lieuType": "découverte"
+      },
+      {
+        "title": "Bouddha entouré de deux bodhisattvas",
+        "artist": "Bronzier de Sumatra ou de la péninsule malaise",
+        "country": "Indonésie ou Thaïlande",
+        "period": "seconde moitié du VIIIe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/38994), domaine public (CC0)",
+        "analysis": "Sur un fond noir, trois petites figures de bronze sombre, debout sur des fleurs de lotus posées sur un même socle : au centre, un Bouddha en robe de moine ; de chaque côté, un personnage plus mince, paré de bijoux. Haut de 19 cm, ce groupe représente, selon le musée, le Bouddha entre les bodhisattvas Avalokiteshvara et Maitreya ; il vient de Sumatra ou du sud de la Thaïlande, des régions alors liées à Srivijaya. Le royaume était un grand foyer du bouddhisme : le moine chinois Yijing s'y arrêta plusieurs années, à la fin du VIIe siècle, pour étudier le sanskrit avant d'aller en Inde. De petits bronzes comme celui-ci voyageaient facilement avec les moines et les marchands.",
+        "compare": "Comparez avec le Bouddha gupta de Mathura, dans l'exposition sur l'Inde ancienne : le modèle indien, repris par les bronziers de l'archipel.",
+        "image": "images/mouvements/java-et-sumatra/bouddha-de-srivijaya.jpg"
+      },
+      {
+        "title": "Les temples de Muaro Jambi",
+        "artist": "Bâtisseurs bouddhistes de Sumatra",
+        "country": "Indonésie",
+        "period": "VIIe – XIIIe siècle",
+        "museum": "Muaro Jambi, Sumatra (Indonésie)",
+        "credit": "Muaro Jambi (Indonésie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Muaro_Jambi_Temple_-_Muaro_Jambi%2C_JA_%2824_August_2019%29.jpg), photo Firzafp, licence CC BY-SA 4.0",
+        "analysis": "Dans un parc aux très grands arbres, un long mur bas de briques rouges entoure une cour ; au fond, un petit monument de briques se dresse à l'ombre. Le long du fleuve Batanghari, sur plusieurs kilomètres, s'étend l'un des plus grands ensembles bouddhiques d'Asie du Sud-Est : des dizaines de temples de briques, de bassins et de canaux, dont beaucoup sont encore sous la terre et la forêt. Il appartenait au royaume de Melayu, lié à Srivijaya. À Sumatra, où la pierre est rare, on bâtissait en brique et en bois : c'est pourquoi les villes de Srivijaya ont laissé moins de vestiges que celles de Java.",
+        "compare": "Comparez avec le monastère de Nalanda, dans l'exposition sur l'Inde ancienne : les moines de Sumatra y étudiaient, et un roi de Srivijaya y fit construire un monastère.",
+        "image": "images/mouvements/java-et-sumatra/muaro-jambi.jpg",
+        "lieu": "Muaro Jambi",
+        "lieuType": "site"
+      },
+      {
+        "title": "Les temples du plateau de Dieng",
+        "artist": "Bâtisseurs javanais",
+        "country": "Indonésie",
+        "period": "VIIe – VIIIe siècle",
+        "museum": "Plateau de Dieng, Java central (Indonésie)",
+        "credit": "Dieng (Indonésie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Komplek_Candi_Arjuna_di_Dieng.jpg), photo Apri DAV, licence CC BY-SA 4.0",
+        "analysis": "Sous de gros nuages, trois petits temples de pierre sombre, aux toits en gradins, se dressent sur un terre-plein entouré de collines boisées ; de nombreux visiteurs se promènent autour. Sur un plateau volcanique à 2 000 mètres d'altitude, ces petits temples dédiés au dieu hindou Shiva sont les plus anciens monuments de pierre conservés à Java. Leur plan vient de l'Inde du Sud, mais leurs proportions sont déjà javanaises. Le nom du lieu viendrait de mots signifiant « la demeure des dieux » : les volcans étaient des lieux sacrés bien avant l'arrivée de l'hindouisme.",
+        "compare": "Comparez avec Mahabalipuram, dans l'exposition sur l'Inde ancienne : les mêmes petits temples à étages, de l'autre côté de l'océan Indien.",
+        "image": "images/mouvements/java-et-sumatra/temples-de-dieng.jpg",
+        "lieu": "Dieng",
+        "lieuType": "site"
+      },
+      {
+        "title": "Borobudur",
+        "artist": "Bâtisseurs des rois Sailendra",
+        "country": "Indonésie",
+        "period": "vers 780–830",
+        "museum": "Borobudur, Java central (Indonésie)",
+        "credit": "Borobudur (Indonésie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Borobudur_Magelang.jpg), photo Zaenulihsan91, licence CC BY-SA 4.0",
+        "analysis": "Vue d'avion, une immense pyramide de pierre grise à gradins carrés, couronnée de terrasses rondes et d'un dôme, s'élève au milieu d'une plaine très verte ; à l'horizon, un volcan sort des nuages. Construit sous les rois Sailendra, Borobudur est le plus grand monument bouddhique du monde. Ce n'est pas un temple où l'on entre, mais une montagne que le pèlerin gravit en tournant : il parcourt près de cinq kilomètres de galeries, bordées de quelque 2 670 reliefs qui racontent la vie du Bouddha, avant d'atteindre les terrasses rondes du sommet, image de l'éveil. Abandonné, recouvert de cendres et de végétation, il fut signalé en 1814 sous Thomas Stamford Raffles, puis restauré avec l'UNESCO de 1973 à 1983. Il est inscrit au patrimoine mondial depuis 1991.",
+        "compare": "Comparez avec le stupa de Sanchi, dans l'exposition sur l'Inde ancienne : l'idée du stupa, agrandie aux dimensions d'une montagne.",
+        "image": "images/mouvements/java-et-sumatra/borobudur.jpg",
+        "lieu": "Borobudur et Prambanan",
+        "lieuType": "site"
+      },
+      {
+        "title": "Les stupas ajourés de Borobudur",
+        "artist": "Bâtisseurs des rois Sailendra",
+        "country": "Indonésie",
+        "period": "vers 800",
+        "museum": "Borobudur, Java central (Indonésie)",
+        "credit": "Borobudur (Indonésie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Borobudur-Temple-Park_Indonesia_Stupas-of-Borobudur-04.jpg), photo Uwe Aranas (CEphoto), licence CC BY-SA 3.0",
+        "analysis": "Au lever du soleil, des cloches de pierre percées de trous en losange s'alignent sur une terrasse ; au premier plan, l'une d'elles, ouverte, laisse voir un Bouddha assis, de dos, tourné vers le paysage. Sur les trois terrasses rondes du sommet, soixante-douze stupas en forme de cloche abritent chacun une statue du Bouddha, que l'on devine à travers les ouvertures. Ici, plus de récits ni d'images : après les galeries couvertes de reliefs, le pèlerin arrive dans un espace ouvert sur le ciel et les volcans. Le monument compte en tout 504 statues du Bouddha.",
+        "compare": "Le sommet du monument vu d'avion juste avant : de près, chaque cloche cache un Bouddha.",
+        "image": "images/mouvements/java-et-sumatra/stupas-de-borobudur.jpg",
+        "lieu": "Borobudur et Prambanan",
+        "lieuType": "site"
+      },
+      {
+        "title": "Le navire de Borobudur",
+        "artist": "Sculpteurs de Borobudur",
+        "country": "Indonésie",
+        "period": "vers 800",
+        "museum": "Borobudur, Java central (Indonésie)",
+        "credit": "Borobudur (Indonésie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Borobudur_Ship_-_relief.JPG), photo Andreas Sihono, licence CC BY-SA 3.0",
+        "analysis": "Sur des blocs de pierre grise, un relief montre un grand bateau à voiles, aux mâts inclinés, avec un flotteur sur le côté ; des marins s'activent à bord, et des vagues ondulent sous la coque. Parmi les reliefs de Borobudur, plusieurs montrent des navires à balancier, comme ceux qu'utilisaient les marins de l'archipel pour le commerce au long cours. Ce sont les meilleures images que nous ayons des bateaux d'Asie du Sud-Est à cette époque. En 2003–2004, une réplique construite d'après ces reliefs a navigué de l'Indonésie jusqu'au Ghana, en passant par Madagascar, pour montrer que de tels voyages étaient possibles.",
+        "compare": "Comparez avec les bateaux de l'exposition sur les Vikings : à la même époque, deux peuples de marins, sur deux océans.",
+        "image": "images/mouvements/java-et-sumatra/navire-de-borobudur.jpg",
+        "lieu": "Borobudur et Prambanan",
+        "lieuType": "site"
+      },
+      {
+        "title": "Les temples de Prambanan",
+        "artist": "Bâtisseurs du royaume de Mataram",
+        "country": "Indonésie",
+        "period": "vers 850",
+        "museum": "Prambanan, Java central (Indonésie)",
+        "credit": "Prambanan (Indonésie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Yogyakarta_Indonesia_Prambanan-temple-complex-02.jpg), photo Uwe Aranas (CEphoto), licence CC BY-SA 3.0",
+        "analysis": "Au-dessus d'une prairie et de ruines éparses, un groupe de hautes tours de pierre sombre, pointues et hérissées de petits clochetons, se détache sur un ciel nuageux ; la plus haute est au centre. À quelques dizaines de kilomètres de Borobudur, les rois hindous de Mataram firent élever vers 850 ce grand ensemble dédié aux trois dieux Shiva, Vishnu et Brahma. Le temple de Shiva, au centre, mesure 47 mètres de haut ; plus de deux cents petits temples l'entouraient. Bouddhisme et hindouisme cohabitaient alors à Java, parfois dans les mêmes familles royales. Abîmé par les séismes, dont celui de 2006, le site est patiemment remonté pierre à pierre. Il est inscrit au patrimoine mondial de l'UNESCO depuis 1991.",
+        "compare": "Comparez avec Borobudur, plus haut : deux religions, deux formes, une montagne à gravir et des tours dressées vers le ciel, bâties à quelques décennies d'intervalle.",
+        "image": "images/mouvements/java-et-sumatra/prambanan.jpg",
+        "lieu": "Borobudur et Prambanan",
+        "lieuType": "site"
+      },
+      {
+        "title": "Un relief du Ramayana à Prambanan",
+        "artist": "Sculpteurs de Prambanan",
+        "country": "Indonésie",
+        "period": "vers 850",
+        "museum": "Prambanan, Java central (Indonésie)",
+        "credit": "Prambanan (Indonésie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Candi_Prambanan_-_017_Ramayana_Relief%2C_Siva_Temple_%2812043046146%29.jpg), photo Anandajoti Bhikkhu (Photo Dharma), licence CC BY 2.0",
+        "analysis": "Un long panneau de pierre grise sculpté en fort relief : sous un petit pavillon, des personnages sont assis, entourés d'autres figures accroupies ou debout, de plantes et d'animaux. Sur les balustrades du temple de Shiva, des dizaines de panneaux racontent le Ramayana, la grande épopée indienne : le prince Rama, aidé du singe Hanuman, part délivrer son épouse Sita, enlevée par le démon Ravana. Les sculpteurs javanais y ont mis leurs propres maisons, leurs plantes et leurs animaux. L'histoire est restée vivante à Java : on la joue encore au théâtre d'ombres et en ballet, le soir, devant les temples de Prambanan.",
+        "compare": "Comparez avec les reliefs de l'exposition sur l'art khmer d'Angkor, qui racontent les mêmes épopées indiennes dans un autre style.",
+        "image": "images/mouvements/java-et-sumatra/ramayana-de-prambanan.jpg",
+        "lieu": "Borobudur et Prambanan",
+        "lieuType": "site"
+      },
+      {
+        "title": "Ganesha",
+        "artist": "Bronzier de Java central",
+        "country": "Indonésie",
+        "period": "850–930",
+        "museum": "Rijksmuseum, Amsterdam",
+        "credit": "Rijksmuseum, Amsterdam (AK-MAK-251), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Shiva%2C_Parvati_en_Ganesha_Ganesha%2C_AK-MAK-251.jpg), photo Rijksmuseum, domaine public (CC0)",
+        "analysis": "Une petite statue de bronze sombre, haute de 11 cm : un dieu à tête d'éléphant et à quatre bras est assis sur un coussin de lotus posé sur un socle carré ; une auréole bordée de flammes entoure sa tête. Ganesha, fils de Shiva et de Parvati, est le dieu qui écarte les obstacles ; à Java, on plaçait souvent sa statue près des passages dangereux, gués et carrefours. Selon le Rijksmuseum, ce petit bronze, fait à Java central entre 850 et 930, appartenait à un groupe avec Shiva et Parvati. Beaucoup d'œuvres javanaises sont parties aux Pays-Bas à l'époque coloniale ; l'Indonésie et les Pays-Bas discutent aujourd'hui de restitutions, et plusieurs centaines d'objets ont été rendus en 2023.",
+        "compare": "Les dieux hindous de Prambanan, juste avant, en version miniature, pour un autel de maison ou de voyage.",
+        "image": "images/mouvements/java-et-sumatra/ganesha-javanais.jpg"
+      },
+      {
+        "title": "Bouddha trônant entre deux bodhisattvas",
+        "artist": "Bronzier de Java oriental",
+        "country": "Indonésie",
+        "period": "seconde moitié du Xe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/72498), domaine public (CC0)",
+        "analysis": "Un groupe de bronze verdi, haut de 29 cm : au centre, un Bouddha assis sur un trône, les mains devant la poitrine ; de chaque côté, un personnage plus petit, assis lui aussi. Chacun est abrité par un parasol monté sur une tige. Vers 930, pour des raisons encore discutées, peut-être une éruption du volcan Merapi, le centre du pouvoir javanais quitte la région de Borobudur pour l'est de l'île. Selon le musée, ce bronze date de ce début de la période de Java oriental et montre le Bouddha entre les bodhisattvas Avalokiteshvara et Vajrapani. Le parasol est en Asie le signe des rois et des êtres sacrés.",
+        "compare": "Comparez avec le petit groupe de Srivijaya, au début de l'exposition : deux siècles plus tard, le même sujet, devenu plus riche et plus décoré.",
+        "image": "images/mouvements/java-et-sumatra/bouddha-trone-javanais.jpg"
+      },
+      {
+        "title": "La Prajnaparamita de Java",
+        "artist": "Sculpteur du royaume de Singhasari",
+        "country": "Indonésie",
+        "period": "XIIIe siècle",
+        "museum": "Musée national d'Indonésie, Jakarta",
+        "credit": "Musée national d'Indonésie, Jakarta, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Prajnaparamita_Java_Front.JPG), photo Gunawan Kartapranata, licence CC BY-SA 3.0",
+        "analysis": "Une statue de pierre gris sombre : une femme couronnée, parée de bijoux très fins, est assise jambes croisées sur un coussin de lotus, les mains jointes devant la poitrine dans un geste d'enseignement ; un dossier arrondi s'élève derrière elle. Prajnaparamita est, dans le bouddhisme, la déesse de la sagesse parfaite. Cette statue, trouvée près du temple de Singhasari, à Java oriental, est considérée comme le chef-d'œuvre de la sculpture javanaise ; selon une tradition, elle aurait les traits de la reine Ken Dedes, ancêtre des rois de Singhasari et de Majapahit. Emportée aux Pays-Bas au XIXe siècle, elle a été rendue à l'Indonésie en 1978 et se trouve au musée national de Jakarta.",
+        "compare": "Une œuvre revenue dans son pays : comparez avec le Ganesha du Rijksmuseum, plus haut, resté aux Pays-Bas.",
+        "image": "images/mouvements/java-et-sumatra/prajnaparamita.jpg",
+        "lieu": "Singhasari",
+        "lieuType": "découverte"
+      },
+      {
+        "title": "Le temple de Penataran",
+        "artist": "Bâtisseurs du royaume de Majapahit",
+        "country": "Indonésie",
+        "period": "XIIe – XVe siècle (temple daté de 1369)",
+        "museum": "Penataran, Blitar, Java oriental (Indonésie)",
+        "credit": "Penataran (Indonésie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Bangunan_Utama_Candi_Penataran_di_Blitar.jpg), photo Pandu Aji Wirawan, licence CC BY-SA 4.0",
+        "analysis": "Au milieu d'une esplanade, un petit temple de pierre sombre, étroit et haut, porte un toit à nombreux étages qui se rétrécit vers le sommet ; un escalier mène à sa porte. Au pied du volcan Kelud, Penataran était le grand sanctuaire d'État de Majapahit, dédié à Shiva, « seigneur de la montagne » ; le roi Hayam Wuruk s'y rendit en personne. Ce petit temple porte au-dessus de sa porte la date de 1369. Les temples de Java oriental sont plus étroits et plus élancés que ceux de Borobudur et de Prambanan ; leur silhouette se retrouve aujourd'hui dans les temples de Bali.",
+        "compare": "Comparez avec les tours de Prambanan, plus haut : cinq siècles plus tard, le temple javanais est devenu plus léger.",
+        "image": "images/mouvements/java-et-sumatra/candi-penataran.jpg",
+        "lieu": "Penataran",
+        "lieuType": "site"
+      },
+      {
+        "title": "La porte de Bajang Ratu à Trowulan",
+        "artist": "Bâtisseurs du royaume de Majapahit",
+        "country": "Indonésie",
+        "period": "XIVe siècle",
+        "museum": "Trowulan, Java oriental (Indonésie)",
+        "credit": "Trowulan (Indonésie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Trowulan_Gate%2C_East_Java_1342.JPG), photo Michael Gunther, licence CC BY-SA 4.0",
+        "analysis": "Une haute porte de briques rouges, étroite, surmontée d'un toit en pyramide à nombreux étages, se dresse seule sous un ciel nuageux ; un escalier monte vers son ouverture. Trowulan était la capitale de Majapahit, qui domina au XIVe siècle une grande partie de l'archipel. De cette ville de briques et de bois, sillonnée de canaux, il reste des portes, des bassins et des fondations. Celle-ci, haute d'une quinzaine de mètres, donnait sans doute accès à un lieu sacré. Majapahit s'effaça au début du XVIe siècle devant les sultanats musulmans de la côte ; sa cour et ses artistes se réfugièrent en partie à Bali, où cette forme de porte est toujours construite.",
+        "compare": "Le point d'arrivée de l'exposition : comparez avec les temples de briques de Muaro Jambi, au début ; de Sumatra à Java, huit siècles d'une même civilisation de l'archipel.",
+        "image": "images/mouvements/java-et-sumatra/porte-de-bajang-ratu.jpg",
+        "lieu": "Trowulan",
+        "lieuType": "site"
+      }
+    ],
+    "carte": {
+      "image": "images/mouvements/cartes/java-et-sumatra.svg",
+      "ouest": 95,
+      "est": 116,
+      "sud": -9.8,
+      "nord": 6.5,
+      "lieux": [
+        {
+          "nom": "Palembang",
+          "lat": -2.99,
+          "lon": 104.76
+        },
+        {
+          "nom": "Muaro Jambi",
+          "lat": -1.4775,
+          "lon": 103.667
+        },
+        {
+          "nom": "Dieng",
+          "lat": -7.205,
+          "lon": 109.907
+        },
+        {
+          "nom": "Borobudur et Prambanan",
+          "lat": -7.68,
+          "lon": 110.35
+        },
+        {
+          "nom": "Singhasari",
+          "lat": -7.888,
+          "lon": 112.664
+        },
+        {
+          "nom": "Penataran",
+          "lat": -8.016,
+          "lon": 112.209
+        },
+        {
+          "nom": "Trowulan",
+          "lat": -7.558,
+          "lon": 112.381
+        }
+      ],
+      "pays": [
+        {
+          "nom": "Indonésie",
+          "lat": -0.954,
+          "lon": 101.893
+        },
+        {
+          "nom": "Malaisie",
+          "lat": 2.529,
+          "lon": 113.837
+        }
+      ],
+      "villes": [
+        {
+          "nom": "Jakarta",
+          "lat": -6.172,
+          "lon": 106.827
+        },
+        {
+          "nom": "Singapour",
+          "lat": 1.295,
+          "lon": 103.854
+        },
+        {
+          "nom": "Kuala Lumpur",
+          "lat": 3.14,
+          "lon": 101.689
+        },
+        {
+          "nom": "Bandar Seri Begawan",
+          "lat": 4.883,
+          "lon": 114.933
+        },
+        {
+          "nom": "Surabaya",
+          "lat": -7.247,
+          "lon": 112.749
+        },
+        {
+          "nom": "Bandung",
+          "lat": -6.948,
+          "lon": 107.568
+        },
+        {
+          "nom": "Medan",
+          "lat": 3.582,
+          "lon": 98.648
+        },
+        {
+          "nom": "Palembang",
+          "lat": -2.978,
+          "lon": 104.748
+        },
+        {
+          "nom": "Banjarmasin",
+          "lat": -3.33,
+          "lon": 114.58
+        },
+        {
+          "nom": "George Town",
+          "lat": 5.414,
+          "lon": 100.329
+        }
+      ]
+    }
+  },
+  {
+    "mouvement": "Empire des Tu'i Tonga",
+    "slug": "empire-des-tui-tonga",
+    "status": "published",
+    "title": "L'empire des Tu'i Tonga, une civilisation de l'océan",
+    "subtitle": "Tonga, Xe – XIXe siècle : dix œuvres et sites, de Tongatapu, Dunedin, La Haye, Londres, Washington et New York",
+    "intro": "Au cœur du Pacifique, sur un archipel de petites îles, une dynastie de rois sacrés, les Tu'i Tonga, a bâti le seul empire maritime de Polynésie. Entre le XIIe et le XVe siècle, depuis leur capitale Mu'a, sur l'île de Tongatapu, ils reçoivent le tribut d'îles situées à des centaines de kilomètres, jusqu'aux Samoa et aux Fidji. Ils n'ont ni écriture ni villes de pierre, ce qui en fait une civilisation à part ; mais ils élèvent des monuments de blocs géants, entretiennent des flottes de grandes pirogues doubles et font réciter de mémoire la longue liste de leurs ancêtres. L'exposition, courte faute d'images libres, montre leurs monuments, les premiers témoignages des Européens et des arts toujours vivants : le royaume de Tonga existe encore.",
+    "contexte": [
+      {
+        "title": "Une civilisation à part : pourquoi elle figure ici",
+        "text": "Les historiens réservent d'ordinaire le mot « civilisation » aux sociétés qui ont des villes, un État, des monuments, une écriture, des métiers spécialisés et un commerce lointain. L'empire des Tu'i Tonga ne les réunit pas tous : il n'avait ni écriture ni véritables villes. Mais c'est le seul État de Polynésie à avoir dominé plusieurs archipels pendant des siècles, depuis une capitale, Mu'a, avec une dynastie de rois sacrés, un système de tribut, des tombes royales monumentales et des flottes de grands voiliers. L'écriture y était remplacée par la mémoire : des spécialistes récitaient les généalogies et les récits, transmis de génération en génération. C'est pourquoi cette exposition le présente comme une civilisation à part."
+      },
+      {
+        "title": "Les rois sacrés et leur empire maritime",
+        "text": "Les ancêtres des Tongiens, porteurs de la culture Lapita, arrivent dans l'archipel il y a près de trois mille ans. Selon la tradition, le premier Tu'i Tonga, 'Aho'eitu, fils du dieu Tangaloa et d'une femme de Tonga, règne vers 950. Entre le XIIe et le XVe siècle, ses descendants étendent leur influence sur les Samoa, les Fidji, 'Uvea, Futuna et d'autres îles, qui envoient des tributs, des épouses et des artisans. Chaque année, lors de la cérémonie de l'inasi, les premières récoltes de tout l'archipel sont offertes au roi. Vers 1470, le Tu'i Tonga confie le gouvernement à un second chef et garde un rôle sacré."
+      },
+      {
+        "title": "Un royaume toujours vivant, et ce que l'on voit dans l'exposition",
+        "text": "Le dernier Tu'i Tonga meurt en 1865. Entre-temps, un chef converti au christianisme, Taufa'ahau, a réuni l'archipel et pris en 1845 le nom de George Tupou Ier ; sa constitution de 1875 est toujours en vigueur. Tonga est le seul pays du Pacifique à n'avoir jamais été colonisé, et ses rois actuels descendent des anciennes lignées. Les Tongiens parlent toujours leur langue, fabriquent des tissus d'écorce et partagent le kava lors des cérémonies : cette culture se raconte au présent. Les images libres de droits sont rares : l'exposition est courte. Elle montre les monuments de Tongatapu, photographiés par des visiteurs, des gravures faites par les premiers voyageurs européens, et deux œuvres du Metropolitan Museum."
+      }
+    ],
+    "bibliography": [
+      {
+        "reference": "UNESCO, liste indicative : anciennes capitales du royaume de Tonga"
+      },
+      {
+        "reference": "Patrick Vinton Kirch, On the Road of the Winds: An Archaeological History of the Pacific Islands, University of California Press, 2000"
+      },
+      {
+        "reference": "James Cook, Troisième voyage (1776–1780), journal et gravures d'après John Webber"
+      },
+      {
+        "reference": "Notices du Metropolitan Museum of Art"
+      }
+    ],
+    "works": [
+      {
+        "title": "Tessons de poterie Lapita",
+        "artist": "Potiers de la culture Lapita",
+        "country": "Océanie",
+        "period": "vers 1500–500 av. J.-C.",
+        "museum": "Otago Museum, Dunedin (Nouvelle-Zélande)",
+        "credit": "Otago Museum, Dunedin, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Display_of_objects_of_the_Lapita_culture%2C_Otago_Museum%2C_2016-01-29.jpg), photo Szilas, domaine public",
+        "analysis": "Dans une vitrine de musée, des morceaux de poterie brun-rouge, des outils et de petits objets sont présentés sur des supports blancs, avec leurs étiquettes. Il y a environ trois mille ans, des navigateurs venus d'Asie du Sud-Est par la Mélanésie atteignent les îles Tonga et Samoa. On les reconnaît à leur poterie décorée de motifs imprimés au peigne, appelée Lapita, du nom d'un site de Nouvelle-Calédonie. Ce sont les ancêtres des Polynésiens. À Tonga, le site de Nukuleka, vieux d'environ 2 850 ans, est l'un des plus anciens villages connus de Polynésie.",
+        "compare": "Le point de départ de l'exposition : comparez avec le navire de Borobudur, dans l'exposition sur Java et Sumatra ; les marins de l'archipel indonésien et ceux du Pacifique ont des ancêtres communs.",
+        "image": "images/mouvements/empire-des-tui-tonga/poterie-lapita.jpg"
+      },
+      {
+        "title": "Le trilithe Ha'amonga 'a Maui",
+        "artist": "Bâtisseurs des Tu'i Tonga",
+        "country": "Tonga",
+        "period": "vers 1200",
+        "museum": "Niutoua, Tongatapu (Tonga)",
+        "credit": "Tongatapu (Tonga), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Ha%27amonga_%27a_Maui2.jpg), photo Sarah Kelemen, licence CC BY 2.0",
+        "analysis": "Sur une pelouse bordée d'arbres, deux énormes piliers de pierre grise et rugueuse portent un troisième bloc posé en travers, formant une porte géante. Ce monument fait de trois blocs de calcaire corallien, hauts d'environ cinq mètres et pesant chacun plusieurs dizaines de tonnes, aurait été élevé vers 1200 par le onzième Tu'i Tonga, Tu'itatui. Son nom signifie « le fardeau de Maui », le héros des légendes polynésiennes, censé l'avoir porté sur ses épaules. Il marquait sans doute l'entrée d'une résidence royale. En 1967, le roi Taufa'ahau Tupou IV a proposé qu'il ait aussi servi à repérer les solstices.",
+        "compare": "Comparez avec les portes de Majapahit, dans l'exposition sur Java et Sumatra : ici, pas de briques ni de sculpture, mais trois blocs géants, taillés et dressés sans métal ni roue.",
+        "image": "images/mouvements/empire-des-tui-tonga/haamonga-a-maui.jpg",
+        "lieu": "Tongatapu (Mu'a, Lapaha et Ha'amonga)",
+        "lieuType": "site"
+      },
+      {
+        "title": "Le tombeau royal Paepae 'o Tele'a",
+        "artist": "Bâtisseurs des Tu'i Tonga",
+        "country": "Tonga",
+        "period": "XVIe – XVIIe siècle",
+        "museum": "Lapaha (Mu'a), Tongatapu (Tonga)",
+        "credit": "Lapaha (Tonga), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Paepae_%CA%BBo_Tele%CA%BBa.jpg), photo Tauʻolunga, licence CC BY-SA 3.0",
+        "analysis": "Au milieu de l'herbe et des arbres, une large plateforme à gradins est bordée de très grandes dalles de pierre grise, dressées et parfaitement jointes ; des plantes poussent entre elles. À Lapaha, quartier de l'ancienne capitale Mu'a, au bord du lagon de Tongatapu, les Tu'i Tonga se faisaient enterrer dans de grands tertres à étages appelés langi, « ciel ». On en compte près de trente. Celui-ci, le mieux conservé, est attribué au roi Tele'a. Ses dalles de calcaire corallien, dont certaines sont taillées en angle d'un seul bloc, ont été extraites sur la côte et parfois apportées d'autres îles par bateau : il fallait un pouvoir fort pour organiser un tel travail.",
+        "compare": "Comparez avec les pyramides de l'exposition sur le royaume de Koush : partout, les tombes des rois montrent leur puissance.",
+        "image": "images/mouvements/empire-des-tui-tonga/paepae-o-telea.jpg",
+        "lieu": "Tongatapu (Mu'a, Lapaha et Ha'amonga)",
+        "lieuType": "site"
+      },
+      {
+        "title": "Le langi Tauhala",
+        "artist": "Bâtisseurs des Tu'i Tonga",
+        "country": "Tonga",
+        "period": "XVIe – XVIIe siècle",
+        "museum": "Lapaha (Mu'a), Tongatapu (Tonga)",
+        "credit": "Lapaha (Tonga), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Langi_Tauhala.jpg), photo Tauʻolunga, licence CC BY-SA 3.0",
+        "analysis": "Sous de grands arbres au feuillage sombre, un long muret de dalles de pierre borde une terrasse couverte d'herbe. Ce tombeau voisin possède l'une des plus grandes dalles de Tonga, longue de plus de sept mètres. Les langi étaient réservés aux Tu'i Tonga et à leur famille ; seuls certains spécialistes avaient le droit de préparer les funérailles. Ces tombes sont toujours respectées par les Tongiens, et certaines servent encore à la famille royale : on les regarde de l'extérieur, sans y monter.",
+        "compare": "Le même art des grandes dalles que pour le tombeau précédent : une capitale sans palais de pierre, mais où les morts royaux avaient des monuments.",
+        "image": "images/mouvements/empire-des-tui-tonga/langi-tauhala.jpg",
+        "lieu": "Tongatapu (Mu'a, Lapaha et Ha'amonga)",
+        "lieuType": "site"
+      },
+      {
+        "title": "Les navires de Tasman et une pirogue double à Tongatapu",
+        "artist": "Isaack Gilsemans",
+        "country": "Tonga",
+        "period": "1643",
+        "museum": "Journal d'Abel Tasman, Archives nationales des Pays-Bas, La Haye",
+        "credit": "Journal d'Abel Tasman, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Tasman-dagboek-a.jpg), domaine public",
+        "analysis": "Un dessin à l'encre : au premier plan, un grand bateau fait de deux coques reliées par une plateforme, avec une cabane et une grande voile triangulaire ; plus loin, une petite pirogue de pêche, deux navires européens à l'ancre, et un rivage couvert d'arbres où se tiennent des gens. En janvier 1643, le navigateur néerlandais Abel Tasman fait escale à Tongatapu, où il échange des clous et des tissus contre des vivres. Le dessinateur de l'expédition, Isaack Gilsemans, représente une tongiaki, la grande pirogue double des Tongiens, capable de porter des dizaines de personnes sur des centaines de kilomètres. C'est avec de tels bateaux, puis avec les kalia, plus rapides, que les Tu'i Tonga reliaient leurs îles et celles de leurs voisins.",
+        "compare": "Comparez avec les bateaux de l'exposition sur les Vikings : sans ces grands voiliers, pas d'empire sur la mer.",
+        "image": "images/mouvements/empire-des-tui-tonga/tasman-a-tongatapu.jpg",
+        "lieu": "Tongatapu (Mu'a, Lapaha et Ha'amonga)",
+        "lieuType": "représenté"
+      },
+      {
+        "title": "Paulaho, roi des îles des Amis, buvant le kava",
+        "artist": "William Sharp, d'après John Webber",
+        "country": "Tonga",
+        "period": "1777 (gravure publiée en 1784)",
+        "museum": "Wellcome Collection, Londres",
+        "credit": "Wellcome Collection, Londres, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:A_gathering_at_the_ceremonial_drinking_of_kava_in_the_Friend_Wellcome_V0019243.jpg), licence CC BY 4.0",
+        "analysis": "Une gravure en noir et blanc : sous la haute charpente d'une grande maison ouverte, des hommes sont assis en cercle sur le sol ; au centre, l'un d'eux porte une coupe à ses lèvres pendant qu'un autre prépare la boisson. En 1777, lors de son troisième voyage, le capitaine James Cook passe près de trois mois à Tonga, qu'il appelle « îles des Amis ». Il est reçu par le Tu'i Tonga Paulaho. Le peintre de l'expédition, John Webber, dessine la cérémonie du kava, une boisson tirée d'une racine : l'ordre dans lequel on sert les coupes montre le rang de chacun. Le kava se boit toujours ainsi à Tonga, lors des couronnements, des mariages et des funérailles.",
+        "compare": "L'une des rares images d'un Tu'i Tonga au pouvoir, vu par un Européen : comparez avec l'exposition sur les Aztèques ou les Incas, connus eux aussi en partie par les récits des étrangers.",
+        "image": "images/mouvements/empire-des-tui-tonga/ceremonie-du-kava.jpg",
+        "lieu": "Tongatapu (Mu'a, Lapaha et Ha'amonga)",
+        "lieuType": "représenté"
+      },
+      {
+        "title": "La cérémonie de l'inasi à Tongatapu",
+        "artist": "William Angus, d'après John Webber",
+        "country": "Tonga",
+        "period": "1777 (gravure publiée vers 1785)",
+        "museum": "Bibliothèque du Congrès, Washington",
+        "credit": "Bibliothèque du Congrès, Washington, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:The_Natche%2C_a_ceremony_in_honour_of_the_Kings_son_in_Tongataboo_%28i.e._Tongatabu%29_-_Webber_del._%3B_Angus_sc._LCCN90716650.tif), domaine public",
+        "analysis": "Une gravure : dans une clairière entourée de grands arbres, une longue file d'hommes avance en portant des perches sur l'épaule ; d'autres sont assis en rangs, devant un tertre couvert d'herbe. Cook assista en 1777 à une grande cérémonie donnée pour le fils du Tu'i Tonga, qu'il nomme « Natche » : c'est l'inasi. Lors de cette fête, les habitants de toutes les îles apportaient au roi sacré les premières ignames et d'autres offrandes, portées sur des perches, pour obtenir la fertilité des terres. Ce tribut, versé jusque depuis les Samoa et les Fidji au temps de l'empire, était le lien qui unissait les îles au Tu'i Tonga.",
+        "compare": "Comparez avec les porteurs de tribut de Persépolis, dans l'exposition sur la Perse ancienne : le même défilé d'offrandes vers un roi, sur une île du Pacifique.",
+        "image": "images/mouvements/empire-des-tui-tonga/ceremonie-de-l-inasi.jpg",
+        "lieu": "Tongatapu (Mu'a, Lapaha et Ha'amonga)",
+        "lieuType": "représenté"
+      },
+      {
+        "title": "Massue ('akau)",
+        "artist": "Sculpteur tongien",
+        "country": "Tonga",
+        "period": "XIXe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/313589), domaine public (CC0)",
+        "analysis": "Une longue massue de bois sombre, de près de 90 cm, étroite à la poignée et élargie vers le bout ; toute sa surface est couverte de fins motifs gravés en bandes. Les massues étaient les armes des guerriers tongiens, mais aussi des objets de prestige, transmis dans les familles de chefs. Des sculpteurs spécialisés les couvraient de motifs géométriques gravés avec une dent de requin, puis, après l'arrivée des Européens, avec un clou. On y trouve parfois de minuscules figures d'hommes ou d'animaux cachées dans le décor.",
+        "compare": "Des artisans spécialisés au service des chefs : l'un des signes d'une société très hiérarchisée.",
+        "image": "images/mouvements/empire-des-tui-tonga/massue-tongienne.jpg"
+      },
+      {
+        "title": "Figure féminine en ivoire ('otua fefine)",
+        "artist": "Sculpteur des îles Ha'apai",
+        "country": "Tonga",
+        "period": "début du XIXe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/313658), domaine public (CC0)",
+        "analysis": "Une petite statuette d'ivoire couleur miel, haute de 13 cm : une femme nue, debout, aux épaules larges, les bras le long du corps et les genoux légèrement fléchis ; le visage est simple, avec de grands sourcils. Sculptée dans une dent de cachalot, matière très précieuse à Tonga, cette figure vient des îles Ha'apai. Selon le musée, elle représente une divinité ou une ancêtre ; on portait certaines de ces figures en pendentif, et d'autres étaient gardées dans des maisons sacrées. Après la conversion de l'archipel au christianisme, dans les années 1830, la plupart furent détruites : il n'en reste que très peu dans le monde.",
+        "compare": "L'une des rares images des anciennes croyances tongiennes : comparez avec les pendentifs de l'exposition sur les Vikings, eux aussi témoins d'une religion remplacée par le christianisme.",
+        "sensible": true,
+        "image": "images/mouvements/empire-des-tui-tonga/otua-fefine.jpg",
+        "lieu": "Ha'apai",
+        "lieuType": "origine"
+      },
+      {
+        "title": "La peinture d'un tissu d'écorce (ngatu) à Tongatapu",
+        "artist": "Ruth Bookman (photographie)",
+        "country": "Tonga",
+        "period": "1969",
+        "museum": "Tongatapu (Tonga)",
+        "credit": "Tongatapu (Tonga), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Painting_barkcloth_%28tapa%29_in_Tonga_%28Tongatapu%29_1969.jpg), photo Ruth Bookman, licence CC BY-SA 4.0",
+        "analysis": "Une photographie en noir et blanc : dans un hangar, deux femmes sont assises sur une immense étoffe claire étalée sur le sol, couverte de motifs ; l'une d'elles peint, un petit pot posé près d'elle. Le ngatu est un tissu fait d'écorce de mûrier à papier, battue, assemblée en très grandes pièces, puis décorée de motifs par des groupes de femmes. C'est l'une des plus grandes richesses d'une famille tongienne : on l'offre lors des mariages, des funérailles et des cérémonies royales, comme autrefois au Tu'i Tonga. Cette photo de 1969 montre que cet art est toujours vivant ; il se pratique encore aujourd'hui dans les villages de Tonga et dans les communautés tongiennes du monde entier.",
+        "compare": "Le point d'arrivée de l'exposition : l'empire a disparu, mais le royaume, sa langue et ses arts sont toujours là ; c'est une civilisation que l'on raconte au présent.",
+        "image": "images/mouvements/empire-des-tui-tonga/fabrication-du-ngatu.jpg",
+        "lieu": "Tongatapu (Mu'a, Lapaha et Ha'amonga)",
+        "lieuType": "représenté"
+      }
+    ],
+    "carte": {
+      "image": "images/mouvements/cartes/empire-des-tui-tonga.svg",
+      "ouest": -177.6,
+      "est": -170.9,
+      "sud": -21.8,
+      "nord": -13.1,
+      "lieux": [
+        {
+          "nom": "Tongatapu (Mu'a, Lapaha et Ha'amonga)",
+          "lat": -21.17,
+          "lon": -175.1
+        },
+        {
+          "nom": "Ha'apai",
+          "lat": -19.8,
+          "lon": -174.35
+        }
+      ],
+      "note": "Au temps de l'empire, l'influence des Tu'i Tonga s'étendait aux Samoa et à 'Uvea (Wallis), visibles en haut de la carte, ainsi qu'à Futuna, à Niue et jusqu'aux îles Fidji, hors du cadre.",
+      "pays": [],
+      "villes": [
+        {
+          "nom": "Apia",
+          "lat": -13.836,
+          "lon": -171.769
+        },
+        {
+          "nom": "Nukuʻalofa",
+          "lat": -21.139,
+          "lon": -175.221
+        },
+        {
+          "nom": "Neiafu",
+          "lat": -18.65,
+          "lon": -173.983
         }
       ]
     }

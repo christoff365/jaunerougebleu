@@ -16786,5 +16786,208 @@
         }
       ]
     }
+  },
+  {
+    "mouvement": "Empire des Tu'i Tonga",
+    "slug": "empire-des-tui-tonga",
+    "status": "published",
+    "title": "L'empire des Tu'i Tonga, une civilisation de l'océan",
+    "subtitle": "Tonga, Xe – XIXe siècle : dix œuvres et sites, de Tongatapu, Dunedin, La Haye, Londres, Washington et New York",
+    "intro": "Au cœur du Pacifique, sur un archipel de petites îles, une dynastie de rois sacrés, les Tu'i Tonga, a bâti le seul empire maritime de Polynésie. Entre le XIIe et le XVe siècle, depuis leur capitale Mu'a, sur l'île de Tongatapu, ils reçoivent le tribut d'îles situées à des centaines de kilomètres, jusqu'aux Samoa et aux Fidji. Ils n'ont ni écriture ni villes de pierre, ce qui en fait une civilisation à part ; mais ils élèvent des monuments de blocs géants, entretiennent des flottes de grandes pirogues doubles et font réciter de mémoire la longue liste de leurs ancêtres. L'exposition, courte faute d'images libres, montre leurs monuments, les premiers témoignages des Européens et des arts toujours vivants : le royaume de Tonga existe encore.",
+    "contexte": [
+      {
+        "title": "Une civilisation à part : pourquoi elle figure ici",
+        "text": "Les historiens réservent d'ordinaire le mot « civilisation » aux sociétés qui ont des villes, un État, des monuments, une écriture, des métiers spécialisés et un commerce lointain. L'empire des Tu'i Tonga ne les réunit pas tous : il n'avait ni écriture ni véritables villes. Mais c'est le seul État de Polynésie à avoir dominé plusieurs archipels pendant des siècles, depuis une capitale, Mu'a, avec une dynastie de rois sacrés, un système de tribut, des tombes royales monumentales et des flottes de grands voiliers. L'écriture y était remplacée par la mémoire : des spécialistes récitaient les généalogies et les récits, transmis de génération en génération. C'est pourquoi cette exposition le présente comme une civilisation à part."
+      },
+      {
+        "title": "Les rois sacrés et leur empire maritime",
+        "text": "Les ancêtres des Tongiens, porteurs de la culture Lapita, arrivent dans l'archipel il y a près de trois mille ans. Selon la tradition, le premier Tu'i Tonga, 'Aho'eitu, fils du dieu Tangaloa et d'une femme de Tonga, règne vers 950. Entre le XIIe et le XVe siècle, ses descendants étendent leur influence sur les Samoa, les Fidji, 'Uvea, Futuna et d'autres îles, qui envoient des tributs, des épouses et des artisans. Chaque année, lors de la cérémonie de l'inasi, les premières récoltes de tout l'archipel sont offertes au roi. Vers 1470, le Tu'i Tonga confie le gouvernement à un second chef et garde un rôle sacré."
+      },
+      {
+        "title": "Un royaume toujours vivant, et ce que l'on voit dans l'exposition",
+        "text": "Le dernier Tu'i Tonga meurt en 1865. Entre-temps, un chef converti au christianisme, Taufa'ahau, a réuni l'archipel et pris en 1845 le nom de George Tupou Ier ; sa constitution de 1875 est toujours en vigueur. Tonga est le seul pays du Pacifique à n'avoir jamais été colonisé, et ses rois actuels descendent des anciennes lignées. Les Tongiens parlent toujours leur langue, fabriquent des tissus d'écorce et partagent le kava lors des cérémonies : cette culture se raconte au présent. Les images libres de droits sont rares : l'exposition est courte. Elle montre les monuments de Tongatapu, photographiés par des visiteurs, des gravures faites par les premiers voyageurs européens, et deux œuvres du Metropolitan Museum."
+      }
+    ],
+    "bibliography": [
+      {
+        "reference": "UNESCO, liste indicative : anciennes capitales du royaume de Tonga"
+      },
+      {
+        "reference": "Patrick Vinton Kirch, On the Road of the Winds: An Archaeological History of the Pacific Islands, University of California Press, 2000"
+      },
+      {
+        "reference": "James Cook, Troisième voyage (1776–1780), journal et gravures d'après John Webber"
+      },
+      {
+        "reference": "Notices du Metropolitan Museum of Art"
+      }
+    ],
+    "works": [
+      {
+        "title": "Tessons de poterie Lapita",
+        "artist": "Potiers de la culture Lapita",
+        "country": "Océanie",
+        "period": "vers 1500–500 av. J.-C.",
+        "museum": "Otago Museum, Dunedin (Nouvelle-Zélande)",
+        "credit": "Otago Museum, Dunedin, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Display_of_objects_of_the_Lapita_culture%2C_Otago_Museum%2C_2016-01-29.jpg), photo Szilas, domaine public",
+        "analysis": "Dans une vitrine de musée, des morceaux de poterie brun-rouge, des outils et de petits objets sont présentés sur des supports blancs, avec leurs étiquettes. Il y a environ trois mille ans, des navigateurs venus d'Asie du Sud-Est par la Mélanésie atteignent les îles Tonga et Samoa. On les reconnaît à leur poterie décorée de motifs imprimés au peigne, appelée Lapita, du nom d'un site de Nouvelle-Calédonie. Ce sont les ancêtres des Polynésiens. À Tonga, le site de Nukuleka, vieux d'environ 2 850 ans, est l'un des plus anciens villages connus de Polynésie.",
+        "compare": "Le point de départ de l'exposition : comparez avec le navire de Borobudur, dans l'exposition sur Java et Sumatra ; les marins de l'archipel indonésien et ceux du Pacifique ont des ancêtres communs.",
+        "image": "images/mouvements/empire-des-tui-tonga/poterie-lapita.jpg"
+      },
+      {
+        "title": "Le trilithe Ha'amonga 'a Maui",
+        "artist": "Bâtisseurs des Tu'i Tonga",
+        "country": "Tonga",
+        "period": "vers 1200",
+        "museum": "Niutoua, Tongatapu (Tonga)",
+        "credit": "Tongatapu (Tonga), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Ha%27amonga_%27a_Maui2.jpg), photo Sarah Kelemen, licence CC BY 2.0",
+        "analysis": "Sur une pelouse bordée d'arbres, deux énormes piliers de pierre grise et rugueuse portent un troisième bloc posé en travers, formant une porte géante. Ce monument fait de trois blocs de calcaire corallien, hauts d'environ cinq mètres et pesant chacun plusieurs dizaines de tonnes, aurait été élevé vers 1200 par le onzième Tu'i Tonga, Tu'itatui. Son nom signifie « le fardeau de Maui », le héros des légendes polynésiennes, censé l'avoir porté sur ses épaules. Il marquait sans doute l'entrée d'une résidence royale. En 1967, le roi Taufa'ahau Tupou IV a proposé qu'il ait aussi servi à repérer les solstices.",
+        "compare": "Comparez avec les portes de Majapahit, dans l'exposition sur Java et Sumatra : ici, pas de briques ni de sculpture, mais trois blocs géants, taillés et dressés sans métal ni roue.",
+        "image": "images/mouvements/empire-des-tui-tonga/haamonga-a-maui.jpg",
+        "lieu": "Tongatapu (Mu'a, Lapaha et Ha'amonga)",
+        "lieuType": "site"
+      },
+      {
+        "title": "Le tombeau royal Paepae 'o Tele'a",
+        "artist": "Bâtisseurs des Tu'i Tonga",
+        "country": "Tonga",
+        "period": "XVIe – XVIIe siècle",
+        "museum": "Lapaha (Mu'a), Tongatapu (Tonga)",
+        "credit": "Lapaha (Tonga), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Paepae_%CA%BBo_Tele%CA%BBa.jpg), photo Tauʻolunga, licence CC BY-SA 3.0",
+        "analysis": "Au milieu de l'herbe et des arbres, une large plateforme à gradins est bordée de très grandes dalles de pierre grise, dressées et parfaitement jointes ; des plantes poussent entre elles. À Lapaha, quartier de l'ancienne capitale Mu'a, au bord du lagon de Tongatapu, les Tu'i Tonga se faisaient enterrer dans de grands tertres à étages appelés langi, « ciel ». On en compte près de trente. Celui-ci, le mieux conservé, est attribué au roi Tele'a. Ses dalles de calcaire corallien, dont certaines sont taillées en angle d'un seul bloc, ont été extraites sur la côte et parfois apportées d'autres îles par bateau : il fallait un pouvoir fort pour organiser un tel travail.",
+        "compare": "Comparez avec les pyramides de l'exposition sur le royaume de Koush : partout, les tombes des rois montrent leur puissance.",
+        "image": "images/mouvements/empire-des-tui-tonga/paepae-o-telea.jpg",
+        "lieu": "Tongatapu (Mu'a, Lapaha et Ha'amonga)",
+        "lieuType": "site"
+      },
+      {
+        "title": "Le langi Tauhala",
+        "artist": "Bâtisseurs des Tu'i Tonga",
+        "country": "Tonga",
+        "period": "XVIe – XVIIe siècle",
+        "museum": "Lapaha (Mu'a), Tongatapu (Tonga)",
+        "credit": "Lapaha (Tonga), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Langi_Tauhala.jpg), photo Tauʻolunga, licence CC BY-SA 3.0",
+        "analysis": "Sous de grands arbres au feuillage sombre, un long muret de dalles de pierre borde une terrasse couverte d'herbe. Ce tombeau voisin possède l'une des plus grandes dalles de Tonga, longue de plus de sept mètres. Les langi étaient réservés aux Tu'i Tonga et à leur famille ; seuls certains spécialistes avaient le droit de préparer les funérailles. Ces tombes sont toujours respectées par les Tongiens, et certaines servent encore à la famille royale : on les regarde de l'extérieur, sans y monter.",
+        "compare": "Le même art des grandes dalles que pour le tombeau précédent : une capitale sans palais de pierre, mais où les morts royaux avaient des monuments.",
+        "image": "images/mouvements/empire-des-tui-tonga/langi-tauhala.jpg",
+        "lieu": "Tongatapu (Mu'a, Lapaha et Ha'amonga)",
+        "lieuType": "site"
+      },
+      {
+        "title": "Les navires de Tasman et une pirogue double à Tongatapu",
+        "artist": "Isaack Gilsemans",
+        "country": "Tonga",
+        "period": "1643",
+        "museum": "Journal d'Abel Tasman, Archives nationales des Pays-Bas, La Haye",
+        "credit": "Journal d'Abel Tasman, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Tasman-dagboek-a.jpg), domaine public",
+        "analysis": "Un dessin à l'encre : au premier plan, un grand bateau fait de deux coques reliées par une plateforme, avec une cabane et une grande voile triangulaire ; plus loin, une petite pirogue de pêche, deux navires européens à l'ancre, et un rivage couvert d'arbres où se tiennent des gens. En janvier 1643, le navigateur néerlandais Abel Tasman fait escale à Tongatapu, où il échange des clous et des tissus contre des vivres. Le dessinateur de l'expédition, Isaack Gilsemans, représente une tongiaki, la grande pirogue double des Tongiens, capable de porter des dizaines de personnes sur des centaines de kilomètres. C'est avec de tels bateaux, puis avec les kalia, plus rapides, que les Tu'i Tonga reliaient leurs îles et celles de leurs voisins.",
+        "compare": "Comparez avec les bateaux de l'exposition sur les Vikings : sans ces grands voiliers, pas d'empire sur la mer.",
+        "image": "images/mouvements/empire-des-tui-tonga/tasman-a-tongatapu.jpg",
+        "lieu": "Tongatapu (Mu'a, Lapaha et Ha'amonga)",
+        "lieuType": "représenté"
+      },
+      {
+        "title": "Paulaho, roi des îles des Amis, buvant le kava",
+        "artist": "William Sharp, d'après John Webber",
+        "country": "Tonga",
+        "period": "1777 (gravure publiée en 1784)",
+        "museum": "Wellcome Collection, Londres",
+        "credit": "Wellcome Collection, Londres, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:A_gathering_at_the_ceremonial_drinking_of_kava_in_the_Friend_Wellcome_V0019243.jpg), licence CC BY 4.0",
+        "analysis": "Une gravure en noir et blanc : sous la haute charpente d'une grande maison ouverte, des hommes sont assis en cercle sur le sol ; au centre, l'un d'eux porte une coupe à ses lèvres pendant qu'un autre prépare la boisson. En 1777, lors de son troisième voyage, le capitaine James Cook passe près de trois mois à Tonga, qu'il appelle « îles des Amis ». Il est reçu par le Tu'i Tonga Paulaho. Le peintre de l'expédition, John Webber, dessine la cérémonie du kava, une boisson tirée d'une racine : l'ordre dans lequel on sert les coupes montre le rang de chacun. Le kava se boit toujours ainsi à Tonga, lors des couronnements, des mariages et des funérailles.",
+        "compare": "L'une des rares images d'un Tu'i Tonga au pouvoir, vu par un Européen : comparez avec l'exposition sur les Aztèques ou les Incas, connus eux aussi en partie par les récits des étrangers.",
+        "image": "images/mouvements/empire-des-tui-tonga/ceremonie-du-kava.jpg",
+        "lieu": "Tongatapu (Mu'a, Lapaha et Ha'amonga)",
+        "lieuType": "représenté"
+      },
+      {
+        "title": "La cérémonie de l'inasi à Tongatapu",
+        "artist": "William Angus, d'après John Webber",
+        "country": "Tonga",
+        "period": "1777 (gravure publiée vers 1785)",
+        "museum": "Bibliothèque du Congrès, Washington",
+        "credit": "Bibliothèque du Congrès, Washington, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:The_Natche%2C_a_ceremony_in_honour_of_the_Kings_son_in_Tongataboo_%28i.e._Tongatabu%29_-_Webber_del._%3B_Angus_sc._LCCN90716650.tif), domaine public",
+        "analysis": "Une gravure : dans une clairière entourée de grands arbres, une longue file d'hommes avance en portant des perches sur l'épaule ; d'autres sont assis en rangs, devant un tertre couvert d'herbe. Cook assista en 1777 à une grande cérémonie donnée pour le fils du Tu'i Tonga, qu'il nomme « Natche » : c'est l'inasi. Lors de cette fête, les habitants de toutes les îles apportaient au roi sacré les premières ignames et d'autres offrandes, portées sur des perches, pour obtenir la fertilité des terres. Ce tribut, versé jusque depuis les Samoa et les Fidji au temps de l'empire, était le lien qui unissait les îles au Tu'i Tonga.",
+        "compare": "Comparez avec les porteurs de tribut de Persépolis, dans l'exposition sur la Perse ancienne : le même défilé d'offrandes vers un roi, sur une île du Pacifique.",
+        "image": "images/mouvements/empire-des-tui-tonga/ceremonie-de-l-inasi.jpg",
+        "lieu": "Tongatapu (Mu'a, Lapaha et Ha'amonga)",
+        "lieuType": "représenté"
+      },
+      {
+        "title": "Massue ('akau)",
+        "artist": "Sculpteur tongien",
+        "country": "Tonga",
+        "period": "XIXe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/313589), domaine public (CC0)",
+        "analysis": "Une longue massue de bois sombre, de près de 90 cm, étroite à la poignée et élargie vers le bout ; toute sa surface est couverte de fins motifs gravés en bandes. Les massues étaient les armes des guerriers tongiens, mais aussi des objets de prestige, transmis dans les familles de chefs. Des sculpteurs spécialisés les couvraient de motifs géométriques gravés avec une dent de requin, puis, après l'arrivée des Européens, avec un clou. On y trouve parfois de minuscules figures d'hommes ou d'animaux cachées dans le décor.",
+        "compare": "Des artisans spécialisés au service des chefs : l'un des signes d'une société très hiérarchisée.",
+        "image": "images/mouvements/empire-des-tui-tonga/massue-tongienne.jpg"
+      },
+      {
+        "title": "Figure féminine en ivoire ('otua fefine)",
+        "artist": "Sculpteur des îles Ha'apai",
+        "country": "Tonga",
+        "period": "début du XIXe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/313658), domaine public (CC0)",
+        "analysis": "Une petite statuette d'ivoire couleur miel, haute de 13 cm : une femme nue, debout, aux épaules larges, les bras le long du corps et les genoux légèrement fléchis ; le visage est simple, avec de grands sourcils. Sculptée dans une dent de cachalot, matière très précieuse à Tonga, cette figure vient des îles Ha'apai. Selon le musée, elle représente une divinité ou une ancêtre ; on portait certaines de ces figures en pendentif, et d'autres étaient gardées dans des maisons sacrées. Après la conversion de l'archipel au christianisme, dans les années 1830, la plupart furent détruites : il n'en reste que très peu dans le monde.",
+        "compare": "L'une des rares images des anciennes croyances tongiennes : comparez avec les pendentifs de l'exposition sur les Vikings, eux aussi témoins d'une religion remplacée par le christianisme.",
+        "sensible": true,
+        "image": "images/mouvements/empire-des-tui-tonga/otua-fefine.jpg",
+        "lieu": "Ha'apai",
+        "lieuType": "origine"
+      },
+      {
+        "title": "La peinture d'un tissu d'écorce (ngatu) à Tongatapu",
+        "artist": "Ruth Bookman (photographie)",
+        "country": "Tonga",
+        "period": "1969",
+        "museum": "Tongatapu (Tonga)",
+        "credit": "Tongatapu (Tonga), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Painting_barkcloth_%28tapa%29_in_Tonga_%28Tongatapu%29_1969.jpg), photo Ruth Bookman, licence CC BY-SA 4.0",
+        "analysis": "Une photographie en noir et blanc : dans un hangar, deux femmes sont assises sur une immense étoffe claire étalée sur le sol, couverte de motifs ; l'une d'elles peint, un petit pot posé près d'elle. Le ngatu est un tissu fait d'écorce de mûrier à papier, battue, assemblée en très grandes pièces, puis décorée de motifs par des groupes de femmes. C'est l'une des plus grandes richesses d'une famille tongienne : on l'offre lors des mariages, des funérailles et des cérémonies royales, comme autrefois au Tu'i Tonga. Cette photo de 1969 montre que cet art est toujours vivant ; il se pratique encore aujourd'hui dans les villages de Tonga et dans les communautés tongiennes du monde entier.",
+        "compare": "Le point d'arrivée de l'exposition : l'empire a disparu, mais le royaume, sa langue et ses arts sont toujours là ; c'est une civilisation que l'on raconte au présent.",
+        "image": "images/mouvements/empire-des-tui-tonga/fabrication-du-ngatu.jpg",
+        "lieu": "Tongatapu (Mu'a, Lapaha et Ha'amonga)",
+        "lieuType": "représenté"
+      }
+    ],
+    "carte": {
+      "image": "images/mouvements/cartes/empire-des-tui-tonga.svg",
+      "ouest": -177.6,
+      "est": -170.9,
+      "sud": -21.8,
+      "nord": -13.1,
+      "lieux": [
+        {
+          "nom": "Tongatapu (Mu'a, Lapaha et Ha'amonga)",
+          "lat": -21.17,
+          "lon": -175.1
+        },
+        {
+          "nom": "Ha'apai",
+          "lat": -19.8,
+          "lon": -174.35
+        }
+      ],
+      "note": "Au temps de l'empire, l'influence des Tu'i Tonga s'étendait aux Samoa et à 'Uvea (Wallis), visibles en haut de la carte, ainsi qu'à Futuna, à Niue et jusqu'aux îles Fidji, hors du cadre.",
+      "pays": [],
+      "villes": [
+        {
+          "nom": "Apia",
+          "lat": -13.836,
+          "lon": -171.769
+        },
+        {
+          "nom": "Nukuʻalofa",
+          "lat": -21.139,
+          "lon": -175.221
+        },
+        {
+          "nom": "Neiafu",
+          "lat": -18.65,
+          "lon": -173.983
+        }
+      ]
+    }
   }
 ]

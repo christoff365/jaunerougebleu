@@ -15221,5 +15221,436 @@
         }
       ]
     }
+  },
+  {
+    "mouvement": "Japon, des origines à 1868",
+    "slug": "japon",
+    "status": "published",
+    "title": "Japon, des origines à 1868",
+    "subtitle": "De l'époque Jōmon à l'ouverture du pays : vingt et une œuvres et sites du Japon, de Tokyo, Kyushu et New York",
+    "intro": "Sur un archipel au large de la Corée et de la Chine, une civilisation s'est formée en recevant beaucoup du continent, l'écriture, le bouddhisme, les arts, et en les transformant à sa manière. L'exposition suit cette histoire depuis les chasseurs de l'époque Jōmon, parmi les premiers potiers du monde, les rizières de l'époque Yayoi et les grands tumulus des premiers rois, jusqu'aux temples de Nara, à la cour raffinée de Heian, au temps des samouraïs et du zen, puis à la longue paix d'Edo. Elle rappelle aussi les peuples du nord et du sud de l'archipel, les Aïnous et le royaume de Ryūkyū, et se termine en 1868, quand le Japon s'ouvre au monde et entre dans l'ère Meiji. Certaines œuvres, prises dans les expositions sur l'ukiyo-e, l'école Rinpa ou l'école Kanō, sont présentées ici dans leur contexte historique.",
+    "contexte": [
+      {
+        "title": "Un archipel au bord du continent",
+        "text": "Le Japon est un archipel de montagnes et de volcans, au large de la Corée et de la Chine. Ses premiers habitants connus, les hommes de l'époque Jōmon, étaient des chasseurs, pêcheurs et cueilleurs ; ils fabriquaient déjà, il y a plus de quinze mille ans, l'une des plus anciennes poteries du monde. Vers le Xe siècle av. J.-C., des immigrants venus du continent apportent la culture du riz en rizières inondées, puis le bronze et le fer : c'est l'époque Yayoi. Du IIIe au VIIe siècle, l'époque Kofun voit apparaître des chefs puissants, enterrés sous d'immenses tumulus, d'où sortira la lignée des empereurs."
+      },
+      {
+        "title": "La cour, le bouddhisme et l'écriture",
+        "text": "Au VIe siècle, le bouddhisme arrive de Corée, avec l'écriture chinoise, l'architecture et l'art de gouverner du continent. Il cohabite avec le shintō, le culte des kami, les divinités de la nature et des ancêtres. Les empereurs fondent des capitales sur le modèle chinois : Nara en 710, puis Heian, l'actuelle Kyoto, en 794. À la cour de Heian, des femmes écrivent avec les kana, une écriture syllabique créée au Japon, des chefs-d'œuvre comme le Dit du Genji de Murasaki Shikibu, au début du XIe siècle. La culture japonaise prend alors une forme propre."
+      },
+      {
+        "title": "Le temps des samouraïs",
+        "text": "À partir de 1185, le pouvoir réel passe aux guerriers, les samouraïs, et à leur chef, le shogun, tandis que l'empereur garde un rôle religieux et symbolique. Le bouddhisme zen, venu de Chine, inspire la peinture à l'encre, les jardins de pierre, la cérémonie du thé et le théâtre nô. Après plus d'un siècle de guerres entre seigneurs, trois chefs, Oda Nobunaga, Toyotomi Hideyoshi et Tokugawa Ieyasu, réunifient le pays à la fin du XVIe siècle. C'est aussi l'époque des premiers Européens : des marchands portugais en 1543, puis des missionnaires chrétiens."
+      },
+      {
+        "title": "Edo, l'archipel fermé puis ouvert, et ce que l'on voit dans l'exposition",
+        "text": "De 1603 à 1868, les shoguns Tokugawa gouvernent depuis Edo, l'actuelle Tokyo. Ils interdisent le christianisme et limitent fortement le commerce avec l'étranger : seuls les Chinois et les Néerlandais peuvent venir, à Nagasaki. Le pays connaît deux siècles et demi de paix ; les villes grandissent, et leur culture produit le kabuki et les estampes ukiyo-e. Au nord vivent les Aïnous, un peuple autochtone ; au sud, le royaume de Ryūkyū, l'actuelle Okinawa, passe sous la domination japonaise. En 1853, les navires américains du commodore Perry obligent le Japon à s'ouvrir ; en 1868, l'empereur reprend le pouvoir : c'est le début de l'ère Meiji. L'exposition réunit des œuvres du musée national de Tokyo et du musée national de Kyushu, publiées sous licence CC BY 4.0, du Metropolitan Museum, et des photos de sites sous licence libre."
+      }
+    ],
+    "bibliography": [
+      {
+        "reference": "UNESCO, Patrimoine mondial : groupe de kofun de Mozu-Furuichi",
+        "url": "https://whc.unesco.org/fr/list/1593"
+      },
+      {
+        "reference": "UNESCO, Patrimoine mondial : monuments bouddhiques de la région de Hōryū-ji",
+        "url": "https://whc.unesco.org/fr/list/660"
+      },
+      {
+        "reference": "UNESCO, Patrimoine mondial : monuments historiques de l'ancienne Nara",
+        "url": "https://whc.unesco.org/fr/list/870"
+      },
+      {
+        "reference": "UNESCO, Patrimoine mondial : monuments historiques de l'ancienne Kyoto",
+        "url": "https://whc.unesco.org/fr/list/688"
+      },
+      {
+        "reference": "UNESCO, Patrimoine mondial : Himeji-jo",
+        "url": "https://whc.unesco.org/fr/list/661"
+      },
+      {
+        "reference": "Musée national de Tokyo et musée national de Kyushu, notices ColBase",
+        "url": "https://colbase.nich.go.jp/"
+      },
+      {
+        "reference": "Notices du Metropolitan Museum of Art"
+      },
+      {
+        "reference": "Murasaki Shikibu, Le Dit du Genji, début du XIe siècle"
+      }
+    ],
+    "works": [
+      {
+        "title": "Grand vase profond de l'époque Jōmon",
+        "artist": "Potier de l'époque Jōmon",
+        "country": "Japon",
+        "period": "vers 3500–2500 av. J.-C.",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/39660), domaine public (CC0)",
+        "analysis": "Un grand vase de terre cuite brune, haut d'environ 70 cm, en forme de cylindre qui s'évase vers le haut. Toute sa surface est couverte de fines empreintes en lignes obliques ; le bord est découpé en reliefs et en boucles. « Jōmon » veut dire « marque de corde » : les potiers roulaient des cordelettes sur l'argile encore molle, comme on le voit ici. Les hommes de cette époque, chasseurs, pêcheurs et cueilleurs, ont fabriqué pendant plus de dix mille ans l'une des plus anciennes poteries du monde. Ils cuisaient leurs vases sans four, dans un feu à l'air libre, et s'en servaient pour cuire les aliments. Les bords très décorés, typiques du Jōmon moyen, montrent que ces objets du quotidien étaient aussi des œuvres d'art.",
+        "compare": "Le point de départ de l'exposition : avant les rizières et les empereurs, un peuple de chasseurs qui fut parmi les premiers potiers de l'humanité.",
+        "image": "images/mouvements/japon/vase-jomon.jpg"
+      },
+      {
+        "title": "Figurine dogū aux yeux « en lunettes de neige »",
+        "artist": "Potier de l'époque Jōmon",
+        "country": "Japon",
+        "period": "vers 1000–400 av. J.-C.",
+        "museum": "Musée national de Tokyo",
+        "credit": "Musée national de Tokyo, ColBase (https://colbase.nich.go.jp/collection_items/tnm/J-38392), licence CC BY 4.0",
+        "analysis": "Une figurine de terre cuite brun-gris, haute de 34 cm : d'énormes yeux en forme de lunettes occupent le visage ; les épaules sont larges, la taille fine, le corps couvert de motifs gravés. Une jambe manque. Ce dogū, l'un des plus célèbres du Japon, doit son surnom à ses yeux qui rappellent des lunettes de neige ; on pense aujourd'hui que ce sont simplement des yeux exagérés. Selon la notice du musée, les dogū représentent des femmes et servaient sans doute dans des rites pour demander des naissances heureuses et de bonnes récoltes. Des traces de rouge montrent qu'il était peint.",
+        "compare": "La même image figure dans l'exposition « Croyances et spiritualités du monde » : ici, elle montre que les chasseurs du Jōmon avaient déjà leurs croyances et leurs rites.",
+        "image": "images/mouvements/japon/dogu.jpg"
+      },
+      {
+        "title": "Cloche de bronze dōtaku",
+        "artist": "Fondeur de l'époque Yayoi",
+        "country": "Japon",
+        "period": "Ier – IIe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/44831), domaine public (CC0)",
+        "analysis": "Une grande cloche de bronze verdi, haute de 110 cm, aplatie, surmontée d'une anse en arc ornée de petites spirales ; des bandes de lignes et de motifs en relief font le tour de son corps, et des ailerons décorés bordent ses côtés. À l'époque Yayoi, des immigrants venus de Corée et de Chine apportent le riz cultivé en rizière, le bronze et le fer. Les dōtaku étaient d'abord de petites cloches, sans doute sonnées lors de rites liés aux récoltes. Avec le temps, elles devinrent de plus en plus grandes, comme celle-ci, et ne servaient plus qu'à être regardées. On les retrouve souvent enterrées à l'écart des villages, sur des collines.",
+        "compare": "Comparez avec les bronzes rituels de l'exposition sur la Chine : le métal arrive au Japon depuis le continent, mais prend ici une forme qui n'existe nulle part ailleurs.",
+        "image": "images/mouvements/japon/dotaku.jpg"
+      },
+      {
+        "title": "Le kofun de Daisen",
+        "artist": "Bâtisseurs de l'époque Kofun",
+        "country": "Japon",
+        "period": "Ve siècle",
+        "museum": "Sakai, préfecture d'Osaka (Japon)",
+        "credit": "Sakai (Japon), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:NintokuTomb_Aerial_photograph_2007.jpg), photo de l'Autorité d'information géospatiale du Japon, réutilisation libre avec attribution",
+        "analysis": "Vue d'avion, au milieu d'une ville, une immense colline boisée en forme de trou de serrure, rond d'un côté et carré de l'autre, est entourée de larges fossés remplis d'eau. Long d'environ 486 mètres, c'est le plus grand tumulus du Japon. L'époque Kofun, « des vieux tertres », doit son nom à ces tombes géantes de chefs et de rois. L'Agence de la Maison impériale l'attribue à l'empereur Nintoku, mais ce n'est pas prouvé : comme les autres tombes impériales, il n'a jamais été fouillé et son accès est interdit. Il fait partie du groupe de kofun de Mozu-Furuichi, inscrit au patrimoine mondial de l'UNESCO depuis 2019.",
+        "compare": "Comparez avec les tumulus de Gamla Uppsala, dans l'exposition sur les Vikings : à la même époque, aux deux bouts de l'Eurasie, des chefs se font enterrer sous des collines.",
+        "image": "images/mouvements/japon/kofun-de-daisen.jpg",
+        "lieu": "Sakai (kofun de Daisen)",
+        "lieuType": "site"
+      },
+      {
+        "title": "Tête de cheval haniwa",
+        "artist": "Potier de l'époque Kofun",
+        "country": "Japon",
+        "period": "VIe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/44442), domaine public (CC0)",
+        "analysis": "Une tête de cheval en terre cuite grise, longue de 30 cm, aux formes simples et lisses : de grandes oreilles dressées, des yeux et des naseaux percés, et les courroies d'une bride en relief autour du museau. Les haniwa sont des sculptures creuses en terre cuite que l'on alignait sur les grands tumulus, comme celui de Daisen. D'abord de simples cylindres, ils prirent la forme de maisons, d'animaux, de guerriers et de servantes. Le cheval, arrivé du continent vers le Ve siècle, était un signe de puissance pour les chefs. Cette tête, harnachée d'une bride, appartenait à une statue de cheval complète.",
+        "compare": "Les gardiens de terre cuite du tumulus précédent : comparez avec les statues des tombes de l'exposition sur la Chine.",
+        "image": "images/mouvements/japon/haniwa-tete-de-cheval.jpg"
+      },
+      {
+        "title": "Le temple Hōryū-ji",
+        "artist": "Charpentiers venus de Corée et du Japon",
+        "country": "Japon",
+        "period": "fin du VIIe siècle",
+        "museum": "Ikaruga, préfecture de Nara (Japon)",
+        "credit": "Hōryū-ji (Japon), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Horyu-ji_Kondo_and_Five-story_Pagoda_2022.jpg), photo ONO Masanobu, domaine public (CC0)",
+        "analysis": "Sous un ciel bleu, sur une cour de gravier, un pavillon de bois aux toits superposés, aux bords relevés, se dresse à côté d'une pagode à cinq étages, haute et fine. Le bouddhisme arriva au Japon au VIe siècle par le royaume coréen de Baekje. Selon la tradition, le prince Shōtoku fonda Hōryū-ji au début du VIIe siècle ; détruit par un incendie, il fut rebâti à la fin du siècle. Son pavillon d'or (kondō) et sa pagode sont parmi les plus anciennes constructions en bois du monde. Les charpentiers suivaient des techniques venues de Corée et de Chine. Le site est inscrit au patrimoine mondial de l'UNESCO depuis 1993.",
+        "compare": "Le bouddhisme, venu du continent comme le bronze, transforme le Japon : comparez avec l'exposition sur l'art khmer d'Angkor, autre pays où il a changé l'architecture.",
+        "image": "images/mouvements/japon/horyu-ji.jpg",
+        "lieu": "Nara (Hōryū-ji et Tōdai-ji)",
+        "lieuType": "site"
+      },
+      {
+        "title": "Le Grand Bouddha du Tōdai-ji",
+        "artist": "Fondeurs de l'empereur Shōmu ; tête refaite à l'époque d'Edo",
+        "country": "Japon",
+        "period": "752 ; restauré au XVIIe siècle",
+        "museum": "Tōdai-ji, Nara (Japon)",
+        "credit": "Tōdai-ji, Nara, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:20190121_T%C5%8Ddai-ji_Great_Buddha-2.jpg), photo Balon Greyjoy, domaine public (CC0)",
+        "analysis": "Dans la pénombre d'un grand hall, un Bouddha de bronze sombre, gigantesque, est assis devant une immense auréole dorée garnie de petites figures. Sa main droite est levée, paume en avant ; devant lui, un autel avec des fleurs de lotus et des bougies. En 743, l'empereur Shōmu ordonna de fondre cette statue du Bouddha Vairocana, haute d'environ 15 mètres, pour protéger le pays ; elle fut consacrée en 752 dans la capitale, Nara, en présence de moines venus d'Inde et de Chine. Des incendies l'ont endommagée à plusieurs reprises : la tête actuelle date de l'époque d'Edo, et le bâtiment qui l'abrite a été reconstruit en 1709. Le temple fait partie des monuments historiques de l'ancienne Nara, inscrits au patrimoine mondial de l'UNESCO depuis 1998.",
+        "compare": "Comparez avec le grand Bouddha Vairocana des grottes de Longmen, dans l'exposition sur la Chine : le même Bouddha cosmique, quelques décennies plus tôt, sur le continent.",
+        "image": "images/mouvements/japon/grand-bouddha-todai-ji.jpg",
+        "lieu": "Nara (Hōryū-ji et Tōdai-ji)",
+        "lieuType": "site"
+      },
+      {
+        "title": "Le bodhisattva Fugen",
+        "artist": "Peintre de la cour de Heian",
+        "country": "Japon",
+        "period": "XIIe siècle",
+        "museum": "Musée national de Tokyo",
+        "credit": "Musée national de Tokyo, ColBase (https://colbase.nich.go.jp/collection_items/tnm/A-1), licence CC BY 4.0",
+        "analysis": "Sur un fond sombre, un personnage au teint très pâle, vêtu de rose et d'or, est assis jambes croisées sur un éléphant blanc, sous un dais de fleurs et une légère pluie de pétales. Selon la croyance bouddhique, le bodhisattva Fugen protège ceux qui ont foi dans le Sutra du Lotus, très vénéré à la cour de Heian, et notamment par les femmes. La notice du musée souligne les motifs faits de minces filets de feuille d'or et le corps dessiné à l'encre très diluée, pour garder la blancheur de la peau. Cette peinture raffinée montre le goût de l'aristocratie de Heian pour la douceur et l'élégance. C'est un trésor national.",
+        "compare": "Après la puissance du bronze de Nara, juste avant, la délicatesse de la peinture de Heian, deux siècles plus tard.",
+        "image": "images/mouvements/japon/bodhisattva-fugen.jpg"
+      },
+      {
+        "title": "Le pavillon du Phénix du Byōdō-in",
+        "artist": "Bâtisseurs de Fujiwara no Yorimichi",
+        "country": "Japon",
+        "period": "1053",
+        "museum": "Uji, préfecture de Kyoto (Japon)",
+        "credit": "Uji (Japon), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Phoenix_Hall%2C_Byodo-in%2C_November_2016_-01.jpg), photo Martin Falbisoner, licence CC BY-SA 4.0",
+        "analysis": "Un pavillon rouge et blanc aux toits gris relevés s'étend au bord d'un étang : un bâtiment central encadré de deux longues ailes et de galeries, comme un oiseau aux ailes déployées. En 1052, le régent Fujiwara no Yorimichi, de la famille qui dominait alors la cour, transforma sa villa d'Uji en temple. Le pavillon, construit en 1053, abrite une statue du Bouddha Amida par le sculpteur Jōchō ; on espérait renaître dans son paradis de la Terre pure, que le pavillon et son étang évoquent. Des phénix de bronze ornent le toit. Il figure sur la pièce japonaise de dix yens et appartient aux monuments historiques de l'ancienne Kyoto, inscrits au patrimoine mondial de l'UNESCO depuis 1994.",
+        "compare": "Un paradis bouddhique construit sur terre par la famille la plus puissante de la cour de Heian, au temps du Dit du Genji.",
+        "image": "images/mouvements/japon/byodo-in.jpg",
+        "lieu": "Kyoto et Uji",
+        "lieuType": "site"
+      },
+      {
+        "title": "Le Dit du Genji : le chapitre du Relais de la barrière",
+        "artist": "Tawaraya Sōtatsu, d'après Murasaki Shikibu",
+        "country": "Japon",
+        "period": "roman du début du XIe siècle ; peinture du XVIIe siècle",
+        "museum": "Musée national de Tokyo",
+        "credit": "Musée national de Tokyo, ColBase (https://colbase.nich.go.jp/collection_items/tnm/A-12190), licence CC BY 4.0",
+        "analysis": "Sur un fond d'or, un char à bœufs s'est arrêté, entouré de serviteurs vêtus de blanc ; en haut, des poèmes sont écrits à l'encre noire. Au début du XIe siècle, Murasaki Shikibu, dame de compagnie à la cour de Heian, écrivit le Dit du Genji, l'histoire des amours et de la vie du prince Genji, en 54 chapitres. Il est écrit en kana, l'écriture japonaise souvent employée par les femmes de la cour, et passe pour l'un des premiers romans du monde. Six siècles plus tard, le peintre Sōtatsu en illustre ici une scène : Genji croise à la barrière d'Ōsaka le cortège d'une ancienne amante. Le Dit du Genji est resté l'une des grandes sources de l'art japonais.",
+        "compare": "Le même paravent figure dans l'exposition sur l'école Rinpa : ici, il rappelle que la littérature de la cour de Heian a nourri l'art japonais pendant des siècles.",
+        "image": "images/mouvements/japon/dit-du-genji-sekiya.jpg"
+      },
+      {
+        "title": "Armure (yoroi) attribuée à Ashikaga Takauji",
+        "artist": "Armuriers japonais",
+        "country": "Japon",
+        "period": "début du XIVe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/22506), domaine public (CC0)",
+        "analysis": "Une armure complète posée sur un socle : un casque à large protège-nuque évasé, surmonté de grandes cornes dorées, et un corps fait de rangées de petites plaques laquées, liées par des lacets de soie. Le tout pèse près de 12 kilos. Ce type d'armure, le yoroi, était porté par les guerriers à cheval qui combattaient à l'arc. Selon le musée, celle-ci est associée à Ashikaga Takauji, qui fonda en 1338 le shogunat de Muromachi, le deuxième gouvernement des samouraïs après celui de Kamakura. Les petites plaques de fer et de cuir, laquées puis lacées, rendaient l'armure souple et légère. Les grandes cornes dorées, sur le casque, servaient à reconnaître le chef sur le champ de bataille.",
+        "compare": "Après les poètes et les dames de la cour, les guerriers : comparez avec le casque de Sutton Hoo, dans l'exposition sur les Anglo-Saxons, autre équipement d'un chef.",
+        "image": "images/mouvements/japon/armure-d-ashikaga-takauji.jpg"
+      },
+      {
+        "title": "Le pavillon d'or (Kinkaku-ji)",
+        "artist": "Bâtisseurs du shogun Ashikaga Yoshimitsu",
+        "country": "Japon",
+        "period": "1397 ; reconstruit en 1955",
+        "museum": "Kyoto (Japon)",
+        "credit": "Kyoto (Japon), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Water_reflection_of_Kinkaku-ji_Temple_a_sunny_day%2C_Kyoto%2C_Japan.jpg), photo Basile Morin, licence CC BY-SA 4.0",
+        "analysis": "Au bord d'un étang, au milieu des pins et des collines boisées, un pavillon à trois étages couvert d'or se reflète dans l'eau calme, où flottent de petites îles plantées d'arbres. Le shogun Ashikaga Yoshimitsu fit construire ce pavillon en 1397 dans sa villa de retraite, devenue après sa mort un temple zen. Les étages supérieurs sont couverts de feuilles d'or. Yoshimitsu protégeait les arts : c'est sous son règne que Zeami créa le théâtre nô. En 1950, un jeune moine incendia le pavillon ; celui que l'on voit est une reconstruction fidèle de 1955. Il fait partie des monuments historiques de l'ancienne Kyoto, inscrits au patrimoine mondial de l'UNESCO depuis 1994.",
+        "compare": "Les guerriers devenus mécènes : le shogun de l'armure précédente a fondé une dynastie qui protégea le zen, la peinture et le théâtre.",
+        "image": "images/mouvements/japon/kinkaku-ji.jpg",
+        "lieu": "Kyoto et Uji",
+        "lieuType": "site"
+      },
+      {
+        "title": "Paysage d'hiver",
+        "artist": "Sesshū Tōyō",
+        "country": "Japon",
+        "period": "fin du XVe – début du XVIe siècle",
+        "museum": "Musée national de Tokyo",
+        "credit": "Musée national de Tokyo, ColBase (https://colbase.nich.go.jp/collection_items/tnm/A-1398), licence CC BY 4.0",
+        "analysis": "Un petit rouleau vertical peint à l'encre noire sur papier : une falaise abrupte trace une grande ligne verticale au centre ; en bas, des bâtiments minuscules dans un paysage gris de neige. Sesshū, moine zen et peintre, voyagea dans la Chine des Ming pour y étudier la peinture, puis créa un style puissant, aux traits vigoureux. Ce rouleau forme une paire avec un paysage d'automne. Selon la notice du musée, la falaise et les bâtiments minuscules font sentir la rudesse de l'hiver. La peinture à l'encre, venue de Chine avec le zen, devient avec lui un art japonais. C'est un trésor national.",
+        "compare": "La même œuvre figure dans l'exposition sur le paysage : ici, elle représente l'art du zen, qui fait tout tenir avec un peu d'encre.",
+        "image": "images/mouvements/japon/sesshu-paysage-d-hiver.jpg"
+      },
+      {
+        "title": "Masque de nô : Ja (le serpent)",
+        "artist": "Sculpteur de masques japonais",
+        "country": "Japon",
+        "period": "XVIIIe siècle",
+        "museum": "Musée national de Tokyo",
+        "credit": "Musée national de Tokyo, ColBase (https://colbase.nich.go.jp/collection_items/tnm/C-67), licence CC BY 4.0",
+        "analysis": "Un masque de bois peint au visage terrifiant : des cornes dorées, des yeux dorés écarquillés, une bouche grande ouverte aux crocs pointus, des sourcils très marqués. Le nô est un théâtre chanté et dansé, très lent, créé au XIVe siècle par Kan'ami et son fils Zeami, sous la protection des shoguns Ashikaga. Les acteurs principaux portent des masques de bois. Selon la notice du musée, celui-ci sert dans des pièces comme Dōjōji : il représente l'esprit d'une femme que la jalousie a transformée en serpent. Le nô se joue encore aujourd'hui, selon les mêmes règles, et il est inscrit au patrimoine culturel immatériel de l'UNESCO.",
+        "compare": "La même image figure dans l'exposition « Masques du monde » : ici, elle représente le théâtre né sous les shoguns du pavillon d'or.",
+        "image": "images/mouvements/japon/masque-de-no-ja.jpg"
+      },
+      {
+        "title": "Bol à thé raku noir",
+        "artist": "Atelier Raku, Kyoto",
+        "country": "Japon",
+        "period": "début du XVIIe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/62898), domaine public (CC0)",
+        "analysis": "Un petit bol noir, haut de 9 cm, presque cylindrique, aux parois légèrement irrégulières ; sa glaçure sombre et un peu brillante laisse deviner les traces des doigts et de l'outil. À la fin du XVIe siècle, le maître de thé Sen no Rikyū fit faire à Kyoto, par le potier Chōjirō, des bols façonnés à la main, sans tour, puis cuits rapidement : la céramique raku. Ils incarnent le wabi, l'idéal d'une beauté simple, sobre et imparfaite, au cœur de la cérémonie du thé. Les seigneurs de guerre eux-mêmes, comme Toyotomi Hideyoshi, pratiquaient cet art. Les potiers de la famille Raku le fabriquent encore aujourd'hui.",
+        "compare": "Comparez avec l'or du pavillon de Kinkaku-ji, plus haut : le zen japonais aime aussi la pauvreté apparente d'un bol noir.",
+        "image": "images/mouvements/japon/bol-a-the-raku.jpg",
+        "lieu": "Kyoto et Uji",
+        "lieuType": "fabrication"
+      },
+      {
+        "title": "Navires chinois et européens (paravent nanban)",
+        "artist": "Kanō Takanobu (attribué)",
+        "country": "Japon",
+        "period": "vers 1596–1614",
+        "museum": "Musée national de Kyushu",
+        "credit": "Musée national de Kyushu, ColBase (https://colbase.nich.go.jp/collection_items/kyuhaku/A48), licence CC BY 4.0",
+        "analysis": "Sur un fond d'or et de nuages, un grand navire noir à plusieurs mâts est amarré dans un port ; des barques font la navette et une foule bigarrée se presse sur le quai. En 1543, des marchands portugais débarquent au Japon, apportant des armes à feu ; le jésuite François Xavier arrive en 1549. Les Japonais les appellent nanban, « les barbares du Sud », car ils viennent par la mer du Sud. Les paravents nanban montrent leurs grands navires et leurs costumes étranges. Selon la notice du musée, celui-ci montre un capitaine conduisant son équipage à l'église. Quelques années plus tard, les shoguns Tokugawa interdisent le christianisme et ferment presque entièrement le pays.",
+        "compare": "La même image figure dans l'exposition sur l'école Kanō : ici, elle marque la première rencontre du Japon avec l'Europe.",
+        "image": "images/mouvements/japon/paravent-nanban.jpg"
+      },
+      {
+        "title": "Le château de Himeji",
+        "artist": "Bâtisseurs d'Ikeda Terumasa",
+        "country": "Japon",
+        "period": "1601–1609",
+        "museum": "Himeji, préfecture de Hyōgo (Japon)",
+        "credit": "Himeji (Japon), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Himeji_Castle_0804_1.jpg), photo Gorgo, domaine public",
+        "analysis": "Sur une colline boisée, au-dessus de hauts murs de pierre en pente, un donjon blanc à plusieurs étages se dresse, entouré de tours plus petites, avec ses toits gris superposés aux pignons courbes. Après un siècle de guerres entre seigneurs, les châteaux deviennent à la fois des forteresses et des symboles de pouvoir. Celui de Himeji fut agrandi entre 1601 et 1609 par Ikeda Terumasa, gendre de Tokugawa Ieyasu. Ses murs enduits de plâtre blanc, contre le feu, lui valent le surnom de « château du Héron blanc ». Il n'a jamais été attaqué et a échappé aux bombardements de 1945 : c'est l'un des rares grands donjons d'origine. Il est inscrit au patrimoine mondial de l'UNESCO depuis 1993.",
+        "compare": "Le château du début de l'époque d'Edo : la paix des Tokugawa commence, et durera deux siècles et demi.",
+        "image": "images/mouvements/japon/chateau-de-himeji.jpg",
+        "lieu": "Himeji",
+        "lieuType": "site"
+      },
+      {
+        "title": "Robe bingata du royaume de Ryūkyū",
+        "artist": "Teinturiers du royaume de Ryūkyū",
+        "country": "Japon (royaume de Ryūkyū, Okinawa)",
+        "period": "XIXe siècle",
+        "museum": "Musée national de Tokyo",
+        "credit": "Musée national de Tokyo, ColBase (https://colbase.nich.go.jp/collection_items/tnm/I-3476), licence CC BY 4.0",
+        "analysis": "Une robe de ramie à grandes manches, d'un bleu profond, est semée de milliers de petits motifs colorés : bambous, cerisiers, feuilles d'érable et balles de jeu. Au sud de l'archipel, les îles de Ryūkyū, l'actuelle Okinawa, formaient un royaume indépendant, qui commerçait avec la Chine, la Corée et l'Asie du Sud-Est. En 1609, le seigneur japonais de Satsuma l'envahit, mais le royaume garda ses rois jusqu'à son annexion par le Japon en 1879. Le bingata est sa technique de teinture : selon la notice du musée, on découpe le motif dans un papier, on teint l'étoffe à l'indigo en réservant les motifs, puis on les colore un à un à la main.",
+        "compare": "La même robe figure dans l'exposition sur la couleur : ici, elle rappelle que le Japon d'avant 1868 comptait aussi d'autres peuples et d'autres royaumes.",
+        "image": "images/mouvements/japon/bingata-ryukyu.jpg",
+        "lieu": "Ryūkyū (Okinawa)",
+        "lieuType": "origine"
+      },
+      {
+        "title": "Robe aïnoue (attus)",
+        "artist": "Brodeuse aïnoue",
+        "country": "Japon (Aïnous, Hokkaidō)",
+        "period": "XIXe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/70652), domaine public (CC0)",
+        "analysis": "Une longue robe à manches, en tissu beige rugueux, est ornée au col, aux manches et au bas de bandes de tissu sombre découpées en motifs symétriques de lignes courbes et de crochets. Les Aïnous sont un peuple autochtone du nord de l'archipel, de Hokkaidō, de Sakhaline et des Kouriles, avec leur propre langue, leurs croyances et leur art. Selon la notice du musée, cette robe est tissée en fibres d'écorce d'orme et décorée d'appliqués de coton teint à l'indigo. Les motifs avaient aussi un rôle de protection. Pendant l'époque d'Edo, les Aïnous subissent de plus en plus la domination des Japonais ; leur culture a été longtemps réprimée, et le Japon ne les a reconnus officiellement comme peuple autochtone qu'en 2019.",
+        "compare": "Comparez avec la robe de Ryūkyū, juste avant : au nord et au sud de l'archipel, deux peuples aux cultures différentes de celle du Japon central.",
+        "image": "images/mouvements/japon/robe-ainoue.jpg",
+        "lieu": "Hokkaidō",
+        "lieuType": "origine"
+      },
+      {
+        "title": "La Grande Vague de Kanagawa",
+        "artist": "Katsushika Hokusai",
+        "country": "Japon",
+        "period": "vers 1831",
+        "museum": "Musée national de Tokyo",
+        "credit": "Musée national de Tokyo, ColBase (https://colbase.nich.go.jp/collection_items/tnm/A-10569-685), licence CC BY 4.0",
+        "analysis": "Une vague immense, à l'écume en forme de griffes, se dresse au-dessus de barques chargées de rameurs ; au loin, le mont Fuji, tout petit, sous un ciel sombre. Dans les villes de l'époque d'Edo, une culture nouvelle s'adresse aux marchands et aux artisans : le théâtre kabuki, les romans et les estampes ukiyo-e, imprimées en grand nombre et bon marché. Hokusai publie vers 1831 la série des Trente-six vues du mont Fuji, dont cette estampe est la plus célèbre. Elle emploie le « bleu de Berlin », un pigment venu d'Europe par les marchands néerlandais. Quelques décennies plus tard, ces estampes fascineront les peintres européens.",
+        "compare": "La même estampe figure dans l'exposition sur l'ukiyo-e : ici, elle montre la culture des villes pendant la longue paix d'Edo.",
+        "image": "images/mouvements/japon/grande-vague.jpg",
+        "lieu": "Edo (Tokyo)",
+        "lieuType": "fabrication"
+      },
+      {
+        "title": "Le port nouvellement ouvert de Yokohama",
+        "artist": "Utagawa Sadahide",
+        "country": "Japon",
+        "period": "1860",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/73392), domaine public (CC0)",
+        "analysis": "Trois estampes côte à côte forment une seule image : une large rue bordée de maisons de bois, de magasins et de cerisiers en fleurs, envahie de porteurs, de charrettes chargées de balles, de passants japonais et de quelques étrangers en vêtements sombres. En 1853, les navires de guerre américains du commodore Perry entrent dans la baie d'Edo et exigent l'ouverture du Japon. Des traités sont signés, et en 1859 le petit village de pêcheurs de Yokohama devient un port ouvert aux étrangers. Les éditeurs d'estampes de Yokohama montrent aussitôt au public japonais ces nouveaux venus et la ville qui grandit. Neuf ans plus tard, en 1868, le shogunat tombe : l'empereur Meiji reprend le pouvoir et le Japon se modernise à grande vitesse.",
+        "compare": "Le point d'arrivée de l'exposition : comparez avec le paravent nanban, plus haut ; deux siècles et demi après les Portugais, les étrangers reviennent, et le Japon change d'époque.",
+        "image": "images/mouvements/japon/port-de-yokohama-1860.jpg",
+        "lieu": "Yokohama",
+        "lieuType": "représenté"
+      }
+    ],
+    "carte": {
+      "image": "images/mouvements/cartes/japon.svg",
+      "ouest": 126.5,
+      "est": 146.5,
+      "sud": 25.5,
+      "nord": 45.8,
+      "lieux": [
+        {
+          "nom": "Sakai (kofun de Daisen)",
+          "lat": 34.564,
+          "lon": 135.4874
+        },
+        {
+          "nom": "Nara (Hōryū-ji et Tōdai-ji)",
+          "lat": 34.65,
+          "lon": 135.79
+        },
+        {
+          "nom": "Kyoto et Uji",
+          "lat": 34.96,
+          "lon": 135.77
+        },
+        {
+          "nom": "Himeji",
+          "lat": 34.8394,
+          "lon": 134.6939
+        },
+        {
+          "nom": "Edo (Tokyo)",
+          "lat": 35.6812,
+          "lon": 139.7671
+        },
+        {
+          "nom": "Yokohama",
+          "lat": 35.4437,
+          "lon": 139.638
+        },
+        {
+          "nom": "Ryūkyū (Okinawa)",
+          "lat": 26.2172,
+          "lon": 127.7195
+        },
+        {
+          "nom": "Hokkaidō",
+          "lat": 43.0,
+          "lon": 142.5
+        }
+      ],
+      "pays": [
+        {
+          "nom": "Japon",
+          "lat": 36.143,
+          "lon": 138.442
+        },
+        {
+          "nom": "Chine",
+          "lat": 43.609,
+          "lon": 128.841
+        },
+        {
+          "nom": "Russie",
+          "lat": 44.037,
+          "lon": 133.412
+        }
+      ],
+      "villes": [
+        {
+          "nom": "Tokyo",
+          "lat": 35.687,
+          "lon": 139.749
+        },
+        {
+          "nom": "Séoul",
+          "lat": 37.568,
+          "lon": 126.998
+        },
+        {
+          "nom": "Kyoto",
+          "lat": 35.032,
+          "lon": 135.748
+        },
+        {
+          "nom": "Sapporo",
+          "lat": 43.077,
+          "lon": 141.338
+        },
+        {
+          "nom": "Hiroshima",
+          "lat": 34.39,
+          "lon": 132.441
+        },
+        {
+          "nom": "Vladivostok",
+          "lat": 43.13,
+          "lon": 131.91
+        },
+        {
+          "nom": "Nagasaki",
+          "lat": 32.765,
+          "lon": 129.885
+        },
+        {
+          "nom": "Pusan",
+          "lat": 35.097,
+          "lon": 129.008
+        },
+        {
+          "nom": "Fukuoka",
+          "lat": 33.597,
+          "lon": 130.408
+        },
+        {
+          "nom": "Sendai",
+          "lat": 38.268,
+          "lon": 140.87
+        }
+      ]
+    }
   }
 ]

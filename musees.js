@@ -420,6 +420,8 @@ const GENRES_THEMES = {
 // dans « wd ». « local » reconnaît les œuvres de collection.json (artiste ou titre). Artistes : exemples, morts depuis plus de 70 ans.
 // [nom, région, lieu, époque, mots, wd, local, artistes, description]
 const MOUVEMENTS = [
+  ['Japon, des origines à 1868', "Asie de l'Est", 'Japon', 'préhistoire – 1868', ['Japanese'], ['Japanese art'], 'jomon|jōmon|kofun|heian|kamakura|muromachi|samoura|samurai', [],
+    "De la poterie Jōmon à l'ouverture du pays : tumulus, temples de Nara, cour de Heian, samouraïs et zen, paix d'Edo, Aïnous et royaume de Ryūkyū."],
   ['Chine, des origines à 1912', "Asie de l'Est", 'Chine', 'XXXe siècle av. J.-C. – XXe siècle', ['Chinese'], ['ancient Chinese art'], 'shang|han dynasty|tang dynasty', [],
     "Des jades de Liangzhu aux derniers empereurs : bronzes des Shang, armée de terre cuite, routes de la soie, paysages des Song, porcelaine, Cité interdite et Grande Muraille."],
   ['Ukiyo-e', "Asie de l'Est", 'Japon', 'XVIIe–XIXe siècle', ['ukiyo-e'], ['ukiyo-e'], 'hokusai|hiroshige|utamaro', ['Katsushika Hokusai', 'Utagawa Hiroshige', 'Kitagawa Utamaro'],
@@ -553,7 +555,7 @@ const STYLES_ARCHITECTURE = { 'Art gothique': 'Q176483' };
 const ANONYME = 'Q4233718'; // « anonyme » dans Wikidata
 // Mouvements d'abord de l'estampe : leurs estampes ne sont pas limitées à trois
 // Expositions consacrées à une civilisation plutôt qu'à un mouvement (badge « Civilisation » sur leur page)
-const CIVILISATIONS = new Set(['Égypte ancienne', 'Royaume de Koush', 'Chine, des origines à 1912', 'Grèce antique', 'Israël et Juda', 'Perse ancienne', 'Rome antique', 'Aksoum', 'Anglo-Saxons', 'Vikings', 'Empire du Mali', 'Aztèques', 'Incas']);
+const CIVILISATIONS = new Set(['Égypte ancienne', 'Royaume de Koush', 'Chine, des origines à 1912', 'Japon, des origines à 1868', 'Grèce antique', 'Israël et Juda', 'Perse ancienne', 'Rome antique', 'Aksoum', 'Anglo-Saxons', 'Vikings', 'Empire du Mali', 'Aztèques', 'Incas']);
 const MOUVEMENTS_D_ESTAMPES = new Set(['Ukiyo-e', 'Expressionnisme']);
 // Mouvements de peintres : si le visiteur n'a pas choisi de type, l'exposition ne montre que des peintures
 // (pas les dessins, études, estampes ou éventails que les catalogues renvoient aussi pour ces artistes)

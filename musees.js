@@ -422,6 +422,8 @@ const GENRES_THEMES = {
 const MOUVEMENTS = [
   ['Japon, des origines à 1868', "Asie de l'Est", 'Japon', 'préhistoire – 1868', ['Japanese'], ['Japanese art'], 'jomon|jōmon|kofun|heian|kamakura|muromachi|samoura|samurai', [],
     "De la poterie Jōmon à l'ouverture du pays : tumulus, temples de Nara, cour de Heian, samouraïs et zen, paix d'Edo, Aïnous et royaume de Ryūkyū."],
+  ['Royaumes de Java et de Sumatra', 'Asie du Sud et du Sud-Est', 'Indonésie', 'VIIe–XVIe siècle', ['Javanese', 'Srivijaya', 'Majapahit'], ['Majapahit art'], 'java|srivijaya|majapahit|borobudur|prambanan|sailendra', [],
+    "Srivijaya, Mataram et Majapahit : Borobudur et ses reliefs, Prambanan et le Ramayana, bronzes bouddhiques, la Prajnaparamita et les portes de briques de Trowulan."],
   ['Inde ancienne', 'Asie du Sud et du Sud-Est', 'Inde et Pakistan', 'IIIe siècle av. J.-C. – XIIIe siècle', ['Maurya', 'Gupta', 'Kushan', 'Chola', 'Gandhara'], ['Gupta art', 'Chola art'], 'maurya|gupta|kushan|kouchan|chola|gandhara|pallava', [],
     "Des piliers d'Ashoka aux temples des Chola : stupas de Sanchi, grottes peintes d'Ajanta, Bouddhas du Gandhara et des Gupta, Ellora, Khajuraho et bronzes de Shiva dansant."],
   ["Civilisation de l'Indus", 'Asie du Sud et du Sud-Est', 'Pakistan et Inde', 'XXVIe – XIXe siècle av. J.-C.', ['Indus', 'Harappan'], ['Indus Valley Civilisation'], 'harappa|mohenjo|indus valley|vallée de l.indus', [],
@@ -559,7 +561,7 @@ const STYLES_ARCHITECTURE = { 'Art gothique': 'Q176483' };
 const ANONYME = 'Q4233718'; // « anonyme » dans Wikidata
 // Mouvements d'abord de l'estampe : leurs estampes ne sont pas limitées à trois
 // Expositions consacrées à une civilisation plutôt qu'à un mouvement (badge « Civilisation » sur leur page)
-const CIVILISATIONS = new Set(['Égypte ancienne', 'Royaume de Koush', "Civilisation de l'Indus", 'Inde ancienne', 'Chine, des origines à 1912', 'Japon, des origines à 1868', 'Grèce antique', 'Israël et Juda', 'Perse ancienne', 'Rome antique', 'Aksoum', 'Anglo-Saxons', 'Vikings', 'Empire du Mali', 'Aztèques', 'Incas']);
+const CIVILISATIONS = new Set(['Égypte ancienne', 'Royaume de Koush', "Civilisation de l'Indus", 'Inde ancienne', 'Chine, des origines à 1912', 'Japon, des origines à 1868', 'Grèce antique', 'Israël et Juda', 'Perse ancienne', 'Rome antique', 'Aksoum', 'Anglo-Saxons', 'Royaumes de Java et de Sumatra', 'Vikings', 'Empire du Mali', 'Aztèques', 'Incas']);
 const MOUVEMENTS_D_ESTAMPES = new Set(['Ukiyo-e', 'Expressionnisme']);
 // Mouvements de peintres : si le visiteur n'a pas choisi de type, l'exposition ne montre que des peintures
 // (pas les dessins, études, estampes ou éventails que les catalogues renvoient aussi pour ces artistes)

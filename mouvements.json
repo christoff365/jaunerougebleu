@@ -16455,5 +16455,336 @@
         }
       ]
     }
+  },
+  {
+    "mouvement": "Royaumes de Java et de Sumatra",
+    "slug": "java-et-sumatra",
+    "status": "published",
+    "title": "Java et Sumatra, les royaumes de l'archipel",
+    "subtitle": "Indonésie, VIIe – XVIe siècle : quatorze œuvres et sites, de Srivijaya à Majapahit, de Jakarta, Amsterdam et New York",
+    "intro": "Entre l'océan Indien et la mer de Chine, les îles de Sumatra et de Java ont vu naître de grands royaumes de marins et de bâtisseurs. Srivijaya, à partir du VIIe siècle, contrôle les détroits et le commerce entre l'Inde et la Chine. À Java, le royaume de Mataram élève Borobudur, le plus grand monument bouddhique du monde, et les temples hindous de Prambanan ; puis Singhasari et Majapahit dominent l'archipel jusqu'au début du XVIe siècle. Ces royaumes ont reçu de l'Inde des religions et une écriture, mais en ont fait un art qui n'appartient qu'à eux. L'exposition suit cette histoire, des premières inscriptions aux portes de briques de la dernière capitale.",
+    "contexte": [
+      {
+        "title": "Pourquoi parle-t-on d'une civilisation ?",
+        "text": "Entre le VIIe et le XVIe siècle, de grands royaumes se forment dans les îles de Sumatra et de Java, dans l'actuelle Indonésie. Srivijaya, à Sumatra, contrôle le détroit de Malacca, passage obligé des navires entre l'Inde et la Chine. À Java, le royaume de Mataram bâtit Borobudur et Prambanan aux VIIIe et IXe siècles ; plus tard, Singhasari puis Majapahit, aux XIIIe–XVe siècles, dominent une grande partie de l'archipel. Ces royaumes ont des capitales, des rois et une administration, une écriture, le kawi, des lois, des monuments immenses, des artisans spécialisés et un commerce lointain : tous les critères des historiens sont réunis."
+      },
+      {
+        "title": "Entre l'Inde et la Chine",
+        "text": "Les marins de l'archipel naviguaient depuis très longtemps : leurs ancêtres avaient peuplé les îles du Pacifique et Madagascar. À partir des premiers siècles de notre ère, des marchands et des religieux indiens apportent l'hindouisme, le bouddhisme, le sanskrit et une écriture venue du sud de l'Inde. Les rois de Java et de Sumatra adoptent ces idées sans être conquis, et les transforment : les temples, appelés candi, les récits du Ramayana et les statues prennent un style propre à Java. Les épices des Moluques, girofle et muscade, le camphre et l'or attirent les navires de toute l'Asie."
+      },
+      {
+        "title": "De Majapahit à l'Indonésie d'aujourd'hui, et ce que l'on voit dans l'exposition",
+        "text": "Au XIVe siècle, sous le roi Hayam Wuruk et son ministre Gajah Mada, Majapahit est à son apogée ; le poème Nagarakretagama, écrit en 1365, décrit sa cour et ses territoires. Aux XVe et XVIe siècles, l'islam, arrivé par les marchands, gagne les ports puis toute l'île de Java ; Majapahit disparaît vers 1527. Sa culture ne s'éteint pas : elle se poursuit à Bali, restée hindoue, et dans le théâtre d'ombres, la danse et la langue javanaises. La devise de l'Indonésie, « Unité dans la diversité », vient d'un poème de Majapahit. L'exposition présente des temples et des reliefs photographiés par des visiteurs, sous licence libre, et des œuvres du musée national d'Indonésie, du Rijksmuseum et du Metropolitan Museum."
+      }
+    ],
+    "bibliography": [
+      {
+        "reference": "UNESCO, Patrimoine mondial : ensemble de Borobudur",
+        "url": "https://whc.unesco.org/fr/list/592"
+      },
+      {
+        "reference": "UNESCO, Patrimoine mondial : ensemble de Prambanan",
+        "url": "https://whc.unesco.org/fr/list/642"
+      },
+      {
+        "reference": "Rijksmuseum, Amsterdam : collection d'art asiatique",
+        "url": "https://www.rijksmuseum.nl/"
+      },
+      {
+        "reference": "Notices du Metropolitan Museum of Art"
+      },
+      {
+        "reference": "Mpu Prapanca, Nagarakretagama, 1365"
+      },
+      {
+        "reference": "John Miksic, Borobudur: Golden Tales of the Buddhas, Periplus, 1990"
+      }
+    ],
+    "works": [
+      {
+        "title": "L'inscription de Kedukan Bukit",
+        "artist": "Graveur du royaume de Srivijaya",
+        "country": "Indonésie",
+        "period": "683",
+        "museum": "Musée national d'Indonésie, Jakarta",
+        "credit": "Musée national d'Indonésie, Jakarta, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Prasasti_Kedukan_Bukit_3.jpg), photo Gunawan Kartapranata, licence CC BY-SA 4.0",
+        "analysis": "Dans une vitrine, un galet de pierre gris, large et arrondi, porte une dizaine de lignes d'une écriture ronde, soigneusement gravée. Trouvée en 1920 à Palembang, sur l'île de Sumatra, cette petite pierre est le plus ancien texte connu en vieux malais, l'ancêtre de l'indonésien et du malais, écrit avec une écriture venue du sud de l'Inde. Elle raconte qu'en 683 un souverain appelé Dapunta Hyang partit en bateau avec une grande armée et fonda une cité prospère : on y voit l'acte de naissance du royaume de Srivijaya, qui domina pendant des siècles le commerce maritime entre l'Inde et la Chine.",
+        "compare": "Le point de départ de l'exposition : une écriture venue de l'Inde, que l'on a vue dans l'exposition sur l'Inde ancienne, sert ici à écrire une langue de l'archipel.",
+        "image": "images/mouvements/java-et-sumatra/inscription-de-kedukan-bukit.jpg",
+        "lieu": "Palembang",
+        "lieuType": "découverte"
+      },
+      {
+        "title": "Bouddha entouré de deux bodhisattvas",
+        "artist": "Bronzier de Sumatra ou de la péninsule malaise",
+        "country": "Indonésie ou Thaïlande",
+        "period": "seconde moitié du VIIIe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/38994), domaine public (CC0)",
+        "analysis": "Sur un fond noir, trois petites figures de bronze sombre, debout sur des fleurs de lotus posées sur un même socle : au centre, un Bouddha en robe de moine ; de chaque côté, un personnage plus mince, paré de bijoux. Haut de 19 cm, ce groupe représente, selon le musée, le Bouddha entre les bodhisattvas Avalokiteshvara et Maitreya ; il vient de Sumatra ou du sud de la Thaïlande, des régions alors liées à Srivijaya. Le royaume était un grand foyer du bouddhisme : le moine chinois Yijing s'y arrêta plusieurs années, à la fin du VIIe siècle, pour étudier le sanskrit avant d'aller en Inde. De petits bronzes comme celui-ci voyageaient facilement avec les moines et les marchands.",
+        "compare": "Comparez avec le Bouddha gupta de Mathura, dans l'exposition sur l'Inde ancienne : le modèle indien, repris par les bronziers de l'archipel.",
+        "image": "images/mouvements/java-et-sumatra/bouddha-de-srivijaya.jpg"
+      },
+      {
+        "title": "Les temples de Muaro Jambi",
+        "artist": "Bâtisseurs bouddhistes de Sumatra",
+        "country": "Indonésie",
+        "period": "VIIe – XIIIe siècle",
+        "museum": "Muaro Jambi, Sumatra (Indonésie)",
+        "credit": "Muaro Jambi (Indonésie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Muaro_Jambi_Temple_-_Muaro_Jambi%2C_JA_%2824_August_2019%29.jpg), photo Firzafp, licence CC BY-SA 4.0",
+        "analysis": "Dans un parc aux très grands arbres, un long mur bas de briques rouges entoure une cour ; au fond, un petit monument de briques se dresse à l'ombre. Le long du fleuve Batanghari, sur plusieurs kilomètres, s'étend l'un des plus grands ensembles bouddhiques d'Asie du Sud-Est : des dizaines de temples de briques, de bassins et de canaux, dont beaucoup sont encore sous la terre et la forêt. Il appartenait au royaume de Melayu, lié à Srivijaya. À Sumatra, où la pierre est rare, on bâtissait en brique et en bois : c'est pourquoi les villes de Srivijaya ont laissé moins de vestiges que celles de Java.",
+        "compare": "Comparez avec le monastère de Nalanda, dans l'exposition sur l'Inde ancienne : les moines de Sumatra y étudiaient, et un roi de Srivijaya y fit construire un monastère.",
+        "image": "images/mouvements/java-et-sumatra/muaro-jambi.jpg",
+        "lieu": "Muaro Jambi",
+        "lieuType": "site"
+      },
+      {
+        "title": "Les temples du plateau de Dieng",
+        "artist": "Bâtisseurs javanais",
+        "country": "Indonésie",
+        "period": "VIIe – VIIIe siècle",
+        "museum": "Plateau de Dieng, Java central (Indonésie)",
+        "credit": "Dieng (Indonésie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Komplek_Candi_Arjuna_di_Dieng.jpg), photo Apri DAV, licence CC BY-SA 4.0",
+        "analysis": "Sous de gros nuages, trois petits temples de pierre sombre, aux toits en gradins, se dressent sur un terre-plein entouré de collines boisées ; de nombreux visiteurs se promènent autour. Sur un plateau volcanique à 2 000 mètres d'altitude, ces petits temples dédiés au dieu hindou Shiva sont les plus anciens monuments de pierre conservés à Java. Leur plan vient de l'Inde du Sud, mais leurs proportions sont déjà javanaises. Le nom du lieu viendrait de mots signifiant « la demeure des dieux » : les volcans étaient des lieux sacrés bien avant l'arrivée de l'hindouisme.",
+        "compare": "Comparez avec Mahabalipuram, dans l'exposition sur l'Inde ancienne : les mêmes petits temples à étages, de l'autre côté de l'océan Indien.",
+        "image": "images/mouvements/java-et-sumatra/temples-de-dieng.jpg",
+        "lieu": "Dieng",
+        "lieuType": "site"
+      },
+      {
+        "title": "Borobudur",
+        "artist": "Bâtisseurs des rois Sailendra",
+        "country": "Indonésie",
+        "period": "vers 780–830",
+        "museum": "Borobudur, Java central (Indonésie)",
+        "credit": "Borobudur (Indonésie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Borobudur_Magelang.jpg), photo Zaenulihsan91, licence CC BY-SA 4.0",
+        "analysis": "Vue d'avion, une immense pyramide de pierre grise à gradins carrés, couronnée de terrasses rondes et d'un dôme, s'élève au milieu d'une plaine très verte ; à l'horizon, un volcan sort des nuages. Construit sous les rois Sailendra, Borobudur est le plus grand monument bouddhique du monde. Ce n'est pas un temple où l'on entre, mais une montagne que le pèlerin gravit en tournant : il parcourt près de cinq kilomètres de galeries, bordées de quelque 2 670 reliefs qui racontent la vie du Bouddha, avant d'atteindre les terrasses rondes du sommet, image de l'éveil. Abandonné, recouvert de cendres et de végétation, il fut signalé en 1814 sous Thomas Stamford Raffles, puis restauré avec l'UNESCO de 1973 à 1983. Il est inscrit au patrimoine mondial depuis 1991.",
+        "compare": "Comparez avec le stupa de Sanchi, dans l'exposition sur l'Inde ancienne : l'idée du stupa, agrandie aux dimensions d'une montagne.",
+        "image": "images/mouvements/java-et-sumatra/borobudur.jpg",
+        "lieu": "Borobudur et Prambanan",
+        "lieuType": "site"
+      },
+      {
+        "title": "Les stupas ajourés de Borobudur",
+        "artist": "Bâtisseurs des rois Sailendra",
+        "country": "Indonésie",
+        "period": "vers 800",
+        "museum": "Borobudur, Java central (Indonésie)",
+        "credit": "Borobudur (Indonésie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Borobudur-Temple-Park_Indonesia_Stupas-of-Borobudur-04.jpg), photo Uwe Aranas (CEphoto), licence CC BY-SA 3.0",
+        "analysis": "Au lever du soleil, des cloches de pierre percées de trous en losange s'alignent sur une terrasse ; au premier plan, l'une d'elles, ouverte, laisse voir un Bouddha assis, de dos, tourné vers le paysage. Sur les trois terrasses rondes du sommet, soixante-douze stupas en forme de cloche abritent chacun une statue du Bouddha, que l'on devine à travers les ouvertures. Ici, plus de récits ni d'images : après les galeries couvertes de reliefs, le pèlerin arrive dans un espace ouvert sur le ciel et les volcans. Le monument compte en tout 504 statues du Bouddha.",
+        "compare": "Le sommet du monument vu d'avion juste avant : de près, chaque cloche cache un Bouddha.",
+        "image": "images/mouvements/java-et-sumatra/stupas-de-borobudur.jpg",
+        "lieu": "Borobudur et Prambanan",
+        "lieuType": "site"
+      },
+      {
+        "title": "Le navire de Borobudur",
+        "artist": "Sculpteurs de Borobudur",
+        "country": "Indonésie",
+        "period": "vers 800",
+        "museum": "Borobudur, Java central (Indonésie)",
+        "credit": "Borobudur (Indonésie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Borobudur_Ship_-_relief.JPG), photo Andreas Sihono, licence CC BY-SA 3.0",
+        "analysis": "Sur des blocs de pierre grise, un relief montre un grand bateau à voiles, aux mâts inclinés, avec un flotteur sur le côté ; des marins s'activent à bord, et des vagues ondulent sous la coque. Parmi les reliefs de Borobudur, plusieurs montrent des navires à balancier, comme ceux qu'utilisaient les marins de l'archipel pour le commerce au long cours. Ce sont les meilleures images que nous ayons des bateaux d'Asie du Sud-Est à cette époque. En 2003–2004, une réplique construite d'après ces reliefs a navigué de l'Indonésie jusqu'au Ghana, en passant par Madagascar, pour montrer que de tels voyages étaient possibles.",
+        "compare": "Comparez avec les bateaux de l'exposition sur les Vikings : à la même époque, deux peuples de marins, sur deux océans.",
+        "image": "images/mouvements/java-et-sumatra/navire-de-borobudur.jpg",
+        "lieu": "Borobudur et Prambanan",
+        "lieuType": "site"
+      },
+      {
+        "title": "Les temples de Prambanan",
+        "artist": "Bâtisseurs du royaume de Mataram",
+        "country": "Indonésie",
+        "period": "vers 850",
+        "museum": "Prambanan, Java central (Indonésie)",
+        "credit": "Prambanan (Indonésie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Yogyakarta_Indonesia_Prambanan-temple-complex-02.jpg), photo Uwe Aranas (CEphoto), licence CC BY-SA 3.0",
+        "analysis": "Au-dessus d'une prairie et de ruines éparses, un groupe de hautes tours de pierre sombre, pointues et hérissées de petits clochetons, se détache sur un ciel nuageux ; la plus haute est au centre. À quelques dizaines de kilomètres de Borobudur, les rois hindous de Mataram firent élever vers 850 ce grand ensemble dédié aux trois dieux Shiva, Vishnu et Brahma. Le temple de Shiva, au centre, mesure 47 mètres de haut ; plus de deux cents petits temples l'entouraient. Bouddhisme et hindouisme cohabitaient alors à Java, parfois dans les mêmes familles royales. Abîmé par les séismes, dont celui de 2006, le site est patiemment remonté pierre à pierre. Il est inscrit au patrimoine mondial de l'UNESCO depuis 1991.",
+        "compare": "Comparez avec Borobudur, plus haut : deux religions, deux formes, une montagne à gravir et des tours dressées vers le ciel, bâties à quelques décennies d'intervalle.",
+        "image": "images/mouvements/java-et-sumatra/prambanan.jpg",
+        "lieu": "Borobudur et Prambanan",
+        "lieuType": "site"
+      },
+      {
+        "title": "Un relief du Ramayana à Prambanan",
+        "artist": "Sculpteurs de Prambanan",
+        "country": "Indonésie",
+        "period": "vers 850",
+        "museum": "Prambanan, Java central (Indonésie)",
+        "credit": "Prambanan (Indonésie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Candi_Prambanan_-_017_Ramayana_Relief%2C_Siva_Temple_%2812043046146%29.jpg), photo Anandajoti Bhikkhu (Photo Dharma), licence CC BY 2.0",
+        "analysis": "Un long panneau de pierre grise sculpté en fort relief : sous un petit pavillon, des personnages sont assis, entourés d'autres figures accroupies ou debout, de plantes et d'animaux. Sur les balustrades du temple de Shiva, des dizaines de panneaux racontent le Ramayana, la grande épopée indienne : le prince Rama, aidé du singe Hanuman, part délivrer son épouse Sita, enlevée par le démon Ravana. Les sculpteurs javanais y ont mis leurs propres maisons, leurs plantes et leurs animaux. L'histoire est restée vivante à Java : on la joue encore au théâtre d'ombres et en ballet, le soir, devant les temples de Prambanan.",
+        "compare": "Comparez avec les reliefs de l'exposition sur l'art khmer d'Angkor, qui racontent les mêmes épopées indiennes dans un autre style.",
+        "image": "images/mouvements/java-et-sumatra/ramayana-de-prambanan.jpg",
+        "lieu": "Borobudur et Prambanan",
+        "lieuType": "site"
+      },
+      {
+        "title": "Ganesha",
+        "artist": "Bronzier de Java central",
+        "country": "Indonésie",
+        "period": "850–930",
+        "museum": "Rijksmuseum, Amsterdam",
+        "credit": "Rijksmuseum, Amsterdam (AK-MAK-251), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Shiva%2C_Parvati_en_Ganesha_Ganesha%2C_AK-MAK-251.jpg), photo Rijksmuseum, domaine public (CC0)",
+        "analysis": "Une petite statue de bronze sombre, haute de 11 cm : un dieu à tête d'éléphant et à quatre bras est assis sur un coussin de lotus posé sur un socle carré ; une auréole bordée de flammes entoure sa tête. Ganesha, fils de Shiva et de Parvati, est le dieu qui écarte les obstacles ; à Java, on plaçait souvent sa statue près des passages dangereux, gués et carrefours. Selon le Rijksmuseum, ce petit bronze, fait à Java central entre 850 et 930, appartenait à un groupe avec Shiva et Parvati. Beaucoup d'œuvres javanaises sont parties aux Pays-Bas à l'époque coloniale ; l'Indonésie et les Pays-Bas discutent aujourd'hui de restitutions, et plusieurs centaines d'objets ont été rendus en 2023.",
+        "compare": "Les dieux hindous de Prambanan, juste avant, en version miniature, pour un autel de maison ou de voyage.",
+        "image": "images/mouvements/java-et-sumatra/ganesha-javanais.jpg"
+      },
+      {
+        "title": "Bouddha trônant entre deux bodhisattvas",
+        "artist": "Bronzier de Java oriental",
+        "country": "Indonésie",
+        "period": "seconde moitié du Xe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/72498), domaine public (CC0)",
+        "analysis": "Un groupe de bronze verdi, haut de 29 cm : au centre, un Bouddha assis sur un trône, les mains devant la poitrine ; de chaque côté, un personnage plus petit, assis lui aussi. Chacun est abrité par un parasol monté sur une tige. Vers 930, pour des raisons encore discutées, peut-être une éruption du volcan Merapi, le centre du pouvoir javanais quitte la région de Borobudur pour l'est de l'île. Selon le musée, ce bronze date de ce début de la période de Java oriental et montre le Bouddha entre les bodhisattvas Avalokiteshvara et Vajrapani. Le parasol est en Asie le signe des rois et des êtres sacrés.",
+        "compare": "Comparez avec le petit groupe de Srivijaya, au début de l'exposition : deux siècles plus tard, le même sujet, devenu plus riche et plus décoré.",
+        "image": "images/mouvements/java-et-sumatra/bouddha-trone-javanais.jpg"
+      },
+      {
+        "title": "La Prajnaparamita de Java",
+        "artist": "Sculpteur du royaume de Singhasari",
+        "country": "Indonésie",
+        "period": "XIIIe siècle",
+        "museum": "Musée national d'Indonésie, Jakarta",
+        "credit": "Musée national d'Indonésie, Jakarta, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Prajnaparamita_Java_Front.JPG), photo Gunawan Kartapranata, licence CC BY-SA 3.0",
+        "analysis": "Une statue de pierre gris sombre : une femme couronnée, parée de bijoux très fins, est assise jambes croisées sur un coussin de lotus, les mains jointes devant la poitrine dans un geste d'enseignement ; un dossier arrondi s'élève derrière elle. Prajnaparamita est, dans le bouddhisme, la déesse de la sagesse parfaite. Cette statue, trouvée près du temple de Singhasari, à Java oriental, est considérée comme le chef-d'œuvre de la sculpture javanaise ; selon une tradition, elle aurait les traits de la reine Ken Dedes, ancêtre des rois de Singhasari et de Majapahit. Emportée aux Pays-Bas au XIXe siècle, elle a été rendue à l'Indonésie en 1978 et se trouve au musée national de Jakarta.",
+        "compare": "Une œuvre revenue dans son pays : comparez avec le Ganesha du Rijksmuseum, plus haut, resté aux Pays-Bas.",
+        "image": "images/mouvements/java-et-sumatra/prajnaparamita.jpg",
+        "lieu": "Singhasari",
+        "lieuType": "découverte"
+      },
+      {
+        "title": "Le temple de Penataran",
+        "artist": "Bâtisseurs du royaume de Majapahit",
+        "country": "Indonésie",
+        "period": "XIIe – XVe siècle (temple daté de 1369)",
+        "museum": "Penataran, Blitar, Java oriental (Indonésie)",
+        "credit": "Penataran (Indonésie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Bangunan_Utama_Candi_Penataran_di_Blitar.jpg), photo Pandu Aji Wirawan, licence CC BY-SA 4.0",
+        "analysis": "Au milieu d'une esplanade, un petit temple de pierre sombre, étroit et haut, porte un toit à nombreux étages qui se rétrécit vers le sommet ; un escalier mène à sa porte. Au pied du volcan Kelud, Penataran était le grand sanctuaire d'État de Majapahit, dédié à Shiva, « seigneur de la montagne » ; le roi Hayam Wuruk s'y rendit en personne. Ce petit temple porte au-dessus de sa porte la date de 1369. Les temples de Java oriental sont plus étroits et plus élancés que ceux de Borobudur et de Prambanan ; leur silhouette se retrouve aujourd'hui dans les temples de Bali.",
+        "compare": "Comparez avec les tours de Prambanan, plus haut : cinq siècles plus tard, le temple javanais est devenu plus léger.",
+        "image": "images/mouvements/java-et-sumatra/candi-penataran.jpg",
+        "lieu": "Penataran",
+        "lieuType": "site"
+      },
+      {
+        "title": "La porte de Bajang Ratu à Trowulan",
+        "artist": "Bâtisseurs du royaume de Majapahit",
+        "country": "Indonésie",
+        "period": "XIVe siècle",
+        "museum": "Trowulan, Java oriental (Indonésie)",
+        "credit": "Trowulan (Indonésie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Trowulan_Gate%2C_East_Java_1342.JPG), photo Michael Gunther, licence CC BY-SA 4.0",
+        "analysis": "Une haute porte de briques rouges, étroite, surmontée d'un toit en pyramide à nombreux étages, se dresse seule sous un ciel nuageux ; un escalier monte vers son ouverture. Trowulan était la capitale de Majapahit, qui domina au XIVe siècle une grande partie de l'archipel. De cette ville de briques et de bois, sillonnée de canaux, il reste des portes, des bassins et des fondations. Celle-ci, haute d'une quinzaine de mètres, donnait sans doute accès à un lieu sacré. Majapahit s'effaça au début du XVIe siècle devant les sultanats musulmans de la côte ; sa cour et ses artistes se réfugièrent en partie à Bali, où cette forme de porte est toujours construite.",
+        "compare": "Le point d'arrivée de l'exposition : comparez avec les temples de briques de Muaro Jambi, au début ; de Sumatra à Java, huit siècles d'une même civilisation de l'archipel.",
+        "image": "images/mouvements/java-et-sumatra/porte-de-bajang-ratu.jpg",
+        "lieu": "Trowulan",
+        "lieuType": "site"
+      }
+    ],
+    "carte": {
+      "image": "images/mouvements/cartes/java-et-sumatra.svg",
+      "ouest": 95,
+      "est": 116,
+      "sud": -9.8,
+      "nord": 6.5,
+      "lieux": [
+        {
+          "nom": "Palembang",
+          "lat": -2.99,
+          "lon": 104.76
+        },
+        {
+          "nom": "Muaro Jambi",
+          "lat": -1.4775,
+          "lon": 103.667
+        },
+        {
+          "nom": "Dieng",
+          "lat": -7.205,
+          "lon": 109.907
+        },
+        {
+          "nom": "Borobudur et Prambanan",
+          "lat": -7.68,
+          "lon": 110.35
+        },
+        {
+          "nom": "Singhasari",
+          "lat": -7.888,
+          "lon": 112.664
+        },
+        {
+          "nom": "Penataran",
+          "lat": -8.016,
+          "lon": 112.209
+        },
+        {
+          "nom": "Trowulan",
+          "lat": -7.558,
+          "lon": 112.381
+        }
+      ],
+      "pays": [
+        {
+          "nom": "Indonésie",
+          "lat": -0.954,
+          "lon": 101.893
+        },
+        {
+          "nom": "Malaisie",
+          "lat": 2.529,
+          "lon": 113.837
+        }
+      ],
+      "villes": [
+        {
+          "nom": "Jakarta",
+          "lat": -6.172,
+          "lon": 106.827
+        },
+        {
+          "nom": "Singapour",
+          "lat": 1.295,
+          "lon": 103.854
+        },
+        {
+          "nom": "Kuala Lumpur",
+          "lat": 3.14,
+          "lon": 101.689
+        },
+        {
+          "nom": "Bandar Seri Begawan",
+          "lat": 4.883,
+          "lon": 114.933
+        },
+        {
+          "nom": "Surabaya",
+          "lat": -7.247,
+          "lon": 112.749
+        },
+        {
+          "nom": "Bandung",
+          "lat": -6.948,
+          "lon": 107.568
+        },
+        {
+          "nom": "Medan",
+          "lat": 3.582,
+          "lon": 98.648
+        },
+        {
+          "nom": "Palembang",
+          "lat": -2.978,
+          "lon": 104.748
+        },
+        {
+          "nom": "Banjarmasin",
+          "lat": -3.33,
+          "lon": 114.58
+        },
+        {
+          "nom": "George Town",
+          "lat": 5.414,
+          "lon": 100.329
+        }
+      ]
+    }
   }
 ]

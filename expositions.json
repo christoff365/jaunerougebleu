@@ -1,7 +1,7 @@
 [
   {
     "title": "La lumière comme langage universel",
-    "subtitle": "De l'Égypte romaine à l'Australie : trente-cinq visions de la lumière, de vingt-neuf pays et des cinq continents",
+    "subtitle": "De l'Égypte romaine à l'Australie : trente-six visions de la lumière, de vingt-neuf pays et des cinq continents",
     "status": "published",
     "theme": "Lumière & ombre à travers les cultures",
     "cover": "images/couvertures/lumiere.jpg",
@@ -100,6 +100,17 @@
         "credit": "Rijksmuseum, Amsterdam, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:The_Night_Watch_-_HD.jpg), domaine public",
         "analysis": "Rembrandt orchestre la lumière comme un chef d'orchestre — certains personnages émergent, d'autres disparaissent dans l'ombre.",
         "compare": "Là où Vermeer choisit un sujet unique, Rembrandt anime une multitude. La lumière devient architecte social."
+      },
+      {
+        "title": "Le Nouveau-né",
+        "artist": "Georges de La Tour",
+        "country": "France",
+        "period": "années 1640",
+        "museum": "Musée des Beaux-Arts de Rennes",
+        "image": "images/expositions/nouveau-ne-la-tour-rennes.jpg",
+        "credit": "Musée des Beaux-Arts de Rennes, notice Joconde (https://pop.culture.gouv.fr/notice/joconde/00000075381), image via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Georges_de_La_Tour_-_Newlyborn_infant_-_Mus%C3%A9e_des_Beaux-Arts_de_Rennes.jpg), domaine public",
+        "analysis": "Deux femmes veillent un nouveau-né emmailloté de blanc. Celle de gauche, de profil, lève la main devant une chandelle que l'on ne voit pas : sa paume cache la flamme et renvoie la lumière vers l'enfant, si bien que c'est lui qui semble éclairer la scène. Autour, tout est sombre : il ne reste que le rouge d'une robe, quelques formes simples et le silence. La notice du musée se demande s'il s'agit d'une Vierge à l'Enfant ; aucune auréole ne le dit, et l'on peut y voir simplement une naissance. Georges de La Tour, peintre lorrain, fut longtemps oublié : ce tableau, entré au musée de Rennes en 1794 après une saisie révolutionnaire, a d'abord été attribué à d'autres peintres.",
+        "compare": "Comme la Judith du Caravage, une scène sortie du noir par une lumière forte ; mais chez Caravage la lumière montre un meurtre, ici elle veille sur un enfant. Comparez avec La Ronde de nuit de Rembrandt, peinte à la même époque : une foule en mouvement à Amsterdam, trois figures immobiles en Lorraine."
       },
       {
         "title": "La Jeune Fille à la perle",
@@ -629,7 +640,7 @@
         "period": "1891",
         "museum": "Musée d'Orsay, Paris",
         "image": "images/oeuvres/femmes-de-tahiti-gauguin.jpg",
-        "credit": "Musée d'Orsay, Paris, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Paul_Gauguin_056.jpg), domaine public",
+        "credit": "Musée d'Orsay, Paris, notice Joconde (https://pop.culture.gouv.fr/notice/joconde/000PE003844), image via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Paul_Gauguin_056.jpg), domaine public",
         "analysis": "Leçon 20 — Des frontières qui s'effacent ou qui vibrent. Albers observe que deux couleurs de même clarté se fondent l'une dans l'autre : leur frontière s'efface, même si leurs teintes sont très différentes. Au contraire, deux couleurs vives et opposées font vibrer leur bord. Gauguin joue des deux : la robe rose de la femme de droite et le sable jaune ont une clarté proche et se touchent sans heurt, tandis que le paréo rouge à motifs blancs éclate sur le sable. Exercice : plissez les yeux devant la robe rose. Où s'arrête-t-elle ?",
         "compare": "Chez Guo Xi, tout est affaire de clarté, presque sans couleur ; chez Gauguin, la couleur est si forte qu'on en oublie la clarté. Albers apprenait à ses élèves à voir les deux à la fois."
       },
@@ -857,11 +868,11 @@
   },
   {
     "title": "Nature, art et bien-être",
-    "subtitle": "Du jardin d'un Égyptien d'il y a 4 000 ans aux lacs du Canada : trente-six visions de la nature qui font du bien, de vingt-huit pays et des cinq continents, et ce qu'en dit la science",
+    "subtitle": "Du jardin d'un Égyptien d'il y a 4 000 ans aux lacs du Canada : trente-sept visions de la nature qui font du bien, de vingt-huit pays et des cinq continents, et ce qu'en dit la science",
     "status": "published",
     "theme": "La nature dans l'art mondial",
     "cover": "images/couvertures/nature.jpg",
-    "intro": "Bien avant les laboratoires, les humains ont su que la nature leur faisait du bien : les Égyptiens emportaient leur jardin dans la tombe, les Persans en tissaient sur leurs tapis, les lettrés chinois se promenaient dans des rouleaux de montagnes sans quitter leur bureau. Depuis quarante ans, la recherche confirme et précise cette intuition : regarder un paysage, marcher dans un parc, visiter un musée ou dessiner apaisent le stress, améliorent l'humeur et sont associés à une meilleure santé et à une vie plus longue. Cette exposition réunit trente-six œuvres de vingt-huit pays, des jardins, des fleurs, des rivières, des forêts, des volcans et des clairs de lune, et présente, après les œuvres, ce que disent les études, avec leurs références. Prenez votre temps : regarder lentement fait partie de l'expérience.",
+    "intro": "Bien avant les laboratoires, les humains ont su que la nature leur faisait du bien : les Égyptiens emportaient leur jardin dans la tombe, les Persans en tissaient sur leurs tapis, les lettrés chinois se promenaient dans des rouleaux de montagnes sans quitter leur bureau. Depuis quarante ans, la recherche confirme et précise cette intuition : regarder un paysage, marcher dans un parc, visiter un musée ou dessiner apaisent le stress, améliorent l'humeur et sont associés à une meilleure santé et à une vie plus longue. Cette exposition réunit trente-sept œuvres de vingt-huit pays, des jardins, des fleurs, des rivières, des forêts, des volcans et des clairs de lune, et présente, après les œuvres, ce que disent les études, avec leurs références. Prenez votre temps : regarder lentement fait partie de l'expérience.",
     "minimum": 20,
     "search": {
       "keywords": "landscape garden",
@@ -1177,6 +1188,17 @@
         "compare": "Comme le rouleau coréen, l'eau et le reflet pour apaiser le regard."
       },
       {
+        "title": "Pasie cousant dans le jardin de Bougival",
+        "artist": "Berthe Morisot",
+        "country": "France",
+        "period": "1881",
+        "museum": "Musée des Beaux-Arts de Pau",
+        "image": "images/expositions/pasie-cousant-morisot-pau.jpg",
+        "credit": "Musée des Beaux-Arts de Pau, notice Joconde (https://pop.culture.gouv.fr/notice/joconde/00980000001), image via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Pasie_cousant_dans_le_jardin_de_Bougival,_par_Berthe_Morisot.jpg), domaine public",
+        "analysis": "Une jeune femme coud, assise sur un banc vert, devant un massif de roses blanches ; à côté d'elle, une corbeille. Berthe Morisot peint vite, par touches libres : les roses, les feuilles et la robe sont faites des mêmes coups de pinceau, et le jardin semble envelopper la couseuse. Rien de spectaculaire : ici, la nature est un endroit où l'on s'installe pour une tâche calme, en plein air. Morisot, l'une des fondatrices de l'impressionnisme, a signé et daté le tableau en bas à gauche, en 1881, l'été où elle séjournait à Bougival, près de Paris. Il est conservé à Pau depuis 1907.",
+        "compare": "Comme les Nymphéas de Monet, un jardin peint par touches rapides ; mais Monet ne montre que l'eau et les fleurs, Morisot place une personne au cœur du jardin. Comparez avec Prince et dames dans un jardin de Nidha Mal : en Inde aussi, le jardin est un lieu où l'on vit."
+      },
+      {
         "title": "La cathédrale de Salisbury vue des jardins de l'évêque",
         "artist": "John Constable",
         "country": "Royaume-Uni",
@@ -1376,11 +1398,11 @@
   },
   {
     "title": "Masques du monde",
-    "subtitle": "Du Pérou au Japon, de l'Alaska au Gabon : cinquante-trois masques de trente-quatre pays et des cinq continents",
+    "subtitle": "Du Pérou au Japon, de l'Alaska au Gabon : cinquante-quatre masques de trente-cinq pays et des cinq continents",
     "status": "published",
     "theme": "Corps & identité",
     "cover": "images/couvertures/masques.jpg",
-    "intro": "Un masque cache un visage pour en faire apparaître un autre : celui d'un ancêtre, d'un esprit, d'un dieu, d'un défunt, d'un animal ou d'un personnage de théâtre. De l'Égypte des pharaons au théâtre nô, des Andes aux îles du détroit de Torres, ces cinquante-trois masques montrent comment chaque culture a donné un visage à l'invisible. Beaucoup n'étaient pas faits pour être regardés immobiles dans une vitrine, mais portés, dansés et chantés, avec un costume, de la musique et des gestes : imaginez-les en mouvement, à la lumière du feu. Certains masques sacrés, que leurs communautés demandent de ne pas montrer, comme les visages de guérison haudenosaunee ou certains masques hopis et zuñis, ne figurent volontairement pas ici. Plusieurs de ces objets ont quitté leur pays dans des conditions violentes ou contestées : leur histoire est rappelée quand elle est connue.",
+    "intro": "Un masque cache un visage pour en faire apparaître un autre : celui d'un ancêtre, d'un esprit, d'un dieu, d'un défunt, d'un animal ou d'un personnage de théâtre. De l'Égypte des pharaons au théâtre nô, des Andes aux îles du détroit de Torres, ces cinquante-quatre masques montrent comment chaque culture a donné un visage à l'invisible. Beaucoup n'étaient pas faits pour être regardés immobiles dans une vitrine, mais portés, dansés et chantés, avec un costume, de la musique et des gestes : imaginez-les en mouvement, à la lumière du feu. Certains masques sacrés, que leurs communautés demandent de ne pas montrer, comme les visages de guérison haudenosaunee ou certains masques hopis et zuñis, ne figurent volontairement pas ici. Plusieurs de ces objets ont quitté leur pays dans des conditions violentes ou contestées : leur histoire est rappelée quand elle est connue.",
     "minimum": 20,
     "search": {
       "keywords": "mask",
@@ -1419,6 +1441,17 @@
         "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/241254), domaine public (Open Access)",
         "analysis": "À l'époque archaïque, les sanctuaires de Chypre recevaient des masques de terre cuite à la taille d'un visage humain. Les archéologues pensent qu'ils servaient à des rites ou qu'ils étaient offerts aux dieux, sans savoir exactement comment, ni s'ils ont été portés. Le modelé reste simple, un nez fort, une bouche fermée, de grandes oreilles, comme si ce visage n'appartenait encore à personne.",
         "compare": "Comme le masque de pierre de Teotihuacan, un visage sans individualité, à mi-chemin entre une personne et l'idée de personne."
+      },
+      {
+        "title": "Masque de Bacchus",
+        "artist": "Sculpteur romain",
+        "country": "France (Gaule romaine)",
+        "period": "IIe – IIIe siècle",
+        "museum": "Musée Saint-Raymond, musée d'Archéologie de Toulouse",
+        "image": "images/expositions/masque-bacchus-chiragan-toulouse.jpg",
+        "credit": "Musée Saint-Raymond, Toulouse, notice Joconde (https://pop.culture.gouv.fr/notice/joconde/05630003791) ; photo : Daniel Martin, photothèque du musée, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:MSR-ra-37a-DM.jpg), licence CC BY-SA 4.0",
+        "analysis": "Un visage rond et joufflu, en marbre blanc, haut de 29 centimètres : la notice du musée y reconnaît Bacchus, le dieu du vin (le Dionysos des Grecs), couronné d'une torsade et de quelques fruits. Les yeux sont creusés profondément et le nez est usé. Ce masque n'a jamais été porté : son dos est évidé pour être scellé contre une paroi. Il vient de la villa romaine de Chiragan, à Martres-Tolosane, près de Toulouse, où il accompagnait d'autres masques de satyres et des Saisons ; selon le musée, ils décoraient peut-être le mur d'une salle de banquet.",
+        "compare": "Comme le masque comique grec, un visage du monde de Dionysos, dieu du vin et du théâtre ; mais celui-ci, en marbre, est un décor de mur, pas un masque d'acteur. Comparez avec le masque de Teotihuacan : en pierre lui aussi, et lui aussi fait pour être fixé plutôt que porté."
       },
       {
         "title": "La Rencontre",
@@ -1974,11 +2007,11 @@
   },
   {
     "title": "Le paysage à travers le temps et les cultures",
-    "subtitle": "De l'Égypte d'Akhenaton au Canada : trente-deux paysages de trente pays et des cinq continents",
+    "subtitle": "De l'Égypte d'Akhenaton au Canada : trente-trois paysages de trente pays et des cinq continents",
     "status": "published",
     "theme": "Paysage à travers les cultures",
     "cover": "images/couvertures/paysage.jpg",
-    "intro": "Le paysage n'a pas toujours existé comme genre. En Chine, la peinture « de montagnes et d'eaux » devient l'art le plus noble dès le Xe siècle ; en Europe, le mot « paysage » n'apparaît en français qu'au XVIe siècle, et longtemps le paysage n'est que le fond d'une histoire sacrée ou mythologique. Chaque culture regarde la nature à sa façon : jardin du paradis en Perse, montagne où l'on se promène en esprit en Chine, campagne idéale baignée de lumière en Italie, terre familière aux Pays-Bas, nature sublime et effrayante pour les romantiques, pays réel enfin peint pour lui-même en Corée, lumière fugitive au Japon et chez Turner, terre natale affirmée face à un empire en Finlande, en Norvège ou au Canada. Ces trente-deux œuvres, de 1350 avant notre ère au XXe siècle, se répondent deux à deux : regardez d'où le peintre nous fait voir le monde (d'en haut, de l'intérieur, par une fenêtre), ce qu'il met au premier plan, et ce qu'il laisse dans l'ombre. Un paysage n'est jamais seulement la nature : c'est une manière de l'habiter, de la rêver, et parfois de la perdre.",
+    "intro": "Le paysage n'a pas toujours existé comme genre. En Chine, la peinture « de montagnes et d'eaux » devient l'art le plus noble dès le Xe siècle ; en Europe, le mot « paysage » n'apparaît en français qu'au XVIe siècle, et longtemps le paysage n'est que le fond d'une histoire sacrée ou mythologique. Chaque culture regarde la nature à sa façon : jardin du paradis en Perse, montagne où l'on se promène en esprit en Chine, campagne idéale baignée de lumière en Italie, terre familière aux Pays-Bas, nature sublime et effrayante pour les romantiques, pays réel enfin peint pour lui-même en Corée, lumière fugitive au Japon et chez Turner, terre natale affirmée face à un empire en Finlande, en Norvège ou au Canada. Ces trente-trois œuvres, de 1350 avant notre ère au XXe siècle, se répondent deux à deux : regardez d'où le peintre nous fait voir le monde (d'en haut, de l'intérieur, par une fenêtre), ce qu'il met au premier plan, et ce qu'il laisse dans l'ombre. Un paysage n'est jamais seulement la nature : c'est une manière de l'habiter, de la rêver, et parfois de la perdre.",
     "minimum": 20,
     "search": {
       "keywords": "landscape",
@@ -2272,6 +2305,17 @@
         "image": "images/expositions/paysage-volanakis-salamine.jpg"
       },
       {
+        "title": "Les Îles d'Or",
+        "artist": "Henri-Edmond Cross",
+        "country": "France",
+        "period": "1891–1892",
+        "museum": "Musée d'Orsay, Paris",
+        "image": "images/expositions/iles-d-or-cross-orsay.jpg",
+        "credit": "Musée d'Orsay, Paris, notice Joconde (https://pop.culture.gouv.fr/notice/joconde/000PE018711), image via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Les_%C3%8Eles_d%27Or,_par_Henri-Edmond_Cross.jpg), domaine public",
+        "analysis": "Trois bandes, et rien d'autre : en bas le sable clair, au milieu la mer bleue, en haut une ligne d'îles mauves sous un ciel pâle. Ni bateau, ni personnage, ni arbre. Tout est fait de petits points de couleur posés côte à côte : serrés et sombres vers l'horizon, plus gros et plus clairs vers nous, ils donnent à eux seuls la profondeur et le scintillement de l'eau. Les « îles d'Or » sont le nom que l'on donne aux îles d'Hyères, sur la côte du Var, où Henri-Edmond Cross, peintre néo-impressionniste né à Douai, s'installa et vécut jusqu'à sa mort. Le tableau a appartenu au critique Félix Fénéon, défenseur de ces peintres.",
+        "compare": "Comme Coucher de soleil à Salamine de Volanakis, une vue de la Méditerranée peinte dans les mêmes années ; mais Cross ne garde que le sable, la mer et les îles, et construit tout avec des points de couleur. Comparez avec le Paysage d'hiver de Sesshū : là, quelques traits d'encre suffisent ; ici, des milliers de points."
+      },
+      {
         "title": "Vladimirka",
         "artist": "Isaac Levitan",
         "country": "Russie",
@@ -2341,7 +2385,7 @@
   },
   {
     "title": "Croyances et spiritualités du monde",
-    "subtitle": "Du Livre des morts égyptien aux îles Fidji : quarante-cinq œuvres de trente et un pays, vingt traditions et des cinq continents",
+    "subtitle": "Du Livre des morts égyptien aux îles Fidji : quarante-six œuvres de trente-deux pays, vingt traditions et des cinq continents",
     "status": "published",
     "theme": "Croyances & spiritualités du monde",
     "cover": "images/couvertures/croyances.jpg",
@@ -2626,6 +2670,17 @@
         "analysis": "Ce petit livre (15 cm de haut) était le livre de prières personnel du jeune empereur Otton III, qui avait quatre ans à la mort de son père. C'est l'un des deux seuls livres de prières royaux du haut Moyen Âge qui nous soient parvenus. Sur ces deux pages qui se font face, le jeune souverain, à gauche, est prosterné au pied d'un édifice ; à droite, le Christ trône dans une mandorle (une auréole en forme d'amande) portée par deux anges : selon la notice, c'est Otton à genoux devant le Christ. Les prières sont écrites en lettres d'or sur des fonds pourpres encadrés d'or.",
         "compare": "Comparez avec la page du Livre de Kells : deux livres chrétiens du haut Moyen Âge, l'un couvert d'entrelacs pour une communauté de moines, l'autre fait pour la prière d'une seule personne.",
         "image": "images/expositions/spirit-otton-iii.jpg"
+      },
+      {
+        "title": "Retable d'Issenheim",
+        "artist": "Matthias Grünewald et Nicolas de Haguenau",
+        "country": "France (Alsace)",
+        "period": "1512–1516",
+        "museum": "Musée Unterlinden, Colmar",
+        "image": "images/expositions/retable-d-issenheim-colmar.jpg",
+        "credit": "Musée Unterlinden, Colmar, notice Joconde (https://pop.culture.gouv.fr/notice/joconde/00280000125) ; photo : Gleb Simonov, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Isenheim_Altarpiece_-_In_situ_%28cropped%29.jpg), domaine public",
+        "analysis": "Le retable est ici fermé, comme on le voyait la plupart des jours de l'année. Au centre, sur un fond presque noir, le Christ en croix, le corps couvert de plaies. À gauche, la Vierge en blanc défaille dans les bras de saint Jean, et Marie Madeleine prie à genoux ; à droite, Jean le Baptiste montre le Christ du doigt, un agneau à ses pieds, près d'une inscription latine : « Il faut qu'il croisse et que je diminue. » Sur les volets, saint Sébastien et saint Antoine ; en bas, la Mise au tombeau. Peint par Matthias Grünewald, avec des sculptures de Nicolas de Haguenau, ce retable vient du couvent des Antonins d'Issenheim, en Alsace : ces religieux soignaient des malades, et le retable était placé devant eux. Il comporte d'autres panneaux, que l'on découvrait en ouvrant les volets.",
+        "compare": "Comme La Trinité de Roublev, peinte un siècle plus tôt en Russie, une image faite pour la prière d'une communauté de moines ; mais Roublev montre la paix, Grünewald la souffrance. Comparez avec le Christ Pantocrator du Sinaï : le même Christ, là souverain et calme, ici blessé."
       },
       {
         "title": "Page de titre de l'Évangile de Jean",

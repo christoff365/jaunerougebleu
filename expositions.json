@@ -1,7 +1,7 @@
 [
   {
     "title": "La lumière comme langage universel",
-    "subtitle": "De l'Égypte romaine à l'Australie : trente-six visions de la lumière, de vingt-neuf pays et des cinq continents",
+    "subtitle": "De l'Égypte romaine à l'Australie : trente-sept visions de la lumière, de trente pays et des cinq continents",
     "status": "published",
     "theme": "Lumière & ombre à travers les cultures",
     "cover": "images/couvertures/lumiere.jpg",
@@ -265,6 +265,17 @@
         "analysis": "Le lac Keitele, au centre de la Finlande, est ici presque tout le tableau. Sur l'eau calme, les reflets des nuages blancs descendent en longues traînées verticales de lumière, coupées par des bandes horizontales grises, là où une légère brise ride la surface. Au loin, une île sombre et une lisière de forêt bleue. En 1939, au seuil de la Seconde Guerre mondiale, le tableau a été évacué du musée d'art de Viipuri (Vyborg) ; la ville étant perdue pour la Finlande après la guerre, il fait partie des 70 œuvres que la ville de Lahti a recueillies.",
         "compare": "Comme dans Impression, soleil levant de Monet, la lumière se lit surtout dans son reflet sur l'eau.",
         "image": "images/expositions/lumiere-gallen-kallela-keitele.jpg"
+      },
+      {
+        "title": "Sonate n° 6 (Sonate des étoiles). Allegro",
+        "artist": "Mikalojus Konstantinas Čiurlionis",
+        "country": "Lituanie",
+        "period": "1908",
+        "museum": "Musée national d'art M. K. Čiurlionis, Kaunas",
+        "image": "images/expositions/sonate-des-etoiles-ciurlionis.jpg",
+        "credit": "Musée national d'art M. K. Čiurlionis, Kaunas, fiche Europeana (https://www.europeana.eu/item/2063603/LIT_280_007), domaine public",
+        "analysis": "Čiurlionis était à la fois compositeur et peintre. Il a peint sept « sonates », dont les tableaux portent des noms de mouvements musicaux : celui-ci est l'Allegro de la Sonate des étoiles, une vision de l'espace. Il n'y a pas de perspective : des voiles transparents, ocre et dorés, se superposent en vagues, semés de petites sphères et d'étoiles. Une bande sombre piquée de points clairs traverse l'image : la Voie lactée, selon la notice du musée. Au centre s'élève un faisceau de lumière en forme de tour ; à son sommet, une figure claire, que le musée décrit comme un ange, image de l'ordre et de l'harmonie de l'univers. Ici, la lumière n'éclaire pas un objet : elle est la matière même du tableau.",
+        "compare": "Comme la Nuit de lune sur le Dniepr de Kuindzhi, le ciel de la nuit devient le sujet du tableau ; mais Kuindzhi peint ce que l'œil voit, Čiurlionis ce qu'il imagine. Comparez avec Keitele de Gallen-Kallela, peint trois ans plus tôt : là aussi, la lumière trace des bandes à travers toute l'image."
       },
       {
         "title": "Hornsgatan la nuit",
@@ -868,11 +879,11 @@
   },
   {
     "title": "Nature, art et bien-être",
-    "subtitle": "Du jardin d'un Égyptien d'il y a 4 000 ans aux lacs du Canada : trente-sept visions de la nature qui font du bien, de vingt-huit pays et des cinq continents, et ce qu'en dit la science",
+    "subtitle": "Du jardin d'un Égyptien d'il y a 4 000 ans aux lacs du Canada : trente-huit visions de la nature qui font du bien, de vingt-neuf pays et des cinq continents, et ce qu'en dit la science",
     "status": "published",
     "theme": "La nature dans l'art mondial",
     "cover": "images/couvertures/nature.jpg",
-    "intro": "Bien avant les laboratoires, les humains ont su que la nature leur faisait du bien : les Égyptiens emportaient leur jardin dans la tombe, les Persans en tissaient sur leurs tapis, les lettrés chinois se promenaient dans des rouleaux de montagnes sans quitter leur bureau. Depuis quarante ans, la recherche confirme et précise cette intuition : regarder un paysage, marcher dans un parc, visiter un musée ou dessiner apaisent le stress, améliorent l'humeur et sont associés à une meilleure santé et à une vie plus longue. Cette exposition réunit trente-sept œuvres de vingt-huit pays, des jardins, des fleurs, des rivières, des forêts, des volcans et des clairs de lune, et présente, après les œuvres, ce que disent les études, avec leurs références. Prenez votre temps : regarder lentement fait partie de l'expérience.",
+    "intro": "Bien avant les laboratoires, les humains ont su que la nature leur faisait du bien : les Égyptiens emportaient leur jardin dans la tombe, les Persans en tissaient sur leurs tapis, les lettrés chinois se promenaient dans des rouleaux de montagnes sans quitter leur bureau. Depuis quarante ans, la recherche confirme et précise cette intuition : regarder un paysage, marcher dans un parc, visiter un musée ou dessiner apaisent le stress, améliorent l'humeur et sont associés à une meilleure santé et à une vie plus longue. Cette exposition réunit trente-huit œuvres de vingt-neuf pays, des jardins, des fleurs, des rivières, des forêts, des volcans et des clairs de lune, et présente, après les œuvres, ce que disent les études, avec leurs références. Prenez votre temps : regarder lentement fait partie de l'expérience.",
     "minimum": 20,
     "search": {
       "keywords": "landscape garden",
@@ -1120,6 +1131,17 @@
         "analysis": "Un champ d'herbe plat s'étend jusqu'à une ligne de collines, à l'horizon ; un peu à gauche du centre, un arbre isolé ; au-dessus, un grand ciel nuageux occupe presque la moitié du tableau. Rien d'autre : pas de personnage, pas de monument, seulement l'herbe, l'arbre et le ciel, peints en touches rapides. Ce petit tableau (34 cm de large) d'Ion Andreescu a été montré dans les grandes rétrospectives de la peinture roumaine, à Bruxelles en 1932 et à Moscou en 1949.",
         "compare": "Comme la Vue du lac Sortedam au Danemark, une nature ordinaire, tout près de chez soi, et non un site spectaculaire : un champ et un ciel suffisent à faire un tableau.",
         "image": "images/expositions/nature-andreescu-plaine.jpg"
+      },
+      {
+        "title": "Le Champ de Rafolče",
+        "artist": "Ivan Grohar",
+        "country": "Slovénie",
+        "period": "1903",
+        "museum": "Österreichische Galerie Belvedere, Vienne",
+        "image": "images/expositions/champ-de-rafolce-grohar-belvedere.jpg",
+        "credit": "Österreichische Galerie Belvedere, Vienne, fiche Europeana (https://www.europeana.eu/item/1320/https___id_kulturpool_at_88acd14e_098b_4035_9f60_87ba85699396_cho), image via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Ivan_Grohar_-_Das_Feld_von_Raholin_-_581_-_%C3%96sterreichische_Galerie_Belvedere.jpg), domaine public",
+        "analysis": "Un champ au printemps, près du village de Rafolče, à une vingtaine de kilomètres de Ljubljana : selon la notice du musée, Ivan Grohar l'a peint fin avril ou début mai 1903. Le vert et le jaune du champ tournent en une grande courbe ; au fond, des arbres et des collines se fondent dans une brume bleutée. La peinture est posée en touches épaisses et serrées, que l'on distingue une à une. Rien d'extraordinaire ici : un champ ordinaire, regardé longtemps. Grohar est l'un des impressionnistes slovènes, qui ont fait de la campagne de leur pays leur sujet.",
+        "compare": "Comme Paysage de plaine d'Andreescu, en Roumanie, une campagne sans monument ni événement, peinte pour elle-même. Comparez avec Les Moissonneurs de Bruegel : un champ là aussi, mais rempli de travailleurs ; ici, personne, seulement la lumière du printemps."
       },
       {
         "title": "Vue du lac Sortedam depuis le Dosseringen",
@@ -2007,11 +2029,11 @@
   },
   {
     "title": "Le paysage à travers le temps et les cultures",
-    "subtitle": "De l'Égypte d'Akhenaton au Canada : trente-trois paysages de trente pays et des cinq continents",
+    "subtitle": "De l'Égypte d'Akhenaton au Canada : trente-quatre paysages de trente et un pays et des cinq continents",
     "status": "published",
     "theme": "Paysage à travers les cultures",
     "cover": "images/couvertures/paysage.jpg",
-    "intro": "Le paysage n'a pas toujours existé comme genre. En Chine, la peinture « de montagnes et d'eaux » devient l'art le plus noble dès le Xe siècle ; en Europe, le mot « paysage » n'apparaît en français qu'au XVIe siècle, et longtemps le paysage n'est que le fond d'une histoire sacrée ou mythologique. Chaque culture regarde la nature à sa façon : jardin du paradis en Perse, montagne où l'on se promène en esprit en Chine, campagne idéale baignée de lumière en Italie, terre familière aux Pays-Bas, nature sublime et effrayante pour les romantiques, pays réel enfin peint pour lui-même en Corée, lumière fugitive au Japon et chez Turner, terre natale affirmée face à un empire en Finlande, en Norvège ou au Canada. Ces trente-trois œuvres, de 1350 avant notre ère au XXe siècle, se répondent deux à deux : regardez d'où le peintre nous fait voir le monde (d'en haut, de l'intérieur, par une fenêtre), ce qu'il met au premier plan, et ce qu'il laisse dans l'ombre. Un paysage n'est jamais seulement la nature : c'est une manière de l'habiter, de la rêver, et parfois de la perdre.",
+    "intro": "Le paysage n'a pas toujours existé comme genre. En Chine, la peinture « de montagnes et d'eaux » devient l'art le plus noble dès le Xe siècle ; en Europe, le mot « paysage » n'apparaît en français qu'au XVIe siècle, et longtemps le paysage n'est que le fond d'une histoire sacrée ou mythologique. Chaque culture regarde la nature à sa façon : jardin du paradis en Perse, montagne où l'on se promène en esprit en Chine, campagne idéale baignée de lumière en Italie, terre familière aux Pays-Bas, nature sublime et effrayante pour les romantiques, pays réel enfin peint pour lui-même en Corée, lumière fugitive au Japon et chez Turner, terre natale affirmée face à un empire en Finlande, en Norvège ou au Canada. Ces trente-quatre œuvres, de 1350 avant notre ère au XXe siècle, se répondent deux à deux : regardez d'où le peintre nous fait voir le monde (d'en haut, de l'intérieur, par une fenêtre), ce qu'il met au premier plan, et ce qu'il laisse dans l'ombre. Un paysage n'est jamais seulement la nature : c'est une manière de l'habiter, de la rêver, et parfois de la perdre.",
     "minimum": 20,
     "search": {
       "keywords": "landscape",
@@ -2369,6 +2391,17 @@
         "credit": "Galerie nationale de Finlande, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Eero_J%C3%A4rnefelt_-_Autumn_Landscape_of_Lake_Pielisj%C3%A4rvi_-_Google_Art_Project.jpg), domaine public",
         "analysis": "Dans les années 1890, les artistes finlandais partent en Carélie, à l'est du pays, chercher les paysages et les chants anciens qui fondent l'identité finlandaise. Eero Järnefelt peint depuis les collines de Koli une vue immense sur le lac Pielinen et ses îles, dans les couleurs de l'automne : forêts rousses, eau grise, ciel bas. Le format très allongé fait voyager le regard. En 1899, la Finlande, alors gouvernée par l'empereur de Russie, voyait ses libertés réduites : ces paysages devinrent un symbole national.",
         "compare": "Comme la Norvège de Dahl ou le Canada de Thomson, un pays qui se reconnaît dans ses paysages ; et, comme le rouleau chinois, une vue très allongée que l'œil parcourt comme un voyage."
+      },
+      {
+        "title": "Hiver",
+        "artist": "Vilhelms Purvītis",
+        "country": "Lettonie",
+        "period": "vers 1910",
+        "museum": "Musée national des beaux-arts de Lettonie, Riga",
+        "image": "images/expositions/hiver-purvitis-riga.jpg",
+        "credit": "Musée national des beaux-arts de Lettonie, Riga, fiche Europeana (https://www.europeana.eu/item/2063605/LAT_280_004) ; photo : Brett Bigham, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Winter_%28Ziema%29_ca._1910_by_Vilhelms_Purvitis_%281872-1945%29_Latvian_National_Museum_of_Art.jpg), licence CC BY-SA 4.0",
+        "analysis": "Une journée d'hiver froide et ensoleillée. Au premier plan, une eau sombre dessine un grand S dans la neige ; au centre, un bouquet de grands arbres se détache en silhouette, avec des branches fines comme une dentelle ; le ciel est couvert de petits nuages clairs, que l'eau reflète. Vilhelms Purvītis est le paysagiste letton le plus célèbre, connu pour ses tableaux de neige. La notice du musée voit dans cette composition, avec ses courbes et ses silhouettes, l'un des exemples les plus expressifs de l'Art nouveau dans la peinture lettone. Le tableau ornait l'appartement d'Emīlija Benjamiņa, propriétaire du journal le plus lu de Lettonie, avant d'entrer au musée en 1954.",
+        "compare": "Comme Paysage d'automne au lac Pielisjärvi de Järnefelt, un paysage du Nord, peint alors que la Finlande et la Lettonie faisaient partie de l'Empire russe ; là l'automne, ici l'hiver. Comparez avec le Paysage d'hiver de Sesshū : la neige y est dite à l'encre, quatre siècles plus tôt."
       },
       {
         "title": "The Jack Pine (Le Pin gris)",

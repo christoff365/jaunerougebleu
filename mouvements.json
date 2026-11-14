@@ -9049,7 +9049,8 @@
         "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/311327), domaine public (CC0)",
         "analysis": "Une figure plate et ajourée de 1,70 mètre, taillée dans une planche. Un petit visage rond, aux yeux en spirale, est entouré d'un cadre dentelé comme un soleil ; en dessous, un buste aux seins marqués, puis un long corps étroit et deux jambes.",
         "compare": "Les sculptures des Inyai-Ewa, du Korewori, ont été retrouvées dans des abris sous roche, où elles avaient été conservées très longtemps : d'où la date de plusieurs siècles. Leur style, fait de cadres et de vides, ne ressemble à aucun autre.",
-        "image": "images/mouvements/art-du-sepik/inyai-ewa-figure-feminine.jpg"
+        "image": "images/mouvements/art-du-sepik/inyai-ewa-figure-feminine.jpg",
+        "sensible": true
       },
       {
         "title": "Figure masculine (aripa)",

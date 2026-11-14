@@ -271,8 +271,9 @@
         "artist": "Raden Saleh",
         "country": "Indonésie",
         "period": "1865",
+        "museum": "Collection particulière, Singapour (présentée à la National Gallery Singapore)",
         "image": "images/expositions/eruption-du-merapi-raden-saleh.jpg",
-        "credit": "Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Raden_Saleh_-_Merapi,_Eruption_by_Night_%281865%29.jpg), domaine public",
+        "credit": "Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Raden_Saleh_-_Merapi,_Eruption_by_Night_%281865%29.jpg), d'après la notice de Wikimedia Commons ; domaine public",
         "analysis": "Le Merapi, l'un des volcans les plus actifs de Java, en éruption la nuit. Deux lumières s'opposent : à gauche, la pleine lune, petite, blanche et froide ; au centre, la lave rouge et orange qui dévale les pentes en filets, et les projections incandescentes qui éclairent par-dessous la colonne de fumée noire. Le paysage, au premier plan, est presque invisible. Raden Saleh, premier peintre javanais formé en Europe (il vécut vingt ans aux Pays-Bas et en Allemagne, à Dresde), réunit ici le sujet de son île et le goût romantique pour les forces de la nature.",
         "compare": "Comme chez Friedrich, qu'il a pu connaître à Dresde, la lune est présente ; mais ici, la vraie lumière vient de la terre, et elle est violente. Comparez avec la fête de Shab-i Barat : du feu dans la nuit, mais maîtrisé par les hommes."
       },
@@ -996,15 +997,17 @@
         "image": "images/expositions/panneau-de-carreaux-iznik.jpg",
         "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/447013), domaine public (Open Access)",
         "analysis": "Les céramistes d'Iznik ont couvert les mosquées et les palais d'Istanbul de jardins en céramique : tulipes, œillets, jacinthes et longues feuilles dentelées. Ces fleurs ne fanent jamais ; elles apportent à l'intérieur la fraîcheur d'un jardin et rappellent le paradis promis. Les Ottomans aimaient tant la tulipe qu'elle donna son nom à une époque, l'« ère des tulipes », au début du XVIIIe siècle.",
-        "museum": "The Metropolitan Museum of Art, New York"
+        "museum": "The Metropolitan Museum of Art, New York",
+        "compare": "Comme le Tapis de jardin d'Iran, un jardin qui ne fane jamais, fait pour l'intérieur. Comparez avec les Fleurs dans un vase de verre de Rachel Ruysch : des tulipes, des œillets et des jacinthes là aussi, mais peints à l'huile pour un salon hollandais."
       },
       {
         "title": "Éruption du Merapi, la nuit",
         "artist": "Raden Saleh",
         "country": "Indonésie",
         "period": "1865",
+        "museum": "Collection particulière, Singapour (présentée à la National Gallery Singapore)",
         "image": "images/expositions/eruption-du-merapi-raden-saleh.jpg",
-        "credit": "Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Raden_Saleh_-_Merapi,_Eruption_by_Night_%281865%29.jpg), domaine public",
+        "credit": "Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Raden_Saleh_-_Merapi,_Eruption_by_Night_%281865%29.jpg), d'après la notice de Wikimedia Commons ; domaine public",
         "analysis": "La nature n'est pas toujours douce : elle peut aussi émerveiller et faire peur. Raden Saleh, premier grand peintre moderne de Java, montre le volcan Merapi crachant sa lave dans la nuit. Les chercheurs appellent « émerveillement » (awe) ce sentiment devant ce qui nous dépasse. Il est associé à moins d'inflammation dans le corps (Stellar et al., 2015) et rend plus généreux, en faisant paraître ses propres soucis plus petits (Piff et al., 2015).",
         "compare": "Comme Le Cap Nord de Balke, une nature immense, qui remet l'humain à sa place."
       },
@@ -1038,7 +1041,8 @@
         "image": "images/expositions/cap-nord-clair-de-lune-balke.jpg",
         "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/441379), domaine public (Open Access)",
         "analysis": "Balke a voyagé jusqu'au cap Nord, à l'extrême nord de l'Europe, et en a gardé toute sa vie des souvenirs de mer, de falaises et de ciel. Avec quelques tons de gris, de blanc et de bleu, il fait ressentir l'immensité et le silence. Ces paysages du Grand Nord, que bien peu de ses contemporains verraient un jour, offraient un voyage en esprit vers une nature intacte.",
-        "museum": "The Metropolitan Museum of Art, New York"
+        "museum": "The Metropolitan Museum of Art, New York",
+        "compare": "Comme Deux hommes contemplant la lune de Friedrich et la Nuit de lune sur le Dniepr de Kuindzhi, un paysage éclairé par la lune. Chez Friedrich, deux amis la regardent ensemble ; chez Balke, le spectateur est seul face à la mer et aux falaises."
       },
       {
         "title": "Paysage d'automne au lac Pielisjärvi",
@@ -1213,7 +1217,8 @@
         "image": "images/expositions/vallee-de-mexico-velasco.jpg",
         "credit": "Museo Nacional de Arte, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Jos%C3%A9_Mar%C3%ADa_Velasco_-_The_Valley_of_Mexico_from_the_Santa_Isabel_Mountain_Range_-_Google_Art_Project.jpg), domaine public",
         "analysis": "Velasco, peintre et botaniste, connaissait chaque plante et chaque roche de la vallée de Mexico. Du haut de la colline, le regard embrasse la plaine, les lacs et les volcans au loin. La nature y est observée avec la précision d'un savant et l'émotion d'un poète.",
-        "museum": "Museo Nacional de Arte, Mexico"
+        "museum": "Museo Nacional de Arte, Mexico",
+        "compare": "Comme L'Oxbow de Thomas Cole, une grande vallée d'Amérique vue d'une hauteur. Comparez avec la Vue générale des monts Geumgang de Jeong Seon : en Corée aussi, un peintre rassemble tout un paysage de son pays en une seule image."
       },
       {
         "title": "Paysage brésilien",
@@ -1223,7 +1228,8 @@
         "image": "images/expositions/paysage-bresil-post.jpg",
         "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/437323), domaine public (Open Access)",
         "analysis": "Frans Post accompagna de 1637 à 1644 le gouverneur Jean-Maurice de Nassau au Brésil néerlandais : il fut l'un des premiers Européens à peindre les paysages du Nouveau Monde. De retour à Haarlem, il peignit de mémoire, pendant des années, ces collines vertes, ces arbres tropicaux et ce ciel immense. Les petits personnages de ses tableaux sont souvent des Africains réduits en esclavage, qui travaillaient dans les plantations de canne à sucre : la beauté du paysage ne doit pas faire oublier l'histoire coloniale qu'il cache.",
-        "museum": "The Metropolitan Museum of Art, New York"
+        "museum": "The Metropolitan Museum of Art, New York",
+        "compare": "Comparez avec Eau dormante d'Antônio Parreiras : plus de deux siècles après, c'est un peintre brésilien qui peint la nature de son pays, sur place et de près. Post, lui, la peint de mémoire, depuis l'Europe."
       },
       {
         "title": "Eau dormante",
@@ -1554,7 +1560,8 @@
         "museum": "The Metropolitan Museum of Art, New York",
         "image": "images/expositions/masque-colombie.jpg",
         "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/316699), domaine public (Open Access)",
-        "analysis": "Dans la vallée de la Calima, au cœur des Andes colombiennes, les orfèvres martelaient l'or en fines feuilles. Ce masque aux yeux et à la bouche ouverts, flanqué de deux grands disques comme des ornements d'oreilles, accompagnait sans doute un défunt dans sa tombe. L'or, qui ne ternit pas, garde au visage un éclat permanent : pour de nombreux peuples des Andes, il était lié au soleil et à une vie qui ne finit pas."
+        "analysis": "Dans la vallée de la Calima, au cœur des Andes colombiennes, les orfèvres martelaient l'or en fines feuilles. Ce masque aux yeux et à la bouche ouverts, flanqué de deux grands disques comme des ornements d'oreilles, accompagnait sans doute un défunt dans sa tombe. L'or, qui ne ternit pas, garde au visage un éclat permanent : pour de nombreux peuples des Andes, il était lié au soleil et à une vie qui ne finit pas.",
+        "compare": "Comparez avec le masque en or du Diquís (Costa Rica) et le masque funéraire Sicán (Pérou) : la même feuille d'or martelée. Celui du Diquís a les yeux mi-clos ; ici, les yeux et la bouche sont grands ouverts."
       },
       {
         "title": "Masque de danse en écorce battue",
@@ -1652,7 +1659,8 @@
         "museum": "The Metropolitan Museum of Art, New York",
         "image": "images/expositions/masque-dogon.jpg",
         "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/310343), domaine public (Open Access)",
-        "analysis": "Haut de plusieurs mètres, le « grand masque » des Dogon ne se porte pas comme les autres : on le dresse lors des grandes cérémonies. Il est taillé pour le Sigi, fête qui a lieu tous les soixante ans environ et célèbre le premier ancêtre et l'arrivée de la mort chez les humains ; le dernier Sigi s'est déroulé de 1967 à 1973, le prochain est attendu à partir de 2027. Sa forme étirée, une longue planche au-dessus d'un petit visage, relie le monde des vivants à celui des ancêtres."
+        "analysis": "Haut de plusieurs mètres, le « grand masque » des Dogon ne se porte pas comme les autres : on le dresse lors des grandes cérémonies. Il est taillé pour le Sigi, fête qui a lieu tous les soixante ans environ et célèbre le premier ancêtre et l'arrivée de la mort chez les humains ; le dernier Sigi s'est déroulé de 1967 à 1973, le prochain est attendu à partir de 2027. Sa forme étirée, une longue planche au-dessus d'un petit visage, relie le monde des vivants à celui des ancêtres.",
+        "compare": "Comme le masque de buffle des Bwa, au Burkina Faso voisin, un masque d'Afrique de l'Ouest lié aux grandes cérémonies de la communauté. Mais le masque bwa danse sur un homme caché sous un costume de fibres ; celui-ci est trop haut pour être porté : on le dresse."
       },
       {
         "title": "Masque-heaume",
@@ -1662,7 +1670,8 @@
         "museum": "The Metropolitan Museum of Art, New York",
         "image": "images/expositions/masque-kuba.jpg",
         "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/812107), domaine public (Open Access)",
-        "analysis": "Les masques du royaume kuba, au centre de l'actuelle République démocratique du Congo, appartiennent à de grandes mascarades liées à la royauté et à l'initiation des jeunes hommes. En Afrique centrale, l'humidité et les insectes détruisent d'ordinaire un masque de bois en quelques décennies : daté du XVIIIe siècle, celui-ci est d'une ancienneté exceptionnelle. Front bombé, joues larges, bouche ouverte sur les dents : le visage est taillé dans un style puissant, sans les perles et les coquillages qui couvriront les masques kuba plus récents."
+        "analysis": "Les masques du royaume kuba, au centre de l'actuelle République démocratique du Congo, appartiennent à de grandes mascarades liées à la royauté et à l'initiation des jeunes hommes. En Afrique centrale, l'humidité et les insectes détruisent d'ordinaire un masque de bois en quelques décennies : daté du XVIIIe siècle, celui-ci est d'une ancienneté exceptionnelle. Front bombé, joues larges, bouche ouverte sur les dents : le visage est taillé dans un style puissant, sans les perles et les coquillages qui couvriront les masques kuba plus récents.",
+        "compare": "Comme le ngontang des Fang du Gabon, un masque-heaume d'Afrique centrale, porté sur la tête. Mais le masque fang est blanchi au kaolin et date de la fin du XIXe siècle ; celui-ci, plus ancien d'un siècle au moins, montre le bois sculpté."
       },
       {
         "title": "Masque de buffle",
@@ -1694,7 +1703,8 @@
         "museum": "The Metropolitan Museum of Art, New York",
         "image": "images/expositions/masque-noni.jpg",
         "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/309789), domaine public (Open Access)",
-        "analysis": "Dans les royaumes des Grassfields, les hautes terres de l'ouest du Cameroun, les masques appartiennent aux sociétés qui entourent le roi (fon) et font respecter ses décisions. Ce masque des Noni associe un large museau et des cornes enroulées : dans les Grassfields, les grands animaux sont des emblèmes de la puissance royale. Blanchi au kaolin, il se portait sur la tête, au-dessus d'un costume qui cachait le danseur."
+        "analysis": "Dans les royaumes des Grassfields, les hautes terres de l'ouest du Cameroun, les masques appartiennent aux sociétés qui entourent le roi (fon) et font respecter ses décisions. Ce masque des Noni associe un large museau et des cornes enroulées : dans les Grassfields, les grands animaux sont des emblèmes de la puissance royale. Blanchi au kaolin, il se portait sur la tête, au-dessus d'un costume qui cachait le danseur.",
+        "compare": "Comme le masque de buffle des Bwa (Burkina Faso), un animal à cornes devient le signe d'une force qui protège la communauté. Comparez aussi avec le ngontang des Fang : le même kaolin blanc couvre le masque."
       },
       {
         "title": "Masque de nô : Waka-onna (jeune femme)",
@@ -1836,7 +1846,8 @@
         "museum": "The Metropolitan Museum of Art, New York",
         "image": "images/expositions/masque-java.jpg",
         "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/50421), domaine public (Open Access)",
-        "analysis": "À l'époque où l'on bâtissait le temple de Borobudur, les orfèvres de Java central travaillaient l'or avec une grande finesse. Ce petit masque au visage apaisé, aux yeux mi-clos, était peut-être posé sur le visage d'un défunt de haut rang ou fixé sur une statue. À Java, le masque deviendra aussi un art vivant : le topeng, théâtre dansé où un seul danseur change de masque pour incarner rois, serviteurs et démons."
+        "analysis": "À l'époque où l'on bâtissait le temple de Borobudur, les orfèvres de Java central travaillaient l'or avec une grande finesse. Ce petit masque au visage apaisé, aux yeux mi-clos, était peut-être posé sur le visage d'un défunt de haut rang ou fixé sur une statue. À Java, le masque deviendra aussi un art vivant : le topeng, théâtre dansé où un seul danseur change de masque pour incarner rois, serviteurs et démons.",
+        "compare": "Comme le masque funéraire Sicán du Pérou, un visage d'or peut-être fait pour un défunt de haut rang ; mais Sicán choisit la puissance, Java la douceur. Comparez avec les masques topeng javanais : dix siècles plus tard, le masque de Java est en bois peint et sert au théâtre."
       },
       {
         "title": "Masque topeng d'un guerrier de l'armée des singes",
@@ -1901,7 +1912,8 @@
         "museum": "The Metropolitan Museum of Art, New York",
         "image": "images/expositions/masque-tolai.jpg",
         "credit": "The Metropolitan Museum of Art (https://www.metmuseum.org/art/collection/search/311960), domaine public (Open Access)",
-        "analysis": "Les Tolai de la péninsule de la Gazelle, en Nouvelle-Bretagne, taillaient de longs masques au visage blanc, aux yeux cernés et au nez fin, portés lors de cérémonies et de rites funéraires. Les traits peints, presque géométriques, se lisent de loin, à la lumière des feux. Comme beaucoup de masques d'Océanie, il était porté avec un costume de feuilles ou de fibres qui cachait entièrement le danseur : seul restait visible le visage de l'esprit."
+        "analysis": "Les Tolai de la péninsule de la Gazelle, en Nouvelle-Bretagne, taillaient de longs masques au visage blanc, aux yeux cernés et au nez fin, portés lors de cérémonies et de rites funéraires. Les traits peints, presque géométriques, se lisent de loin, à la lumière des feux. Comme beaucoup de masques d'Océanie, il était porté avec un costume de feuilles ou de fibres qui cachait entièrement le danseur : seul restait visible le visage de l'esprit.",
+        "compare": "Comme le krar du détroit de Torres, un masque d'Océanie porté lors de cérémonies funéraires. Mais le krar est fait d'écaille de tortue et mêle l'humain et l'animal ; celui-ci est en bois, et son visage blanc est celui d'un esprit."
       },
       {
         "title": "Krar (masque en écaille de tortue)",

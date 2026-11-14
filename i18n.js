@@ -1267,6 +1267,8 @@ const TRAD = {
   "National Gallery, Londres": ["National Gallery, London", "National Gallery, Londres", "المعرض الوطني، لندن"],
   "Musée d'Orsay, Paris": ["Musée d'Orsay, Paris", "Museo de Orsay, París", "متحف أورسيه، باريس"],
   "Fondation Hilma af Klint, Stockholm": ["Hilma af Klint Foundation, Stockholm", "Fundación Hilma af Klint, Estocolmo", "مؤسسة هيلما أف كلينت، ستوكهولم"],
+  "Frise chronologique": ["Timeline", "Línea del tiempo", "الخط الزمني"],
+  "Chaque barre montre la durée d'une civilisation. Choisissez-en une pour ouvrir son exposition.": ["Each bar shows how long a civilisation lasted. Choose one to open its exhibition.", "Cada barra muestra la duración de una civilización. Elija una para abrir su exposición.", "كل شريط يُظهر مدة حضارة. اختر واحدة لفتح معرضها."],
   // --- Traductions ajoutées lors de l'audit de novembre 2026 : musées, pays et artistes anonymes des expositions ---
   "Musée national de Tokyo": ["Tokyo National Museum", "Museo Nacional de Tokio", "متحف طوكيو الوطني"],
   "Statens Museum for Kunst, Copenhague": ["Statens Museum for Kunst, Copenhagen", "Statens Museum for Kunst, Copenhague", "المتحف الوطني للفنون، كوبنهاغن"],

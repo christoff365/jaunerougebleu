@@ -420,7 +420,7 @@ const GENRES_THEMES = {
 // dans « wd ». « local » reconnaît les œuvres de collection.json (artiste ou titre). Artistes : exemples, morts depuis plus de 70 ans.
 // [nom, région, lieu, époque, mots, wd, local, artistes, description]
 const MOUVEMENTS = [
-  ['Japon, des origines à 1868', "Asie de l'Est", 'Japon', 'préhistoire – 1868', ['Japanese'], ['Japanese art'], 'jomon|jōmon|kofun|heian|kamakura|muromachi|samoura|samurai', [],
+  ['Japon, des origines à 1868', "Asie de l'Est", 'Japon', 'IIIe siècle – 1868', ['Japanese'], ['Japanese art'], 'jomon|jōmon|kofun|heian|kamakura|muromachi|samoura|samurai', [],
     "De la poterie Jōmon à l'ouverture du pays : tumulus, temples de Nara, cour de Heian, samouraïs et zen, paix d'Edo, Aïnous et royaume de Ryūkyū."],
   ["Empire des Tu'i Tonga", 'Océanie', 'Tonga', 'Xe–XIXe siècle', ['Tongan', 'Tonga'], ['Tongan art'], 'tonga|tongan|tongien', [],
     "Le seul empire maritime de Polynésie, une civilisation à part, sans écriture ni villes : le trilithe Ha'amonga, les tombes royales de Lapaha, les grandes pirogues, le kava et le tissu d'écorce."],

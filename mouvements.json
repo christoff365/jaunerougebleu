@@ -16990,5 +16990,515 @@
         }
       ]
     }
+  },
+  {
+    "mouvement": "Mésopotamie",
+    "slug": "mesopotamie",
+    "status": "published",
+    "title": "La Mésopotamie, de Sumer à Babylone",
+    "subtitle": "Irak, Syrie et Turquie, vers 3500 – 539 av. J.-C. · 25 œuvres et sites",
+    "intro": "Entre le Tigre et l'Euphrate, dans l'actuel Irak, sont nées vers 3300 av. J.-C. quelques-unes des premières villes du monde et l'une des deux plus anciennes écritures, le cunéiforme. Le nom de Mésopotamie vient du grec et veut dire « le pays entre les fleuves ». Pendant trois mille ans, des peuples différents s'y sont succédé en partageant la même écriture, les mêmes dieux et la même manière de vivre : les Sumériens des cités-États comme Uruk, Ur et Lagash ; les Akkadiens de Sargon, qui fondent le premier empire ; les Babyloniens de Hammurabi ; les Assyriens de Nimroud et de Ninive ; enfin la Babylone de Nabuchodonosor, jusqu'à sa prise par le Perse Cyrus en 539 av. J.-C. L'exposition suit cette histoire à travers des sites restés en Irak, des œuvres du musée d'Irak à Bagdad et du musée de Souleimaniye, et des pièces conservées à Paris, Londres, Berlin, New York, Philadelphie et Cleveland ; beaucoup de photographies sont celles de visiteurs, publiées sous licence libre.",
+    "contexte": [
+      {
+        "title": "Des cités-États aux empires",
+        "text": "Au IVe millénaire av. J.-C., le sud de la Mésopotamie se couvre de villes. Chacune est protégée par son dieu et gouvernée par un roi ou un prince, comme Uruk, Ur, Lagash ou Umma, qui se font parfois la guerre pour des terres et de l'eau. Vers 2300 av. J.-C., Sargon d'Akkad les réunit dans un premier empire. Puis viennent les rois de la troisième dynastie d'Ur, au XXIe siècle av. J.-C., et Hammurabi de Babylone, au XVIIIe. Au Ier millénaire av. J.-C., les rois d'Assyrie, depuis Nimroud puis Ninive, dominent tout le Proche-Orient ; après la chute de Ninive en 612 av. J.-C., Babylone reprend la première place, jusqu'à l'arrivée des Perses en 539. Le roi se présente comme le serviteur des dieux : il bâtit leurs temples, rend la justice et mène la guerre en leur nom."
+      },
+      {
+        "title": "Vivre entre deux fleuves",
+        "text": "Il pleut très peu dans le sud de la Mésopotamie. Les paysans creusent donc des canaux pour amener l'eau du Tigre et de l'Euphrate jusqu'aux champs, où ils cultivent surtout l'orge, le blé et le palmier-dattier, et élèvent moutons, chèvres et bœufs. L'orge sert à faire le pain et la bière, et à payer les rations des travailleurs. Le pays manque de pierre, de bois et de métaux : on bâtit en briques de terre crue ou cuite, et l'on fait venir de loin le cuivre, l'étain, l'or, le bois et le lapis-lazuli d'Afghanistan, en échange de grains, de tissus et d'objets fabriqués. Les villes sont pleines d'artisans, de marchands, de scribes et de prêtres. Les lois de Hammurabi montrent une société divisée entre hommes libres, dépendants et esclaves."
+      },
+      {
+        "title": "Les dieux, les temples et les présages",
+        "text": "Chaque ville a son dieu principal, qui habite son temple : Inanna, appelée aussi Ishtar, à Uruk, Nanna, le dieu de la Lune, à Ur, Marduk à Babylone, Assur à Assur. Les prêtres nourrissent et habillent chaque jour les statues des dieux ; les fidèles leur offrent des statuettes qui prient à leur place. Les ziggourats, de hautes tours à étages, portent un sanctuaire à leur sommet. Les Mésopotamiens cherchent aussi à connaître l'avenir en observant le ciel ou le foie des animaux sacrifiés : de ces observations sont nés une astronomie et des calculs très précis. Ils comptaient en base 60, que nous utilisons encore pour les heures, les minutes et les degrés."
+      },
+      {
+        "title": "Du cunéiforme à l'oubli, et ce que nous apprend l'archéologie",
+        "text": "L'écriture naît à Uruk vers 3300 av. J.-C. pour tenir des comptes. Ses signes, d'abord des dessins, deviennent des « coins » imprimés dans l'argile avec un roseau taillé, d'où le nom de cunéiforme. Elle sert à écrire le sumérien, l'akkadien et bien d'autres langues pendant plus de trois mille ans, puis disparaît au début de notre ère. Au XIXe siècle, les savants la déchiffrent, et les fouilles de Ninive, de Babylone, d'Ur ou d'Uruk font sortir de terre des centaines de milliers de tablettes : lettres, contrats, lois, prières, mathématiques, poèmes comme l'épopée de Gilgamesh. Beaucoup de ces trésors sont partis en Europe et en Amérique. Aujourd'hui, les sites d'Irak et de Syrie sont menacés par les guerres et les pillages : le musée d'Irak, à Bagdad, a été pillé en 2003, et une partie des objets volés a pu être retrouvée, comme le vase d'Uruk et la statue de Bassetki de cette exposition."
+      }
+    ],
+    "bibliography": [
+      {
+        "reference": "UNESCO, Patrimoine mondial : Babylone",
+        "url": "https://whc.unesco.org/fr/list/278"
+      },
+      {
+        "reference": "UNESCO, Patrimoine mondial : les Ahwar du sud de l'Irak (Uruk, Ur, Eridu)",
+        "url": "https://whc.unesco.org/fr/list/1481"
+      },
+      {
+        "reference": "Jean Bottéro, Mésopotamie. L'écriture, la raison et les dieux, Gallimard, 1987"
+      },
+      {
+        "reference": "V. Gordon Childe, « The Urban Revolution », The Town Planning Review, 1950"
+      },
+      {
+        "reference": "Farouk N. H. Al-Rawi et Andrew George, « Back to the Cedar Forest », Journal of Cuneiform Studies, 66, 2014"
+      },
+      {
+        "reference": "Notices des œuvres : Metropolitan Museum of Art, Cleveland Museum of Art, musée du Louvre, British Museum, Penn Museum, musée d'Irak"
+      }
+    ],
+    "works": [
+      {
+        "title": "Uruk, la ziggourat d'Anu",
+        "artist": "Bâtisseurs d'Uruk",
+        "country": "Irak",
+        "period": "IVe millénaire av. J.-C.",
+        "museum": "Site archéologique, Uruk (Warka, Irak)",
+        "credit": "Uruk (Irak), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:White_Temple_ziggurat_in_Uruk.jpg), photo tobeytravels, licence CC BY-SA 2.0",
+        "image": "images/mouvements/mesopotamie/uruk-ziggourat-d-anu.jpg",
+        "lieu": "Uruk",
+        "lieuType": "site",
+        "analysis": "Dans une plaine désertique, une grande butte de briques crues, usée par le vent et la pluie, domine les ruines. C'est la ziggourat d'Anu, le dieu du ciel, à Uruk : une haute terrasse de briques qui portait, à la fin du IVe millénaire av. J.-C., un temple aux murs enduits de blanc, appelé aujourd'hui le « Temple blanc ». Uruk est l'une des premières vraies villes du monde : vers 3200 av. J.-C., elle comptait peut-être 40 000 habitants, avec de grands temples, des ateliers et des réserves. C'est dans son quartier de l'Eanna, le sanctuaire de la déesse Inanna, que les archéologues ont trouvé les plus anciennes tablettes écrites de Mésopotamie. La légende fait de Gilgamesh l'un de ses rois. Le site est inscrit au patrimoine mondial de l'UNESCO depuis 2016, avec Ur et Eridu.",
+        "compare": "Le point de départ de l'exposition : la ville, le temple et bientôt l'écriture naissent ensemble, ici, dans le sud de l'Irak."
+      },
+      {
+        "title": "Tablette proto-cunéiforme : une distribution d'orge",
+        "artist": "Scribe d'Uruk",
+        "country": "Irak",
+        "period": "vers 3100–2900 av. J.-C.",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/329081), domaine public (CC0)",
+        "image": "images/mouvements/mesopotamie/tablette-proto-cuneiforme.jpg",
+        "lieu": "Uruk",
+        "lieuType": "découverte",
+        "lieuProbable": true,
+        "analysis": "Une petite tablette d'argile de 5,4 × 6 cm, venue sans doute d'Uruk. En haut, des encoches rondes et allongées, enfoncées dans l'argile, notent des nombres ; à côté, des signes dessinés indiquent ce que l'on compte : selon le titre que lui donne le musée, il s'agit d'une distribution d'orge. En bas, on a roulé un sceau-cylindre qui montre un homme, des chiens de chasse et des sangliers ; l'empreinte servait de signature. Les premières écritures de Mésopotamie ne racontaient pas d'histoires : elles servaient à tenir les comptes des temples, les grains, le bétail, les rations des travailleurs. Dans le seul quartier de l'Eanna, à Uruk, on a retrouvé des milliers de tablettes de ce genre.",
+        "compare": "L'écriture est née pour compter. Comparez avec la tablette de l'épopée de Gilgamesh, plus loin : bien plus tard, les mêmes signes, devenus des « coins », écrivent de la poésie."
+      },
+      {
+        "title": "Le vase d'Uruk",
+        "artist": "Sculpteur d'Uruk",
+        "country": "Irak",
+        "period": "vers 3100–2900 av. J.-C.",
+        "museum": "Musée d'Irak, Bagdad",
+        "credit": "Musée d'Irak, Bagdad, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Warka_Vase_at_the_Sumerian_Gallery,_Iraq_Museum,_Baghdad.jpg), photo Osama Shukir Muhammed Amin, licence CC BY-SA 4.0",
+        "image": "images/mouvements/mesopotamie/vase-d-uruk.jpg",
+        "lieu": "Uruk",
+        "lieuType": "découverte",
+        "analysis": "Un vase d'albâtre haut d'environ un mètre, exposé dans une vitrine du musée d'Irak, à Bagdad, et sculpté en relief sur tout son pourtour, en bandes superposées. En bas, de l'eau et des plantes, puis une file de béliers et de brebis ; au milieu, des hommes nus portent des paniers et des jarres pleins de nourriture ; en haut, une procession apporte des offrandes à une déesse, sans doute Inanna, la grande déesse d'Uruk. Trouvé en 1934 par des archéologues allemands dans le quartier de l'Eanna, c'est l'une des plus anciennes sculptures en relief qui racontent une scène. Il avait déjà été réparé dans l'Antiquité avec des agrafes de cuivre. Volé lors du pillage du musée en 2003, il a été rendu quelques mois plus tard, brisé, puis restauré.",
+        "compare": "Le monde d'Uruk en trois étages : la nature, le travail des hommes et les dieux. Comparez avec l'étendard d'Ur, plus loin, qui range lui aussi la société en bandes."
+      },
+      {
+        "title": "Orant de Tell Asmar",
+        "artist": "Sculpteur sumérien",
+        "country": "Irak",
+        "period": "vers 2900–2600 av. J.-C.",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/323735), domaine public (CC0)",
+        "image": "images/mouvements/mesopotamie/orant-de-tell-asmar.jpg",
+        "lieu": "Eshnunna (Tell Asmar)",
+        "lieuType": "découverte",
+        "analysis": "Une statuette d'albâtre de 29,5 cm. Un homme barbu, debout, joint les mains devant lui ; ses yeux immenses sont incrustés de coquillage et de calcaire noir, et sa longue barbe ondulée est rehaussée de bitume noir. Il porte une jupe à franges. Elle vient de l'ancienne Eshnunna, aujourd'hui Tell Asmar, où les archéologues de l'Institut oriental de Chicago ont découvert en 1933–1934 douze statuettes de ce genre, rangées sous le sol d'un temple. Ces figures, offertes par des fidèles, étaient placées dans le sanctuaire pour prier sans fin à leur place devant le dieu.",
+        "compare": "Les grands yeux ouverts de la prière : comparez avec ceux d'Ebih-Il, l'intendant de Mari, un peu plus loin."
+      },
+      {
+        "title": "Sceau-cylindre : un banquet",
+        "artist": "Graveur sumérien",
+        "country": "Irak",
+        "period": "vers 2600–2350 av. J.-C.",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/324572), domaine public (CC0)",
+        "image": "images/mouvements/mesopotamie/sceau-cylindre-banquet.jpg",
+        "analysis": "À gauche, un petit cylindre d'albâtre de 3,6 cm, gravé en creux ; à droite, l'empreinte moderne qu'il laisse quand on le roule sur de l'argile. En haut, des personnages assis boivent à l'aide de longues pailles, plongées dans une grande jarre : selon le titre que lui donne le musée, c'est une scène de banquet, et la boisson était sans doute de la bière. En bas, d'autres personnages assis entourent un motif carré. Les Mésopotamiens roulaient ces sceaux sur l'argile fraîche des tablettes, des bouchons de jarres ou des portes des réserves : l'empreinte servait de signature et de cachet. Chacun avait le sien, et on le portait souvent sur soi.",
+        "compare": "Le même banquet que sur l'étendard d'Ur, juste après : boire ensemble était un moment important de la vie de cour."
+      },
+      {
+        "title": "L'étendard d'Ur, face de la paix",
+        "artist": "Artisans d'Ur",
+        "country": "Irak",
+        "period": "vers 2600–2400 av. J.-C.",
+        "museum": "British Museum, Londres",
+        "credit": "British Museum, Londres, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Standard_of_Ur_-_Peace.jpg), photo LeastCommonAncestor, licence CC BY-SA 3.0",
+        "image": "images/mouvements/mesopotamie/etendard-d-ur.jpg",
+        "lieu": "Ur",
+        "lieuType": "découverte",
+        "analysis": "Le côté d'une boîte de bois, reconstituée, couverte d'une mosaïque de coquillage, de calcaire rouge et de lapis-lazuli bleu. Trois bandes se lisent de bas en haut. En bas, des hommes portent de lourdes charges sur le dos ou mènent des ânes ; au milieu, d'autres conduisent des bœufs, des moutons et des chèvres ; en haut, un banquet : des hommes assis lèvent leur coupe face à un personnage plus grand, sans doute le roi, pendant qu'un musicien joue de la lyre, à droite. L'autre face montre une armée avec ses chars. On ignore à quoi servait cet objet : l'archéologue Leonard Woolley, qui l'a trouvé en 1927–1928 dans une tombe royale d'Ur, l'a appelé « étendard » parce qu'il pensait qu'on le portait sur une hampe.",
+        "compare": "Toute la société d'Ur en trois bandes : le roi qui festoie et le peuple qui apporte les produits de la terre. Comparez avec le vase d'Uruk, plus haut."
+      },
+      {
+        "title": "Le bélier dans le buisson",
+        "artist": "Orfèvres d'Ur",
+        "country": "Irak",
+        "period": "vers 2600–2400 av. J.-C.",
+        "museum": "Penn Museum, Philadelphie",
+        "credit": "Penn Museum (University of Pennsylvania Museum of Archaeology and Anthropology), Philadelphie, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Penn_Museum_-_%22Ram_in_a_Thicket%22_.jpg), photo Benjamin82877, licence CC BY-SA 4.0",
+        "image": "images/mouvements/mesopotamie/belier-dans-le-buisson.jpg",
+        "lieu": "Ur",
+        "lieuType": "découverte",
+        "analysis": "Une figurine de 45 cm. Un bouc dressé sur ses pattes arrière pose ses pattes avant sur un arbuste en fleurs. Sa tête et ses pattes sont couvertes de feuille d'or ; ses cornes et la toison de ses épaules sont en lapis-lazuli, la toison de son corps en coquillage ; il se tient sur un socle orné d'une mosaïque. L'animal avait une âme de bois, aujourd'hui disparue. Il a été trouvé en 1928–1929 par Leonard Woolley, écrasé par la terre, dans la « grande fosse de la mort », l'une des tombes royales d'Ur. Il faisait partie d'une paire : l'autre est au British Museum. Woolley l'a appelé « bélier pris dans un buisson », en souvenir de l'histoire d'Abraham dans la Bible, bien qu'il s'agisse plutôt d'un bouc.",
+        "compare": "L'or et le lapis-lazuli ne se trouvent pas en Mésopotamie : ils venaient de très loin, ce lapis-lazuli d'Afghanistan. La richesse d'Ur reposait sur des échanges lointains."
+      },
+      {
+        "title": "Ornement de tête d'une dame de la cour d'Ur",
+        "artist": "Orfèvres d'Ur",
+        "country": "Irak",
+        "period": "vers 2600–2500 av. J.-C.",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/322903), domaine public (CC0)",
+        "image": "images/mouvements/mesopotamie/coiffe-d-une-dame-d-ur.jpg",
+        "lieu": "Ur",
+        "lieuType": "découverte",
+        "analysis": "Un ornement de tête de 38,5 cm, en or, lapis-lazuli et cornaline : des feuilles d'or martelé pendent d'un rang de perles bleues et rouges, et un petit croissant d'or termine une extrémité. Il vient du cimetière royal d'Ur. Dans la « grande fosse de la mort », Leonard Woolley a trouvé des dizaines de femmes de la cour, enterrées avec le roi ou la reine, la tête encore couverte de ces parures d'or. La coiffe de la reine Puabi, aujourd'hui au Penn Museum, réunit plusieurs rangs de feuilles d'or comme celles-ci, des perles de lapis-lazuli et de cornaline, et un grand peigne d'or.",
+        "compare": "Le même or et le même lapis-lazuli que le bélier, juste avant, et dans les mêmes tombes : un luxe réservé à la cour."
+      },
+      {
+        "title": "Statue d'Ebih-Il, intendant de Mari",
+        "artist": "Sculpteur de Mari",
+        "country": "Syrie",
+        "period": "vers 2500–2400 av. J.-C.",
+        "museum": "Musée du Louvre, Paris",
+        "credit": "Musée du Louvre, Paris, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Ebih-Il_Louvre_AO17551_n01.jpg), photo Jastrow, domaine public",
+        "image": "images/mouvements/mesopotamie/statue-d-ebih-il.jpg",
+        "lieu": "Mari",
+        "lieuType": "découverte",
+        "analysis": "Une statuette d'albâtre de 52,5 cm, trouvée en 1934 dans le temple d'Ishtar à Mari, sur l'Euphrate, dans l'actuelle Syrie. Un homme au crâne rasé est assis, les mains jointes sur la poitrine, dans le geste de la prière. Il porte une longue barbe et une jupe faite de longues mèches de toison, le kaunakès. Ses yeux sont incrustés de coquillage, de schiste et de lapis-lazuli, une pierre venue d'Afghanistan. Une inscription au dos dit qu'Ebih-Il, l'intendant, a dédié sa statue à la déesse Ishtar.",
+        "compare": "Mari, sur l'Euphrate moyen, partageait l'écriture et les dieux de Sumer : comparez ses yeux grands ouverts avec ceux de l'orant de Tell Asmar, plus haut."
+      },
+      {
+        "title": "La stèle des Vautours",
+        "artist": "Sculpteur de Lagash",
+        "country": "Irak",
+        "period": "vers 2450 av. J.-C.",
+        "museum": "Musée du Louvre, Paris",
+        "credit": "Musée du Louvre, Paris, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Stele_of_Vultures_detail_01.jpg), photo Eric Gaba, licence CC BY-SA 3.0",
+        "image": "images/mouvements/mesopotamie/stele-des-vautours.jpg",
+        "lieu": "Girsu (Tello)",
+        "lieuType": "découverte",
+        "analysis": "Un fragment de stèle en calcaire. En haut, des soldats casqués avancent en rangs serrés derrière un mur de grands boucliers, d'où sortent leurs lances, et piétinent des corps d'ennemis ; à droite marche leur chef. En dessous, d'autres soldats suivent le roi, monté sur un char. La stèle, qui mesurait à l'origine 1,80 m, célèbre la victoire du roi Eannatum de Lagash sur la cité voisine d'Umma, dans une guerre pour des terres agricoles situées entre les deux villes. Elle doit son nom aux vautours qui, sur une autre partie, emportent les têtes des vaincus. C'est le plus ancien monument connu qui célèbre une guerre. Ses fragments ont été trouvés à partir des années 1880 à Tello, l'ancienne Girsu.",
+        "compare": "La guerre rangée en bandes horizontales, comme sur l'étendard d'Ur : comparez avec la stèle de Naram-Sin, plus loin, où tout monte en diagonale vers le roi."
+      },
+      {
+        "title": "La statue de Bassetki",
+        "artist": "Fondeurs d'Akkad",
+        "country": "Irak",
+        "period": "règne de Naram-Sin, vers 2254–2218 av. J.-C.",
+        "museum": "Musée d'Irak, Bagdad",
+        "credit": "Musée d'Irak, Bagdad, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Bassetki_Statue,_Akkadian_period,_23rd_century_BCE,_from_Bassetki,_Iraq._Iraq_Museum.jpg), photo Osama Shukir Muhammed Amin, licence CC BY-SA 4.0",
+        "image": "images/mouvements/mesopotamie/statue-de-bassetki.jpg",
+        "lieu": "Bassetki",
+        "lieuType": "découverte",
+        "sensible": true,
+        "analysis": "Le bas d'une statue de cuivre presque pur, coulée à la cire perdue : un homme nu est assis sur un socle rond, les jambes repliées ; le haut du corps et la tête ont disparu. Le socle mesure 67 cm de diamètre, et l'ensemble pèse environ 150 kilos. Une inscription en akkadien raconte qu'après avoir écrasé une grande révolte, le roi Naram-Sin d'Akkad, petit-fils de Sargon, fut proclamé dieu de sa ville à la demande de ses habitants, qui lui bâtirent un temple. La statue a été trouvée par hasard en 1974, lors de travaux de route près de Bassetki, dans le nord de l'Irak. Volée au musée d'Irak en 2003, elle a été retrouvée par la police la même année.",
+        "compare": "Avec Sargon et ses successeurs, vers 2300 av. J.-C., naît à Akkad le premier empire de Mésopotamie. Naram-Sin se fait appeler dieu de son vivant, ce que seuls des rois morts avaient obtenu avant lui."
+      },
+      {
+        "title": "La stèle de victoire de Naram-Sin",
+        "artist": "Sculpteur d'Akkad",
+        "country": "Irak",
+        "period": "vers 2254–2218 av. J.-C.",
+        "museum": "Musée du Louvre, Paris",
+        "credit": "Musée du Louvre, Paris, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Victory_stele_of_Naram_Sin_9064.jpg), photo Rama, licence CC BY-SA 3.0 FR",
+        "image": "images/mouvements/mesopotamie/stele-de-naram-sin.jpg",
+        "lieu": "Suse",
+        "lieuType": "découverte",
+        "analysis": "Une stèle de calcaire rose, haute de deux mètres. Le roi, bien plus grand que tous les autres, coiffé d'un casque à cornes réservé jusque-là aux dieux, gravit une montagne à la tête de ses soldats, un arc à la main ; devant lui, des ennemis tombent, supplient ou fuient. Au-dessus de la montagne brillent deux astres. La stèle célèbre la victoire de Naram-Sin, roi d'Akkad, sur les Lullubi, un peuple des monts Zagros. Dressée sans doute à Sippar, elle fut emportée comme butin à Suse, en Iran, au XIIe siècle av. J.-C., par le roi élamite Shutruk-Nahhunte, qui y ajouta sa propre inscription. L'archéologue français Jacques de Morgan l'y a retrouvée en 1898.",
+        "compare": "Le même roi que la statue de Bassetki, juste avant : sur la stèle, il porte les cornes des dieux. Comparez avec la stèle des Vautours, plus haut, deux siècles plus tôt."
+      },
+      {
+        "title": "Statue de Gudéa, prince de Lagash",
+        "artist": "Sculpteur de Lagash",
+        "country": "Irak",
+        "period": "vers 2144–2124 av. J.-C.",
+        "museum": "Cleveland Museum of Art, Cleveland",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1963.154), domaine public (CC0)",
+        "image": "images/mouvements/mesopotamie/statue-de-gudea.jpg",
+        "lieu": "Girsu (Tello)",
+        "lieuType": "découverte",
+        "lieuProbable": true,
+        "analysis": "Une statue de dolérite, une pierre noire et très dure, haute de 126 cm. Un homme debout, vêtu d'une longue robe qui laisse l'épaule droite nue, joint les mains sur la poitrine ; ses pieds nus dépassent du vêtement. La tête manque. Selon le musée, ce geste des mains jointes se retrouve sur plus de trente statues connues de Gudéa, qui gouverna la cité-État de Lagash, avec le titre d'ensi, vers 2144–2124 av. J.-C. Plus de 2 400 inscriptions parlent de son règne, et notamment des temples qu'il fit construire. Ses statues étaient placées dans les temples pour le représenter devant les dieux. Le musée précise que cette statue a été deux fois, au XXe siècle, « complétée » à tort avec une tête venue d'une autre sculpture.",
+        "compare": "La pierre dure, rare en Mésopotamie, venait de loin : Gudéa voulait des statues éternelles. Comparez son geste avec celui de l'orant de Tell Asmar, plus haut, plusieurs siècles plus tôt."
+      },
+      {
+        "title": "La ziggourat d'Ur",
+        "artist": "Bâtisseurs du roi Ur-Nammu",
+        "country": "Irak",
+        "period": "XXIe siècle av. J.-C. ; façade et escalier reconstruits dans les années 1980",
+        "museum": "Site archéologique, Ur (Tell el-Muqayyar, Irak)",
+        "credit": "Ur (Irak), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Ziggurat_of_Ur_Site_in_Nasiriyah_03.jpg), photo Alli Khalil, licence CC BY-SA 4.0",
+        "image": "images/mouvements/mesopotamie/ziggourat-d-ur.jpg",
+        "lieu": "Ur",
+        "lieuType": "site",
+        "analysis": "Au fond, une énorme masse de briques aux murs inclinés, rythmés de contreforts, domine une plaine nue ; au premier plan, les fondations de briques d'autres bâtiments de la ville. Une ziggourat est une tour à étages, faite de briques, qui portait un temple à son sommet. Celle d'Ur a été bâtie au XXIe siècle av. J.-C. par le roi Ur-Nammu pour Nanna, le dieu de la Lune, protecteur de la ville, et achevée par son fils Shulgi. Elle mesurait 64 mètres sur 45. Restaurée dès le VIe siècle av. J.-C. par Nabonide, le dernier roi de Babylone, elle a été fouillée dans les années 1920–1930 par Leonard Woolley ; sa façade et son grand escalier ont été en partie reconstruits dans les années 1980. C'est la ziggourat la mieux conservée de Mésopotamie.",
+        "compare": "De la terrasse d'Uruk, au début de l'exposition, à cette tour à étages : la ziggourat est devenue la montagne artificielle des dieux de Mésopotamie."
+      },
+      {
+        "title": "Tablette ronde d'écolier",
+        "artist": "Élève scribe",
+        "country": "Irak",
+        "period": "vers XXe–XVIe siècle av. J.-C.",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/321878), domaine public (CC0)",
+        "image": "images/mouvements/mesopotamie/tablette-d-ecolier.jpg",
+        "analysis": "Une tablette d'argile ronde, de 7,6 cm, qui tient dans la main. Quelques lignes de signes cunéiformes, séparées par des traits, y sont tracées. Le musée la décrit comme un exercice d'écolier. Pour devenir scribe, on allait à l'école, appelée en sumérien « maison des tablettes » ; elle se tenait le plus souvent dans la maison du maître. Sur ces petites tablettes rondes, le maître écrivait une ligne modèle sur une face, et l'élève la recopiait au dos, puis effaçait et recommençait. Les élèves apprenaient ainsi des centaines de signes, des listes de mots, des proverbes et du calcul.",
+        "compare": "Pour lire et écrire le cunéiforme, il fallait des années d'école : c'est pourquoi les scribes formaient un métier à part, respecté et bien payé."
+      },
+      {
+        "title": "Lettre d'un marchand assyrien de Kanesh",
+        "artist": "Marchand assyrien",
+        "country": "Turquie",
+        "period": "vers XXe–XIXe siècle av. J.-C.",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/325849), domaine public (CC0)",
+        "image": "images/mouvements/mesopotamie/lettre-de-kanesh.jpg",
+        "lieu": "Kanesh (Kültepe)",
+        "lieuType": "découverte",
+        "lieuProbable": true,
+        "analysis": "Une petite tablette d'argile carrée, de 5,3 cm, couverte de lignes serrées d'écriture cunéiforme. Selon le musée, c'est une lettre privée, trouvée probablement à Kültepe, l'ancienne Kanesh, en Anatolie, dans l'actuelle Turquie. Vers 1900 av. J.-C., des marchands venus d'Assur, la ville du dieu Assur sur le Tigre, y tenaient un comptoir. Leurs ânes apportaient de l'étain et des étoffes, après un voyage d'environ mille kilomètres, et repartaient chargés d'argent et d'or. Dans leurs maisons, les archéologues ont retrouvé environ 20 000 tablettes : contrats, comptes et lettres échangées avec leurs familles restées à Assur.",
+        "compare": "Des échanges lointains, l'un des critères d'une civilisation : ces lettres sont parmi les plus anciennes archives de commerce du monde."
+      },
+      {
+        "title": "Le code de Hammurabi",
+        "artist": "Sculpteurs et scribes de Hammurabi",
+        "country": "Irak",
+        "period": "vers 1750 av. J.-C.",
+        "museum": "Musée du Louvre, Paris",
+        "credit": "Musée du Louvre, Paris, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:P1050763_Louvre_code_Hammurabi_face_rwk.JPG), photo Mbzt, licence CC BY 3.0",
+        "image": "images/mouvements/mesopotamie/code-de-hammurabi.jpg",
+        "lieu": "Suse",
+        "lieuType": "découverte",
+        "analysis": "Une haute stèle de pierre noire, de 2,25 mètres, couverte de colonnes d'écriture cunéiforme. En haut, un relief : le roi Hammurabi de Babylone, debout, la main levée devant la bouche en signe de respect, fait face au dieu Shamash, le Soleil et le dieu de la justice, assis sur un trône. Le texte, en akkadien, réunit près de trois cents décisions de justice sur le commerce, la famille, le travail des champs ou les coups et blessures, comme la célèbre règle « œil pour œil » ; les peines changent selon que la victime est un homme libre ou un esclave. Emportée elle aussi à Suse par un roi élamite, la stèle y a été retrouvée en 1901–1902 par une mission archéologique française.",
+        "compare": "Comme la stèle de Naram-Sin, plus haut, elle a été emportée à Suse comme butin. Hammurabi ne fut pas le premier à écrire des lois, mais son code est le plus complet qui nous soit parvenu."
+      },
+      {
+        "title": "Relief de la « Reine de la nuit »",
+        "artist": "Modeleur babylonien",
+        "country": "Irak",
+        "period": "XIXe–XVIIIe siècle av. J.-C.",
+        "museum": "British Museum, Londres",
+        "credit": "British Museum, Londres, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Queen_of_the_Night_relief_(also_Burney_relief),_1800-1750_BC,_from_Iraq._The_British_Museum,_London.jpg), photo Osama Shukir Muhammed Amin, licence CC BY-SA 4.0",
+        "image": "images/mouvements/mesopotamie/reine-de-la-nuit.jpg",
+        "sensible": true,
+        "analysis": "Une plaque de terre cuite de 49,5 cm de haut, modelée en haut relief. Une déesse nue, ailée, coiffée d'une couronne à plusieurs paires de cornes, se tient debout ; elle lève les deux mains, qui tiennent chacune un anneau et un bâton, des symboles de la justice divine. Ses pieds sont des serres d'oiseau de proie, posées sur le dos de deux lions couchés ; deux grandes chouettes l'encadrent. Le corps était peint en rouge à l'origine. On ne sait pas qui elle représente : Ishtar, la déesse de l'amour et de la guerre, sa sœur Ereshkigal, la reine des enfers, ou un démon. Son lieu de découverte n'est pas connu. Le British Museum l'a achetée en 2003 pour son 250e anniversaire.",
+        "compare": "Les ailes, les cornes et les serres mêlent l'humain, l'animal et le divin : comparez avec les taureaux ailés à tête d'homme des palais assyriens, plus loin."
+      },
+      {
+        "title": "La tablette V de l'épopée de Gilgamesh",
+        "artist": "Scribe babylonien",
+        "country": "Irak",
+        "period": "IIe ou Ier millénaire av. J.-C. (date discutée)",
+        "museum": "Musée de Souleimaniye (Irak)",
+        "credit": "Musée de Souleimaniye (Irak), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:The_Newly_Discovered_Tablet_V_of_the_Epic_of_Gilgamesh,_The_Sulaymaniyah_Museum,_Iraq.jpg), photo Osama Shukir Muhammed Amin, licence CC BY-SA 4.0",
+        "image": "images/mouvements/mesopotamie/tablette-v-de-gilgamesh.jpg",
+        "analysis": "Un fragment de tablette d'argile, aux bords cassés, couvert de lignes serrées d'écriture cunéiforme. Il appartient à la cinquième tablette de l'épopée de Gilgamesh, qui raconte comment Gilgamesh, roi d'Uruk, et son ami Enkidu entrent dans la forêt des cèdres et affrontent son gardien, le géant Humbaba. En 2011, le musée de Souleimaniye, dans le nord de l'Irak, l'a acheté parmi un lot de tablettes à un trafiquant ; son lieu de découverte n'est donc pas connu. Les spécialistes Farouk Al-Rawi et Andrew George y ont lu une vingtaine de vers inconnus jusque-là : la forêt y est pleine du vacarme des oiseaux, des cigales et des singes. Le musée la date de l'époque paléo-babylonienne ; eux la croient plus récente, du VIIe ou du VIe siècle av. J.-C.",
+        "compare": "L'une des plus anciennes grandes œuvres littéraires du monde : on y trouve l'amitié, la peur de la mort et un déluge. Une tablette achetée à un trafiquant rappelle aussi les pillages qui menacent le patrimoine irakien."
+      },
+      {
+        "title": "Taureau ailé à tête humaine (lamassu)",
+        "artist": "Art assyrien, atelier royal",
+        "country": "Irak",
+        "period": "vers 883–859 av. J.-C.",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/322608), domaine public (CC0)",
+        "image": "images/mouvements/art-assyrien/lamassu-taureau-aile-a-tete-humaine.jpg",
+        "lieu": "Nimroud (Kalhu)",
+        "lieuType": "découverte",
+        "analysis": "Un bloc de gypse de 3,14 mètres de haut et de plus de sept tonnes. Le corps d'un taureau, aux muscles soulignés, porte de grandes ailes aux plumes alignées et une tête d'homme barbu, coiffée d'une haute tiare à cornes. Comme beaucoup de lamassu, il a cinq pattes : vu de face, il se tient immobile ; vu de profil, il marche. Ces gardiens se dressaient par paires aux portes du palais du roi Assurnasirpal II à Nimroud, la capitale qu'il fit reconstruire sur le Tigre, pour protéger le roi et impressionner les visiteurs.",
+        "compare": "Au Ier millénaire av. J.-C., l'Assyrie, dans le nord de la Mésopotamie, devient un immense empire. L'exposition sur l'art assyrien, dans l'onglet Mouvements, montre d'autres reliefs de ses palais."
+      },
+      {
+        "title": "La chasse aux lions d'Assurbanipal",
+        "artist": "Sculpteurs assyriens",
+        "country": "Irak",
+        "period": "vers 645–635 av. J.-C.",
+        "museum": "British Museum, Londres",
+        "credit": "British Museum, Londres, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Lion_Hunt_of_Ashurbanipal_-_dying_lions.jpg), photo Zunkir, licence CC BY-SA 4.0",
+        "image": "images/mouvements/mesopotamie/chasse-aux-lions-d-assurbanipal.jpg",
+        "lieu": "Ninive",
+        "lieuType": "découverte",
+        "analysis": "Des plaques de pierre sculptées en relief peu profond : des lions et des lionnes, percés de flèches, s'effondrent ou agonisent ; l'un baisse la tête, une lionne tente encore de se redresser, la gueule ouverte. Les crinières, les muscles et les corps tendus sont rendus avec une grande précision. Ces reliefs ornaient le palais nord de Ninive, construit pour le roi Assurbanipal ; d'autres plaques montrent le roi lui-même qui tire à l'arc depuis son char ou combat à cheval. Les sculpteurs mettent en scène cette chasse royale pour la gloire du roi, mais ils rendent aussi la souffrance des bêtes avec une force rare.",
+        "compare": "C'est aussi à Ninive qu'Assurbanipal réunit une grande bibliothèque de tablettes, où l'on a retrouvé l'épopée de Gilgamesh. Comparez ces corps souffrants avec la stèle de Naram-Sin, plus haut."
+      },
+      {
+        "title": "Babylone, la ville de Nabuchodonosor",
+        "artist": "Bâtisseurs babyloniens ; murs reconstruits au XXe siècle",
+        "country": "Irak",
+        "period": "VIe siècle av. J.-C. ; reconstructions des années 1980",
+        "museum": "Site archéologique, Babylone (Irak)",
+        "credit": "Babylone (Irak), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:001125-Babylon-IMG_8063-2.jpg), photo Safa Daneshvar, licence CC BY-SA 4.0",
+        "image": "images/mouvements/mesopotamie/babylone.jpg",
+        "lieu": "Babylone",
+        "lieuType": "site",
+        "analysis": "Des murs de briques couleur de sable, couronnés de créneaux à degrés, entourent des cours et des salles ; au loin, des palmiers et la vallée de l'Euphrate. Babylone, capitale de Hammurabi au XVIIIe siècle av. J.-C., redevient au VIe siècle av. J.-C. l'une des plus grandes villes du monde, sous le roi Nabuchodonosor II, qui la couvre de palais et de temples. Les murs que l'on voit ici ont été en grande partie reconstruits dans les années 1980, à la demande de Saddam Hussein, sur les ruines antiques, ce que les archéologues ont beaucoup critiqué. Le site est inscrit au patrimoine mondial de l'UNESCO depuis 2019.",
+        "compare": "Ce qui reste de la grande Babylone : sa porte la plus célèbre est partie à Berlin, comme le montre l'œuvre suivante."
+      },
+      {
+        "title": "La porte d'Ishtar",
+        "artist": "Bâtisseurs de Nabuchodonosor II",
+        "country": "Irak",
+        "period": "vers 575 av. J.-C. ; reconstruite à Berlin vers 1930",
+        "museum": "Pergamonmuseum, Berlin",
+        "credit": "Pergamonmuseum, Berlin, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Ishtar_Gate_in_the_Pergamon_Museum_-.jpg), photo Kurt Kaiser, domaine public (CC0)",
+        "image": "images/mouvements/mesopotamie/porte-d-ishtar.jpg",
+        "lieu": "Babylone",
+        "lieuType": "découverte",
+        "analysis": "Une immense porte de briques émaillées d'un bleu profond, percée d'une grande arche et couronnée de créneaux. Sur le bleu se détachent, en relief, des rangées d'animaux jaunes et blancs : des taureaux, l'animal du dieu de l'orage Adad, et des dragons, l'animal de Marduk, le dieu de Babylone. Des bandes de rosettes soulignent les arcs. Le roi Nabuchodonosor II la fit construire vers 575 av. J.-C. au nord de la ville, sur la voie des processions, bordée de lions. L'archéologue allemand Robert Koldewey l'a fouillée au début du XXe siècle ; ses briques ont été emportées à Berlin, où la porte a été remontée au Pergamonmuseum.",
+        "compare": "Les briques émaillées de couleur, une invention babylonienne : comparez avec la frise des archers de Suse, dans l'exposition sur la Perse ancienne, que les Perses ont réalisée avec la même technique."
+      },
+      {
+        "title": "La carte babylonienne du monde",
+        "artist": "Scribe babylonien",
+        "country": "Irak",
+        "period": "vers le VIe siècle av. J.-C.",
+        "museum": "British Museum, Londres",
+        "credit": "British Museum, Londres, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Map_of_the_World_from_Sippar,_Iraq,_6th_century_BCE._The_British_Museum.jpg), photo Osama Shukir Muhammed Amin, licence CC BY-SA 4.0",
+        "image": "images/mouvements/mesopotamie/carte-du-monde-babylonienne.jpg",
+        "lieu": "Sippar",
+        "lieuType": "découverte",
+        "analysis": "Une tablette d'argile brisée, recollée : en haut, des lignes d'écriture cunéiforme ; en bas, on devine le début d'un dessin fait de cercles. C'est la plus ancienne carte du monde connue. Le dessin entier montre la terre comme un disque traversé par l'Euphrate, avec Babylone au centre, entouré par un anneau d'eau, le « fleuve amer », c'est-à-dire l'océan. Les noms de pays et de villes, comme l'Assyrie et l'Élam, sont écrits en cunéiforme ; le texte décrit des régions lointaines et mythiques. Elle a été trouvée à Sippar, au nord de Babylone, et le British Museum l'a acquise en 1882.",
+        "compare": "Le monde vu de Babylone : la ville est au centre de tout. Comparez avec la carte de cette exposition, où l'Euphrate et le Tigre traversent aussi le pays."
+      },
+      {
+        "title": "Le cylindre de Cyrus",
+        "artist": "Scribe babylonien",
+        "country": "Irak",
+        "period": "vers 539 av. J.-C.",
+        "museum": "British Museum, Londres",
+        "credit": "British Museum, Londres, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Kyros-Zylinder_Cyrus_Cylinder_British_Museum_in_London_Mohammad_Nemat_Zadeh.jpg), photo M-nemat, domaine public",
+        "image": "images/mouvements/perse-ancienne/cylindre-de-cyrus.jpg",
+        "lieu": "Babylone",
+        "lieuType": "découverte",
+        "analysis": "Dans une vitrine, un cylindre d'argile beige, en forme de tonneau, long d'environ 23 cm, couvert de lignes serrées d'écriture cunéiforme, avec des cassures. En 539 av. J.-C., le roi perse Cyrus prend Babylone : la Mésopotamie perd son dernier grand royaume indépendant. Sur ce cylindre, écrit en akkadien et enfoui dans les murs de la ville, Cyrus raconte qu'il est entré dans Babylone en paix, qu'il a rétabli les cultes et permis aux peuples déportés de rentrer chez eux. Il a été découvert à Babylone en 1879.",
+        "compare": "Le point d'arrivée de l'exposition : l'histoire continue avec la Perse ancienne, dans l'onglet Civilisations. Le cunéiforme sera encore écrit pendant des siècles, jusqu'au Ier siècle de notre ère, puis oublié, et déchiffré seulement au XIXe siècle."
+      }
+    ],
+    "carte": {
+      "image": "images/mouvements/cartes/mesopotamie.svg",
+      "ouest": 35,
+      "est": 49,
+      "sud": 29,
+      "nord": 39.3,
+      "lieux": [
+        {
+          "nom": "Uruk",
+          "lat": 31.3259,
+          "lon": 45.6374
+        },
+        {
+          "nom": "Eshnunna (Tell Asmar)",
+          "lat": 33.8106,
+          "lon": 44.7667
+        },
+        {
+          "nom": "Ur",
+          "lat": 30.9622,
+          "lon": 46.1044
+        },
+        {
+          "nom": "Mari",
+          "lat": 34.5494,
+          "lon": 40.89
+        },
+        {
+          "nom": "Girsu (Tello)",
+          "lat": 31.5653,
+          "lon": 46.1896
+        },
+        {
+          "nom": "Bassetki",
+          "lat": 36.9588,
+          "lon": 42.7215
+        },
+        {
+          "nom": "Suse",
+          "lat": 32.1894,
+          "lon": 48.2575
+        },
+        {
+          "nom": "Kanesh (Kültepe)",
+          "lat": 38.85,
+          "lon": 35.6333
+        },
+        {
+          "nom": "Nimroud (Kalhu)",
+          "lat": 36.0981,
+          "lon": 43.3289
+        },
+        {
+          "nom": "Ninive",
+          "lat": 36.3667,
+          "lon": 43.15
+        },
+        {
+          "nom": "Babylone",
+          "lat": 32.5425,
+          "lon": 44.4211
+        },
+        {
+          "nom": "Sippar",
+          "lat": 33.0588,
+          "lon": 44.2522
+        }
+      ],
+      "pays": [
+        {
+          "nom": "Irak",
+          "lat": 32.9,
+          "lon": 42.6
+        },
+        {
+          "nom": "Syrie",
+          "lat": 35.3,
+          "lon": 38.6
+        },
+        {
+          "nom": "Turquie",
+          "lat": 38.6,
+          "lon": 38.6
+        },
+        {
+          "nom": "Iran",
+          "lat": 33.9,
+          "lon": 47.6
+        },
+        {
+          "nom": "Koweït",
+          "lat": 29.6,
+          "lon": 47.2
+        },
+        {
+          "nom": "Jordanie",
+          "lat": 30.6,
+          "lon": 36.9
+        },
+        {
+          "nom": "Arabie saoudite",
+          "lat": 30.0,
+          "lon": 41.0
+        }
+      ],
+      "villes": [
+        {
+          "nom": "Bagdad",
+          "lat": 33.341,
+          "lon": 44.392
+        },
+        {
+          "nom": "Bassorah",
+          "lat": 30.515,
+          "lon": 47.812
+        },
+        {
+          "nom": "Erbil",
+          "lat": 36.181,
+          "lon": 44.007
+        },
+        {
+          "nom": "Souleimaniye",
+          "lat": 35.561,
+          "lon": 45.431
+        },
+        {
+          "nom": "Alep",
+          "lat": 36.232,
+          "lon": 37.168
+        },
+        {
+          "nom": "Damas",
+          "lat": 33.502,
+          "lon": 36.298
+        }
+      ]
+    }
   }
 ]

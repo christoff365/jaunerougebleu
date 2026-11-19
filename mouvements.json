@@ -19677,5 +19677,381 @@
         }
       ]
     }
+  },
+  {
+    "mouvement": "Hittites",
+    "slug": "hittites",
+    "status": "published",
+    "title": "Les Hittites, le royaume aux mille dieux",
+    "subtitle": "Turquie et Syrie, vers 1650 – 1180 av. J.-C. · 20 œuvres et sites",
+    "intro": "Au IIe millénaire av. J.-C., au cœur de l'Anatolie, dans l'actuelle Turquie, les Hittites ont bâti l'un des plus grands empires de leur temps. Depuis leur capitale, Hattusa, leurs rois ont dominé l'Anatolie et le nord de la Syrie, et ont tenu tête à l'Égypte de Ramsès II, avant de signer avec elle l'un des plus anciens traités de paix connus. Les Hittites remplissent tous les critères d'une civilisation : une capitale fortifiée et d'autres villes, un royaume organisé autour d'un roi qui était aussi grand prêtre, des milliers de tablettes d'archives, des lois écrites, des temples et des sanctuaires sculptés dans le roc, des artisans spécialisés et des échanges avec tout le Proche-Orient. Leur langue est la plus ancienne langue indo-européenne écrite connue. L'exposition présente des sites restés en Turquie et en Égypte, et des œuvres conservées à Ankara, Çorum, Boğazköy, Istanbul, New York, Chicago et Cleveland ; beaucoup de photographies sont celles de visiteurs, publiées sous licence libre.",
+    "contexte": [
+      {
+        "title": "Le pays de Hatti",
+        "text": "Avant les Hittites, le centre de l'Anatolie était habité par les Hattis, qui ont laissé de riches tombes à Alaca Höyük. Au début du IIe millénaire av. J.-C., des marchands assyriens viennent commercer dans les villes anatoliennes et y apportent l'écriture cunéiforme. Des peuples parlant des langues indo-européennes, dont les Hittites, s'imposent peu à peu. Vers 1650 av. J.-C., un roi, Hattusili Ier, fait de Hattusa sa capitale : c'est le début du royaume hittite. Ses successeurs mènent des expéditions jusqu'à Babylone, qu'ils pillent vers 1595 av. J.-C."
+      },
+      {
+        "title": "Un grand empire du Proche-Orient",
+        "text": "Au XIVe siècle av. J.-C., le roi Suppiluliuma Ier fait des Hittites l'une des grandes puissances du Proche-Orient, à égalité avec l'Égypte, Babylone et l'Assyrie. Il conquiert le nord de la Syrie et place ses fils sur les trônes de Karkemish et d'Alep. Les rois hittites gouvernent avec des fonctionnaires, des gouverneurs et des rois vassaux liés par des traités écrits. Ils correspondent avec les autres souverains en akkadien, la langue diplomatique de l'époque. Vers 1274 av. J.-C., le roi Muwatalli II affronte Ramsès II à Kadesh ; quinze ans plus tard, Hattusili III et Ramsès II signent la paix."
+      },
+      {
+        "title": "Le peuple aux mille dieux",
+        "text": "Les Hittites adoraient le dieu de l'orage, la déesse du soleil d'Arinna et un très grand nombre d'autres dieux, venus des Hattis, des Hourrites, des Louvites ou de Mésopotamie : ils parlaient eux-mêmes des « mille dieux du Hatti ». Le roi était le grand prêtre de ces dieux et devait célébrer de nombreuses fêtes, dont les scribes notaient tous les détails. Les Hittites ont aussi laissé un recueil de lois, des prières, des mythes et des annales. Ils écrivaient en cunéiforme sur des tablettes d'argile, mais utilisaient aussi des hiéroglyphes propres, dans la langue louvite, sur les monuments et les sceaux."
+      },
+      {
+        "title": "La chute et les royaumes néo-hittites",
+        "text": "Vers 1180 av. J.-C., l'empire hittite s'effondre, comme d'autres royaumes de la Méditerranée orientale à la même époque. Les historiens évoquent des famines, des guerres, des révoltes et les attaques de peuples venus de la mer. Hattusa est abandonnée. Mais dans le sud de l'Anatolie et le nord de la Syrie, de petits royaumes dits « néo-hittites », comme Karkemish, gardent pendant plus de quatre siècles la langue louvite, l'écriture hiéroglyphique et les dieux de l'empire, jusqu'à leur conquête par l'Assyrie au VIIIe siècle av. J.-C. La langue hittite a été redécouverte et déchiffrée au début du XXe siècle."
+      }
+    ],
+    "bibliography": [
+      {
+        "reference": "UNESCO, Patrimoine mondial : Hattusha, la capitale hittite",
+        "url": "https://whc.unesco.org/fr/list/377"
+      },
+      {
+        "reference": "Notices des œuvres : Cleveland Museum of Art, Metropolitan Museum of Art, musée des civilisations anatoliennes (Ankara), musées archéologiques d'Istanbul"
+      }
+    ],
+    "works": [
+      {
+        "title": "L'étendard solaire d'Alaca Höyük",
+        "artist": "Bronziers hattis",
+        "country": "Turquie",
+        "period": "vers 2200–2000 av. J.-C.",
+        "museum": "Musée des civilisations anatoliennes, Ankara (Turquie)",
+        "credit": "Musée des civilisations anatoliennes, Ankara (Turquie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:AlacaStandarte.jpg), photo Klaus-Peter Simon, licence CC BY-SA 3.0",
+        "image": "images/mouvements/hittites/etendard-d-alaca-hoyuk.jpg",
+        "lieu": "Alaca Höyük",
+        "lieuType": "découverte",
+        "analysis": "Un objet de bronze verdi, présenté sur un fond rouge : un grand demi-cercle rempli d'un treillis de losanges, dans lequel pendent trois petits anneaux marqués d'une croix ; tout autour, des tiges terminées par des boutons en forme de fleurs rayonnent comme des rayons de soleil. Il a été trouvé dans les tombes royales d'Alaca Höyük, au centre de la Turquie. Ces « étendards » étaient sans doute fixés au bout d'une perche et portés lors des cérémonies. Ils appartiennent à la culture des Hattis, le peuple qui vivait en Anatolie avant l'arrivée des Hittites.",
+        "compare": "Le point de départ de l'exposition : les Hittites ont pris le nom du « pays de Hatti » et beaucoup de dieux et de coutumes des Hattis. L'étendard solaire est devenu un symbole de la ville d'Ankara."
+      },
+      {
+        "title": "Le vase d'İnandık",
+        "artist": "Potiers hittites",
+        "country": "Turquie",
+        "period": "vers 1650–1600 av. J.-C.",
+        "museum": "Musée des civilisations anatoliennes, Ankara (Turquie)",
+        "credit": "Musée des civilisations anatoliennes, Ankara (Turquie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:The_%C4%B0nand%C4%B1k_vase,_a_Hittite_four-handled_large_terracota_vase_with_scenes_in_relief_depicting_a_sacred_wedding_ceremony,_mid_17th_century,_found_in_%C4%B0nand%C4%B1ktepe,_Museum_of_Anatolian_Civilizations,_Ankara_%2826167755270%29.jpg), photo Carole Raddato, licence CC BY-SA 2.0",
+        "image": "images/mouvements/hittites/vase-d-inandik.jpg",
+        "lieu": "İnandıktepe",
+        "lieuType": "découverte",
+        "analysis": "Un grand vase de terre cuite à quatre anses, au col évasé, est couvert de quatre bandes superposées de petits personnages et d'animaux en relief, peints en crème, rouge et noir. On voit des musiciens, des porteurs d'offrandes, des taureaux, un bâtiment et des gens assis. Selon le musée d'Ankara, les frises racontent les étapes d'une cérémonie de « mariage sacré ». Le vase a été trouvé en 1966 à İnandıktepe, près de Çankırı. Il date de l'époque de l'Ancien Royaume hittite, quand les premiers rois s'installaient à Hattusa.",
+        "compare": "Comme une bande dessinée en rond, ce vase montre une fête religieuse hittite avec ses musiciens et ses danseurs. Comparez avec le vase de Hüseyindede, juste après."
+      },
+      {
+        "title": "Le vase de Hüseyindede",
+        "artist": "Potiers hittites",
+        "country": "Turquie",
+        "period": "XVIIe–XVIe siècle av. J.-C.",
+        "museum": "Musée de Çorum (Turquie)",
+        "credit": "Musée de Çorum (Turquie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:CorumMuseumVaseH%C3%BCseyindede.jpg), photo Klaus-Peter Simon, licence CC BY-SA 3.0",
+        "image": "images/mouvements/hittites/vase-de-huseyindede.jpg",
+        "lieu": "Hüseyindede",
+        "lieuType": "découverte",
+        "analysis": "Un grand vase rouge à anses, très restauré, est décoré de frises de personnages et d'animaux en relief, peints en crème et en noir. Sur le col, des personnages se suivent en procession à côté d'un haut bâtiment ; plus bas, on reconnaît des taureaux. Ce vase a été découvert en 1997 à Hüseyindede, près de Sungurlu, dans la province de Çorum, avec un second vase semblable. Selon le guide du musée de Çorum, ses scènes montrent une fête de printemps et des taureaux, l'animal sacré du dieu de l'orage.",
+        "compare": "Le dieu de l'orage était le plus grand dieu des Hittites. Ses taureaux reviennent souvent dans leur art."
+      },
+      {
+        "title": "Prêtre-roi ou dieu",
+        "artist": "Sculpteur hittite de Syrie du Nord",
+        "country": "Syrie",
+        "period": "vers 1600 av. J.-C.",
+        "museum": "Cleveland Museum of Art, Cleveland",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1971.45), domaine public (CC0)",
+        "image": "images/mouvements/hittites/pretre-roi-ou-dieu.jpg",
+        "lieuType": "fabrication",
+        "analysis": "Une statue de basalte gris de 88 cm représente un homme debout, en longue robe. Il porte une haute couronne conique, une barbe et de grandes oreilles ; il tient une coupe dans sa main droite, et sa main gauche tenait autrefois un autre objet, peut-être un bâton ou une épée. Selon le musée, elle représente un dieu ou un prêtre-roi hittite, et une si grande sculpture de cette époque est très rare. Le musée rappelle que les Hittites parlaient une langue indo-européenne, de la même famille que le grec, le latin, le persan ou le français.",
+        "compare": "Le roi hittite était aussi le grand prêtre des dieux : il présidait les fêtes religieuses, et il était difficile, dans l'art, de distinguer un roi d'un dieu."
+      },
+      {
+        "title": "La porte des Lions de Hattusa",
+        "artist": "Bâtisseurs hittites",
+        "country": "Turquie",
+        "period": "XIVe–XIIIe siècle av. J.-C.",
+        "museum": "Site, Hattusa, Boğazkale (Turquie)",
+        "credit": "Hattusa, Boğazkale (Turquie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Lion_Gate,_Hattusa_01.jpg), photo Bernard Gagnon, licence CC BY-SA 3.0",
+        "image": "images/mouvements/hittites/porte-des-lions.jpg",
+        "lieu": "Hattusa",
+        "lieuType": "site",
+        "analysis": "Un passage s'ouvre entre deux énormes blocs de pierre ; sur chacun, la tête et le poitrail d'un lion, la gueule ouverte, sortent de la pierre. De chaque côté s'élèvent des murs faits de gros blocs irréguliers, bien ajustés. C'est l'une des portes de la ville haute de Hattusa, la capitale des Hittites, près de l'actuel village de Boğazkale, au centre de la Turquie. Les lions gardaient l'entrée de la ville. Hattusa est inscrite au patrimoine mondial de l'UNESCO depuis 1986.",
+        "compare": "Hattusa était protégée par plusieurs kilomètres de remparts. La porte des Lions est devenue le symbole de la civilisation hittite."
+      },
+      {
+        "title": "Le tunnel de Yerkapı",
+        "artist": "Bâtisseurs hittites",
+        "country": "Turquie",
+        "period": "XIVe–XIIIe siècle av. J.-C.",
+        "museum": "Site, Hattusa, Boğazkale (Turquie)",
+        "credit": "Hattusa, Boğazkale (Turquie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Hattusa_-_Postern_tunnel_under_Yerkap%C4%B1.jpg), photo Alena Belova, licence CC BY-SA 4.0",
+        "image": "images/mouvements/hittites/tunnel-de-yerkapi.jpg",
+        "lieu": "Hattusa",
+        "lieuType": "site",
+        "analysis": "Une personne s'enfonce dans un étroit passage sombre. Ses parois sont faites de gros blocs de pierre posés en avancée les uns sur les autres, de plus en plus près, jusqu'à se rejoindre en pointe au sommet. Ce tunnel, long d'environ 70 mètres, passe sous Yerkapı, un immense rempart de terre couvert de pierres, à la pointe sud de Hattusa. Au-dessus se trouvait la porte des Sphinx. Il servait de passage discret pour entrer et sortir de la ville.",
+        "compare": "Les Hittites ne connaissaient pas la vraie voûte : ils superposaient des pierres qui avancent un peu à chaque rang. Le même procédé se retrouve à Mycènes, en Grèce."
+      },
+      {
+        "title": "Sphinx de la porte des Sphinx de Hattusa",
+        "artist": "Sculpteurs hittites",
+        "country": "Turquie",
+        "period": "XIVe–XIIIe siècle av. J.-C.",
+        "museum": "Musée de Boğazköy (Turquie)",
+        "credit": "Musée de Boğazköy (Turquie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Museum_Bo%C4%9Fazkale_Sphinx_01.jpg), photo Ingeborg Simon, licence CC BY-SA 3.0",
+        "image": "images/mouvements/hittites/sphinx-de-hattusa.jpg",
+        "lieu": "Hattusa",
+        "lieuType": "découverte",
+        "analysis": "Dans une vitrine de musée, une grande statue de pierre restaurée : un sphinx, avec un visage humain, une coiffure qui tombe sur les épaules et un corps de lion ; derrière lui se dresse un second bloc sculpté. Il gardait la porte des Sphinx, au-dessus du rempart de Yerkapı. Les deux sphinx de cette porte ont été emportés au début du XXe siècle, l'un à Berlin, l'autre à Istanbul. En 2011, l'Allemagne a rendu le sien à la Turquie, et les deux sont depuis exposés ensemble au musée de Boğazköy, à côté de Hattusa.",
+        "compare": "Le sphinx vient d'Égypte, mais les Hittites lui ont donné leur propre style. Le retour de ce sphinx est un exemple de restitution d'une œuvre à son pays d'origine."
+      },
+      {
+        "title": "Le dieu guerrier de la porte du Roi",
+        "artist": "Sculpteurs hittites",
+        "country": "Turquie",
+        "period": "XIVe–XIIIe siècle av. J.-C.",
+        "museum": "Musée des civilisations anatoliennes, Ankara (Turquie)",
+        "credit": "Musée des civilisations anatoliennes, Ankara (Turquie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Ankara_Museum_Relief_of_the_King's_Gate_3816.jpg), photo Dosseman, licence CC BY-SA 4.0",
+        "image": "images/mouvements/hittites/dieu-de-la-porte-du-roi.jpg",
+        "lieu": "Hattusa",
+        "lieuType": "découverte",
+        "analysis": "Un relief de pierre montre un personnage musclé, presque grandeur nature, qui avance vers la droite, le poing gauche levé. Il porte un casque à long couvre-nuque, un court pagne orné de motifs gravés, une ceinture et une épée courbe. Il ornait l'une des portes de Hattusa. On a d'abord cru qu'il représentait un roi, d'où le nom de « porte du Roi » ; selon le musée d'Ankara, son casque à cornes montre qu'il s'agit en fait d'un dieu guerrier, chargé de protéger la porte et ceux qui la franchissaient. Une copie le remplace sur le site.",
+        "compare": "C'est l'un des chefs-d'œuvre de la sculpture hittite. Comparez avec les lions de la porte voisine : chaque porte de Hattusa avait ses gardiens."
+      },
+      {
+        "title": "Tablette hittite : le texte d'une fête religieuse",
+        "artist": "Scribes de Hattusa",
+        "country": "Turquie",
+        "period": "vers XIVe siècle av. J.-C.",
+        "museum": "Institut d'études du monde antique (ISAC), université de Chicago",
+        "credit": "Institut d'études du monde antique (ISAC, ancien Oriental Institute), université de Chicago, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Hittite_Cuneiform_Tablet-_Cultic_Festival_Script.jpg), photo Mx. Granger, domaine public (CC0)",
+        "image": "images/mouvements/hittites/tablette-hittite.jpg",
+        "lieu": "Hattusa",
+        "lieuType": "découverte",
+        "analysis": "Un fragment de tablette d'argile cuite, aux bords cassés, est couvert de lignes de petits signes en forme de clous, séparées par des traits horizontaux : c'est l'écriture cunéiforme. Elle provient des archives de Hattusa. Selon le musée, il s'agit du programme d'une fête pour la déesse Tetešḫapi : les scribes notaient en détail chaque geste, chaque offrande et chaque chant. Les Hittites ont emprunté le cunéiforme à la Mésopotamie, mais l'ont utilisé pour écrire leur propre langue. Des milliers de tablettes ont été retrouvées à Hattusa : lettres, traités, lois, prières et rituels.",
+        "compare": "Le hittite est la plus ancienne langue indo-européenne écrite que l'on connaisse. Le savant tchèque Bedřich Hrozný l'a déchiffré en 1915, en reconnaissant des mots proches du grec et du latin."
+      },
+      {
+        "title": "Le traité de Kadesh",
+        "artist": "Scribes de la cour hittite",
+        "country": "Turquie",
+        "period": "vers 1259 av. J.-C.",
+        "museum": "Musées archéologiques d'Istanbul, musée de l'Orient ancien (Turquie)",
+        "credit": "Musées archéologiques d'Istanbul, musée de l'Orient ancien (Turquie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Kadesh_Treaty,_written_in_Akkadian._1269_BCE._From_Bo%C4%9Fazk%C3%B6y,_Turkey._Clay_tablet._Museum_of_the_Ancient_Orient,_Istanbul,_Turkey.jpg), photo Osama Shukir Muhammed Amin, licence CC BY-SA 4.0",
+        "image": "images/mouvements/hittites/traite-de-kadesh.jpg",
+        "lieu": "Hattusa",
+        "lieuType": "découverte",
+        "analysis": "Une tablette d'argile rose, cassée, couverte de lignes serrées d'écriture cunéiforme, est maintenue dans un support transparent ; un second fragment est posé en bas à droite. C'est la version hittite du traité de paix conclu entre le roi hittite Hattusili III et le pharaon d'Égypte Ramsès II, quelques années après la bataille de Kadesh. Elle est écrite en akkadien, la langue de la diplomatie de l'époque. Ses fragments ont été trouvés à Hattusa entre 1906 et 1912. La version égyptienne est gravée en hiéroglyphes sur les murs de temples à Thèbes.",
+        "compare": "C'est l'un des plus anciens traités de paix connus. Une copie agrandie, offerte par la Turquie, est accrochée au siège des Nations unies à New York."
+      },
+      {
+        "title": "Lettre de la reine d'Égypte à la reine Puduhepa",
+        "artist": "Scribe de la cour d'Égypte",
+        "country": "Turquie",
+        "period": "vers 1275–1250 av. J.-C.",
+        "museum": "Musée des civilisations anatoliennes, Ankara (Turquie)",
+        "credit": "Musée des civilisations anatoliennes, Ankara (Turquie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Letter_of_friendship_from_Naptera_to_Puduhepa.jpg), photo Isabeau, licence CC BY-SA 4.0",
+        "image": "images/mouvements/hittites/lettre-a-puduhepa.jpg",
+        "lieu": "Hattusa",
+        "lieuType": "découverte",
+        "analysis": "Une tablette d'argile sombre, presque rectangulaire, est entièrement couverte de lignes de cunéiforme. C'est une lettre écrite en akkadien par Naptera, c'est-à-dire Néfertari, l'épouse du pharaon Ramsès II, à Puduhepa, l'épouse du roi hittite Hattusili III. Elle a été trouvée à Hattusa. La reine d'Égypte y salue sa « sœur », lui souhaite la paix et lui annonce l'envoi de cadeaux. Puduhepa jouait un grand rôle politique : elle signait elle-même des lettres et des traités.",
+        "compare": "Après des années de guerre, les deux grandes puissances de l'époque se parlent comme des membres d'une même famille. La diplomatie passait aussi par les reines."
+      },
+      {
+        "title": "La bataille de Kadesh, relief du temple d'Abou Simbel",
+        "artist": "Sculpteurs égyptiens",
+        "country": "Égypte",
+        "period": "vers 1265 av. J.-C.",
+        "museum": "Grand temple d'Abou Simbel (Égypte)",
+        "credit": "Grand temple d'Abou Simbel (Égypte), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Templo_de_Rams%C3%A9s_II,_Abu_Simbel,_Egipto,_2022-04-02,_DD_74-76_HDR.jpg), photo Diego Delso, licence CC BY-SA 4.0",
+        "image": "images/mouvements/hittites/bataille-de-kadesh.jpg",
+        "lieuType": "site",
+        "analysis": "Sur un mur de pierre ocre, sculpté en relief et couvert de hiéroglyphes, un pharaon géant, coiffé d'une couronne, se tient debout sur son char et tient les rênes ; son cheval, au panache de plumes, se cabre, et un lion court à ses côtés. À droite, des soldats plus petits combattent. C'est Ramsès II à la bataille de Kadesh, en Syrie, contre l'armée hittite du roi Muwatalli II, vers 1274 av. J.-C. Le pharaon a fait représenter cette bataille comme une grande victoire sur les murs de plusieurs temples, dont celui d'Abou Simbel. En réalité, aucun des deux camps ne l'a vraiment emportée.",
+        "compare": "Voici l'ennemi des Hittites vu par les Égyptiens. Kadesh est l'une des premières grandes batailles de chars dont on connaisse le déroulement. Elle a conduit, quinze ans plus tard, au traité de paix."
+      },
+      {
+        "title": "Les douze dieux de Yazılıkaya",
+        "artist": "Sculpteurs hittites",
+        "country": "Turquie",
+        "period": "XIIIe siècle av. J.-C.",
+        "museum": "Sanctuaire de Yazılıkaya, Boğazkale (Turquie)",
+        "credit": "Sanctuaire de Yazılıkaya, Boğazkale (Turquie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Relief_of_the_Twelve_Underworld_Gods_Chamber_B_Yazilikaya_Hattusa.jpg), photo Ywpark2003, domaine public (CC0)",
+        "image": "images/mouvements/hittites/douze-dieux-de-yazilikaya.jpg",
+        "lieu": "Yazılıkaya",
+        "lieuType": "site",
+        "analysis": "Sur une paroi de rocher, une file de douze personnages identiques marche vers la droite, les uns derrière les autres. Ils portent des bonnets pointus, de courtes tuniques et une épée recourbée sur l'épaule. Ce relief est taillé dans la roche naturelle du sanctuaire de Yazılıkaya, à moins de deux kilomètres de Hattusa. On pense que ces douze dieux sont des divinités du monde souterrain. Dans la grande chambre voisine, des dizaines d'autres dieux et déesses avancent en deux longs cortèges.",
+        "compare": "Les Hittites se disaient le peuple « aux mille dieux » : ils adoptaient les dieux des peuples qu'ils soumettaient. Yazılıkaya en est comme le catalogue sculpté."
+      },
+      {
+        "title": "Le roi Tudhaliya IV dans les bras du dieu Sharruma",
+        "artist": "Sculpteurs hittites",
+        "country": "Turquie",
+        "period": "XIIIe siècle av. J.-C.",
+        "museum": "Sanctuaire de Yazılıkaya, Boğazkale (Turquie)",
+        "credit": "Sanctuaire de Yazılıkaya, Boğazkale (Turquie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:God_Sharruma_and_King_Tudhaliya.jpg), photo Boshix, licence CC BY-SA 4.0",
+        "image": "images/mouvements/hittites/tudhaliya-et-sharruma.jpg",
+        "lieu": "Yazılıkaya",
+        "lieuType": "site",
+        "analysis": "Dans une niche creusée dans la roche sombre, deux personnages en relief : à gauche, un dieu plus grand, coiffé d'une haute tiare pointue, passe le bras autour des épaules d'un homme en longue robe, qui tient un bâton recourbé. Au-dessus, un petit signe ailé entoure le nom du roi, écrit en hiéroglyphes louvites. C'est le roi Tudhaliya IV, protégé par le dieu Sharruma, fils du dieu de l'orage. Cette chambre du sanctuaire de Yazılıkaya était sans doute un lieu de mémoire pour ce roi, aménagé par son fils à la fin du XIIIe siècle av. J.-C.",
+        "compare": "Le bâton recourbé est le signe du roi hittite, comme la crosse chez les pharaons. Le dieu qui embrasse le roi montre que son pouvoir venait des dieux."
+      },
+      {
+        "title": "Vase en forme de cerf",
+        "artist": "Orfèvres hittites",
+        "country": "Turquie",
+        "period": "XIVe–XIIIe siècle av. J.-C.",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/327399), domaine public (CC0)",
+        "image": "images/mouvements/hittites/vase-en-forme-de-cerf.jpg",
+        "lieuType": "fabrication",
+        "analysis": "Un vase d'argent de 18 cm se termine par l'avant d'un cerf couché, aux grands bois ramifiés ; un collier à damier relie la tête au corps du vase. Autour du bord, une frise en relief montre une scène religieuse : selon le musée, un dieu debout sur un cerf et une déesse, tenant chacun un faucon, reçoivent trois hommes qui apportent des offrandes ; derrière eux, un cerf abattu est couché au pied d'un arbre où pendent un carquois et un sac. Ce type de vase servait à verser des boissons lors des cérémonies.",
+        "compare": "Le cerf était l'animal du dieu protecteur de la campagne et de la chasse. L'orfèvre a façonné ce vase au marteau dans une seule feuille d'argent."
+      },
+      {
+        "title": "Enseigne en forme de cerf",
+        "artist": "Bronziers hittites",
+        "country": "Turquie",
+        "period": "1400–1200 av. J.-C.",
+        "museum": "Cleveland Museum of Art, Cleveland",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1975.13), domaine public (CC0)",
+        "image": "images/mouvements/hittites/enseigne-au-cerf.jpg",
+        "lieuType": "fabrication",
+        "analysis": "Une petite statuette de bronze de 14 cm représente un cerf debout, la tête dressée, avec de grands bois aux pointes nombreuses ; ses sabots reposent sur une base percée, qui permettait de la fixer au sommet d'une perche. Selon le musée, le cerf était sacré pour le dieu hittite de la campagne. Les enseignes de ce genre étaient sans doute portées dans les processions religieuses.",
+        "compare": "Comparez avec l'étendard d'Alaca Höyük, au début de l'exposition : mille ans plus tard, les Anatoliens portaient toujours des emblèmes de bronze au bout de perches."
+      },
+      {
+        "title": "Petit dieu de la montagne",
+        "artist": "Ivoiriers hittites",
+        "country": "Turquie",
+        "period": "XIVe siècle av. J.-C.",
+        "museum": "Musée des civilisations anatoliennes, Ankara (Turquie)",
+        "credit": "Musée des civilisations anatoliennes, Ankara (Turquie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Hittite_Mountain_God_Figurine_Museum_of_Anatolian_Civilizations.jpg), photo Ywpark2003, domaine public (CC0)",
+        "image": "images/mouvements/hittites/dieu-de-la-montagne.jpg",
+        "lieu": "Hattusa",
+        "lieuType": "découverte",
+        "analysis": "Une minuscule figurine d'ivoire, haute de 3,6 cm seulement, représente un dieu barbu à la haute coiffure pointue, les mains jointes devant le visage. Son torse sort d'un cône fait de rangées de petites pointes, qui représentent les sommets des montagnes. Selon le musée d'Ankara, elle a été trouvée à Hattusa ; un trou à sa base montre qu'elle était fixée sur un autre objet, peut-être tenue dans la main d'une statue plus grande.",
+        "compare": "Pour les Hittites, les montagnes étaient des dieux. Les cônes à pointes de cette figurine rappellent la jupe à écailles des dieux montagnes de Yazılıkaya."
+      },
+      {
+        "title": "La porte des Sphinx d'Alaca Höyük",
+        "artist": "Bâtisseurs hittites",
+        "country": "Turquie",
+        "period": "XIVe–XIIIe siècle av. J.-C.",
+        "museum": "Site, Alaca Höyük (Turquie)",
+        "credit": "Alaca Höyük (Turquie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Sphinx_Gate,_Alaca_H%C3%B6y%C3%BCk_01.jpg), photo Bernard Gagnon, licence CC BY-SA 3.0",
+        "image": "images/mouvements/hittites/porte-des-sphinx-alaca.jpg",
+        "lieu": "Alaca Höyük",
+        "lieuType": "site",
+        "analysis": "Dans une prairie, sous un grand ciel nuageux, deux hauts blocs de pierre sculptés en forme de sphinx encadrent l'entrée d'une ville ; de part et d'autre, une rangée de dalles basses porte des reliefs. C'est la porte des Sphinx d'Alaca Höyük, une ville hittite à 25 km de Hattusa. Les dalles montrent des scènes religieuses, avec le roi et la reine devant un taureau qui représente le dieu de l'orage, des musiciens et des acrobates. Sur la face intérieure d'un sphinx est sculpté un aigle à deux têtes. Les reliefs originaux sont au musée d'Ankara ; ceux du site sont des copies.",
+        "compare": "Plus de mille ans après les tombes royales des Hattis, d'où vient l'étendard solaire, la même colline accueillait une ville hittite."
+      },
+      {
+        "title": "Un char de guerre, relief de Karkemish",
+        "artist": "Sculpteurs néo-hittites",
+        "country": "Turquie",
+        "period": "900–700 av. J.-C.",
+        "museum": "Musée des civilisations anatoliennes, Ankara (Turquie)",
+        "credit": "Musée des civilisations anatoliennes, Ankara (Turquie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Ankara_Anatolian_Civilizations_Carchemish_orthostats_Long_Wall_Chariot_scene_C_in_2004_08.jpg), photo Dosseman, licence CC BY-SA 4.0",
+        "image": "images/mouvements/hittites/char-de-karkemish.jpg",
+        "lieu": "Karkemish",
+        "lieuType": "découverte",
+        "analysis": "Sur une dalle de pierre, un char de guerre fonce vers la droite, tiré par un cheval au panache. Debout dans la caisse, un archer tend son arc ; à côté de lui, le conducteur tient les rênes. Sous les sabots du cheval, un ennemi est tombé à terre. La caisse du char est couverte de boucliers ronds et sa roue a six rayons. Cette dalle ornait un long mur de la ville de Karkemish, sur l'Euphrate, à la frontière actuelle de la Turquie et de la Syrie.",
+        "compare": "Après la chute de l'empire hittite, vers 1180 av. J.-C., Karkemish devint la capitale d'un royaume « néo-hittite » qui garda la langue, l'écriture et le style des Hittites."
+      },
+      {
+        "title": "Le relief d'İvriz",
+        "artist": "Sculpteurs du royaume de Tuwana",
+        "country": "Turquie",
+        "period": "vers 730–710 av. J.-C.",
+        "museum": "Site, İvriz, près d'Ereğli (Turquie)",
+        "credit": "İvriz, près d'Ereğli, province de Konya (Turquie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Ivriz_Neo-Hittite_relief_%281993%29.jpg), photo Mark Landon, licence CC BY 4.0",
+        "image": "images/mouvements/hittites/relief-d-ivriz.jpg",
+        "lieu": "İvriz",
+        "lieuType": "site",
+        "analysis": "Taillé dans une paroi de rocher, un dieu géant, barbu, coiffé d'un bonnet à cornes, tient dans une main des grappes de raisin et dans l'autre des épis de blé ; devant lui, un roi plus petit, en robe richement brodée, lève les mains pour le prier. C'est le dieu de l'orage Tarhunza et le roi Warpalawa de Tuwana, un petit royaume néo-hittite du sud de l'Anatolie, à la fin du VIIIe siècle av. J.-C. Des inscriptions en hiéroglyphes louvites donnent leurs noms. Le relief domine une source, au pied des montagnes du Taurus.",
+        "compare": "Le point d'arrivée de l'exposition : cinq siècles après la chute de Hattusa, les rois néo-hittites honoraient encore le dieu de l'orage. Peu après, ces royaumes furent conquis par l'Assyrie."
+      }
+    ],
+    "carte": {
+      "image": "images/mouvements/cartes/hittites.svg",
+      "ouest": 26.0,
+      "est": 43.0,
+      "sud": 32.0,
+      "nord": 43.0,
+      "lieux": [
+        {
+          "nom": "Alaca Höyük",
+          "lat": 40.2339,
+          "lon": 34.6956
+        },
+        {
+          "nom": "İnandıktepe",
+          "lat": 40.3811,
+          "lon": 33.5353
+        },
+        {
+          "nom": "Hüseyindede",
+          "lat": 40.287,
+          "lon": 34.2328
+        },
+        {
+          "nom": "Hattusa",
+          "lat": 40.0197,
+          "lon": 34.6153
+        },
+        {
+          "nom": "Yazılıkaya",
+          "lat": 40.025,
+          "lon": 34.6328
+        },
+        {
+          "nom": "Karkemish",
+          "lat": 36.8297,
+          "lon": 38.015
+        },
+        {
+          "nom": "İvriz",
+          "lat": 37.41,
+          "lon": 34.17
+        }
+      ],
+      "pays": [
+        {
+          "nom": "Turquie",
+          "lat": 38.6,
+          "lon": 31.5
+        },
+        {
+          "nom": "Syrie",
+          "lat": 35.0,
+          "lon": 38.8
+        },
+        {
+          "nom": "Irak",
+          "lat": 34.0,
+          "lon": 42.0
+        },
+        {
+          "nom": "Chypre",
+          "lat": 35.15,
+          "lon": 33.2
+        }
+      ],
+      "villes": [
+        {
+          "nom": "Istanbul",
+          "lat": 41.0082,
+          "lon": 28.9784
+        },
+        {
+          "nom": "Alep",
+          "lat": 36.2021,
+          "lon": 37.1343
+        },
+        {
+          "nom": "Kadesh",
+          "lat": 34.5576,
+          "lon": 36.52
+        }
+      ]
+    }
   }
 ]

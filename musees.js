@@ -490,6 +490,8 @@ const MOUVEMENTS = [
     "Plaques et têtes en laiton du palais royal d'Edo, qui célèbrent les rois (oba) ; beaucoup ont été pillées en 1897."],
   ['Peinture chrétienne éthiopienne', 'Afrique', 'Éthiopie', 'XVe–XIXe siècle', ['Ethiopian'], [], 'ewostatewos', [],
     "Icônes, manuscrits et peintures murales aux grands yeux et aux couleurs vives, parents de l'art copte et byzantin."],
+  ['Mayas', 'Amériques', 'Mexique, Guatemala, Belize et Honduras', 'vers 350 av. J.-C. – 1697', ['Maya'], ['Maya civilization'], 'maya|tikal|palenque|copan|copán|chichen|uxmal|calakmul|yaxchilan|bonampak', [],
+    "Des cités rivales dans la forêt : El Mirador, Tikal, Calakmul, Palenque et le masque de Pakal, Copán, Bonampak, Chichén Itzá, le Codex de Dresde et le Popol Vuh."],
   ['Aztèques', 'Amériques', 'Mexique', 'XIVe–XVIe siècle', ['Aztec', 'Mexica'], ['Aztec art'], 'aztec|azteque|aztèque|mexica|tenochtitlan', [],
     "Tenochtitlan, la ville sur le lac : Templo Mayor, Pierre du Soleil, Coatlicue, codex peints, plumes et turquoises, jusqu'à la conquête de 1521."],
   ['Incas', 'Amériques', 'Pérou, Équateur, Bolivie, Chili et Argentine', 'XVe–XVIe siècle', ['Inca', 'Inka'], ['Inca art'], 'inca|inka|cuzco|cusco|machu picchu', [],
@@ -567,7 +569,7 @@ const STYLES_ARCHITECTURE = { 'Art gothique': 'Q176483' };
 const ANONYME = 'Q4233718'; // « anonyme » dans Wikidata
 // Mouvements d'abord de l'estampe : leurs estampes ne sont pas limitées à trois
 // Expositions consacrées à une civilisation plutôt qu'à un mouvement (badge « Civilisation » sur leur page)
-const CIVILISATIONS = new Set(['Empire mongol', 'Mésopotamie', 'Égypte ancienne', 'Royaume de Koush', "Civilisation de l'Indus", 'Inde ancienne', 'Chine, des origines à 1912', 'Japon, des origines à 1868', 'Grèce antique', 'Israël et Juda', 'Perse ancienne', 'Rome antique', 'Aksoum', 'Anglo-Saxons', 'Royaumes de Java et de Sumatra', 'Vikings', "Empire des Tu'i Tonga", 'Empire du Mali', 'Aztèques', 'Incas']);
+const CIVILISATIONS = new Set(['Mayas', 'Empire mongol', 'Mésopotamie', 'Égypte ancienne', 'Royaume de Koush', "Civilisation de l'Indus", 'Inde ancienne', 'Chine, des origines à 1912', 'Japon, des origines à 1868', 'Grèce antique', 'Israël et Juda', 'Perse ancienne', 'Rome antique', 'Aksoum', 'Anglo-Saxons', 'Royaumes de Java et de Sumatra', 'Vikings', "Empire des Tu'i Tonga", 'Empire du Mali', 'Aztèques', 'Incas']);
 const MOUVEMENTS_D_ESTAMPES = new Set(['Ukiyo-e', 'Expressionnisme']);
 // Mouvements de peintres : si le visiteur n'a pas choisi de type, l'exposition ne montre que des peintures
 // (pas les dessins, études, estampes ou éventails que les catalogues renvoient aussi pour ces artistes)

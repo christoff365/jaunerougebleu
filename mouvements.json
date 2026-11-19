@@ -18433,5 +18433,404 @@
         }
       ]
     }
+  },
+  {
+    "mouvement": "Empire khmer",
+    "slug": "empire-khmer",
+    "status": "published",
+    "title": "L'Empire khmer, des premiers royaumes à Angkor",
+    "subtitle": "Cambodge, Thaïlande et Laos, VIe siècle – 1431 · 20 œuvres et sites",
+    "intro": "Pendant plus de six siècles, les rois khmers ont gouverné depuis Angkor, dans le nord-ouest de l'actuel Cambodge, un empire qui s'étendait aussi sur une grande partie de la Thaïlande et du Laos d'aujourd'hui. Ils ont élevé des centaines de temples de brique et de grès, dédiés aux dieux hindous Shiva et Vishnu, puis au Bouddha, creusé d'immenses réservoirs d'eau et tracé des routes à travers leur royaume. Les Khmers remplissent tous les critères d'une civilisation : des villes, dont Angkor fut l'une des plus vastes du monde préindustriel, un État organisé autour d'un roi, des monuments, une écriture, des métiers spécialisés et des échanges lointains avec l'Inde et la Chine. L'exposition suit cette histoire, des royaumes d'avant Angkor jusqu'à 1431, à travers des sites restés au Cambodge, en Thaïlande et au Laos, des œuvres du musée national du Cambodge à Phnom Penh, et des pièces conservées à Paris et à Cleveland ; beaucoup de photographies sont celles de visiteurs, publiées sous licence libre. Les temples d'Angkor sont toujours vénérés, et Angkor Wat figure sur le drapeau du Cambodge.",
+    "contexte": [
+      {
+        "title": "Des premiers royaumes à l'empire d'Angkor",
+        "text": "Dès les premiers siècles de notre ère, des royaumes se forment dans le delta du Mékong et le long du fleuve, en relation avec l'Inde : ils en adoptent les dieux, la langue savante, le sanskrit, et l'écriture. Au VIIe siècle, Ishanapura, l'actuelle Sambor Prei Kuk, est la capitale d'un royaume khmer. En 802, selon une inscription, le roi Jayavarman II se fait proclamer souverain universel sur le mont Kulen : c'est le début de l'empire d'Angkor. Ses successeurs installent leur capitale dans la région d'Angkor, sauf de 928 à 944, à Koh Ker. L'empire atteint sa plus grande extension aux XIIe et XIIIe siècles, sous Suryavarman II, le bâtisseur d'Angkor Wat, puis sous Jayavarman VII, qui chasse les Chams après le pillage d'Angkor en 1177."
+      },
+      {
+        "title": "Le roi, les temples et les villes",
+        "text": "Le roi khmer est le protecteur des dieux et du royaume : chaque grand roi fait construire son temple d'État, un « temple-montagne » qui représente le mont Meru, la montagne au centre du monde. Les temples sont aussi de grandes entreprises : selon une inscription, 12 640 personnes vivaient et servaient au seul temple de Ta Prohm. Autour d'eux s'étendent des villes de bois aujourd'hui disparues, avec des maisons, des marchés et des palais. Des fonctionnaires, des prêtres, des architectes, des sculpteurs, des fondeurs de bronze, des danseuses et des paysans forment une société très hiérarchisée."
+      },
+      {
+        "title": "L'eau, le riz et les routes",
+        "text": "La richesse d'Angkor repose sur le riz. Pendant la saison des pluies, l'eau est retenue dans d'immenses réservoirs rectangulaires, les barays, et dans des canaux et des fossés ; le grand lac Tonlé Sap fournit aussi du poisson en abondance. Des routes surélevées, avec des ponts et des gîtes d'étape, relient Angkor aux provinces, jusqu'à Phimai, en Thaïlande, et à Vat Phou, au Laos. Jayavarman VII fait aussi fonder plus de cent hôpitaux. Les Khmers commercent avec la Chine : en 1296, le voyageur chinois Zhou Daguan séjourne à Angkor et laisse la plus longue description de la ville qui nous soit parvenue."
+      },
+      {
+        "title": "Des dieux hindous au Bouddha, et ce qu'il reste d'Angkor",
+        "text": "Les premiers rois honorent surtout Shiva et Vishnu. À la fin du XIIe siècle, Jayavarman VII fait du bouddhisme la religion de l'État ; au XIIIe et au XIVe siècle, le bouddhisme theravada, encore pratiqué au Cambodge aujourd'hui, se répand dans tout le pays. En 1431, selon les chroniques thaïes, Angkor est prise par le royaume d'Ayutthaya, et la cour s'installe plus au sud, près de Phnom Penh. Les temples ne sont jamais tout à fait abandonnés. Au XXe siècle, les guerres et les pillages ont fait sortir illégalement beaucoup de statues du Cambodge ; depuis quelques années, plusieurs musées étrangers les ont rendues."
+      }
+    ],
+    "bibliography": [
+      {
+        "reference": "UNESCO, Patrimoine mondial : Angkor",
+        "url": "https://whc.unesco.org/fr/list/668"
+      },
+      {
+        "reference": "UNESCO, Patrimoine mondial : Temple de Preah Vihear",
+        "url": "https://whc.unesco.org/fr/list/1224"
+      },
+      {
+        "reference": "UNESCO, Patrimoine mondial : Zone des temples de Sambor Prei Kuk, site archéologique de l'ancienne Ishanapura",
+        "url": "https://whc.unesco.org/fr/list/1532"
+      },
+      {
+        "reference": "UNESCO, Patrimoine mondial : Vat Phou et les anciens établissements associés du paysage culturel de Champassak",
+        "url": "https://whc.unesco.org/fr/list/481"
+      },
+      {
+        "reference": "Zhou Daguan, Mémoires sur les coutumes du Cambodge (fin du XIIIe siècle), traduction de Paul Pelliot"
+      },
+      {
+        "reference": "Notices des œuvres : musée national du Cambodge, musée Guimet, Cleveland Museum of Art"
+      }
+    ],
+    "works": [
+      {
+        "title": "Vishnu à huit bras de Phnom Da",
+        "artist": "Sculpteur khmer",
+        "country": "Cambodge",
+        "period": "VIe–VIIe siècle",
+        "museum": "Musée national du Cambodge, Phnom Penh",
+        "credit": "Musée national du Cambodge, Phnom Penh, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Statues_of_Vishnu,_Rama_and_Balarama_of_Phnom_Da._National_Museum_of_Cambodia.jpg), photo Ismoon, licence CC BY-SA 4.0",
+        "image": "images/mouvements/empire-khmer/vishnu-de-phnom-da.jpg",
+        "lieu": "Phnom Da",
+        "lieuType": "découverte",
+        "analysis": "Dans une salle aux murs blancs, trois grandes statues de grès sombre se tiennent debout. Au centre, la plus haute, près de 2,90 mètres, représente le dieu Vishnu : un grand arc de pierre, qui soutenait ses huit bras, l'entoure, mais la plupart des bras sont brisés. À ses côtés se dressent Rama et Balarama, deux de ses incarnations. Ces statues ont été trouvées en 1936 sur la colline de Phnom Da, près d'Angkor Borei, dans le sud du Cambodge, et sont aujourd'hui au musée national de Phnom Penh. Elles datent d'avant l'époque d'Angkor, quand les premiers royaumes khmers adoptaient les dieux et l'écriture venus de l'Inde.",
+        "compare": "Le point de départ de l'exposition : bien avant Angkor, les Khmers sculptaient déjà des dieux hindous géants. Comparez avec le Vishnu de bronze du Mebon occidental, plus loin, cinq siècles plus tard."
+      },
+      {
+        "title": "Sambor Prei Kuk, l'ancienne Ishanapura",
+        "artist": "Bâtisseurs khmers",
+        "country": "Cambodge",
+        "period": "VIIe siècle",
+        "museum": "Site archéologique, Sambor Prei Kuk (Kampong Thom, Cambodge)",
+        "credit": "Sambor Prei Kuk (Cambodge), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Sambor_Prei_Kuk_N16_%282%29_en_2014.jpg), photo Pierre André, licence CC BY-SA 4.0",
+        "image": "images/mouvements/empire-khmer/sambor-prei-kuk.jpg",
+        "lieu": "Sambor Prei Kuk",
+        "lieuType": "site",
+        "analysis": "Dans une forêt claire, un petit temple de briques, rongé par le temps, ouvre une porte encadrée de pierre ; sur ses murs, on devine des décors sculptés dans la brique. Sambor Prei Kuk, dans le centre du Cambodge, est identifiée à Ishanapura, la capitale du roi Ishanavarman Ier au VIIe siècle. Des dizaines de temples de briques, dont beaucoup sont octogonaux, s'y élèvent dans la forêt. Le site est inscrit au patrimoine mondial de l'UNESCO depuis 2017.",
+        "compare": "Avant les grands temples de grès d'Angkor, les Khmers bâtissaient en brique. Comparez avec le Bakong, plus loin, l'un des premiers temples-montagnes."
+      },
+      {
+        "title": "L'inscription du « premier zéro »",
+        "artist": "Graveur khmer",
+        "country": "Cambodge",
+        "period": "683",
+        "museum": "Musée national du Cambodge, Phnom Penh",
+        "credit": "Musée national du Cambodge, Phnom Penh, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:First_zero_1.jpg), photo Mx. Granger, domaine public (CC0)",
+        "image": "images/mouvements/empire-khmer/inscription-du-premier-zero.jpg",
+        "analysis": "De près, une pierre grise est couverte de lettres gravées, arrondies et bouclées : c'est l'écriture khmère ancienne, issue d'une écriture de l'Inde. Cette inscription, cataloguée K-127, a été trouvée en 1891 au bord du Mékong, à Sambor, dans la province de Kratie. Elle donne une date : l'année 605 de l'ère Shaka, soit 683 de notre ère. Dans le nombre 605, le zéro est noté par un point : c'est l'un des plus anciens zéros connus écrits avec des chiffres. Retrouvée dans une réserve par le mathématicien Amir Aczel, elle est exposée au musée national du Cambodge.",
+        "compare": "L'écriture, l'un des critères d'une civilisation : les Khmers ont gravé en khmer et en sanskrit plus d'un millier d'inscriptions, qui sont aujourd'hui la principale source sur leur histoire."
+      },
+      {
+        "title": "Le Bakong, temple-montagne de Hariharalaya",
+        "artist": "Bâtisseurs du roi Indravarman Ier",
+        "country": "Cambodge",
+        "period": "881",
+        "museum": "Site archéologique, Roluos (Siem Reap, Cambodge)",
+        "credit": "Roluos (Cambodge), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Bakong_Wiki.jpg), photo Culexx, licence CC BY-SA 3.0",
+        "image": "images/mouvements/empire-khmer/bakong.jpg",
+        "lieu": "Roluos (Hariharalaya)",
+        "lieuType": "site",
+        "analysis": "Une large pyramide de pierre à gradins porte à son sommet une tour en forme de bouton de lotus. Selon une inscription, le roi Indravarman Ier dédia ce temple au dieu Shiva en 881. Le Bakong se trouve dans l'ancienne ville de Hariharalaya, dans le secteur actuel de Roluos, près d'Angkor. C'est l'un des premiers grands « temples-montagnes » khmers : une pyramide à étages qui représente le mont Meru, la montagne des dieux au centre du monde.",
+        "compare": "Le temple-montagne deviendra la forme des grands temples d'État des rois khmers. Comparez avec la pyramide de Koh Ker, juste après."
+      },
+      {
+        "title": "La pyramide de Koh Ker",
+        "artist": "Bâtisseurs du roi Jayavarman IV",
+        "country": "Cambodge",
+        "period": "928–944",
+        "museum": "Site archéologique, Koh Ker (Preah Vihear, Cambodge)",
+        "credit": "Koh Ker (Cambodge), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Koh_Ker,_Prasat_Thom_%286225843693%29.jpg), photo Arian Zwegers, licence CC BY 2.0",
+        "image": "images/mouvements/empire-khmer/prasat-thom-koh-ker.jpg",
+        "lieu": "Koh Ker",
+        "lieuType": "site",
+        "analysis": "Au bout d'une allée de terre, dans une plaine sèche, se dresse une pyramide de grès à sept gradins, haute d'environ 35 mètres ; un escalier monte tout droit jusqu'au sommet. Elle se trouve à Koh Ker, au nord du Cambodge, qui fut la capitale de l'empire de 928 à 944, sous le roi Jayavarman IV puis son fils. Ce temple était dédié à Shiva. Plusieurs statues de Koh Ker, pillées au XXe siècle, ont été rendues au Cambodge par des musées américains depuis 2013.",
+        "compare": "Une capitale éphémère : en 944, le roi Rajendravarman ramena la cour à Angkor. Comparez avec le Bakong, juste avant."
+      },
+      {
+        "title": "Banteay Srei : Shiva dansant",
+        "artist": "Sculpteurs de Banteay Srei",
+        "country": "Cambodge",
+        "period": "967",
+        "museum": "Site archéologique, Banteay Srei (Siem Reap, Cambodge)",
+        "credit": "Banteay Srei (Cambodge), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Reliefs_of_Shiva_Dancing_%28Banteay_Srei%29.jpg), photo Pierre André Leclercq, licence CC BY-SA 4.0",
+        "image": "images/mouvements/empire-khmer/banteay-srei-shiva-dansant.jpg",
+        "lieu": "Banteay Srei",
+        "lieuType": "site",
+        "analysis": "Un fronton de grès rose, sculpté comme une dentelle : au centre, un dieu à plusieurs bras danse, une jambe levée, au milieu de rinceaux de feuillages ; d'autres personnages l'entourent. C'est Shiva, le dieu de la danse cosmique, qui crée et détruit le monde. Le petit temple de Banteay Srei, consacré en 967, n'a pas été construit par un roi mais par des courtisans, dont un nommé Yajnavaraha. Il est célèbre pour son grès rouge, dur et fin, que les sculpteurs ont travaillé comme du bois.",
+        "compare": "Un chef-d'œuvre de la sculpture khmère : les plus beaux décors ne sont pas toujours sur les plus grands temples. Comparez avec les bas-reliefs d'Angkor Wat, plus loin."
+      },
+      {
+        "title": "Kbal Spean, la rivière sculptée du mont Kulen",
+        "artist": "Sculpteurs khmers",
+        "country": "Cambodge",
+        "period": "XIe siècle",
+        "museum": "Site archéologique, Kbal Spean (Phnom Kulen, Cambodge)",
+        "credit": "Kbal Spean (Cambodge), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Kbal_Spean,_sur_les_pentes_sud-ouest_du_mont_Kulen_%2814%29.jpg), photo Pierre André, licence CC BY-SA 4.0",
+        "image": "images/mouvements/empire-khmer/kbal-spean.jpg",
+        "lieu": "Kbal Spean",
+        "lieuType": "site",
+        "analysis": "Dans une rivière claire de la forêt, un rocher, au bord de l'eau, a été sculpté en forme de personnage allongé ; plus loin, d'autres formes taillées apparaissent sous l'eau, au fond du lit. À Kbal Spean, sur les pentes du mont Kulen, les Khmers ont sculpté au XIe siècle des dieux hindous et des centaines de lingas dans le lit même de la rivière, sans doute pour sanctifier l'eau qui descendait vers Angkor. C'est sur le mont Kulen qu'en 802, selon une inscription, le roi Jayavarman II se fit proclamer souverain universel : on date de là le début de l'empire d'Angkor.",
+        "compare": "L'eau était sacrée et vitale pour Angkor : elle venait de ces collines. Comparez avec le bassin du Srah Srang, à la fin de l'exposition."
+      },
+      {
+        "title": "Le temple de Preah Vihear",
+        "artist": "Bâtisseurs khmers",
+        "country": "Cambodge",
+        "period": "XIe–XIIe siècle",
+        "museum": "Site archéologique, Preah Vihear (Cambodge)",
+        "credit": "Preah Vihear (Cambodge), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:03_Prasat_Preah_Vihear-nX-06532.jpg), photo PsamatheM, licence CC BY-SA 4.0",
+        "image": "images/mouvements/empire-khmer/preah-vihear.jpg",
+        "lieu": "Preah Vihear",
+        "lieuType": "site",
+        "analysis": "Une longue chaussée de pierre bordée de bornes mène, entre les arbres, à un pavillon d'entrée en grès ; des moines en robe orange la parcourent. Le temple de Preah Vihear, dédié à Shiva, se dresse au sommet d'une falaise de 525 mètres des monts Dangrek, à la frontière de la Thaïlande. Plusieurs rois, dont Suryavarman Ier et Suryavarman II, ont contribué à sa construction, avec une suite de pavillons et de cours qui montent vers le sanctuaire. Il est inscrit au patrimoine mondial de l'UNESCO depuis 2008.",
+        "compare": "Un temple à la frontière : l'empire khmer s'étendait bien au-delà du Cambodge actuel. Comparez avec Vat Phou, au Laos, et Phimai, en Thaïlande, juste après."
+      },
+      {
+        "title": "Vat Phou",
+        "artist": "Bâtisseurs khmers",
+        "country": "Laos",
+        "period": "VIIe–XIIe siècle",
+        "museum": "Site archéologique, Vat Phou (Champassak, Laos)",
+        "credit": "Vat Phou (Laos), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Three_quarter_view_of_the_ruined_Khmer_Hindu_temple_of_Wat_Phou_with_blue_sky_in_Champasak_Laos.jpg), photo Basile Morin, licence CC BY-SA 4.0",
+        "image": "images/mouvements/empire-khmer/vat-phou.jpg",
+        "lieu": "Vat Phou",
+        "lieuType": "site",
+        "analysis": "Au pied d'une colline boisée, un sanctuaire de grès en ruine, aux portes encadrées de colonnettes et de linteaux sculptés, se détache sur un ciel bleu. Vat Phou se trouve au sud du Laos, au pied du mont Phou Khao, appelé autrefois Lingaparvata, la « montagne du linga », car son sommet évoque la forme de ce symbole de Shiva. Le site, lié à l'ancienne ville de Shrestapura sur le Mékong, est l'un des plus anciens sanctuaires khmers ; une route le reliait à Angkor. Il est inscrit au patrimoine mondial de l'UNESCO depuis 2001.",
+        "compare": "Une montagne sacrée, une source et un temple : les Khmers choisissaient avec soin les lieux de leurs sanctuaires. Comparez avec Preah Vihear, juste avant."
+      },
+      {
+        "title": "Le temple de Phimai",
+        "artist": "Bâtisseurs khmers",
+        "country": "Thaïlande",
+        "period": "fin du XIe–XIIe siècle",
+        "museum": "Parc historique de Phimai (Nakhon Ratchasima, Thaïlande)",
+        "credit": "Parc historique de Phimai (Thaïlande), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Phimai_Historical_Park_Thailand_05.jpg), photo Philip Nalangan, licence CC BY 4.0",
+        "image": "images/mouvements/empire-khmer/phimai.jpg",
+        "lieu": "Phimai",
+        "lieuType": "site",
+        "analysis": "Une haute tour de grès clair, en forme d'obus, se dresse sur une terrasse ; une porte s'ouvre à sa base, sous des frontons sculptés. Le temple de Phimai, dans le nord-est de l'actuelle Thaïlande, était l'un des grands temples de l'empire khmer, relié à Angkor par une route et tourné vers elle. Il fut bâti comme un temple bouddhiste, mais ses sculptures montrent aussi de nombreux dieux hindous. Sa tour ressemble à celles d'Angkor Wat.",
+        "compare": "Hindouisme et bouddhisme se mêlaient dans l'empire khmer. Comparez la tour de Phimai avec celles d'Angkor Wat, plus loin."
+      },
+      {
+        "title": "Le Vishnu couché du Mebon occidental",
+        "artist": "Fondeurs d'Angkor",
+        "country": "Cambodge",
+        "period": "seconde moitié du XIe siècle",
+        "museum": "Musée national du Cambodge, Phnom Penh",
+        "credit": "Musée national du Cambodge, Phnom Penh, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:West_Mebon_Vishnu.jpg), photo Clay Gilliland, licence CC BY-SA 2.0",
+        "image": "images/mouvements/empire-khmer/vishnu-du-mebon-occidental.jpg",
+        "lieu": "Angkor",
+        "lieuType": "découverte",
+        "analysis": "Dans une salle de musée, un grand fragment de bronze verdi : un visage paisible, une partie du buste et deux bras droits ; l'un se lève, l'autre soutient la tête. C'est le dieu Vishnu, couché sur l'océan cosmique. Le fragment a été trouvé en 1936 dans le temple du Mebon occidental, sur une île au milieu d'un immense réservoir d'Angkor, le Baray occidental. Entière, la statue mesurait environ six mètres de long : c'est le plus grand bronze khmer connu. Il est au musée national du Cambodge.",
+        "compare": "Les Khmers maîtrisaient aussi le bronze à grande échelle. Comparez avec le Vishnu de pierre de Phnom Da, au début de l'exposition."
+      },
+      {
+        "title": "Angkor Wat",
+        "artist": "Bâtisseurs du roi Suryavarman II",
+        "country": "Cambodge",
+        "period": "première moitié du XIIe siècle",
+        "museum": "Site archéologique, Angkor (Siem Reap, Cambodge)",
+        "credit": "Angkor (Cambodge), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Angkor_Wat_aerial_view.jpg), photo Steve Jurvetson, licence CC BY 2.0",
+        "image": "images/mouvements/empire-khmer/angkor-wat.jpg",
+        "lieu": "Angkor",
+        "lieuType": "site",
+        "analysis": "Vu d'avion, un immense rectangle entouré d'eau : un large fossé encadre une île couverte d'arbres, au centre de laquelle se dressent les galeries et les tours du temple ; une chaussée traverse le fossé. Angkor Wat est le temple d'État du roi Suryavarman II, et peut-être son tombeau. Dédié à Vishnu, c'est l'un des plus grands monuments religieux du monde. Ses galeries sont couvertes de bas-reliefs qui racontent des récits hindous et montrent le roi et son armée. Le temple n'a jamais été abandonné : il est devenu un sanctuaire bouddhiste, et il figure aujourd'hui sur le drapeau du Cambodge.",
+        "compare": "Le cœur de l'exposition : le plus célèbre des temples khmers. Comparez avec le bas-relief du barattage, juste après, sculpté sur ses murs."
+      },
+      {
+        "title": "Le barattage de l'océan de lait, Angkor Wat",
+        "artist": "Sculpteurs d'Angkor Wat",
+        "country": "Cambodge",
+        "period": "première moitié du XIIe siècle",
+        "museum": "Site archéologique, Angkor (Siem Reap, Cambodge)",
+        "credit": "Angkor Wat (Cambodge), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Awatoceanofmilk01_-_color_corrected.JPG), photo Markalexander100, licence CC BY-SA 3.0",
+        "image": "images/mouvements/empire-khmer/barattage-angkor-wat.jpg",
+        "lieu": "Angkor",
+        "lieuType": "site",
+        "analysis": "Un détail d'un long bas-relief de grès. Au centre, un dieu à quatre bras se tient au-dessus d'une tortue ; de part et d'autre, des rangées de personnages tirent un énorme serpent, et au-dessus volent de petites danseuses célestes, les apsaras. C'est le barattage de l'océan de lait, un récit hindou de la création : les dieux et les démons tirent le serpent enroulé autour d'une montagne pour faire tourner l'océan et en faire sortir l'élixir d'immortalité ; Vishnu, au centre, guide l'opération, et sous sa forme de tortue soutient la montagne. Ce bas-relief orne une galerie d'Angkor Wat.",
+        "compare": "Le même récit se retrouve à l'entrée d'Angkor Thom, où des géants de pierre tirent le serpent le long de la chaussée. Comparez avec la porte sud d'Angkor Thom, plus loin."
+      },
+      {
+        "title": "Bouddha trônant sur le naga",
+        "artist": "Sculpteur khmer",
+        "country": "Cambodge",
+        "period": "XIIe siècle",
+        "museum": "Cleveland Museum of Art, Cleveland",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1963.263), domaine public (CC0)",
+        "image": "images/mouvements/art-khmer-d-angkor/bouddha-sur-le-naga-bronze.jpg",
+        "analysis": "Un bronze qui garde des traces de dorure. Le Bouddha, couronné et paré de bijoux, est assis sur les anneaux d'un serpent, le naga, dont les têtes se dressent derrière lui. Ses mains, posées sur ses genoux dans le geste de la méditation, tiennent ce qui semble être une offrande de riz. Selon la notice du musée, le roi Jayavarman VII s'est associé à cette image, qui devint alors partout un objet de vénération ; plus tard, d'autres formes du bouddhisme y ont vu une scène de la vie du Bouddha, protégé d'une inondation par un serpent.",
+        "compare": "À la fin du XIIe siècle, le bouddhisme devient la religion des rois khmers. Ce bronze est aussi présenté dans l'exposition sur l'art khmer d'Angkor."
+      },
+      {
+        "title": "Portrait présumé du roi Jayavarman VII",
+        "artist": "Sculpteur khmer, style du Bayon",
+        "country": "Cambodge",
+        "period": "fin du XIIe – début du XIIIe siècle",
+        "museum": "Musée Guimet, Paris",
+        "credit": "Musée Guimet, Paris, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Jayavarman_VII_Guimet_90508_1.jpg), photo Vassil, domaine public",
+        "image": "images/mouvements/empire-khmer/jayavarman-vii.jpg",
+        "analysis": "Une tête de grès sombre, aux cheveux courts relevés en petit chignon : les yeux sont fermés, la bouche esquisse un léger sourire, le visage est calme et plein. Selon le musée Guimet, à Paris, c'est un portrait du roi Jayavarman VII, qui régna de 1181 à 1218 environ. Ce roi chassa les Chams, venus du Vietnam actuel, qui avaient pillé Angkor en 1177 ; il fit du bouddhisme la religion de l'État et couvrit son empire de temples, de routes et d'hôpitaux. Une statue entière du roi, assis, trouvée à Angkor Thom en 1924, est au musée national du Cambodge.",
+        "compare": "Le sourire paisible, les yeux baissés : le même visage semble se retrouver sur les tours du Bayon, plus loin."
+      },
+      {
+        "title": "La porte sud d'Angkor Thom",
+        "artist": "Bâtisseurs du roi Jayavarman VII",
+        "country": "Cambodge",
+        "period": "fin du XIIe siècle",
+        "museum": "Site archéologique, Angkor Thom (Siem Reap, Cambodge)",
+        "credit": "Angkor Thom (Cambodge), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:20171126_South_gate_of_Angkor_Thom_4733_DxO.jpg), photo Jakub Hałun, licence CC BY-SA 4.0",
+        "image": "images/mouvements/empire-khmer/porte-sud-angkor-thom.jpg",
+        "lieu": "Angkor",
+        "lieuType": "site",
+        "analysis": "Au-dessus d'un fossé où le ciel se reflète, une haute porte de pierre surmontée de visages tournés vers les quatre directions s'ouvre dans le mur d'enceinte ; devant elle, une chaussée est bordée d'une rangée de grandes statues. Angkor Thom, la « grande ville », est la capitale fortifiée de Jayavarman VII. Le long de la chaussée de la porte sud, 54 dieux d'un côté et 54 démons de l'autre tiennent le corps d'un serpent géant, comme dans le récit du barattage de l'océan de lait.",
+        "compare": "Une ville fortifiée, avec des murs, des portes et des fossés : un des critères d'une civilisation. Comparez avec le barattage d'Angkor Wat, plus haut."
+      },
+      {
+        "title": "Les visages du Bayon",
+        "artist": "Bâtisseurs du roi Jayavarman VII",
+        "country": "Cambodge",
+        "period": "fin du XIIe – début du XIIIe siècle",
+        "museum": "Site archéologique, Angkor Thom (Siem Reap, Cambodge)",
+        "credit": "Bayon, Angkor Thom (Cambodge), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Angkor_-_Bayon_-_005_Tower_Faces_%288580723963%29.jpg), photo Photo Dharma, licence CC BY 2.0",
+        "image": "images/mouvements/empire-khmer/visages-du-bayon.jpg",
+        "lieu": "Angkor",
+        "lieuType": "site",
+        "analysis": "Des tours de pierre grise se dressent contre le ciel bleu ; sur chacune, d'immenses visages sculptés, aux yeux mi-clos et au sourire paisible, regardent dans plusieurs directions. Le Bayon est le temple d'État de Jayavarman VII, au centre d'Angkor Thom. Ses tours portent plus de deux cents visages. On ne sait pas avec certitude qui ils représentent : un bodhisattva du bouddhisme, une divinité protectrice, ou le roi lui-même.",
+        "compare": "Comparez ces visages avec le portrait présumé de Jayavarman VII, juste avant : la ressemblance a frappé beaucoup d'historiens."
+      },
+      {
+        "title": "Bataille navale contre les Chams, bas-relief du Bayon",
+        "artist": "Sculpteurs du Bayon",
+        "country": "Cambodge",
+        "period": "fin du XIIe – début du XIIIe siècle",
+        "museum": "Site archéologique, Angkor Thom (Siem Reap, Cambodge)",
+        "credit": "Bayon, Angkor Thom (Cambodge), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Bayonnavalbat01.JPG), photo Markalexander100, licence CC BY-SA 3.0",
+        "image": "images/mouvements/empire-khmer/bataille-navale-bayon.jpg",
+        "lieu": "Angkor",
+        "lieuType": "site",
+        "analysis": "Un bas-relief de grès gris : en haut, une longue barque chargée de guerriers armés de lances, coiffés de casques ; dessous, une rangée de rameurs ; en bas, des poissons nagent dans l'eau. Sur les murs de la galerie sud du Bayon, cette scène montre une bataille navale entre les Khmers et les Chams sur le grand lac Tonlé Sap. Les historiens ne savent pas si elle représente l'invasion chame de 1177 ou la victoire khmère de 1181. Plus loin, les mêmes murs montrent des scènes de la vie de tous les jours : le marché, la pêche, la cuisine.",
+        "compare": "Les bas-reliefs du Bayon racontent à la fois la guerre et la vie du peuple : une source précieuse sur la société khmère. Comparez avec la prise de Bagdad, dans l'exposition sur l'Empire mongol."
+      },
+      {
+        "title": "Ta Prohm et les arbres de la forêt",
+        "artist": "Bâtisseurs du roi Jayavarman VII",
+        "country": "Cambodge",
+        "period": "1186",
+        "museum": "Site archéologique, Angkor (Siem Reap, Cambodge)",
+        "credit": "Ta Prohm, Angkor (Cambodge), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:2016_Angkor,_Ta_Prohm_%2816%29.jpg), photo Marcin Konsek, licence CC BY-SA 4.0",
+        "image": "images/mouvements/empire-khmer/ta-prohm.jpg",
+        "lieu": "Angkor",
+        "lieuType": "site",
+        "analysis": "Un arbre géant aux racines énormes enserre un mur de pierre ; ses racines coulent sur les blocs comme de la cire fondue. Ta Prohm a été construit par Jayavarman VII et dédié à sa mère en 1186. Les archéologues l'ont volontairement laissé en partie envahi par la forêt. Selon une grande inscription en sanskrit trouvée dans le temple, 12 640 personnes servaient dans ce seul temple ; une inscription mentionne aussi la fondation de 102 hôpitaux dans tout le royaume.",
+        "compare": "Un temple qui était aussi une grande entreprise, avec ses prêtres, ses danseuses, ses serviteurs et ses greniers. Comparez avec le Bayon, juste avant, bâti par le même roi."
+      },
+      {
+        "title": "Le bassin du Srah Srang",
+        "artist": "Bâtisseurs d'Angkor",
+        "country": "Cambodge",
+        "period": "Xe siècle, aménagé vers 1200",
+        "museum": "Site archéologique, Angkor (Siem Reap, Cambodge)",
+        "credit": "Srah Srang, Angkor (Cambodge), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Srah_Srang,_Angkor,_Camboya,_2013-08-16,_DD_05.JPG), photo Diego Delso, licence CC BY-SA 3.0",
+        "image": "images/mouvements/empire-khmer/srah-srang.jpg",
+        "lieu": "Angkor",
+        "lieuType": "site",
+        "analysis": "Un vaste bassin d'eau calme, bordé d'arbres ; un pêcheur, de l'eau jusqu'aux cuisses, lance son filet, qui s'ouvre dans l'air. Le Srah Srang, long d'environ 700 mètres et large de 350, a été creusé au milieu du Xe siècle ; vers 1200, Jayavarman VII le fit border de marches et d'une terrasse d'embarquement. Angkor comptait plusieurs réservoirs de ce genre, les barays, dont certains bien plus grands, qui retenaient l'eau de la saison des pluies.",
+        "compare": "Le point d'arrivée de l'exposition : en 1431, selon les chroniques thaïes, Angkor fut prise par le royaume d'Ayutthaya, et la cour s'installa plus au sud, près de Phnom Penh. Mais les Cambodgiens d'aujourd'hui vivent toujours autour des temples et de leurs bassins."
+      }
+    ],
+    "carte": {
+      "image": "images/mouvements/cartes/empire-khmer.svg",
+      "ouest": 101.0,
+      "est": 107.3,
+      "sud": 10.0,
+      "nord": 16.0,
+      "lieux": [
+        {
+          "nom": "Phnom Da",
+          "lat": 10.9643,
+          "lon": 104.9888
+        },
+        {
+          "nom": "Sambor Prei Kuk",
+          "lat": 12.8673,
+          "lon": 105.04
+        },
+        {
+          "nom": "Roluos (Hariharalaya)",
+          "lat": 13.336,
+          "lon": 103.9741
+        },
+        {
+          "nom": "Koh Ker",
+          "lat": 13.7499,
+          "lon": 104.5473
+        },
+        {
+          "nom": "Banteay Srei",
+          "lat": 13.5989,
+          "lon": 103.9629
+        },
+        {
+          "nom": "Kbal Spean",
+          "lat": 13.6874,
+          "lon": 104.0151
+        },
+        {
+          "nom": "Preah Vihear",
+          "lat": 14.3906,
+          "lon": 104.6803
+        },
+        {
+          "nom": "Vat Phou",
+          "lat": 14.8489,
+          "lon": 105.8157
+        },
+        {
+          "nom": "Phimai",
+          "lat": 15.2207,
+          "lon": 102.4939
+        },
+        {
+          "nom": "Angkor",
+          "lat": 13.4125,
+          "lon": 103.8667
+        }
+      ],
+      "pays": [
+        {
+          "nom": "Cambodge",
+          "lat": 12.6,
+          "lon": 104.4
+        },
+        {
+          "nom": "Thaïlande",
+          "lat": 14.4,
+          "lon": 101.9
+        },
+        {
+          "nom": "Laos",
+          "lat": 15.5,
+          "lon": 106.5
+        },
+        {
+          "nom": "Viêt Nam",
+          "lat": 11.7,
+          "lon": 106.5
+        }
+      ],
+      "villes": [
+        {
+          "nom": "Phnom Penh",
+          "lat": 11.5696,
+          "lon": 104.921
+        },
+        {
+          "nom": "Battambang",
+          "lat": 13.1028,
+          "lon": 103.1983
+        }
+      ]
+    }
   }
 ]

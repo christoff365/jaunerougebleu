@@ -454,6 +454,8 @@ const MOUVEMENTS = [
     "Miniatures des royaumes rajputs et des contreforts de l'Himalaya : amours de Krishna et Radha, modes musicaux, couleurs intenses."],
   ['École du Bengale', 'Asie du Sud et du Sud-Est', 'Inde', 'début du XXe siècle', ['Bengal School'], ['Bengal School of Art'], '', ['Abanindranath Tagore'],
     "Mouvement moderne qui renoue avec les traditions de l'Inde et de l'Asie face à l'enseignement académique britannique."],
+  ['Empire khmer', 'Asie du Sud et du Sud-Est', 'Cambodge, Thaïlande et Laos', 'VIe siècle – 1431', ['Khmer'], ['Khmer Empire'], 'khmer|angkor|bayon|jayavarman|suryavarman|banteay|koh ker|sambor', [],
+    "Des premiers royaumes à Angkor : le Vishnu de Phnom Da, l'inscription du premier zéro, Koh Ker, Banteay Srei, Preah Vihear, Angkor Wat, le Bayon de Jayavarman VII et les grands bassins d'eau."],
   ["Art khmer d'Angkor", 'Asie du Sud et du Sud-Est', 'Cambodge', 'IXe–XIIIe siècle', ['Khmer'], [], '', [],
     "Sculptures de grès et de bronze des temples d'Angkor : divinités hindoues et bouddhiques au sourire paisible."],
   ['Art assyrien', 'Moyen-Orient', 'Irak', 'IXe–VIIe siècle av. J.-C.', ['Assyrian', 'Nimrud', 'Nineveh'], [], 'assyri|nimrud|nimroud|ninive|nineveh', [],
@@ -569,7 +571,7 @@ const STYLES_ARCHITECTURE = { 'Art gothique': 'Q176483' };
 const ANONYME = 'Q4233718'; // « anonyme » dans Wikidata
 // Mouvements d'abord de l'estampe : leurs estampes ne sont pas limitées à trois
 // Expositions consacrées à une civilisation plutôt qu'à un mouvement (badge « Civilisation » sur leur page)
-const CIVILISATIONS = new Set(['Mayas', 'Empire mongol', 'Mésopotamie', 'Égypte ancienne', 'Royaume de Koush', "Civilisation de l'Indus", 'Inde ancienne', 'Chine, des origines à 1912', 'Japon, des origines à 1868', 'Grèce antique', 'Israël et Juda', 'Perse ancienne', 'Rome antique', 'Aksoum', 'Anglo-Saxons', 'Royaumes de Java et de Sumatra', 'Vikings', "Empire des Tu'i Tonga", 'Empire du Mali', 'Aztèques', 'Incas']);
+const CIVILISATIONS = new Set(['Empire khmer', 'Mayas', 'Empire mongol', 'Mésopotamie', 'Égypte ancienne', 'Royaume de Koush', "Civilisation de l'Indus", 'Inde ancienne', 'Chine, des origines à 1912', 'Japon, des origines à 1868', 'Grèce antique', 'Israël et Juda', 'Perse ancienne', 'Rome antique', 'Aksoum', 'Anglo-Saxons', 'Royaumes de Java et de Sumatra', 'Vikings', "Empire des Tu'i Tonga", 'Empire du Mali', 'Aztèques', 'Incas']);
 const MOUVEMENTS_D_ESTAMPES = new Set(['Ukiyo-e', 'Expressionnisme']);
 // Mouvements de peintres : si le visiteur n'a pas choisi de type, l'exposition ne montre que des peintures
 // (pas les dessins, études, estampes ou éventails que les catalogues renvoient aussi pour ces artistes)

@@ -472,6 +472,8 @@ const MOUVEMENTS = [
     "Le royaume de la mer Rouge : temple de Yeha, stèles géantes, inscriptions du roi Ézana, puis ses héritiers, les églises taillées dans le roc de Lalibela et les manuscrits peints."],
   ['Anglo-Saxons', 'Europe', 'Angleterre', 'Ve siècle – 1066', ['Anglo-Saxon'], ['Anglo-Saxon art'], 'anglo-saxon|anglo saxon|sutton hoo|lindisfarne', [],
     "Les royaumes anglo-saxons, du départ des Romains à 1066 : Sutton Hoo, le trésor du Staffordshire, les Évangiles de Lindisfarne, les croix de pierre et le roi Alfred."],
+  ['Empire byzantin', 'Europe', 'Turquie, Grèce, Italie, Proche-Orient et Égypte', '330 – 1453', ['Byzantine'], ['Byzantine art'], 'byzan|constantinople|justinien|justinian|hagia sophia|sainte-sophie|ravenn', [],
+    "Mille ans autour de Constantinople : les murailles de Théodose, Sainte-Sophie, les mosaïques de Ravenne, la carte de Madaba, les icônes, le feu grégeois, le pillage de 1204 et la chute de 1453."],
   ['Vikings', 'Europe', 'Danemark, Norvège, Suède et Islande', 'VIIIe–XIe siècle', ['Viking', 'Norse'], ['Viking art'], 'viking|norse|oseberg|gokstad|runestone|runique|jelling', [],
     "Les peuples de Scandinavie sur les mers : bateaux d'Oseberg et de Gokstad, pierres runiques, trésors d'argent venus de Bagdad, Islande, Amérique et conversion au christianisme."],
   ['Israël et Juda', 'Moyen-Orient', 'Israël, Cisjordanie et Jordanie', 'Xe siècle av. J.-C. – VIe siècle', ['Judean', 'Israelite', 'Judaea', 'Hebrew'], ['ancient Israelite art'], 'judée|judee|judea|judaea|israelite|israélite|qumran|qumrân|herod|hérode', [],
@@ -571,7 +573,7 @@ const STYLES_ARCHITECTURE = { 'Art gothique': 'Q176483' };
 const ANONYME = 'Q4233718'; // « anonyme » dans Wikidata
 // Mouvements d'abord de l'estampe : leurs estampes ne sont pas limitées à trois
 // Expositions consacrées à une civilisation plutôt qu'à un mouvement (badge « Civilisation » sur leur page)
-const CIVILISATIONS = new Set(['Empire khmer', 'Mayas', 'Empire mongol', 'Mésopotamie', 'Égypte ancienne', 'Royaume de Koush', "Civilisation de l'Indus", 'Inde ancienne', 'Chine, des origines à 1912', 'Japon, des origines à 1868', 'Grèce antique', 'Israël et Juda', 'Perse ancienne', 'Rome antique', 'Aksoum', 'Anglo-Saxons', 'Royaumes de Java et de Sumatra', 'Vikings', "Empire des Tu'i Tonga", 'Empire du Mali', 'Aztèques', 'Incas']);
+const CIVILISATIONS = new Set(['Empire byzantin', 'Empire khmer', 'Mayas', 'Empire mongol', 'Mésopotamie', 'Égypte ancienne', 'Royaume de Koush', "Civilisation de l'Indus", 'Inde ancienne', 'Chine, des origines à 1912', 'Japon, des origines à 1868', 'Grèce antique', 'Israël et Juda', 'Perse ancienne', 'Rome antique', 'Aksoum', 'Anglo-Saxons', 'Royaumes de Java et de Sumatra', 'Vikings', "Empire des Tu'i Tonga", 'Empire du Mali', 'Aztèques', 'Incas']);
 const MOUVEMENTS_D_ESTAMPES = new Set(['Ukiyo-e', 'Expressionnisme']);
 // Mouvements de peintres : si le visiteur n'a pas choisi de type, l'exposition ne montre que des peintures
 // (pas les dessins, études, estampes ou éventails que les catalogues renvoient aussi pour ces artistes)

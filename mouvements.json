@@ -18832,5 +18832,412 @@
         }
       ]
     }
+  },
+  {
+    "mouvement": "Empire byzantin",
+    "slug": "empire-byzantin",
+    "status": "published",
+    "title": "L'Empire byzantin, mille ans autour de Constantinople",
+    "subtitle": "Turquie, Grèce, Italie, Proche-Orient et Égypte, 330 – 1453 · 18 œuvres et sites",
+    "intro": "En 330, l'empereur Constantin fonde une nouvelle capitale sur le Bosphore, à l'emplacement de la ville grecque de Byzance : Constantinople, aujourd'hui Istanbul. Quand l'Empire romain d'Occident s'effondre au Ve siècle, la moitié orientale de l'empire survit et dure encore près de mille ans. Les historiens l'appellent l'Empire byzantin, mais ses habitants se disaient « Romains » ; ils parlaient grec et étaient chrétiens. Byzance remplit tous les critères d'une civilisation : une immense capitale et de nombreuses villes, un État dirigé par un empereur et ses fonctionnaires, un droit écrit, des monuments, des métiers spécialisés et un commerce qui allait de la Méditerranée à l'Asie. L'exposition suit cette histoire, de Constantin à la prise de Constantinople par les Ottomans en 1453, à travers des sites restés en Turquie, en Grèce, en Italie, en Jordanie et en Égypte, et des œuvres conservées à Paris, Madrid, Londres, Venise et Cleveland ; beaucoup de photographies sont celles de visiteurs, publiées sous licence libre.",
+    "contexte": [
+      {
+        "title": "De Rome à Constantinople",
+        "text": "Au IVe siècle, l'Empire romain est trop vaste pour être gouverné depuis Rome. L'empereur Constantin, le premier à favoriser le christianisme, fonde Constantinople en 330. En 395, l'empire est partagé en deux ; l'Occident tombe aux mains des peuples germaniques au Ve siècle, mais l'Orient tient bon. Au VIe siècle, Justinien reconquiert l'Italie, l'Afrique du Nord et une partie de l'Espagne, fait construire Sainte-Sophie et rassemble les lois romaines dans un grand code. Aux siècles suivants, l'empire perd ses riches provinces d'Égypte et de Syrie face aux armées arabes, mais il résiste, se réorganise et connaît un nouvel âge d'or aux Xe et XIe siècles."
+      },
+      {
+        "title": "L'empereur, l'Église et la ville",
+        "text": "L'empereur byzantin gouverne au nom de Dieu : il est à la fois chef de l'État, de l'armée et protecteur de l'Église. Il s'appuie sur une administration nombreuse, avec des fonctionnaires formés, des impôts réguliers et une monnaie d'or très stable, le solidus. Constantinople, qui a peut-être compté plusieurs centaines de milliers d'habitants, est protégée par d'immenses murailles et alimentée par des aqueducs et des citernes. On y trouve des palais, des églises, un grand hippodrome pour les courses de chars, des marchés et des ateliers de soie, d'ivoire, d'orfèvrerie et de mosaïque."
+      },
+      {
+        "title": "La foi orthodoxe et les images",
+        "text": "Le christianisme est au cœur de la vie byzantine. Les églises sont couvertes de mosaïques et de peintures sur fond d'or, et les fidèles prient devant des icônes, des images saintes peintes sur bois. Aux VIIIe et IXe siècles, une grande querelle, l'iconoclasme, oppose ceux qui veulent détruire les images et ceux qui les vénèrent ; les images l'emportent en 843. En 1054, les Églises de Rome et de Constantinople se séparent : c'est la naissance de l'Église orthodoxe. Les Byzantins diffusent leur foi et leur écriture chez les peuples slaves, en Bulgarie, en Serbie et en Russie."
+      },
+      {
+        "title": "Le déclin, la chute et l'héritage",
+        "text": "À partir du XIe siècle, l'empire est menacé à l'est par les Turcs seldjoukides et à l'ouest par les Normands. En 1204, l'armée de la quatrième croisade, venue d'Occident, prend et pille Constantinople. Les Byzantins reprennent leur capitale en 1261, mais l'empire n'est plus qu'un petit État. Le 29 mai 1453, le sultan ottoman Mehmed II s'empare de Constantinople, et le dernier empereur meurt au combat. L'héritage de Byzance reste immense : il a transmis à l'Europe les textes grecs anciens et le droit romain, et l'Église orthodoxe compte aujourd'hui des centaines de millions de fidèles."
+      }
+    ],
+    "bibliography": [
+      {
+        "reference": "UNESCO, Patrimoine mondial : Zones historiques d'Istanbul",
+        "url": "https://whc.unesco.org/fr/list/356"
+      },
+      {
+        "reference": "UNESCO, Patrimoine mondial : Monuments paléochrétiens de Ravenne",
+        "url": "https://whc.unesco.org/fr/list/788"
+      },
+      {
+        "reference": "UNESCO, Patrimoine mondial : Monastères de Daphni, Hosios Loukas et Nea Moni de Chios",
+        "url": "https://whc.unesco.org/fr/list/537"
+      },
+      {
+        "reference": "UNESCO, Patrimoine mondial : Mystras",
+        "url": "https://whc.unesco.org/fr/list/511"
+      },
+      {
+        "reference": "Michel Kaplan, Pourquoi Byzance ? Un empire de onze siècles, Gallimard, 2016"
+      },
+      {
+        "reference": "Notices des œuvres : Cleveland Museum of Art, musée du Louvre, Bibliothèque nationale d'Espagne, National Gallery"
+      }
+    ],
+    "works": [
+      {
+        "title": "Les murailles de Théodose",
+        "artist": "Bâtisseurs de Théodose II",
+        "country": "Turquie",
+        "period": "à partir de 413",
+        "museum": "Site, Istanbul (Turquie)",
+        "credit": "Istanbul (Turquie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Theodosian_Walls_of_Constantinople,_Istanbul_%2824053561188%29.jpg), photo Carole Raddato, licence CC BY-SA 2.0",
+        "image": "images/mouvements/empire-byzantin/murailles-de-theodose.jpg",
+        "lieu": "Constantinople (Istanbul)",
+        "lieuType": "site",
+        "analysis": "Sous un ciel bleu, de hautes murailles et des tours carrées, faites d'assises de pierre et de bandes de briques rouges, s'étendent dans l'herbe ; certaines sont en partie écroulées. Ce sont les murailles terrestres de Constantinople, la capitale de l'Empire romain d'Orient, fondée par l'empereur Constantin en 330. Achevées en 413, sous Théodose II, elles furent ensuite renforcées : un fossé, un mur avant et un grand mur intérieur garni de tours barraient l'accès à la ville du côté de la terre. Elles protégèrent Constantinople pendant plus de mille ans, jusqu'à sa prise par les Ottomans en 1453. Elles font partie des zones historiques d'Istanbul, inscrites au patrimoine mondial de l'UNESCO en 1985.",
+        "compare": "Le point de départ de l'exposition : on appelle « byzantin » l'Empire romain d'Orient, qui survécut près de mille ans à la chute de Rome. Ses habitants, eux, se disaient « Romains »."
+      },
+      {
+        "title": "L'ivoire Barberini : l'empereur triomphant",
+        "artist": "Sculpteur de Constantinople",
+        "country": "Turquie",
+        "period": "première moitié du VIe siècle",
+        "museum": "Musée du Louvre, Paris",
+        "credit": "Musée du Louvre, Paris, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Diptych_Barberini_Louvre_OA9063_whole.jpg), photo Marie-Lan Nguyen, domaine public",
+        "image": "images/mouvements/empire-byzantin/ivoire-barberini.jpg",
+        "lieu": "Constantinople (Istanbul)",
+        "lieuType": "fabrication",
+        "lieuProbable": true,
+        "analysis": "Un panneau d'ivoire sculpté, fait de plusieurs plaques. Au centre, un empereur couronné, sur un cheval cabré, tient une lance ; une petite Victoire ailée le couronne, et une femme assise à terre, qui représente la Terre, tient son pied. À gauche, un officier lui présente une statuette de Victoire ; la plaque de droite est perdue. En haut, le Christ bénit entre deux anges ; en bas, des peuples vaincus apportent des tributs, avec des lions et un éléphant. L'empereur est le plus souvent identifié à Justinien, ou à Anastase. L'ivoire fut trouvé en Provence, et le Louvre l'acquit en 1899.",
+        "compare": "L'empereur byzantin se présente comme vainqueur, protégé par le Christ : le pouvoir et la religion sont liés. Comparez avec la mosaïque de Justinien à Ravenne, juste après."
+      },
+      {
+        "title": "Sainte-Sophie de Constantinople",
+        "artist": "Anthémius de Tralles et Isidore de Milet",
+        "country": "Turquie",
+        "period": "532–537",
+        "museum": "Site, Istanbul (Turquie)",
+        "credit": "Sainte-Sophie, Istanbul (Turquie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Hagia_Sophia_Interior_Panorama.jpg), photo Ronan Reinart, licence CC BY-SA 3.0",
+        "image": "images/mouvements/empire-byzantin/sainte-sophie.jpg",
+        "lieu": "Constantinople (Istanbul)",
+        "lieuType": "site",
+        "analysis": "Une vue prise vers le haut, au centre de l'édifice : une immense coupole, percée d'une couronne de fenêtres, semble flotter au-dessus de demi-coupoles, d'arcs et de galeries ; des lustres pendent dans la lumière dorée. Sainte-Sophie, l'église de la « Sagesse divine », fut construite pour l'empereur Justinien et consacrée en 537 ; ses architectes, Anthémius de Tralles et Isidore de Milet, étaient aussi des savants en géométrie. Sa première coupole s'effondra en 558 et fut reconstruite. Après la prise de Constantinople en 1453, l'église devint une mosquée ; elle fut transformée en musée dans les années 1930, puis redevint une mosquée en 2020.",
+        "compare": "Pendant près de mille ans, ce fut la plus grande église du monde chrétien. Les grandes mosquées ottomanes d'Istanbul s'inspireront de sa coupole."
+      },
+      {
+        "title": "L'empereur Justinien et sa cour, mosaïque de Saint-Vital",
+        "artist": "Mosaïstes de Ravenne",
+        "country": "Italie",
+        "period": "vers 547",
+        "museum": "Basilique Saint-Vital, Ravenne (Italie)",
+        "credit": "Basilique Saint-Vital, Ravenne (Italie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Mosaic_of_Justinian_I_-_San_Vitale_-_Ravenna_2016.jpg), photo José Luiz, licence CC BY-SA 4.0",
+        "image": "images/mouvements/empire-byzantin/mosaique-de-justinien.jpg",
+        "lieu": "Ravenne",
+        "lieuType": "site",
+        "analysis": "Sur un fond d'or, une rangée de personnages se tient de face. Au centre, l'empereur Justinien, auréolé, couronné de perles et vêtu de pourpre, tient une coupe d'or. À gauche, des soldats portent un bouclier marqué du monogramme du Christ ; à droite, l'évêque, désigné par une inscription, « MAXIMIANVS », tient une croix, entouré de prêtres. Cette mosaïque orne le chœur de la basilique Saint-Vital de Ravenne, en Italie, consacrée en 547, peu après la reconquête de la ville par les armées de Justinien. L'empereur n'est jamais venu à Ravenne : la mosaïque y affirmait son pouvoir.",
+        "compare": "Justinien voulait reconstituer l'Empire romain autour de la Méditerranée. Comparez avec la mosaïque de l'impératrice Théodora, en face, dans la même église."
+      },
+      {
+        "title": "L'impératrice Théodora et sa cour, mosaïque de Saint-Vital",
+        "artist": "Mosaïstes de Ravenne",
+        "country": "Italie",
+        "period": "vers 547",
+        "museum": "Basilique Saint-Vital, Ravenne (Italie)",
+        "credit": "Basilique Saint-Vital, Ravenne (Italie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Mosaic_of_Theodora_-_Basilica_San_Vitale_%28Ravenna%29.jpg), photo Petar Milošević, licence CC BY-SA 4.0",
+        "image": "images/mouvements/empire-byzantin/mosaique-de-theodora.jpg",
+        "lieu": "Ravenne",
+        "lieuType": "site",
+        "analysis": "Sur un fond vert et or, une femme auréolée, couronnée et couverte de perles, porte un grand manteau de pourpre ; elle tient une coupe précieuse. À gauche, deux hommes écartent un rideau près d'une fontaine ; à droite, des dames de la cour, en robes aux motifs colorés, la suivent. C'est l'impératrice Théodora, épouse de Justinien. Cette mosaïque fait face à celle de l'empereur, dans le chœur de la basilique Saint-Vital de Ravenne. Ensemble, le couple impérial apporte des offrandes à l'église.",
+        "compare": "Théodora, d'origine modeste, joua un grand rôle politique auprès de Justinien. Comparez la richesse des vêtements avec ceux de la cour sur la mosaïque de Justinien, juste avant."
+      },
+      {
+        "title": "Solidus de Justinien",
+        "artist": "Atelier monétaire de Constantinople",
+        "country": "Turquie",
+        "period": "vers 545–565",
+        "museum": "Cleveland Museum of Art, Cleveland",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1968.55), domaine public (CC0)",
+        "image": "images/mouvements/empire-byzantin/solidus-de-justinien.jpg",
+        "lieu": "Constantinople (Istanbul)",
+        "lieuType": "fabrication",
+        "analysis": "Les deux faces d'une petite pièce d'or de 2 cm. D'un côté, le buste de face de l'empereur Justinien, casqué, avec une croix, entouré d'une inscription en latin ; de l'autre, un ange debout tient une longue croix et un globe. Selon le musée, le solidus était la pièce d'or de base de l'empire, à 24 carats ; le très grand nombre de monnaies byzantines conservées montre l'importance du commerce. Les ateliers, contrôlés par l'empereur, faisaient graver son portrait par des artistes de talent.",
+        "compare": "Une monnaie de confiance : le solidus byzantin circulait bien au-delà des frontières de l'empire. Comparez avec le billet de papier des Yuan, dans l'exposition sur l'Empire mongol."
+      },
+      {
+        "title": "La citerne Basilique",
+        "artist": "Ingénieurs de Justinien",
+        "country": "Turquie",
+        "period": "VIe siècle",
+        "museum": "Site, Istanbul (Turquie)",
+        "credit": "Citerne Basilique, Istanbul (Turquie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Basilica_Cistern_-_Medusa_head.jpg), photo Nan Palmero, licence CC BY 2.0",
+        "image": "images/mouvements/empire-byzantin/citerne-basilique.jpg",
+        "lieu": "Constantinople (Istanbul)",
+        "lieuType": "site",
+        "analysis": "Dans une salle souterraine éclairée de rouge, une grosse tête de pierre, couchée sur le côté, sert de base à une colonne ; ses cheveux sont des serpents. Elle baigne dans une eau peu profonde. C'est l'une des deux têtes de Méduse, réemployées d'un monument plus ancien, que l'on trouve dans la citerne Basilique de Constantinople. Construite sous Justinien au VIe siècle, cette immense réserve d'eau, portée par 336 colonnes de marbre, alimentait les grands édifices de la ville, dont le palais impérial et Sainte-Sophie.",
+        "compare": "Une grande ville, c'est aussi de l'eau : les Byzantins ont hérité des Romains l'art des aqueducs et des citernes. Comparez avec les bassins d'Angkor, dans l'exposition sur l'Empire khmer."
+      },
+      {
+        "title": "La carte de Madaba : Jérusalem",
+        "artist": "Mosaïstes byzantins",
+        "country": "Jordanie",
+        "period": "VIe siècle",
+        "museum": "Église Saint-Georges, Madaba (Jordanie)",
+        "credit": "Église Saint-Georges, Madaba (Jordanie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:The_Madaba_Map_%28detail_of_Jerusalem%29,_part_of_a_floor_mosaic_in_the_early_Byzantine_church_of_Saint_George_depicting_the_Holy_Land_in_the_6th_century_AD,_Madaba,_Jordan_%2834446452082%29.jpg), photo Carole Raddato, licence CC BY-SA 2.0",
+        "image": "images/mouvements/empire-byzantin/carte-de-madaba.jpg",
+        "lieu": "Madaba",
+        "lieuType": "site",
+        "analysis": "Une mosaïque de sol, faite de petits cubes de pierre colorés : une ville ovale, entourée de murailles et de tours, est traversée par une longue rue bordée de colonnes ; on reconnaît des églises aux toits rouges. Au-dessus, des lettres grecques donnent son nom : « la sainte ville de Jérusalem ». C'est un détail de la carte de Madaba, la plus ancienne carte connue de la Terre sainte, découverte en 1884 sur le sol d'une église de Madaba, en Jordanie. En 1967, des fouilles à Jérusalem ont retrouvé une grande église et la rue à colonnes là où la carte les situait.",
+        "compare": "Une carte faite pour les pèlerins : les provinces orientales de l'empire, aujourd'hui en Jordanie, en Israël, en Palestine, en Syrie et en Égypte, étaient riches et très peuplées."
+      },
+      {
+        "title": "Le monastère Sainte-Catherine du Sinaï",
+        "artist": "Bâtisseurs de Justinien",
+        "country": "Égypte",
+        "period": "vers 550",
+        "museum": "Site, Sinaï (Égypte)",
+        "credit": "Monastère Sainte-Catherine, Sinaï (Égypte), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:A_full_view_of_Saint_Catherine's_Monastery.jpg), photo Ondřej Havelka, licence CC BY 4.0",
+        "image": "images/mouvements/empire-byzantin/monastere-sainte-catherine.jpg",
+        "lieu": "Sainte-Catherine du Sinaï",
+        "lieuType": "site",
+        "analysis": "Au pied de hautes montagnes rocheuses et nues, un ensemble de bâtiments clairs est enfermé dans un épais mur de pierre ; quelques arbres verts poussent à côté, dans le désert. Le monastère Sainte-Catherine, dans le Sinaï, en Égypte, fut fortifié sous Justinien au VIe siècle. On le présente comme le plus ancien monastère chrétien toujours habité. Sa bibliothèque conserve l'une des plus grandes collections de manuscrits anciens du monde, et ses moines gardent des icônes très anciennes. Il est inscrit au patrimoine mondial de l'UNESCO depuis 2002.",
+        "compare": "Les moines et les monastères tenaient une grande place dans la vie byzantine. Comparez avec les églises creusées dans la roche de Cappadoce, plus loin."
+      },
+      {
+        "title": "Ivoire Stroganoff : la Mère de Dieu en majesté",
+        "artist": "Sculpteur de Constantinople",
+        "country": "Turquie",
+        "period": "950–1025",
+        "museum": "Cleveland Museum of Art, Cleveland",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1925.1293), domaine public (CC0)",
+        "image": "images/mouvements/empire-byzantin/ivoire-stroganoff.jpg",
+        "lieu": "Constantinople (Istanbul)",
+        "lieuType": "fabrication",
+        "analysis": "Une plaque d'ivoire de 25 cm, sculptée en relief. Une femme, la Vierge Marie, est assise de face sur un haut trône richement sculpté ; sur ses genoux, l'Enfant Jésus lève la main pour bénir et tient un rouleau. Au-dessus, deux anges en vol s'inclinent vers eux, et une inscription grecque court en bas. Selon le musée, ce type d'image de la Vierge en majesté remonte au VIe siècle dans l'art byzantin ; l'Enfant y est montré grave et sans émotion, comme un être surnaturel.",
+        "compare": "Les Byzantins appelaient Marie « Mère de Dieu », Théotokos. Comparez avec la mosaïque du Christ de Daphni, plus loin : le même regard grave, face au fidèle."
+      },
+      {
+        "title": "L'église sombre de Göreme, Cappadoce",
+        "artist": "Peintres de Cappadoce",
+        "country": "Turquie",
+        "period": "fin du XIe siècle",
+        "museum": "Musée en plein air de Göreme (Turquie)",
+        "credit": "Musée en plein air de Göreme (Turquie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Karanl%C4%B1k_Kilise,_the_Dark_Church,_Underground_Church,_Goreme_Open_Air_Museum,_G%C3%B6reme_A%C3%A7%C4%B1k_Hava_M%C3%BCzesi_%2852399241664%29.jpg), photo Sonse, licence CC BY 2.0",
+        "image": "images/mouvements/empire-byzantin/eglise-sombre-goreme.jpg",
+        "lieu": "Göreme",
+        "lieuType": "site",
+        "analysis": "Une voûte et des coupoles creusées dans la roche sont entièrement couvertes de peintures aux bleus et aux rouges éclatants : dans un médaillon, le visage du Christ, et autour des saints et des scènes de la Bible. C'est la Karanlık Kilise, l'« église sombre », à Göreme, en Cappadoce, au centre de la Turquie. Comme des centaines d'autres églises de la région, elle a été taillée dans la roche tendre. Très peu de lumière y entre, par une petite fenêtre, ce qui a protégé les couleurs de ses peintures, datées en général de la fin du XIe siècle.",
+        "compare": "Des églises sculptées dans la montagne, loin de la capitale : le monde byzantin, ce sont aussi des moines et des villages de province."
+      },
+      {
+        "title": "Le Christ Pantocrator de Daphni",
+        "artist": "Mosaïstes byzantins",
+        "country": "Grèce",
+        "period": "vers 1100",
+        "museum": "Monastère de Daphni, Athènes (Grèce)",
+        "credit": "Monastère de Daphni, Athènes (Grèce), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Christ_Pantocrator_Daphni_Monastery.jpg), domaine public",
+        "image": "images/mouvements/empire-byzantin/pantocrator-de-daphni.jpg",
+        "lieu": "Daphni",
+        "lieuType": "site",
+        "analysis": "Au sommet d'une coupole, sur un fond d'or, un grand buste du Christ regarde vers le bas : son visage sévère est encadré de cheveux et d'une barbe sombres, une auréole marquée d'une croix entoure sa tête ; il tient un livre orné de pierres précieuses et bénit de l'autre main. Les lettres grecques « IC XC » abrègent son nom. C'est le Christ Pantocrator, le « tout-puissant », dans le monastère de Daphni, près d'Athènes. Avec ceux d'Hosios Loukas et de Nea Moni, ce monastère est inscrit au patrimoine mondial de l'UNESCO pour ses mosaïques.",
+        "compare": "Dans les églises byzantines, le Christ domine tout depuis la coupole, comme le ciel au-dessus de la terre. Comparez avec la coupole de Sainte-Sophie, plus haut."
+      },
+      {
+        "title": "Le feu grégeois, page de la Chronique de Skylitzès",
+        "artist": "Enlumineur de Sicile",
+        "country": "Italie",
+        "period": "XIIe siècle",
+        "museum": "Bibliothèque nationale d'Espagne, Madrid",
+        "credit": "Bibliothèque nationale d'Espagne, Madrid, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:MadridSkylitzesFol34v.jpg), domaine public",
+        "image": "images/mouvements/empire-byzantin/skylitzes-feu-gregeois.jpg",
+        "lieu": "Palerme",
+        "lieuType": "fabrication",
+        "lieuProbable": true,
+        "analysis": "Une page de manuscrit en grec, ornée de deux images. En haut, deux troupes de cavaliers armés de lances s'affrontent ; en bas, sur une mer bleue, des marins d'un navire byzantin projettent par un tube un jet de flammes rouges sur une barque ennemie. C'est le « feu grégeois », une arme secrète qui brûlait même sur l'eau. La page vient de la Chronique de Jean Skylitzès, une histoire des empereurs byzantins ; ce manuscrit, le seul exemplaire illustré d'une chronique grecque, compte plus de 570 images. Il a sans doute été réalisé en Sicile au XIIe siècle et se trouve à la Bibliothèque nationale d'Espagne, à Madrid.",
+        "compare": "Une arme dont la recette est restée secrète : le feu grégeois aida Constantinople à repousser plusieurs flottes ennemies. Comparez avec les murailles de Théodose, au début de l'exposition."
+      },
+      {
+        "title": "Les chevaux de Saint-Marc",
+        "artist": "Bronziers de l'Antiquité",
+        "country": "Italie",
+        "period": "Antiquité, emportés en 1204",
+        "museum": "Basilique Saint-Marc, Venise (Italie)",
+        "credit": "Basilique Saint-Marc, Venise (Italie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Venezia_Basilica_di_San_Marco_Innen_Quadriga_1.jpg), photo Zairon, licence CC BY-SA 4.0",
+        "image": "images/mouvements/empire-byzantin/chevaux-de-saint-marc.jpg",
+        "lieu": "Venise",
+        "lieuType": "site",
+        "analysis": "Dans une salle de musée, quatre chevaux de bronze doré, grandeur nature, avancent côte à côte sur des socles, une jambe levée. Ils ornaient l'Hippodrome de Constantinople. En 1204, l'armée de la quatrième croisade, détournée vers Constantinople, prit et pilla la ville ; les Vénitiens emportèrent ces chevaux, qui furent placés sur la façade de la basilique Saint-Marc de Venise. Napoléon les fit transporter à Paris en 1797 ; ils revinrent à Venise en 1815. Abîmés par la pollution, ils sont aujourd'hui à l'intérieur de la basilique ; des copies les remplacent sur la façade.",
+        "compare": "Le pillage de 1204 par des chrétiens d'Occident affaiblit l'empire pour toujours. Comparez avec les statues khmères pillées, dans l'exposition sur l'Empire khmer."
+      },
+      {
+        "title": "Théodore Métochite offre l'église au Christ, mosaïque de Chora",
+        "artist": "Mosaïstes de Constantinople",
+        "country": "Turquie",
+        "period": "vers 1315–1321",
+        "museum": "Église Saint-Sauveur-in-Chora, Istanbul (Turquie)",
+        "credit": "Église Saint-Sauveur-in-Chora, Istanbul (Turquie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Theodore_Metochites_in_the_Dedication_Mosaic_at_Chora_Church.jpg), photo José Luiz, licence CC BY-SA 3.0",
+        "image": "images/mouvements/empire-byzantin/mosaique-de-chora.jpg",
+        "lieu": "Constantinople (Istanbul)",
+        "lieuType": "site",
+        "analysis": "Sur un fond d'or, un homme agenouillé, coiffé d'un très grand chapeau blanc rayé, vêtu d'un manteau aux riches motifs, tient dans ses mains la maquette d'une église. C'est Théodore Métochite, un haut dignitaire de l'empire et un savant, qui fit restaurer et décorer l'église du monastère de Chora, à Constantinople ; dans cette mosaïque, il offre l'église au Christ. Les mosaïques et les peintures de Chora, faites vers 1315–1321, sont parmi les chefs-d'œuvre les mieux conservés du dernier art byzantin.",
+        "compare": "Même affaibli, l'empire connut une renaissance des arts et des savoirs au XIVe siècle. Comparez avec Mystra, juste après."
+      },
+      {
+        "title": "Le monastère de la Pantanassa à Mystra",
+        "artist": "Bâtisseurs de Mystra",
+        "country": "Grèce",
+        "period": "1428",
+        "museum": "Site archéologique, Mystra (Grèce)",
+        "credit": "Mystra (Grèce), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:View_of_Pantanassa_Monastery_in_Mystras_from_the_north.jpg), photo Patrice78500, licence CC BY-SA 4.0",
+        "image": "images/mouvements/empire-byzantin/pantanassa-mystra.jpg",
+        "lieu": "Mystra",
+        "lieuType": "site",
+        "analysis": "Sur le flanc d'une colline couverte d'arbres et de cyprès, une église aux coupoles de brique et de pierre se dresse au-dessus de murs et de terrasses. C'est le monastère de la Pantanassa, à Mystra, dans le sud de la Grèce, une des dernières églises byzantines, consacrée en 1428. Mystra était alors la capitale du despotat de Morée, une province byzantine dirigée par des membres de la famille impériale, et un grand centre de savoir. La ville fut prise par les Ottomans en 1460, sept ans après Constantinople.",
+        "compare": "Les derniers éclats de Byzance : au XVe siècle, l'empire ne contrôle plus que Constantinople et quelques territoires en Grèce. Comparez avec l'icône peinte à Constantinople vers 1450, juste après."
+      },
+      {
+        "title": "Icône de la Trinité du Nouveau Testament",
+        "artist": "Peintre d'icônes de Constantinople",
+        "country": "Turquie",
+        "period": "vers 1450",
+        "museum": "Cleveland Museum of Art, Cleveland",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/2016.32), domaine public (CC0)",
+        "image": "images/mouvements/empire-byzantin/icone-de-la-trinite.jpg",
+        "lieu": "Constantinople (Istanbul)",
+        "lieuType": "fabrication",
+        "lieuProbable": true,
+        "analysis": "Un panneau de bois peint, à fond d'or. Au centre, sur un grand banc doré, sont assis côte à côte le Christ, à gauche, et Dieu le Père, sous les traits d'un vieillard aux cheveux blancs ; entre eux, une colombe, le Saint-Esprit, plane dans une étoile à huit branches. De part et d'autre, deux saints, auteurs d'hymnes, se penchent à des fenêtres en tenant des rouleaux. Selon le musée, l'icône faisait sans doute partie de la clôture qui sépare le chœur du reste d'une église orthodoxe ; son style la situe à Constantinople vers 1450, juste avant la prise de la ville.",
+        "compare": "Les icônes, images saintes peintes sur bois, sont au cœur de la foi orthodoxe, encore vivante aujourd'hui en Grèce, en Russie, dans les Balkans et au Proche-Orient."
+      },
+      {
+        "title": "Portrait du sultan Mehmed II",
+        "artist": "attribué à Gentile Bellini",
+        "country": "Turquie",
+        "period": "1480",
+        "museum": "National Gallery, Londres",
+        "credit": "National Gallery, Londres, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Bellini,_Gentile_-_Portrait_of_Mehmed_II_-_National_Gallery,_London.jpg), domaine public",
+        "image": "images/mouvements/empire-byzantin/mehmed-ii-bellini.jpg",
+        "lieu": "Constantinople (Istanbul)",
+        "lieuType": "fabrication",
+        "analysis": "Sous une arcade de pierre, un homme au profil marqué, au nez busqué et à la barbe brune, porte un grand turban blanc et un manteau rouge bordé de fourrure ; sur le rebord, devant lui, est posé un riche tapis. C'est le sultan ottoman Mehmed II, qui prit Constantinople le 29 mai 1453 : le dernier empereur byzantin, Constantin XI, mourut pendant l'assaut, et la ville devint la capitale de l'Empire ottoman. Ce portrait est attribué au peintre vénitien Gentile Bellini, qui séjourna à la cour du sultan en 1479–1480 ; il a été en partie repeint au XIXe siècle.",
+        "compare": "Le point d'arrivée de l'exposition : en 1453, l'Empire byzantin disparaît. Mais sa langue, le grec, sa foi orthodoxe et ses savoirs, apportés en Italie par des savants grecs, ont continué à vivre."
+      }
+    ],
+    "carte": {
+      "image": "images/mouvements/cartes/empire-byzantin.svg",
+      "ouest": 10.0,
+      "est": 39.5,
+      "sud": 27.0,
+      "nord": 47.0,
+      "lieux": [
+        {
+          "nom": "Constantinople (Istanbul)",
+          "lat": 41.0083,
+          "lon": 28.98
+        },
+        {
+          "nom": "Ravenne",
+          "lat": 44.4206,
+          "lon": 12.1964
+        },
+        {
+          "nom": "Madaba",
+          "lat": 31.7167,
+          "lon": 35.8
+        },
+        {
+          "nom": "Sainte-Catherine du Sinaï",
+          "lat": 28.5558,
+          "lon": 33.9756
+        },
+        {
+          "nom": "Göreme",
+          "lat": 38.6431,
+          "lon": 34.8289
+        },
+        {
+          "nom": "Daphni",
+          "lat": 38.0131,
+          "lon": 23.6358
+        },
+        {
+          "nom": "Palerme",
+          "lat": 38.1157,
+          "lon": 13.3613
+        },
+        {
+          "nom": "Venise",
+          "lat": 45.4344,
+          "lon": 12.3397
+        },
+        {
+          "nom": "Mystra",
+          "lat": 37.074,
+          "lon": 22.3673
+        }
+      ],
+      "pays": [
+        {
+          "nom": "Turquie",
+          "lat": 38.4,
+          "lon": 31.0
+        },
+        {
+          "nom": "Grèce",
+          "lat": 39.5,
+          "lon": 21.8
+        },
+        {
+          "nom": "Italie",
+          "lat": 40.6,
+          "lon": 16.0
+        },
+        {
+          "nom": "Égypte",
+          "lat": 28.0,
+          "lon": 29.0
+        },
+        {
+          "nom": "Jordanie",
+          "lat": 30.6,
+          "lon": 36.6
+        },
+        {
+          "nom": "Bulgarie",
+          "lat": 42.8,
+          "lon": 25.3
+        }
+      ],
+      "villes": [
+        {
+          "nom": "Rome",
+          "lat": 41.8931,
+          "lon": 12.4828
+        },
+        {
+          "nom": "Thessalonique",
+          "lat": 40.6403,
+          "lon": 22.9356
+        },
+        {
+          "nom": "Alexandrie",
+          "lat": 31.1975,
+          "lon": 29.8925
+        },
+        {
+          "nom": "Damas",
+          "lat": 33.5131,
+          "lon": 36.2919
+        },
+        {
+          "nom": "Ankara",
+          "lat": 39.9358,
+          "lon": 32.8387
+        },
+        {
+          "nom": "Belgrade",
+          "lat": 44.8178,
+          "lon": 20.4569
+        }
+      ]
+    }
   }
 ]

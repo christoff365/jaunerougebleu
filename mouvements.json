@@ -20053,5 +20053,392 @@
         }
       ]
     }
+  },
+  {
+    "mouvement": "Corée, des origines à 1910",
+    "slug": "coree",
+    "status": "published",
+    "title": "La Corée, des Trois Royaumes à Joseon",
+    "subtitle": "Corée du Sud et Chine, Ier millénaire av. J.-C. – 1910 · 20 œuvres et sites",
+    "intro": "Entre la Chine et le Japon, la péninsule coréenne a vu naître une civilisation originale, qui a duré plus de deux mille ans. Les royaumes de Goguryeo, Baekje et Silla, puis Silla unifié, Goryeo et Joseon ont bâti des capitales, des palais, des temples et des forteresses, et laissé des couronnes d'or, des céladons et des porcelaines parmi les plus admirés du monde. La Corée remplit tous les critères d'une civilisation : des villes et des capitales, des royaumes gouvernés par des rois et des fonctionnaires, des monuments, une écriture (les caractères chinois, puis un alphabet inventé en Corée, le hangeul), des artisans très spécialisés et des échanges avec toute l'Asie de l'Est. Elle a aussi imprimé le plus ancien livre connu fait avec des caractères mobiles en métal. L'exposition présente des sites et des œuvres restés en Corée du Sud et en Chine, et d'autres conservés à Paris, New York et Cleveland ; beaucoup de photographies sont celles de visiteurs ou du Musée national de Corée, publiées sous licence libre.",
+    "contexte": [
+      {
+        "title": "Les Trois Royaumes",
+        "text": "Après les sociétés de l'âge du bronze, qui ont laissé des milliers de dolmens, trois royaumes se partagent la péninsule coréenne pendant les premiers siècles de notre ère : Goguryeo au nord, qui s'étend aussi en Mandchourie, Baekje au sud-ouest et Silla au sud-est, avec la petite confédération de Gaya. Ils adoptent l'écriture chinoise, les lois et, aux IVe–VIe siècles, le bouddhisme, qui devient religion d'État. Leurs rois sont enterrés sous de grands tumulus avec des couronnes d'or, des armes et des bijoux. Baekje transmet au Japon l'écriture, le bouddhisme et de nombreuses techniques."
+      },
+      {
+        "title": "Silla unifié et Goryeo",
+        "text": "Au VIIe siècle, Silla s'allie à la Chine des Tang, vainc Baekje en 660 et Goguryeo en 668, puis chasse les Chinois : c'est le début de Silla unifié, dont la capitale, Gyeongju, devient l'une des grandes villes d'Asie. Le bouddhisme y inspire des chefs-d'œuvre comme Bulguksa et Seokguram. En 918 naît le royaume de Goryeo, qui a donné son nom à la Corée. Ses potiers créent les céladons incrustés, ses moines gravent le Tripitaka Koreana et ses imprimeurs inventent les caractères mobiles en métal. Au XIIIe siècle, Goryeo doit se soumettre aux Mongols."
+      },
+      {
+        "title": "Joseon, le royaume confucéen",
+        "text": "En 1392, le général Yi Seong-gye fonde la dynastie Joseon, qui régnera plus de cinq siècles, et installe sa capitale à Séoul. Les rois de Joseon gouvernent selon le confucianisme, avec des fonctionnaires recrutés par concours, les lettrés. Le roi Sejong fait créer vers 1443–1446 le hangeul, un alphabet simple pour que tout le peuple puisse lire. Le pays résiste aux invasions japonaises de 1592–1598, menées notamment sur mer par l'amiral Yi Sun-sin, puis aux invasions mandchoues."
+      },
+      {
+        "title": "La fin de Joseon et l'héritage",
+        "text": "Aux XVIIIe et XIXe siècles, les peintres représentent la vie quotidienne et les paysages coréens, et les rois réformateurs comme Jeongjo encouragent les savants. À la fin du XIXe siècle, la Corée, longtemps fermée, devient l'enjeu des rivalités entre la Chine, le Japon et la Russie. Elle se proclame Empire coréen en 1897, mais elle est annexée par le Japon en 1910. Libérée en 1945, elle est ensuite divisée en deux États. Le hangeul, les palais de Séoul et les traditions héritées des anciens royaumes sont toujours vivants."
+      }
+    ],
+    "bibliography": [
+      {
+        "reference": "UNESCO, Patrimoine mondial : Grotte de Seokguram et temple Bulguksa",
+        "url": "https://whc.unesco.org/fr/list/736"
+      },
+      {
+        "reference": "UNESCO, Patrimoine mondial : Sites de dolmens de Gochang, Hwasun et Ganghwa",
+        "url": "https://whc.unesco.org/fr/list/977"
+      },
+      {
+        "reference": "UNESCO, Patrimoine mondial : Forteresse de Hwaseong",
+        "url": "https://whc.unesco.org/fr/list/817"
+      },
+      {
+        "reference": "Bibliothèque nationale de France : Le « Jikji », un trésor de l'imprimerie",
+        "url": "https://www.bnf.fr/fr/le-jikji-un-tresor-de-limprimerie"
+      },
+      {
+        "reference": "Notices des œuvres : Musée national de Corée, Cleveland Museum of Art, Metropolitan Museum of Art"
+      }
+    ],
+    "works": [
+      {
+        "title": "Le dolmen de Gochang",
+        "artist": "Bâtisseurs de l'âge du bronze",
+        "country": "Corée du Sud",
+        "period": "Ier millénaire av. J.-C.",
+        "museum": "Site, Gochang (Corée du Sud)",
+        "credit": "Gochang, province du Jeolla du Nord (Corée du Sud), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Korea-Gwangju-Gochang_Dolmens_5349-06.JPG), photo Steve46814, licence CC BY-SA 3.0",
+        "image": "images/mouvements/coree/dolmen-de-gochang.jpg",
+        "lieu": "Gochang",
+        "lieuType": "site",
+        "analysis": "Dans un jardin entouré d'arbres, une énorme dalle de pierre plate et sombre repose sur deux gros blocs dressés, comme une table géante. C'est l'un des plus grands dolmens de Gochang, dans le sud-ouest de la Corée. Les dolmens sont des tombes de l'âge du bronze : il fallait de nombreux bras pour déplacer et soulever ces blocs, ce qui montre que des chefs pouvaient déjà mobiliser beaucoup de monde. La Corée compte une grande partie des dolmens connus dans le monde ; ceux de Gochang, Hwasun et Ganghwa sont inscrits au patrimoine mondial de l'UNESCO.",
+        "compare": "Le point de départ de l'exposition : avant les royaumes, la péninsule coréenne était déjà habitée par des sociétés de paysans organisées autour de chefs."
+      },
+      {
+        "title": "La stèle du roi Gwanggaeto",
+        "artist": "Royaume de Goguryeo",
+        "country": "Chine",
+        "period": "414",
+        "museum": "Site, Ji'an, province du Jilin (Chine)",
+        "credit": "Ji'an, province du Jilin (Chine), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:20230605_Stela_for_Gwanggaeto.jpg), photo Yumeto, licence CC BY-SA 4.0",
+        "image": "images/mouvements/coree/stele-de-gwanggaeto.jpg",
+        "lieu": "Ji'an",
+        "lieuType": "site",
+        "analysis": "Dans un pavillon vitré, une très haute pierre grossièrement taillée, aux angles arrondis, se dresse derrière un cordon. Ses faces sont couvertes de caractères chinois gravés, peu visibles ici. Elle fut érigée en 414 par le roi Jangsu de Goguryeo, en l'honneur de son père, le roi Gwanggaeto, qui avait étendu son royaume. Son long texte, de plus de 1 700 caractères, raconte les origines du royaume et les campagnes du roi. Elle se trouve à Ji'an, en Chine, près de la frontière nord-coréenne, sur le site de l'ancienne capitale de Goguryeo, inscrite au patrimoine mondial.",
+        "compare": "Goguryeo était le plus septentrional des « Trois Royaumes » de Corée, avec Baekje et Silla. Les Coréens écrivaient alors avec les caractères chinois."
+      },
+      {
+        "title": "Le grand brûle-parfum de Baekje",
+        "artist": "Bronziers du royaume de Baekje",
+        "country": "Corée du Sud",
+        "period": "VIe–VIIe siècle",
+        "museum": "Musée national de Buyeo (Corée du Sud)",
+        "credit": "Musée national de Buyeo (Corée du Sud) ; photo du Musée national de Corée, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:%EB%B0%B1%EC%A0%9C_%EA%B8%88%EB%8F%99%EB%8C%80%ED%96%A5%EB%A1%9C.jpg), photo Musée national de Corée, licence KOGL type 1 (licence ouverte du gouvernement coréen, avec mention de la source)",
+        "image": "images/mouvements/coree/brule-parfum-de-baekje.jpg",
+        "lieu": "Buyeo",
+        "lieuType": "découverte",
+        "analysis": "Un grand brûle-parfum de bronze doré, haut de 61,8 cm. Il repose sur un dragon enroulé qui tient dans sa gueule la tige d'une fleur de lotus ; le couvercle, en forme de montagne aux nombreux sommets, est surmonté d'un oiseau fabuleux, un phénix, les ailes ouvertes. On distingue sur la montagne de petits personnages et des animaux. L'encens brûlait à l'intérieur et la fumée sortait par de petits trous. Il a été découvert en 1993 sur le site d'un temple à Buyeo, la dernière capitale du royaume de Baekje, dans un bassin où il avait été caché.",
+        "compare": "Baekje était célèbre pour l'élégance de son art, qu'il a transmis au Japon avec le bouddhisme. C'est l'un des chefs-d'œuvre du métal coréen."
+      },
+      {
+        "title": "La couronne d'or de la tombe de la Couronne d'or",
+        "artist": "Orfèvres du royaume de Silla",
+        "country": "Corée du Sud",
+        "period": "Ve siècle",
+        "museum": "Musée national de Gyeongju (Corée du Sud)",
+        "credit": "Musée national de Gyeongju (Corée du Sud), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Royal_crown_GNM_Bongwan_9435_n01.jpg), photo Marie-Lan Taÿ Pamart, licence CC BY 4.0",
+        "image": "images/mouvements/coree/couronne-d-or-de-silla.jpg",
+        "lieu": "Gyeongju",
+        "lieuType": "découverte",
+        "analysis": "Une couronne d'or brille sur un fond noir : un bandeau d'où s'élèvent de hautes tiges découpées en forme de branches, chargées de petits disques d'or et de pendeloques de jade vert en forme de virgule. De longues chaînettes ornées de feuilles d'or pendent de chaque côté. Elle a été découverte en 1921, par hasard, lors de travaux dans un jardin de Gyeongju, la capitale du royaume de Silla, dans une grande tombe qu'on a appelée depuis « tombe de la Couronne d'or ». C'est un trésor national de Corée.",
+        "compare": "Silla a laissé plusieurs couronnes d'or, toutes trouvées dans des tombes royales. On compare souvent leurs formes d'arbres et de bois de cerf à l'art des peuples des steppes d'Asie centrale."
+      },
+      {
+        "title": "Le bodhisattva pensif",
+        "artist": "Bronziers des Trois Royaumes",
+        "country": "Corée du Sud",
+        "period": "fin du VIe siècle",
+        "museum": "Musée national de Corée, Séoul (Corée du Sud)",
+        "credit": "Musée national de Corée, Séoul (Corée du Sud), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Pensive_Bodhisattva_%28National_Treasure_No._78%29_01.jpg), photo Musée national de Corée, licence KOGL type 1 (licence ouverte du gouvernement coréen, avec mention de la source)",
+        "image": "images/mouvements/coree/bodhisattva-pensif.jpg",
+        "lieuType": "fabrication",
+        "analysis": "Une statue de bronze sombre représente un personnage assis, la jambe droite croisée sur le genou gauche. Il penche légèrement la tête et touche sa joue du bout des doigts de la main droite, dans une attitude de réflexion ; il porte une haute couronne et une longue robe aux plis gravés qui tombe sur son siège. C'est un bodhisattva, un être sur la voie de l'éveil, sans doute le futur Bouddha, Maitreya. Cette statue, trésor national n° 78, date de l'époque des Trois Royaumes, quand le bouddhisme se répandait en Corée.",
+        "compare": "Le bouddhisme, venu de l'Inde par la Chine, devient la religion des rois coréens aux IVe–VIe siècles. Le Musée national de Corée expose ce bodhisattva à côté d'un second, presque aussi célèbre, dans une salle qui leur est consacrée."
+      },
+      {
+        "title": "L'observatoire de Cheomseongdae",
+        "artist": "Bâtisseurs du royaume de Silla",
+        "country": "Corée du Sud",
+        "period": "VIIe siècle",
+        "museum": "Site, Gyeongju (Corée du Sud)",
+        "credit": "Gyeongju (Corée du Sud), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Cheomseongdae_Observatory_01.jpg), photo Bernard Gagnon, domaine public (CC0)",
+        "image": "images/mouvements/coree/cheomseongdae.jpg",
+        "lieu": "Gyeongju",
+        "lieuType": "site",
+        "analysis": "Une tour de pierre de 9 mètres, en forme de bouteille, faite de rangées de blocs de granit taillés, s'élève sur une base carrée ; une petite ouverture carrée s'ouvre à mi-hauteur, et le sommet porte un cadre de pierres posées en carré. Elle a été construite à Gyeongju, la capitale de Silla, au VIIe siècle, sous le règne de la reine Seondeok. On la considère comme le plus ancien observatoire astronomique conservé d'Asie de l'Est, même si tous les archéologues ne sont pas d'accord sur son usage.",
+        "compare": "Observer le ciel servait à établir le calendrier et à lire les présages pour le royaume. Silla eut trois reines régnantes, dont Seondeok."
+      },
+      {
+        "title": "Le temple Bulguksa",
+        "artist": "Bâtisseurs de Silla unifié",
+        "country": "Corée du Sud",
+        "period": "VIIIe siècle",
+        "museum": "Site, Gyeongju (Corée du Sud)",
+        "credit": "Gyeongju (Corée du Sud), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Korea-Gyeongju-Bulguksa-Baegungyo_and_Cheongungyo-01.jpg), photo Steve46814, licence CC BY-SA 3.0",
+        "image": "images/mouvements/coree/temple-bulguksa.jpg",
+        "lieu": "Gyeongju",
+        "lieuType": "site",
+        "analysis": "Devant une longue terrasse de pierre, deux escaliers à double volée montent vers une porte en bois aux toits recourbés ; des guirlandes de lanternes de couleur sont tendues au-dessus. Ces escaliers, appelés « ponts », font partie du temple Bulguksa, près de Gyeongju, construit au VIIIe siècle, à l'époque de Silla unifié. Les terrasses et les escaliers de pierre datent de cette époque ; les bâtiments de bois ont été reconstruits plus tard. Bulguksa et la grotte voisine de Seokguram sont inscrits ensemble au patrimoine mondial de l'UNESCO depuis 1995.",
+        "compare": "Au VIIe siècle, Silla s'allie à la Chine des Tang pour vaincre Baekje et Goguryeo, et unifie la plus grande partie de la péninsule : c'est la période de Silla unifié."
+      },
+      {
+        "title": "Le Bouddha de la grotte de Seokguram",
+        "artist": "Sculpteurs de Silla unifié",
+        "country": "Corée du Sud",
+        "period": "VIIIe siècle",
+        "museum": "Grotte de Seokguram, Gyeongju (Corée du Sud)",
+        "credit": "Grotte de Seokguram, Gyeongju (Corée du Sud), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Korea-Gyeongju-Seokguram-Buddha_statue-01.jpg), photo myllissa, licence CC BY 2.0",
+        "image": "images/mouvements/coree/bouddha-de-seokguram.jpg",
+        "lieu": "Gyeongju",
+        "lieuType": "site",
+        "analysis": "Dans une salle de pierre éclairée, un grand Bouddha de granit blanc est assis en tailleur sur un haut socle en forme de lotus. Il a les yeux mi-clos, le visage calme, et sa main droite est posée vers le sol. Il trône au fond de Seokguram, un sanctuaire artificiel construit en blocs de granit sur une montagne au-dessus de Bulguksa, et dont la salle ronde est couverte d'une coupole. Le geste de sa main droite, qui touche la terre, rappelle le moment où le Bouddha atteignit l'éveil.",
+        "compare": "Seokguram est l'un des sommets de l'art bouddhique d'Asie. Comparez avec le bodhisattva pensif : deux siècles plus tard, les sculpteurs coréens taillent le granit, une pierre très dure."
+      },
+      {
+        "title": "La cloche du roi Seongdeok",
+        "artist": "Fondeurs de Silla unifié",
+        "country": "Corée du Sud",
+        "period": "771",
+        "museum": "Musée national de Gyeongju (Corée du Sud)",
+        "credit": "Musée national de Gyeongju (Corée du Sud), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Bell_of_King_Seongdeok.National_Museum_of_Gyeongju.Korea.2018.P1410597.jpg), photo Josep Panadero, licence CC BY-SA 4.0",
+        "image": "images/mouvements/coree/cloche-du-roi-seongdeok.jpg",
+        "lieu": "Gyeongju",
+        "lieuType": "fabrication",
+        "analysis": "Une immense cloche de bronze verdi est suspendue sous un pavillon, au-dessus du sol. Sa paroi est décorée de bandes de motifs floraux et, sur ses flancs, de figures célestes agenouillées, entourées de voiles qui flottent ; au sommet, un dragon sert d'anneau. Coulée en 771 pour honorer le roi Seongdeok, elle pèse 18,9 tonnes : c'est la plus grande cloche ancienne conservée en Corée. Une longue inscription gravée en caractères chinois raconte sa fabrication. Elle n'a pas de battant à l'intérieur : on la fait sonner en la frappant de l'extérieur avec une poutre de bois.",
+        "compare": "Les fondeurs coréens étaient d'une grande habileté : il fallait couler d'un seul coup des tonnes de métal en fusion."
+      },
+      {
+        "title": "Panneau de tombe royale : le Rat du zodiaque",
+        "artist": "Sculpteurs de Silla unifié",
+        "country": "Corée du Sud",
+        "period": "fin du VIIIe – début du IXe siècle",
+        "museum": "Cleveland Museum of Art, Cleveland",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1988.249), domaine public (CC0)",
+        "image": "images/mouvements/coree/panneau-du-zodiaque.jpg",
+        "lieu": "Gyeongju",
+        "lieuType": "fabrication",
+        "lieuProbable": true,
+        "analysis": "Une dalle de granit de 1,47 m, usée, porte une figure gravée en faible relief : un personnage debout, au corps humain vêtu d'une robe aux plis souples et à la tête de rat. Selon le musée, c'est l'un des douze signes du zodiaque asiatique. La dalle faisait sans doute partie d'une série de douze panneaux qui entouraient la base d'un tumulus royal, probablement à Gyeongju. Elle ressemble à ceux de la tombe du général Kim Yusin, la plus célèbre de l'époque.",
+        "compare": "Les douze animaux du zodiaque, venus de Chine, protégeaient la tombe dans toutes les directions. Ils sont encore utilisés aujourd'hui pour les années du calendrier lunaire."
+      },
+      {
+        "title": "Kundika en céladon, vase rituel bouddhique",
+        "artist": "Potiers de Goryeo",
+        "country": "Corée du Sud",
+        "period": "XIIe siècle",
+        "museum": "Cleveland Museum of Art, Cleveland",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1921.631), domaine public (CC0)",
+        "image": "images/mouvements/coree/kundika-en-celadon.jpg",
+        "lieuType": "fabrication",
+        "analysis": "Un vase élégant de 35 cm, en grès couvert d'une glaçure vert pâle translucide, le céladon. Sa panse ronde se prolonge par un long col fin et pointu ; sur le côté, un petit bec permet de le remplir. Ce type de vase, la kundika, servait dans les rituels bouddhiques de purification. Selon le musée, il est décoré d'un phénix en vol finement incisé, un motif rare. À l'époque Goryeo, quelque 260 fours, surtout dans le sud-ouest du pays, produisaient ces céramiques de luxe.",
+        "compare": "Le royaume de Goryeo (918–1392) a donné son nom à la Corée. Ses céladons, d'une couleur que les Chinois eux-mêmes admiraient, sont parmi les plus belles céramiques du monde."
+      },
+      {
+        "title": "Maebyeong aux grues et aux nuages",
+        "artist": "Potiers de Goryeo",
+        "country": "Corée du Sud",
+        "period": "fin du XIIIe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:%EC%B2%AD%EC%9E%90_%EC%83%81%EA%B0%90_%EA%B5%AC%EB%A6%84_%ED%95%99_%EB%AC%B4%EB%8A%AC_%EB%A7%A4%EB%B3%91_%EA%B3%A0%EB%A0%A4-%E9%9D%91%E7%A3%81%E8%B1%A1%E5%B5%8C%E9%9B%B2%E9%B6%B4%E6%96%87%E6%A2%85%E7%94%81_%E9%AB%98%E9%BA%97-Maebyeong_decorated_with_cranes_and_clouds_MET_DT4857.jpg), domaine public (CC0)",
+        "image": "images/mouvements/coree/maebyeong-aux-grues.jpg",
+        "lieuType": "fabrication",
+        "analysis": "Un vase à épaules larges et à col étroit, le maebyeong, en céladon vert-bleu, est décoré de grues blanches qui volent parmi des nuages blancs. Le décor n'est pas peint : il est incrusté. Le potier creusait le motif dans l'argile encore molle, le remplissait d'argile blanche ou noire, puis couvrait le tout de glaçure avant la cuisson. Cette technique de l'incrustation, appelée sanggam, est une invention des potiers de Goryeo.",
+        "compare": "Les grues et les nuages évoquent la longévité et l'immortalité. Comparez avec la kundika : un siècle plus tard, les potiers ajoutent la couleur à la forme."
+      },
+      {
+        "title": "Avalokiteshvara de la lune sur l'eau",
+        "artist": "Peintre de Goryeo",
+        "country": "Corée du Sud",
+        "period": "première moitié du XIVe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Water-Moon_Avalokiteshvara_%28Metropolitan_Museum_of_Art%29.jpg), domaine public",
+        "image": "images/mouvements/coree/avalokiteshvara-de-la-lune-sur-l-eau.jpg",
+        "lieuType": "fabrication",
+        "analysis": "Sur une soie assombrie par le temps, un bodhisattva est assis sur un rocher au bord de l'eau, une jambe repliée, l'autre pendante. Il porte une couronne et des bijoux d'or, et un voile transparent, presque invisible, couvre tout son corps et sa robe rouge aux motifs dorés ; un grand halo rond l'entoure. C'est Avalokiteshvara, le bodhisattva de la compassion, contemplant la lune reflétée dans l'eau. Les peintures bouddhiques de Goryeo, très raffinées, sont rares : il en reste environ 160 dans le monde, la plupart au Japon.",
+        "compare": "Le voile transparent peint par-dessus la robe est la grande prouesse des peintres de Goryeo."
+      },
+      {
+        "title": "Une planche du Tripitaka Koreana (copie)",
+        "artist": "Graveurs de Goryeo (original)",
+        "country": "Corée du Sud",
+        "period": "1237–1248 (originaux)",
+        "museum": "Temple de Haeinsa (Corée du Sud)",
+        "credit": "Temple de Haeinsa (Corée du Sud), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Korea-Haeinsa_Tripitaka_Koreana_woodblock_2770-06a.jpg), photo Steve46814, licence CC BY-SA 3.0",
+        "image": "images/mouvements/coree/planche-du-tripitaka-koreana.jpg",
+        "lieu": "Haeinsa",
+        "lieuType": "site",
+        "analysis": "Une planche de bois sombre, encadrée de deux poignées, est couverte de colonnes serrées de caractères chinois sculptés en relief, à l'envers, pour être imprimés sur papier. Il s'agit d'une copie mise à la disposition des visiteurs du temple de Haeinsa pour imprimer eux-mêmes une page. Les originaux, plus de 81 000 planches gravées entre 1237 et 1248, forment le Tripitaka Koreana, la collection complète des textes bouddhiques. Les rois de Goryeo les firent graver en espérant obtenir la protection du Bouddha contre les invasions mongoles. Ils sont conservés depuis des siècles dans les bâtiments de bois de Haeinsa, inscrits au patrimoine mondial.",
+        "compare": "C'est la plus ancienne version complète du canon bouddhique en caractères chinois conservée jusqu'à nous, avec plus de 52 millions de caractères."
+      },
+      {
+        "title": "Le Jikji, imprimé avec des caractères mobiles en métal",
+        "artist": "Moines du temple Heungdeok",
+        "country": "Corée du Sud",
+        "period": "1377",
+        "museum": "Bibliothèque nationale de France, Paris",
+        "credit": "Bibliothèque nationale de France, département des Manuscrits, Paris, via Gallica (https://gallica.bnf.fr/ark:/12148/btv1b10527116j) et Wikimedia Commons, domaine public",
+        "image": "images/mouvements/coree/jikji.jpg",
+        "lieu": "Cheongju",
+        "lieuType": "fabrication",
+        "analysis": "Deux pages d'un livre ancien, au papier jauni, couvertes de colonnes de caractères chinois imprimés en noir, à lire de haut en bas et de droite à gauche. On remarque que les caractères n'ont pas tous exactement la même taille ni le même alignement. Ce livre est le Jikji, un recueil d'enseignements de maîtres bouddhistes, imprimé en juillet 1377 au temple Heungdeok, près de Cheongju, avec des caractères mobiles en métal. Seul le second volume est conservé, à la Bibliothèque nationale de France. C'est le plus ancien livre connu imprimé de cette façon.",
+        "compare": "Il a été imprimé près de quatre-vingts ans avant la Bible de Gutenberg. Le Jikji est inscrit au registre « Mémoire du monde » de l'UNESCO."
+      },
+      {
+        "title": "Les Chants des dragons qui volent vers le ciel",
+        "artist": "Chŏng Inji, An Chi et Kwŏn Che",
+        "country": "Corée du Sud",
+        "period": "1445–1447 (texte)",
+        "museum": "Institut Kyujanggak, université nationale de Séoul (Corée du Sud)",
+        "credit": "Institut Kyujanggak d'études coréennes, université nationale de Séoul (Corée du Sud), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Songs_of_the_Dragons_Flying_to_Heaven_in_museum.jpg), photo Salamander724, domaine public",
+        "image": "images/mouvements/coree/chants-des-dragons.jpg",
+        "lieu": "Séoul",
+        "lieuType": "fabrication",
+        "analysis": "Dans une vitrine, un livre à couverture jaune, cousu sur le côté, porte un titre en grands caractères chinois ; à côté, un autre volume est ouvert. Sur ses pages, des colonnes de caractères chinois alternent avec des colonnes d'une autre écriture, faite de signes plus simples, groupés en carrés : c'est le hangeul, l'alphabet coréen. Ce long poème de 125 chants, commandé par le roi Sejong, célèbre les ancêtres de la dynastie Joseon. Composé en 1445 et publié en 1447, c'est la première œuvre écrite en hangeul.",
+        "compare": "Le roi Sejong fit créer le hangeul vers 1443–1446 pour que tout le peuple puisse apprendre à lire et à écrire. Avec ses 28 lettres à l'origine, c'est l'une des écritures les plus simples du monde."
+      },
+      {
+        "title": "La salle du trône du palais Gyeongbokgung",
+        "artist": "Architectes de Joseon",
+        "country": "Corée du Sud",
+        "period": "1395, reconstruit en 1867",
+        "museum": "Site, Séoul (Corée du Sud)",
+        "credit": "Séoul (Corée du Sud), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Front_view_of_the_Imperial_Throne_Hall_Geunjeongjeon_at_Gyeongbokgung_Palace_with_blue_sky_in_Seoul.jpg), photo Basile Morin, licence CC BY-SA 4.0",
+        "image": "images/mouvements/coree/palais-gyeongbokgung.jpg",
+        "lieu": "Séoul",
+        "lieuType": "site",
+        "analysis": "Au bout d'une vaste cour pavée de grandes dalles de pierre, un grand bâtiment de bois peint en rouge et vert, à deux étages de toits recourbés couverts de tuiles grises, s'élève sur une double terrasse de pierre ; des montagnes se dessinent derrière. Dans la cour, deux rangées de petites bornes de pierre indiquaient la place des fonctionnaires selon leur rang. C'est le Geunjeongjeon, la salle du trône du palais Gyeongbokgung, construit en 1395 à Séoul, la nouvelle capitale de la dynastie Joseon. Incendié en 1592 pendant les invasions japonaises, le palais a été reconstruit en 1867.",
+        "compare": "La dynastie Joseon a régné de 1392 à 1910 : plus de cinq siècles. Elle gouvernait selon les idées du confucianisme, avec des fonctionnaires recrutés par des examens."
+      },
+      {
+        "title": "L'école du village",
+        "artist": "Kim Hong-do",
+        "country": "Corée du Sud",
+        "period": "fin du XVIIIe siècle",
+        "museum": "Musée national de Corée, Séoul (Corée du Sud)",
+        "credit": "Musée national de Corée, Séoul (Corée du Sud), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Danwon_Seodang.jpg), domaine public",
+        "image": "images/mouvements/coree/ecole-du-village.jpg",
+        "lieuType": "fabrication",
+        "analysis": "Sur un papier clair, un dessin à l'encre légèrement coloré montre une petite école de village. Un maître barbu, coiffé d'un chapeau noir, est assis derrière une table basse. Devant lui, un garçon tourne le dos au maître et s'essuie les yeux : il vient sans doute d'être grondé, tandis que les autres élèves, assis par terre en deux groupes avec leurs livres ouverts, sourient ou se moquent de lui. Cette scène fait partie d'un album de scènes de la vie quotidienne peintes par Kim Hong-do, l'un des peintres les plus célèbres de la dynastie Joseon.",
+        "compare": "Au XVIIIe siècle, les peintres coréens se mettent à représenter la vie des gens ordinaires, avec humour. L'éducation tenait une grande place dans la société confucéenne de Joseon."
+      },
+      {
+        "title": "Jarre lune",
+        "artist": "Potiers de Joseon",
+        "country": "Corée du Sud",
+        "period": "seconde moitié du XVIIIe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:%EB%B0%B1%EC%9E%90_%EB%8B%AC%ED%95%AD%EC%95%84%EB%A6%AC_%EC%A1%B0%EC%84%A0-%E7%99%BD%E7%A3%81%E5%A3%BA_%E6%9C%9D%E9%AE%AE-Moon_Jar_MET_DP231899.jpg), domaine public (CC0)",
+        "image": "images/mouvements/coree/jarre-lune.jpg",
+        "lieuType": "fabrication",
+        "analysis": "Une grande jarre de porcelaine blanche, presque ronde, sans aucun décor, se détache sur un fond gris. Sa forme n'est pas parfaitement régulière, et sa surface laiteuse porte de légères taches brunâtres. On l'appelle « jarre lune » à cause de sa forme et de sa couleur. Ces jarres étaient faites en deux moitiés, tournées séparément puis assemblées, ce qui explique leur forme légèrement irrégulière.",
+        "compare": "La porcelaine blanche, simple et sans décor, correspond au goût de sobriété des lettrés confucéens de Joseon. Comparez avec les céladons colorés de Goryeo."
+      },
+      {
+        "title": "La forteresse de Hwaseong",
+        "artist": "Architectes du roi Jeongjo",
+        "country": "Corée du Sud",
+        "period": "1794–1796",
+        "museum": "Site, Suwon (Corée du Sud)",
+        "credit": "Suwon (Corée du Sud), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Hwaseong_Fortress_01.jpg), photo Bernard Gagnon, domaine public (CC0)",
+        "image": "images/mouvements/coree/forteresse-de-hwaseong.jpg",
+        "lieu": "Suwon",
+        "lieuType": "site",
+        "analysis": "Une longue muraille de pierre grise, percée de meurtrières et couronnée de créneaux, suit le relief d'une colline herbeuse ; au loin se dresse un pavillon à toit recourbé. C'est la forteresse de Hwaseong, à Suwon, au sud de Séoul, construite de 1794 à 1796 sur l'ordre du roi Jeongjo. Les architectes ont utilisé des machines nouvelles, comme des grues et des poulies, et un rapport détaillé de la construction a été publié, ce qui a permis de la restaurer fidèlement au XXe siècle. Elle est inscrite au patrimoine mondial de l'UNESCO.",
+        "compare": "Le point d'arrivée de l'exposition : un siècle plus tard, la Corée de Joseon, devenue l'Empire coréen en 1897, est annexée par le Japon en 1910. La civilisation coréenne continue aujourd'hui dans les deux Corées."
+      }
+    ],
+    "carte": {
+      "image": "images/mouvements/cartes/coree.svg",
+      "ouest": 121.5,
+      "est": 133.5,
+      "sud": 33.0,
+      "nord": 43.0,
+      "lieux": [
+        {
+          "nom": "Gochang",
+          "lat": 35.435,
+          "lon": 126.702
+        },
+        {
+          "nom": "Ji'an",
+          "lat": 41.1236,
+          "lon": 126.1867
+        },
+        {
+          "nom": "Buyeo",
+          "lat": 36.2756,
+          "lon": 126.9097
+        },
+        {
+          "nom": "Gyeongju",
+          "lat": 35.8562,
+          "lon": 129.2247
+        },
+        {
+          "nom": "Haeinsa",
+          "lat": 35.8007,
+          "lon": 128.098
+        },
+        {
+          "nom": "Cheongju",
+          "lat": 36.6424,
+          "lon": 127.489
+        },
+        {
+          "nom": "Séoul",
+          "lat": 37.5665,
+          "lon": 126.978
+        },
+        {
+          "nom": "Suwon",
+          "lat": 37.2871,
+          "lon": 127.0119
+        }
+      ],
+      "pays": [
+        {
+          "nom": "Corée du Sud",
+          "lat": 37.0,
+          "lon": 128.9
+        },
+        {
+          "nom": "Corée du Nord",
+          "lat": 40.0,
+          "lon": 127.0
+        },
+        {
+          "nom": "Chine",
+          "lat": 42.0,
+          "lon": 123.5
+        },
+        {
+          "nom": "Japon",
+          "lat": 35.0,
+          "lon": 132.6
+        }
+      ],
+      "villes": [
+        {
+          "nom": "Pyongyang",
+          "lat": 39.0392,
+          "lon": 125.7625
+        },
+        {
+          "nom": "Busan",
+          "lat": 35.1796,
+          "lon": 129.0756
+        }
+      ]
+    }
   }
 ]

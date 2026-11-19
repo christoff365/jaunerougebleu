@@ -422,6 +422,8 @@ const GENRES_THEMES = {
 const MOUVEMENTS = [
   ['Empire mongol', "Asie de l'Est", 'Mongolie, Chine, Iran et Russie', '1206 – 1368', ['Mongol', 'Yuan dynasty', 'Ilkhanid', 'Golden Horde'], ['Mongol Empire', 'Yuan dynasty art', 'Ilkhanid art'], 'mongol|yuan dynasty|ilkhan|ilkhanid|golden horde|horde d.or|karakorum|khubilai|kublai|gengis|genghis', [],
     "Gengis Khan et ses descendants : Karakorum, les relais de poste et les laissez-passer, l'écriture phags-pa, Khoubilaï et la dynastie Yuan, le papier-monnaie, l'Iran des Ilkhanides et la Horde d'or."],
+  ['Corée, des origines à 1910', "Asie de l'Est", 'Corée du Sud et Chine', 'Ier millénaire av. J.-C. – 1910', ['Korean'], ['Korean art'], 'goguryeo|baekje|silla|goryeo|koryo|joseon|choson|coree|corée|korea', [],
+    "Des Trois Royaumes à Joseon : la couronne d'or de Silla, le bodhisattva pensif, Bulguksa et Seokguram, les céladons de Goryeo, le Jikji imprimé en caractères mobiles de métal, le hangeul et les palais de Séoul."],
   ['Japon, des origines à 1868', "Asie de l'Est", 'Japon', 'IIIe siècle – 1868', ['Japanese'], ['Japanese art'], 'jomon|jōmon|kofun|heian|kamakura|muromachi|samoura|samurai', [],
     "De la poterie Jōmon à l'ouverture du pays : tumulus, temples de Nara, cour de Heian, samouraïs et zen, paix d'Edo, Aïnous et royaume de Ryūkyū."],
   ["Empire des Tu'i Tonga", 'Océanie', 'Tonga', 'Xe–XIXe siècle', ['Tongan', 'Tonga'], ['Tongan art'], 'tonga|tongan|tongien', [],
@@ -577,7 +579,7 @@ const STYLES_ARCHITECTURE = { 'Art gothique': 'Q176483' };
 const ANONYME = 'Q4233718'; // « anonyme » dans Wikidata
 // Mouvements d'abord de l'estampe : leurs estampes ne sont pas limitées à trois
 // Expositions consacrées à une civilisation plutôt qu'à un mouvement (badge « Civilisation » sur leur page)
-const CIVILISATIONS = new Set(['Hittites', 'Phéniciens et Carthage', 'Empire byzantin', 'Empire khmer', 'Mayas', 'Empire mongol', 'Mésopotamie', 'Égypte ancienne', 'Royaume de Koush', "Civilisation de l'Indus", 'Inde ancienne', 'Chine, des origines à 1912', 'Japon, des origines à 1868', 'Grèce antique', 'Israël et Juda', 'Perse ancienne', 'Rome antique', 'Aksoum', 'Anglo-Saxons', 'Royaumes de Java et de Sumatra', 'Vikings', "Empire des Tu'i Tonga", 'Empire du Mali', 'Aztèques', 'Incas']);
+const CIVILISATIONS = new Set(['Corée, des origines à 1910', 'Hittites', 'Phéniciens et Carthage', 'Empire byzantin', 'Empire khmer', 'Mayas', 'Empire mongol', 'Mésopotamie', 'Égypte ancienne', 'Royaume de Koush', "Civilisation de l'Indus", 'Inde ancienne', 'Chine, des origines à 1912', 'Japon, des origines à 1868', 'Grèce antique', 'Israël et Juda', 'Perse ancienne', 'Rome antique', 'Aksoum', 'Anglo-Saxons', 'Royaumes de Java et de Sumatra', 'Vikings', "Empire des Tu'i Tonga", 'Empire du Mali', 'Aztèques', 'Incas']);
 const MOUVEMENTS_D_ESTAMPES = new Set(['Ukiyo-e', 'Expressionnisme']);
 // Mouvements de peintres : si le visiteur n'a pas choisi de type, l'exposition ne montre que des peintures
 // (pas les dessins, études, estampes ou éventails que les catalogues renvoient aussi pour ces artistes)

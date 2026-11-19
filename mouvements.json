@@ -19239,5 +19239,443 @@
         }
       ]
     }
+  },
+  {
+    "mouvement": "Phéniciens et Carthage",
+    "slug": "pheniciens-et-carthage",
+    "status": "published",
+    "title": "Les Phéniciens et Carthage, les marins de l'alphabet",
+    "subtitle": "Liban, Syrie, Tunisie, Italie, Espagne et Malte, vers 1200 – 146 av. J.-C. · 20 œuvres et sites",
+    "intro": "Sur une étroite bande de côte, entre la mer et les montagnes du Liban, des villes comme Byblos, Sidon et Tyr ont formé, à partir de 1200 av. J.-C. environ, une civilisation tournée vers la mer : celle des Phéniciens. Grands marins et commerçants, ils ont fondé des comptoirs tout autour de la Méditerranée, de Chypre à l'Espagne. L'un d'eux, Carthage, en Tunisie, est devenu une puissance capable de défier Rome, jusqu'à sa destruction en 146 av. J.-C. Les Phéniciens remplissent tous les critères d'une civilisation : des villes, des rois puis, à Carthage, des magistrats et un conseil, des temples et des monuments, une écriture, des artisans spécialisés (pourpre, verre, ivoire, métal) et un commerce à très longue distance. Leur plus grand héritage est l'alphabet, ancêtre du nôtre. L'exposition présente des sites restés au Liban, en Syrie et en Tunisie, et des œuvres conservées à Beyrouth, Tunis, Rome, Madrid, Cadix, La Valette, Paris, Londres, Berlin, New York et Cleveland ; beaucoup de photographies sont celles de visiteurs, publiées sous licence libre.",
+    "contexte": [
+      {
+        "title": "Des cités-États de la côte libanaise",
+        "text": "Les Phéniciens ne formaient pas un pays unique : chaque ville, Byblos, Sidon, Tyr ou Arwad, était un petit État indépendant, avec son roi, ses dieux et son port. Ils se nommaient d'après leur ville ; le nom de « Phéniciens » leur a été donné par les Grecs. Ils étaient les héritiers des Cananéens de l'âge du bronze. Leur richesse venait du commerce du bois de cèdre, de la teinture pourpre tirée d'un coquillage, le murex, du verre, des tissus et des objets de luxe en ivoire et en métal. Ils ont souvent dû payer tribut aux grands empires voisins, Égypte, Assyrie, Babylone puis Perse, qui avaient besoin de leurs navires."
+      },
+      {
+        "title": "Une écriture de 22 lettres",
+        "text": "Vers 1000 av. J.-C., les Phéniciens utilisent un alphabet de 22 signes, qui notent chacun un son de consonne. C'est beaucoup plus simple que les centaines de signes des hiéroglyphes égyptiens ou du cunéiforme mésopotamien. Les Grecs l'adoptent au VIIIe siècle av. J.-C. en y ajoutant des voyelles ; les Étrusques et les Romains le reprennent à leur tour. Les alphabets hébreu, araméen et arabe en descendent aussi. Presque tous les livres des Phéniciens, écrits sur papyrus, ont disparu : on les connaît par les inscriptions gravées dans la pierre ou le métal."
+      },
+      {
+        "title": "Des comptoirs tout autour de la Méditerranée",
+        "text": "À partir du IXe siècle av. J.-C., les marins phéniciens, surtout ceux de Tyr, fondent des comptoirs et des villes à Chypre, en Afrique du Nord, à Malte, en Sicile, en Sardaigne, à Ibiza et en Espagne, jusqu'à Cadix, sur l'Atlantique. Ils cherchent des métaux, comme l'argent d'Espagne, et des ports pour leurs navires. La plus célèbre de ces fondations est Carthage, en Tunisie, que la tradition dit fondée en 814 av. J.-C. par la princesse Élissa, que les Romains appelaient Didon. Carthage devient la capitale d'un empire maritime qui domine la Méditerranée occidentale ; on appelle « puniques » les Phéniciens d'Occident."
+      },
+      {
+        "title": "Carthage contre Rome",
+        "text": "Carthage était gouvernée par des magistrats élus, les suffètes, et par un conseil de riches familles. Sa flotte était l'une des plus puissantes de la Méditerranée. Au IIIe siècle av. J.-C., elle entre en conflit avec Rome : ce sont les guerres puniques. Pendant la deuxième, le général Hannibal traverse les Alpes avec des éléphants et bat les Romains en Italie, mais il est finalement vaincu à Zama, en 202 av. J.-C. En 146 av. J.-C., à la fin de la troisième guerre, les Romains prennent et détruisent Carthage. La langue punique continue pourtant d'être parlée en Afrique du Nord pendant plusieurs siècles."
+      }
+    ],
+    "bibliography": [
+      {
+        "reference": "UNESCO, Patrimoine mondial : Byblos",
+        "url": "https://whc.unesco.org/fr/list/295"
+      },
+      {
+        "reference": "UNESCO, Patrimoine mondial : Site archéologique de Carthage",
+        "url": "https://whc.unesco.org/fr/list/37"
+      },
+      {
+        "reference": "UNESCO, Patrimoine mondial : Cité punique de Kerkuane et sa nécropole",
+        "url": "https://whc.unesco.org/fr/list/332"
+      },
+      {
+        "reference": "Notices des œuvres : musée du Louvre, Cleveland Museum of Art, Metropolitan Museum of Art, Bibliothèque nationale de France, Münzkabinett de Berlin"
+      }
+    ],
+    "works": [
+      {
+        "title": "Le temple des obélisques de Byblos",
+        "artist": "Bâtisseurs de Byblos",
+        "country": "Liban",
+        "period": "vers 1900–1600 av. J.-C.",
+        "museum": "Site, Byblos (Liban)",
+        "credit": "Byblos (Liban), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:ByblosObeliskTemple.jpg), photo Heretiq, licence CC BY-SA 2.5",
+        "image": "images/mouvements/pheniciens-et-carthage/temple-des-obelisques.jpg",
+        "lieu": "Byblos",
+        "lieuType": "site",
+        "analysis": "Dans une cour en ruine, une trentaine de pierres dressées, hautes et étroites, de tailles différentes, se tiennent debout derrière des murets de grosses pierres ; un palmier pousse à côté. Ce sont des obélisques, offerts au dieu du temple. Byblos, sur la côte du Liban, est l'une des plus anciennes villes du monde, habitée depuis des milliers d'années. Ce temple date de l'âge du bronze, avant même que l'on parle de « Phéniciens ». Sur l'un des obélisques, une inscription en hiéroglyphes égyptiens nomme Abishemu, prince de Byblos : la ville vendait déjà à l'Égypte le bois de cèdre des montagnes du Liban. Byblos est inscrite au patrimoine mondial de l'UNESCO.",
+        "compare": "Le point de départ de l'exposition : les Phéniciens ne sont pas un peuple venu d'ailleurs, mais les héritiers des villes cananéennes de la côte, comme Byblos, qui commerçaient déjà depuis longtemps."
+      },
+      {
+        "title": "Le sarcophage d'Ahiram, roi de Byblos",
+        "artist": "Sculpteur de Byblos",
+        "country": "Liban",
+        "period": "vers 1000 av. J.-C. (inscription)",
+        "museum": "Musée national de Beyrouth (Liban)",
+        "credit": "Musée national de Beyrouth (Liban), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Ahiram_Sarcophagus_1.JPG), photo O.Mustafin, domaine public",
+        "image": "images/mouvements/pheniciens-et-carthage/sarcophage-d-ahiram.jpg",
+        "lieu": "Byblos",
+        "lieuType": "découverte",
+        "analysis": "Une grande cuve de pierre claire, fermée par un couvercle, repose sur des lions couchés dont on voit les têtes et les pattes avant. Ses côtés sont sculptés en faible relief : une file de personnages marche entre deux bandes en forme de corde. Sur les autres faces, un roi assis sur un trône orné de sphinx reçoit des offrandes devant une table. Le sarcophage a été découvert à Byblos en 1923. Une inscription gravée sur le bord du couvercle dit que le fils d'Ahiram, roi de Byblos, l'a fait pour son père, et menace de malheurs quiconque l'ouvrirait. Datée en général de 1000 av. J.-C. environ, c'est le plus ancien long texte connu écrit avec l'alphabet phénicien.",
+        "compare": "L'alphabet phénicien n'a que 22 lettres, qui notent des consonnes : il est bien plus simple que les centaines de signes des hiéroglyphes ou du cunéiforme. Les Grecs l'ont adopté, et c'est l'ancêtre de notre alphabet."
+      },
+      {
+        "title": "Plaque d'ivoire : sphinx ailé",
+        "artist": "Ivoiriers phéniciens",
+        "country": "Irak",
+        "period": "900–800 av. J.-C.",
+        "museum": "Cleveland Museum of Art, Cleveland",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1968.46), domaine public (CC0)",
+        "image": "images/mouvements/pheniciens-et-carthage/ivoire-sphinx-aile.jpg",
+        "lieu": "Nimrud",
+        "lieuType": "découverte",
+        "analysis": "Une petite plaque d'ivoire de 16 cm, sculptée et ajourée : un sphinx, avec un corps de lion et une tête humaine, marche vers la droite. Il porte une coiffure à l'égyptienne, surmontée d'une couronne, et une aile, couverte de plumes finement gravées, est repliée le long de son corps. Selon le musée, cette plaque est de style phénicien, avec ses figures allongées et ses motifs empruntés à l'Égypte. Ces ivoires servaient à décorer des meubles. Des milliers ont été trouvés à Nimrud, l'une des capitales des rois d'Assyrie, dans le nord de l'Irak : ils avaient été jetés dans un puits quand le palais fut pillé au VIIe siècle av. J.-C.",
+        "compare": "Les artisans phéniciens étaient célèbres pour leurs objets de luxe, que se disputaient les rois voisins. Le sphinx, venu d'Égypte, montre comment les Phéniciens mélangeaient les styles des peuples avec qui ils commerçaient."
+      },
+      {
+        "title": "Coupe aux joueuses de tambourin",
+        "artist": "Orfèvres phéniciens",
+        "country": "Liban",
+        "period": "700–600 av. J.-C.",
+        "museum": "Cleveland Museum of Art, Cleveland",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1947.491), domaine public (CC0)",
+        "image": "images/mouvements/pheniciens-et-carthage/coupe-phenicienne.jpg",
+        "lieuType": "fabrication",
+        "analysis": "Une coupe peu profonde en argent, de 19,5 cm de diamètre, décorée en relief de cercles de figures, séparés par des rangs de petites perles. Au centre, deux personnages se font face ; autour, des animaux courent dans des feuillages ; sur le large bord, des personnages alternent avec de grandes feuilles. Le musée y voit des joueuses de tambourin. Selon sa notice, les Phéniciens, marins, commerçants et artisans habiles, allaient chercher l'argent au loin et l'ivoire en Égypte, et ont pris le goût des motifs égyptiens, comme les sphinx et les fleurs de lotus.",
+        "compare": "Ces coupes de métal précieux, faciles à transporter, ont été retrouvées de Chypre à l'Italie et en Grèce : elles voyageaient avec les marchands phéniciens."
+      },
+      {
+        "title": "Masque grimaçant",
+        "artist": "Potiers de Carthage",
+        "country": "Tunisie",
+        "period": "VIIe–Ve siècle av. J.-C.",
+        "museum": "Musée national du Bardo, Tunis (Tunisie)",
+        "credit": "Musée national du Bardo, Tunis (Tunisie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Tunis_Bardo_Masque_3.jpg), photo Rais67, domaine public",
+        "image": "images/mouvements/pheniciens-et-carthage/masque-grimacant.jpg",
+        "lieu": "Carthage",
+        "lieuType": "découverte",
+        "analysis": "Un masque de terre cuite, plus petit qu'un visage. Il grimace : sa bouche s'ouvre sur une rangée de dents, ses yeux sont deux trous, et son front, ses joues et son nez sont couverts de rides profondes, dessinées par des lignes parallèles ; deux petites boules ornent le haut du front. Ce type de masque a été trouvé dans les tombes de Carthage. Selon les archéologues, ces visages effrayants servaient à protéger les morts en éloignant les mauvais esprits.",
+        "compare": "Carthage, en Tunisie, fut fondée par des Phéniciens venus de Tyr ; la tradition place sa fondation en 814 av. J.-C. Elle devint la plus puissante des villes phéniciennes de l'Ouest."
+      },
+      {
+        "title": "Les lamelles d'or de Pyrgi",
+        "artist": "Scribes étrusques et phéniciens",
+        "country": "Italie",
+        "period": "vers 500 av. J.-C.",
+        "museum": "Musée national étrusque de la Villa Giulia, Rome (Italie)",
+        "credit": "Musée national étrusque de la Villa Giulia, Rome (Italie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Lamine_d'oro_in_lingua_etrusca_e_fenicia_con_dedica_di_un_luogo_sacro_a_pyrgi.jpg), photo Sailko, licence CC BY-SA 4.0",
+        "image": "images/mouvements/pheniciens-et-carthage/lamelles-de-pyrgi.jpg",
+        "lieu": "Pyrgi",
+        "lieuType": "découverte",
+        "analysis": "Trois minces feuilles d'or rectangulaires, percées de petits trous sur leurs bords pour être clouées, sont couvertes de lignes d'écriture gravée. Elles ont été trouvées en 1964 à Pyrgi, le port de la ville étrusque de Caeré, au nord-ouest de Rome, près d'un temple. Deux sont écrites en étrusque, la troisième en phénicien. Elles racontent la même chose : Thefarie Velianas, le souverain de Caeré, dédie un lieu saint à la déesse que les Étrusques appellent Uni et les Phéniciens Astarté.",
+        "compare": "Un texte bilingue, en deux langues, comme une petite pierre de Rosette : il aide à comprendre l'étrusque, encore mal connu. Il montre aussi les liens étroits entre les Étrusques et Carthage."
+      },
+      {
+        "title": "Le sarcophage d'Eshmunazar II, roi de Sidon",
+        "artist": "Atelier égyptien ou phénicien",
+        "country": "Liban",
+        "period": "vers 500–475 av. J.-C.",
+        "museum": "Musée du Louvre, Paris",
+        "credit": "Musée du Louvre, Paris, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Eshmunazar_II_sarcophagus_%2831289612892%29.jpg), photo Fred Romero, licence CC BY 2.0",
+        "image": "images/mouvements/pheniciens-et-carthage/sarcophage-d-eshmunazar.jpg",
+        "lieu": "Sidon",
+        "lieuType": "découverte",
+        "analysis": "Un sarcophage de pierre sombre et polie, en forme de corps, à la manière des sarcophages égyptiens. Le visage est calme, avec de grands yeux en amande ; il porte une coiffure à rayures qui tombe sur les épaules, une barbe tressée et un large collier gravé. Sous le collier, de longues lignes d'écriture phénicienne couvrent la poitrine. Trouvé près de Sidon, au Liban, en 1855, c'est celui d'Eshmunazar II, roi de Sidon. Son inscription maudit ceux qui ouvriraient sa tombe et rappelle que le roi et sa mère ont bâti des temples pour les dieux de Sidon, dont le dieu guérisseur Eshmoun.",
+        "compare": "Les villes phéniciennes, Byblos, Sidon et Tyr, n'ont jamais formé un seul royaume : chacune avait son roi et ses dieux. Comparez avec les sarcophages de Cadix, en Espagne, plus loin."
+      },
+      {
+        "title": "Les sarcophages phéniciens de Cadix",
+        "artist": "Sculpteurs phéniciens",
+        "country": "Espagne",
+        "period": "milieu du Ve siècle av. J.-C.",
+        "museum": "Musée de Cadix (Espagne)",
+        "credit": "Musée de Cadix (Espagne), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Sarc%C3%B3fagos_fenicios_%2821453641903%29.jpg), photo Ángel M. Felicísimo, licence CC BY 2.0",
+        "image": "images/mouvements/pheniciens-et-carthage/sarcophages-de-cadix.jpg",
+        "lieu": "Cadix",
+        "lieuType": "découverte",
+        "analysis": "Deux sarcophages de marbre blanc, couchés côte à côte, ont un couvercle sculpté en forme de personnage. Au premier plan, une femme aux cheveux bouclés, vêtue d'une longue robe, tient un petit vase dans une main ; derrière, un homme porte une barbe épaisse et frisée. L'homme a été découvert par hasard à Cadix en 1887, la femme en 1980. Cadix, l'antique Gadir, sur la côte atlantique de l'Espagne, était une ville fondée par des Phéniciens de Tyr. Ces sarcophages ressemblent à ceux de Sidon : ils ont sans doute été sculptés par un atelier phénicien.",
+        "compare": "De Tyr à Cadix, il y a plus de 3 000 km de mer. Les Phéniciens avaient fondé des comptoirs tout autour de la Méditerranée et jusqu'au-delà du détroit de Gibraltar."
+      },
+      {
+        "title": "Monnaie de Tyr au dauphin et au murex",
+        "artist": "Atelier monétaire de Tyr",
+        "country": "Liban",
+        "period": "vers 450–425 av. J.-C.",
+        "museum": "Bibliothèque nationale de France, Paris",
+        "credit": "Bibliothèque nationale de France, département des Monnaies, médailles et antiques, Paris, via Gallica (https://gallica.bnf.fr/ark:/12148/btv1b10322884x) et Wikimedia Commons, domaine public",
+        "image": "images/mouvements/pheniciens-et-carthage/monnaie-de-tyr.jpg",
+        "lieu": "Tyr",
+        "lieuType": "fabrication",
+        "analysis": "Les deux faces d'une petite pièce d'argent. À gauche, un dauphin bondit au-dessus de deux lignes de vagues ; en dessous, on voit un coquillage pointu, un murex, et en haut quelques lettres phéniciennes. À droite, une chouette se tient debout, avec derrière elle un sceptre et un fléau à l'égyptienne, dans un carré creusé dans le métal. La ville de Tyr, sur la côte du sud du Liban, a frappé ces monnaies au Ve siècle av. J.-C.",
+        "compare": "Le murex est le coquillage dont on tirait la pourpre, une teinture très coûteuse qui fit la richesse de Tyr. Le nom même de « Phéniciens », donné par les Grecs, est souvent rapproché du mot grec qui désigne le rouge pourpre."
+      },
+      {
+        "title": "Pendentif en forme de tête d'homme",
+        "artist": "Verriers phéniciens ou carthaginois",
+        "country": "Liban ou Tunisie",
+        "period": "vers 450–300 av. J.-C.",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/247544), domaine public (CC0)",
+        "image": "images/mouvements/pheniciens-et-carthage/pendentif-en-verre.jpg",
+        "lieuType": "fabrication",
+        "analysis": "Un pendentif de verre de 5,4 cm, en forme de tête d'homme vue de face. Ses cheveux et sa barbe sont faits de petites boucles de verre enroulées ; ses grands yeux sont soulignés de cercles sombres ; un anneau, en haut, permettait de le suspendre. Selon le musée, il est phénicien ou carthaginois. Les verriers phéniciens savaient façonner le verre chaud, coloré, en petites figures, que l'on portait en collier, sans doute comme porte-bonheur.",
+        "compare": "Ces pendentifs ont été trouvés dans tout le monde phénicien, de la côte du Liban à Carthage et à l'Espagne : ce genre d'objet circulait d'un bout à l'autre de la Méditerranée."
+      },
+      {
+        "title": "Double shekel de Sidon : la galère",
+        "artist": "Atelier monétaire de Sidon",
+        "country": "Liban",
+        "period": "vers 342–341 av. J.-C.",
+        "museum": "Cabinet des médailles (Münzkabinett), musées nationaux de Berlin",
+        "credit": "Münzkabinett der Staatlichen Museen zu Berlin, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Sidon_-_342-341_BC_-_silver_double_shekel_-_galley_-_Persian_king_in_quadriga_-_Berlin_MK_AM_18216657.jpg), photo ArchaiOptix, licence CC BY-SA 4.0",
+        "image": "images/mouvements/pheniciens-et-carthage/galere-de-sidon.jpg",
+        "lieu": "Sidon",
+        "lieuType": "fabrication",
+        "analysis": "Une grosse pièce d'argent montre un navire de guerre phénicien, une galère, qui avance vers la gauche au-dessus de vagues dessinées en zigzag. Sa coque est longue et basse, avec une proue pointue et un arrière recourbé ; une rangée de boucliers ronds borde le pont, et de nombreuses rames plongent dans l'eau. Cette pièce de 25 grammes a été frappée à Sidon vers 342–341 av. J.-C., quand la ville était sous la domination de l'Empire perse ; l'autre face, qu'on ne voit pas ici, représente le roi perse sur un char.",
+        "compare": "La flotte de Sidon était l'une des meilleures de son temps, et les rois perses l'utilisaient pour leurs guerres. Les Phéniciens étaient les grands marins de l'Antiquité."
+      },
+      {
+        "title": "Le temple d'Amrit",
+        "artist": "Bâtisseurs phéniciens",
+        "country": "Syrie",
+        "period": "VIe–IVe siècle av. J.-C.",
+        "museum": "Site, Amrit (Syrie)",
+        "credit": "Amrit (Syrie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Amrit_temple_3347.jpg), photo Dosseman, licence CC BY-SA 4.0",
+        "image": "images/mouvements/pheniciens-et-carthage/temple-d-amrit.jpg",
+        "lieu": "Amrit",
+        "lieuType": "site",
+        "analysis": "Dans une vaste cour herbeuse taillée dans le rocher, une petite chapelle de pierre, faite de quelques gros blocs, se dresse sur un socle de roche ; au fond, une rangée de piliers borde la cour. La cour, de près de 50 mètres de côté, était remplie d'eau, comme un bassin : la chapelle, au centre, semblait sortir d'un lac. Amrit, l'antique Marathos, se trouve sur la côte de la Syrie. Les archéologues datent ce sanctuaire entre le VIe et le IVe siècle av. J.-C. ; on pense qu'il était consacré au dieu Melqart, et peut-être aussi à Eshmoun.",
+        "compare": "C'est l'un des rares temples phéniciens encore debout : les autres ont été détruits ou recouverts par les villes plus récentes. On y voit des influences de l'Égypte et de la Perse."
+      },
+      {
+        "title": "Tétradrachme siculo-punique : tête de Tanit",
+        "artist": "Atelier monétaire carthaginois de Sicile",
+        "country": "Italie",
+        "period": "vers 350–320 av. J.-C.",
+        "museum": "Cleveland Museum of Art, Cleveland",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1917.980), domaine public (CC0)",
+        "image": "images/mouvements/pheniciens-et-carthage/tetradrachme-siculo-punique.jpg",
+        "lieu": "Lilybée",
+        "lieuType": "fabrication",
+        "lieuProbable": true,
+        "analysis": "Les deux faces d'une pièce d'argent. À gauche, la tête d'une jeune femme de profil, les cheveux ornés d'une couronne d'épis ; à droite, un cheval marche devant un palmier. Le musée l'appelle « tête de Tanit-Perséphone » : Tanit, la grande déesse de Carthage, y prend les traits d'une déesse grecque. Cette pièce a probablement été frappée à Lilybée, aujourd'hui Marsala, une ville carthaginoise de l'ouest de la Sicile, vers 350–320 av. J.-C.",
+        "compare": "Carthage a longtemps disputé la Sicile aux cités grecques : ses monnaies imitent le style grec, mais le cheval et le palmier sont des emblèmes de Carthage."
+      },
+      {
+        "title": "Le signe de Tanit de Kerkouane",
+        "artist": "Habitants de Kerkouane",
+        "country": "Tunisie",
+        "period": "IVe–IIIe siècle av. J.-C.",
+        "museum": "Site, Kerkouane (Tunisie)",
+        "credit": "Kerkouane (Tunisie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Mosaik_der_Tanit_in_Kerkouane,_Tunesien_Januar_2015.JPG), photo Kritzolina, licence CC BY-SA 4.0",
+        "image": "images/mouvements/pheniciens-et-carthage/signe-de-tanit-kerkouane.jpg",
+        "lieu": "Kerkouane",
+        "lieuType": "site",
+        "analysis": "Sur un sol fait de petits éclats de pierre rouge, brune et grise, semé de morceaux de marbre blanc, une figure simple est dessinée en tesselles blanches : un triangle, surmonté d'une barre horizontale et d'un disque. C'est le « signe de Tanit », le symbole de la grande déesse de Carthage, placé au seuil d'une maison pour la protéger. Kerkouane, au bout du cap Bon en Tunisie, était une petite ville punique ; abandonnée vers le milieu du IIIe siècle av. J.-C., pendant la première guerre contre Rome, elle n'a jamais été reconstruite. C'est pourquoi l'UNESCO, qui l'a inscrite au patrimoine mondial, la décrit comme le seul exemple conservé d'une ville phénico-punique.",
+        "compare": "On a retrouvé à Kerkouane des rues, des maisons avec salles de bains et des ateliers de teinture à la pourpre : la vie quotidienne d'une ville carthaginoise."
+      },
+      {
+        "title": "Stèle votive à Tanit et Baal Hammon",
+        "artist": "Graveurs de Carthage",
+        "country": "Tunisie",
+        "period": "avant 146 av. J.-C.",
+        "museum": "Musée du Louvre, Paris",
+        "credit": "Musée du Louvre, Paris, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:St%C3%A8le_votive_avec_inscription_punique_-_Carthage_-_814_%E2%80%93_1_avant_J.-C._-_%28Louvre_AO_5089%29.jpg), photo JackyM59, licence CC BY-SA 4.0",
+        "image": "images/mouvements/pheniciens-et-carthage/stele-votive.jpg",
+        "lieu": "Carthage",
+        "lieuType": "découverte",
+        "analysis": "Une stèle de pierre étroite, au sommet en pointe, porte cinq lignes d'écriture punique, la forme de l'alphabet phénicien utilisée à Carthage. Au-dessus, une guirlande de petits arcs et deux petits signes de Tanit ; en dessous, une fleur de lotus. L'inscription commence ainsi : « À la dame Tanit et au seigneur Baal Hammon, ce qu'a voué Arish, fils de Himilk ». Des milliers de stèles semblables ont été trouvées dans le grand sanctuaire de Carthage appelé tophet, où les fidèles remerciaient les dieux.",
+        "compare": "Tanit et Baal Hammon étaient les principaux dieux de Carthage. Les Phéniciens d'Occident gardèrent leur langue et leur écriture jusqu'à l'époque romaine."
+      },
+      {
+        "title": "La Dame d'Ibiza",
+        "artist": "Potiers puniques d'Ibiza",
+        "country": "Espagne",
+        "period": "IVe–IIIe siècle av. J.-C.",
+        "museum": "Musée archéologique national, Madrid (Espagne)",
+        "credit": "Musée archéologique national, Madrid (Espagne), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Dama_de_Ibiza_%28M.A.N._Madrid%29_01.jpg), photo Luis García (Zaqarbal), domaine public",
+        "image": "images/mouvements/pheniciens-et-carthage/dame-d-ibiza.jpg",
+        "lieu": "Ibiza",
+        "lieuType": "découverte",
+        "analysis": "Une statuette de terre cuite représente une femme debout, raide, les bras le long du corps. Elle porte une haute coiffure couverte de fleurs, de grosses boucles de part et d'autre du visage, plusieurs colliers, et une longue robe entièrement couverte de spirales et de rosaces ; un petit visage est modelé au bas de la robe. Elle a été trouvée dans la nécropole du Puig des Molins, à Ibiza, une île des Baléares où les Phéniciens avaient fondé une ville, devenue ensuite carthaginoise. On pense qu'elle représente la déesse Tanit.",
+        "compare": "Ibiza, l'antique Ebusus, était l'une des grandes villes de l'Occident carthaginois. Sa nécropole compte des milliers de tombes puniques."
+      },
+      {
+        "title": "Les ports puniques de Carthage",
+        "artist": "Bâtisseurs de Carthage",
+        "country": "Tunisie",
+        "period": "IIIe–IIe siècle av. J.-C.",
+        "museum": "Site, Carthage (Tunisie)",
+        "credit": "Carthage (Tunisie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Punic_Ports_%28Ports_Puniques%29_of_Carthage,_Tunisia_January_2024_-_2.jpg), photo Sharon Hahn Darlin, licence CC BY 2.0",
+        "image": "images/mouvements/pheniciens-et-carthage/ports-puniques.jpg",
+        "lieu": "Carthage",
+        "lieuType": "site",
+        "analysis": "Sous un ciel gris, un plan d'eau calme entoure une petite île plate couverte d'arbres ; au loin, on aperçoit la mer. Ce bassin est ce qui reste des ports de Carthage, creusés de main d'homme : un port de commerce rectangulaire menait à un port militaire circulaire, avec une île au centre. D'après l'historien Appien, qui s'appuyait sur le témoignage de Polybe, des abris pour environ 220 navires de guerre entouraient le bassin, et l'amiral commandait depuis l'île. Les fouilles commencées dans les années 1970 ont confirmé cette description. Le site archéologique de Carthage est inscrit au patrimoine mondial de l'UNESCO.",
+        "compare": "La puissance de Carthage reposait sur sa flotte. Comparez avec la galère de la monnaie de Sidon : les Carthaginois avaient hérité du savoir-faire des marins phéniciens."
+      },
+      {
+        "title": "Shekel à l'éléphant",
+        "artist": "Atelier monétaire carthaginois",
+        "country": "Tunisie",
+        "period": "vers 213–210 av. J.-C.",
+        "museum": "British Museum, Londres",
+        "credit": "British Museum, Londres, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Carthago_-_213-210_BC_-_silver_shekel_-_head_of_Melqart_-_elefant_-_London_BM_TC-p74-42-Pan.jpg), photo ArchaiOptix, licence CC BY-SA 4.0",
+        "image": "images/mouvements/pheniciens-et-carthage/shekel-a-l-elephant.jpg",
+        "lieu": "Carthage",
+        "lieuType": "fabrication",
+        "lieuProbable": true,
+        "analysis": "Une petite pièce d'argent de 21 mm, présentée sur un fond de tissu bleu : un éléphant d'Afrique, aux grandes oreilles et aux défenses recourbées, marche vers la droite ; un petit signe est gravé en dessous. C'est le revers d'un shekel carthaginois frappé vers 213–210 av. J.-C. ; l'autre face, qu'on ne voit pas ici, montre la tête du dieu Melqart, où certains ont voulu reconnaître le général Hannibal. C'était pendant la deuxième guerre punique, quand Hannibal, parti d'Espagne avec des éléphants de guerre, combattait les Romains en Italie.",
+        "compare": "Les trois guerres puniques, de 264 à 146 av. J.-C., opposèrent Carthage à Rome pour le contrôle de la Méditerranée occidentale. Les éléphants d'Hannibal sont restés célèbres."
+      },
+      {
+        "title": "Le cippe de Melqart",
+        "artist": "Sculpteur phénicien de Malte",
+        "country": "Malte",
+        "period": "IIe siècle av. J.-C.",
+        "museum": "Musée national d'archéologie, La Valette (Malte)",
+        "credit": "Musée national d'archéologie, La Valette (Malte), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Cippus,_National_Museum_of_Archaeology,_Valletta_001.jpg), photo Matthew Axiak, licence CC BY-SA 4.0",
+        "image": "images/mouvements/pheniciens-et-carthage/cippe-de-melqart.jpg",
+        "lieu": "Malte",
+        "lieuType": "découverte",
+        "analysis": "Une petite colonne de marbre blanc, posée sur un socle carré, a la forme d'un vase allongé dont la base est entourée de grandes feuilles d'acanthe sculptées ; le haut est cassé. Sur le socle, à peine visibles ici, sont gravées deux inscriptions, l'une en phénicien, l'autre en grec, qui dédient l'objet au dieu Melqart, le dieu de Tyr, que les Grecs appelaient Héraclès. Il en existait deux, trouvés à Malte : celui-ci est resté dans l'île, l'autre est au Louvre. En 1758, le savant français Jean-Jacques Barthélemy s'est servi de ce texte en deux langues pour déchiffrer l'alphabet phénicien.",
+        "compare": "On l'appelle parfois la « pierre de Rosette de Malte » : comme pour les hiéroglyphes égyptiens, un texte bilingue a permis de relire une écriture oubliée."
+      },
+      {
+        "title": "Le quartier punique de Byrsa",
+        "artist": "Habitants de Carthage",
+        "country": "Tunisie",
+        "period": "IIe siècle av. J.-C. (détruit en 146 av. J.-C.)",
+        "museum": "Site, Carthage (Tunisie)",
+        "credit": "Carthage (Tunisie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Ruines_quartier_Byrsa_2.JPG), photo Mourad Ben Abdallah, domaine public",
+        "image": "images/mouvements/pheniciens-et-carthage/quartier-punique-de-byrsa.jpg",
+        "lieu": "Carthage",
+        "lieuType": "site",
+        "analysis": "Sur le flanc d'une colline, des murs bas et des piliers de pierre dessinent le plan de maisons et de rues en terrasses ; au loin, on voit les toits blancs de la ville moderne et la mer. Ce sont les restes d'un quartier d'habitation de Carthage, sur la colline de Byrsa, le cœur de la ville. On l'appelle parfois « quartier d'Hannibal », mais rien ne prouve le lien avec le général. En 146 av. J.-C., à la fin de la troisième guerre punique, l'armée romaine de Scipion Émilien prit Carthage, et Byrsa fut le dernier quartier à tomber ; la ville fut détruite. Plus tard, les Romains bâtirent leur propre ville par-dessus, ce qui a protégé ces ruines.",
+        "compare": "Le point d'arrivée de l'exposition : avec la chute de Carthage, la civilisation phénicienne perd sa dernière grande puissance. Mais son alphabet, transmis aux Grecs puis aux Romains, est toujours celui que nous lisons."
+      }
+    ],
+    "carte": {
+      "image": "images/mouvements/cartes/pheniciens-et-carthage.svg",
+      "ouest": -8.0,
+      "est": 44.5,
+      "sud": 29.5,
+      "nord": 45.0,
+      "lieux": [
+        {
+          "nom": "Byblos",
+          "lat": 34.1194,
+          "lon": 35.6464
+        },
+        {
+          "nom": "Nimrud",
+          "lat": 36.0989,
+          "lon": 43.3286
+        },
+        {
+          "nom": "Carthage",
+          "lat": 36.8528,
+          "lon": 10.3233
+        },
+        {
+          "nom": "Pyrgi",
+          "lat": 42.0122,
+          "lon": 11.9667
+        },
+        {
+          "nom": "Sidon",
+          "lat": 33.5631,
+          "lon": 35.3689
+        },
+        {
+          "nom": "Cadix",
+          "lat": 36.5297,
+          "lon": -6.2925
+        },
+        {
+          "nom": "Tyr",
+          "lat": 33.2711,
+          "lon": 35.1964
+        },
+        {
+          "nom": "Amrit",
+          "lat": 34.8336,
+          "lon": 35.9061
+        },
+        {
+          "nom": "Lilybée",
+          "lat": 37.7981,
+          "lon": 12.4372
+        },
+        {
+          "nom": "Kerkouane",
+          "lat": 36.9464,
+          "lon": 11.0992
+        },
+        {
+          "nom": "Ibiza",
+          "lat": 38.9089,
+          "lon": 1.4328
+        },
+        {
+          "nom": "Malte",
+          "lat": 35.8833,
+          "lon": 14.45
+        }
+      ],
+      "pays": [
+        {
+          "nom": "Espagne",
+          "lat": 39.8,
+          "lon": -3.8
+        },
+        {
+          "nom": "Italie",
+          "lat": 40.4,
+          "lon": 16.3
+        },
+        {
+          "nom": "Tunisie",
+          "lat": 33.8,
+          "lon": 9.4
+        },
+        {
+          "nom": "Algérie",
+          "lat": 31.0,
+          "lon": 3.0
+        },
+        {
+          "nom": "Libye",
+          "lat": 30.0,
+          "lon": 17.0
+        },
+        {
+          "nom": "Égypte",
+          "lat": 29.5,
+          "lon": 30.5
+        },
+        {
+          "nom": "Grèce",
+          "lat": 39.6,
+          "lon": 22.0
+        },
+        {
+          "nom": "Turquie",
+          "lat": 39.0,
+          "lon": 33.5
+        },
+        {
+          "nom": "Syrie",
+          "lat": 36.6,
+          "lon": 39.0
+        },
+        {
+          "nom": "Irak",
+          "lat": 32.6,
+          "lon": 41.3
+        }
+      ],
+      "villes": [
+        {
+          "nom": "Athènes",
+          "lat": 37.9842,
+          "lon": 23.7281
+        },
+        {
+          "nom": "Alexandrie",
+          "lat": 31.1975,
+          "lon": 29.8925
+        }
+      ]
+    }
   }
 ]

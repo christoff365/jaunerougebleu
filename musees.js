@@ -476,6 +476,8 @@ const MOUVEMENTS = [
     "Mille ans autour de Constantinople : les murailles de Théodose, Sainte-Sophie, les mosaïques de Ravenne, la carte de Madaba, les icônes, le feu grégeois, le pillage de 1204 et la chute de 1453."],
   ['Vikings', 'Europe', 'Danemark, Norvège, Suède et Islande', 'VIIIe–XIe siècle', ['Viking', 'Norse'], ['Viking art'], 'viking|norse|oseberg|gokstad|runestone|runique|jelling', [],
     "Les peuples de Scandinavie sur les mers : bateaux d'Oseberg et de Gokstad, pierres runiques, trésors d'argent venus de Bagdad, Islande, Amérique et conversion au christianisme."],
+  ['Phéniciens et Carthage', 'Moyen-Orient', 'Liban, Syrie, Tunisie, Italie, Espagne et Malte', 'vers 1200 – 146 av. J.-C.', ['Phoenician', 'Punic', 'Carthaginian'], ['Phoenician art'], 'phénic|phoenic|punic|puniq|carthag|byblos', [],
+    "Les marins de l'alphabet, de Byblos à Carthage : le sarcophage d'Ahiram, la pourpre de Tyr, les galères de Sidon, les comptoirs de Cadix, d'Ibiza et de Malte, le signe de Tanit, les ports puniques et la chute de Carthage en 146 av. J.-C."],
   ['Israël et Juda', 'Moyen-Orient', 'Israël, Cisjordanie et Jordanie', 'Xe siècle av. J.-C. – VIe siècle', ['Judean', 'Israelite', 'Judaea', 'Hebrew'], ['ancient Israelite art'], 'judée|judee|judea|judaea|israelite|israélite|qumran|qumrân|herod|hérode', [],
     "Les royaumes d'Israël et de Juda, de Megiddo à Massada : inscriptions des rois et de leurs voisins, Assyriens et Romains, manuscrits de la mer Morte et premières synagogues."],
   ['Mésopotamie', 'Moyen-Orient', 'Irak et Syrie', 'vers 3500 – 539 av. J.-C.', ['Sumerian', 'Akkadian', 'Babylonian', 'Neo-Sumerian', 'Old Babylonian', 'Neo-Babylonian', 'Mesopotamian'], ['Mesopotamian art', 'Sumerian art'], 'sumer|akkad|babylon|mesopotam|mésopotam|uruk', [],
@@ -573,7 +575,7 @@ const STYLES_ARCHITECTURE = { 'Art gothique': 'Q176483' };
 const ANONYME = 'Q4233718'; // « anonyme » dans Wikidata
 // Mouvements d'abord de l'estampe : leurs estampes ne sont pas limitées à trois
 // Expositions consacrées à une civilisation plutôt qu'à un mouvement (badge « Civilisation » sur leur page)
-const CIVILISATIONS = new Set(['Empire byzantin', 'Empire khmer', 'Mayas', 'Empire mongol', 'Mésopotamie', 'Égypte ancienne', 'Royaume de Koush', "Civilisation de l'Indus", 'Inde ancienne', 'Chine, des origines à 1912', 'Japon, des origines à 1868', 'Grèce antique', 'Israël et Juda', 'Perse ancienne', 'Rome antique', 'Aksoum', 'Anglo-Saxons', 'Royaumes de Java et de Sumatra', 'Vikings', "Empire des Tu'i Tonga", 'Empire du Mali', 'Aztèques', 'Incas']);
+const CIVILISATIONS = new Set(['Phéniciens et Carthage', 'Empire byzantin', 'Empire khmer', 'Mayas', 'Empire mongol', 'Mésopotamie', 'Égypte ancienne', 'Royaume de Koush', "Civilisation de l'Indus", 'Inde ancienne', 'Chine, des origines à 1912', 'Japon, des origines à 1868', 'Grèce antique', 'Israël et Juda', 'Perse ancienne', 'Rome antique', 'Aksoum', 'Anglo-Saxons', 'Royaumes de Java et de Sumatra', 'Vikings', "Empire des Tu'i Tonga", 'Empire du Mali', 'Aztèques', 'Incas']);
 const MOUVEMENTS_D_ESTAMPES = new Set(['Ukiyo-e', 'Expressionnisme']);
 // Mouvements de peintres : si le visiteur n'a pas choisi de type, l'exposition ne montre que des peintures
 // (pas les dessins, études, estampes ou éventails que les catalogues renvoient aussi pour ces artistes)

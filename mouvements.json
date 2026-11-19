@@ -17500,5 +17500,475 @@
         }
       ]
     }
+  },
+  {
+    "mouvement": "Empire mongol",
+    "slug": "empire-mongol",
+    "status": "published",
+    "title": "L'Empire mongol, de Gengis Khan aux Yuan",
+    "subtitle": "Mongolie, Chine, Iran et Russie, 1206 – 1368 · 24 œuvres et sites",
+    "intro": "En 1206, les tribus nomades de la steppe mongole se donnent un chef unique, Temüdjin, qui prend le nom de Gengis Khan. En quelques dizaines d'années, ses fils et ses petits-fils conquièrent la Chine, l'Asie centrale, l'Iran, l'Irak et les plaines de la Russie : c'est le plus grand empire d'un seul tenant de l'histoire. Ces conquêtes furent très violentes, mais l'empire fut aussi un immense espace d'échanges, où circulaient marchands, artisans, savants, diplomates et religions, de Pékin jusqu'à la Volga et à la Méditerranée. Les Mongols remplissent les critères d'une civilisation : un État organisé, des lois, une écriture adoptée dès 1204, des capitales comme Karakorum et Shangdu, des relais de poste à travers l'Asie et un commerce à très longue distance. L'exposition suit cette histoire jusqu'en 1368, quand les Mongols sont chassés de Chine, à travers des sites restés en Mongolie, en Chine, en Iran et en Russie, et des œuvres conservées à Taipei, Saint-Pétersbourg, Berlin, Paris, Tokyo, Shanghai, New York et Cleveland ; plusieurs photographies sont celles de visiteurs, publiées sous licence libre.",
+    "contexte": [
+      {
+        "title": "Des tribus de la steppe au plus grand empire du monde",
+        "text": "Au XIIe siècle, la steppe de l'actuelle Mongolie est partagée entre des tribus rivales d'éleveurs nomades. Temüdjin les soumet une à une et se fait proclamer Gengis Khan en 1206. Il organise son armée par groupes de dix, cent, mille et dix mille cavaliers et lance des campagnes vers la Chine du Nord et l'Asie centrale. Après sa mort en 1227, ses successeurs poursuivent les conquêtes : la Russie et l'Europe de l'Est à partir de 1237, Bagdad en 1258, la Chine du Sud en 1279. Mais l'empire devient trop grand pour un seul souverain. À partir de 1260, il se divise en quatre États dirigés par des descendants de Gengis Khan : la Chine des Yuan, l'Iran des Ilkhanides, le khanat de Djaghataï en Asie centrale et la Horde d'or en Russie."
+      },
+      {
+        "title": "Gouverner un empire nomade",
+        "text": "Le grand khan était choisi par une assemblée des princes et des chefs, le quriltaï. Les Mongols avaient des lois, attribuées à Gengis Khan, et une écriture empruntée aux Ouïghours vers 1204 ; Khoubilaï fit créer en 1269 une nouvelle écriture, le phags-pa, pour toutes les langues de l'empire. Les khans faisaient recenser les populations pour lever les impôts et les soldats, et confiaient l'administration à des fonctionnaires de toutes origines : Chinois, Iraniens, Ouïghours, Tibétains ou Européens. Des relais de poste, le yam, permettaient aux messagers de changer de cheval tout au long des routes. En Chine, les Mongols firent circuler du papier-monnaie dans tout le pays."
+      },
+      {
+        "title": "Le Ciel éternel et toutes les religions",
+        "text": "Les Mongols honoraient Tengri, le Ciel éternel, et faisaient appel à des chamanes. Ils laissaient chacun pratiquer sa religion : à Karakorum, bouddhistes, musulmans, chrétiens et taoïstes vivaient côte à côte, et les khans écoutaient leurs débats. Avec le temps, les Mongols adoptèrent la religion des peuples qu'ils gouvernaient : les khans de l'Iran devinrent musulmans à la fin du XIIIe siècle et ceux de la Horde d'or au début du XIVe, tandis que la cour des Yuan protégeait le bouddhisme tibétain. Les Mongols restaient fidèles à leur mode de vie : la chasse, les chevaux, la vie sous la tente une partie de l'année."
+      },
+      {
+        "title": "La paix mongole, la fin de l'empire et ce qu'il en reste",
+        "text": "Une fois les conquêtes achevées, la « paix mongole » rendit les routes plus sûres de la Chine à la mer Noire. Des marchands comme le Vénitien Marco Polo, des moines comme Guillaume de Rubrouck et des ambassadeurs voyagèrent d'un bout à l'autre de l'Asie ; la porcelaine, la soie, le cobalt, les techniques et les idées circulèrent. Mais les mêmes routes répandirent aussi la peste noire au XIVe siècle. Les États mongols s'affaiblirent : les Ilkhanides disparurent après 1335, et en 1368 les Ming chassèrent les Mongols de Chine. Les khans continuèrent pourtant de régner en Mongolie, et des dynasties issues de Gengis Khan gouvernèrent encore en Asie centrale et en Crimée pendant des siècles. Aujourd'hui, Gengis Khan est le héros national de la Mongolie."
+      }
+    ],
+    "bibliography": [
+      {
+        "reference": "UNESCO, Patrimoine mondial : Paysage culturel de la vallée de l'Orkhon (Karakorum)",
+        "url": "https://whc.unesco.org/fr/list/1081"
+      },
+      {
+        "reference": "UNESCO, Patrimoine mondial : Site de Xanadu",
+        "url": "https://whc.unesco.org/fr/list/1389"
+      },
+      {
+        "reference": "UNESCO, Patrimoine mondial : Soltaniyeh",
+        "url": "https://whc.unesco.org/fr/list/1188"
+      },
+      {
+        "reference": "UNESCO, Patrimoine mondial : Ensemble historique et archéologique de Bolgar",
+        "url": "https://whc.unesco.org/fr/list/981"
+      },
+      {
+        "reference": "Guillaume de Rubrouck, Voyage dans l'Empire mongol (1253-1255)"
+      },
+      {
+        "reference": "Jean-Paul Roux, Histoire de l'Empire mongol, Fayard, 1993"
+      },
+      {
+        "reference": "Notices des œuvres : musée national du Palais (Taipei), Metropolitan Museum of Art, Cleveland Museum of Art, ColBase (musées nationaux du Japon)"
+      }
+    ],
+    "works": [
+      {
+        "title": "Portrait de Gengis Khan",
+        "artist": "Peintre de la cour des Yuan",
+        "country": "Chine",
+        "period": "XIIIe–XIVe siècle",
+        "museum": "Musée national du Palais, Taipei",
+        "credit": "Musée national du Palais, Taipei, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:YuanEmperorAlbumGenghisPortrait.jpg), domaine public",
+        "image": "images/mouvements/empire-mongol/portrait-de-gengis-khan.jpg",
+        "analysis": "Sur un fond de soie clair, un homme âgé au visage large et calme, à la longue barbe blanche, regarde un peu de côté. Il porte un bonnet blanc bordé de fourrure et une robe blanche toute simple. Cette page vient d'un album de portraits des empereurs de la dynastie Yuan, peints à la cour de Chine et conservés aujourd'hui au musée national du Palais, à Taipei. Né vers 1162, Temüdjin réunit les tribus de la steppe et se fait proclamer Gengis Khan, « souverain universel », lors d'une grande assemblée des chefs mongols, le quriltaï, en 1206. Mort en 1227, il n'a jamais posé pour ce portrait : ses descendants, les empereurs Yuan, l'ont fait peindre bien après sa mort, pour honorer le fondateur de leur famille.",
+        "compare": "Le point de départ de l'exposition : un chef nomade devenu le fondateur du plus grand empire d'un seul tenant de l'histoire. Comparez avec le portrait de son petit-fils Khoubilaï, plus loin, peint dans le même album."
+      },
+      {
+        "title": "La « pierre de Gengis », stèle de Yisüngge",
+        "artist": "Graveur mongol",
+        "country": "Russie",
+        "period": "vers 1224–1225",
+        "museum": "Musée de l'Ermitage, Saint-Pétersbourg",
+        "credit": "Musée de l'Ermitage, Saint-Pétersbourg, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Hermitage_hall_366_-_06.jpg), photo Netelo, licence CC BY-SA 4.0",
+        "image": "images/mouvements/empire-mongol/pierre-de-gengis.jpg",
+        "analysis": "Une haute pierre de granit gris, arrondie en haut, maintenue par des pattes de métal dans une salle de musée. En regardant bien, on devine des lignes d'écriture verticales, très usées ; une longue fissure blanche traverse la pierre, cassée pendant son transport vers Saint-Pétersbourg au XIXe siècle. C'est la plus ancienne inscription connue en écriture mongole. Elle célèbre un exploit au tir à l'arc : Yisüngge, un neveu de Gengis Khan, aurait envoyé sa flèche à 335 aldas, soit plus de 500 mètres, vers 1225. La pierre a été trouvée en Transbaïkalie, dans l'actuelle Russie, et se trouve à l'Ermitage depuis les années 1930.",
+        "compare": "Vers 1204, Gengis Khan fait adopter l'écriture des Ouïghours, un peuple turc voisin, pour noter la langue mongole : c'est ici l'un de ses premiers usages. On l'écrit encore aujourd'hui en Mongolie-Intérieure, en Chine."
+      },
+      {
+        "title": "Cavaliers mongols à la poursuite de leurs ennemis",
+        "artist": "Peintre de l'Iran ilkhanide",
+        "country": "Iran",
+        "period": "début du XIVe siècle",
+        "museum": "Bibliothèque d'État de Berlin (albums Diez)",
+        "credit": "Bibliothèque d'État de Berlin (Staatsbibliothek zu Berlin), albums Diez, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Pursuit_by_Mongol_Warriors_(Diez_Albums).jpg), domaine public",
+        "image": "images/mouvements/empire-mongol/cavaliers-mongols.jpg",
+        "lieu": "Tabriz",
+        "lieuType": "fabrication",
+        "lieuProbable": true,
+        "analysis": "Des cavaliers lancés au galop traversent la page, de gauche à droite. Beaucoup portent une armure faite de petites plaques et un casque pointu ; certains tirent à l'arc, d'autres brandissent une lance. Leurs chevaux sont petits et trapus. En bas, des ennemis tombent sous les sabots. Cette peinture, faite sans doute à Tabriz, en Iran, au début du XIVe siècle, illustre l'Histoire universelle de Rachid al-Din, le vizir des souverains mongols de l'Iran. Elle est conservée à Berlin, dans des albums réunis par Heinrich Friedrich von Diez, un diplomate prussien en poste à Istanbul à la fin du XVIIIe siècle.",
+        "compare": "L'arc et le cheval faisaient la force des armées mongoles : tout homme de la steppe apprenait à monter et à tirer dès l'enfance. Comparez avec les cavaliers de la chasse de Khoubilaï, plus loin, peints en Chine à la même époque."
+      },
+      {
+        "title": "Plaque de pommeau de selle",
+        "artist": "Orfèvre mongol",
+        "country": "Mongolie",
+        "period": "XIIIe–XVe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/35689), domaine public (CC0)",
+        "image": "images/mouvements/empire-mongol/pommeau-de-selle.jpg",
+        "analysis": "Une plaque de fer en forme d'arche, découpée à jour comme une dentelle et incrustée d'argent et d'or. Elle recouvrait l'avant d'une selle. Parmi les rinceaux de feuillages, on distingue des personnages et des animaux. Selon le musée, c'est la seule plaque de selle connue qui montre des figures humaines ou une scène profane, ici une chasse au tigre ; ses images de chasse ressemblent à celles du métal de l'Iran ilkhanide au début du XIVe siècle, et elle a sans doute été faite pour un commanditaire mongol.",
+        "compare": "Pour un peuple de cavaliers, la selle était un objet de prestige. Comparez avec les selles des cavaliers de la page précédente."
+      },
+      {
+        "title": "Tortue de pierre de Karakorum",
+        "artist": "Bâtisseurs de Karakorum",
+        "country": "Mongolie",
+        "period": "XIIIe siècle",
+        "museum": "Site archéologique, Karakorum (Kharkhorin, Mongolie)",
+        "credit": "Karakorum (Mongolie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:A_v%C3%A1ros_sarkait_jel%C3%B6l%C5%91_tekn%C5%91s%C3%B6k_k%C3%B6z%C3%BCl_az_egyik_(One_of_the_turtles_marking_the_corners_of_the_city)_-_panoramio.jpg), photo Gyula Péter, licence CC BY 3.0",
+        "image": "images/mouvements/empire-mongol/tortue-de-karakorum.jpg",
+        "lieu": "Karakorum",
+        "lieuType": "site",
+        "analysis": "Au milieu d'une vaste prairie, une grosse tortue de pierre grise tend la tête ; une écharpe de soie bleue, le khadag que l'on offre en signe de respect, est nouée autour de son cou. Sur son dos, un creux servait à fixer une stèle. C'est l'un des rares vestiges de Karakorum, la capitale de l'Empire mongol. Le fils de Gengis Khan, Ögödei, la fit entourer d'un mur et y fit construire un palais vers 1235. Le moine flamand Guillaume de Rubrouck, venu en 1254, y vit des quartiers de marchands et d'artisans, des temples de plusieurs religions et, devant le palais, un arbre d'argent fabriqué par un orfèvre parisien prisonnier, d'où coulaient des boissons.",
+        "compare": "Une capitale fixe pour un peuple nomade : les khans y recevaient les ambassadeurs, mais vivaient une grande partie de l'année sous la tente. Les pierres de la ville ont servi au XVIe siècle à bâtir le monastère voisin d'Erdene Zuu."
+      },
+      {
+        "title": "Bouddha Amitabha de Karakorum",
+        "artist": "Sculpteur de Karakorum",
+        "country": "Mongolie",
+        "period": "seconde moitié du XIIIe siècle",
+        "museum": "Musée de Karakorum, Kharkhorin (Mongolie)",
+        "credit": "Musée de Karakorum, Kharkhorin (Mongolie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Buddha_Amitabha_from_Karakorum,_clay_dried_in_the_sun%3B_Great_Mongol_period,_2nd_half_of_13th_century%3B_Karakorum_Museum_(2).jpg), photo Richard Mortel, licence CC BY 2.0",
+        "image": "images/mouvements/empire-mongol/bouddha-de-karakorum.jpg",
+        "lieu": "Karakorum",
+        "lieuType": "découverte",
+        "analysis": "Dans une vitrine, un fragment d'argile brune, abîmé et rongé sur les bords : on y reconnaît encore un bouddha assis, les jambes croisées, devant un grand halo. Selon le musée de Karakorum, c'est un bouddha Amitabha en argile séchée au soleil, trouvé dans l'ancienne capitale et daté de la seconde moitié du XIIIe siècle. Les Mongols honoraient le Ciel éternel, Tengri, mais les khans laissaient chacun pratiquer sa religion : à Karakorum vivaient côte à côte bouddhistes, musulmans, chrétiens et taoïstes, et Rubrouck y décrit des temples, deux mosquées et une église.",
+        "compare": "Une argile fragile, sortie de terre : c'est souvent tout ce qui reste de Karakorum. Le bouddhisme deviendra plus tard la grande religion des Mongols, à partir du XVIe siècle."
+      },
+      {
+        "title": "Drap d'or aux félins et aux aigles",
+        "artist": "Tisserands de l'Iran oriental",
+        "country": "Iran",
+        "period": "1225–1275",
+        "museum": "Cleveland Museum of Art, Cleveland",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1990.2), domaine public (CC0)",
+        "image": "images/mouvements/empire-mongol/drap-d-or-aux-felins.jpg",
+        "analysis": "Un grand tissu de soie, long de 1,70 m, au fond sombre où brillent des motifs d'or un peu ternis. Dans de grands médaillons festonnés, deux félins se font face ; leurs longues queues se terminent par des têtes de dragon. Entre les médaillons apparaissent des aigles à deux têtes, et en haut court une bande d'écriture qui imite l'arabe. Selon le musée, l'or était pour les Mongols le symbole du pouvoir impérial ; ce drap d'or exceptionnellement grand ornait peut-être l'intérieur d'un palais ou d'une tente majestueuse.",
+        "compare": "Les Mongols aimaient le luxe de l'or : les empereurs offraient à leur cour des robes de cérémonie toutes d'une couleur, tissées de soie et d'or. Comparez avec la robe de l'impératrice Chabi, plus loin."
+      },
+      {
+        "title": "La prise de Bagdad en 1258",
+        "artist": "Peintre de l'Iran ilkhanide",
+        "country": "Iran",
+        "period": "début du XIVe siècle",
+        "museum": "Bibliothèque d'État de Berlin (albums Diez)",
+        "credit": "Bibliothèque d'État de Berlin (Staatsbibliothek zu Berlin), albums Diez, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Fall_Of_Baghdad_(Diez_Albums).jpg), domaine public",
+        "image": "images/mouvements/empire-mongol/prise-de-bagdad.jpg",
+        "lieu": "Bagdad",
+        "lieuType": "représenté",
+        "analysis": "Une double page : en haut, les murailles roses de la ville et ses tours, au milieu le fleuve aux vagues bleues, en bas l'armée mongole. Des soldats tirent à l'arc à l'abri de grands boucliers ronds ; à gauche, une machine de siège, à droite des tambours. Au centre droit, un personnage tente de s'enfuir en bateau. La scène illustre l'Histoire universelle de Rachid al-Din : en 1258, Houlagou, petit-fils de Gengis Khan, prend Bagdad, la capitale des califes abbassides depuis cinq siècles. La ville est pillée et le dernier calife est mis à mort. Houlagou fonde ensuite en Iran la dynastie des Ilkhanides.",
+        "compare": "Les conquêtes mongoles furent très meurtrières : des villes entières furent détruites. Ce sont pourtant des historiens au service des Mongols, comme Rachid al-Din, qui ont raconté cette histoire."
+      },
+      {
+        "title": "Laissez-passer (paiza) en écriture phags-pa",
+        "artist": "Atelier de la cour des Yuan",
+        "country": "Chine",
+        "period": "fin du XIIIe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/39624), domaine public (CC0)",
+        "image": "images/mouvements/empire-mongol/paiza.jpg",
+        "analysis": "Une plaque ronde en fer, haute de 18 cm, avec un anneau pour la suspendre et, en haut, un masque d'animal. Les lettres, découpées dans le métal et remplies d'argent, forment des lignes verticales. C'est l'écriture phags-pa, créée par un moine tibétain pour l'empire de Khoubilaï. Selon le musée, l'inscription dit : « Par la force du Ciel éternel, un ordre de l'empereur. Celui qui ne le respecte pas sera coupable. » Les messagers et les fonctionnaires qui portaient cette plaque pouvaient obtenir des chevaux, de la nourriture et un logement dans les relais de poste, le yam, établis sur les routes de tout l'empire.",
+        "compare": "Un passeport avant l'heure : les relais de poste et ces plaques permettaient aux khans de gouverner un empire immense. Comparez avec le sceau chinois de la lettre d'Oldjaïtou, plus loin."
+      },
+      {
+        "title": "Portrait de Khoubilaï Khan",
+        "artist": "Peintre de la cour des Yuan, attribué à Anige",
+        "country": "Chine",
+        "period": "vers 1294",
+        "museum": "Musée national du Palais, Taipei",
+        "credit": "Musée national du Palais, Taipei, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:YuanEmperorAlbumKhubilaiPortrait.jpg), domaine public",
+        "image": "images/mouvements/empire-mongol/portrait-de-khoubilai.jpg",
+        "analysis": "Un homme au visage plein, à la moustache et à la petite barbe noires, regarde droit devant lui. Il porte une robe blanche et un bonnet blanc bordé de noir ; deux boucles de cheveux tressés pendent derrière ses oreilles. Cette page vient du même album que le portrait de Gengis Khan. Petit-fils de Gengis Khan, Khoubilaï devient grand khan en 1260 et achève la conquête de la Chine du Sud en 1279 ; il fonde la dynastie Yuan et règne depuis Dadu, l'actuelle Pékin. Ce portrait, attribué à l'artiste népalais Anige, aurait été peint après sa mort, en 1294.",
+        "compare": "Un empereur mongol peint à la manière chinoise : le même album réunit les khans et leurs épouses. Comparez avec le portrait de l'impératrice Chabi, juste après."
+      },
+      {
+        "title": "Portrait de l'impératrice Chabi",
+        "artist": "Peintre de la cour des Yuan, attribué à Anige",
+        "country": "Chine",
+        "period": "vers 1294",
+        "museum": "Musée national du Palais, Taipei",
+        "credit": "Musée national du Palais, Taipei, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:YuanEmpressAlbumChabi.jpg), domaine public",
+        "image": "images/mouvements/empire-mongol/portrait-de-chabi.jpg",
+        "analysis": "Une femme au visage rond et pâle porte une très haute coiffe rouge, le boqta, ornée de fleurs et de perles ; de longs pendentifs de perles encadrent son visage. Sa robe rouge, au col brodé d'or, est celle des cérémonies de la cour. Chabi était l'épouse préférée de Khoubilaï ; elle est morte en 1281. Ce portrait vient d'un album des impératrices de la dynastie Yuan, conservé au musée national du Palais, à Taipei. Les femmes de la famille impériale avaient un grand rôle chez les Mongols : elles conseillaient le khan, géraient leurs propres terres et pouvaient gouverner pendant les régences.",
+        "compare": "La haute coiffe boqta était portée par les femmes mariées de l'aristocratie mongole, de la Chine à l'Iran. Comparez avec la chasse de Khoubilaï, juste après, où Chabi accompagne l'empereur."
+      },
+      {
+        "title": "Khoubilaï Khan à la chasse",
+        "artist": "Liu Guandao",
+        "country": "Chine",
+        "period": "1280",
+        "museum": "Musée national du Palais, Taipei",
+        "credit": "Musée national du Palais, Taipei (https://digitalarchive.npm.gov.tw/Collection/Detail/745?dep=P), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:%E5%85%83%E5%8A%89%E8%B2%AB%E9%81%93%E7%95%AB%E5%85%83%E4%B8%96%E7%A5%96%E5%87%BA%E7%8D%B5%E5%9C%96_%E8%BB%B8.jpg), domaine public (CC0)",
+        "image": "images/mouvements/empire-mongol/khoubilai-a-la-chasse.jpg",
+        "analysis": "Une grande peinture sur soie, haute de près de deux mètres : dans un paysage désertique, sous des collines de sable où passe une caravane de chameaux, des cavaliers s'arrêtent au cours d'une chasse. En haut à gauche, un archer tend son arc vers le ciel ; à droite, un chien de chasse court. Selon le musée, l'homme vêtu de blanc sur un cheval noir, au centre, est l'empereur Khoubilaï ; la femme en blanc qui chevauche à ses côtés serait l'impératrice Chabi. L'inscription dit que le tableau fut « respectueusement peint » en 1280 par Liu Guandao, un fonctionnaire du service de la garde-robe impériale.",
+        "compare": "Les empereurs Yuan gardaient les plaisirs de la steppe : la chasse, les chevaux, la vie en plein air. Comparez avec les palefreniers de Ren Renfa, plus loin."
+      },
+      {
+        "title": "Shangdu (Xanadu), la capitale d'été",
+        "artist": "Bâtisseurs de Khoubilaï",
+        "country": "Chine",
+        "period": "à partir de 1256",
+        "museum": "Site archéologique, Shangdu (Mongolie-Intérieure, Chine)",
+        "credit": "Shangdu (Mongolie-Intérieure, Chine), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Yuan_Shangdu.jpg), photo Flaumfeder, licence CC BY-SA 4.0",
+        "image": "images/mouvements/empire-mongol/shangdu.jpg",
+        "lieu": "Shangdu",
+        "lieuType": "site",
+        "analysis": "Dans une immense prairie jaunie, des passerelles de bois conduisent les visiteurs au-dessus des fondations de pierre d'anciens bâtiments, au fond d'une fosse. Au loin, des collines basses ; rien ne rappelle plus le luxe d'une capitale impériale. Khoubilaï fit construire cette ville au milieu des années 1250, d'abord sous le nom de Kaiping ; elle devint Shangdu, la « capitale d'en haut », en 1264. Après l'installation de la cour à Dadu (Pékin), l'empereur y passait l'été. Le Vénitien Marco Polo dit l'avoir visitée en 1275. Le site, que l'on appelle en Occident Xanadu, est inscrit au patrimoine mondial de l'UNESCO depuis 2012.",
+        "compare": "Une ville chinoise au bord de la steppe : Khoubilaï vivait entre deux mondes. Plus de cinq siècles plus tard, le poète anglais Coleridge rêvait encore de « Xanadu »."
+      },
+      {
+        "title": "Billet de deux guan de l'ère Zhiyuan",
+        "artist": "Atelier impérial des billets",
+        "country": "Chine",
+        "period": "à partir de 1287",
+        "museum": "Musée de Shanghai",
+        "credit": "Musée de Shanghai, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Yuan_Paper_Money_01.jpg), photo Gary Lee Todd, domaine public (CC0)",
+        "image": "images/mouvements/empire-mongol/billet-de-deux-guan.jpg",
+        "analysis": "Une feuille de papier grisâtre, présentée dans une vitrine, imprimée de caractères noirs, avec au centre un cadre où figure en grand le chiffre « deux », et des sceaux rouges. L'étiquette du musée l'identifie comme un billet « Zhiyuan tongxing baochao » de deux guan, de la dynastie Yuan. Dès 1260, Khoubilaï fit imprimer du papier-monnaie pour tout son empire ; la série Zhiyuan fut créée en 1287 pour remplacer les anciens billets qui avaient perdu de leur valeur pendant les guerres. Marco Polo s'étonnait que les Mongols paient avec du papier.",
+        "compare": "La Chine connaissait les billets depuis les Song, mais les Mongols en firent la monnaie d'un empire immense. Ils durent pourtant en imprimer toujours plus, et le papier-monnaie perdit peu à peu sa valeur."
+      },
+      {
+        "title": "Rouleau illustré des invasions mongoles du Japon",
+        "artist": "Peintre japonais",
+        "country": "Japon",
+        "period": "fin du XIIIe siècle",
+        "museum": "Musée des collections impériales (Sannomaru Shōzōkan), Tokyo",
+        "credit": "Musée des collections impériales (Sannomaru Shōzōkan), Tokyo, fiche ColBase (https://colbase.nich.go.jp/collection_items/shozokan/SZK002942), image via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:M%C5%8Dko_Sh%C5%ABrai_Ekotoba.jpg), domaine public",
+        "image": "images/mouvements/empire-mongol/invasion-mongole-du-japon.jpg",
+        "lieu": "Baie de Hakata",
+        "lieuType": "représenté",
+        "analysis": "À droite, un samouraï en armure, sur un cheval blessé qui saigne, fonce vers des soldats ennemis ; au-dessus de lui, une bombe explose dans une gerbe de feu. À gauche, des archers vêtus de longues robes, coiffés de bonnets, lui tirent dessus, tandis que d'autres s'enfuient. Le samouraï est Takezaki Suenaga, qui fit faire ce rouleau pour garder le souvenir de sa bravoure lors des deux tentatives d'invasion du Japon par l'armée de Khoubilaï, en 1274 et en 1281, près de la baie de Hakata. Selon le musée, le rouleau a des parties manquantes et mélangées ; des historiens pensent que certains détails, comme la bombe et trois des soldats mongols, ont été ajoutés bien plus tard.",
+        "compare": "Les deux flottes mongoles furent repoussées par les samouraïs et détruites par des tempêtes, que les Japonais appelèrent kamikaze, le « vent divin ». Le Japon resta hors de l'empire."
+      },
+      {
+        "title": "Le dôme de Soltaniyeh, tombeau d'Oldjaïtou",
+        "artist": "Bâtisseurs ilkhanides",
+        "country": "Iran",
+        "period": "1302–1312",
+        "museum": "Site, Soltaniyeh (Iran)",
+        "credit": "Soltaniyeh (Iran), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Dome_of_Soltaniyeh.jpg), photo Bita.d, licence CC BY-SA 4.0",
+        "image": "images/mouvements/empire-mongol/dome-de-soltaniyeh.jpg",
+        "lieu": "Soltaniyeh",
+        "lieuType": "site",
+        "analysis": "Au-dessus des arbres d'un jardin, un grand édifice de briques porte un dôme couvert de faïence bleu turquoise ; une galerie d'arcades court sous le dôme, et des minarets se dressent à ses angles. C'est le tombeau d'Oldjaïtou, souverain mongol de l'Iran, construit de 1302 à 1312 dans sa nouvelle capitale, Soltaniyeh. Son dôme, haut d'environ 50 mètres et large de 25, est fait de deux coques de briques ; c'est l'un des plus grands dômes de briques du monde. Le monument est inscrit au patrimoine mondial de l'UNESCO depuis 2005.",
+        "compare": "Devenus musulmans à la fin du XIIIe siècle, les Ilkhanides firent bâtir en Iran de grands monuments islamiques. Comparez avec le mausolée de Bolgar, en Russie, plus loin."
+      },
+      {
+        "title": "Lettre d'Oldjaïtou au roi de France Philippe le Bel",
+        "artist": "Chancellerie ilkhanide",
+        "country": "Iran",
+        "period": "1305",
+        "museum": "Archives nationales, Paris",
+        "credit": "Archives nationales, Paris, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:OljeituToPhilippeLeBel1305.jpg), photo PHGCOM, licence CC BY-SA 4.0",
+        "image": "images/mouvements/empire-mongol/lettre-d-oldjaitou.jpg",
+        "analysis": "Un long rouleau de papier, déroulé dans une vitrine : des lignes d'écriture mongole, tracées à l'encre noire, se lisent de haut en bas. Au milieu, un grand sceau carré rouge porte des caractères chinois. En 1305, Oldjaïtou, souverain mongol de l'Iran, écrit au roi de France Philippe le Bel : il lui annonce que les princes mongols, longtemps en guerre entre eux, ont fait la paix, et souhaite garder de bonnes relations avec les rois chrétiens d'Occident. Le sceau, gravé en écriture chinoise ancienne, rappelle les liens entre les khans de l'Iran et la cour des Yuan en Chine. Aucune réponse du roi de France n'a été retrouvée.",
+        "compare": "Une lettre arrivée d'Asie jusqu'à Paris : les Mongols cherchaient une alliance avec les Européens contre les Mamelouks d'Égypte. Comparez avec le laissez-passer en écriture phags-pa, plus haut."
+      },
+      {
+        "title": "Trois chevaux et quatre palefreniers",
+        "artist": "Ren Renfa",
+        "country": "Chine",
+        "period": "vers 1320",
+        "museum": "Cleveland Museum of Art, Cleveland",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1960.181), domaine public (CC0)",
+        "image": "images/mouvements/empire-mongol/trois-chevaux-et-quatre-palefreniers.jpg",
+        "analysis": "Sur un long rouleau de soie qui se déroule horizontalement, trois chevaux, un gris pommelé, un isabelle et un bai, marchent ou se tiennent à côté de leurs palefreniers. Les hommes, en longues robes rouges ou grises, tiennent les rênes. Il n'y a aucun décor, seulement les sceaux rouges des collectionneurs. Ren Renfa était un haut fonctionnaire chinois au service des Yuan, connu aussi comme spécialiste des canaux d'irrigation. Selon le musée, ses chevaux plaisaient aux lettrés chinois comme aux Mongols de la cour impériale ; il imitait les grands peintres de chevaux des dynasties Tang et Song.",
+        "compare": "Pour les Mongols, le cheval valait plus que tout : les peintres chinois au service des Yuan en firent un grand sujet. Comparez avec les cavaliers de la peinture iranienne, plus haut."
+      },
+      {
+        "title": "Figurine de Mongol",
+        "artist": "Potier chinois",
+        "country": "Chine",
+        "period": "XIVe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/74174), domaine public (CC0)",
+        "image": "images/mouvements/empire-mongol/figurine-de-mongol.jpg",
+        "analysis": "Une statuette de terre cuite grise, haute de 29 cm, sur un petit socle. Un homme debout, le visage rond, porte un bonnet à rabats, une longue robe croisée serrée par une ceinture et des bottes ; ses mains sont jointes devant lui, cachées dans ses manches. Le musée l'appelle « figurine de Mongol » et la date de la dynastie Yuan, au XIVe siècle. Les figurines de ce genre étaient en général déposées dans les tombes, pour accompagner le mort.",
+        "compare": "La robe et le bonnet des Mongols, comme sur les portraits des empereurs : sous les Yuan, la société de Chine était divisée en groupes, et les Mongols occupaient le premier rang."
+      },
+      {
+        "title": "Jarre bleu et blanc à anses en têtes de lion",
+        "artist": "Potiers de Jingdezhen",
+        "country": "Chine",
+        "period": "XIVe siècle",
+        "museum": "Cleveland Museum of Art, Cleveland",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1962.154), domaine public (CC0)",
+        "image": "images/mouvements/empire-mongol/jarre-bleu-et-blanc.jpg",
+        "lieu": "Jingdezhen",
+        "lieuType": "fabrication",
+        "analysis": "Une jarre de porcelaine blanche, haute de 39 cm, peinte en bleu profond de grandes fleurs et de feuillages. Deux petites têtes de lion servent d'anses ; sur l'épaule, une bande de motifs en forme de nuages encadre des phénix. Selon le musée, c'est un exemple classique de la porcelaine « bleu et blanc » des Yuan, fabriquée à Jingdezhen au plus tard dans les années 1330 pour la cour, le peuple et le commerce lointain. Le bleu de cobalt était importé d'Iran, sans doute de Kachan, et ces bandes de phénix se retrouvent aussi dans l'art de l'Iran ilkhanide.",
+        "compare": "Le cobalt d'Iran sur la porcelaine de Chine : un mariage rendu possible par la paix mongole, qui reliait l'Asie d'un bout à l'autre. Comparez avec le Grand Shahnama mongol, juste après."
+      },
+      {
+        "title": "Bahram Gour tue un dragon, page du « Grand Shahnama mongol »",
+        "artist": "Peintre de Tabriz",
+        "country": "Iran",
+        "period": "1330–1335",
+        "museum": "Cleveland Museum of Art, Cleveland",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1943.658.b), domaine public (CC0)",
+        "image": "images/mouvements/miniature-persane/grand-shahnama-mongol-bahram-dragon.jpg",
+        "lieu": "Tabriz",
+        "lieuType": "fabrication",
+        "analysis": "Au milieu d'une page couverte de colonnes d'écriture persane, une peinture : un roi vêtu de bleu plonge son épée dans le poitrail d'un énorme dragon aux écailles grises, enroulé autour des rochers ; à droite, son cheval rouge. Le roi est Bahram Gour, souverain de l'Iran ancien et grand chasseur. Cette page vient du « Grand Shahnama mongol », un immense manuscrit du Livre des rois du poète Ferdowsi, peint à Tabriz pour la cour des Ilkhanides vers 1330–1335. Selon le musée, les rochers, l'arbre et le dragon montrent ce que la peinture iranienne de l'époque mongole a emprunté aux modèles chinois. Au début du XXe siècle, un marchand parisien, Georges Demotte, découpa le manuscrit pour en vendre les pages une à une.",
+        "compare": "Les Mongols de l'Iran faisaient illustrer l'épopée nationale des Iraniens : un dragon à la chinoise pour un héros persan. Cette page est aussi présentée dans l'exposition sur la miniature persane."
+      },
+      {
+        "title": "Casque au nom de Djanibek, khan de la Horde d'or",
+        "artist": "Armurier de la Horde d'or",
+        "country": "Asie centrale ou Russie",
+        "period": "vers 1342–1357",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/32641), domaine public (CC0)",
+        "image": "images/mouvements/empire-mongol/casque-de-djanibek.jpg",
+        "analysis": "Un casque d'acier brun, en forme d'ogive, percé d'un trou au sommet. Autour du front court une large bande d'inscription en lettres arabes, incrustée d'argent ; en bas, le bord est découpé de deux échancrures arrondies. Selon le musée, le casque a été trouvé au Tibet. L'inscription dit qu'il a été fait sur l'ordre du « sultan Mahmoud Djanibek khan », qui régna de 1342 à 1357 sur la Horde d'or, l'État mongol des steppes de la Volga et de la mer Noire. Ce serait le seul casque connu portant le nom d'un souverain mongol de son temps.",
+        "compare": "Un khan mongol qui porte un nom musulman et se dit sultan : à l'ouest de l'empire, la Horde d'or s'était convertie à l'islam au début du XIVe siècle. Comparez avec le mausolée de Bolgar, juste après."
+      },
+      {
+        "title": "Le mausolée des khans de Bolgar",
+        "artist": "Bâtisseurs de la Horde d'or",
+        "country": "Russie",
+        "period": "début du XIVe siècle",
+        "museum": "Site archéologique, Bolgar (Tatarstan, Russie)",
+        "credit": "Bolgar (Tatarstan, Russie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Khans'_mausoleum,_Bolgar.JPG), photo Alaexis, licence CC BY-SA 3.0",
+        "image": "images/mouvements/empire-mongol/mausolee-de-bolgar.jpg",
+        "lieu": "Bolgar",
+        "lieuType": "site",
+        "analysis": "Dans une prairie bordée d'arbres d'automne, un petit édifice carré en pierre blanche, percé de deux étroites fenêtres, est coiffé d'un dôme ; au premier plan, les fondations basses d'un mur. Ce mausolée du début du XIVe siècle se dresse à Bolgar, au bord de la Volga, dans l'actuel Tatarstan, en Russie. La ville, où les Bulgares de la Volga avaient adopté l'islam dès 922, fut au XIIIe siècle la première capitale de la Horde d'or, selon l'UNESCO, qui a inscrit le site au patrimoine mondial. Des tombes musulmanes ont été trouvées dans ce mausolée.",
+        "compare": "De la Volga au Pacifique, l'Empire mongol s'était partagé entre plusieurs khanats. Les Tatars de Russie se souviennent encore de Bolgar comme du lieu de naissance de l'islam dans leur région."
+      },
+      {
+        "title": "La Terrasse des nuages de Juyongguan",
+        "artist": "Bâtisseurs de l'empereur Toghon Temür",
+        "country": "Chine",
+        "period": "1342–1345",
+        "museum": "Site, Juyongguan (Pékin, Chine)",
+        "credit": "Juyongguan (Pékin, Chine), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Yuntai_south_side_(2013).jpg), photo BabelStone, licence CC BY-SA 3.0",
+        "image": "images/mouvements/empire-mongol/terrasse-des-nuages.jpg",
+        "lieu": "Juyongguan",
+        "lieuType": "site",
+        "analysis": "Une grande plate-forme de pierre blanche, couronnée de créneaux, est percée d'une porte en forme d'arche à cinq pans ; derrière, on aperçoit la Grande Muraille sur les collines. Elle fut construite de 1342 à 1345 sur l'ordre du dernier empereur Yuan, Toghon Temür, au col de Juyongguan, sur la route entre Pékin et la steppe ; elle portait autrefois des stupas bouddhiques. À l'intérieur du passage, les murs sont sculptés des quatre rois célestes, gardiens du bouddhisme, et de textes bouddhiques gravés en six écritures : sanskrit, tibétain, mongol en écriture phags-pa, ouïghour, tangoute et chinois.",
+        "compare": "Six écritures sur un même mur : l'image d'un empire qui réunissait des peuples très divers. Le point d'arrivée de l'exposition : en 1368, les Ming chassent les Mongols de Chine, mais les khans régneront encore en Mongolie."
+      }
+    ],
+    "carte": {
+      "image": "images/mouvements/cartes/empire-mongol.svg",
+      "ouest": 36,
+      "est": 142,
+      "sud": 18,
+      "nord": 58,
+      "lieux": [
+        {
+          "nom": "Tabriz",
+          "lat": 38.0739,
+          "lon": 46.2961
+        },
+        {
+          "nom": "Karakorum",
+          "lat": 47.1975,
+          "lon": 102.8238
+        },
+        {
+          "nom": "Bagdad",
+          "lat": 33.3153,
+          "lon": 44.3661
+        },
+        {
+          "nom": "Shangdu",
+          "lat": 42.358,
+          "lon": 116.1852
+        },
+        {
+          "nom": "Baie de Hakata",
+          "lat": 33.632,
+          "lon": 130.3734
+        },
+        {
+          "nom": "Soltaniyeh",
+          "lat": 36.4338,
+          "lon": 48.7959
+        },
+        {
+          "nom": "Jingdezhen",
+          "lat": 29.2942,
+          "lon": 117.2036
+        },
+        {
+          "nom": "Bolgar",
+          "lat": 54.9774,
+          "lon": 49.0543
+        },
+        {
+          "nom": "Juyongguan",
+          "lat": 40.289,
+          "lon": 116.068
+        }
+      ],
+      "pays": [
+        {
+          "nom": "Mongolie",
+          "lat": 46.8,
+          "lon": 112.0
+        },
+        {
+          "nom": "Chine",
+          "lat": 36.5,
+          "lon": 99.5
+        },
+        {
+          "nom": "Russie",
+          "lat": 55.5,
+          "lon": 85.0
+        },
+        {
+          "nom": "Kazakhstan",
+          "lat": 48.0,
+          "lon": 67.0
+        },
+        {
+          "nom": "Iran",
+          "lat": 31.0,
+          "lon": 56.5
+        },
+        {
+          "nom": "Irak",
+          "lat": 31.0,
+          "lon": 42.5
+        },
+        {
+          "nom": "Japon",
+          "lat": 36.8,
+          "lon": 135.5
+        },
+        {
+          "nom": "Inde",
+          "lat": 23.0,
+          "lon": 79.0
+        },
+        {
+          "nom": "Ouzbékistan",
+          "lat": 42.0,
+          "lon": 62.5
+        },
+        {
+          "nom": "Afghanistan",
+          "lat": 33.0,
+          "lon": 65.5
+        }
+      ],
+      "villes": [
+        {
+          "nom": "Samarcande",
+          "lat": 39.655,
+          "lon": 66.976
+        },
+        {
+          "nom": "Lhassa",
+          "lat": 29.646,
+          "lon": 91.141
+        },
+        {
+          "nom": "Xi'an",
+          "lat": 34.261,
+          "lon": 108.942
+        },
+        {
+          "nom": "Astrakhan",
+          "lat": 46.35,
+          "lon": 48.035
+        }
+      ]
+    }
   }
 ]

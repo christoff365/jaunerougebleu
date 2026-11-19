@@ -420,6 +420,8 @@ const GENRES_THEMES = {
 // dans « wd ». « local » reconnaît les œuvres de collection.json (artiste ou titre). Artistes : exemples, morts depuis plus de 70 ans.
 // [nom, région, lieu, époque, mots, wd, local, artistes, description]
 const MOUVEMENTS = [
+  ['Empire mongol', "Asie de l'Est", 'Mongolie, Chine, Iran et Russie', '1206 – 1368', ['Mongol', 'Yuan dynasty', 'Ilkhanid', 'Golden Horde'], ['Mongol Empire', 'Yuan dynasty art', 'Ilkhanid art'], 'mongol|yuan dynasty|ilkhan|ilkhanid|golden horde|horde d.or|karakorum|khubilai|kublai|gengis|genghis', [],
+    "Gengis Khan et ses descendants : Karakorum, les relais de poste et les laissez-passer, l'écriture phags-pa, Khoubilaï et la dynastie Yuan, le papier-monnaie, l'Iran des Ilkhanides et la Horde d'or."],
   ['Japon, des origines à 1868', "Asie de l'Est", 'Japon', 'IIIe siècle – 1868', ['Japanese'], ['Japanese art'], 'jomon|jōmon|kofun|heian|kamakura|muromachi|samoura|samurai', [],
     "De la poterie Jōmon à l'ouverture du pays : tumulus, temples de Nara, cour de Heian, samouraïs et zen, paix d'Edo, Aïnous et royaume de Ryūkyū."],
   ["Empire des Tu'i Tonga", 'Océanie', 'Tonga', 'Xe–XIXe siècle', ['Tongan', 'Tonga'], ['Tongan art'], 'tonga|tongan|tongien', [],
@@ -565,7 +567,7 @@ const STYLES_ARCHITECTURE = { 'Art gothique': 'Q176483' };
 const ANONYME = 'Q4233718'; // « anonyme » dans Wikidata
 // Mouvements d'abord de l'estampe : leurs estampes ne sont pas limitées à trois
 // Expositions consacrées à une civilisation plutôt qu'à un mouvement (badge « Civilisation » sur leur page)
-const CIVILISATIONS = new Set(['Mésopotamie', 'Égypte ancienne', 'Royaume de Koush', "Civilisation de l'Indus", 'Inde ancienne', 'Chine, des origines à 1912', 'Japon, des origines à 1868', 'Grèce antique', 'Israël et Juda', 'Perse ancienne', 'Rome antique', 'Aksoum', 'Anglo-Saxons', 'Royaumes de Java et de Sumatra', 'Vikings', "Empire des Tu'i Tonga", 'Empire du Mali', 'Aztèques', 'Incas']);
+const CIVILISATIONS = new Set(['Empire mongol', 'Mésopotamie', 'Égypte ancienne', 'Royaume de Koush', "Civilisation de l'Indus", 'Inde ancienne', 'Chine, des origines à 1912', 'Japon, des origines à 1868', 'Grèce antique', 'Israël et Juda', 'Perse ancienne', 'Rome antique', 'Aksoum', 'Anglo-Saxons', 'Royaumes de Java et de Sumatra', 'Vikings', "Empire des Tu'i Tonga", 'Empire du Mali', 'Aztèques', 'Incas']);
 const MOUVEMENTS_D_ESTAMPES = new Set(['Ukiyo-e', 'Expressionnisme']);
 // Mouvements de peintres : si le visiteur n'a pas choisi de type, l'exposition ne montre que des peintures
 // (pas les dessins, études, estampes ou éventails que les catalogues renvoient aussi pour ces artistes)

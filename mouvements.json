@@ -20440,5 +20440,357 @@
         }
       ]
     }
+  },
+  {
+    "mouvement": "Cités swahilies",
+    "slug": "cites-swahilies",
+    "status": "published",
+    "title": "Les cités swahilies, entre l'Afrique et l'océan Indien",
+    "subtitle": "Kenya et Tanzanie, XIe – XIXe siècle · 17 œuvres et sites",
+    "intro": "Le long de la côte de l'Afrique de l'Est, de la Somalie au Mozambique, des villes de pierre ont prospéré pendant près de mille ans : Kilwa, Mombasa, Malindi, Gede, Lamu, Zanzibar… Leurs habitants, les Swahilis, parlaient une langue africaine, le swahili, et pratiquaient l'islam ; ils servaient d'intermédiaires entre l'intérieur du continent et les marchands venus d'Arabie, de Perse, d'Inde et même de Chine, grâce aux vents de la mousson. Les cités swahilies remplissent tous les critères d'une civilisation : des villes aux maisons et aux mosquées de pierre de corail, des sultans et des familles de marchands qui les gouvernaient, une écriture (le swahili écrit en caractères arabes), des chroniques et des poèmes, des monnaies frappées à Kilwa, des artisans spécialisés et un commerce à très longue distance. L'exposition présente surtout des sites restés au Kenya et en Tanzanie, et quelques œuvres conservées à Londres, Chicago et Philadelphie ; beaucoup de photographies sont celles de visiteurs, publiées sous licence libre.",
+    "contexte": [
+      {
+        "title": "Une civilisation de la côte",
+        "text": "La civilisation swahilie est née sur la côte de l'Afrique de l'Est, parmi des peuples parlant des langues bantoues, qui vivaient de la pêche, de l'agriculture et du commerce. Le nom « swahili » vient d'un mot arabe qui signifie « les gens du rivage ». À partir du VIIIe siècle, des marchands arabes et persans fréquentent la côte ; l'islam s'y répand peu à peu, et des mosquées sont construites dès les IXe–XIe siècles. Le swahili, une langue bantoue, emprunte de nombreux mots à l'arabe, et il est écrit en caractères arabes."
+      },
+      {
+        "title": "L'or de Kilwa et le commerce de la mousson",
+        "text": "Chaque année, les vents de la mousson poussent les navires d'Arabie et d'Inde vers l'Afrique, puis les ramènent quelques mois plus tard. Les cités swahilies vendent l'or, l'ivoire, le bois de palétuvier et les esclaves venus de l'intérieur, et achètent des tissus, des perles de verre et de la porcelaine. Aux XIIIe et XIVe siècles, Kilwa, qui contrôle le commerce de l'or du Zimbabwe, devient la plus riche de ces villes ; ses sultans frappent monnaie et bâtissent mosquées et palais. Au début du XVe siècle, les flottes chinoises de Zheng He visitent la côte."
+      },
+      {
+        "title": "Des villes indépendantes",
+        "text": "Les cités swahilies n'ont jamais formé un seul royaume. Chacune avait son sultan ou son conseil de familles, et elles étaient souvent rivales, comme Mombasa et Malindi. Leurs villes étaient construites en pierre de corail et en mortier de chaux : maisons à cour intérieure, mosquées à mihrab, palais, tombeaux à pilier et murailles. Leurs habitants ont écrit des chroniques, comme la Chronique de Kilwa, et une grande poésie en swahili, les utendi, longs poèmes religieux et historiques."
+      },
+      {
+        "title": "Portugais, Omanais et Européens",
+        "text": "En 1498, Vasco de Gama longe la côte et trouve à Malindi un pilote pour l'Inde. Les Portugais reviennent en conquérants : ils pillent Kilwa en 1505 et Mombasa à plusieurs reprises, et construisent Fort Jesus en 1593. À la fin du XVIIe siècle, les sultans d'Oman les chassent de la côte, puis installent leur capitale à Zanzibar au XIXe siècle. À la fin du XIXe siècle, la côte passe sous la domination britannique et allemande. Le swahili est aujourd'hui l'une des langues les plus parlées d'Afrique, et les vieilles villes de Lamu, de Zanzibar et de Kilwa sont inscrites au patrimoine mondial."
+      }
+    ],
+    "bibliography": [
+      {
+        "reference": "UNESCO, Patrimoine mondial : Ruines de Kilwa Kisiwani et de Songo Mnara",
+        "url": "https://whc.unesco.org/fr/list/144"
+      },
+      {
+        "reference": "UNESCO, Patrimoine mondial : Vieille ville de Lamu",
+        "url": "https://whc.unesco.org/fr/list/1055"
+      },
+      {
+        "reference": "UNESCO, Patrimoine mondial : Fort Jesus, Mombasa",
+        "url": "https://whc.unesco.org/fr/list/1295"
+      },
+      {
+        "reference": "UNESCO, Patrimoine mondial : Ville de pierre de Zanzibar",
+        "url": "https://whc.unesco.org/fr/list/173"
+      },
+      {
+        "reference": "Notices des œuvres : Art Institute of Chicago, Philadelphia Museum of Art, bibliothèque de la SOAS (Londres)"
+      }
+    ],
+    "works": [
+      {
+        "title": "L'inscription coufique de la mosquée de Kizimkazi",
+        "artist": "Bâtisseurs de Kizimkazi",
+        "country": "Tanzanie",
+        "period": "1107",
+        "museum": "Mosquée de Kizimkazi, Zanzibar (Tanzanie)",
+        "credit": "Mosquée de Kizimkazi, île de Zanzibar (Tanzanie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Calligraphy_at_historic_Kizimkazi_Mosque,_Kusini_DC,_South_Zanzibar,_Tanzania.jpg), photo Mnazini, licence CC BY 4.0",
+        "image": "images/mouvements/cites-swahilies/inscription-de-kizimkazi.jpg",
+        "lieu": "Kizimkazi",
+        "lieuType": "site",
+        "analysis": "Sur un mur blanc, deux longues bandes d'écriture arabe aux lettres anguleuses, peintes en noir sur fond clair, courent l'une au-dessus de l'autre, sous une frise sculptée. C'est une écriture coufique, l'une des plus anciennes formes de la calligraphie arabe. L'inscription date la fondation de la mosquée de Kizimkazi, dans le sud de l'île de Zanzibar, de l'an 500 de l'hégire, c'est-à-dire 1107. C'est la plus ancienne inscription datée de la côte d'Afrique de l'Est. La mosquée elle-même a été en grande partie reconstruite au XVIIIe siècle, mais l'inscription et certains décors sont d'origine.",
+        "compare": "Le point de départ de l'exposition : dès le XIe siècle, les habitants de la côte swahilie adoptent l'islam, qui relie leurs villes au monde arabe et persan, tout en gardant leur langue africaine, le swahili."
+      },
+      {
+        "title": "La Grande Mosquée de Kilwa",
+        "artist": "Bâtisseurs de Kilwa",
+        "country": "Tanzanie",
+        "period": "XIe–XVe siècle",
+        "museum": "Site, Kilwa Kisiwani (Tanzanie)",
+        "credit": "Kilwa Kisiwani (Tanzanie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Great_Mosque_Kilwa_Kisiwani_Tanzania.jpg), photo Janetmpurdy, licence CC BY-SA 4.0",
+        "image": "images/mouvements/cites-swahilies/grande-mosquee-de-kilwa.jpg",
+        "lieu": "Kilwa Kisiwani",
+        "lieuType": "site",
+        "analysis": "Une salle sans toit, aux murs de pierre de corail grise, est divisée par des rangées d'arcs brisés posés sur des piliers ; au-dessus, on devine des restes de coupoles. C'est la Grande Mosquée de Kilwa, sur une île du sud de la Tanzanie. Sa première salle de prière remonte au XIe siècle. Au XIVe siècle, le sultan al-Hasan ibn Sulaiman l'agrandit et la couvre de coupoles. Le voyageur marocain Ibn Battuta, qui visita Kilwa en 1331, la décrivit comme l'une des villes les plus belles et les mieux construites du monde. Les ruines de Kilwa Kisiwani et de Songo Mnara sont inscrites au patrimoine mondial de l'UNESCO.",
+        "compare": "Kilwa contrôlait au XIVe siècle le commerce de l'or venu de l'intérieur de l'Afrique, du Zimbabwe actuel. Ses sultans frappaient leur propre monnaie de cuivre."
+      },
+      {
+        "title": "Le palais de Husuni Kubwa",
+        "artist": "Bâtisseurs du sultan al-Hasan ibn Sulaiman",
+        "country": "Tanzanie",
+        "period": "début du XIVe siècle",
+        "museum": "Site, Kilwa Kisiwani (Tanzanie)",
+        "credit": "Kilwa Kisiwani (Tanzanie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Husuni_Kubwa,_ruins_of_early_14th_cent._sultan's_palace_on_Kilwa_Kisiwani_%281%29_%2828454335443%29.jpg), photo Richard Mortel, licence CC BY 2.0",
+        "image": "images/mouvements/cites-swahilies/palais-de-husuni-kubwa.jpg",
+        "lieu": "Kilwa Kisiwani",
+        "lieuType": "site",
+        "analysis": "Sur une falaise couverte d'herbes sèches, des murs bas de pierre sombre dessinent le plan de salles et de cours ; au loin, la mer bleue et une côte boisée. Ce sont les ruines de Husuni Kubwa, le « grand fort », le palais construit au début du XIVe siècle par le sultan al-Hasan ibn Sulaiman, sur un promontoire au-dessus de la mer, à l'écart de la ville de Kilwa. Le palais comptait des dizaines de pièces, des cours, une salle d'audience et une piscine taillée dans le roc. Il ne fut sans doute jamais achevé.",
+        "compare": "Comme les autres cités swahilies, Kilwa était gouvernée par un sultan et par des familles de riches marchands. Son palais montre la richesse que lui apportait le commerce de l'océan Indien."
+      },
+      {
+        "title": "La Grande Mosquée de Gede",
+        "artist": "Bâtisseurs de Gede",
+        "country": "Kenya",
+        "period": "XVe siècle",
+        "museum": "Site, Gede (Kenya)",
+        "credit": "Gede, près de Malindi (Kenya), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Great_Mosque_of_Gede.jpg), photo Mgiganteus, licence CC BY-SA 3.0",
+        "image": "images/mouvements/cites-swahilies/grande-mosquee-de-gede.jpg",
+        "lieu": "Gede",
+        "lieuType": "site",
+        "analysis": "Dans une forêt, des murs de pierre de corail, percés de portes en arc, entourent une grande salle sans toit ; au premier plan, un puits rond est couvert d'une grille. Ce sont les ruines de la Grande Mosquée de Gede, une ville swahilie de la côte du Kenya, près de Malindi. Gede, fondée vers le XIIe siècle, fut entourée de nouvelles murailles aux XVe et XVIe siècles ; elle comptait des maisons de pierre, un palais, plusieurs mosquées et des tombes. Elle fut abandonnée au XVIIe siècle et la forêt la recouvrit.",
+        "compare": "Les puits étaient indispensables : avant d'entrer dans la mosquée, les fidèles faisaient leurs ablutions. Gede est aujourd'hui un monument national du Kenya, au milieu d'une forêt protégée."
+      },
+      {
+        "title": "La porte du palais de Gede",
+        "artist": "Bâtisseurs de Gede",
+        "country": "Kenya",
+        "period": "XVe siècle",
+        "museum": "Site, Gede (Kenya)",
+        "credit": "Gede, près de Malindi (Kenya), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Palace_at_Gedi_Ruins.jpg), photo Skaranja, licence CC BY-SA 4.0",
+        "image": "images/mouvements/cites-swahilies/palais-de-gede.jpg",
+        "lieu": "Gede",
+        "lieuType": "site",
+        "analysis": "Au sommet de quelques marches, une haute porte de pierre en arc brisé, encadrée d'un rectangle en relief, se dresse au milieu des arbres. C'est l'entrée du palais de Gede, où vivait le chef de la ville. Derrière cette porte, des cours, des salles de réception et des appartements privés étaient reliés par des couloirs ; on y a trouvé des objets venus de très loin, comme de la porcelaine chinoise et des perles de verre.",
+        "compare": "Les maisons swahilies de pierre étaient tournées vers l'intérieur : de l'extérieur, on ne voyait que de hauts murs et une porte. Comparez avec les maisons de Lamu, plus loin."
+      },
+      {
+        "title": "Le tombeau à pilier de Malindi",
+        "artist": "Bâtisseurs de Malindi",
+        "country": "Kenya",
+        "period": "XIVe–XVIe siècle (date incertaine)",
+        "museum": "Site, Malindi (Kenya)",
+        "credit": "Malindi (Kenya), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Pillar_tomb_%28Malindi%29.JPG), photo Ruslik0, licence CC BY-SA 4.0",
+        "image": "images/mouvements/cites-swahilies/tombeau-a-pilier-de-malindi.jpg",
+        "lieu": "Malindi",
+        "lieuType": "site",
+        "analysis": "Au milieu de maisons modernes, une haute colonne de pierre arrondie, au sommet en forme de bouton, s'élève derrière un enclos bas, percé d'une petite niche en arc. C'est un tombeau à pilier, près de la mosquée du vendredi de Malindi, au Kenya. Ce type de tombe, où une colonne se dresse au-dessus de la sépulture, est propre à la côte swahilie : on en trouve de la Somalie à la Tanzanie. Il honorait des personnages importants de la ville. Malindi accueillit en 1498 l'explorateur portugais Vasco de Gama, qui y trouva un pilote pour traverser l'océan jusqu'en Inde.",
+        "compare": "Les tombeaux à pilier sont une invention swahilie, qu'on ne trouve pas dans le reste du monde musulman : la civilisation swahilie mêle l'islam et des traditions africaines."
+      },
+      {
+        "title": "La girafe offerte à l'empereur de Chine",
+        "artist": "D'après Shen Du",
+        "country": "Chine",
+        "period": "1414 (ou copie du XVIe siècle)",
+        "museum": "Philadelphia Museum of Art, Philadelphie",
+        "credit": "Philadelphia Museum of Art, Philadelphie, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Tribute_Giraffe_with_Attendant.jpg), domaine public",
+        "image": "images/mouvements/cites-swahilies/girafe-offerte-a-l-empereur.jpg",
+        "lieuType": "fabrication",
+        "analysis": "Sur un rouleau de soie beige, une grande girafe tachetée se tient de profil ; à côté d'elle, un petit homme en robe rouge, coiffé d'un turban, la tient par une longe. Au-dessus, un long texte en caractères chinois occupe le haut du rouleau. En 1414, une girafe fut offerte à l'empereur de Chine Yongle par des envoyés du Bengale ; on y vit le qilin, un animal fabuleux annonçant un règne heureux, et l'empereur en fit faire ce portrait. Les girafes venaient d'Afrique : l'année suivante, en 1415, des envoyés de Malindi en apportèrent une autre en Chine. Le musée pense que ce rouleau est une copie faite au XVIe siècle.",
+        "compare": "Au début du XVe siècle, les grandes flottes chinoises de l'amiral Zheng He visitèrent la côte swahilie. La porcelaine chinoise retrouvée dans les ruines de Kilwa ou de Gede témoigne de ces échanges."
+      },
+      {
+        "title": "La mosquée de Takwa",
+        "artist": "Habitants de Takwa",
+        "country": "Kenya",
+        "period": "vers 1500–1700",
+        "museum": "Site, île de Manda (Kenya)",
+        "credit": "Takwa, île de Manda, archipel de Lamu (Kenya), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Takwa_Ruins_Mosque_2011.JPG), photo Arthur Buliva, licence CC BY-SA 3.0",
+        "image": "images/mouvements/cites-swahilies/mosquee-de-takwa.jpg",
+        "lieu": "Takwa",
+        "lieuType": "site",
+        "analysis": "Contre un ciel blanc, un haut mur de pierre de corail, percé de quelques petites ouvertures carrées, se termine par un pignon ; au-dessus s'élève un pilier de pierre. C'est la mosquée de Takwa, une petite ville swahilie de l'île de Manda, dans l'archipel de Lamu au Kenya, fondée vers 1500 et abandonnée vers 1700, sans doute par manque d'eau ; ses habitants s'installèrent à Shela, sur l'île voisine de Lamu. Le pilier qui surmonte le mur nord marquerait la tombe d'un personnage vénéré.",
+        "compare": "Comparez avec le tombeau à pilier de Malindi : ici, le pilier est posé sur le mur même de la mosquée."
+      },
+      {
+        "title": "Kilwa vue par les Européens",
+        "artist": "Georg Braun et Frans Hogenberg",
+        "country": "Allemagne",
+        "period": "1572",
+        "museum": "Atlas Civitates orbis terrarum, Cologne",
+        "credit": "Civitates orbis terrarum, vol. I, 1572, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:City_of_Kilwa,_1572.jpg), domaine public",
+        "image": "images/mouvements/cites-swahilies/kilwa-vue-par-les-europeens.jpg",
+        "lieu": "Kilwa Kisiwani",
+        "lieuType": "représenté",
+        "analysis": "Une gravure coloriée montre une île verte entourée d'une mer gris-bleu, sur laquelle naviguent des voiliers. Une grande ville serrée, aux maisons rouges, aux tours et aux coupoles, couvre une partie de l'île, au milieu des palmiers ; en haut, le nom « QVILOA ». C'est Kilwa, telle que la représente l'atlas des villes du monde publié à Cologne en 1572 par Georg Braun et Frans Hogenberg. Les graveurs ne l'avaient sans doute jamais vue : ils s'inspiraient de récits de voyageurs portugais, et ont dessiné une ville à l'européenne.",
+        "compare": "En 1505, une flotte portugaise s'empara de Kilwa et la pilla. Les Portugais voulaient contrôler le commerce de l'or et des épices de l'océan Indien : le déclin des cités swahilies commençait."
+      },
+      {
+        "title": "Fort Jesus de Mombasa",
+        "artist": "Giovanni Battista Cairati, pour le roi du Portugal",
+        "country": "Kenya",
+        "period": "1593–1596",
+        "museum": "Site, Mombasa (Kenya)",
+        "credit": "Mombasa (Kenya), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Fort_Jesus_Mombasa.jpg), photo Mutisya Maingi, licence CC BY-SA 4.0",
+        "image": "images/mouvements/cites-swahilies/fort-jesus.jpg",
+        "lieu": "Mombasa",
+        "lieuType": "site",
+        "analysis": "De hauts murs épais, en pierre ocre tachée par le temps, couronnés de créneaux, dominent une place où se promènent des visiteurs. C'est Fort Jesus, construit de 1593 à 1596 par les Portugais, sur les plans de l'architecte italien Giovanni Battista Cairati, pour surveiller le vieux port de Mombasa, l'une des grandes cités swahilies. De 1696 à 1698, les troupes du sultan d'Oman l'assiégèrent pendant près de trois ans et finirent par le prendre. Le fort est inscrit au patrimoine mondial de l'UNESCO depuis 2011.",
+        "compare": "Après les Portugais, les sultans d'Oman dominèrent la côte swahilie. Ce fort raconte les rivalités entre les puissances venues de la mer."
+      },
+      {
+        "title": "Une rue de la vieille ville de Lamu",
+        "artist": "Habitants de Lamu",
+        "country": "Kenya",
+        "period": "XVIIIe–XIXe siècle",
+        "museum": "Site, Lamu (Kenya)",
+        "credit": "Lamu (Kenya), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Usita_wa_Mui_street_Lamu_Old_Town.jpg), photo Abubakarsule533, licence CC BY-SA 4.0",
+        "image": "images/mouvements/cites-swahilies/rue-de-lamu.jpg",
+        "lieu": "Lamu",
+        "lieuType": "site",
+        "analysis": "Une ruelle très étroite, bordée de hautes maisons blanchies à la chaux, s'enfonce entre des murs ; des femmes vêtues de noir et des passants y marchent à l'ombre. Les rues de la vieille ville de Lamu, sur une île de la côte nord du Kenya, sont si étroites que les voitures n'y passent pas : on s'y déplace à pied ou à dos d'âne. Selon l'UNESCO, Lamu est l'établissement swahili le plus ancien et le mieux préservé d'Afrique de l'Est ; la vieille ville est inscrite au patrimoine mondial depuis 2001.",
+        "compare": "Les rues étroites et les hauts murs gardent la fraîcheur sous le soleil tropical. Lamu est encore un grand centre de la culture et de l'enseignement musulman swahilis."
+      },
+      {
+        "title": "Les niches décoratives d'une maison de Lamu",
+        "artist": "Maçons de Lamu",
+        "country": "Kenya",
+        "period": "XVIIIe–XIXe siècle",
+        "museum": "Site, Lamu (Kenya)",
+        "credit": "Lamu (Kenya), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Decorative_wall_niches_and_panels_in_Lamu.jpg), photo Ahmedshayo14, licence CC BY-SA 4.0",
+        "image": "images/mouvements/cites-swahilies/niches-de-lamu.jpg",
+        "lieu": "Lamu",
+        "lieuType": "site",
+        "analysis": "Un mur entier d'une pièce est creusé de dizaines de petites niches en plâtre blanc, alignées en rangées : en haut, des niches en forme d'arc, en bas, des niches carrées plus grandes, où l'on a posé une bouteille et quelques objets. Dans les maisons de pierre de Lamu, ces murs à niches ornaient les pièces principales. Autrefois, on y exposait des porcelaines et des objets précieux venus de tout l'océan Indien, pour montrer la richesse de la famille.",
+        "compare": "La maison swahilie était un lieu de prestige. Comparez avec la porte du palais de Gede : la même architecture de pierre de corail et de plâtre se retrouve sur toute la côte."
+      },
+      {
+        "title": "Une vieille porte de Lamu",
+        "artist": "Menuisiers de Lamu",
+        "country": "Kenya",
+        "period": "ancienne (date incertaine)",
+        "museum": "Site, Lamu (Kenya)",
+        "credit": "Lamu (Kenya), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Five_Century_Old_Lamu_Swahili_Door.jpg), photo Ahmedshayo14, licence CC BY-SA 4.0",
+        "image": "images/mouvements/cites-swahilies/vieille-porte-de-lamu.jpg",
+        "lieu": "Lamu",
+        "lieuType": "site",
+        "analysis": "Un gros plan sur une porte de bois sombre et usé, faite de larges planches, garnie de rangées de clous à grosse tête ronde ; le montant de droite est sculpté de rosaces et de motifs en relief. Selon le photographe, cette porte d'une famille de Lamu aurait environ cinq siècles. Les portes sculptées étaient la fierté des maisons swahilies : c'était la seule partie de la maison décorée vers la rue, et elle montrait le rang de ses propriétaires.",
+        "compare": "Les gros clous de métal viennent peut-être de l'Inde, où ils servaient à protéger les portes. Comparez avec la porte de Zanzibar, plus récente et beaucoup plus sculptée."
+      },
+      {
+        "title": "L'Utendi wa Tambuka, poème épique en swahili",
+        "artist": "Bwana Mwengo (poème) ; copie de Muhammad Kijuma",
+        "country": "Kenya",
+        "period": "poème composé en 1728 ; copie plus tardive",
+        "museum": "Bibliothèque de la SOAS, université de Londres",
+        "credit": "Bibliothèque de la SOAS, université de Londres, MS 45022 (https://digital.soas.ac.uk/LSMD000390/00001), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Utenzi_wa_Hirqal_%28MS_45022a%29.png), domaine public",
+        "image": "images/mouvements/cites-swahilies/utendi-wa-tambuka.jpg",
+        "lieu": "Lamu",
+        "lieuType": "fabrication",
+        "lieuProbable": true,
+        "analysis": "Une page de papier jauni porte des lignes d'écriture arabe à l'encre noire, coupées en deux par de petits triangles rouges qui marquent le milieu et la fin des vers ; une colonne de lettres répétées court sur le côté. Ce n'est pas de l'arabe : c'est du swahili, écrit en caractères arabes. Le texte est l'Utendi wa Tambuka, aussi appelé Chuo cha Herkal, un long poème épique qui raconte une guerre entre les premiers musulmans et l'Empire byzantin. Il a été composé en 1728 par le poète Bwana Mwengo, à la cour du sultan de Pate ; cette copie, conservée à Londres, est attribuée au scribe Muhammad Kijuma, de Lamu.",
+        "compare": "C'est l'un des plus anciens poèmes connus en swahili. La langue swahilie, une langue bantoue enrichie de mots arabes, est aujourd'hui parlée par plus de cent millions de personnes."
+      },
+      {
+        "title": "Fauteuil d'apparat (kiti cha enzi)",
+        "artist": "Menuisiers swahilis",
+        "country": "Kenya",
+        "period": "XIXe siècle",
+        "museum": "Art Institute of Chicago",
+        "credit": "Art Institute of Chicago (https://www.artic.edu/artworks/183077), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Chair_%28Kiti_Cha_Enzi%29_%28ARTIC_2004.476%29.jpg), domaine public (CC0)",
+        "image": "images/mouvements/cites-swahilies/fauteuil-kiti-cha-enzi.jpg",
+        "lieuType": "fabrication",
+        "analysis": "Un grand fauteuil de bois sombre, au dossier haut et droit surmonté d'un fronton triangulaire, a des accoudoirs plats et un repose-pieds. Le dossier, le siège et les côtés sont garnis de panneaux de cannage clair, et le bois est incrusté de petits motifs en os et en ivoire. Ces fauteuils, appelés kiti cha enzi, « fauteuils du pouvoir », étaient réservés aux personnages importants. Selon le musée, leur forme rappelle les chaises du Portugal et de l'Espagne des XVIe et XVIIe siècles, ou celles de l'Inde, mais les artisans swahilis en ont fait un objet bien à eux.",
+        "compare": "Comme toute la civilisation swahilie, ce fauteuil mélange des influences venues d'Afrique, d'Arabie, d'Inde et d'Europe."
+      },
+      {
+        "title": "Linteau sculpté d'une porte de Zanzibar",
+        "artist": "Sculpteurs sur bois de Zanzibar",
+        "country": "Tanzanie",
+        "period": "XIXe siècle",
+        "museum": "Site, Stone Town, Zanzibar (Tanzanie)",
+        "credit": "Stone Town, Zanzibar (Tanzanie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Carved_wooden_door,_Stone_Town,_Zanzibar_%2821%29_%2828817507760%29.jpg), photo Richard Mortel, licence CC BY 2.0",
+        "image": "images/mouvements/cites-swahilies/porte-de-zanzibar.jpg",
+        "lieu": "Zanzibar",
+        "lieuType": "site",
+        "analysis": "Au-dessus d'une porte, un grand linteau de bois en demi-cercle est entièrement sculpté : au centre, un vase d'où jaillissent des tiges chargées de feuilles, de fleurs et de grappes, entouré de bordures de rinceaux et de perles. Les portes sculptées de Stone Town, la vieille ville de Zanzibar, sont célèbres : on en compte encore des centaines. Les plus anciennes ont un linteau rectangulaire, de style arabe ; celles à linteau arrondi, comme celle-ci, montrent une influence indienne.",
+        "compare": "Au XIXe siècle, Zanzibar devient la capitale des sultans d'Oman et la plus grande ville de la côte, enrichie par le commerce des clous de girofle, de l'ivoire et, tragiquement, des esclaves. Stone Town est inscrite au patrimoine mondial."
+      },
+      {
+        "title": "Un mtepe sur la plage de Zanzibar",
+        "artist": "E. D. Ropes (photographie)",
+        "country": "Tanzanie",
+        "period": "vers 1890",
+        "museum": "Photographie ancienne",
+        "credit": "Photographie d'E. D. Ropes, vers 1890, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Mtepe_on_the_beach_at_Zanzibar_%28about_1890%29.png), domaine public",
+        "image": "images/mouvements/cites-swahilies/mtepe-de-zanzibar.jpg",
+        "lieu": "Zanzibar",
+        "lieuType": "représenté",
+        "analysis": "Sur une vieille photographie en noir et blanc, un grand bateau de bois à la proue très allongée et relevée repose sur une plage, appuyé sur des étais ; son haut mât porte des cordages, et des perches de bois de palétuvier sont empilées tout autour. C'est un mtepe, le bateau traditionnel de la côte swahilie. Ses planches n'étaient pas clouées mais cousues entre elles avec des cordes de fibre de coco, et sa voile était faite de nattes tressées. Les mtepe naviguaient le long de la côte, poussés par les vents de la mousson.",
+        "compare": "Le point d'arrivée de l'exposition : à la fin du XIXe siècle, la côte swahilie passe sous la domination britannique et allemande. Mais la langue, l'architecture et les traditions maritimes swahilies sont toujours vivantes au Kenya et en Tanzanie."
+      }
+    ],
+    "carte": {
+      "image": "images/mouvements/cartes/cites-swahilies.svg",
+      "ouest": 32.0,
+      "est": 47.0,
+      "sud": -13.5,
+      "nord": 3.0,
+      "lieux": [
+        {
+          "nom": "Kizimkazi",
+          "lat": -6.4381,
+          "lon": 39.4639
+        },
+        {
+          "nom": "Kilwa Kisiwani",
+          "lat": -8.9575,
+          "lon": 39.5133
+        },
+        {
+          "nom": "Gede",
+          "lat": -3.3097,
+          "lon": 40.0172
+        },
+        {
+          "nom": "Malindi",
+          "lat": -3.2192,
+          "lon": 40.1169
+        },
+        {
+          "nom": "Takwa",
+          "lat": -2.2697,
+          "lon": 40.942
+        },
+        {
+          "nom": "Mombasa",
+          "lat": -4.0627,
+          "lon": 39.6797
+        },
+        {
+          "nom": "Lamu",
+          "lat": -2.2717,
+          "lon": 40.902
+        },
+        {
+          "nom": "Zanzibar",
+          "lat": -6.1622,
+          "lon": 39.1921
+        }
+      ],
+      "pays": [
+        {
+          "nom": "Kenya",
+          "lat": 0.5,
+          "lon": 37.8
+        },
+        {
+          "nom": "Tanzanie",
+          "lat": -6.3,
+          "lon": 35.0
+        },
+        {
+          "nom": "Somalie",
+          "lat": 0.6,
+          "lon": 42.7
+        },
+        {
+          "nom": "Mozambique",
+          "lat": -12.5,
+          "lon": 38.0
+        }
+      ],
+      "villes": [
+        {
+          "nom": "Dar es Salaam",
+          "lat": -6.7924,
+          "lon": 39.2083
+        },
+        {
+          "nom": "Nairobi",
+          "lat": -1.2864,
+          "lon": 36.8172
+        }
+      ]
+    }
   }
 ]

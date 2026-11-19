@@ -17266,7 +17266,7 @@
         "country": "Irak",
         "period": "XIXe–XVIIIe siècle av. J.-C.",
         "museum": "British Museum, Londres",
-        "credit": "British Museum, Londres, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Queen_of_the_Night_relief_(also_Burney_relief),_1800-1750_BC,_from_Iraq._The_British_Museum,_London.jpg), photo Osama Shukir Muhammed Amin, licence CC BY-SA 4.0",
+        "credit": "British Museum, Londres, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Queen_of_the_Night_relief_%28also_Burney_relief%29,_1800-1750_BC,_from_Iraq._The_British_Museum,_London.jpg), photo Osama Shukir Muhammed Amin, licence CC BY-SA 4.0",
         "image": "images/mouvements/mesopotamie/reine-de-la-nuit.jpg",
         "sensible": true,
         "analysis": "Une plaque de terre cuite de 49,5 cm de haut, modelée en haut relief. Une déesse nue, ailée, coiffée d'une couronne à plusieurs paires de cornes, se tient debout ; elle lève les deux mains, qui tiennent chacune un anneau et un bâton, des symboles de la justice divine. Ses pieds sont des serres d'oiseau de proie, posées sur le dos de deux lions couchés ; deux grandes chouettes l'encadrent. Le corps était peint en rouge à l'origine. On ne sait pas qui elle représente : Ishtar, la déesse de l'amour et de la guerre, sa sœur Ereshkigal, la reine des enfers, ou un démon. Son lieu de découverte n'est pas connu. Le British Museum l'a achetée en 2003 pour son 250e anniversaire.",
@@ -17497,6 +17497,1338 @@
           "nom": "Damas",
           "lat": 33.502,
           "lon": 36.298
+        }
+      ]
+    }
+  },
+  {
+    "mouvement": "Empire mongol",
+    "slug": "empire-mongol",
+    "status": "published",
+    "title": "L'Empire mongol, de Gengis Khan aux Yuan",
+    "subtitle": "Mongolie, Chine, Iran et Russie, 1206 – 1368 · 24 œuvres et sites",
+    "intro": "En 1206, les tribus nomades de la steppe mongole se donnent un chef unique, Temüdjin, qui prend le nom de Gengis Khan. En quelques dizaines d'années, ses fils et ses petits-fils conquièrent la Chine, l'Asie centrale, l'Iran, l'Irak et les plaines de la Russie : c'est le plus grand empire d'un seul tenant de l'histoire. Ces conquêtes furent très violentes, mais l'empire fut aussi un immense espace d'échanges, où circulaient marchands, artisans, savants, diplomates et religions, de Pékin jusqu'à la Volga et à la Méditerranée. Les Mongols remplissent les critères d'une civilisation : un État organisé, des lois, une écriture adoptée dès 1204, des capitales comme Karakorum et Shangdu, des relais de poste à travers l'Asie et un commerce à très longue distance. L'exposition suit cette histoire jusqu'en 1368, quand les Mongols sont chassés de Chine, à travers des sites restés en Mongolie, en Chine, en Iran et en Russie, et des œuvres conservées à Taipei, Saint-Pétersbourg, Berlin, Paris, Tokyo, Shanghai, New York et Cleveland ; plusieurs photographies sont celles de visiteurs, publiées sous licence libre.",
+    "contexte": [
+      {
+        "title": "Des tribus de la steppe au plus grand empire du monde",
+        "text": "Au XIIe siècle, la steppe de l'actuelle Mongolie est partagée entre des tribus rivales d'éleveurs nomades. Temüdjin les soumet une à une et se fait proclamer Gengis Khan en 1206. Il organise son armée par groupes de dix, cent, mille et dix mille cavaliers et lance des campagnes vers la Chine du Nord et l'Asie centrale. Après sa mort en 1227, ses successeurs poursuivent les conquêtes : la Russie et l'Europe de l'Est à partir de 1237, Bagdad en 1258, la Chine du Sud en 1279. Mais l'empire devient trop grand pour un seul souverain. À partir de 1260, il se divise en quatre États dirigés par des descendants de Gengis Khan : la Chine des Yuan, l'Iran des Ilkhanides, le khanat de Djaghataï en Asie centrale et la Horde d'or en Russie."
+      },
+      {
+        "title": "Gouverner un empire nomade",
+        "text": "Le grand khan était choisi par une assemblée des princes et des chefs, le quriltaï. Les Mongols avaient des lois, attribuées à Gengis Khan, et une écriture empruntée aux Ouïghours vers 1204 ; Khoubilaï fit créer en 1269 une nouvelle écriture, le phags-pa, pour toutes les langues de l'empire. Les khans faisaient recenser les populations pour lever les impôts et les soldats, et confiaient l'administration à des fonctionnaires de toutes origines : Chinois, Iraniens, Ouïghours, Tibétains ou Européens. Des relais de poste, le yam, permettaient aux messagers de changer de cheval tout au long des routes. En Chine, les Mongols firent circuler du papier-monnaie dans tout le pays."
+      },
+      {
+        "title": "Le Ciel éternel et toutes les religions",
+        "text": "Les Mongols honoraient Tengri, le Ciel éternel, et faisaient appel à des chamanes. Ils laissaient chacun pratiquer sa religion : à Karakorum, bouddhistes, musulmans, chrétiens et taoïstes vivaient côte à côte, et les khans écoutaient leurs débats. Avec le temps, les Mongols adoptèrent la religion des peuples qu'ils gouvernaient : les khans de l'Iran devinrent musulmans à la fin du XIIIe siècle et ceux de la Horde d'or au début du XIVe, tandis que la cour des Yuan protégeait le bouddhisme tibétain. Les Mongols restaient fidèles à leur mode de vie : la chasse, les chevaux, la vie sous la tente une partie de l'année."
+      },
+      {
+        "title": "La paix mongole, la fin de l'empire et ce qu'il en reste",
+        "text": "Une fois les conquêtes achevées, la « paix mongole » rendit les routes plus sûres de la Chine à la mer Noire. Des marchands comme le Vénitien Marco Polo, des moines comme Guillaume de Rubrouck et des ambassadeurs voyagèrent d'un bout à l'autre de l'Asie ; la porcelaine, la soie, le cobalt, les techniques et les idées circulèrent. Mais les mêmes routes répandirent aussi la peste noire au XIVe siècle. Les États mongols s'affaiblirent : les Ilkhanides disparurent après 1335, et en 1368 les Ming chassèrent les Mongols de Chine. Les khans continuèrent pourtant de régner en Mongolie, et des dynasties issues de Gengis Khan gouvernèrent encore en Asie centrale et en Crimée pendant des siècles. Aujourd'hui, Gengis Khan est le héros national de la Mongolie."
+      }
+    ],
+    "bibliography": [
+      {
+        "reference": "UNESCO, Patrimoine mondial : Paysage culturel de la vallée de l'Orkhon (Karakorum)",
+        "url": "https://whc.unesco.org/fr/list/1081"
+      },
+      {
+        "reference": "UNESCO, Patrimoine mondial : Site de Xanadu",
+        "url": "https://whc.unesco.org/fr/list/1389"
+      },
+      {
+        "reference": "UNESCO, Patrimoine mondial : Soltaniyeh",
+        "url": "https://whc.unesco.org/fr/list/1188"
+      },
+      {
+        "reference": "UNESCO, Patrimoine mondial : Ensemble historique et archéologique de Bolgar",
+        "url": "https://whc.unesco.org/fr/list/981"
+      },
+      {
+        "reference": "Guillaume de Rubrouck, Voyage dans l'Empire mongol (1253-1255)"
+      },
+      {
+        "reference": "Jean-Paul Roux, Histoire de l'Empire mongol, Fayard, 1993"
+      },
+      {
+        "reference": "Notices des œuvres : musée national du Palais (Taipei), Metropolitan Museum of Art, Cleveland Museum of Art, ColBase (musées nationaux du Japon)"
+      }
+    ],
+    "works": [
+      {
+        "title": "Portrait de Gengis Khan",
+        "artist": "Peintre de la cour des Yuan",
+        "country": "Chine",
+        "period": "XIIIe–XIVe siècle",
+        "museum": "Musée national du Palais, Taipei",
+        "credit": "Musée national du Palais, Taipei, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:YuanEmperorAlbumGenghisPortrait.jpg), domaine public",
+        "image": "images/mouvements/empire-mongol/portrait-de-gengis-khan.jpg",
+        "analysis": "Sur un fond de soie clair, un homme âgé au visage large et calme, à la longue barbe blanche, regarde un peu de côté. Il porte un bonnet blanc bordé de fourrure et une robe blanche toute simple. Cette page vient d'un album de portraits des empereurs de la dynastie Yuan, peints à la cour de Chine et conservés aujourd'hui au musée national du Palais, à Taipei. Né vers 1162, Temüdjin réunit les tribus de la steppe et se fait proclamer Gengis Khan, « souverain universel », lors d'une grande assemblée des chefs mongols, le quriltaï, en 1206. Mort en 1227, il n'a jamais posé pour ce portrait : ses descendants, les empereurs Yuan, l'ont fait peindre bien après sa mort, pour honorer le fondateur de leur famille.",
+        "compare": "Le point de départ de l'exposition : un chef nomade devenu le fondateur du plus grand empire d'un seul tenant de l'histoire. Comparez avec le portrait de son petit-fils Khoubilaï, plus loin, peint dans le même album."
+      },
+      {
+        "title": "La « pierre de Gengis », stèle de Yisüngge",
+        "artist": "Graveur mongol",
+        "country": "Russie",
+        "period": "vers 1224–1225",
+        "museum": "Musée de l'Ermitage, Saint-Pétersbourg",
+        "credit": "Musée de l'Ermitage, Saint-Pétersbourg, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Hermitage_hall_366_-_06.jpg), photo Netelo, licence CC BY-SA 4.0",
+        "image": "images/mouvements/empire-mongol/pierre-de-gengis.jpg",
+        "analysis": "Une haute pierre de granit gris, arrondie en haut, maintenue par des pattes de métal dans une salle de musée. En regardant bien, on devine des lignes d'écriture verticales, très usées ; une longue fissure blanche traverse la pierre, cassée pendant son transport vers Saint-Pétersbourg au XIXe siècle. C'est la plus ancienne inscription connue en écriture mongole. Elle célèbre un exploit au tir à l'arc : Yisüngge, un neveu de Gengis Khan, aurait envoyé sa flèche à 335 aldas, soit plus de 500 mètres, vers 1225. La pierre a été trouvée en Transbaïkalie, dans l'actuelle Russie, et se trouve à l'Ermitage depuis les années 1930.",
+        "compare": "Vers 1204, Gengis Khan fait adopter l'écriture des Ouïghours, un peuple turc voisin, pour noter la langue mongole : c'est ici l'un de ses premiers usages. On l'écrit encore aujourd'hui en Mongolie-Intérieure, en Chine."
+      },
+      {
+        "title": "Cavaliers mongols à la poursuite de leurs ennemis",
+        "artist": "Peintre de l'Iran ilkhanide",
+        "country": "Iran",
+        "period": "début du XIVe siècle",
+        "museum": "Bibliothèque d'État de Berlin (albums Diez)",
+        "credit": "Bibliothèque d'État de Berlin (Staatsbibliothek zu Berlin), albums Diez, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Pursuit_by_Mongol_Warriors_%28Diez_Albums%29.jpg), domaine public",
+        "image": "images/mouvements/empire-mongol/cavaliers-mongols.jpg",
+        "lieu": "Tabriz",
+        "lieuType": "fabrication",
+        "lieuProbable": true,
+        "analysis": "Des cavaliers lancés au galop traversent la page, de gauche à droite. Beaucoup portent une armure faite de petites plaques et un casque pointu ; certains tirent à l'arc, d'autres brandissent une lance. Leurs chevaux sont petits et trapus. En bas, des ennemis tombent sous les sabots. Cette peinture, faite sans doute à Tabriz, en Iran, au début du XIVe siècle, illustre l'Histoire universelle de Rachid al-Din, le vizir des souverains mongols de l'Iran. Elle est conservée à Berlin, dans des albums réunis par Heinrich Friedrich von Diez, un diplomate prussien en poste à Istanbul à la fin du XVIIIe siècle.",
+        "compare": "L'arc et le cheval faisaient la force des armées mongoles : tout homme de la steppe apprenait à monter et à tirer dès l'enfance. Comparez avec les cavaliers de la chasse de Khoubilaï, plus loin, peints en Chine à la même époque."
+      },
+      {
+        "title": "Plaque de pommeau de selle",
+        "artist": "Orfèvre mongol",
+        "country": "Mongolie",
+        "period": "XIIIe–XVe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/35689), domaine public (CC0)",
+        "image": "images/mouvements/empire-mongol/pommeau-de-selle.jpg",
+        "analysis": "Une plaque de fer en forme d'arche, découpée à jour comme une dentelle et incrustée d'argent et d'or. Elle recouvrait l'avant d'une selle. Parmi les rinceaux de feuillages, on distingue des personnages et des animaux. Selon le musée, c'est la seule plaque de selle connue qui montre des figures humaines ou une scène profane, ici une chasse au tigre ; ses images de chasse ressemblent à celles du métal de l'Iran ilkhanide au début du XIVe siècle, et elle a sans doute été faite pour un commanditaire mongol.",
+        "compare": "Pour un peuple de cavaliers, la selle était un objet de prestige. Comparez avec les selles des cavaliers de la page précédente."
+      },
+      {
+        "title": "Tortue de pierre de Karakorum",
+        "artist": "Bâtisseurs de Karakorum",
+        "country": "Mongolie",
+        "period": "XIIIe siècle",
+        "museum": "Site archéologique, Karakorum (Kharkhorin, Mongolie)",
+        "credit": "Karakorum (Mongolie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:A_v%C3%A1ros_sarkait_jel%C3%B6l%C5%91_tekn%C5%91s%C3%B6k_k%C3%B6z%C3%BCl_az_egyik_%28One_of_the_turtles_marking_the_corners_of_the_city%29_-_panoramio.jpg), photo Gyula Péter, licence CC BY 3.0",
+        "image": "images/mouvements/empire-mongol/tortue-de-karakorum.jpg",
+        "lieu": "Karakorum",
+        "lieuType": "site",
+        "analysis": "Au milieu d'une vaste prairie, une grosse tortue de pierre grise tend la tête ; une écharpe de soie bleue, le khadag que l'on offre en signe de respect, est nouée autour de son cou. Sur son dos, un creux servait à fixer une stèle. C'est l'un des rares vestiges de Karakorum, la capitale de l'Empire mongol. Le fils de Gengis Khan, Ögödei, la fit entourer d'un mur et y fit construire un palais vers 1235. Le moine flamand Guillaume de Rubrouck, venu en 1254, y vit des quartiers de marchands et d'artisans, des temples de plusieurs religions et, devant le palais, un arbre d'argent fabriqué par un orfèvre parisien prisonnier, d'où coulaient des boissons.",
+        "compare": "Une capitale fixe pour un peuple nomade : les khans y recevaient les ambassadeurs, mais vivaient une grande partie de l'année sous la tente. Les pierres de la ville ont servi au XVIe siècle à bâtir le monastère voisin d'Erdene Zuu."
+      },
+      {
+        "title": "Bouddha Amitabha de Karakorum",
+        "artist": "Sculpteur de Karakorum",
+        "country": "Mongolie",
+        "period": "seconde moitié du XIIIe siècle",
+        "museum": "Musée de Karakorum, Kharkhorin (Mongolie)",
+        "credit": "Musée de Karakorum, Kharkhorin (Mongolie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Buddha_Amitabha_from_Karakorum,_clay_dried_in_the_sun%3B_Great_Mongol_period,_2nd_half_of_13th_century%3B_Karakorum_Museum_%282%29.jpg), photo Richard Mortel, licence CC BY 2.0",
+        "image": "images/mouvements/empire-mongol/bouddha-de-karakorum.jpg",
+        "lieu": "Karakorum",
+        "lieuType": "découverte",
+        "analysis": "Dans une vitrine, un fragment d'argile brune, abîmé et rongé sur les bords : on y reconnaît encore un bouddha assis, les jambes croisées, devant un grand halo. Selon le musée de Karakorum, c'est un bouddha Amitabha en argile séchée au soleil, trouvé dans l'ancienne capitale et daté de la seconde moitié du XIIIe siècle. Les Mongols honoraient le Ciel éternel, Tengri, mais les khans laissaient chacun pratiquer sa religion : à Karakorum vivaient côte à côte bouddhistes, musulmans, chrétiens et taoïstes, et Rubrouck y décrit des temples, deux mosquées et une église.",
+        "compare": "Une argile fragile, sortie de terre : c'est souvent tout ce qui reste de Karakorum. Le bouddhisme deviendra plus tard la grande religion des Mongols, à partir du XVIe siècle."
+      },
+      {
+        "title": "Drap d'or aux félins et aux aigles",
+        "artist": "Tisserands de l'Iran oriental",
+        "country": "Iran",
+        "period": "1225–1275",
+        "museum": "Cleveland Museum of Art, Cleveland",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1990.2), domaine public (CC0)",
+        "image": "images/mouvements/empire-mongol/drap-d-or-aux-felins.jpg",
+        "analysis": "Un grand tissu de soie, long de 1,70 m, au fond sombre où brillent des motifs d'or un peu ternis. Dans de grands médaillons festonnés, deux félins se font face ; leurs longues queues se terminent par des têtes de dragon. Entre les médaillons apparaissent des aigles à deux têtes, et en haut court une bande d'écriture qui imite l'arabe. Selon le musée, l'or était pour les Mongols le symbole du pouvoir impérial ; ce drap d'or exceptionnellement grand ornait peut-être l'intérieur d'un palais ou d'une tente majestueuse.",
+        "compare": "Les Mongols aimaient le luxe de l'or : les empereurs offraient à leur cour des robes de cérémonie toutes d'une couleur, tissées de soie et d'or. Comparez avec la robe de l'impératrice Chabi, plus loin."
+      },
+      {
+        "title": "La prise de Bagdad en 1258",
+        "artist": "Peintre de l'Iran ilkhanide",
+        "country": "Iran",
+        "period": "début du XIVe siècle",
+        "museum": "Bibliothèque d'État de Berlin (albums Diez)",
+        "credit": "Bibliothèque d'État de Berlin (Staatsbibliothek zu Berlin), albums Diez, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Fall_Of_Baghdad_%28Diez_Albums%29.jpg), domaine public",
+        "image": "images/mouvements/empire-mongol/prise-de-bagdad.jpg",
+        "lieu": "Bagdad",
+        "lieuType": "représenté",
+        "analysis": "Une double page : en haut, les murailles roses de la ville et ses tours, au milieu le fleuve aux vagues bleues, en bas l'armée mongole. Des soldats tirent à l'arc à l'abri de grands boucliers ronds ; à gauche, une machine de siège, à droite des tambours. Au centre droit, un personnage tente de s'enfuir en bateau. La scène illustre l'Histoire universelle de Rachid al-Din : en 1258, Houlagou, petit-fils de Gengis Khan, prend Bagdad, la capitale des califes abbassides depuis cinq siècles. La ville est pillée et le dernier calife est mis à mort. Houlagou fonde ensuite en Iran la dynastie des Ilkhanides.",
+        "compare": "Les conquêtes mongoles furent très meurtrières : des villes entières furent détruites. Ce sont pourtant des historiens au service des Mongols, comme Rachid al-Din, qui ont raconté cette histoire."
+      },
+      {
+        "title": "Laissez-passer (paiza) en écriture phags-pa",
+        "artist": "Atelier de la cour des Yuan",
+        "country": "Chine",
+        "period": "fin du XIIIe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/39624), domaine public (CC0)",
+        "image": "images/mouvements/empire-mongol/paiza.jpg",
+        "analysis": "Une plaque ronde en fer, haute de 18 cm, avec un anneau pour la suspendre et, en haut, un masque d'animal. Les lettres, découpées dans le métal et remplies d'argent, forment des lignes verticales. C'est l'écriture phags-pa, créée par un moine tibétain pour l'empire de Khoubilaï. Selon le musée, l'inscription dit : « Par la force du Ciel éternel, un ordre de l'empereur. Celui qui ne le respecte pas sera coupable. » Les messagers et les fonctionnaires qui portaient cette plaque pouvaient obtenir des chevaux, de la nourriture et un logement dans les relais de poste, le yam, établis sur les routes de tout l'empire.",
+        "compare": "Un passeport avant l'heure : les relais de poste et ces plaques permettaient aux khans de gouverner un empire immense. Comparez avec le sceau chinois de la lettre d'Oldjaïtou, plus loin."
+      },
+      {
+        "title": "Portrait de Khoubilaï Khan",
+        "artist": "Peintre de la cour des Yuan, attribué à Anige",
+        "country": "Chine",
+        "period": "vers 1294",
+        "museum": "Musée national du Palais, Taipei",
+        "credit": "Musée national du Palais, Taipei, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:YuanEmperorAlbumKhubilaiPortrait.jpg), domaine public",
+        "image": "images/mouvements/empire-mongol/portrait-de-khoubilai.jpg",
+        "analysis": "Un homme au visage plein, à la moustache et à la petite barbe noires, regarde droit devant lui. Il porte une robe blanche et un bonnet blanc bordé de noir ; deux boucles de cheveux tressés pendent derrière ses oreilles. Cette page vient du même album que le portrait de Gengis Khan. Petit-fils de Gengis Khan, Khoubilaï devient grand khan en 1260 et achève la conquête de la Chine du Sud en 1279 ; il fonde la dynastie Yuan et règne depuis Dadu, l'actuelle Pékin. Ce portrait, attribué à l'artiste népalais Anige, aurait été peint après sa mort, en 1294.",
+        "compare": "Un empereur mongol peint à la manière chinoise : le même album réunit les khans et leurs épouses. Comparez avec le portrait de l'impératrice Chabi, juste après."
+      },
+      {
+        "title": "Portrait de l'impératrice Chabi",
+        "artist": "Peintre de la cour des Yuan, attribué à Anige",
+        "country": "Chine",
+        "period": "vers 1294",
+        "museum": "Musée national du Palais, Taipei",
+        "credit": "Musée national du Palais, Taipei, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:YuanEmpressAlbumChabi.jpg), domaine public",
+        "image": "images/mouvements/empire-mongol/portrait-de-chabi.jpg",
+        "analysis": "Une femme au visage rond et pâle porte une très haute coiffe rouge, le boqta, ornée de fleurs et de perles ; de longs pendentifs de perles encadrent son visage. Sa robe rouge, au col brodé d'or, est celle des cérémonies de la cour. Chabi était l'épouse préférée de Khoubilaï ; elle est morte en 1281. Ce portrait vient d'un album des impératrices de la dynastie Yuan, conservé au musée national du Palais, à Taipei. Les femmes de la famille impériale avaient un grand rôle chez les Mongols : elles conseillaient le khan, géraient leurs propres terres et pouvaient gouverner pendant les régences.",
+        "compare": "La haute coiffe boqta était portée par les femmes mariées de l'aristocratie mongole, de la Chine à l'Iran. Comparez avec la chasse de Khoubilaï, juste après, où Chabi accompagne l'empereur."
+      },
+      {
+        "title": "Khoubilaï Khan à la chasse",
+        "artist": "Liu Guandao",
+        "country": "Chine",
+        "period": "1280",
+        "museum": "Musée national du Palais, Taipei",
+        "credit": "Musée national du Palais, Taipei (https://digitalarchive.npm.gov.tw/Collection/Detail/745?dep=P), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:%E5%85%83%E5%8A%89%E8%B2%AB%E9%81%93%E7%95%AB%E5%85%83%E4%B8%96%E7%A5%96%E5%87%BA%E7%8D%B5%E5%9C%96_%E8%BB%B8.jpg), domaine public (CC0)",
+        "image": "images/mouvements/empire-mongol/khoubilai-a-la-chasse.jpg",
+        "analysis": "Une grande peinture sur soie, haute de près de deux mètres : dans un paysage désertique, sous des collines de sable où passe une caravane de chameaux, des cavaliers s'arrêtent au cours d'une chasse. En haut à gauche, un archer tend son arc vers le ciel ; à droite, un chien de chasse court. Selon le musée, l'homme vêtu de blanc sur un cheval noir, au centre, est l'empereur Khoubilaï ; la femme en blanc qui chevauche à ses côtés serait l'impératrice Chabi. L'inscription dit que le tableau fut « respectueusement peint » en 1280 par Liu Guandao, un fonctionnaire du service de la garde-robe impériale.",
+        "compare": "Les empereurs Yuan gardaient les plaisirs de la steppe : la chasse, les chevaux, la vie en plein air. Comparez avec les palefreniers de Ren Renfa, plus loin."
+      },
+      {
+        "title": "Shangdu (Xanadu), la capitale d'été",
+        "artist": "Bâtisseurs de Khoubilaï",
+        "country": "Chine",
+        "period": "à partir de 1256",
+        "museum": "Site archéologique, Shangdu (Mongolie-Intérieure, Chine)",
+        "credit": "Shangdu (Mongolie-Intérieure, Chine), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Yuan_Shangdu.jpg), photo Flaumfeder, licence CC BY-SA 4.0",
+        "image": "images/mouvements/empire-mongol/shangdu.jpg",
+        "lieu": "Shangdu",
+        "lieuType": "site",
+        "analysis": "Dans une immense prairie jaunie, des passerelles de bois conduisent les visiteurs au-dessus des fondations de pierre d'anciens bâtiments, au fond d'une fosse. Au loin, des collines basses ; rien ne rappelle plus le luxe d'une capitale impériale. Khoubilaï fit construire cette ville au milieu des années 1250, d'abord sous le nom de Kaiping ; elle devint Shangdu, la « capitale d'en haut », en 1264. Après l'installation de la cour à Dadu (Pékin), l'empereur y passait l'été. Le Vénitien Marco Polo dit l'avoir visitée en 1275. Le site, que l'on appelle en Occident Xanadu, est inscrit au patrimoine mondial de l'UNESCO depuis 2012.",
+        "compare": "Une ville chinoise au bord de la steppe : Khoubilaï vivait entre deux mondes. Plus de cinq siècles plus tard, le poète anglais Coleridge rêvait encore de « Xanadu »."
+      },
+      {
+        "title": "Billet de deux guan de l'ère Zhiyuan",
+        "artist": "Atelier impérial des billets",
+        "country": "Chine",
+        "period": "à partir de 1287",
+        "museum": "Musée de Shanghai",
+        "credit": "Musée de Shanghai, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Yuan_Paper_Money_01.jpg), photo Gary Lee Todd, domaine public (CC0)",
+        "image": "images/mouvements/empire-mongol/billet-de-deux-guan.jpg",
+        "analysis": "Une feuille de papier grisâtre, présentée dans une vitrine, imprimée de caractères noirs, avec au centre un cadre où figure en grand le chiffre « deux », et des sceaux rouges. L'étiquette du musée l'identifie comme un billet « Zhiyuan tongxing baochao » de deux guan, de la dynastie Yuan. Dès 1260, Khoubilaï fit imprimer du papier-monnaie pour tout son empire ; la série Zhiyuan fut créée en 1287 pour remplacer les anciens billets qui avaient perdu de leur valeur pendant les guerres. Marco Polo s'étonnait que les Mongols paient avec du papier.",
+        "compare": "La Chine connaissait les billets depuis les Song, mais les Mongols en firent la monnaie d'un empire immense. Ils durent pourtant en imprimer toujours plus, et le papier-monnaie perdit peu à peu sa valeur."
+      },
+      {
+        "title": "Rouleau illustré des invasions mongoles du Japon",
+        "artist": "Peintre japonais",
+        "country": "Japon",
+        "period": "fin du XIIIe siècle",
+        "museum": "Musée des collections impériales (Sannomaru Shōzōkan), Tokyo",
+        "credit": "Musée des collections impériales (Sannomaru Shōzōkan), Tokyo, fiche ColBase (https://colbase.nich.go.jp/collection_items/shozokan/SZK002942), image via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:M%C5%8Dko_Sh%C5%ABrai_Ekotoba.jpg), domaine public",
+        "image": "images/mouvements/empire-mongol/invasion-mongole-du-japon.jpg",
+        "lieu": "Baie de Hakata",
+        "lieuType": "représenté",
+        "analysis": "À droite, un samouraï en armure, sur un cheval blessé qui saigne, fonce vers des soldats ennemis ; au-dessus de lui, une bombe explose dans une gerbe de feu. À gauche, des archers vêtus de longues robes, coiffés de bonnets, lui tirent dessus, tandis que d'autres s'enfuient. Le samouraï est Takezaki Suenaga, qui fit faire ce rouleau pour garder le souvenir de sa bravoure lors des deux tentatives d'invasion du Japon par l'armée de Khoubilaï, en 1274 et en 1281, près de la baie de Hakata. Selon le musée, le rouleau a des parties manquantes et mélangées ; des historiens pensent que certains détails, comme la bombe et trois des soldats mongols, ont été ajoutés bien plus tard.",
+        "compare": "Les deux flottes mongoles furent repoussées par les samouraïs et détruites par des tempêtes, que les Japonais appelèrent kamikaze, le « vent divin ». Le Japon resta hors de l'empire."
+      },
+      {
+        "title": "Le dôme de Soltaniyeh, tombeau d'Oldjaïtou",
+        "artist": "Bâtisseurs ilkhanides",
+        "country": "Iran",
+        "period": "1302–1312",
+        "museum": "Site, Soltaniyeh (Iran)",
+        "credit": "Soltaniyeh (Iran), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Dome_of_Soltaniyeh.jpg), photo Bita.d, licence CC BY-SA 4.0",
+        "image": "images/mouvements/empire-mongol/dome-de-soltaniyeh.jpg",
+        "lieu": "Soltaniyeh",
+        "lieuType": "site",
+        "analysis": "Au-dessus des arbres d'un jardin, un grand édifice de briques porte un dôme couvert de faïence bleu turquoise ; une galerie d'arcades court sous le dôme, et des minarets se dressent à ses angles. C'est le tombeau d'Oldjaïtou, souverain mongol de l'Iran, construit de 1302 à 1312 dans sa nouvelle capitale, Soltaniyeh. Son dôme, haut d'environ 50 mètres et large de 25, est fait de deux coques de briques ; c'est l'un des plus grands dômes de briques du monde. Le monument est inscrit au patrimoine mondial de l'UNESCO depuis 2005.",
+        "compare": "Devenus musulmans à la fin du XIIIe siècle, les Ilkhanides firent bâtir en Iran de grands monuments islamiques. Comparez avec le mausolée de Bolgar, en Russie, plus loin."
+      },
+      {
+        "title": "Lettre d'Oldjaïtou au roi de France Philippe le Bel",
+        "artist": "Chancellerie ilkhanide",
+        "country": "Iran",
+        "period": "1305",
+        "museum": "Archives nationales, Paris",
+        "credit": "Archives nationales, Paris, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:OljeituToPhilippeLeBel1305.jpg), photo PHGCOM, licence CC BY-SA 4.0",
+        "image": "images/mouvements/empire-mongol/lettre-d-oldjaitou.jpg",
+        "analysis": "Un long rouleau de papier, déroulé dans une vitrine : des lignes d'écriture mongole, tracées à l'encre noire, se lisent de haut en bas. Au milieu, un grand sceau carré rouge porte des caractères chinois. En 1305, Oldjaïtou, souverain mongol de l'Iran, écrit au roi de France Philippe le Bel : il lui annonce que les princes mongols, longtemps en guerre entre eux, ont fait la paix, et souhaite garder de bonnes relations avec les rois chrétiens d'Occident. Le sceau, gravé en écriture chinoise ancienne, rappelle les liens entre les khans de l'Iran et la cour des Yuan en Chine. Aucune réponse du roi de France n'a été retrouvée.",
+        "compare": "Une lettre arrivée d'Asie jusqu'à Paris : les Mongols cherchaient une alliance avec les Européens contre les Mamelouks d'Égypte. Comparez avec le laissez-passer en écriture phags-pa, plus haut."
+      },
+      {
+        "title": "Trois chevaux et quatre palefreniers",
+        "artist": "Ren Renfa",
+        "country": "Chine",
+        "period": "vers 1320",
+        "museum": "Cleveland Museum of Art, Cleveland",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1960.181), domaine public (CC0)",
+        "image": "images/mouvements/empire-mongol/trois-chevaux-et-quatre-palefreniers.jpg",
+        "analysis": "Sur un long rouleau de soie qui se déroule horizontalement, trois chevaux, un gris pommelé, un isabelle et un bai, marchent ou se tiennent à côté de leurs palefreniers. Les hommes, en longues robes rouges ou grises, tiennent les rênes. Il n'y a aucun décor, seulement les sceaux rouges des collectionneurs. Ren Renfa était un haut fonctionnaire chinois au service des Yuan, connu aussi comme spécialiste des canaux d'irrigation. Selon le musée, ses chevaux plaisaient aux lettrés chinois comme aux Mongols de la cour impériale ; il imitait les grands peintres de chevaux des dynasties Tang et Song.",
+        "compare": "Pour les Mongols, le cheval valait plus que tout : les peintres chinois au service des Yuan en firent un grand sujet. Comparez avec les cavaliers de la peinture iranienne, plus haut."
+      },
+      {
+        "title": "Figurine de Mongol",
+        "artist": "Potier chinois",
+        "country": "Chine",
+        "period": "XIVe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/74174), domaine public (CC0)",
+        "image": "images/mouvements/empire-mongol/figurine-de-mongol.jpg",
+        "analysis": "Une statuette de terre cuite grise, haute de 29 cm, sur un petit socle. Un homme debout, le visage rond, porte un bonnet à rabats, une longue robe croisée serrée par une ceinture et des bottes ; ses mains sont jointes devant lui, cachées dans ses manches. Le musée l'appelle « figurine de Mongol » et la date de la dynastie Yuan, au XIVe siècle. Les figurines de ce genre étaient en général déposées dans les tombes, pour accompagner le mort.",
+        "compare": "La robe et le bonnet des Mongols, comme sur les portraits des empereurs : sous les Yuan, la société de Chine était divisée en groupes, et les Mongols occupaient le premier rang."
+      },
+      {
+        "title": "Jarre bleu et blanc à anses en têtes de lion",
+        "artist": "Potiers de Jingdezhen",
+        "country": "Chine",
+        "period": "XIVe siècle",
+        "museum": "Cleveland Museum of Art, Cleveland",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1962.154), domaine public (CC0)",
+        "image": "images/mouvements/empire-mongol/jarre-bleu-et-blanc.jpg",
+        "lieu": "Jingdezhen",
+        "lieuType": "fabrication",
+        "analysis": "Une jarre de porcelaine blanche, haute de 39 cm, peinte en bleu profond de grandes fleurs et de feuillages. Deux petites têtes de lion servent d'anses ; sur l'épaule, une bande de motifs en forme de nuages encadre des phénix. Selon le musée, c'est un exemple classique de la porcelaine « bleu et blanc » des Yuan, fabriquée à Jingdezhen au plus tard dans les années 1330 pour la cour, le peuple et le commerce lointain. Le bleu de cobalt était importé d'Iran, sans doute de Kachan, et ces bandes de phénix se retrouvent aussi dans l'art de l'Iran ilkhanide.",
+        "compare": "Le cobalt d'Iran sur la porcelaine de Chine : un mariage rendu possible par la paix mongole, qui reliait l'Asie d'un bout à l'autre. Comparez avec le Grand Shahnama mongol, juste après."
+      },
+      {
+        "title": "Bahram Gour tue un dragon, page du « Grand Shahnama mongol »",
+        "artist": "Peintre de Tabriz",
+        "country": "Iran",
+        "period": "1330–1335",
+        "museum": "Cleveland Museum of Art, Cleveland",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1943.658.b), domaine public (CC0)",
+        "image": "images/mouvements/miniature-persane/grand-shahnama-mongol-bahram-dragon.jpg",
+        "lieu": "Tabriz",
+        "lieuType": "fabrication",
+        "analysis": "Au milieu d'une page couverte de colonnes d'écriture persane, une peinture : un roi vêtu de bleu plonge son épée dans le poitrail d'un énorme dragon aux écailles grises, enroulé autour des rochers ; à droite, son cheval rouge. Le roi est Bahram Gour, souverain de l'Iran ancien et grand chasseur. Cette page vient du « Grand Shahnama mongol », un immense manuscrit du Livre des rois du poète Ferdowsi, peint à Tabriz pour la cour des Ilkhanides vers 1330–1335. Selon le musée, les rochers, l'arbre et le dragon montrent ce que la peinture iranienne de l'époque mongole a emprunté aux modèles chinois. Au début du XXe siècle, un marchand parisien, Georges Demotte, découpa le manuscrit pour en vendre les pages une à une.",
+        "compare": "Les Mongols de l'Iran faisaient illustrer l'épopée nationale des Iraniens : un dragon à la chinoise pour un héros persan. Cette page est aussi présentée dans l'exposition sur la miniature persane."
+      },
+      {
+        "title": "Casque au nom de Djanibek, khan de la Horde d'or",
+        "artist": "Armurier de la Horde d'or",
+        "country": "Asie centrale ou Russie",
+        "period": "vers 1342–1357",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/32641), domaine public (CC0)",
+        "image": "images/mouvements/empire-mongol/casque-de-djanibek.jpg",
+        "analysis": "Un casque d'acier brun, en forme d'ogive, percé d'un trou au sommet. Autour du front court une large bande d'inscription en lettres arabes, incrustée d'argent ; en bas, le bord est découpé de deux échancrures arrondies. Selon le musée, le casque a été trouvé au Tibet. L'inscription dit qu'il a été fait sur l'ordre du « sultan Mahmoud Djanibek khan », qui régna de 1342 à 1357 sur la Horde d'or, l'État mongol des steppes de la Volga et de la mer Noire. Ce serait le seul casque connu portant le nom d'un souverain mongol de son temps.",
+        "compare": "Un khan mongol qui porte un nom musulman et se dit sultan : à l'ouest de l'empire, la Horde d'or s'était convertie à l'islam au début du XIVe siècle. Comparez avec le mausolée de Bolgar, juste après."
+      },
+      {
+        "title": "Le mausolée des khans de Bolgar",
+        "artist": "Bâtisseurs de la Horde d'or",
+        "country": "Russie",
+        "period": "début du XIVe siècle",
+        "museum": "Site archéologique, Bolgar (Tatarstan, Russie)",
+        "credit": "Bolgar (Tatarstan, Russie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Khans'_mausoleum,_Bolgar.JPG), photo Alaexis, licence CC BY-SA 3.0",
+        "image": "images/mouvements/empire-mongol/mausolee-de-bolgar.jpg",
+        "lieu": "Bolgar",
+        "lieuType": "site",
+        "analysis": "Dans une prairie bordée d'arbres d'automne, un petit édifice carré en pierre blanche, percé de deux étroites fenêtres, est coiffé d'un dôme ; au premier plan, les fondations basses d'un mur. Ce mausolée du début du XIVe siècle se dresse à Bolgar, au bord de la Volga, dans l'actuel Tatarstan, en Russie. La ville, où les Bulgares de la Volga avaient adopté l'islam dès 922, fut au XIIIe siècle la première capitale de la Horde d'or, selon l'UNESCO, qui a inscrit le site au patrimoine mondial. Des tombes musulmanes ont été trouvées dans ce mausolée.",
+        "compare": "De la Volga au Pacifique, l'Empire mongol s'était partagé entre plusieurs khanats. Les Tatars de Russie se souviennent encore de Bolgar comme du lieu de naissance de l'islam dans leur région."
+      },
+      {
+        "title": "La Terrasse des nuages de Juyongguan",
+        "artist": "Bâtisseurs de l'empereur Toghon Temür",
+        "country": "Chine",
+        "period": "1342–1345",
+        "museum": "Site, Juyongguan (Pékin, Chine)",
+        "credit": "Juyongguan (Pékin, Chine), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Yuntai_south_side_%282013%29.jpg), photo BabelStone, licence CC BY-SA 3.0",
+        "image": "images/mouvements/empire-mongol/terrasse-des-nuages.jpg",
+        "lieu": "Juyongguan",
+        "lieuType": "site",
+        "analysis": "Une grande plate-forme de pierre blanche, couronnée de créneaux, est percée d'une porte en forme d'arche à cinq pans ; derrière, on aperçoit la Grande Muraille sur les collines. Elle fut construite de 1342 à 1345 sur l'ordre du dernier empereur Yuan, Toghon Temür, au col de Juyongguan, sur la route entre Pékin et la steppe ; elle portait autrefois des stupas bouddhiques. À l'intérieur du passage, les murs sont sculptés des quatre rois célestes, gardiens du bouddhisme, et de textes bouddhiques gravés en six écritures : sanskrit, tibétain, mongol en écriture phags-pa, ouïghour, tangoute et chinois.",
+        "compare": "Six écritures sur un même mur : l'image d'un empire qui réunissait des peuples très divers. Le point d'arrivée de l'exposition : en 1368, les Ming chassent les Mongols de Chine, mais les khans régneront encore en Mongolie."
+      }
+    ],
+    "carte": {
+      "image": "images/mouvements/cartes/empire-mongol.svg",
+      "ouest": 36,
+      "est": 142,
+      "sud": 18,
+      "nord": 58,
+      "lieux": [
+        {
+          "nom": "Tabriz",
+          "lat": 38.0739,
+          "lon": 46.2961
+        },
+        {
+          "nom": "Karakorum",
+          "lat": 47.1975,
+          "lon": 102.8238
+        },
+        {
+          "nom": "Bagdad",
+          "lat": 33.3153,
+          "lon": 44.3661
+        },
+        {
+          "nom": "Shangdu",
+          "lat": 42.358,
+          "lon": 116.1852
+        },
+        {
+          "nom": "Baie de Hakata",
+          "lat": 33.632,
+          "lon": 130.3734
+        },
+        {
+          "nom": "Soltaniyeh",
+          "lat": 36.4338,
+          "lon": 48.7959
+        },
+        {
+          "nom": "Jingdezhen",
+          "lat": 29.2942,
+          "lon": 117.2036
+        },
+        {
+          "nom": "Bolgar",
+          "lat": 54.9774,
+          "lon": 49.0543
+        },
+        {
+          "nom": "Juyongguan",
+          "lat": 40.289,
+          "lon": 116.068
+        }
+      ],
+      "pays": [
+        {
+          "nom": "Mongolie",
+          "lat": 46.8,
+          "lon": 112.0
+        },
+        {
+          "nom": "Chine",
+          "lat": 36.5,
+          "lon": 99.5
+        },
+        {
+          "nom": "Russie",
+          "lat": 55.5,
+          "lon": 85.0
+        },
+        {
+          "nom": "Kazakhstan",
+          "lat": 48.0,
+          "lon": 67.0
+        },
+        {
+          "nom": "Iran",
+          "lat": 31.0,
+          "lon": 56.5
+        },
+        {
+          "nom": "Irak",
+          "lat": 31.0,
+          "lon": 42.5
+        },
+        {
+          "nom": "Japon",
+          "lat": 36.8,
+          "lon": 135.5
+        },
+        {
+          "nom": "Inde",
+          "lat": 23.0,
+          "lon": 79.0
+        },
+        {
+          "nom": "Ouzbékistan",
+          "lat": 42.0,
+          "lon": 62.5
+        },
+        {
+          "nom": "Afghanistan",
+          "lat": 33.0,
+          "lon": 65.5
+        }
+      ],
+      "villes": [
+        {
+          "nom": "Samarcande",
+          "lat": 39.655,
+          "lon": 66.976
+        },
+        {
+          "nom": "Lhassa",
+          "lat": 29.646,
+          "lon": 91.141
+        },
+        {
+          "nom": "Xi'an",
+          "lat": 34.261,
+          "lon": 108.942
+        },
+        {
+          "nom": "Astrakhan",
+          "lat": 46.35,
+          "lon": 48.035
+        }
+      ]
+    }
+  },
+  {
+    "mouvement": "Mayas",
+    "slug": "mayas",
+    "status": "published",
+    "title": "Les Mayas, des cités de la forêt au Popol Vuh",
+    "subtitle": "Mexique, Guatemala, Belize et Honduras, vers 350 av. J.-C. – 1697 · 21 œuvres et sites",
+    "intro": "Dans les forêts tropicales et les plaines calcaires du sud du Mexique, du Guatemala, du Belize et du Honduras, les Mayas ont bâti pendant près de deux mille ans des villes de pierre, des pyramides et des palais. Ils n'ont jamais formé un seul empire, mais des dizaines de royaumes rivaux, gouvernés par des rois et parfois des reines. Ils ont inventé l'écriture la plus complète de l'Amérique ancienne, des calendriers très précis et une astronomie savante ; ils utilisaient le zéro. Les Mayas remplissent tous les critères d'une civilisation : des villes, des États, des monuments, l'écriture, des métiers spécialisés et des échanges lointains. L'exposition suit cette histoire, des premières grandes cités jusqu'à la conquête espagnole, à travers des sites restés au Mexique, au Guatemala, au Belize et au Honduras, des œuvres du musée national d'anthropologie de Mexico et du musée de Copán, et des pièces conservées à Londres, Dresde, Chicago, Cleveland et New Haven ; beaucoup de photographies sont celles de visiteurs, publiées sous licence libre. Les Mayas n'ont pas disparu : leurs descendants vivent toujours dans ces régions et parlent des langues mayas.",
+    "contexte": [
+      {
+        "title": "Des royaumes rivaux dans la forêt",
+        "text": "Les premières grandes villes mayas, comme El Mirador, apparaissent plusieurs siècles avant notre ère. Entre le IIIe et le IXe siècle de notre ère, la période dite classique, des dizaines de cités-États se partagent les basses terres : Tikal, Calakmul, Palenque, Copán, Caracol, Yaxchilán… Chaque cité a son roi, le « seigneur divin », qui fait sculpter son portrait et ses exploits sur des stèles. Les grands royaumes, comme Tikal et Calakmul, s'allient avec les petits et se font la guerre. Au IXe siècle, beaucoup de villes du sud sont abandonnées, pour des raisons encore discutées : guerres, sécheresses, terres épuisées. Les cités du Yucatán, au nord, prennent le relais : Uxmal, Chichén Itzá, puis Mayapán, jusqu'au XVe siècle."
+      },
+      {
+        "title": "Le maïs, les marchés et les métiers",
+        "text": "Les Mayas cultivent surtout le maïs, mais aussi les haricots, les courges, le coton et le cacao. Pour nourrir des villes de dizaines de milliers d'habitants, ils aménagent des champs en terrasses, des canaux et des réservoirs. Les marchands échangent sur de longues distances le jade, l'obsidienne, le sel, le coton, les plumes de quetzal et les fèves de cacao, à pied et en canoë le long des côtes. Les villes comptent de nombreux métiers spécialisés : architectes, sculpteurs, peintres, potiers, tisserandes, et surtout les scribes, très respectés, qui appartiennent souvent à la noblesse. La société est hiérarchisée, des rois et des nobles jusqu'aux paysans."
+      },
+      {
+        "title": "Les dieux, le temps et le ciel",
+        "text": "Les Mayas honorent de nombreux dieux : le dieu du maïs, le dieu de la pluie Chaak, le serpent à plumes Kukulcán… Les rois et les reines offrent leur propre sang lors de rites, pour communiquer avec les dieux et les ancêtres. Le jeu de balle a lui aussi un sens religieux. Les Mayas mesurent le temps avec plusieurs calendriers qui s'emboîtent : un cycle de 260 jours, une année de 365 jours et le « compte long », qui compte les jours depuis une date de départ très ancienne. Ils comptent en base 20 et utilisent un signe pour le zéro. Leurs astronomes suivent le Soleil, la Lune et Vénus, et savent prévoir les éclipses."
+      },
+      {
+        "title": "L'écriture, la conquête et les Mayas d'aujourd'hui",
+        "text": "L'écriture maya mêle des signes qui notent des mots et d'autres qui notent des syllabes. Les scribes écrivaient sur la pierre, la céramique et dans des livres de papier d'écorce pliés en accordéon. Après l'arrivée des Espagnols, au XVIe siècle, des missionnaires brûlent beaucoup de ces livres ; il n'en reste que quatre. L'écriture tombe dans l'oubli et n'est déchiffrée en grande partie qu'au XXe siècle. La conquête est longue : la dernière cité indépendante, Nojpetén, tombe en 1697. Pourtant, les Mayas ont gardé leurs langues et beaucoup de leurs traditions, et des millions de personnes parlent aujourd'hui des langues mayas. Plusieurs sites sont inscrits au patrimoine mondial de l'UNESCO, mais beaucoup d'œuvres ont été pillées et vendues à l'étranger."
+      }
+    ],
+    "bibliography": [
+      {
+        "reference": "UNESCO, Patrimoine mondial : Parc national de Tikal",
+        "url": "https://whc.unesco.org/fr/list/64"
+      },
+      {
+        "reference": "UNESCO, Patrimoine mondial : Cité préhispanique et parc national de Palenque",
+        "url": "https://whc.unesco.org/fr/list/411"
+      },
+      {
+        "reference": "UNESCO, Patrimoine mondial : Site maya de Copán",
+        "url": "https://whc.unesco.org/fr/list/129"
+      },
+      {
+        "reference": "UNESCO, Patrimoine mondial : Cité préhispanique de Chichén Itzá",
+        "url": "https://whc.unesco.org/fr/list/483"
+      },
+      {
+        "reference": "UNESCO, Patrimoine mondial : Ancienne cité maya et forêts tropicales protégées de Calakmul",
+        "url": "https://whc.unesco.org/fr/list/1061"
+      },
+      {
+        "reference": "Michael D. Coe, Breaking the Maya Code, Thames & Hudson, 1992"
+      },
+      {
+        "reference": "Notices des œuvres : British Museum, Cleveland Museum of Art, Yale University Art Gallery, SLUB Dresde, Newberry Library, INAH"
+      }
+    ],
+    "works": [
+      {
+        "title": "La Danta, la grande pyramide d'El Mirador",
+        "artist": "Bâtisseurs mayas",
+        "country": "Guatemala",
+        "period": "vers 350 av. J.-C. – 100 apr. J.-C.",
+        "museum": "Site archéologique, El Mirador (Petén, Guatemala)",
+        "credit": "El Mirador (Guatemala), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Pir%C3%A1mide_de_la_Danta,_Pet%C3%A9n.jpg), photo Konjiki1, domaine public (CC0)",
+        "image": "images/mouvements/mayas/la-danta-el-mirador.jpg",
+        "lieu": "El Mirador",
+        "lieuType": "site",
+        "analysis": "Vue d'en haut, une immense masse de pierre en gradins sort de la forêt tropicale : des arbres poussent sur ses terrasses, et la jungle s'étend jusqu'à l'horizon. C'est La Danta, l'une des pyramides de la cité d'El Mirador, dans le nord du Guatemala. Haute d'environ 70 mètres, elle est, selon le Guinness des records, la plus grande pyramide jamais construite par les Mayas, avec un volume d'environ 2,8 millions de mètres cubes. Elle a été bâtie à la fin de la période dite préclassique, plusieurs siècles avant les grandes cités classiques comme Tikal. La forêt a recouvert la ville après son abandon.",
+        "compare": "Le point de départ de l'exposition : bien avant notre ère, les Mayas bâtissaient déjà des villes et des monuments géants. Comparez avec le temple I de Tikal, plus loin, haut de 47 mètres et construit près de mille ans plus tard."
+      },
+      {
+        "title": "La structure II de Calakmul",
+        "artist": "Bâtisseurs mayas",
+        "country": "Mexique",
+        "period": "agrandie pendant des siècles, jusqu'au VIIe siècle",
+        "museum": "Site archéologique, Calakmul (Campeche, Mexique)",
+        "credit": "Calakmul (Mexique), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Calakmul,_Structure_II_%2814386305393%29.jpg), photo Arian Zwegers, licence CC BY 2.0",
+        "image": "images/mouvements/mayas/calakmul-structure-ii.jpg",
+        "lieu": "Calakmul",
+        "lieuType": "site",
+        "analysis": "Une large pyramide de pierre grise monte par des escaliers et des terrasses successives ; à son pied se dressent des stèles, et la forêt l'entoure. La structure II est le plus grand édifice de Calakmul, au Mexique ; elle a été agrandie à plusieurs reprises au cours des siècles. Calakmul était la capitale de la dynastie du Serpent, Kaan, dont le glyphe est une tête de serpent. Au VIIe siècle, sous des rois comme Yuknoom Ch'een, elle dominait de nombreuses cités et menait une longue rivalité contre Tikal ; en 695, son armée fut battue par le roi de Tikal Jasaw Chan K'awiil. Le site est inscrit au patrimoine mondial de l'UNESCO.",
+        "compare": "Les cités mayas ne formaient pas un empire unique : de grands royaumes rivaux, comme Calakmul et Tikal, s'affrontaient et se disputaient des alliés. Comparez avec Caracol, juste après, qui vainquit Tikal."
+      },
+      {
+        "title": "La Caana de Caracol",
+        "artist": "Bâtisseurs mayas",
+        "country": "Belize",
+        "period": "VIe–IXe siècle",
+        "museum": "Site archéologique, Caracol (Belize)",
+        "credit": "Caracol (Belize), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Flickr_-_archer10_%28Dennis%29_-_Belize-1016.jpg), photo Dennis G. Jarvis, licence CC BY-SA 2.0",
+        "image": "images/mouvements/mayas/caana-caracol.jpg",
+        "lieu": "Caracol",
+        "lieuType": "site",
+        "analysis": "Depuis un grand édifice de Caracol, la vue plonge sur des escaliers de pierre, une cour herbeuse où marchent quelques visiteurs, des murs bas de pièces et, au fond, une pyramide sortant de la forêt. Ces ruines entourent la Caana, le plus grand édifice de Caracol et plus haute construction humaine du Belize, avec 43 mètres. Selon une inscription trouvée par les archéologues Arlen et Diane Chase en 1986, Caracol vainquit Tikal en 562. La ville connut ensuite une forte croissance : elle aurait compté plus de 100 000 habitants, avec des champs en terrasses et des chaussées qui reliaient ses quartiers.",
+        "compare": "Plus de 100 000 habitants dans la forêt : les fouilles récentes montrent que les villes mayas étaient bien plus peuplées qu'on ne le pensait. Comparez avec la stèle de la reine Dame K'abel, juste après."
+      },
+      {
+        "title": "Stèle de la reine Dame K'abel",
+        "artist": "Sculpteur maya",
+        "country": "Guatemala",
+        "period": "692",
+        "museum": "Cleveland Museum of Art, Cleveland",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1967.29), domaine public (CC0)",
+        "image": "images/mouvements/art-maya-classique/stele-dame-kabel.jpg",
+        "lieu": "El Perú-Waka'",
+        "lieuType": "origine",
+        "analysis": "Une pierre sculptée de 2,74 m de haut. Une femme en grande parure se tient de face : sa coiffe porte un éventail de plumes vertes de quetzal, ses bijoux évoquent le jade, et elle tient un sceptre et un bouclier ; un nain se tient à ses côtés, et des hiéroglyphes l'encadrent. Selon le musée, cette stèle fut créée pour marquer la fin d'une période de vingt ans, le k'atun. La reine, connue sous le nom de Dame K'abel, régnait avec son époux sur El Perú-Waka', au Guatemala ; issue de la puissante dynastie d'une cité voisine, elle semble avoir eu plus d'autorité que son mari et avoir été gouverneure militaire.",
+        "compare": "Des femmes au pouvoir : chez les Mayas, des reines ont gouverné ou partagé le trône. Cette stèle est aussi présentée dans l'exposition sur l'art maya classique."
+      },
+      {
+        "title": "Le temple des Inscriptions de Palenque",
+        "artist": "Bâtisseurs de Palenque",
+        "country": "Mexique",
+        "period": "VIIe siècle",
+        "museum": "Site archéologique, Palenque (Chiapas, Mexique)",
+        "credit": "Palenque (Mexique), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Temple_of_the_Inscriptions_-_Palenque_Maya_Site,_Feb_2020.jpg), photo Bernard Dupont, licence CC BY-SA 2.0",
+        "image": "images/mouvements/mayas/temple-des-inscriptions-palenque.jpg",
+        "lieu": "Palenque",
+        "lieuType": "site",
+        "analysis": "Une pyramide à degrés, adossée à une colline couverte de forêt, porte à son sommet un petit temple percé de cinq portes ; un escalier monte tout droit jusqu'à lui. Il doit son nom aux longs textes hiéroglyphiques gravés à l'intérieur. En 1952, l'archéologue mexicain Alberto Ruz Lhuillier découvrit sous ce temple un escalier caché menant à la tombe de K'inich Janaab' Pakal, roi de Palenque pendant soixante-huit ans, mort en 683. Le temple a été construit au-dessus de son tombeau. Palenque est inscrite au patrimoine mondial de l'UNESCO.",
+        "compare": "Comme les pyramides d'Égypte, certaines pyramides mayas étaient des tombeaux royaux. Comparez avec le masque de jade trouvé dans la tombe de Pakal, juste après."
+      },
+      {
+        "title": "Le masque funéraire de K'inich Janaab' Pakal",
+        "artist": "Artisans de Palenque",
+        "country": "Mexique",
+        "period": "683",
+        "museum": "Musée national d'anthropologie, Mexico",
+        "credit": "Musée national d'anthropologie, Mexico, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Maya_Jade_Mask_of_Kinich_Hanab_Pakal,_Ruler_of_Palenque,_615-683_AD.jpg), photo Gary Todd, domaine public (CC0)",
+        "image": "images/mouvements/mayas/masque-de-pakal.jpg",
+        "lieu": "Palenque",
+        "lieuType": "découverte",
+        "analysis": "Sur un fond rouge, un visage d'homme fait d'une mosaïque de petites pièces de jade vert, ajustées comme un puzzle ; les yeux sont de coquillage blanc et d'obsidienne noire. Il porte des ornements d'oreille et un collier de perles de jade. Ce masque recouvrait le visage du roi Pakal dans sa tombe, sous le temple des Inscriptions de Palenque. Il est aujourd'hui au musée national d'anthropologie de Mexico. Volé dans le musée en 1985, il a été retrouvé quelques années plus tard.",
+        "compare": "Pour les Mayas, le jade, vert comme le maïs et l'eau, était la pierre la plus précieuse. Comparez avec le masque d'or de Toutankhamon, en Égypte, autre visage royal pour l'éternité."
+      },
+      {
+        "title": "Le linteau 24 de Yaxchilán",
+        "artist": "Sculpteur de Yaxchilán",
+        "country": "Mexique",
+        "period": "vers 723–726",
+        "museum": "British Museum, Londres",
+        "credit": "British Museum, Londres, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Yaxchilan_Lintel_24.jpg), photo Michel wal, licence CC BY-SA 3.0",
+        "image": "images/mouvements/mayas/linteau-24-yaxchilan.jpg",
+        "lieu": "Yaxchilán",
+        "lieuType": "découverte",
+        "analysis": "Une dalle de calcaire sculptée en relief. À gauche, un homme debout, la tête couverte d'une grande coiffe, tient une torche enflammée au-dessus d'une femme agenouillée ; celle-ci, richement vêtue, tire une corde à travers sa langue, et la corde tombe dans un panier. Des hiéroglyphes occupent le haut et les bords. Selon le British Museum, la scène montre un rite de saignée accompli par le roi Bouclier-Jaguar et son épouse, Dame K'abal Xook, en 709 ; offrir son sang permettait d'entrer en contact avec les dieux et les ancêtres. La dalle était posée au-dessus d'une porte d'un temple de Yaxchilán, au Mexique.",
+        "compare": "Un rite sanglant, mais un chef-d'œuvre de sculpture : les vêtements brodés, les bijoux et la souplesse des corps sont rendus avec une grande finesse. Comparez avec la reine Dame K'abel, plus haut."
+      },
+      {
+        "title": "Le temple I de Tikal",
+        "artist": "Bâtisseurs de Tikal",
+        "country": "Guatemala",
+        "period": "vers 732",
+        "museum": "Site archéologique, Tikal (Petén, Guatemala)",
+        "credit": "Tikal (Guatemala), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Tikal_Temple_I_01.jpg), photo Kaldari, domaine public (CC0)",
+        "image": "images/mouvements/mayas/temple-i-tikal.jpg",
+        "lieu": "Tikal",
+        "lieuType": "site",
+        "analysis": "Une pyramide très haute et étroite, faite de neuf terrasses superposées, s'élève au-dessus de la grande place de Tikal ; un escalier raide mène au petit temple du sommet, couronné d'une haute crête de pierre. Haut de 47 mètres, ce temple est aussi appelé « temple du Grand Jaguar », à cause d'un linteau de bois qui montrait un roi assis sur un trône de jaguar. C'est le tombeau du roi Jasaw Chan K'awiil, qui régna de 682 à 734 ; son fils fit construire la pyramide au-dessus de sa tombe, découverte par les archéologues en 1962.",
+        "compare": "Tikal, grande rivale de Calakmul, fut l'une des plus grandes cités mayas. Comparez avec La Danta d'El Mirador, au début de l'exposition."
+      },
+      {
+        "title": "Le terrain de jeu de balle de Copán",
+        "artist": "Bâtisseurs de Copán",
+        "country": "Honduras",
+        "period": "738",
+        "museum": "Site archéologique, Copán (Honduras)",
+        "credit": "Copán (Honduras), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Ball_Court_Cop%C3%A1n_01.jpg), photo Nosferattus, domaine public (CC0)",
+        "image": "images/mouvements/mayas/jeu-de-balle-copan.jpg",
+        "lieu": "Copán",
+        "lieuType": "site",
+        "analysis": "Une longue allée d'herbe est bordée de deux murs en pente douce, faits de pierres taillées ; au fond, des escaliers et des bâtiments. C'est le grand terrain de jeu de balle de Copán, au Honduras. Les joueurs devaient renvoyer une lourde balle de caoutchouc sans la toucher des mains, avec les hanches. Le jeu avait aussi un sens religieux. Selon les inscriptions, ce terrain fut inauguré en 738 par le roi Waxaklajuun Ub'aah K'awiil ; quelques mois plus tard, il fut capturé et mis à mort par le roi de Quiriguá, une ancienne cité vassale.",
+        "compare": "Le jeu de balle se jouait dans toute la Méso-Amérique, chez les Mayas comme chez les Aztèques. Comparez avec la stèle E de Quiriguá, plus loin, élevée par le vainqueur de Copán."
+      },
+      {
+        "title": "L'escalier hiéroglyphique de Copán",
+        "artist": "Sculpteurs et scribes de Copán",
+        "country": "Honduras",
+        "period": "VIIIe siècle",
+        "museum": "Site archéologique, Copán (Honduras)",
+        "credit": "Copán (Honduras), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Hieroglyphic_Stairway_of_Cop%C3%A1n_%2840008951705%29.jpg), photo Hans Birger Nilsen, licence CC BY-SA 2.0",
+        "image": "images/mouvements/mayas/escalier-hieroglyphique-copan.jpg",
+        "lieu": "Copán",
+        "lieuType": "site",
+        "analysis": "De près, les marches de pierre sont couvertes de grands signes sculptés, arrondis et pleins de détails : visages, mains, motifs géométriques. Ce sont des hiéroglyphes mayas, chacun formé de plusieurs éléments qui notent des mots ou des syllabes. L'escalier hiéroglyphique de Copán compte 63 marches et plus de 2 000 glyphes : c'est la plus longue inscription maya connue. Elle raconte l'histoire de la dynastie de Copán. L'écriture maya, la plus complète de l'Amérique ancienne, n'a été déchiffrée en grande partie qu'à la fin du XXe siècle.",
+        "compare": "L'écriture, l'un des critères d'une civilisation : les Mayas pouvaient noter tout ce qu'ils disaient. Comparez avec le Codex de Dresde, plus loin, l'un des rares livres mayas qui nous sont parvenus."
+      },
+      {
+        "title": "La stèle E de Quiriguá",
+        "artist": "Sculpteurs de Quiriguá",
+        "country": "Guatemala",
+        "period": "VIIIe siècle",
+        "museum": "Site archéologique, Quiriguá (Izabal, Guatemala)",
+        "credit": "Quiriguá (Guatemala), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Stela_E,_Quirigua,_Guatemala,_with_protective_roof,_2014.jpg), photo Arian Zwegers, licence CC BY 2.0",
+        "image": "images/mouvements/mayas/stele-e-quirigua.jpg",
+        "lieu": "Quiriguá",
+        "lieuType": "site",
+        "analysis": "Sur une pelouse bordée d'arbres, une très haute pierre dressée, sculptée sur toutes ses faces, est protégée par un toit de palmes porté par quatre poteaux ; d'autres stèles s'abritent derrière sous de petits toits ronds. Avec environ 10,7 mètres, la stèle E de Quiriguá, au Guatemala, est la plus haute stèle du monde maya. Elle représente le roi K'ak' Tiliw Chan Yopaat. Ce roi, d'abord vassal de Copán, se déclara indépendant et, en 738, captura et fit mettre à mort le roi de Copán, Waxaklajuun Ub'aah K'awiil.",
+        "compare": "Une petite cité qui triomphe de sa puissante voisine : la stèle, géante, proclame cette victoire. Comparez avec le terrain de jeu de balle de Copán, plus haut."
+      },
+      {
+        "title": "L'autel Q de Copán",
+        "artist": "Sculpteurs de Copán",
+        "country": "Honduras",
+        "period": "776",
+        "museum": "Musée de sculpture maya, Copán (Honduras)",
+        "credit": "Musée de sculpture maya, Copán (Honduras), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Copan_Museum,_Altar_Q,_dynastic_rulers_%2815771343718%29.jpg), photo Arian Zwegers, licence CC BY 2.0",
+        "image": "images/mouvements/mayas/autel-q-copan.jpg",
+        "lieu": "Copán",
+        "lieuType": "découverte",
+        "analysis": "Un bloc de pierre carré, sculpté sur ses côtés : des personnages assis en tailleur, coiffés de turbans et parés de bijoux, se suivent en file, chacun assis sur un glyphe. Le dessus porte une inscription. Selon les archéologues, l'autel Q montre les seize rois de la dynastie de Copán, quatre sur chaque face : le seizième, Yax Pasaj Chan Yopaat, qui fit sculpter l'autel en 776, reçoit le pouvoir du fondateur de la dynastie, K'inich Yax K'uk' Mo', qui commença à régner en 426. L'original est conservé au musée de sculpture maya du site ; une copie le remplace à son emplacement d'origine.",
+        "compare": "Un arbre généalogique de pierre : les rois mayas tiraient leur légitimité de leurs ancêtres. Comparez avec l'escalier hiéroglyphique, qui raconte la même dynastie."
+      },
+      {
+        "title": "Les peintures murales de Bonampak, salle 1",
+        "artist": "Peintres de Bonampak",
+        "country": "Mexique",
+        "period": "vers 790",
+        "museum": "Site archéologique, Bonampak (Chiapas, Mexique)",
+        "credit": "Bonampak (Mexique), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Mural_room_1_bonampak.jpg), photo Rafael Saldaña, licence CC BY 2.0",
+        "image": "images/mouvements/mayas/peintures-de-bonampak.jpg",
+        "lieu": "Bonampak",
+        "lieuType": "site",
+        "analysis": "Dans une petite salle voûtée, les murs sont couverts de peintures aux couleurs passées : rouge, ocre, bleu-vert. Une longue file de personnages debout, vêtus de longues capes claires et coiffés de plumes, se tient sous une bande où l'on devine des glyphes. Ces peintures, faites vers 790 dans un édifice de Bonampak, au Mexique, ont été montrées aux Occidentaux en 1946 par des Mayas lacandons. La salle 1 montre une cérémonie de cour : le roi présente son héritier aux nobles, avec des musiciens et des danseurs. Les autres salles montrent une bataille et une fête.",
+        "compare": "Les rares peintures murales conservées révèlent les couleurs de la vie de cour, perdues ailleurs. Comparez avec le vase aux scribes, juste après, peint lui aussi."
+      },
+      {
+        "title": "Vase avec des scribes tenant des palettes en coquillage",
+        "artist": "Artiste maya",
+        "country": "Mexique",
+        "period": "600–900",
+        "museum": "Yale University Art Gallery, New Haven",
+        "credit": "Yale University Art Gallery, New Haven (https://artgallery.yale.edu/collections/objects/10663), domaine public",
+        "image": "images/mouvements/art-maya-classique/vase-scribes-palettes.jpg",
+        "analysis": "Un vase de céramique peint de personnages. Selon le musée, deux scribes se reconnaissent aux pots de peinture en coquillage qu'ils tiennent et aux bandes de papier pointillées qui sortent de sous leurs bras. Beaucoup d'artistes et de scribes appartenaient à l'élite ; les artistes mayas ont peint des milliers de vases avec de l'engobe et des pigments naturels. Ce vase vient du Campeche, au Mexique. Les nobles y buvaient souvent le cacao, une boisson précieuse.",
+        "compare": "Des métiers spécialisés, l'un des critères d'une civilisation : scribes, peintres, sculpteurs et architectes travaillaient pour les cours royales. Ce vase est aussi présenté dans l'exposition sur l'art maya classique."
+      },
+      {
+        "title": "Figurine de l'île de Jaina",
+        "artist": "Artiste maya",
+        "country": "Mexique",
+        "period": "300–850",
+        "museum": "Musée national d'anthropologie, Mexico",
+        "credit": "Musée national d'anthropologie, Mexico, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Anthropomorphic_Figurine_%28300_%E2%80%94_850_AD%29_from_Jaina_Island,_Campeche_%2824821458620%29.jpg), photo Alexey Yakovlev, licence CC BY-SA 2.0",
+        "image": "images/mouvements/mayas/figurine-de-jaina.jpg",
+        "lieu": "Île de Jaina",
+        "lieuType": "découverte",
+        "analysis": "Une petite figurine de terre cuite, posée sur un support dans une vitrine sombre : une grande fleur s'ouvre comme une coupe, et de son cœur sort le buste d'un personnage âgé, au visage ridé. Selon l'étiquette du musée national d'anthropologie de Mexico, elle vient de l'île de Jaina, au large du Campeche, où les Mayas enterraient leurs morts avec des milliers de figurines de ce genre. Elles montrent des personnages de tous âges et de toutes conditions : guerriers, nobles, tisserandes, joueurs de balle, vieillards.",
+        "compare": "Dans les mythes mayas, les dieux et les ancêtres naissent des fleurs. Comparez avec les petits « vieillards sortant de fleurs » de Yale, dans l'exposition sur l'art maya classique."
+      },
+      {
+        "title": "La pyramide du Devin d'Uxmal",
+        "artist": "Bâtisseurs d'Uxmal",
+        "country": "Mexique",
+        "period": "VIe–Xe siècle",
+        "museum": "Site archéologique, Uxmal (Yucatán, Mexique)",
+        "credit": "Uxmal (Mexique), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Uxmal_Pyramid_of_the_Magician_%2816462202846%29.jpg), photo Gary Todd, domaine public (CC0)",
+        "image": "images/mouvements/mayas/pyramide-du-devin-uxmal.jpg",
+        "lieu": "Uxmal",
+        "lieuType": "site",
+        "analysis": "Au-dessus des arbres se dresse une haute pyramide aux angles arrondis ; au premier plan, un long bâtiment bas à colonnade et à frise de pierre. La pyramide du Devin, haute d'environ 35 mètres, est le plus haut édifice d'Uxmal, au Yucatán ; ses angles en ovale la rendent unique parmi les pyramides mayas. Uxmal est le plus bel exemple du style Puuc, du nom des collines voisines, avec ses façades couvertes de mosaïques de pierre. Le site est inscrit au patrimoine mondial de l'UNESCO depuis 1996.",
+        "compare": "Au IXe siècle, beaucoup de cités du sud furent abandonnées, mais celles du nord, au Yucatán, prospérèrent. Comparez avec Chichén Itzá, juste après."
+      },
+      {
+        "title": "El Castillo, la pyramide de Kukulcán à Chichén Itzá",
+        "artist": "Bâtisseurs de Chichén Itzá",
+        "country": "Mexique",
+        "period": "vers IXe–XIIe siècle",
+        "museum": "Site archéologique, Chichén Itzá (Yucatán, Mexique)",
+        "credit": "Chichén Itzá (Mexique), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Chichen_Itza_3.jpg), photo Daniel Schwen, licence CC BY-SA 4.0",
+        "image": "images/mouvements/mayas/el-castillo-chichen-itza.jpg",
+        "lieu": "Chichén Itzá",
+        "lieuType": "site",
+        "analysis": "Sur une vaste esplanade, une pyramide à neuf terrasses porte un temple à son sommet ; deux escaliers raides montent sur les faces visibles. C'est El Castillo, le temple de Kukulcán, le « serpent à plumes », à Chichén Itzá, au Yucatán. Chacune de ses quatre faces compte 91 marches ; avec la plate-forme du sommet, cela fait 365, autant que de jours dans l'année. Aux équinoxes de printemps et d'automne, le soleil couchant dessine sur la rampe d'un escalier l'ombre ondulante d'un serpent, qui rejoint une tête de serpent sculptée en bas. Le site est inscrit au patrimoine mondial de l'UNESCO.",
+        "compare": "Un calendrier de pierre : les Mayas étaient de grands astronomes. Comparez avec le Codex de Dresde, juste après, plein de tables astronomiques."
+      },
+      {
+        "title": "Le Codex de Dresde, page 74 : le déluge",
+        "artist": "Scribe maya",
+        "country": "Mexique",
+        "period": "XIe–XIIIe siècle",
+        "museum": "Bibliothèque d'État de Saxe (SLUB), Dresde",
+        "credit": "Bibliothèque d'État de Saxe (SLUB), Dresde (https://digital.slub-dresden.de/id280742827), domaine public",
+        "image": "images/mouvements/mayas/codex-de-dresde-page-74.jpg",
+        "analysis": "Une page étroite d'un livre en papier d'écorce, enduit de stuc blanc et peint. En haut, une ligne de glyphes ; dessous, sur fond rouge, une bande céleste ornée de signes, d'où tombent de grands jets d'eau bleue. Une vieille femme aux pieds griffus vide une jarre d'eau ; en bas, un personnage noir coiffé d'un oiseau tient une lance et des flèches. Selon les spécialistes, cette page, la seule du livre occupée par une seule image, montre un déluge. Le Codex de Dresde, plié en accordéon, est couvert de calendriers et de tables astronomiques, notamment pour Vénus et les éclipses. Il fut acheté à Vienne en 1739 par le directeur de la bibliothèque royale de Dresde.",
+        "compare": "L'un des quatre livres mayas seulement qui nous sont parvenus : en 1562, le moine espagnol Diego de Landa en fit brûler des dizaines à Maní, au Yucatán."
+      },
+      {
+        "title": "Le temple de Kukulcán de Mayapán",
+        "artist": "Bâtisseurs de Mayapán",
+        "country": "Mexique",
+        "period": "XIIIe–XVe siècle",
+        "museum": "Site archéologique, Mayapán (Yucatán, Mexique)",
+        "credit": "Mayapán (Mexique), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:The_Temple_of_Kukulcan,_Mayapan_Yucatan,_2020.jpg), photo Bernard Dupont, licence CC BY-SA 2.0",
+        "image": "images/mouvements/mayas/mayapan.jpg",
+        "lieu": "Mayapán",
+        "lieuType": "site",
+        "analysis": "Une pyramide à degrés de pierre grise, avec un large escalier central, se dresse au milieu d'une esplanade ; quelques visiteurs se tiennent à son sommet. Selon l'INAH, ce temple de Kukulcán copie, en plus petit, celui de Chichén Itzá. Mayapán fut la dernière grande capitale maya du Yucatán, gouvernée par plusieurs familles nobles, dont les Cocom et les Xiu. Vers le milieu du XVe siècle, une révolte des Xiu contre les Cocom mit fin à la ville, qui fut abandonnée.",
+        "compare": "Une copie de Chichén Itzá : Mayapán voulait se présenter comme l'héritière de la grande cité. Comparez avec El Castillo, plus haut."
+      },
+      {
+        "title": "Tulum, la cité au bord de la mer",
+        "artist": "Bâtisseurs de Tulum",
+        "country": "Mexique",
+        "period": "vers 1200–1450",
+        "museum": "Site archéologique, Tulum (Quintana Roo, Mexique)",
+        "credit": "Tulum (Mexique), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:El_Castillo_front_view_-_Tulum_Maya_site,_QR.jpg), photo edenpictures, licence CC BY 2.0",
+        "image": "images/mouvements/mayas/tulum.jpg",
+        "lieu": "Tulum",
+        "lieuType": "site",
+        "analysis": "Un édifice de pierre, percé de petites portes et couronné d'un temple, se dresse sur une terrasse ; à gauche, un palmier. C'est El Castillo, le principal bâtiment de Tulum, sur la côte caraïbe du Mexique. La ville, entourée d'un mur du côté de la terre et protégée par des falaises du côté de la mer, était un port important, relié à la cité de Cobá. Selon certaines sources, le temple du Castillo servait aussi de phare pour guider les canoës des marchands vers la plage. En 1518, des marins de l'expédition espagnole de Juan de Grijalva aperçurent la ville depuis la mer.",
+        "compare": "Le commerce maya passait aussi par la mer, en canoë, le long des côtes. L'arrivée des Espagnols au XVIe siècle allait bouleverser le monde maya."
+      },
+      {
+        "title": "Le manuscrit du Popol Vuh",
+        "artist": "Francisco Ximénez, d'après un texte k'iche'",
+        "country": "Guatemala",
+        "period": "vers 1701–1703",
+        "museum": "Newberry Library, Chicago",
+        "credit": "Newberry Library, Chicago (https://collections.newberry.org/asset-management/2KXJ8ZSQGH5XT), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Popol_vuh.jpg), domaine public",
+        "image": "images/mouvements/mayas/popol-vuh.jpg",
+        "lieu": "Chichicastenango",
+        "lieuType": "fabrication",
+        "analysis": "Une page de papier jauni, couverte de deux colonnes d'écriture serrée à l'encre brune, sous une ligne de titre. C'est la première page du plus ancien manuscrit connu du Popol Vuh, le « livre de la communauté », grand récit sacré des K'iche', un peuple maya des montagnes du Guatemala. Il raconte la création du monde, les exploits des jumeaux héros Hunahpu et Xbalanque, et l'histoire des rois k'iche'. Le texte avait été écrit en k'iche' en lettres latines au XVIe siècle. Le dominicain Francisco Ximénez le recopia vers 1701–1703 à Chichicastenango, avec une traduction espagnole en face. Le manuscrit est à la Newberry Library de Chicago.",
+        "compare": "Le point d'arrivée de l'exposition : en 1697, les Espagnols prirent Nojpetén, la dernière cité maya indépendante. Mais les Mayas n'ont pas disparu : des millions de personnes parlent aujourd'hui des langues mayas, au Mexique, au Guatemala et au Belize."
+      }
+    ],
+    "carte": {
+      "image": "images/mouvements/cartes/mayas.svg",
+      "ouest": -93.6,
+      "est": -86.2,
+      "sud": 14.0,
+      "nord": 21.9,
+      "lieux": [
+        {
+          "nom": "El Mirador",
+          "lat": 17.7551,
+          "lon": -89.9204
+        },
+        {
+          "nom": "Calakmul",
+          "lat": 18.105,
+          "lon": -89.8106
+        },
+        {
+          "nom": "Caracol",
+          "lat": 16.7639,
+          "lon": -89.1176
+        },
+        {
+          "nom": "El Perú-Waka'",
+          "lat": 17.2783,
+          "lon": -90.3806
+        },
+        {
+          "nom": "Palenque",
+          "lat": 17.4842,
+          "lon": -92.0464
+        },
+        {
+          "nom": "Yaxchilán",
+          "lat": 16.9,
+          "lon": -90.9667
+        },
+        {
+          "nom": "Tikal",
+          "lat": 17.2221,
+          "lon": -89.6236
+        },
+        {
+          "nom": "Copán",
+          "lat": 14.838,
+          "lon": -89.1424
+        },
+        {
+          "nom": "Quiriguá",
+          "lat": 15.2694,
+          "lon": -89.0403
+        },
+        {
+          "nom": "Bonampak",
+          "lat": 16.704,
+          "lon": -91.065
+        },
+        {
+          "nom": "Île de Jaina",
+          "lat": 20.2086,
+          "lon": -90.4842
+        },
+        {
+          "nom": "Uxmal",
+          "lat": 20.3594,
+          "lon": -89.7714
+        },
+        {
+          "nom": "Chichén Itzá",
+          "lat": 20.6831,
+          "lon": -88.5686
+        },
+        {
+          "nom": "Mayapán",
+          "lat": 20.6294,
+          "lon": -89.4606
+        },
+        {
+          "nom": "Tulum",
+          "lat": 20.2147,
+          "lon": -87.4289
+        },
+        {
+          "nom": "Chichicastenango",
+          "lat": 14.9442,
+          "lon": -91.1105
+        }
+      ],
+      "pays": [
+        {
+          "nom": "Mexique",
+          "lat": 18.6,
+          "lon": -92.6
+        },
+        {
+          "nom": "Guatemala",
+          "lat": 16.2,
+          "lon": -90.3
+        },
+        {
+          "nom": "Belize",
+          "lat": 16.55,
+          "lon": -88.55
+        },
+        {
+          "nom": "Honduras",
+          "lat": 14.75,
+          "lon": -87.3
+        }
+      ],
+      "villes": [
+        {
+          "nom": "Mérida",
+          "lat": 20.97,
+          "lon": -89.62
+        },
+        {
+          "nom": "Cancún",
+          "lat": 21.161,
+          "lon": -86.825
+        },
+        {
+          "nom": "Belize City",
+          "lat": 17.499,
+          "lon": -88.189
+        },
+        {
+          "nom": "Guatemala (ville)",
+          "lat": 14.642,
+          "lon": -90.513
+        },
+        {
+          "nom": "Campeche",
+          "lat": 19.845,
+          "lon": -90.523
+        }
+      ]
+    }
+  },
+  {
+    "mouvement": "Empire khmer",
+    "slug": "empire-khmer",
+    "status": "published",
+    "title": "L'Empire khmer, des premiers royaumes à Angkor",
+    "subtitle": "Cambodge, Thaïlande et Laos, VIe siècle – 1431 · 20 œuvres et sites",
+    "intro": "Pendant plus de six siècles, les rois khmers ont gouverné depuis Angkor, dans le nord-ouest de l'actuel Cambodge, un empire qui s'étendait aussi sur une grande partie de la Thaïlande et du Laos d'aujourd'hui. Ils ont élevé des centaines de temples de brique et de grès, dédiés aux dieux hindous Shiva et Vishnu, puis au Bouddha, creusé d'immenses réservoirs d'eau et tracé des routes à travers leur royaume. Les Khmers remplissent tous les critères d'une civilisation : des villes, dont Angkor fut l'une des plus vastes du monde préindustriel, un État organisé autour d'un roi, des monuments, une écriture, des métiers spécialisés et des échanges lointains avec l'Inde et la Chine. L'exposition suit cette histoire, des royaumes d'avant Angkor jusqu'à 1431, à travers des sites restés au Cambodge, en Thaïlande et au Laos, des œuvres du musée national du Cambodge à Phnom Penh, et des pièces conservées à Paris et à Cleveland ; beaucoup de photographies sont celles de visiteurs, publiées sous licence libre. Les temples d'Angkor sont toujours vénérés, et Angkor Wat figure sur le drapeau du Cambodge.",
+    "contexte": [
+      {
+        "title": "Des premiers royaumes à l'empire d'Angkor",
+        "text": "Dès les premiers siècles de notre ère, des royaumes se forment dans le delta du Mékong et le long du fleuve, en relation avec l'Inde : ils en adoptent les dieux, la langue savante, le sanskrit, et l'écriture. Au VIIe siècle, Ishanapura, l'actuelle Sambor Prei Kuk, est la capitale d'un royaume khmer. En 802, selon une inscription, le roi Jayavarman II se fait proclamer souverain universel sur le mont Kulen : c'est le début de l'empire d'Angkor. Ses successeurs installent leur capitale dans la région d'Angkor, sauf de 928 à 944, à Koh Ker. L'empire atteint sa plus grande extension aux XIIe et XIIIe siècles, sous Suryavarman II, le bâtisseur d'Angkor Wat, puis sous Jayavarman VII, qui chasse les Chams après le pillage d'Angkor en 1177."
+      },
+      {
+        "title": "Le roi, les temples et les villes",
+        "text": "Le roi khmer est le protecteur des dieux et du royaume : chaque grand roi fait construire son temple d'État, un « temple-montagne » qui représente le mont Meru, la montagne au centre du monde. Les temples sont aussi de grandes entreprises : selon une inscription, 12 640 personnes vivaient et servaient au seul temple de Ta Prohm. Autour d'eux s'étendent des villes de bois aujourd'hui disparues, avec des maisons, des marchés et des palais. Des fonctionnaires, des prêtres, des architectes, des sculpteurs, des fondeurs de bronze, des danseuses et des paysans forment une société très hiérarchisée."
+      },
+      {
+        "title": "L'eau, le riz et les routes",
+        "text": "La richesse d'Angkor repose sur le riz. Pendant la saison des pluies, l'eau est retenue dans d'immenses réservoirs rectangulaires, les barays, et dans des canaux et des fossés ; le grand lac Tonlé Sap fournit aussi du poisson en abondance. Des routes surélevées, avec des ponts et des gîtes d'étape, relient Angkor aux provinces, jusqu'à Phimai, en Thaïlande, et à Vat Phou, au Laos. Jayavarman VII fait aussi fonder plus de cent hôpitaux. Les Khmers commercent avec la Chine : en 1296, le voyageur chinois Zhou Daguan séjourne à Angkor et laisse la plus longue description de la ville qui nous soit parvenue."
+      },
+      {
+        "title": "Des dieux hindous au Bouddha, et ce qu'il reste d'Angkor",
+        "text": "Les premiers rois honorent surtout Shiva et Vishnu. À la fin du XIIe siècle, Jayavarman VII fait du bouddhisme la religion de l'État ; au XIIIe et au XIVe siècle, le bouddhisme theravada, encore pratiqué au Cambodge aujourd'hui, se répand dans tout le pays. En 1431, selon les chroniques thaïes, Angkor est prise par le royaume d'Ayutthaya, et la cour s'installe plus au sud, près de Phnom Penh. Les temples ne sont jamais tout à fait abandonnés. Au XXe siècle, les guerres et les pillages ont fait sortir illégalement beaucoup de statues du Cambodge ; depuis quelques années, plusieurs musées étrangers les ont rendues."
+      }
+    ],
+    "bibliography": [
+      {
+        "reference": "UNESCO, Patrimoine mondial : Angkor",
+        "url": "https://whc.unesco.org/fr/list/668"
+      },
+      {
+        "reference": "UNESCO, Patrimoine mondial : Temple de Preah Vihear",
+        "url": "https://whc.unesco.org/fr/list/1224"
+      },
+      {
+        "reference": "UNESCO, Patrimoine mondial : Zone des temples de Sambor Prei Kuk, site archéologique de l'ancienne Ishanapura",
+        "url": "https://whc.unesco.org/fr/list/1532"
+      },
+      {
+        "reference": "UNESCO, Patrimoine mondial : Vat Phou et les anciens établissements associés du paysage culturel de Champassak",
+        "url": "https://whc.unesco.org/fr/list/481"
+      },
+      {
+        "reference": "Zhou Daguan, Mémoires sur les coutumes du Cambodge (fin du XIIIe siècle), traduction de Paul Pelliot"
+      },
+      {
+        "reference": "Notices des œuvres : musée national du Cambodge, musée Guimet, Cleveland Museum of Art"
+      }
+    ],
+    "works": [
+      {
+        "title": "Vishnu à huit bras de Phnom Da",
+        "artist": "Sculpteur khmer",
+        "country": "Cambodge",
+        "period": "VIe–VIIe siècle",
+        "museum": "Musée national du Cambodge, Phnom Penh",
+        "credit": "Musée national du Cambodge, Phnom Penh, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Statues_of_Vishnu,_Rama_and_Balarama_of_Phnom_Da._National_Museum_of_Cambodia.jpg), photo Ismoon, licence CC BY-SA 4.0",
+        "image": "images/mouvements/empire-khmer/vishnu-de-phnom-da.jpg",
+        "lieu": "Phnom Da",
+        "lieuType": "découverte",
+        "analysis": "Dans une salle aux murs blancs, trois grandes statues de grès sombre se tiennent debout. Au centre, la plus haute, près de 2,90 mètres, représente le dieu Vishnu : un grand arc de pierre, qui soutenait ses huit bras, l'entoure, mais la plupart des bras sont brisés. À ses côtés se dressent Rama et Balarama, deux de ses incarnations. Ces statues ont été trouvées en 1936 sur la colline de Phnom Da, près d'Angkor Borei, dans le sud du Cambodge, et sont aujourd'hui au musée national de Phnom Penh. Elles datent d'avant l'époque d'Angkor, quand les premiers royaumes khmers adoptaient les dieux et l'écriture venus de l'Inde.",
+        "compare": "Le point de départ de l'exposition : bien avant Angkor, les Khmers sculptaient déjà des dieux hindous géants. Comparez avec le Vishnu de bronze du Mebon occidental, plus loin, cinq siècles plus tard."
+      },
+      {
+        "title": "Sambor Prei Kuk, l'ancienne Ishanapura",
+        "artist": "Bâtisseurs khmers",
+        "country": "Cambodge",
+        "period": "VIIe siècle",
+        "museum": "Site archéologique, Sambor Prei Kuk (Kampong Thom, Cambodge)",
+        "credit": "Sambor Prei Kuk (Cambodge), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Sambor_Prei_Kuk_N16_%282%29_en_2014.jpg), photo Pierre André, licence CC BY-SA 4.0",
+        "image": "images/mouvements/empire-khmer/sambor-prei-kuk.jpg",
+        "lieu": "Sambor Prei Kuk",
+        "lieuType": "site",
+        "analysis": "Dans une forêt claire, un petit temple de briques, rongé par le temps, ouvre une porte encadrée de pierre ; sur ses murs, on devine des décors sculptés dans la brique. Sambor Prei Kuk, dans le centre du Cambodge, est identifiée à Ishanapura, la capitale du roi Ishanavarman Ier au VIIe siècle. Des dizaines de temples de briques, dont beaucoup sont octogonaux, s'y élèvent dans la forêt. Le site est inscrit au patrimoine mondial de l'UNESCO depuis 2017.",
+        "compare": "Avant les grands temples de grès d'Angkor, les Khmers bâtissaient en brique. Comparez avec le Bakong, plus loin, l'un des premiers temples-montagnes."
+      },
+      {
+        "title": "L'inscription du « premier zéro »",
+        "artist": "Graveur khmer",
+        "country": "Cambodge",
+        "period": "683",
+        "museum": "Musée national du Cambodge, Phnom Penh",
+        "credit": "Musée national du Cambodge, Phnom Penh, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:First_zero_1.jpg), photo Mx. Granger, domaine public (CC0)",
+        "image": "images/mouvements/empire-khmer/inscription-du-premier-zero.jpg",
+        "analysis": "De près, une pierre grise est couverte de lettres gravées, arrondies et bouclées : c'est l'écriture khmère ancienne, issue d'une écriture de l'Inde. Cette inscription, cataloguée K-127, a été trouvée en 1891 au bord du Mékong, à Sambor, dans la province de Kratie. Elle donne une date : l'année 605 de l'ère Shaka, soit 683 de notre ère. Dans le nombre 605, le zéro est noté par un point : c'est l'un des plus anciens zéros connus écrits avec des chiffres. Retrouvée dans une réserve par le mathématicien Amir Aczel, elle est exposée au musée national du Cambodge.",
+        "compare": "L'écriture, l'un des critères d'une civilisation : les Khmers ont gravé en khmer et en sanskrit plus d'un millier d'inscriptions, qui sont aujourd'hui la principale source sur leur histoire."
+      },
+      {
+        "title": "Le Bakong, temple-montagne de Hariharalaya",
+        "artist": "Bâtisseurs du roi Indravarman Ier",
+        "country": "Cambodge",
+        "period": "881",
+        "museum": "Site archéologique, Roluos (Siem Reap, Cambodge)",
+        "credit": "Roluos (Cambodge), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Bakong_Wiki.jpg), photo Culexx, licence CC BY-SA 3.0",
+        "image": "images/mouvements/empire-khmer/bakong.jpg",
+        "lieu": "Roluos (Hariharalaya)",
+        "lieuType": "site",
+        "analysis": "Une large pyramide de pierre à gradins porte à son sommet une tour en forme de bouton de lotus. Selon une inscription, le roi Indravarman Ier dédia ce temple au dieu Shiva en 881. Le Bakong se trouve dans l'ancienne ville de Hariharalaya, dans le secteur actuel de Roluos, près d'Angkor. C'est l'un des premiers grands « temples-montagnes » khmers : une pyramide à étages qui représente le mont Meru, la montagne des dieux au centre du monde.",
+        "compare": "Le temple-montagne deviendra la forme des grands temples d'État des rois khmers. Comparez avec la pyramide de Koh Ker, juste après."
+      },
+      {
+        "title": "La pyramide de Koh Ker",
+        "artist": "Bâtisseurs du roi Jayavarman IV",
+        "country": "Cambodge",
+        "period": "928–944",
+        "museum": "Site archéologique, Koh Ker (Preah Vihear, Cambodge)",
+        "credit": "Koh Ker (Cambodge), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Koh_Ker,_Prasat_Thom_%286225843693%29.jpg), photo Arian Zwegers, licence CC BY 2.0",
+        "image": "images/mouvements/empire-khmer/prasat-thom-koh-ker.jpg",
+        "lieu": "Koh Ker",
+        "lieuType": "site",
+        "analysis": "Au bout d'une allée de terre, dans une plaine sèche, se dresse une pyramide de grès à sept gradins, haute d'environ 35 mètres ; un escalier monte tout droit jusqu'au sommet. Elle se trouve à Koh Ker, au nord du Cambodge, qui fut la capitale de l'empire de 928 à 944, sous le roi Jayavarman IV puis son fils. Ce temple était dédié à Shiva. Plusieurs statues de Koh Ker, pillées au XXe siècle, ont été rendues au Cambodge par des musées américains depuis 2013.",
+        "compare": "Une capitale éphémère : en 944, le roi Rajendravarman ramena la cour à Angkor. Comparez avec le Bakong, juste avant."
+      },
+      {
+        "title": "Banteay Srei : Shiva dansant",
+        "artist": "Sculpteurs de Banteay Srei",
+        "country": "Cambodge",
+        "period": "967",
+        "museum": "Site archéologique, Banteay Srei (Siem Reap, Cambodge)",
+        "credit": "Banteay Srei (Cambodge), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Reliefs_of_Shiva_Dancing_%28Banteay_Srei%29.jpg), photo Pierre André Leclercq, licence CC BY-SA 4.0",
+        "image": "images/mouvements/empire-khmer/banteay-srei-shiva-dansant.jpg",
+        "lieu": "Banteay Srei",
+        "lieuType": "site",
+        "analysis": "Un fronton de grès rose, sculpté comme une dentelle : au centre, un dieu à plusieurs bras danse, une jambe levée, au milieu de rinceaux de feuillages ; d'autres personnages l'entourent. C'est Shiva, le dieu de la danse cosmique, qui crée et détruit le monde. Le petit temple de Banteay Srei, consacré en 967, n'a pas été construit par un roi mais par des courtisans, dont un nommé Yajnavaraha. Il est célèbre pour son grès rouge, dur et fin, que les sculpteurs ont travaillé comme du bois.",
+        "compare": "Un chef-d'œuvre de la sculpture khmère : les plus beaux décors ne sont pas toujours sur les plus grands temples. Comparez avec les bas-reliefs d'Angkor Wat, plus loin."
+      },
+      {
+        "title": "Kbal Spean, la rivière sculptée du mont Kulen",
+        "artist": "Sculpteurs khmers",
+        "country": "Cambodge",
+        "period": "XIe siècle",
+        "museum": "Site archéologique, Kbal Spean (Phnom Kulen, Cambodge)",
+        "credit": "Kbal Spean (Cambodge), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Kbal_Spean,_sur_les_pentes_sud-ouest_du_mont_Kulen_%2814%29.jpg), photo Pierre André, licence CC BY-SA 4.0",
+        "image": "images/mouvements/empire-khmer/kbal-spean.jpg",
+        "lieu": "Kbal Spean",
+        "lieuType": "site",
+        "analysis": "Dans une rivière claire de la forêt, un rocher, au bord de l'eau, a été sculpté en forme de personnage allongé ; plus loin, d'autres formes taillées apparaissent sous l'eau, au fond du lit. À Kbal Spean, sur les pentes du mont Kulen, les Khmers ont sculpté au XIe siècle des dieux hindous et des centaines de lingas dans le lit même de la rivière, sans doute pour sanctifier l'eau qui descendait vers Angkor. C'est sur le mont Kulen qu'en 802, selon une inscription, le roi Jayavarman II se fit proclamer souverain universel : on date de là le début de l'empire d'Angkor.",
+        "compare": "L'eau était sacrée et vitale pour Angkor : elle venait de ces collines. Comparez avec le bassin du Srah Srang, à la fin de l'exposition."
+      },
+      {
+        "title": "Le temple de Preah Vihear",
+        "artist": "Bâtisseurs khmers",
+        "country": "Cambodge",
+        "period": "XIe–XIIe siècle",
+        "museum": "Site archéologique, Preah Vihear (Cambodge)",
+        "credit": "Preah Vihear (Cambodge), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:03_Prasat_Preah_Vihear-nX-06532.jpg), photo PsamatheM, licence CC BY-SA 4.0",
+        "image": "images/mouvements/empire-khmer/preah-vihear.jpg",
+        "lieu": "Preah Vihear",
+        "lieuType": "site",
+        "analysis": "Une longue chaussée de pierre bordée de bornes mène, entre les arbres, à un pavillon d'entrée en grès ; des moines en robe orange la parcourent. Le temple de Preah Vihear, dédié à Shiva, se dresse au sommet d'une falaise de 525 mètres des monts Dangrek, à la frontière de la Thaïlande. Plusieurs rois, dont Suryavarman Ier et Suryavarman II, ont contribué à sa construction, avec une suite de pavillons et de cours qui montent vers le sanctuaire. Il est inscrit au patrimoine mondial de l'UNESCO depuis 2008.",
+        "compare": "Un temple à la frontière : l'empire khmer s'étendait bien au-delà du Cambodge actuel. Comparez avec Vat Phou, au Laos, et Phimai, en Thaïlande, juste après."
+      },
+      {
+        "title": "Vat Phou",
+        "artist": "Bâtisseurs khmers",
+        "country": "Laos",
+        "period": "VIIe–XIIe siècle",
+        "museum": "Site archéologique, Vat Phou (Champassak, Laos)",
+        "credit": "Vat Phou (Laos), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Three_quarter_view_of_the_ruined_Khmer_Hindu_temple_of_Wat_Phou_with_blue_sky_in_Champasak_Laos.jpg), photo Basile Morin, licence CC BY-SA 4.0",
+        "image": "images/mouvements/empire-khmer/vat-phou.jpg",
+        "lieu": "Vat Phou",
+        "lieuType": "site",
+        "analysis": "Au pied d'une colline boisée, un sanctuaire de grès en ruine, aux portes encadrées de colonnettes et de linteaux sculptés, se détache sur un ciel bleu. Vat Phou se trouve au sud du Laos, au pied du mont Phou Khao, appelé autrefois Lingaparvata, la « montagne du linga », car son sommet évoque la forme de ce symbole de Shiva. Le site, lié à l'ancienne ville de Shrestapura sur le Mékong, est l'un des plus anciens sanctuaires khmers ; une route le reliait à Angkor. Il est inscrit au patrimoine mondial de l'UNESCO depuis 2001.",
+        "compare": "Une montagne sacrée, une source et un temple : les Khmers choisissaient avec soin les lieux de leurs sanctuaires. Comparez avec Preah Vihear, juste avant."
+      },
+      {
+        "title": "Le temple de Phimai",
+        "artist": "Bâtisseurs khmers",
+        "country": "Thaïlande",
+        "period": "fin du XIe–XIIe siècle",
+        "museum": "Parc historique de Phimai (Nakhon Ratchasima, Thaïlande)",
+        "credit": "Parc historique de Phimai (Thaïlande), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Phimai_Historical_Park_Thailand_05.jpg), photo Philip Nalangan, licence CC BY 4.0",
+        "image": "images/mouvements/empire-khmer/phimai.jpg",
+        "lieu": "Phimai",
+        "lieuType": "site",
+        "analysis": "Une haute tour de grès clair, en forme d'obus, se dresse sur une terrasse ; une porte s'ouvre à sa base, sous des frontons sculptés. Le temple de Phimai, dans le nord-est de l'actuelle Thaïlande, était l'un des grands temples de l'empire khmer, relié à Angkor par une route et tourné vers elle. Il fut bâti comme un temple bouddhiste, mais ses sculptures montrent aussi de nombreux dieux hindous. Sa tour ressemble à celles d'Angkor Wat.",
+        "compare": "Hindouisme et bouddhisme se mêlaient dans l'empire khmer. Comparez la tour de Phimai avec celles d'Angkor Wat, plus loin."
+      },
+      {
+        "title": "Le Vishnu couché du Mebon occidental",
+        "artist": "Fondeurs d'Angkor",
+        "country": "Cambodge",
+        "period": "seconde moitié du XIe siècle",
+        "museum": "Musée national du Cambodge, Phnom Penh",
+        "credit": "Musée national du Cambodge, Phnom Penh, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:West_Mebon_Vishnu.jpg), photo Clay Gilliland, licence CC BY-SA 2.0",
+        "image": "images/mouvements/empire-khmer/vishnu-du-mebon-occidental.jpg",
+        "lieu": "Angkor",
+        "lieuType": "découverte",
+        "analysis": "Dans une salle de musée, un grand fragment de bronze verdi : un visage paisible, une partie du buste et deux bras droits ; l'un se lève, l'autre soutient la tête. C'est le dieu Vishnu, couché sur l'océan cosmique. Le fragment a été trouvé en 1936 dans le temple du Mebon occidental, sur une île au milieu d'un immense réservoir d'Angkor, le Baray occidental. Entière, la statue mesurait environ six mètres de long : c'est le plus grand bronze khmer connu. Il est au musée national du Cambodge.",
+        "compare": "Les Khmers maîtrisaient aussi le bronze à grande échelle. Comparez avec le Vishnu de pierre de Phnom Da, au début de l'exposition."
+      },
+      {
+        "title": "Angkor Wat",
+        "artist": "Bâtisseurs du roi Suryavarman II",
+        "country": "Cambodge",
+        "period": "première moitié du XIIe siècle",
+        "museum": "Site archéologique, Angkor (Siem Reap, Cambodge)",
+        "credit": "Angkor (Cambodge), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Angkor_Wat_aerial_view.jpg), photo Steve Jurvetson, licence CC BY 2.0",
+        "image": "images/mouvements/empire-khmer/angkor-wat.jpg",
+        "lieu": "Angkor",
+        "lieuType": "site",
+        "analysis": "Vu d'avion, un immense rectangle entouré d'eau : un large fossé encadre une île couverte d'arbres, au centre de laquelle se dressent les galeries et les tours du temple ; une chaussée traverse le fossé. Angkor Wat est le temple d'État du roi Suryavarman II, et peut-être son tombeau. Dédié à Vishnu, c'est l'un des plus grands monuments religieux du monde. Ses galeries sont couvertes de bas-reliefs qui racontent des récits hindous et montrent le roi et son armée. Le temple n'a jamais été abandonné : il est devenu un sanctuaire bouddhiste, et il figure aujourd'hui sur le drapeau du Cambodge.",
+        "compare": "Le cœur de l'exposition : le plus célèbre des temples khmers. Comparez avec le bas-relief du barattage, juste après, sculpté sur ses murs."
+      },
+      {
+        "title": "Le barattage de l'océan de lait, Angkor Wat",
+        "artist": "Sculpteurs d'Angkor Wat",
+        "country": "Cambodge",
+        "period": "première moitié du XIIe siècle",
+        "museum": "Site archéologique, Angkor (Siem Reap, Cambodge)",
+        "credit": "Angkor Wat (Cambodge), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Awatoceanofmilk01_-_color_corrected.JPG), photo Markalexander100, licence CC BY-SA 3.0",
+        "image": "images/mouvements/empire-khmer/barattage-angkor-wat.jpg",
+        "lieu": "Angkor",
+        "lieuType": "site",
+        "analysis": "Un détail d'un long bas-relief de grès. Au centre, un dieu à quatre bras se tient au-dessus d'une tortue ; de part et d'autre, des rangées de personnages tirent un énorme serpent, et au-dessus volent de petites danseuses célestes, les apsaras. C'est le barattage de l'océan de lait, un récit hindou de la création : les dieux et les démons tirent le serpent enroulé autour d'une montagne pour faire tourner l'océan et en faire sortir l'élixir d'immortalité ; Vishnu, au centre, guide l'opération, et sous sa forme de tortue soutient la montagne. Ce bas-relief orne une galerie d'Angkor Wat.",
+        "compare": "Le même récit se retrouve à l'entrée d'Angkor Thom, où des géants de pierre tirent le serpent le long de la chaussée. Comparez avec la porte sud d'Angkor Thom, plus loin."
+      },
+      {
+        "title": "Bouddha trônant sur le naga",
+        "artist": "Sculpteur khmer",
+        "country": "Cambodge",
+        "period": "XIIe siècle",
+        "museum": "Cleveland Museum of Art, Cleveland",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1963.263), domaine public (CC0)",
+        "image": "images/mouvements/art-khmer-d-angkor/bouddha-sur-le-naga-bronze.jpg",
+        "analysis": "Un bronze qui garde des traces de dorure. Le Bouddha, couronné et paré de bijoux, est assis sur les anneaux d'un serpent, le naga, dont les têtes se dressent derrière lui. Ses mains, posées sur ses genoux dans le geste de la méditation, tiennent ce qui semble être une offrande de riz. Selon la notice du musée, le roi Jayavarman VII s'est associé à cette image, qui devint alors partout un objet de vénération ; plus tard, d'autres formes du bouddhisme y ont vu une scène de la vie du Bouddha, protégé d'une inondation par un serpent.",
+        "compare": "À la fin du XIIe siècle, le bouddhisme devient la religion des rois khmers. Ce bronze est aussi présenté dans l'exposition sur l'art khmer d'Angkor."
+      },
+      {
+        "title": "Portrait présumé du roi Jayavarman VII",
+        "artist": "Sculpteur khmer, style du Bayon",
+        "country": "Cambodge",
+        "period": "fin du XIIe – début du XIIIe siècle",
+        "museum": "Musée Guimet, Paris",
+        "credit": "Musée Guimet, Paris, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Jayavarman_VII_Guimet_90508_1.jpg), photo Vassil, domaine public",
+        "image": "images/mouvements/empire-khmer/jayavarman-vii.jpg",
+        "analysis": "Une tête de grès sombre, aux cheveux courts relevés en petit chignon : les yeux sont fermés, la bouche esquisse un léger sourire, le visage est calme et plein. Selon le musée Guimet, à Paris, c'est un portrait du roi Jayavarman VII, qui régna de 1181 à 1218 environ. Ce roi chassa les Chams, venus du Vietnam actuel, qui avaient pillé Angkor en 1177 ; il fit du bouddhisme la religion de l'État et couvrit son empire de temples, de routes et d'hôpitaux. Une statue entière du roi, assis, trouvée à Angkor Thom en 1924, est au musée national du Cambodge.",
+        "compare": "Le sourire paisible, les yeux baissés : le même visage semble se retrouver sur les tours du Bayon, plus loin."
+      },
+      {
+        "title": "La porte sud d'Angkor Thom",
+        "artist": "Bâtisseurs du roi Jayavarman VII",
+        "country": "Cambodge",
+        "period": "fin du XIIe siècle",
+        "museum": "Site archéologique, Angkor Thom (Siem Reap, Cambodge)",
+        "credit": "Angkor Thom (Cambodge), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:20171126_South_gate_of_Angkor_Thom_4733_DxO.jpg), photo Jakub Hałun, licence CC BY-SA 4.0",
+        "image": "images/mouvements/empire-khmer/porte-sud-angkor-thom.jpg",
+        "lieu": "Angkor",
+        "lieuType": "site",
+        "analysis": "Au-dessus d'un fossé où le ciel se reflète, une haute porte de pierre surmontée de visages tournés vers les quatre directions s'ouvre dans le mur d'enceinte ; devant elle, une chaussée est bordée d'une rangée de grandes statues. Angkor Thom, la « grande ville », est la capitale fortifiée de Jayavarman VII. Le long de la chaussée de la porte sud, 54 dieux d'un côté et 54 démons de l'autre tiennent le corps d'un serpent géant, comme dans le récit du barattage de l'océan de lait.",
+        "compare": "Une ville fortifiée, avec des murs, des portes et des fossés : un des critères d'une civilisation. Comparez avec le barattage d'Angkor Wat, plus haut."
+      },
+      {
+        "title": "Les visages du Bayon",
+        "artist": "Bâtisseurs du roi Jayavarman VII",
+        "country": "Cambodge",
+        "period": "fin du XIIe – début du XIIIe siècle",
+        "museum": "Site archéologique, Angkor Thom (Siem Reap, Cambodge)",
+        "credit": "Bayon, Angkor Thom (Cambodge), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Angkor_-_Bayon_-_005_Tower_Faces_%288580723963%29.jpg), photo Photo Dharma, licence CC BY 2.0",
+        "image": "images/mouvements/empire-khmer/visages-du-bayon.jpg",
+        "lieu": "Angkor",
+        "lieuType": "site",
+        "analysis": "Des tours de pierre grise se dressent contre le ciel bleu ; sur chacune, d'immenses visages sculptés, aux yeux mi-clos et au sourire paisible, regardent dans plusieurs directions. Le Bayon est le temple d'État de Jayavarman VII, au centre d'Angkor Thom. Ses tours portent plus de deux cents visages. On ne sait pas avec certitude qui ils représentent : un bodhisattva du bouddhisme, une divinité protectrice, ou le roi lui-même.",
+        "compare": "Comparez ces visages avec le portrait présumé de Jayavarman VII, juste avant : la ressemblance a frappé beaucoup d'historiens."
+      },
+      {
+        "title": "Bataille navale contre les Chams, bas-relief du Bayon",
+        "artist": "Sculpteurs du Bayon",
+        "country": "Cambodge",
+        "period": "fin du XIIe – début du XIIIe siècle",
+        "museum": "Site archéologique, Angkor Thom (Siem Reap, Cambodge)",
+        "credit": "Bayon, Angkor Thom (Cambodge), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Bayonnavalbat01.JPG), photo Markalexander100, licence CC BY-SA 3.0",
+        "image": "images/mouvements/empire-khmer/bataille-navale-bayon.jpg",
+        "lieu": "Angkor",
+        "lieuType": "site",
+        "analysis": "Un bas-relief de grès gris : en haut, une longue barque chargée de guerriers armés de lances, coiffés de casques ; dessous, une rangée de rameurs ; en bas, des poissons nagent dans l'eau. Sur les murs de la galerie sud du Bayon, cette scène montre une bataille navale entre les Khmers et les Chams sur le grand lac Tonlé Sap. Les historiens ne savent pas si elle représente l'invasion chame de 1177 ou la victoire khmère de 1181. Plus loin, les mêmes murs montrent des scènes de la vie de tous les jours : le marché, la pêche, la cuisine.",
+        "compare": "Les bas-reliefs du Bayon racontent à la fois la guerre et la vie du peuple : une source précieuse sur la société khmère. Comparez avec la prise de Bagdad, dans l'exposition sur l'Empire mongol."
+      },
+      {
+        "title": "Ta Prohm et les arbres de la forêt",
+        "artist": "Bâtisseurs du roi Jayavarman VII",
+        "country": "Cambodge",
+        "period": "1186",
+        "museum": "Site archéologique, Angkor (Siem Reap, Cambodge)",
+        "credit": "Ta Prohm, Angkor (Cambodge), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:2016_Angkor,_Ta_Prohm_%2816%29.jpg), photo Marcin Konsek, licence CC BY-SA 4.0",
+        "image": "images/mouvements/empire-khmer/ta-prohm.jpg",
+        "lieu": "Angkor",
+        "lieuType": "site",
+        "analysis": "Un arbre géant aux racines énormes enserre un mur de pierre ; ses racines coulent sur les blocs comme de la cire fondue. Ta Prohm a été construit par Jayavarman VII et dédié à sa mère en 1186. Les archéologues l'ont volontairement laissé en partie envahi par la forêt. Selon une grande inscription en sanskrit trouvée dans le temple, 12 640 personnes servaient dans ce seul temple ; une inscription mentionne aussi la fondation de 102 hôpitaux dans tout le royaume.",
+        "compare": "Un temple qui était aussi une grande entreprise, avec ses prêtres, ses danseuses, ses serviteurs et ses greniers. Comparez avec le Bayon, juste avant, bâti par le même roi."
+      },
+      {
+        "title": "Le bassin du Srah Srang",
+        "artist": "Bâtisseurs d'Angkor",
+        "country": "Cambodge",
+        "period": "Xe siècle, aménagé vers 1200",
+        "museum": "Site archéologique, Angkor (Siem Reap, Cambodge)",
+        "credit": "Srah Srang, Angkor (Cambodge), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Srah_Srang,_Angkor,_Camboya,_2013-08-16,_DD_05.JPG), photo Diego Delso, licence CC BY-SA 3.0",
+        "image": "images/mouvements/empire-khmer/srah-srang.jpg",
+        "lieu": "Angkor",
+        "lieuType": "site",
+        "analysis": "Un vaste bassin d'eau calme, bordé d'arbres ; un pêcheur, de l'eau jusqu'aux cuisses, lance son filet, qui s'ouvre dans l'air. Le Srah Srang, long d'environ 700 mètres et large de 350, a été creusé au milieu du Xe siècle ; vers 1200, Jayavarman VII le fit border de marches et d'une terrasse d'embarquement. Angkor comptait plusieurs réservoirs de ce genre, les barays, dont certains bien plus grands, qui retenaient l'eau de la saison des pluies.",
+        "compare": "Le point d'arrivée de l'exposition : en 1431, selon les chroniques thaïes, Angkor fut prise par le royaume d'Ayutthaya, et la cour s'installa plus au sud, près de Phnom Penh. Mais les Cambodgiens d'aujourd'hui vivent toujours autour des temples et de leurs bassins."
+      }
+    ],
+    "carte": {
+      "image": "images/mouvements/cartes/empire-khmer.svg",
+      "ouest": 101.0,
+      "est": 107.3,
+      "sud": 10.0,
+      "nord": 16.0,
+      "lieux": [
+        {
+          "nom": "Phnom Da",
+          "lat": 10.9643,
+          "lon": 104.9888
+        },
+        {
+          "nom": "Sambor Prei Kuk",
+          "lat": 12.8673,
+          "lon": 105.04
+        },
+        {
+          "nom": "Roluos (Hariharalaya)",
+          "lat": 13.336,
+          "lon": 103.9741
+        },
+        {
+          "nom": "Koh Ker",
+          "lat": 13.7499,
+          "lon": 104.5473
+        },
+        {
+          "nom": "Banteay Srei",
+          "lat": 13.5989,
+          "lon": 103.9629
+        },
+        {
+          "nom": "Kbal Spean",
+          "lat": 13.6874,
+          "lon": 104.0151
+        },
+        {
+          "nom": "Preah Vihear",
+          "lat": 14.3906,
+          "lon": 104.6803
+        },
+        {
+          "nom": "Vat Phou",
+          "lat": 14.8489,
+          "lon": 105.8157
+        },
+        {
+          "nom": "Phimai",
+          "lat": 15.2207,
+          "lon": 102.4939
+        },
+        {
+          "nom": "Angkor",
+          "lat": 13.4125,
+          "lon": 103.8667
+        }
+      ],
+      "pays": [
+        {
+          "nom": "Cambodge",
+          "lat": 12.6,
+          "lon": 104.4
+        },
+        {
+          "nom": "Thaïlande",
+          "lat": 14.4,
+          "lon": 101.9
+        },
+        {
+          "nom": "Laos",
+          "lat": 15.5,
+          "lon": 106.5
+        },
+        {
+          "nom": "Viêt Nam",
+          "lat": 11.7,
+          "lon": 106.5
+        }
+      ],
+      "villes": [
+        {
+          "nom": "Phnom Penh",
+          "lat": 11.5696,
+          "lon": 104.921
+        },
+        {
+          "nom": "Battambang",
+          "lat": 13.1028,
+          "lon": 103.1983
         }
       ]
     }

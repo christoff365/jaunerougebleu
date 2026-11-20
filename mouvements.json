@@ -21331,5 +21331,286 @@
         }
       ]
     }
+  },
+  {
+    "mouvement": "Olmèques",
+    "slug": "olmeques",
+    "status": "published",
+    "title": "Les Olmèques, aux origines de la Mésoamérique",
+    "subtitle": "Mexique, vers 1200 – 400 av. J.-C. · 13 œuvres et sites",
+    "intro": "Dans les plaines chaudes et humides du golfe du Mexique, dans les actuels États de Veracruz et de Tabasco, un peuple a créé il y a plus de trois mille ans les premiers grands centres cérémoniels de Mésoamérique : San Lorenzo, puis La Venta. Il a sculpté des têtes de pierre gigantesques, élevé des pyramides de terre, poli le jade et inventé des images, comme l'homme-jaguar, que reprendront les Mayas et les Aztèques. On les appelle les Olmèques, mais nous ignorons comment ils se nommaient eux-mêmes. Leurs monuments, leurs artisans spécialisés, leur hiérarchie et leurs échanges lointains en font une société très organisée. Mais les historiens discutent encore deux points : avaient-ils une écriture, et formaient-ils un véritable État ? Cette exposition présente ces débats. Les œuvres sont conservées au Mexique, à Xalapa, Mexico et Villahermosa, et à New York et Cleveland ; beaucoup de photographies sont celles de visiteurs, publiées sous licence libre.",
+    "contexte": [
+      {
+        "title": "San Lorenzo et La Venta",
+        "text": "Vers 1200 av. J.-C., San Lorenzo, au sud de Veracruz, devient le premier grand centre olmèque : un plateau aménagé de main d'homme, avec des résidences pour l'élite, des ateliers et des têtes colossales. Vers 900 av. J.-C., le pouvoir passe à La Venta, dans le Tabasco, avec sa grande pyramide de terre et ses offrandes de jade enterrées. La Venta est abandonnée vers 400 av. J.-C., mais d'autres centres, comme Tres Zapotes, continuent. Les Olmèques cultivaient le maïs, jouaient déjà au jeu de balle avec des balles de caoutchouc et échangeaient le jade, la serpentine, l'obsidienne et les miroirs de minerai de fer poli avec des régions éloignées."
+      },
+      {
+        "title": "Un nom venu de l'extérieur",
+        "text": "Le mot « Olmèque » vient de la langue des Aztèques, le nahuatl : il signifie à peu près « les gens du pays du caoutchouc ». Les Aztèques désignaient ainsi, des siècles plus tard, les habitants de cette région. Les archéologues du XXe siècle ont repris ce nom pour une civilisation beaucoup plus ancienne, dont nous ignorons le vrai nom. C'est un rappel utile : une grande partie de ce que nous savons des peuples anciens nous vient du regard des autres, et les mots que nous employons ne sont jamais neutres."
+      },
+      {
+        "title": "Une civilisation ? Les débats",
+        "text": "Selon la liste de critères proposée en 1950 par l'archéologue Vere Gordon Childe, à partir de l'exemple de la Mésopotamie, une civilisation suppose notamment des villes, un État et une écriture. Pour les Olmèques, ces trois points sont discutés. Leurs centres étaient-ils de vraies villes ou des centres cérémoniels peu peuplés ? Étaient-ils dirigés par des rois à la tête d'un État, ou par des chefs puissants ? Ont-ils inventé l'écriture, comme le suggère peut-être le bloc de Cascajal ? Beaucoup d'historiens, notamment latino-américains, estiment que ces critères ont été pensés à partir de l'Ancien Monde et qu'ils mesurent mal les sociétés des Amériques. Nous avons choisi de présenter les Olmèques ici, en expliquant ces débats plutôt qu'en les cachant."
+      },
+      {
+        "title": "« Culture mère » ou « culture sœur » ?",
+        "text": "On a longtemps appelé les Olmèques la « culture mère » de la Mésoamérique, parce que beaucoup d'éléments qu'on retrouve ensuite chez les Mayas, les Zapotèques ou les Aztèques apparaissent d'abord chez eux : les pyramides, le jeu de balle, le culte du jaguar et du maïs, les points et les barres pour compter. D'autres archéologues préfèrent parler de « culture sœur » : selon eux, plusieurs peuples de Mésoamérique ont développé ces idées ensemble, en échangeant entre eux. Les héritiers des Olmèques, qu'on appelle épi-olmèques, ont en tout cas laissé, autour de l'an zéro, certaines des plus anciennes écritures et des plus anciennes dates du calendrier des Amériques."
+      }
+    ],
+    "bibliography": [
+      {
+        "reference": "Metropolitan Museum of Art : Olmec Babies as Early Portraiture in the Americas",
+        "url": "https://www.metmuseum.org/articles/olmec-babies"
+      },
+      {
+        "reference": "Ma. del Carmen Rodríguez Martínez et al., « Oldest Writing in the New World », Science, 2006"
+      },
+      {
+        "reference": "Vere Gordon Childe, « The Urban Revolution », The Town Planning Review, 1950"
+      },
+      {
+        "reference": "Notices des œuvres : Metropolitan Museum of Art, Cleveland Museum of Art, musée d'anthropologie de Xalapa, Musée national d'anthropologie de Mexico"
+      }
+    ],
+    "works": [
+      {
+        "title": "La tête colossale n° 1 de San Lorenzo",
+        "artist": "Sculpteurs olmèques",
+        "country": "Mexique",
+        "period": "vers 1200–900 av. J.-C.",
+        "museum": "Musée d'anthropologie de Xalapa, Veracruz (Mexique)",
+        "credit": "Musée d'anthropologie de Xalapa, Veracruz (Mexique), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Olmec_Head_No._1_at_Xalapa,_Veracruz,_Mexico.jpg), photo Mesoamerican, licence CC BY-SA 4.0",
+        "image": "images/mouvements/olmeques/tete-colossale-de-san-lorenzo.jpg",
+        "lieu": "San Lorenzo",
+        "lieuType": "découverte",
+        "analysis": "Dans un jardin de musée, une tête de pierre gigantesque, haute de près de 3 mètres, se dresse sur un socle. Le visage, aux joues pleines, au nez large et aux lèvres épaisses, a les sourcils froncés ; il porte un casque ajusté qui descend sur le front, avec de grands ornements d'oreille. Elle a été taillée dans un seul bloc de basalte, transporté depuis les montagnes de Tuxtla, à des dizaines de kilomètres. Elle vient de San Lorenzo, au sud de l'État de Veracruz, le premier grand centre olmèque. Les archéologues pensent que ces têtes sont des portraits de souverains.",
+        "compare": "Le point de départ de l'exposition : déplacer un bloc de plusieurs dizaines de tonnes suppose un pouvoir capable d'organiser le travail de centaines de personnes. C'est l'un des arguments de ceux qui voient chez les Olmèques un véritable État."
+      },
+      {
+        "title": "Le bébé de céramique",
+        "artist": "Potiers olmèques",
+        "country": "Mexique",
+        "period": "XIIe–IXe siècle av. J.-C.",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/313327), domaine public (CC0)",
+        "image": "images/mouvements/olmeques/bebe-de-ceramique.jpg",
+        "lieuType": "fabrication",
+        "analysis": "Une statuette de céramique creuse, de 34 cm, couverte d'un engobe blanc crème : un bébé potelé, assis par terre, les jambes écartées, porte la main à la bouche comme s'il suçait son doigt. Il porte un bonnet ajusté, peint en rouge, et sa tête est un peu penchée. Le corps, très réaliste, montre les plis de la graisse au ventre et au cou. Ces « bébés » sont l'un des thèmes les plus étonnants de l'art olmèque ; on ne sait pas exactement qui ils représentent.",
+        "compare": "Les Olmèques ont été parmi les premiers en Amérique à représenter des corps humains d'une manière aussi naturelle et expressive."
+      },
+      {
+        "title": "L'homme-jaguar assis de San Lorenzo",
+        "artist": "Sculpteurs olmèques",
+        "country": "Mexique",
+        "period": "vers 1200–900 av. J.-C.",
+        "museum": "Musée national d'anthropologie, Mexico (Mexique)",
+        "credit": "Musée national d'anthropologie, Mexico (Mexique), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Seated_Olmec_Jaguar_from_San_Lorenzo,_Veracruz.jpg), photo rosemania, licence CC BY 2.0",
+        "image": "images/mouvements/olmeques/homme-jaguar-de-san-lorenzo.jpg",
+        "lieu": "San Lorenzo",
+        "lieuType": "découverte",
+        "analysis": "Une sculpture de pierre rougeâtre représente un être trapu, au torse massif. Son visage mêle des traits humains et animaux : une bouche aux lèvres retroussées, au coin tombant, un nez épaté, une coiffe haute et carrée. C'est le monument 52 de San Lorenzo, haut de 90 cm. Il a été trouvé enterré à la tête d'un ancien système d'évacuation des eaux, et une longue rainure creusée dans son dos l'associe au dieu de la pluie et de l'eau. Ces êtres mi-hommes mi-jaguars sont au cœur de la religion olmèque.",
+        "compare": "Le jaguar, le plus grand félin d'Amérique, était associé au pouvoir et au monde surnaturel. On retrouvera cette figure chez les Mayas et chez les Aztèques."
+      },
+      {
+        "title": "La pyramide de La Venta",
+        "artist": "Bâtisseurs olmèques",
+        "country": "Mexique",
+        "period": "vers 900–400 av. J.-C.",
+        "museum": "Site, La Venta, Tabasco (Mexique)",
+        "credit": "La Venta, Tabasco (Mexique), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:La_Venta_Pir%C3%A1mide_cara_sur.jpg), photo Alfonsobouchot, domaine public",
+        "image": "images/mouvements/olmeques/pyramide-de-la-venta.jpg",
+        "lieu": "La Venta",
+        "lieuType": "site",
+        "analysis": "Une grande colline aux pentes régulières, couverte d'herbe, se dresse au-dessus d'une plaine. Ce n'est pas une colline naturelle : c'est la grande pyramide de La Venta, faite de terre et d'argile, haute d'une trentaine de mètres. Elle dominait le centre olmèque de La Venta, dans l'État de Tabasco, qui succéda à San Lorenzo vers 900 av. J.-C. Autour s'étendaient des places, des plateformes et des cours bordées de colonnes de basalte, où furent enterrées des offrandes de jade et des mosaïques de serpentine.",
+        "compare": "C'est l'une des plus anciennes pyramides de Mésoamérique. Les Mayas, plus tard, bâtiront les leurs en pierre."
+      },
+      {
+        "title": "L'autel 4 de La Venta",
+        "artist": "Sculpteurs olmèques",
+        "country": "Mexique",
+        "period": "vers 900–400 av. J.-C.",
+        "museum": "La Venta, Tabasco (Mexique)",
+        "credit": "La Venta, Tabasco (Mexique), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Altar_4_La_Venta_%28Ruben_Charles%29.jpg), photo Ruben Charles, licence CC BY 2.0",
+        "image": "images/mouvements/olmeques/autel-4-de-la-venta.jpg",
+        "lieu": "La Venta",
+        "lieuType": "découverte",
+        "analysis": "Un énorme bloc de basalte rectangulaire est posé au sol, au milieu de la végétation. Sur sa face avant, un personnage coiffé d'un haut couvre-chef est assis en tailleur dans une niche creusée dans la pierre, comme s'il sortait d'une grotte ; il tient une corde qui s'enroule sur les côtés du bloc. Le dessus du bloc est sculpté d'une grande gueule stylisée. On pense que ces « autels » étaient en réalité des trônes, sur lesquels les souverains s'asseyaient. L'original est conservé au Parque-Museo La Venta, à Villahermosa.",
+        "compare": "Le souverain qui sort de la grotte, entrée du monde souterrain, se présente comme l'intermédiaire entre les hommes et les forces surnaturelles."
+      },
+      {
+        "title": "Le seigneur de Las Limas",
+        "artist": "Sculpteurs olmèques",
+        "country": "Mexique",
+        "period": "vers 1000–600 av. J.-C.",
+        "museum": "Musée d'anthropologie de Xalapa, Veracruz (Mexique)",
+        "credit": "Musée d'anthropologie de Xalapa, Veracruz (Mexique), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Se%C3%B1or_de_las_limas_2.jpg), photo Mag2017, licence CC BY-SA 4.0",
+        "image": "images/mouvements/olmeques/seigneur-de-las-limas.jpg",
+        "lieu": "Las Limas",
+        "lieuType": "découverte",
+        "analysis": "Une statue de pierre verte polie, de 55 cm, représente un jeune homme assis en tailleur. Il tient sur ses genoux un bébé inerte au visage de jaguar, et ses épaules et ses genoux sont couverts de fines gravures représentant des visages de dieux. Elle a été découverte en 1965 par deux enfants près de Las Limas, dans l'État de Veracruz ; les habitants l'ont d'abord installée sur un autel comme une « Vierge ». Volée au musée de Xalapa en 1970, elle a été retrouvée au Texas.",
+        "compare": "Les visages gravés sur la statue ont aidé les archéologues à reconnaître les principaux dieux olmèques. C'est presque un « catalogue » de leur religion."
+      },
+      {
+        "title": "Personnage assis sur un banc",
+        "artist": "Sculpteurs olmèques",
+        "country": "Mexique",
+        "period": "Xe–IVe siècle av. J.-C.",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/313138), domaine public (CC0)",
+        "image": "images/mouvements/olmeques/personnage-assis-sur-un-banc.jpg",
+        "lieuType": "fabrication",
+        "analysis": "Une petite statuette de serpentine vert pâle, de 11 cm, représente un homme assis sur un banc bas, les mains posées sur les genoux. Il a une tête allongée, peut-être déformée volontairement, des yeux en amande et une bouche aux coins tombants, caractéristique de l'art olmèque. La pierre est polie avec soin, ce qui demandait beaucoup de temps et de savoir-faire.",
+        "compare": "Les pierres vertes, jade et serpentine, étaient les matériaux les plus précieux des Olmèques. Ils les faisaient venir de régions lointaines, jusqu'au Guatemala : c'est la preuve d'un commerce à longue distance."
+      },
+      {
+        "title": "Hache votive au dieu",
+        "artist": "Sculpteurs olmèques",
+        "country": "Mexique",
+        "period": "1000–300 av. J.-C.",
+        "museum": "Cleveland Museum of Art, Cleveland",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1954.856), domaine public (CC0)",
+        "image": "images/mouvements/olmeques/hache-votive-au-dieu.jpg",
+        "lieuType": "fabrication",
+        "analysis": "Un objet de pierre de 32 cm, en forme de lame de hache, porte en haut une tête de dieu. Selon le musée, sa bouche évasée, ses gencives sans dents et ses crocs sont typiques des êtres surnaturels olmèques. Le corps, en forme de hache servant à défricher les champs, porte un motif de « quatre points et une barre », dont le sens est obscur mais qui apparaît parfois sur des représentations de plantes. Ce dieu semble donc lié à la fertilité et à l'agriculture.",
+        "compare": "Les Olmèques cultivaient le maïs, comme tous les peuples de Mésoamérique après eux. Leurs dieux de la fertilité annoncent le dieu du maïs des Mayas."
+      },
+      {
+        "title": "Hache de jade au profil gravé",
+        "artist": "Sculpteurs olmèques",
+        "country": "Mexique",
+        "period": "Xe–IVe siècle av. J.-C.",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/310467), domaine public (CC0)",
+        "image": "images/mouvements/olmeques/hache-de-jade-gravee.jpg",
+        "lieuType": "fabrication",
+        "analysis": "Une longue lame de jade vert sombre, polie et étroite, de 36 cm, est gravée de fines lignes qui dessinent le profil d'un personnage coiffé. Une hache aussi précieuse n'était pas faite pour couper le bois : c'était un objet d'offrande ou de prestige. À La Venta, les archéologues ont trouvé des haches de jade de ce genre enterrées en rangées, dans des offrandes.",
+        "compare": "Les fines lignes gravées sur ces objets portent des signes que certains chercheurs rapprochent d'une écriture naissante."
+      },
+      {
+        "title": "Le bloc de Cascajal (copie)",
+        "artist": "Olmèques (original)",
+        "country": "Mexique",
+        "period": "vers 900 av. J.-C. (original, date discutée)",
+        "museum": "Copie exposée au Mexique",
+        "credit": "Copie du bloc de Cascajal, Veracruz (Mexique), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Bloque_de_Cascajal,_Cultura_olmeca.jpg), photo Jl FilpoC, licence CC BY-SA 4.0",
+        "image": "images/mouvements/olmeques/bloc-de-cascajal.jpg",
+        "lieu": "Cascajal",
+        "lieuType": "découverte",
+        "analysis": "Une plaque de pierre gris foncé, aux bords cassés, porte un rectangle couvert de petits signes gravés, disposés en lignes : on reconnaît des formes qui ressemblent à des épis, des yeux, des insectes ou des objets. Cette photographie montre une copie du bloc de Cascajal, trouvé dans les années 1990 dans un tas de déblais près de San Lorenzo. En 2006, des chercheurs ont annoncé dans la revue Science qu'il portait 62 signes formant peut-être la plus ancienne écriture des Amériques, vers 900 av. J.-C. Mais d'autres doutent de sa date, de son authenticité ou même qu'il s'agisse d'une écriture.",
+        "compare": "C'est tout le débat sur les Olmèques : avaient-ils une écriture ? Ce bloc pourrait le prouver, mais il a été trouvé hors de son contexte archéologique, et les spécialistes ne sont pas d'accord."
+      },
+      {
+        "title": "Le roi de Chalcatzingo",
+        "artist": "Sculpteurs de Chalcatzingo",
+        "country": "Mexique",
+        "period": "vers 700–500 av. J.-C.",
+        "museum": "Site, Chalcatzingo, Morelos (Mexique)",
+        "credit": "Chalcatzingo, Morelos (Mexique), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Chalcatzingo_-_el_rey.jpg), photo Maunus, licence CC BY-SA 3.0",
+        "image": "images/mouvements/olmeques/roi-de-chalcatzingo.jpg",
+        "lieu": "Chalcatzingo",
+        "lieuType": "site",
+        "analysis": "Sur la paroi d'un rocher, un relief montre un personnage assis à l'intérieur d'une grande forme en volute, qui représente l'ouverture d'une grotte ; de cette bouche s'échappent des volutes, peut-être des nuages ou du souffle, et au-dessus flottent des formes qui évoquent des nuages et des gouttes de pluie. On l'appelle « El Rey », le roi. Chalcatzingo se trouve dans l'État de Morelos, à plusieurs centaines de kilomètres des grands centres olmèques de la côte du Golfe, mais son art reprend leur style et leurs symboles.",
+        "compare": "Comparez avec l'autel 4 de La Venta : le même thème du personnage dans la grotte, loin de la côte. Le style olmèque s'était répandu dans une grande partie du Mexique."
+      },
+      {
+        "title": "La stèle C de Tres Zapotes",
+        "artist": "Sculpteurs épi-olmèques",
+        "country": "Mexique",
+        "period": "vers 31–32 av. J.-C.",
+        "museum": "Musée de site de Tres Zapotes, Veracruz (Mexique)",
+        "credit": "Tres Zapotes, Veracruz (Mexique), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Tres_Zapotes_Stela_C%281%29.jpg), photo HJPD, licence CC BY 3.0",
+        "image": "images/mouvements/olmeques/stele-c-de-tres-zapotes.jpg",
+        "lieu": "Tres Zapotes",
+        "lieuType": "découverte",
+        "analysis": "Un gros fragment de pierre rougeâtre, cassé, porte des colonnes de signes gravés dans des cases. C'est la partie supérieure de la stèle C de Tres Zapotes, retrouvée en 1969. Elle a confirmé la lecture d'une date du « compte long », le calendrier que les Mayas utiliseront plus tard, notée avec des points et des barres : elle correspond à l'an 32 ou 31 av. J.-C. C'est l'une des plus anciennes dates de ce calendrier connues. Tres Zapotes, dans l'État de Veracruz, était un centre olmèque qui continua d'être habité après l'abandon de La Venta.",
+        "compare": "Les héritiers des Olmèques comptaient déjà le temps avec des points et des barres : le système que les Mayas porteront à sa perfection."
+      },
+      {
+        "title": "La stèle 1 de La Mojarra",
+        "artist": "Sculpteurs épi-olmèques",
+        "country": "Mexique",
+        "period": "IIe siècle apr. J.-C.",
+        "museum": "Musée d'anthropologie de Xalapa, Veracruz (Mexique)",
+        "credit": "Musée d'anthropologie de Xalapa, Veracruz (Mexique), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:La_Mojarra_Estela_1.jpg), photo Adrian Hernandez, licence CC BY-SA 4.0",
+        "image": "images/mouvements/olmeques/stele-de-la-mojarra.jpg",
+        "lieu": "La Mojarra",
+        "lieuType": "découverte",
+        "analysis": "Une grande dalle de pierre grise montre, à gauche, un personnage richement vêtu, debout, coiffé d'une haute coiffe à plumes ; à côté de lui et en bas, des colonnes de petits signes gravés couvrent la surface. C'est l'une des plus longues inscriptions connues dans l'écriture dite « épi-olmèque » ou « isthmique », utilisée par les héritiers des Olmèques. Elle porte aussi deux dates du compte long, du IIe siècle de notre ère. Trouvée en 1986 dans le lit d'une rivière à La Mojarra, dans l'État de Veracruz, elle est conservée au musée de Xalapa. Son déchiffrement reste discuté.",
+        "compare": "Le point d'arrivée de l'exposition : quelques siècles après les Olmèques, leurs héritiers écrivaient de longs textes. L'écriture n'est pas apparue d'un coup : elle s'est développée peu à peu, et les Olmèques en ont peut-être été les pionniers."
+      }
+    ],
+    "carte": {
+      "image": "images/mouvements/cartes/olmeques.svg",
+      "ouest": -102.0,
+      "est": -89.5,
+      "sud": 14.5,
+      "nord": 21.0,
+      "lieux": [
+        {
+          "nom": "San Lorenzo",
+          "lat": 17.75,
+          "lon": -94.76
+        },
+        {
+          "nom": "La Venta",
+          "lat": 18.1036,
+          "lon": -94.04
+        },
+        {
+          "nom": "Las Limas",
+          "lat": 17.44,
+          "lon": -94.96
+        },
+        {
+          "nom": "Cascajal",
+          "lat": 17.95,
+          "lon": -94.68
+        },
+        {
+          "nom": "Chalcatzingo",
+          "lat": 18.6764,
+          "lon": -98.7731
+        },
+        {
+          "nom": "Tres Zapotes",
+          "lat": 18.4667,
+          "lon": -95.4333
+        },
+        {
+          "nom": "La Mojarra",
+          "lat": 18.43,
+          "lon": -95.9
+        }
+      ],
+      "pays": [
+        {
+          "nom": "Mexique",
+          "lat": 17.6,
+          "lon": -100.3
+        },
+        {
+          "nom": "Guatemala",
+          "lat": 15.6,
+          "lon": -91.3
+        }
+      ],
+      "villes": [
+        {
+          "nom": "Mexico",
+          "lat": 19.4326,
+          "lon": -99.1332
+        },
+        {
+          "nom": "Veracruz",
+          "lat": 19.1738,
+          "lon": -96.1342
+        },
+        {
+          "nom": "Oaxaca",
+          "lat": 17.0732,
+          "lon": -96.7266
+        }
+      ]
+    }
   }
 ]

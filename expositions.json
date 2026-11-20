@@ -2936,5 +2936,340 @@
         "compare": "Comme le Shiva de bronze, un objet de culte qui servait dans les rituels plutôt qu'à être contemplé ; ici, on y buvait pour entrer en relation avec les dieux."
       }
     ]
+  },
+  {
+    "title": "Qu'est-ce qu'une civilisation ?",
+    "subtitle": "Des villes de Mésopotamie aux Amériques métissées : vingt-neuf œuvres de vingt et un pays pour comprendre un mot, ses critères et ses débats",
+    "status": "published",
+    "theme": "Civilisations & regards croisés",
+    "cover": "images/couvertures/civilisation.jpg",
+    "intro": "Le mot « civilisation » semble simple, mais il ne l'est pas. Les archéologues l'emploient dans un sens précis : une société qui a des villes, un État, des monuments, une écriture, des métiers spécialisés, une hiérarchie sociale et des échanges lointains. Cette exposition présente d'abord ces critères, à travers des œuvres de Mésopotamie, d'Égypte, de l'Indus, de Chine ou d'Inde. Puis elle ouvre les débats : faut-il une écriture, comme le demandent les historiens européens, quand les Incas, le royaume du Bénin ou le Grand Zimbabwe ont gardé leur mémoire autrement ? Les peuples nomades forment-ils des civilisations ? Pourquoi les Européens se sont-ils longtemps placés au sommet d'une échelle de « progrès » ? Et peut-on parler aujourd'hui d'une civilisation européenne, « occidentale » ou américaine ? Les œuvres viennent des expositions de l'onglet Civilisations, avec trois œuvres nouvelles ; aucune réponse n'est imposée : l'exposition montre les arguments, à vous de juger.",
+    "minimum": 20,
+    "search": {
+      "keywords": "ancient",
+      "auto": false
+    },
+    "works": [
+      {
+        "title": "Uruk, la ziggourat d'Anu",
+        "artist": "Bâtisseurs d'Uruk",
+        "country": "Irak",
+        "period": "IVe millénaire av. J.-C.",
+        "museum": "Site archéologique, Uruk (Warka, Irak)",
+        "image": "images/mouvements/mesopotamie/uruk-ziggourat-d-anu.jpg",
+        "credit": "Uruk (Irak), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:White_Temple_ziggurat_in_Uruk.jpg), photo tobeytravels, licence CC BY-SA 2.0",
+        "analysis": "Dans une plaine désertique, une grande butte de briques crues, usée par le vent et la pluie, domine les ruines. C'est la ziggourat d'Anu, le dieu du ciel, à Uruk : une haute terrasse de briques qui portait, à la fin du IVe millénaire av. J.-C., un temple aux murs enduits de blanc, appelé aujourd'hui le « Temple blanc ». Uruk est l'une des premières vraies villes du monde : vers 3200 av. J.-C., elle comptait peut-être 40 000 habitants, avec de grands temples, des ateliers et des réserves. C'est dans son quartier de l'Eanna, le sanctuaire de la déesse Inanna, que les archéologues ont trouvé les plus anciennes tablettes écrites de Mésopotamie. La légende fait de Gilgamesh l'un de ses rois. Le site est inscrit au patrimoine mondial de l'UNESCO depuis 2016, avec Ur et Eridu.",
+        "compare": "Le point de départ de l'exposition : pour l'archéologue Vere Gordon Childe, une civilisation commence avec la ville. Uruk est son grand exemple, celui de la « révolution urbaine »."
+      },
+      {
+        "title": "Tablette proto-cunéiforme : une distribution d'orge",
+        "artist": "Scribe d'Uruk",
+        "country": "Irak",
+        "period": "vers 3100–2900 av. J.-C.",
+        "museum": "Metropolitan Museum of Art, New York",
+        "image": "images/mouvements/mesopotamie/tablette-proto-cuneiforme.jpg",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/329081), domaine public (CC0)",
+        "analysis": "Une petite tablette d'argile de 5,4 × 6 cm, venue sans doute d'Uruk. En haut, des encoches rondes et allongées, enfoncées dans l'argile, notent des nombres ; à côté, des signes dessinés indiquent ce que l'on compte : selon le titre que lui donne le musée, il s'agit d'une distribution d'orge. En bas, on a roulé un sceau-cylindre qui montre un homme, des chiens de chasse et des sangliers ; l'empreinte servait de signature. Les premières écritures de Mésopotamie ne racontaient pas d'histoires : elles servaient à tenir les comptes des temples, les grains, le bétail, les rations des travailleurs. Dans le seul quartier de l'Eanna, à Uruk, on a retrouvé des milliers de tablettes de ce genre.",
+        "compare": "Deuxième critère : l'écriture. Elle est née ici pour compter, pas pour raconter : les premiers écrits de l'humanité sont des comptes de grain et de bétail."
+      },
+      {
+        "title": "La ville de Mohenjo-daro",
+        "artist": "Bâtisseurs harappéens",
+        "country": "Pakistan",
+        "period": "vers 2500–1900 av. J.-C.",
+        "museum": "Site archéologique, Mohenjo-daro (Pakistan)",
+        "image": "images/mouvements/civilisation-de-l-indus/mohenjo-daro.jpg",
+        "credit": "Mohenjo-daro (Pakistan), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Mohenjo-daro.jpg), photo Saqib Qayyum, licence CC BY-SA 3.0",
+        "analysis": "Sous un ciel pâle, un vaste champ de ruines de briques rouges s'étend à perte de vue : murs bas, pièces carrées, escaliers et rues droites. Au fond, une butte plus haute est couronnée d'un monument arrondi. Mohenjo-daro, dans la province du Sind, au Pakistan, fut l'une des plus grandes villes du monde vers 2500 av. J.-C. Elle comprenait une ville haute, que les archéologues appellent la « citadelle », et une ville basse aux rues tracées à angle droit, bordées de maisons de briques cuites, souvent avec un puits et une salle d'eau. Son nom ancien est inconnu : « Mohenjo-daro » signifie « la butte des morts » en sindhi. Le site est inscrit au patrimoine mondial de l'UNESCO depuis 1980 ; il est menacé par le sel et l'érosion.",
+        "compare": "Une grande ville planifiée, avec une écriture qu'on ne sait pas lire, mais sans palais ni nom de roi connus : l'Indus montre qu'une civilisation peut être organisée autrement qu'autour d'un roi."
+      },
+      {
+        "title": "Le code de Hammurabi",
+        "artist": "Sculpteurs et scribes de Hammurabi",
+        "country": "Irak",
+        "period": "vers 1750 av. J.-C.",
+        "museum": "Musée du Louvre, Paris",
+        "image": "images/mouvements/mesopotamie/code-de-hammurabi.jpg",
+        "credit": "Musée du Louvre, Paris, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:P1050763_Louvre_code_Hammurabi_face_rwk.JPG), photo Mbzt, licence CC BY 3.0",
+        "analysis": "Une haute stèle de pierre noire, de 2,25 mètres, couverte de colonnes d'écriture cunéiforme. En haut, un relief : le roi Hammurabi de Babylone, debout, la main levée devant la bouche en signe de respect, fait face au dieu Shamash, le Soleil et le dieu de la justice, assis sur un trône. Le texte, en akkadien, réunit près de trois cents décisions de justice sur le commerce, la famille, le travail des champs ou les coups et blessures, comme la célèbre règle « œil pour œil » ; les peines changent selon que la victime est un homme libre ou un esclave. Emportée elle aussi à Suse par un roi élamite, la stèle y a été retrouvée en 1901–1902 par une mission archéologique française.",
+        "compare": "Troisième critère : un État, avec un roi, des lois et des juges. Les lois écrites permettent de gouverner des milliers de personnes qui ne se connaissent pas."
+      },
+      {
+        "title": "Le Scribe accroupi",
+        "artist": "Sculpteur égyptien",
+        "country": "Égypte",
+        "period": "vers 2600–2350 av. J.-C.",
+        "museum": "Musée du Louvre, Paris",
+        "image": "images/mouvements/egypte-ancienne/scribe-accroupi.jpg",
+        "credit": "Musée du Louvre, Paris, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Le_Scribe_accroupi_-_Mus%C3%A9e_du_Louvre_Antiquit%C3%A9s_%C3%A9gyptiennes_E_3023.jpg), photo Shonagon, domaine public (CC0)",
+        "analysis": "Un homme assis en tailleur, vêtu d'un pagne blanc tendu sur ses genoux, tient sur ses jambes un rouleau de papyrus à demi déroulé ; sa main droite tenait un calame, aujourd'hui perdu. Sa peau est peinte en brun-rouge, son ventre est un peu mou, et ses yeux, incrustés de pierre, regardent droit devant lui.",
+        "compare": "Quatrième critère : les métiers spécialisés. Les scribes, les prêtres, les artisans ne cultivent pas la terre : ils vivent des surplus produits par les paysans."
+      },
+      {
+        "title": "Os oraculaire inscrit",
+        "artist": "Devins de la cour des Shang",
+        "country": "Chine",
+        "period": "vers 1250–1046 av. J.-C.",
+        "museum": "Musée de l'écriture chinoise, Anyang",
+        "image": "images/mouvements/chine-ancienne/os-oraculaire-shang.jpg",
+        "credit": "Musée de l'écriture chinoise, Anyang, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Ancient_Chinese_Writing_on_Ox_Scapula%2C_Shang_Dynasty_Oracle_Bone%2C_Yinxu.jpg), photo Gary Todd, domaine public (CC0)",
+        "analysis": "Un os plat et allongé, une omoplate de bœuf, de couleur brune, présenté debout dans une vitrine ; sa surface est couverte de petits caractères gravés et de traces de fissures.",
+        "compare": "L'écriture n'a pas été inventée une seule fois : elle est née séparément au moins en Mésopotamie, en Chine et en Mésoamérique, et peut-être aussi en Égypte. Les caractères chinois d'aujourd'hui descendent de ceux-ci."
+      },
+      {
+        "title": "Le sarcophage d'Ahiram, roi de Byblos",
+        "artist": "Sculpteur de Byblos",
+        "country": "Liban",
+        "period": "vers 1000 av. J.-C. (inscription)",
+        "museum": "Musée national de Beyrouth (Liban)",
+        "image": "images/mouvements/pheniciens-et-carthage/sarcophage-d-ahiram.jpg",
+        "credit": "Musée national de Beyrouth (Liban), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Ahiram_Sarcophagus_1.JPG), photo O.Mustafin, domaine public",
+        "analysis": "Une grande cuve de pierre claire, fermée par un couvercle, repose sur des lions couchés dont on voit les têtes et les pattes avant. Ses côtés sont sculptés en faible relief : une file de personnages marche entre deux bandes en forme de corde. Sur les autres faces, un roi assis sur un trône orné de sphinx reçoit des offrandes devant une table. Le sarcophage a été découvert à Byblos en 1923. Une inscription gravée sur le bord du couvercle dit que le fils d'Ahiram, roi de Byblos, l'a fait pour son père, et menace de malheurs quiconque l'ouvrirait. Datée en général de 1000 av. J.-C. environ, c'est le plus ancien long texte connu écrit avec l'alphabet phénicien.",
+        "compare": "Les écritures voyagent : l'alphabet phénicien est l'ancêtre des alphabets grec, latin, hébreu et arabe. Les civilisations empruntent sans cesse les unes aux autres."
+      },
+      {
+        "title": "Les édits d'Ashoka sur le rocher de Girnar",
+        "artist": "Graveurs de l'empereur Ashoka",
+        "country": "Inde",
+        "period": "vers 250 av. J.-C.",
+        "museum": "Girnar, Junagadh, Gujarat (Inde)",
+        "image": "images/mouvements/inde-ancienne/edit-d-ashoka-girnar.jpg",
+        "credit": "Junagadh (Inde), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Ashoka_Rock_Edict_at_Junagadh.jpg), photo Jadia gaurang, licence CC BY-SA 3.0",
+        "analysis": "Un gros rocher arrondi, abrité dans un bâtiment, porte sur toute sa surface de fines lignes de petits signes gravés. Après la conquête sanglante du Kalinga, vers 261 av. J.-C., Ashoka dit avoir été saisi de remords. Il fit graver sur des rochers et des piliers, dans tout son empire, des édits où il demande à ses sujets de respecter toutes les religions, d'éviter la violence et de bien traiter les serviteurs et les animaux ; il y annonce aussi des puits, des arbres et des soins pour les hommes et les bêtes. À Girnar, quatorze édits sont écrits en brahmi. Cette écriture fut déchiffrée en 1837 par James Prinsep, ce qui fit redécouvrir Ashoka, alors oublié.",
+        "compare": "Un empereur qui parle à ses sujets par l'écriture, sur des rochers, à travers tout son empire : l'écriture sert aussi à gouverner et à convaincre."
+      },
+      {
+        "title": "Khipu, cordelettes à nœuds",
+        "artist": "Comptable inca (khipukamayuq)",
+        "country": "Pérou",
+        "period": "vers 1400–1532",
+        "museum": "Cleveland Museum of Art",
+        "image": "images/mouvements/incas/khipu-cleveland.jpg",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1940.469), domaine public (CC0)",
+        "analysis": "Sur un fond clair, des dizaines de fines cordelettes de coton et de laine pendent d'une corde principale, disposée en arc. Certaines sont plus foncées ; on y voit, à différentes hauteurs, des groupes de petits nœuds. Les Incas n'avaient pas d'écriture alphabétique, mais ils gardaient la mémoire de l'empire sur ces cordelettes, les khipus. La position des nœuds indique les unités, les dizaines, les centaines ; la couleur et la torsion des fils donnaient d'autres informations. Des spécialistes, les khipukamayuq, y notaient les recensements, les tributs et le contenu des entrepôts. Certains chercheurs pensent que des khipus enregistraient aussi des récits ; la question reste ouverte, car on ne sait plus les lire entièrement.",
+        "compare": "Premier débat : faut-il une écriture ? Les Incas ont gouverné un immense empire sans écriture au sens habituel, avec ces cordelettes à nœuds. C'est pourquoi beaucoup d'historiens parlent d'« écriture ou autre moyen de garder les comptes »."
+      },
+      {
+        "title": "Plaque : un oba soutenu par deux serviteurs",
+        "artist": "Fondeurs de la guilde Igun Eronmwon",
+        "country": "Nigeria",
+        "period": "XVIe–XVIIe siècle",
+        "museum": "Cleveland Museum of Art",
+        "image": "images/mouvements/art-de-cour-du-benin/plaque-oba-soutenu-deux-serviteurs.jpg",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1999.1), domaine public (CC0)",
+        "analysis": "Selon le musée, près de 900 plaques de métal ornaient la cour du palais de l'oba et racontaient l'histoire et les coutumes du Bénin. Celle-ci montre deux serviteurs (enobore) qui soutiennent un oba par les mains. La composition est hiérarchique : le personnage le plus important est au centre et plus grand, et tout chez lui est plus imposant, le corps, les vêtements, les bijoux. Les serviteurs soutiennent un homme alourdi par ses vêtements royaux et par ses responsabilités. Le numéro peint en bas à gauche montre que la plaque a appartenu au British Museum : elle y est entrée en 1898, un an après que les troupes britanniques l'eurent prise dans une réserve du palais.",
+        "compare": "Au royaume du Bénin, la mémoire de la cour était confiée à des historiens qui récitaient l'histoire des rois, et fixée dans le métal de ces plaques. Une écriture n'est pas la seule façon de garder la mémoire d'un État."
+      },
+      {
+        "title": "Le grand enclos vu du ciel",
+        "artist": "Bâtisseurs du Grand Zimbabwe",
+        "country": "Zimbabwe",
+        "period": "XIVe siècle",
+        "museum": "Site, Grand Zimbabwe, près de Masvingo (Zimbabwe)",
+        "image": "images/mouvements/grand-zimbabwe/grand-enclos-vu-du-ciel.jpg",
+        "credit": "Grand Zimbabwe, près de Masvingo (Zimbabwe), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Great-zim-aerial-looking-West.JPG), photo Janice Bell, licence CC BY-SA 4.0",
+        "analysis": "Vu d'en haut, un immense mur de pierre ovale entoure un espace planté d'arbres ; tout autour, dans la savane, on distingue d'autres murs plus bas et des sentiers. C'est le « grand enclos », la plus grande construction en pierre de l'Afrique subsaharienne ancienne : son mur mesure environ 250 mètres de tour et jusqu'à 11 mètres de haut. Il est fait de blocs de granit taillés, posés sans aucun mortier. La ville, dont la population a pu atteindre plusieurs milliers d'habitants, s'étendait tout autour. Le Grand Zimbabwe est inscrit au patrimoine mondial de l'UNESCO depuis 1986.",
+        "compare": "Une ville de pierre, un roi, un commerce de l'or jusqu'en Chine, mais aucune écriture : faut-il parler de civilisation ? Les historiens hésitent. Pendant longtemps, les colons ont même refusé de croire que des Africains l'avaient bâtie."
+      },
+      {
+        "title": "Angkor Wat",
+        "artist": "Bâtisseurs du roi Suryavarman II",
+        "country": "Cambodge",
+        "period": "première moitié du XIIe siècle",
+        "museum": "Site archéologique, Angkor (Siem Reap, Cambodge)",
+        "image": "images/mouvements/empire-khmer/angkor-wat.jpg",
+        "credit": "Angkor (Cambodge), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Angkor_Wat_aerial_view.jpg), photo Steve Jurvetson, licence CC BY 2.0",
+        "analysis": "Vu d'avion, un immense rectangle entouré d'eau : un large fossé encadre une île couverte d'arbres, au centre de laquelle se dressent les galeries et les tours du temple ; une chaussée traverse le fossé. Angkor Wat est le temple d'État du roi Suryavarman II, et peut-être son tombeau. Dédié à Vishnu, c'est l'un des plus grands monuments religieux du monde. Ses galeries sont couvertes de bas-reliefs qui racontent des récits hindous et montrent le roi et son armée. Le temple n'a jamais été abandonné : il est devenu un sanctuaire bouddhiste, et il figure aujourd'hui sur le drapeau du Cambodge.",
+        "compare": "Cinquième critère : les monuments. Pour bâtir un tel temple, il fallait un État capable de nourrir et d'organiser des milliers d'ouvriers, de sculpteurs et d'ingénieurs."
+      },
+      {
+        "title": "Le bloc de Cascajal (copie)",
+        "artist": "Olmèques (original)",
+        "country": "Mexique",
+        "period": "vers 900 av. J.-C. (original, date discutée)",
+        "museum": "Copie exposée au Mexique",
+        "image": "images/mouvements/olmeques/bloc-de-cascajal.jpg",
+        "credit": "Copie du bloc de Cascajal, Veracruz (Mexique), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Bloque_de_Cascajal,_Cultura_olmeca.jpg), photo Jl FilpoC, licence CC BY-SA 4.0",
+        "analysis": "Une plaque de pierre gris foncé, aux bords cassés, porte un rectangle couvert de petits signes gravés, disposés en lignes : on reconnaît des formes qui ressemblent à des épis, des yeux, des insectes ou des objets. Cette photographie montre une copie du bloc de Cascajal, trouvé dans les années 1990 dans un tas de déblais près de San Lorenzo. En 2006, des chercheurs ont annoncé dans la revue Science qu'il portait 62 signes formant peut-être la plus ancienne écriture des Amériques, vers 900 av. J.-C. Mais d'autres doutent de sa date, de son authenticité ou même qu'il s'agisse d'une écriture.",
+        "compare": "Le débat peut aussi porter sur les faits : si ce bloc est bien une écriture du IXe siècle av. J.-C., les Olmèques ont été parmi les premiers à écrire en Amérique. Mais les spécialistes ne sont pas d'accord."
+      },
+      {
+        "title": "Grand vase profond de l'époque Jōmon",
+        "artist": "Potier de l'époque Jōmon",
+        "country": "Japon",
+        "period": "vers 3500–2500 av. J.-C.",
+        "museum": "Metropolitan Museum of Art, New York",
+        "image": "images/mouvements/japon/vase-jomon.jpg",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/39660), domaine public (CC0)",
+        "analysis": "Un grand vase de terre cuite brune, haut d'environ 70 cm, en forme de cylindre qui s'évase vers le haut. Toute sa surface est couverte de fines empreintes en lignes obliques ; le bord est découpé en reliefs et en boucles. « Jōmon » veut dire « marque de corde » : les potiers roulaient des cordelettes sur l'argile encore molle, comme on le voit ici. Les hommes de cette époque, chasseurs, pêcheurs et cueilleurs, ont fabriqué pendant plus de dix mille ans l'une des plus anciennes poteries du monde. Ils cuisaient leurs vases sans four, dans un feu à l'air libre, et s'en servaient pour cuire les aliments. Les bords très décorés, typiques du Jōmon moyen, montrent que ces objets du quotidien étaient aussi des œuvres d'art.",
+        "compare": "Un art magnifique, mais ni villes, ni État, ni écriture : au sens des archéologues, les Jōmon ne forment pas une civilisation. Ce n'est pas un jugement de valeur : c'est un autre type de société."
+      },
+      {
+        "title": "Tortue de pierre de Karakorum",
+        "artist": "Bâtisseurs de Karakorum",
+        "country": "Mongolie",
+        "period": "XIIIe siècle",
+        "museum": "Site archéologique, Karakorum (Kharkhorin, Mongolie)",
+        "image": "images/mouvements/empire-mongol/tortue-de-karakorum.jpg",
+        "credit": "Karakorum (Mongolie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:A_v%C3%A1ros_sarkait_jel%C3%B6l%C5%91_tekn%C5%91s%C3%B6k_k%C3%B6z%C3%BCl_az_egyik_%28One_of_the_turtles_marking_the_corners_of_the_city%29_-_panoramio.jpg), photo Gyula Péter, licence CC BY 3.0",
+        "analysis": "Au milieu d'une vaste prairie, une grosse tortue de pierre grise tend la tête ; une écharpe de soie bleue, le khadag que l'on offre en signe de respect, est nouée autour de son cou. Sur son dos, un creux servait à fixer une stèle. C'est l'un des rares vestiges de Karakorum, la capitale de l'Empire mongol. Le fils de Gengis Khan, Ögödei, la fit entourer d'un mur et y fit construire un palais vers 1235. Le moine flamand Guillaume de Rubrouck, venu en 1254, y vit des quartiers de marchands et d'artisans, des temples de plusieurs religions et, devant le palais, un arbre d'argent fabriqué par un orfèvre parisien prisonnier, d'où coulaient des boissons.",
+        "compare": "Deuxième débat : les nomades. Les Mongols, peuple d'éleveurs nomades, ont conquis le plus grand empire continu de l'histoire et bâti une capitale. Au XIVe siècle, le savant arabe Ibn Khaldoun voyait déjà les nomades et les citadins comme deux formes d'une même vie en société."
+      },
+      {
+        "title": "Mansa Musa dans l'Atlas catalan",
+        "artist": "Atelier d'Abraham Cresques (Majorque)",
+        "country": "Mali",
+        "period": "1375",
+        "museum": "Bibliothèque nationale de France, Paris",
+        "image": "images/mouvements/empire-du-mali/atlas-catalan-mansa-musa.jpg",
+        "credit": "Bibliothèque nationale de France, Paris, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Catalan_Atlas_BNF_Sheet_6_Mansa_Musa_%28cropped%29.jpg), domaine public",
+        "analysis": "Sur un fond de parchemin clair, un roi à la peau sombre et à la barbe frisée est assis sur un trône. Il porte une couronne d'or et un long manteau, tient dans une main un sceptre fleurdelisé et lève de l'autre une boule d'or. Autour de lui, des inscriptions en catalan, des lignes de navigation et de petites villes. Cet atlas, peint en 1375 dans l'atelier d'Abraham Cresques, un cartographe juif de Majorque, et offert au roi de France Charles V, est l'une des plus belles cartes du Moyen Âge. L'inscription à côté du roi le nomme « Musse Melly », seigneur des Noirs de Guinée, et dit qu'il est le roi le plus riche de toute la région grâce à l'or de ses terres. Il s'agit de Mansa Musa, qui régna sur le Mali dans la première moitié du XIVe siècle. En 1324, son pèlerinage à La Mecque, avec une suite immense chargée d'or, frappa tellement les esprits qu'on en parlait encore en Égypte des années plus tard ; c'est ainsi que l'Europe a appris son nom.",
+        "compare": "Troisième débat : le regard des autres. En 1375, une carte européenne montre un roi africain couronné, riche et puissant. Plus tard, l'Europe oubliera cette image pour présenter l'Afrique comme « sans histoire »."
+      },
+      {
+        "title": "La carte babylonienne du monde",
+        "artist": "Scribe babylonien",
+        "country": "Irak",
+        "period": "vers le VIe siècle av. J.-C.",
+        "museum": "British Museum, Londres",
+        "image": "images/mouvements/mesopotamie/carte-du-monde-babylonienne.jpg",
+        "credit": "British Museum, Londres, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Map_of_the_World_from_Sippar,_Iraq,_6th_century_BCE._The_British_Museum.jpg), photo Osama Shukir Muhammed Amin, licence CC BY-SA 4.0",
+        "analysis": "Une tablette d'argile brisée, recollée : en haut, des lignes d'écriture cunéiforme ; en bas, on devine le début d'un dessin fait de cercles. C'est la plus ancienne carte du monde connue. Le dessin entier montre la terre comme un disque traversé par l'Euphrate, avec Babylone au centre, entouré par un anneau d'eau, le « fleuve amer », c'est-à-dire l'océan. Les noms de pays et de villes, comme l'Assyrie et l'Élam, sont écrits en cunéiforme ; le texte décrit des régions lointaines et mythiques. Elle a été trouvée à Sippar, au nord de Babylone, et le British Museum l'a acquise en 1882.",
+        "compare": "Babylone au centre du monde, entourée de pays lointains et mythiques : chaque civilisation tend à se voir comme le centre. Comparez avec l'allégorie de Tiepolo, juste après."
+      },
+      {
+        "title": "Allégorie des planètes et des continents",
+        "artist": "Giovanni Battista Tiepolo",
+        "country": "Italie",
+        "period": "1752",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/437790), domaine public (CC0)",
+        "image": "images/expositions/civilisation-tiepolo-allegorie-des-continents.jpg",
+        "analysis": "Une grande esquisse peinte à l'huile, vue comme un plafond : au centre, dans un ciel doré, Apollon, le dieu du soleil, entouré de dieux qui représentent les planètes, s'élance pour sa course quotidienne. Sur les quatre bords se pressent des foules de personnages, d'animaux et d'objets : ce sont les quatre parties du monde alors connues des Européens, l'Afrique, l'Amérique, l'Asie et l'Europe. Le peintre vénitien Tiepolo présenta cette esquisse le 20 avril 1752 au prince-évêque de Würzburg, en Allemagne, pour le plafond du grand escalier de son palais. La fresque achevée est considérée comme son chef-d'œuvre.",
+        "compare": "Comparez avec la carte babylonienne, juste avant : chaque civilisation a tendance à se placer au centre du monde. Au XVIIIe siècle, les Européens représentent volontiers l'Europe entourée des arts et des sciences, et les autres continents comme plus « sauvages » : c'est l'époque où naît le mot « civilisation »."
+      },
+      {
+        "title": "L'Europe soutenue par l'Afrique et l'Amérique",
+        "artist": "William Blake, d'après John Gabriel Stedman",
+        "country": "Royaume-Uni",
+        "period": "1792 (publiée en 1796)",
+        "museum": "University of Arizona Museum of Art, Tucson",
+        "credit": "University of Arizona Museum of Art, Tucson, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Europe_Supported_by_Africa_and_America,_by_William_Blake,_c._1792,_engraving_with_etching_-_University_of_Arizona_Museum_of_Art_-_University_of_Arizona_-_Tucson,_AZ_-_DSC07993.jpg), photo Daderot, domaine public",
+        "image": "images/expositions/civilisation-blake-europe-afrique-amerique.jpg",
+        "sensible": true,
+        "analysis": "Une gravure en noir et blanc montre trois jeunes femmes nues qui se tiennent par la main et par l'épaule. Au centre, l'Europe, à la peau claire, porte un collier de perles ; elle s'appuie sur l'Afrique, à gauche, et sur l'Amérique, à droite, qui portent chacune un bracelet de métal au bras. Une corde les relie toutes les trois. Le graveur William Blake, opposé à l'esclavage, l'a faite d'après un dessin de John Gabriel Stedman, un soldat qui avait combattu au Suriname des esclaves révoltés ; elle termine son livre, publié en 1796. Pour certains historiens, les bracelets sont le signe de l'esclavage ; pour d'autres, l'image rêve d'une union plus égale entre les continents.",
+        "compare": "Au moment même où les Européens se disent « civilisés », une grande partie de leur richesse repose sur le travail des Africains réduits en esclavage en Amérique. Cette image, ambiguë, oblige à regarder ce que cache le mot « civilisation »."
+      },
+      {
+        "title": "Kilwa vue par les Européens",
+        "artist": "Georg Braun et Frans Hogenberg",
+        "country": "Allemagne",
+        "period": "1572",
+        "museum": "Atlas Civitates orbis terrarum, Cologne",
+        "image": "images/mouvements/cites-swahilies/kilwa-vue-par-les-europeens.jpg",
+        "credit": "Civitates orbis terrarum, vol. I, 1572, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:City_of_Kilwa,_1572.jpg), domaine public",
+        "analysis": "Une gravure coloriée montre une île verte entourée d'une mer gris-bleu, sur laquelle naviguent des voiliers. Une grande ville serrée, aux maisons rouges, aux tours et aux coupoles, couvre une partie de l'île, au milieu des palmiers ; en haut, le nom « QVILOA ». C'est Kilwa, telle que la représente l'atlas des villes du monde publié à Cologne en 1572 par Georg Braun et Frans Hogenberg. Les graveurs ne l'avaient sans doute jamais vue : ils s'inspiraient de récits de voyageurs portugais, et ont dessiné une ville à l'européenne.",
+        "compare": "Des graveurs qui n'ont jamais vu Kilwa la dessinent comme une ville européenne : pour être reconnue comme « civilisée », une ville africaine devait ressembler à l'Europe."
+      },
+      {
+        "title": "L'Acropole d'Athènes",
+        "artist": "Bâtisseurs athéniens",
+        "country": "Grèce",
+        "period": "Ve siècle av. J.-C. (Parthénon : 447–432 av. J.-C.)",
+        "museum": "Site archéologique, Athènes",
+        "image": "images/mouvements/grece-antique/acropole-d-athenes.jpg",
+        "credit": "Athènes, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:View_of_the_Acropolis_from_Philopappos_Hill%2C_Athens%2C_20240601_1137_0117.jpg), photo Jakub Hałun, licence CC BY 4.0",
+        "analysis": "Sur un rocher qui domine la ville, des remparts portent les ruines de temples de marbre : en haut à droite, le Parthénon, avec ses colonnes ; à gauche, les Propylées, l'entrée monumentale. Au pied du rocher, la façade à arcades d'un théâtre d'époque romaine, l'odéon d'Hérode Atticus.",
+        "compare": "Quatrième débat : l'Europe ou l'« Occident » sont-ils une civilisation ? Pour l'historien Fernand Braudel, oui : une civilisation européenne, née de la Grèce, de Rome et du christianisme, qui dure depuis des siècles au-delà des États. D'autres trouvent cette idée trop vaste et trop simple."
+      },
+      {
+        "title": "L'amphithéâtre d'El Jem",
+        "artist": "Bâtisseurs romains",
+        "country": "Tunisie",
+        "period": "vers 238",
+        "museum": "Site archéologique, El Jem (Tunisie)",
+        "image": "images/mouvements/rome-antique/amphitheatre-d-el-jem.jpg",
+        "credit": "El Jem (Tunisie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Amphith%C3%A9%C3%A2tre_d%E2%80%99El_Jem_vue_aerienne_%282023%29_1.jpg), photo Skander Zarrad, licence CC BY-SA 4.0",
+        "analysis": "Vu du ciel, un immense amphithéâtre ovale de pierre dorée se dresse au milieu des maisons blanches et basses d'une petite ville ; ses trois étages d'arcades sont presque intacts d'un côté, ouverts de l'autre.",
+        "compare": "Ce monument romain est en Afrique, en Tunisie. L'héritage de Rome, qu'on dit « européen », appartient aussi à l'Afrique du Nord et au Proche-Orient : les frontières d'une civilisation ne sont pas celles des continents."
+      },
+      {
+        "title": "Sainte-Sophie de Constantinople",
+        "artist": "Anthémius de Tralles et Isidore de Milet",
+        "country": "Turquie",
+        "period": "532–537",
+        "museum": "Site, Istanbul (Turquie)",
+        "image": "images/mouvements/empire-byzantin/sainte-sophie.jpg",
+        "credit": "Sainte-Sophie, Istanbul (Turquie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Hagia_Sophia_Interior_Panorama.jpg), photo Ronan Reinart, licence CC BY-SA 3.0",
+        "analysis": "Une vue prise vers le haut, au centre de l'édifice : une immense coupole, percée d'une couronne de fenêtres, semble flotter au-dessus de demi-coupoles, d'arcs et de galeries ; des lustres pendent dans la lumière dorée. Sainte-Sophie, l'église de la « Sagesse divine », fut construite pour l'empereur Justinien et consacrée en 537 ; ses architectes, Anthémius de Tralles et Isidore de Milet, étaient aussi des savants en géométrie. Sa première coupole s'effondra en 558 et fut reconstruite. Après la prise de Constantinople en 1453, l'église devint une mosquée ; elle fut transformée en musée dans les années 1930, puis redevint une mosquée en 2020.",
+        "compare": "Église, puis mosquée, puis musée, puis mosquée : Sainte-Sophie est au croisement de l'Europe et de l'Asie, du christianisme et de l'islam. Le politologue Samuel Huntington parlait en 1996 d'un « choc des civilisations » ; beaucoup lui ont répondu que les civilisations se mêlent plus qu'elles ne s'affrontent."
+      },
+      {
+        "title": "De Espagnol et de Morisca, Albino (peinture de castes)",
+        "artist": "Juan Patricio Morlete Ruiz",
+        "country": "Mexique",
+        "period": "vers 1760",
+        "museum": "Los Angeles County Museum of Art (LACMA), Los Angeles",
+        "credit": "Los Angeles County Museum of Art (https://collections.lacma.org/node/222684), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:VII._De_espanol_y_morisca,_albino_%28Casta_painting%29_LACMA_M.2011.20.1_%281_of_6%29.jpg), domaine public",
+        "image": "images/expositions/civilisation-peinture-de-castes.jpg",
+        "analysis": "Dans un paysage d'arbres et de collines, une famille : un homme en grand chapeau et manteau rouge, une femme au corsage noir et à la jupe bleue brodée de fleurs, et leur petit garçon qui lit une feuille de papier ; en bas à droite, des fruits. Un cartouche porte le numéro VII et le titre « De Español y Morisca, Albino ». C'est l'une des seize scènes d'une série peinte au Mexique, alors appelé Nouvelle-Espagne, par Juan Patricio Morlete Ruiz. Chaque scène montre des parents d'origines différentes, européenne, autochtone ou africaine, et leur enfant. Selon le musée, ces « peintures de castes », souvent destinées à des Européens, classaient une société très métissée dans un ordre inventé, qui plaçait les Espagnols au sommet.",
+        "compare": "Peut-on parler d'une civilisation « américaine » ? Les sociétés des Amériques d'aujourd'hui sont nées de la rencontre, souvent violente, de peuples autochtones, européens et africains. Ces tableaux montrent ce métissage, mais à travers une hiérarchie que l'on rejette aujourd'hui."
+      },
+      {
+        "title": "La fondation de Tenochtitlan, codex Mendoza (folio 2 recto)",
+        "artist": "Peintres-scribes nahuas (tlacuilos)",
+        "country": "Mexique",
+        "period": "vers 1541",
+        "museum": "Bodleian Library, Oxford",
+        "image": "images/mouvements/azteques/codex-mendoza-fondation-tenochtitlan.jpg",
+        "credit": "Bodleian Library, Oxford (MS. Arch. Selden. A. 1), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Codex_Mendoza_folio_2r.jpg), domaine public",
+        "analysis": "Au centre, un aigle se pose sur un cactus (nopal) qui pousse sur une pierre ; dessous, un bouclier et des flèches. Le carré est divisé en quatre par deux bandes bleues en croix, l'eau des canaux ; dix hommes assis, avec leur nom écrit en signe à côté de la tête, se répartissent autour. Une bordure de petits carrés bleus compte les années. En bas, deux guerriers armés de boucliers soumettent deux villes, figurées par des temples. Selon la tradition, Huitzilopochtli avait promis aux Mexicas qu'ils fonderaient leur ville là où ils verraient un aigle sur un cactus : ce fut sur une île du lac de Texcoco, vers 1325. Ce signe est aujourd'hui au centre du drapeau mexicain. Le codex Mendoza a été peint par des scribes indigènes vers 1541, à la demande des autorités espagnoles, pour expliquer à l'empereur Charles Quint l'histoire et l'organisation de l'empire aztèque ; les commentaires en espagnol ont été ajoutés ensuite.",
+        "compare": "L'aigle sur le cactus figure toujours sur le drapeau du Mexique : l'héritage des Aztèques fait partie de l'identité d'un pays moderne, métissé, de langue espagnole."
+      },
+      {
+        "title": "Capac Cuna, la généalogie des Incas",
+        "artist": "Peintre de l'école de Cuzco",
+        "country": "Pérou",
+        "period": "XVIIIe siècle",
+        "museum": "Museo Larco, Lima",
+        "image": "images/mouvements/incas/capac-cuna-genealogie-des-incas.jpg",
+        "credit": "Museo Larco, Lima, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Capac_Cuna_Inca_ou_G%C3%A9n%C3%A9alogie_des_Incas.jpg), photo Pierre André Leclercq, licence CC BY-SA 4.0",
+        "analysis": "Un tableau à l'huile divisé en petits médaillons : sur plusieurs rangées, des portraits de souverains vêtus et coiffés à la manière inca, chacun accompagné d'une inscription. En haut, d'autres portraits, entourés de blasons. Selon le Museo Larco, ce tableau de l'école de Cuzco présente le roi d'Espagne Charles IV comme le descendant des empereurs incas. Deux siècles après la conquête, les souverains incas restaient une source de légitimité : les rois d'Espagne s'en réclamaient, et les nobles andins aussi, qui faisaient peindre leurs ancêtres pour défendre leurs droits. En 1780, Túpac Amaru II, qui se disait descendant des Incas, mena une grande révolte contre le pouvoir colonial.",
+        "compare": "Deux siècles après la conquête, l'héritage inca reste une source de fierté et de légitimité dans les Andes. Une civilisation disparue comme État peut continuer à vivre dans une société."
+      },
+      {
+        "title": "Lalibela : l'église Saint-Georges (Bete Giyorgis)",
+        "artist": "Bâtisseurs de la dynastie Zagwé",
+        "country": "Éthiopie",
+        "period": "fin du XIIe – XIIIe siècle",
+        "museum": "Site, Lalibela (Éthiopie)",
+        "image": "images/mouvements/aksoum/lalibela-bete-giyorgis.jpg",
+        "credit": "Lalibela (Éthiopie), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Ethiopia_-_sunset_at_Church_of_Saint_George%2C_Lalibela_01.jpg), photo Thomas Fuhrmann, licence CC BY-SA 4.0",
+        "analysis": "Vue d'en haut au coucher du soleil, une église en forme de croix creusée dans la roche rose : son toit, au niveau du sol, porte des croix sculptées en relief, et ses murs descendent au fond d'une grande fosse aux parois verticales, taillée tout autour.",
+        "compare": "Cinquième débat : quand une civilisation finit-elle ? L'Éthiopie chrétienne, héritière d'Aksoum, a traversé deux mille ans. Pour Braudel, les civilisations sont des réalités de « très longue durée »."
+      },
+      {
+        "title": "Le temple du Ciel à Pékin : la salle de la Prière pour les bonnes récoltes",
+        "artist": "Architectes et artisans des Ming et des Qing",
+        "country": "Chine",
+        "period": "fondé en 1420 ; salle reconstruite après l'incendie de 1889",
+        "museum": "Site du temple du Ciel, Pékin",
+        "image": "images/mouvements/chine-ancienne/temple-du-ciel.jpg",
+        "credit": "Pékin, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Temple_of_Heaven_-_Hall_of_Prayer_for_Good_Harvests_01.jpg), photo xiquinhosilva, licence CC BY 2.0",
+        "analysis": "Une salle ronde, coiffée de trois toits de tuiles bleues superposés et d'une boule dorée, se dresse sur une terrasse de marbre blanc à trois niveaux, où se pressent les visiteurs. Le temple du Ciel a été fondé en 1420, en même temps que la Cité interdite. Chaque année, l'empereur, le « Fils du Ciel », venait y prier pour de bonnes récoltes et y faire des sacrifices au Ciel : le bâtiment est rond et bleu, comme le ciel. Frappée par la foudre, la salle a brûlé en 1889, et a été reconstruite sur le même modèle dans les années suivantes. L'ensemble est inscrit au patrimoine mondial de l'UNESCO depuis 1998.",
+        "compare": "La Chine, l'Inde, le Japon ou la Corée sont des civilisations toujours vivantes : sur la frise du site, leurs barres vont jusqu'à aujourd'hui."
+      },
+      {
+        "title": "La girafe offerte à l'empereur de Chine",
+        "artist": "D'après Shen Du",
+        "country": "Chine",
+        "period": "1414 (ou copie du XVIe siècle)",
+        "museum": "Philadelphia Museum of Art, Philadelphie",
+        "image": "images/mouvements/cites-swahilies/girafe-offerte-a-l-empereur.jpg",
+        "credit": "Philadelphia Museum of Art, Philadelphie, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Tribute_Giraffe_with_Attendant.jpg), domaine public",
+        "analysis": "Sur un rouleau de soie beige, une grande girafe tachetée se tient de profil ; à côté d'elle, un petit homme en robe rouge, coiffé d'un turban, la tient par une longe. Au-dessus, un long texte en caractères chinois occupe le haut du rouleau. En 1414, une girafe fut offerte à l'empereur de Chine Yongle par des envoyés du Bengale ; on y vit le qilin, un animal fabuleux annonçant un règne heureux, et l'empereur en fit faire ce portrait. Les girafes venaient d'Afrique : l'année suivante, en 1415, des envoyés de Malindi en apportèrent une autre en Chine. Le musée pense que ce rouleau est une copie faite au XVIe siècle.",
+        "compare": "Le point d'arrivée de l'exposition : une girafe d'Afrique, un roi du Bengale, un empereur de Chine. Les civilisations ne sont pas des boîtes fermées : elles échangent, empruntent et se transforment. Et vous, quelle définition choisiriez-vous ?"
+      }
+    ]
   }
 ]

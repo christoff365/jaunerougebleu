@@ -20792,5 +20792,287 @@
         }
       ]
     }
+  },
+  {
+    "mouvement": "Royaume du Bénin",
+    "slug": "royaume-du-benin",
+    "status": "published",
+    "title": "Le royaume du Bénin, une civilisation de laiton et de mémoire",
+    "subtitle": "Nigeria, XIIIe – XIXe siècle · 14 œuvres et sites",
+    "intro": "Dans le sud de l'actuel Nigeria, autour de sa capitale, Benin City, le royaume du Bénin a été pendant des siècles l'un des grands États de l'Afrique de l'Ouest. Il ne faut pas le confondre avec l'actuelle république du Bénin, son voisin. Ses rois, les oba, gouvernaient avec des chefs aux titres précis ; la ville était entourée d'immenses fossés et talus ; des guildes d'artisans fondaient le laiton et sculptaient l'ivoire pour le palais ; et le royaume commerçait avec les Portugais puis les Hollandais. Le Bénin remplit presque tous les critères habituels d'une civilisation, sauf un : il n'avait pas d'écriture. Cette exposition explique pourquoi nous avons choisi de le présenter quand même parmi les civilisations, et pourquoi ce critère est aujourd'hui discuté. Une partie des œuvres est aussi présentée dans l'exposition « Art de cour du royaume du Bénin » ; elles sont conservées à New York, Cleveland, Washington, Londres, La Haye et Stockholm.",
+    "contexte": [
+      {
+        "title": "Une ville, un roi, des guildes",
+        "text": "Selon les traditions du Bénin, une première dynastie, celle des Ogiso, fut suivie au XIIe ou XIIIe siècle par celle des oba, fondée par Eweka, fils d'un prince d'Ife. Au XVe siècle, l'oba Ewuare agrandit le royaume et rebâtit Benin City. La ville et ses environs étaient entourés de fossés et de talus de terre si longs que le Livre Guinness des records les a classés en 1974 parmi les plus grands ouvrages humains au monde. Les artisans étaient organisés en guildes héréditaires qui travaillaient pour le palais : fondeurs de laiton, sculpteurs d'ivoire et de bois, tisserands. Les rues et les quartiers de la ville portaient leurs noms."
+      },
+      {
+        "title": "Une civilisation sans écriture ?",
+        "text": "Pour définir une civilisation, les historiens utilisent souvent une liste de critères proposée en 1950 par l'archéologue Vere Gordon Childe, à partir de l'exemple de la Mésopotamie : des villes, un État, des monuments, des métiers spécialisés, une hiérarchie sociale, des échanges lointains et l'écriture. Le Bénin remplit tous ces critères sauf l'écriture. Mais beaucoup d'historiens, notamment africains, font remarquer que ce dernier critère a été pensé à partir de l'histoire de l'Europe et du Proche-Orient. Au Bénin, la mémoire n'était pas écrite : elle était confiée à des historiens de la cour, qui récitaient la liste des rois et leurs exploits, et elle était fixée dans le métal, sur les plaques du palais et les têtes des autels. Une écriture n'est pas la seule façon de garder la mémoire d'un État."
+      },
+      {
+        "title": "Le regard des Européens",
+        "text": "Les premiers visiteurs européens, aux XVIe et XVIIe siècles, ont décrit Benin City avec admiration, comme une grande ville bien ordonnée. Mais au XIXe siècle, le regard change. Quand les œuvres pillées en 1897 arrivent en Europe, certains savants refusent de croire que des artistes africains aient pu les créer, et cherchent des « influences » extérieures. Ce préjugé a été démenti par les recherches : les bronzes du Bénin sont l'œuvre des guildes de Benin City, et ils racontent l'histoire du royaume vue de l'intérieur."
+      },
+      {
+        "title": "1897, et aujourd'hui",
+        "text": "En février 1897, une expédition militaire britannique prend Benin City, incendie le palais et exile l'oba Ovonramwen. Des milliers d'œuvres sont emportées et dispersées dans les musées et les collections du monde entier. Depuis 2022, plusieurs musées, notamment en Allemagne et le Smithsonian aux États-Unis, en ont rendu au Nigeria, et d'autres restitutions sont en discussion. Le royaume n'a jamais disparu : l'oba règne toujours à Benin City, avec un rôle traditionnel et religieux, et les fondeurs de la guilde Igun Eronmwon y travaillent encore le laiton."
+      }
+    ],
+    "bibliography": [
+      {
+        "reference": "Metropolitan Museum of Art : Benin City Earthworks and Urban Planning",
+        "url": "https://www.metmuseum.org/perspectives/benin-city-earthworks"
+      },
+      {
+        "reference": "Metropolitan Museum of Art : The Legacy of Benin Court Art",
+        "url": "https://www.metmuseum.org/perspectives/benin-court-art-legacy"
+      },
+      {
+        "reference": "Vere Gordon Childe, « The Urban Revolution », The Town Planning Review, 1950"
+      },
+      {
+        "reference": "Notices des œuvres : Metropolitan Museum of Art, Cleveland Museum of Art, National Museum of African Art (Smithsonian), British Museum, Etnografiska museet de Stockholm"
+      }
+    ],
+    "works": [
+      {
+        "title": "Tête d'un roi d'Ife",
+        "artist": "Fondeurs d'Ife",
+        "country": "Nigeria",
+        "period": "XIVe – début du XVe siècle",
+        "museum": "British Museum, Londres",
+        "credit": "British Museum, Londres, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:British_Museum_Room_25_Head_of_a_king_Ife_17022019_5147.jpg), photo Vassil, domaine public (CC0)",
+        "image": "images/mouvements/royaume-du-benin/tete-d-un-roi-d-ife.jpg",
+        "lieu": "Ife",
+        "lieuType": "découverte",
+        "analysis": "Une tête de laiton presque grandeur nature, d'un réalisme saisissant, est posée sur un fond rouge. Le visage, calme, est couvert de fines stries verticales ; les yeux sont en amande, les lèvres pleines. Elle porte une couronne faite de rangs de perles, ornée sur le devant d'une rosette d'où s'élève un haut plumet. Elle a été découverte en 1939 près du palais d'Ife, une ville yoruba du sud-ouest du Nigeria, et représente sans doute un roi d'Ife, l'ooni. Ife était au Moyen Âge l'un des grands centres d'art de l'Afrique de l'Ouest.",
+        "compare": "Le point de départ de l'exposition : selon les traditions du Bénin, c'est un prince d'Ife, Oranmiyan, qui fut appelé pour régner, et son fils Eweka devint le premier oba. Les mêmes traditions disent que l'art de fondre le laiton est venu d'Ife."
+      },
+      {
+        "title": "Tête d'un oba (uhunmwun-elao)",
+        "artist": "Fondeurs de la guilde Igun Eronmwon",
+        "country": "Nigeria",
+        "period": "XIXe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/310283), domaine public (CC0)",
+        "analysis": "Une tête plus tardive et plus massive, de 34 cm. Le collier de perles monte maintenant jusqu'à la lèvre inférieure et cache tout le menton ; la tête repose sur un large rebord décoré de petits motifs en relief. Le bonnet de perles en filet est hérissé d'excroissances, et des marques verticales sont gravées au-dessus des yeux. Le visage est devenu plus schématique : de grands yeux en amande, un nez large, une bouche serrée.",
+        "compare": "Une des plus anciennes têtes du Bénin : son visage fin et naturel rappelle encore l'art d'Ife, vu juste avant.",
+        "image": "images/mouvements/art-de-cour-du-benin/tete-oba-xixe-siecle.jpg",
+        "lieu": "Benin City",
+        "lieuType": "fabrication"
+      },
+      {
+        "title": "Masque-pendentif de la reine mère Idia",
+        "artist": "Sculpteurs de la guilde Igbesanmwan",
+        "country": "Nigeria",
+        "period": "XVIe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/318622), domaine public (CC0)",
+        "analysis": "Un visage d'ivoire de 24 cm à peine, que le musée identifie dans son titre comme celui d'Idia, l'iyoba, c'est-à-dire la reine mère. Deux bandes de fer incrustées marquent le front, les yeux sont cernés de métal sombre, et la coiffure est rendue par un fin quadrillage. Tout autour du sommet, une couronne de petites têtes sculptées ; une autre rangée de têtes forme un collier ajouré sous le menton. Selon la fiche, il est fait d'ivoire, de fer, de laiton et de charbon ; le titre précise que c'est un pendentif, et non un masque porté sur le visage.",
+        "compare": "Idia, mère de l'oba Esigie au début du XVIe siècle, est restée célèbre pour son rôle politique et militaire. La fonction de reine mère, l'iyoba, existe toujours à la cour du Bénin.",
+        "image": "images/mouvements/art-de-cour-du-benin/masque-pendentif-reine-mere-idia.jpg",
+        "lieu": "Benin City",
+        "lieuType": "fabrication"
+      },
+      {
+        "title": "Plaque : un oba soutenu par deux serviteurs",
+        "artist": "Fondeurs de la guilde Igun Eronmwon",
+        "country": "Nigeria",
+        "period": "XVIe–XVIIe siècle",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1999.1), domaine public (CC0)",
+        "analysis": "Selon le musée, près de 900 plaques de métal ornaient la cour du palais de l'oba et racontaient l'histoire et les coutumes du Bénin. Celle-ci montre deux serviteurs (enobore) qui soutiennent un oba par les mains. La composition est hiérarchique : le personnage le plus important est au centre et plus grand, et tout chez lui est plus imposant, le corps, les vêtements, les bijoux. Les serviteurs soutiennent un homme alourdi par ses vêtements royaux et par ses responsabilités. Le numéro peint en bas à gauche montre que la plaque a appartenu au British Museum : elle y est entrée en 1898, un an après que les troupes britanniques l'eurent prise dans une réserve du palais.",
+        "compare": "Pour une civilisation sans écriture, ces plaques étaient une forme d'archives : elles fixaient dans le métal les rangs, les costumes et les cérémonies de la cour.",
+        "image": "images/mouvements/art-de-cour-du-benin/plaque-oba-soutenu-deux-serviteurs.jpg",
+        "lieu": "Benin City",
+        "lieuType": "fabrication"
+      },
+      {
+        "title": "Plaque : l'iyase (commandant royal) et un serviteur",
+        "artist": "Fondeurs de la guilde Igun Eronmwon",
+        "country": "Nigeria",
+        "period": "vers 1540–1570",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/310763), domaine public (CC0)",
+        "analysis": "Selon le titre du musée, le grand personnage est l'iyase, le commandant royal. Il brandit au-dessus de sa tête une épée à lame large et porte un haut col, un casque orné et une jupe décorée. À gauche, beaucoup plus petit, un serviteur tient un objet contre sa poitrine. Le fond est gravé de motifs fins, et l'on voit les trous qui servaient à fixer la plaque.",
+        "compare": "L'oba gouvernait avec de grands chefs aux titres précis, comme l'iyase, chef de guerre : un véritable État organisé, avec sa hiérarchie.",
+        "image": "images/mouvements/art-de-cour-du-benin/plaque-iyase-commandant-royal.jpg",
+        "lieu": "Benin City",
+        "lieuType": "fabrication"
+      },
+      {
+        "title": "Plaque : deux marchands portugais",
+        "artist": "Fondeurs de la guilde Igun Eronmwon",
+        "country": "Nigeria",
+        "period": "vers 1540–1570",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/316490), domaine public (CC0)",
+        "analysis": "Deux hommes en chapeau, aux longs cheveux, vêtus de tuniques serrées à la taille ; celui de gauche porte une longue barbe. Selon le titre du musée, ce sont deux marchands portugais. Le fond est gravé de motifs, et la plaque est percée de trous de fixation.",
+        "compare": "Les Portugais arrivent au Bénin à la fin du XVe siècle. Ils achètent du poivre, de l'ivoire, des tissus et, plus tard, des captifs, et paient en laiton, en particulier en bracelets de métal appelés manilles. Ce métal importé servit à fondre les œuvres de la cour.",
+        "image": "images/mouvements/art-de-cour-du-benin/plaque-deux-marchands-portugais.jpg",
+        "lieu": "Benin City",
+        "lieuType": "fabrication"
+      },
+      {
+        "title": "Salière aux figures portugaises",
+        "artist": "Sculpteur d'ivoire, atelier attribué au « Maître du navire héraldique »",
+        "country": "Nigeria",
+        "period": "vers 1525–1600",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/309900), domaine public (CC0)",
+        "image": "images/mouvements/royaume-du-benin/saliere-aux-figures-portugaises.jpg",
+        "lieu": "Benin City",
+        "lieuType": "fabrication",
+        "lieuProbable": true,
+        "analysis": "Un récipient d'ivoire de 19 cm, sculpté en ronde-bosse, repose sur les têtes de personnages debout. Au premier plan, un homme barbu porte un chapeau, un collier avec une croix, une tunique plissée et des chausses brodées ; il tient une lance et une épée. Selon le musée, quatre Portugais entourent le récipient : deux hommes de haut rang vus de face et leurs serviteurs de profil. Ces salières étaient sculptées par des artistes africains pour être vendues aux Européens. Le musée l'attribue à la cour du Bénin, avec un point d'interrogation, ou à celle d'Owo.",
+        "compare": "Un art africain fait pour l'exportation : les sculpteurs d'ivoire du Bénin savaient adapter leur savoir-faire aux goûts de leurs clients venus d'Europe."
+      },
+      {
+        "title": "Cuillère à l'oiseau",
+        "artist": "Sculpteur d'ivoire edo",
+        "country": "Nigeria",
+        "period": "XVIe–XVIIe siècle",
+        "museum": "National Museum of African Art (Smithsonian), Washington",
+        "credit": "National Museum of African Art, Smithsonian Institution, Washington (https://www.si.edu/object/spoon:nmafa_69-20-4), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Benin_kingdom,_Bini-Portuguese_style_enin_kingdom,_16th-17th_century_nmafa_69-20-4_NMAfA-S20080017.jpg), domaine public (CC0)",
+        "image": "images/mouvements/royaume-du-benin/cuillere-a-l-oiseau.jpg",
+        "lieu": "Benin City",
+        "lieuType": "fabrication",
+        "lieuProbable": true,
+        "analysis": "Une cuillère d'ivoire clair, au cuilleron large et profond ; son manche fin se termine par un oiseau aux ailes déployées. Selon le musée, ces cuillères, ces salières et ces cors de chasse étaient faits pour l'exportation, mais l'oiseau aux ailes ouvertes ressemble à ceux de l'art du Bénin : les grands oiseaux qui couronnaient les tours du palais de l'oba et celui qu'on trouve sur les gongs.",
+        "compare": "Comparez avec la gravure de Benin City, plus loin : on y voit les oiseaux posés au sommet des tours du palais."
+      },
+      {
+        "title": "Joueur de corne",
+        "artist": "Fondeurs de la guilde Igun Eronmwon",
+        "country": "Nigeria",
+        "period": "1550–1680",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/310753), domaine public (CC0)",
+        "analysis": "Un musicien debout, de 63 cm, porte à sa bouche une longue corne qu'il tient à deux mains. Il est coiffé d'un bonnet ajusté, porte un collier et une jupe nouée à la taille, décorée de motifs ; il est pieds nus. La posture est droite et symétrique, les jambes un peu écartées, comme figé au moment de souffler. Selon la fiche du musée, la statue est en laiton et en fer.",
+        "compare": "Les musiciens jouaient un grand rôle dans les cérémonies de la cour : sur la gravure de 1668, plus loin, ils précèdent le roi.",
+        "sensible": true,
+        "image": "images/mouvements/art-de-cour-du-benin/joueur-de-corne.jpg",
+        "lieu": "Benin City",
+        "lieuType": "fabrication"
+      },
+      {
+        "title": "Benin City vue par un Hollandais",
+        "artist": "Olfert Dapper (texte) et Jacob van Meurs (gravure)",
+        "country": "Pays-Bas",
+        "period": "1668",
+        "museum": "Bibliothèque royale des Pays-Bas, La Haye",
+        "credit": "Koninklijke Bibliotheek, La Haye (Atlas of Mutual Heritage), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:AMH-6859-KB_View_of_the_city_of_Benin.jpg), domaine public",
+        "image": "images/mouvements/royaume-du-benin/benin-city-vue-par-un-hollandais.jpg",
+        "lieu": "Benin City",
+        "lieuType": "représenté",
+        "analysis": "Une gravure en noir et blanc montre une grande ville qui s'étend jusqu'à l'horizon. À gauche, derrière une palissade, se dressent les bâtiments du palais, dont les toits pointus portent de grands oiseaux. Au premier plan, le roi s'avance à cheval, entouré de musiciens, de serviteurs et de léopards tenus en laisse ; sur la droite, ses nobles le suivent à cheval. Une légende en néerlandais, en haut à droite, nomme chaque élément. La gravure illustre la description de l'Afrique publiée en 1668 à Amsterdam par Olfert Dapper, qui s'appuyait sur les récits de marchands hollandais.",
+        "compare": "Les voyageurs européens des XVIe et XVIIe siècles comparaient Benin City aux grandes villes de leur pays, comme Haarlem : ils la voyaient comme une ville riche et bien organisée."
+      },
+      {
+        "title": "Ikegobo (autel de la main)",
+        "artist": "Fondeurs de la guilde Igun Eronmwon",
+        "country": "Nigeria",
+        "period": "fin du XVIIIe siècle",
+        "museum": "Metropolitan Museum of Art, New York",
+        "credit": "Metropolitan Museum of Art, New York (https://www.metmuseum.org/art/collection/search/312418), domaine public (CC0)",
+        "analysis": "Un autel cylindrique en bronze, de 26 cm de diamètre. Au centre de la face visible, un personnage vêtu d'un habit à motif de filet en losanges, entouré d'autres figures debout qui font tout le tour du cylindre. Les espaces entre eux sont remplis de motifs d'entrelacs, et le dessus est creusé d'une cuvette ronde. Selon le titre du musée, c'est un ikegobo, un « autel de la main ».",
+        "compare": "La main symbolisait la réussite personnelle : ces autels honoraient ce qu'un homme avait accompli par son travail et son courage. L'art du Bénin célébrait aussi le mérite.",
+        "image": "images/mouvements/art-de-cour-du-benin/ikegobo-autel-de-la-main.jpg",
+        "lieu": "Benin City",
+        "lieuType": "fabrication"
+      },
+      {
+        "title": "Défense d'autel ancestral",
+        "artist": "Sculpteurs de la guilde Igbesanmwan",
+        "country": "Nigeria",
+        "period": "vers 1820",
+        "museum": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1968.284), domaine public (CC0)",
+        "analysis": "Une défense d'éléphant de près de 2 mètres, entièrement sculptée. Selon le musée, l'oba Osemwede l'a commandée pour se relier à ses ancêtres et symboliser sa force. Elle est couverte de personnages royaux en grande parure et de scènes de pouvoir, de rituel et de violence. Le règne d'Osemwede fut prospère grâce au commerce avec les Hollandais ; pourtant, ce sont des Portugais du XVIe siècle qui sont sculptés sur le bas de la défense : au XIXe siècle, ils représentaient n'importe quel marchand européen. La surface s'est usée et fendue, sans doute parce qu'on la lavait, la blanchissait et l'enduisait souvent d'une argile blanche (orhue), liée à la paix, à la pureté et à la prospérité.",
+        "compare": "Regardez la photographie de 1891, juste après : on y voit des défenses semblables posées sur des têtes de laiton, sur un autel du palais.",
+        "image": "images/mouvements/art-de-cour-du-benin/defense-autel-ancestral.jpg",
+        "lieu": "Benin City",
+        "lieuType": "fabrication"
+      },
+      {
+        "title": "Un autel des ancêtres dans le palais, en 1891",
+        "artist": "Cyril Punch (photographie)",
+        "country": "Nigeria",
+        "period": "mai 1891",
+        "museum": "National Museum of African Art (Smithsonian), Washington",
+        "credit": "Archives Eliot Elisofon, National Museum of African Art, Smithsonian Institution, Washington, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Ancestral_shrine_Royal_Palace,_Benin_City,_1891.jpg), photo Cyril Punch, domaine public",
+        "image": "images/mouvements/royaume-du-benin/autel-des-ancetres-1891.jpg",
+        "lieu": "Benin City",
+        "lieuType": "représenté",
+        "analysis": "Une vieille photographie sépia, tachée, porte une inscription manuscrite en anglais : « autel, enceinte du roi, Benin City, mai 1891 ». Sur un autel de terre blanchie, deux têtes de laiton servent de support à de grandes défenses d'éléphant sculptées ; entre elles, on distingue des cloches et un groupe de petites figures. D'autres têtes et défenses se dressent sur les côtés. C'est la plus ancienne photographie connue de l'enceinte du palais de l'oba, prise par un marchand anglais, Cyril Punch, six ans avant la prise de la ville.",
+        "compare": "Cette photo montre les œuvres à leur vraie place : sur les autels, où elles servaient à honorer les rois défunts. Six ans plus tard, elles étaient emportées en Europe."
+      },
+      {
+        "title": "Léopard",
+        "artist": "Fondeur du royaume du Bénin",
+        "country": "Nigeria",
+        "period": "XIXe siècle",
+        "museum": "Etnografiska museet, Stockholm",
+        "credit": "Etnografiska museet, Stockholm (https://collections.smvk.se/carlotta-em/web/object/1238787), via Europeana, domaine public (CC0)",
+        "analysis": "Un léopard de laiton de 21 cm de long, à la grosse tête ronde, la queue relevée en boucle, le pelage rendu par de petits cercles en relief. Selon le musée, le léopard était au Bénin le symbole des pouvoirs spirituels et physiques de l'oba. Ces statuettes étaient en général faites par paires pour être posées sur des autels : le musée pense que son « jumeau » est un léopard du musée d'ethnographie de Vienne, de mêmes dimensions et même aspect, donné en 1918 par le même collectionneur, Hans Meyer. Il précise aussi que, comme la plupart des « bronzes » du Bénin, celui-ci est en réalité en laiton.",
+        "compare": "Le point d'arrivée de l'exposition : en 1897, les troupes britanniques prennent Benin City, incendient le palais et emportent des milliers d'œuvres. Depuis 2022, des musées en ont rendu au Nigeria. La lignée des oba règne toujours à Benin City, et les guildes de fondeurs y travaillent encore.",
+        "image": "images/mouvements/art-de-cour-du-benin/leopard-stockholm.jpg",
+        "lieu": "Benin City",
+        "lieuType": "fabrication"
+      }
+    ],
+    "carte": {
+      "image": "images/mouvements/cartes/royaume-du-benin.svg",
+      "ouest": 1.5,
+      "est": 13.0,
+      "sud": 3.5,
+      "nord": 12.0,
+      "lieux": [
+        {
+          "nom": "Ife",
+          "lat": 7.4667,
+          "lon": 4.5667
+        },
+        {
+          "nom": "Benin City",
+          "lat": 6.3176,
+          "lon": 5.6145
+        }
+      ],
+      "pays": [
+        {
+          "nom": "Nigeria",
+          "lat": 9.5,
+          "lon": 8.0
+        },
+        {
+          "nom": "Bénin",
+          "lat": 9.8,
+          "lon": 2.3
+        },
+        {
+          "nom": "Cameroun",
+          "lat": 5.8,
+          "lon": 12.0
+        }
+      ],
+      "villes": [
+        {
+          "nom": "Lagos",
+          "lat": 6.5244,
+          "lon": 3.3792
+        },
+        {
+          "nom": "Abuja",
+          "lat": 9.0579,
+          "lon": 7.4951
+        },
+        {
+          "nom": "Porto-Novo",
+          "lat": 6.4969,
+          "lon": 2.6289
+        }
+      ]
+    }
   }
 ]

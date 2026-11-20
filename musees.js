@@ -422,6 +422,8 @@ const GENRES_THEMES = {
 const MOUVEMENTS = [
   ['Empire mongol', "Asie de l'Est", 'Mongolie, Chine, Iran et Russie', '1206 – 1368', ['Mongol', 'Yuan dynasty', 'Ilkhanid', 'Golden Horde'], ['Mongol Empire', 'Yuan dynasty art', 'Ilkhanid art'], 'mongol|yuan dynasty|ilkhan|ilkhanid|golden horde|horde d.or|karakorum|khubilai|kublai|gengis|genghis', [],
     "Gengis Khan et ses descendants : Karakorum, les relais de poste et les laissez-passer, l'écriture phags-pa, Khoubilaï et la dynastie Yuan, le papier-monnaie, l'Iran des Ilkhanides et la Horde d'or."],
+  ['Corée, des origines à 1910', "Asie de l'Est", 'Corée du Sud et Chine', 'Ier millénaire av. J.-C. – 1910', ['Korean'], ['Korean art'], 'goguryeo|baekje|silla|goryeo|koryo|joseon|choson|coree|corée|korea', [],
+    "Des Trois Royaumes à Joseon : la couronne d'or de Silla, le bodhisattva pensif, Bulguksa et Seokguram, les céladons de Goryeo, le Jikji imprimé en caractères mobiles de métal, le hangeul et les palais de Séoul."],
   ['Japon, des origines à 1868', "Asie de l'Est", 'Japon', 'IIIe siècle – 1868', ['Japanese'], ['Japanese art'], 'jomon|jōmon|kofun|heian|kamakura|muromachi|samoura|samurai', [],
     "De la poterie Jōmon à l'ouverture du pays : tumulus, temples de Nara, cour de Heian, samouraïs et zen, paix d'Edo, Aïnous et royaume de Ryūkyū."],
   ["Empire des Tu'i Tonga", 'Océanie', 'Tonga', 'Xe–XIXe siècle', ['Tongan', 'Tonga'], ['Tongan art'], 'tonga|tongan|tongien', [],
@@ -472,14 +474,26 @@ const MOUVEMENTS = [
     "Le royaume de la mer Rouge : temple de Yeha, stèles géantes, inscriptions du roi Ézana, puis ses héritiers, les églises taillées dans le roc de Lalibela et les manuscrits peints."],
   ['Anglo-Saxons', 'Europe', 'Angleterre', 'Ve siècle – 1066', ['Anglo-Saxon'], ['Anglo-Saxon art'], 'anglo-saxon|anglo saxon|sutton hoo|lindisfarne', [],
     "Les royaumes anglo-saxons, du départ des Romains à 1066 : Sutton Hoo, le trésor du Staffordshire, les Évangiles de Lindisfarne, les croix de pierre et le roi Alfred."],
+  ['Empire byzantin', 'Europe', 'Turquie, Grèce, Italie, Proche-Orient et Égypte', '330 – 1453', ['Byzantine'], ['Byzantine art'], 'byzan|constantinople|justinien|justinian|hagia sophia|sainte-sophie|ravenn', [],
+    "Mille ans autour de Constantinople : les murailles de Théodose, Sainte-Sophie, les mosaïques de Ravenne, la carte de Madaba, les icônes, le feu grégeois, le pillage de 1204 et la chute de 1453."],
   ['Vikings', 'Europe', 'Danemark, Norvège, Suède et Islande', 'VIIIe–XIe siècle', ['Viking', 'Norse'], ['Viking art'], 'viking|norse|oseberg|gokstad|runestone|runique|jelling', [],
     "Les peuples de Scandinavie sur les mers : bateaux d'Oseberg et de Gokstad, pierres runiques, trésors d'argent venus de Bagdad, Islande, Amérique et conversion au christianisme."],
+  ['Phéniciens et Carthage', 'Moyen-Orient', 'Liban, Syrie, Tunisie, Italie, Espagne et Malte', 'vers 1200 – 146 av. J.-C.', ['Phoenician', 'Punic', 'Carthaginian'], ['Phoenician art'], 'phénic|phoenic|punic|puniq|carthag|byblos', [],
+    "Les marins de l'alphabet, de Byblos à Carthage : le sarcophage d'Ahiram, la pourpre de Tyr, les galères de Sidon, les comptoirs de Cadix, d'Ibiza et de Malte, le signe de Tanit, les ports puniques et la chute de Carthage en 146 av. J.-C."],
+  ['Hittites', 'Moyen-Orient', 'Turquie et Syrie', 'vers 1650 – 1180 av. J.-C.', ['Hittite', 'Neo-Hittite', 'Hattian'], ['Hittite art'], 'hittit|hattusa|hattusha|yazilikaya|yazılıkaya', [],
+    "Le royaume aux mille dieux, de Hattusa à Yazılıkaya : la porte des Lions, les sphinx rendus à la Turquie, le traité de paix avec Ramsès II, la bataille de Kadesh, les vases sacrés et les royaumes néo-hittites."],
   ['Israël et Juda', 'Moyen-Orient', 'Israël, Cisjordanie et Jordanie', 'Xe siècle av. J.-C. – VIe siècle', ['Judean', 'Israelite', 'Judaea', 'Hebrew'], ['ancient Israelite art'], 'judée|judee|judea|judaea|israelite|israélite|qumran|qumrân|herod|hérode', [],
     "Les royaumes d'Israël et de Juda, de Megiddo à Massada : inscriptions des rois et de leurs voisins, Assyriens et Romains, manuscrits de la mer Morte et premières synagogues."],
   ['Mésopotamie', 'Moyen-Orient', 'Irak et Syrie', 'vers 3500 – 539 av. J.-C.', ['Sumerian', 'Akkadian', 'Babylonian', 'Neo-Sumerian', 'Old Babylonian', 'Neo-Babylonian', 'Mesopotamian'], ['Mesopotamian art', 'Sumerian art'], 'sumer|akkad|babylon|mesopotam|mésopotam|uruk', [],
     "Les premières villes et la première écriture : Uruk, les tombes royales d'Ur, Akkad, le code de Hammurabi, l'épopée de Gilgamesh, les ziggourats et la porte d'Ishtar."],
   ['Perse ancienne', 'Moyen-Orient', 'Iran et Irak', 'VIe siècle av. J.-C. – VIIe siècle', ['Achaemenid', 'Sasanian', 'Parthian', 'Elamite'], ['Achaemenid art', 'Sasanian art'], 'achemen|achaemen|achéménide|sasan|sassan|parthe|parthian|persepolis|persépolis', [],
     "Cyrus, Darius et les Sassanides : Persépolis, les reliefs de Behistoun et de Naqsh-e Rostam, l'orfèvrerie des rois, les temples du feu et les qanats."],
+  ['Cités swahilies', 'Afrique', 'Kenya et Tanzanie', 'XIe – XIXe siècle', ['Swahili'], ['Swahili architecture'], 'swahili|kilwa|zanzibar|lamu|mombasa|malindi', [],
+    "Les villes de pierre de la côte est-africaine, de Kilwa à Lamu : mosquées de corail, palais des sultans, tombeaux à pilier, portes sculptées, poésie swahilie en caractères arabes et commerce de la mousson jusqu'en Chine."],
+  ['Royaume du Bénin', 'Afrique', 'Nigeria', 'XIIIe – XIXe siècle', ['Benin Kingdom', 'Edo peoples'], ['Benin art'], 'kingdom of benin|royaume du benin|benin city|edo peoples|oba of benin', [],
+    "Une civilisation sans écriture, mais avec une mémoire de laiton : les têtes et les plaques des oba, la reine mère Idia, les ivoires vendus aux Portugais, Benin City et ses remparts, le pillage de 1897 et les restitutions."],
+  ['Grand Zimbabwe', 'Afrique', 'Zimbabwe et Afrique du Sud', 'XIIIe – XVIIe siècle', ['Shona'], ['Great Zimbabwe'], 'great zimbabwe|grand zimbabwe|mapungubwe|khami|monomotapa|mutapa', [],
+    "Les maisons de pierre de l'Afrique australe, de Mapungubwe à Khami : le rhinocéros d'or, le grand enclos et sa tour, le commerce de l'or, et le mythe colonial qui refusait d'attribuer ces murs aux Africains."],
   ['Royaume de Koush', 'Afrique', 'Soudan', 'XXVe siècle av. J.-C. – IVe siècle', ['Kushite', 'Meroitic', 'Kerma', 'Napatan'], ['Kushite art'], 'kush|koush|meroe|méroé|kerma|napata|nubia|nubie', [],
     "Les pharaons noirs et les pyramides du Soudan : Kerma, le Gebel Barkal, Taharqa, les reines kandake de Méroé et leur écriture."],
   ['Égypte ancienne', 'Afrique', 'Égypte', 'XXXe–Ier siècle av. J.-C.', ['Egyptian'], ['ancient Egyptian art'], 'toutankhamon|tutankhamun|pharaon', [],
@@ -492,6 +506,8 @@ const MOUVEMENTS = [
     "Plaques et têtes en laiton du palais royal d'Edo, qui célèbrent les rois (oba) ; beaucoup ont été pillées en 1897."],
   ['Peinture chrétienne éthiopienne', 'Afrique', 'Éthiopie', 'XVe–XIXe siècle', ['Ethiopian'], [], 'ewostatewos', [],
     "Icônes, manuscrits et peintures murales aux grands yeux et aux couleurs vives, parents de l'art copte et byzantin."],
+  ['Olmèques', 'Amériques', 'Mexique', 'vers 1200 – 400 av. J.-C.', ['Olmec'], ['Olmec art'], 'olmec|olmèque|olmeque|san lorenzo tenochtitl|la venta', [],
+    "Aux origines de la Mésoamérique : têtes colossales, homme-jaguar, pyramide de La Venta, jade, bloc de Cascajal et premières dates du calendrier, avec les débats sur l'écriture, l'État et le nom même des Olmèques."],
   ['Mayas', 'Amériques', 'Mexique, Guatemala, Belize et Honduras', 'vers 350 av. J.-C. – 1697', ['Maya'], ['Maya civilization'], 'maya|tikal|palenque|copan|copán|chichen|uxmal|calakmul|yaxchilan|bonampak', [],
     "Des cités rivales dans la forêt : El Mirador, Tikal, Calakmul, Palenque et le masque de Pakal, Copán, Bonampak, Chichén Itzá, le Codex de Dresde et le Popol Vuh."],
   ['Aztèques', 'Amériques', 'Mexique', 'XIVe–XVIe siècle', ['Aztec', 'Mexica'], ['Aztec art'], 'aztec|azteque|aztèque|mexica|tenochtitlan', [],
@@ -571,7 +587,7 @@ const STYLES_ARCHITECTURE = { 'Art gothique': 'Q176483' };
 const ANONYME = 'Q4233718'; // « anonyme » dans Wikidata
 // Mouvements d'abord de l'estampe : leurs estampes ne sont pas limitées à trois
 // Expositions consacrées à une civilisation plutôt qu'à un mouvement (badge « Civilisation » sur leur page)
-const CIVILISATIONS = new Set(['Empire khmer', 'Mayas', 'Empire mongol', 'Mésopotamie', 'Égypte ancienne', 'Royaume de Koush', "Civilisation de l'Indus", 'Inde ancienne', 'Chine, des origines à 1912', 'Japon, des origines à 1868', 'Grèce antique', 'Israël et Juda', 'Perse ancienne', 'Rome antique', 'Aksoum', 'Anglo-Saxons', 'Royaumes de Java et de Sumatra', 'Vikings', "Empire des Tu'i Tonga", 'Empire du Mali', 'Aztèques', 'Incas']);
+const CIVILISATIONS = new Set(['Olmèques', 'Grand Zimbabwe', 'Royaume du Bénin', 'Cités swahilies', 'Corée, des origines à 1910', 'Hittites', 'Phéniciens et Carthage', 'Empire byzantin', 'Empire khmer', 'Mayas', 'Empire mongol', 'Mésopotamie', 'Égypte ancienne', 'Royaume de Koush', "Civilisation de l'Indus", 'Inde ancienne', 'Chine, des origines à 1912', 'Japon, des origines à 1868', 'Grèce antique', 'Israël et Juda', 'Perse ancienne', 'Rome antique', 'Aksoum', 'Anglo-Saxons', 'Royaumes de Java et de Sumatra', 'Vikings', "Empire des Tu'i Tonga", 'Empire du Mali', 'Aztèques', 'Incas']);
 const MOUVEMENTS_D_ESTAMPES = new Set(['Ukiyo-e', 'Expressionnisme']);
 // Mouvements de peintres : si le visiteur n'a pas choisi de type, l'exposition ne montre que des peintures
 // (pas les dessins, études, estampes ou éventails que les catalogues renvoient aussi pour ces artistes)

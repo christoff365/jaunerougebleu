@@ -21074,5 +21074,262 @@
         }
       ]
     }
+  },
+  {
+    "mouvement": "Grand Zimbabwe",
+    "slug": "grand-zimbabwe",
+    "status": "published",
+    "title": "Le Grand Zimbabwe, les maisons de pierre de l'Afrique australe",
+    "subtitle": "Zimbabwe et Afrique du Sud, XIIIe – XVIIe siècle · 11 œuvres et sites",
+    "intro": "Entre les fleuves Zambèze et Limpopo, en Afrique australe, des royaumes ont bâti à partir du XIIIe siècle de grandes villes de pierre : Mapungubwe, puis le Grand Zimbabwe, puis Khami. Le Grand Zimbabwe, avec ses murs de granit hauts de 11 mètres, a été la capitale d'un État puissant, enrichi par le commerce de l'or avec la côte de l'océan Indien. Il remplit plusieurs critères habituels d'une civilisation : une grande ville, un pouvoir royal, des monuments, une hiérarchie sociale, des artisans spécialisés et des échanges lointains. Mais il n'a laissé aucune écriture ni archive, et c'est pourquoi certains historiens hésitent à parler de « civilisation ». Cette exposition explique ce débat, et raconte aussi comment, pendant près d'un siècle, des colons ont refusé de croire que des Africains avaient construit ces murs. Les sites présentés sont au Zimbabwe et en Afrique du Sud ; quelques objets sont conservés à Pretoria, Leyde et Cleveland.",
+    "contexte": [
+      {
+        "title": "Des royaumes de l'or et du bétail",
+        "text": "Les ancêtres des Shona, qui vivent aujourd'hui au Zimbabwe, élevaient du bétail, cultivaient le millet et exploitaient des mines d'or. Vers 1220, le royaume de Mapungubwe, sur le fleuve Limpopo, devient un centre de commerce. Après son déclin, vers 1300, le pouvoir passe au Grand Zimbabwe, qui domine la région aux XIVe et XVe siècles. L'or et l'ivoire partaient vers la côte, vers des ports comme Sofala, et de là vers Kilwa et l'océan Indien ; en échange arrivaient des tissus, des perles de verre et de la porcelaine chinoise. Le roi contrôlait ce commerce et la répartition du bétail."
+      },
+      {
+        "title": "Une civilisation sans écriture ?",
+        "text": "Selon la liste de critères proposée en 1950 par l'archéologue Vere Gordon Childe, à partir de l'exemple de la Mésopotamie, une civilisation suppose notamment une écriture. Le Grand Zimbabwe n'en avait pas, et il n'a laissé aucune archive. Mais il avait une ville, un roi, une architecture monumentale, des métiers spécialisés, une société très hiérarchisée et un commerce à très longue distance. Beaucoup d'historiens, notamment africains, estiment que faire de l'écriture une condition obligatoire revient à juger toutes les sociétés à partir du modèle européen et proche-oriental. D'autres préfèrent parler d'« État » ou de « royaume ». Nous avons choisi de le présenter ici, en expliquant ce débat."
+      },
+      {
+        "title": "Le mythe colonial",
+        "text": "Quand des Européens découvrent les ruines à la fin du XIXe siècle, beaucoup refusent de croire que des Africains aient pu les bâtir. Ils les attribuent à la reine de Saba, aux Phéniciens ou à d'autres peuples venus d'ailleurs. Des fouilles brutales détruisent une partie des traces archéologiques. Dès le début du XXe siècle, des archéologues montrent pourtant que le site est entièrement africain. Mais le gouvernement colonial de Rhodésie continue, jusque dans les années 1970, à encourager le mythe d'une origine étrangère, parce qu'il servait à justifier la domination des colons. Ce n'est qu'à l'indépendance que l'histoire du site a pu être enseignée librement."
+      },
+      {
+        "title": "Khami, le Mutapa et le Zimbabwe d'aujourd'hui",
+        "text": "Vers le milieu du XVe siècle, le Grand Zimbabwe est abandonné, peut-être à cause de l'épuisement des ressources. Deux royaumes prennent la suite : le Torwa à l'ouest, avec sa capitale Khami, et le Mutapa au nord, que les Portugais appelaient Monomotapa et avec lequel ils commercèrent. Les sculptures d'oiseaux en stéatite trouvées au Grand Zimbabwe, uniques au monde, sont devenues l'emblème du pays ; plusieurs, emportées pendant la colonisation, ont été rendues au Zimbabwe. En 1980, le pays a pris pour nom celui des ruines de ses ancêtres."
+      }
+    ],
+    "bibliography": [
+      {
+        "reference": "UNESCO, Patrimoine mondial : Monument national du Grand Zimbabwe",
+        "url": "https://whc.unesco.org/fr/list/364"
+      },
+      {
+        "reference": "UNESCO, Patrimoine mondial : Monument national des ruines de Khami",
+        "url": "https://whc.unesco.org/fr/list/365"
+      },
+      {
+        "reference": "UNESCO, Patrimoine mondial : Paysage culturel de Mapungubwe",
+        "url": "https://whc.unesco.org/fr/list/1099"
+      },
+      {
+        "reference": "World History Encyclopedia : The Impact of Prejudice on the History of Great Zimbabwe",
+        "url": "https://www.worldhistory.org/article/1429/the-impact-of-prejudice-on-the-history-of-great-zi/"
+      },
+      {
+        "reference": "Vere Gordon Childe, « The Urban Revolution », The Town Planning Review, 1950"
+      },
+      {
+        "reference": "Notices des œuvres : musées de l'université de Pretoria, Cleveland Museum of Art, bibliothèque de l'université de Leyde"
+      }
+    ],
+    "works": [
+      {
+        "title": "La colline de Mapungubwe",
+        "artist": "Habitants du royaume de Mapungubwe",
+        "country": "Afrique du Sud",
+        "period": "vers 1220–1290",
+        "museum": "Site, parc national de Mapungubwe (Afrique du Sud)",
+        "credit": "Parc national de Mapungubwe, province du Limpopo (Afrique du Sud), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:MapungubweHill.jpg), photo JJ van Zyl, licence CC BY-SA 3.0",
+        "image": "images/mouvements/grand-zimbabwe/colline-de-mapungubwe.jpg",
+        "lieu": "Mapungubwe",
+        "lieuType": "site",
+        "analysis": "Une colline de grès aux flancs abrupts et au sommet plat se dresse au-dessus d'une plaine de broussailles, sous un ciel bleu. C'est Mapungubwe, près du fleuve Limpopo, à la frontière actuelle de l'Afrique du Sud, du Botswana et du Zimbabwe. Au XIIIe siècle, le roi et sa famille vivaient au sommet, séparés de la population installée en bas : c'est l'un des premiers exemples en Afrique australe d'une société divisée en classes. Mapungubwe commerçait déjà l'or et l'ivoire avec la côte de l'océan Indien. Le site est inscrit au patrimoine mondial de l'UNESCO depuis 2003.",
+        "compare": "Le point de départ de l'exposition : Mapungubwe est souvent considéré comme le premier royaume de la région ; après son déclin, vers 1300, le pouvoir passa au Grand Zimbabwe, plus au nord."
+      },
+      {
+        "title": "Le rhinocéros d'or de Mapungubwe",
+        "artist": "Orfèvres de Mapungubwe",
+        "country": "Afrique du Sud",
+        "period": "XIIIe siècle",
+        "museum": "Collection Mapungubwe, musées de l'université de Pretoria (Afrique du Sud)",
+        "credit": "Collection Mapungubwe, musées de l'université de Pretoria (Afrique du Sud), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:UP_rhino.JPG), photo Sian Tiley-Nel, licence CC BY-SA 4.0",
+        "image": "images/mouvements/grand-zimbabwe/rhinoceros-d-or.jpg",
+        "lieu": "Mapungubwe",
+        "lieuType": "découverte",
+        "analysis": "Un petit rhinocéros d'or, à une seule corne, la tête basse, se détache sur un fond blanc. Il est fait de minces feuilles d'or martelées et clouées autour d'une âme de bois aujourd'hui disparue. Il a été trouvé dans une tombe royale au sommet de la colline de Mapungubwe, au début des années 1930. Il est conservé par les musées de l'université de Pretoria, en Afrique du Sud, et il est devenu un symbole du patrimoine africain.",
+        "compare": "Pendant l'apartheid, l'histoire de Mapungubwe a longtemps été peu enseignée en Afrique du Sud, car elle montrait l'existence d'un royaume africain riche et organisé bien avant l'arrivée des Européens."
+      },
+      {
+        "title": "Le complexe de la colline",
+        "artist": "Bâtisseurs du Grand Zimbabwe",
+        "country": "Zimbabwe",
+        "period": "XIIIe–XVe siècle",
+        "museum": "Site, Grand Zimbabwe, près de Masvingo (Zimbabwe)",
+        "credit": "Grand Zimbabwe, près de Masvingo (Zimbabwe), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Gro%C3%9F_Simbabwe,_H%C3%BCgelsiedlung.JPG), photo Graph Geo, licence CC BY-SA 4.0",
+        "image": "images/mouvements/grand-zimbabwe/complexe-de-la-colline.jpg",
+        "lieu": "Grand Zimbabwe",
+        "lieuType": "site",
+        "analysis": "Une colline couverte de broussailles est couronnée d'énormes rochers de granit ; au pied, un long mur bas de pierres sèches court dans les herbes jaunes. Au sommet, les bâtisseurs ont relié les rochers naturels par des murs de pierre, pour former des enclos. C'est le « complexe de la colline », la partie la plus ancienne du Grand Zimbabwe. On pense qu'il abritait la résidence des rois et des lieux de culte. Le nom de « Zimbabwe » vient d'un mot shona qui désigne les « maisons de pierre » ou la résidence d'un chef.",
+        "compare": "Le pays tout entier a pris le nom de ce site à son indépendance, en 1980 : le Zimbabwe a choisi pour nom et pour emblème les ruines de ses ancêtres."
+      },
+      {
+        "title": "Le grand enclos vu du ciel",
+        "artist": "Bâtisseurs du Grand Zimbabwe",
+        "country": "Zimbabwe",
+        "period": "XIVe siècle",
+        "museum": "Site, Grand Zimbabwe, près de Masvingo (Zimbabwe)",
+        "credit": "Grand Zimbabwe, près de Masvingo (Zimbabwe), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Great-zim-aerial-looking-West.JPG), photo Janice Bell, licence CC BY-SA 4.0",
+        "image": "images/mouvements/grand-zimbabwe/grand-enclos-vu-du-ciel.jpg",
+        "lieu": "Grand Zimbabwe",
+        "lieuType": "site",
+        "analysis": "Vu d'en haut, un immense mur de pierre ovale entoure un espace planté d'arbres ; tout autour, dans la savane, on distingue d'autres murs plus bas et des sentiers. C'est le « grand enclos », la plus grande construction en pierre de l'Afrique subsaharienne ancienne : son mur mesure environ 250 mètres de tour et jusqu'à 11 mètres de haut. Il est fait de blocs de granit taillés, posés sans aucun mortier. La ville, dont la population a pu atteindre plusieurs milliers d'habitants, s'étendait tout autour. Le Grand Zimbabwe est inscrit au patrimoine mondial de l'UNESCO depuis 1986.",
+        "compare": "Comme les cités swahilies, le Grand Zimbabwe vivait du commerce de l'or : on y a retrouvé des perles de verre, de la céramique persane et de la porcelaine chinoise, arrivées par la côte de l'océan Indien."
+      },
+      {
+        "title": "L'entrée ouest du grand enclos",
+        "artist": "Bâtisseurs du Grand Zimbabwe",
+        "country": "Zimbabwe",
+        "period": "XIVe siècle",
+        "museum": "Site, Grand Zimbabwe, près de Masvingo (Zimbabwe)",
+        "credit": "Grand Zimbabwe, près de Masvingo (Zimbabwe), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Western_Entrance_to_the_Great_Enclosure_-_Great_Zimbabwe_I.jpg), photo andryn2006, licence CC BY-SA 2.0",
+        "image": "images/mouvements/grand-zimbabwe/entree-ouest-du-grand-enclos.jpg",
+        "lieu": "Grand Zimbabwe",
+        "lieuType": "site",
+        "analysis": "Une étroite ouverture, aux angles arrondis, perce un mur épais fait de rangées régulières de petits blocs de granit gris, posés les uns sur les autres sans mortier ; à travers le passage, on aperçoit d'autres murs. C'est l'une des entrées du grand enclos. Les bâtisseurs taillaient le granit de la région en plaques, en profitant de la manière naturelle dont la roche se fend sous l'effet de la chaleur et du froid, puis les empilaient en assises de plus en plus étroites vers le haut.",
+        "compare": "Ces murs ne servaient pas à la défense : ils montraient la puissance et le prestige du roi, et séparaient les espaces réservés à l'élite du reste de la population."
+      },
+      {
+        "title": "Le passage étroit du grand enclos",
+        "artist": "Bâtisseurs du Grand Zimbabwe",
+        "country": "Zimbabwe",
+        "period": "XIVe siècle",
+        "museum": "Site, Grand Zimbabwe, près de Masvingo (Zimbabwe)",
+        "credit": "Grand Zimbabwe, près de Masvingo (Zimbabwe), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Curved_passageways_circling_the_Great_Enclosure_Great_Zimbabwe.jpg), photo amanderson2, licence CC BY 2.0",
+        "image": "images/mouvements/grand-zimbabwe/passage-etroit.jpg",
+        "lieu": "Grand Zimbabwe",
+        "lieuType": "site",
+        "analysis": "Un couloir très étroit, à peine plus large qu'une personne, s'enfonce en courbe entre deux hauts murs de pierre sèche, dont les assises régulières se suivent comme des lignes d'écriture. À l'intérieur du grand enclos, ce passage longe le mur extérieur et mène vers la tour conique. On ne sait pas exactement à quoi il servait ; il rendait en tout cas l'accès au cœur de l'enclos lent et contrôlé.",
+        "compare": "Comparez avec les ruelles de Lamu, dans l'exposition sur les cités swahilies : deux architectures africaines de pierre, faites pour guider et protéger."
+      },
+      {
+        "title": "La tour conique",
+        "artist": "Bâtisseurs du Grand Zimbabwe",
+        "country": "Zimbabwe",
+        "period": "XIVe siècle",
+        "museum": "Site, Grand Zimbabwe, près de Masvingo (Zimbabwe)",
+        "credit": "Grand Zimbabwe, près de Masvingo (Zimbabwe), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Conical_Tower_-_Great_Enclosure_IV_%2847561215932%29.jpg), photo Andrew Moore, licence CC BY-SA 2.0",
+        "image": "images/mouvements/grand-zimbabwe/tour-conique.jpg",
+        "lieu": "Grand Zimbabwe",
+        "lieuType": "site",
+        "analysis": "Une haute tour de pierre pleine, en forme de cône arrondi, s'élève à l'intérieur du grand enclos, à côté du grand mur. Elle est faite, comme les murs, de petits blocs de granit posés sans mortier. Elle n'a ni porte ni pièce intérieure. Sa fonction reste mystérieuse : certains y voient un grenier symbolique, signe de la richesse du roi, d'autres un monument religieux. À la fin du XIXe siècle, des chercheurs de trésors ont creusé autour d'elle à la recherche d'or.",
+        "compare": "Les fouilles mal faites des colons, à la fin du XIXe siècle, ont détruit une grande partie des couches archéologiques du site, ce qui complique aujourd'hui le travail des historiens."
+      },
+      {
+        "title": "Les terrasses décorées de Khami",
+        "artist": "Bâtisseurs du royaume de Torwa",
+        "country": "Zimbabwe",
+        "period": "vers 1450–1650",
+        "museum": "Site, Khami, près de Bulawayo (Zimbabwe)",
+        "credit": "Khami, près de Bulawayo (Zimbabwe), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Khami_Hill_Complex.jpg), photo Senzeni1, licence CC BY-SA 4.0",
+        "image": "images/mouvements/grand-zimbabwe/terrasses-de-khami.jpg",
+        "lieu": "Khami",
+        "lieuType": "site",
+        "analysis": "Une colline est entièrement habillée de murs de soutènement en pierre sèche, superposés en terrasses ; plusieurs rangées sont décorées de motifs en damier, faits en laissant des vides entre les pierres. Un gros rocher blanc est posé sur l'une des terrasses. C'est le complexe de la colline de Khami, la capitale du royaume de Torwa, qui succéda au Grand Zimbabwe vers le milieu du XVe siècle, dans l'ouest de l'actuel Zimbabwe. Le palais du roi se trouvait au sommet de ces plateformes. Khami est inscrit au patrimoine mondial de l'UNESCO depuis 1986.",
+        "compare": "Après le Grand Zimbabwe, la même culture de la pierre s'est transmise à de nouvelles capitales, avec des décors de plus en plus riches."
+      },
+      {
+        "title": "Le baptême de l'empereur du Monomotapa",
+        "artist": "Coenraed Lauwers, d'après Erasmus Quellinus II",
+        "country": "Belgique",
+        "period": "vers 1660",
+        "museum": "Bibliothèque de l'université de Leyde (Pays-Bas)",
+        "credit": "Bibliothèque de l'université de Leyde (Pays-Bas), PK-P-131.342, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:De_doop_van_de_keizer_en_de_keizerin_van_Monomotapa_door_de_Predikheren_op_4_augustus_1652_-_Universiteitsbibliotheek_Leiden_-_PK-P-131.342.tif), domaine public",
+        "image": "images/mouvements/grand-zimbabwe/bapteme-de-l-empereur-du-monomotapa.jpg",
+        "lieu": "Grand Zimbabwe",
+        "lieuType": "représenté",
+        "lieuProbable": true,
+        "analysis": "Une gravure en noir et blanc montre, dans une église européenne, un moine dominicain qui verse l'eau du baptême sur la tête d'un homme agenouillé au-dessus d'une vasque ; une femme richement vêtue prie à côté de lui, entourée d'autres personnages, certains coiffés de turbans à plumes. Au fond, la statue d'un saint domine l'autel. Selon son titre néerlandais, la gravure représente le baptême de l'empereur et de l'impératrice du Monomotapa par les dominicains, le 4 août 1652. Le Monomotapa, ou Mutapa, était un royaume du nord de l'actuel Zimbabwe, héritier de la culture du Grand Zimbabwe.",
+        "compare": "L'artiste, à Anvers, n'a jamais vu le Monomotapa : il a imaginé la scène dans un décor d'église baroque. Cette image montre surtout comment l'Europe catholique voulait voir l'Afrique."
+      },
+      {
+        "title": "Appui-tête",
+        "artist": "Forgeron-sculpteur de style shona",
+        "country": "Zimbabwe ou Mozambique",
+        "period": "vers 1910",
+        "museum": "Cleveland Museum of Art, Cleveland",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1921.1548), domaine public (CC0)",
+        "image": "images/mouvements/grand-zimbabwe/appui-tete.jpg",
+        "lieuType": "fabrication",
+        "analysis": "Un petit appui-tête de bois sombre, de 13 cm de haut : un plateau incurvé repose sur deux supports verticaux décorés de petites pointes en relief, eux-mêmes posés sur une base. Selon le musée, ces appuis-tête permettaient aux hommes shona de protéger leurs coiffures tressées pendant le sommeil ; le dessus, souvent touché, a noirci. Ils étaient très liés à leur propriétaire et devenaient souvent des objets funéraires ou des héritages. Des recherches récentes suggèrent qu'ils symbolisaient les femmes : les petites pointes rappelleraient les scarifications des jeunes femmes en âge de se marier.",
+        "compare": "Les Shona, qui vivent aujourd'hui au Zimbabwe, sont les descendants des bâtisseurs du Grand Zimbabwe : leur culture continue celle des anciens royaumes."
+      },
+      {
+        "title": "Hache cérémonielle (gano)",
+        "artist": "Forgeron-sculpteur de style shona",
+        "country": "Zimbabwe",
+        "period": "XXe siècle, avant 1928",
+        "museum": "Cleveland Museum of Art, Cleveland",
+        "credit": "Cleveland Museum of Art (https://clevelandart.org/art/1929.364), domaine public (CC0)",
+        "image": "images/mouvements/grand-zimbabwe/hache-ceremonielle.jpg",
+        "lieuType": "fabrication",
+        "analysis": "Une hache à lame de fer en forme de croissant est fixée en haut d'un manche de bois fin, entouré de fils de métal tressés ; au sommet, un petit appui-tête est sculpté. Selon le musée, la lame a sans doute été forgée sur place, tandis que les fils et un morceau de montre de poche suisse fixé au manche étaient importés. Trop fine pour la guerre, cette hache, appelée gano, était tenue par un homme comme signe de rang ou des ancêtres, lors des rituels et des danses.",
+        "compare": "Le point d'arrivée de l'exposition : selon le musée, ces objets furent délaissés au début du XXe siècle, puis remis à l'honneur dans les années 1960–1970, quand le nationalisme zimbabwéen redécouvrit ses traditions et ses ancêtres, comme les ruines du Grand Zimbabwe."
+      }
+    ],
+    "carte": {
+      "image": "images/mouvements/cartes/grand-zimbabwe.svg",
+      "ouest": 24.0,
+      "est": 36.0,
+      "sud": -25.0,
+      "nord": -14.5,
+      "lieux": [
+        {
+          "nom": "Mapungubwe",
+          "lat": -22.1928,
+          "lon": 29.2389
+        },
+        {
+          "nom": "Grand Zimbabwe",
+          "lat": -20.2675,
+          "lon": 30.9339
+        },
+        {
+          "nom": "Khami",
+          "lat": -20.1583,
+          "lon": 28.375
+        }
+      ],
+      "pays": [
+        {
+          "nom": "Zimbabwe",
+          "lat": -18.6,
+          "lon": 29.8
+        },
+        {
+          "nom": "Afrique du Sud",
+          "lat": -24.2,
+          "lon": 27.5
+        },
+        {
+          "nom": "Mozambique",
+          "lat": -16.0,
+          "lon": 33.6
+        },
+        {
+          "nom": "Botswana",
+          "lat": -22.0,
+          "lon": 26.3
+        },
+        {
+          "nom": "Zambie",
+          "lat": -15.3,
+          "lon": 27.0
+        }
+      ],
+      "villes": [
+        {
+          "nom": "Harare",
+          "lat": -17.8292,
+          "lon": 31.0522
+        },
+        {
+          "nom": "Sofala",
+          "lat": -20.1667,
+          "lon": 34.7167
+        }
+      ]
+    }
   }
 ]

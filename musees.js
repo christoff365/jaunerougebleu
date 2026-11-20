@@ -492,6 +492,8 @@ const MOUVEMENTS = [
     "Les villes de pierre de la côte est-africaine, de Kilwa à Lamu : mosquées de corail, palais des sultans, tombeaux à pilier, portes sculptées, poésie swahilie en caractères arabes et commerce de la mousson jusqu'en Chine."],
   ['Royaume du Bénin', 'Afrique', 'Nigeria', 'XIIIe – XIXe siècle', ['Benin Kingdom', 'Edo peoples'], ['Benin art'], 'kingdom of benin|royaume du benin|benin city|edo peoples|oba of benin', [],
     "Une civilisation sans écriture, mais avec une mémoire de laiton : les têtes et les plaques des oba, la reine mère Idia, les ivoires vendus aux Portugais, Benin City et ses remparts, le pillage de 1897 et les restitutions."],
+  ['Grand Zimbabwe', 'Afrique', 'Zimbabwe et Afrique du Sud', 'XIIIe – XVIIe siècle', ['Shona'], ['Great Zimbabwe'], 'great zimbabwe|grand zimbabwe|mapungubwe|khami|monomotapa|mutapa', [],
+    "Les maisons de pierre de l'Afrique australe, de Mapungubwe à Khami : le rhinocéros d'or, le grand enclos et sa tour, le commerce de l'or, et le mythe colonial qui refusait d'attribuer ces murs aux Africains."],
   ['Royaume de Koush', 'Afrique', 'Soudan', 'XXVe siècle av. J.-C. – IVe siècle', ['Kushite', 'Meroitic', 'Kerma', 'Napatan'], ['Kushite art'], 'kush|koush|meroe|méroé|kerma|napata|nubia|nubie', [],
     "Les pharaons noirs et les pyramides du Soudan : Kerma, le Gebel Barkal, Taharqa, les reines kandake de Méroé et leur écriture."],
   ['Égypte ancienne', 'Afrique', 'Égypte', 'XXXe–Ier siècle av. J.-C.', ['Egyptian'], ['ancient Egyptian art'], 'toutankhamon|tutankhamun|pharaon', [],
@@ -583,7 +585,7 @@ const STYLES_ARCHITECTURE = { 'Art gothique': 'Q176483' };
 const ANONYME = 'Q4233718'; // « anonyme » dans Wikidata
 // Mouvements d'abord de l'estampe : leurs estampes ne sont pas limitées à trois
 // Expositions consacrées à une civilisation plutôt qu'à un mouvement (badge « Civilisation » sur leur page)
-const CIVILISATIONS = new Set(['Royaume du Bénin', 'Cités swahilies', 'Corée, des origines à 1910', 'Hittites', 'Phéniciens et Carthage', 'Empire byzantin', 'Empire khmer', 'Mayas', 'Empire mongol', 'Mésopotamie', 'Égypte ancienne', 'Royaume de Koush', "Civilisation de l'Indus", 'Inde ancienne', 'Chine, des origines à 1912', 'Japon, des origines à 1868', 'Grèce antique', 'Israël et Juda', 'Perse ancienne', 'Rome antique', 'Aksoum', 'Anglo-Saxons', 'Royaumes de Java et de Sumatra', 'Vikings', "Empire des Tu'i Tonga", 'Empire du Mali', 'Aztèques', 'Incas']);
+const CIVILISATIONS = new Set(['Grand Zimbabwe', 'Royaume du Bénin', 'Cités swahilies', 'Corée, des origines à 1910', 'Hittites', 'Phéniciens et Carthage', 'Empire byzantin', 'Empire khmer', 'Mayas', 'Empire mongol', 'Mésopotamie', 'Égypte ancienne', 'Royaume de Koush', "Civilisation de l'Indus", 'Inde ancienne', 'Chine, des origines à 1912', 'Japon, des origines à 1868', 'Grèce antique', 'Israël et Juda', 'Perse ancienne', 'Rome antique', 'Aksoum', 'Anglo-Saxons', 'Royaumes de Java et de Sumatra', 'Vikings', "Empire des Tu'i Tonga", 'Empire du Mali', 'Aztèques', 'Incas']);
 const MOUVEMENTS_D_ESTAMPES = new Set(['Ukiyo-e', 'Expressionnisme']);
 // Mouvements de peintres : si le visiteur n'a pas choisi de type, l'exposition ne montre que des peintures
 // (pas les dessins, études, estampes ou éventails que les catalogues renvoient aussi pour ces artistes)

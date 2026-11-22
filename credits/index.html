@@ -29,6 +29,7 @@ html,body{overflow-x:hidden;max-width:100%}@supports(overflow:clip){html,body{ov
   p a, li a { color: var(--bleu); }
   ul { padding: 0; margin: 0; list-style: none; }
   li { font-size: .95rem; line-height: 1.7; color: #333; margin: 0 0 .9rem; padding-inline-start: 14px; border-inline-start: 3px solid var(--jaune); }
+  .sig-bas { max-width: 760px; margin: 0 auto; padding: 0 1rem 2.5rem; font-size: .9rem; color: #555; }
 </style>
 </head>
 <body>
@@ -61,7 +62,9 @@ html,body{overflow-x:hidden;max-width:100%}@supports(overflow:clip){html,body{ov
     <li>Cartes des civilisations : fond de carte d'après <a href="https://www.naturalearthdata.com/" target="_blank" rel="noopener">Natural Earth</a> (domaine public), via le paquet world-atlas ; coordonnées des lieux : Wikidata (CC0).</li>
   </ul>
 </main>
-<script src="../i18n.js?v=20261121a"></script>
+<p class="sig-bas"><button type="button" class="sig-pied" onclick="ouvrirSignalement()">Signaler une erreur</button></p>
+<script src="../i18n.js?v=20261122a"></script>
+<script src="../signalement.js?v=20261122a"></script>
 <script>traduirePage();</script>
 </body>
 </html>

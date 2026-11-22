@@ -5,7 +5,7 @@
 // Les textes sont en français ; i18n.js les traduit (clés dans i18n-dico.js).
 const SIG_CLE = '976bae91-fb4c-4f62-9aad-b1569bf30d40';
 const SIG_BASE = document.currentScript ? document.currentScript.src.replace(/signalement\.js.*$/, '') : '';
-let sigOeuvre = '';
+let sigOeuvre = '', sigGenre = 'oeuvre'; // ce qui est signalé : une œuvre ou un passage de texte
 
 function sigEsc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c])); }
 
@@ -14,12 +14,18 @@ function lienSignalement(o) {
   const nom = [o && o.titre, o && o.artiste, o && o.musee].filter(Boolean).join(' — ');
   return `<button type="button" class="sig-lien" data-oeuvre="${sigEsc(nom)}" onclick="ouvrirSignalement(this.dataset.oeuvre)">Signaler une erreur</button>`;
 }
+// Lien à placer après un long texte (introduction, « La civilisation en bref », débats…) ; nom = titre du passage
+function lienTexte(nom) {
+  return `<button type="button" class="sig-lien" data-texte="${sigEsc(nom)}" onclick="ouvrirSignalement(this.dataset.texte,'texte')">Signaler une erreur dans ce texte</button>`;
+}
 
 (function () {
   const css = document.createElement('style');
   css.textContent = `
 .sig-lien,.sig-pied{background:none;border:0;padding:0;font:inherit;cursor:pointer;text-decoration:underline;text-underline-offset:2px}
 .sig-lien{display:block;margin:6px 0 0;font-size:12px;color:#777}
+.sig-apres{margin:-18px 0 24px}
+.sig-ctx-fin .sig-lien,.debat-civ>.sig-lien,.def-civ>.sig-lien,.mus-tous>.sig-lien{margin-top:10px}
 .sig-lien:hover,.sig-pied:hover{color:#D8261C}
 .sig-pied{color:inherit;font-weight:inherit}
 .sig-dlg{width:min(520px,calc(100vw - 32px));max-height:calc(100dvh - 32px);overflow:auto;border:0;border-top:6px solid #D8261C;border-radius:6px;padding:22px 20px 18px;color:#222;background:#fff;font-family:inherit;box-shadow:0 10px 40px rgba(0,0,0,.3)}
@@ -52,7 +58,7 @@ function creerSignalement() {
   d.innerHTML = `<form id="sig-form" novalidate>
   <h2 id="sig-titre">Signaler une erreur</h2>
   <p>Une date, un nom, une traduction ou une image vous semble faux ? Dites-le-nous : nous vérifions chaque message avant de corriger le site.</p>
-  <p class="sig-ctx" id="sig-ctx" hidden><b>Œuvre :</b> <span id="sig-ctx-nom"></span></p>
+  <p class="sig-ctx" id="sig-ctx" hidden><b id="sig-ctx-t">Œuvre :</b> <span id="sig-ctx-nom"></span></p>
   <label for="sig-msg">Votre message</label>
   <textarea id="sig-msg" required maxlength="4000" rows="5"></textarea>
   <label for="sig-mail">Votre adresse e-mail (facultatif, pour vous répondre)</label>
@@ -69,9 +75,11 @@ function creerSignalement() {
   return d;
 }
 
-function ouvrirSignalement(oeuvre) {
+function ouvrirSignalement(oeuvre, genre) {
   const d = creerSignalement();
   sigOeuvre = typeof oeuvre === 'string' ? oeuvre : '';
+  sigGenre = genre === 'texte' ? 'texte' : 'oeuvre';
+  d.querySelector('#sig-ctx-t').textContent = sigGenre === 'texte' ? 'Passage :' : 'Œuvre :';
   const ctx = d.querySelector('#sig-ctx');
   ctx.hidden = !sigOeuvre;
   d.querySelector('#sig-ctx-nom').textContent = sigOeuvre;
@@ -115,7 +123,7 @@ function envoyerSignalement() {
     subject: 'Signalement d\'erreur — Jaune-Rouge-Bleu',
     from_name: 'Site Jaune-Rouge-Bleu',
     'Message': texte,
-    'Œuvre': sigOeuvre || '—',
+    [sigGenre === 'texte' ? 'Passage' : 'Œuvre']: sigOeuvre || '—',
     'Page': sigPage(),
     'Adresse': location.href,
     'Langue du site': (typeof langue === 'string' ? langue : 'fr')

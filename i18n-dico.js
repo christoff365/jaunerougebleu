@@ -599,6 +599,8 @@ Object.assign(TRAD, {
   "Sur une télévision": ["On a television", "En un televisor", "على التلفزيون"],
   "Admin": ["Admin", "Admin", "الإدارة"],
   "Site en construction": ["Site under construction", "Sitio en construcción", "الموقع قيد الإنشاء"],
+  "Signaler une erreur dans ce texte": ["Report an error in this text", "Informar de un error en este texto", "الإبلاغ عن خطأ في هذا النص"],
+  "Passage :": ["Passage:", "Pasaje:", "المقطع:"],
   "Signaler une erreur": ["Report an error", "Informar de un error", "الإبلاغ عن خطأ"],
   "Une date, un nom, une traduction ou une image vous semble faux ? Dites-le-nous : nous vérifions chaque message avant de corriger le site.": ["Does a date, a name, a translation or an image seem wrong to you? Let us know: we check every message before correcting the site.", "¿Una fecha, un nombre, una traducción o una imagen le parece incorrecta? Díganoslo: revisamos cada mensaje antes de corregir el sitio.", "هل يبدو لك تاريخ أو اسم أو ترجمة أو صورة غير صحيح؟ أخبرنا: نتحقق من كل رسالة قبل تصحيح الموقع."],
   "Œuvre :": ["Work:", "Obra:", "العمل:"],

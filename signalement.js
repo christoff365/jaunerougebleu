@@ -15,8 +15,15 @@ function lienSignalement(o) {
   return `<button type="button" class="sig-lien" data-oeuvre="${sigEsc(nom)}" onclick="ouvrirSignalement(this.dataset.oeuvre)">Signaler une erreur</button>`;
 }
 // Lien à placer après un long texte (introduction, « La civilisation en bref », débats…) ; nom = titre du passage
-function lienTexte(nom) {
-  return `<button type="button" class="sig-lien" data-texte="${sigEsc(nom)}" onclick="ouvrirSignalement(this.dataset.texte,'texte')">Signaler une erreur dans ce texte</button>`;
+// libelle : texte du lien (par défaut « Signaler une erreur dans ce texte »)
+function lienTexte(nom, libelle) {
+  return `<button type="button" class="sig-lien" data-texte="${sigEsc(nom)}" onclick="ouvrirSignalement(this.dataset.texte,'texte')">${sigEsc(libelle || 'Signaler une erreur dans ce texte')}</button>`;
+}
+// Passage qui change à l'écran (séance de bien-être) : on joint au nom le texte affiché dans les éléments indiqués
+function ouvrirSignalementZone(nom, ids) {
+  const extrait = (ids || []).map(id => { const el = document.getElementById(id); return el && !el.hidden ? el.textContent.replace(/\s+/g, ' ').trim() : ''; })
+    .filter(Boolean).join(' · ').slice(0, 400);
+  ouvrirSignalement(nom + (extrait ? ' · ' + extrait : ''), 'texte');
 }
 
 (function () {

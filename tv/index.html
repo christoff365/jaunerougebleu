@@ -52,6 +52,7 @@ html,body{overflow-x:hidden;max-width:100%}@supports(overflow:clip){html,body{ov
   @media (max-width: 600px) { table.touches tr { display: block; border-bottom: 1px solid #ddd; padding: .4rem 0; } table.touches td { display: block; width: auto; border: 0; padding: .1rem .4rem; } table.touches td:first-child { white-space: normal; width: auto; } }
   h3.groupe { font-size: 1.05rem; margin: 1.4rem 0 0; }
   .note { font-size: .9rem; color: #555; }
+  .sig-p { margin: .3rem 0 0; } .sig-p-fin { margin-top: 2rem; font-size: .9rem; }
 </style>
 </head>
 <body>
@@ -85,12 +86,16 @@ html,body{overflow-x:hidden;max-width:100%}@supports(overflow:clip){html,body{ov
   </ul>
   <p><strong>Avec un câble HDMI</strong> branché entre un ordinateur et la télévision : choisissez l'entrée HDMI sur la télévision, puis ouvrez cette page sur l'ordinateur.</p>
 
+  <p class="sig-p"><button type="button" class="sig-lien" data-texte="Télévision · 1. Afficher le site sur la télévision" onclick="ouvrirSignalement(this.dataset.texte,'texte')">Signaler une erreur dans ce texte</button></p>
+
   <h2 class="etape">2. Choisir comment regarder</h2>
   <div class="modes">
     <div class="mode"><h3><span aria-hidden="true">▶</span> Avec commentaires</h3><p>Le commentaire de chaque œuvre est lu à voix haute, puis l'œuvre suivante s'affiche. Pour une visite, en famille ou en classe.</p></div>
     <div class="mode"><h3><span aria-hidden="true">🔁</span> En boucle, sans commentaires</h3><p>Les œuvres défilent seules, sans voix ni texte, 30 secondes chacune, et l'exposition recommence au début. Pour un écran d'accueil, une salle d'attente ou une vitrine.</p></div>
   </div>
   <p class="note">Appuyez sur OK pour démarrer. En boucle, le diaporama démarre aussi tout seul après 15 secondes. Le titre de l'œuvre et le crédit de l'image restent écrits en petit en bas de l'écran : les licences des images le demandent.</p>
+
+  <p class="sig-p"><button type="button" class="sig-lien" data-texte="Télévision · 2. Choisir comment regarder" onclick="ouvrirSignalement(this.dataset.texte,'texte')">Signaler une erreur dans ce texte</button></p>
 
   <h2 class="etape">3. Pendant le diaporama</h2>
   <table class="touches">
@@ -101,10 +106,14 @@ html,body{overflow-x:hidden;max-width:100%}@supports(overflow:clip){html,body{ov
   </table>
   <p class="note">Le site empêche l'écran de se mettre en veille quand le navigateur le permet. Si la télévision s'éteint quand même au bout d'un moment, désactivez sa mise en veille automatique dans ses réglages.</p>
 
+  <p class="sig-p"><button type="button" class="sig-lien" data-texte="Télévision · 3. Pendant le diaporama" onclick="ouvrirSignalement(this.dataset.texte,'texte')">Signaler une erreur dans ce texte</button></p>
+
   <h2 class="etape" id="expositions">4. Choisir une exposition</h2>
   <div id="listes"><p>Chargement des expositions…</p></div>
+  <p class="sig-p sig-p-fin"><button type="button" class="sig-pied" onclick="ouvrirSignalement()">Signaler une erreur</button></p>
 </main>
-<script src="../i18n.js?v=20261122b"></script>
+<script src="../i18n.js?v=20261122c"></script>
+<script src="../signalement.js?v=20261122c"></script>
 <script>
 // Liste des expositions publiées (expositions.json et mouvements.json) : deux liens par exposition,
 // vers le diaporama du site (index.html?diaporama=<nom>) ou le diaporama en boucle sans commentaires (?tv=<nom>)

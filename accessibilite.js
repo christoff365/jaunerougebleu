@@ -14,7 +14,8 @@ function enregistrerOeuvre(o) { OEUVRES_ACCES.push(o); return OEUVRES_ACCES.leng
 // Bouton à placer sous une œuvre ; o = {titre, artiste, date, lieu, musee, image, credit (HTML), description, analyse, art}
 function boutonAcces(o, classe) {
   const n = enregistrerOeuvre(o);
-  return `<button type="button" class="acc-btn${classe ? ' ' + classe : ''}" onclick="ouvrirAcces(${n},this)"><span aria-hidden="true">🔊 〰️</span> <span>Accessibilité</span></button>`;
+  return `<button type="button" class="acc-btn${classe ? ' ' + classe : ''}" onclick="ouvrirAcces(${n},this)"><span aria-hidden="true">🔊 〰️</span> <span>Accessibilité</span></button>`
+    + (typeof lienSignalement === 'function' ? lienSignalement(o) : ''); // « Signaler une erreur » (signalement.js)
 }
 
 // ---------- Textes composés : modèle français (clé de i18n.js) avec des emplacements {nom}

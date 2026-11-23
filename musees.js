@@ -681,9 +681,18 @@ function demandeWikimedia(service, file, url, delai, options) {
     });
   });
 }
+// Adresse du service de recherche de Wikidata. Wikidata remplace son moteur Blazegraph par QLever : le jour où la nouvelle
+// adresse (https://query-next.wikidata.org/sparql) sera ouverte au public, il suffira de la mettre ici. Les lignes
+// « hint:Query » (propres à Blazegraph, refusées par QLever) sont alors retirées automatiquement ; les essais du
+// 23 novembre 2026 sur qlever.dev ont montré que les 18 recherches du site donnent ensuite les mêmes résultats.
+const WIKIDATA_SPARQL = 'https://query.wikidata.org/sparql';
+function requeteWikidata(requete) {
+  return /query\.wikidata\.org/.test(WIKIDATA_SPARQL) ? requete : requete.replace(/^[ \t]*hint:Query[^\n]*\n?/gm, '');
+}
 function sparql(requete, delai) {
+  requete = requeteWikidata(requete);
   // Envoi en POST : les requêtes longues dépasseraient la taille maximale d'une adresse
-  return demandeWikimedia('wikidata', fileWikidata, 'https://query.wikidata.org/sparql?format=json', delai || 15000, {
+  return demandeWikimedia('wikidata', fileWikidata, WIKIDATA_SPARQL + '?format=json', delai || 15000, {
     method: 'POST', body: new URLSearchParams({ query: requete })
   }).then(r => (r.results && r.results.bindings) || []);
 }

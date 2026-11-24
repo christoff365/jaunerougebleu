@@ -92,6 +92,39 @@ const NOMBRES_ES = ['cero', 'uno', 'dos', 'tres', 'cuatro', 'cinco', 'seis', 'si
 const ORDINAUX_ES = ['', 'primero', 'segundo', 'tercero', 'cuarto', 'quinto', 'sexto', 'séptimo', 'octavo', 'noveno', 'décimo'];
 // En espagnol, siècles I à X en ordinal (« siglo quinto »), au-delà en cardinal (« siglo quince »)
 const romainEs = r => { const n = nombreRomain(r); return n == null || n > 30 ? r : (ORDINAUX_ES[n] || NOMBRES_ES[n]); };
+// ---------- Choix de la voix de lecture
+// Le navigateur propose souvent plusieurs voix pour une même langue, et la première est parfois une vieille voix
+// « robotique » (par exemple « Microsoft Hortense Desktop » sous Windows). On choisit la plus naturelle : voix
+// « Natural » ou « Online » d'Edge, voix Google de Chrome, voix « améliorées » ou « Premium » d'Apple. Le visiteur
+// peut aussi choisir lui-même sa voix dans le menu « Aa » (gardée dans le navigateur, clé jrb-voix-<langue>).
+function scoreVoix(v, lang) {
+  const n = v.name || '';
+  let s = 0;
+  if (v.lang.replace('_', '-').toLowerCase() === String(lang).toLowerCase()) s += 2;
+  if (/natural|neural|wavenet/i.test(n)) s += 8;
+  if (/online/i.test(n)) s += 4;
+  if (/premium|enhanced|amélioré|mejorad|siri/i.test(n)) s += 6;
+  if (/google/i.test(n)) s += 5;
+  if (v.localService === false) s += 1;
+  if (/espeak|compact|desktop/i.test(n)) s -= 4;
+  if (/^microsoft (hortense|julie|paul|helena|laura|pablo|hazel|george|susan|david|zira|mark|naayf|hoda)\b/i.test(n) && !/natural|online/i.test(n)) s -= 3;
+  return s;
+}
+function voixDisponibles(lang) {
+  if (!('speechSynthesis' in window)) return [];
+  const l2 = String(lang || 'fr').slice(0, 2).toLowerCase();
+  return speechSynthesis.getVoices().filter(v => v.lang.replace('_', '-').slice(0, 2).toLowerCase() === l2)
+    .sort((a, b) => scoreVoix(b, lang) - scoreVoix(a, lang));
+}
+function choisirVoix(lang) {
+  const liste = voixDisponibles(lang); if (!liste.length) return null;
+  let pref = ''; try { pref = localStorage.getItem('jrb-voix-' + String(lang).slice(0, 2)) || ''; } catch (e) {}
+  return liste.find(v => v.name === pref) || liste[0];
+}
+// À appeler sur chaque phrase lue : u.lang doit être déjà indiquée
+function voixPhrase(u) { const v = choisirVoix(u.lang); if (v) u.voice = v; return u; }
+if ('speechSynthesis' in window) speechSynthesis.getVoices(); // Chrome charge la liste des voix au premier appel
+
 function textePourVoix(texte, lang) {
   let x = String(texte == null ? '' : texte);
   const l = String(lang || 'fr').slice(0, 2);

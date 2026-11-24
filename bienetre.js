@@ -314,7 +314,7 @@ function guideWb(n, force) {
   const txt = n >= g.length ? FIN_SEANCE : g[n];
   document.getElementById('sv-g').innerHTML = `<span class="sv-etape">${n >= g.length ? '' : (n + 1) + ' / ' + g.length}</span> <span>${esc(txt)}</span>`;
   if (wb.voix && (tRun || n >= g.length) && 'speechSynthesis' in window) {
-    window.speechSynthesis.cancel(); const u = new SpeechSynthesisUtterance(textePourVoix(t(txt), LANGUES[langue])); u.lang = LANGUES[langue]; window.speechSynthesis.speak(u);
+    window.speechSynthesis.cancel(); const u = new SpeechSynthesisUtterance(textePourVoix(t(txt), LANGUES[langue])); u.lang = LANGUES[langue]; voixPhrase(u); window.speechSynthesis.speak(u);
   }
 }
 function voixWb(on) { wb.voix = on; if (on && tRun) guideWb(etapeWb, true); if (!on && 'speechSynthesis' in window) window.speechSynthesis.cancel(); }

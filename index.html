@@ -669,6 +669,44 @@ html.diapo-ouvert,html.diapo-ouvert body{overflow:hidden}
   .diapo-quitter span:last-child,#diapo-voix span:last-child{display:none}
 }
 @media(prefers-reduced-motion:reduce){.diapo-diap,.diapo-prog span{transition:none}}
+
+/* ORDINATEUR : textes plus grands et pages plus larges (moins de blanc de chaque côté). Le bouton « Aa »
+   (texte plus grand) agrandit encore de 20 %. */
+@media(min-width:1000px){
+  .wrap{max-width:1140px}
+  .sub{font-size:17px}
+  #sp-intro{font-size:18px!important;line-height:1.8!important}
+  .sp-ctx p,.sp-rech p,.sp-carte-note{font-size:17px;line-height:1.8;max-width:none}
+  .sp-ctx h4,.sp-rech h4{font-size:18px}
+  .sp-ctx h3,.sp-rech h3,.sp-biblio h3{font-size:28px}
+  .sp-biblio ol{font-size:15px;max-width:none}
+  .wk-card{padding:24px 28px}
+  .wk-top h3{font-size:26px}.wk-top p{font-size:14px}
+  .wk-ana{font-size:17px;line-height:1.8;max-width:none}
+  .cmp-pt{font-size:16px;line-height:1.7;padding:12px 18px}.cmp-l{font-size:12px}
+  .wk-card .img-credit{font-size:13px}
+  .def-civ,.debat-civ{max-width:none}
+  .def-civ p,.def-civ ul,.debat-civ p{font-size:17px;line-height:1.75}
+  .def-civ h3,.debat-civ h3{font-size:26px}
+  .debat-def h4,.debat-col h5{font-size:16px}.debat-def p,.debat-col ul{font-size:15px;line-height:1.7}
+  .debat-q{font-size:23px}
+  .frise-aide{font-size:15px}
+  .mus-tous p,.mus-region p{font-size:16px;line-height:1.7}
+  .mus-tous ul,.mus-region ul{font-size:16px}
+  .frise-mecenes>p{font-size:17px;max-width:none}.frise{max-width:none}
+  .frise p{font-size:16px;line-height:1.7}.frise-date{font-size:13px}.frise h4{font-size:21px}
+  .expo-note,.wb-expo{font-size:16px}
+  .wb-avert{font-size:15px}
+  .sv-guide{font-size:17px}
+  .mv-carte p{font-size:15px}
+  .mini-info b{font-size:15px}.mini-info span{font-size:13px}
+  .diapo-leg{font-size:.8em}
+}
+@media(min-width:1500px){
+  .wrap{max-width:1240px}
+  #sp-intro{font-size:19px!important}
+  .sp-ctx p,.sp-rech p,.wk-ana,.def-civ p,.debat-civ p,.frise-mecenes>p{font-size:18px}
+}
 </style>
 </head>
 <body>
@@ -1159,11 +1197,11 @@ html.diapo-ouvert,html.diapo-ouvert body{overflow:hidden}
   </div>
 </footer>
 <!-- Traductions (anglais, espagnol, arabe) et moteur de traduction -->
-<script src="i18n.js?v=20261123a"></script>
+<script src="i18n.js?v=20261124a"></script>
 <!-- Formulaire « Signaler une erreur » (envoi par Web3Forms) -->
-<script src="signalement.js?v=20261123a"></script>
+<script src="signalement.js?v=20261124a"></script>
 <!-- Recherche en direct dans les catalogues ouverts des musées (domaine public) -->
-<script src="musees.js?v=20261123a"></script>
+<script src="musees.js?v=20261124a"></script>
 <script>
 const ART = [
   { img:"images/oeuvres/grande-vague-hokusai.jpg", credit:'Image : <a href="https://www.metmuseum.org/art/collection/search/45434" target="_blank" rel="noopener">The Metropolitan Museum of Art</a>, domaine public (Open Access)', name:"La Grande Vague de Kanagawa", meta:"Katsushika Hokusai · Japon · vers 1830-1832 · Metropolitan Museum of Art",
@@ -1656,7 +1694,7 @@ function doSpeak(){
   if(speaking){stopSpeak();return;}
   if(!('speechSynthesis'in window)){alert(t('Synthèse vocale non supportée dans ce navigateur.'));return;}
   stopVibe();stopMusique();
-  const u=new SpeechSynthesisUtterance(t(ART[curA].blind));u.lang=LANGUES[langue]; // lecture dans la langue choisie
+  const u=new SpeechSynthesisUtterance(textePourVoix(t(ART[curA].blind),LANGUES[langue]));u.lang=LANGUES[langue]; // lecture dans la langue choisie
   u.onend=()=>{speaking=false;document.getElementById('speak-btn').innerHTML='<span aria-hidden="true">▶</span> Écouter la description';};
   u.onerror=()=>{speaking=false;};
   speaking=true;document.getElementById('speak-btn').innerHTML='<span aria-hidden="true">⏹</span> Arrêter la lecture';
@@ -2216,10 +2254,10 @@ afficherValeurs(0);
 traduirePage();
 </script>
 <!-- Fenêtre Accessibilité de chaque œuvre et menu Affichage et lecture -->
-<script src="orchestre.js?v=20261123a"></script>
-<script src="accessibilite.js?v=20261123a"></script>
-<script src="diaporama.js?v=20261123a"></script>
+<script src="orchestre.js?v=20261124a"></script>
+<script src="accessibilite.js?v=20261124a"></script>
+<script src="diaporama.js?v=20261124a"></script>
 <!-- Séances de bien-être composées à la demande -->
-<script src="bienetre.js?v=20261123a"></script>
+<script src="bienetre.js?v=20261124a"></script>
 </body>
 </html>

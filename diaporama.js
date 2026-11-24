@@ -49,10 +49,9 @@ function langueDe(el) {
 }
 // Phrases courtes : certains navigateurs coupent une lecture trop longue
 // (sans couper après une abréviation : « av. J.-C. », « vers 1500 apr. J.-C. »…), abréviations des dates lues en entier
-const ABREGES_LUS = [[/\bav\. J\.-C\./g, 'avant Jésus-Christ'], [/\bapr\. J\.-C\./g, 'après Jésus-Christ'], [/\bJ\.-C\./g, 'Jésus-Christ']];
 function phrases(texte, lang) {
   let x = String(texte).replace(/\s+/g, ' ');
-  if (lang.startsWith('fr')) ABREGES_LUS.forEach(([re, mot]) => { x = x.replace(re, mot); });
+  x = textePourVoix(x, lang); // siècles en chiffres romains et abréviations des dates lus en toutes lettres (i18n.js)
   return x.split(/(?<=[.!?;])(?<!\b(?:av|apr|env|c|ca|St|Ste|M|Mme|Dr|no|vol|p)\.)\s+/).flatMap(p => p.length > 220 ? p.split(/(?<=,)\s+/) : [p])
     .map(p => p.trim()).filter(p => /[\p{L}\p{N}]/u.test(p)).map(p => ({ texte: p, lang }));
 }
@@ -293,7 +292,7 @@ function afficherFinDiapo() {
   diapo.d.querySelector('#diapo-barre').style.width = '100%';
   diapo.segs = []; majSousTitre();
   if (voixActive()) {
-    const u = new SpeechSynthesisUtterance(t('Fin de l\'exposition') + '. ' + t('Merci de votre visite') + '.');
+    const u = new SpeechSynthesisUtterance(textePourVoix(t('Fin de l\'exposition') + '. ' + t('Merci de votre visite') + '.', LANGUES[langue]));
     u.lang = LANGUES[langue]; const v = voixPour(u.lang); if (v) u.voice = v;
     speechSynthesis.speak(u);
   }

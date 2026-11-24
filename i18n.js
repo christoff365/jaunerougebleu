@@ -67,6 +67,57 @@ const TRAD_CREDITS = [
 // ---------------------------------------------------------------------------
 const LANGUES = { fr: 'fr-FR', en: 'en-GB', es: 'es-ES', ar: 'ar-SA' };
 const RANG = { en: 0, es: 1, ar: 2 };
+
+// ---------- Texte préparé pour la lecture à voix haute (diaporama, descriptions, lecture de la page, bien-être)
+// Les voix de synthèse lisent mal les chiffres romains (« Xe siècle » lu « X e ») et les abréviations des dates :
+// on les écrit en toutes lettres. lang : 'fr-FR', 'es-ES'… (les textes anglais et arabes écrivent déjà les siècles
+// en chiffres ou en lettres).
+function nombreRomain(r) {
+  const v = { I: 1, V: 5, X: 10, L: 50, C: 100 };
+  if (!/^(C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})$/.test(r) || !r) return null;
+  let n = 0; for (let i = 0; i < r.length; i++) { const a = v[r[i]], b = v[r[i + 1]] || 0; n += a < b ? -a : a; }
+  return n;
+}
+const NOMBRES_FR = ['zéro', 'un', 'deux', 'trois', 'quatre', 'cinq', 'six', 'sept', 'huit', 'neuf', 'dix', 'onze', 'douze', 'treize',
+  'quatorze', 'quinze', 'seize', 'dix-sept', 'dix-huit', 'dix-neuf', 'vingt', 'vingt et un', 'vingt-deux', 'vingt-trois', 'vingt-quatre',
+  'vingt-cinq', 'vingt-six', 'vingt-sept', 'vingt-huit', 'vingt-neuf', 'trente'];
+function ordinalFr(n, feminin) {
+  if (n === 1) return feminin ? 'première' : 'premier';
+  const c = NOMBRES_FR[n]; if (!c) return String(n);
+  return c.replace(/(cinq)$/, '$1u').replace(/neuf$/, 'neuv').replace(/e$/, '') + 'ième';
+}
+const NOMBRES_ES = ['cero', 'uno', 'dos', 'tres', 'cuatro', 'cinco', 'seis', 'siete', 'ocho', 'nueve', 'diez', 'once', 'doce', 'trece',
+  'catorce', 'quince', 'dieciséis', 'diecisiete', 'dieciocho', 'diecinueve', 'veinte', 'veintiuno', 'veintidós', 'veintitrés',
+  'veinticuatro', 'veinticinco', 'veintiséis', 'veintisiete', 'veintiocho', 'veintinueve', 'treinta'];
+const ORDINAUX_ES = ['', 'primero', 'segundo', 'tercero', 'cuarto', 'quinto', 'sexto', 'séptimo', 'octavo', 'noveno', 'décimo'];
+// En espagnol, siècles I à X en ordinal (« siglo quinto »), au-delà en cardinal (« siglo quince »)
+const romainEs = r => { const n = nombreRomain(r); return n == null || n > 30 ? r : (ORDINAUX_ES[n] || NOMBRES_ES[n]); };
+function textePourVoix(texte, lang) {
+  let x = String(texte == null ? '' : texte);
+  const l = String(lang || 'fr').slice(0, 2);
+  if (l === 'fr') {
+    // « XIIe–IXe s. », « Ve siècle », « Ier millénaire », « IIIe dynastie » : ordinaux en lettres (« du douzième au neuvième »)
+    // (au plus 30 : « Le » et « Ce » ne sont pas des chiffres romains)
+    const ord = (r, suf) => { const n = nombreRomain(r); return n == null || n > 30 ? null : ordinalFr(n, /^re$/.test(suf)); };
+    x = x.replace(/\b([IVXLC]+)(er|re|e|ème|è)\s*[–-]\s*([IVXLC]+)(er|re|e|ème|è)(?![\p{L}])/gu, (m, a, s1, b, s2) => {
+      const A = ord(a, s1), B = ord(b, s2); return A && B ? A + ' au ' + B : m; });
+    x = x.replace(/\b([IVXLC]+)(er|re|e|ème|è)(?![\p{L}])/gu, (m, r, s) => ord(r, s) || m);
+    x = x.replace(/(ième|premier) s\./g, '$1 siècle').replace(/(ièmes?|premiers?) ss\./g, '$1 siècles');
+    x = x.replace(/\bav\. J\.-C\./g, 'avant Jésus-Christ').replace(/\bapr\. J\.-C\./g, 'après Jésus-Christ').replace(/\bJ\.-C\./g, 'Jésus-Christ');
+    x = x.replace(/\bn° ?(\d)/g, 'numéro $1');
+    // Rois et papes : « Ramsès II », « Louis XIV », « Pie VII » → « Ramsès deux », « Louis quatorze »
+    x = x.replace(/(\p{Lu}[\p{L}'’-]+) ([IVX]{1,5})(?![\p{L}\p{N}.])/gu, (m, nom, r) => {
+      const n = nombreRomain(r); return n == null || n > 30 || /^(CC|IC|XC)$/.test(r) ? m : nom + ' ' + NOMBRES_FR[n]; });
+  } else if (l === 'es') {
+    // « siglo X », « siglos XII–IX », « milenio IV »
+    x = x.replace(/\b(siglos?|milenios?)\s+([IVXLC]+)\b(?:\s*[–-]\s*([IVXLC]+)\b)?/g, (m, mot, a, b) =>
+      mot + ' ' + romainEs(a) + (b ? ' al ' + romainEs(b) : ''));
+    // Reyes y papas: « Felipe IV » → « Felipe cuarto », « Alfonso XIII » → « Alfonso trece »
+    x = x.replace(/(\p{Lu}[\p{L}'’-]+) ([IVX]{1,5})(?![\p{L}\p{N}.])/gu, (m, nom, r) => (/^(siglos?|milenios?)$/i.test(nom) ? m : nom + ' ' + romainEs(r)));
+    x = x.replace(/\ba\. ?C\./g, 'antes de Cristo').replace(/\bd\. ?C\./g, 'después de Cristo');
+  }
+  return x;
+}
 let langue = 'fr';
 try { if (LANGUES[localStorage.getItem('jrb-langue')]) langue = localStorage.getItem('jrb-langue'); } catch (e) {}
 

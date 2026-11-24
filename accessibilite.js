@@ -197,7 +197,7 @@ function accParler() {
   if (!('speechSynthesis' in window)) { alert(t('Synthèse vocale non supportée dans ce navigateur.')); return; }
   accStopTout();
   const texte = document.getElementById('am-desc').textContent; // déjà traduite à l'affichage si une traduction existe
-  const u = new SpeechSynthesisUtterance(texte); u.lang = LANGUES[langue];
+  const u = new SpeechSynthesisUtterance(textePourVoix(texte, LANGUES[langue])); u.lang = LANGUES[langue];
   u.onend = u.onerror = () => { accEtat.parle = false; const b = document.getElementById('am-parler'); if (b) b.innerHTML = '<span aria-hidden="true">▶</span> Écouter la description'; };
   accEtat.parle = true; document.getElementById('am-parler').innerHTML = '<span aria-hidden="true">⏹</span> Arrêter la lecture';
   window.speechSynthesis.speak(u);
@@ -271,7 +271,7 @@ function lirePage() {
   // On lit le texte visible, sans les crédits d'images ni les boutons
   const copie = page.cloneNode(true);
   copie.querySelectorAll('.img-credit,button,script,style,[aria-hidden="true"],.filigrane').forEach(x => x.remove());
-  const texte = copie.innerText || copie.textContent;
+  const texte = textePourVoix(copie.innerText || copie.textContent, LANGUES[langue]); // siècles et dates en toutes lettres
   const morceaux = texte.replace(/\s*\n\s*/g, '. ').replace(/\.\s*\./g, '.').match(/[^.!?]{1,220}[.!?]?/g) || [];
   lecturePage = true; b.innerHTML = '<span aria-hidden="true">⏹</span> Arrêter la lecture';
   window.speechSynthesis.cancel();

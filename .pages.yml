@@ -122,6 +122,10 @@ content:
           - name: compare
             label: Point de comparaison avec les autres œuvres
             type: text
+          - name: compare_with
+            label: "Œuvre(s) dont parle le point de comparaison (facultatif) : titre exact d'une autre œuvre de cette exposition, montrée à côté dans le diaporama pendant la lecture du point de comparaison"
+            type: string
+            list: true
       - name: research
         label: "Ce que dit la recherche (facultatif) : paragraphes affichés après les œuvres, avec leurs références entre parenthèses"
         type: object
@@ -219,6 +223,10 @@ content:
           - name: compare
             label: Point de comparaison avec les autres œuvres
             type: text
+          - name: compare_with
+            label: "Œuvre(s) dont parle le point de comparaison (facultatif) : titre exact d'une autre œuvre de cette exposition, montrée à côté dans le diaporama pendant la lecture du point de comparaison"
+            type: string
+            list: true
           - name: lieu
             label: "Lieu sur la carte (civilisations) : nom exact d'un des lieux de la carte, vide si l'origine n'est pas connue avec précision"
             type: string

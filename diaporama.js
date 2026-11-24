@@ -212,6 +212,22 @@ function remplacerScene(nouv) {
   requestAnimationFrame(() => requestAnimationFrame(() => nouv.classList.add('on')));
 }
 
+// Œuvres de l'exposition dont parle le point de comparaison d'une carte (champ « compare_with » des expositions,
+// titres en français, gardés dans l'attribut data-cmp de la carte) ; deux au plus, sans la carte elle-même
+function oeuvresComparees(carte, cartes) {
+  let titres = [];
+  try { titres = JSON.parse(carte.dataset.cmp || '[]'); } catch (e) {}
+  return titres.map(t => cartes.find(c => c !== carte && c.dataset.titre === t)).filter(Boolean).slice(0, 2);
+}
+// Montre ou cache l'œuvre comparée ; garde l'heure d'affichage pour la laisser au moins quelques secondes à l'écran
+const CMP_MINIMUM = 6000;
+function montrerComparaison(oui) {
+  const v = diapo && [...diapo.d.querySelectorAll('.diapo-diap:not(.sortie)')].pop(); // diapositive affichée
+  if (!v || !v.querySelector('.diapo-cmp')) return;
+  if (oui && !v.classList.contains('cmp-on')) diapo.cmpDebut = Date.now();
+  v.classList.toggle('cmp-on', !!oui);
+}
+
 // Une diapositive : la page de titre de l'exposition (carte = null), puis chaque œuvre, seule à l'écran
 function afficherDiapo(carte) {
   const cartes = cartesDiapo();
@@ -248,7 +264,25 @@ function afficherDiapo(carte) {
     if (titre) { const b = document.createElement('b'); if (titre.lang) b.lang = titre.lang; b.append(...copieFr(titre).childNodes); leg.appendChild(b); }
     const credit = carte.querySelector('.img-credit');
     if (credit) { const x = copieFr(credit); x.className = 'img-credit'; leg.appendChild(x); }
-    nouv.append(cadre, leg);
+    // Point de comparaison : l'œuvre (ou les deux œuvres) dont il parle, montrée à côté pendant sa lecture
+    const rang = document.createElement('div'); rang.className = 'diapo-rang'; rang.appendChild(cadre);
+    const comparees = oeuvresComparees(carte, cartes);
+    if (comparees.length) {
+      const boite = document.createElement('div'); boite.className = 'diapo-cmp'; boite.setAttribute('aria-hidden', 'true');
+      boite.appendChild(Object.assign(document.createElement('p'), { className: 'diapo-cmp-l', textContent: 'Point de comparaison' }));
+      comparees.forEach(c => {
+        const i2 = c.querySelector('img'), f = document.createElement('figure');
+        const im = document.createElement('img'); const p2 = i2.currentSrc || i2.src;
+        im.alt = ''; im.onerror = () => { if (im.src !== p2) im.src = p2; };
+        im.src = grandeImage(p2);
+        if (c.querySelector('.sensible:not(.vu)')) f.className = 'sensible';
+        const t2 = c.querySelector('h3,.mini-info b'), cap = document.createElement('figcaption');
+        if (t2) cap.append(...copieFr(t2).childNodes);
+        f.append(im, cap); boite.appendChild(f);
+      });
+      rang.appendChild(boite);
+    }
+    nouv.append(rang, leg);
     // Ce qui est lu : titre, informations (artiste, date, pays, musée), commentaire, point de comparaison
     if (titre) segs.push(...phrases(titre.textContent + '.', langueDe(titre)));
     const infos = carte.classList.contains('mini') ? [...carte.querySelectorAll('.mini-info > span:not(.pastille-direct)')] : [carte.querySelector('.wk-top p')];
@@ -271,7 +305,9 @@ function afficherDiapo(carte) {
       if (l) segs.push(...phrases(l.textContent + '.', langueDe(l)));
       // Langue du texte de comparaison seul (sans son intitulé, traduit, lui)
       const frCmp = copieFr(cmp), lFr = frCmp.querySelector('.cmp-l'); if (lFr) lFr.remove();
-      segs.push(...phrases(reste, langue === 'fr' || frCmp.textContent.trim() !== reste.trim() ? langueDe(cmp) : LANGUES.fr));
+      // Phrases marquées « cmp » : pendant leur lecture, l'œuvre comparée s'affiche à côté
+      const avecCmp = !!nouv.querySelector('.diapo-cmp');
+      segs.push(...phrases(reste, langue === 'fr' || frCmp.textContent.trim() !== reste.trim() ? langueDe(cmp) : LANGUES.fr).map(x => Object.assign(x, { cmp: avecCmp })));
     }
     document.getElementById('diapo-num').textContent = (cartes.indexOf(carte) + 1) + ' / ' + cartes.length;
     // L'œuvre suivante est préchargée pour un passage sans attente
@@ -319,8 +355,13 @@ function demarrerDiapo() {
 function parlerDiapo() {
   const jeton = ++diapo.jeton;
   majBarre(); majSousTitre();
-  if (diapo.iSeg >= diapo.segs.length) { diapo.minuterie = setTimeout(() => { if (diapo && diapo.jeton === jeton) changerDiapo(1); }, 2500); return; }
+  if (diapo.iSeg >= diapo.segs.length) {
+    const vue = diapo.d.querySelector('.diapo-diap.cmp-on:not(.sortie)');
+    const attente = vue ? Math.max(2500, CMP_MINIMUM - (Date.now() - (diapo.cmpDebut || 0))) : 2500;
+    diapo.minuterie = setTimeout(() => { if (diapo && diapo.jeton === jeton) changerDiapo(1); }, attente); return;
+  }
   const s = diapo.segs[diapo.iSeg];
+  montrerComparaison(s.cmp);
   const u = new SpeechSynthesisUtterance(s.texte); u.lang = s.lang;
   const v = voixPour(s.lang); if (v) u.voice = v;
   u.rate = 0.95;
@@ -339,6 +380,10 @@ function majBarre() {
   else if (!diapo.minuterieEnCours) f = 0;
   else { const total = reglagesDiapo().duree * 1000; f = 1 - (diapo.reste - (diapo.pause ? 0 : Date.now() - diapo.debut)) / total; }
   diapo.d.querySelector('#diapo-barre').style.width = Math.max(0, Math.min(100, 100 * f)) + '%';
+  if (!voixActive() && reglagesDiapo().com && diapo.minuterieEnCours) {
+    const total = reglagesDiapo().duree * 1000;
+    montrerComparaison(f >= Math.min(0.5, 1 - CMP_MINIMUM / total));
+  }
 }
 function majSousTitre() {
   if (!diapo) return;

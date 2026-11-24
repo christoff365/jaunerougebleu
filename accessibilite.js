@@ -197,7 +197,7 @@ function accParler() {
   if (!('speechSynthesis' in window)) { alert(t('Synthèse vocale non supportée dans ce navigateur.')); return; }
   accStopTout();
   const texte = document.getElementById('am-desc').textContent; // déjà traduite à l'affichage si une traduction existe
-  const u = new SpeechSynthesisUtterance(textePourVoix(texte, LANGUES[langue])); u.lang = LANGUES[langue];
+  const u = new SpeechSynthesisUtterance(textePourVoix(texte, LANGUES[langue])); u.lang = LANGUES[langue]; voixPhrase(u);
   u.onend = u.onerror = () => { accEtat.parle = false; const b = document.getElementById('am-parler'); if (b) b.innerHTML = '<span aria-hidden="true">▶</span> Écouter la description'; };
   accEtat.parle = true; document.getElementById('am-parler').innerHTML = '<span aria-hidden="true">⏹</span> Arrêter la lecture';
   window.speechSynthesis.speak(u);
@@ -276,7 +276,7 @@ function lirePage() {
   lecturePage = true; b.innerHTML = '<span aria-hidden="true">⏹</span> Arrêter la lecture';
   window.speechSynthesis.cancel();
   morceaux.forEach((m, i) => {
-    const u = new SpeechSynthesisUtterance(m); u.lang = LANGUES[langue];
+    const u = new SpeechSynthesisUtterance(m); u.lang = LANGUES[langue]; voixPhrase(u);
     if (i === morceaux.length - 1) u.onend = () => { lecturePage = false; b.innerHTML = '<span aria-hidden="true">🔊</span> Lire la page à voix haute'; };
     window.speechSynthesis.speak(u);
   });
@@ -284,8 +284,28 @@ function lirePage() {
 function basculerMenuAffichage(e) {
   const m = document.getElementById('menu-affichage'), b = document.getElementById('btn-affichage');
   const ouvrir = m.hidden; m.hidden = !ouvrir; b.setAttribute('aria-expanded', ouvrir);
-  if (ouvrir) m.querySelector('button').focus();
+  if (ouvrir) { remplirVoix(); m.querySelector('button').focus(); }
 }
+// Liste des voix de la langue du site, la plus naturelle en premier ; « Automatique » garde le choix du site
+function remplirVoix() {
+  const s = document.getElementById('choix-voix'); if (!s) return;
+  const l = LANGUES[langue], liste = voixDisponibles(l);
+  let pref = ''; try { pref = localStorage.getItem('jrb-voix-' + langue) || ''; } catch (e) {}
+  s.innerHTML = '<option value="">Automatique (la plus naturelle)</option>' + liste.map(v => `<option value="${esc(v.name)}" translate="no">${esc(v.name)}</option>`).join('');
+  s.value = liste.some(v => v.name === pref) ? pref : '';
+  s.disabled = !liste.length;
+}
+function garderVoix(nom) {
+  try { if (nom) localStorage.setItem('jrb-voix-' + langue, nom); else localStorage.removeItem('jrb-voix-' + langue); } catch (e) {}
+  essayerVoix();
+}
+function essayerVoix() {
+  if (!('speechSynthesis' in window)) return;
+  speechSynthesis.cancel();
+  const u = new SpeechSynthesisUtterance(t('Bonjour ! Voici la voix qui lira les expositions et les descriptions des œuvres.'));
+  u.lang = LANGUES[langue]; voixPhrase(u); u.rate = 0.95; speechSynthesis.speak(u);
+}
+if ('speechSynthesis' in window && speechSynthesis.addEventListener) speechSynthesis.addEventListener('voiceschanged', () => { const m = document.getElementById('menu-affichage'); if (m && !m.hidden) remplirVoix(); });
 (function installerMenuAffichage() {
   const nav = document.querySelector('nav .langs'); if (!nav) return;
   const w = document.createElement('div'); w.className = 'affichage';
@@ -296,6 +316,9 @@ function basculerMenuAffichage(e) {
       <button type="button" data-option="contraste" aria-pressed="false" onclick="basculerOption('contraste')"><span aria-hidden="true">◐</span> Contraste élevé</button>
       <button type="button" data-option="sans-animation" aria-pressed="false" onclick="basculerOption('sans-animation')"><span aria-hidden="true">⏸</span> Réduire les animations</button>
       <button type="button" id="lire-page" onclick="lirePage()"><span aria-hidden="true">🔊</span> Lire la page à voix haute</button>
+      <label class="aff-voix" for="choix-voix">Voix de lecture</label>
+      <select id="choix-voix" onchange="garderVoix(this.value)"></select>
+      <button type="button" onclick="essayerVoix()"><span aria-hidden="true">▶</span> Écouter un essai</button>
     </div>`;
   nav.parentNode.insertBefore(w, nav);
   document.addEventListener('click', e => { const m = document.getElementById('menu-affichage'); if (m && !m.hidden && !w.contains(e.target)) { m.hidden = true; document.getElementById('btn-affichage').setAttribute('aria-expanded', 'false'); } });

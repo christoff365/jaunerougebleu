@@ -55,10 +55,8 @@ function phrases(texte, lang) {
   return x.split(/(?<=[.!?;])(?<!\b(?:av|apr|env|c|ca|St|Ste|M|Mme|Dr|no|vol|p)\.)\s+/).flatMap(p => p.length > 220 ? p.split(/(?<=,)\s+/) : [p])
     .map(p => p.trim()).filter(p => /[\p{L}\p{N}]/u.test(p)).map(p => ({ texte: p, lang }));
 }
-function voixPour(lang) {
-  const v = SYNTHESE ? speechSynthesis.getVoices() : [];
-  return v.find(x => x.lang.replace('_', '-') === lang) || v.find(x => x.lang.slice(0, 2) === lang.slice(0, 2)) || null;
-}
+// La voix la plus naturelle disponible pour cette langue, ou celle choisie par le visiteur (choisirVoix, i18n.js)
+function voixPour(lang) { return SYNTHESE ? choisirVoix(lang) : null; }
 
 // options.mode : 'tv' (en boucle, sans commentaires) ou 'commentaires' ; options.attendre : le diaporama attend
 // qu'on appuie sur « Démarrer » (ouvert par un lien : la lecture à voix haute et le plein écran demandent un geste)
